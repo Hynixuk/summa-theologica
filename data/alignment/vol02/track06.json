@@ -1,0 +1,78 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "06 - Question 32 The Knowledge of the Divine Persons.mp3",
+  "audioRelPath": "vol02/06 - Question 32 The Knowledge of the Divine Persons.mp3",
+  "audioDurationSec": 1776.74,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 498.13,
+    "audioProcessedSec": 1776.74,
+    "realtimeFactor": 0.28,
+    "mp3DecodeSec": 6.44
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 32,
+    "title": "The knowledge of the divine persons"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the trinity of the divine persons can be known by natural reason?",
+      "asrMatchedText": "First article, whether the trinity of the divine persons can be known by natural reason.",
+      "approxStartSec": 68.54,
+      "approxStartHMS": "00:01:08",
+      "sourceChunkTimestamp": [
+        68.44,
+        77.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there are notions in God?",
+      "asrMatchedText": "Second article, whether there are notions in God.",
+      "approxStartSec": 788.24,
+      "approxStartHMS": "00:13:08",
+      "sourceChunkTimestamp": [
+        788.16,
+        792.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there are five notions?",
+      "asrMatchedText": "Third article, whether there are five notions.",
+      "approxStartSec": 1267.43,
+      "approxStartHMS": "00:21:07",
+      "sourceChunkTimestamp": [
+        1267.32,
+        1272.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is lawful to have various contrary opinions of notions?",
+      "asrMatchedText": "Fourth article, whether it is lawful to have various contrary opinions of notions.",
+      "approxStartSec": 1613.57,
+      "approxStartHMS": "00:26:53",
+      "sourceChunkTimestamp": [
+        1613.5,
+        1619.7
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "103 - Question 141 - OF TEMPERANCE (In Eight Articles).mp3",
+  "audioRelPath": "vol11/103 - Question 141 - OF TEMPERANCE (In Eight Articles).mp3",
+  "audioDurationSec": 3146.14,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 514.16,
+    "audioProcessedSec": 3146.14,
+    "realtimeFactor": 0.163,
+    "mp3DecodeSec": 5.17
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 141,
+    "title": "Temperance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether temperance is a virtue?",
+      "asrMatchedText": "1. First article. Whether temperance is a virtue.",
+      "approxStartSec": 117.19,
+      "approxStartHMS": "00:01:57",
+      "sourceChunkTimestamp": [
+        116.64,
+        123.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether temperance is a special virtue?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 457.13,
+      "approxStartHMS": "00:07:37",
+      "sourceChunkTimestamp": [
+        457,
+        459
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether temperance is only about desires and pleasures?",
+      "asrMatchedText": "Third article, whether temperance is only about desires and pleasures.",
+      "approxStartSec": 854.1,
+      "approxStartHMS": "00:14:14",
+      "sourceChunkTimestamp": [
+        854,
+        861
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether temperance is only about desires and pleasures of touch?",
+      "asrMatchedText": "Fourth Article Whether Temperance is Only About Desires and Pleasures of Touch one. You would seem that temperance is not only about desires and pleasures of touch.",
+      "approxStartSec": 1297.33,
+      "approxStartHMS": "00:21:37",
+      "sourceChunkTimestamp": [
+        1297.28,
+        1305
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether temperance is about the pleasures proper to the taste?",
+      "asrMatchedText": "5th article.",
+      "approxStartSec": 1817.15,
+      "approxStartHMS": "00:30:17",
+      "sourceChunkTimestamp": [
+        1817,
+        1819
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the rule of temperance depends on the need of the present life?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 2134.14,
+      "approxStartHMS": "00:35:34",
+      "sourceChunkTimestamp": [
+        2134,
+        2136.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether temperance is a cardinal virtue?",
+      "asrMatchedText": "7th Article, Whether Temperance is a Cardinal Virtue",
+      "approxStartSec": 2570.94,
+      "approxStartHMS": "00:42:50",
+      "sourceChunkTimestamp": [
+        2570.74,
+        2581.42
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether temperance is the greatest of the virtues?",
+      "asrMatchedText": "Eighth article, whether temperance is the greatest of the virtues.",
+      "approxStartSec": 2860.42,
+      "approxStartHMS": "00:47:40",
+      "sourceChunkTimestamp": [
+        2860.32,
+        2867
+      ],
+      "matched": true
+    }
+  ]
+}

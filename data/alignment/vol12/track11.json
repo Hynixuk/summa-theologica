@@ -1,0 +1,78 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "11 - Question 181 - OF THE ACTIVE LIFE (In Four Articles).mp3",
+  "audioRelPath": "vol12/11 - Question 181 - OF THE ACTIVE LIFE (In Four Articles).mp3",
+  "audioDurationSec": 1504,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 356.32,
+    "audioProcessedSec": 1504,
+    "realtimeFactor": 0.237,
+    "mp3DecodeSec": 4.02
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 181,
+    "title": "The active life"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all the actions of the moral virtues pertain to the active life?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 70.27,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        70,
+        74
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether prudence pertains to the active life?",
+      "asrMatchedText": "Second article, whether prudence pertains to the contemplative life.",
+      "approxStartSec": 422.07,
+      "approxStartHMS": "00:07:02",
+      "sourceChunkTimestamp": [
+        422,
+        427
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether teaching is a work of the active or of the contemplative life?",
+      "asrMatchedText": "Third article. of the truth, sometimes with eternal things.",
+      "approxStartSec": 783.69,
+      "approxStartHMS": "00:13:03",
+      "sourceChunkTimestamp": [
+        783.6,
+        789.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the active life remains after this life?",
+      "asrMatchedText": "Fourth article whether the act of life remains after this life.",
+      "approxStartSec": 1075.06,
+      "approxStartHMS": "00:17:55",
+      "sourceChunkTimestamp": [
+        1075,
+        1079
+      ],
+      "matched": true
+    }
+  ]
+}

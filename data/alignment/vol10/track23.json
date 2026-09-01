@@ -1,0 +1,125 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "23 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol10/23 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 2337.65,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 326.52,
+    "audioProcessedSec": 2337.65,
+    "realtimeFactor": 0.14,
+    "mp3DecodeSec": 2.74
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 19,
+    "title": "The gift of fear"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God can be feared?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether fear is fittingly divided into filial, initial, servile and worldly fear?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether worldly fear is always evil?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether servile fear is good?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether servile fear is substantially the same as filial fear?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether servile fear remains with charity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether fear is the beginning of wisdom?",
+      "asrMatchedText": "Seventh Article, Whether Fear is the Beginning of Wisdom.",
+      "approxStartSec": 47.12,
+      "approxStartHMS": "00:00:47",
+      "sourceChunkTimestamp": [
+        47,
+        54.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether initial fear differs substantially from filial fear?",
+      "asrMatchedText": "Eighth Article Whether Initial Fear Differs Substantially from Filial Fear",
+      "approxStartSec": 387.1,
+      "approxStartHMS": "00:06:27",
+      "sourceChunkTimestamp": [
+        387,
+        394.3
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether fear is a gift of the Holy Ghost?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether fear decreases when charity increases?",
+      "asrMatchedText": "Tenth Article Whether Fear Decreases When Charity Increases",
+      "approxStartSec": 1175.89,
+      "approxStartHMS": "00:19:35",
+      "sourceChunkTimestamp": [
+        1175.76,
+        1183.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether fear remains in heaven?",
+      "asrMatchedText": "11th article, whether fear remains in heaven.",
+      "approxStartSec": 1431.54,
+      "approxStartHMS": "00:23:51",
+      "sourceChunkTimestamp": [
+        1431.36,
+        1439.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether poverty of spirit is the beatitude corresponding to the gift of fear?",
+      "asrMatchedText": "12th article Whether poverty of spirit is the beatitude corresponding to the gift of",
+      "approxStartSec": 1900.07,
+      "approxStartHMS": "00:31:40",
+      "sourceChunkTimestamp": [
+        1899.96,
+        1909.72
+      ],
+      "matched": true
+    }
+  ]
+}

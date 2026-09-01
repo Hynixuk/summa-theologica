@@ -1,0 +1,78 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "11 - Question 83 - OF FREE-WILL (In Four Articles).mp3",
+  "audioRelPath": "vol04/11 - Question 83 - OF FREE-WILL (In Four Articles).mp3",
+  "audioDurationSec": 1282.12,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 665.26,
+    "audioProcessedSec": 1282.12,
+    "realtimeFactor": 0.519,
+    "mp3DecodeSec": 3.08
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 83,
+    "title": "Free-will"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether man has free-will?",
+      "asrMatchedText": "First article. part part, question 83, article",
+      "approxStartSec": 63.7,
+      "approxStartHMS": "00:01:03",
+      "sourceChunkTimestamp": [
+        63.6,
+        68.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether free-will is a power?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 526.91,
+      "approxStartHMS": "00:08:46",
+      "sourceChunkTimestamp": [
+        526.8,
+        528.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether free-will is an appetitive power?",
+      "asrMatchedText": "Third article, first part, question 83, article 3, where the free will is an",
+      "approxStartSec": 799.64,
+      "approxStartHMS": "00:13:19",
+      "sourceChunkTimestamp": [
+        799.56,
+        805.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether free-will is a power distinct from the will?",
+      "asrMatchedText": "Fourth Article First part, question 83, Article 4, whether",
+      "approxStartSec": 1028.09,
+      "approxStartHMS": "00:17:08",
+      "sourceChunkTimestamp": [
+        1028,
+        1033.6
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "21 - Question 91 - THE PRODUCTION OF THE FIRST MAN'S BODY (In Four Articles).mp3",
+  "audioRelPath": "vol04/21 - Question 91 - THE PRODUCTION OF THE FIRST MAN'S BODY (In Four Articles).mp3",
+  "audioDurationSec": 1584.28,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 758.37,
+    "audioProcessedSec": 1584.28,
+    "realtimeFactor": 0.479,
+    "mp3DecodeSec": 6.42
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 91,
+    "title": "The production of the first man's body"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the body of the first man was made of the slime of the earth?",
+      "asrMatchedText": "First article, Part 1, Question 91, Article 1.",
+      "approxStartSec": 58.84,
+      "approxStartHMS": "00:00:58",
+      "sourceChunkTimestamp": [
+        58.72,
+        64.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the human body was immediately produced by God?",
+      "asrMatchedText": "Second article, Part 1, Question 91, Article 2, Whether the human body was immediately produced",
+      "approxStartSec": 437.12,
+      "approxStartHMS": "00:07:17",
+      "sourceChunkTimestamp": [
+        437.04,
+        444.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the body of man was given an apt disposition?",
+      "asrMatchedText": "Third Article Part 1, Question 91, Article 3, Whether the Body of Man Was Given an",
+      "approxStartSec": 793.41,
+      "approxStartHMS": "00:13:13",
+      "sourceChunkTimestamp": [
+        793.32,
+        800.5
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the production of the human body is fittingly described in Scripture?",
+      "asrMatchedText": "Fourth Article Part 1, Question 91, Article 4.",
+      "approxStartSec": 1269.32,
+      "approxStartHMS": "00:21:09",
+      "sourceChunkTimestamp": [
+        1269.2,
+        1274.96
+      ],
+      "matched": true
+    }
+  ]
+}

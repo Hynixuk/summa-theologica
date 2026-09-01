@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "64 - Question 53 - OF CHRIST'S RESURRECTION (In Four Articles).mp3",
+  "audioRelPath": "vol13/64 - Question 53 - OF CHRIST'S RESURRECTION (In Four Articles).mp3",
+  "audioDurationSec": 1857.35,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 300.06,
+    "audioProcessedSec": 1857.35,
+    "realtimeFactor": 0.162,
+    "mp3DecodeSec": 3.08
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 53,
+    "title": "Christ's Resurrection"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was necessary for Christ to rise again?",
+      "asrMatchedText": "First article. Whether it was necessary for Christ to rise again. worth. It's cause.",
+      "approxStartSec": 104.01,
+      "approxStartHMS": "00:01:44",
+      "sourceChunkTimestamp": [
+        104,
+        105.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it was fitting for Christ to rise again on the third day?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 557.13,
+      "approxStartHMS": "00:09:17",
+      "sourceChunkTimestamp": [
+        557,
+        559
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ was the first to rise from the dead?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1092.13,
+      "approxStartHMS": "00:18:12",
+      "sourceChunkTimestamp": [
+        1092,
+        1094
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ was the cause of His own Resurrection?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1547.32,
+      "approxStartHMS": "00:25:47",
+      "sourceChunkTimestamp": [
+        1546.92,
+        1552.96
+      ],
+      "matched": true
+    }
+  ]
+}

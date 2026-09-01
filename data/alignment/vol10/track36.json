@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "36 - Question 29 - OF PEACE (In Four Articles).mp3",
+  "audioRelPath": "vol10/36 - Question 29 - OF PEACE (In Four Articles).mp3",
+  "audioDurationSec": 1312.24,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 182.38,
+    "audioProcessedSec": 1312.24,
+    "realtimeFactor": 0.139,
+    "mp3DecodeSec": 2.05
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 29,
+    "title": "Peace"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether peace is the same as concord?",
+      "asrMatchedText": "First article. Whether peace is the same as Concord.",
+      "approxStartSec": 70.17,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        70.04,
+        76.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether all things desire peace?",
+      "asrMatchedText": "Second article, whether all things desire peace.",
+      "approxStartSec": 381.04,
+      "approxStartHMS": "00:06:21",
+      "sourceChunkTimestamp": [
+        380.84,
+        390.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether peace is the proper effect of charity?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 761.88,
+      "approxStartHMS": "00:12:41",
+      "sourceChunkTimestamp": [
+        761.76,
+        763.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether peace is a virtue?",
+      "asrMatchedText": "Fourth article, whether peace is a virtue. Objection one, it would seem that peace is a virtue. For",
+      "approxStartSec": 1079.66,
+      "approxStartHMS": "00:17:59",
+      "sourceChunkTimestamp": [
+        1079.56,
+        1089.52
+      ],
+      "matched": true
+    }
+  ]
+}

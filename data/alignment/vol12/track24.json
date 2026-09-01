@@ -1,0 +1,108 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "24 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 1.mp3",
+  "audioRelPath": "vol12/24 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 1.mp3",
+  "audioDurationSec": 2997.21,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 538.65,
+    "audioProcessedSec": 2997.21,
+    "realtimeFactor": 0.18,
+    "mp3DecodeSec": 4.62
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 189,
+    "title": "The entrance into religious life"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether those who are not practiced in keeping the commandments should enter religion?",
+      "asrMatchedText": "First article. Whether those who are not",
+      "approxStartSec": 124.88,
+      "approxStartHMS": "00:02:04",
+      "sourceChunkTimestamp": [
+        124.8,
+        128.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether one ought to be bound by vow to enter religion?",
+      "asrMatchedText": "Second article. to religious perfection, but is more an obstacle thereto.",
+      "approxStartSec": 1204.07,
+      "approxStartHMS": "00:20:04",
+      "sourceChunkTimestamp": [
+        1204,
+        1209.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether one who is bound by a vow to enter religion is under an obligation of entering religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether he who has vowed to enter religion is bound to remain in religion in perpetuity?",
+      "asrMatchedText": "Fourth article, whether he who has vowed to enter religion is bound to remain in religion",
+      "approxStartSec": 2017.79,
+      "approxStartHMS": "00:33:37",
+      "sourceChunkTimestamp": [
+        2017.72,
+        2023.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether children should be received in religion?",
+      "asrMatchedText": "Fifth article, whether children should be received in religion.",
+      "approxStartSec": 2372.84,
+      "approxStartHMS": "00:39:32",
+      "sourceChunkTimestamp": [
+        2372.76,
+        2377.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether one ought to be withdrawn from entering religion through deference to one's parents?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether parish priests may lawfully enter religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether it is lawful to pass from one religious order to another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether one ought to induce others to enter religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether it is praiseworthy to enter religion without taking counsel of many, and previously deliberating for a long time?",
+      "matched": false
+    }
+  ]
+}

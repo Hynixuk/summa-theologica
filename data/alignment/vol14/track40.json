@@ -1,0 +1,78 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "40 - Question 90 - THE PARTS OF PENANCE, IN GENERAL (In Four Articles).mp3",
+  "audioRelPath": "vol14/40 - Question 90 - THE PARTS OF PENANCE, IN GENERAL (In Four Articles).mp3",
+  "audioDurationSec": 1266.04,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 224.32,
+    "audioProcessedSec": 1266.04,
+    "realtimeFactor": 0.177,
+    "mp3DecodeSec": 2
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 90,
+    "title": "The parts of Penance, in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Penance should be assigned any parts?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 58.01,
+      "approxStartHMS": "00:00:58",
+      "sourceChunkTimestamp": [
+        57.9,
+        59.5
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether contrition, confession, and satisfaction are fittingly assigned as parts of Penance?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 302.13,
+      "approxStartHMS": "00:05:02",
+      "sourceChunkTimestamp": [
+        302,
+        304
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether these three are integral parts of Penance?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 678.13,
+      "approxStartHMS": "00:11:18",
+      "sourceChunkTimestamp": [
+        678,
+        680
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Penance is fittingly divided into penance before Baptism, penance for mortal sins, and penance for venial sins?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 976.64,
+      "approxStartHMS": "00:16:16",
+      "sourceChunkTimestamp": [
+        976.52,
+        978.44
+      ],
+      "matched": true
+    }
+  ]
+}

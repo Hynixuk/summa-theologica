@@ -1,0 +1,115 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "33 - Question 114 - OF MERIT (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol09/33 - Question 114 - OF MERIT (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 1714.99,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 442.4,
+    "audioProcessedSec": 1714.99,
+    "realtimeFactor": 0.258,
+    "mp3DecodeSec": 7.6
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 114,
+    "title": "Merit"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a man may merit anything from God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether anyone without grace can merit eternal life?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a man in grace can merit eternal life condignly?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether grace is the principle of merit through charity rather than the other virtues?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a man may merit for himself the first grace?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether a man can merit the first grace for another?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 42.86,
+      "approxStartHMS": "00:00:42",
+      "sourceChunkTimestamp": [
+        42.64,
+        46
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether a man may merit restoration after a fall?",
+      "asrMatchedText": "7th article, whether a man may merit restoration after a fall.",
+      "approxStartSec": 378.61,
+      "approxStartHMS": "00:06:18",
+      "sourceChunkTimestamp": [
+        378.4,
+        391.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether a man may merit the increase of grace or charity?",
+      "asrMatchedText": "8th article Whether a man may merit the increase in the supervening impediment.",
+      "approxStartSec": 682.93,
+      "approxStartHMS": "00:11:22",
+      "sourceChunkTimestamp": [
+        682.88,
+        686.62
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether a man may merit perseverance?",
+      "asrMatchedText": "9th Article Whether a man may merit perseverance",
+      "approxStartSec": 983.53,
+      "approxStartHMS": "00:16:23",
+      "sourceChunkTimestamp": [
+        983.4,
+        989.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether temporal goods fall under merit?",
+      "asrMatchedText": "10th article Weather temporal good Good. grace as was explained above.",
+      "approxStartSec": 1263.93,
+      "approxStartHMS": "00:21:03",
+      "sourceChunkTimestamp": [
+        1263.88,
+        1267.36
+      ],
+      "matched": true
+    }
+  ]
+}

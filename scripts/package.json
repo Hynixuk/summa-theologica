@@ -1,0 +1,11 @@
+{
+  "name": "summa-alignment-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ASR-based article-boundary alignment pipeline for the Summa Theologica read-along project. Isolated from the root video-editor package.json on purpose.",
+  "dependencies": {
+    "@huggingface/transformers": "^4.2.0",
+    "mpg123-decoder": "^1.0.3",
+    "msedge-tts": "^2.0.7"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "58 - Question 97 - OF THE TEMPTATION OF GOD (In Four Articles).mp3",
+  "audioRelPath": "vol11/58 - Question 97 - OF THE TEMPTATION OF GOD (In Four Articles).mp3",
+  "audioDurationSec": 1624.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 249.25,
+    "audioProcessedSec": 1624.01,
+    "realtimeFactor": 0.153,
+    "mp3DecodeSec": 2.52
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 97,
+    "title": "The temptation of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the temptation of God consists in certain deeds, wherein the expected result is ascribed to the power of God alone?",
+      "asrMatchedText": "First article, whether the temptation of God consists in certain deeds wherein the expected result is ascribed to the power of God alone. Objection 1. It would seem that the temptation of God does not consist in",
+      "approxStartSec": 115.08,
+      "approxStartHMS": "00:01:55",
+      "sourceChunkTimestamp": [
+        115,
+        131.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is a sin to tempt God?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 575.27,
+      "approxStartHMS": "00:09:35",
+      "sourceChunkTimestamp": [
+        575.16,
+        576.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether temptation of God is opposed to the virtue of religion?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 1009.75,
+      "approxStartHMS": "00:16:49",
+      "sourceChunkTimestamp": [
+        1009.64,
+        1011.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the temptation of God is a graver sin than superstition?",
+      "asrMatchedText": "Fourth article, whether the temptation of God is a graver sin than superstition. one, it would seem that the temptation of God is a greater sin than superstition. Objection 1.",
+      "approxStartSec": 1299.25,
+      "approxStartHMS": "00:21:39",
+      "sourceChunkTimestamp": [
+        1299.2,
+        1307.54
+      ],
+      "matched": true
+    }
+  ]
+}

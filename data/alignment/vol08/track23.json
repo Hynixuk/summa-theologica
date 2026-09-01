@@ -1,0 +1,102 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "23 - Question 71 - OF VICE AND SIN CONSIDERED IN THEMSELVES (In Six Articles).mp3",
+  "audioRelPath": "vol08/23 - Question 71 - OF VICE AND SIN CONSIDERED IN THEMSELVES (In Six Articles).mp3",
+  "audioDurationSec": 2475.98,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 755.47,
+    "audioProcessedSec": 2475.98,
+    "realtimeFactor": 0.305,
+    "mp3DecodeSec": 9.16
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 71,
+    "title": "Vice and sin considered in themselves"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether vice is contrary to virtue?",
+      "asrMatchedText": "First article, whether vice is contrary to virtue.",
+      "approxStartSec": 125.92,
+      "approxStartHMS": "00:02:05",
+      "sourceChunkTimestamp": [
+        125.8,
+        131.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether vice is contrary to nature?",
+      "asrMatchedText": "Second article, whether vice is contrary to nature.",
+      "approxStartSec": 531.12,
+      "approxStartHMS": "00:08:51",
+      "sourceChunkTimestamp": [
+        531,
+        537
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether vice is worse than a vicious act?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 916.67,
+      "approxStartHMS": "00:15:16",
+      "sourceChunkTimestamp": [
+        916.56,
+        918.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether sin is compatible with virtue?",
+      "asrMatchedText": "Fourth article whether sin is compatible with virtue.",
+      "approxStartSec": 1198.24,
+      "approxStartHMS": "00:19:58",
+      "sourceChunkTimestamp": [
+        1198.16,
+        1202.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether every sin includes an action?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1536.92,
+      "approxStartHMS": "00:25:36",
+      "sourceChunkTimestamp": [
+        1536.56,
+        1541.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether sin is fittingly defined as a word, deed, or desire contrary to the eternal law?",
+      "asrMatchedText": "6th article Whether sin is fittingly defined as a word and Sixth article.",
+      "approxStartSec": 2003.14,
+      "approxStartHMS": "00:33:23",
+      "sourceChunkTimestamp": [
+        2003.08,
+        2007.2
+      ],
+      "matched": true
+    }
+  ]
+}

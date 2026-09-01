@@ -1,0 +1,54 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "73 - Question 112 - OF BOASTING (In Two Articles).mp3",
+  "audioRelPath": "vol11/73 - Question 112 - OF BOASTING (In Two Articles).mp3",
+  "audioDurationSec": 794.98,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 205.29,
+    "audioProcessedSec": 794.98,
+    "realtimeFactor": 0.258,
+    "mp3DecodeSec": 2.38
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 112,
+    "title": "Boasting"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether boasting is opposed to the virtue of truth?",
+      "asrMatchedText": "First article, whether boasting is opposed to the virtue of truth.",
+      "approxStartSec": 69.14,
+      "approxStartHMS": "00:01:09",
+      "sourceChunkTimestamp": [
+        69.04,
+        75.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether boasting is a mortal sin?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 435.98,
+      "approxStartHMS": "00:07:15",
+      "sourceChunkTimestamp": [
+        435.88,
+        437.44
+      ],
+      "matched": true
+    }
+  ]
+}

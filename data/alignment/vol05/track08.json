@@ -1,0 +1,78 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "08 - Question 109 - THE ORDERING OF THE BAD ANGELS (In Four Articles).mp3",
+  "audioRelPath": "vol05/08 - Question 109 - THE ORDERING OF THE BAD ANGELS (In Four Articles).mp3",
+  "audioDurationSec": 889.6,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 146.32,
+    "audioProcessedSec": 889.6,
+    "realtimeFactor": 0.164,
+    "mp3DecodeSec": 1.36
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 109,
+    "title": "The ordering of the bad angels"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there are orders among the demons?",
+      "asrMatchedText": "First article, Part 1. Question 109, Article 1, whether there are orders among the demons.",
+      "approxStartSec": 64.37,
+      "approxStartHMS": "00:01:04",
+      "sourceChunkTimestamp": [
+        64.28,
+        72.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether among the demons there is precedence?",
+      "asrMatchedText": "Second Article, Part 1, Question 109, Article 2.",
+      "approxStartSec": 281.56,
+      "approxStartHMS": "00:04:41",
+      "sourceChunkTimestamp": [
+        281.44,
+        287.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there is enlightenment in the demons?",
+      "asrMatchedText": "Third Article Part 1, Question 109, Article 3.",
+      "approxStartSec": 500.24,
+      "approxStartHMS": "00:08:20",
+      "sourceChunkTimestamp": [
+        500.12,
+        505.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the good angels have precedence over the bad angels?",
+      "asrMatchedText": "they can enlighten others. 4th Article, Part 1. Question 109. Article 4. Whether the good angels",
+      "approxStartSec": 657.16,
+      "approxStartHMS": "00:10:57",
+      "sourceChunkTimestamp": [
+        654,
+        664.96
+      ],
+      "matched": true
+    }
+  ]
+}

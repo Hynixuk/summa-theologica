@@ -1,0 +1,112 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "19 - Question 62 - OF RESTITUTION (In Eight Articles).mp3",
+  "audioRelPath": "vol11/19 - Question 62 - OF RESTITUTION (In Eight Articles).mp3",
+  "audioDurationSec": 2785.08,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 686.33,
+    "audioProcessedSec": 2785.08,
+    "realtimeFactor": 0.246,
+    "mp3DecodeSec": 9.85
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 62,
+    "title": "Restitution"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether restitution is an act of commutative justice?",
+      "asrMatchedText": "1. First article.",
+      "approxStartSec": 99.44,
+      "approxStartHMS": "00:01:39",
+      "sourceChunkTimestamp": [
+        99,
+        101
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether restitution of what has been taken away is necessary for salvation?",
+      "asrMatchedText": "Second article, where the restitution of what has been taken away is necessary for",
+      "approxStartSec": 370.18,
+      "approxStartHMS": "00:06:10",
+      "sourceChunkTimestamp": [
+        370.12,
+        375.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it suffices to restore the exact amount taken?",
+      "asrMatchedText": "Third article. Whether it suffices to restore the exact amount taken.",
+      "approxStartSec": 772.1,
+      "approxStartHMS": "00:12:52",
+      "sourceChunkTimestamp": [
+        772,
+        779
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a man is bound to restore what he has not taken?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1021.16,
+      "approxStartHMS": "00:17:01",
+      "sourceChunkTimestamp": [
+        1021.06,
+        1022.66
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether restitution must always be made to the person from whom a thing has been taken?",
+      "asrMatchedText": "Fifth article,",
+      "approxStartSec": 1295.29,
+      "approxStartHMS": "00:21:35",
+      "sourceChunkTimestamp": [
+        1295.18,
+        1296.86
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether he that has taken a thing is always bound to restitution?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether restitution is binding on those who have not taken?",
+      "asrMatchedText": "7th Article, where the restitution is binding on those who have not taken.",
+      "approxStartSec": 2117.57,
+      "approxStartHMS": "00:35:17",
+      "sourceChunkTimestamp": [
+        2117.44,
+        2127
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether a man is bound to immediate restitution, or may he put it off?",
+      "matched": false
+    }
+  ]
+}

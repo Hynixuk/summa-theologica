@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "13 - Question 57 - OF RIGHT (In Four Articles).mp3",
+  "audioRelPath": "vol11/13 - Question 57 - OF RIGHT (In Four Articles).mp3",
+  "audioDurationSec": 1700.49,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 252.2,
+    "audioProcessedSec": 1700.49,
+    "realtimeFactor": 0.148,
+    "mp3DecodeSec": 2.28
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 57,
+    "title": "Right"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether right is the object of justice?",
+      "asrMatchedText": "First article, whether right is the object of justice.",
+      "approxStartSec": 116.45,
+      "approxStartHMS": "00:01:56",
+      "sourceChunkTimestamp": [
+        116.32,
+        123.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether right is fittingly divided into natural right and positive right?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 550.82,
+      "approxStartHMS": "00:09:10",
+      "sourceChunkTimestamp": [
+        550.72,
+        552.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the right of nations is the same as the natural right?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether paternal right and right of dominion should be distinguished as special species?",
+      "asrMatchedText": "Fourth article. whether paternal rights and right of dominion should be distinguished as",
+      "approxStartSec": 1259.13,
+      "approxStartHMS": "00:20:59",
+      "sourceChunkTimestamp": [
+        1259,
+        1270.2
+      ],
+      "matched": true
+    }
+  ]
+}

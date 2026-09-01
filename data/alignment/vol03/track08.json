@@ -1,0 +1,90 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "08 - Question. 57 - OF THE ANGEL'S KNOWLEDGE OF MATERIAL THINGS (FIVE ARTICLES).mp3",
+  "audioRelPath": "vol03/08 - Question. 57 - OF THE ANGEL'S KNOWLEDGE OF MATERIAL THINGS (FIVE ARTICLES).mp3",
+  "audioDurationSec": 1794.3,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 575.96,
+    "audioProcessedSec": 1794.3,
+    "realtimeFactor": 0.321,
+    "mp3DecodeSec": 3.17
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 57,
+    "title": "The angel's knowledge of material things"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the angels know material things?",
+      "asrMatchedText": "and whether they know all mysteries of grace. First article whether the angels know material things.",
+      "approxStartSec": 64.89,
+      "approxStartHMS": "00:01:04",
+      "sourceChunkTimestamp": [
+        60.8,
+        69.58
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether an angel knows singulars?",
+      "asrMatchedText": "by abstraction. Second article whether an angel knows singulars. Objection one, it",
+      "approxStartSec": 353.59,
+      "approxStartHMS": "00:05:53",
+      "sourceChunkTimestamp": [
+        351.7,
+        360.94
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether angels know the future?",
+      "asrMatchedText": "Third article, whether angels know the future. Objection 1, it would seem that the angels know the future.",
+      "approxStartSec": 801.51,
+      "approxStartHMS": "00:13:21",
+      "sourceChunkTimestamp": [
+        801.46,
+        806.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether angels know secret thoughts?",
+      "asrMatchedText": "consequently there is no comparison. Fourth article, whether angels know secret thoughts.",
+      "approxStartSec": 1108.18,
+      "approxStartHMS": "00:18:28",
+      "sourceChunkTimestamp": [
+        1105.28,
+        1112.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the angels know the mysteries of grace?",
+      "asrMatchedText": "Fifth article whether the angels know the mysteries of grace.",
+      "approxStartSec": 1470.2,
+      "approxStartHMS": "00:24:30",
+      "sourceChunkTimestamp": [
+        1470.12,
+        1475.32
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "51 - Question 43 - OF SCANDAL (In Eight Articles).mp3",
+  "audioRelPath": "vol10/51 - Question 43 - OF SCANDAL (In Eight Articles).mp3",
+  "audioDurationSec": 3049.12,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 818.24,
+    "audioProcessedSec": 3049.12,
+    "realtimeFactor": 0.268,
+    "mp3DecodeSec": 10.5
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 43,
+    "title": "Scandal"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether scandal is fittingly defined as being something less rightly said or done that occasions spiritual downfall?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether scandal is a sin?",
+      "asrMatchedText": "Second article, whether scandal is a sin.",
+      "approxStartSec": 661.1,
+      "approxStartHMS": "00:11:01",
+      "sourceChunkTimestamp": [
+        661,
+        665.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether scandal is a special sin?",
+      "asrMatchedText": "Third article, whether scandal is a special sin.",
+      "approxStartSec": 952.97,
+      "approxStartHMS": "00:15:52",
+      "sourceChunkTimestamp": [
+        952.78,
+        962.06
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether scandal is a mortal sin?",
+      "asrMatchedText": "Fourth article, whether scandal is a mortal sin.",
+      "approxStartSec": 1231.48,
+      "approxStartHMS": "00:20:31",
+      "sourceChunkTimestamp": [
+        1231.4,
+        1235.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether passive scandal may happen even to the perfect?",
+      "asrMatchedText": "5th article. Weather... and this suffices for the replies to the objections.",
+      "approxStartSec": 1464.32,
+      "approxStartHMS": "00:24:24",
+      "sourceChunkTimestamp": [
+        1464.28,
+        1467.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether active scandal can be found in the perfect?",
+      "asrMatchedText": "6th article.",
+      "approxStartSec": 1719.77,
+      "approxStartHMS": "00:28:39",
+      "sourceChunkTimestamp": [
+        1719.2,
+        1726.66
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether spiritual goods should be foregone on account of scandal?",
+      "asrMatchedText": "Seventh article, whether spiritual goods should be foregone on account of scandal.",
+      "approxStartSec": 1981.07,
+      "approxStartHMS": "00:33:01",
+      "sourceChunkTimestamp": [
+        1981,
+        1987
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether temporal goods should be foregone on account of scandal?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "22 - Question 18 - OF THE GOOD AND EVIL OF HUMAN ACTS, IN GENERAL (In Eleven Articles.mp3",
+  "audioRelPath": "vol06/22 - Question 18 - OF THE GOOD AND EVIL OF HUMAN ACTS, IN GENERAL (In Eleven Articles.mp3",
+  "audioDurationSec": 2170.99,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 422.39,
+    "audioProcessedSec": 2170.99,
+    "realtimeFactor": 0.195,
+    "mp3DecodeSec": 3.57
+  },
+  "expectedArticleCount": 11,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 18,
+    "title": "The good and evil of human acts, in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether every human action is good, or are there evil actions?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the good or evil of a man's action is derived from its object?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether man's action is good or evil from a circumstance?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a human action is good or evil from its end?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a human action is good or evil in its species?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether an action has the species of good or evil from its end?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 46.75,
+      "approxStartHMS": "00:00:46",
+      "sourceChunkTimestamp": [
+        46.6,
+        48.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the species derived from the end is contained under the species derived from the object, as under its genus, or conversely?",
+      "asrMatchedText": "Seventh Article Whether the species derived from the end is contained under the species",
+      "approxStartSec": 294.59,
+      "approxStartHMS": "00:04:54",
+      "sourceChunkTimestamp": [
+        294.52,
+        300.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether any action is indifferent in its species?",
+      "asrMatchedText": "Eighth article. Whether any action is indifferent in its species?",
+      "approxStartSec": 794.48,
+      "approxStartHMS": "00:13:14",
+      "sourceChunkTimestamp": [
+        794.38,
+        801.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether an individual action can be indifferent?",
+      "asrMatchedText": "Ninth Article",
+      "approxStartSec": 1113.47,
+      "approxStartHMS": "00:18:33",
+      "sourceChunkTimestamp": [
+        1113.32,
+        1115.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether a circumstance places a moral action in the species of good or evil?",
+      "asrMatchedText": "Tenth Article",
+      "approxStartSec": 1505.21,
+      "approxStartHMS": "00:25:05",
+      "sourceChunkTimestamp": [
+        1505,
+        1508
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether every circumstance that makes an action better or worse, places a moral action in a species of good or evil?",
+      "asrMatchedText": "11th article.",
+      "approxStartSec": 1823.43,
+      "approxStartHMS": "00:30:23",
+      "sourceChunkTimestamp": [
+        1823.28,
+        1825.34
+      ],
+      "matched": true
+    }
+  ]
+}

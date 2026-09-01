@@ -1,0 +1,132 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "15 - Question 58 - OF JUSTICE (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol11/15 - Question 58 - OF JUSTICE (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 1917.64,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 351.62,
+    "audioProcessedSec": 1917.64,
+    "realtimeFactor": 0.183,
+    "mp3DecodeSec": 2.65
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 58,
+    "title": "Justice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether justice is fittingly defined as being the perpetual and constant will to render to each one his right?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether justice is always towards one another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether justice is a virtue?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether justice is in the will as its subject?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether justice is a general virtue?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether justice, as a general virtue, is essentially the same as all virtue?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether there is a particular besides a general justice?",
+      "asrMatchedText": "Seventh Article",
+      "approxStartSec": 47.79,
+      "approxStartHMS": "00:00:47",
+      "sourceChunkTimestamp": [
+        47.66,
+        49.66
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether particular justice has a special matter?",
+      "asrMatchedText": "Eighth article, whether particular justice has a special matter. Objection 1. He would seem that particular justice has a special matter.",
+      "approxStartSec": 338.06,
+      "approxStartHMS": "00:05:38",
+      "sourceChunkTimestamp": [
+        338,
+        345.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether justice is about the passions?",
+      "asrMatchedText": "9th article, whether justice is about the passions.",
+      "approxStartSec": 653.1,
+      "approxStartHMS": "00:10:53",
+      "sourceChunkTimestamp": [
+        653,
+        658
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the mean of justice is the real mean?",
+      "asrMatchedText": "10th article Article Whether the Mean of Justice is the Real Mean",
+      "approxStartSec": 1044.44,
+      "approxStartHMS": "00:17:24",
+      "sourceChunkTimestamp": [
+        1044.28,
+        1054.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the act of justice is to render to each one his own?",
+      "asrMatchedText": "11th Article",
+      "approxStartSec": 1355.73,
+      "approxStartHMS": "00:22:35",
+      "sourceChunkTimestamp": [
+        1355.34,
+        1360.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether justice stands foremost among all moral virtues?",
+      "asrMatchedText": "12th article, whether justice stands foremost. is his own.",
+      "approxStartSec": 1602.42,
+      "approxStartHMS": "00:26:42",
+      "sourceChunkTimestamp": [
+        1602.36,
+        1605.8
+      ],
+      "matched": true
+    }
+  ]
+}

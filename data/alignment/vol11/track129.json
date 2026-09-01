@@ -1,0 +1,54 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "129 - Question 166 - OF STUDIOUSNESS (In Two Articles).mp3",
+  "audioRelPath": "vol11/129 - Question 166 - OF STUDIOUSNESS (In Two Articles).mp3",
+  "audioDurationSec": 783.54,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 118.63,
+    "audioProcessedSec": 783.54,
+    "realtimeFactor": 0.151,
+    "mp3DecodeSec": 1.03
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 166,
+    "title": "Studiousness"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the proper matter of studiousness is knowledge?",
+      "asrMatchedText": "First article, whether the proper matter of studiousness is knowledge.",
+      "approxStartSec": 66.94,
+      "approxStartHMS": "00:01:06",
+      "sourceChunkTimestamp": [
+        66.84,
+        74.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether studiousness is a part of temperance?",
+      "asrMatchedText": "Second article, whether studiousness is a part of temperance.",
+      "approxStartSec": 334.81,
+      "approxStartHMS": "00:05:34",
+      "sourceChunkTimestamp": [
+        334.7,
+        341.56
+      ],
+      "matched": true
+    }
+  ]
+}

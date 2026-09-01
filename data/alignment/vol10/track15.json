@@ -1,0 +1,54 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "15 - Question 12 - OF APOSTASY (In Two Articles).mp3",
+  "audioRelPath": "vol10/15 - Question 12 - OF APOSTASY (In Two Articles).mp3",
+  "audioDurationSec": 922.2,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 128.35,
+    "audioProcessedSec": 922.2,
+    "realtimeFactor": 0.139,
+    "mp3DecodeSec": 1.4
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 12,
+    "title": "Apostasy"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether apostasy pertains to unbelief?",
+      "asrMatchedText": "First article, whether apostasy pertains to unbelief.",
+      "approxStartSec": 68.41,
+      "approxStartHMS": "00:01:08",
+      "sourceChunkTimestamp": [
+        68.28,
+        75.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a prince forfeits his dominion over his subjects, on account of apostasy from the faith, so that they no longer owe him allegiance?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 563.13,
+      "approxStartHMS": "00:09:23",
+      "sourceChunkTimestamp": [
+        563,
+        565
+      ],
+      "matched": true
+    }
+  ]
+}

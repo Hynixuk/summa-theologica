@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "68 - Question 107 - OF INGRATITUDE (In Four Articles).mp3",
+  "audioRelPath": "vol11/68 - Question 107 - OF INGRATITUDE (In Four Articles).mp3",
+  "audioDurationSec": 1190.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 335.48,
+    "audioProcessedSec": 1190.01,
+    "realtimeFactor": 0.282,
+    "mp3DecodeSec": 4.03
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 107,
+    "title": "Ingratitude"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether ingratitude is always a sin?",
+      "asrMatchedText": "First article, whether ingratitude is always a sin.",
+      "approxStartSec": 77.05,
+      "approxStartHMS": "00:01:17",
+      "sourceChunkTimestamp": [
+        76.94,
+        82.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether ingratitude is a special sin?",
+      "asrMatchedText": "of love for his benefactor. Second article. Whether in gratitude is a special sin.",
+      "approxStartSec": 331.43,
+      "approxStartHMS": "00:05:31",
+      "sourceChunkTimestamp": [
+        327.6,
+        338.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether ingratitude is always a mortal sin?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 636.67,
+      "approxStartHMS": "00:10:36",
+      "sourceChunkTimestamp": [
+        636.56,
+        638.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether favors should be withheld from the ungrateful?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 971.54,
+      "approxStartHMS": "00:16:11",
+      "sourceChunkTimestamp": [
+        971.44,
+        972.92
+      ],
+      "matched": true
+    }
+  ]
+}

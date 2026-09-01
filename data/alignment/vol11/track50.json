@@ -1,0 +1,108 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "50 - Question 89 - OF OATHS (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol11/50 - Question 89 - OF OATHS (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 1956.67,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 287.7,
+    "audioProcessedSec": 1956.67,
+    "realtimeFactor": 0.147,
+    "mp3DecodeSec": 2.71
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 89,
+    "title": "Oaths"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether to swear is to call God to witness?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful to swear?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether three accompanying conditions of an oath are suitably assigned, namely, justice, judgment, and truth?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether an oath is an act of religion or latria?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether oaths are desirable and to be used frequently as something useful and good?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is lawful to swear by creatures?",
+      "asrMatchedText": "6th Article Whether it is lawful to swear by creatures",
+      "approxStartSec": 48.06,
+      "approxStartHMS": "00:00:48",
+      "sourceChunkTimestamp": [
+        47.96,
+        53.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether an oath has a binding force?",
+      "asrMatchedText": "7th article. Weather and oath has a binding force. Seventh Article.",
+      "approxStartSec": 340.68,
+      "approxStartHMS": "00:05:40",
+      "sourceChunkTimestamp": [
+        340.6,
+        345.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether an oath is more binding than a vow?",
+      "asrMatchedText": "8th article Whether an oath is more binding than a vow.",
+      "approxStartSec": 923.62,
+      "approxStartHMS": "00:15:23",
+      "sourceChunkTimestamp": [
+        923.5,
+        930.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether anyone can dispense from an oath?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether an oath is voided by a condition of person or time?",
+      "asrMatchedText": "10th article, whether an oath is voided by a condition of person or time.",
+      "approxStartSec": 1537.92,
+      "approxStartHMS": "00:25:37",
+      "sourceChunkTimestamp": [
+        1537.84,
+        1543.44
+      ],
+      "matched": true
+    }
+  ]
+}

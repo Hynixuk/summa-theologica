@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "26 - Question 69 - OF SINS COMMITTED AGAINST JUSTICE ON THE PART OF THE DEFENDANT (In.mp3",
+  "audioRelPath": "vol11/26 - Question 69 - OF SINS COMMITTED AGAINST JUSTICE ON THE PART OF THE DEFENDANT (In.mp3",
+  "audioDurationSec": 1483.54,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 369.56,
+    "audioProcessedSec": 1483.54,
+    "realtimeFactor": 0.249,
+    "mp3DecodeSec": 5.68
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 69,
+    "title": "Sins committed against justice: of the part of the defendant"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether one can, without a mortal sin, deny the truth which would lead to one's condemnation?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 90.6,
+      "approxStartHMS": "00:01:30",
+      "sourceChunkTimestamp": [
+        90.48,
+        92.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful for the accused to defend himself with calumnies?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 454.52,
+      "approxStartHMS": "00:07:34",
+      "sourceChunkTimestamp": [
+        454.4,
+        456.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is lawful for the accused to escape judgment by appealing?",
+      "asrMatchedText": "Third article",
+      "approxStartSec": 796.8,
+      "approxStartHMS": "00:13:16",
+      "sourceChunkTimestamp": [
+        796.44,
+        801.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a man who is condemned to death may lawfully defend himself if he can?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1183.33,
+      "approxStartHMS": "00:19:43",
+      "sourceChunkTimestamp": [
+        1183.2,
+        1185.28
+      ],
+      "matched": true
+    }
+  ]
+}

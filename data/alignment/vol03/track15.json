@@ -1,0 +1,78 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "15 - Question. 64 - THE PUNISHMENT OF THE DEMONS (FOUR ARTICLES).mp3",
+  "audioRelPath": "vol03/15 - Question. 64 - THE PUNISHMENT OF THE DEMONS (FOUR ARTICLES).mp3",
+  "audioDurationSec": 1827,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 592.71,
+    "audioProcessedSec": 1827,
+    "realtimeFactor": 0.324,
+    "mp3DecodeSec": 3.77
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 64,
+    "title": "The punishment of the demons"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the demons' intellect is darkened by privation of the knowledge of all truth?",
+      "asrMatchedText": "First Article 1, Question 64, Article 1. Whether the demon's intellect is darkened by",
+      "approxStartSec": 57.52,
+      "approxStartHMS": "00:00:57",
+      "sourceChunkTimestamp": [
+        57.44,
+        64.42
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the will of the demons is obstinate in evil?",
+      "asrMatchedText": "The third. Second article. you. pass, as we said when dealing with the knowledge of the angels, question 57, Article 3, the",
+      "approxStartSec": 685.04,
+      "approxStartHMS": "00:11:25",
+      "sourceChunkTimestamp": [
+        684.8,
+        687.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there is sorrow in the demons?",
+      "asrMatchedText": "Third Article 1, question 64, Article 3.",
+      "approxStartSec": 1193.33,
+      "approxStartHMS": "00:19:53",
+      "sourceChunkTimestamp": [
+        1193.22,
+        1197.66
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether our atmosphere is the demons' place of punishment?",
+      "asrMatchedText": "Fourth Article I, Question 64, Article 4. Whether our atmosphere is the demon's place of punishment.",
+      "approxStartSec": 1477.64,
+      "approxStartHMS": "00:24:37",
+      "sourceChunkTimestamp": [
+        1477.54,
+        1487.72
+      ],
+      "matched": true
+    }
+  ]
+}

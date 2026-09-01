@@ -1,0 +1,66 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "01 - Question 22 - OF THE SUBJECT OF THE SOUL'S PASSIONS (In Three Articles).mp3",
+  "audioRelPath": "vol07/01 - Question 22 - OF THE SUBJECT OF THE SOUL'S PASSIONS (In Three Articles).mp3",
+  "audioDurationSec": 1215.09,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 205.47,
+    "audioProcessedSec": 1215.09,
+    "realtimeFactor": 0.169,
+    "mp3DecodeSec": 2.37
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 3,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 22,
+    "title": "The subject of the soul's passions"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether any passion is in the soul?",
+      "asrMatchedText": "First article, whether any passion is in the soul.",
+      "approxStartSec": 97.51,
+      "approxStartHMS": "00:01:37",
+      "sourceChunkTimestamp": [
+        97.4,
+        103.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether passion is in the appetitive rather than in the apprehensive part?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 436.87,
+      "approxStartHMS": "00:07:16",
+      "sourceChunkTimestamp": [
+        436.76,
+        438.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether passion is in the sensitive appetite rather than in the intellectual appetite, which is called the will?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 922.07,
+      "approxStartHMS": "00:15:22",
+      "sourceChunkTimestamp": [
+        922,
+        923
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "01 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 1.mp3",
+  "audioRelPath": "vol11/01 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 1.mp3",
+  "audioDurationSec": 1742.98,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 285.26,
+    "audioProcessedSec": 1742.98,
+    "realtimeFactor": 0.164,
+    "mp3DecodeSec": 3.19
+  },
+  "expectedArticleCount": 16,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 47,
+    "title": "Prudence, considered in itself"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether prudence is in the cognitive or in the appetitive faculty?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether prudence belongs to the practical reason alone or also to the speculative reason?",
+      "asrMatchedText": "Second article, whether prudence belongs to the practical reason alone or also to",
+      "approxStartSec": 513.2,
+      "approxStartHMS": "00:08:33",
+      "sourceChunkTimestamp": [
+        513.12,
+        519.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether prudence takes cognizance of singulars?",
+      "asrMatchedText": "Third article. Weatherproof. but not a speculative prudence.",
+      "approxStartSec": 824.05,
+      "approxStartHMS": "00:13:44",
+      "sourceChunkTimestamp": [
+        824,
+        827
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether prudence is a virtue?",
+      "asrMatchedText": "Fourth article, whether prudence is a virtue. Objection one, you would seem",
+      "approxStartSec": 1055.27,
+      "approxStartHMS": "00:17:35",
+      "sourceChunkTimestamp": [
+        1055.16,
+        1063.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether prudence is a special virtue?",
+      "asrMatchedText": "Fifth article, whether prudence is a special virtue.",
+      "approxStartSec": 1362.66,
+      "approxStartHMS": "00:22:42",
+      "sourceChunkTimestamp": [
+        1362.56,
+        1368.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether prudence appoints the end to moral virtues?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether it belongs to prudence to find the mean in moral virtues?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether command is the chief act of prudence?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether solicitude belongs to prudence?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether prudence extends to the governing of many?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether prudence about one's own good is specifically the same as that which extends to the common good?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether prudence is in subjects, or only in their rulers?",
+      "matched": false
+    },
+    {
+      "articleNumber": 13,
+      "groundTruthTitle": "Whether prudence can be in sinners?",
+      "matched": false
+    },
+    {
+      "articleNumber": 14,
+      "groundTruthTitle": "Whether prudence is in all who have grace?",
+      "matched": false
+    },
+    {
+      "articleNumber": 15,
+      "groundTruthTitle": "Whether prudence is in us by nature?",
+      "matched": false
+    },
+    {
+      "articleNumber": 16,
+      "groundTruthTitle": "Whether prudence can be lost through forgetfulness?",
+      "matched": false
+    }
+  ]
+}

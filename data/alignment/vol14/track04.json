@@ -1,0 +1,95 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "04 - Question 63 - THE OTHER EFFECT OF THE SACRAMENTS, WHICH IS A CHARACTER (In Six A.mp3",
+  "audioRelPath": "vol14/04 - Question 63 - THE OTHER EFFECT OF THE SACRAMENTS, WHICH IS A CHARACTER (In Six A.mp3",
+  "audioDurationSec": 2308.4,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 861.78,
+    "audioProcessedSec": 2308.4,
+    "realtimeFactor": 0.373,
+    "mp3DecodeSec": 9.51
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 63,
+    "title": "The other effect of the sacraments, which is a character"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a sacrament imprints a character on the soul?",
+      "asrMatchedText": "Sixth, whether every sacrament imprints a character? First article, whether a sacrament imprints a character. First article.",
+      "approxStartSec": 62.89,
+      "approxStartHMS": "00:01:02",
+      "sourceChunkTimestamp": [
+        59,
+        68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a character is a spiritual power?",
+      "asrMatchedText": "Second article, whether a character is a spiritual power.",
+      "approxStartSec": 401.39,
+      "approxStartHMS": "00:06:41",
+      "sourceChunkTimestamp": [
+        401.28,
+        407.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the sacramental character is the character of Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the character be subjected in the powers of the soul?",
+      "asrMatchedText": "Fourth Article Whether the character be subjected to the powers",
+      "approxStartSec": 1260.03,
+      "approxStartHMS": "00:21:00",
+      "sourceChunkTimestamp": [
+        1259.96,
+        1264.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a character can be blotted out from the soul?",
+      "asrMatchedText": "5th article Whether a cognitive power, where also is faith.",
+      "approxStartSec": 1564.56,
+      "approxStartHMS": "00:26:04",
+      "sourceChunkTimestamp": [
+        1564.5,
+        1568
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether a character is imprinted by each sacrament of the New Law?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 1939.13,
+      "approxStartHMS": "00:32:19",
+      "sourceChunkTimestamp": [
+        1939,
+        1941
+      ],
+      "matched": true
+    }
+  ]
+}

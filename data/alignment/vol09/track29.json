@@ -1,0 +1,90 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "29 - Question 112 - OF THE CAUSE OF GRACE (In Five Articles).mp3",
+  "audioRelPath": "vol09/29 - Question 112 - OF THE CAUSE OF GRACE (In Five Articles).mp3",
+  "audioDurationSec": 1874.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 265.12,
+    "audioProcessedSec": 1874.78,
+    "realtimeFactor": 0.141,
+    "mp3DecodeSec": 2.76
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 112,
+    "title": "The cause of grace"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God alone is the cause of grace?",
+      "asrMatchedText": "that he has grace. First article, whether God alone is the cause of grace.",
+      "approxStartSec": 78.33,
+      "approxStartHMS": "00:01:18",
+      "sourceChunkTimestamp": [
+        75.9,
+        85
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether any preparation and disposition for grace is required on man's part?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 335.61,
+      "approxStartHMS": "00:05:35",
+      "sourceChunkTimestamp": [
+        335.5,
+        337.18
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether grace is necessarily given to whoever prepares himself for it, or to whoever does what he can?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 701.58,
+      "approxStartHMS": "00:11:41",
+      "sourceChunkTimestamp": [
+        701.44,
+        703.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether grace is greater in one than in another?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1009.13,
+      "approxStartHMS": "00:16:49",
+      "sourceChunkTimestamp": [
+        1009,
+        1011
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether man can know that he has grace?",
+      "asrMatchedText": "Fifth article, whether man can know that he has grace.",
+      "approxStartSec": 1333.36,
+      "approxStartHMS": "00:22:13",
+      "sourceChunkTimestamp": [
+        1333.28,
+        1337.52
+      ],
+      "matched": true
+    }
+  ]
+}

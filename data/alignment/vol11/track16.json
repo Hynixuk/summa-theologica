@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "16 - Question 59 - OF INJUSTICE (In Four Articles).mp3",
+  "audioRelPath": "vol11/16 - Question 59 - OF INJUSTICE (In Four Articles).mp3",
+  "audioDurationSec": 1324.27,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 314.33,
+    "audioProcessedSec": 1324.27,
+    "realtimeFactor": 0.237,
+    "mp3DecodeSec": 4.91
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 59,
+    "title": "Injustice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether injustice is a special vice?",
+      "asrMatchedText": "sin according to its genus. First article, whether injustice is a special vice.",
+      "approxStartSec": 73.84,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        70.68,
+        79.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a man is called unjust through doing an unjust thing?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 321.69,
+      "approxStartHMS": "00:05:21",
+      "sourceChunkTimestamp": [
+        321.6,
+        323.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether we can suffer injustice willingly?",
+      "asrMatchedText": "Third article, whether we can suffer injustice willingly. Objection one, you",
+      "approxStartSec": 675.2,
+      "approxStartHMS": "00:11:15",
+      "sourceChunkTimestamp": [
+        675.08,
+        684.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether whoever does an injustice sins mortally?",
+      "asrMatchedText": "Fourth Article Whether Whoever Does An an injustice sins mortally.",
+      "approxStartSec": 1060.81,
+      "approxStartHMS": "00:17:40",
+      "sourceChunkTimestamp": [
+        1060.72,
+        1067
+      ],
+      "matched": true
+    }
+  ]
+}

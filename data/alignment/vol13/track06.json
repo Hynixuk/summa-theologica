@@ -1,0 +1,88 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "06 - Question 4 - OF THE MODE OF UNION ON THE PART OF THE HUMAN NATURE (In Six Articl.mp3",
+  "audioRelPath": "vol13/06 - Question 4 - OF THE MODE OF UNION ON THE PART OF THE HUMAN NATURE (In Six Articl.mp3",
+  "audioDurationSec": 2129.93,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 512.71,
+    "audioProcessedSec": 2129.93,
+    "realtimeFactor": 0.241,
+    "mp3DecodeSec": 7.71
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 4,
+    "title": "The mode of union of the part of the human nature"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether human nature was more assumable by the Son of God than any other nature?",
+      "asrMatchedText": "First article, whether human nature in any man be gotten of the stock of Adam.",
+      "approxStartSec": 124.03,
+      "approxStartHMS": "00:02:04",
+      "sourceChunkTimestamp": [
+        124,
+        126.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Son of God assumed a person?",
+      "asrMatchedText": "Second Article Whether the Son of God Assumed a Person",
+      "approxStartSec": 592.11,
+      "approxStartHMS": "00:09:52",
+      "sourceChunkTimestamp": [
+        592,
+        598
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the Divine Person assumed a man?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 834.1,
+      "approxStartHMS": "00:13:54",
+      "sourceChunkTimestamp": [
+        833.72,
+        839.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Son of God ought to have assumed human nature abstracted from all individuals?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the Son of God ought to have assumed human nature in all individuals?",
+      "asrMatchedText": "5th article Whether the Son of God ought to have assumed human nature in all individuals.",
+      "approxStartSec": 1522.48,
+      "approxStartHMS": "00:25:22",
+      "sourceChunkTimestamp": [
+        1522.36,
+        1533.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it was fitting for the Son of God to assume human nature of the stock of Adam?",
+      "matched": false
+    }
+  ]
+}

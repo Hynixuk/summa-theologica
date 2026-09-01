@@ -1,0 +1,78 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "12 - Question 182 - OF THE ACTIVE LIFE IN COMPARISON WITH THE CONTEMPLATIVE LIFE (In .mp3",
+  "audioRelPath": "vol12/12 - Question 182 - OF THE ACTIVE LIFE IN COMPARISON WITH THE CONTEMPLATIVE LIFE (In .mp3",
+  "audioDurationSec": 1879.62,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 348.07,
+    "audioProcessedSec": 1879.62,
+    "realtimeFactor": 0.185,
+    "mp3DecodeSec": 2.68
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 182,
+    "title": "The active life in comparison with the contemplative life"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the active life is more excellent than the contemplative?",
+      "asrMatchedText": "First article, whether the act of life is more excellent than the contemplative.",
+      "approxStartSec": 73.1,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        73,
+        81
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the active life is of greater merit than the contemplative?",
+      "asrMatchedText": "Second article. Whether the act of life is of greater merit than the contemplative.",
+      "approxStartSec": 715.19,
+      "approxStartHMS": "00:11:55",
+      "sourceChunkTimestamp": [
+        715.12,
+        720.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the contemplative life is hindered by the active life?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1232.69,
+      "approxStartHMS": "00:20:32",
+      "sourceChunkTimestamp": [
+        1232.56,
+        1234.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the active life precedes the contemplative?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1476.13,
+      "approxStartHMS": "00:24:36",
+      "sourceChunkTimestamp": [
+        1476,
+        1478
+      ],
+      "matched": true
+    }
+  ]
+}

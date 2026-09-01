@@ -1,0 +1,108 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "15 - Question 69 - THE EFFECTS OF BAPTISM (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol14/15 - Question 69 - THE EFFECTS OF BAPTISM (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 1580.91,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 307.12,
+    "audioProcessedSec": 1580.91,
+    "realtimeFactor": 0.194,
+    "mp3DecodeSec": 1.96
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 69,
+    "title": "The effects of Baptism"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all sins are taken away by Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether man is freed by Baptism from all debt of punishment due to sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Baptism should take away the penalties of sin that belong to this life?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether grace and virtues are bestowed on man by Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether certain acts of the virtues are fittingly set down as effects of Baptism, to wit—incorporation in Christ, enlightenment, and fruitfulness?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether children receive grace and virtue in Baptism?",
+      "asrMatchedText": "Sixth article, whether children receive grace and virtue in baptism.",
+      "approxStartSec": 30.02,
+      "approxStartHMS": "00:00:30",
+      "sourceChunkTimestamp": [
+        29.92,
+        36.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the effect of Baptism is to open the gates of the heavenly kingdom?",
+      "asrMatchedText": "7th article. Whether the effective baptism is to open the gates of the heavenly kingdom.",
+      "approxStartSec": 441.11,
+      "approxStartHMS": "00:07:21",
+      "sourceChunkTimestamp": [
+        441,
+        451
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether Baptism has an equal effect in all?",
+      "asrMatchedText": "8th Article Whether Baptism Has An Equal Effect In All",
+      "approxStartSec": 666.46,
+      "approxStartHMS": "00:11:06",
+      "sourceChunkTimestamp": [
+        666.32,
+        673.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether insincerity hinders the effect of Baptism?",
+      "asrMatchedText": "9th article.",
+      "approxStartSec": 995.78,
+      "approxStartHMS": "00:16:35",
+      "sourceChunkTimestamp": [
+        995.36,
+        1000.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether Baptism produces its effect when the insincerity ceases?",
+      "matched": false
+    }
+  ]
+}

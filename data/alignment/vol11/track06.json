@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "06 - Question 50 - OF THE SUBJECTIVE PARTS OF PRUDENCE (In Four Articles).mp3",
+  "audioRelPath": "vol11/06 - Question 50 - OF THE SUBJECTIVE PARTS OF PRUDENCE (In Four Articles).mp3",
+  "audioDurationSec": 1206.93,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 172.74,
+    "audioProcessedSec": 1206.93,
+    "realtimeFactor": 0.143,
+    "mp3DecodeSec": 1.57
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 50,
+    "title": "The subjective parts of prudence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a species of prudence is regnative?",
+      "asrMatchedText": "First article, whether a species of prudence is regnative.",
+      "approxStartSec": 92.62,
+      "approxStartHMS": "00:01:32",
+      "sourceChunkTimestamp": [
+        92.5,
+        99.5
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether political prudence is fittingly accounted a part of prudence?",
+      "asrMatchedText": "Second article, whether political prudence is fittingly accounted a part of prudence.",
+      "approxStartSec": 420.11,
+      "approxStartHMS": "00:07:00",
+      "sourceChunkTimestamp": [
+        420,
+        429.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a part of prudence should be reckoned to be domestic?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 688.77,
+      "approxStartHMS": "00:11:28",
+      "sourceChunkTimestamp": [
+        688.64,
+        690.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether military prudence should be reckoned a part of prudence?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 952.13,
+      "approxStartHMS": "00:15:52",
+      "sourceChunkTimestamp": [
+        952,
+        954
+      ],
+      "matched": true
+    }
+  ]
+}

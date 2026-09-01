@@ -1,0 +1,90 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "11 - Question. 60 - OF THE LOVE OR DILECTION OF THE ANGELS (FIVE ARTICLES).mp3",
+  "audioRelPath": "vol03/11 - Question. 60 - OF THE LOVE OR DILECTION OF THE ANGELS (FIVE ARTICLES).mp3",
+  "audioDurationSec": 1482.66,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 482.91,
+    "audioProcessedSec": 1482.66,
+    "realtimeFactor": 0.326,
+    "mp3DecodeSec": 3.35
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 60,
+    "title": "The love or dilection of the angels"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is natural love or dilection in an angel?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 68.19,
+      "approxStartHMS": "00:01:08",
+      "sourceChunkTimestamp": [
+        68.12,
+        69.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there is love of choice in the angels?",
+      "asrMatchedText": "Second article, past prima, question sixty, article two. Whether there is love of choice",
+      "approxStartSec": 279.54,
+      "approxStartHMS": "00:04:39",
+      "sourceChunkTimestamp": [
+        279.48,
+        284.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the angel loves himself with both natural love, and love of choice?",
+      "asrMatchedText": "Third article, past prima, question 60, article 3.",
+      "approxStartSec": 538.02,
+      "approxStartHMS": "00:08:58",
+      "sourceChunkTimestamp": [
+        537.92,
+        543.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether an angel loves another with natural love as he loves himself?",
+      "asrMatchedText": "Fourth article",
+      "approxStartSec": 742.58,
+      "approxStartHMS": "00:12:22",
+      "sourceChunkTimestamp": [
+        742.4,
+        745.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether an angel by natural love loves God more than he loves himself?",
+      "asrMatchedText": "Fifth article, Paz prima, question sixty, article five. Whether an angel by natural",
+      "approxStartSec": 1037.05,
+      "approxStartHMS": "00:17:17",
+      "sourceChunkTimestamp": [
+        1036.98,
+        1042.82
+      ],
+      "matched": true
+    }
+  ]
+}

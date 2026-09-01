@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "27 - Question 70 - OF INJUSTICE WITH REGARD TO THE PERSON OF THE WITNESS (In Four Art.mp3",
+  "audioRelPath": "vol11/27 - Question 70 - OF INJUSTICE WITH REGARD TO THE PERSON OF THE WITNESS (In Four Art.mp3",
+  "audioDurationSec": 1555.95,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 381.81,
+    "audioProcessedSec": 1555.95,
+    "realtimeFactor": 0.245,
+    "mp3DecodeSec": 5.84
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 70,
+    "title": "Injustice with regard to the person of the witness"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a man is bound to give evidence?",
+      "asrMatchedText": "First article, whether a man is bound to give evidence.",
+      "approxStartSec": 80.15,
+      "approxStartHMS": "00:01:20",
+      "sourceChunkTimestamp": [
+        80,
+        88.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the evidence of two or three persons suffices?",
+      "asrMatchedText": "Second article, whether the evidence of two or three persons suffices.",
+      "approxStartSec": 495.15,
+      "approxStartHMS": "00:08:15",
+      "sourceChunkTimestamp": [
+        495.12,
+        497.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a man's evidence can be rejected without any fault of his?",
+      "asrMatchedText": "Third article. He were tolerated.",
+      "approxStartSec": 1021.18,
+      "approxStartHMS": "00:17:01",
+      "sourceChunkTimestamp": [
+        1021,
+        1027
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is always a mortal sin to give false evidence?",
+      "matched": false
+    }
+  ]
+}

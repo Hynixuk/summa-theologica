@@ -1,0 +1,45 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "17 - Question 118 - OF THE PRODUCTION OF MAN FROM MAN AS TO THE SOUL (In Three Articl.mp3",
+  "audioRelPath": "vol05/17 - Question 118 - OF THE PRODUCTION OF MAN FROM MAN AS TO THE SOUL (In Three Articl.mp3",
+  "audioDurationSec": 1455.52,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 237.13,
+    "audioProcessedSec": 1455.52,
+    "realtimeFactor": 0.163,
+    "mp3DecodeSec": 2.16
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 118,
+    "title": "The production of man from man as to the soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the sensitive soul is transmitted with the semen?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the intellectual soul is produced from the semen?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether human souls were created together at the beginning of the world?",
+      "matched": false
+    }
+  ]
+}

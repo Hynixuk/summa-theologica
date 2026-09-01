@@ -1,0 +1,83 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "17 - Question 65 - OF THE CONNECTION OF VIRTUES (In Five Articles).mp3",
+  "audioRelPath": "vol08/17 - Question 65 - OF THE CONNECTION OF VIRTUES (In Five Articles).mp3",
+  "audioDurationSec": 2172.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 524.53,
+    "audioProcessedSec": 2172.78,
+    "realtimeFactor": 0.241,
+    "mp3DecodeSec": 5.15
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 65,
+    "title": "The connection of virtues"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the moral virtues are connected with one another?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 81.13,
+      "approxStartHMS": "00:01:21",
+      "sourceChunkTimestamp": [
+        81,
+        83
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether moral virtues can be without charity?",
+      "asrMatchedText": "Second article whether moral virtues can be without charity.",
+      "approxStartSec": 835.75,
+      "approxStartHMS": "00:13:55",
+      "sourceChunkTimestamp": [
+        835.64,
+        842.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether charity can be without moral virtue?",
+      "asrMatchedText": "Third article, whether charity can be without moral virtue.",
+      "approxStartSec": 1183.16,
+      "approxStartHMS": "00:19:43",
+      "sourceChunkTimestamp": [
+        1183.04,
+        1190.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether faith and hope can be without charity?",
+      "asrMatchedText": "Fourth Article Whether Faith and Hope Can Be Without Charity",
+      "approxStartSec": 1551,
+      "approxStartHMS": "00:25:51",
+      "sourceChunkTimestamp": [
+        1550.88,
+        1558.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether charity can be without faith and hope?",
+      "matched": false
+    }
+  ]
+}

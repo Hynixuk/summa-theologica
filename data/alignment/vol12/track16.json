@@ -1,0 +1,98 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "16 - Question 185 - OF THINGS PERTAINING TO THE EPISCOPAL STATE (In Eight Articles), .mp3",
+  "audioRelPath": "vol12/16 - Question 185 - OF THINGS PERTAINING TO THE EPISCOPAL STATE (In Eight Articles), .mp3",
+  "audioDurationSec": 2415.83,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 413.86,
+    "audioProcessedSec": 2415.83,
+    "realtimeFactor": 0.171,
+    "mp3DecodeSec": 3.03
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 185,
+    "title": "Things pertaining to the episcopal state"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is lawful to desire the office of a bishop?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 107.27,
+      "approxStartHMS": "00:01:47",
+      "sourceChunkTimestamp": [
+        107,
+        111
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful for a man to refuse absolutely an appointment to the episcopate?",
+      "asrMatchedText": "Second article",
+      "approxStartSec": 890.07,
+      "approxStartHMS": "00:14:50",
+      "sourceChunkTimestamp": [
+        890,
+        891
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether he that is appointed to the episcopate ought to be better than others?",
+      "asrMatchedText": "Third article, whether he that is appointed to the Episcopit ought to be",
+      "approxStartSec": 1451.48,
+      "approxStartHMS": "00:24:11",
+      "sourceChunkTimestamp": [
+        1451.4,
+        1457
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a bishop may lawfully forsake the episcopal cure, in order to enter religion?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1831.06,
+      "approxStartHMS": "00:30:31",
+      "sourceChunkTimestamp": [
+        1831,
+        1832
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether it is lawful for a bishop on account of bodily persecution to abandon the flock committed to his care?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is lawful for a bishop to have property of his own?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether bishops sin mortally if they distribute not to the poor the ecclesiastical goods which accrue to them?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether religious who are raised to the episcopate are bound to religious observances?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "09 - Question 179 - OF THE DIVISION OF LIFE INTO ACTIVE AND CONTEMPLATIVE (In Two Art.mp3",
+  "audioRelPath": "vol12/09 - Question 179 - OF THE DIVISION OF LIFE INTO ACTIVE AND CONTEMPLATIVE (In Two Art.mp3",
+  "audioDurationSec": 708.94,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 141.2,
+    "audioProcessedSec": 708.94,
+    "realtimeFactor": 0.199,
+    "mp3DecodeSec": 1.31
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 179,
+    "title": "The division of life into active and contemplative"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether life is fittingly divided into active and contemplative?",
+      "asrMatchedText": "First article, whether this is an adequate division.",
+      "approxStartSec": 84.54,
+      "approxStartHMS": "00:01:24",
+      "sourceChunkTimestamp": [
+        84.52,
+        85.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether life is adequately divided into active and contemplative?",
+      "asrMatchedText": "Second article. Whether life is adequately divided into active and in the 1980 article 6.",
+      "approxStartSec": 403.03,
+      "approxStartHMS": "00:06:43",
+      "sourceChunkTimestamp": [
+        403,
+        405.8
+      ],
+      "matched": true
+    }
+  ]
+}

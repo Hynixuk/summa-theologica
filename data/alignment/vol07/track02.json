@@ -1,0 +1,71 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "02 - Question 23 - HOW THE PASSIONS DIFFER FROM ONE ANOTHER (In Four Articles).mp3",
+  "audioRelPath": "vol07/02 - Question 23 - HOW THE PASSIONS DIFFER FROM ONE ANOTHER (In Four Articles).mp3",
+  "audioDurationSec": 1582.92,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 294.01,
+    "audioProcessedSec": 1582.92,
+    "realtimeFactor": 0.186,
+    "mp3DecodeSec": 3.17
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 23,
+    "title": "How the passions differ from one another"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the passions of the concupiscible part are different from those of the irascible part?",
+      "asrMatchedText": "First article. Whether the passions of the concupasible part are different from those of the erasable part.",
+      "approxStartSec": 88.29,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        88.24,
+        93.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the contrariety of the irascible passions is based on the contrariety of good and evil?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether any passion of the soul has no contrariety?",
+      "asrMatchedText": "Third article, whether any passion of the soul has no contrary.",
+      "approxStartSec": 913.11,
+      "approxStartHMS": "00:15:13",
+      "sourceChunkTimestamp": [
+        913,
+        920
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in the same power, there are any passions, specifically different, but not contrary to one another?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1136.53,
+      "approxStartHMS": "00:18:56",
+      "sourceChunkTimestamp": [
+        1136.4,
+        1138.44
+      ],
+      "matched": true
+    }
+  ]
+}

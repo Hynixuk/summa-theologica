@@ -1,0 +1,66 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "20 - Question 46 Of the Beginning of the Duration of Creature.mp3",
+  "audioRelPath": "vol02/20 - Question 46 Of the Beginning of the Duration of Creature.mp3",
+  "audioDurationSec": 1858.47,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 269.18,
+    "audioProcessedSec": 1858.47,
+    "realtimeFactor": 0.145,
+    "mp3DecodeSec": 2.45
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 3,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 46,
+    "title": "The beginning of the duration of creatures"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the universe of creatures always existed?",
+      "asrMatchedText": "First article, whether the universe of creatures always existed.",
+      "approxStartSec": 56.09,
+      "approxStartHMS": "00:00:56",
+      "sourceChunkTimestamp": [
+        56,
+        62
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is an article of faith that the world began?",
+      "asrMatchedText": "Second article, whether it is an article of faith that the world began,",
+      "approxStartSec": 933.91,
+      "approxStartHMS": "00:15:33",
+      "sourceChunkTimestamp": [
+        933.84,
+        939.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the creation of things was in the beginning of time?",
+      "asrMatchedText": "Third article, whether the creation of things was in the beginning of time.",
+      "approxStartSec": 1599.31,
+      "approxStartHMS": "00:26:39",
+      "sourceChunkTimestamp": [
+        1599.24,
+        1604.68
+      ],
+      "matched": true
+    }
+  ]
+}

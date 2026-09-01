@@ -1,0 +1,95 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "60 - Question 49 - OF THE EFFECTS OF CHRIST'S PASSION (In Six Articles).mp3",
+  "audioRelPath": "vol13/60 - Question 49 - OF THE EFFECTS OF CHRIST'S PASSION (In Six Articles).mp3",
+  "audioDurationSec": 2311.6,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 413.8,
+    "audioProcessedSec": 2311.6,
+    "realtimeFactor": 0.179,
+    "mp3DecodeSec": 3.51
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 49,
+    "title": "The effects of Christ's Passion"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether we were delivered from sin through Christ's Passion?",
+      "asrMatchedText": "First article, whether we were delivered from sin through Christ's passion.",
+      "approxStartSec": 90.91,
+      "approxStartHMS": "00:01:30",
+      "sourceChunkTimestamp": [
+        90.88,
+        93.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether we were delivered from the devil's power through Christ's Passion?",
+      "asrMatchedText": "Second article, whether we were delivered from the devil's power through Christ's passion.",
+      "approxStartSec": 476.92,
+      "approxStartHMS": "00:07:56",
+      "sourceChunkTimestamp": [
+        476.84,
+        483.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether men were freed from the punishment of sin through Christ's Passion?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 869.96,
+      "approxStartHMS": "00:14:29",
+      "sourceChunkTimestamp": [
+        869.6,
+        874.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether we were reconciled to God through Christ's Passion?",
+      "asrMatchedText": "Fourth Article Whether we were reconciled to God through Christ's passion",
+      "approxStartSec": 1178.78,
+      "approxStartHMS": "00:19:38",
+      "sourceChunkTimestamp": [
+        1178.72,
+        1183.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether Christ opened the gate of heaven to us by His Passion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether by His Passion Christ merited to be exalted?",
+      "asrMatchedText": "Sixth article, whether by his passion Christ merited to be exalted.",
+      "approxStartSec": 1839.88,
+      "approxStartHMS": "00:30:39",
+      "sourceChunkTimestamp": [
+        1839.8,
+        1845.04
+      ],
+      "matched": true
+    }
+  ]
+}

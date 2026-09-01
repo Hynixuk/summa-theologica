@@ -1,0 +1,132 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "13 - Question 10 - OF UNBELIEF IN GENERAL (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol10/13 - Question 10 - OF UNBELIEF IN GENERAL (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 2866.03,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 447.7,
+    "audioProcessedSec": 2866.03,
+    "realtimeFactor": 0.156,
+    "mp3DecodeSec": 4.11
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 10,
+    "title": "Unbelief in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether unbelief is a sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether unbelief is in the intellect as its subject?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether unbelief is the greatest of sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether every act of an unbeliever is a sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there are several species of unbelief?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the unbelief of pagans or heathens is graver than other kinds?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether one ought to dispute with unbelievers in public?",
+      "asrMatchedText": "7th Article, whether one ought to dispute with unbelievers in public.",
+      "approxStartSec": 49.11,
+      "approxStartHMS": "00:00:49",
+      "sourceChunkTimestamp": [
+        49,
+        57
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether unbelievers ought to be compelled to the faith?",
+      "asrMatchedText": "8th article, whether unbelievers ought to be compelled to the faith.",
+      "approxStartSec": 453.11,
+      "approxStartHMS": "00:07:33",
+      "sourceChunkTimestamp": [
+        452.96,
+        463
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether it is lawful to communicate with unbelievers?",
+      "asrMatchedText": "9th Article Whether it is lawful to communicate with unbelievers.",
+      "approxStartSec": 937.53,
+      "approxStartHMS": "00:15:37",
+      "sourceChunkTimestamp": [
+        937.38,
+        947
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether unbelievers may have authority or dominion over the faithful?",
+      "asrMatchedText": "10th article.",
+      "approxStartSec": 1385.5,
+      "approxStartHMS": "00:23:05",
+      "sourceChunkTimestamp": [
+        1385,
+        1392
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the rites of unbelievers ought to be tolerated?",
+      "asrMatchedText": "11th article and dealings, they should be absolutely forbidden.",
+      "approxStartSec": 1924.92,
+      "approxStartHMS": "00:32:04",
+      "sourceChunkTimestamp": [
+        1924.92,
+        1925
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the children of Jews and other unbelievers ought to be baptized against their parents' will?",
+      "asrMatchedText": "12th article. Whether the children... replies to the objections.",
+      "approxStartSec": 2201.37,
+      "approxStartHMS": "00:36:41",
+      "sourceChunkTimestamp": [
+        2201.28,
+        2207
+      ],
+      "matched": true
+    }
+  ]
+}

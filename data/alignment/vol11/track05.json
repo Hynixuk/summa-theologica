@@ -1,0 +1,126 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "05 - Question 49 - OF EACH QUASI-INTEGRAL PART OF PRUDENCE (In Eight Articles).mp3",
+  "audioRelPath": "vol11/05 - Question 49 - OF EACH QUASI-INTEGRAL PART OF PRUDENCE (In Eight Articles).mp3",
+  "audioDurationSec": 2416.51,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 343.18,
+    "audioProcessedSec": 2416.51,
+    "realtimeFactor": 0.142,
+    "mp3DecodeSec": 2.92
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 49,
+    "title": "Each quasi-integral part of prudence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether memory is a part of prudence?",
+      "asrMatchedText": "First article, whether memory is a part of prudence.",
+      "approxStartSec": 79.64,
+      "approxStartHMS": "00:01:19",
+      "sourceChunkTimestamp": [
+        79.5,
+        87
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether understanding is a part of prudence?",
+      "asrMatchedText": "Second article, whether understanding is a part of prudent. good counsel for the future.",
+      "approxStartSec": 441.49,
+      "approxStartHMS": "00:07:21",
+      "sourceChunkTimestamp": [
+        441.44,
+        446.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether docility should be accounted a part of prudence?",
+      "asrMatchedText": "Third article, whether docility should be accounted a part of prudence.",
+      "approxStartSec": 784.24,
+      "approxStartHMS": "00:13:04",
+      "sourceChunkTimestamp": [
+        784.16,
+        789.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether shrewdness is part of prudence?",
+      "asrMatchedText": "Fourth article, whether shrewdness is part of prudence.",
+      "approxStartSec": 1077.39,
+      "approxStartHMS": "00:17:57",
+      "sourceChunkTimestamp": [
+        1077.28,
+        1083.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether reason should be reckoned a part of prudence?",
+      "asrMatchedText": "Fifth article, whether reason should be reckoned a part of prudence.",
+      "approxStartSec": 1387.03,
+      "approxStartHMS": "00:23:07",
+      "sourceChunkTimestamp": [
+        1386.88,
+        1397.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether foresight should be accounted a part of prudence?",
+      "asrMatchedText": "6th Article",
+      "approxStartSec": 1648.96,
+      "approxStartHMS": "00:27:28",
+      "sourceChunkTimestamp": [
+        1648.64,
+        1652.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether circumspection can be a part of prudence?",
+      "asrMatchedText": "Seventh article.",
+      "approxStartSec": 1950.83,
+      "approxStartHMS": "00:32:30",
+      "sourceChunkTimestamp": [
+        1950.72,
+        1952.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether caution should be reckoned a part of prudence?",
+      "asrMatchedText": "Eighth article, whether caution should be reckoned a part of prudence.",
+      "approxStartSec": 2179.09,
+      "approxStartHMS": "00:36:19",
+      "sourceChunkTimestamp": [
+        2179,
+        2185.68
+      ],
+      "matched": true
+    }
+  ]
+}

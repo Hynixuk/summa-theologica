@@ -1,0 +1,78 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "37 - Question 87 - THE REMISSION OF VENIAL SIN (In Four Articles).mp3",
+  "audioRelPath": "vol14/37 - Question 87 - THE REMISSION OF VENIAL SIN (In Four Articles).mp3",
+  "audioDurationSec": 1177.77,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 345.51,
+    "audioProcessedSec": 1177.77,
+    "realtimeFactor": 0.293,
+    "mp3DecodeSec": 4.51
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 87,
+    "title": "The remission of venial sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether venial sin can be forgiven without Penance?",
+      "asrMatchedText": "First article, whether vino sin can be forgiven without penance. First article. Whether veneosin can be forgiven without penance.",
+      "approxStartSec": 61.18,
+      "approxStartHMS": "00:01:01",
+      "sourceChunkTimestamp": [
+        61.12,
+        69.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether infusion of grace is necessary for the remission of venial sins?",
+      "asrMatchedText": "Second Article.",
+      "approxStartSec": 398.75,
+      "approxStartHMS": "00:06:38",
+      "sourceChunkTimestamp": [
+        398.64,
+        400.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether venial sins are removed by the sprinkling of holy water and the like?",
+      "asrMatchedText": "Third article. Whether vignal sins are removed by the sprinkling of holy water and the like.",
+      "approxStartSec": 681.09,
+      "approxStartHMS": "00:11:21",
+      "sourceChunkTimestamp": [
+        681,
+        689.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether venial sin can be taken away without mortal sin?",
+      "asrMatchedText": "Fourth article, whether venial sin can be taken away without mortal sin.",
+      "approxStartSec": 975.91,
+      "approxStartHMS": "00:16:15",
+      "sourceChunkTimestamp": [
+        975.84,
+        980.96
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "25 - Question 94 - OF THE STATE AND CONDITION OF THE FIRST MAN AS REGARDS HIS INTELLE.mp3",
+  "audioRelPath": "vol04/25 - Question 94 - OF THE STATE AND CONDITION OF THE FIRST MAN AS REGARDS HIS INTELLE.mp3",
+  "audioDurationSec": 1814.05,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 541.85,
+    "audioProcessedSec": 1814.05,
+    "realtimeFactor": 0.299,
+    "mp3DecodeSec": 4.38
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 94,
+    "title": "The state and condition of the first man as regards his intellect"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the first man saw God through His Essence?",
+      "asrMatchedText": "First article. Part 1, question 94, article 1.",
+      "approxStartSec": 86.73,
+      "approxStartHMS": "00:01:26",
+      "sourceChunkTimestamp": [
+        86.6,
+        92.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Adam in the state of innocence saw the angels through their essence?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the first man knew all things?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 997.18,
+      "approxStartHMS": "00:16:37",
+      "sourceChunkTimestamp": [
+        997.08,
+        998.58
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether man in his first state could be deceived?",
+      "asrMatchedText": "Fourth Article Part 1, Question 94, Article 4",
+      "approxStartSec": 1355.82,
+      "approxStartHMS": "00:22:35",
+      "sourceChunkTimestamp": [
+        1355.68,
+        1362.04
+      ],
+      "matched": true
+    }
+  ]
+}

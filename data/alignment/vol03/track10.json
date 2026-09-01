@@ -1,0 +1,71 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "10 - Question. 59 - THE WILL OF THE ANGELS (FOUR ARTICLES).mp3",
+  "audioRelPath": "vol03/10 - Question. 59 - THE WILL OF THE ANGELS (FOUR ARTICLES).mp3",
+  "audioDurationSec": 1785.13,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 491.6,
+    "audioProcessedSec": 1785.13,
+    "realtimeFactor": 0.275,
+    "mp3DecodeSec": 3.9
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 59,
+    "title": "The will of the angels"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is will in the angels?",
+      "asrMatchedText": "First article. Whether there is will in the angels, objection 1, it would seem that there",
+      "approxStartSec": 111.82,
+      "approxStartHMS": "00:01:51",
+      "sourceChunkTimestamp": [
+        111.72,
+        120.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether in the angels the will differs from the intellect?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 546.84,
+      "approxStartHMS": "00:09:06",
+      "sourceChunkTimestamp": [
+        546.72,
+        548.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there is free-will in the angels?",
+      "asrMatchedText": "And two, third article, whether there is free will in the angels.",
+      "approxStartSec": 958.54,
+      "approxStartHMS": "00:15:58",
+      "sourceChunkTimestamp": [
+        957.62,
+        963.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there is an irascible and a concupiscible appetite in the angels?",
+      "matched": false
+    }
+  ]
+}

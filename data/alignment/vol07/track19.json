@@ -1,0 +1,126 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "19 - Question 40 - OF THE IRASCIBLE PASSIONS, AND FIRST, OF HOPE AND DESPAIR (In Eigh.mp3",
+  "audioRelPath": "vol07/19 - Question 40 - OF THE IRASCIBLE PASSIONS, AND FIRST, OF HOPE AND DESPAIR (In Eigh.mp3",
+  "audioDurationSec": 2387.96,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 597.3,
+    "audioProcessedSec": 2387.96,
+    "realtimeFactor": 0.25,
+    "mp3DecodeSec": 5.76
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 40,
+    "title": "The irascible passions, and first, of hope and despair"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether hope is the same as desire of cupidity?",
+      "asrMatchedText": "First article, whether hope is the same as desire or cupidity.",
+      "approxStartSec": 112.1,
+      "approxStartHMS": "00:01:52",
+      "sourceChunkTimestamp": [
+        112,
+        118
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether hope is in the apprehensive or in the appetitive power?",
+      "asrMatchedText": "Second article, whether hope is in the apprehensive or in the apatative power.",
+      "approxStartSec": 450.84,
+      "approxStartHMS": "00:07:30",
+      "sourceChunkTimestamp": [
+        450.72,
+        460.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether hope is in dumb animals?",
+      "asrMatchedText": "Third article. Whether hope is in dumb animals. of the knowledge that precedes it.",
+      "approxStartSec": 803.43,
+      "approxStartHMS": "00:13:23",
+      "sourceChunkTimestamp": [
+        803.4,
+        805.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether despair is contrary to hope?",
+      "asrMatchedText": "Fourth article. Whether despair is contrary to hope.",
+      "approxStartSec": 1097.85,
+      "approxStartHMS": "00:18:17",
+      "sourceChunkTimestamp": [
+        1097.72,
+        1104.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether experience is a cause of hope?",
+      "asrMatchedText": "Fifth article, whether experience is a cause of hope.",
+      "approxStartSec": 1370.13,
+      "approxStartHMS": "00:22:50",
+      "sourceChunkTimestamp": [
+        1370,
+        1377
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether hope abounds in young men and drunkards?",
+      "asrMatchedText": "Sixth article, whether hope abounds in young men and drunkards.",
+      "approxStartSec": 1690.07,
+      "approxStartHMS": "00:28:10",
+      "sourceChunkTimestamp": [
+        1689.92,
+        1699.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether hope is a cause of love?",
+      "asrMatchedText": "Seventh Article.",
+      "approxStartSec": 1938.12,
+      "approxStartHMS": "00:32:18",
+      "sourceChunkTimestamp": [
+        1938,
+        1940
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether hope is a help or a hindrance to action?",
+      "asrMatchedText": "Eighth article.",
+      "approxStartSec": 2134.13,
+      "approxStartHMS": "00:35:34",
+      "sourceChunkTimestamp": [
+        2134,
+        2136
+      ],
+      "matched": true
+    }
+  ]
+}

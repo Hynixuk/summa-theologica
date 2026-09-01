@@ -1,0 +1,81 @@
+{
+  "name": "Summa Theologica — Read & Listen",
+  "short_name": "Summa",
+  "description": "Read and listen to Aristotle's Metaphysics, Summa Contra Gentiles, and Summa Theologica with synchronized audio and cross-references.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-or-landscape",
+  "theme_color": "#8a2f2f",
+  "background_color": "#f7f3ea",
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f7f3ea' width='540' height='720'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='48' fill='%238a2f2f' font-family='serif'>Summa Theologica</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'><rect fill='%23f7f3ea' width='1280' height='720'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='72' fill='%238a2f2f' font-family='serif'>Summa Theologica</text></svg>",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%238a2f2f' width='192' height='192'/><text x='96' y='96' dominant-baseline='middle' text-anchor='middle' font-size='140' font-weight='bold' fill='%23fff' font-family='serif'>T</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%238a2f2f' width='192' height='192' rx='44'/><text x='96' y='96' dominant-baseline='middle' text-anchor='middle' font-size='140' font-weight='bold' fill='%23fff' font-family='serif'>T</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["education", "reference"],
+  "shortcuts": [
+    {
+      "name": "Summa Theologica",
+      "short_name": "ST",
+      "description": "Read and listen to the Summa Theologica",
+      "url": "/?work=ST",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%238a2f2f' width='96' height='96'/><text x='48' y='48' dominant-baseline='middle' text-anchor='middle' font-size='70' font-weight='bold' fill='%23fff' font-family='serif'>ST</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Summa Contra Gentiles",
+      "short_name": "SCG",
+      "description": "Read and listen to the Summa Contra Gentiles",
+      "url": "/?work=SCG",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%238a2f2f' width='96' height='96'/><text x='48' y='48' dominant-baseline='middle' text-anchor='middle' font-size='70' font-weight='bold' fill='%23fff' font-family='serif'>SG</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Aristotle's Metaphysics",
+      "short_name": "META",
+      "description": "Read and listen to Aristotle's Metaphysics with Aquinas commentary",
+      "url": "/?work=META",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%238a2f2f' width='96' height='96'/><text x='48' y='48' dominant-baseline='middle' text-anchor='middle' font-size='70' font-weight='bold' fill='%23fff' font-family='serif'>M</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

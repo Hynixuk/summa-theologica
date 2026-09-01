@@ -1,0 +1,102 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "21 - Question 42 - OF THE OBJECT OF FEAR (In Six Articles).mp3",
+  "audioRelPath": "vol07/21 - Question 42 - OF THE OBJECT OF FEAR (In Six Articles).mp3",
+  "audioDurationSec": 1829.7,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 468.13,
+    "audioProcessedSec": 1829.7,
+    "realtimeFactor": 0.256,
+    "mp3DecodeSec": 6.79
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 42,
+    "title": "The object of fear"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the object of fear is good or evil?",
+      "asrMatchedText": "First article. Whether the object of fear is good or evil.",
+      "approxStartSec": 81.69,
+      "approxStartHMS": "00:01:21",
+      "sourceChunkTimestamp": [
+        81.6,
+        87
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether evil of nature is an object of fear?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 341.43,
+      "approxStartHMS": "00:05:41",
+      "sourceChunkTimestamp": [
+        341.14,
+        345.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the evil of sin is an object of fear?",
+      "asrMatchedText": "Third article, whether the evil of sin is an object of fear.",
+      "approxStartSec": 677.1,
+      "approxStartHMS": "00:11:17",
+      "sourceChunkTimestamp": [
+        677,
+        683
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether fear itself can be feared?",
+      "asrMatchedText": "and which is due to an extrinsic cause. Fourth article, whether fear itself can be feared.",
+      "approxStartSec": 1033.88,
+      "approxStartHMS": "00:17:13",
+      "sourceChunkTimestamp": [
+        1030.96,
+        1037.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether sudden things are especially feared?",
+      "asrMatchedText": "Fifth article. Whether certain things are especially feared.",
+      "approxStartSec": 1244.2,
+      "approxStartHMS": "00:20:44",
+      "sourceChunkTimestamp": [
+        1244.1,
+        1250.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether those things are more feared, for which there is no remedy?",
+      "asrMatchedText": "6th article. Whether those... inspires greater fear through being much thought about. 6.",
+      "approxStartSec": 1544.04,
+      "approxStartHMS": "00:25:44",
+      "sourceChunkTimestamp": [
+        1544,
+        1548
+      ],
+      "matched": true
+    }
+  ]
+}

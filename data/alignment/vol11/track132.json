@@ -1,0 +1,54 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "132 - Question 169 - OF MODESTY IN THE OUTWARD APPAREL (In Two Articles).mp3",
+  "audioRelPath": "vol11/132 - Question 169 - OF MODESTY IN THE OUTWARD APPAREL (In Two Articles).mp3",
+  "audioDurationSec": 1329.18,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 241.58,
+    "audioProcessedSec": 1329.18,
+    "realtimeFactor": 0.182,
+    "mp3DecodeSec": 1.96
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 169,
+    "title": "Modesty in the outward apparel"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there can be virtue and vice in connection with outward apparel?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 67.8,
+      "approxStartHMS": "00:01:07",
+      "sourceChunkTimestamp": [
+        67.68,
+        69.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the adornment of women is devoid of mortal sin?",
+      "asrMatchedText": "Second article. Whether the Adornment of Women is Devoid of Mortal Sin.",
+      "approxStartSec": 698.63,
+      "approxStartHMS": "00:11:38",
+      "sourceChunkTimestamp": [
+        698.56,
+        703.92
+      ],
+      "matched": true
+    }
+  ]
+}

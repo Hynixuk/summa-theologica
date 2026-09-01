@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "55 - Question 94 - OF IDOLATRY (In Four Articles).mp3",
+  "audioRelPath": "vol11/55 - Question 94 - OF IDOLATRY (In Four Articles).mp3",
+  "audioDurationSec": 1905.99,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 302.06,
+    "audioProcessedSec": 1905.99,
+    "realtimeFactor": 0.158,
+    "mp3DecodeSec": 2.72
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 94,
+    "title": "Idolatry"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether idolatry is rightly reckoned a species of superstition?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 70.13,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        70,
+        72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether idolatry is a sin?",
+      "asrMatchedText": "Second article, whether idolatry is a sin. Objection one, it would seem that idolatry",
+      "approxStartSec": 715.5,
+      "approxStartHMS": "00:11:55",
+      "sourceChunkTimestamp": [
+        715.4,
+        723.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether idolatry is the gravest of sins?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1095.16,
+      "approxStartHMS": "00:18:15",
+      "sourceChunkTimestamp": [
+        1095.04,
+        1096.86
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the cause of idolatry was on the part of man?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1489.77,
+      "approxStartHMS": "00:24:49",
+      "sourceChunkTimestamp": [
+        1489.68,
+        1491.04
+      ],
+      "matched": true
+    }
+  ]
+}

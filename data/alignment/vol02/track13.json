@@ -1,0 +1,126 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "13 - Question 39 Of the Persons in Relation to the Essence.mp3",
+  "audioRelPath": "vol02/13 - Question 39 Of the Persons in Relation to the Essence.mp3",
+  "audioDurationSec": 3240.51,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 601.87,
+    "audioProcessedSec": 3240.51,
+    "realtimeFactor": 0.186,
+    "mp3DecodeSec": 5.96
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 39,
+    "title": "The persons in relation to the essence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether in God the essence is the same as the person?",
+      "asrMatchedText": "which attributes should be appropriated to each person. First article, whether in",
+      "approxStartSec": 99.4,
+      "approxStartHMS": "00:01:39",
+      "sourceChunkTimestamp": [
+        95.28,
+        101.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it must be said that the three persons are of one essence?",
+      "asrMatchedText": "Second article, whether it must be said that the three persons are of one essence.",
+      "approxStartSec": 328.61,
+      "approxStartHMS": "00:05:28",
+      "sourceChunkTimestamp": [
+        328.56,
+        332.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether essential names should be predicated in the singular of the three persons?",
+      "asrMatchedText": "Third article, whether essential names should be predicated in the singular of the three",
+      "approxStartSec": 695.25,
+      "approxStartHMS": "00:11:35",
+      "sourceChunkTimestamp": [
+        695.2,
+        699.46
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the concrete essential names can stand for the person?",
+      "asrMatchedText": "Fourth article, whether the concrete essential names can stand for the person. Objection",
+      "approxStartSec": 1010.54,
+      "approxStartHMS": "00:16:50",
+      "sourceChunkTimestamp": [
+        1010.48,
+        1015.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether abstract essential names can stand for the person?",
+      "asrMatchedText": "Fifth article, whether abstract essential names can stand for the person. Objection",
+      "approxStartSec": 1492.27,
+      "approxStartHMS": "00:24:52",
+      "sourceChunkTimestamp": [
+        1492.2,
+        1497.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the persons can be predicated of the essential terms?",
+      "asrMatchedText": "expiration. Sixth article whether the persons can be predicated of the essential terms.",
+      "approxStartSec": 1880.76,
+      "approxStartHMS": "00:31:20",
+      "sourceChunkTimestamp": [
+        1879.68,
+        1887
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the essential names should be appropriated to the persons?",
+      "asrMatchedText": "Seventh article whether the essential names should be appropriated to the persons.",
+      "approxStartSec": 2057.83,
+      "approxStartHMS": "00:34:17",
+      "sourceChunkTimestamp": [
+        2057.76,
+        2063.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the essential attributes are appropriated to the persons in a fitting manner by the holy doctors?",
+      "asrMatchedText": "Eighth article, whether the essential attributes are appropriated to the persons in a fitting manner by the holy doctors.",
+      "approxStartSec": 2315.24,
+      "approxStartHMS": "00:38:35",
+      "sourceChunkTimestamp": [
+        2315.18,
+        2322.2
+      ],
+      "matched": true
+    }
+  ]
+}

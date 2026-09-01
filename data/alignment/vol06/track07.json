@@ -1,0 +1,98 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "07 - Question 6 - OF THE VOLUNTARY AND THE INVOLUNTARY (In Eight Articles), part 1.mp3",
+  "audioRelPath": "vol06/07 - Question 6 - OF THE VOLUNTARY AND THE INVOLUNTARY (In Eight Articles), part 1.mp3",
+  "audioDurationSec": 1440.52,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 368.02,
+    "audioProcessedSec": 1440.52,
+    "realtimeFactor": 0.255,
+    "mp3DecodeSec": 4.61
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 6,
+    "title": "The voluntary and the involuntary"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is anything voluntary in human acts?",
+      "asrMatchedText": "First article, Part 1 of the second part, Question 6, Article 1.",
+      "approxStartSec": 213.09,
+      "approxStartHMS": "00:03:33",
+      "sourceChunkTimestamp": [
+        213,
+        219
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there is anything voluntary in irrational animals?",
+      "asrMatchedText": "Second Article Part 1 of the second part, Question 6, Article 2.",
+      "approxStartSec": 662.93,
+      "approxStartHMS": "00:11:02",
+      "sourceChunkTimestamp": [
+        662.84,
+        668.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there can be voluntariness without any act?",
+      "asrMatchedText": "Third Article, Part 1 of the second part, Question 6, Article 3.",
+      "approxStartSec": 916.73,
+      "approxStartHMS": "00:15:16",
+      "sourceChunkTimestamp": [
+        916.64,
+        922.34
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether violence can be done to the will?",
+      "asrMatchedText": "Fourth Article Part 1 of the second part, Question 6, Article 4. Whether violence can",
+      "approxStartSec": 1158.23,
+      "approxStartHMS": "00:19:18",
+      "sourceChunkTimestamp": [
+        1158.16,
+        1164.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether violence causes involuntariness?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether fear causes involuntariness simply?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether concupiscence causes involuntariness?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether ignorance causes involuntariness?",
+      "matched": false
+    }
+  ]
+}

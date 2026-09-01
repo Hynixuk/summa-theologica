@@ -1,0 +1,78 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "27 - Question 110 - OF THE GRACE OF GOD AS REGARDS ITS ESSENCE (In Four Articles).mp3",
+  "audioRelPath": "vol09/27 - Question 110 - OF THE GRACE OF GOD AS REGARDS ITS ESSENCE (In Four Articles).mp3",
+  "audioDurationSec": 1656.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 247.08,
+    "audioProcessedSec": 1656.01,
+    "realtimeFactor": 0.149,
+    "mp3DecodeSec": 2.54
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 110,
+    "title": "The grace of God as regards its essence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether grace implies anything in the soul?",
+      "asrMatchedText": "First article,",
+      "approxStartSec": 69.6,
+      "approxStartHMS": "00:01:09",
+      "sourceChunkTimestamp": [
+        69.5,
+        70.98
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether grace is a quality of the soul?",
+      "asrMatchedText": "Second article, whether grace is a quality of the soul.",
+      "approxStartSec": 529.94,
+      "approxStartHMS": "00:08:49",
+      "sourceChunkTimestamp": [
+        529.84,
+        535.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether grace is the same as virtue?",
+      "asrMatchedText": "Third article, whether grace is the same as virtue.",
+      "approxStartSec": 912.32,
+      "approxStartHMS": "00:15:12",
+      "sourceChunkTimestamp": [
+        912.24,
+        916.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether grace is in the essence of the soul as in a subject, or in one of the powers?",
+      "asrMatchedText": "Fourth article, whether grace is in the essence of the soul as in a subject or in one of the powers. Objection",
+      "approxStartSec": 1298.08,
+      "approxStartHMS": "00:21:38",
+      "sourceChunkTimestamp": [
+        1298,
+        1307.36
+      ],
+      "matched": true
+    }
+  ]
+}

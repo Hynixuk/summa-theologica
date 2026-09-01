@@ -1,0 +1,78 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "13 - Question 183 - OF MAN'S VARIOUS DUTIES AND STATES IN GENERAL (In Four Articles).mp3",
+  "audioRelPath": "vol12/13 - Question 183 - OF MAN'S VARIOUS DUTIES AND STATES IN GENERAL (In Four Articles).mp3",
+  "audioDurationSec": 1658.99,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 424.33,
+    "audioProcessedSec": 1658.99,
+    "realtimeFactor": 0.256,
+    "mp3DecodeSec": 6.59
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 183,
+    "title": "Man's various duties and states in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the notion of a state denotes a condition of freedom or servitude?",
+      "asrMatchedText": "First article, whether the notion of a state denotes a condition of freedom or servitude.",
+      "approxStartSec": 83.98,
+      "approxStartHMS": "00:01:23",
+      "sourceChunkTimestamp": [
+        83.88,
+        92.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there should be different duties or states in the Church?",
+      "asrMatchedText": "Second article, whether there should be different duties or states in the church.",
+      "approxStartSec": 477.14,
+      "approxStartHMS": "00:07:57",
+      "sourceChunkTimestamp": [
+        477.04,
+        484.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether duties differ according to their actions?",
+      "asrMatchedText": "Third article, whether duties differ according to their actions.",
+      "approxStartSec": 930.08,
+      "approxStartHMS": "00:15:30",
+      "sourceChunkTimestamp": [
+        930,
+        935
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the difference of states applies to those who are beginning, progressing, or perfect?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1269.13,
+      "approxStartHMS": "00:21:09",
+      "sourceChunkTimestamp": [
+        1269,
+        1271
+      ],
+      "matched": true
+    }
+  ]
+}

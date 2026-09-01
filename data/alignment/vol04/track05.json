@@ -1,0 +1,78 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "05 - Question 78 - OF THE SPECIFIC POWERS OF THE SOUL (In Four Articles).mp3",
+  "audioRelPath": "vol04/05 - Question 78 - OF THE SPECIFIC POWERS OF THE SOUL (In Four Articles).mp3",
+  "audioDurationSec": 2245.12,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 900.17,
+    "audioProcessedSec": 2245.12,
+    "realtimeFactor": 0.401,
+    "mp3DecodeSec": 5.13
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 78,
+    "title": "The specific powers of the soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there are to be distinguished five genera of powers in the soul?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 79.74,
+      "approxStartHMS": "00:01:19",
+      "sourceChunkTimestamp": [
+        79.6,
+        81.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the parts of the vegetative soul are fittingly described as the nutritive, augmentative, and generative?",
+      "asrMatchedText": "Second article",
+      "approxStartSec": 628.93,
+      "approxStartHMS": "00:10:28",
+      "sourceChunkTimestamp": [
+        628.88,
+        629.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the five exterior senses are properly distinguished?",
+      "asrMatchedText": "augmentative and generative powers. Third article.",
+      "approxStartSec": 981.18,
+      "approxStartHMS": "00:16:21",
+      "sourceChunkTimestamp": [
+        977.12,
+        982.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the interior senses are suitably distinguished?",
+      "asrMatchedText": "Fourth article. Whether the interior senses are suitably distinguished. Objection one,",
+      "approxStartSec": 1576.92,
+      "approxStartHMS": "00:26:16",
+      "sourceChunkTimestamp": [
+        1576.84,
+        1583.92
+      ],
+      "matched": true
+    }
+  ]
+}

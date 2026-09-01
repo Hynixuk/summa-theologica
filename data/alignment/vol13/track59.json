@@ -1,0 +1,95 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "59 - Question 48 - OF THE EFFICIENCY OF CHRIST'S PASSION (In Six Articles).mp3",
+  "audioRelPath": "vol13/59 - Question 48 - OF THE EFFICIENCY OF CHRIST'S PASSION (In Six Articles).mp3",
+  "audioDurationSec": 2117.65,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 325.37,
+    "audioProcessedSec": 2117.65,
+    "realtimeFactor": 0.154,
+    "mp3DecodeSec": 3.08
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 48,
+    "title": "The efficiency of Christ's Passion"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ's Passion brought about our salvation by way of merit?",
+      "asrMatchedText": "First article. Whether Christ's Passion brought about our salvation by way of merit.",
+      "approxStartSec": 96.54,
+      "approxStartHMS": "00:01:36",
+      "sourceChunkTimestamp": [
+        96.44,
+        104.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ's Passion brought about our salvation by way of atonement?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ's Passion operated by way of sacrifice?",
+      "asrMatchedText": "Third article, whether Christ's passion operated by way of sacrifice. Objection 1.",
+      "approxStartSec": 675.35,
+      "approxStartHMS": "00:11:15",
+      "sourceChunkTimestamp": [
+        675.2,
+        687.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ's Passion brought about our salvation by way of redemption?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1094.98,
+      "approxStartHMS": "00:18:14",
+      "sourceChunkTimestamp": [
+        1094.9,
+        1096.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether it is proper to Christ to be the Redeemer?",
+      "asrMatchedText": "Fifth article, whether it is proper to Christ to be the Redeemer.",
+      "approxStartSec": 1557.11,
+      "approxStartHMS": "00:25:57",
+      "sourceChunkTimestamp": [
+        1557.04,
+        1561.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Christ's Passion brought about our salvation efficiently?",
+      "asrMatchedText": "6th article, whether Christ's passion brought about our salvation efficiently. Objection 1. He would seem that Christ's Passion brought about our salvation efficiently.",
+      "approxStartSec": 1818.05,
+      "approxStartHMS": "00:30:18",
+      "sourceChunkTimestamp": [
+        1818,
+        1827
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "32 - Question 78 - OF THAT CAUSE OF SIN WHICH IS MALICE (In Four Articles).mp3",
+  "audioRelPath": "vol08/32 - Question 78 - OF THAT CAUSE OF SIN WHICH IS MALICE (In Four Articles).mp3",
+  "audioDurationSec": 1626.99,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 244.85,
+    "audioProcessedSec": 1626.99,
+    "realtimeFactor": 0.15,
+    "mp3DecodeSec": 2.27
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 78,
+    "title": "That cause of sin which is malice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether anyone sins through certain malice?",
+      "asrMatchedText": "First article, whether anyone sins through certain malice.",
+      "approxStartSec": 91.23,
+      "approxStartHMS": "00:01:31",
+      "sourceChunkTimestamp": [
+        91.12,
+        97.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether everyone that sins through habit, sins through certain malice?",
+      "asrMatchedText": "Second article whether everyone that sins through habit sins through certain",
+      "approxStartSec": 509.8,
+      "approxStartHMS": "00:08:29",
+      "sourceChunkTimestamp": [
+        509.72,
+        515.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether one who sins through certain malice, sins through habit?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 854.88,
+      "approxStartHMS": "00:14:14",
+      "sourceChunkTimestamp": [
+        854.76,
+        856.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is more grievous to sin through certain malice than through passion?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1231.22,
+      "approxStartHMS": "00:20:31",
+      "sourceChunkTimestamp": [
+        1231.12,
+        1232.76
+      ],
+      "matched": true
+    }
+  ]
+}

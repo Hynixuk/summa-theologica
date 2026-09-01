@@ -1,0 +1,102 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "42 - Question 88 - OF VENIAL AND MORTAL SIN (In Six Articles).mp3",
+  "audioRelPath": "vol08/42 - Question 88 - OF VENIAL AND MORTAL SIN (In Six Articles).mp3",
+  "audioDurationSec": 2732.86,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 706.62,
+    "audioProcessedSec": 2732.86,
+    "realtimeFactor": 0.259,
+    "mp3DecodeSec": 9.79
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 88,
+    "title": "Venial and mortal sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether venial sin is fittingly condivided with mortal sin?",
+      "asrMatchedText": "First article, whether venial sin is fittingly",
+      "approxStartSec": 115.89,
+      "approxStartHMS": "00:01:55",
+      "sourceChunkTimestamp": [
+        115.8,
+        119.9
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether mortal and venial sin differ generically?",
+      "asrMatchedText": "Second article. Whether mortal and venial sin differ generically.",
+      "approxStartSec": 711.11,
+      "approxStartHMS": "00:11:51",
+      "sourceChunkTimestamp": [
+        711,
+        718
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether venial sin is a disposition to mortal sin?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1157,
+      "approxStartHMS": "00:19:17",
+      "sourceChunkTimestamp": [
+        1156.64,
+        1162.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a venial sin can become mortal?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1516.05,
+      "approxStartHMS": "00:25:16",
+      "sourceChunkTimestamp": [
+        1515.92,
+        1517.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a circumstance can make a venial sin to be mortal?",
+      "asrMatchedText": "an accident which disposes to a substantial form into which it is never changed. The fifth article. Whether a circumstance can make a venial sin to be mortal. Objection",
+      "approxStartSec": 1885.48,
+      "approxStartHMS": "00:31:25",
+      "sourceChunkTimestamp": [
+        1875.24,
+        1895.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether a mortal sin can become venial?",
+      "asrMatchedText": "6th Article Whether a mortal sin can become venial",
+      "approxStartSec": 2375.03,
+      "approxStartHMS": "00:39:35",
+      "sourceChunkTimestamp": [
+        2374.88,
+        2382.56
+      ],
+      "matched": true
+    }
+  ]
+}

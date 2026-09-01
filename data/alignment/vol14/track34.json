@@ -1,0 +1,115 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "34 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol14/34 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 2203.52,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 651.5,
+    "audioProcessedSec": 2203.52,
+    "realtimeFactor": 0.296,
+    "mp3DecodeSec": 9.72
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 84,
+    "title": "The sacrament of Penance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Penance is a sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sins are the proper matter of this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the form of this sacrament is: \"I absolve thee\"?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the imposition of the priest's hands is necessary for this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether this sacrament is necessary for salvation?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Penance is a second plank after shipwreck?",
+      "asrMatchedText": "Sixth Article, Whether Penance is a Second Plank After Shipwreck",
+      "approxStartSec": 30.22,
+      "approxStartHMS": "00:00:30",
+      "sourceChunkTimestamp": [
+        30.12,
+        36.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether this sacrament was suitably instituted in the New Law?",
+      "asrMatchedText": "7th Article Whether this sacrament was suitably instituted in the New Law",
+      "approxStartSec": 348.5,
+      "approxStartHMS": "00:05:48",
+      "sourceChunkTimestamp": [
+        348.36,
+        358.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether Penance should last till the end of life?",
+      "asrMatchedText": "Eighth Article Whether Penance Should Last Till the End of Life",
+      "approxStartSec": 918.26,
+      "approxStartHMS": "00:15:18",
+      "sourceChunkTimestamp": [
+        918.16,
+        924.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether Penance can be continuous?",
+      "asrMatchedText": "9th Article. Weather Penance Can Be Continuous. Objection 1, it would seem that penance cannot",
+      "approxStartSec": 1163.65,
+      "approxStartHMS": "00:19:23",
+      "sourceChunkTimestamp": [
+        1163.56,
+        1171.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the sacrament of Penance may be repeated?",
+      "asrMatchedText": "10th Article Whether the Sacrament of Penance May Be Repeated",
+      "approxStartSec": 1529.14,
+      "approxStartHMS": "00:25:29",
+      "sourceChunkTimestamp": [
+        1529.04,
+        1535
+      ],
+      "matched": true
+    }
+  ]
+}

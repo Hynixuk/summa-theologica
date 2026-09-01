@@ -1,0 +1,66 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "16 - 15 - Question 15 Of Ideas.mp3",
+  "audioRelPath": "vol01/16 - 15 - Question 15 Of Ideas.mp3",
+  "audioDurationSec": 979.85,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 277.44,
+    "audioProcessedSec": 979.85,
+    "realtimeFactor": 0.283,
+    "mp3DecodeSec": 2.93
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 3,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 15,
+    "title": "Ideas"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there are ideas?",
+      "asrMatchedText": "things known by God. First article, whether there are ideas.",
+      "approxStartSec": 57.76,
+      "approxStartHMS": "00:00:57",
+      "sourceChunkTimestamp": [
+        54.92,
+        62.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether ideas are many?",
+      "asrMatchedText": "Second Article, Whether Ideas Are Many One, it seems that ideas are many.",
+      "approxStartSec": 280.78,
+      "approxStartHMS": "00:04:40",
+      "sourceChunkTimestamp": [
+        280.72,
+        285.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there are ideas of all things that God knows?",
+      "asrMatchedText": "are distinguished, but relations understood by God. Third article, whether there are ideas of all",
+      "approxStartSec": 690.54,
+      "approxStartHMS": "00:11:30",
+      "sourceChunkTimestamp": [
+        686.08,
+        694.32
+      ],
+      "matched": true
+    }
+  ]
+}

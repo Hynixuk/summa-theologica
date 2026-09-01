@@ -1,0 +1,95 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "08 - Question 56 - OF THE SUBJECT OF VIRTUE (In Six Articles).mp3",
+  "audioRelPath": "vol08/08 - Question 56 - OF THE SUBJECT OF VIRTUE (In Six Articles).mp3",
+  "audioDurationSec": 2290.15,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 412.57,
+    "audioProcessedSec": 2290.15,
+    "realtimeFactor": 0.18,
+    "mp3DecodeSec": 3.78
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 56,
+    "title": "The subject of virtue"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the subject of virtue is a power of the soul?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether one virtue can be in several powers?",
+      "asrMatchedText": "Second article. Whether one virtue can be in several parts. subject of virtue.",
+      "approxStartSec": 342.85,
+      "approxStartHMS": "00:05:42",
+      "sourceChunkTimestamp": [
+        342.8,
+        346.38
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the intellect can be the subject of virtue?",
+      "asrMatchedText": "3rd Article, whether the intellect can be in the subject of virtue.",
+      "approxStartSec": 576.16,
+      "approxStartHMS": "00:09:36",
+      "sourceChunkTimestamp": [
+        576,
+        587.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the irascible and concupiscible powers are the subject of virtue?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1090.74,
+      "approxStartHMS": "00:18:10",
+      "sourceChunkTimestamp": [
+        1090.4,
+        1095.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the sensitive powers of apprehension are the subject of virtue?",
+      "asrMatchedText": "Fifth article, whether the sensitive powers of apprehension are the subject of virtue.",
+      "approxStartSec": 1631.08,
+      "approxStartHMS": "00:27:11",
+      "sourceChunkTimestamp": [
+        1631,
+        1638
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the will can be the subject of virtue?",
+      "asrMatchedText": "Sixth Article",
+      "approxStartSec": 1947.29,
+      "approxStartHMS": "00:32:27",
+      "sourceChunkTimestamp": [
+        1947,
+        1951
+      ],
+      "matched": true
+    }
+  ]
+}

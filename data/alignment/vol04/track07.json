@@ -1,0 +1,137 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "07 - Question 79 - OF THE INTELLECTUAL POWERS (In Thirteen Articles), part 2.mp3",
+  "audioRelPath": "vol04/07 - Question 79 - OF THE INTELLECTUAL POWERS (In Thirteen Articles), part 2.mp3",
+  "audioDurationSec": 2295.04,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 966.2,
+    "audioProcessedSec": 2295.04,
+    "realtimeFactor": 0.421,
+    "mp3DecodeSec": 12.17
+  },
+  "expectedArticleCount": 13,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 79,
+    "title": "The intellectual powers"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the intellect is a power of the soul?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the intellect is a passive power?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there is an active intellect?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the active intellect is something in the soul?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the active intellect is one in all?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether memory is in the intellectual part of the soul?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the intellectual memory is a power distinct from the intellect?",
+      "asrMatchedText": "Seventh Article.",
+      "approxStartSec": 38.67,
+      "approxStartHMS": "00:00:38",
+      "sourceChunkTimestamp": [
+        38.56,
+        40.46
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the reason is distinct from the intellect?",
+      "asrMatchedText": "8th Article, Question 79, Article 8.",
+      "approxStartSec": 338.13,
+      "approxStartHMS": "00:05:38",
+      "sourceChunkTimestamp": [
+        338,
+        342.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the higher and lower reason are distinct powers?",
+      "asrMatchedText": "9th article.",
+      "approxStartSec": 610.87,
+      "approxStartHMS": "00:10:10",
+      "sourceChunkTimestamp": [
+        610.72,
+        612.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether intelligence is a power distinct from intellect?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the speculative and practical intellects are distinct powers?",
+      "asrMatchedText": "Identical. Question 79, Article 11. 11th article, question 79, Article 11.",
+      "approxStartSec": 1445.47,
+      "approxStartHMS": "00:24:05",
+      "sourceChunkTimestamp": [
+        1443.72,
+        1447.26
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether synderesis is a special power of the soul distinct from the others?",
+      "asrMatchedText": "12th article. Question 79, Article 12.",
+      "approxStartSec": 1687.61,
+      "approxStartHMS": "00:28:07",
+      "sourceChunkTimestamp": [
+        1687.48,
+        1692.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 13,
+      "groundTruthTitle": "Whether conscience be a power?",
+      "asrMatchedText": "13th Article, Question 79, Article 13.",
+      "approxStartSec": 1976.97,
+      "approxStartHMS": "00:32:56",
+      "sourceChunkTimestamp": [
+        1976.84,
+        1981.84
+      ],
+      "matched": true
+    }
+  ]
+}

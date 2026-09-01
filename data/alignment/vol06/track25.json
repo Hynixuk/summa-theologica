@@ -1,0 +1,95 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "25 - Question 20 - OF GOODNESS AND MALICE IN EXTERNAL HUMAN ACTIONS (In Six Articles).mp3",
+  "audioRelPath": "vol06/25 - Question 20 - OF GOODNESS AND MALICE IN EXTERNAL HUMAN ACTIONS (In Six Articles).mp3",
+  "audioDurationSec": 2029.06,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 366.7,
+    "audioProcessedSec": 2029.06,
+    "realtimeFactor": 0.181,
+    "mp3DecodeSec": 3.16
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 20,
+    "title": "Goodness and malice in external human affairs"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether goodness or malice is first in the action of the will, or in the external action?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the whole goodness and malice of the external action depends on the goodness of the will?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 390.67,
+      "approxStartHMS": "00:06:30",
+      "sourceChunkTimestamp": [
+        390.56,
+        392.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the goodness and malice of the external action are the same as those of the interior act?",
+      "asrMatchedText": "applicable to both the interior and external act. Third article,",
+      "approxStartSec": 655.18,
+      "approxStartHMS": "00:10:55",
+      "sourceChunkTimestamp": [
+        649.84,
+        656.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the external action adds any goodness or malice to that of the interior act?",
+      "asrMatchedText": "Fourth Article Whether the external action adds any goodness or malice to that of the",
+      "approxStartSec": 1088.06,
+      "approxStartHMS": "00:18:08",
+      "sourceChunkTimestamp": [
+        1088,
+        1093.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the consequences of the external action increase its goodness or malice?",
+      "asrMatchedText": "Fifth Article. Whether the consequences of the external action increase its goodness",
+      "approxStartSec": 1448.89,
+      "approxStartHMS": "00:24:08",
+      "sourceChunkTimestamp": [
+        1448.82,
+        1455.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether one and the same external action can be both good and evil?",
+      "asrMatchedText": "Sixth Article.",
+      "approxStartSec": 1777.73,
+      "approxStartHMS": "00:29:37",
+      "sourceChunkTimestamp": [
+        1777.6,
+        1779.48
+      ],
+      "matched": true
+    }
+  ]
+}

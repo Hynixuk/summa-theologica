@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "15 - Question 12 - OF THE ACQUIRED OR EMPIRIC KNOWLEDGE OF CHRIST'S SOUL (In Four Art.mp3",
+  "audioRelPath": "vol13/15 - Question 12 - OF THE ACQUIRED OR EMPIRIC KNOWLEDGE OF CHRIST'S SOUL (In Four Art.mp3",
+  "audioDurationSec": 1330.5,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 231.34,
+    "audioProcessedSec": 1330.5,
+    "realtimeFactor": 0.174,
+    "mp3DecodeSec": 2.25
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 12,
+    "title": "The acquired or empiric knowledge of Christ's soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ knew all things by this acquired or empiric knowledge?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 69.55,
+      "approxStartHMS": "00:01:09",
+      "sourceChunkTimestamp": [
+        69.44,
+        71.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ advanced in acquired or empiric knowledge?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 330.1,
+      "approxStartHMS": "00:05:30",
+      "sourceChunkTimestamp": [
+        330,
+        331.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ learned anything from man?",
+      "asrMatchedText": "Third article, whether Christ learned anything from man.",
+      "approxStartSec": 697.31,
+      "approxStartHMS": "00:11:37",
+      "sourceChunkTimestamp": [
+        697.2,
+        703.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ received knowledge from the angels?",
+      "asrMatchedText": "Fourth article, whether Christ received knowledge from the angels.",
+      "approxStartSec": 994.04,
+      "approxStartHMS": "00:16:34",
+      "sourceChunkTimestamp": [
+        993.92,
+        1002.28
+      ],
+      "matched": true
+    }
+  ]
+}

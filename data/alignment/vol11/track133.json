@@ -1,0 +1,54 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "133 - Question 170 - OF THE PRECEPTS OF TEMPERANCE (In Two Articles).mp3",
+  "audioRelPath": "vol11/133 - Question 170 - OF THE PRECEPTS OF TEMPERANCE (In Two Articles).mp3",
+  "audioDurationSec": 642.13,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 106.41,
+    "audioProcessedSec": 642.13,
+    "realtimeFactor": 0.166,
+    "mp3DecodeSec": 0.97
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 170,
+    "title": "The precepts of temperance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the precepts of temperance are suitably given in the Divine law?",
+      "asrMatchedText": "First article, whether the precepts of temperance are suitably given in the Divine Law.",
+      "approxStartSec": 60.34,
+      "approxStartHMS": "00:01:00",
+      "sourceChunkTimestamp": [
+        60.28,
+        65.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the precepts of the virtues annexed to temperance are suitably given in the Divine law?",
+      "asrMatchedText": "Second article",
+      "approxStartSec": 347.94,
+      "approxStartHMS": "00:05:47",
+      "sourceChunkTimestamp": [
+        347.84,
+        349.36
+      ],
+      "matched": true
+    }
+  ]
+}

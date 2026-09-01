@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "36 - Question 79 - OF THE QUASI-INTEGRAL PARTS OF JUSTICE (In Four Articles).mp3",
+  "audioRelPath": "vol11/36 - Question 79 - OF THE QUASI-INTEGRAL PARTS OF JUSTICE (In Four Articles).mp3",
+  "audioDurationSec": 1594.44,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 247.36,
+    "audioProcessedSec": 1594.44,
+    "realtimeFactor": 0.155,
+    "mp3DecodeSec": 2.03
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 79,
+    "title": "The quasi-integral parts of Justice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether to decline from evil and to do good are parts of justice?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 85.38,
+      "approxStartHMS": "00:01:25",
+      "sourceChunkTimestamp": [
+        85.26,
+        87.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether transgression is a special sin?",
+      "asrMatchedText": "Second article, whether transgression formal and competitive part.",
+      "approxStartSec": 443.06,
+      "approxStartHMS": "00:07:23",
+      "sourceChunkTimestamp": [
+        443,
+        447
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether omission is a special sin?",
+      "asrMatchedText": "Third article. Whether omission is a special sin. Objection one. You would seem that omission is not a special sin, for every sin is either",
+      "approxStartSec": 732.52,
+      "approxStartHMS": "00:12:12",
+      "sourceChunkTimestamp": [
+        732.4,
+        749.78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a sin of omission is more grievous than a sin of transgression?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1214.89,
+      "approxStartHMS": "00:20:14",
+      "sourceChunkTimestamp": [
+        1214.76,
+        1216.76
+      ],
+      "matched": true
+    }
+  ]
+}

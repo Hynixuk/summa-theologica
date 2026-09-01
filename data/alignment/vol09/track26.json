@@ -1,0 +1,108 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "26 - Question 109 - OF THE NECESSITY OF GRACE (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol09/26 - Question 109 - OF THE NECESSITY OF GRACE (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 2048.86,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 334.31,
+    "audioProcessedSec": 2048.86,
+    "realtimeFactor": 0.163,
+    "mp3DecodeSec": 2.96
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 109,
+    "title": "The necessity of grace"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether without grace man can know any truth?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether man can wish or do any good without grace?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether by his own natural powers and without grace man can love God above all things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether man without grace and by his own natural powers can fulfil the commandments of the Law?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether man can merit everlasting life without grace?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether a man, by himself and without the external aid of grace, can prepare himself for grace?",
+      "asrMatchedText": "Sixth article. Whether a man by himself and without the external aid of grace can prepare",
+      "approxStartSec": 43.09,
+      "approxStartHMS": "00:00:43",
+      "sourceChunkTimestamp": [
+        43,
+        51.18
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether man can rise from sin without the help of grace?",
+      "asrMatchedText": "7th Article Whether Man Can Rise From Sin Without The Help Of Grace",
+      "approxStartSec": 470.56,
+      "approxStartHMS": "00:07:50",
+      "sourceChunkTimestamp": [
+        470.44,
+        478.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether man without grace can avoid sin?",
+      "asrMatchedText": "8th article whether man without grace can avoid sin.",
+      "approxStartSec": 872.38,
+      "approxStartHMS": "00:14:32",
+      "sourceChunkTimestamp": [
+        872.3,
+        876.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether one who has already obtained grace, can, of himself and without further help of grace, do good and avoid sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether man possessed of grace needs the help of grace in order to persevere?",
+      "asrMatchedText": "10th article, whether man possessed of grace needs the help of grace in order to persevere. Objection one.",
+      "approxStartSec": 1732.59,
+      "approxStartHMS": "00:28:52",
+      "sourceChunkTimestamp": [
+        1732.46,
+        1746.2
+      ],
+      "matched": true
+    }
+  ]
+}

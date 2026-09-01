@@ -1,0 +1,105 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "03 - Question 76 - OF THE UNION OF BODY AND SOUL (In Eight Articles), part 2.mp3",
+  "audioRelPath": "vol04/03 - Question 76 - OF THE UNION OF BODY AND SOUL (In Eight Articles), part 2.mp3",
+  "audioDurationSec": 2357.03,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 536.55,
+    "audioProcessedSec": 2357.03,
+    "realtimeFactor": 0.228,
+    "mp3DecodeSec": 3.64
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 76,
+    "title": "The union of body and soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the intellectual principle is united to the body as its form?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the intellectual principle is multiplied according to the number of bodies?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether besides the intellectual soul there are in man other souls essentially different from one another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in man there is another form besides the intellectual soul?",
+      "asrMatchedText": "union of body and soul part two. Fourth article question 76 article four.",
+      "approxStartSec": 39.74,
+      "approxStartHMS": "00:00:39",
+      "sourceChunkTimestamp": [
+        35.84,
+        44.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the intellectual soul is properly united to such a body?",
+      "asrMatchedText": "Fifth Article, Question 76, Article 5. the intellectual soul is properly united to such a body.",
+      "approxStartSec": 660.42,
+      "approxStartHMS": "00:11:00",
+      "sourceChunkTimestamp": [
+        660.32,
+        669.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the intellectual soul is united to the body through the medium of accidental dispositions?",
+      "asrMatchedText": "variety and for any number of purposes. Sixth Article, question 76, article 6.",
+      "approxStartSec": 1156.36,
+      "approxStartHMS": "00:19:16",
+      "sourceChunkTimestamp": [
+        1151.82,
+        1160.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the soul is united to the animal body by means of a body?",
+      "asrMatchedText": "Seventh Article",
+      "approxStartSec": 1471.19,
+      "approxStartHMS": "00:24:31",
+      "sourceChunkTimestamp": [
+        1471.04,
+        1473.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the soul is in each part of the body?",
+      "asrMatchedText": "Eighth Article, Question 76, Article 8",
+      "approxStartSec": 1817.55,
+      "approxStartHMS": "00:30:17",
+      "sourceChunkTimestamp": [
+        1817.44,
+        1821.84
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "52 - Question 44 - OF THE PRECEPTS OF CHARITY (In Eight Articles).mp3",
+  "audioRelPath": "vol10/52 - Question 44 - OF THE PRECEPTS OF CHARITY (In Eight Articles).mp3",
+  "audioDurationSec": 2468.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 522.15,
+    "audioProcessedSec": 2468.78,
+    "realtimeFactor": 0.212,
+    "mp3DecodeSec": 7.05
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 44,
+    "title": "The precepts of charity"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether any precept should be given about charity?",
+      "asrMatchedText": "First article, whether any precept should be given about charity.",
+      "approxStartSec": 100.22,
+      "approxStartHMS": "00:01:40",
+      "sourceChunkTimestamp": [
+        100.12,
+        107.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there should have been given two precepts of charity?",
+      "asrMatchedText": "Second article whether there should have been given two precepts of charity.",
+      "approxStartSec": 471.34,
+      "approxStartHMS": "00:07:51",
+      "sourceChunkTimestamp": [
+        471.28,
+        476.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether two precepts of charity suffice?",
+      "asrMatchedText": "Third article, whether two precepts of charity suffice.",
+      "approxStartSec": 786.33,
+      "approxStartHMS": "00:13:06",
+      "sourceChunkTimestamp": [
+        786.22,
+        792.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is fittingly commanded that man should love God with his whole heart?",
+      "asrMatchedText": "Fourth article, whether it is fittingly commanded that man should love God with his whole heart.",
+      "approxStartSec": 1118.09,
+      "approxStartHMS": "00:18:38",
+      "sourceChunkTimestamp": [
+        1118,
+        1126.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether to the words, \"Thou shalt love the Lord thy God with thy whole heart,\" it was fitting to add \"and with thy whole soul, and with thy whole strength\"?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is possible in this life to fulfil this precept of the love of God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the precept of love of our neighbor is fittingly expressed?",
+      "asrMatchedText": "Seventh Article Whether the precept of love of our neighbor is fittingly expressed.",
+      "approxStartSec": 1979.32,
+      "approxStartHMS": "00:32:59",
+      "sourceChunkTimestamp": [
+        1979.22,
+        1987.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the order of charity is included in the precept?",
+      "asrMatchedText": "Eighth article, whether the order of charity is included in the precept.",
+      "approxStartSec": 2202.98,
+      "approxStartHMS": "00:36:42",
+      "sourceChunkTimestamp": [
+        2202.88,
+        2210
+      ],
+      "matched": true
+    }
+  ]
+}

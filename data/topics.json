@@ -1,0 +1,247 @@
+[
+  {
+    "id": "atheist-existence-of-god",
+    "category": "atheist",
+    "question": "Can God's existence actually be proven by reason, or is belief in God simply an unfounded assumption?",
+    "summary": "Aquinas holds that God's existence is not self-evident to us (though it is in itself), but that it can be demonstrated from His effects. Article 3 gives the famous \"Five Ways\": arguments from motion, efficient causality, contingency, the gradation of perfection, and the governance of things toward an end, each concluding to a first cause that \"everyone understands to be God.\"",
+    "references": [
+      { "work": "ST", "part": 1, "question": 2, "article": 2 },
+      { "work": "ST", "part": 1, "question": 2, "article": 3 }
+    ]
+  },
+  {
+    "id": "atheist-explanatory-superfluity",
+    "category": "atheist",
+    "question": "If nature and human reason already explain everything we observe, isn't positing God explanatorily unnecessary (an Ockham's-razor style objection)?",
+    "summary": "Aquinas states the objection directly in Q2 A3 (\"it is superfluous to suppose that what can be accounted for by a few principles has been produced by many... there is no need to suppose God's existence\") and answers that natural and voluntary causes are themselves in need of a first, unchanging cause, since anything changeable and contingent must ultimately be traced back to God.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 2, "article": 3 }
+    ]
+  },
+  {
+    "id": "atheist-problem-of-evil",
+    "category": "atheist",
+    "question": "If God is all-good and all-powerful, why does evil exist at all?",
+    "summary": "Aquinas treats this (citing Isaiah 45 and the philosopher's question relayed by Boethius, \"if there be a God, whence comes evil?\") as the single strongest argument against God's existence, and answers that God's infinite goodness is precisely what permits evil to exist, since He is powerful enough to draw good out of it. Q49 distinguishes the \"evil of fault\" (sin, never caused by God) from the \"evil of penalty\" (justly permitted), and SCG III.71 argues that a world incapable of any defect would actually be a less perfect universe.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 2, "article": 3 },
+      { "work": "ST", "part": 1, "question": 49, "article": 1 },
+      { "work": "ST", "part": 1, "question": 49, "article": 2 },
+      { "work": "SCG", "book": 3, "chapter": 71 }
+    ]
+  },
+  {
+    "id": "atheist-eternity-of-world",
+    "category": "atheist",
+    "question": "Doesn't an eternal or beginningless universe rule out the need for a Creator?",
+    "summary": "Aquinas argues that reason alone cannot demonstrate whether the world had a temporal beginning or not — only revelation establishes creation in time. He shows that the world's total dependence on God as its cause does not by itself require the world to have started at a particular moment, and in SCG II he works through and answers the standard Aristotelian arguments for the world's eternity one by one.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 46, "article": 1 },
+      { "work": "ST", "part": 1, "question": 46, "article": 2 },
+      { "work": "SCG", "book": 2, "chapter": 31 },
+      { "work": "SCG", "book": 2, "chapter": 34 },
+      { "work": "SCG", "book": 2, "chapter": 38 }
+    ]
+  },
+  {
+    "id": "atheist-free-will-vs-providence",
+    "category": "atheist",
+    "question": "If God causes and governs everything through providence, isn't human free will an illusion?",
+    "summary": "Aquinas argues that man has genuine free-will because reason, unlike animal instinct, can weigh and choose between contingent alternatives rather than being fixed to one response. SCG III.73 goes further: divine providence does not eliminate freedom but actually preserves it, since providence governs each thing according to its own nature, and the very nature of the will is to be a contingent, self-determining cause.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 83, "article": 1 },
+      { "work": "SCG", "book": 3, "chapter": 73 }
+    ]
+  },
+  {
+    "id": "atheist-soul-and-death",
+    "category": "atheist",
+    "question": "Is the human soul just brain activity — does the self simply end at bodily death?",
+    "summary": "Aquinas argues the intellectual soul is a \"subsistent form\" that does not depend on the body for its own act of existing, even though it depends on the body for sense-based operations like imagination. Because generation and corruption belong properly to composite things and a subsistent form cannot be separated from its own act of being, the soul cannot be corrupted when the body is; SCG II.79 develops several parallel arguments to the same conclusion.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 75, "article": 6 },
+      { "work": "SCG", "book": 2, "chapter": 79 }
+    ]
+  },
+  {
+    "id": "atheist-miracles-violate-nature",
+    "category": "atheist",
+    "question": "Aren't miracles impossible, since they would violate the fixed laws of nature?",
+    "summary": "Aquinas distinguishes the order that flows directly from God as first cause (which He cannot act against without acting against Himself) from the order among secondary, created causes, which is not a necessary law binding God but a pattern He freely instituted. Because God is not subject to that secondary order, He can act outside it \"when He chooses\" — which is not a violation of nature but an exercise of the very authority by which nature's order exists at all.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 105, "article": 6 },
+      { "work": "ST", "part": 1, "question": 105, "article": 7 }
+    ]
+  },
+  {
+    "id": "atheist-faith-vs-reason",
+    "category": "atheist",
+    "question": "Is religious belief inherently irrational — a matter of blind faith opposed to reason?",
+    "summary": "Aquinas argues that truths naturally known by reason cannot conflict with the truths of faith, since both ultimately derive from the same divine source: God, who is the author of both nature and revelation, does not \"teach insincerely.\" Arguments that seem to refute the faith are therefore not truly demonstrative but merely probable or sophistical, and can in principle be answered.",
+    "references": [
+      { "work": "SCG", "book": 1, "chapter": 7 }
+    ]
+  },
+  {
+    "id": "muslim-trinity-and-tawhid",
+    "category": "muslim",
+    "question": "Doesn't belief in the Trinity (Father, Son, and Holy Spirit) compromise the strict unity of God (tawhid)?",
+    "summary": "Aquinas holds that the divine essence is absolutely one and simple — there are not three gods, nor is God divided into parts. The \"three persons\" are not three separate substances but three really-distinct relations of origin (paternity, filiation, procession) subsisting within that one undivided essence and act of being, so that God remains strictly and numerically one even as three persons are distinguished within Him.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 11, "article": 3 },
+      { "work": "ST", "part": 1, "question": 30, "article": 1 },
+      { "work": "SCG", "book": 1, "chapter": 42 }
+    ]
+  },
+  {
+    "id": "muslim-son-of-god",
+    "category": "muslim",
+    "question": "How can God have a \"Son\"? Doesn't begetting imply a bodily, creaturely process unworthy of God?",
+    "summary": "Aquinas distinguishes bodily generation (which involves matter, change, and time) from an eternal, purely intellectual \"generation,\" whereby the Father's perfect self-understanding eternally produces the Word — the Son — who shares the very same undivided divine nature rather than being a separate, created, or younger being. SCG IV.3 marshals scriptural texts to argue that the one called \"Son\" and \"Word\" is truly God, not a lesser or created intermediary.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 27, "article": 2 },
+      { "work": "SCG", "book": 4, "chapter": 3 }
+    ]
+  },
+  {
+    "id": "muslim-incarnation-of-transcendent-god",
+    "category": "muslim",
+    "question": "How could the infinite, transcendent God become a finite human being without this being a contradiction or a degradation of His majesty?",
+    "summary": "Aquinas answers an objection stating almost exactly this worry (that God and flesh are \"infinitely apart\") by arguing that the Incarnation is a union in one person, not a mixture, dilution, or change in the divine nature itself, and that it is supremely fitting because it manifests God's goodness, wisdom, justice, and power more perfectly than any other possible act, while giving humanity the firmest possible assurance of the path to union with God.",
+    "references": [
+      { "work": "ST", "part": 4, "question": 1, "article": 1 },
+      { "work": "SCG", "book": 4, "chapter": 54 }
+    ]
+  },
+  {
+    "id": "jewish-old-law-and-new-law",
+    "category": "jewish",
+    "question": "If God's Law was given definitively to Israel through Moses, on what grounds does Christianity claim a superseding \"New Law\" for all nations?",
+    "summary": "Aquinas explains that the Old Law was given specifically to the Jewish people to preserve true worship of the one God, prior to Christ, within the one nation from which the Redeemer would come. He argues the New Law is not a different God's law or a rejection of the Old, but its fulfilment: both share the same end (man's subjection to God), while the New Law — as the perfected \"law of the Gospel\" grounded in grace and charity — supersedes the Old Law's role as a provisional, pedagogical stage, comparable to a child's schooling giving way to the maturity it was preparing him for.",
+    "references": [
+      { "work": "ST", "part": 2, "question": 98, "article": 4 },
+      { "work": "ST", "part": 2, "question": 107, "article": 1 },
+      { "work": "ST", "part": 2, "question": 107, "article": 2 }
+    ]
+  },
+  {
+    "id": "hindu-pantheism-vs-creator",
+    "category": "hindu",
+    "question": "Is the divine identical with the universe itself (as in pantheist and monist views), rather than a Creator distinct from His creation?",
+    "summary": "Aquinas explicitly rejects the views that \"God is the world-soul,\" or \"the formal principle of all things,\" or identical with the being of all created things, naming and refuting each as an error. He argues God, as the first efficient cause and pure act, cannot enter into composition with anything as a part, matter, or form, since He would then be dependent on and limited by what He supposedly constitutes — He is the transcendent cause of all being, not the being of all things taken collectively.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 3, "article": 8 },
+      { "work": "SCG", "book": 1, "chapter": 26 },
+      { "work": "SCG", "book": 1, "chapter": 27 }
+    ]
+  },
+  {
+    "id": "hindu-many-gods-or-one",
+    "category": "hindu",
+    "question": "If there can be many divine or god-like beings, why must the ultimate source of reality be a single God rather than a plurality?",
+    "summary": "Aquinas argues from divine simplicity, infinite perfection, and the unity of order in the world that there can only be one God. If several gods existed they would have to differ from one another, meaning at least one would lack some perfection another had — but the very idea of \"God\" is of a being lacking no perfection whatsoever, so a plurality of such beings is self-contradictory; a single ordered universe likewise points to a single first orderer.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 11, "article": 3 },
+      { "work": "SCG", "book": 1, "chapter": 42 }
+    ]
+  },
+  {
+    "id": "hindu-reincarnation-vs-resurrection",
+    "category": "hindu",
+    "question": "Does the soul pass through repeated cycles of death and rebirth across many lifetimes, or does each person live once and then await a single bodily resurrection?",
+    "summary": "Aquinas argues at length that the human soul, once reunited to its body at the resurrection, will never die again: he explicitly rejects a scenario of repeated death-and-life cycles as \"unseemly,\" arguing that God's action tends toward a definite, perpetual end rather than an endless alternation. Bodily resurrection (not transmigration into a new body) is what properly completes human nature, since man is essentially soul-and-body together, not a soul that discards one body for another.",
+    "references": [
+      { "work": "SCG", "book": 4, "chapter": 79 },
+      { "work": "SCG", "book": 4, "chapter": 82 }
+    ]
+  },
+  {
+    "id": "hindu-creation-vs-emanation",
+    "category": "hindu",
+    "question": "Does the world flow of necessity from the divine (as in emanationist cosmologies), or is it freely created out of nothing?",
+    "summary": "Aquinas argues every being other than God exists only \"by participation\" in the one self-subsisting Being, and that God — requiring no pre-existing matter and acting as the universal, not merely a particular, cause — brings things into existence \"out of nothing\" rather than shaping or emanating them of necessity from His own substance.",
+    "references": [
+      { "work": "ST", "part": 1, "question": 44, "article": 1 },
+      { "work": "SCG", "book": 2, "chapter": 16 }
+    ]
+  },
+  {
+    "id": "protestant-transubstantiation",
+    "category": "non-catholic-christian",
+    "question": "Is Christ's body and blood truly, substantially present in the Eucharist (transubstantiation), or is the bread and wine only a symbol or spiritual sign?",
+    "summary": "Aquinas answers the symbolic reading directly, arguing from Scripture and the Fathers that Christ's true body and blood are present in the sacrament \"in very truth,\" not merely as a figure — a presence detected \"by faith alone,\" not by the senses, since the sacrament's outward appearances (of bread and wine) remain even as their substance is changed.",
+    "references": [
+      { "work": "ST", "part": 4, "question": 75, "article": 1 }
+    ]
+  },
+  {
+    "id": "protestant-purgatory",
+    "category": "non-catholic-christian",
+    "question": "Is there a state of purification after death (purgatory) for souls not yet ready for heaven, or does judgment at death admit only heaven or hell?",
+    "summary": "Aquinas holds that souls are rewarded or punished immediately after death, but that souls who die with some remaining, non-mortal debt of punishment for sin cannot yet receive the vision of God until fully cleansed; this cleansing after death by punishment is, he writes, \"why we hold that there is a Purgatory,\" citing 1 Corinthians 3:15 and the Church's practice of praying for the dead.",
+    "references": [
+      { "work": "SCG", "book": 4, "chapter": 91 },
+      { "work": "ST", "part": 4, "question": 52, "article": 8 }
+    ]
+  },
+  {
+    "id": "protestant-merit-and-justification",
+    "category": "non-catholic-christian",
+    "question": "Can a person truly \"merit\" anything from God through good works, or is justification by faith alone, apart from any human contribution?",
+    "summary": "Aquinas holds that man can genuinely merit reward from God, not on terms of strict equality (impossible given the infinite gap between creature and Creator), but by a fitting proportion established by God's own ordination, so that a person's free, grace-assisted action truly earns what God has ordained it to obtain — while immediately clarifying (in the article on the justification of the ungodly) that this initial remission of sin and infusion of grace is itself God's gift, not something the sinner merits beforehand.",
+    "references": [
+      { "work": "ST", "part": 2, "question": 114, "article": 1 },
+      { "work": "ST", "part": 2, "question": 113, "article": 1 }
+    ]
+  },
+  {
+    "id": "protestant-marian-doctrine",
+    "category": "non-catholic-christian",
+    "question": "Do Catholic teachings about Mary's exceptional holiness go beyond what Scripture actually establishes about her?",
+    "summary": "Aquinas devotes an extended discussion to the exact manner and timing of Mary's sanctification, concluding — notably, against the later-defined 1854 dogma of the Immaculate Conception — that she was cleansed from original sin only after her soul was infused (\"after animation\"), reasoning that had she never contracted original sin at all, she would not have needed Christ's universal redemption. The passage shows Aquinas working carefully from theological principle rather than simply asserting Marian privilege, even where his conclusion was later revised by the Church.",
+    "references": [
+      { "work": "ST", "part": 4, "question": 27, "article": 2 }
+    ]
+  },
+  {
+    "id": "protestant-priesthood",
+    "category": "non-catholic-christian",
+    "question": "Is an ordained priesthood, distinct from the ordinary faithful, actually necessary — or can any believer consecrate the sacraments and minister in Christ's place?",
+    "summary": "Aquinas argues that consecrating the Eucharist belongs to priests alone, because whoever acts in another's place (here, in the very person of Christ) must be given the power to do so, and this power is specifically conferred at ordination, not automatically possessed by every devout believer through charity or baptism alone.",
+    "references": [
+      { "work": "ST", "part": 4, "question": 82, "article": 1 }
+    ]
+  },
+  {
+    "id": "protestant-seven-sacraments",
+    "category": "non-catholic-christian",
+    "question": "Are physical rites and sacraments really necessary for salvation, or is an inward, invisible faith sufficient on its own?",
+    "summary": "Aquinas argues sacraments are necessary for salvation because human nature is led from bodily, sensible things to spiritual realities, and because visible signs are needed to unite believers within one religion (citing Augustine). He gives seven as the fitting number of sacraments, addressing at length the objection that one sacrament (or none) should suffice since Christ's Passion and grace are already sufficient in themselves.",
+    "references": [
+      { "work": "ST", "part": 4, "question": 61, "article": 1 },
+      { "work": "ST", "part": 4, "question": 65, "article": 1 }
+    ]
+  },
+  {
+    "id": "protestant-sacramental-confession",
+    "category": "non-catholic-christian",
+    "question": "Must sins be confessed to a priest and absolved sacramentally, or is sincere sorrow and repentance directly to God enough?",
+    "summary": "Aquinas distinguishes what is absolutely necessary for salvation (like baptism) from what is necessary only on the supposition of mortal sin: for anyone who has sinned after baptism, he argues sacramental Penance — contrition, confession, and satisfaction, with the priest's absolution applying the power of Christ's Passion — is necessary, answering directly the objection that a \"good will\" or inward sorrow alone should be sufficient.",
+    "references": [
+      { "work": "ST", "part": 4, "question": 84, "article": 5 }
+    ]
+  },
+  {
+    "id": "incarnation-is-jesus-god",
+    "category": "muslim",
+    "question": "Is Jesus God? Can God become human without ceasing to be God?",
+    "summary": "Aquinas holds that Jesus Christ is truly God — the eternal Word who assumed human nature without abandoning His divine nature or ceasing to be God. He distinguishes carefully: the Word did not become man in the sense that God was transformed into humanity, but rather that the Word united Himself to a human nature in the Incarnation, so that Christ is one Person with two complete natures (divine and human). This answers the Islamic objection that such a union would contradict God's transcendence and unity (tawhid): Aquinas shows how God's infinite power permits the Incarnation without contradiction, and how Christ's divinity coexists with true humanity.",
+    "references": [
+      { "work": "ST", "part": 3, "question": 1, "article": 1 },
+      { "work": "ST", "part": 3, "question": 2, "article": 1 },
+      { "work": "ST", "part": 3, "question": 3, "article": 1 },
+      { "work": "ST", "part": 1, "question": 27, "article": 1 },
+      { "work": "SCG", "book": 4, "chapter": 27 }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "07 - Question 5 - OF THE PARTS OF HUMAN NATURE WHICH WERE ASSUMED (In Four Articles).mp3",
+  "audioRelPath": "vol13/07 - Question 5 - OF THE PARTS OF HUMAN NATURE WHICH WERE ASSUMED (In Four Articles).mp3",
+  "audioDurationSec": 1800.8,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 442.54,
+    "audioProcessedSec": 1800.8,
+    "realtimeFactor": 0.246,
+    "mp3DecodeSec": 6.28
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 5,
+    "title": "The parts of human nature which were assumed"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the Son of God ought to have assumed a true body?",
+      "asrMatchedText": "First article, whether the Son of God ought to have assumed a true body.",
+      "approxStartSec": 71.1,
+      "approxStartHMS": "00:01:11",
+      "sourceChunkTimestamp": [
+        71,
+        78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Son of God ought to have assumed a carnal or earthly body?",
+      "asrMatchedText": "Second article, whether the Son of God ought to have assumed a carnal or earthly body.",
+      "approxStartSec": 458.14,
+      "approxStartHMS": "00:07:38",
+      "sourceChunkTimestamp": [
+        458,
+        470.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the Son of God assumed a soul?",
+      "asrMatchedText": "Third article. Whether the Son of God assumed a soul. in clay.",
+      "approxStartSec": 820.73,
+      "approxStartHMS": "00:13:40",
+      "sourceChunkTimestamp": [
+        820.64,
+        826.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Son of God assumed a human mind or intellect?",
+      "matched": false
+    }
+  ]
+}

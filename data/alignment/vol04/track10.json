@@ -1,0 +1,90 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "10 - Question 82 - OF THE WILL (In Five Articles).mp3",
+  "audioRelPath": "vol04/10 - Question 82 - OF THE WILL (In Five Articles).mp3",
+  "audioDurationSec": 1427.38,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 499.18,
+    "audioProcessedSec": 1427.38,
+    "realtimeFactor": 0.35,
+    "mp3DecodeSec": 3.19
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 82,
+    "title": "The will"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the will desires something of necessity?",
+      "asrMatchedText": "1. First article.",
+      "approxStartSec": 62.47,
+      "approxStartHMS": "00:01:02",
+      "sourceChunkTimestamp": [
+        62.04,
+        63.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the will desires of necessity, whatever it desires?",
+      "asrMatchedText": "Second article. One, Question 82, Article 2. Whether the will desires of necessity whatever",
+      "approxStartSec": 329.11,
+      "approxStartHMS": "00:05:29",
+      "sourceChunkTimestamp": [
+        329.04,
+        335.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the will is a higher power than the intellect?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 562.07,
+      "approxStartHMS": "00:09:22",
+      "sourceChunkTimestamp": [
+        562,
+        563
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the will moves the intellect?",
+      "asrMatchedText": "Fourth Article 1, Question Edge 2, Article 4, whether the will moves the intellect.",
+      "approxStartSec": 837.56,
+      "approxStartHMS": "00:13:57",
+      "sourceChunkTimestamp": [
+        837.48,
+        844.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether we should distinguish irascible and concupiscible parts in the superior appetite?",
+      "asrMatchedText": "Fifth article. 1. Question 82. Article 5. Whether we should distinguish irascible and",
+      "approxStartSec": 1135.11,
+      "approxStartHMS": "00:18:55",
+      "sourceChunkTimestamp": [
+        1135.04,
+        1141.12
+      ],
+      "matched": true
+    }
+  ]
+}

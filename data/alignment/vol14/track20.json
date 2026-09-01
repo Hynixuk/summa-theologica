@@ -1,0 +1,95 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "20 - Question 73 - THE SACRAMENT OF THE EUCHARIST (In Six Articles).mp3",
+  "audioRelPath": "vol14/20 - Question 73 - THE SACRAMENT OF THE EUCHARIST (In Six Articles).mp3",
+  "audioDurationSec": 2027.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 589.66,
+    "audioProcessedSec": 2027.01,
+    "realtimeFactor": 0.291,
+    "mp3DecodeSec": 6.8
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 73,
+    "title": "The sacrament of the Eucharist"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the Eucharist is a sacrament?",
+      "asrMatchedText": "First article, whether the Eucharist is a sacrament.",
+      "approxStartSec": 80.09,
+      "approxStartHMS": "00:01:20",
+      "sourceChunkTimestamp": [
+        80,
+        85
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Eucharist is one sacrament or several?",
+      "asrMatchedText": "Second article. Whether the Eucharist is one sacrament or several.",
+      "approxStartSec": 437.06,
+      "approxStartHMS": "00:07:17",
+      "sourceChunkTimestamp": [
+        436.96,
+        443.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the Eucharist is necessary for salvation?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 680.59,
+      "approxStartHMS": "00:11:20",
+      "sourceChunkTimestamp": [
+        680.48,
+        682.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether this sacrament is suitably called by various names?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the institution of this sacrament was appropriate?",
+      "asrMatchedText": "Fifth article, whether the institution of the sacrament was appropriate.",
+      "approxStartSec": 1333.34,
+      "approxStartHMS": "00:22:13",
+      "sourceChunkTimestamp": [
+        1333.28,
+        1338
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the Paschal Lamb was the chief figure of this sacrament?",
+      "asrMatchedText": "6th article, whether the Paschal Lamb was the chief figure of this sacrament. Objection 1, it seems that the Pascal Lam was the chief figure of this sacrament.",
+      "approxStartSec": 1755.27,
+      "approxStartHMS": "00:29:15",
+      "sourceChunkTimestamp": [
+        1755.2,
+        1765.7
+      ],
+      "matched": true
+    }
+  ]
+}

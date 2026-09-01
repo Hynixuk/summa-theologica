@@ -1,0 +1,78 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "27 - Question 48 - OF THE EFFECTS OF ANGER (In Four Articles).mp3",
+  "audioRelPath": "vol07/27 - Question 48 - OF THE EFFECTS OF ANGER (In Four Articles).mp3",
+  "audioDurationSec": 1437.91,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 253.28,
+    "audioProcessedSec": 1437.91,
+    "realtimeFactor": 0.176,
+    "mp3DecodeSec": 2.1
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 48,
+    "title": "The effects of anger"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether anger causes pleasure?",
+      "asrMatchedText": "First article, whether anger causes pleasure.",
+      "approxStartSec": 69.89,
+      "approxStartHMS": "00:01:09",
+      "sourceChunkTimestamp": [
+        69.76,
+        75.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether anger above all causes fervor in the heart?",
+      "asrMatchedText": "Second article, whether anger above all causes fervor in the heart.",
+      "approxStartSec": 343.14,
+      "approxStartHMS": "00:05:43",
+      "sourceChunkTimestamp": [
+        343,
+        352.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether anger above all hinders the use of reason?",
+      "asrMatchedText": "Third article, whether anger above all hinders the use of reason.",
+      "approxStartSec": 808.09,
+      "approxStartHMS": "00:13:28",
+      "sourceChunkTimestamp": [
+        808,
+        814
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether anger above all causes taciturnity?",
+      "asrMatchedText": "Fourth article, whether anger above all causes taciturnity.",
+      "approxStartSec": 1146.47,
+      "approxStartHMS": "00:19:06",
+      "sourceChunkTimestamp": [
+        1146.36,
+        1153.2
+      ],
+      "matched": true
+    }
+  ]
+}

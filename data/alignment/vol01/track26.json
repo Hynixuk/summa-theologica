@@ -1,0 +1,102 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "26 - 25 - Question 25 The Power of God.mp3",
+  "audioRelPath": "vol01/26 - 25 - Question 25 The Power of God.mp3",
+  "audioDurationSec": 2089.46,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 372.64,
+    "audioProcessedSec": 2089.46,
+    "realtimeFactor": 0.178,
+    "mp3DecodeSec": 3.59
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 25,
+    "title": "The power of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is power in God?",
+      "asrMatchedText": "First article, whether there is power in God.",
+      "approxStartSec": 72.88,
+      "approxStartHMS": "00:01:12",
+      "sourceChunkTimestamp": [
+        72.8,
+        76.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the power of God is infinite?",
+      "asrMatchedText": "Second article, whether the power of God is infinite.",
+      "approxStartSec": 366.65,
+      "approxStartHMS": "00:06:06",
+      "sourceChunkTimestamp": [
+        366.56,
+        371.34
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God is omnipotent?",
+      "asrMatchedText": "Third Article, Whether God is Omnipotent",
+      "approxStartSec": 646.88,
+      "approxStartHMS": "00:10:46",
+      "sourceChunkTimestamp": [
+        646.8,
+        650.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether God can make the past not to have been?",
+      "asrMatchedText": "Fourth article, whether God can make the past not to have been.",
+      "approxStartSec": 1167.37,
+      "approxStartHMS": "00:19:27",
+      "sourceChunkTimestamp": [
+        1167.28,
+        1173.14
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether God can do what He does not?",
+      "asrMatchedText": "Fifth article, whether God can do what he does not.",
+      "approxStartSec": 1409.08,
+      "approxStartHMS": "00:23:29",
+      "sourceChunkTimestamp": [
+        1409,
+        1413
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether God can do better than what He does?",
+      "asrMatchedText": "6th Article, Whether God Can Do Better Than What He Does In chapter 1, it seems that God cannot do better than what he does.",
+      "approxStartSec": 1799.46,
+      "approxStartHMS": "00:29:59",
+      "sourceChunkTimestamp": [
+        1799.4,
+        1806.36
+      ],
+      "matched": true
+    }
+  ]
+}

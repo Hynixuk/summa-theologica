@@ -1,0 +1,102 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "02 - Question 50 - OF THE SUBJECT OF HABITS (In Six Articles).mp3",
+  "audioRelPath": "vol08/02 - Question 50 - OF THE SUBJECT OF HABITS (In Six Articles).mp3",
+  "audioDurationSec": 2565.43,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 481.78,
+    "audioProcessedSec": 2565.43,
+    "realtimeFactor": 0.188,
+    "mp3DecodeSec": 3.96
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 50,
+    "title": "The subject of habits"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is a habit in the body?",
+      "asrMatchedText": "First article, whether there is a habit in the body.",
+      "approxStartSec": 80.13,
+      "approxStartHMS": "00:01:20",
+      "sourceChunkTimestamp": [
+        80,
+        87
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the soul is the subject of habit in respect of its essence or in respect of its power?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 610.43,
+      "approxStartHMS": "00:10:10",
+      "sourceChunkTimestamp": [
+        610.08,
+        615.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there can be any habits in the powers of the sensitive parts?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 939.13,
+      "approxStartHMS": "00:15:39",
+      "sourceChunkTimestamp": [
+        939,
+        941
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there is any habit in the intellect?",
+      "asrMatchedText": "Fourth Article Whether there is any habit in the intellect",
+      "approxStartSec": 1297.96,
+      "approxStartHMS": "00:21:37",
+      "sourceChunkTimestamp": [
+        1297.86,
+        1304.02
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether any habit is in the will?",
+      "asrMatchedText": "Fifth article, whether any habit is in the will.",
+      "approxStartSec": 1806.16,
+      "approxStartHMS": "00:30:06",
+      "sourceChunkTimestamp": [
+        1806,
+        1814
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there are habits in the angels?",
+      "asrMatchedText": "6th article. with in order that action may follow more promptly.",
+      "approxStartSec": 2084.06,
+      "approxStartHMS": "00:34:44",
+      "sourceChunkTimestamp": [
+        2084,
+        2087.84
+      ],
+      "matched": true
+    }
+  ]
+}

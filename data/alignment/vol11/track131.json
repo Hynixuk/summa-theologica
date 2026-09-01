@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "131 - Question 168 - OF MODESTY AS CONSISTING IN THE OUTWARD MOVEMENTS OF THE BODY (In.mp3",
+  "audioRelPath": "vol11/131 - Question 168 - OF MODESTY AS CONSISTING IN THE OUTWARD MOVEMENTS OF THE BODY (In.mp3",
+  "audioDurationSec": 1956.9,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 287.87,
+    "audioProcessedSec": 1956.9,
+    "realtimeFactor": 0.147,
+    "mp3DecodeSec": 2.28
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 168,
+    "title": "Modesty as consisting in the outward movements of the body"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether any virtue regards the outward movements of the body?",
+      "asrMatchedText": "First article. Whether any virtue regards the outward movements... insisting in lack of play.",
+      "approxStartSec": 82.04,
+      "approxStartHMS": "00:01:22",
+      "sourceChunkTimestamp": [
+        82,
+        85.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there can be a virtue about games?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 613.51,
+      "approxStartHMS": "00:10:13",
+      "sourceChunkTimestamp": [
+        613.38,
+        615.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there can be sin in the excess of play?",
+      "asrMatchedText": "Third Article Whether there can be sin in the excess of play.",
+      "approxStartSec": 1235.15,
+      "approxStartHMS": "00:20:35",
+      "sourceChunkTimestamp": [
+        1235.04,
+        1241.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there is a sin in lack of mirth?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "14 - Question 115 - OF THE ACTION OF THE CORPOREAL CREATURE (In Six Articles).mp3",
+  "audioRelPath": "vol05/14 - Question 115 - OF THE ACTION OF THE CORPOREAL CREATURE (In Six Articles).mp3",
+  "audioDurationSec": 2363.8,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 407.29,
+    "audioProcessedSec": 2363.8,
+    "realtimeFactor": 0.172,
+    "mp3DecodeSec": 3.54
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 115,
+    "title": "The action of the corporeal creature"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a body can be active?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there are any seminal virtues in corporeal matter?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the heavenly bodies are the cause of what is produced in bodies here below?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the heavenly bodies are the cause of human actions?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether heavenly bodies can act on the demons?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether heavenly bodies impose necessity on things subject to their action?",
+      "matched": false
+    }
+  ]
+}

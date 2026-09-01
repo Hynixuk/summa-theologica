@@ -1,0 +1,102 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "53 - Question 45 - OF THE GIFT OF WISDOM (In Six Articles).mp3",
+  "audioRelPath": "vol10/53 - Question 45 - OF THE GIFT OF WISDOM (In Six Articles).mp3",
+  "audioDurationSec": 2008.53,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 366.42,
+    "audioProcessedSec": 2008.53,
+    "realtimeFactor": 0.182,
+    "mp3DecodeSec": 3.64
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 45,
+    "title": "The gift of wisdom"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether wisdom should be reckoned among the gifts of the Holy Ghost?",
+      "asrMatchedText": "which beatitude corresponds to it? First article, whether wisdom should be reckoned",
+      "approxStartSec": 92.14,
+      "approxStartHMS": "00:01:32",
+      "sourceChunkTimestamp": [
+        88.16,
+        97.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether wisdom is in the intellect as its subject?",
+      "asrMatchedText": "Second article, whether wisdom is that he has a right judgment about divine things.",
+      "approxStartSec": 523.05,
+      "approxStartHMS": "00:08:43",
+      "sourceChunkTimestamp": [
+        523,
+        527
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether wisdom is merely speculative, or practical also?",
+      "asrMatchedText": "Third article. Their wisdom is merely a... knowledge, according to human ideas.",
+      "approxStartSec": 803.88,
+      "approxStartHMS": "00:13:23",
+      "sourceChunkTimestamp": [
+        803.84,
+        807
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether wisdom can be without grace, and with mortal sin?",
+      "asrMatchedText": "Fourth article. Whether wisdom can be without grace and with mortal sin.",
+      "approxStartSec": 1054.02,
+      "approxStartHMS": "00:17:34",
+      "sourceChunkTimestamp": [
+        1053.9,
+        1062.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether wisdom is in all who have grace?",
+      "asrMatchedText": "Fifth article, whether wisdom is in all who have grace.",
+      "approxStartSec": 1286.31,
+      "approxStartHMS": "00:21:26",
+      "sourceChunkTimestamp": [
+        1286.2,
+        1292.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the seventh beatitude corresponds to the gift of wisdom?",
+      "asrMatchedText": "Sixth article whether the seventh beatitude corresponds to the gift of wisdom.",
+      "approxStartSec": 1562.73,
+      "approxStartHMS": "00:26:02",
+      "sourceChunkTimestamp": [
+        1562.64,
+        1569.52
+      ],
+      "matched": true
+    }
+  ]
+}

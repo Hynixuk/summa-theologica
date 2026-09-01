@@ -1,0 +1,59 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "63 - Question 102 - OF OBSERVANCE, CONSIDERED IN ITSELF, AND OF ITS PARTS (In Three A.mp3",
+  "audioRelPath": "vol11/63 - Question 102 - OF OBSERVANCE, CONSIDERED IN ITSELF, AND OF ITS PARTS (In Three A.mp3",
+  "audioDurationSec": 1010.02,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 152.34,
+    "audioProcessedSec": 1010.02,
+    "realtimeFactor": 0.151,
+    "mp3DecodeSec": 1.41
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 102,
+    "title": "Observance, considered in itself, and its parts"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether observance is a special virtue, distinct from other virtues?",
+      "asrMatchedText": "First article, whether observance is a special virtue distinct from other virtues.",
+      "approxStartSec": 77.35,
+      "approxStartHMS": "00:01:17",
+      "sourceChunkTimestamp": [
+        77.28,
+        83.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it belongs to observance to pay worship and honor to those who are in positions of dignity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether observance is a greater virtue than piety?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 709,
+      "approxStartHMS": "00:11:49",
+      "sourceChunkTimestamp": [
+        708.64,
+        713.72
+      ],
+      "matched": true
+    }
+  ]
+}

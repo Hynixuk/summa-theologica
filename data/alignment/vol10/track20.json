@@ -1,0 +1,119 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "20 - Question 17 - OF HOPE, CONSIDERED IN ITSELF (In Eight Articles).mp3",
+  "audioRelPath": "vol10/20 - Question 17 - OF HOPE, CONSIDERED IN ITSELF (In Eight Articles).mp3",
+  "audioDurationSec": 2455.93,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 348.79,
+    "audioProcessedSec": 2455.93,
+    "realtimeFactor": 0.142,
+    "mp3DecodeSec": 3.68
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 7,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 17,
+    "title": "Hope, considered in itself"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether hope is a virtue?",
+      "asrMatchedText": "1st article, whether hope is a virtue.",
+      "approxStartSec": 120.63,
+      "approxStartHMS": "00:02:00",
+      "sourceChunkTimestamp": [
+        120.44,
+        127.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether eternal happiness is the proper object of hope?",
+      "asrMatchedText": "Second article, whether eternal happiness is the proper object of hope.",
+      "approxStartSec": 471.73,
+      "approxStartHMS": "00:07:51",
+      "sourceChunkTimestamp": [
+        471.64,
+        478.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether one man may hope for another's eternal happiness?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a man can lawfully hope in man?",
+      "asrMatchedText": "Fourth article, whether a man can lawfully hope in man.",
+      "approxStartSec": 1016.19,
+      "approxStartHMS": "00:16:56",
+      "sourceChunkTimestamp": [
+        1016.08,
+        1022.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether hope is a theological virtue?",
+      "asrMatchedText": "Fifth article, whether hope is a theological virtue.",
+      "approxStartSec": 1251.09,
+      "approxStartHMS": "00:20:51",
+      "sourceChunkTimestamp": [
+        1251,
+        1256
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether hope is distinct from the other theological virtues?",
+      "asrMatchedText": "6th Article, Whether Hope is Distinct from the Other Theological Virtues",
+      "approxStartSec": 1634.83,
+      "approxStartHMS": "00:27:14",
+      "sourceChunkTimestamp": [
+        1634.8,
+        1636.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether hope precedes faith?",
+      "asrMatchedText": "7th article, where the not for ourselves, but for God.",
+      "approxStartSec": 1884.69,
+      "approxStartHMS": "00:31:24",
+      "sourceChunkTimestamp": [
+        1884.64,
+        1887.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether charity precedes hope?",
+      "asrMatchedText": "Eighth article, whether charity precedes hope.",
+      "approxStartSec": 2126.18,
+      "approxStartHMS": "00:35:26",
+      "sourceChunkTimestamp": [
+        2126.04,
+        2132.4
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "03 - Question 173 - OF THE MANNER IN WHICH PROPHETIC KNOWLEDGE IS CONVEYED (In Four A.mp3",
+  "audioRelPath": "vol12/03 - Question 173 - OF THE MANNER IN WHICH PROPHETIC KNOWLEDGE IS CONVEYED (In Four A.mp3",
+  "audioDurationSec": 1996.25,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 520.92,
+    "audioProcessedSec": 1996.25,
+    "realtimeFactor": 0.261,
+    "mp3DecodeSec": 6.45
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 173,
+    "title": "The manner in which prophetic knowledge is conveyed"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the prophets see the very essence of God?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 87.6,
+      "approxStartHMS": "00:01:27",
+      "sourceChunkTimestamp": [
+        87.5,
+        89
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether, in prophetic revelation, new species of things are impressed on the prophet's mind, or merely a new light?",
+      "asrMatchedText": "Second article, whether in prophetic revelation new species of things are impressed on on the prophet's mind, or merely a new light.",
+      "approxStartSec": 519.53,
+      "approxStartHMS": "00:08:39",
+      "sourceChunkTimestamp": [
+        519.46,
+        529
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the prophetic vision is always accompanied by abstraction from the senses?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1169.84,
+      "approxStartHMS": "00:19:29",
+      "sourceChunkTimestamp": [
+        1169.72,
+        1171.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether prophets always know the things which they prophesy?",
+      "asrMatchedText": "Fourth article, whether prophets always know the things which they prophesy.",
+      "approxStartSec": 1676.09,
+      "approxStartHMS": "00:27:56",
+      "sourceChunkTimestamp": [
+        1676,
+        1683.3
+      ],
+      "matched": true
+    }
+  ]
+}

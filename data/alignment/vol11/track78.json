@@ -1,0 +1,88 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "78 - Question 117 - OF LIBERALITY (In Six Articles).mp3",
+  "audioRelPath": "vol11/78 - Question 117 - OF LIBERALITY (In Six Articles).mp3",
+  "audioDurationSec": 1981.93,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 494.16,
+    "audioProcessedSec": 1981.93,
+    "realtimeFactor": 0.249,
+    "mp3DecodeSec": 7.95
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 117,
+    "title": "Liberality"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether liberality is a virtue?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 91.13,
+      "approxStartHMS": "00:01:31",
+      "sourceChunkTimestamp": [
+        91,
+        93
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether liberality is about money?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 473.13,
+      "approxStartHMS": "00:07:53",
+      "sourceChunkTimestamp": [
+        473,
+        475
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether using money is the act of liberality?",
+      "asrMatchedText": "Third article, whether using money is the act of liberality.",
+      "approxStartSec": 700.6,
+      "approxStartHMS": "00:11:40",
+      "sourceChunkTimestamp": [
+        700.44,
+        710
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it belongs to a liberal man chiefly to give?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether liberality is a part of justice?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1404.08,
+      "approxStartHMS": "00:23:24",
+      "sourceChunkTimestamp": [
+        1403.96,
+        1405.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether liberality is the greatest of the virtues?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "21 - Question 64 - OF MURDER (In Eight Articles).mp3",
+  "audioRelPath": "vol11/21 - Question 64 - OF MURDER (In Eight Articles).mp3",
+  "audioDurationSec": 3237.67,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 775.06,
+    "audioProcessedSec": 3237.67,
+    "realtimeFactor": 0.239,
+    "mp3DecodeSec": 12.72
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 64,
+    "title": "Murder"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is unlawful to kill any living thing?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 157.21,
+      "approxStartHMS": "00:02:37",
+      "sourceChunkTimestamp": [
+        157.08,
+        159.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful to kill sinners?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 468.32,
+      "approxStartHMS": "00:07:48",
+      "sourceChunkTimestamp": [
+        468.2,
+        470.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is lawful for a private individual to kill a man who has sinned?",
+      "asrMatchedText": "The Third Article Whether it is lawful for a private individual to kill a man who has sinned. Third article.",
+      "approxStartSec": 843.85,
+      "approxStartHMS": "00:14:03",
+      "sourceChunkTimestamp": [
+        843.76,
+        845.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is lawful for clerics to kill evil-doers?",
+      "asrMatchedText": "Fourth Article Whether it is lawful for clerics to kill",
+      "approxStartSec": 1132.24,
+      "approxStartHMS": "00:18:52",
+      "sourceChunkTimestamp": [
+        1132.16,
+        1136.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether it is lawful to kill oneself?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1464.12,
+      "approxStartHMS": "00:24:24",
+      "sourceChunkTimestamp": [
+        1463.88,
+        1467.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is lawful to kill the innocent?",
+      "asrMatchedText": "6th article, whether it is lawful to kill the innocent.",
+      "approxStartSec": 2060.09,
+      "approxStartHMS": "00:34:20",
+      "sourceChunkTimestamp": [
+        2060,
+        2065
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether it is lawful to kill a man in self-defense?",
+      "asrMatchedText": "Seventh Article Whether it is lawful to kill a man in self-defense",
+      "approxStartSec": 2436.48,
+      "approxStartHMS": "00:40:36",
+      "sourceChunkTimestamp": [
+        2436.38,
+        2443.06
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether one is guilty of murder through killing someone by chance?",
+      "asrMatchedText": "8th article. Whether one is guilty of murder through killing someone by chance.",
+      "approxStartSec": 2927.14,
+      "approxStartHMS": "00:48:47",
+      "sourceChunkTimestamp": [
+        2927,
+        2938
+      ],
+      "matched": true
+    }
+  ]
+}

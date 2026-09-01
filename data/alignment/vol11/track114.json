@@ -1,0 +1,83 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "114 - Question 152 - OF VIRGINITY (In Five Articles).mp3",
+  "audioRelPath": "vol11/114 - Question 152 - OF VIRGINITY (In Five Articles).mp3",
+  "audioDurationSec": 2378.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 701.83,
+    "audioProcessedSec": 2378.78,
+    "realtimeFactor": 0.295,
+    "mp3DecodeSec": 9.4
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 152,
+    "title": "Virginity"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether virginity consists in integrity of the flesh?",
+      "asrMatchedText": "First article, whether virginity consists in integrity of the flesh.",
+      "approxStartSec": 78.12,
+      "approxStartHMS": "00:01:18",
+      "sourceChunkTimestamp": [
+        78,
+        86.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether virginity is unlawful?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether virginity is a virtue?",
+      "asrMatchedText": "Third article, whether virginity is a virtue.",
+      "approxStartSec": 1073.28,
+      "approxStartHMS": "00:17:53",
+      "sourceChunkTimestamp": [
+        1073.2,
+        1076.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether virginity is more excellent than marriage?",
+      "asrMatchedText": "Fourth article, whether virginity is more excellent than marriage.",
+      "approxStartSec": 1577.35,
+      "approxStartHMS": "00:26:17",
+      "sourceChunkTimestamp": [
+        1577.24,
+        1584.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether virginity is the greatest of virtues?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 2002.42,
+      "approxStartHMS": "00:33:22",
+      "sourceChunkTimestamp": [
+        2002.28,
+        2004.32
+      ],
+      "matched": true
+    }
+  ]
+}

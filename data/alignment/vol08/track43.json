@@ -1,0 +1,95 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "43 - Question 89 - OF VENIAL SIN IN ITSELF (In Six Articles).mp3",
+  "audioRelPath": "vol08/43 - Question 89 - OF VENIAL SIN IN ITSELF (In Six Articles).mp3",
+  "audioDurationSec": 2361.39,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 466.8,
+    "audioProcessedSec": 2361.39,
+    "realtimeFactor": 0.198,
+    "mp3DecodeSec": 3.63
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 89,
+    "title": "Venial sin in itself"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether venial sin causes a stain on the soul?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 108.33,
+      "approxStartHMS": "00:01:48",
+      "sourceChunkTimestamp": [
+        108.2,
+        110.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether venial sins are suitably designated as \"wood, hay, and stubble\"?",
+      "asrMatchedText": "Second article. Whether venial sins are suitably designated as wood, hay, and stubble.",
+      "approxStartSec": 406.55,
+      "approxStartHMS": "00:06:46",
+      "sourceChunkTimestamp": [
+        406.4,
+        419.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether man could commit a venial sin in the state of innocence?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 908.76,
+      "approxStartHMS": "00:15:08",
+      "sourceChunkTimestamp": [
+        908.64,
+        910.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a good or a wicked angel can sin venially?",
+      "asrMatchedText": "Fourth Article Whether a good or a wicked angel can sin venially.",
+      "approxStartSec": 1386.49,
+      "approxStartHMS": "00:23:06",
+      "sourceChunkTimestamp": [
+        1386.36,
+        1394.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the first movements of the sensuality in unbelievers are mortal sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether venial sin can be in anyone with original sin alone?",
+      "asrMatchedText": "6th article, whether venial sin can be in anyone with original sin alone.",
+      "approxStartSec": 2019.78,
+      "approxStartHMS": "00:33:39",
+      "sourceChunkTimestamp": [
+        2019.64,
+        2030.36
+      ],
+      "matched": true
+    }
+  ]
+}

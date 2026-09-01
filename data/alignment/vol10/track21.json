@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "21 - Question 18 - OF THE SUBJECT OF HOPE (In Four Articles).mp3",
+  "audioRelPath": "vol10/21 - Question 18 - OF THE SUBJECT OF HOPE (In Four Articles).mp3",
+  "audioDurationSec": 1341.34,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 222.04,
+    "audioProcessedSec": 1341.34,
+    "realtimeFactor": 0.166,
+    "mp3DecodeSec": 2.02
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 18,
+    "title": "The subject of hope"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether hope is in the will as its subject?",
+      "asrMatchedText": "First article, whether hope is in the will as its subject.",
+      "approxStartSec": 71.32,
+      "approxStartHMS": "00:01:11",
+      "sourceChunkTimestamp": [
+        71.2,
+        78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether in the blessed there is hope?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 362.82,
+      "approxStartHMS": "00:06:02",
+      "sourceChunkTimestamp": [
+        362.72,
+        364.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether hope is in the damned?",
+      "asrMatchedText": "Third Article, Whether Hope is in the Damned.",
+      "approxStartSec": 746.79,
+      "approxStartHMS": "00:12:26",
+      "sourceChunkTimestamp": [
+        746.66,
+        752.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there is certainty in the hope of a wayfarer?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1119.55,
+      "approxStartHMS": "00:18:39",
+      "sourceChunkTimestamp": [
+        1119.44,
+        1121.24
+      ],
+      "matched": true
+    }
+  ]
+}

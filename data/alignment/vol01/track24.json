@@ -1,0 +1,126 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "24 - 23 - Question 23 Of Predestination.mp3",
+  "audioRelPath": "vol01/24 - 23 - Question 23 Of Predestination.mp3",
+  "audioDurationSec": 2723.37,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 562.14,
+    "audioProcessedSec": 2723.37,
+    "realtimeFactor": 0.206,
+    "mp3DecodeSec": 4.68
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 23,
+    "title": "Predestination"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether men are predestined by God?",
+      "asrMatchedText": "First article, whether men are predestined by God.",
+      "approxStartSec": 86.4,
+      "approxStartHMS": "00:01:26",
+      "sourceChunkTimestamp": [
+        86.28,
+        92.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether predestination places anything in the predestined?",
+      "asrMatchedText": "Second article, whether predestination places anything in the predestined.",
+      "approxStartSec": 386.07,
+      "approxStartHMS": "00:06:26",
+      "sourceChunkTimestamp": [
+        386,
+        391
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God reprobates any man?",
+      "asrMatchedText": "Third article, whether God reprobates any man. Objection one, it seems that God",
+      "approxStartSec": 682.1,
+      "approxStartHMS": "00:11:22",
+      "sourceChunkTimestamp": [
+        682,
+        690.06
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the predestined are chosen by God?",
+      "asrMatchedText": "Fourth article, whether the predestined are chosen by God.",
+      "approxStartSec": 929.81,
+      "approxStartHMS": "00:15:29",
+      "sourceChunkTimestamp": [
+        929.76,
+        932.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the foreknowledge of merits is the cause of predestination?",
+      "asrMatchedText": "will simply. Fifth article, whether the foreknowledge of merits is the cause of predestination.",
+      "approxStartSec": 1166.89,
+      "approxStartHMS": "00:19:26",
+      "sourceChunkTimestamp": [
+        1165.48,
+        1175.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether predestination is certain?",
+      "asrMatchedText": "Sixth article, whether predestination is certain.",
+      "approxStartSec": 1779.44,
+      "approxStartHMS": "00:29:39",
+      "sourceChunkTimestamp": [
+        1779.36,
+        1783.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the number of the predestined is certain?",
+      "asrMatchedText": "predestination is not destroyed. Seventh article, whether the number of the",
+      "approxStartSec": 2017.57,
+      "approxStartHMS": "00:33:37",
+      "sourceChunkTimestamp": [
+        2014.7,
+        2021.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether predestination can be furthered by the prayers of the saints?",
+      "asrMatchedText": "8th article, whether predestination can be furthered by the prayers of the saints.",
+      "approxStartSec": 2412.88,
+      "approxStartHMS": "00:40:12",
+      "sourceChunkTimestamp": [
+        2412.76,
+        2422.72
+      ],
+      "matched": true
+    }
+  ]
+}

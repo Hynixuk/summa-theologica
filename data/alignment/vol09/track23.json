@@ -1,0 +1,78 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "23 - Question 107 - OF THE NEW LAW AS COMPARED WITH THE OLD (In Four Articles).mp3",
+  "audioRelPath": "vol09/23 - Question 107 - OF THE NEW LAW AS COMPARED WITH THE OLD (In Four Articles).mp3",
+  "audioDurationSec": 2202.46,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 377.05,
+    "audioProcessedSec": 2202.46,
+    "realtimeFactor": 0.171,
+    "mp3DecodeSec": 3.88
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 107,
+    "title": "The new law as compared with the old"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the New Law is distinct from the Old Law?",
+      "asrMatchedText": "First article, whether the new law is distinct from the old law.",
+      "approxStartSec": 70.63,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        70.56,
+        75.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the New Law fulfils the Old?",
+      "asrMatchedText": "Second article, whether the new law fulfills the old.",
+      "approxStartSec": 738.11,
+      "approxStartHMS": "00:12:18",
+      "sourceChunkTimestamp": [
+        738,
+        744
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the New Law is contained in the Old?",
+      "asrMatchedText": "Third article, whether the new law is contained in the old.",
+      "approxStartSec": 1481.53,
+      "approxStartHMS": "00:24:41",
+      "sourceChunkTimestamp": [
+        1481.44,
+        1486.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the New Law is more burdensome than the Old?",
+      "asrMatchedText": "Fourth article, whether the new law is more burdensome than the old.",
+      "approxStartSec": 1782.1,
+      "approxStartHMS": "00:29:42",
+      "sourceChunkTimestamp": [
+        1782,
+        1788.7
+      ],
+      "matched": true
+    }
+  ]
+}

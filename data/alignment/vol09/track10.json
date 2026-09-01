@@ -1,0 +1,95 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "10 - Question 99 - OF THE PRECEPTS OF THE OLD LAW (In Six Articles).mp3",
+  "audioRelPath": "vol09/10 - Question 99 - OF THE PRECEPTS OF THE OLD LAW (In Six Articles).mp3",
+  "audioDurationSec": 2381.27,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 413.46,
+    "audioProcessedSec": 2381.27,
+    "realtimeFactor": 0.174,
+    "mp3DecodeSec": 4.27
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 99,
+    "title": "The precepts of the old law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the Old Law contains only one precept?",
+      "asrMatchedText": "First article, whether the old law contains only one precept.",
+      "approxStartSec": 91.12,
+      "approxStartHMS": "00:01:31",
+      "sourceChunkTimestamp": [
+        91,
+        98.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Old Law contains moral precepts?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the Old Law comprises ceremonial, besides moral, precepts?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 711.68,
+      "approxStartHMS": "00:11:51",
+      "sourceChunkTimestamp": [
+        711.56,
+        713.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether, besides the moral and ceremonial precepts, there are also judicial precepts?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1096.68,
+      "approxStartHMS": "00:18:16",
+      "sourceChunkTimestamp": [
+        1096.56,
+        1098.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the Old Law contains any others besides the moral, judicial, and ceremonial precepts?",
+      "asrMatchedText": "5th article, whether the act belongs to the judicial precepts. 5.",
+      "approxStartSec": 1442.48,
+      "approxStartHMS": "00:24:02",
+      "sourceChunkTimestamp": [
+        1442.4,
+        1448
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the Old Law should have induced men to the observance of its precepts, by means of temporal promises and threats?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 1938.13,
+      "approxStartHMS": "00:32:18",
+      "sourceChunkTimestamp": [
+        1938,
+        1940
+      ],
+      "matched": true
+    }
+  ]
+}

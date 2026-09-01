@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "24 - Question 19 - OF THE UNITY OF CHRIST'S OPERATION (In Four Articles).mp3",
+  "audioRelPath": "vol13/24 - Question 19 - OF THE UNITY OF CHRIST'S OPERATION (In Four Articles).mp3",
+  "audioDurationSec": 2133.15,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 318.31,
+    "audioProcessedSec": 2133.15,
+    "realtimeFactor": 0.149,
+    "mp3DecodeSec": 3.26
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 19,
+    "title": "The unity of Christ's operation"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether in Christ there is only one operation of the Godhead and Manhood?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 76.2,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76,
+        79
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether in Christ there are several human operations?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 998.82,
+      "approxStartHMS": "00:16:38",
+      "sourceChunkTimestamp": [
+        998.72,
+        1000.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the human action of Christ could be meritorious to Him?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1400.12,
+      "approxStartHMS": "00:23:20",
+      "sourceChunkTimestamp": [
+        1399.98,
+        1402.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ could merit for others?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1857.06,
+      "approxStartHMS": "00:30:57",
+      "sourceChunkTimestamp": [
+        1857,
+        1858
+      ],
+      "matched": true
+    }
+  ]
+}

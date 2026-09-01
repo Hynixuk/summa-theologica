@@ -1,0 +1,78 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "18 - Question 103 - OF THE DURATION OF THE CEREMONIAL PRECEPTS (In Four Articles).mp3",
+  "audioRelPath": "vol09/18 - Question 103 - OF THE DURATION OF THE CEREMONIAL PRECEPTS (In Four Articles).mp3",
+  "audioDurationSec": 2391.15,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 573.04,
+    "audioProcessedSec": 2391.15,
+    "realtimeFactor": 0.24,
+    "mp3DecodeSec": 4.53
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 103,
+    "title": "The duration of the ceremonial precepts"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the ceremonies of the Law were in existence before the Law?",
+      "asrMatchedText": "First article, whether the ceremonies of the law were in existence before the law.",
+      "approxStartSec": 76.15,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76.08,
+        81.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether, at the time of the Law, the ceremonies of the Old Law had any power of justification?",
+      "asrMatchedText": "Second article. Whether at the time of the law the ceremonies of the old law",
+      "approxStartSec": 514.44,
+      "approxStartHMS": "00:08:34",
+      "sourceChunkTimestamp": [
+        514.36,
+        520.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the ceremonies of the Old Law ceased at the coming of Christ?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1091.63,
+      "approxStartHMS": "00:18:11",
+      "sourceChunkTimestamp": [
+        1091.28,
+        1096.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether since Christ's Passion the legal ceremonies can be observed without committing mortal sin?",
+      "asrMatchedText": "Fourth article, whether since Christ's passion, the legal ceremonies can be observed without",
+      "approxStartSec": 1630.78,
+      "approxStartHMS": "00:27:10",
+      "sourceChunkTimestamp": [
+        1630.72,
+        1636.24
+      ],
+      "matched": true
+    }
+  ]
+}

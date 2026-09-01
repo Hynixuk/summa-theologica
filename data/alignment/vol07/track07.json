@@ -1,0 +1,102 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "07 - Question 28 - OF THE EFFECTS OF LOVE (In Six Articles).mp3",
+  "audioRelPath": "vol07/07 - Question 28 - OF THE EFFECTS OF LOVE (In Six Articles).mp3",
+  "audioDurationSec": 2127.02,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 506.51,
+    "audioProcessedSec": 2127.02,
+    "realtimeFactor": 0.238,
+    "mp3DecodeSec": 7.71
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 28,
+    "title": "The effects of love"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether union is an effect of love?",
+      "asrMatchedText": "First article, whether union is an effect of love.",
+      "approxStartSec": 79.15,
+      "approxStartHMS": "00:01:19",
+      "sourceChunkTimestamp": [
+        79,
+        86.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether mutual indwelling is an effect of love?",
+      "asrMatchedText": "Second article, whether mutual indwelling is an effect of love.",
+      "approxStartSec": 496.68,
+      "approxStartHMS": "00:08:16",
+      "sourceChunkTimestamp": [
+        496.56,
+        504.3
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether ecstasy is an effect of love?",
+      "asrMatchedText": "Third article, whether ecstasy is an effect of love.",
+      "approxStartSec": 911.09,
+      "approxStartHMS": "00:15:11",
+      "sourceChunkTimestamp": [
+        911,
+        916
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether zeal is an effect of love?",
+      "asrMatchedText": "Fourth article, whether zeal is an effect of love.",
+      "approxStartSec": 1218.1,
+      "approxStartHMS": "00:20:18",
+      "sourceChunkTimestamp": [
+        1218,
+        1223
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether love is a passion that wounds the lover?",
+      "asrMatchedText": "Fifth article. Whether love is a passion that wounds the lover.",
+      "approxStartSec": 1586.44,
+      "approxStartHMS": "00:26:26",
+      "sourceChunkTimestamp": [
+        1586.32,
+        1593.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether love is cause of all that the lover does?",
+      "asrMatchedText": "6th Article Whether Love is Cause of All That the Lover Does",
+      "approxStartSec": 1927.15,
+      "approxStartHMS": "00:32:07",
+      "sourceChunkTimestamp": [
+        1927,
+        1936
+      ],
+      "matched": true
+    }
+  ]
+}

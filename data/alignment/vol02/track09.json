@@ -1,0 +1,54 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "09 - Question 35 Of the Image.mp3",
+  "audioRelPath": "vol02/09 - Question 35 Of the Image.mp3",
+  "audioDurationSec": 482.55,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 134.6,
+    "audioProcessedSec": 482.55,
+    "realtimeFactor": 0.279,
+    "mp3DecodeSec": 1.53
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 35,
+    "title": "The Image"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether image in God is said personally?",
+      "asrMatchedText": "First article, whether image in God is said personally.",
+      "approxStartSec": 45.4,
+      "approxStartHMS": "00:00:45",
+      "sourceChunkTimestamp": [
+        45.32,
+        49.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the name of Image is proper to the Son?",
+      "asrMatchedText": "Second article, whether the name of image is proper to the sun.",
+      "approxStartSec": 216.8,
+      "approxStartHMS": "00:03:36",
+      "sourceChunkTimestamp": [
+        216.74,
+        220.78
+      ],
+      "matched": true
+    }
+  ]
+}

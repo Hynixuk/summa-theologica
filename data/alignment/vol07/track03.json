@@ -1,0 +1,78 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "03 - Question 24 - OF GOOD AND EVIL IN THE PASSIONS OF THE SOUL (In Four Articles).mp3",
+  "audioRelPath": "vol07/03 - Question 24 - OF GOOD AND EVIL IN THE PASSIONS OF THE SOUL (In Four Articles).mp3",
+  "audioDurationSec": 1407.66,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 296.05,
+    "audioProcessedSec": 1407.66,
+    "realtimeFactor": 0.21,
+    "mp3DecodeSec": 2.12
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 24,
+    "title": "Good and evil in the passions of the soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether moral good and evil can be found in the passions of the soul?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 78.2,
+      "approxStartHMS": "00:01:18",
+      "sourceChunkTimestamp": [
+        78,
+        81
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether every passion of the soul is evil morally?",
+      "asrMatchedText": "Second article, whether every passion of the soul is evil morally.",
+      "approxStartSec": 337.09,
+      "approxStartHMS": "00:05:37",
+      "sourceChunkTimestamp": [
+        337,
+        343
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether passion increases or decreases the goodness or malice of an act?",
+      "asrMatchedText": "Third article, whether passion increases or decreases the goodness or malice of an act.",
+      "approxStartSec": 673.04,
+      "approxStartHMS": "00:11:13",
+      "sourceChunkTimestamp": [
+        672.92,
+        683.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether any passion is good or evil in its species?",
+      "asrMatchedText": "Fourth article, whether any passion is good or evil in its species.",
+      "approxStartSec": 1106.12,
+      "approxStartHMS": "00:18:26",
+      "sourceChunkTimestamp": [
+        1106,
+        1114.16
+      ],
+      "matched": true
+    }
+  ]
+}

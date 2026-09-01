@@ -1,0 +1,66 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "25 - Question. 74 - ON ALL THE SEVEN DAYS IN COMMON (THREE ARTICLES).mp3",
+  "audioRelPath": "vol03/25 - Question. 74 - ON ALL THE SEVEN DAYS IN COMMON (THREE ARTICLES).mp3",
+  "audioDurationSec": 1614.05,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 485.1,
+    "audioProcessedSec": 1614.05,
+    "realtimeFactor": 0.301,
+    "mp3DecodeSec": 4.37
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 3,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 74,
+    "title": "All the seven days in common"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether these days are sufficiently enumerated?",
+      "asrMatchedText": "1. First article.",
+      "approxStartSec": 55.82,
+      "approxStartHMS": "00:00:55",
+      "sourceChunkTimestamp": [
+        55.42,
+        57.22
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether all these days are one day?",
+      "asrMatchedText": "Second Article Whether All These Days Are One Day",
+      "approxStartSec": 426.46,
+      "approxStartHMS": "00:07:06",
+      "sourceChunkTimestamp": [
+        426.4,
+        429.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Scripture uses suitable words to express the work of the six days?",
+      "asrMatchedText": "Third article, whether scripture uses suitable words to express the work of the six days.",
+      "approxStartSec": 875.64,
+      "approxStartHMS": "00:14:35",
+      "sourceChunkTimestamp": [
+        875.56,
+        882.4
+      ],
+      "matched": true
+    }
+  ]
+}

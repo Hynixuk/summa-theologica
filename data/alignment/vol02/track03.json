@@ -1,0 +1,78 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "03 - 29 - Question 29 - The Divine Persons.mp3",
+  "audioRelPath": "vol02/03 - 29 - Question 29 - The Divine Persons.mp3",
+  "audioDurationSec": 2064.29,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 318.77,
+    "audioProcessedSec": 2064.29,
+    "realtimeFactor": 0.154,
+    "mp3DecodeSec": 3.16
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 29,
+    "title": "The divine persons"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "The definition of \"person\"",
+      "asrMatchedText": "is becoming to God, and what does it signify in him? First article, the definition of person.",
+      "approxStartSec": 111.89,
+      "approxStartHMS": "00:01:51",
+      "sourceChunkTimestamp": [
+        107.52,
+        115.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether \"person\" is the same as hypostasis, subsistence, and essence?",
+      "asrMatchedText": "Second article, whether person is the same as hypostasis, subsistence, and essence.",
+      "approxStartSec": 574.62,
+      "approxStartHMS": "00:09:34",
+      "sourceChunkTimestamp": [
+        574.52,
+        582.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the word \"person\" should be said of God?",
+      "asrMatchedText": "Third article, whether the word person should be said of God.",
+      "approxStartSec": 1031.82,
+      "approxStartHMS": "00:17:11",
+      "sourceChunkTimestamp": [
+        1031.72,
+        1038.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether this word \"person\" signifies relation?",
+      "asrMatchedText": "Fourth article, whether this word person signifies relation.",
+      "approxStartSec": 1479.46,
+      "approxStartHMS": "00:24:39",
+      "sourceChunkTimestamp": [
+        1479.38,
+        1484.38
+      ],
+      "matched": true
+    }
+  ]
+}

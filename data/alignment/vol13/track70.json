@@ -1,0 +1,102 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "70 - Question 59 - OF CHRIST'S JUDICIARY POWER (In Six Articles).mp3",
+  "audioRelPath": "vol13/70 - Question 59 - OF CHRIST'S JUDICIARY POWER (In Six Articles).mp3",
+  "audioDurationSec": 2573.6,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 412.4,
+    "audioProcessedSec": 2573.6,
+    "realtimeFactor": 0.16,
+    "mp3DecodeSec": 4.37
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 59,
+    "title": "Christ's judiciary power"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether judiciary power is to be specially attributed to Christ?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 105.29,
+      "approxStartHMS": "00:01:45",
+      "sourceChunkTimestamp": [
+        105.16,
+        107.06
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether judiciary power belongs to Christ as man?",
+      "asrMatchedText": "Second article, whether judiciary power belongs to Christ as a man.",
+      "approxStartSec": 500.72,
+      "approxStartHMS": "00:08:20",
+      "sourceChunkTimestamp": [
+        500.64,
+        505.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ acquired His judiciary power by His merits?",
+      "asrMatchedText": "Third article, whether Christ acquired his judiciary power by his merits.",
+      "approxStartSec": 1000.42,
+      "approxStartHMS": "00:16:40",
+      "sourceChunkTimestamp": [
+        1000.32,
+        1007.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether judiciary power belongs to Christ with respect to all human affairs?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1289.62,
+      "approxStartHMS": "00:21:29",
+      "sourceChunkTimestamp": [
+        1289.52,
+        1291.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether after the Judgment that takes place in the present time, there remains yet another General Judgment?",
+      "asrMatchedText": "Fifth article. Whether after the judgment that takes place in the present time, there remains",
+      "approxStartSec": 1651.68,
+      "approxStartHMS": "00:27:31",
+      "sourceChunkTimestamp": [
+        1651.56,
+        1662.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Christ's judiciary power extends to the angels?",
+      "asrMatchedText": "punishment then in the last judgment. 6th Article",
+      "approxStartSec": 2127.15,
+      "approxStartHMS": "00:35:27",
+      "sourceChunkTimestamp": [
+        2119.32,
+        2129.36
+      ],
+      "matched": true
+    }
+  ]
+}

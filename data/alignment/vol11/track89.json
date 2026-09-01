@@ -1,0 +1,54 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "89 - Question 127 - OF DARING, OR FOOLHARDINESS (In Two Articles).mp3",
+  "audioRelPath": "vol11/89 - Question 127 - OF DARING, OR FOOLHARDINESS (In Two Articles).mp3",
+  "audioDurationSec": 595.2,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 94.62,
+    "audioProcessedSec": 595.2,
+    "realtimeFactor": 0.159,
+    "mp3DecodeSec": 0.93
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 127,
+    "title": "Daring"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether daring is a sin?",
+      "asrMatchedText": "First article, whether daring is a sin.",
+      "approxStartSec": 74.02,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        73.88,
+        79.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether daring is opposed to fortitude?",
+      "asrMatchedText": "Second article, whether daring is opposed to fortitude.",
+      "approxStartSec": 322.12,
+      "approxStartHMS": "00:05:22",
+      "sourceChunkTimestamp": [
+        322,
+        328.94
+      ],
+      "matched": true
+    }
+  ]
+}

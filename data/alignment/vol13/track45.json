@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "45 - Question 37 - OF CHRIST'S CIRCUMCISION, AND OF THE OTHER LEGAL OBSERVANCES ACCOM.mp3",
+  "audioRelPath": "vol13/45 - Question 37 - OF CHRIST'S CIRCUMCISION, AND OF THE OTHER LEGAL OBSERVANCES ACCOM.mp3",
+  "audioDurationSec": 1738,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 244.49,
+    "audioProcessedSec": 1738,
+    "realtimeFactor": 0.141,
+    "mp3DecodeSec": 2.15
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 37,
+    "title": "Christ's circumcision, and of the other legal observances accomplished in regard to the child Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ should have been circumcised?",
+      "asrMatchedText": "First article, whether Christ should have been circumcised.",
+      "approxStartSec": 92.3,
+      "approxStartHMS": "00:01:32",
+      "sourceChunkTimestamp": [
+        92.2,
+        98.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether His name was suitably given to Christ?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 451.12,
+      "approxStartHMS": "00:07:31",
+      "sourceChunkTimestamp": [
+        451,
+        452.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ was becomingly presented in the temple?",
+      "asrMatchedText": "Third article. Whether Christ was becoming presented in the temple.",
+      "approxStartSec": 917.63,
+      "approxStartHMS": "00:15:17",
+      "sourceChunkTimestamp": [
+        917.48,
+        927.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it was fitting that the Mother of God should go to the temple to be purified?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1471.89,
+      "approxStartHMS": "00:24:31",
+      "sourceChunkTimestamp": [
+        1471.56,
+        1476.86
+      ],
+      "matched": true
+    }
+  ]
+}

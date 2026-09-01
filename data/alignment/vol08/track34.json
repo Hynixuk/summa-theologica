@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "34 - Question 80 - OF THE CAUSE OF SIN, AS REGARDS THE DEVIL (In Four Articles).mp3",
+  "audioRelPath": "vol08/34 - Question 80 - OF THE CAUSE OF SIN, AS REGARDS THE DEVIL (In Four Articles).mp3",
+  "audioDurationSec": 1479.49,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 310.81,
+    "audioProcessedSec": 1479.49,
+    "realtimeFactor": 0.21,
+    "mp3DecodeSec": 5.36
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 80,
+    "title": "The cause of sin, as regards the devil"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the devil is directly the cause of man's sinning?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 83.57,
+      "approxStartHMS": "00:01:23",
+      "sourceChunkTimestamp": [
+        83.4,
+        85.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the devil can induce man to sin, by internal instigations?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 488.55,
+      "approxStartHMS": "00:08:08",
+      "sourceChunkTimestamp": [
+        488.44,
+        490.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the devil can induce man to sin of necessity?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 908.73,
+      "approxStartHMS": "00:15:08",
+      "sourceChunkTimestamp": [
+        908.6,
+        910.5
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether all the sins of men are due to the devil's suggestion?",
+      "asrMatchedText": "Fourth Article Whether All the Sins of Men are due to the devil's suggestion",
+      "approxStartSec": 1238.31,
+      "approxStartHMS": "00:20:38",
+      "sourceChunkTimestamp": [
+        1238.24,
+        1243.52
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "15 - Question 36 - OF THE CAUSES OF SORROW OR PAIN (In Four Articles).mp3",
+  "audioRelPath": "vol07/15 - Question 36 - OF THE CAUSES OF SORROW OR PAIN (In Four Articles).mp3",
+  "audioDurationSec": 1384.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 346,
+    "audioProcessedSec": 1384.78,
+    "realtimeFactor": 0.25,
+    "mp3DecodeSec": 3.29
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 36,
+    "title": "The causes of sorrow or pain"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether sorrow is caused by the loss of good or by the presence of evil?",
+      "asrMatchedText": "an irresistible power is a cause of sorrow. First article, whether sorrow is caused by",
+      "approxStartSec": 74.27,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        69.72,
+        78.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether desire is a cause of sorrow?",
+      "asrMatchedText": "Second article, whether desire is a cause of sorrow.",
+      "approxStartSec": 450.09,
+      "approxStartHMS": "00:07:30",
+      "sourceChunkTimestamp": [
+        450,
+        455
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the craving for unity is a cause of sorrow?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 805.33,
+      "approxStartHMS": "00:13:25",
+      "sourceChunkTimestamp": [
+        805,
+        810
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether an irresistible power is a cause of sorrow?",
+      "asrMatchedText": "Fourth article, whether an irresistible power is a cause of sorrow.",
+      "approxStartSec": 1109.1,
+      "approxStartHMS": "00:18:29",
+      "sourceChunkTimestamp": [
+        1109,
+        1116
+      ],
+      "matched": true
+    }
+  ]
+}

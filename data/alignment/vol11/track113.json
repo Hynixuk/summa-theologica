@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "113 - Question 151 - OF CHASTITY (In Four Articles).mp3",
+  "audioRelPath": "vol11/113 - Question 151 - OF CHASTITY (In Four Articles).mp3",
+  "audioDurationSec": 1267.71,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 357.41,
+    "audioProcessedSec": 1267.71,
+    "realtimeFactor": 0.282,
+    "mp3DecodeSec": 3.58
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 151,
+    "title": "Chastity"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether chastity is a virtue?",
+      "asrMatchedText": "First article, whether chastity is a virtue.",
+      "approxStartSec": 88.61,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        88.48,
+        94.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether chastity is a general virtue?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether chastity is a distinct virtue from abstinence?",
+      "asrMatchedText": "to spiritual chastity as stated. article, whether chastity as stated. Third article, whether chastity is a distinct virtue from abstinence.",
+      "approxStartSec": 667.54,
+      "approxStartHMS": "00:11:07",
+      "sourceChunkTimestamp": [
+        659.86,
+        675
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether purity belongs especially to chastity?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 993.84,
+      "approxStartHMS": "00:16:33",
+      "sourceChunkTimestamp": [
+        993.72,
+        995.48
+      ],
+      "matched": true
+    }
+  ]
+}

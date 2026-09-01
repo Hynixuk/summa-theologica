@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "48 - Question 40 - OF WAR (In Four Articles).mp3",
+  "audioRelPath": "vol10/48 - Question 40 - OF WAR (In Four Articles).mp3",
+  "audioDurationSec": 1552.14,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 430.45,
+    "audioProcessedSec": 1552.14,
+    "realtimeFactor": 0.277,
+    "mp3DecodeSec": 6.47
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 40,
+    "title": "War"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is always sinful to wage war?",
+      "asrMatchedText": "First article, whether it is always sinful to wage war.",
+      "approxStartSec": 69.36,
+      "approxStartHMS": "00:01:09",
+      "sourceChunkTimestamp": [
+        69.2,
+        78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful for clerics and bishops to fight?",
+      "asrMatchedText": "Second article. Whether it is lawful for clerics and bishops to fight.",
+      "approxStartSec": 643,
+      "approxStartHMS": "00:10:43",
+      "sourceChunkTimestamp": [
+        642.88,
+        651.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is lawful to lay ambushes in war?",
+      "asrMatchedText": "Third article, whether it is lawful to lay ambushes in war.",
+      "approxStartSec": 1134.39,
+      "approxStartHMS": "00:18:54",
+      "sourceChunkTimestamp": [
+        1134.32,
+        1138.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is lawful to fight on holy days?",
+      "asrMatchedText": "Fourth Article Whether it is lawful to fight on holy days",
+      "approxStartSec": 1370.67,
+      "approxStartHMS": "00:22:50",
+      "sourceChunkTimestamp": [
+        1370.56,
+        1377.12
+      ],
+      "matched": true
+    }
+  ]
+}

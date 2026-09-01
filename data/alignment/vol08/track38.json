@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "38 - Question 84 - OF THE CAUSE OF SIN, IN RESPECT OF ONE SIN BEING THE CAUSE OF ANOT.mp3",
+  "audioRelPath": "vol08/38 - Question 84 - OF THE CAUSE OF SIN, IN RESPECT OF ONE SIN BEING THE CAUSE OF ANOT.mp3",
+  "audioDurationSec": 1739.02,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 320.52,
+    "audioProcessedSec": 1739.02,
+    "realtimeFactor": 0.184,
+    "mp3DecodeSec": 3
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 84,
+    "title": "The cause of sin, in respect of one sin being the cause of another"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether covetousness is the root of all sins?",
+      "asrMatchedText": "First article, whether covetousness is the root of all sins.",
+      "approxStartSec": 92.72,
+      "approxStartHMS": "00:01:32",
+      "sourceChunkTimestamp": [
+        92.6,
+        99.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether pride is the beginning of every sin?",
+      "asrMatchedText": "Second article, whether pride is the beginning of every sin.",
+      "approxStartSec": 457.68,
+      "approxStartHMS": "00:07:37",
+      "sourceChunkTimestamp": [
+        457.56,
+        464.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether any other special sins, besides pride and avarice, should be called capital?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 837.13,
+      "approxStartHMS": "00:13:57",
+      "sourceChunkTimestamp": [
+        837,
+        839
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the seven capital vices are suitably reckoned?",
+      "asrMatchedText": "Fourth article, whether the seven capital vices are suitably reckoned.",
+      "approxStartSec": 1136.51,
+      "approxStartHMS": "00:18:56",
+      "sourceChunkTimestamp": [
+        1136.4,
+        1144.04
+      ],
+      "matched": true
+    }
+  ]
+}

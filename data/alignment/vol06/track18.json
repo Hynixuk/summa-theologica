@@ -1,0 +1,78 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "18 - Question 16 - OF USE, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In Fou.mp3",
+  "audioRelPath": "vol06/18 - Question 16 - OF USE, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In Fou.mp3",
+  "audioDurationSec": 958.2,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 175.52,
+    "audioProcessedSec": 958.2,
+    "realtimeFactor": 0.183,
+    "mp3DecodeSec": 1.52
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 16,
+    "title": "Use, which is an act of the will in regard to the means"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether use is an act of the will?",
+      "asrMatchedText": "First article, part one of the second part,",
+      "approxStartSec": 66.23,
+      "approxStartHMS": "00:01:06",
+      "sourceChunkTimestamp": [
+        66.16,
+        69.42
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether use is to be found in irrational animals?",
+      "asrMatchedText": "Second Article",
+      "approxStartSec": 304.03,
+      "approxStartHMS": "00:05:04",
+      "sourceChunkTimestamp": [
+        303.96,
+        304.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether use regards also the last end?",
+      "asrMatchedText": "Third article, part one of the second part, question 16, article three.",
+      "approxStartSec": 471.08,
+      "approxStartHMS": "00:07:51",
+      "sourceChunkTimestamp": [
+        471,
+        477
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether use precedes choice?",
+      "asrMatchedText": "Fourth Article Part 1 of the Second Part, Question 16, Article 4, whether use precedes choice.",
+      "approxStartSec": 701.63,
+      "approxStartHMS": "00:11:41",
+      "sourceChunkTimestamp": [
+        701.54,
+        710.12
+      ],
+      "matched": true
+    }
+  ]
+}

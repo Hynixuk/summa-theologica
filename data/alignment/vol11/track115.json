@@ -1,0 +1,90 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "115 - Question 153 - OF LUST (In Five Articles).mp3",
+  "audioRelPath": "vol11/115 - Question 153 - OF LUST (In Five Articles).mp3",
+  "audioDurationSec": 1864.4,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 541.22,
+    "audioProcessedSec": 1864.4,
+    "realtimeFactor": 0.29,
+    "mp3DecodeSec": 7.24
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 153,
+    "title": "Lust"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the matter of lust is only venereal desires and pleasures?",
+      "asrMatchedText": "First article, whether the matter of lust is only venereal desires and pleasures.",
+      "approxStartSec": 90.39,
+      "approxStartHMS": "00:01:30",
+      "sourceChunkTimestamp": [
+        90.28,
+        99.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether no venereal act can be without sin?",
+      "asrMatchedText": "Second article, whether no Venerial Act can be with 16.",
+      "approxStartSec": 302.08,
+      "approxStartHMS": "00:05:02",
+      "sourceChunkTimestamp": [
+        302,
+        306.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the lust that is about venereal acts can be a sin?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 752.81,
+      "approxStartHMS": "00:12:32",
+      "sourceChunkTimestamp": [
+        752.68,
+        754.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether lust is a capital vice?",
+      "asrMatchedText": "Fourth article, whether lost, is a capital vice.",
+      "approxStartSec": 1039.06,
+      "approxStartHMS": "00:17:19",
+      "sourceChunkTimestamp": [
+        1038.94,
+        1044.94
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the daughters of lust are fittingly described?",
+      "asrMatchedText": "Fifth Article Whether the Daughters of Lust are fittingly",
+      "approxStartSec": 1295.99,
+      "approxStartHMS": "00:21:35",
+      "sourceChunkTimestamp": [
+        1295.92,
+        1299.76
+      ],
+      "matched": true
+    }
+  ]
+}

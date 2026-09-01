@@ -1,0 +1,125 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "13 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol14/13 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 2067.87,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 420.21,
+    "audioProcessedSec": 2067.87,
+    "realtimeFactor": 0.203,
+    "mp3DecodeSec": 5.25
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 68,
+    "title": "Those who receive Baptism"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all are bound to receive Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a man can be saved without Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Baptism should be deferred?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether sinners should be baptized?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether works of satisfaction should be enjoined on sinners that have been baptized?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether sinners who are going to be baptized are bound to confess their sins?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the intention of receiving the sacrament of Baptism is required on the part of the one baptized?",
+      "asrMatchedText": "Seventh Article Whether the intention of receiving the sacrament",
+      "approxStartSec": 29.98,
+      "approxStartHMS": "00:00:29",
+      "sourceChunkTimestamp": [
+        29.92,
+        33.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether faith is required on the part of the one baptized?",
+      "asrMatchedText": "Eighth Article.",
+      "approxStartSec": 261.09,
+      "approxStartHMS": "00:04:21",
+      "sourceChunkTimestamp": [
+        261,
+        262.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether children should be baptized?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether children of Jews or other unbelievers be baptized against the will of their parents?",
+      "asrMatchedText": "Tenth Article",
+      "approxStartSec": 1062.99,
+      "approxStartHMS": "00:17:42",
+      "sourceChunkTimestamp": [
+        1062.88,
+        1064.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether a child can be baptized while yet in its mother's womb?",
+      "asrMatchedText": "11th article Whether a child can be baptized in respect of the child.",
+      "approxStartSec": 1342.92,
+      "approxStartHMS": "00:22:22",
+      "sourceChunkTimestamp": [
+        1342.88,
+        1345.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether madmen and imbeciles should be baptized?",
+      "asrMatchedText": "12th article, whether mad men and imbeciles should be baptized.",
+      "approxStartSec": 1736.64,
+      "approxStartHMS": "00:28:56",
+      "sourceChunkTimestamp": [
+        1736.56,
+        1741.6
+      ],
+      "matched": true
+    }
+  ]
+}

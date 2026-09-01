@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "39 - Question 32 - OF THE ACTIVE PRINCIPLE IN CHRIST'S CONCEPTION (In Four Articles).mp3",
+  "audioRelPath": "vol13/39 - Question 32 - OF THE ACTIVE PRINCIPLE IN CHRIST'S CONCEPTION (In Four Articles).mp3",
+  "audioDurationSec": 1708,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 271.86,
+    "audioProcessedSec": 1708,
+    "realtimeFactor": 0.159,
+    "mp3DecodeSec": 2.35
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 32,
+    "title": "The active principle in Christ's conception"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the accomplishment of Christ's conception should be attributed to the Holy Ghost?",
+      "asrMatchedText": "First article, whether the accomplishment of Christ's conception should be attributed",
+      "approxStartSec": 76.53,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76.44,
+        84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it should be said that Christ was conceived of [de] the Holy Ghost?",
+      "asrMatchedText": "Second article. Whether it should be said that Christ was conceived of the Holy Ghost, where the word",
+      "approxStartSec": 579.51,
+      "approxStartHMS": "00:09:39",
+      "sourceChunkTimestamp": [
+        579.44,
+        586.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the Holy Ghost should be called Christ's father in respect of His humanity?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 927.49,
+      "approxStartHMS": "00:15:27",
+      "sourceChunkTimestamp": [
+        927,
+        933.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Blessed Virgin cooperated actively in the conception of Christ's body?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1275.4,
+      "approxStartHMS": "00:21:15",
+      "sourceChunkTimestamp": [
+        1275.28,
+        1277.2
+      ],
+      "matched": true
+    }
+  ]
+}

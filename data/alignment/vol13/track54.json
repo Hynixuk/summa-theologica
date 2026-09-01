@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "54 - Question 45 - OF CHRIST'S TRANSFIGURATION (In Four Articles).mp3",
+  "audioRelPath": "vol13/54 - Question 45 - OF CHRIST'S TRANSFIGURATION (In Four Articles).mp3",
+  "audioDurationSec": 1746.23,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 293.02,
+    "audioProcessedSec": 1746.23,
+    "realtimeFactor": 0.168,
+    "mp3DecodeSec": 2.86
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 45,
+    "title": "Christ's transfiguration"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was fitting that Christ should be transfigured?",
+      "asrMatchedText": "First article, whether it was fitting that Christ should be transfigured.",
+      "approxStartSec": 71.09,
+      "approxStartHMS": "00:01:11",
+      "sourceChunkTimestamp": [
+        71,
+        78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether this clarity was the clarity of glory?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 430.83,
+      "approxStartHMS": "00:07:10",
+      "sourceChunkTimestamp": [
+        430.72,
+        432.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the witnesses of the transfiguration were fittingly chosen?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 891.13,
+      "approxStartHMS": "00:14:51",
+      "sourceChunkTimestamp": [
+        891,
+        893
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the testimony of the Father's voice, saying, \"This is My beloved Son,\" was fittingly added?",
+      "asrMatchedText": "Fourth article. Whether the testimony of the Father's voice saying,",
+      "approxStartSec": 1383.31,
+      "approxStartHMS": "00:23:03",
+      "sourceChunkTimestamp": [
+        1383.24,
+        1388.16
+      ],
+      "matched": true
+    }
+  ]
+}

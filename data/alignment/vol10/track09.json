@@ -1,0 +1,54 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "09 - Question 7 - OF THE EFFECTS OF FAITH (In Two Articles).mp3",
+  "audioRelPath": "vol10/09 - Question 7 - OF THE EFFECTS OF FAITH (In Two Articles).mp3",
+  "audioDurationSec": 629.21,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 167.54,
+    "audioProcessedSec": 629.21,
+    "realtimeFactor": 0.266,
+    "mp3DecodeSec": 1.89
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 7,
+    "title": "The effects of faith"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether fear is an effect of faith?",
+      "asrMatchedText": "First article. Whether fear is an purified by faith.",
+      "approxStartSec": 64.56,
+      "approxStartHMS": "00:01:04",
+      "sourceChunkTimestamp": [
+        64.52,
+        66.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether faith has the effect of purifying the heart?",
+      "asrMatchedText": "Second article, whether faith has the effect of purifying the heart.",
+      "approxStartSec": 391.47,
+      "approxStartHMS": "00:06:31",
+      "sourceChunkTimestamp": [
+        391.44,
+        393.76
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "01 - Question 49 - OF HABITS IN GENERAL, AS TO THEIR SUBSTANCE (In Four Articles).mp3",
+  "audioRelPath": "vol08/01 - Question 49 - OF HABITS IN GENERAL, AS TO THEIR SUBSTANCE (In Four Articles).mp3",
+  "audioDurationSec": 2070.8,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 354.83,
+    "audioProcessedSec": 2070.8,
+    "realtimeFactor": 0.171,
+    "mp3DecodeSec": 3.11
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 49,
+    "title": "Habits in general, as to their substance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether habit is a quality?",
+      "asrMatchedText": "First article, whether habit is equality.",
+      "approxStartSec": 119.24,
+      "approxStartHMS": "00:01:59",
+      "sourceChunkTimestamp": [
+        119,
+        129.14
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether habit is a distinct species of quality?",
+      "asrMatchedText": "Second article, whether habit is a distinct species of quality.",
+      "approxStartSec": 521.48,
+      "approxStartHMS": "00:08:41",
+      "sourceChunkTimestamp": [
+        521.3,
+        532.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether habit implies order to an act?",
+      "asrMatchedText": "Third article, whether habit implies order to an act.",
+      "approxStartSec": 1304.22,
+      "approxStartHMS": "00:21:44",
+      "sourceChunkTimestamp": [
+        1304.1,
+        1310.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether habits are necessary?",
+      "asrMatchedText": "4th article, whether habits And the same applies to other habits.",
+      "approxStartSec": 1643.06,
+      "approxStartHMS": "00:27:23",
+      "sourceChunkTimestamp": [
+        1643,
+        1647
+      ],
+      "matched": true
+    }
+  ]
+}

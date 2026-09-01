@@ -1,0 +1,124 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "13 - Question. 62 - OF THE PERFECTION OF THE ANGELS IN THE ORDER OF GRACE AND OF GLOR.mp3",
+  "audioRelPath": "vol03/13 - Question. 62 - OF THE PERFECTION OF THE ANGELS IN THE ORDER OF GRACE AND OF GLOR.mp3",
+  "audioDurationSec": 2385.11,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 817.81,
+    "audioProcessedSec": 2385.11,
+    "realtimeFactor": 0.343,
+    "mp3DecodeSec": 5.4
+  },
+  "expectedArticleCount": 9,
+  "matchedArticleCount": 7,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 62,
+    "title": "The perfection of the angels in the order of grace and of glory"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the angels were created in beatitude?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether an angel needs grace in order to turn to God?",
+      "asrMatchedText": "Second article. One, question 62, article 2. Whether an angel needs grace in order to turn to God.",
+      "approxStartSec": 368.8,
+      "approxStartHMS": "00:06:08",
+      "sourceChunkTimestamp": [
+        368.72,
+        376.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the angels were created in grace?",
+      "asrMatchedText": "Third article, 1.62. article 3. Whether the angels were created in grace?",
+      "approxStartSec": 664.1,
+      "approxStartHMS": "00:11:04",
+      "sourceChunkTimestamp": [
+        664,
+        671.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether an angel merits his beatitude?",
+      "asrMatchedText": "Fourth Article 1, Question 62, Article 4. whether an angel merits his beatitude.",
+      "approxStartSec": 878.33,
+      "approxStartHMS": "00:14:38",
+      "sourceChunkTimestamp": [
+        878.24,
+        885.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the angel obtained beatitude immediately after one act of merit?",
+      "asrMatchedText": "Fifth Article 1.",
+      "approxStartSec": 1149.99,
+      "approxStartHMS": "00:19:09",
+      "sourceChunkTimestamp": [
+        1149.88,
+        1151.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the angels receive grace and glory according to the degree of their natural gifts?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether natural knowledge and love remain in the beatified angels?",
+      "asrMatchedText": "Seventh Article 1, Question 62, Article 7.",
+      "approxStartSec": 1602.26,
+      "approxStartHMS": "00:26:42",
+      "sourceChunkTimestamp": [
+        1602.16,
+        1606.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether a beatified angel can sin?",
+      "asrMatchedText": "Eighth Article 1, Question 62, Article 8. Whether a beatified angel can sin?",
+      "approxStartSec": 1794.97,
+      "approxStartHMS": "00:29:54",
+      "sourceChunkTimestamp": [
+        1794.88,
+        1801.9
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the beatified angels advance in beatitude?",
+      "asrMatchedText": "9th Article 1, 662, Article 3.",
+      "approxStartSec": 2009.18,
+      "approxStartHMS": "00:33:29",
+      "sourceChunkTimestamp": [
+        2009.04,
+        2013.36
+      ],
+      "matched": true
+    }
+  ]
+}

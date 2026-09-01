@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "45 - Question 86 - OF OBLATIONS AND FIRST-FRUITS (In Four Articles).mp3",
+  "audioRelPath": "vol11/45 - Question 86 - OF OBLATIONS AND FIRST-FRUITS (In Four Articles).mp3",
+  "audioDurationSec": 1476.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 231.78,
+    "audioProcessedSec": 1476.01,
+    "realtimeFactor": 0.157,
+    "mp3DecodeSec": 2.13
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 86,
+    "title": "Oblations and first-fruits"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether men are under a necessity of precept to make oblations?",
+      "asrMatchedText": "First article, whether men are under a necessity of precept to make oblations.",
+      "approxStartSec": 79.08,
+      "approxStartHMS": "00:01:19",
+      "sourceChunkTimestamp": [
+        79,
+        85.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether oblations are due to priests alone?",
+      "asrMatchedText": "Second Article",
+      "approxStartSec": 432.27,
+      "approxStartHMS": "00:07:12",
+      "sourceChunkTimestamp": [
+        432.16,
+        433.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a man may make oblations of whatever he lawfully possesses?",
+      "asrMatchedText": "article, whether a man may make oblations of whatever he lawfully possesses. Third article.",
+      "approxStartSec": 745.15,
+      "approxStartHMS": "00:12:25",
+      "sourceChunkTimestamp": [
+        743.76,
+        745.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether men are bound to pay first-fruits?",
+      "asrMatchedText": "Fourth article, Whether men are bound to pay first fruits.",
+      "approxStartSec": 1111.23,
+      "approxStartHMS": "00:18:31",
+      "sourceChunkTimestamp": [
+        1111.2,
+        1113.04
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "26 - Question 21 - OF THE CONSEQUENCES OF HUMAN ACTIONS BY REASON OF THEIR GOODNESS A.mp3",
+  "audioRelPath": "vol06/26 - Question 21 - OF THE CONSEQUENCES OF HUMAN ACTIONS BY REASON OF THEIR GOODNESS A.mp3",
+  "audioDurationSec": 1370.02,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 283.34,
+    "audioProcessedSec": 1370.02,
+    "realtimeFactor": 0.207,
+    "mp3DecodeSec": 2.17
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 21,
+    "title": "The consequences of human actions by reason of their goodness and malice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a human action is right or sinful, in so far as it is good or evil?",
+      "asrMatchedText": "1. First article. Whether a human action is right or sinful?",
+      "approxStartSec": 72.98,
+      "approxStartHMS": "00:01:12",
+      "sourceChunkTimestamp": [
+        72.68,
+        77.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a human action deserves praise or blame, by reason of its being good or evil?",
+      "asrMatchedText": "Second Article.",
+      "approxStartSec": 403.06,
+      "approxStartHMS": "00:06:43",
+      "sourceChunkTimestamp": [
+        402.96,
+        404.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a human action is meritorious or demeritorious in so far as it is good or evil?",
+      "asrMatchedText": "Third article, whether a human action is meritorious or demeritorious, insofar as it is good or evil.",
+      "approxStartSec": 747.09,
+      "approxStartHMS": "00:12:27",
+      "sourceChunkTimestamp": [
+        747,
+        756
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a human action is meritorious or demeritorious before God, according as it is good or evil?",
+      "asrMatchedText": "Fourth Article.",
+      "approxStartSec": 1043.14,
+      "approxStartHMS": "00:17:23",
+      "sourceChunkTimestamp": [
+        1043.04,
+        1044.68
+      ],
+      "matched": true
+    }
+  ]
+}

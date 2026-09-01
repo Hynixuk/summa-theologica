@@ -1,0 +1,90 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "94 - Question 132 - OF VAINGLORY (In Five Articles).mp3",
+  "audioRelPath": "vol11/94 - Question 132 - OF VAINGLORY (In Five Articles).mp3",
+  "audioDurationSec": 1894.41,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 278.24,
+    "audioProcessedSec": 1894.41,
+    "realtimeFactor": 0.147,
+    "mp3DecodeSec": 2.6
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 132,
+    "title": "Vainglory"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the desire of glory is a sin?",
+      "asrMatchedText": "First article, whether the desire of glory is a sin.",
+      "approxStartSec": 74.11,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        74,
+        80
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether vainglory is opposed to magnanimity?",
+      "asrMatchedText": "Second article, whether Veen Glory is a empty pleasure in human praise.",
+      "approxStartSec": 542.07,
+      "approxStartHMS": "00:09:02",
+      "sourceChunkTimestamp": [
+        542,
+        547
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether vainglory is a mortal sin?",
+      "asrMatchedText": "Third article, whether Vanglory is a mortal sin.",
+      "approxStartSec": 873.76,
+      "approxStartHMS": "00:14:33",
+      "sourceChunkTimestamp": [
+        873.64,
+        879.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether vainglory is a capital vice?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1294.31,
+      "approxStartHMS": "00:21:34",
+      "sourceChunkTimestamp": [
+        1294.2,
+        1295.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the daughters of vainglory are suitably reckoned to be disobedience, boastfulness, hypocrisy, contention, obstinacy, discord, and love of novelties?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1577.41,
+      "approxStartHMS": "00:26:17",
+      "sourceChunkTimestamp": [
+        1577.28,
+        1579.2
+      ],
+      "matched": true
+    }
+  ]
+}

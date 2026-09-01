@@ -1,0 +1,91 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "37 - Question 31 - OF THE MATTER FROM WHICH THE SAVIOUR'S BODY WAS CONCEIVED (In Eigh.mp3",
+  "audioRelPath": "vol13/37 - Question 31 - OF THE MATTER FROM WHICH THE SAVIOUR'S BODY WAS CONCEIVED (In Eigh.mp3",
+  "audioDurationSec": 2332.03,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 378.27,
+    "audioProcessedSec": 2332.03,
+    "realtimeFactor": 0.162,
+    "mp3DecodeSec": 3.64
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 31,
+    "title": "The matter from which the Saviour's body was conceived"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the flesh of Christ was derived from Adam?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ took flesh of the seed of David?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 395.58,
+      "approxStartHMS": "00:06:35",
+      "sourceChunkTimestamp": [
+        395.48,
+        397
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ's genealogy is suitably traced by the evangelists?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 827.34,
+      "approxStartHMS": "00:13:47",
+      "sourceChunkTimestamp": [
+        827,
+        831.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the matter of Christ's body should have been taken from a woman?",
+      "asrMatchedText": "Fourth Article Whether the matter of Christ's body should have been taken from a woman",
+      "approxStartSec": 1857.64,
+      "approxStartHMS": "00:30:57",
+      "sourceChunkTimestamp": [
+        1857.56,
+        1864.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the flesh of Christ was conceived of the Virgin's purest blood?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Christ's body was in Adam and the other patriarchs, as to something signate?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether Christ's flesh in the patriarchs was infected by sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether Christ paid tithes in Abraham's loins?",
+      "matched": false
+    }
+  ]
+}

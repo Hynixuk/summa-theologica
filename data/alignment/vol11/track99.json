@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "99 - Question 137 - OF PERSEVERANCE (In Four Articles).mp3",
+  "audioRelPath": "vol11/99 - Question 137 - OF PERSEVERANCE (In Four Articles).mp3",
+  "audioDurationSec": 1381.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 203.73,
+    "audioProcessedSec": 1381.01,
+    "realtimeFactor": 0.148,
+    "mp3DecodeSec": 1.98
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 137,
+    "title": "Perseverance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether perseverance is a virtue?",
+      "asrMatchedText": "First article, whether perseverance is a virtue.",
+      "approxStartSec": 73.12,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        73,
+        79
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether perseverance is a part of fortitude?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether constancy pertains to perseverance?",
+      "asrMatchedText": "Third article, whether constancy pertains to perseverance.",
+      "approxStartSec": 820.81,
+      "approxStartHMS": "00:13:40",
+      "sourceChunkTimestamp": [
+        820.64,
+        830.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether perseverance needs the help of grace? [Cf. I-II, 109, 10]",
+      "asrMatchedText": "Fourth article, whether perseverance needs the help of grace.",
+      "approxStartSec": 1063.02,
+      "approxStartHMS": "00:17:43",
+      "sourceChunkTimestamp": [
+        1062.9,
+        1070.04
+      ],
+      "matched": true
+    }
+  ]
+}

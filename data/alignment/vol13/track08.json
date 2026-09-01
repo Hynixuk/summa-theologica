@@ -1,0 +1,102 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "08 - Question 6 - OF THE ORDER OF ASSUMPTION (In Six Articles).mp3",
+  "audioRelPath": "vol13/08 - Question 6 - OF THE ORDER OF ASSUMPTION (In Six Articles).mp3",
+  "audioDurationSec": 2068.06,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 520.59,
+    "audioProcessedSec": 2068.06,
+    "realtimeFactor": 0.252,
+    "mp3DecodeSec": 7.66
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 6,
+    "title": "The order of assumption"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the Son of God assumed flesh through the medium of the soul?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 85.71,
+      "approxStartHMS": "00:01:25",
+      "sourceChunkTimestamp": [
+        85.6,
+        87.26
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Son of God assumed a soul through the medium of the spirit or mind?",
+      "asrMatchedText": "Second article, whether the Son of God assumed a soul through the medium of the Spirit or mind.",
+      "approxStartSec": 494.29,
+      "approxStartHMS": "00:08:14",
+      "sourceChunkTimestamp": [
+        494.16,
+        507
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the soul was assumed before the flesh by the Son of God?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 738.07,
+      "approxStartHMS": "00:12:18",
+      "sourceChunkTimestamp": [
+        737.72,
+        742.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the flesh of Christ was assumed by the Word before being united to the soul?",
+      "asrMatchedText": "Fourth Article Whether the flesh of Christ was assumed by the",
+      "approxStartSec": 1127.98,
+      "approxStartHMS": "00:18:47",
+      "sourceChunkTimestamp": [
+        1127.92,
+        1131.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the whole human nature was assumed through the medium of the parts?",
+      "asrMatchedText": "5th article. Whether the whole human nature was assumed through the medium of the parts.",
+      "approxStartSec": 1459.14,
+      "approxStartHMS": "00:24:19",
+      "sourceChunkTimestamp": [
+        1459,
+        1471.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the human nature was assumed through the medium of grace?",
+      "asrMatchedText": "6th Article.",
+      "approxStartSec": 1775.84,
+      "approxStartHMS": "00:29:35",
+      "sourceChunkTimestamp": [
+        1775.4,
+        1781.16
+      ],
+      "matched": true
+    }
+  ]
+}

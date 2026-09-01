@@ -1,0 +1,95 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "16 - Question 42 Of Equality and Likeness among the Divine Persons.mp3",
+  "audioRelPath": "vol02/16 - Question 42 Of Equality and Likeness among the Divine Persons.mp3",
+  "audioDurationSec": 2235.74,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 343.02,
+    "audioProcessedSec": 2235.74,
+    "realtimeFactor": 0.153,
+    "mp3DecodeSec": 3.5
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 42,
+    "title": "Equality and likeness among the divine persons"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is equality in God?",
+      "asrMatchedText": "whether they are equal in power. First article, whether",
+      "approxStartSec": 87.39,
+      "approxStartHMS": "00:01:27",
+      "sourceChunkTimestamp": [
+        84.48,
+        89.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the person proceeding is co-eternal with His principle, as the Son with the Father?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether in the divine persons there exists an order of nature?",
+      "asrMatchedText": "Third article, whether in the divine persons there exists an order of nature.",
+      "approxStartSec": 1159.86,
+      "approxStartHMS": "00:19:19",
+      "sourceChunkTimestamp": [
+        1159.68,
+        1173.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Son is equal to the Father in greatness?",
+      "asrMatchedText": "Fourth article, whether the son is equal to the father in greatness. Objection one, it would seem that the Son is not equal",
+      "approxStartSec": 1417.32,
+      "approxStartHMS": "00:23:37",
+      "sourceChunkTimestamp": [
+        1417.24,
+        1427.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the Son is in the Father, and conversely?",
+      "asrMatchedText": "Fifth article, whether the son is in the father and conversely.",
+      "approxStartSec": 1778.4,
+      "approxStartHMS": "00:29:38",
+      "sourceChunkTimestamp": [
+        1778.3,
+        1784.94
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the Son is equal to the Father in power?",
+      "asrMatchedText": "Sixth article, whether the Son is equal to the Father in power.",
+      "approxStartSec": 1996.12,
+      "approxStartHMS": "00:33:16",
+      "sourceChunkTimestamp": [
+        1996.04,
+        2001.12
+      ],
+      "matched": true
+    }
+  ]
+}

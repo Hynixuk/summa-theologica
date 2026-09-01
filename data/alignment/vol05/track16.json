@@ -1,0 +1,50 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "16 - Question 117 - OF THINGS PERTAINING TO THE ACTION OF MAN (In Four Articles).mp3",
+  "audioRelPath": "vol05/16 - Question 117 - OF THINGS PERTAINING TO THE ACTION OF MAN (In Four Articles).mp3",
+  "audioDurationSec": 1392.67,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 229.32,
+    "audioProcessedSec": 1392.67,
+    "realtimeFactor": 0.165,
+    "mp3DecodeSec": 2.3
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 117,
+    "title": "The action of man"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether one man can teach another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether man can teach the angels?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether man by the power of his soul can change corporeal matter?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the separate human soul can move bodies at least locally?",
+      "matched": false
+    }
+  ]
+}

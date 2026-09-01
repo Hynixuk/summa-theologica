@@ -1,0 +1,116 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "10 - Question 7 - OF THE GRACE OF CHRIST AS AN INDIVIDUAL MAN (In Thirteen Articles),.mp3",
+  "audioRelPath": "vol13/10 - Question 7 - OF THE GRACE OF CHRIST AS AN INDIVIDUAL MAN (In Thirteen Articles),.mp3",
+  "audioDurationSec": 2422.08,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 394.13,
+    "audioProcessedSec": 2422.08,
+    "realtimeFactor": 0.163,
+    "mp3DecodeSec": 5.1
+  },
+  "expectedArticleCount": 13,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 7,
+    "title": "The grace of Christ as an individual man"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether in the Soul of Christ there was any habitual grace?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether in Christ there were virtues?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether in Christ there was faith?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in Christ there was hope?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether in Christ there were the gifts?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether in Christ there was the gift of fear?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the gratuitous graces were in Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether in Christ there was the gift of prophecy?",
+      "asrMatchedText": "8th Article",
+      "approxStartSec": 42.83,
+      "approxStartHMS": "00:00:42",
+      "sourceChunkTimestamp": [
+        42.56,
+        45.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether in Christ there was the fulness of grace?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the fulness of grace is proper to Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the grace of Christ is infinite?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the grace of Christ could increase?",
+      "asrMatchedText": "12th article. Whether the grace of Christ could increase.",
+      "approxStartSec": 1576.94,
+      "approxStartHMS": "00:26:16",
+      "sourceChunkTimestamp": [
+        1576.76,
+        1587
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 13,
+      "groundTruthTitle": "Whether the habitual grace of Christ followed after the union?",
+      "asrMatchedText": "13th article. Whether the habit in the things of God and in the things of man. 13.",
+      "approxStartSec": 1984.1,
+      "approxStartHMS": "00:33:04",
+      "sourceChunkTimestamp": [
+        1984.08,
+        1985.88
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "41 - Question 87 - OF THE DEBT OF PUNISHMENT (In Eight Articles).mp3",
+  "audioRelPath": "vol08/41 - Question 87 - OF THE DEBT OF PUNISHMENT (In Eight Articles).mp3",
+  "audioDurationSec": 3225.4,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 952.44,
+    "audioProcessedSec": 3225.4,
+    "realtimeFactor": 0.295,
+    "mp3DecodeSec": 12.48
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 87,
+    "title": "The debt of punishment"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the debt of punishment is an effect of sin?",
+      "asrMatchedText": "First article, whether the debt of punishment is an effect of sin.",
+      "approxStartSec": 121.12,
+      "approxStartHMS": "00:02:01",
+      "sourceChunkTimestamp": [
+        121,
+        128.94
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sin can be the punishment of sin?",
+      "asrMatchedText": "Second article, whether sin can be the punishment of sin.",
+      "approxStartSec": 455.12,
+      "approxStartHMS": "00:07:35",
+      "sourceChunkTimestamp": [
+        455,
+        462
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether any sin incurs a debt of eternal punishment?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 788.13,
+      "approxStartHMS": "00:13:08",
+      "sourceChunkTimestamp": [
+        788,
+        790
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether sin incurs a debt of punishment infinite in quantity?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1249.96,
+      "approxStartHMS": "00:20:49",
+      "sourceChunkTimestamp": [
+        1249.84,
+        1251.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether every sin incurs a debt of eternal punishment?",
+      "asrMatchedText": "Fifth article whether every sin incurs a debt of eternal punishment.",
+      "approxStartSec": 1557.56,
+      "approxStartHMS": "00:25:57",
+      "sourceChunkTimestamp": [
+        1557.36,
+        1571.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the debt of punishment remains after sin?",
+      "asrMatchedText": "6th article, whether the debt of punishment remains after sin.",
+      "approxStartSec": 1857.43,
+      "approxStartHMS": "00:30:57",
+      "sourceChunkTimestamp": [
+        1857.28,
+        1867
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether every punishment is inflicted for a sin?",
+      "asrMatchedText": "7th article. Seventh Article Whether Every Punishment Is Inflicted For A Sin",
+      "approxStartSec": 2260.79,
+      "approxStartHMS": "00:37:40",
+      "sourceChunkTimestamp": [
+        2260.64,
+        2272.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether anyone is punished for another's sin?",
+      "asrMatchedText": "Eighth Article.",
+      "approxStartSec": 2759.13,
+      "approxStartHMS": "00:45:59",
+      "sourceChunkTimestamp": [
+        2759,
+        2761
+      ],
+      "matched": true
+    }
+  ]
+}

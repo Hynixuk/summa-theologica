@@ -1,0 +1,150 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "40 - Question 83 - OF PRAYER (In Seventeen Articles), part 1.mp3",
+  "audioRelPath": "vol11/40 - Question 83 - OF PRAYER (In Seventeen Articles), part 1.mp3",
+  "audioDurationSec": 2116.66,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 356.99,
+    "audioProcessedSec": 2116.66,
+    "realtimeFactor": 0.169,
+    "mp3DecodeSec": 3.17
+  },
+  "expectedArticleCount": 17,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 83,
+    "title": "Prayer"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether prayer is an act of the appetitive power?",
+      "asrMatchedText": "First article, whether prayer is an act of the Appetitive Power.",
+      "approxStartSec": 148.3,
+      "approxStartHMS": "00:02:28",
+      "sourceChunkTimestamp": [
+        148.2,
+        154.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is becoming to pray?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 583,
+      "approxStartHMS": "00:09:43",
+      "sourceChunkTimestamp": [
+        582.88,
+        584.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether prayer is an act of religion?",
+      "asrMatchedText": "Third Article Whether Prayer is an Act of Religion",
+      "approxStartSec": 939.31,
+      "approxStartHMS": "00:15:39",
+      "sourceChunkTimestamp": [
+        939.2,
+        944.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether we ought to pray to God alone?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1205.25,
+      "approxStartHMS": "00:20:05",
+      "sourceChunkTimestamp": [
+        1205,
+        1209
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether we ought to ask for something definite when we pray?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether man ought to ask God for temporal things when he prays?",
+      "asrMatchedText": "Sixth Article",
+      "approxStartSec": 1774.8,
+      "approxStartHMS": "00:29:34",
+      "sourceChunkTimestamp": [
+        1774.68,
+        1776.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether we ought to pray for others?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether we ought to pray for our enemies?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the seven petitions of the Lord's Prayer are fittingly assigned?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether prayer is proper to the rational creature?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the saints in heaven pray for us?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether prayer should be vocal?",
+      "matched": false
+    },
+    {
+      "articleNumber": 13,
+      "groundTruthTitle": "Whether attention is a necessary condition of prayer?",
+      "matched": false
+    },
+    {
+      "articleNumber": 14,
+      "groundTruthTitle": "Whether prayer should last a long time?",
+      "matched": false
+    },
+    {
+      "articleNumber": 15,
+      "groundTruthTitle": "Whether prayer is meritorious?",
+      "matched": false
+    },
+    {
+      "articleNumber": 16,
+      "groundTruthTitle": "Whether sinners impetrate anything from God by their prayers?",
+      "matched": false
+    },
+    {
+      "articleNumber": 17,
+      "groundTruthTitle": "Whether the parts of prayer are fittingly described as supplications, prayers, intercessions, and thanksgivings?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "15 - Question 13 - OF CHOICE, WHICH IS AN ACT OF THE WILL WITH REGARD TO THE MEANS (I.mp3",
+  "audioRelPath": "vol06/15 - Question 13 - OF CHOICE, WHICH IS AN ACT OF THE WILL WITH REGARD TO THE MEANS (I.mp3",
+  "audioDurationSec": 1735.13,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 513.76,
+    "audioProcessedSec": 1735.13,
+    "realtimeFactor": 0.296,
+    "mp3DecodeSec": 6.12
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 13,
+    "title": "Choice, which is an act of the will with regard to the means"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether choice is an act of will or of reason?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether choice is to be found in irrational animals?",
+      "asrMatchedText": "Second article, whether choice is to be found in irrational animals.",
+      "approxStartSec": 373.88,
+      "approxStartHMS": "00:06:13",
+      "sourceChunkTimestamp": [
+        373.8,
+        379.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether choice is only of the means, or sometimes also of the end?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 732.13,
+      "approxStartHMS": "00:12:12",
+      "sourceChunkTimestamp": [
+        732,
+        734
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether choice is of those things only that are done by us?",
+      "asrMatchedText": "Fourth Article.",
+      "approxStartSec": 937.61,
+      "approxStartHMS": "00:15:37",
+      "sourceChunkTimestamp": [
+        937.5,
+        939.18
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether choice is only of possible things?",
+      "asrMatchedText": "is in conjunction with some action of the chooser. Fifth article, whether choice is",
+      "approxStartSec": 1121.83,
+      "approxStartHMS": "00:18:41",
+      "sourceChunkTimestamp": [
+        1117.4,
+        1124.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether man chooses of necessity or freely?",
+      "asrMatchedText": "Sixth article, whether man chooses of necessity or freely.",
+      "approxStartSec": 1406.4,
+      "approxStartHMS": "00:23:26",
+      "sourceChunkTimestamp": [
+        1406.28,
+        1413.42
+      ],
+      "matched": true
+    }
+  ]
+}

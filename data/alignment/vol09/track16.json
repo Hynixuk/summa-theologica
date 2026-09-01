@@ -1,0 +1,67 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "16 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part .mp3",
+  "audioRelPath": "vol09/16 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part .mp3",
+  "audioDurationSec": 3594.89,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 1152.49,
+    "audioProcessedSec": 3594.89,
+    "realtimeFactor": 0.321,
+    "mp3DecodeSec": 12.84
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 102,
+    "title": "The causes of the ceremonial precepts"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there was any cause for the ceremonial precepts?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the ceremonial precepts have a literal cause or merely a figurative cause?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a suitable cause can be assigned for the ceremonies which pertained to sacrifices?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether sufficient reason can be assigned for the ceremonies pertaining to holy things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there can be any suitable cause for the sacraments of the Old Law?",
+      "asrMatchedText": "5th Article.",
+      "approxStartSec": 44.26,
+      "approxStartHMS": "00:00:44",
+      "sourceChunkTimestamp": [
+        44.08,
+        46.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there was any reasonable cause for the ceremonial observances?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "23 - Question 49 The Cause of Evil.mp3",
+  "audioRelPath": "vol02/23 - Question 49 The Cause of Evil.mp3",
+  "audioDurationSec": 1113.39,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 182.11,
+    "audioProcessedSec": 1113.39,
+    "realtimeFactor": 0.164,
+    "mp3DecodeSec": 1.62
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 49,
+    "title": "The cause of evil"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether good can be the cause of evil?",
+      "asrMatchedText": "First article, whether good can be the cause of evil.",
+      "approxStartSec": 57.63,
+      "approxStartHMS": "00:00:57",
+      "sourceChunkTimestamp": [
+        57.56,
+        61.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the supreme good, God, is the cause of evil?",
+      "asrMatchedText": "but only an accidental cause, as was said above. Second article, whether the supreme",
+      "approxStartSec": 430.51,
+      "approxStartHMS": "00:07:10",
+      "sourceChunkTimestamp": [
+        427,
+        432.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there be one supreme evil which is the cause of every evil?",
+      "matched": false
+    }
+  ]
+}

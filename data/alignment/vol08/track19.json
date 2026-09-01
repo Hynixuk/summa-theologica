@@ -1,0 +1,102 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "19 - Question 67 - OF THE DURATION OF VIRTUES AFTER THIS LIFE (In Six Articles).mp3",
+  "audioRelPath": "vol08/19 - Question 67 - OF THE DURATION OF VIRTUES AFTER THIS LIFE (In Six Articles).mp3",
+  "audioDurationSec": 2561.36,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 485.98,
+    "audioProcessedSec": 2561.36,
+    "realtimeFactor": 0.19,
+    "mp3DecodeSec": 3.68
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 67,
+    "title": "The duration of virtues after this life"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the moral virtues remain after this life?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 83.18,
+      "approxStartHMS": "00:01:23",
+      "sourceChunkTimestamp": [
+        83,
+        85.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the intellectual virtues remain after this life?",
+      "asrMatchedText": "Second article, whether the intellectual virtues remain after this life.",
+      "approxStartSec": 499.59,
+      "approxStartHMS": "00:08:19",
+      "sourceChunkTimestamp": [
+        499.44,
+        510.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether faith remains after this life?",
+      "asrMatchedText": "Third Article.",
+      "approxStartSec": 880.35,
+      "approxStartHMS": "00:14:40",
+      "sourceChunkTimestamp": [
+        880.24,
+        881.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether hope remains after death, in the state of glory?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1456.03,
+      "approxStartHMS": "00:24:16",
+      "sourceChunkTimestamp": [
+        1455.92,
+        1457.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether anything of faith or hope remains in glory?",
+      "asrMatchedText": "Fifth article whether anything of faith or hope remains in glory.",
+      "approxStartSec": 1897.27,
+      "approxStartHMS": "00:31:37",
+      "sourceChunkTimestamp": [
+        1897.2,
+        1902.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether charity remains after this life, in glory?",
+      "asrMatchedText": "Sixth article whether charity remains after this life in glory.",
+      "approxStartSec": 2330.88,
+      "approxStartHMS": "00:38:50",
+      "sourceChunkTimestamp": [
+        2330.8,
+        2335.68
+      ],
+      "matched": true
+    }
+  ]
+}

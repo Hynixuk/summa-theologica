@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "37 - Question 30 - OF MERCY, OR OF PITY (In Four Articles).mp3",
+  "audioRelPath": "vol10/37 - Question 30 - OF MERCY, OR OF PITY (In Four Articles).mp3",
+  "audioDurationSec": 1612.28,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 287.9,
+    "audioProcessedSec": 1612.28,
+    "realtimeFactor": 0.179,
+    "mp3DecodeSec": 2.58
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 30,
+    "title": "Mercy"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether evil is properly the motive of mercy?",
+      "asrMatchedText": "First article, whether evil is properly the motive of mercy.",
+      "approxStartSec": 92.89,
+      "approxStartHMS": "00:01:32",
+      "sourceChunkTimestamp": [
+        92.76,
+        100.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the reason for taking pity is a defect in the person who pities?",
+      "asrMatchedText": "Second article, whether the reason for taking pity is a defect in the person who pities.",
+      "approxStartSec": 532.51,
+      "approxStartHMS": "00:08:52",
+      "sourceChunkTimestamp": [
+        532.4,
+        541.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether mercy is a virtue?",
+      "asrMatchedText": "Third article, whether mercy is a virtue.",
+      "approxStartSec": 892.14,
+      "approxStartHMS": "00:14:52",
+      "sourceChunkTimestamp": [
+        892,
+        898
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether mercy is the greatest of the virtues?",
+      "asrMatchedText": "Fourth article. Your mercy is the greatest of a virtue.",
+      "approxStartSec": 1283.07,
+      "approxStartHMS": "00:21:23",
+      "sourceChunkTimestamp": [
+        1283,
+        1286.84
+      ],
+      "matched": true
+    }
+  ]
+}

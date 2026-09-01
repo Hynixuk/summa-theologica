@@ -1,0 +1,54 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "67 - Question 56 - OF THE CAUSALITY OF CHRIST'S RESURRECTION (In Two Articles).mp3",
+  "audioRelPath": "vol13/67 - Question 56 - OF THE CAUSALITY OF CHRIST'S RESURRECTION (In Two Articles).mp3",
+  "audioDurationSec": 1121.96,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 206.51,
+    "audioProcessedSec": 1121.96,
+    "realtimeFactor": 0.184,
+    "mp3DecodeSec": 2.11
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 56,
+    "title": "The causality of Christ's Resurrection"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ's Resurrection is the cause of the resurrection of our bodies?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 59.2,
+      "approxStartHMS": "00:00:59",
+      "sourceChunkTimestamp": [
+        59,
+        62
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ's Resurrection is the cause of the resurrection of souls?",
+      "asrMatchedText": "Second article, whether Christ's resurrection is the cause of the resurrection of souls. One, it would seem that Christ's resurrection is the cause of the resurrection of souls.",
+      "approxStartSec": 718.44,
+      "approxStartHMS": "00:11:58",
+      "sourceChunkTimestamp": [
+        718.4,
+        726.12
+      ],
+      "matched": true
+    }
+  ]
+}

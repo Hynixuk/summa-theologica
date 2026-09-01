@@ -1,0 +1,71 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "16 - Question. 65 - THE WORK OF CREATION OF CORPOREAL CREATURES (FOUR ARTICLES).mp3",
+  "audioRelPath": "vol03/16 - Question. 65 - THE WORK OF CREATION OF CORPOREAL CREATURES (FOUR ARTICLES).mp3",
+  "audioDurationSec": 1788.97,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 993.37,
+    "audioProcessedSec": 1788.97,
+    "realtimeFactor": 0.555,
+    "mp3DecodeSec": 6.31
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 65,
+    "title": "The work of creation of corporeal creatures"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether corporeal creatures are from God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether corporeal things were made on account of God's goodness?",
+      "asrMatchedText": "Second Article I, Question 65, Article II.",
+      "approxStartSec": 517.7,
+      "approxStartHMS": "00:08:37",
+      "sourceChunkTimestamp": [
+        517.58,
+        522.9
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether corporeal creatures were produced by God through the medium of the angels?",
+      "asrMatchedText": "Third article, 1. Question 65, article 3. Whether corporal creatures were produced by God through",
+      "approxStartSec": 941.28,
+      "approxStartHMS": "00:15:41",
+      "sourceChunkTimestamp": [
+        941.2,
+        949.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the forms of bodies are from the angels?",
+      "asrMatchedText": "Fourth Article I, Question 65, Article IV.",
+      "approxStartSec": 1291.85,
+      "approxStartHMS": "00:21:31",
+      "sourceChunkTimestamp": [
+        1291.72,
+        1297.36
+      ],
+      "matched": true
+    }
+  ]
+}

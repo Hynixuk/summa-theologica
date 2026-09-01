@@ -1,0 +1,47 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "32 - Question 101 - OF THE CONDITION OF THE OFFSPRING AS REGARDS KNOWLEDGE (In Two Ar.mp3",
+  "audioRelPath": "vol04/32 - Question 101 - OF THE CONDITION OF THE OFFSPRING AS REGARDS KNOWLEDGE (In Two Ar.mp3",
+  "audioDurationSec": 441.91,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 91.35,
+    "audioProcessedSec": 441.91,
+    "realtimeFactor": 0.207,
+    "mp3DecodeSec": 0.52
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 101,
+    "title": "The condition of the offspring as regards knowledge"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether in the state of innocence children would have been born with perfect knowledge?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether children would have had perfect use of reason at birth?",
+      "asrMatchedText": "Second Article I, Christian 1001 Article II, but the children would have had perfect",
+      "approxStartSec": 257.64,
+      "approxStartHMS": "00:04:17",
+      "sourceChunkTimestamp": [
+        257.56,
+        264.08
+      ],
+      "matched": true
+    }
+  ]
+}

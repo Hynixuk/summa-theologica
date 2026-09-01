@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "107 - Question 145 - OF HONESTY, OR OF MORAL GOODNESS (In Four Articles).mp3",
+  "audioRelPath": "vol11/107 - Question 145 - OF HONESTY, OR OF MORAL GOODNESS (In Four Articles).mp3",
+  "audioDurationSec": 1437.37,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 227.78,
+    "audioProcessedSec": 1437.37,
+    "realtimeFactor": 0.158,
+    "mp3DecodeSec": 2.14
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 145,
+    "title": "Honesty"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether honesty is the same as virtue?",
+      "asrMatchedText": "is a part of temperance. First article, whether honesty is the same",
+      "approxStartSec": 93.19,
+      "approxStartHMS": "00:01:33",
+      "sourceChunkTimestamp": [
+        90.16,
+        98.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the honest is the same as the beautiful?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the honest differs from the useful and the pleasant?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 830.23,
+      "approxStartHMS": "00:13:50",
+      "sourceChunkTimestamp": [
+        830.12,
+        831.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether honesty should be reckoned a part of temperance?",
+      "asrMatchedText": "Fourth article, whether honesty should be reckoned a part of temperance.",
+      "approxStartSec": 1171.3,
+      "approxStartHMS": "00:19:31",
+      "sourceChunkTimestamp": [
+        1171.2,
+        1178.4
+      ],
+      "matched": true
+    }
+  ]
+}

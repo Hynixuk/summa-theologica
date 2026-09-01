@@ -1,0 +1,78 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "11 - 11 - Question 11 The Unity of God.mp3",
+  "audioRelPath": "vol01/11 - 11 - Question 11 The Unity of God.mp3",
+  "audioDurationSec": 1122.59,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 344.49,
+    "audioProcessedSec": 1122.59,
+    "realtimeFactor": 0.307,
+    "mp3DecodeSec": 4.11
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 11,
+    "title": "The unity of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether \"one\" adds anything to \"being\"?",
+      "asrMatchedText": "First article, whether one adds anything to being.",
+      "approxStartSec": 52.33,
+      "approxStartHMS": "00:00:52",
+      "sourceChunkTimestamp": [
+        52.24,
+        56.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether \"one\" and \"many\" are opposed to each other?",
+      "asrMatchedText": "Second article, whether one and many are opposed to each other.",
+      "approxStartSec": 361.33,
+      "approxStartHMS": "00:06:01",
+      "sourceChunkTimestamp": [
+        361.24,
+        367
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God is one?",
+      "asrMatchedText": "the notion of multitude. Third article whether God is one.",
+      "approxStartSec": 709.35,
+      "approxStartHMS": "00:11:49",
+      "sourceChunkTimestamp": [
+        706.32,
+        713.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether God is supremely one?",
+      "asrMatchedText": "same way it is said of God that he is one. Fourth article, whether God is supremely one.",
+      "approxStartSec": 950.21,
+      "approxStartHMS": "00:15:50",
+      "sourceChunkTimestamp": [
+        945.98,
+        954.54
+      ],
+      "matched": true
+    }
+  ]
+}

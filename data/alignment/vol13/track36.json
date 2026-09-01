@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "36 - Question 30 - OF THE ANNUNCIATION OF THE BLESSED VIRGIN (In Four Articles).mp3",
+  "audioRelPath": "vol13/36 - Question 30 - OF THE ANNUNCIATION OF THE BLESSED VIRGIN (In Four Articles).mp3",
+  "audioDurationSec": 1683,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 300.76,
+    "audioProcessedSec": 1683,
+    "realtimeFactor": 0.179,
+    "mp3DecodeSec": 2.72
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 30,
+    "title": "The Annunciation of the Blessed Virgin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was necessary to announce to the Blessed Virgin that which was to be done in her?",
+      "asrMatchedText": "First article, whether it was necessary to announce to the Blessed Virgin that which was",
+      "approxStartSec": 72.78,
+      "approxStartHMS": "00:01:12",
+      "sourceChunkTimestamp": [
+        72.72,
+        78.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the annunciation should have been made by an angel to the Blessed Virgin?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 350.94,
+      "approxStartHMS": "00:05:50",
+      "sourceChunkTimestamp": [
+        350.84,
+        352.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the angel of annunciation should have appeared to the Virgin in a bodily vision?",
+      "asrMatchedText": "Third Article Whether the angel of Annunciation should have appeared to the Virgin in a bodily",
+      "approxStartSec": 839.74,
+      "approxStartHMS": "00:13:59",
+      "sourceChunkTimestamp": [
+        839.68,
+        845.14
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Annunciation took place in becoming order?",
+      "asrMatchedText": "Fourth article,",
+      "approxStartSec": 1310.89,
+      "approxStartHMS": "00:21:50",
+      "sourceChunkTimestamp": [
+        1310.8,
+        1312.3
+      ],
+      "matched": true
+    }
+  ]
+}

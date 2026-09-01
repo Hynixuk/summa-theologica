@@ -1,0 +1,71 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "16 - Question 64 - OF THE MEAN OF VIRTUE (In Four Articles).mp3",
+  "audioRelPath": "vol08/16 - Question 64 - OF THE MEAN OF VIRTUE (In Four Articles).mp3",
+  "audioDurationSec": 1476.17,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 300.38,
+    "audioProcessedSec": 1476.17,
+    "realtimeFactor": 0.203,
+    "mp3DecodeSec": 2.21
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 64,
+    "title": "The mean of virtue"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether moral virtues observe the mean?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the mean of moral virtue is the real mean, or the rational mean?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 500.03,
+      "approxStartHMS": "00:08:20",
+      "sourceChunkTimestamp": [
+        499.56,
+        507
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the intellectual virtues observe the mean?",
+      "asrMatchedText": "Third article. Whether the intellectual virtues observe them the mean of justice.",
+      "approxStartSec": 741.06,
+      "approxStartHMS": "00:12:21",
+      "sourceChunkTimestamp": [
+        741,
+        746.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the theological virtues observe the mean?",
+      "asrMatchedText": "Fourth article whether the theological virtues observe the mean.",
+      "approxStartSec": 1134.48,
+      "approxStartHMS": "00:18:54",
+      "sourceChunkTimestamp": [
+        1134.38,
+        1140.64
+      ],
+      "matched": true
+    }
+  ]
+}

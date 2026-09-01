@@ -1,0 +1,118 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "85 - Question 123 - OF FORTITUDE (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol11/85 - Question 123 - OF FORTITUDE (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 1899.19,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 303.08,
+    "audioProcessedSec": 1899.19,
+    "realtimeFactor": 0.16,
+    "mp3DecodeSec": 3.11
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 123,
+    "title": "Fortitude"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether fortitude is a virtue?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether fortitude is a special virtue?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether fortitude is about fear and daring?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether fortitude is only about dangers of death?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether fortitude is properly about dangers of death in battle?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether endurance is the chief act of fortitude?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the brave man acts for the sake of the good of his habit?",
+      "asrMatchedText": "Seventh Article Whether the brave man acts for the sake of the good of his habit.",
+      "approxStartSec": 51.3,
+      "approxStartHMS": "00:00:51",
+      "sourceChunkTimestamp": [
+        51.2,
+        59.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the brave man delights in his act?",
+      "asrMatchedText": "8th article, whether the brave man delights in his act.",
+      "approxStartSec": 270.75,
+      "approxStartHMS": "00:04:30",
+      "sourceChunkTimestamp": [
+        270.56,
+        281
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether fortitude deals chiefly with sudden occurrences?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the brave man makes use of anger in his action?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether fortitude is a cardinal virtue?",
+      "asrMatchedText": "11th article, whether fortitude is a cardinal virtue.",
+      "approxStartSec": 1267.09,
+      "approxStartHMS": "00:21:07",
+      "sourceChunkTimestamp": [
+        1266.9,
+        1277.18
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether fortitude excels among all other virtues?",
+      "asrMatchedText": "12th article, whether Fortitude excels among all other virtues.",
+      "approxStartSec": 1540.18,
+      "approxStartHMS": "00:25:40",
+      "sourceChunkTimestamp": [
+        1540,
+        1551.6
+      ],
+      "matched": true
+    }
+  ]
+}

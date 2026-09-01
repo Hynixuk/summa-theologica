@@ -1,0 +1,125 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "03 - Question 2 - OF THE MODE OF UNION OF THE WORD INCARNATE (In Twelve Articles), pa.mp3",
+  "audioRelPath": "vol13/03 - Question 2 - OF THE MODE OF UNION OF THE WORD INCARNATE (In Twelve Articles), pa.mp3",
+  "audioDurationSec": 2730.89,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 657.21,
+    "audioProcessedSec": 2730.89,
+    "realtimeFactor": 0.241,
+    "mp3DecodeSec": 9.51
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 2,
+    "title": "The mode of union of the Word incarnate"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the Union of Incarnate Word took place in the nature?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 140.16,
+      "approxStartHMS": "00:02:20",
+      "sourceChunkTimestamp": [
+        139.96,
+        142.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the union of Incarnate Word took place in the Person?",
+      "asrMatchedText": "Second article. Whether the union of the incarnate word took place in the person. One. It would seem that the Union of the incarnate word took place in the person.",
+      "approxStartSec": 837.73,
+      "approxStartHMS": "00:13:57",
+      "sourceChunkTimestamp": [
+        837.68,
+        846.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the union of the Word Incarnate took place in the suppositum or hypostasis?",
+      "asrMatchedText": "Third article. Whether the union of the word incarnate took place in the",
+      "approxStartSec": 1347.13,
+      "approxStartHMS": "00:22:27",
+      "sourceChunkTimestamp": [
+        1347,
+        1356.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether after Incarnation the Person or Hypostasis of Christ is composite?",
+      "asrMatchedText": "Fourth article. assumed and not by reason of the apostasis.",
+      "approxStartSec": 2004.08,
+      "approxStartHMS": "00:33:24",
+      "sourceChunkTimestamp": [
+        2004,
+        2008.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether in Christ there is any union of soul and body?",
+      "asrMatchedText": "Fifth article. Whether in Christ there is any union of soul and body.",
+      "approxStartSec": 2232.16,
+      "approxStartHMS": "00:37:12",
+      "sourceChunkTimestamp": [
+        2232.08,
+        2237.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the human nature was united to the Word of God accidentally?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the union of the Divine nature and the human is anything created?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether union is the same as assumption?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the union of the two natures in Christ is the greatest of all unions?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the union of Incarnation took place by grace?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether any merits preceded the union of Incarnation?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the grace of union was natural to the man Christ?",
+      "matched": false
+    }
+  ]
+}

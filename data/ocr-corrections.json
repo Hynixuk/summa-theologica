@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-08-24T15:21:41.849Z",
+  "trackCount": 32,
+  "correctionCandidates": 17,
+  "correctionApplied": 7,
+  "applied": [
+    {
+      "book": 5,
+      "chapter": 3,
+      "original": "similarly",
+      "corrected": "similarly",
+      "confidence": "high"
+    },
+    {
+      "book": 8,
+      "chapter": 2,
+      "original": "statements",
+      "corrected": "statements",
+      "confidence": "high"
+    },
+    {
+      "book": 13,
+      "chapter": 9,
+      "original": "statements",
+      "corrected": "statements",
+      "confidence": "high"
+    },
+    {
+      "book": 9,
+      "chapter": 1,
+      "original": "contrary",
+      "corrected": "contrary",
+      "confidence": "high"
+    },
+    {
+      "book": 6,
+      "chapter": 2,
+      "original": "howcver",
+      "corrected": "however",
+      "confidence": "high"
+    },
+    {
+      "book": 6,
+      "chapter": 2,
+      "original": "howcver",
+      "corrected": "however",
+      "confidence": "high"
+    },
+    {
+      "book": 13,
+      "chapter": 8,
+      "original": "howcver",
+      "corrected": "however",
+      "confidence": "high"
+    }
+  ],
+  "allCandidates": [
+    {
+      "originalWord": "might",
+      "audioWord": "might",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "one however might indulge in",
+      "track": 2,
+      "book": 1
+    },
+    {
+      "originalWord": "partly",
+      "audioWord": "partly",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "truth is partly difficult speenhitiv",
+      "track": 4,
+      "book": 2
+    },
+    {
+      "originalWord": "partly",
+      "audioWord": "partly",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "speenhitiv and partly easy And",
+      "track": 4,
+      "book": 2
+    },
+    {
+      "originalWord": "partly",
+      "audioWord": "partly",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "is denominated partly as that",
+      "track": 11,
+      "book": 5
+    },
+    {
+      "originalWord": "partly",
+      "audioWord": "partly",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "accident and partly that senses",
+      "track": 11,
+      "book": 5
+    },
+    {
+      "originalWord": "explanation",
+      "audioWord": "explanation",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "sentence or explanation has parts",
+      "track": 16,
+      "book": 7
+    },
+    {
+      "originalWord": "parts",
+      "audioWord": "parts",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "explanation has parts and as",
+      "track": 16,
+      "book": 7
+    },
+    {
+      "originalWord": "similarly",
+      "audioWord": "similarly",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "sentence is similarly related to",
+      "track": 16,
+      "book": 7
+    },
+    {
+      "originalWord": "parts",
+      "audioWord": "part",
+      "similarity": 0.8,
+      "confidence": "medium",
+      "context": "of the parts should be",
+      "track": 16,
+      "book": 7
+    },
+    {
+      "originalWord": "statements",
+      "audioWord": "statements",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "From tbe statements that have",
+      "track": 18,
+      "book": 8
+    },
+    {
+      "originalWord": "previously",
+      "audioWord": "previously",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "denomi been previously declared m",
+      "track": 21,
+      "book": 10
+    },
+    {
+      "originalWord": "contrary",
+      "audioWord": "contrary",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "thing is contrary to one",
+      "track": 22,
+      "book": 10
+    },
+    {
+      "originalWord": "perplexed",
+      "audioWord": "perplexed",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "would feel perplexed as to",
+      "track": 22,
+      "book": 10
+    },
+    {
+      "originalWord": "statements",
+      "audioWord": "statements",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "to the statements that have",
+      "track": 24,
+      "book": 11
+    },
+    {
+      "originalWord": "stands",
+      "audioWord": "stands",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "the case stands thus ^and",
+      "track": 27,
+      "book": 12
+    },
+    {
+      "originalWord": "might",
+      "audioWord": "might",
+      "similarity": 1,
+      "confidence": "high",
+      "context": "Theinsuffl especially might one raise",
+      "track": 29,
+      "book": 13
+    },
+    {
+      "originalWord": "howcver",
+      "audioWord": "however",
+      "similarity": 0.8571428571428572,
+      "confidence": "high",
+      "context": "number plaoc howcver abovc all",
+      "track": 30,
+      "book": 13
+    }
+  ]
+}

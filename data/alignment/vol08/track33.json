@@ -1,0 +1,71 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "33 - Question 79 - OF THE EXTERNAL CAUSES OF SIN (In Four Articles).mp3",
+  "audioRelPath": "vol08/33 - Question 79 - OF THE EXTERNAL CAUSES OF SIN (In Four Articles).mp3",
+  "audioDurationSec": 1556.37,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 282.47,
+    "audioProcessedSec": 1556.37,
+    "realtimeFactor": 0.181,
+    "mp3DecodeSec": 2.34
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 79,
+    "title": "The external causes of sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God is a cause of sin?",
+      "asrMatchedText": "First article, whether God is a cause of sin.",
+      "approxStartSec": 93.93,
+      "approxStartHMS": "00:01:33",
+      "sourceChunkTimestamp": [
+        93.8,
+        100
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the act of sin is from God?",
+      "asrMatchedText": "Second article, whether the act of sin is from God.",
+      "approxStartSec": 560.37,
+      "approxStartHMS": "00:09:20",
+      "sourceChunkTimestamp": [
+        560.24,
+        566.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God is the cause of spiritual blindness and hardness of heart?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether blindness and hardness of heart are directed to the salvation of those who are blinded and hardened?",
+      "asrMatchedText": "Fourth article, whether blindness and hardness of heart are directed to the salvation of",
+      "approxStartSec": 1218.87,
+      "approxStartHMS": "00:20:18",
+      "sourceChunkTimestamp": [
+        1218.8,
+        1224.92
+      ],
+      "matched": true
+    }
+  ]
+}

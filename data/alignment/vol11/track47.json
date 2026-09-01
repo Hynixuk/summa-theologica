@@ -1,0 +1,125 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "47 - Question 88 - OF VOWS (In Twelve Articles), part 1.mp3",
+  "audioRelPath": "vol11/47 - Question 88 - OF VOWS (In Twelve Articles), part 1.mp3",
+  "audioDurationSec": 2406.67,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 353.02,
+    "audioProcessedSec": 2406.67,
+    "realtimeFactor": 0.147,
+    "mp3DecodeSec": 3.15
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 88,
+    "title": "Vows"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a vow consists in a mere purpose of the will?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 127.13,
+      "approxStartHMS": "00:02:07",
+      "sourceChunkTimestamp": [
+        127,
+        129
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a vow should always be about a better good?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 467.13,
+      "approxStartHMS": "00:07:47",
+      "sourceChunkTimestamp": [
+        467,
+        469
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether all vows are binding?",
+      "asrMatchedText": "Third article, whether all vows are binding.",
+      "approxStartSec": 938.46,
+      "approxStartHMS": "00:15:38",
+      "sourceChunkTimestamp": [
+        938.32,
+        944.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is expedient to take vows?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1308.88,
+      "approxStartHMS": "00:21:48",
+      "sourceChunkTimestamp": [
+        1308.76,
+        1310.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a vow is an act of latria or religion?",
+      "asrMatchedText": "Fifth article. Whether a vow is an act of Latria or religion.",
+      "approxStartSec": 1677.09,
+      "approxStartHMS": "00:27:57",
+      "sourceChunkTimestamp": [
+        1676.96,
+        1684.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is more praiseworthy and meritorious to do something in fulfilment of a vow, than without a vow?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether a vow is solemnized by the reception of holy orders, and by the profession of a certain rule?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether those who are subject to another's power are hindered from taking vows?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether children can bind themselves by vow to enter religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether vows admit of dispensation?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether it is possible to be dispensed from a solemn vow of continency?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the authority of a prelate is required for commutation or the dispensation of a vow?",
+      "matched": false
+    }
+  ]
+}

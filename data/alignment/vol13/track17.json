@@ -1,0 +1,71 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "17 - Question 14 - OF THE DEFECTS OF BODY ASSUMED BY THE SON OF GOD (In Four Articles.mp3",
+  "audioRelPath": "vol13/17 - Question 14 - OF THE DEFECTS OF BODY ASSUMED BY THE SON OF GOD (In Four Articles.mp3",
+  "audioDurationSec": 1442,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 398.93,
+    "audioProcessedSec": 1442,
+    "realtimeFactor": 0.277,
+    "mp3DecodeSec": 2.95
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 14,
+    "title": "The defects of body assumed by the Son of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the Son of God in human nature ought to have assumed defects of body?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 82.12,
+      "approxStartHMS": "00:01:22",
+      "sourceChunkTimestamp": [
+        81.88,
+        85.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ was of necessity subject to these defects?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 617.39,
+      "approxStartHMS": "00:10:17",
+      "sourceChunkTimestamp": [
+        617.28,
+        619.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ contracted these defects?",
+      "asrMatchedText": "Third article, whether Christ contracted these defects?",
+      "approxStartSec": 878.36,
+      "approxStartHMS": "00:14:38",
+      "sourceChunkTimestamp": [
+        878.26,
+        883.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ ought to have assumed all the bodily defects of men?",
+      "matched": false
+    }
+  ]
+}

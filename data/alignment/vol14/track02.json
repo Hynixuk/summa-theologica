@@ -1,0 +1,78 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "02 - Question 61 - THE NECESSITY OF THE SACRAMENTS (In Four Articles).mp3",
+  "audioRelPath": "vol14/02 - Question 61 - THE NECESSITY OF THE SACRAMENTS (In Four Articles).mp3",
+  "audioDurationSec": 1284.98,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 199.67,
+    "audioProcessedSec": 1284.98,
+    "realtimeFactor": 0.155,
+    "mp3DecodeSec": 2.13
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 61,
+    "title": "The necessity of the sacraments"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether sacraments are necessary for man's salvation?",
+      "asrMatchedText": "First article, whether sacraments are necessary for man-salvation.",
+      "approxStartSec": 56.65,
+      "approxStartHMS": "00:00:56",
+      "sourceChunkTimestamp": [
+        56.56,
+        62.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether before sin sacraments were necessary to man?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 381.17,
+      "approxStartHMS": "00:06:21",
+      "sourceChunkTimestamp": [
+        381.04,
+        383.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there should have been sacraments after sin, before Christ?",
+      "asrMatchedText": "Third article. Whether there should have been sex... everything else foreshadowed Christ.",
+      "approxStartSec": 603.8,
+      "approxStartHMS": "00:10:03",
+      "sourceChunkTimestamp": [
+        603.76,
+        607
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there was need for any sacraments after Christ came?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 976.95,
+      "approxStartHMS": "00:16:16",
+      "sourceChunkTimestamp": [
+        976.84,
+        978.6
+      ],
+      "matched": true
+    }
+  ]
+}

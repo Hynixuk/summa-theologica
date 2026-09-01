@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "18 - Question 61 - OF THE PARTS OF JUSTICE (In Four Articles).mp3",
+  "audioRelPath": "vol11/18 - Question 61 - OF THE PARTS OF JUSTICE (In Four Articles).mp3",
+  "audioDurationSec": 1784.98,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 436.01,
+    "audioProcessedSec": 1784.98,
+    "realtimeFactor": 0.244,
+    "mp3DecodeSec": 6.6
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 61,
+    "title": "The parts of Justice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether two species of justice are suitably assigned, viz. commutative and distributive?",
+      "asrMatchedText": "First article, whether two species of justice are suitably assigned, notably commutative",
+      "approxStartSec": 128.75,
+      "approxStartHMS": "00:02:08",
+      "sourceChunkTimestamp": [
+        128.64,
+        138
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the mean is to be observed in the same way in distributive as in commutative justice?",
+      "asrMatchedText": "Second article, whether the mean is to be observed in the same way in distributive as in commutative justice.",
+      "approxStartSec": 511.78,
+      "approxStartHMS": "00:08:31",
+      "sourceChunkTimestamp": [
+        511.68,
+        522.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there is a different matter for both kinds of justice?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 897.96,
+      "approxStartHMS": "00:14:57",
+      "sourceChunkTimestamp": [
+        897.84,
+        899.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the just is absolutely the same as retaliation?",
+      "asrMatchedText": "Fourth article. Whether the just is absolutely the same as retaliation.",
+      "approxStartSec": 1352.35,
+      "approxStartHMS": "00:22:32",
+      "sourceChunkTimestamp": [
+        1352.32,
+        1354.56
+      ],
+      "matched": true
+    }
+  ]
+}

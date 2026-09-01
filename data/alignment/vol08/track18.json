@@ -1,0 +1,102 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "18 - Question 66 - OF EQUALITY AMONG THE VIRTUES (In Six Articles).mp3",
+  "audioRelPath": "vol08/18 - Question 66 - OF EQUALITY AMONG THE VIRTUES (In Six Articles).mp3",
+  "audioDurationSec": 2630.31,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 499.69,
+    "audioProcessedSec": 2630.31,
+    "realtimeFactor": 0.19,
+    "mp3DecodeSec": 4.43
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 66,
+    "title": "Equality among the virtues"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether one virtue can be greater or less than another?",
+      "asrMatchedText": "First article, whether one virtue can be greater or less than another.",
+      "approxStartSec": 93.08,
+      "approxStartHMS": "00:01:33",
+      "sourceChunkTimestamp": [
+        93,
+        99
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether all the virtues that are together in one man, are equal?",
+      "asrMatchedText": "Second Article",
+      "approxStartSec": 551.33,
+      "approxStartHMS": "00:09:11",
+      "sourceChunkTimestamp": [
+        551.26,
+        552.26
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the moral virtues are better than the intellectual virtues?",
+      "asrMatchedText": "This suffices for the reply to the third objection. Third article. Whether the moral virtues are better than the intellectual virtues. Objection",
+      "approxStartSec": 984,
+      "approxStartHMS": "00:16:24",
+      "sourceChunkTimestamp": [
+        976.6,
+        996.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether justice is the chief of the moral virtues?",
+      "asrMatchedText": "Fourth article, whether justice is the chief of the moral virtues.",
+      "approxStartSec": 1360.39,
+      "approxStartHMS": "00:22:40",
+      "sourceChunkTimestamp": [
+        1360.32,
+        1365.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether wisdom is the greatest of the intellectual virtues?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1783.07,
+      "approxStartHMS": "00:29:43",
+      "sourceChunkTimestamp": [
+        1783,
+        1784
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether charity is the greatest of the theological virtues?",
+      "asrMatchedText": "Sixth article,",
+      "approxStartSec": 2281.2,
+      "approxStartHMS": "00:38:01",
+      "sourceChunkTimestamp": [
+        2281.06,
+        2283.18
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "14 - Question 11 - OF THE KNOWLEDGE IMPRINTED OR INFUSED IN THE SOUL OF CHRIST (In Si.mp3",
+  "audioRelPath": "vol13/14 - Question 11 - OF THE KNOWLEDGE IMPRINTED OR INFUSED IN THE SOUL OF CHRIST (In Si.mp3",
+  "audioDurationSec": 1744,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 387.98,
+    "audioProcessedSec": 1744,
+    "realtimeFactor": 0.222,
+    "mp3DecodeSec": 3.31
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 11,
+    "title": "The knowledge imprinted or infused in the soul of Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether by this imprinted or infused knowledge Christ knew all things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ could use this knowledge by turning to phantasms?",
+      "asrMatchedText": "Second article, Whether Christ could past, present, and future.",
+      "approxStartSec": 422.14,
+      "approxStartHMS": "00:07:02",
+      "sourceChunkTimestamp": [
+        422.06,
+        427
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether this knowledge is collative?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in Christ this knowledge was greater than the knowledge of the angels?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 969.13,
+      "approxStartHMS": "00:16:09",
+      "sourceChunkTimestamp": [
+        969,
+        971
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether this knowledge was habitual?",
+      "asrMatchedText": "Fifth article, whether this knowledge was habitual.",
+      "approxStartSec": 1152.8,
+      "approxStartHMS": "00:19:12",
+      "sourceChunkTimestamp": [
+        1152.68,
+        1159.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether this knowledge was distinguished by divers habits?",
+      "asrMatchedText": "6th article. to the goodness of the subject.",
+      "approxStartSec": 1483.83,
+      "approxStartHMS": "00:24:43",
+      "sourceChunkTimestamp": [
+        1483.76,
+        1487
+      ],
+      "matched": true
+    }
+  ]
+}

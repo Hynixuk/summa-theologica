@@ -1,0 +1,71 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "12 - Question 9 - OF CHRIST'S KNOWLEDGE IN GENERAL (In Four Articles).mp3",
+  "audioRelPath": "vol13/12 - Question 9 - OF CHRIST'S KNOWLEDGE IN GENERAL (In Four Articles).mp3",
+  "audioDurationSec": 1593.87,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 257.49,
+    "audioProcessedSec": 1593.87,
+    "realtimeFactor": 0.162,
+    "mp3DecodeSec": 2.26
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 9,
+    "title": "Christ's knowledge in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ had any knowledge besides the Divine?",
+      "asrMatchedText": "First article. Whether Christ had any knowledge besides the divine.",
+      "approxStartSec": 82.07,
+      "approxStartHMS": "00:01:22",
+      "sourceChunkTimestamp": [
+        81.94,
+        90.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ had the knowledge which the blessed or comprehensors have?",
+      "asrMatchedText": "Second article, whether Christ had the knowledge which the blessed or comprehensors have.",
+      "approxStartSec": 492.08,
+      "approxStartHMS": "00:08:12",
+      "sourceChunkTimestamp": [
+        492,
+        499
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ had an imprinted or infused knowledge?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ had any acquired knowledge?",
+      "asrMatchedText": "Fourth article, whether Christ had any acquired knowledge.",
+      "approxStartSec": 1200.98,
+      "approxStartHMS": "00:20:00",
+      "sourceChunkTimestamp": [
+        1200.88,
+        1207
+      ],
+      "matched": true
+    }
+  ]
+}

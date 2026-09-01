@@ -1,0 +1,47 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "108 - Question 146 - OF ABSTINENCE (In Two Articles).mp3",
+  "audioRelPath": "vol11/108 - Question 146 - OF ABSTINENCE (In Two Articles).mp3",
+  "audioDurationSec": 741.54,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 119.13,
+    "audioProcessedSec": 741.54,
+    "realtimeFactor": 0.161,
+    "mp3DecodeSec": 1.2
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 146,
+    "title": "Abstinence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether abstinence is a virtue?",
+      "asrMatchedText": "First article, whether abstinence is a virtue.",
+      "approxStartSec": 102.82,
+      "approxStartHMS": "00:01:42",
+      "sourceChunkTimestamp": [
+        102.68,
+        109.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether abstinence is a special virtue?",
+      "matched": false
+    }
+  ]
+}

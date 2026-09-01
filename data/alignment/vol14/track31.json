@@ -1,0 +1,74 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "31 - Question 83 - THE RITE OF THIS SACRAMENT (In Six Articles), part 1.mp3",
+  "audioRelPath": "vol14/31 - Question 83 - THE RITE OF THIS SACRAMENT (In Six Articles), part 1.mp3",
+  "audioDurationSec": 2183.94,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 634.94,
+    "audioProcessedSec": 2183.94,
+    "realtimeFactor": 0.291,
+    "mp3DecodeSec": 6.94
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 83,
+    "title": "The rite of this sacrament"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ is sacrificed in this sacrament?",
+      "asrMatchedText": "First article, whether Christ is sacrificed in the sacrament.",
+      "approxStartSec": 71.46,
+      "approxStartHMS": "00:01:11",
+      "sourceChunkTimestamp": [
+        71.36,
+        77.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the time for celebrating this mystery has been properly determined?",
+      "asrMatchedText": "Second article whether the time for celebrating this mystery has been properly determined. Objection 1. It seems that the time for celebrating this mystery has been properly determined.",
+      "approxStartSec": 358.66,
+      "approxStartHMS": "00:05:58",
+      "sourceChunkTimestamp": [
+        358.62,
+        365.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether this sacrament ought to be celebrated in a house and with sacred vessels?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the words spoken in this sacrament are properly framed?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the actions performed in celebrating this sacrament are becoming?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the defects occurring during the celebration of this sacrament can be sufficiently met by observing the Church's statutes?",
+      "matched": false
+    }
+  ]
+}

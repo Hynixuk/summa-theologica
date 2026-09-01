@@ -1,0 +1,90 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "10 - Question 58 - OF THE DIFFERENCE BETWEEN MORAL AND INTELLECTUAL VIRTUES (In Five .mp3",
+  "audioRelPath": "vol08/10 - Question 58 - OF THE DIFFERENCE BETWEEN MORAL AND INTELLECTUAL VIRTUES (In Five .mp3",
+  "audioDurationSec": 2002.82,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 381.31,
+    "audioProcessedSec": 2002.82,
+    "realtimeFactor": 0.19,
+    "mp3DecodeSec": 3.2
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 58,
+    "title": "The difference between moral and intellectual virtues"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether every virtue is a moral virtue?",
+      "asrMatchedText": "First article, whether every virtue is a moral virtue.",
+      "approxStartSec": 109.11,
+      "approxStartHMS": "00:01:49",
+      "sourceChunkTimestamp": [
+        109,
+        115
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether moral virtue differs from intellectual virtue?",
+      "asrMatchedText": "Second article. Whether moral virtue differs from intellectual virtue.",
+      "approxStartSec": 464.8,
+      "approxStartHMS": "00:07:44",
+      "sourceChunkTimestamp": [
+        464.72,
+        470.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether virtue is adequately divided into moral and intellectual?",
+      "asrMatchedText": "Third article, whether as they are all under the direction of prudence. 3.",
+      "approxStartSec": 904.61,
+      "approxStartHMS": "00:15:04",
+      "sourceChunkTimestamp": [
+        904.56,
+        908.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there can be moral without intellectual virtue?",
+      "asrMatchedText": "Fourth article, whether there can be moral without intellectual virtue.",
+      "approxStartSec": 1266.46,
+      "approxStartHMS": "00:21:06",
+      "sourceChunkTimestamp": [
+        1266.36,
+        1273.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there can be intellectual without moral virtue?",
+      "asrMatchedText": "5th article, whether there can be intellectual without moral virtue. one. You would see him that there can be intellectual without moral virtue. Objection 1. You would",
+      "approxStartSec": 1635.68,
+      "approxStartHMS": "00:27:15",
+      "sourceChunkTimestamp": [
+        1635.6,
+        1648.62
+      ],
+      "matched": true
+    }
+  ]
+}

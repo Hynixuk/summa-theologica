@@ -1,0 +1,59 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "04 - 04 - Question 4 The Perfection of God.mp3",
+  "audioRelPath": "vol01/04 - 04 - Question 4 The Perfection of God.mp3",
+  "audioDurationSec": 905.98,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 266.7,
+    "audioProcessedSec": 905.98,
+    "realtimeFactor": 0.294,
+    "mp3DecodeSec": 1.79
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 4,
+    "title": "The perfection of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God is perfect?",
+      "asrMatchedText": "First article, whether God is perfect. Objection 1, it seems that perfection does not belong to God,",
+      "approxStartSec": 66.71,
+      "approxStartHMS": "00:01:06",
+      "sourceChunkTimestamp": [
+        66.64,
+        73.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the perfections of all things are in God?",
+      "asrMatchedText": "Second article, whether the perfections of all things are in God.",
+      "approxStartSec": 282.36,
+      "approxStartHMS": "00:04:42",
+      "sourceChunkTimestamp": [
+        282.28,
+        287.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether any creature can be like God?",
+      "matched": false
+    }
+  ]
+}

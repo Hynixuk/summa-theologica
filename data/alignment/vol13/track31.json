@@ -1,0 +1,54 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "31 - Question 26 - OF CHRIST AS CALLED THE MEDIATOR OF GOD AND MAN (In Two Articles).mp3",
+  "audioRelPath": "vol13/31 - Question 26 - OF CHRIST AS CALLED THE MEDIATOR OF GOD AND MAN (In Two Articles).mp3",
+  "audioDurationSec": 786.27,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 138.21,
+    "audioProcessedSec": 786.27,
+    "realtimeFactor": 0.176,
+    "mp3DecodeSec": 1.29
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 26,
+    "title": "Christ as called the mediator of God and man"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is proper to Christ to be the Mediator of God and man?",
+      "asrMatchedText": "First article. Whether it is proper to Christ to be the mediator of God and man.",
+      "approxStartSec": 63.93,
+      "approxStartHMS": "00:01:03",
+      "sourceChunkTimestamp": [
+        63.84,
+        71.18
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ, as Man, is the Mediator of God and men?",
+      "asrMatchedText": "Second article, whether Christ as man is the mediator of God and man.",
+      "approxStartSec": 477.09,
+      "approxStartHMS": "00:07:57",
+      "sourceChunkTimestamp": [
+        477,
+        483
+      ],
+      "matched": true
+    }
+  ]
+}

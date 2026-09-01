@@ -1,0 +1,78 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "09 - Question 110 - HOW ANGELS ACT ON BODIES (In Four Articles).mp3",
+  "audioRelPath": "vol05/09 - Question 110 - HOW ANGELS ACT ON BODIES (In Four Articles).mp3",
+  "audioDurationSec": 1425.35,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 239.59,
+    "audioProcessedSec": 1425.35,
+    "realtimeFactor": 0.168,
+    "mp3DecodeSec": 2.11
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 110,
+    "title": "How angels act on bodies"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the corporeal creature is governed by the angels?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 68.75,
+      "approxStartHMS": "00:01:08",
+      "sourceChunkTimestamp": [
+        68.64,
+        70.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether corporeal matter obeys the mere will of an angel?",
+      "asrMatchedText": "Second Article",
+      "approxStartSec": 513.15,
+      "approxStartHMS": "00:08:33",
+      "sourceChunkTimestamp": [
+        513.08,
+        514.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether bodies obey the angels as regards local motion?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 877.62,
+      "approxStartHMS": "00:14:37",
+      "sourceChunkTimestamp": [
+        877.48,
+        879.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether angels can work miracles?",
+      "asrMatchedText": "Fourth article, whether angels can work miracles, objection one, it would seem that the angels",
+      "approxStartSec": 1097.81,
+      "approxStartHMS": "00:18:17",
+      "sourceChunkTimestamp": [
+        1097.74,
+        1104.76
+      ],
+      "matched": true
+    }
+  ]
+}

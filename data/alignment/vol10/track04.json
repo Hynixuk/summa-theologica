@@ -1,0 +1,115 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "04 - Question 2 - OF THE ACT OF FAITH (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol10/04 - Question 2 - OF THE ACT OF FAITH (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 2104.92,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 560.05,
+    "audioProcessedSec": 2104.92,
+    "realtimeFactor": 0.266,
+    "mp3DecodeSec": 9.5
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 2,
+    "title": "The act of faith"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether to believe is to think with assent?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the act of faith is suitably distinguished as believing God, believing in a God and believing in God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is necessary for salvation to believe anything above the natural reason?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is necessary to believe those things which can be proved by natural reason?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether man is bound to believe anything explicitly?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether all are equally bound to have explicit faith?",
+      "asrMatchedText": "Sixth article, whether all are equally bound to have explicit faith.",
+      "approxStartSec": 48.16,
+      "approxStartHMS": "00:00:48",
+      "sourceChunkTimestamp": [
+        48.08,
+        53.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether it is necessary for the salvation of all, that they should believe explicitly in the mystery of Christ?",
+      "asrMatchedText": "7th article, Whether it is necessary for the salvation of all, that they should believe",
+      "approxStartSec": 348.86,
+      "approxStartHMS": "00:05:48",
+      "sourceChunkTimestamp": [
+        348.76,
+        357.86
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether it is necessary for salvation to believe explicitly in the Trinity?",
+      "asrMatchedText": "Eighth article,",
+      "approxStartSec": 996.36,
+      "approxStartHMS": "00:16:36",
+      "sourceChunkTimestamp": [
+        996.24,
+        998.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether to believe is meritorious?",
+      "asrMatchedText": "9th Article whether to believe is meritorious. Objection 1. It would seem that to believe",
+      "approxStartSec": 1281.85,
+      "approxStartHMS": "00:21:21",
+      "sourceChunkTimestamp": [
+        1281.72,
+        1293.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether reasons in support of what we believe lessen the merit of faith?",
+      "asrMatchedText": "10th article, whether reasons in support of what we believe lessen the merit of faith.",
+      "approxStartSec": 1658.15,
+      "approxStartHMS": "00:27:38",
+      "sourceChunkTimestamp": [
+        1658,
+        1671
+      ],
+      "matched": true
+    }
+  ]
+}

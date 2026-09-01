@@ -1,0 +1,88 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "36 - Question 86 - THE EFFECT OF PENANCE, AS REGARDS THE PARDON OF MORTAL SIN (In Six.mp3",
+  "audioRelPath": "vol14/36 - Question 86 - THE EFFECT OF PENANCE, AS REGARDS THE PARDON OF MORTAL SIN (In Six.mp3",
+  "audioDurationSec": 2310.08,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 674.89,
+    "audioProcessedSec": 2310.08,
+    "realtimeFactor": 0.292,
+    "mp3DecodeSec": 8.79
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 86,
+    "title": "The effect of Penance, as regards the pardon of mortal sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all sins are taken away by Penance?",
+      "asrMatchedText": "First article, whether all sins are taken away by penance.",
+      "approxStartSec": 93.09,
+      "approxStartHMS": "00:01:33",
+      "sourceChunkTimestamp": [
+        93,
+        98.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sin can be pardoned without Penance?",
+      "asrMatchedText": "Second article whether sin can be pardoned without penance.",
+      "approxStartSec": 458.63,
+      "approxStartHMS": "00:07:38",
+      "sourceChunkTimestamp": [
+        458.56,
+        462.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether by Penance one sin can be pardoned without another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the debt of punishment remains after the guilt has been forgiven through Penance?",
+      "asrMatchedText": "Fourth article. Whether the debt of punishment remains after the guilt has been forgiven through penance.",
+      "approxStartSec": 1198.5,
+      "approxStartHMS": "00:19:58",
+      "sourceChunkTimestamp": [
+        1198.4,
+        1209.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the remnants of sin are removed when a mortal sin is forgiven?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the forgiveness of guilt is an effect of Penance?",
+      "asrMatchedText": "Sixth article. Whether the forgiveness of guilt is an effect of penance.",
+      "approxStartSec": 1940.47,
+      "approxStartHMS": "00:32:20",
+      "sourceChunkTimestamp": [
+        1940.32,
+        1951.12
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "06 - Question 176 - OF THE GRACE OF TONGUES (In Two Articles).mp3",
+  "audioRelPath": "vol12/06 - Question 176 - OF THE GRACE OF TONGUES (In Two Articles).mp3",
+  "audioDurationSec": 1100.7,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 379.83,
+    "audioProcessedSec": 1100.7,
+    "realtimeFactor": 0.345,
+    "mp3DecodeSec": 2.26
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 176,
+    "title": "The grace of tongues"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether those who received the gift of tongues spoke in every language?",
+      "asrMatchedText": "First article, whether those who received the gift of tongues spoke in every language.",
+      "approxStartSec": 74.46,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        74.36,
+        83.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the gift of tongues is more excellent than the grace of prophecy?",
+      "asrMatchedText": "Second article, whether the gift of tongues is more excellent than the grace of prophecy.",
+      "approxStartSec": 521.77,
+      "approxStartHMS": "00:08:41",
+      "sourceChunkTimestamp": [
+        521.68,
+        529.6
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "15 - Question 41 Of the Persons in Relation to the Notional Acts.mp3",
+  "audioRelPath": "vol02/15 - Question 41 Of the Persons in Relation to the Notional Acts.mp3",
+  "audioDurationSec": 2214.95,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 377.71,
+    "audioProcessedSec": 2214.95,
+    "realtimeFactor": 0.171,
+    "mp3DecodeSec": 3.49
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 41,
+    "title": "The persons in reference to the notional acts"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the notional acts are to be attributed to the persons?",
+      "asrMatchedText": "several persons can be the term of one notional act. First article, whether the",
+      "approxStartSec": 80.04,
+      "approxStartHMS": "00:01:20",
+      "sourceChunkTimestamp": [
+        75.02,
+        82.46
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the notional acts are voluntary?",
+      "asrMatchedText": "Second article whether the notional acts are voluntary. to beget with the Father and to the Son, to be begotten.",
+      "approxStartSec": 364.49,
+      "approxStartHMS": "00:06:04",
+      "sourceChunkTimestamp": [
+        364.48,
+        365.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the notional acts proceed from something?",
+      "asrMatchedText": "necessary that the Father begot the Son.\" Third article, whether the notional acts proceed",
+      "approxStartSec": 776.85,
+      "approxStartHMS": "00:12:56",
+      "sourceChunkTimestamp": [
+        773.52,
+        780.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in God there is a power in respect of the notional acts?",
+      "asrMatchedText": "Fourth article, whether in God there is a power in respect to the notional acts.",
+      "approxStartSec": 1356.12,
+      "approxStartHMS": "00:22:36",
+      "sourceChunkTimestamp": [
+        1356.04,
+        1362.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the power of begetting signifies a relation, and not the essence?",
+      "asrMatchedText": "Fifth article, whether the power of the getting signifies a relation and not the essence.",
+      "approxStartSec": 1628.72,
+      "approxStartHMS": "00:27:08",
+      "sourceChunkTimestamp": [
+        1628.64,
+        1635.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether several persons can be the term of one notional act?",
+      "asrMatchedText": "3. 3. 3. 3. 3. 6th article. is common to the three persons, but in respect to the notion that is connoted, it is proper to the person of the Father.",
+      "approxStartSec": 1944.55,
+      "approxStartHMS": "00:32:24",
+      "sourceChunkTimestamp": [
+        1944,
+        1949.16
+      ],
+      "matched": true
+    }
+  ]
+}

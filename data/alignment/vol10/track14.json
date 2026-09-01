@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "14 - Question 11 - OF HERESY (In Four Articles).mp3",
+  "audioRelPath": "vol10/14 - Question 11 - OF HERESY (In Four Articles).mp3",
+  "audioDurationSec": 1892.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 266.81,
+    "audioProcessedSec": 1892.78,
+    "realtimeFactor": 0.141,
+    "mp3DecodeSec": 2.83
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 11,
+    "title": "Heresy"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether heresy is a species of unbelief?",
+      "asrMatchedText": "First article, whether heresy is a species of unbelief.",
+      "approxStartSec": 71.13,
+      "approxStartHMS": "00:01:11",
+      "sourceChunkTimestamp": [
+        71,
+        78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether heresy is properly about matters of faith?",
+      "asrMatchedText": "Second article, whether heresy is properly about matters of faith.",
+      "approxStartSec": 551.38,
+      "approxStartHMS": "00:09:11",
+      "sourceChunkTimestamp": [
+        551.28,
+        558.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether heretics ought to be tolerated?",
+      "asrMatchedText": "Third Article, Whether Heretics Odd to be Tolerated One. It seems that heretics ought to be tolerated.",
+      "approxStartSec": 1059.85,
+      "approxStartHMS": "00:17:39",
+      "sourceChunkTimestamp": [
+        1059.8,
+        1065.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Church should receive those who return from heresy?",
+      "asrMatchedText": "Fourth Article Whether the Church Should Receive Those Who Return From Heresy one. Fourth article, whether the church should receive those who return from heresy.",
+      "approxStartSec": 1440.78,
+      "approxStartHMS": "00:24:00",
+      "sourceChunkTimestamp": [
+        1440.74,
+        1447
+      ],
+      "matched": true
+    }
+  ]
+}

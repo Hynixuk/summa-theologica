@@ -1,0 +1,115 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "01 - Question 1 - OF FAITH (In Ten Articles), part 1.mp3",
+  "audioRelPath": "vol10/01 - Question 1 - OF FAITH (In Ten Articles), part 1.mp3",
+  "audioDurationSec": 1904.93,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 483.54,
+    "audioProcessedSec": 1904.93,
+    "realtimeFactor": 0.254,
+    "mp3DecodeSec": 6.68
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 1,
+    "title": "Faith"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the object of faith is the First Truth?",
+      "asrMatchedText": "a symbol of faith? 1st article, whether the object of faith is the first truth. Objection 1. It would seem that",
+      "approxStartSec": 158.21,
+      "approxStartHMS": "00:02:38",
+      "sourceChunkTimestamp": [
+        155.72,
+        169.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the object of faith is something complex, by way of a proposition?",
+      "asrMatchedText": "Second Article, whether the object of faith is something complex by way of a proposition.",
+      "approxStartSec": 446.1,
+      "approxStartHMS": "00:07:26",
+      "sourceChunkTimestamp": [
+        446,
+        454.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether anything false can come under faith?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 721.13,
+      "approxStartHMS": "00:12:01",
+      "sourceChunkTimestamp": [
+        721,
+        723
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the object of faith can be something seen?",
+      "asrMatchedText": "Fourth Article Whether the Object of Faith Can Be Something",
+      "approxStartSec": 1126.46,
+      "approxStartHMS": "00:18:46",
+      "sourceChunkTimestamp": [
+        1126.4,
+        1129.74
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether those things that are of faith can be an object of science [Science is certain knowledge of a demonstrated conclusion through its demonstration]?",
+      "asrMatchedText": "Fifth article. Whether those things that are of faith can be an object of science.",
+      "approxStartSec": 1410.55,
+      "approxStartHMS": "00:23:30",
+      "sourceChunkTimestamp": [
+        1410.48,
+        1416
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether those things that are of faith should be divided into certain articles?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the articles of faith have increased in course of time?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the articles of faith are suitably formulated?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether it is suitable for the articles of faith to be embodied in a symbol?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether it belongs to the Sovereign Pontiff to draw up a symbol of faith?",
+      "matched": false
+    }
+  ]
+}

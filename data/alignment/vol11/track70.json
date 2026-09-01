@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "70 - Question 109 - OF TRUTH (In Four Articles).mp3",
+  "audioRelPath": "vol11/70 - Question 109 - OF TRUTH (In Four Articles).mp3",
+  "audioDurationSec": 1412,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 366.58,
+    "audioProcessedSec": 1412,
+    "realtimeFactor": 0.26,
+    "mp3DecodeSec": 4.35
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 109,
+    "title": "Truth"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether truth is a virtue?",
+      "asrMatchedText": "First article, whether truth is a virtue.",
+      "approxStartSec": 76.77,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76.64,
+        82.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether truth is a special virtue?",
+      "asrMatchedText": "Second article, whether truth is a special virtue.",
+      "approxStartSec": 416.75,
+      "approxStartHMS": "00:06:56",
+      "sourceChunkTimestamp": [
+        416.64,
+        422.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether truth is a part of justice?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 766.84,
+      "approxStartHMS": "00:12:46",
+      "sourceChunkTimestamp": [
+        766.48,
+        771.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the virtue of truth inclines rather to that which is less?",
+      "asrMatchedText": "Fourth article. Whether the virtue of truth inclines rather to that which is less.",
+      "approxStartSec": 1140.55,
+      "approxStartHMS": "00:19:00",
+      "sourceChunkTimestamp": [
+        1140.48,
+        1146
+      ],
+      "matched": true
+    }
+  ]
+}

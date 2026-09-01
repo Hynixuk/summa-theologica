@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "51 - Question 42 - OF CHRIST'S DOCTRINE (In Four Articles).mp3",
+  "audioRelPath": "vol13/51 - Question 42 - OF CHRIST'S DOCTRINE (In Four Articles).mp3",
+  "audioDurationSec": 1875.95,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 306.55,
+    "audioProcessedSec": 1875.95,
+    "realtimeFactor": 0.163,
+    "mp3DecodeSec": 2.98
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 42,
+    "title": "Christ's doctrine"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ should have preached not only to the Jews, but also to the Gentiles?",
+      "asrMatchedText": "First article. Whether Christ should have preached not only to the Jews, but also to",
+      "approxStartSec": 88.63,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        88.56,
+        94.26
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ should have preached to the Jews without offending them?",
+      "asrMatchedText": "Second article. Whether Christ should have preached to the Jews without offending them.",
+      "approxStartSec": 616.41,
+      "approxStartHMS": "00:10:16",
+      "sourceChunkTimestamp": [
+        616.32,
+        623.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ should have taught all things openly?",
+      "asrMatchedText": "Third article,",
+      "approxStartSec": 934.13,
+      "approxStartHMS": "00:15:34",
+      "sourceChunkTimestamp": [
+        934,
+        936
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ should have committed His doctrine to writing?",
+      "asrMatchedText": "Fourth article, whether Christ should have committed his doctrine to writing. Objection 1.",
+      "approxStartSec": 1428.46,
+      "approxStartHMS": "00:23:48",
+      "sourceChunkTimestamp": [
+        1428.44,
+        1430.2
+      ],
+      "matched": true
+    }
+  ]
+}

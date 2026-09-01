@@ -1,0 +1,112 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "14 - Question 35 - OF PAIN OR SORROW, IN ITSELF (In Eight Articles).mp3",
+  "audioRelPath": "vol07/14 - Question 35 - OF PAIN OR SORROW, IN ITSELF (In Eight Articles).mp3",
+  "audioDurationSec": 3808.71,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 939.02,
+    "audioProcessedSec": 3808.71,
+    "realtimeFactor": 0.247,
+    "mp3DecodeSec": 14.84
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 35,
+    "title": "Pain or sorrow, in itself"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether pain is a passion of the soul?",
+      "asrMatchedText": "First article, whether pain is a passion of the soul.",
+      "approxStartSec": 121.16,
+      "approxStartHMS": "00:02:01",
+      "sourceChunkTimestamp": [
+        121,
+        129.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sorrow is the same as pain?",
+      "asrMatchedText": "Second article, whether sorrow is the same as pain.",
+      "approxStartSec": 496.25,
+      "approxStartHMS": "00:08:16",
+      "sourceChunkTimestamp": [
+        496.2,
+        498.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether sorrow or pain is contrary to pleasure?",
+      "asrMatchedText": "Third article, whether sorrow or pain is contrary to pleasure.",
+      "approxStartSec": 839.5,
+      "approxStartHMS": "00:13:59",
+      "sourceChunkTimestamp": [
+        839.4,
+        845.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether all sorrow is contrary to all pleasure?",
+      "asrMatchedText": "Fourth article, whether all sorrow is contrary to all pleasure. Objection 1. It would seem that",
+      "approxStartSec": 1200.1,
+      "approxStartHMS": "00:20:00",
+      "sourceChunkTimestamp": [
+        1200,
+        1209.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there is any sorrow contrary to the pleasure of contemplation?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether sorrow is to be shunned more than pleasure is to be sought?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether outward pain is greater than interior sorrow?",
+      "asrMatchedText": "Seventh article, whether outward pain is greater than interior sorrow.",
+      "approxStartSec": 2875.92,
+      "approxStartHMS": "00:47:55",
+      "sourceChunkTimestamp": [
+        2875.84,
+        2881.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether there are only four species of sorrow?",
+      "asrMatchedText": "Eighth article.",
+      "approxStartSec": 3347.13,
+      "approxStartHMS": "00:55:47",
+      "sourceChunkTimestamp": [
+        3347,
+        3349
+      ],
+      "matched": true
+    }
+  ]
+}

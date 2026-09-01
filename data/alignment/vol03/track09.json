@@ -1,0 +1,107 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "09 - Question. 58 - OF THE MODE OF ANGELIC KNOWLEDGE (SEVEN ARTICLES).mp3",
+  "audioRelPath": "vol03/09 - Question. 58 - OF THE MODE OF ANGELIC KNOWLEDGE (SEVEN ARTICLES).mp3",
+  "audioDurationSec": 2096.07,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 975,
+    "audioProcessedSec": 2096.07,
+    "realtimeFactor": 0.465,
+    "mp3DecodeSec": 5.67
+  },
+  "expectedArticleCount": 7,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 58,
+    "title": "The mode of angelic knowledge"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the angel's intellect is sometimes in potentiality, sometimes in act?",
+      "asrMatchedText": "First article, whether the angels intellect is sometimes in potentiality, sometimes in",
+      "approxStartSec": 87.41,
+      "approxStartHMS": "00:01:27",
+      "sourceChunkTimestamp": [
+        87.34,
+        93.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether an angel can understand many things at the same time?",
+      "asrMatchedText": "Second Article Whether an Angel Can Understand Many Things at the Same Time",
+      "approxStartSec": 367.05,
+      "approxStartHMS": "00:06:07",
+      "sourceChunkTimestamp": [
+        366.96,
+        373.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether an angel's knowledge is discursive?",
+      "asrMatchedText": "Third article, whether an angel's knowledge is discursive.",
+      "approxStartSec": 611.92,
+      "approxStartHMS": "00:10:11",
+      "sourceChunkTimestamp": [
+        611.84,
+        616.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the angels understand by composing and dividing?",
+      "asrMatchedText": "Fourth article, whether the angels understand by composing",
+      "approxStartSec": 890.92,
+      "approxStartHMS": "00:14:50",
+      "sourceChunkTimestamp": [
+        890.84,
+        895.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there can be falsehood in the intellect of an angel?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there is a \"morning\" and an \"evening\" knowledge in the angels?",
+      "asrMatchedText": "Sixth article, whether there is a morning and an evening knowledge in the angels.",
+      "approxStartSec": 1481.15,
+      "approxStartHMS": "00:24:41",
+      "sourceChunkTimestamp": [
+        1481.08,
+        1487
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the morning and evening knowledge are one?",
+      "asrMatchedText": "Seventh Article Whether the Morning and Evening Knowledge Are One",
+      "approxStartSec": 1789.27,
+      "approxStartHMS": "00:29:49",
+      "sourceChunkTimestamp": [
+        1789.16,
+        1796.4
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "36 - Question 82 - OF ORIGINAL SIN, AS TO ITS ESSENCE (In Four Articles).mp3",
+  "audioRelPath": "vol08/36 - Question 82 - OF ORIGINAL SIN, AS TO ITS ESSENCE (In Four Articles).mp3",
+  "audioDurationSec": 1453.32,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 247.97,
+    "audioProcessedSec": 1453.32,
+    "realtimeFactor": 0.171,
+    "mp3DecodeSec": 2.59
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 82,
+    "title": "Original sin, as to its essence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether original sin is a habit?",
+      "asrMatchedText": "First article, whether original sin is a habit.",
+      "approxStartSec": 82.13,
+      "approxStartHMS": "00:01:22",
+      "sourceChunkTimestamp": [
+        82,
+        88.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there are several original sins in one man?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether original sin is concupiscence?",
+      "asrMatchedText": "Third article. Whether original sin is concuposense. Objection one, you would seem that original",
+      "approxStartSec": 800.03,
+      "approxStartHMS": "00:13:20",
+      "sourceChunkTimestamp": [
+        799.92,
+        810.14
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether original sin is equally in all?",
+      "asrMatchedText": "Fourth article, whether original sin is equally in all.",
+      "approxStartSec": 1134.16,
+      "approxStartHMS": "00:18:54",
+      "sourceChunkTimestamp": [
+        1133.98,
+        1143.78
+      ],
+      "matched": true
+    }
+  ]
+}

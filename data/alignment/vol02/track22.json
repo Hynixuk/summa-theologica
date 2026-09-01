@@ -1,0 +1,102 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "22 - Question 48 The Distinction of Things in Particular.mp3",
+  "audioRelPath": "vol02/22 - Question 48 The Distinction of Things in Particular.mp3",
+  "audioDurationSec": 1772.09,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 313.4,
+    "audioProcessedSec": 1772.09,
+    "realtimeFactor": 0.177,
+    "mp3DecodeSec": 2.25
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 48,
+    "title": "The distinction of things in particular"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether evil is a nature?",
+      "asrMatchedText": "First article, whether evil is a nature.",
+      "approxStartSec": 70.84,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        70.76,
+        73.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether evil is found in things?",
+      "asrMatchedText": "Second article, whether evil is found in things.",
+      "approxStartSec": 456.14,
+      "approxStartHMS": "00:07:36",
+      "sourceChunkTimestamp": [
+        456.08,
+        459.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether evil is in good as in its subject?",
+      "asrMatchedText": "Third article, whether evil is in good as in its subject.",
+      "approxStartSec": 702.88,
+      "approxStartHMS": "00:11:42",
+      "sourceChunkTimestamp": [
+        702.76,
+        709.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether evil corrupts the whole good?",
+      "asrMatchedText": "Fourth article, whether evil corrupts the whole good.",
+      "approxStartSec": 944.38,
+      "approxStartHMS": "00:15:44",
+      "sourceChunkTimestamp": [
+        944.28,
+        949.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether evil is adequately divided into pain and fault?",
+      "asrMatchedText": "Fifth article, whether evil is adequately divided into pain and fault.",
+      "approxStartSec": 1248.27,
+      "approxStartHMS": "00:20:48",
+      "sourceChunkTimestamp": [
+        1248.16,
+        1255.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether pain has the nature of evil more than fault has?",
+      "asrMatchedText": "contained in evil as including the idea of injury. Sixth article, whether pain",
+      "approxStartSec": 1516.26,
+      "approxStartHMS": "00:25:16",
+      "sourceChunkTimestamp": [
+        1511.36,
+        1518.8
+      ],
+      "matched": true
+    }
+  ]
+}

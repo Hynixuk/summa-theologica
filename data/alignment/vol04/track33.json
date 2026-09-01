@@ -1,0 +1,78 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "33 - Question 102 - OF MAN'S ABODE, WHICH IS PARADISE (In Four Articles).mp3",
+  "audioRelPath": "vol04/33 - Question 102 - OF MAN'S ABODE, WHICH IS PARADISE (In Four Articles).mp3",
+  "audioDurationSec": 1010.84,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 210.4,
+    "audioProcessedSec": 1010.84,
+    "realtimeFactor": 0.208,
+    "mp3DecodeSec": 1.62
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 102,
+    "title": "Man's abode, which is paradise"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether paradise is a corporeal place?",
+      "asrMatchedText": "First article, whether Paradise is a corporeal place.",
+      "approxStartSec": 59.38,
+      "approxStartHMS": "00:00:59",
+      "sourceChunkTimestamp": [
+        59.28,
+        64.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether paradise was a place adapted to be the abode of man?",
+      "asrMatchedText": "Second article, Whether Paradise was a place adapted to be the abode of man.",
+      "approxStartSec": 435.84,
+      "approxStartHMS": "00:07:15",
+      "sourceChunkTimestamp": [
+        435.76,
+        442.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether man was placed in paradise to dress it and keep it?",
+      "asrMatchedText": "Third article, whether man was placed in paradise to dress it and keep it.",
+      "approxStartSec": 770.04,
+      "approxStartHMS": "00:12:50",
+      "sourceChunkTimestamp": [
+        769.96,
+        775.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether man was created in paradise?",
+      "asrMatchedText": "Fourth article, whether man was created in paradise.",
+      "approxStartSec": 887.97,
+      "approxStartHMS": "00:14:47",
+      "sourceChunkTimestamp": [
+        887.88,
+        892.52
+      ],
+      "matched": true
+    }
+  ]
+}

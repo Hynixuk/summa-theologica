@@ -1,0 +1,71 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "29 - Question 24 - OF THE PREDESTINATION OF CHRIST (In Four Articles).mp3",
+  "audioRelPath": "vol13/29 - Question 24 - OF THE PREDESTINATION OF CHRIST (In Four Articles).mp3",
+  "audioDurationSec": 1405.23,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 230.94,
+    "audioProcessedSec": 1405.23,
+    "realtimeFactor": 0.164,
+    "mp3DecodeSec": 1.62
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 24,
+    "title": "The predestination of Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is befitting that Christ should be predestinated?",
+      "asrMatchedText": "First article, whether it is befitting that Christ should be predestinated.",
+      "approxStartSec": 73.3,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        73.2,
+        80.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether this proposition is false: \"Christ as man was predestinated to be the Son of God\"?",
+      "asrMatchedText": "Second article, whether this proposition is false, Christ as man was predestinated to be the Son of God.",
+      "approxStartSec": 578.49,
+      "approxStartHMS": "00:09:38",
+      "sourceChunkTimestamp": [
+        578.4,
+        588.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ's predestination is the exemplar of ours?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ's predestination is the cause of ours?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1213.13,
+      "approxStartHMS": "00:20:13",
+      "sourceChunkTimestamp": [
+        1213,
+        1215
+      ],
+      "matched": true
+    }
+  ]
+}

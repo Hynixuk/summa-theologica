@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "126 - Question 163 - OF THE FIRST MAN'S SIN (In Four Articles).mp3",
+  "audioRelPath": "vol11/126 - Question 163 - OF THE FIRST MAN'S SIN (In Four Articles).mp3",
+  "audioDurationSec": 1627.82,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 243.66,
+    "audioProcessedSec": 1627.82,
+    "realtimeFactor": 0.15,
+    "mp3DecodeSec": 2.29
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 163,
+    "title": "The first man's sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether pride was the first man's first sin?",
+      "asrMatchedText": "First article, whether pride was the first man's first sin.",
+      "approxStartSec": 90.12,
+      "approxStartHMS": "00:01:30",
+      "sourceChunkTimestamp": [
+        90,
+        97.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the first man's pride consisted in his coveting God's likeness?",
+      "asrMatchedText": "Second article, whether the first man's pride consisted in his coveting God's likeness. won. He would seem that the first man's pride consisted in his coveting God's likeness.",
+      "approxStartSec": 539,
+      "approxStartHMS": "00:08:59",
+      "sourceChunkTimestamp": [
+        538.96,
+        545.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the sin of our first parents was more grievous than other sins?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 1007.29,
+      "approxStartHMS": "00:16:47",
+      "sourceChunkTimestamp": [
+        1007,
+        1011
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Adam's sin was more grievous than Eve's?",
+      "asrMatchedText": "Fourth article, whether Adam's sin was more grievous than Eve's.",
+      "approxStartSec": 1277.91,
+      "approxStartHMS": "00:21:17",
+      "sourceChunkTimestamp": [
+        1277.84,
+        1282.64
+      ],
+      "matched": true
+    }
+  ]
+}

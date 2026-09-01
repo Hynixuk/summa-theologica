@@ -1,0 +1,65 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "01 - Question 75 - OF MAN WHO IS COMPOSED OF A SPIRITUAL AND A CORPOREAL SUBSTANCE AN.mp3",
+  "audioRelPath": "vol04/01 - Question 75 - OF MAN WHO IS COMPOSED OF A SPIRITUAL AND A CORPOREAL SUBSTANCE AN.mp3",
+  "audioDurationSec": 3167.56,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 526.05,
+    "audioProcessedSec": 3167.56,
+    "realtimeFactor": 0.166,
+    "mp3DecodeSec": 4.88
+  },
+  "expectedArticleCount": 7,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 75,
+    "title": "Man who is composed of a spiritual and a corporeal substance: and in the first place, concerning what belongs to the essence of the soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the soul is a body?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the human soul is something subsistent?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the souls of brute animals are subsistent?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the soul is man?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the soul is composed of matter and form?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the human soul is incorruptible?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the soul is of the same species as an angel?",
+      "matched": false
+    }
+  ]
+}

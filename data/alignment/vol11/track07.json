@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "07 - Question 51 - OF THE VIRTUES WHICH ARE CONNECTED WITH PRUDENCE (In Four Articles.mp3",
+  "audioRelPath": "vol11/07 - Question 51 - OF THE VIRTUES WHICH ARE CONNECTED WITH PRUDENCE (In Four Articles.mp3",
+  "audioDurationSec": 1452.05,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 204.97,
+    "audioProcessedSec": 1452.05,
+    "realtimeFactor": 0.141,
+    "mp3DecodeSec": 1.86
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 51,
+    "title": "The virtues which are connected with prudence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether <em>euboulia</em> (deliberating well) is a virtue?",
+      "asrMatchedText": "First article, whether ʻubulia is a virtue.",
+      "approxStartSec": 102.71,
+      "approxStartHMS": "00:01:42",
+      "sourceChunkTimestamp": [
+        102.56,
+        108.94
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether <em>euboulia</em> (deliberating well) is a special virtue, distinct from prudence?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 440.06,
+      "approxStartHMS": "00:07:20",
+      "sourceChunkTimestamp": [
+        440,
+        441
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether <em>synesis</em> (judging well according to common law) is a virtue?",
+      "asrMatchedText": "Third article, whether sininesis is a virtue.",
+      "approxStartSec": 760.73,
+      "approxStartHMS": "00:12:40",
+      "sourceChunkTimestamp": [
+        760.64,
+        765
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether <em>gnome</em> (judging well according to general law) is a special virtue?",
+      "asrMatchedText": "Fourth article, whether Gino me is a special virtue.",
+      "approxStartSec": 1127.77,
+      "approxStartHMS": "00:18:47",
+      "sourceChunkTimestamp": [
+        1127.64,
+        1134.36
+      ],
+      "matched": true
+    }
+  ]
+}

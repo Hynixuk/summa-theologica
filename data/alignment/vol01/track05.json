@@ -1,0 +1,102 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "05 - 05 - Question 5 Of Goodness in General.mp3",
+  "audioRelPath": "vol01/05 - 05 - Question 5 Of Goodness in General.mp3",
+  "audioDurationSec": 1777.74,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 300.55,
+    "audioProcessedSec": 1777.74,
+    "realtimeFactor": 0.169,
+    "mp3DecodeSec": 2.79
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 5,
+    "title": "Goodness in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether goodness differs really from being?",
+      "asrMatchedText": "First article, whether goodness differs really from being.",
+      "approxStartSec": 73.51,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        73.44,
+        77.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether goodness is prior in idea to being?",
+      "asrMatchedText": "Second article, whether goodness is prior in idea to being.",
+      "approxStartSec": 334.93,
+      "approxStartHMS": "00:05:34",
+      "sourceChunkTimestamp": [
+        334.84,
+        340.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether every being is good?",
+      "asrMatchedText": "Third article, whether every being is good. Objection one, it seems that",
+      "approxStartSec": 662.96,
+      "approxStartHMS": "00:11:02",
+      "sourceChunkTimestamp": [
+        662.88,
+        669.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether goodness has the aspect of a final cause?",
+      "asrMatchedText": "Fourth article, whether goodness has the aspect of a final cause.",
+      "approxStartSec": 887.9,
+      "approxStartHMS": "00:14:47",
+      "sourceChunkTimestamp": [
+        887.8,
+        894.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the essence of goodness consists in mode, species and order?",
+      "asrMatchedText": "Fifth article, whether the essence of goodness consists in mowed species and order.",
+      "approxStartSec": 1142.66,
+      "approxStartHMS": "00:19:02",
+      "sourceChunkTimestamp": [
+        1142.58,
+        1149.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether goodness is rightly divided into the virtuous, the useful and the pleasant?",
+      "asrMatchedText": "Sixth article, whether goodness is rightly divided into the virtuous, the useful, and",
+      "approxStartSec": 1532.14,
+      "approxStartHMS": "00:25:32",
+      "sourceChunkTimestamp": [
+        1532.08,
+        1537.64
+      ],
+      "matched": true
+    }
+  ]
+}

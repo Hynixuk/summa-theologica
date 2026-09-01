@@ -1,0 +1,87 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "19 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (I.mp3",
+  "audioRelPath": "vol12/19 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (I.mp3",
+  "audioDurationSec": 2332.5,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 523.34,
+    "audioProcessedSec": 2332.5,
+    "realtimeFactor": 0.224,
+    "mp3DecodeSec": 5.26
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 186,
+    "title": "Things in which the religious state properly consists"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether religion implies a state of perfection?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether every religious is bound to keep all the counsels?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether poverty is required for religious perfection?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether perpetual continence is required for religious perfection?",
+      "asrMatchedText": "The Fourth Article.",
+      "approxStartSec": 1863,
+      "approxStartHMS": "00:31:03",
+      "sourceChunkTimestamp": [
+        1862.56,
+        1864.3
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether obedience belongs to religious perfection?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is requisite for religious perfection that poverty, continence, and obedience should come under a vow?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether it is right to say that religious perfection consists in these three vows?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the vow of obedience is the chief of the three religious vows?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether a religious sins mortally whenever he transgresses the things contained in his rule?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether a religious sins more grievously than a secular by the same kind of sin?",
+      "matched": false
+    }
+  ]
+}

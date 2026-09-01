@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "21 - Question 69 - OF THE BEATITUDES (In Four Articles).mp3",
+  "audioRelPath": "vol08/21 - Question 69 - OF THE BEATITUDES (In Four Articles).mp3",
+  "audioDurationSec": 2124.51,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 369.32,
+    "audioProcessedSec": 2124.51,
+    "realtimeFactor": 0.174,
+    "mp3DecodeSec": 3.1
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 69,
+    "title": "The beatitudes"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the beatitudes differ from the virtues and gifts?",
+      "asrMatchedText": "First article, whether the Beatitudes differ from the virtues and gifts. Objection 1. You would seem that the Beatitudes do not differ from the virtues and gifts.",
+      "approxStartSec": 77.05,
+      "approxStartHMS": "00:01:17",
+      "sourceChunkTimestamp": [
+        77,
+        85.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the rewards assigned to the beatitudes refer to this life?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 369.92,
+      "approxStartHMS": "00:06:09",
+      "sourceChunkTimestamp": [
+        369.8,
+        371.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the beatitudes are suitably enumerated?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 822.13,
+      "approxStartHMS": "00:13:42",
+      "sourceChunkTimestamp": [
+        822,
+        824
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the rewards of the beatitudes are suitably enumerated?",
+      "asrMatchedText": "Fourth Article Whether the rewards of the Beatitudes are suitably enumerated.",
+      "approxStartSec": 1687.84,
+      "approxStartHMS": "00:28:07",
+      "sourceChunkTimestamp": [
+        1687.74,
+        1695.92
+      ],
+      "matched": true
+    }
+  ]
+}

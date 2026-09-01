@@ -1,0 +1,166 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "14 - 14a - Question 14 The Knowledge of God.mp3",
+  "audioRelPath": "vol01/14 - 14a - Question 14 The Knowledge of God.mp3",
+  "audioDurationSec": 2434.66,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 728.03,
+    "audioProcessedSec": 2434.66,
+    "realtimeFactor": 0.299,
+    "mp3DecodeSec": 9
+  },
+  "expectedArticleCount": 16,
+  "matchedArticleCount": 8,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 14,
+    "title": "God's knowledge"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is knowledge [Scientia]?",
+      "asrMatchedText": "First article, whether there is knowledge in God.",
+      "approxStartSec": 153.02,
+      "approxStartHMS": "00:02:33",
+      "sourceChunkTimestamp": [
+        152.92,
+        157.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether God understands Himself?",
+      "asrMatchedText": "Second article, whether God understands himself.",
+      "approxStartSec": 423.13,
+      "approxStartHMS": "00:07:03",
+      "sourceChunkTimestamp": [
+        423,
+        429.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God comprehends Himself?",
+      "asrMatchedText": "Therefore, he understands himself through himself. Third article, whether God comprehends himself.",
+      "approxStartSec": 765.27,
+      "approxStartHMS": "00:12:45",
+      "sourceChunkTimestamp": [
+        760.2,
+        769.86
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the act of God's intellect is His substance?",
+      "asrMatchedText": "Fourth article whether the act of God's intellect is his substance.",
+      "approxStartSec": 955.18,
+      "approxStartHMS": "00:15:55",
+      "sourceChunkTimestamp": [
+        955.12,
+        958.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether God knows things other than Himself?",
+      "asrMatchedText": "Fifth article, whether God knows things other than himself.",
+      "approxStartSec": 1172.29,
+      "approxStartHMS": "00:19:32",
+      "sourceChunkTimestamp": [
+        1172.24,
+        1175.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether God knows things other than Himself by proper knowledge?",
+      "asrMatchedText": "Sixth article, whether God knows things other than himself by proper knowledge.",
+      "approxStartSec": 1471.84,
+      "approxStartHMS": "00:24:31",
+      "sourceChunkTimestamp": [
+        1471.76,
+        1477.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the knowledge of God is discursive?",
+      "asrMatchedText": "and imitate it. Seventh Article, Whether the Knowledge of God is",
+      "approxStartSec": 1970.36,
+      "approxStartHMS": "00:32:50",
+      "sourceChunkTimestamp": [
+        1968.58,
+        1975.38
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the knowledge of God is the cause of things?",
+      "asrMatchedText": "8th article, whether the knowledge of God is the cause of things.",
+      "approxStartSec": 2181.53,
+      "approxStartHMS": "00:36:21",
+      "sourceChunkTimestamp": [
+        2181.4,
+        2189.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether God has knowledge of things that are not?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether God knows evil things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether God knows singular things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether God can know infinite things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 13,
+      "groundTruthTitle": "Whether the knowledge of God is of future contingent things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 14,
+      "groundTruthTitle": "Whether God knows enunciable things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 15,
+      "groundTruthTitle": "Whether the knowledge of God is variable?",
+      "matched": false
+    },
+    {
+      "articleNumber": 16,
+      "groundTruthTitle": "Whether God has a speculative knowledge of things?",
+      "matched": false
+    }
+  ]
+}

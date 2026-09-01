@@ -1,0 +1,95 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "04 - Question 174 - OF THE DIVISION OF PROPHECY (In Six Articles).mp3",
+  "audioRelPath": "vol12/04 - Question 174 - OF THE DIVISION OF PROPHECY (In Six Articles).mp3",
+  "audioDurationSec": 3141.02,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 867.54,
+    "audioProcessedSec": 3141.02,
+    "realtimeFactor": 0.276,
+    "mp3DecodeSec": 8.1
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 174,
+    "title": "The division of prophecy"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether prophecy is fittingly divided into the prophecy of divine predestination, of foreknowledge, and of denunciation?",
+      "asrMatchedText": "Sixth, whether prophecy advanced in perfection as time went on. First article. Whether prophecy is fittingly divided into the prophecy of divine predestination,",
+      "approxStartSec": 85.52,
+      "approxStartHMS": "00:01:25",
+      "sourceChunkTimestamp": [
+        79.38,
+        94.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the prophecy which is accompanied by intellective and imaginative vision is more excellent than that which is accompanied by intellective vision alone?",
+      "asrMatchedText": "Second article, whether the prophecy which is accompanied by intellective and imaginative",
+      "approxStartSec": 634.22,
+      "approxStartHMS": "00:10:34",
+      "sourceChunkTimestamp": [
+        634.16,
+        639.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the degrees of prophecy can be distinguished according to the imaginary vision?",
+      "asrMatchedText": "Third article. Whether the degrees of prophecy can be distinguished according to the imaginary vision.",
+      "approxStartSec": 1222.01,
+      "approxStartHMS": "00:20:22",
+      "sourceChunkTimestamp": [
+        1221.92,
+        1231.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Moses was the greatest of the prophets?",
+      "asrMatchedText": "Fourth Article, whether Moses was the greatest of the prophets.",
+      "approxStartSec": 1787.5,
+      "approxStartHMS": "00:29:47",
+      "sourceChunkTimestamp": [
+        1787.36,
+        1796.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there is a degree of prophecy in the blessed?",
+      "asrMatchedText": "5th article, whether there is a degree of prophecy in the Blessed.",
+      "approxStartSec": 2094.1,
+      "approxStartHMS": "00:34:54",
+      "sourceChunkTimestamp": [
+        2094,
+        2101
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the degrees of prophecy change as time goes on?",
+      "matched": false
+    }
+  ]
+}

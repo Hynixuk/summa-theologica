@@ -1,0 +1,59 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "03 - Question. 52 - OF THE ANGELS IN RELATION TO PLACE (THREE ARTICLES).mp3",
+  "audioRelPath": "vol03/03 - Question. 52 - OF THE ANGELS IN RELATION TO PLACE (THREE ARTICLES).mp3",
+  "audioDurationSec": 697.08,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 345.29,
+    "audioProcessedSec": 697.08,
+    "realtimeFactor": 0.495,
+    "mp3DecodeSec": 2.87
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 52,
+    "title": "The angels in relation to place"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether an angel is in a place?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether an angel can be in several places at once?",
+      "asrMatchedText": "Second article whether an angel can be in several places at once.",
+      "approxStartSec": 234.04,
+      "approxStartHMS": "00:03:54",
+      "sourceChunkTimestamp": [
+        233.96,
+        239.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether several angels can be at the same time in the same place?",
+      "asrMatchedText": "Third article whether several angels can be at the same time in the same place.",
+      "approxStartSec": 507.36,
+      "approxStartHMS": "00:08:27",
+      "sourceChunkTimestamp": [
+        507.28,
+        513.4
+      ],
+      "matched": true
+    }
+  ]
+}

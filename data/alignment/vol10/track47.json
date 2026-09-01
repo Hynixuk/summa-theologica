@@ -1,0 +1,71 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "47 - Question 39 - OF SCHISM (In Four Articles).mp3",
+  "audioRelPath": "vol10/47 - Question 39 - OF SCHISM (In Four Articles).mp3",
+  "audioDurationSec": 1535.19,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 444.05,
+    "audioProcessedSec": 1535.19,
+    "realtimeFactor": 0.289,
+    "mp3DecodeSec": 6.21
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 39,
+    "title": "Schism"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether schism is a special sin?",
+      "asrMatchedText": "First article, whether schism is a special sin.",
+      "approxStartSec": 78.81,
+      "approxStartHMS": "00:01:18",
+      "sourceChunkTimestamp": [
+        78.7,
+        84.1
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether schism is a graver sin than unbelief?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 491.13,
+      "approxStartHMS": "00:08:11",
+      "sourceChunkTimestamp": [
+        491,
+        493
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether schismatics have any power?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is right that schismatics should be punished with excommunication?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1256.31,
+      "approxStartHMS": "00:20:56",
+      "sourceChunkTimestamp": [
+        1256.2,
+        1257.92
+      ],
+      "matched": true
+    }
+  ]
+}

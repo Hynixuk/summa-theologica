@@ -1,0 +1,78 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "10 - Question 36 Of the Person of the Holy Ghost.mp3",
+  "audioRelPath": "vol02/10 - Question 36 Of the Person of the Holy Ghost.mp3",
+  "audioDurationSec": 2091.23,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 606.32,
+    "audioProcessedSec": 2091.23,
+    "realtimeFactor": 0.29,
+    "mp3DecodeSec": 6.21
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 36,
+    "title": "The person of the Holy Ghost"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether this name \"Holy Ghost\" is the proper name of one divine person?",
+      "asrMatchedText": "and the Son are one principle of the Holy Ghost. First article, whether this",
+      "approxStartSec": 74.82,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        70.44,
+        77.18
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Holy Ghost proceeds from the Son?",
+      "asrMatchedText": "Second article, whether the Holy Ghost proceeds from the sun.",
+      "approxStartSec": 403.66,
+      "approxStartHMS": "00:06:43",
+      "sourceChunkTimestamp": [
+        403.54,
+        410.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the Holy Ghost proceeds from the Father through the Son?",
+      "asrMatchedText": "Third article, whether the Holy Ghost proceeds from the father through the son.ion 1. It would seem that the Holy",
+      "approxStartSec": 1177.68,
+      "approxStartHMS": "00:19:37",
+      "sourceChunkTimestamp": [
+        1177.58,
+        1188.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Father and the Son are one principle of the Holy Ghost?",
+      "asrMatchedText": "Fourth article, whether the father and the son are one principle of the Holy Ghost. objection one, it would seem that the father and the son are are one principle of the Holy Ghost. Objection one, it would seem that the father and the son are not one principle",
+      "approxStartSec": 1580,
+      "approxStartHMS": "00:26:20",
+      "sourceChunkTimestamp": [
+        1579.96,
+        1589.28
+      ],
+      "matched": true
+    }
+  ]
+}

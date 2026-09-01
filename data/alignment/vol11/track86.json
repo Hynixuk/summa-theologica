@@ -1,0 +1,90 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "86 - Question 124 - OF MARTYRDOM (In Five Articles).mp3",
+  "audioRelPath": "vol11/86 - Question 124 - OF MARTYRDOM (In Five Articles).mp3",
+  "audioDurationSec": 2051.98,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 343.14,
+    "audioProcessedSec": 2051.98,
+    "realtimeFactor": 0.167,
+    "mp3DecodeSec": 4.45
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 124,
+    "title": "Martyrdom"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether martyrdom is an act of virtue?",
+      "asrMatchedText": "First article, whether martyrdom is an act of virtue?",
+      "approxStartSec": 74.15,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        74,
+        81.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether martyrdom is an act of fortitude?",
+      "asrMatchedText": "Second article, whether martyrdom is an act of fortitude.",
+      "approxStartSec": 438.69,
+      "approxStartHMS": "00:07:18",
+      "sourceChunkTimestamp": [
+        438.62,
+        442.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether martyrdom is an act of the greatest perfection?",
+      "asrMatchedText": "Third article, whether martyrdom is an act of the greatest perfection.",
+      "approxStartSec": 829.08,
+      "approxStartHMS": "00:13:49",
+      "sourceChunkTimestamp": [
+        829,
+        835
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether death is essential to martyrdom?",
+      "asrMatchedText": "Fourth article, whether death is essential to martyrdom. Objection one. It seems that death is not",
+      "approxStartSec": 1219.12,
+      "approxStartHMS": "00:20:19",
+      "sourceChunkTimestamp": [
+        1219,
+        1231
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether faith alone is the cause of martyrdom?",
+      "asrMatchedText": "Fifth article, whether faith alone is the cause of martyrdom.",
+      "approxStartSec": 1636.07,
+      "approxStartHMS": "00:27:16",
+      "sourceChunkTimestamp": [
+        1636,
+        1640.4
+      ],
+      "matched": true
+    }
+  ]
+}

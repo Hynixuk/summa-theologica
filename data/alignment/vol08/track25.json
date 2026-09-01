@@ -1,0 +1,108 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "25 - Question 73 - OF THE COMPARISON OF ONE SIN WITH ANOTHER (In Ten Articles), part .mp3",
+  "audioRelPath": "vol08/25 - Question 73 - OF THE COMPARISON OF ONE SIN WITH ANOTHER (In Ten Articles), part .mp3",
+  "audioDurationSec": 1871.43,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 520.32,
+    "audioProcessedSec": 1871.43,
+    "realtimeFactor": 0.278,
+    "mp3DecodeSec": 4.81
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 73,
+    "title": "The comparison of one sin with another"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all sins are connected with one another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether all sins are equal?",
+      "asrMatchedText": "Second article, whether all sins are equal.",
+      "approxStartSec": 556.52,
+      "approxStartHMS": "00:09:16",
+      "sourceChunkTimestamp": [
+        556.4,
+        561.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the gravity of sins varies according to their objects?",
+      "asrMatchedText": "Third article. Whether the gravity of sins varies according to their objects.",
+      "approxStartSec": 894.81,
+      "approxStartHMS": "00:14:54",
+      "sourceChunkTimestamp": [
+        894.68,
+        905.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the gravity of sins depends on the excellence of the virtues to which they are opposed?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1217.06,
+      "approxStartHMS": "00:20:17",
+      "sourceChunkTimestamp": [
+        1217,
+        1218
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether carnal sins are of less guilt than spiritual sins?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1518.1,
+      "approxStartHMS": "00:25:18",
+      "sourceChunkTimestamp": [
+        1517.96,
+        1520
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the gravity of a sin depends on its cause?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether a circumstance aggravates a sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether sin is aggravated by reason of its causing more harm?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether a sin is aggravated by reason of the condition of the person against whom it is committed?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the excellence of the person sinning aggravates the sin?",
+      "matched": false
+    }
+  ]
+}

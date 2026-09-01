@@ -1,0 +1,67 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "02 - Question 1 - OF THE FITNESS OF THE INCARNATION (In Six Articles), part 2.mp3",
+  "audioRelPath": "vol13/02 - Question 1 - OF THE FITNESS OF THE INCARNATION (In Six Articles), part 2.mp3",
+  "audioDurationSec": 1508.49,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 358.07,
+    "audioProcessedSec": 1508.49,
+    "realtimeFactor": 0.237,
+    "mp3DecodeSec": 5.48
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 1,
+    "title": "The fitness of the Incarnation"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was fitting that God should become incarnate?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it was necessary for the restoration of the human race that the Word of God should become incarnate?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether, if man had not sinned, God would have become incarnate?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether God became incarnate in order to take away actual sin, rather than to take away original sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether it was fitting that God should become incarnate in the beginning of the human race?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Incarnation ought to have been put off till the end of the world?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 1002.55,
+      "approxStartHMS": "00:16:42",
+      "sourceChunkTimestamp": [
+        1002.4,
+        1004.64
+      ],
+      "matched": true
+    }
+  ]
+}

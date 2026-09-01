@@ -1,0 +1,102 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "35 - Question 85 - PENANCE AS A VIRTUE (In Six Articles).mp3",
+  "audioRelPath": "vol14/35 - Question 85 - PENANCE AS A VIRTUE (In Six Articles).mp3",
+  "audioDurationSec": 2005.25,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 589.1,
+    "audioProcessedSec": 2005.25,
+    "realtimeFactor": 0.294,
+    "mp3DecodeSec": 8.24
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 85,
+    "title": "Penance as a virtue"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Penance is a virtue?",
+      "asrMatchedText": "First article, whether penance is a virtue?",
+      "approxStartSec": 57.11,
+      "approxStartHMS": "00:00:57",
+      "sourceChunkTimestamp": [
+        57,
+        62
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Penance is a special virtue?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 380.75,
+      "approxStartHMS": "00:06:20",
+      "sourceChunkTimestamp": [
+        380.64,
+        382.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the virtue of penance is a species of justice?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 651.38,
+      "approxStartHMS": "00:10:51",
+      "sourceChunkTimestamp": [
+        651.26,
+        653.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the will is properly the subject of penance?",
+      "asrMatchedText": "Fourth article. Whether the will is properly the subject of penance. Objection",
+      "approxStartSec": 1156.94,
+      "approxStartHMS": "00:19:16",
+      "sourceChunkTimestamp": [
+        1156.84,
+        1164.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether penance originates from fear?",
+      "asrMatchedText": "Fifth article. Whether penance originates from fear.",
+      "approxStartSec": 1392.48,
+      "approxStartHMS": "00:23:12",
+      "sourceChunkTimestamp": [
+        1392.4,
+        1396.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether penance is the first of the virtues?",
+      "asrMatchedText": "6th Article",
+      "approxStartSec": 1668.98,
+      "approxStartHMS": "00:27:48",
+      "sourceChunkTimestamp": [
+        1668.56,
+        1673.64
+      ],
+      "matched": true
+    }
+  ]
+}

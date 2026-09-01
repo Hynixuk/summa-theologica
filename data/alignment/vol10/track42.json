@@ -1,0 +1,95 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "42 - Question 34 - OF HATRED (In Six Articles).mp3",
+  "audioRelPath": "vol10/42 - Question 34 - OF HATRED (In Six Articles).mp3",
+  "audioDurationSec": 1744.88,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 482.27,
+    "audioProcessedSec": 1744.88,
+    "realtimeFactor": 0.276,
+    "mp3DecodeSec": 6.09
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 34,
+    "title": "Hatred"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is possible for anyone to hate God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether hatred of God is the greatest of sins?",
+      "asrMatchedText": "Second article, whether hatred of God is the greatest of sins.",
+      "approxStartSec": 356.1,
+      "approxStartHMS": "00:05:56",
+      "sourceChunkTimestamp": [
+        356,
+        362.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether hatred of one's neighbor is always a sin?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 687.12,
+      "approxStartHMS": "00:11:27",
+      "sourceChunkTimestamp": [
+        687,
+        688.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether hatred of our neighbor is the most grievous sin against our neighbor?",
+      "asrMatchedText": "Fourth article. Whether hatred of our neighbor is the most grievous sin against our neighbor.",
+      "approxStartSec": 935.44,
+      "approxStartHMS": "00:15:35",
+      "sourceChunkTimestamp": [
+        935.36,
+        943.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether hatred is a capital sin?",
+      "asrMatchedText": "Fifth article. Whether hatred is a capital sin. Objection won. You would seem that hatred is a capital sin.",
+      "approxStartSec": 1136.92,
+      "approxStartHMS": "00:18:56",
+      "sourceChunkTimestamp": [
+        1136.84,
+        1145.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether hatred arises from envy?",
+      "asrMatchedText": "6th article, whether hatred arises from envy.",
+      "approxStartSec": 1401.38,
+      "approxStartHMS": "00:23:21",
+      "sourceChunkTimestamp": [
+        1401.2,
+        1409.52
+      ],
+      "matched": true
+    }
+  ]
+}

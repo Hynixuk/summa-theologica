@@ -1,0 +1,78 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "16 - Question 70 - CIRCUMCISION (In Four Articles).mp3",
+  "audioRelPath": "vol14/16 - Question 70 - CIRCUMCISION (In Four Articles).mp3",
+  "audioDurationSec": 1664,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 307.64,
+    "audioProcessedSec": 1664,
+    "realtimeFactor": 0.185,
+    "mp3DecodeSec": 2.71
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 70,
+    "title": "Circumcision"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether circumcision was a preparation for, and a figure of Baptism?",
+      "asrMatchedText": "its right. Fourth, its effect. First article.",
+      "approxStartSec": 64.06,
+      "approxStartHMS": "00:01:04",
+      "sourceChunkTimestamp": [
+        58.36,
+        66.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether circumcision was instituted in a fitting manner?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 307.12,
+      "approxStartHMS": "00:05:07",
+      "sourceChunkTimestamp": [
+        307,
+        308.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the rite of circumcision was fitting?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 710.52,
+      "approxStartHMS": "00:11:50",
+      "sourceChunkTimestamp": [
+        710.4,
+        712.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether circumcision bestowed sanctifying grace?",
+      "asrMatchedText": "Fourth article,",
+      "approxStartSec": 1061.6,
+      "approxStartHMS": "00:17:41",
+      "sourceChunkTimestamp": [
+        1061.5,
+        1063.1
+      ],
+      "matched": true
+    }
+  ]
+}

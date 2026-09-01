@@ -1,0 +1,59 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "04 - Question 52 - OF THE INCREASE OF HABITS (In Three Articles).mp3",
+  "audioRelPath": "vol08/04 - Question 52 - OF THE INCREASE OF HABITS (In Three Articles).mp3",
+  "audioDurationSec": 1663.95,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 268.83,
+    "audioProcessedSec": 1663.95,
+    "realtimeFactor": 0.162,
+    "mp3DecodeSec": 2.77
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 52,
+    "title": "The increase of habits"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether habits increase?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether habits increases by addition?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 967.13,
+      "approxStartHMS": "00:16:07",
+      "sourceChunkTimestamp": [
+        967,
+        969
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether every act increases its habit?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1439.13,
+      "approxStartHMS": "00:23:59",
+      "sourceChunkTimestamp": [
+        1439,
+        1441
+      ],
+      "matched": true
+    }
+  ]
+}

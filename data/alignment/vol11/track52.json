@@ -1,0 +1,47 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "52 - Question 91 - OF TAKING THE DIVINE NAME FOR THE PURPOSE OF INVOKING IT BY MEANS .mp3",
+  "audioRelPath": "vol11/52 - Question 91 - OF TAKING THE DIVINE NAME FOR THE PURPOSE OF INVOKING IT BY MEANS .mp3",
+  "audioDurationSec": 911.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 158.44,
+    "audioProcessedSec": 911.01,
+    "realtimeFactor": 0.174,
+    "mp3DecodeSec": 1.41
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 91,
+    "title": "Taking the divine name for the purpose of invoking it by means of praise"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God should be praised with the lips?",
+      "asrMatchedText": "First article, whether God should be praised with the lips.",
+      "approxStartSec": 77.46,
+      "approxStartHMS": "00:01:17",
+      "sourceChunkTimestamp": [
+        77.36,
+        83.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether God should be praised with song?",
+      "matched": false
+    }
+  ]
+}

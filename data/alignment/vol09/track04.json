@@ -1,0 +1,95 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "04 - Question 93 - OF THE ETERNAL LAW (In Six Articles).mp3",
+  "audioRelPath": "vol09/04 - Question 93 - OF THE ETERNAL LAW (In Six Articles).mp3",
+  "audioDurationSec": 2336.84,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 590.51,
+    "audioProcessedSec": 2336.84,
+    "realtimeFactor": 0.253,
+    "mp3DecodeSec": 8.22
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 93,
+    "title": "The eternal law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the eternal law is a sovereign type [ratio] existing in God?",
+      "asrMatchedText": "First article. Whether the eternal law is a sovereign type exists... are subject to it.",
+      "approxStartSec": 104.49,
+      "approxStartHMS": "00:01:44",
+      "sourceChunkTimestamp": [
+        104.48,
+        105
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the eternal law is known to all?",
+      "asrMatchedText": "Second Article.",
+      "approxStartSec": 496.11,
+      "approxStartHMS": "00:08:16",
+      "sourceChunkTimestamp": [
+        496,
+        497.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether every law is derived from the eternal law?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 777.61,
+      "approxStartHMS": "00:12:57",
+      "sourceChunkTimestamp": [
+        777.48,
+        779.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether necessary and eternal things are subject to the eternal law?",
+      "asrMatchedText": "Fourth article, whether necessary and eternal things are subject to the eternal law.",
+      "approxStartSec": 1151.34,
+      "approxStartHMS": "00:19:11",
+      "sourceChunkTimestamp": [
+        1151.24,
+        1159.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether natural contingents are subject to the eternal law?",
+      "asrMatchedText": "Fifth article. Whether natural contingents are subject to the eternal law.",
+      "approxStartSec": 1483.12,
+      "approxStartHMS": "00:24:43",
+      "sourceChunkTimestamp": [
+        1483,
+        1491.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether all human affairs are subject to the eternal law?",
+      "matched": false
+    }
+  ]
+}

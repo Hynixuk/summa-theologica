@@ -1,0 +1,71 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "04 - 30 - Question 30 The Plurality of Persons in God.mp3",
+  "audioRelPath": "vol02/04 - 30 - Question 30 The Plurality of Persons in God.mp3",
+  "audioDurationSec": 1577.03,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 254,
+    "audioProcessedSec": 1577.03,
+    "realtimeFactor": 0.161,
+    "mp3DecodeSec": 2.17
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 30,
+    "title": "The plurality of persons in God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there are several persons in God?",
+      "asrMatchedText": "in God, and the community of the term person. First article, whether there are several persons",
+      "approxStartSec": 57.37,
+      "approxStartHMS": "00:00:57",
+      "sourceChunkTimestamp": [
+        52.84,
+        62
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there are more than three persons in God?",
+      "asrMatchedText": "Second article, whether there are more",
+      "approxStartSec": 347.29,
+      "approxStartHMS": "00:05:47",
+      "sourceChunkTimestamp": [
+        347.24,
+        349.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the numeral terms denote anything real in God?",
+      "asrMatchedText": "Third article, whether the numerical terms denote anything real in God.",
+      "approxStartSec": 848.86,
+      "approxStartHMS": "00:14:08",
+      "sourceChunkTimestamp": [
+        848.76,
+        856.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether this term \"person\" can be common to the three persons?",
+      "matched": false
+    }
+  ]
+}

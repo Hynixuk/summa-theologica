@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "29 - Question 75 - OF THE CAUSES OF SIN, IN GENERAL (In Four Articles).mp3",
+  "audioRelPath": "vol08/29 - Question 75 - OF THE CAUSES OF SIN, IN GENERAL (In Four Articles).mp3",
+  "audioDurationSec": 1454.25,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 370.75,
+    "audioProcessedSec": 1454.25,
+    "realtimeFactor": 0.255,
+    "mp3DecodeSec": 4.77
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 75,
+    "title": "The causes of sin, in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether sin has a cause?",
+      "asrMatchedText": "First article, whether sin has a cause.",
+      "approxStartSec": 84.04,
+      "approxStartHMS": "00:01:24",
+      "sourceChunkTimestamp": [
+        83.88,
+        90.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sin has an internal cause?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 486.13,
+      "approxStartHMS": "00:08:06",
+      "sourceChunkTimestamp": [
+        486,
+        488
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether sin has an external cause?",
+      "asrMatchedText": "Third article. Whether sin has an external cause. Objection won. It would seem that that sin has an external cause. Objection 1.",
+      "approxStartSec": 818.62,
+      "approxStartHMS": "00:13:38",
+      "sourceChunkTimestamp": [
+        818.56,
+        826.18
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether one sin is a cause of another?",
+      "asrMatchedText": "Fourth article whether one sin is a cause of another.",
+      "approxStartSec": 1101.21,
+      "approxStartHMS": "00:18:21",
+      "sourceChunkTimestamp": [
+        1101.08,
+        1108.12
+      ],
+      "matched": true
+    }
+  ]
+}

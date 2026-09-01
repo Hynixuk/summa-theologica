@@ -1,0 +1,125 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "27 - Question 80 - THE USE OR RECEIVING OF THIS SACRAMENT IN GENERAL (In Twelve Artic.mp3",
+  "audioRelPath": "vol14/27 - Question 80 - THE USE OR RECEIVING OF THIS SACRAMENT IN GENERAL (In Twelve Artic.mp3",
+  "audioDurationSec": 2823.73,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 430.94,
+    "audioProcessedSec": 2823.73,
+    "realtimeFactor": 0.153,
+    "mp3DecodeSec": 4.04
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 80,
+    "title": "The use or receiving of this sacrament in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there are two ways to be distinguished of eating Christ's body?",
+      "asrMatchedText": "1st article. Whether there are two ways to be distinguished of eating Christ's body.",
+      "approxStartSec": 118.44,
+      "approxStartHMS": "00:01:58",
+      "sourceChunkTimestamp": [
+        118.34,
+        127
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it belongs to man alone to eat this sacrament spiritually?",
+      "asrMatchedText": "Second Article Whether it belongs to man alone to eat",
+      "approxStartSec": 497.83,
+      "approxStartHMS": "00:08:17",
+      "sourceChunkTimestamp": [
+        497.76,
+        501.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the just man alone may eat Christ sacramentally?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 787.3,
+      "approxStartHMS": "00:13:07",
+      "sourceChunkTimestamp": [
+        787,
+        791.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the sinner sins in receiving Christ's body sacramentally?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1182.13,
+      "approxStartHMS": "00:19:42",
+      "sourceChunkTimestamp": [
+        1182,
+        1184
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether to approach this sacrament with consciousness of sin is the gravest of all sins?",
+      "asrMatchedText": "Fifth article. Whether to approach this sacrament with consciousness of sin is",
+      "approxStartSec": 1797.16,
+      "approxStartHMS": "00:29:57",
+      "sourceChunkTimestamp": [
+        1797.08,
+        1803.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the priest ought to deny the body of Christ to the sinner seeking it?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the seminal loss that occurs during sleep hinders anyone from receiving this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether food or drink taken beforehand hinders the receiving of this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether those who have not the use of reason ought to receive this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether it is lawful to receive this sacrament daily?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether it is lawful to abstain altogether from communion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether it is lawful to receive the body of Christ without the blood?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "16 - Question 13 - OF THE POWER OF CHRIST'S SOUL (In Four Articles).mp3",
+  "audioRelPath": "vol13/16 - Question 13 - OF THE POWER OF CHRIST'S SOUL (In Four Articles).mp3",
+  "audioDurationSec": 1665.94,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 393.62,
+    "audioProcessedSec": 1665.94,
+    "realtimeFactor": 0.236,
+    "mp3DecodeSec": 2.92
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 13,
+    "title": "The power of Christ's soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the soul of Christ had omnipotence?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 73.76,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        73.64,
+        75.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the soul of Christ had omnipotence with regard to the transmutation of creatures?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 551.13,
+      "approxStartHMS": "00:09:11",
+      "sourceChunkTimestamp": [
+        551,
+        553
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the soul of Christ had omnipotence with regard to His own body?",
+      "asrMatchedText": "Third article,",
+      "approxStartSec": 1019.88,
+      "approxStartHMS": "00:16:59",
+      "sourceChunkTimestamp": [
+        1019.8,
+        1021
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the soul of Christ had omnipotence as regards the execution of His will?",
+      "asrMatchedText": "Fourth article, whether the soul of Christ had omnipotence as regards the execution of",
+      "approxStartSec": 1357.46,
+      "approxStartHMS": "00:22:37",
+      "sourceChunkTimestamp": [
+        1357.4,
+        1362.8
+      ],
+      "matched": true
+    }
+  ]
+}

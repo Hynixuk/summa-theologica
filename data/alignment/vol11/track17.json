@@ -1,0 +1,102 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "17 - Question 60 - OF JUDGMENT (In Six Articles).mp3",
+  "audioRelPath": "vol11/17 - Question 60 - OF JUDGMENT (In Six Articles).mp3",
+  "audioDurationSec": 2300.81,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 552.12,
+    "audioProcessedSec": 2300.81,
+    "realtimeFactor": 0.24,
+    "mp3DecodeSec": 8.3
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 60,
+    "title": "Judgment"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether judgment is an act of justice?",
+      "asrMatchedText": "First article. Whether judgment is an act of justice. is perverted by being usurped.",
+      "approxStartSec": 83.03,
+      "approxStartHMS": "00:01:23",
+      "sourceChunkTimestamp": [
+        83,
+        85.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful to judge?",
+      "asrMatchedText": "Second Article Whether it is lawful to judge",
+      "approxStartSec": 490.12,
+      "approxStartHMS": "00:08:10",
+      "sourceChunkTimestamp": [
+        490,
+        495.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is unlawful to form a judgment from suspicions?",
+      "asrMatchedText": "Third Article Whether it is unlawful to form a judgment from",
+      "approxStartSec": 828.77,
+      "approxStartHMS": "00:13:48",
+      "sourceChunkTimestamp": [
+        828.64,
+        836.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether doubts should be interpreted for the best?",
+      "asrMatchedText": "Fourth article. Whether doubts should be interpreted for the best.",
+      "approxStartSec": 1252.5,
+      "approxStartHMS": "00:20:52",
+      "sourceChunkTimestamp": [
+        1252.4,
+        1259.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether we should always judge according to the written law?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1589.13,
+      "approxStartHMS": "00:26:29",
+      "sourceChunkTimestamp": [
+        1589,
+        1591
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether judgment is rendered perverse by being usurped?",
+      "asrMatchedText": "Sixth article. Whether judgment is rendered perverse by being usurped.",
+      "approxStartSec": 1898.96,
+      "approxStartHMS": "00:31:38",
+      "sourceChunkTimestamp": [
+        1898.8,
+        1910.28
+      ],
+      "matched": true
+    }
+  ]
+}

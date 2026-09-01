@@ -1,0 +1,118 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "57 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 3.mp3",
+  "audioRelPath": "vol13/57 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 3.mp3",
+  "audioDurationSec": 2005.22,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 313.75,
+    "audioProcessedSec": 2005.22,
+    "realtimeFactor": 0.156,
+    "mp3DecodeSec": 3
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 46,
+    "title": "The passion of Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was necessary for Christ to suffer for the deliverance of the human race?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there was any other possible way of human deliverance besides the Passion of Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there was any more suitable way of delivering the human race than by Christ's Passion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ ought to have suffered on the cross?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether Christ endured all suffering?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the pain of Christ's Passion was greater than all other pains?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether Christ suffered in His whole soul?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether Christ's entire soul enjoyed blessed fruition during the Passion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether Christ suffered at a suitable time?",
+      "asrMatchedText": "9th article, Whether Christ suffered at a suitable time Part 3, Articles 9-12.",
+      "approxStartSec": 44.12,
+      "approxStartHMS": "00:00:44",
+      "sourceChunkTimestamp": [
+        44.1,
+        45.86
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether Christ suffered in a suitable place?",
+      "asrMatchedText": "10th article, Whether Christ suffered in a suitable place.",
+      "approxStartSec": 823.43,
+      "approxStartHMS": "00:13:43",
+      "sourceChunkTimestamp": [
+        823.32,
+        829.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether it was fitting for Christ to be crucified with thieves?",
+      "asrMatchedText": "11th article",
+      "approxStartSec": 1291.59,
+      "approxStartHMS": "00:21:31",
+      "sourceChunkTimestamp": [
+        1291.44,
+        1293.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether Christ's Passion is to be attributed to His Godhead?",
+      "asrMatchedText": "12th article, Whether Christ's Passion is to be attributed to His Godhead.",
+      "approxStartSec": 1700.71,
+      "approxStartHMS": "00:28:20",
+      "sourceChunkTimestamp": [
+        1700.56,
+        1711.84
+      ],
+      "matched": true
+    }
+  ]
+}

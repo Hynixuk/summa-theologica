@@ -1,0 +1,78 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "29 - Question 81 - THE USE WHICH CHRIST MADE OF THIS SACRAMENT AT ITS INSTITUTION (In.mp3",
+  "audioRelPath": "vol14/29 - Question 81 - THE USE WHICH CHRIST MADE OF THIS SACRAMENT AT ITS INSTITUTION (In.mp3",
+  "audioDurationSec": 1361.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 248.08,
+    "audioProcessedSec": 1361.01,
+    "realtimeFactor": 0.182,
+    "mp3DecodeSec": 2.03
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 81,
+    "title": "The use which Christ made of this sacrament at its institution"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ received His own body and blood?",
+      "asrMatchedText": "First article, whether Christ received his own body and blood.",
+      "approxStartSec": 66.38,
+      "approxStartHMS": "00:01:06",
+      "sourceChunkTimestamp": [
+        66.28,
+        72.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ gave His body to Judas?",
+      "asrMatchedText": "Second article, whether Christ gave his body to Judas.",
+      "approxStartSec": 394.99,
+      "approxStartHMS": "00:06:34",
+      "sourceChunkTimestamp": [
+        394.88,
+        400.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ received and gave to the disciples His impassible body?",
+      "asrMatchedText": "Third article. Weather Christ received and gave to the disciples his impassable body.",
+      "approxStartSec": 758.92,
+      "approxStartHMS": "00:12:38",
+      "sourceChunkTimestamp": [
+        758.84,
+        765.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether, if this sacrament had been reserved in a pyx, or consecrated at the moment of Christ's death by one of the apostles, Christ Himself would have died there?",
+      "asrMatchedText": "Fourth article. Whether if the sacrament had been reserved in a pix or consecrated at the",
+      "approxStartSec": 1080.12,
+      "approxStartHMS": "00:18:00",
+      "sourceChunkTimestamp": [
+        1080,
+        1090.76
+      ],
+      "matched": true
+    }
+  ]
+}

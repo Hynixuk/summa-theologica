@@ -1,0 +1,66 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "07 - Question. 56 - OF THE ANGEL'S KNOWLEDGE OF IMMATERIAL THINGS (THREE ARTICLES).mp3",
+  "audioRelPath": "vol03/07 - Question. 56 - OF THE ANGEL'S KNOWLEDGE OF IMMATERIAL THINGS (THREE ARTICLES).mp3",
+  "audioDurationSec": 1058.04,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 326.55,
+    "audioProcessedSec": 1058.04,
+    "realtimeFactor": 0.309,
+    "mp3DecodeSec": 2.45
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 3,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 56,
+    "title": "The angel's knowledge of immaterial things"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether an angel knows himself?",
+      "asrMatchedText": "principles? First article, whether an angel knows himself.",
+      "approxStartSec": 66.84,
+      "approxStartHMS": "00:01:06",
+      "sourceChunkTimestamp": [
+        65.76,
+        70.66
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether one angel knows another?",
+      "asrMatchedText": "Second article, whether one angel knows another.",
+      "approxStartSec": 377.06,
+      "approxStartHMS": "00:06:17",
+      "sourceChunkTimestamp": [
+        376.96,
+        382
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether an angel knows God by his own natural principles?",
+      "asrMatchedText": "Third article, whether an angel knows God by his own natural principles.",
+      "approxStartSec": 766.68,
+      "approxStartHMS": "00:12:46",
+      "sourceChunkTimestamp": [
+        766.6,
+        772.72
+      ],
+      "matched": true
+    }
+  ]
+}

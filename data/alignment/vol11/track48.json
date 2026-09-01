@@ -1,0 +1,118 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "48 - Question 88 - OF VOWS (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol11/48 - Question 88 - OF VOWS (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 2548.74,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 411.59,
+    "audioProcessedSec": 2548.74,
+    "realtimeFactor": 0.161,
+    "mp3DecodeSec": 3.36
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 88,
+    "title": "Vows"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a vow consists in a mere purpose of the will?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a vow should always be about a better good?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether all vows are binding?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is expedient to take vows?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a vow is an act of latria or religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is more praiseworthy and meritorious to do something in fulfilment of a vow, than without a vow?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether a vow is solemnized by the reception of holy orders, and by the profession of a certain rule?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether those who are subject to another's power are hindered from taking vows?",
+      "asrMatchedText": "8th article.",
+      "approxStartSec": 380.81,
+      "approxStartHMS": "00:06:20",
+      "sourceChunkTimestamp": [
+        380.36,
+        386.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether children can bind themselves by vow to enter religion?",
+      "asrMatchedText": "The 9th article, whether children can bind themselves by vow to enter religion.",
+      "approxStartSec": 702.85,
+      "approxStartHMS": "00:11:42",
+      "sourceChunkTimestamp": [
+        702.36,
+        710.22
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether vows admit of dispensation?",
+      "asrMatchedText": "10th article. Whether vows admit of dispensation.",
+      "approxStartSec": 1037.7,
+      "approxStartHMS": "00:17:17",
+      "sourceChunkTimestamp": [
+        1037.56,
+        1044.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether it is possible to be dispensed from a solemn vow of continency?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the authority of a prelate is required for commutation or the dispensation of a vow?",
+      "asrMatchedText": "Twelfth article.",
+      "approxStartSec": 2121.72,
+      "approxStartHMS": "00:35:21",
+      "sourceChunkTimestamp": [
+        2121.6,
+        2123.64
+      ],
+      "matched": true
+    }
+  ]
+}

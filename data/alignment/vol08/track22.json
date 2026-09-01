@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "22 - Question 70 - OF THE FRUITS OF THE HOLY GHOST (In Four Articles).mp3",
+  "audioRelPath": "vol08/22 - Question 70 - OF THE FRUITS OF THE HOLY GHOST (In Four Articles).mp3",
+  "audioDurationSec": 1655.26,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 346.26,
+    "audioProcessedSec": 1655.26,
+    "realtimeFactor": 0.209,
+    "mp3DecodeSec": 2.81
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 70,
+    "title": "The fruits of the Holy Ghost"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the fruits of the Holy Ghost which the Apostle enumerates (Galatians 5) are acts?",
+      "asrMatchedText": "1st article, whether the fruits of the Holy Ghost which the Apostle enumerates in Galatians",
+      "approxStartSec": 67.5,
+      "approxStartHMS": "00:01:07",
+      "sourceChunkTimestamp": [
+        67.4,
+        76.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the fruits differ from the beatitudes?",
+      "asrMatchedText": "Second article. used in reckoning the fruits.",
+      "approxStartSec": 482.73,
+      "approxStartHMS": "00:08:02",
+      "sourceChunkTimestamp": [
+        482.64,
+        487
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the fruits are suitably enumerated by the Apostle?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 688.74,
+      "approxStartHMS": "00:11:28",
+      "sourceChunkTimestamp": [
+        688.64,
+        690.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the fruits of the Holy Ghost are contrary to the works of the flesh?",
+      "asrMatchedText": "Fourth article. Whether the fruits of the Holy Ghost are contrary to the works of the",
+      "approxStartSec": 1344.18,
+      "approxStartHMS": "00:22:24",
+      "sourceChunkTimestamp": [
+        1344.12,
+        1348.9
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "09 - Question 53 - OF IMPRUDENCE (In Six Articles).mp3",
+  "audioRelPath": "vol11/09 - Question 53 - OF IMPRUDENCE (In Six Articles).mp3",
+  "audioDurationSec": 1943.37,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 304.74,
+    "audioProcessedSec": 1943.37,
+    "realtimeFactor": 0.157,
+    "mp3DecodeSec": 2.51
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 53,
+    "title": "Imprudence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether imprudence is a sin?",
+      "asrMatchedText": "First article, whether imprudence is a sin.",
+      "approxStartSec": 152.56,
+      "approxStartHMS": "00:02:32",
+      "sourceChunkTimestamp": [
+        152.44,
+        157.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether imprudence is a special sin?",
+      "asrMatchedText": "Second article, whether imprudence is a special sin.",
+      "approxStartSec": 428.48,
+      "approxStartHMS": "00:07:08",
+      "sourceChunkTimestamp": [
+        428.36,
+        434.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether precipitation is a sin included in imprudence?",
+      "asrMatchedText": "Third article, whether precipitation is a sin included in imprudence. Objection 1,",
+      "approxStartSec": 853.67,
+      "approxStartHMS": "00:14:13",
+      "sourceChunkTimestamp": [
+        853.56,
+        862.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether thoughtlessness is a special sin included in prudence?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1153.62,
+      "approxStartHMS": "00:19:13",
+      "sourceChunkTimestamp": [
+        1153.5,
+        1155.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether inconstancy is a vice contained under prudence?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1429.36,
+      "approxStartHMS": "00:23:49",
+      "sourceChunkTimestamp": [
+        1429.22,
+        1431.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the aforesaid vices arise from lust?",
+      "matched": false
+    }
+  ]
+}

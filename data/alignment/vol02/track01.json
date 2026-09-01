@@ -1,0 +1,83 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "01 - 27 - Question 27 The Procession of the Divine Persons.mp3",
+  "audioRelPath": "vol02/01 - 27 - Question 27 The Procession of the Divine Persons.mp3",
+  "audioDurationSec": 1738.66,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 269.77,
+    "audioProcessedSec": 1738.66,
+    "realtimeFactor": 0.155,
+    "mp3DecodeSec": 2.59
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 27,
+    "title": "The procession of the divine persons"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is procession in God?",
+      "asrMatchedText": "First article, whether there is procession in God.",
+      "approxStartSec": 103.17,
+      "approxStartHMS": "00:01:43",
+      "sourceChunkTimestamp": [
+        103,
+        111.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether any procession in God can be called generation?",
+      "asrMatchedText": "Second article whether any procession in God can be called generation.",
+      "approxStartSec": 541.05,
+      "approxStartHMS": "00:09:01",
+      "sourceChunkTimestamp": [
+        540.96,
+        547
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether any other procession exists in God besides that of the Word?",
+      "asrMatchedText": "Third article, whether any other procession exists in God besides that of the word.",
+      "approxStartSec": 947.12,
+      "approxStartHMS": "00:15:47",
+      "sourceChunkTimestamp": [
+        947,
+        957
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the procession of love in God is generation?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there are more than two processions in God?",
+      "asrMatchedText": "Fifth article, whether there are more than two",
+      "approxStartSec": 1525.06,
+      "approxStartHMS": "00:25:25",
+      "sourceChunkTimestamp": [
+        1525,
+        1528
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "46 - Question 38 - OF THE BAPTISM OF JOHN (In Six Articles).mp3",
+  "audioRelPath": "vol13/46 - Question 38 - OF THE BAPTISM OF JOHN (In Six Articles).mp3",
+  "audioDurationSec": 2252.52,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 300.45,
+    "audioProcessedSec": 2252.52,
+    "realtimeFactor": 0.133,
+    "mp3DecodeSec": 2.81
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 38,
+    "title": "The baptism of John"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was fitting that John should baptize?",
+      "asrMatchedText": "First article, whether it was fitting that John should baptize.",
+      "approxStartSec": 100.01,
+      "approxStartHMS": "00:01:40",
+      "sourceChunkTimestamp": [
+        99.9,
+        107
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the baptism of John was from God?",
+      "asrMatchedText": "Second article, whether the baptism of John was from God.",
+      "approxStartSec": 439.13,
+      "approxStartHMS": "00:07:19",
+      "sourceChunkTimestamp": [
+        439,
+        446.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether grace was given in the baptism of John?",
+      "asrMatchedText": "Third Article Whether Grace Was Given in the Baptism of John won. You would seem that Grace was given in the baptism of John. Objection 1. You would seem that Grace was given in the",
+      "approxStartSec": 757.62,
+      "approxStartHMS": "00:12:37",
+      "sourceChunkTimestamp": [
+        757.56,
+        768.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ alone should have been baptized with the baptism of John?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether John's baptism should have ceased after Christ was baptized?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1376.15,
+      "approxStartHMS": "00:22:56",
+      "sourceChunkTimestamp": [
+        1376,
+        1378.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether those who had been baptized with John's baptism had to be baptized with the baptism of Christ?",
+      "asrMatchedText": "6th Article.",
+      "approxStartSec": 1640.15,
+      "approxStartHMS": "00:27:20",
+      "sourceChunkTimestamp": [
+        1640,
+        1642
+      ],
+      "matched": true
+    }
+  ]
+}

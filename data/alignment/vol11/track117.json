@@ -1,0 +1,132 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "117 - Question 154 - OF THE PARTS OF LUST (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol11/117 - Question 154 - OF THE PARTS OF LUST (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 2812.95,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 834.12,
+    "audioProcessedSec": 2812.95,
+    "realtimeFactor": 0.297,
+    "mp3DecodeSec": 11.54
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 154,
+    "title": "The parts of Lust"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether six species are fittingly assigned to lust?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether simple fornication is a mortal sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether fornication is the most grievous of sins?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there can be mortal sin in touches and kisses?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether nocturnal pollution is a mortal sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether seduction should be reckoned a species of lust?",
+      "asrMatchedText": "6th Article, whether seduction should be reckoned a species of lust.",
+      "approxStartSec": 47.14,
+      "approxStartHMS": "00:00:47",
+      "sourceChunkTimestamp": [
+        47,
+        57
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether rape is a species of lust, distinct from seduction?",
+      "asrMatchedText": "Seventh article.",
+      "approxStartSec": 454.12,
+      "approxStartHMS": "00:07:34",
+      "sourceChunkTimestamp": [
+        454,
+        456
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether adultery is determinate species of lust, distinct from the other species?",
+      "asrMatchedText": "8th Article",
+      "approxStartSec": 888.9,
+      "approxStartHMS": "00:14:48",
+      "sourceChunkTimestamp": [
+        888.48,
+        893.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether incest is a determinate species of lust?",
+      "asrMatchedText": "9th article, whether incest is a determinate species of lust.",
+      "approxStartSec": 1279.15,
+      "approxStartHMS": "00:21:19",
+      "sourceChunkTimestamp": [
+        1279,
+        1288.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether sacrilege can be a species of lust?",
+      "asrMatchedText": "10th article. Whether sacrilege can be a species of f- for bated.",
+      "approxStartSec": 1742.85,
+      "approxStartHMS": "00:29:02",
+      "sourceChunkTimestamp": [
+        1742.8,
+        1746
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the unnatural vice is a species of lust?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the unnatural vice is the greatest sin among the species of lust?",
+      "asrMatchedText": "12th Article",
+      "approxStartSec": 2316.03,
+      "approxStartHMS": "00:38:36",
+      "sourceChunkTimestamp": [
+        2315.6,
+        2321.2
+      ],
+      "matched": true
+    }
+  ]
+}

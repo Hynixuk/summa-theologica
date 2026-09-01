@@ -1,0 +1,69 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "14 - Question 12 - OF INTENTION (In Five Articles).mp3",
+  "audioRelPath": "vol06/14 - Question 12 - OF INTENTION (In Five Articles).mp3",
+  "audioDurationSec": 1505.31,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 406.37,
+    "audioProcessedSec": 1505.31,
+    "realtimeFactor": 0.27,
+    "mp3DecodeSec": 4.88
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 12,
+    "title": "Intention"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether intention is an act of the intellect or of the will?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether intention is only of the last end?",
+      "asrMatchedText": "Second article, 1-2, question 12, article 2.",
+      "approxStartSec": 424.51,
+      "approxStartHMS": "00:07:04",
+      "sourceChunkTimestamp": [
+        424.36,
+        431.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether one can intend two things at the same time?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether intention of the end is the same act as the volition of the means?",
+      "asrMatchedText": "Fourth Article 1-2, Question 12, Article 4.",
+      "approxStartSec": 966.65,
+      "approxStartHMS": "00:16:06",
+      "sourceChunkTimestamp": [
+        966.52,
+        972.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether intention is within the competency of irrational animals?",
+      "matched": false
+    }
+  ]
+}

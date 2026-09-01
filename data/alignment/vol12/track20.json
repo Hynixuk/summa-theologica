@@ -1,0 +1,74 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "20 - Question 187 - OF THOSE THINGS THAT ARE COMPETENT TO RELIGIOUS (In Six Articles).mp3",
+  "audioRelPath": "vol12/20 - Question 187 - OF THOSE THINGS THAT ARE COMPETENT TO RELIGIOUS (In Six Articles).mp3",
+  "audioDurationSec": 2249.09,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 493.99,
+    "audioProcessedSec": 2249.09,
+    "realtimeFactor": 0.22,
+    "mp3DecodeSec": 7.74
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 187,
+    "title": "Things that are competent to religious"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is lawful for religious to teach, preach, and the like?",
+      "asrMatchedText": "persons. First article, whether it is lawful for",
+      "approxStartSec": 88.33,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        87,
+        93.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful for religious to occupy themselves with secular business?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether religious are bound to manual labor?",
+      "asrMatchedText": "Third article, whether religious are bound to manual labor. You would seem that religious are bound to manual labor. Objection 1, you would seem that",
+      "approxStartSec": 976.24,
+      "approxStartHMS": "00:16:16",
+      "sourceChunkTimestamp": [
+        976.16,
+        988.38
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is lawful for religious to live on alms?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether it is lawful for religious to beg?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is lawful for religious to wear coarser clothes than others?",
+      "matched": false
+    }
+  ]
+}

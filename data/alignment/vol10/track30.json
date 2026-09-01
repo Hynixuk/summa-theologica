@@ -1,0 +1,132 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "30 - Question 25 - OF THE OBJECT OF CHARITY (In Twelve Articles), part 1.mp3",
+  "audioRelPath": "vol10/30 - Question 25 - OF THE OBJECT OF CHARITY (In Twelve Articles), part 1.mp3",
+  "audioDurationSec": 2209.12,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 393.02,
+    "audioProcessedSec": 2209.12,
+    "realtimeFactor": 0.178,
+    "mp3DecodeSec": 3.12
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 25,
+    "title": "The object of charity"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the love of charity stops at God, or extends to our neighbor?",
+      "asrMatchedText": "we are bound to love out of charity. First article. Whether the love of",
+      "approxStartSec": 140.27,
+      "approxStartHMS": "00:02:20",
+      "sourceChunkTimestamp": [
+        136.2,
+        143.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether we should love charity out of charity?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 513.07,
+      "approxStartHMS": "00:08:33",
+      "sourceChunkTimestamp": [
+        512.96,
+        514.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether irrational creatures also ought to be loved out of charity?",
+      "asrMatchedText": "Third article. Whether irrational creatures also are friends.",
+      "approxStartSec": 782.52,
+      "approxStartHMS": "00:13:02",
+      "sourceChunkTimestamp": [
+        782.46,
+        786.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a man ought to love himself out of charity?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1114.59,
+      "approxStartHMS": "00:18:34",
+      "sourceChunkTimestamp": [
+        1114.5,
+        1116
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a man ought to love his body out of charity?",
+      "asrMatchedText": "Fifth Article Whether a man ought to love his body out of charity",
+      "approxStartSec": 1393.04,
+      "approxStartHMS": "00:23:13",
+      "sourceChunkTimestamp": [
+        1392.88,
+        1403.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether we ought to love sinners out of charity?",
+      "asrMatchedText": "soul or in respect of his body sixth article whether we ought to love sinners out of charity.",
+      "approxStartSec": 1659.38,
+      "approxStartHMS": "00:27:39",
+      "sourceChunkTimestamp": [
+        1654.4,
+        1669.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether sinners love themselves?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether charity requires that we should love our enemies?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether it is necessary for salvation that we should show our enemies the signs and effects of love?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether we ought to love the angels out of charity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether we are bound to love the demons out of charity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether four things are rightly reckoned as to be loved out of charity, viz. God, our neighbor, our body and ourselves?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "27 - Question 96 - OF THE MASTERSHIP BELONGING TO MAN IN THE STATE OF INNOCENCE (In F.mp3",
+  "audioRelPath": "vol04/27 - Question 96 - OF THE MASTERSHIP BELONGING TO MAN IN THE STATE OF INNOCENCE (In F.mp3",
+  "audioDurationSec": 957.1,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 327.59,
+    "audioProcessedSec": 957.1,
+    "realtimeFactor": 0.342,
+    "mp3DecodeSec": 2.46
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 96,
+    "title": "The mastership belonging to man in the state of innocence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Adam in the state of innocence had mastership over the animals?",
+      "asrMatchedText": "First article of question 96, whether Adam in the state of innocence had",
+      "approxStartSec": 54.46,
+      "approxStartHMS": "00:00:54",
+      "sourceChunkTimestamp": [
+        54.4,
+        58.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether man had mastership over all other creatures?",
+      "asrMatchedText": "Second article of question 96. Whether men had a massive ship over all other creatures.",
+      "approxStartSec": 378.87,
+      "approxStartHMS": "00:06:18",
+      "sourceChunkTimestamp": [
+        378.8,
+        384.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether men were equal in the state of innocence?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in the state of innocence man would have been master over man?",
+      "asrMatchedText": "The Fourth Article of Question 96.",
+      "approxStartSec": 731.44,
+      "approxStartHMS": "00:12:11",
+      "sourceChunkTimestamp": [
+        731.04,
+        733.84
+      ],
+      "matched": true
+    }
+  ]
+}

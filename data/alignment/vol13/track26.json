@@ -1,0 +1,71 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "26 - Question 21 - OF CHRIST'S PRAYER (In Four Articles).mp3",
+  "audioRelPath": "vol13/26 - Question 21 - OF CHRIST'S PRAYER (In Four Articles).mp3",
+  "audioDurationSec": 1494.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 220.45,
+    "audioProcessedSec": 1494.01,
+    "realtimeFactor": 0.148,
+    "mp3DecodeSec": 2.17
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 21,
+    "title": "Christ's prayer"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is becoming of Christ to pray?",
+      "asrMatchedText": "First article, whether it is becoming of Christ to pray.",
+      "approxStartSec": 72.11,
+      "approxStartHMS": "00:01:12",
+      "sourceChunkTimestamp": [
+        72,
+        78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it pertains to Christ to pray according to His sensuality?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it was fitting that Christ should pray for Himself?",
+      "asrMatchedText": "Third Article Whether it was fitting that Christ should",
+      "approxStartSec": 727.4,
+      "approxStartHMS": "00:12:07",
+      "sourceChunkTimestamp": [
+        727.28,
+        734.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ's prayer was always heard?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1068.86,
+      "approxStartHMS": "00:17:48",
+      "sourceChunkTimestamp": [
+        1068.54,
+        1073.38
+      ],
+      "matched": true
+    }
+  ]
+}

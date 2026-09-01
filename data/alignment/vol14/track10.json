@@ -1,0 +1,118 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "10 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 3.mp3",
+  "audioRelPath": "vol14/10 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 3.mp3",
+  "audioDurationSec": 1648.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 475.24,
+    "audioProcessedSec": 1648.01,
+    "realtimeFactor": 0.288,
+    "mp3DecodeSec": 5.29
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 66,
+    "title": "The sacrament of Baptism"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Baptism is the mere washing?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Baptism was instituted after Christ's Passion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether water is the proper matter of Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether plain water is necessary for Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether this be a suitable form of Baptism: \"I baptize thee in the name of the Father, and of the Son, and of the Holy Ghost\"?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Baptism can be conferred in the name of Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether immersion in water is necessary for Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether trine immersion is essential to Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether Baptism may be reiterated?",
+      "asrMatchedText": "9th Article Whether Baptism May Be Re-iderated",
+      "approxStartSec": 29.49,
+      "approxStartHMS": "00:00:29",
+      "sourceChunkTimestamp": [
+        29.36,
+        35.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the Church observes a suitable rite in baptizing?",
+      "asrMatchedText": "10th article.",
+      "approxStartSec": 560.14,
+      "approxStartHMS": "00:09:20",
+      "sourceChunkTimestamp": [
+        560,
+        562
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether three kinds of Baptism are fittingly described—viz. Baptism of Water, of Blood, and of the Spirit?",
+      "asrMatchedText": "Eleventh article. Whether three kinds of baptism are fittingly described, namely",
+      "approxStartSec": 1032.72,
+      "approxStartHMS": "00:17:12",
+      "sourceChunkTimestamp": [
+        1032.64,
+        1039.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the Baptism of Blood is the most excellent of these?",
+      "asrMatchedText": "Twelfth article,",
+      "approxStartSec": 1360.12,
+      "approxStartHMS": "00:22:40",
+      "sourceChunkTimestamp": [
+        1360,
+        1362
+      ],
+      "matched": true
+    }
+  ]
+}

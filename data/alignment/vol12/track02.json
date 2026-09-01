@@ -1,0 +1,88 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "02 - Question 172 - OF THE CAUSE OF PROPHECY (In Six Articles).mp3",
+  "audioRelPath": "vol12/02 - Question 172 - OF THE CAUSE OF PROPHECY (In Six Articles).mp3",
+  "audioDurationSec": 2587.72,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 539.55,
+    "audioProcessedSec": 2587.72,
+    "realtimeFactor": 0.209,
+    "mp3DecodeSec": 4.43
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 172,
+    "title": "The cause of prophecy"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether prophecy can be natural?",
+      "asrMatchedText": "First article, whether prophecy can be natural. ever tell what is true.",
+      "approxStartSec": 83.04,
+      "approxStartHMS": "00:01:23",
+      "sourceChunkTimestamp": [
+        83,
+        85.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether prophetic revelation comes through the angels?",
+      "asrMatchedText": "Second article, whether prophetic revelation comes through the angels.",
+      "approxStartSec": 720.02,
+      "approxStartHMS": "00:12:00",
+      "sourceChunkTimestamp": [
+        719.92,
+        727.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a natural disposition is requisite for prophecy?",
+      "asrMatchedText": "Third article, whether a natural disposition is requisite for prophecy.",
+      "approxStartSec": 972.62,
+      "approxStartHMS": "00:16:12",
+      "sourceChunkTimestamp": [
+        972.52,
+        979.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a good life is requisite for prophecy?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether any prophecy comes from the demons?",
+      "asrMatchedText": "Fifth article, whether any prophecy comes from the demons.",
+      "approxStartSec": 1839.44,
+      "approxStartHMS": "00:30:39",
+      "sourceChunkTimestamp": [
+        1839.32,
+        1846.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the prophets of the demons ever foretell the truth?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "25 - Question 21 - OF PRESUMPTION (In Four Articles).mp3",
+  "audioRelPath": "vol10/25 - Question 21 - OF PRESUMPTION (In Four Articles).mp3",
+  "audioDurationSec": 1242.99,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 194.75,
+    "audioProcessedSec": 1242.99,
+    "realtimeFactor": 0.157,
+    "mp3DecodeSec": 1.73
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 21,
+    "title": "Presumption"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether presumption trusts in God or in our own power?",
+      "asrMatchedText": "First article, whether presumption trusts in God or in our own power.",
+      "approxStartSec": 69.13,
+      "approxStartHMS": "00:01:09",
+      "sourceChunkTimestamp": [
+        69,
+        78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether presumption is a sin?",
+      "asrMatchedText": "Second article, whether presumption is a sin.",
+      "approxStartSec": 453.55,
+      "approxStartHMS": "00:07:33",
+      "sourceChunkTimestamp": [
+        453.44,
+        458.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether presumption is more opposed to fear than to hope?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether presumption arises from vainglory?",
+      "matched": false
+    }
+  ]
+}

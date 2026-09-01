@@ -1,0 +1,118 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "11 - Question 100 - OF THE MORAL PRECEPTS OF THE OLD LAW (In Twelve Articles), part 1.mp3",
+  "audioRelPath": "vol09/11 - Question 100 - OF THE MORAL PRECEPTS OF THE OLD LAW (In Twelve Articles), part 1.mp3",
+  "audioDurationSec": 3223.93,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 581.73,
+    "audioProcessedSec": 3223.93,
+    "realtimeFactor": 0.18,
+    "mp3DecodeSec": 4.85
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 100,
+    "title": "The moral precepts of the old law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all the moral precepts of the Old Law belong to the law of nature?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the moral precepts of the Law are about all the acts of virtue?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 505.05,
+      "approxStartHMS": "00:08:25",
+      "sourceChunkTimestamp": [
+        504.92,
+        507
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether all the moral precepts of the Old Law are reducible to the ten precepts of the decalogue?",
+      "asrMatchedText": "community. Third article. Whether all the moral precepts of the old law are reducible to the ten precepts",
+      "approxStartSec": 876.25,
+      "approxStartHMS": "00:14:36",
+      "sourceChunkTimestamp": [
+        874.8,
+        887.62
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the precepts of the decalogue are suitably distinguished from one another?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1206.27,
+      "approxStartHMS": "00:20:06",
+      "sourceChunkTimestamp": [
+        1205.92,
+        1211.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the precepts of the decalogue are suitably set forth?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the ten precepts of the decalogue are set in proper order?",
+      "asrMatchedText": "6th article, whether the ten precepts of the Decalogue are set in proper order.",
+      "approxStartSec": 2740.72,
+      "approxStartHMS": "00:45:40",
+      "sourceChunkTimestamp": [
+        2740.6,
+        2750.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the precepts of the decalogue are suitably formulated?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the precepts of the decalogue are dispensable?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the mode of virtue falls under the precept of the law?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the mode of charity falls under the precept of the Divine law?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether it is right to distinguish other moral precepts of the law besides the decalogue?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the moral precepts of the Old Law justified man?",
+      "matched": false
+    }
+  ]
+}

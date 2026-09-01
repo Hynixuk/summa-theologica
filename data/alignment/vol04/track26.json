@@ -1,0 +1,71 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "26 - Question 95 - OF THINGS PERTAINING TO THE FIRST MAN'S WILL—NAMELY, GRACE AND RIG.mp3",
+  "audioRelPath": "vol04/26 - Question 95 - OF THINGS PERTAINING TO THE FIRST MAN'S WILL—NAMELY, GRACE AND RIG.mp3",
+  "audioDurationSec": 1602.06,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 463.87,
+    "audioProcessedSec": 1602.06,
+    "realtimeFactor": 0.29,
+    "mp3DecodeSec": 3.68
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 95,
+    "title": "Things pertaining to the first man's will—namely, grace and righteousness"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the first man was created in grace?",
+      "asrMatchedText": "First article Part 1, question 95, article 1.",
+      "approxStartSec": 88.71,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        88.56,
+        95.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether passions existed in the soul of the first man?",
+      "asrMatchedText": "Second article, Part 1, Question 95, Article 2.",
+      "approxStartSec": 567.17,
+      "approxStartHMS": "00:09:27",
+      "sourceChunkTimestamp": [
+        567,
+        575
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Adam had all the virtues?",
+      "asrMatchedText": "Third Article Part 1, Question 95, Article 3",
+      "approxStartSec": 807.13,
+      "approxStartHMS": "00:13:27",
+      "sourceChunkTimestamp": [
+        807,
+        813.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the actions of the first man were less meritorious than ours are?",
+      "matched": false
+    }
+  ]
+}

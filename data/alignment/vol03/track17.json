@@ -1,0 +1,71 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "17 - Question. 66 - ON THE ORDER OF CREATION TOWARDS DISTINCTION (FOUR ARTICLES).mp3",
+  "audioRelPath": "vol03/17 - Question. 66 - ON THE ORDER OF CREATION TOWARDS DISTINCTION (FOUR ARTICLES).mp3",
+  "audioDurationSec": 2438.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 1115.86,
+    "audioProcessedSec": 2438.01,
+    "realtimeFactor": 0.458,
+    "mp3DecodeSec": 8.72
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 66,
+    "title": "The order of creation towards distinction"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether formlessness of created matter preceded in time its formation?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the formless matter of all corporeal things is the same?",
+      "asrMatchedText": "Second article, one, question 66, article two. Whether the formless matter of all corporal",
+      "approxStartSec": 874.01,
+      "approxStartHMS": "00:14:34",
+      "sourceChunkTimestamp": [
+        873.92,
+        881.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the empyrean heaven was created at the same time as formless matter?",
+      "asrMatchedText": "Third Article 1, Question 66, Article 3.",
+      "approxStartSec": 1487.71,
+      "approxStartHMS": "00:24:47",
+      "sourceChunkTimestamp": [
+        1487.58,
+        1492.98
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether time was created simultaneously with formless matter?",
+      "asrMatchedText": "brightness. Fourth article, 1, Question 66, article 4, whether time was",
+      "approxStartSec": 2102.88,
+      "approxStartHMS": "00:35:02",
+      "sourceChunkTimestamp": [
+        2101.36,
+        2109.76
+      ],
+      "matched": true
+    }
+  ]
+}

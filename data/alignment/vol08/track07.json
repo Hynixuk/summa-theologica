@@ -1,0 +1,78 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "07 - Question 55 - OF THE VIRTUES, AS TO THEIR ESSENCE (In Four Articles).mp3",
+  "audioRelPath": "vol08/07 - Question 55 - OF THE VIRTUES, AS TO THEIR ESSENCE (In Four Articles).mp3",
+  "audioDurationSec": 1716.19,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 320.93,
+    "audioProcessedSec": 1716.19,
+    "realtimeFactor": 0.187,
+    "mp3DecodeSec": 2.96
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 55,
+    "title": "The virtues, as to their essence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether human virtue is a habit?",
+      "asrMatchedText": "First article, whether human virtue is a habit.",
+      "approxStartSec": 118.1,
+      "approxStartHMS": "00:01:58",
+      "sourceChunkTimestamp": [
+        118,
+        123
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether human virtue is an operative habit?",
+      "asrMatchedText": "Second article, whether human virtue is an operative habit.",
+      "approxStartSec": 498.18,
+      "approxStartHMS": "00:08:18",
+      "sourceChunkTimestamp": [
+        498.08,
+        504.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether human virtue is a good habit?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 848.97,
+      "approxStartHMS": "00:14:08",
+      "sourceChunkTimestamp": [
+        848.84,
+        850.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether virtue is suitably defined?",
+      "asrMatchedText": "Fourth Article, Whether Virtue Is Suitably Defined.",
+      "approxStartSec": 1117.68,
+      "approxStartHMS": "00:18:37",
+      "sourceChunkTimestamp": [
+        1117.56,
+        1123.88
+      ],
+      "matched": true
+    }
+  ]
+}

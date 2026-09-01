@@ -1,0 +1,54 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "30 - Question 99 - OF THE CONDITION OF THE OFFSPRING AS TO THE BODY (In Two Articles).mp3",
+  "audioRelPath": "vol04/30 - Question 99 - OF THE CONDITION OF THE OFFSPRING AS TO THE BODY (In Two Articles).mp3",
+  "audioDurationSec": 506.65,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 81.19,
+    "audioProcessedSec": 506.65,
+    "realtimeFactor": 0.16,
+    "mp3DecodeSec": 0.65
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 99,
+    "title": "The condition of the offspring as to the body"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether in the state of innocence children would have had perfect strength of body as to the use of its members immediately after birth?",
+      "asrMatchedText": "of the body immediately after birth. Second, whether all infants would have been of the male sex, first article,",
+      "approxStartSec": 51.45,
+      "approxStartHMS": "00:00:51",
+      "sourceChunkTimestamp": [
+        42.48,
+        52.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether, in the primitive state, women would have been born?",
+      "asrMatchedText": "Second Article.",
+      "approxStartSec": 322.42,
+      "approxStartHMS": "00:05:22",
+      "sourceChunkTimestamp": [
+        322.36,
+        323.36
+      ],
+      "matched": true
+    }
+  ]
+}

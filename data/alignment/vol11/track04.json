@@ -1,0 +1,35 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "04 - Question 48 - OF THE PARTS OF PRUDENCE (In One Article).mp3",
+  "audioRelPath": "vol11/04 - Question 48 - OF THE PARTS OF PRUDENCE (In One Article).mp3",
+  "audioDurationSec": 772.89,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 109.9,
+    "audioProcessedSec": 772.89,
+    "realtimeFactor": 0.142,
+    "mp3DecodeSec": 1
+  },
+  "expectedArticleCount": 1,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 48,
+    "title": "The parts of prudence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether three parts of prudence are fittingly assigned?",
+      "matched": false
+    }
+  ]
+}

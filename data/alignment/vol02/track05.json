@@ -1,0 +1,78 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "05 - Question 31 Of What Belongs to the Unity or Plurality of God.mp3",
+  "audioRelPath": "vol02/05 - Question 31 Of What Belongs to the Unity or Plurality of God.mp3",
+  "audioDurationSec": 1455.93,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 324.74,
+    "audioProcessedSec": 1455.93,
+    "realtimeFactor": 0.223,
+    "mp3DecodeSec": 2.29
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 31,
+    "title": "The unity or plurality in God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is trinity in God?",
+      "asrMatchedText": "joined to a personal term. First article, whether there is Trinity in God.",
+      "approxStartSec": 70,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        67.24,
+        74.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Son is other than the Father?",
+      "asrMatchedText": "Second article whether the son is other than the father.",
+      "approxStartSec": 367.27,
+      "approxStartHMS": "00:06:07",
+      "sourceChunkTimestamp": [
+        367.2,
+        371.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the exclusive word \"alone\" should be added to the essential term in God?",
+      "asrMatchedText": "Third article, whether the exclusive word alone should be added to the essential term",
+      "approxStartSec": 802.1,
+      "approxStartHMS": "00:13:22",
+      "sourceChunkTimestamp": [
+        802.04,
+        807.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether an exclusive diction can be joined to the personal term?",
+      "asrMatchedText": "Fourth article whether an exclusive diction can be joined to the personal term.",
+      "approxStartSec": 1164.09,
+      "approxStartHMS": "00:19:24",
+      "sourceChunkTimestamp": [
+        1164,
+        1171.18
+      ],
+      "matched": true
+    }
+  ]
+}

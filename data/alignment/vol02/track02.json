@@ -1,0 +1,78 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "02 - 28 - Question 28 The Divine Relations.mp3",
+  "audioRelPath": "vol02/02 - 28 - Question 28 The Divine Relations.mp3",
+  "audioDurationSec": 1624.42,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 240.44,
+    "audioProcessedSec": 1624.42,
+    "realtimeFactor": 0.148,
+    "mp3DecodeSec": 2.54
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 28,
+    "title": "The divine relations"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there are real relations in God?",
+      "asrMatchedText": "First article, whether there are real relations in God.",
+      "approxStartSec": 62.11,
+      "approxStartHMS": "00:01:02",
+      "sourceChunkTimestamp": [
+        62,
+        67.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether relation in God is the same as His essence?",
+      "asrMatchedText": "Second article whether relation in God is the same as His essence.",
+      "approxStartSec": 517.22,
+      "approxStartHMS": "00:08:37",
+      "sourceChunkTimestamp": [
+        517.06,
+        527.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the relations in God are really distinguished from each other?",
+      "asrMatchedText": "Third article, whether the relations in God are really distinguished from each other.",
+      "approxStartSec": 975.21,
+      "approxStartHMS": "00:16:15",
+      "sourceChunkTimestamp": [
+        975.12,
+        982.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in God there are only four real relations—paternity, filiation, spiration, and procession?",
+      "asrMatchedText": "Fourth article, whether in God there are only four real relations, paternity, affiliation,",
+      "approxStartSec": 1216.56,
+      "approxStartHMS": "00:20:16",
+      "sourceChunkTimestamp": [
+        1216.48,
+        1223.6
+      ],
+      "matched": true
+    }
+  ]
+}

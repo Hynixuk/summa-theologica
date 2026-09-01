@@ -1,0 +1,66 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "25 - 24 - Question 24 The Book of Life.mp3",
+  "audioRelPath": "vol01/25 - 24 - Question 24 The Book of Life.mp3",
+  "audioDurationSec": 728.24,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 132.35,
+    "audioProcessedSec": 728.24,
+    "realtimeFactor": 0.182,
+    "mp3DecodeSec": 1.1
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 3,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 24,
+    "title": "The book of life"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the book of life is the same as predestination?",
+      "asrMatchedText": "First article, whether the book of life is the same as predestination.",
+      "approxStartSec": 47.49,
+      "approxStartHMS": "00:00:47",
+      "sourceChunkTimestamp": [
+        47.44,
+        51.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the book of life regards only the life of glory of the predestined?",
+      "asrMatchedText": "Second article, whether the book of life regards only the life of glory of the predestined.",
+      "approxStartSec": 280.07,
+      "approxStartHMS": "00:04:40",
+      "sourceChunkTimestamp": [
+        280,
+        286.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether anyone may be blotted out of the book of life?",
+      "asrMatchedText": "Third article whether anyone may be blotted out from the Book of Life.",
+      "approxStartSec": 469.72,
+      "approxStartHMS": "00:07:49",
+      "sourceChunkTimestamp": [
+        469.64,
+        475.12
+      ],
+      "matched": true
+    }
+  ]
+}

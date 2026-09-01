@@ -1,0 +1,78 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "07 - Question 33 Of the Person of the Father.mp3",
+  "audioRelPath": "vol02/07 - Question 33 Of the Person of the Father.mp3",
+  "audioDurationSec": 1386.44,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 416.43,
+    "audioProcessedSec": 1386.44,
+    "realtimeFactor": 0.3,
+    "mp3DecodeSec": 5.65
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 33,
+    "title": "The person of the Father"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it belongs to the Father to be the principle?",
+      "asrMatchedText": "to be unbegotten. First article, whether it belongs to the father to be the principal.",
+      "approxStartSec": 58.67,
+      "approxStartHMS": "00:00:58",
+      "sourceChunkTimestamp": [
+        57.04,
+        64.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether this name \"Father\" is properly the name of a divine person?",
+      "asrMatchedText": "Second article, whether this name father is properly the name of a divine person.",
+      "approxStartSec": 257.76,
+      "approxStartHMS": "00:04:17",
+      "sourceChunkTimestamp": [
+        257.68,
+        263.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether this name \"Father\" is applied to God, firstly as a personal name?",
+      "asrMatchedText": "Third article, whether this name father is applied to God firstly as a personal name.",
+      "approxStartSec": 546.08,
+      "approxStartHMS": "00:09:06",
+      "sourceChunkTimestamp": [
+        546,
+        553.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is proper to the Father to be unbegotten?",
+      "asrMatchedText": "Fourth article whether it is proper to the Father to be unbegotten.",
+      "approxStartSec": 898.54,
+      "approxStartHMS": "00:14:58",
+      "sourceChunkTimestamp": [
+        898.48,
+        902.56
+      ],
+      "matched": true
+    }
+  ]
+}

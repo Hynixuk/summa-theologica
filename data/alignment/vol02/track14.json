@@ -1,0 +1,71 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "14 - Question 40 Of the Persons as Compared to the Relations or Properties.mp3",
+  "audioRelPath": "vol02/14 - Question 40 Of the Persons as Compared to the Relations or Properties.mp3",
+  "audioDurationSec": 1554.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 10857.48,
+    "audioProcessedSec": 1554.01,
+    "realtimeFactor": 6.987,
+    "mp3DecodeSec": 5.65
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 40,
+    "title": "The persons as compared to the relations or properties"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether relation is the same as person?",
+      "asrMatchedText": "understanding, presuppose the acts of the person or contrary wise. First article,",
+      "approxStartSec": 81.47,
+      "approxStartHMS": "00:01:21",
+      "sourceChunkTimestamp": [
+        73.24,
+        83.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the persons are distinguished by the relations?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the hypostases remain if the relations are mentally abstracted from the persons?",
+      "asrMatchedText": "Third article, whether the hypotheses remain if the relations are mentally abstracted from",
+      "approxStartSec": 854.87,
+      "approxStartHMS": "00:14:14",
+      "sourceChunkTimestamp": [
+        854.8,
+        861.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the properties presuppose the notional acts?",
+      "asrMatchedText": "from creatures as the Jews understand it. Fourth article, whether the properties",
+      "approxStartSec": 1309,
+      "approxStartHMS": "00:21:49",
+      "sourceChunkTimestamp": [
+        1304.24,
+        1313.2
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "01 - Prima Pars, Initial Questions, Question 13, The Names of God.mp3",
+  "audioRelPath": "vol01/01 - Prima Pars, Initial Questions, Question 13, The Names of God.mp3",
+  "audioDurationSec": 4337.14,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 785.48,
+    "audioProcessedSec": 4337.14,
+    "realtimeFactor": 0.181,
+    "mp3DecodeSec": 6.95
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 12,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 13,
+    "title": "The names of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a name can be given to God?",
+      "asrMatchedText": "First article, whether a name can be given to God.",
+      "approxStartSec": 135.95,
+      "approxStartHMS": "00:02:15",
+      "sourceChunkTimestamp": [
+        135.84,
+        141.34
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether any name can be applied to God substantially?",
+      "asrMatchedText": "Second article, whether any name can be applied to God substantially.",
+      "approxStartSec": 438.92,
+      "approxStartHMS": "00:07:18",
+      "sourceChunkTimestamp": [
+        438.84,
+        444.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether any name can be applied to God in its literal sense?",
+      "asrMatchedText": "Third article, whether any name can be applied to God in its literal sense.",
+      "approxStartSec": 893.53,
+      "approxStartHMS": "00:14:53",
+      "sourceChunkTimestamp": [
+        893.44,
+        899.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether names applied to God are synonymous?",
+      "asrMatchedText": "corporeal condition in the thing signified. Fourth article whether names",
+      "approxStartSec": 1133.26,
+      "approxStartHMS": "00:18:53",
+      "sourceChunkTimestamp": [
+        1129.36,
+        1135.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether what is said of God and of creatures is univocally predicated of them?",
+      "asrMatchedText": "Fifth article whether what is said of God and of creatures is univocally",
+      "approxStartSec": 1377.9,
+      "approxStartHMS": "00:22:57",
+      "sourceChunkTimestamp": [
+        1377.82,
+        1383.42
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether names predicated of God are predicated primarily of creatures?",
+      "asrMatchedText": "Sixth article, whether names predicated of God",
+      "approxStartSec": 1858.14,
+      "approxStartHMS": "00:30:58",
+      "sourceChunkTimestamp": [
+        1858.08,
+        1860.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether names which imply relation to creatures are predicated of God temporally?",
+      "asrMatchedText": "Seventh Article, whether names which imply relation to creatures are predicated of God",
+      "approxStartSec": 2136.47,
+      "approxStartHMS": "00:35:36",
+      "sourceChunkTimestamp": [
+        2136.4,
+        2142.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether this name \"God\" is a name of the nature?",
+      "asrMatchedText": "8th article, whether this name God God was not Lord until He had a creature subject to Himself.",
+      "approxStartSec": 2783.53,
+      "approxStartHMS": "00:46:23",
+      "sourceChunkTimestamp": [
+        2783.5,
+        2786.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether this name \"God\" is communicable?",
+      "asrMatchedText": "Ninth Article, Whether This Name God Is Communicable",
+      "approxStartSec": 2994.6,
+      "approxStartHMS": "00:49:54",
+      "sourceChunkTimestamp": [
+        2994.52,
+        2998.86
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether this name \"God\" is applied to God univocally by nature, by participation, and according to opinion?",
+      "asrMatchedText": "Tenth article, whether this name God is applied to God, univocally by nature, by participation",
+      "approxStartSec": 3394.59,
+      "approxStartHMS": "00:56:34",
+      "sourceChunkTimestamp": [
+        3394.52,
+        3400.98
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether this name, HE WHO IS, is the most proper name of God?",
+      "asrMatchedText": "we do not know. Eleventh article, whether this name he who is is the most proper name of God.",
+      "approxStartSec": 3754.36,
+      "approxStartHMS": "01:02:34",
+      "sourceChunkTimestamp": [
+        3752.48,
+        3762.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether affirmative propositions can be formed about God?",
+      "asrMatchedText": "Twelfth article, whether affirmative propositions can be formed about God.",
+      "approxStartSec": 4017.26,
+      "approxStartHMS": "01:06:57",
+      "sourceChunkTimestamp": [
+        4017.2,
+        4022
+      ],
+      "matched": true
+    }
+  ]
+}

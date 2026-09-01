@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "69 - Question 108 - OF VENGEANCE (In Four Articles).mp3",
+  "audioRelPath": "vol11/69 - Question 108 - OF VENGEANCE (In Four Articles).mp3",
+  "audioDurationSec": 1834.57,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 525.97,
+    "audioProcessedSec": 1834.57,
+    "realtimeFactor": 0.287,
+    "mp3DecodeSec": 7.01
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 108,
+    "title": "Vengeance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether vengeance is lawful?",
+      "asrMatchedText": "First article, whether vengeance is lawful. Objection 1, it seems that vengeance is not lawful.",
+      "approxStartSec": 67.14,
+      "approxStartHMS": "00:01:07",
+      "sourceChunkTimestamp": [
+        67,
+        80
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether vengeance is a special virtue?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 606.99,
+      "approxStartHMS": "00:10:06",
+      "sourceChunkTimestamp": [
+        606.88,
+        608.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether vengeance should be wrought by means of punishments customary among men?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 890.31,
+      "approxStartHMS": "00:14:50",
+      "sourceChunkTimestamp": [
+        890.2,
+        891.9
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether vengeance should be taken on those who have sinned involuntarily?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1138.57,
+      "approxStartHMS": "00:18:58",
+      "sourceChunkTimestamp": [
+        1138.48,
+        1139.92
+      ],
+      "matched": true
+    }
+  ]
+}

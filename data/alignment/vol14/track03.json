@@ -1,0 +1,102 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "03 - Question 62 - THE SACRAMENTS' PRINCIPAL EFFECT, WHICH IS GRACE (In Six Articles).mp3",
+  "audioRelPath": "vol14/03 - Question 62 - THE SACRAMENTS' PRINCIPAL EFFECT, WHICH IS GRACE (In Six Articles).mp3",
+  "audioDurationSec": 2383.41,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 611.19,
+    "audioProcessedSec": 2383.41,
+    "realtimeFactor": 0.256,
+    "mp3DecodeSec": 3.72
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 62,
+    "title": "The sacraments' principal effect, which is grace"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the sacraments are the cause of grace?",
+      "asrMatchedText": "First article, whether the sacraments are the cause of grace. Objection 1, it seems that the",
+      "approxStartSec": 79.1,
+      "approxStartHMS": "00:01:19",
+      "sourceChunkTimestamp": [
+        79,
+        87.98
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sacramental grace confers anything in addition to the grace of the virtues and gifts?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 592.8,
+      "approxStartHMS": "00:09:52",
+      "sourceChunkTimestamp": [
+        592.68,
+        594.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the sacraments of the New Law contain grace?",
+      "asrMatchedText": "Third article. Whether the sacraments of the new law contain grace.",
+      "approxStartSec": 881.15,
+      "approxStartHMS": "00:14:41",
+      "sourceChunkTimestamp": [
+        881,
+        891.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there be in the sacraments a power of causing grace?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1118.43,
+      "approxStartHMS": "00:18:38",
+      "sourceChunkTimestamp": [
+        1118.3,
+        1120.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the sacraments of the New Law derive their power from Christ's Passion?",
+      "asrMatchedText": "Fifth article. Whether the sacraments of the new law derive",
+      "approxStartSec": 1523.51,
+      "approxStartHMS": "00:25:23",
+      "sourceChunkTimestamp": [
+        1523.44,
+        1527.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the sacraments of the Old Law caused grace?",
+      "asrMatchedText": "Sixth Article, whether the sacraments of the old law caused grace.",
+      "approxStartSec": 1910.79,
+      "approxStartHMS": "00:31:50",
+      "sourceChunkTimestamp": [
+        1910.72,
+        1915.28
+      ],
+      "matched": true
+    }
+  ]
+}

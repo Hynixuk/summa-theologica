@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "46 - Question 87 - OF TITHES (In Four Articles).mp3",
+  "audioRelPath": "vol11/46 - Question 87 - OF TITHES (In Four Articles).mp3",
+  "audioDurationSec": 2093.28,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 321.78,
+    "audioProcessedSec": 2093.28,
+    "realtimeFactor": 0.154,
+    "mp3DecodeSec": 3.22
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 87,
+    "title": "Tithes"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether men are bound to pay tithes under a necessity of precept?",
+      "asrMatchedText": "First article, whether men are bound to pay tithes under a necessity of precept.",
+      "approxStartSec": 73.75,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        73.68,
+        79.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether men are bound to pay tithes of all things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether tithes should be paid to the clergy?",
+      "asrMatchedText": "Third article. Weather tithes should be paid to the clergy.",
+      "approxStartSec": 1458.71,
+      "approxStartHMS": "00:24:18",
+      "sourceChunkTimestamp": [
+        1458.64,
+        1462.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the clergy also are bound to pay tithes?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1774.65,
+      "approxStartHMS": "00:29:34",
+      "sourceChunkTimestamp": [
+        1774.52,
+        1776.56
+      ],
+      "matched": true
+    }
+  ]
+}

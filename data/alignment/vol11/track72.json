@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "72 - Question 111 - OF DISSIMULATION AND HYPOCRISY (In Four Articles).mp3",
+  "audioRelPath": "vol11/72 - Question 111 - OF DISSIMULATION AND HYPOCRISY (In Four Articles).mp3",
+  "audioDurationSec": 1535,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 408.4,
+    "audioProcessedSec": 1535,
+    "realtimeFactor": 0.266,
+    "mp3DecodeSec": 5.61
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 111,
+    "title": "Dissimulation and hypocrisy"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all dissimulation is a sin?",
+      "asrMatchedText": "First article, whether all dissimulation is a sin.",
+      "approxStartSec": 74.12,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        74,
+        80
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether hypocrisy is the same as dissimulation?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 532.58,
+      "approxStartHMS": "00:08:52",
+      "sourceChunkTimestamp": [
+        532.48,
+        534
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether hypocrisy is contrary to the virtue of truth?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 880.7,
+      "approxStartHMS": "00:14:40",
+      "sourceChunkTimestamp": [
+        880.6,
+        882.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether hypocrisy is always a mortal sin?",
+      "asrMatchedText": "Fourth Article Whether hypocrisy is always a mortal sin.",
+      "approxStartSec": 1241.49,
+      "approxStartHMS": "00:20:41",
+      "sourceChunkTimestamp": [
+        1241.36,
+        1248.76
+      ],
+      "matched": true
+    }
+  ]
+}

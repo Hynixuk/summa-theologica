@@ -1,0 +1,71 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "104 - Question 142 - OF THE VICES OPPOSED TO TEMPERANCE (In Four Articles).mp3",
+  "audioRelPath": "vol11/104 - Question 142 - OF THE VICES OPPOSED TO TEMPERANCE (In Four Articles).mp3",
+  "audioDurationSec": 1753.62,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 364.58,
+    "audioProcessedSec": 1753.62,
+    "realtimeFactor": 0.208,
+    "mp3DecodeSec": 2.94
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 142,
+    "title": "The vices opposed to temperance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether insensibility is a vice?",
+      "asrMatchedText": "First article, whether insensibility is a vice.",
+      "approxStartSec": 80.11,
+      "approxStartHMS": "00:01:20",
+      "sourceChunkTimestamp": [
+        80,
+        85.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether intemperance is a childish sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether cowardice is a greater vice than intemperance? [Cf. 125]",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 927.13,
+      "approxStartHMS": "00:15:27",
+      "sourceChunkTimestamp": [
+        927,
+        929
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether intemperance is the most disgraceful of sins?",
+      "asrMatchedText": "Fourth article, whether in temperance is the most disgraceful of sins.",
+      "approxStartSec": 1452.11,
+      "approxStartHMS": "00:24:12",
+      "sourceChunkTimestamp": [
+        1452.08,
+        1454.56
+      ],
+      "matched": true
+    }
+  ]
+}

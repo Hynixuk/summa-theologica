@@ -1,0 +1,119 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "05 - Question 3 - OF THE MODE OF UNION ON THE PART OF THE PERSON ASSUMING (In Eight A.mp3",
+  "audioRelPath": "vol13/05 - Question 3 - OF THE MODE OF UNION ON THE PART OF THE PERSON ASSUMING (In Eight A.mp3",
+  "audioDurationSec": 3051.29,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 771.31,
+    "audioProcessedSec": 3051.29,
+    "realtimeFactor": 0.253,
+    "mp3DecodeSec": 10.06
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 7,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 3,
+    "title": "The mode of union on the part of the person assuming"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is befitting for a Divine Person to assume?",
+      "asrMatchedText": "1st article, whether it is befitting for a divine person to assume.",
+      "approxStartSec": 97.56,
+      "approxStartHMS": "00:01:37",
+      "sourceChunkTimestamp": [
+        97.44,
+        105.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is befitting to the Divine Nature to assume?",
+      "asrMatchedText": "Second article whether it is befitting to the Divine nature to assume.",
+      "approxStartSec": 406.94,
+      "approxStartHMS": "00:06:46",
+      "sourceChunkTimestamp": [
+        406.84,
+        413.74
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the Nature abstracted from the Personality can assume?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 681.64,
+      "approxStartHMS": "00:11:21",
+      "sourceChunkTimestamp": [
+        681.5,
+        683.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether one Person without another can assume a created nature?",
+      "asrMatchedText": "Fourth Article Whether one person without another can assume",
+      "approxStartSec": 1007.11,
+      "approxStartHMS": "00:16:47",
+      "sourceChunkTimestamp": [
+        1007.04,
+        1011.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether each of the Divine Persons could have assumed human nature?",
+      "asrMatchedText": "Fifth article, whether each of the divine persons could have assumed human nature.",
+      "approxStartSec": 1261.1,
+      "approxStartHMS": "00:21:01",
+      "sourceChunkTimestamp": [
+        1261,
+        1269.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether several Divine Persons can assume one and the same individual nature?",
+      "asrMatchedText": "Sixth Article",
+      "approxStartSec": 1589.14,
+      "approxStartHMS": "00:26:29",
+      "sourceChunkTimestamp": [
+        1589,
+        1591
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether one Divine Person can assume two human natures?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether it was more fitting that the Person of the Son rather than any other Divine Person should assume human nature?",
+      "asrMatchedText": "Eighth Article Whether it was more fitting that the person of the son, rather than any other",
+      "approxStartSec": 2541.95,
+      "approxStartHMS": "00:42:21",
+      "sourceChunkTimestamp": [
+        2541.88,
+        2548.4
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "39 - Question 89 - THE RECOVERY OF VIRTUE BY MEANS OF PENANCE (In Six Articles).mp3",
+  "audioRelPath": "vol14/39 - Question 89 - THE RECOVERY OF VIRTUE BY MEANS OF PENANCE (In Six Articles).mp3",
+  "audioDurationSec": 2320.6,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 445.46,
+    "audioProcessedSec": 2320.6,
+    "realtimeFactor": 0.192,
+    "mp3DecodeSec": 8.91
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 89,
+    "title": "The recovery of virtue by means of Penance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the virtues are restored through Penance?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether, after Penance, man rises again to equal virtue?",
+      "asrMatchedText": "Second article",
+      "approxStartSec": 369.41,
+      "approxStartHMS": "00:06:09",
+      "sourceChunkTimestamp": [
+        369.28,
+        371.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether, by Penance, man is restored to his former dignity?",
+      "asrMatchedText": "Third article. Weather by penance, man is restored to his former dignity.",
+      "approxStartSec": 813.94,
+      "approxStartHMS": "00:13:33",
+      "sourceChunkTimestamp": [
+        813.92,
+        815.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether virtuous deeds done in charity can be deadened?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1414.84,
+      "approxStartHMS": "00:23:34",
+      "sourceChunkTimestamp": [
+        1414.72,
+        1416.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether deeds deadened by sin, are revived by Penance?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the effect of subsequent Penance is to quicken even dead works?",
+      "asrMatchedText": "Sixth article",
+      "approxStartSec": 1926.36,
+      "approxStartHMS": "00:32:06",
+      "sourceChunkTimestamp": [
+        1926,
+        1931
+      ],
+      "matched": true
+    }
+  ]
+}

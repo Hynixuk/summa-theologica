@@ -1,0 +1,102 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "58 - Question 47 - OF THE EFFICIENT CAUSE OF CHRIST'S PASSION (In Six Articles).mp3",
+  "audioRelPath": "vol13/58 - Question 47 - OF THE EFFICIENT CAUSE OF CHRIST'S PASSION (In Six Articles).mp3",
+  "audioDurationSec": 2360.35,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 373,
+    "audioProcessedSec": 2360.35,
+    "realtimeFactor": 0.158,
+    "mp3DecodeSec": 3.29
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 47,
+    "title": "The efficient cause of Christ's passion"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ was slain by another or by Himself?",
+      "asrMatchedText": "First article, whether Christ was slain by another or by himself.",
+      "approxStartSec": 91.07,
+      "approxStartHMS": "00:01:31",
+      "sourceChunkTimestamp": [
+        91.04,
+        93.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ died out of obedience?",
+      "asrMatchedText": "Second article, whether Christ died out of obedience.",
+      "approxStartSec": 447.11,
+      "approxStartHMS": "00:07:27",
+      "sourceChunkTimestamp": [
+        447,
+        453
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God the Father delivered up Christ to the Passion?",
+      "asrMatchedText": "Third Article Whether God the Father delivered up Christ to the Passion",
+      "approxStartSec": 887.79,
+      "approxStartHMS": "00:14:47",
+      "sourceChunkTimestamp": [
+        887.72,
+        892.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it was fitting for Christ to suffer at the hands of the Gentiles?",
+      "asrMatchedText": "Fourth article. Fourth Article Whether it was fitting for Christ to suffer",
+      "approxStartSec": 1242.22,
+      "approxStartHMS": "00:20:42",
+      "sourceChunkTimestamp": [
+        1242.12,
+        1249.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether Christ's persecutors knew who He was?",
+      "asrMatchedText": "Fifth article, whether Christ's persecutors knew who he was. one. He would seem that Christ's persecutors did knew who he was. Objection 1. He would seem that Christ's persecutors",
+      "approxStartSec": 1538.02,
+      "approxStartHMS": "00:25:38",
+      "sourceChunkTimestamp": [
+        1537.96,
+        1548.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the sin of those who crucified Christ was most grievous?",
+      "asrMatchedText": "6th article",
+      "approxStartSec": 2038.86,
+      "approxStartHMS": "00:33:58",
+      "sourceChunkTimestamp": [
+        2038.4,
+        2043.96
+      ],
+      "matched": true
+    }
+  ]
+}

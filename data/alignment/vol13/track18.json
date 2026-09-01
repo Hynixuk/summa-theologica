@@ -1,0 +1,108 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "18 - Question 15 - OF THE DEFECTS OF SOUL ASSUMED BY CHRIST (In Ten Articles), part 1.mp3",
+  "audioRelPath": "vol13/18 - Question 15 - OF THE DEFECTS OF SOUL ASSUMED BY CHRIST (In Ten Articles), part 1.mp3",
+  "audioDurationSec": 1889.12,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 530.41,
+    "audioProcessedSec": 1889.12,
+    "realtimeFactor": 0.281,
+    "mp3DecodeSec": 8.93
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 15,
+    "title": "The defects of soul assumed by Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there was sin in Christ?",
+      "asrMatchedText": "1st article, whether there was sin in Christ.",
+      "approxStartSec": 99.75,
+      "approxStartHMS": "00:01:39",
+      "sourceChunkTimestamp": [
+        99.68,
+        103.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there was the \"fomes\" of sin in Christ?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 553.94,
+      "approxStartHMS": "00:09:13",
+      "sourceChunkTimestamp": [
+        553.84,
+        555.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether in Christ there was ignorance?",
+      "asrMatchedText": "Third Article",
+      "approxStartSec": 895.79,
+      "approxStartHMS": "00:14:55",
+      "sourceChunkTimestamp": [
+        895.68,
+        897.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ's soul was passible?",
+      "asrMatchedText": "Fourth article, whether Christ's soul was passable. Objection won. He would seem that the soul of Christ was not passable, for nothing",
+      "approxStartSec": 1189,
+      "approxStartHMS": "00:19:49",
+      "sourceChunkTimestamp": [
+        1188.88,
+        1205.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there was sensible pain in Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there was sorrow in Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether there was fear in Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether there was wonder in Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether there was anger in Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether Christ was at once a wayfarer and a comprehensor?",
+      "matched": false
+    }
+  ]
+}

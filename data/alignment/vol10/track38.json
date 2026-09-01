@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "38 - Question 31 - OF BENEFICENCE (In Four Articles).mp3",
+  "audioRelPath": "vol10/38 - Question 31 - OF BENEFICENCE (In Four Articles).mp3",
+  "audioDurationSec": 1411.19,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 400.26,
+    "audioProcessedSec": 1411.19,
+    "realtimeFactor": 0.284,
+    "mp3DecodeSec": 5.21
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 31,
+    "title": "Beneficence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether beneficence is an act of charity?",
+      "asrMatchedText": "First article. Weather beneficence is an act of charity.",
+      "approxStartSec": 88.4,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        88.28,
+        95
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether we ought to do good to all?",
+      "asrMatchedText": "Second article whether we ought to do good to all.",
+      "approxStartSec": 399.68,
+      "approxStartHMS": "00:06:39",
+      "sourceChunkTimestamp": [
+        399.56,
+        405.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether we ought to do good to those rather who are more closely united to us?",
+      "asrMatchedText": "Third Article Whether we ought to do good to those rather",
+      "approxStartSec": 646.11,
+      "approxStartHMS": "00:10:46",
+      "sourceChunkTimestamp": [
+        646.04,
+        650.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether beneficence is a special virtue?",
+      "asrMatchedText": "Fourth article. from them as the philosopher states in Ethics 3.14.",
+      "approxStartSec": 1184.01,
+      "approxStartHMS": "00:19:44",
+      "sourceChunkTimestamp": [
+        1184,
+        1185
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "19 - Question 17 - OF THE ACTS COMMANDED BY THE WILL (In Nine Articles), part 1.mp3",
+  "audioRelPath": "vol06/19 - Question 17 - OF THE ACTS COMMANDED BY THE WILL (In Nine Articles), part 1.mp3",
+  "audioDurationSec": 1060.18,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 197.36,
+    "audioProcessedSec": 1060.18,
+    "realtimeFactor": 0.186,
+    "mp3DecodeSec": 2.34
+  },
+  "expectedArticleCount": 9,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 17,
+    "title": "The acts commanded by the will"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether command is an act of the reason or of the will?",
+      "asrMatchedText": "First article, part 1 of the second part, question 17, article 1.",
+      "approxStartSec": 98.29,
+      "approxStartHMS": "00:01:38",
+      "sourceChunkTimestamp": [
+        98.2,
+        104.3
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether command belongs to irrational animals?",
+      "asrMatchedText": "Second article, Part 1 of the second part, Question 17- not absolutely, but with a kind of motion as stated above.",
+      "approxStartSec": 364.71,
+      "approxStartHMS": "00:06:04",
+      "sourceChunkTimestamp": [
+        364.7,
+        365.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether use precedes command?",
+      "asrMatchedText": "Third article, part one of the second part,",
+      "approxStartSec": 555.09,
+      "approxStartHMS": "00:09:15",
+      "sourceChunkTimestamp": [
+        555,
+        558.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether command and the commanded act are one act, or distinct?",
+      "asrMatchedText": "react on one another. Fourth article, part one of the second part,",
+      "approxStartSec": 778.23,
+      "approxStartHMS": "00:12:58",
+      "sourceChunkTimestamp": [
+        775.94,
+        782.62
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the act of the will is commanded?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the act of the reason is commanded?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the act of the sensitive appetite is commanded?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the act of the vegetal soul is commanded?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the acts of the external members are commanded?",
+      "matched": false
+    }
+  ]
+}

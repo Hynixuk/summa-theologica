@@ -1,0 +1,119 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "01 - Question 60 - WHAT IS A SACRAMENT (In Eight Articles).mp3",
+  "audioRelPath": "vol14/01 - Question 60 - WHAT IS A SACRAMENT (In Eight Articles).mp3",
+  "audioDurationSec": 3105.21,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 515.84,
+    "audioProcessedSec": 3105.21,
+    "realtimeFactor": 0.166,
+    "mp3DecodeSec": 4.65
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 7,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 60,
+    "title": "What is a sacrament?"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a sacrament is a kind of sign?",
+      "asrMatchedText": "First article, whether a sacrament is a kind of sign. may be added to or subtracted from these words.",
+      "approxStartSec": 124.06,
+      "approxStartHMS": "00:02:04",
+      "sourceChunkTimestamp": [
+        124.04,
+        126.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether every sign of a holy thing is a sacrament?",
+      "asrMatchedText": "Second article, whether every sign of a holy thing is a sacrament.",
+      "approxStartSec": 454.73,
+      "approxStartHMS": "00:07:34",
+      "sourceChunkTimestamp": [
+        454.64,
+        460.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a sacrament is a sign of one thing only?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 710.12,
+      "approxStartHMS": "00:11:50",
+      "sourceChunkTimestamp": [
+        710,
+        711.74
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a sacrament is always something sensible?",
+      "asrMatchedText": "Fourth article. Whether a sacrament is always something sensible.",
+      "approxStartSec": 973.84,
+      "approxStartHMS": "00:16:13",
+      "sourceChunkTimestamp": [
+        973.76,
+        979.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether determinate things are required for a sacrament?",
+      "asrMatchedText": "5th article. which are the highest goods.",
+      "approxStartSec": 1323.24,
+      "approxStartHMS": "00:22:03",
+      "sourceChunkTimestamp": [
+        1323.16,
+        1326.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether words are required for the signification of the sacraments?",
+      "asrMatchedText": "6th article in everyone's possession or can be had with little trouble.",
+      "approxStartSec": 1703.6,
+      "approxStartHMS": "00:28:23",
+      "sourceChunkTimestamp": [
+        1703.52,
+        1709
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether determinate words are required in the sacraments?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether it is lawful to add anything to the words in which the sacramental form consists?",
+      "asrMatchedText": "8th article",
+      "approxStartSec": 2530.25,
+      "approxStartHMS": "00:42:10",
+      "sourceChunkTimestamp": [
+        2529.82,
+        2534.96
+      ],
+      "matched": true
+    }
+  ]
+}

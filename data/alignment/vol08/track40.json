@@ -1,0 +1,47 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "40 - Question 86 - OF THE STAIN OF SIN (In Two Articles).mp3",
+  "audioRelPath": "vol08/40 - Question 86 - OF THE STAIN OF SIN (In Two Articles).mp3",
+  "audioDurationSec": 666.1,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 166.3,
+    "audioProcessedSec": 666.1,
+    "realtimeFactor": 0.25,
+    "mp3DecodeSec": 1.12
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 86,
+    "title": "The stain of sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether sin causes a stain on the soul?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the stain remains in the soul after the act of sin?",
+      "asrMatchedText": "Second article. Whether the stain remains in the soul after the act of sin.",
+      "approxStartSec": 420.36,
+      "approxStartHMS": "00:07:00",
+      "sourceChunkTimestamp": [
+        420.28,
+        426.04
+      ],
+      "matched": true
+    }
+  ]
+}

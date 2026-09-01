@@ -1,0 +1,98 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "13 - Question 84 - HOW THE SOUL WHILE UNITED TO THE BODY UNDERSTANDS CORPOREAL THINGS.mp3",
+  "audioRelPath": "vol04/13 - Question 84 - HOW THE SOUL WHILE UNITED TO THE BODY UNDERSTANDS CORPOREAL THINGS.mp3",
+  "audioDurationSec": 1944.06,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 589.83,
+    "audioProcessedSec": 1944.06,
+    "realtimeFactor": 0.303,
+    "mp3DecodeSec": 4.66
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 84,
+    "title": "How the soul while united to the body understands corporeal things beneath it"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the soul knows bodies through the intellect?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the soul understands corporeal things through its essence?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the soul understands all things through innate species?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the intelligible species are derived by the soul from certain separate forms?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the intellectual soul knows material things in the eternal types?",
+      "asrMatchedText": "5th article, Part 1, question 84, article 5.",
+      "approxStartSec": 42.35,
+      "approxStartHMS": "00:00:42",
+      "sourceChunkTimestamp": [
+        42.2,
+        49
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether intellectual knowledge is derived from sensible things?",
+      "asrMatchedText": "Sixth Article Part 1, Question 84, Article 6.",
+      "approxStartSec": 517.68,
+      "approxStartHMS": "00:08:37",
+      "sourceChunkTimestamp": [
+        517.48,
+        526.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the intellect can actually understand through the intelligible species of which it is possessed, without turning to the phantasms?",
+      "asrMatchedText": "7th Article, Part 1, Question 84, Article 7.",
+      "approxStartSec": 1175.06,
+      "approxStartHMS": "00:19:35",
+      "sourceChunkTimestamp": [
+        1174.88,
+        1183.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the judgment of the intellect is hindered through suspension of the sensitive powers?",
+      "asrMatchedText": "8th Article. Part 1, Question 84, Article 8",
+      "approxStartSec": 1598.14,
+      "approxStartHMS": "00:26:38",
+      "sourceChunkTimestamp": [
+        1598,
+        1604.24
+      ],
+      "matched": true
+    }
+  ]
+}

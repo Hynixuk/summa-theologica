@@ -1,0 +1,95 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "16 - Question 14 - OF COUNSEL, WHICH PRECEDES CHOICE (In Six Articles).mp3",
+  "audioRelPath": "vol06/16 - Question 14 - OF COUNSEL, WHICH PRECEDES CHOICE (In Six Articles).mp3",
+  "audioDurationSec": 1515.57,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 378.8,
+    "audioProcessedSec": 1515.57,
+    "realtimeFactor": 0.25,
+    "mp3DecodeSec": 3.49
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 14,
+    "title": "Counsel, which precedes choice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether counsel is an inquiry?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether counsel is of the end, or only of the means?",
+      "asrMatchedText": "Second Article 1-2 Question 14, Article 2, whether counsel is of the end or only of the means.",
+      "approxStartSec": 398.12,
+      "approxStartHMS": "00:06:38",
+      "sourceChunkTimestamp": [
+        398,
+        409.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether counsel is only of things that we do?",
+      "asrMatchedText": "be the matter of counsel. Third Article 1 and 2, Question 14, Article 3.",
+      "approxStartSec": 550.52,
+      "approxStartHMS": "00:09:10",
+      "sourceChunkTimestamp": [
+        547.92,
+        554.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether counsel is about all things that we do?",
+      "asrMatchedText": "do through his servant. Fourth Article 1-2, Question 14, Article 4.",
+      "approxStartSec": 813.74,
+      "approxStartHMS": "00:13:33",
+      "sourceChunkTimestamp": [
+        810.68,
+        819
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the process of counsel is one of analysis?",
+      "asrMatchedText": "Fifth Article 1-2 question 14 Article 5. Whether the process of counsel is one of analysis",
+      "approxStartSec": 1052.51,
+      "approxStartHMS": "00:17:32",
+      "sourceChunkTimestamp": [
+        1052.4,
+        1062.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the process of counsel is indefinite?",
+      "asrMatchedText": "6th Article 1-2, Question 14, Article 6.",
+      "approxStartSec": 1257.36,
+      "approxStartHMS": "00:20:57",
+      "sourceChunkTimestamp": [
+        1257.2,
+        1263.68
+      ],
+      "matched": true
+    }
+  ]
+}

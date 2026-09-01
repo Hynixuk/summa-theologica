@@ -1,0 +1,35 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "37 - Question 80 - OF THE POTENTIAL PARTS OF JUSTICE (In One Article).mp3",
+  "audioRelPath": "vol11/37 - Question 80 - OF THE POTENTIAL PARTS OF JUSTICE (In One Article).mp3",
+  "audioDurationSec": 987.59,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 151.63,
+    "audioProcessedSec": 987.59,
+    "realtimeFactor": 0.154,
+    "mp3DecodeSec": 1.34
+  },
+  "expectedArticleCount": 1,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 80,
+    "title": "The potential parts of Justice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the virtues annexed to justice are suitably enumerated?",
+      "matched": false
+    }
+  ]
+}

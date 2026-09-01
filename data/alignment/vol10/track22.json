@@ -1,0 +1,132 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "22 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 1.mp3",
+  "audioRelPath": "vol10/22 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 1.mp3",
+  "audioDurationSec": 2186.61,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 372.14,
+    "audioProcessedSec": 2186.61,
+    "realtimeFactor": 0.17,
+    "mp3DecodeSec": 3.45
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 19,
+    "title": "The gift of fear"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God can be feared?",
+      "asrMatchedText": "First article, whether God can be feared.",
+      "approxStartSec": 126.22,
+      "approxStartHMS": "00:02:06",
+      "sourceChunkTimestamp": [
+        126.08,
+        131.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether fear is fittingly divided into filial, initial, servile and worldly fear?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 417.77,
+      "approxStartHMS": "00:06:57",
+      "sourceChunkTimestamp": [
+        417.66,
+        419.34
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether worldly fear is always evil?",
+      "asrMatchedText": "Third article, whether worldly fear is always evil.",
+      "approxStartSec": 896.03,
+      "approxStartHMS": "00:14:56",
+      "sourceChunkTimestamp": [
+        895.92,
+        901.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether servile fear is good?",
+      "asrMatchedText": "Fourth article, whether servile fear is good.",
+      "approxStartSec": 1236.33,
+      "approxStartHMS": "00:20:36",
+      "sourceChunkTimestamp": [
+        1236.2,
+        1242.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether servile fear is substantially the same as filial fear?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1582.7,
+      "approxStartHMS": "00:26:22",
+      "sourceChunkTimestamp": [
+        1582.56,
+        1584.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether servile fear remains with charity?",
+      "asrMatchedText": "6th Article Whether Survival Fear Remains With Charity",
+      "approxStartSec": 1851.9,
+      "approxStartHMS": "00:30:51",
+      "sourceChunkTimestamp": [
+        1851.72,
+        1861.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether fear is the beginning of wisdom?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether initial fear differs substantially from filial fear?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether fear is a gift of the Holy Ghost?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether fear decreases when charity increases?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether fear remains in heaven?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether poverty of spirit is the beatitude corresponding to the gift of fear?",
+      "matched": false
+    }
+  ]
+}

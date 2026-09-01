@@ -1,0 +1,90 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "11 - Question 59 - OF MORAL VIRTUE IN RELATION TO THE PASSIONS (In Five Articles).mp3",
+  "audioRelPath": "vol08/11 - Question 59 - OF MORAL VIRTUE IN RELATION TO THE PASSIONS (In Five Articles).mp3",
+  "audioDurationSec": 1761.26,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 308.91,
+    "audioProcessedSec": 1761.26,
+    "realtimeFactor": 0.175,
+    "mp3DecodeSec": 2.87
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 59,
+    "title": "Moral virtue in relation to the passions"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether moral virtue is a passion?",
+      "asrMatchedText": "First article, whether moral virtue is a passion. First article.",
+      "approxStartSec": 102.06,
+      "approxStartHMS": "00:01:42",
+      "sourceChunkTimestamp": [
+        102,
+        105.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there can be moral virtue with passion?",
+      "asrMatchedText": "Second article. Whether there can be moral virtue with a passion. Objection one.",
+      "approxStartSec": 394.06,
+      "approxStartHMS": "00:06:34",
+      "sourceChunkTimestamp": [
+        393.96,
+        401.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether sorrow is compatible with moral virtue?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 811.23,
+      "approxStartHMS": "00:13:31",
+      "sourceChunkTimestamp": [
+        811.12,
+        812.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether all the moral virtues are about the passions?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1237.83,
+      "approxStartHMS": "00:20:37",
+      "sourceChunkTimestamp": [
+        1237.72,
+        1239.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there can be moral virtue without passion?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1472.81,
+      "approxStartHMS": "00:24:32",
+      "sourceChunkTimestamp": [
+        1472.68,
+        1474.64
+      ],
+      "matched": true
+    }
+  ]
+}

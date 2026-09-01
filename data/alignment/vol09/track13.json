@@ -1,0 +1,71 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "13 - Question 101 - OF THE CEREMONIAL PRECEPTS IN THEMSELVES (In Four Articles).mp3",
+  "audioRelPath": "vol09/13 - Question 101 - OF THE CEREMONIAL PRECEPTS IN THEMSELVES (In Four Articles).mp3",
+  "audioDurationSec": 1846.91,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 317.65,
+    "audioProcessedSec": 1846.91,
+    "realtimeFactor": 0.172,
+    "mp3DecodeSec": 2.62
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 101,
+    "title": "The ceremonial precepts in themselves"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the nature of the ceremonial precepts consists in their pertaining to the worship of God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the ceremonial precepts are figurative?",
+      "asrMatchedText": "Second article, whether the ceremonial precepts are figurative.",
+      "approxStartSec": 489.09,
+      "approxStartHMS": "00:08:09",
+      "sourceChunkTimestamp": [
+        489,
+        495
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there should have been many ceremonial precepts?",
+      "asrMatchedText": "Third article. the spiritual worship of God.",
+      "approxStartSec": 943.09,
+      "approxStartHMS": "00:15:43",
+      "sourceChunkTimestamp": [
+        943,
+        947.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the ceremonies of the Old Law are suitably divided into sacrifices, sacred things, sacraments, and observances?",
+      "asrMatchedText": "Fourth article. Whether the ceremonies of the old law are suitably divided into",
+      "approxStartSec": 1357.49,
+      "approxStartHMS": "00:22:37",
+      "sourceChunkTimestamp": [
+        1357.4,
+        1364.36
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Large audio files (fetch fresh on deploy, or include if < repo limit)
+audio/
+
+# Local dev
+scripts/align_supervised.log
+scripts/watch-aquinas-commentary.log
+.DS_Store
+*.log
+*.swp
+*.swo
+
+# Optional: large data files (if repo gets close to limit)
+# data/alignment/
+
+# Vercel
+.vercel
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

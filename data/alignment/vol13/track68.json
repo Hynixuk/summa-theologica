@@ -1,0 +1,102 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "68 - Question 57 - OF THE ASCENSION OF CHRIST (In Six Articles).mp3",
+  "audioRelPath": "vol13/68 - Question 57 - OF THE ASCENSION OF CHRIST (In Six Articles).mp3",
+  "audioDurationSec": 2624.43,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 446.4,
+    "audioProcessedSec": 2624.43,
+    "realtimeFactor": 0.17,
+    "mp3DecodeSec": 4.36
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 57,
+    "title": "The ascension of Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was fitting for Christ to ascend into heaven?",
+      "asrMatchedText": "First article, whether it was fitting for Christ to ascend into heaven.",
+      "approxStartSec": 76.97,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76.86,
+        84.7
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ's Ascension into heaven belonged to Him according to His Divine Nature?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 659.48,
+      "approxStartHMS": "00:10:59",
+      "sourceChunkTimestamp": [
+        659.04,
+        666.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ ascended by His own power?",
+      "asrMatchedText": "Third Article, Whether Christ Ascended by His Own Power",
+      "approxStartSec": 1049.76,
+      "approxStartHMS": "00:17:29",
+      "sourceChunkTimestamp": [
+        1049.6,
+        1058.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ ascended above all the heavens?",
+      "asrMatchedText": "Fourth article, whether Christ descended above all the heavens.",
+      "approxStartSec": 1517.18,
+      "approxStartHMS": "00:25:17",
+      "sourceChunkTimestamp": [
+        1517.08,
+        1523.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether Christ's body ascended above every spiritual creature?",
+      "asrMatchedText": "Fifth article, whether Christ's body ascended above every spiritual creature.",
+      "approxStartSec": 1920.47,
+      "approxStartHMS": "00:32:00",
+      "sourceChunkTimestamp": [
+        1920.4,
+        1926.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Christ's Ascension is the cause of our salvation?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 2168.93,
+      "approxStartHMS": "00:36:08",
+      "sourceChunkTimestamp": [
+        2168.8,
+        2170.8
+      ],
+      "matched": true
+    }
+  ]
+}

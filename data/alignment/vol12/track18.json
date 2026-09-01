@@ -1,0 +1,108 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "18 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (I.mp3",
+  "audioRelPath": "vol12/18 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (I.mp3",
+  "audioDurationSec": 3082.66,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 794.64,
+    "audioProcessedSec": 3082.66,
+    "realtimeFactor": 0.258,
+    "mp3DecodeSec": 4.64
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 186,
+    "title": "Things in which the religious state properly consists"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether religion implies a state of perfection?",
+      "asrMatchedText": "First article. Whether religion implies a state of kind of sin than a secular person.",
+      "approxStartSec": 143.96,
+      "approxStartHMS": "00:02:23",
+      "sourceChunkTimestamp": [
+        143.94,
+        145.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether every religious is bound to keep all the counsels?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether poverty is required for religious perfection?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1112.13,
+      "approxStartHMS": "00:18:32",
+      "sourceChunkTimestamp": [
+        1112,
+        1114
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether perpetual continence is required for religious perfection?",
+      "asrMatchedText": "Fourth article, whether perpetual continents is required for religious perfection.",
+      "approxStartSec": 2157.62,
+      "approxStartHMS": "00:35:57",
+      "sourceChunkTimestamp": [
+        2157.6,
+        2159.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether obedience belongs to religious perfection?",
+      "asrMatchedText": "Fifth article, whether obedience belongs to religious perfection.",
+      "approxStartSec": 2529.75,
+      "approxStartHMS": "00:42:09",
+      "sourceChunkTimestamp": [
+        2529.68,
+        2534
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is requisite for religious perfection that poverty, continence, and obedience should come under a vow?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether it is right to say that religious perfection consists in these three vows?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the vow of obedience is the chief of the three religious vows?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether a religious sins mortally whenever he transgresses the things contained in his rule?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether a religious sins more grievously than a secular by the same kind of sin?",
+      "matched": false
+    }
+  ]
+}

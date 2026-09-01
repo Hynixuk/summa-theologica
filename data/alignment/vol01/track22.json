@@ -1,0 +1,78 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "22 - 21 - Question 21 The Justice and Mercy of God.mp3",
+  "audioRelPath": "vol01/22 - 21 - Question 21 The Justice and Mercy of God.mp3",
+  "audioDurationSec": 1109.05,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 251.79,
+    "audioProcessedSec": 1109.05,
+    "realtimeFactor": 0.227,
+    "mp3DecodeSec": 1.88
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 21,
+    "title": "The justice and mercy of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is justice in God?",
+      "asrMatchedText": "First article, whether there is justice in God.",
+      "approxStartSec": 56.08,
+      "approxStartHMS": "00:00:56",
+      "sourceChunkTimestamp": [
+        56,
+        60
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the justice of God is truth?",
+      "asrMatchedText": "Second article whether the justice of God is truth. one. It seems that the justice of God is truth.",
+      "approxStartSec": 442.88,
+      "approxStartHMS": "00:07:22",
+      "sourceChunkTimestamp": [
+        442.84,
+        447
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether mercy can be attributed to God?",
+      "asrMatchedText": "Third article, whether mercy can be attributed to God.",
+      "approxStartSec": 590.97,
+      "approxStartHMS": "00:09:50",
+      "sourceChunkTimestamp": [
+        590.88,
+        595.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether in every work of God there are mercy and justice?",
+      "asrMatchedText": "exulteth itself above judgment. Fourth article, whether in every work of God there are mercy and",
+      "approxStartSec": 778.19,
+      "approxStartHMS": "00:12:58",
+      "sourceChunkTimestamp": [
+        775.28,
+        783.84
+      ],
+      "matched": true
+    }
+  ]
+}

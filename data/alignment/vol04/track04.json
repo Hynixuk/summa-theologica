@@ -1,0 +1,112 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "04 - Question 77 - OF THOSE THINGS WHICH BELONG TO THE POWERS OF THE SOUL IN GENERAL .mp3",
+  "audioRelPath": "vol04/04 - Question 77 - OF THOSE THINGS WHICH BELONG TO THE POWERS OF THE SOUL IN GENERAL .mp3",
+  "audioDurationSec": 3233.07,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 923.86,
+    "audioProcessedSec": 3233.07,
+    "realtimeFactor": 0.286,
+    "mp3DecodeSec": 11.39
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 77,
+    "title": "The powers of the soul in general"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the essence of the soul is its power?",
+      "asrMatchedText": "First article, whether the essence of the soul is its power.",
+      "approxStartSec": 110.82,
+      "approxStartHMS": "00:01:50",
+      "sourceChunkTimestamp": [
+        110.72,
+        116.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there are several powers of the soul?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 816.64,
+      "approxStartHMS": "00:13:36",
+      "sourceChunkTimestamp": [
+        816.52,
+        818.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the powers are distinguished by their acts and objects?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1078.99,
+      "approxStartHMS": "00:17:58",
+      "sourceChunkTimestamp": [
+        1078.84,
+        1081.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether among the powers of the soul there is order?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether all the powers of the soul are in the soul as their subject?",
+      "asrMatchedText": "5th article Whether all the powers of the soul are in that the action of one depends on another.",
+      "approxStartSec": 1824.88,
+      "approxStartHMS": "00:30:24",
+      "sourceChunkTimestamp": [
+        1824.88,
+        1825
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the powers of the soul flow from its essence?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether one power of the soul arises from another?",
+      "asrMatchedText": "Seventh Article Whether one power of the soul arises from another.",
+      "approxStartSec": 2533.23,
+      "approxStartHMS": "00:42:13",
+      "sourceChunkTimestamp": [
+        2533.12,
+        2540.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether all the powers remain in the soul when separated from the body?",
+      "asrMatchedText": "things. 8th article. Whether all the powers remain in the soul when separated",
+      "approxStartSec": 2826.99,
+      "approxStartHMS": "00:47:06",
+      "sourceChunkTimestamp": [
+        2826.16,
+        2833.32
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "12 - Question 60 - HOW THE MORAL VIRTUES DIFFER FROM ONE ANOTHER (In Five Articles).mp3",
+  "audioRelPath": "vol08/12 - Question 60 - HOW THE MORAL VIRTUES DIFFER FROM ONE ANOTHER (In Five Articles).mp3",
+  "audioDurationSec": 2169.42,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 380.23,
+    "audioProcessedSec": 2169.42,
+    "realtimeFactor": 0.175,
+    "mp3DecodeSec": 3.47
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 5,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 60,
+    "title": "How the moral virtues differ from one another"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is only one moral virtue?",
+      "asrMatchedText": "First article, whether there is only one moral virtue.",
+      "approxStartSec": 88.11,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        88,
+        94
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether moral virtues about operations are different from those that are about passions?",
+      "asrMatchedText": "Second article. Whether moral virtues about operations are different from those that are",
+      "approxStartSec": 456.75,
+      "approxStartHMS": "00:07:36",
+      "sourceChunkTimestamp": [
+        456.68,
+        462.5
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there is only one moral virtue about operations?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 762.13,
+      "approxStartHMS": "00:12:42",
+      "sourceChunkTimestamp": [
+        762,
+        764
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there are different moral virtues about different passions?",
+      "asrMatchedText": "Fourth article whether there are different moral virtues about different passions.",
+      "approxStartSec": 1112.06,
+      "approxStartHMS": "00:18:32",
+      "sourceChunkTimestamp": [
+        1112,
+        1117.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the moral virtues differ in point of the various objects of the passions?",
+      "asrMatchedText": "Fifth Article.",
+      "approxStartSec": 1459.33,
+      "approxStartHMS": "00:24:19",
+      "sourceChunkTimestamp": [
+        1459.2,
+        1461.08
+      ],
+      "matched": true
+    }
+  ]
+}

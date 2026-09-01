@@ -1,0 +1,160 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "20 - 19 - Question 19 The Will of God.mp3",
+  "audioRelPath": "vol01/20 - 19 - Question 19 The Will of God.mp3",
+  "audioDurationSec": 3650.95,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 657.32,
+    "audioProcessedSec": 3650.95,
+    "realtimeFactor": 0.18,
+    "mp3DecodeSec": 5.31
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 10,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 19,
+    "title": "The will of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is will in God?",
+      "asrMatchedText": "First article, whether there is will in God.",
+      "approxStartSec": 111.07,
+      "approxStartHMS": "00:01:51",
+      "sourceChunkTimestamp": [
+        110.96,
+        115.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether God wills things apart from Himself?",
+      "asrMatchedText": "Second article, whether God wills things apart from himself.",
+      "approxStartSec": 305.99,
+      "approxStartHMS": "00:05:05",
+      "sourceChunkTimestamp": [
+        305.92,
+        310.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether whatever God wills He wills necessarily?",
+      "asrMatchedText": "Third article, whether whatever God wills, he wills necessarily.",
+      "approxStartSec": 591.09,
+      "approxStartHMS": "00:09:51",
+      "sourceChunkTimestamp": [
+        591,
+        597
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the will of God is the cause of things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether any cause can be assigned to the divine will?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the will of God is always fulfilled?",
+      "asrMatchedText": "the others on the order of other causes. Sixth article, whether the will of God is always fulfilled. Objection",
+      "approxStartSec": 1663.87,
+      "approxStartHMS": "00:27:43",
+      "sourceChunkTimestamp": [
+        1658.92,
+        1672
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the will of God is changeable?",
+      "asrMatchedText": "God as set above. Seventh article, with the will of God as set above.",
+      "approxStartSec": 2063.53,
+      "approxStartHMS": "00:34:23",
+      "sourceChunkTimestamp": [
+        2062.92,
+        2065.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the will of God imposes necessity on the things willed?",
+      "asrMatchedText": "divine will as has been said above. 8th article, whether the will of God imposes",
+      "approxStartSec": 2388.35,
+      "approxStartHMS": "00:39:48",
+      "sourceChunkTimestamp": [
+        2385.08,
+        2392.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether God wills evils?",
+      "asrMatchedText": "Ninth article, whether God wills evils.",
+      "approxStartSec": 2675.04,
+      "approxStartHMS": "00:44:35",
+      "sourceChunkTimestamp": [
+        2674.92,
+        2679.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether God has free-will?",
+      "asrMatchedText": "10th article, whether God has free will. Objection 1, it seems that God has not free",
+      "approxStartSec": 2993.22,
+      "approxStartHMS": "00:49:53",
+      "sourceChunkTimestamp": [
+        2993.12,
+        3002
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the will of expression is to be distinguished in God?",
+      "asrMatchedText": "Eleventh article, whether the will of expression is to be distinguished in God.",
+      "approxStartSec": 3113.18,
+      "approxStartHMS": "00:51:53",
+      "sourceChunkTimestamp": [
+        3113.12,
+        3117.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether five expressions of will are rightly assigned to the divine will?",
+      "asrMatchedText": "Twelfth article, whether five expressions of will are rightly assigned to the divine",
+      "approxStartSec": 3310.53,
+      "approxStartHMS": "00:55:10",
+      "sourceChunkTimestamp": [
+        3310.48,
+        3314.84
+      ],
+      "matched": true
+    }
+  ]
+}

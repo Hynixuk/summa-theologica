@@ -1,0 +1,115 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "33 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 1.mp3",
+  "audioRelPath": "vol14/33 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 1.mp3",
+  "audioDurationSec": 2064.35,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 624.29,
+    "audioProcessedSec": 2064.35,
+    "realtimeFactor": 0.302,
+    "mp3DecodeSec": 7.3
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 84,
+    "title": "The sacrament of Penance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Penance is a sacrament?",
+      "asrMatchedText": "First article, whether penance is a sacrament.",
+      "approxStartSec": 115.13,
+      "approxStartHMS": "00:01:55",
+      "sourceChunkTimestamp": [
+        115,
+        121
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sins are the proper matter of this sacrament?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 460.42,
+      "approxStartHMS": "00:07:40",
+      "sourceChunkTimestamp": [
+        460,
+        466.78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the form of this sacrament is: \"I absolve thee\"?",
+      "asrMatchedText": "Third article. Whether the form of this sacrament is, I absolve thee.",
+      "approxStartSec": 715.16,
+      "approxStartHMS": "00:11:55",
+      "sourceChunkTimestamp": [
+        715,
+        726.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the imposition of the priest's hands is necessary for this sacrament?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1419.12,
+      "approxStartHMS": "00:23:39",
+      "sourceChunkTimestamp": [
+        1419,
+        1420.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether this sacrament is necessary for salvation?",
+      "asrMatchedText": "Fifth Article Whether this sacrament is necessary for salvation",
+      "approxStartSec": 1738.5,
+      "approxStartHMS": "00:28:58",
+      "sourceChunkTimestamp": [
+        1738.4,
+        1744.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Penance is a second plank after shipwreck?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether this sacrament was suitably instituted in the New Law?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether Penance should last till the end of life?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether Penance can be continuous?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the sacrament of Penance may be repeated?",
+      "matched": false
+    }
+  ]
+}

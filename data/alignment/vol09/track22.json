@@ -1,0 +1,78 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "22 - Question 106 - OF THE LAW OF THE GOSPEL, CALLED THE NEW LAW, CONSIDERED IN ITSEL.mp3",
+  "audioRelPath": "vol09/22 - Question 106 - OF THE LAW OF THE GOSPEL, CALLED THE NEW LAW, CONSIDERED IN ITSEL.mp3",
+  "audioDurationSec": 1785.94,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 311.24,
+    "audioProcessedSec": 1785.94,
+    "realtimeFactor": 0.174,
+    "mp3DecodeSec": 2.59
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 106,
+    "title": "The law of the Gospel, called the New Law, considered in itself"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the New Law is a written law?",
+      "asrMatchedText": "First article, whether the new law is a written law.",
+      "approxStartSec": 96.98,
+      "approxStartHMS": "00:01:36",
+      "sourceChunkTimestamp": [
+        96.88,
+        102.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the New Law justifies?",
+      "asrMatchedText": "Second article, whether the new law justifies. 2.",
+      "approxStartSec": 484.49,
+      "approxStartHMS": "00:08:04",
+      "sourceChunkTimestamp": [
+        484.48,
+        485
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the New Law should have been given from the beginning of the world?",
+      "asrMatchedText": "due to the transgression. Third article, whether the new law should have been given from the beginning of the",
+      "approxStartSec": 839.17,
+      "approxStartHMS": "00:13:59",
+      "sourceChunkTimestamp": [
+        836.56,
+        847.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the New Law will last till the end of the world?",
+      "asrMatchedText": "Fourth article, whether the new law will last till the end of the world.",
+      "approxStartSec": 1185.34,
+      "approxStartHMS": "00:19:45",
+      "sourceChunkTimestamp": [
+        1185.24,
+        1192.2
+      ],
+      "matched": true
+    }
+  ]
+}

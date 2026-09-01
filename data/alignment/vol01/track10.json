@@ -1,0 +1,88 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "10 - 10 - Question 10 The Eternity of God.mp3",
+  "audioRelPath": "vol01/10 - 10 - Question 10 The Eternity of God.mp3",
+  "audioDurationSec": 1064.89,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 271.4,
+    "audioProcessedSec": 1064.89,
+    "realtimeFactor": 0.255,
+    "mp3DecodeSec": 4.11
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 10,
+    "title": "The eternity of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether this is a good definition of eternity, \"The simultaneously-whole and perfect possession of interminable life\"?",
+      "asrMatchedText": "eternity. First article, whether this is a",
+      "approxStartSec": 64.52,
+      "approxStartHMS": "00:01:04",
+      "sourceChunkTimestamp": [
+        63.28,
+        68.14
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether God is eternal?",
+      "asrMatchedText": "Second article, whether God is eternal.",
+      "approxStartSec": 366.1,
+      "approxStartHMS": "00:06:06",
+      "sourceChunkTimestamp": [
+        366,
+        370.1
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether to be eternal belongs to God alone?",
+      "asrMatchedText": "Third article, whether to be eternal belongs to God alone.",
+      "approxStartSec": 627.36,
+      "approxStartHMS": "00:10:27",
+      "sourceChunkTimestamp": [
+        627.28,
+        632.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether eternity differs from time?",
+      "asrMatchedText": "Fourth article, Weather Eternity Differs From Time.",
+      "approxStartSec": 816.45,
+      "approxStartHMS": "00:13:36",
+      "sourceChunkTimestamp": [
+        816.36,
+        820.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "The difference of aeviternity and time",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there is only one aeviternity?",
+      "matched": false
+    }
+  ]
+}

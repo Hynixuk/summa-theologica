@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "22 - Question 65 - OF OTHER INJURIES COMMITTED ON THE PERSON (In Four Articles).mp3",
+  "audioRelPath": "vol11/22 - Question 65 - OF OTHER INJURIES COMMITTED ON THE PERSON (In Four Articles).mp3",
+  "audioDurationSec": 1493.49,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 398,
+    "audioProcessedSec": 1493.49,
+    "realtimeFactor": 0.266,
+    "mp3DecodeSec": 5.42
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 65,
+    "title": "Other injuries committed on the person"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether in some cases it may be lawful to maim anyone?",
+      "asrMatchedText": "First article, whether in some cases it may be lawful to maim anyone.",
+      "approxStartSec": 77.37,
+      "approxStartHMS": "00:01:17",
+      "sourceChunkTimestamp": [
+        77.28,
+        83.9
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful for parents to strike their children, or masters their slaves?",
+      "asrMatchedText": "Second article. Whether it is lawful for parents to strike their children or masters",
+      "approxStartSec": 534.68,
+      "approxStartHMS": "00:08:54",
+      "sourceChunkTimestamp": [
+        534.6,
+        541.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is lawful to imprison a man?",
+      "asrMatchedText": "Third article. Whether it is lawful to imprison a man.",
+      "approxStartSec": 890.97,
+      "approxStartHMS": "00:14:50",
+      "sourceChunkTimestamp": [
+        890.88,
+        895.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the sin is aggravated by the fact that the aforesaid injuries are perpetrated on those who are connected with others?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1155.91,
+      "approxStartHMS": "00:19:15",
+      "sourceChunkTimestamp": [
+        1155.8,
+        1157.6
+      ],
+      "matched": true
+    }
+  ]
+}

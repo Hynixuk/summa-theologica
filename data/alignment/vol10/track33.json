@@ -1,0 +1,130 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "33 - Question 26 - OF THE ORDER OF CHARITY (In Thirteen Articles), part 2.mp3",
+  "audioRelPath": "vol10/33 - Question 26 - OF THE ORDER OF CHARITY (In Thirteen Articles), part 2.mp3",
+  "audioDurationSec": 2588.87,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 392.47,
+    "audioProcessedSec": 2588.87,
+    "realtimeFactor": 0.152,
+    "mp3DecodeSec": 4.25
+  },
+  "expectedArticleCount": 13,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 26,
+    "title": "The order of charity"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is order in charity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether God ought to be loved more than our neighbor?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether out of charity, man is bound to love God more than himself?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether our of charity, man ought to love himself more than his neighbor?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether a man ought to love his neighbor more than his own body?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether we ought to love one neighbor more than another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether we ought to love those who are better more those who are more closely united us?",
+      "asrMatchedText": "7th article. Whether we ought to love those who are better, more than those who are more",
+      "approxStartSec": 49.44,
+      "approxStartHMS": "00:00:49",
+      "sourceChunkTimestamp": [
+        49.36,
+        56.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether we ought to love more those who are connected with us by ties of blood?",
+      "asrMatchedText": "8th Article Whether we ought to love more, those who are",
+      "approxStartSec": 536.54,
+      "approxStartHMS": "00:08:56",
+      "sourceChunkTimestamp": [
+        536.4,
+        544.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether a man ought, out of charity, to love his children more than his father?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether a man ought to love his mother more than his father?",
+      "asrMatchedText": "10th article. Rather a man ought to love his... his parents before all.",
+      "approxStartSec": 1242.06,
+      "approxStartHMS": "00:20:42",
+      "sourceChunkTimestamp": [
+        1242,
+        1246.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether a man ought to love his wife more than his father and mother?",
+      "asrMatchedText": "11th article, whether a man ought to love his wife more than his father and mother.",
+      "approxStartSec": 1503.21,
+      "approxStartHMS": "00:25:03",
+      "sourceChunkTimestamp": [
+        1503.12,
+        1510.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether a man ought to love more his benefactor than one he has benefited?",
+      "asrMatchedText": "12th Article. Whether a man ought to love more his benefactor than one he has",
+      "approxStartSec": 1777.17,
+      "approxStartHMS": "00:29:37",
+      "sourceChunkTimestamp": [
+        1777.08,
+        1784.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 13,
+      "groundTruthTitle": "Whether the order of charity endures in heaven?",
+      "matched": false
+    }
+  ]
+}

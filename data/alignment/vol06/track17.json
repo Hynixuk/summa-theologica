@@ -1,0 +1,78 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "17 - Question 15 - OF CONSENT, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In.mp3",
+  "audioRelPath": "vol06/17 - Question 15 - OF CONSENT, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In.mp3",
+  "audioDurationSec": 1029.96,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 204.34,
+    "audioProcessedSec": 1029.96,
+    "realtimeFactor": 0.198,
+    "mp3DecodeSec": 1.72
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 15,
+    "title": "Consent, which is an act of the will in regard to the means"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether consent is an act of the appetitive or of the apprehensive power?",
+      "asrMatchedText": "First article, part one of the second part, question 15, article one, whether consent is an act of",
+      "approxStartSec": 67.92,
+      "approxStartHMS": "00:01:07",
+      "sourceChunkTimestamp": [
+        67.84,
+        75.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether consent is to be found in irrational animals?",
+      "asrMatchedText": "Second Article Part 1 of the second part. Question 15 Article 2.",
+      "approxStartSec": 300.29,
+      "approxStartHMS": "00:05:00",
+      "sourceChunkTimestamp": [
+        300.2,
+        306.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether consent is directed to the end or to the means?",
+      "asrMatchedText": "Third Article Part 1 of the second part, Question 15, Article",
+      "approxStartSec": 515.84,
+      "approxStartHMS": "00:08:35",
+      "sourceChunkTimestamp": [
+        515.76,
+        520.46
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether consent to the act belongs only to the higher part of the soul?",
+      "asrMatchedText": "Fourth article, part one of the second part, question 15, article four.",
+      "approxStartSec": 776.95,
+      "approxStartHMS": "00:12:56",
+      "sourceChunkTimestamp": [
+        776.88,
+        782.08
+      ],
+      "matched": true
+    }
+  ]
+}

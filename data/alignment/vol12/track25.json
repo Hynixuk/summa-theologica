@@ -1,0 +1,108 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "25 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol12/25 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 2575.15,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 458.43,
+    "audioProcessedSec": 2575.15,
+    "realtimeFactor": 0.178,
+    "mp3DecodeSec": 3.64
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 189,
+    "title": "The entrance into religious life"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether those who are not practiced in keeping the commandments should enter religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether one ought to be bound by vow to enter religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether one who is bound by a vow to enter religion is under an obligation of entering religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether he who has vowed to enter religion is bound to remain in religion in perpetuity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether children should be received in religion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether one ought to be withdrawn from entering religion through deference to one's parents?",
+      "asrMatchedText": "6th article. Whether one ought to be withdrawn from entering religion through deference to",
+      "approxStartSec": 46.07,
+      "approxStartHMS": "00:00:46",
+      "sourceChunkTimestamp": [
+        46,
+        52.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether parish priests may lawfully enter religion?",
+      "asrMatchedText": "Seventh Article",
+      "approxStartSec": 529.46,
+      "approxStartHMS": "00:08:49",
+      "sourceChunkTimestamp": [
+        529.36,
+        530.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether it is lawful to pass from one religious order to another?",
+      "asrMatchedText": "8th article.",
+      "approxStartSec": 863.12,
+      "approxStartHMS": "00:14:23",
+      "sourceChunkTimestamp": [
+        862.88,
+        866
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether one ought to induce others to enter religion?",
+      "asrMatchedText": "Ninth Article Whether One Odd To Induce Others To Enter Religion",
+      "approxStartSec": 1410.31,
+      "approxStartHMS": "00:23:30",
+      "sourceChunkTimestamp": [
+        1410.24,
+        1414.72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether it is praiseworthy to enter religion without taking counsel of many, and previously deliberating for a long time?",
+      "matched": false
+    }
+  ]
+}

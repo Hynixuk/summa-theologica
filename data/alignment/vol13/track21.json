@@ -1,0 +1,139 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "21 - Question 16 - OF THOSE THINGS WHICH ARE APPLICABLE TO CHRIST IN HIS BEING AND BE.mp3",
+  "audioRelPath": "vol13/21 - Question 16 - OF THOSE THINGS WHICH ARE APPLICABLE TO CHRIST IN HIS BEING AND BE.mp3",
+  "audioDurationSec": 2326.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 359.14,
+    "audioProcessedSec": 2326.78,
+    "realtimeFactor": 0.154,
+    "mp3DecodeSec": 4.52
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 7,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 16,
+    "title": "Things which are applicable to Christ in his being and becoming"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether this is true: \"God is man\"?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether this is true: \"Man is God\"?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ can be called a lordly man?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether what belongs to the human nature can be predicated of God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether what belongs to the human nature can be predicated of the Divine Nature?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether this is true: \"God was made man\"?",
+      "asrMatchedText": "Sixth Article, whether this is true, God was made man.",
+      "approxStartSec": 46.13,
+      "approxStartHMS": "00:00:46",
+      "sourceChunkTimestamp": [
+        46,
+        53
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether this is true: \"Man was made God\"?",
+      "asrMatchedText": "7th Article Whether this is true, man was made God.",
+      "approxStartSec": 327.21,
+      "approxStartHMS": "00:05:27",
+      "sourceChunkTimestamp": [
+        327,
+        338
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether this is true: \"Christ is a creature\"?",
+      "asrMatchedText": "8th article, whether this is true, Christ is a creature.",
+      "approxStartSec": 811.11,
+      "approxStartHMS": "00:13:31",
+      "sourceChunkTimestamp": [
+        811,
+        817
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether this Man, i.e. Christ, began to be?",
+      "asrMatchedText": "9th article case of creation, and hence there is no parity.",
+      "approxStartSec": 1123.31,
+      "approxStartHMS": "00:18:43",
+      "sourceChunkTimestamp": [
+        1123.28,
+        1125
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether this is true: \"Christ as Man is a creature\"?",
+      "asrMatchedText": "10th article",
+      "approxStartSec": 1409.15,
+      "approxStartHMS": "00:23:29",
+      "sourceChunkTimestamp": [
+        1409,
+        1411
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether this is true: \"Christ as Man is God\"?",
+      "asrMatchedText": "Eleventh article, whether this is true, Christ as man is God.",
+      "approxStartSec": 1722.31,
+      "approxStartHMS": "00:28:42",
+      "sourceChunkTimestamp": [
+        1722.2,
+        1728.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether this is true: \"Christ as Man is a hypostasis or person\"?",
+      "asrMatchedText": "12th article, whether this is God.",
+      "approxStartSec": 2001.38,
+      "approxStartHMS": "00:33:21",
+      "sourceChunkTimestamp": [
+        2001.24,
+        2006.2
+      ],
+      "matched": true
+    }
+  ]
+}

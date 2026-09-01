@@ -1,0 +1,54 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "07 - Question 177 - OF THE GRATUITOUS GRACE CONSISTING IN WORDS (In Two Articles).mp3",
+  "audioRelPath": "vol12/07 - Question 177 - OF THE GRATUITOUS GRACE CONSISTING IN WORDS (In Two Articles).mp3",
+  "audioDurationSec": 829.02,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 168.16,
+    "audioProcessedSec": 829.02,
+    "realtimeFactor": 0.203,
+    "mp3DecodeSec": 2.33
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 177,
+    "title": "The gratuitous grace consisting in words"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether any gratuitous grace attaches to words?",
+      "asrMatchedText": "First article, whether any gratuitous grace attaches to words.",
+      "approxStartSec": 75.13,
+      "approxStartHMS": "00:01:15",
+      "sourceChunkTimestamp": [
+        75,
+        83
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the grace of the word of wisdom and knowledge is becoming to women?",
+      "asrMatchedText": "Second Article Whether the grace of the word of wisdom and knowledge is becoming to women. one. You would seem that the grace of the word of wisdom and knowledge is becoming to women. Objection 1.",
+      "approxStartSec": 499.01,
+      "approxStartHMS": "00:08:19",
+      "sourceChunkTimestamp": [
+        498.96,
+        508.2
+      ],
+      "matched": true
+    }
+  ]
+}

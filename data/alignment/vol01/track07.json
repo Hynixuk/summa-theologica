@@ -1,0 +1,78 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "07 - 07 - Question 7 The Infinity of God.mp3",
+  "audioRelPath": "vol01/07 - 07 - Question 7 The Infinity of God.mp3",
+  "audioDurationSec": 1254.16,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 340.88,
+    "audioProcessedSec": 1254.16,
+    "realtimeFactor": 0.272,
+    "mp3DecodeSec": 5.23
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 7,
+    "title": "The infinity of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God is infinite?",
+      "asrMatchedText": "multitude can exist. First article, whether God is infinite. Objection one, it seems",
+      "approxStartSec": 68.64,
+      "approxStartHMS": "00:01:08",
+      "sourceChunkTimestamp": [
+        66.18,
+        75.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether anything but God can be essentially infinite?",
+      "asrMatchedText": "Second article, whether anything but God can be essentially infinite.",
+      "approxStartSec": 322.54,
+      "approxStartHMS": "00:05:22",
+      "sourceChunkTimestamp": [
+        322.48,
+        327
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether an actually infinite magnitude can exist?",
+      "asrMatchedText": "Third article, whether an actually infinite magnitude can",
+      "approxStartSec": 550.46,
+      "approxStartHMS": "00:09:10",
+      "sourceChunkTimestamp": [
+        550.4,
+        554
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether an infinite multitude can exist?",
+      "asrMatchedText": "Fourth article, whether an infinite multitude can exist.",
+      "approxStartSec": 938.65,
+      "approxStartHMS": "00:15:38",
+      "sourceChunkTimestamp": [
+        938.56,
+        943.88
+      ],
+      "matched": true
+    }
+  ]
+}

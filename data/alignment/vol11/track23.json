@@ -1,0 +1,110 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "23 - Question 66 - OF THEFT AND ROBBERY (In Nine Articles).mp3",
+  "audioRelPath": "vol11/23 - Question 66 - OF THEFT AND ROBBERY (In Nine Articles).mp3",
+  "audioDurationSec": 2881.9,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 690.52,
+    "audioProcessedSec": 2881.9,
+    "realtimeFactor": 0.24,
+    "mp3DecodeSec": 11.21
+  },
+  "expectedArticleCount": 9,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 66,
+    "title": "Theft and robbery"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is natural for man to possess external things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is lawful for a man to possess a thing as his own?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the essence of theft consists in taking another's thing secretly?",
+      "asrMatchedText": "Third article.......... He who spends too much is a robber.",
+      "approxStartSec": 763.07,
+      "approxStartHMS": "00:12:43",
+      "sourceChunkTimestamp": [
+        763.04,
+        765
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether theft and robbery are sins of different species?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1059.07,
+      "approxStartHMS": "00:17:39",
+      "sourceChunkTimestamp": [
+        1058.96,
+        1060.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether theft is always a sin?",
+      "asrMatchedText": "Fifth Article",
+      "approxStartSec": 1313.17,
+      "approxStartHMS": "00:21:53",
+      "sourceChunkTimestamp": [
+        1313.06,
+        1314.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether theft is a mortal sin?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 1678.13,
+      "approxStartHMS": "00:27:58",
+      "sourceChunkTimestamp": [
+        1678,
+        1680
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether it is lawful to steal through stress of need?",
+      "asrMatchedText": "Seventh Article Whether it is lawful to steal through stress of need",
+      "approxStartSec": 2015,
+      "approxStartHMS": "00:33:35",
+      "sourceChunkTimestamp": [
+        2014.88,
+        2023.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether robbery may be committed without sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether theft is a more grievous sin than robbery?",
+      "matched": false
+    }
+  ]
+}

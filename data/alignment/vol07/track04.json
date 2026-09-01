@@ -1,0 +1,78 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "04 - Question 25 - OF THE ORDER OF THE PASSIONS TO ONE ANOTHER (In Four Articles).mp3",
+  "audioRelPath": "vol07/04 - Question 25 - OF THE ORDER OF THE PASSIONS TO ONE ANOTHER (In Four Articles).mp3",
+  "audioDurationSec": 1572.05,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 406.65,
+    "audioProcessedSec": 1572.05,
+    "realtimeFactor": 0.259,
+    "mp3DecodeSec": 4.73
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 25,
+    "title": "The order of the passions to one another"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the irascible passions precede the concupiscible passions, or vice versa?",
+      "asrMatchedText": "four principal passions. First article,",
+      "approxStartSec": 71.39,
+      "approxStartHMS": "00:01:11",
+      "sourceChunkTimestamp": [
+        68.58,
+        72.9
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether love is the first of the concupiscible passions?",
+      "asrMatchedText": "Second article. Whether love is the first of the concupisible passions.",
+      "approxStartSec": 487.07,
+      "approxStartHMS": "00:08:07",
+      "sourceChunkTimestamp": [
+        487,
+        492
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether hope is the first of the irascible passions?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 835.33,
+      "approxStartHMS": "00:13:55",
+      "sourceChunkTimestamp": [
+        835,
+        840
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether these are the four principal passions: joy, sadness, hope and fear?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1251.13,
+      "approxStartHMS": "00:20:51",
+      "sourceChunkTimestamp": [
+        1251,
+        1253
+      ],
+      "matched": true
+    }
+  ]
+}

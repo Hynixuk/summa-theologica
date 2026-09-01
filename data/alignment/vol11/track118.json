@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "118 - Question 155 - OF CONTINENCE (In Four Articles).mp3",
+  "audioRelPath": "vol11/118 - Question 155 - OF CONTINENCE (In Four Articles).mp3",
+  "audioDurationSec": 1590.85,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 407.6,
+    "audioProcessedSec": 1590.85,
+    "realtimeFactor": 0.256,
+    "mp3DecodeSec": 5.95
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 155,
+    "title": "Continence"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether continence is a virtue?",
+      "asrMatchedText": "First article, whether continents is a virtue.",
+      "approxStartSec": 89.09,
+      "approxStartHMS": "00:01:29",
+      "sourceChunkTimestamp": [
+        88.96,
+        95.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether desires for pleasures of touch are the matter of continence?",
+      "asrMatchedText": "Second article. Whether desires for pleasure of touch are the matter of",
+      "approxStartSec": 435.23,
+      "approxStartHMS": "00:07:15",
+      "sourceChunkTimestamp": [
+        435.16,
+        440.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the subject of continence is the concupiscible power?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 929.37,
+      "approxStartHMS": "00:15:29",
+      "sourceChunkTimestamp": [
+        929.24,
+        931.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether continence is better than temperance?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1246.19,
+      "approxStartHMS": "00:20:46",
+      "sourceChunkTimestamp": [
+        1246.08,
+        1247.88
+      ],
+      "matched": true
+    }
+  ]
+}

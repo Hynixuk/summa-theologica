@@ -1,0 +1,78 @@
+{
+  "volume": 7,
+  "part": 2,
+  "audioFile": "26 - Question 47 - OF THE CAUSE THAT PROVOKES ANGER (In Four Articles).mp3",
+  "audioRelPath": "vol07/26 - Question 47 - OF THE CAUSE THAT PROVOKES ANGER (In Four Articles).mp3",
+  "audioDurationSec": 1376.94,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 253.86,
+    "audioProcessedSec": 1376.94,
+    "realtimeFactor": 0.184,
+    "mp3DecodeSec": 2.57
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 47,
+    "title": "The cause that provokes anger, and the remedies of anger"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the motive of anger is always something done against the one who is angry?",
+      "asrMatchedText": "with whom one is angry. First article, whether the motive of anger is always something done",
+      "approxStartSec": 91.37,
+      "approxStartHMS": "00:01:31",
+      "sourceChunkTimestamp": [
+        88.48,
+        99.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the sole motive of anger is slight or contempt?",
+      "asrMatchedText": "were slighted, and a slight is an action. Second article whether the sole motive of anger is slight",
+      "approxStartSec": 413.67,
+      "approxStartHMS": "00:06:53",
+      "sourceChunkTimestamp": [
+        408.48,
+        420.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a man's excellence is the cause of his being angry?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 820.07,
+      "approxStartHMS": "00:13:40",
+      "sourceChunkTimestamp": [
+        820,
+        821
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a person's defect is a reason for being more easily angry with him?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1102.13,
+      "approxStartHMS": "00:18:22",
+      "sourceChunkTimestamp": [
+        1102,
+        1104
+      ],
+      "matched": true
+    }
+  ]
+}

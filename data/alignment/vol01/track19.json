@@ -1,0 +1,78 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "19 - 18 - Question 18 The Life of God.mp3",
+  "audioRelPath": "vol01/19 - 18 - Question 18 The Life of God.mp3",
+  "audioDurationSec": 1419.42,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 251.61,
+    "audioProcessedSec": 1419.42,
+    "realtimeFactor": 0.177,
+    "mp3DecodeSec": 1.96
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 18,
+    "title": "The life of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether to live belongs to all natural things?",
+      "asrMatchedText": "whether all things in God are life. First article, whether to live belongs to all natural things.",
+      "approxStartSec": 63.56,
+      "approxStartHMS": "00:01:03",
+      "sourceChunkTimestamp": [
+        59.54,
+        70.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether life is an operation?",
+      "asrMatchedText": "other heavy and light bodies. Second article, whether life is an operation.",
+      "approxStartSec": 382.92,
+      "approxStartHMS": "00:06:22",
+      "sourceChunkTimestamp": [
+        379.88,
+        387.34
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether life is properly attributed to God?",
+      "asrMatchedText": "Third article, whether life is properly attributed to God.",
+      "approxStartSec": 685.13,
+      "approxStartHMS": "00:11:25",
+      "sourceChunkTimestamp": [
+        685.04,
+        690.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether all things are life in God?",
+      "asrMatchedText": "Fourth article, whether all things are life in God.",
+      "approxStartSec": 1083.34,
+      "approxStartHMS": "00:18:03",
+      "sourceChunkTimestamp": [
+        1083.24,
+        1088.48
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "18 - Question 88 - HOW THE HUMAN SOUL KNOWS WHAT IS ABOVE ITSELF (In Three Articles).mp3",
+  "audioRelPath": "vol04/18 - Question 88 - HOW THE HUMAN SOUL KNOWS WHAT IS ABOVE ITSELF (In Three Articles).mp3",
+  "audioDurationSec": 1645.06,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 444.75,
+    "audioProcessedSec": 1645.06,
+    "realtimeFactor": 0.27,
+    "mp3DecodeSec": 3.6
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 88,
+    "title": "How the human soul knows what is above itself"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the human soul in the present state of life can understand immaterial substances in themselves?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether our intellect can understand immaterial substances through its knowledge of material things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God is the first object known by the human mind?",
+      "matched": false
+    }
+  ]
+}

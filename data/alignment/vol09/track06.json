@@ -1,0 +1,71 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "06 - Question 95 - OF HUMAN LAW (In Four Articles).mp3",
+  "audioRelPath": "vol09/06 - Question 95 - OF HUMAN LAW (In Four Articles).mp3",
+  "audioDurationSec": 1789.26,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 457.73,
+    "audioProcessedSec": 1789.26,
+    "realtimeFactor": 0.256,
+    "mp3DecodeSec": 6.89
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 95,
+    "title": "Human law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was useful for laws to be framed by men?",
+      "asrMatchedText": "First article, whether it was useful for laws to be framed by men.",
+      "approxStartSec": 68.76,
+      "approxStartHMS": "00:01:08",
+      "sourceChunkTimestamp": [
+        68.64,
+        76.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether every human law is derived from the natural law?",
+      "asrMatchedText": "Second article, whether every human law is derived from the natural law.",
+      "approxStartSec": 520.33,
+      "approxStartHMS": "00:08:40",
+      "sourceChunkTimestamp": [
+        520.2,
+        529.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Isidore's description of the quality of positive law is appropriate?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 913.12,
+      "approxStartHMS": "00:15:13",
+      "sourceChunkTimestamp": [
+        912.76,
+        918.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Isidore's division of human laws is appropriate?",
+      "matched": false
+    }
+  ]
+}

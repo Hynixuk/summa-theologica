@@ -1,0 +1,54 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "100 - Question 138 - OF THE VICES OPPOSED TO PERSEVERANCE (In Two Articles).mp3",
+  "audioRelPath": "vol11/100 - Question 138 - OF THE VICES OPPOSED TO PERSEVERANCE (In Two Articles).mp3",
+  "audioDurationSec": 750,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 117.91,
+    "audioProcessedSec": 750,
+    "realtimeFactor": 0.157,
+    "mp3DecodeSec": 0.87
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 138,
+    "title": "The vices opposed to perseverance"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether effeminacy is opposed to perseverance?",
+      "asrMatchedText": "article. Whether a feminist see is opposed to perseverance. First article.",
+      "approxStartSec": 65.29,
+      "approxStartHMS": "00:01:05",
+      "sourceChunkTimestamp": [
+        63.92,
+        65.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether pertinacity is opposed to perseverance?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 439.56,
+      "approxStartHMS": "00:07:19",
+      "sourceChunkTimestamp": [
+        439.44,
+        441.32
+      ],
+      "matched": true
+    }
+  ]
+}

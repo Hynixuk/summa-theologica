@@ -1,0 +1,126 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "23 - Question 76 - THE WAY IN WHICH CHRIST IS IN THIS SACRAMENT (In Eight Articles).mp3",
+  "audioRelPath": "vol14/23 - Question 76 - THE WAY IN WHICH CHRIST IS IN THIS SACRAMENT (In Eight Articles).mp3",
+  "audioDurationSec": 2900.97,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 903.88,
+    "audioProcessedSec": 2900.97,
+    "realtimeFactor": 0.312,
+    "mp3DecodeSec": 8.28
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 76,
+    "title": "The way in which Christ is in this sacrament"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the whole Christ is contained under this sacrament?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 88.19,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        87.96,
+        91.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the whole Christ is contained under each species of this sacrament?",
+      "asrMatchedText": "Second article, whether the whole Christ is contained under each species of this sacrament.",
+      "approxStartSec": 478.44,
+      "approxStartHMS": "00:07:58",
+      "sourceChunkTimestamp": [
+        478.36,
+        485.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ is entire under every part of the species of the bread and wine?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 771.12,
+      "approxStartHMS": "00:12:51",
+      "sourceChunkTimestamp": [
+        771,
+        772.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the whole dimensive quantity of Christ's body is in this sacrament?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1094.9,
+      "approxStartHMS": "00:18:14",
+      "sourceChunkTimestamp": [
+        1094.8,
+        1096.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether Christ's body is in this sacrament as in a place?",
+      "asrMatchedText": "The fifth article, Whether Christ's Body is in this acriment as in a place.",
+      "approxStartSec": 1425.06,
+      "approxStartHMS": "00:23:45",
+      "sourceChunkTimestamp": [
+        1424.64,
+        1431.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Christ's body is in this sacrament movably?",
+      "asrMatchedText": "Sixth article. Weather Christ's body is in this sacrament moveably. Objection 1. It seems that Christ's body is in this sacrament moveably.",
+      "approxStartSec": 1764.57,
+      "approxStartHMS": "00:29:24",
+      "sourceChunkTimestamp": [
+        1764.56,
+        1766.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the body of Christ, as it is in this sacrament, can be seen by any eye, at least by a glorified one?",
+      "asrMatchedText": "7th article.",
+      "approxStartSec": 2123.23,
+      "approxStartHMS": "00:35:23",
+      "sourceChunkTimestamp": [
+        2123,
+        2126.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether Christ's body is truly there when flesh or a child appears miraculously in this sacrament?",
+      "asrMatchedText": "8th article",
+      "approxStartSec": 2467.83,
+      "approxStartHMS": "00:41:07",
+      "sourceChunkTimestamp": [
+        2467.36,
+        2473.04
+      ],
+      "matched": true
+    }
+  ]
+}

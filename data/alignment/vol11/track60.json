@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "60 - Question 99 - OF SACRILEGE (In Four Articles).mp3",
+  "audioRelPath": "vol11/60 - Question 99 - OF SACRILEGE (In Four Articles).mp3",
+  "audioDurationSec": 1311.27,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 220.47,
+    "audioProcessedSec": 1311.27,
+    "realtimeFactor": 0.168,
+    "mp3DecodeSec": 1.98
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 99,
+    "title": "Sacrilege"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether sacrilege is the violation of a sacred thing?",
+      "asrMatchedText": "First article, whether sacrilege is the violation of a sacred thing.",
+      "approxStartSec": 82.12,
+      "approxStartHMS": "00:01:22",
+      "sourceChunkTimestamp": [
+        82,
+        90.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sacrilege is a special sin?",
+      "asrMatchedText": "Second article, whether sacrilege is a special sin.",
+      "approxStartSec": 370.75,
+      "approxStartHMS": "00:06:10",
+      "sourceChunkTimestamp": [
+        370.64,
+        376.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the species of sacrilege are distinguished according to the sacred things?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 642.63,
+      "approxStartHMS": "00:10:42",
+      "sourceChunkTimestamp": [
+        642.36,
+        646.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the punishment of sacrilege should be pecuniary?",
+      "asrMatchedText": "Fourth article and the same is to be said of other instances. Fourth Article",
+      "approxStartSec": 1025.06,
+      "approxStartHMS": "00:17:05",
+      "sourceChunkTimestamp": [
+        1025,
+        1030
+      ],
+      "matched": true
+    }
+  ]
+}

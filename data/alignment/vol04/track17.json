@@ -1,0 +1,71 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "17 - Question 87 - HOW THE INTELLECTUAL SOUL KNOWS ITSELF AND ALL WITHIN ITSELF (In F.mp3",
+  "audioRelPath": "vol04/17 - Question 87 - HOW THE INTELLECTUAL SOUL KNOWS ITSELF AND ALL WITHIN ITSELF (In F.mp3",
+  "audioDurationSec": 1615.41,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 455.18,
+    "audioProcessedSec": 1615.41,
+    "realtimeFactor": 0.282,
+    "mp3DecodeSec": 3.45
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 87,
+    "title": "How the intellectual soul knows itself and all within itself"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the intellectual soul knows itself by its essence?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether our intellect knows the habits of the soul by their essence?",
+      "asrMatchedText": "Second Article 1 Question 87. Article II.",
+      "approxStartSec": 680.76,
+      "approxStartHMS": "00:11:20",
+      "sourceChunkTimestamp": [
+        680.6,
+        687.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether our intellect knows its own act?",
+      "asrMatchedText": "Third article, 1, question 87, article 3.",
+      "approxStartSec": 991.61,
+      "approxStartHMS": "00:16:31",
+      "sourceChunkTimestamp": [
+        991.6,
+        992.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the intellect understands the act of the will?",
+      "asrMatchedText": "Fourth article, 1, question 87, article 4.",
+      "approxStartSec": 1330.28,
+      "approxStartHMS": "00:22:10",
+      "sourceChunkTimestamp": [
+        1330.16,
+        1335.2
+      ],
+      "matched": true
+    }
+  ]
+}

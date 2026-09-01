@@ -1,0 +1,71 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "65 - Question 54 - OF THE QUALITY OF CHRIST RISING AGAIN (In Four Articles).mp3",
+  "audioRelPath": "vol13/65 - Question 54 - OF THE QUALITY OF CHRIST RISING AGAIN (In Four Articles).mp3",
+  "audioDurationSec": 1858,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 303.79,
+    "audioProcessedSec": 1858,
+    "realtimeFactor": 0.164,
+    "mp3DecodeSec": 3.17
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 54,
+    "title": "The quality of Christ rising again"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ had a true body after His Resurrection?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 70.13,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        70,
+        72
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether Christ's body rose glorified?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ's body rose again entire?",
+      "asrMatchedText": "Third article, WeatherChrist's body rose again. in need of food.",
+      "approxStartSec": 1022.07,
+      "approxStartHMS": "00:17:02",
+      "sourceChunkTimestamp": [
+        1022,
+        1026.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ's body ought to have risen with its scars?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1430.75,
+      "approxStartHMS": "00:23:50",
+      "sourceChunkTimestamp": [
+        1430.64,
+        1432.44
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "31 - Question 113 - OF THE EFFECTS OF GRACE (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol09/31 - Question 113 - OF THE EFFECTS OF GRACE (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 2304.37,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 504.63,
+    "audioProcessedSec": 2304.37,
+    "realtimeFactor": 0.219,
+    "mp3DecodeSec": 3
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 113,
+    "title": "The effects of grace"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the justification of the ungodly is the remission of sins?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the infusion of grace is required for the remission of guilt, i.e. for the justification of the ungodly?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether for the justification of the ungodly is required a movement of the free-will?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a movement of faith is required for the justification of the ungodly?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether for the justification of the ungodly there is required a movement of the free-will towards sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the remission of sins ought to be reckoned amongst the things required for justification?",
+      "asrMatchedText": "Sixth article. Whether the remission of sins ought to be reckoned Part 2, Article 6-10. 6th Article.",
+      "approxStartSec": 44.03,
+      "approxStartHMS": "00:00:44",
+      "sourceChunkTimestamp": [
+        44,
+        47
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the justification of the ungodly takes place in an instant or successively?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the infusion of grace is naturally the first of the things required for the justification of the ungodly?",
+      "asrMatchedText": "It's article. Whether the answer time previous sin in heared. 8th article",
+      "approxStartSec": 1148.48,
+      "approxStartHMS": "00:19:08",
+      "sourceChunkTimestamp": [
+        1144.16,
+        1149.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the justification of the ungodly is God's greatest work?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the justification of the ungodly is a miraculous work?",
+      "asrMatchedText": "10th article. Whether the justification of the ungodly is a miraculous work.",
+      "approxStartSec": 1901.35,
+      "approxStartHMS": "00:31:41",
+      "sourceChunkTimestamp": [
+        1901.2,
+        1912.84
+      ],
+      "matched": true
+    }
+  ]
+}

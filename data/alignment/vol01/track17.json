@@ -1,0 +1,126 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "17 - 16 - Question 16 Of Truth.mp3",
+  "audioRelPath": "vol01/17 - 16 - Question 16 Of Truth.mp3",
+  "audioDurationSec": 2198.41,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 653.6,
+    "audioProcessedSec": 2198.41,
+    "realtimeFactor": 0.297,
+    "mp3DecodeSec": 9.03
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 16,
+    "title": "Truth"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether truth resides only in the intellect?",
+      "asrMatchedText": "on the eternity of truth and on the unchangeableness of truth. First article,",
+      "approxStartSec": 73.46,
+      "approxStartHMS": "00:01:13",
+      "sourceChunkTimestamp": [
+        68.8,
+        74.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether truth resides only in the intellect composing and dividing?",
+      "asrMatchedText": "Second article, whether truth resides only in the intellect composing. The thing is not because the thing is true.",
+      "approxStartSec": 483.02,
+      "approxStartHMS": "00:08:03",
+      "sourceChunkTimestamp": [
+        483,
+        485.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the true and being are convertible terms?",
+      "asrMatchedText": "Third article, whether the true and being are convertible terms.",
+      "approxStartSec": 686.48,
+      "approxStartHMS": "00:11:26",
+      "sourceChunkTimestamp": [
+        686.4,
+        691.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether good is logically prior to the true?",
+      "asrMatchedText": "Fourth article, whether good is logically prior to the true.",
+      "approxStartSec": 909,
+      "approxStartHMS": "00:15:09",
+      "sourceChunkTimestamp": [
+        908.92,
+        913.78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether God is truth?",
+      "asrMatchedText": "Fifth Article, Whether God is Truth",
+      "approxStartSec": 1130.16,
+      "approxStartHMS": "00:18:50",
+      "sourceChunkTimestamp": [
+        1130.04,
+        1134.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there is only one truth, according to which all things are true?",
+      "asrMatchedText": "Sixth article, whether there is only one truth according to which all things are true.",
+      "approxStartSec": 1338.47,
+      "approxStartHMS": "00:22:18",
+      "sourceChunkTimestamp": [
+        1338.4,
+        1344.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether created truth is eternal?",
+      "asrMatchedText": "Seventh article, whether created truth is eternal.",
+      "approxStartSec": 1575.04,
+      "approxStartHMS": "00:26:15",
+      "sourceChunkTimestamp": [
+        1574.96,
+        1579.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether truth is immutable?",
+      "asrMatchedText": "Eighth article, whether truth is immutable. Objection 1, it seems that truth is immutable.",
+      "approxStartSec": 1879.54,
+      "approxStartHMS": "00:31:19",
+      "sourceChunkTimestamp": [
+        1879.46,
+        1886.36
+      ],
+      "matched": true
+    }
+  ]
+}

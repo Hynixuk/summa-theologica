@@ -1,0 +1,78 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "01 - Question 90 - OF THE ESSENCE OF LAW (In Four Articles).mp3",
+  "audioRelPath": "vol09/01 - Question 90 - OF THE ESSENCE OF LAW (In Four Articles).mp3",
+  "audioDurationSec": 1346.9,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 241.49,
+    "audioProcessedSec": 1346.9,
+    "realtimeFactor": 0.179,
+    "mp3DecodeSec": 2.2
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 90,
+    "title": "The essence of law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether law is something pertaining to reason?",
+      "asrMatchedText": "First article, whether law is something pertaining to reason.",
+      "approxStartSec": 116.13,
+      "approxStartHMS": "00:01:56",
+      "sourceChunkTimestamp": [
+        116,
+        124
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the law is always something directed to the common good?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 506.45,
+      "approxStartHMS": "00:08:26",
+      "sourceChunkTimestamp": [
+        506.32,
+        508.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the reason of any man is competent to make laws?",
+      "asrMatchedText": "Third article whether the reason of any man is competent to make laws. It would seem that the reason of any man is competent to make laws.",
+      "approxStartSec": 838.38,
+      "approxStartHMS": "00:13:58",
+      "sourceChunkTimestamp": [
+        838.32,
+        847
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether promulgation is essential to a law?",
+      "asrMatchedText": "Fourth article, whether promulgation is essential to a law.",
+      "approxStartSec": 1125.38,
+      "approxStartHMS": "00:18:45",
+      "sourceChunkTimestamp": [
+        1125.26,
+        1132.44
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "04 - Question 106 - HOW ONE CREATURE MOVES ANOTHER (In Four Articles).mp3",
+  "audioRelPath": "vol05/04 - Question 106 - HOW ONE CREATURE MOVES ANOTHER (In Four Articles).mp3",
+  "audioDurationSec": 1274.15,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 350.59,
+    "audioProcessedSec": 1274.15,
+    "realtimeFactor": 0.275,
+    "mp3DecodeSec": 4.07
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 106,
+    "title": "How one creature moves another"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether one angel enlightens another?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 96.3,
+      "approxStartHMS": "00:01:36",
+      "sourceChunkTimestamp": [
+        96.2,
+        97.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether one angel moves another angel's will?",
+      "asrMatchedText": "Second Article",
+      "approxStartSec": 440.58,
+      "approxStartHMS": "00:07:20",
+      "sourceChunkTimestamp": [
+        440.48,
+        441.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether an inferior angel can enlighten a superior angel?",
+      "asrMatchedText": "Third Article Whether an inferior angel can enlighten",
+      "approxStartSec": 740.98,
+      "approxStartHMS": "00:12:20",
+      "sourceChunkTimestamp": [
+        740.92,
+        744.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the superior angel enlightens the inferior as regards all he himself knows?",
+      "asrMatchedText": "Fourth Article.",
+      "approxStartSec": 999.89,
+      "approxStartHMS": "00:16:39",
+      "sourceChunkTimestamp": [
+        999.8,
+        1001.3
+      ],
+      "matched": true
+    }
+  ]
+}

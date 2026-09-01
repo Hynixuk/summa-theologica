@@ -1,0 +1,78 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "19 - Question 104 - OF THE JUDICIAL PRECEPTS (In Four Articles).mp3",
+  "audioRelPath": "vol09/19 - Question 104 - OF THE JUDICIAL PRECEPTS (In Four Articles).mp3",
+  "audioDurationSec": 1479.45,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 269.96,
+    "audioProcessedSec": 1479.45,
+    "realtimeFactor": 0.182,
+    "mp3DecodeSec": 3.39
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 104,
+    "title": "The judicial precepts"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the judicial precepts were those which directed man in relation to his neighbor?",
+      "asrMatchedText": "First article, whether the judicial precepts were those which directed man in relation",
+      "approxStartSec": 70.26,
+      "approxStartHMS": "00:01:10",
+      "sourceChunkTimestamp": [
+        70.2,
+        75.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the judicial precepts were figurative?",
+      "asrMatchedText": "Second article, whether the judicial precepts were figurative.",
+      "approxStartSec": 491.56,
+      "approxStartHMS": "00:08:11",
+      "sourceChunkTimestamp": [
+        491.4,
+        501.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the judicial precepts of the Old Law bind for ever?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 750.44,
+      "approxStartHMS": "00:12:30",
+      "sourceChunkTimestamp": [
+        750.32,
+        752.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is possible to assign a distinct division of the judicial precepts?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1136.4,
+      "approxStartHMS": "00:18:56",
+      "sourceChunkTimestamp": [
+        1136.28,
+        1138.2
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "21 - Question. 70 - OF THE WORK OF ADORNMENT, AS REGARDS THE FOURTH DAY (THREE ARTICL.mp3",
+  "audioRelPath": "vol03/21 - Question. 70 - OF THE WORK OF ADORNMENT, AS REGARDS THE FOURTH DAY (THREE ARTICL.mp3",
+  "audioDurationSec": 1530.07,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 511.27,
+    "audioProcessedSec": 1530.07,
+    "realtimeFactor": 0.334,
+    "mp3DecodeSec": 3.52
+  },
+  "expectedArticleCount": 3,
+  "matchedArticleCount": 3,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 70,
+    "title": "The work of adornment, as regards the fourth day"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the lights ought to have been produced on the fourth day?",
+      "asrMatchedText": "First article",
+      "approxStartSec": 79.48,
+      "approxStartHMS": "00:01:19",
+      "sourceChunkTimestamp": [
+        79.2,
+        83.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the cause assigned for the production of the lights is reasonable?",
+      "asrMatchedText": "Second article, question 70, article 2, whether the cause assigned for the production of lights",
+      "approxStartSec": 618.3,
+      "approxStartHMS": "00:10:18",
+      "sourceChunkTimestamp": [
+        618.24,
+        624.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the lights of heaven are living beings?",
+      "asrMatchedText": "Third Article, Question 70, Article 3",
+      "approxStartSec": 933.39,
+      "approxStartHMS": "00:15:33",
+      "sourceChunkTimestamp": [
+        933.28,
+        937.28
+      ],
+      "matched": true
+    }
+  ]
+}

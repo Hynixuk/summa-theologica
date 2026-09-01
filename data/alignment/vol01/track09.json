@@ -1,0 +1,54 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "09 - 09 - Question 9 The Immutability of God.mp3",
+  "audioRelPath": "vol01/09 - 09 - Question 9 The Immutability of God.mp3",
+  "audioDurationSec": 717.74,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 204.02,
+    "audioProcessedSec": 717.74,
+    "realtimeFactor": 0.284,
+    "mp3DecodeSec": 2.55
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 9,
+    "title": "The immutability of God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God is altogether immutable?",
+      "asrMatchedText": "First article, whether God is altogether immutable.",
+      "approxStartSec": 55.26,
+      "approxStartHMS": "00:00:55",
+      "sourceChunkTimestamp": [
+        55.18,
+        59.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether to be immutable belongs to God alone?",
+      "asrMatchedText": "Second article whether to be immutable belongs to God alone.",
+      "approxStartSec": 305.74,
+      "approxStartHMS": "00:05:05",
+      "sourceChunkTimestamp": [
+        305.66,
+        310.52
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "pilot": true,
+  "question": {
+    "part": 1,
+    "question": 1,
+    "title": "The nature and extent of sacred doctrine"
+  },
+  "audioFile": "01 - 01 - Prologue; Question 1 The Nature and Extent of Sacred Doctrine.mp3",
+  "audioDurationSec": 2747.06,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "sentence/chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Word-level timestamps were NOT computed in this pilot (scope was reduced mid-task to article-level boundaries only, per updated instructions). Chunk-level timestamps interpolated by char-position give boundary precision of roughly +/-2-4 seconds, not word-level precision."
+  },
+  "timing": {
+    "fullFileInferenceSec": 643.7,
+    "audioProcessedSec": 2747.1,
+    "realtimeFactor": 0.234,
+    "modelLoadSec": 2.8,
+    "mp3DecodeSec": 4.25,
+    "notes": "CPU-only (WASM). GPU/DirectML (device:'dml') was attempted per request but hung indefinitely on a 15s test clip with the tiny model and was aborted after ~3 min; not pursued further given the CPU path already runs well under realtime."
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether, besides philosophy, any further doctrine is required?",
+      "asrMatchedText": "First article, whether besides philosophy any further doctrine is required.",
+      "approxStartSec": 0,
+      "approxStartHMS": "00:00:00",
+      "sourceChunkTimestamp": [
+        168.16,
+        175.52
+      ],
+      "note": "Defined as 0:00 (start of file). ASR actually located the spoken 'First article' heading at ~168s; the ~0:00-2:48 span is LibriVox boilerplate intro + the Summa's Prologue text, neither of which is present in the ground-truth JSON (out of scope for Question 1's articles)."
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether sacred doctrine is a science?",
+      "asrMatchedText": "is part of philosophy. Second article whether Sacred Doctrine is a Science",
+      "approxStartSec": 440.8,
+      "approxStartHMS": "00:07:20",
+      "sourceChunkTimestamp": [
+        437.88,
+        447
+      ]
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether sacred doctrine is one science?",
+      "asrMatchedText": "Third article, whether sacred doctrine is one science.",
+      "approxStartSec": 618.91,
+      "approxStartHMS": "00:10:18",
+      "sourceChunkTimestamp": [
+        618.8,
+        624.6
+      ]
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether sacred doctrine is a practical science?",
+      "asrMatchedText": "Fourth article, whether sacred doctrine is a practical science. Objection one, it",
+      "approxStartSec": 810.33,
+      "approxStartHMS": "00:13:30",
+      "sourceChunkTimestamp": [
+        810.22,
+        819.08
+      ]
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether sacred doctrine is nobler than other sciences?",
+      "asrMatchedText": "Fifth article, whether sacred doctrine is nobler than other sciences.",
+      "approxStartSec": 936.95,
+      "approxStartHMS": "00:15:36",
+      "sourceChunkTimestamp": [
+        936.84,
+        944.56
+      ]
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether this doctrine is the same as wisdom?",
+      "asrMatchedText": "Sixth article, whether this doctrine is the same as wisdom.",
+      "approxStartSec": 1214.57,
+      "approxStartHMS": "00:20:14",
+      "sourceChunkTimestamp": [
+        1214.48,
+        1219.76
+      ]
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether God is the object of this science?",
+      "asrMatchedText": "Seventh Article Whether God is the Object of this Science",
+      "approxStartSec": 1516.65,
+      "approxStartHMS": "00:25:16",
+      "sourceChunkTimestamp": [
+        1516.56,
+        1521.92
+      ]
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether sacred doctrine is a matter of argument?",
+      "asrMatchedText": "Eighth article, whether sacred doctrine is a matter of argument.",
+      "approxStartSec": 1729.08,
+      "approxStartHMS": "00:28:49",
+      "sourceChunkTimestamp": [
+        1729,
+        1734
+      ]
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether Holy Scripture should use metaphors?",
+      "asrMatchedText": "Ninth article, whether Holy Scripture should use metaphors.",
+      "approxStartSec": 2074.79,
+      "approxStartHMS": "00:34:34",
+      "sourceChunkTimestamp": [
+        2074.7,
+        2079.94
+      ]
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether in Holy Scripture a word may have several senses?",
+      "asrMatchedText": "10th article, whether in Scripture a word may have several senses.",
+      "approxStartSec": 2387.13,
+      "approxStartHMS": "00:39:47",
+      "sourceChunkTimestamp": [
+        2387,
+        2395.8
+      ]
+    }
+  ]
+}

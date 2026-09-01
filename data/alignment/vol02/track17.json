@@ -1,0 +1,126 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "17 - Question 43 The Mission of the Divine Persons.mp3",
+  "audioRelPath": "vol02/17 - Question 43 The Mission of the Divine Persons.mp3",
+  "audioDurationSec": 2488,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 386.15,
+    "audioProcessedSec": 2488,
+    "realtimeFactor": 0.155,
+    "mp3DecodeSec": 3.67
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 43,
+    "title": "The mission of the divine persons"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a divine person can be properly sent?",
+      "asrMatchedText": "First article, whether a divine person can be properly sent. Objection one, it would",
+      "approxStartSec": 74.8,
+      "approxStartHMS": "00:01:14",
+      "sourceChunkTimestamp": [
+        74.72,
+        81.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether mission is eternal, or only temporal?",
+      "asrMatchedText": "Second article, whether mission is eternal or only temporal.",
+      "approxStartSec": 284.07,
+      "approxStartHMS": "00:04:44",
+      "sourceChunkTimestamp": [
+        284,
+        288.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the invisible mission of the divine person is only according to the gift of sanctifying grace?",
+      "asrMatchedText": "Third article, whether the invisible mission of the divine person is only",
+      "approxStartSec": 476.96,
+      "approxStartHMS": "00:07:56",
+      "sourceChunkTimestamp": [
+        476.9,
+        481
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Father can be fittingly sent?",
+      "asrMatchedText": "Fourth article whether the Father can be fittingly sent.",
+      "approxStartSec": 828.85,
+      "approxStartHMS": "00:13:48",
+      "sourceChunkTimestamp": [
+        828.76,
+        833.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether it is fitting for the Son to be sent invisibly?",
+      "asrMatchedText": "Fifth article, whether it is fitting for the sun to be sent invisibly.",
+      "approxStartSec": 1003.55,
+      "approxStartHMS": "00:16:43",
+      "sourceChunkTimestamp": [
+        1003.48,
+        1008.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the invisible mission is to all who participate grace?",
+      "asrMatchedText": "person separated from the other. Sixth article, whether the invisible mission",
+      "approxStartSec": 1336.05,
+      "approxStartHMS": "00:22:16",
+      "sourceChunkTimestamp": [
+        1332.72,
+        1340.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether it is fitting for the Holy Ghost to be sent visibly?",
+      "asrMatchedText": "Seventh article, whether it is fitting for the Holy Ghost to be sent visibly.",
+      "approxStartSec": 1641.67,
+      "approxStartHMS": "00:27:21",
+      "sourceChunkTimestamp": [
+        1641.6,
+        1647.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether a divine person is sent only by the person whence He proceeds eternally?",
+      "asrMatchedText": "8th article, whether a divine person is sent only by the person whence he proceeds eternally.",
+      "approxStartSec": 2287.9,
+      "approxStartHMS": "00:38:07",
+      "sourceChunkTimestamp": [
+        2287.8,
+        2296.9
+      ],
+      "matched": true
+    }
+  ]
+}

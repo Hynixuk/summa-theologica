@@ -1,0 +1,54 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "77 - Question 116 - OF QUARRELING (In Two Articles).mp3",
+  "audioRelPath": "vol11/77 - Question 116 - OF QUARRELING (In Two Articles).mp3",
+  "audioDurationSec": 578.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 154.41,
+    "audioProcessedSec": 578.01,
+    "realtimeFactor": 0.267,
+    "mp3DecodeSec": 1.79
+  },
+  "expectedArticleCount": 2,
+  "matchedArticleCount": 2,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 116,
+    "title": "Quarreling"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether quarreling is opposed to the virtue of friendship or affability?",
+      "asrMatchedText": "Second, of its comparison with flattery. First article, whether quarrelling is opposed to the virtue of friendship or affability.",
+      "approxStartSec": 59.56,
+      "approxStartHMS": "00:00:59",
+      "sourceChunkTimestamp": [
+        55.04,
+        69.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether quarreling is a more grievous sin than flattery?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 275.13,
+      "approxStartHMS": "00:04:35",
+      "sourceChunkTimestamp": [
+        275,
+        277
+      ],
+      "matched": true
+    }
+  ]
+}

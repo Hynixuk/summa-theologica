@@ -1,0 +1,143 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "23 - Question 19 - OF THE GOODNESS AND MALICE OF THE INTERIOR ACT OF THE WILL (In Ten.mp3",
+  "audioRelPath": "vol06/23 - Question 19 - OF THE GOODNESS AND MALICE OF THE INTERIOR ACT OF THE WILL (In Ten.mp3",
+  "audioDurationSec": 3404.64,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 759.63,
+    "audioProcessedSec": 3404.64,
+    "realtimeFactor": 0.223,
+    "mp3DecodeSec": 5.97
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 9,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 19,
+    "title": "The goodness and malice of the interior act of the will"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the goodness of the will depends on the object?",
+      "asrMatchedText": "First article 1-2.",
+      "approxStartSec": 115.36,
+      "approxStartHMS": "00:01:55",
+      "sourceChunkTimestamp": [
+        115.2,
+        118.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the goodness of the will depends on the object alone?",
+      "asrMatchedText": "Second Article 1-2, Question 19, Article 2.",
+      "approxStartSec": 348.65,
+      "approxStartHMS": "00:05:48",
+      "sourceChunkTimestamp": [
+        348.52,
+        354.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the goodness of the will depends on reason?",
+      "asrMatchedText": "of the act which he wills. Third article, 1-2, question 19, Article 3.",
+      "approxStartSec": 663.85,
+      "approxStartHMS": "00:11:03",
+      "sourceChunkTimestamp": [
+        661.04,
+        668.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the goodness of the will depends on the eternal law?",
+      "asrMatchedText": "Fourth Article 1-2, Question 19, Article 4.",
+      "approxStartSec": 872.16,
+      "approxStartHMS": "00:14:32",
+      "sourceChunkTimestamp": [
+        872.04,
+        877.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the will is evil when it is at variance with erring reason?",
+      "asrMatchedText": "Fifth article, 1-2, question 19, article 5.",
+      "approxStartSec": 1067.62,
+      "approxStartHMS": "00:17:47",
+      "sourceChunkTimestamp": [
+        1067.52,
+        1071.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the will is good when it abides by erring reason?",
+      "asrMatchedText": "Sixth Article 1-2, Question 19, Article 6.",
+      "approxStartSec": 1606.71,
+      "approxStartHMS": "00:26:46",
+      "sourceChunkTimestamp": [
+        1606.6,
+        1611.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the goodness of the will, as regards the means, depends on the intention of the end?",
+      "asrMatchedText": "7th Article 1-2, Question 19, Article 7.",
+      "approxStartSec": 1987.26,
+      "approxStartHMS": "00:33:07",
+      "sourceChunkTimestamp": [
+        1987.12,
+        1992.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the degree of goodness or malice in the will depends on the degree of good or evil in the intention?",
+      "asrMatchedText": "Eighth Article 1-2-19 Article 8. Whether the degree of goodness or malice in the will",
+      "approxStartSec": 2252.06,
+      "approxStartHMS": "00:37:32",
+      "sourceChunkTimestamp": [
+        2251.96,
+        2260.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether the goodness of the will depends on its conformity to the Divine will?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether it is necessary for the human will, in order to be good, to be conformed to the Divine will, as regards the thing willed?",
+      "asrMatchedText": "Tenth Article 1-2, Question 19, Article 10. Whether it is necessary for the human will in order",
+      "approxStartSec": 2820.13,
+      "approxStartHMS": "00:47:00",
+      "sourceChunkTimestamp": [
+        2820.04,
+        2828.28
+      ],
+      "matched": true
+    }
+  ]
+}

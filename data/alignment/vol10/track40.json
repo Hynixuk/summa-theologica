@@ -1,0 +1,108 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "40 - Question 32 - OF ALMSDEEDS (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol10/40 - Question 32 - OF ALMSDEEDS (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 1908.51,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 541.59,
+    "audioProcessedSec": 1908.51,
+    "realtimeFactor": 0.284,
+    "mp3DecodeSec": 5.42
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 32,
+    "title": "Almsdeeds"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether almsgiving is an act of charity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the different kinds of almsdeeds are suitably enumerated?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether corporal alms are of more account than spiritual alms?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether corporal almsdeeds have a spiritual effect?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether almsgiving is a matter of precept?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether one ought to give alms out of what one needs?",
+      "asrMatchedText": "Sixth article. Whether one ought to give alms out of what one needs.",
+      "approxStartSec": 47.47,
+      "approxStartHMS": "00:00:47",
+      "sourceChunkTimestamp": [
+        47.36,
+        55.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether one may give alms out of ill-gotten goods?",
+      "asrMatchedText": "Seventh Article Whether One May Give Arms Out of Ill-Gotten Goods",
+      "approxStartSec": 371.35,
+      "approxStartHMS": "00:06:11",
+      "sourceChunkTimestamp": [
+        371.28,
+        376
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether one who is under another's power can give alms?",
+      "asrMatchedText": "Eighth article.",
+      "approxStartSec": 872.69,
+      "approxStartHMS": "00:14:32",
+      "sourceChunkTimestamp": [
+        872.56,
+        874.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether one ought to give alms to those rather who are more closely united to us?",
+      "asrMatchedText": "Ninth Article Whether one ought to give alms to those rather",
+      "approxStartSec": 1277.35,
+      "approxStartHMS": "00:21:17",
+      "sourceChunkTimestamp": [
+        1277.28,
+        1281.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether alms should be given in abundance?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "19 - Question. 68 - ON THE WORK OF THE SECOND DAY (FOUR ARTICLES).mp3",
+  "audioRelPath": "vol03/19 - Question. 68 - ON THE WORK OF THE SECOND DAY (FOUR ARTICLES).mp3",
+  "audioDurationSec": 1882.04,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 935.55,
+    "audioProcessedSec": 1882.04,
+    "realtimeFactor": 0.497,
+    "mp3DecodeSec": 7.33
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 68,
+    "title": "The work of the second day"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the firmament was made on the second day?",
+      "asrMatchedText": "First article, 1. Question 68, article 1.",
+      "approxStartSec": 60.39,
+      "approxStartHMS": "00:01:00",
+      "sourceChunkTimestamp": [
+        60.28,
+        64.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there are waters above the firmament?",
+      "asrMatchedText": "Second Article I, Question 68, Article II. Whether there are waters above the firmament.",
+      "approxStartSec": 618.23,
+      "approxStartHMS": "00:10:18",
+      "sourceChunkTimestamp": [
+        618.14,
+        626.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the firmament divides waters from waters?",
+      "asrMatchedText": "Third article, one, question 68, article 3,",
+      "approxStartSec": 1117.17,
+      "approxStartHMS": "00:18:37",
+      "sourceChunkTimestamp": [
+        1117.06,
+        1122.06
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there is only one heaven?",
+      "asrMatchedText": "with sense in which the word is used. Fourth article, 1, question 68, article 4, whether there",
+      "approxStartSec": 1465.18,
+      "approxStartHMS": "00:24:25",
+      "sourceChunkTimestamp": [
+        1463,
+        1468.32
+      ],
+      "matched": true
+    }
+  ]
+}

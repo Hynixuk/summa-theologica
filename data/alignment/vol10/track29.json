@@ -1,0 +1,132 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "29 - Question 24 - OF THE SUBJECT OF CHARITY (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol10/29 - Question 24 - OF THE SUBJECT OF CHARITY (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 2817.52,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 385.6,
+    "audioProcessedSec": 2817.52,
+    "realtimeFactor": 0.137,
+    "mp3DecodeSec": 4.51
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 24,
+    "title": "The subject of charity"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the will is the subject of charity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether charity is caused in us by infusion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether charity is infused according to the capacity of our natural gifts?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether charity can increase?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether charity increases by addition?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether charity increases through every act of charity?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether charity increases indefinitely?",
+      "asrMatchedText": "7th article. Whether charity increases indefinitely.",
+      "approxStartSec": 47.13,
+      "approxStartHMS": "00:00:47",
+      "sourceChunkTimestamp": [
+        47,
+        54
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether charity can be perfect in this life?",
+      "asrMatchedText": "8th Article Whether Charity Can Be Perfect In This Life",
+      "approxStartSec": 409.94,
+      "approxStartHMS": "00:06:49",
+      "sourceChunkTimestamp": [
+        409.76,
+        420
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether charity is rightly distinguished into three degrees, beginning, progress, and perfection?",
+      "asrMatchedText": "9th article",
+      "approxStartSec": 730.08,
+      "approxStartHMS": "00:12:10",
+      "sourceChunkTimestamp": [
+        730,
+        731
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether charity can decrease?",
+      "asrMatchedText": "10th article with the proficient about progressing in virtue.",
+      "approxStartSec": 1063.7,
+      "approxStartHMS": "00:17:43",
+      "sourceChunkTimestamp": [
+        1063.68,
+        1065
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether we can lose charity when once we have it?",
+      "asrMatchedText": "11th article. Whether we can lose charity when once we have it.",
+      "approxStartSec": 1669.2,
+      "approxStartHMS": "00:27:49",
+      "sourceChunkTimestamp": [
+        1669.12,
+        1674.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether charity is lost through one mortal sin?",
+      "asrMatchedText": "12th article, whether charity is lost through one mortal sin.",
+      "approxStartSec": 2196.72,
+      "approxStartHMS": "00:36:36",
+      "sourceChunkTimestamp": [
+        2196.64,
+        2201.44
+      ],
+      "matched": true
+    }
+  ]
+}

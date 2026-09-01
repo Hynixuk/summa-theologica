@@ -1,0 +1,95 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "61 - Question 100 - ON SIMONY (In Six Articles).mp3",
+  "audioRelPath": "vol11/61 - Question 100 - ON SIMONY (In Six Articles).mp3",
+  "audioDurationSec": 3635.64,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 630.21,
+    "audioProcessedSec": 3635.64,
+    "realtimeFactor": 0.173,
+    "mp3DecodeSec": 5.01
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 100,
+    "title": "Simony"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether simony is an intentional will to buy or sell something spiritual or connected with a spiritual thing?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 91.54,
+      "approxStartHMS": "00:01:31",
+      "sourceChunkTimestamp": [
+        91.4,
+        93.5
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is always unlawful to give money for the sacraments?",
+      "asrMatchedText": "Second article, whether it is always unlawful to give money for the sacraments.",
+      "approxStartSec": 800.34,
+      "approxStartHMS": "00:13:20",
+      "sourceChunkTimestamp": [
+        800.24,
+        808.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is lawful to give and receive money for spiritual actions?",
+      "asrMatchedText": "Third article, whether it is lawful to give and receive money for spiritual actions.",
+      "approxStartSec": 1355.77,
+      "approxStartHMS": "00:22:35",
+      "sourceChunkTimestamp": [
+        1355.68,
+        1363.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether it is lawful to receive money for things annexed to spiritual things?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1962.76,
+      "approxStartHMS": "00:32:42",
+      "sourceChunkTimestamp": [
+        1962.64,
+        1964.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether it is lawful to grant spiritual things in return for an equivalent of service, or for an oral remuneration?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether those who are guilty of simony are fittingly punished by being deprived of what they have acquired by simony?",
+      "asrMatchedText": "6th article. Whether those who are guilty of Simoni.",
+      "approxStartSec": 2822.82,
+      "approxStartHMS": "00:47:02",
+      "sourceChunkTimestamp": [
+        2822.76,
+        2825.8
+      ],
+      "matched": true
+    }
+  ]
+}

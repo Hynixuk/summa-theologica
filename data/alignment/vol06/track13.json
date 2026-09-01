@@ -1,0 +1,64 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "13 - Question 11 - OF ENJOYMENT, WHICH IS AN ACT OF THE WILL (In Four Articles).mp3",
+  "audioRelPath": "vol06/13 - Question 11 - OF ENJOYMENT, WHICH IS AN ACT OF THE WILL (In Four Articles).mp3",
+  "audioDurationSec": 1321.48,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 368.55,
+    "audioProcessedSec": 1321.48,
+    "realtimeFactor": 0.279,
+    "mp3DecodeSec": 3.79
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 2,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 11,
+    "title": "Enjoyment which is an act of the will"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether to enjoy is an act of the appetitive power?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether to enjoy belongs to the rational creature alone, or also to irrational animals?",
+      "asrMatchedText": "Second Article 1-2, Question 11, Article 2 Whether to enjoy belongs to the rational creature alone or also to irrational animals.",
+      "approxStartSec": 378.99,
+      "approxStartHMS": "00:06:18",
+      "sourceChunkTimestamp": [
+        378.88,
+        392.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether enjoyment is only of the last end?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether enjoyment is only of the end possessed?",
+      "asrMatchedText": "Fourth Article 1-2 Question 11 Article 4",
+      "approxStartSec": 1074.19,
+      "approxStartHMS": "00:17:54",
+      "sourceChunkTimestamp": [
+        1074.04,
+        1080.2
+      ],
+      "matched": true
+    }
+  ]
+}

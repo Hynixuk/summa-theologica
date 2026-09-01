@@ -1,0 +1,71 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "11 - Question 112 - THE MISSION OF THE ANGELS (In Four Articles).mp3",
+  "audioRelPath": "vol05/11 - Question 112 - THE MISSION OF THE ANGELS (In Four Articles).mp3",
+  "audioDurationSec": 1288.44,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 317.72,
+    "audioProcessedSec": 1288.44,
+    "realtimeFactor": 0.247,
+    "mp3DecodeSec": 2.05
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 112,
+    "title": "The mission of the angels"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the angels are sent on works of ministry?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether all the angels are sent in ministry?",
+      "asrMatchedText": "Second article",
+      "approxStartSec": 434.36,
+      "approxStartHMS": "00:07:14",
+      "sourceChunkTimestamp": [
+        434.26,
+        435.7
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether all the angels who are sent, assist?",
+      "asrMatchedText": "Third Article. Whether all the angels who are sent assist.",
+      "approxStartSec": 720.09,
+      "approxStartHMS": "00:12:00",
+      "sourceChunkTimestamp": [
+        720,
+        725.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether all the angels of the second hierarchy are sent?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 970.51,
+      "approxStartHMS": "00:16:10",
+      "sourceChunkTimestamp": [
+        970.44,
+        971.44
+      ],
+      "matched": true
+    }
+  ]
+}

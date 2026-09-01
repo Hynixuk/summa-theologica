@@ -1,0 +1,83 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "35 - Question 81 - OF THE CAUSE OF SIN, ON THE PART OF MAN (In Five Articles).mp3",
+  "audioRelPath": "vol08/35 - Question 81 - OF THE CAUSE OF SIN, ON THE PART OF MAN (In Five Articles).mp3",
+  "audioDurationSec": 2212.72,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 512.08,
+    "audioProcessedSec": 2212.72,
+    "realtimeFactor": 0.231,
+    "mp3DecodeSec": 7.05
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 81,
+    "title": "The cause of sin, on the part of man"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the first sin of our first parent is contracted by his descendants, by way of origin?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 138.13,
+      "approxStartHMS": "00:02:18",
+      "sourceChunkTimestamp": [
+        138,
+        140
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether also other sins of the first parent or of nearer ancestors are transmitted to their descendants?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 817.38,
+      "approxStartHMS": "00:13:37",
+      "sourceChunkTimestamp": [
+        817,
+        823.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the sin of the first parent is transmitted, by the way of origin, to all men?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether original sin would be contracted by a person formed miraculously from human flesh?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1562.58,
+      "approxStartHMS": "00:26:02",
+      "sourceChunkTimestamp": [
+        1562.48,
+        1564
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether if Eve, and not Adam, had sinned, their children would have contracted original sin?",
+      "asrMatchedText": "Fifth Article Whether if Eve and not Adam had sinned, their",
+      "approxStartSec": 1812.17,
+      "approxStartHMS": "00:30:12",
+      "sourceChunkTimestamp": [
+        1812.08,
+        1817.76
+      ],
+      "matched": true
+    }
+  ]
+}

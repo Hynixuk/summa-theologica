@@ -1,0 +1,83 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "05 - Question 107 - THE SPEECH OF THE ANGELS (In Five Articles).mp3",
+  "audioRelPath": "vol05/05 - Question 107 - THE SPEECH OF THE ANGELS (In Five Articles).mp3",
+  "audioDurationSec": 1200.2,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 199.41,
+    "audioProcessedSec": 1200.2,
+    "realtimeFactor": 0.166,
+    "mp3DecodeSec": 1.94
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 107,
+    "title": "The speech of the angels"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether one angel speaks to another?",
+      "asrMatchedText": "First article, Part 1, Question 107, Article 1. Whether one angel speaks to another.",
+      "approxStartSec": 66.99,
+      "approxStartHMS": "00:01:06",
+      "sourceChunkTimestamp": [
+        66.88,
+        76.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the inferior angel speaks to the superior?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether an angel speaks to God?",
+      "asrMatchedText": "Third Article Part 1, Question 107, Article 3",
+      "approxStartSec": 694.09,
+      "approxStartHMS": "00:11:34",
+      "sourceChunkTimestamp": [
+        693.96,
+        699.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether local distance influences the angelic speech?",
+      "asrMatchedText": "Fourth article, part one, question 107, article four.",
+      "approxStartSec": 871.7,
+      "approxStartHMS": "00:14:31",
+      "sourceChunkTimestamp": [
+        871.6,
+        876.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether all the angels know what one speaks to another?",
+      "asrMatchedText": "5th Article Part 1 Question 107 Article 5. Whether all the angels know what one speaks to another.",
+      "approxStartSec": 1042.72,
+      "approxStartHMS": "00:17:22",
+      "sourceChunkTimestamp": [
+        1042.64,
+        1051
+      ],
+      "matched": true
+    }
+  ]
+}

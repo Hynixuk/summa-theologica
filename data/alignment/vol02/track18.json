@@ -1,0 +1,78 @@
+{
+  "volume": 2,
+  "part": 1,
+  "audioFile": "18 - Question 44 The Procession of Creatures from God, and of the First Cause of all .mp3",
+  "audioRelPath": "vol02/18 - Question 44 The Procession of Creatures from God, and of the First Cause of all .mp3",
+  "audioDurationSec": 1259.77,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 175.51,
+    "audioProcessedSec": 1259.77,
+    "realtimeFactor": 0.139,
+    "mp3DecodeSec": 1.57
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 44,
+    "title": "The procession of creatures from God, and of the first cause of all things"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is necessary that every being be created by God?",
+      "asrMatchedText": "First article, whether it is necessary that every being be created by God.",
+      "approxStartSec": 102.79,
+      "approxStartHMS": "00:01:42",
+      "sourceChunkTimestamp": [
+        102.72,
+        108.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether primary matter is created by God?",
+      "asrMatchedText": "Second article, whether primary matter is created by God.",
+      "approxStartSec": 392.33,
+      "approxStartHMS": "00:06:32",
+      "sourceChunkTimestamp": [
+        392.24,
+        397.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the exemplar cause is anything besides God?",
+      "asrMatchedText": "Third article, whether the exemplar cause is anything besides God.",
+      "approxStartSec": 698.48,
+      "approxStartHMS": "00:11:38",
+      "sourceChunkTimestamp": [
+        698.4,
+        703.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether God is the final cause of all things?",
+      "asrMatchedText": "Fourth article, whether God is the final cause of all things.",
+      "approxStartSec": 1025.89,
+      "approxStartHMS": "00:17:05",
+      "sourceChunkTimestamp": [
+        1025.8,
+        1031.64
+      ],
+      "matched": true
+    }
+  ]
+}

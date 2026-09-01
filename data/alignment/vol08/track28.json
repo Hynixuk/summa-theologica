@@ -1,0 +1,101 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "28 - Question 74 - OF THE SUBJECT OF SIN (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol08/28 - Question 74 - OF THE SUBJECT OF SIN (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 1982.61,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 512.83,
+    "audioProcessedSec": 1982.61,
+    "realtimeFactor": 0.259,
+    "mp3DecodeSec": 7.85
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 74,
+    "title": "The subject of sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the will is a subject of sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the will alone is the subject of sin?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there can be sin in the sensuality?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether mortal sin can be in the sensuality?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether sin can be in the reason?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the sin of morose delectation is in the reason?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the sin of consent to the act is in the higher reason?",
+      "asrMatchedText": "Seventh article. Whether the sin of consent to the act is in the higher reason.",
+      "approxStartSec": 50.91,
+      "approxStartHMS": "00:00:50",
+      "sourceChunkTimestamp": [
+        50.8,
+        59.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether consent to delectation is a mortal sin?",
+      "asrMatchedText": "8th article, Weather Consent to delectation is a mortal sin.",
+      "approxStartSec": 601.12,
+      "approxStartHMS": "00:10:01",
+      "sourceChunkTimestamp": [
+        601,
+        608.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether there can be venial sin in the higher reason as directing the lower powers?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether venial sin can be in the higher reason as such?",
+      "asrMatchedText": "Tenth Article Whether Veneal Sin Can Be In The Higher Reason As Such",
+      "approxStartSec": 1553.19,
+      "approxStartHMS": "00:25:53",
+      "sourceChunkTimestamp": [
+        1553.12,
+        1557.84
+      ],
+      "matched": true
+    }
+  ]
+}

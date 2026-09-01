@@ -1,0 +1,181 @@
+// Lightweight watcher that periodically re-runs build-data-scg.cjs's logic to keep
+// app/data-scg.js fresh as scripts/generate-scg-tts.cjs (running separately, read-only
+// from here) produces more audio/scg_book{1-4}/*.mp3 files and rewrites each book's
+// audio/scg_book{1-4}/manifest.json over time.
+//
+// This script is READ-ONLY with respect to audio/scg_book*/ and data/text/scg_book*.json,
+// and does not touch scripts/generate-scg-tts.cjs. It only reads those small JSON files
+// and writes app/data-scg.js.
+//
+// It does its own file scan on each tick (cheap: just fs.statSync of a handful of small
+// JSON files) and skips rewriting data-scg.js unless the underlying data actually changed
+// (tracked via a simple content signature: file count + total mtime + total size), same
+// trick as watch-alignment-index.cjs.
+//
+// Usage: node scripts/watch-scg-data.cjs [intervalMinutes]
+//   intervalMinutes defaults to 3. Runs indefinitely until killed (Ctrl+C).
+
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.join(__dirname, '..');
+const TEXT_DIR = path.join(ROOT, 'data', 'text');
+const AUDIO_DIR = path.join(ROOT, 'audio');
+const OUT_FILE = path.join(ROOT, 'app', 'data-scg.js');
+
+const BOOK_ROMAN = { 1: 'I', 2: 'II', 3: 'III', 4: 'IV' };
+
+const INTERVAL_MINUTES = Number(process.argv[2]) > 0 ? Number(process.argv[2]) : 3;
+const INTERVAL_MS = INTERVAL_MINUTES * 60 * 1000;
+
+function watchedFiles() {
+  const files = [];
+  for (let book = 1; book <= 4; book++) {
+    files.push(path.join(TEXT_DIR, `scg_book${book}.json`));
+    files.push(path.join(AUDIO_DIR, `scg_book${book}`, 'manifest.json'));
+  }
+  return files;
+}
+
+// Compute a cheap signature of the watched files (file count + sum of mtimes + sum of
+// sizes) without reading any file bodies, so a no-change tick is nearly free. Missing
+// files (e.g. book4's manifest.json before the TTS job has produced any chapters yet)
+// simply contribute 0 and are naturally picked up once they appear.
+function computeSignature(files) {
+  var existingCount = 0;
+  var mtimeSum = 0;
+  var sizeSum = 0;
+  files.forEach(function (f) {
+    try {
+      const st = fs.statSync(f);
+      existingCount++;
+      mtimeSum += st.mtimeMs;
+      sizeSum += st.size;
+    } catch (e) {
+      // File doesn't exist yet (e.g. book4 manifest before first chapter finishes) — ignore.
+    }
+  });
+  return existingCount + ':' + Math.round(mtimeSum) + ':' + sizeSum;
+}
+
+function loadBookText(book) {
+  const file = path.join(TEXT_DIR, `scg_book${book}.json`);
+  if (!fs.existsSync(file)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf-8'));
+  } catch (e) {
+    console.error(`[watch-scg-data] Failed to parse ${file}: ${e.message}`);
+    return null;
+  }
+}
+
+function loadAudioManifest(book) {
+  const manifestPath = path.join(AUDIO_DIR, `scg_book${book}`, 'manifest.json');
+  if (!fs.existsSync(manifestPath)) return null;
+  try {
+    return JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
+  } catch (e) {
+    // May be mid-write by generate-scg-tts.cjs — skip silently, picked up next tick.
+    return null;
+  }
+}
+
+// Mirrors build-data-scg.cjs's main() logic.
+function buildData() {
+  const textIndex = {};
+  const books = [];
+  const perBookStats = [];
+
+  for (let book = 1; book <= 4; book++) {
+    const chapters = loadBookText(book);
+    if (!chapters || !chapters.length) {
+      books.push({ book, bookTitle: null, roman: BOOK_ROMAN[book], chapters: [], hasAnyText: false });
+      perBookStats.push({ book, withAudio: 0, total: 0, hasText: false });
+      continue;
+    }
+
+    const manifest = loadAudioManifest(book);
+    const trackByNumber = {};
+    if (manifest && Array.isArray(manifest.tracks)) {
+      manifest.tracks.forEach((t) => { trackByNumber[t.track] = t; });
+    }
+
+    const sortedChapters = chapters.slice().sort((a, b) => a.chapter - b.chapter);
+    const bookTitle = sortedChapters[0].bookTitle || `Book ${BOOK_ROMAN[book]}`;
+    var withAudio = 0;
+
+    const chapterList = sortedChapters.map((c) => {
+      const track = trackByNumber[c.chapter] || null;
+      const key = `B${book}C${c.chapter}`;
+      textIndex[key] = {
+        book,
+        chapter: c.chapter,
+        title: c.title,
+        paragraphs: c.paragraphs,
+        hasAudio: !!track,
+        audioFile: track ? `../audio/scg_book${book}/${track.file}` : null,
+        durationSeconds: track ? track.durationSeconds : null,
+      };
+      if (track) withAudio++;
+      return { chapter: c.chapter, title: c.title, hasAudio: !!track };
+    });
+
+    books.push({
+      book,
+      bookTitle,
+      roman: BOOK_ROMAN[book],
+      hasAnyText: true,
+      chapters: chapterList,
+    });
+    perBookStats.push({ book, withAudio, total: chapterList.length, hasText: true });
+  }
+
+  return { books, textIndex, perBookStats };
+}
+
+function writeData(books, textIndex) {
+  const out = [];
+  out.push('// Auto-generated by scripts/build-data-scg.cjs (kept fresh by scripts/watch-scg-data.cjs) — do not edit by hand.');
+  out.push('// Rebuild any time with: node scripts/build-data-scg.cjs');
+  out.push(`window.SCG_BOOKS = ${JSON.stringify(books, null, 2)};`);
+  out.push(`window.SCG_TEXT = ${JSON.stringify(textIndex, null, 2)};`);
+  fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
+  fs.writeFileSync(OUT_FILE, out.join('\n') + '\n', 'utf-8');
+}
+
+let lastSignature = null;
+
+function tick() {
+  var files;
+  try {
+    files = watchedFiles();
+  } catch (e) {
+    console.error('[watch-scg-data] scan failed: ' + e.message);
+    return;
+  }
+
+  const signature = computeSignature(files);
+  if (signature === lastSignature) {
+    // Nothing changed since last tick — stay quiet.
+    return;
+  }
+
+  const { books, textIndex, perBookStats } = buildData();
+  writeData(books, textIndex);
+  lastSignature = signature;
+
+  const ts = new Date().toISOString();
+  const summary = perBookStats
+    .filter((s) => s.hasText)
+    .map((s) => `Book${s.book} ${s.withAudio}/${s.total}`)
+    .join(', ');
+  console.log('[' + ts + '] Refreshed data-scg.js: ' + summary + ' chapters with audio');
+}
+
+console.log(
+  '[watch-scg-data] Starting. Watching data/text/scg_book*.json + audio/scg_book*/manifest.json every ' +
+  INTERVAL_MINUTES + ' minute(s). Writing ' + OUT_FILE + '. Read-only w.r.t. data/text/ and audio/. Ctrl+C to stop.'
+);
+
+tick(); // initial refresh so data-scg.js is fresh as soon as this starts
+setInterval(tick, INTERVAL_MS);

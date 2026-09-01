@@ -1,0 +1,57 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "21 - Question 105 - OF THE REASON FOR THE JUDICIAL PRECEPTS (In Four Articles), part .mp3",
+  "audioRelPath": "vol09/21 - Question 105 - OF THE REASON FOR THE JUDICIAL PRECEPTS (In Four Articles), part .mp3",
+  "audioDurationSec": 2007.77,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 356.18,
+    "audioProcessedSec": 2007.77,
+    "realtimeFactor": 0.177,
+    "mp3DecodeSec": 3.04
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 1,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 105,
+    "title": "The reason for the judicial precepts"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the Old Law enjoined fitting precepts concerning rulers?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the judicial precepts were suitably framed as to the relations of one man with another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the judicial precepts regarding foreigners were framed in a suitable manner?",
+      "asrMatchedText": "Third article. Whether the judicial precepts regarding foreigners were f- Part 2. Articles 3 and 4.",
+      "approxStartSec": 44.64,
+      "approxStartHMS": "00:00:44",
+      "sourceChunkTimestamp": [
+        44.64,
+        45.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the Old Law set forth suitable precepts about the members of the household?",
+      "matched": false
+    }
+  ]
+}

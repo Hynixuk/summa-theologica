@@ -1,0 +1,186 @@
+{
+  "volume": 1,
+  "part": 1,
+  "audioFile": "12 - 12 - Question 12 How God is Known by Us.mp3",
+  "audioRelPath": "vol01/12 - 12 - Question 12 How God is Known by Us.mp3",
+  "audioDurationSec": 3730.36,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 1155.09,
+    "audioProcessedSec": 3730.36,
+    "realtimeFactor": 0.31,
+    "mp3DecodeSec": 10.19
+  },
+  "expectedArticleCount": 13,
+  "matchedArticleCount": 13,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 12,
+    "title": "How God is known by us"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether any created intellect can see the essence of God?",
+      "asrMatchedText": "article whether any created intellect can see the essence of God. Objection 1. First article, whether any created intellect can see the essence of God.",
+      "approxStartSec": 145.72,
+      "approxStartHMS": "00:02:25",
+      "sourceChunkTimestamp": [
+        141.76,
+        149.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the essence of God is seen by the created intellect through an image?",
+      "asrMatchedText": "Second article, whether the essence of God is seen by the created intellect through an image.",
+      "approxStartSec": 461.42,
+      "approxStartHMS": "00:07:41",
+      "sourceChunkTimestamp": [
+        461.36,
+        467
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the essence of God can be seen with the bodily eye?",
+      "asrMatchedText": "Third article, whether the essence of God can be seen with the bodily eye.",
+      "approxStartSec": 775.88,
+      "approxStartHMS": "00:12:55",
+      "sourceChunkTimestamp": [
+        775.8,
+        781.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether any created intellect by its natural powers can see the Divine essence?",
+      "asrMatchedText": "Fourth article whether any created intellect by its natural powers can see the divine",
+      "approxStartSec": 1019.59,
+      "approxStartHMS": "00:16:59",
+      "sourceChunkTimestamp": [
+        1019.52,
+        1025.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the created intellect needs any created light in order to see the essence of God?",
+      "asrMatchedText": "Fifth article whether the created in up to no separate subsisting substance and separate subsisting existence. Fifth",
+      "approxStartSec": 1404.91,
+      "approxStartHMS": "00:23:24",
+      "sourceChunkTimestamp": [
+        1404.88,
+        1408.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether of those who see the essence of God, one sees more perfectly than another?",
+      "asrMatchedText": "Sixth article whether of those who see the essence of God one sees more perfectly than",
+      "approxStartSec": 1636.89,
+      "approxStartHMS": "00:27:16",
+      "sourceChunkTimestamp": [
+        1636.84,
+        1641.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether those who see the essence of God comprehend Him?",
+      "asrMatchedText": "Seventh article, whether those who see the essence of God comprehend Him.",
+      "approxStartSec": 1906.5,
+      "approxStartHMS": "00:31:46",
+      "sourceChunkTimestamp": [
+        1906.36,
+        1916.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether those who see the essence of God see all in God?",
+      "asrMatchedText": "Eighth article, whether those who see the essence of God see all in God.",
+      "approxStartSec": 2294.5,
+      "approxStartHMS": "00:38:14",
+      "sourceChunkTimestamp": [
+        2294.38,
+        2303.3
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether what is seen in God by those who see the Divine essence, is seen through any similitude?",
+      "asrMatchedText": "and who so north both thee and them is not the happier for them, but for thee alone.\" 9th article, whether what is seen in God by those who see the Divine Essence is seen",
+      "approxStartSec": 2586.21,
+      "approxStartHMS": "00:43:06",
+      "sourceChunkTimestamp": [
+        2579.64,
+        2592.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether those who see the essence of God see all they see in it at the same time?",
+      "asrMatchedText": "Tenth article whether those who see the essence of God see all they see in it at",
+      "approxStartSec": 2834.67,
+      "approxStartHMS": "00:47:14",
+      "sourceChunkTimestamp": [
+        2834.6,
+        2839.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether anyone in this life can see the essence of God?",
+      "asrMatchedText": "in God they all see at the same time. 11th article, whether anyone in this life can see the essence",
+      "approxStartSec": 2994.97,
+      "approxStartHMS": "00:49:54",
+      "sourceChunkTimestamp": [
+        2991.6,
+        3000.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether God can be known in this life by natural reason?",
+      "asrMatchedText": "12th Article, Whether God Can Be Known In This Life By Natural Reason",
+      "approxStartSec": 3318.39,
+      "approxStartHMS": "00:55:18",
+      "sourceChunkTimestamp": [
+        3318.3,
+        3324.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 13,
+      "groundTruthTitle": "Whether by grace a higher knowledge of God can be obtained than by natural reason?",
+      "asrMatchedText": "Thirteenth article, whether by grace a higher knowledge of God can be obtained than by natural reason.",
+      "approxStartSec": 3482.09,
+      "approxStartHMS": "00:58:02",
+      "sourceChunkTimestamp": [
+        3482.04,
+        3487.68
+      ],
+      "matched": true
+    }
+  ]
+}

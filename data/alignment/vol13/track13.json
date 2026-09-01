@@ -1,0 +1,71 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "13 - Question 10 - OF THE BEATIFIC KNOWLEDGE OF CHRIST'S SOUL (In Four Articles).mp3",
+  "audioRelPath": "vol13/13 - Question 10 - OF THE BEATIFIC KNOWLEDGE OF CHRIST'S SOUL (In Four Articles).mp3",
+  "audioDurationSec": 1923.25,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 317.27,
+    "audioProcessedSec": 1923.25,
+    "realtimeFactor": 0.165,
+    "mp3DecodeSec": 2.37
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 10,
+    "title": "The beatific knowledge of Christ's soul"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the soul of Christ comprehended the Word or the Divine Essence?",
+      "asrMatchedText": "First article, whether the soul of Christ comprehended the Word or the Divine Essence.",
+      "approxStartSec": 114.93,
+      "approxStartHMS": "00:01:54",
+      "sourceChunkTimestamp": [
+        114.84,
+        122.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the Son of God knew all things in the Word?",
+      "asrMatchedText": "article, whether the Son of God knew all things in the Word. 2. Second article.",
+      "approxStartSec": 445.09,
+      "approxStartHMS": "00:07:25",
+      "sourceChunkTimestamp": [
+        444.24,
+        445.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the soul of Christ can know the infinite in the Word?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the soul of Christ sees the Word or the Divine Essence more clearly than does any other creature?",
+      "asrMatchedText": "Fourth article. Whether the soul of Christ sees the word or the divine essence more clearly than does any other creature.",
+      "approxStartSec": 1598.63,
+      "approxStartHMS": "00:26:38",
+      "sourceChunkTimestamp": [
+        1598.56,
+        1606.64
+      ],
+      "matched": true
+    }
+  ]
+}

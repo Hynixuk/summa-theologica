@@ -1,0 +1,95 @@
+{
+  "volume": 12,
+  "part": 3,
+  "audioFile": "05 - Question 175 - OF RAPTURE (In Six Articles).mp3",
+  "audioRelPath": "vol12/05 - Question 175 - OF RAPTURE (In Six Articles).mp3",
+  "audioDurationSec": 2961.71,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 768.08,
+    "audioProcessedSec": 2961.71,
+    "realtimeFactor": 0.259,
+    "mp3DecodeSec": 9.19
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 175,
+    "title": "Rapture"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the soul of man is carried away to things divine?",
+      "asrMatchedText": "1. First article. Whether the soul of man is carried away to things divine.",
+      "approxStartSec": 89.6,
+      "approxStartHMS": "00:01:29",
+      "sourceChunkTimestamp": [
+        89.16,
+        97.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether rapture pertains to the cognitive rather than to the appetitive power?",
+      "asrMatchedText": "Second article, whether Rapture pertains to the cognitive rather than to the apotative power.",
+      "approxStartSec": 539.12,
+      "approxStartHMS": "00:08:59",
+      "sourceChunkTimestamp": [
+        539.04,
+        547
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Paul, when in rapture, saw the essence of God?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 1048.39,
+      "approxStartHMS": "00:17:28",
+      "sourceChunkTimestamp": [
+        1048.28,
+        1050
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Paul, when in rapture, was withdrawn from his senses?",
+      "asrMatchedText": "Fourth article, whether Paul, when in Rapture, was withdrawn from his senses.",
+      "approxStartSec": 1620.56,
+      "approxStartHMS": "00:27:00",
+      "sourceChunkTimestamp": [
+        1620.48,
+        1627
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether, while in this state, Paul's soul was wholly separated from his body?",
+      "asrMatchedText": "Fifth article, whether while in this state Paul's soul was wholly separated from his",
+      "approxStartSec": 2058.04,
+      "approxStartHMS": "00:34:18",
+      "sourceChunkTimestamp": [
+        2057.96,
+        2064.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Did Paul know whether his soul were separated from his body?",
+      "matched": false
+    }
+  ]
+}

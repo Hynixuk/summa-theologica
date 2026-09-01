@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "20 - Question 63 - OF RESPECT OF PERSONS (In Four Articles).mp3",
+  "audioRelPath": "vol11/20 - Question 63 - OF RESPECT OF PERSONS (In Four Articles).mp3",
+  "audioDurationSec": 1479.01,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 365.57,
+    "audioProcessedSec": 1479.01,
+    "realtimeFactor": 0.247,
+    "mp3DecodeSec": 5.26
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 63,
+    "title": "Respect of persons"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether respect of persons is a sin?",
+      "asrMatchedText": "First article, whether respect of persons is a sin.",
+      "approxStartSec": 88.12,
+      "approxStartHMS": "00:01:28",
+      "sourceChunkTimestamp": [
+        87.96,
+        96.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether respect of persons takes place in the dispensation of spiritual goods?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 467.13,
+      "approxStartHMS": "00:07:47",
+      "sourceChunkTimestamp": [
+        467,
+        469
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether respect of persons takes place in showing honor and respect?",
+      "asrMatchedText": "Third article, whether respect of persons takes place in showing honor and respect.",
+      "approxStartSec": 933.28,
+      "approxStartHMS": "00:15:33",
+      "sourceChunkTimestamp": [
+        933.2,
+        940
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the sin of respect of persons takes place in judicial sentences?",
+      "asrMatchedText": "Fourth article. Whether the sin of respect of persons takes place. the objections are clear.",
+      "approxStartSec": 1243.12,
+      "approxStartHMS": "00:20:43",
+      "sourceChunkTimestamp": [
+        1243.08,
+        1246.48
+      ],
+      "matched": true
+    }
+  ]
+}

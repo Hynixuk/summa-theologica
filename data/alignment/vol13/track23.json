@@ -1,0 +1,95 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "23 - Question 18 - OF CHRIST'S UNITY OF WILL (In Six Articles).mp3",
+  "audioRelPath": "vol13/23 - Question 18 - OF CHRIST'S UNITY OF WILL (In Six Articles).mp3",
+  "audioDurationSec": 2393.57,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 357.79,
+    "audioProcessedSec": 2393.57,
+    "realtimeFactor": 0.149,
+    "mp3DecodeSec": 3.36
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 18,
+    "title": "Christ's unity of will"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there are two wills in Christ?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 93.63,
+      "approxStartHMS": "00:01:33",
+      "sourceChunkTimestamp": [
+        93.52,
+        95.22
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether in Christ there was a will of sensuality besides the will of reason?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 684.15,
+      "approxStartHMS": "00:11:24",
+      "sourceChunkTimestamp": [
+        684,
+        686.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether in Christ there were two wills as regards the reason?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 958.45,
+      "approxStartHMS": "00:15:58",
+      "sourceChunkTimestamp": [
+        958.32,
+        960.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there was free-will in Christ?",
+      "asrMatchedText": "Fourth Article Whether There Was Free Will In Christ",
+      "approxStartSec": 1250.91,
+      "approxStartHMS": "00:20:50",
+      "sourceChunkTimestamp": [
+        1250.8,
+        1256.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the human will of Christ was altogether conformed to the Divine will in the thing willed?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there was contrariety of wills in Christ?",
+      "asrMatchedText": "6th article. Whether there was contouriety of wills in Christ.",
+      "approxStartSec": 1899.54,
+      "approxStartHMS": "00:31:39",
+      "sourceChunkTimestamp": [
+        1899.36,
+        1910.66
+      ],
+      "matched": true
+    }
+  ]
+}

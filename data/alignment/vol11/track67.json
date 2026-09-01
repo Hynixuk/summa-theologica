@@ -1,0 +1,95 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "67 - Question 106 - OF THANKFULNESS OR GRATITUDE (In Six Articles).mp3",
+  "audioRelPath": "vol11/67 - Question 106 - OF THANKFULNESS OR GRATITUDE (In Six Articles).mp3",
+  "audioDurationSec": 1964.94,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 504.01,
+    "audioProcessedSec": 1964.94,
+    "realtimeFactor": 0.257,
+    "mp3DecodeSec": 6.04
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 106,
+    "title": "Thankfulness or gratitude"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether thankfulness is a special virtue, distinct from other virtues?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 95.2,
+      "approxStartHMS": "00:01:35",
+      "sourceChunkTimestamp": [
+        95,
+        98
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the innocent is more bound to give thanks to God than the penitent?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 370.76,
+      "approxStartHMS": "00:06:10",
+      "sourceChunkTimestamp": [
+        370.4,
+        376.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether a man is bound to give thanks to every benefactor?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 647.13,
+      "approxStartHMS": "00:10:47",
+      "sourceChunkTimestamp": [
+        647,
+        649
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a man is bound to repay a favor at once?",
+      "asrMatchedText": "Fourth article, Whether a man is bound to repay a favor at once. Objection one. It seems that a man is bound to repay a favor at once. For we are bound",
+      "approxStartSec": 1232.33,
+      "approxStartHMS": "00:20:32",
+      "sourceChunkTimestamp": [
+        1232.28,
+        1239.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether in giving thanks we should look at the benefactor's disposition or at the deed?",
+      "asrMatchedText": "Fifth article. Whether in giving thanks, we should look at the benefactor's",
+      "approxStartSec": 1433.69,
+      "approxStartHMS": "00:23:53",
+      "sourceChunkTimestamp": [
+        1433.62,
+        1439.14
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the repayment of gratitude should surpass the favor received?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "14 - Question 58 - OF JUSTICE (In Twelve Articles), part 1.mp3",
+  "audioRelPath": "vol11/14 - Question 58 - OF JUSTICE (In Twelve Articles), part 1.mp3",
+  "audioDurationSec": 2302.78,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 383.82,
+    "audioProcessedSec": 2302.78,
+    "realtimeFactor": 0.167,
+    "mp3DecodeSec": 3.58
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 58,
+    "title": "Justice"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether justice is fittingly defined as being the perpetual and constant will to render to each one his right?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 115.81,
+      "approxStartHMS": "00:01:55",
+      "sourceChunkTimestamp": [
+        115.56,
+        119.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether justice is always towards one another?",
+      "asrMatchedText": "Second article, whether justice is always towards another.",
+      "approxStartSec": 591.88,
+      "approxStartHMS": "00:09:51",
+      "sourceChunkTimestamp": [
+        591.8,
+        596.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether justice is a virtue?",
+      "asrMatchedText": "Third article, whether justice is a virtue.",
+      "approxStartSec": 958.69,
+      "approxStartHMS": "00:15:58",
+      "sourceChunkTimestamp": [
+        958.48,
+        967.76
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether justice is in the will as its subject?",
+      "asrMatchedText": "Fourth Article Whether Justice is in the will as its subject.",
+      "approxStartSec": 1266.91,
+      "approxStartHMS": "00:21:06",
+      "sourceChunkTimestamp": [
+        1266.8,
+        1273.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether justice is a general virtue?",
+      "asrMatchedText": "Fifth article, whether justice... it can be the subject of moral virtue. 5.",
+      "approxStartSec": 1543.06,
+      "approxStartHMS": "00:25:43",
+      "sourceChunkTimestamp": [
+        1543,
+        1547.68
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether justice, as a general virtue, is essentially the same as all virtue?",
+      "asrMatchedText": "6th Article, whether justice as a general virtue is essentially the same as all virtue.",
+      "approxStartSec": 1855.26,
+      "approxStartHMS": "00:30:55",
+      "sourceChunkTimestamp": [
+        1855.12,
+        1867
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether there is a particular besides a general justice?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether particular justice has a special matter?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether justice is about the passions?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the mean of justice is the real mean?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether the act of justice is to render to each one his own?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether justice stands foremost among all moral virtues?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "18 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 1.mp3",
+  "audioRelPath": "vol14/18 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 1.mp3",
+  "audioDurationSec": 2314.2,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 601.69,
+    "audioProcessedSec": 2314.2,
+    "realtimeFactor": 0.26,
+    "mp3DecodeSec": 3.39
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 6,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 72,
+    "title": "The sacrament of Confirmation"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether confirmation is a sacrament?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 94.7,
+      "approxStartHMS": "00:01:34",
+      "sourceChunkTimestamp": [
+        94.6,
+        96.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether chrism is a fitting matter for this sacrament?",
+      "asrMatchedText": "Second article, whether chrism is a fitting matter for the sacrament. 2. Second Article",
+      "approxStartSec": 484.42,
+      "approxStartHMS": "00:08:04",
+      "sourceChunkTimestamp": [
+        484.4,
+        486.3
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is essential to this sacrament that the chrism which is its matter be previously consecrated by a bishop?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 972.63,
+      "approxStartHMS": "00:16:12",
+      "sourceChunkTimestamp": [
+        972.28,
+        977.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the proper form of this sacrament is: \"I sign thee with the sign of the cross,\" etc.?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1271.95,
+      "approxStartHMS": "00:21:11",
+      "sourceChunkTimestamp": [
+        1271.84,
+        1273.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the sacrament of Confirmation imprints a character?",
+      "asrMatchedText": "5th Article Whether the Sacrament of Confirmation imprints",
+      "approxStartSec": 1686.46,
+      "approxStartHMS": "00:28:06",
+      "sourceChunkTimestamp": [
+        1686.32,
+        1694.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the character of Confirmation presupposes of necessity, the baptismal character?",
+      "asrMatchedText": "Sixth article. Whether the character of confirmation presupposes of necessity the baptismal character.",
+      "approxStartSec": 2037.18,
+      "approxStartHMS": "00:33:57",
+      "sourceChunkTimestamp": [
+        2037.16,
+        2039.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether sanctifying grace is bestowed in this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether this sacrament should be given to all?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether this sacrament should be given to man on the forehead?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether he who is confirmed needs one to stand for him?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether only a bishop can confer this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the rite of this sacrament is appropriate?",
+      "matched": false
+    }
+  ]
+}

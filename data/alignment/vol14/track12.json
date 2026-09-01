@@ -1,0 +1,125 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "12 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 1.mp3",
+  "audioRelPath": "vol14/12 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 1.mp3",
+  "audioDurationSec": 2253.72,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 665.36,
+    "audioProcessedSec": 2253.72,
+    "realtimeFactor": 0.295,
+    "mp3DecodeSec": 3.76
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 68,
+    "title": "Those who receive Baptism"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether all are bound to receive Baptism?",
+      "asrMatchedText": "1. First article. Whether all are bound to receive baptism.",
+      "approxStartSec": 98.4,
+      "approxStartHMS": "00:01:38",
+      "sourceChunkTimestamp": [
+        98,
+        104
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether a man can be saved without Baptism?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Baptism should be deferred?",
+      "asrMatchedText": "Third article, whether baptism should be deferred. Objection 1, it seems that baptism",
+      "approxStartSec": 794.91,
+      "approxStartHMS": "00:13:14",
+      "sourceChunkTimestamp": [
+        794.8,
+        804.58
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether sinners should be baptized?",
+      "asrMatchedText": "Fourth article, whether sinners should be baptized.",
+      "approxStartSec": 1237.67,
+      "approxStartHMS": "00:20:37",
+      "sourceChunkTimestamp": [
+        1237.6,
+        1241.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether works of satisfaction should be enjoined on sinners that have been baptized?",
+      "asrMatchedText": "Fifth article, whether works of satisfaction should be",
+      "approxStartSec": 1603.62,
+      "approxStartHMS": "00:26:43",
+      "sourceChunkTimestamp": [
+        1603.56,
+        1606.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether sinners who are going to be baptized are bound to confess their sins?",
+      "asrMatchedText": "6th article. sinners who are going to be baptized are bound to confess",
+      "approxStartSec": 1902.51,
+      "approxStartHMS": "00:31:42",
+      "sourceChunkTimestamp": [
+        1902.38,
+        1911.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the intention of receiving the sacrament of Baptism is required on the part of the one baptized?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether faith is required on the part of the one baptized?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether children should be baptized?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether children of Jews or other unbelievers be baptized against the will of their parents?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether a child can be baptized while yet in its mother's womb?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether madmen and imbeciles should be baptized?",
+      "matched": false
+    }
+  ]
+}

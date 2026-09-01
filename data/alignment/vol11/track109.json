@@ -1,0 +1,119 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "109 - Question 147 - OF FASTING (In Eight Articles).mp3",
+  "audioRelPath": "vol11/109 - Question 147 - OF FASTING (In Eight Articles).mp3",
+  "audioDurationSec": 3288.59,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 516.25,
+    "audioProcessedSec": 3288.59,
+    "realtimeFactor": 0.157,
+    "mp3DecodeSec": 4.99
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 7,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 147,
+    "title": "Fasting"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether fasting is an act of virtue?",
+      "asrMatchedText": "First article, whether fasting is an act of virtue.",
+      "approxStartSec": 91.97,
+      "approxStartHMS": "00:01:31",
+      "sourceChunkTimestamp": [
+        91.88,
+        96.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether fasting is an act of abstinence?",
+      "asrMatchedText": "Second article. Weather fasting is an act of abstinence.",
+      "approxStartSec": 554.91,
+      "approxStartHMS": "00:09:14",
+      "sourceChunkTimestamp": [
+        554.8,
+        561.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether fasting is a matter of precept?",
+      "asrMatchedText": "Third article, whether fasting is a matter of precept.",
+      "approxStartSec": 797.39,
+      "approxStartHMS": "00:13:17",
+      "sourceChunkTimestamp": [
+        797.28,
+        803.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether all are bound to keep the fasts of the Church?",
+      "asrMatchedText": "Fourth Article Whether all are bound to keep the fasts of the church. One. It would seem that all are bound to keep the fasts of the church.",
+      "approxStartSec": 1198.85,
+      "approxStartHMS": "00:19:58",
+      "sourceChunkTimestamp": [
+        1198.8,
+        1206.04
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the times for the Church fast are fittingly ascribed?",
+      "asrMatchedText": "Fifth Article Whether the times for the church fast are fittingly ascribed.",
+      "approxStartSec": 1790.37,
+      "approxStartHMS": "00:29:50",
+      "sourceChunkTimestamp": [
+        1790.26,
+        1798.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether it is requisite for fasting that one eat but once?",
+      "asrMatchedText": "Sixth article. Whether it is requisite for fasting that one eat but once.",
+      "approxStartSec": 2377.36,
+      "approxStartHMS": "00:39:37",
+      "sourceChunkTimestamp": [
+        2377.2,
+        2389.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the ninth hour is suitably fixed for the faster's meal?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether it is fitting that those who fast should be bidden to abstain from flesh meat, eggs, and milk foods?",
+      "asrMatchedText": "Eighth Article Whether it is fitting that those who fast should",
+      "approxStartSec": 2933.07,
+      "approxStartHMS": "00:48:53",
+      "sourceChunkTimestamp": [
+        2933,
+        2937.24
+      ],
+      "matched": true
+    }
+  ]
+}

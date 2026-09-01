@@ -1,0 +1,102 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "07 - Question 96 - OF THE POWER OF HUMAN LAW (In Six Articles).mp3",
+  "audioRelPath": "vol09/07 - Question 96 - OF THE POWER OF HUMAN LAW (In Six Articles).mp3",
+  "audioDurationSec": 2377.64,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 5644.52,
+    "audioProcessedSec": 2377.64,
+    "realtimeFactor": 2.374,
+    "mp3DecodeSec": 10.3
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 2,
+    "question": 96,
+    "title": "The power of human law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether human law should be framed for the community rather than for the individual?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 83.5,
+      "approxStartHMS": "00:01:23",
+      "sourceChunkTimestamp": [
+        83.36,
+        85.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it belongs to the human law to repress all vices?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 461.11,
+      "approxStartHMS": "00:07:41",
+      "sourceChunkTimestamp": [
+        461,
+        462.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether human law prescribes acts of all the virtues?",
+      "asrMatchedText": "Third article. Whether you that is forbidden by the natural law.",
+      "approxStartSec": 844.68,
+      "approxStartHMS": "00:14:04",
+      "sourceChunkTimestamp": [
+        844.64,
+        847
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether human law binds a man in conscience?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1128.08,
+      "approxStartHMS": "00:18:48",
+      "sourceChunkTimestamp": [
+        1127.96,
+        1129.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether all are subject to the law?",
+      "asrMatchedText": "Fifth article, whether all are subject to the law.",
+      "approxStartSec": 1519.84,
+      "approxStartHMS": "00:25:19",
+      "sourceChunkTimestamp": [
+        1519.64,
+        1529.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether he who is under a law may act beside the letter of the law?",
+      "asrMatchedText": "Sixth article.",
+      "approxStartSec": 1971.63,
+      "approxStartHMS": "00:32:51",
+      "sourceChunkTimestamp": [
+        1971.5,
+        1973.5
+      ],
+      "matched": true
+    }
+  ]
+}

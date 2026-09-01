@@ -1,0 +1,95 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "39 - Question 85 - OF THE EFFECTS OF SIN, AND FIRST, OF THE CORRUPTION OF THE GOOD OF.mp3",
+  "audioRelPath": "vol08/39 - Question 85 - OF THE EFFECTS OF SIN, AND FIRST, OF THE CORRUPTION OF THE GOOD OF.mp3",
+  "audioDurationSec": 2475.64,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 526.12,
+    "audioProcessedSec": 2475.64,
+    "realtimeFactor": 0.213,
+    "mp3DecodeSec": 3.86
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 85,
+    "title": "The effects of sin, and, first, of the corruption of the good of nature"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether sin diminishes the good of nature?",
+      "asrMatchedText": "First article, whether sin diminishes the good of nature.",
+      "approxStartSec": 111.94,
+      "approxStartHMS": "00:01:51",
+      "sourceChunkTimestamp": [
+        111.84,
+        117.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the entire good of human nature can be destroyed by sin?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 511.49,
+      "approxStartHMS": "00:08:31",
+      "sourceChunkTimestamp": [
+        511.36,
+        513.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether weakness, ignorance, malice and concupiscence are suitably reckoned as the wounds of nature consequent upon sin?",
+      "asrMatchedText": "Third article. Whether weakness, ignorance, malice, and concupacence are suitably reckoned",
+      "approxStartSec": 937.98,
+      "approxStartHMS": "00:15:37",
+      "sourceChunkTimestamp": [
+        937.84,
+        950.3
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether privation of mode, species and order is the effect of sin?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1340.47,
+      "approxStartHMS": "00:22:20",
+      "sourceChunkTimestamp": [
+        1340.36,
+        1342.16
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether death and other bodily defects are the result of sin?",
+      "asrMatchedText": "5th article Whether death and other bodily defects are the result of sin Fifth article.",
+      "approxStartSec": 1599.44,
+      "approxStartHMS": "00:26:39",
+      "sourceChunkTimestamp": [
+        1599.36,
+        1606.78
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether death and other defects are natural to man?",
+      "matched": false
+    }
+  ]
+}

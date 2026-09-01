@@ -1,0 +1,126 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "03 - Question 105 - OF THE CHANGE OF CREATURES BY GOD (In Eight Articles).mp3",
+  "audioRelPath": "vol05/03 - Question 105 - OF THE CHANGE OF CREATURES BY GOD (In Eight Articles).mp3",
+  "audioDurationSec": 2149.88,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 713.47,
+    "audioProcessedSec": 2149.88,
+    "realtimeFactor": 0.332,
+    "mp3DecodeSec": 8.54
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 8,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 105,
+    "title": "The change of creatures by God"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God can move the matter immediately to the form?",
+      "asrMatchedText": "First article, whether God can move the matter immediately to the form.",
+      "approxStartSec": 76.96,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76.88,
+        82.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether God can move a body immediately?",
+      "asrMatchedText": "Second Article.",
+      "approxStartSec": 312.98,
+      "approxStartHMS": "00:05:12",
+      "sourceChunkTimestamp": [
+        312.88,
+        314.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God moves the created intellect immediately?",
+      "asrMatchedText": "Third Article Whether God moves the created intellect immediately......... Third article.",
+      "approxStartSec": 624.02,
+      "approxStartHMS": "00:10:24",
+      "sourceChunkTimestamp": [
+        624,
+        625.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether God can move the created will?",
+      "asrMatchedText": "Fourth article. Whether God can move the created will. It would seem that God cannot move the created will.",
+      "approxStartSec": 898.7,
+      "approxStartHMS": "00:14:58",
+      "sourceChunkTimestamp": [
+        898.64,
+        905
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether God works in every agent?",
+      "asrMatchedText": "Fifth article. Whether God works in every agent. agent. merit or demerit.",
+      "approxStartSec": 1121.06,
+      "approxStartHMS": "00:18:41",
+      "sourceChunkTimestamp": [
+        1121,
+        1125.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether God can do anything outside the established order of nature?",
+      "asrMatchedText": "Sixth Article",
+      "approxStartSec": 1475.14,
+      "approxStartHMS": "00:24:35",
+      "sourceChunkTimestamp": [
+        1475,
+        1477
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether whatever God does outside the natural order is miraculous?",
+      "asrMatchedText": "Seventh Article.",
+      "approxStartSec": 1746.2,
+      "approxStartHMS": "00:29:06",
+      "sourceChunkTimestamp": [
+        1746.12,
+        1747.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether one miracle is greater than another?",
+      "asrMatchedText": "8th Article.",
+      "approxStartSec": 1978.36,
+      "approxStartHMS": "00:32:58",
+      "sourceChunkTimestamp": [
+        1978.24,
+        1979.8
+      ],
+      "matched": true
+    }
+  ]
+}

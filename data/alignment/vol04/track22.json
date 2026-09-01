@@ -1,0 +1,78 @@
+{
+  "volume": 4,
+  "part": 1,
+  "audioFile": "22 - Question 92 - THE PRODUCTION OF THE WOMAN (In Four Articles).mp3",
+  "audioRelPath": "vol04/22 - Question 92 - THE PRODUCTION OF THE WOMAN (In Four Articles).mp3",
+  "audioDurationSec": 1141.6,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 617.09,
+    "audioProcessedSec": 1141.6,
+    "realtimeFactor": 0.541,
+    "mp3DecodeSec": 6.54
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 1,
+    "question": 92,
+    "title": "The production of the woman"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the woman should have been made in the first production of things?",
+      "asrMatchedText": "was made immediately by God. First article. Section 1. Question 92. Article 1.",
+      "approxStartSec": 58.97,
+      "approxStartHMS": "00:00:58",
+      "sourceChunkTimestamp": [
+        55.6,
+        64.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether woman should have been made from man?",
+      "asrMatchedText": "Second Article",
+      "approxStartSec": 409.76,
+      "approxStartHMS": "00:06:49",
+      "sourceChunkTimestamp": [
+        409.68,
+        410.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the woman was fittingly made from the rib of man?",
+      "asrMatchedText": "Third Article, section 1, question 92, article 3, whether the woman was fittingly made from",
+      "approxStartSec": 654.72,
+      "approxStartHMS": "00:10:54",
+      "sourceChunkTimestamp": [
+        654.64,
+        661.8
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the woman was formed immediately by God?",
+      "asrMatchedText": "Fourth Article, Section 1, Question 92, Article 4, whether the woman was formed immediately",
+      "approxStartSec": 933.32,
+      "approxStartHMS": "00:15:33",
+      "sourceChunkTimestamp": [
+        933.24,
+        940.68
+      ],
+      "matched": true
+    }
+  ]
+}

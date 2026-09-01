@@ -1,0 +1,124 @@
+{
+  "volume": 8,
+  "part": 2,
+  "audioFile": "24 - Question 72 - OF THE DISTINCTION OF SINS (In Nine Articles).mp3",
+  "audioRelPath": "vol08/24 - Question 72 - OF THE DISTINCTION OF SINS (In Nine Articles).mp3",
+  "audioDurationSec": 3474.43,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 1028.54,
+    "audioProcessedSec": 3474.43,
+    "realtimeFactor": 0.296,
+    "mp3DecodeSec": 12.97
+  },
+  "expectedArticleCount": 9,
+  "matchedArticleCount": 7,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 72,
+    "title": "The distinction of sins"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether sins differ in species according to their objects?",
+      "asrMatchedText": "1st article, whether sins differ in species according to their objects.",
+      "approxStartSec": 114.11,
+      "approxStartHMS": "00:01:54",
+      "sourceChunkTimestamp": [
+        114,
+        122
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether spiritual sins are fittingly distinguished from carnal sins?",
+      "asrMatchedText": "Second article. Whether spiritual sins are fittingly distinguished from carnal sins.",
+      "approxStartSec": 441.63,
+      "approxStartHMS": "00:07:21",
+      "sourceChunkTimestamp": [
+        441.54,
+        449.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether sins differ specifically in reference to their causes?",
+      "asrMatchedText": "Third article, whether sins differ specifically in reference to their causes.",
+      "approxStartSec": 861.5,
+      "approxStartHMS": "00:14:21",
+      "sourceChunkTimestamp": [
+        861.4,
+        869.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether sin is fittingly divided into sin against God, against oneself, and against one's neighbor?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1253.13,
+      "approxStartHMS": "00:20:53",
+      "sourceChunkTimestamp": [
+        1253,
+        1255
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the division of sins according to their debt of punishment diversifies their species?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether sins of commission and omission differ specifically?",
+      "asrMatchedText": "6th article. Whether sins of commission and omission differ specifically.",
+      "approxStartSec": 2142.13,
+      "approxStartHMS": "00:35:42",
+      "sourceChunkTimestamp": [
+        2141.96,
+        2154.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether sins are fittingly divided into sins of thought, word, and deed?",
+      "asrMatchedText": "Seventh Article Whether sins are fittingly divided into sins of thought, word, and deed.",
+      "approxStartSec": 2520.15,
+      "approxStartHMS": "00:42:00",
+      "sourceChunkTimestamp": [
+        2520,
+        2533
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether excess and deficiency diversify the species of sins?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether sins differ specifically in respect of different circumstances?",
+      "asrMatchedText": "9th article, whether sins differ specifically in respect of different circumstances.",
+      "approxStartSec": 3206.42,
+      "approxStartHMS": "00:53:26",
+      "sourceChunkTimestamp": [
+        3206.32,
+        3214.52
+      ],
+      "matched": true
+    }
+  ]
+}

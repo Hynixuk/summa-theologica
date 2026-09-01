@@ -1,0 +1,71 @@
+{
+  "volume": 5,
+  "part": 1,
+  "audioFile": "02 - Question 104 - THE SPECIAL EFFECTS OF THE DIVINE GOVERNMENT (In Four Articles).mp3",
+  "audioRelPath": "vol05/02 - Question 104 - THE SPECIAL EFFECTS OF THE DIVINE GOVERNMENT (In Four Articles).mp3",
+  "audioDurationSec": 1324.12,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 397.12,
+    "audioProcessedSec": 1324.12,
+    "realtimeFactor": 0.3,
+    "mp3DecodeSec": 5.22
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 104,
+    "title": "The special effects of the divine government"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether creatures need to be kept in being by God?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether God preserves every creature immediately?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 637.13,
+      "approxStartHMS": "00:10:37",
+      "sourceChunkTimestamp": [
+        637,
+        639
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether God can annihilate anything?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 891.8,
+      "approxStartHMS": "00:14:51",
+      "sourceChunkTimestamp": [
+        891.72,
+        892.92
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether anything is annihilated?",
+      "asrMatchedText": "part, but a mere cessation of His action. Fourth Article, whether anything is annihilated.",
+      "approxStartSec": 1089.67,
+      "approxStartHMS": "00:18:09",
+      "sourceChunkTimestamp": [
+        1086,
+        1093.76
+      ],
+      "matched": true
+    }
+  ]
+}

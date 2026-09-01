@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "17 - Question 14 - OF BLASPHEMY AGAINST THE HOLY GHOST (In Four Articles).mp3",
+  "audioRelPath": "vol10/17 - Question 14 - OF BLASPHEMY AGAINST THE HOLY GHOST (In Four Articles).mp3",
+  "audioDurationSec": 2012.5,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 289.08,
+    "audioProcessedSec": 2012.5,
+    "realtimeFactor": 0.144,
+    "mp3DecodeSec": 2.91
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 14,
+    "title": "Blasphemy against the Holy Ghost"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the sin against the Holy Ghost is the same as the sin committed through certain malice?",
+      "asrMatchedText": "First article.",
+      "approxStartSec": 84.79,
+      "approxStartHMS": "00:01:24",
+      "sourceChunkTimestamp": [
+        84.6,
+        87.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is fitting to distinguish six kinds of sin against the Holy Ghost?",
+      "asrMatchedText": "Second article. Whether it is fitting to distinguish six kinds of sin against the Holy",
+      "approxStartSec": 597.13,
+      "approxStartHMS": "00:09:57",
+      "sourceChunkTimestamp": [
+        597,
+        607.98
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the sin against the Holy Ghost can be forgiven?",
+      "asrMatchedText": "Third article, whether the sin against the Holy Ghost can be",
+      "approxStartSec": 1114.66,
+      "approxStartHMS": "00:18:34",
+      "sourceChunkTimestamp": [
+        1114.6,
+        1118.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether a man can sin first of all against the Holy Ghost?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 1581.18,
+      "approxStartHMS": "00:26:21",
+      "sourceChunkTimestamp": [
+        1581.08,
+        1582.64
+      ],
+      "matched": true
+    }
+  ]
+}

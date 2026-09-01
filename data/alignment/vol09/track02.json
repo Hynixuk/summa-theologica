@@ -1,0 +1,88 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "02 - Question 91 - OF THE VARIOUS KINDS OF LAW (In Six Articles).mp3",
+  "audioRelPath": "vol09/02 - Question 91 - OF THE VARIOUS KINDS OF LAW (In Six Articles).mp3",
+  "audioDurationSec": 2385.97,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 477.97,
+    "audioProcessedSec": 2385.97,
+    "realtimeFactor": 0.2,
+    "mp3DecodeSec": 3.29
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 91,
+    "title": "The various kinds of law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether there is an eternal law?",
+      "asrMatchedText": "First article, whether there is an eternal law.",
+      "approxStartSec": 75.13,
+      "approxStartHMS": "00:01:15",
+      "sourceChunkTimestamp": [
+        75,
+        81
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there is in us a natural law?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there is a human law?",
+      "asrMatchedText": "Third article, whether there is a human law.",
+      "approxStartSec": 716.15,
+      "approxStartHMS": "00:11:56",
+      "sourceChunkTimestamp": [
+        716,
+        722.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether there was any need for a Divine law?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1060.44,
+      "approxStartHMS": "00:17:40",
+      "sourceChunkTimestamp": [
+        1060.32,
+        1062.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether there is but one Divine law?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1478.13,
+      "approxStartHMS": "00:24:38",
+      "sourceChunkTimestamp": [
+        1478,
+        1480
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there is a law in the fomes of sin?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "01 - Question. 50 - OF THE SUBSTANCE OF THE ANGELS ABSOLUTELY CONSIDERED (FIVE ARTICL.mp3",
+  "audioRelPath": "vol03/01 - Question. 50 - OF THE SUBSTANCE OF THE ANGELS ABSOLUTELY CONSIDERED (FIVE ARTICL.mp3",
+  "audioDurationSec": 2104.08,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 904.41,
+    "audioProcessedSec": 2104.08,
+    "realtimeFactor": 0.43,
+    "mp3DecodeSec": 7.57
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 50,
+    "title": "The substance of the angels absolutely considered"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether an angel is altogether incorporeal?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether an angel is composed of matter and form?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the angels exist in any great number?",
+      "asrMatchedText": "Third article, whether the angels exist in any great number.",
+      "approxStartSec": 1037.93,
+      "approxStartHMS": "00:17:17",
+      "sourceChunkTimestamp": [
+        1037.84,
+        1043.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the angels differ in species?",
+      "asrMatchedText": "Fourth article, whether the angels differ in species.",
+      "approxStartSec": 1490.94,
+      "approxStartHMS": "00:24:50",
+      "sourceChunkTimestamp": [
+        1490.84,
+        1496.32
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the angels are incorruptible?",
+      "asrMatchedText": "Fifth article, whether the angels are incorruptible.",
+      "approxStartSec": 1792.87,
+      "approxStartHMS": "00:29:52",
+      "sourceChunkTimestamp": [
+        1792.8,
+        1796.6
+      ],
+      "matched": true
+    }
+  ]
+}

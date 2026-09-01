@@ -1,0 +1,88 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "65 - Question 104 - OF OBEDIENCE (In Six Articles).mp3",
+  "audioRelPath": "vol11/65 - Question 104 - OF OBEDIENCE (In Six Articles).mp3",
+  "audioDurationSec": 2574.17,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 662.3,
+    "audioProcessedSec": 2574.17,
+    "realtimeFactor": 0.257,
+    "mp3DecodeSec": 7.98
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 104,
+    "title": "Obedience"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether one man is bound to obey another?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether obedience is a special virtue?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 361.76,
+      "approxStartHMS": "00:06:01",
+      "sourceChunkTimestamp": [
+        361.64,
+        363.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether obedience is the greatest of the virtues?",
+      "asrMatchedText": "specifically. Third article. Whether obedience is the greatest of the virtues.",
+      "approxStartSec": 956.28,
+      "approxStartHMS": "00:15:56",
+      "sourceChunkTimestamp": [
+        954.32,
+        964.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether God ought to be obeyed in all things?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether subjects are bound to obey their superiors in all things?",
+      "asrMatchedText": "5th article. Weather subjects are bound to obey their superiors in all things.",
+      "approxStartSec": 1784.16,
+      "approxStartHMS": "00:29:44",
+      "sourceChunkTimestamp": [
+        1784.08,
+        1790.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether Christians are bound to obey the secular powers?",
+      "asrMatchedText": "6th article Weather Christian which obeys even in matters unlawful.",
+      "approxStartSec": 2264.05,
+      "approxStartHMS": "00:37:44",
+      "sourceChunkTimestamp": [
+        2264,
+        2267.28
+      ],
+      "matched": true
+    }
+  ]
+}

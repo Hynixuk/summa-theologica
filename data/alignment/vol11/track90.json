@@ -1,0 +1,35 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "90 - Question 128 - OF THE PARTS OF FORTITUDE (In One Article).mp3",
+  "audioRelPath": "vol11/90 - Question 128 - OF THE PARTS OF FORTITUDE (In One Article).mp3",
+  "audioDurationSec": 984.61,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 186.24,
+    "audioProcessedSec": 984.61,
+    "realtimeFactor": 0.189,
+    "mp3DecodeSec": 1.45
+  },
+  "expectedArticleCount": 1,
+  "matchedArticleCount": 0,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 128,
+    "title": "The parts of fortitude"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the parts of fortitude are suitably assigned?",
+      "matched": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "98 - Question 136 - OF PATIENCE (In Five Articles).mp3",
+  "audioRelPath": "vol11/98 - Question 136 - OF PATIENCE (In Five Articles).mp3",
+  "audioDurationSec": 1768.1,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 264.46,
+    "audioProcessedSec": 1768.1,
+    "realtimeFactor": 0.15,
+    "mp3DecodeSec": 2.78
+  },
+  "expectedArticleCount": 5,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 3,
+    "question": 136,
+    "title": "Patience"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether patience is a virtue?",
+      "asrMatchedText": "First article, whether patience is a virtue.",
+      "approxStartSec": 80.47,
+      "approxStartHMS": "00:01:20",
+      "sourceChunkTimestamp": [
+        80.36,
+        85.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether patience is the greatest of the virtues?",
+      "asrMatchedText": "Second article. Whether patience is the greatest of the virtues.",
+      "approxStartSec": 409.99,
+      "approxStartHMS": "00:06:49",
+      "sourceChunkTimestamp": [
+        409.92,
+        414.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is possible to have patience without grace?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 693.56,
+      "approxStartHMS": "00:11:33",
+      "sourceChunkTimestamp": [
+        693.44,
+        695.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether patience is a part of fortitude?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether patience is the same as longanimity? [Longsuffering. It is necessary to preserve the Latin word, on account of the comparison with magnanimity.]",
+      "asrMatchedText": "Fifth Article Whether patience is the same as long",
+      "approxStartSec": 1392.96,
+      "approxStartHMS": "00:23:12",
+      "sourceChunkTimestamp": [
+        1392.88,
+        1397.1
+      ],
+      "matched": true
+    }
+  ]
+}

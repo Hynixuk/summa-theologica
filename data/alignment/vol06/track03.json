@@ -1,0 +1,98 @@
+{
+  "volume": 6,
+  "part": 2,
+  "audioFile": "03 - Question 3 - WHAT IS HAPPINESS (In Eight Articles), part 1.mp3",
+  "audioRelPath": "vol06/03 - Question 3 - WHAT IS HAPPINESS (In Eight Articles), part 1.mp3",
+  "audioDurationSec": 1743.52,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 272.99,
+    "audioProcessedSec": 1743.52,
+    "realtimeFactor": 0.157,
+    "mp3DecodeSec": 2.58
+  },
+  "expectedArticleCount": 8,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 3,
+    "title": "What is happiness"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether happiness is something uncreated?",
+      "asrMatchedText": "First Article 1-2.",
+      "approxStartSec": 129.04,
+      "approxStartHMS": "00:02:09",
+      "sourceChunkTimestamp": [
+        128.88,
+        131.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether happiness is an operation?",
+      "asrMatchedText": "Second article 1 to 2, Question 3, Article 2.",
+      "approxStartSec": 364.37,
+      "approxStartHMS": "00:06:04",
+      "sourceChunkTimestamp": [
+        364.24,
+        370.08
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether happiness is an operation of the sensitive part, or of the intellective part only?",
+      "asrMatchedText": "Third Article 1-2, Question 3, Article 3",
+      "approxStartSec": 912.69,
+      "approxStartHMS": "00:15:12",
+      "sourceChunkTimestamp": [
+        912.56,
+        918
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether, if happiness is in the intellective part, it is an operation of the intellect or of the will?",
+      "asrMatchedText": "Fourth Article 1-2, question 3, article 4.",
+      "approxStartSec": 1220.21,
+      "approxStartHMS": "00:20:20",
+      "sourceChunkTimestamp": [
+        1220.08,
+        1225.6
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether happiness is an operation of the speculative, or of the practical intellect?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether happiness consists in the consideration of speculative sciences?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether happiness consists in the knowledge of separate substances, namely, angels?",
+      "matched": false
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether man's happiness consists in the vision of the divine essence?",
+      "matched": false
+    }
+  ]
+}

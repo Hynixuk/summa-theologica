@@ -1,0 +1,78 @@
+{
+  "volume": 11,
+  "part": 3,
+  "audioFile": "25 - Question 68 - OF MATTERS CONCERNING UNJUST ACCUSATION (In Four Articles).mp3",
+  "audioRelPath": "vol11/25 - Question 68 - OF MATTERS CONCERNING UNJUST ACCUSATION (In Four Articles).mp3",
+  "audioDurationSec": 1413.55,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 350.83,
+    "audioProcessedSec": 1413.55,
+    "realtimeFactor": 0.248,
+    "mp3DecodeSec": 5.44
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 68,
+    "title": "Matters concerning unjust accusation"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether a man is bound to accuse?",
+      "asrMatchedText": "First article, whether a man is bound to accuse.",
+      "approxStartSec": 76.12,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76,
+        82
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is necessary for the accusation to be made in writing?",
+      "asrMatchedText": "Second article. Whether it is necessary for the accusation to be made in writing.",
+      "approxStartSec": 413.09,
+      "approxStartHMS": "00:06:53",
+      "sourceChunkTimestamp": [
+        413,
+        420
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether an accusation is rendered unjust by calumny, collusion or evasion?",
+      "asrMatchedText": "Third article. Whether an accusation is rendered unjust by Calumni, collusion, or",
+      "approxStartSec": 654.17,
+      "approxStartHMS": "00:10:54",
+      "sourceChunkTimestamp": [
+        654.08,
+        661.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether an accuser who fails to prove his indictment is bound to the punishment of retaliation?",
+      "asrMatchedText": "Fourth article.",
+      "approxStartSec": 1028.13,
+      "approxStartHMS": "00:17:08",
+      "sourceChunkTimestamp": [
+        1028,
+        1030
+      ],
+      "matched": true
+    }
+  ]
+}

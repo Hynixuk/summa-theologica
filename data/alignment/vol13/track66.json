@@ -1,0 +1,102 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "66 - Question 55 - OF THE MANIFESTATION OF THE RESURRECTION (In Six Articles).mp3",
+  "audioRelPath": "vol13/66 - Question 55 - OF THE MANIFESTATION OF THE RESURRECTION (In Six Articles).mp3",
+  "audioDurationSec": 3135.68,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 557.8,
+    "audioProcessedSec": 3135.68,
+    "realtimeFactor": 0.178,
+    "mp3DecodeSec": 4.81
+  },
+  "expectedArticleCount": 6,
+  "matchedArticleCount": 6,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 55,
+    "title": "The manifestation of the Resurrection"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether Christ's Resurrection ought to have been manifested to all?",
+      "asrMatchedText": "First article, whether Christ's resurrection ought to have been manifested to all.",
+      "approxStartSec": 93.1,
+      "approxStartHMS": "00:01:33",
+      "sourceChunkTimestamp": [
+        93,
+        101
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it was fitting that the disciples should see Him rise again?",
+      "asrMatchedText": "Second article. to see him rising in glory.",
+      "approxStartSec": 503.1,
+      "approxStartHMS": "00:08:23",
+      "sourceChunkTimestamp": [
+        503,
+        507.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ ought to have lived constantly with His disciples after the Resurrection?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 798.89,
+      "approxStartHMS": "00:13:18",
+      "sourceChunkTimestamp": [
+        798.68,
+        801.84
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ should have appeared to the disciples \"in another shape\"?",
+      "asrMatchedText": "Fourth Article Whether Christ should have appeared to the disciples in another shape.",
+      "approxStartSec": 1435.37,
+      "approxStartHMS": "00:23:55",
+      "sourceChunkTimestamp": [
+        1435.28,
+        1442.96
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether Christ should have demonstrated the truth of His Resurrection by proofs?",
+      "asrMatchedText": "Fifth article.",
+      "approxStartSec": 1833.13,
+      "approxStartHMS": "00:30:33",
+      "sourceChunkTimestamp": [
+        1833,
+        1835
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the proofs which Christ made use of manifested sufficiently the truth of His Resurrection?",
+      "asrMatchedText": "Sixth Article Whether the proofs which Christ made use of manifested sufficiently the truth of His resurrection.",
+      "approxStartSec": 2239.11,
+      "approxStartHMS": "00:37:19",
+      "sourceChunkTimestamp": [
+        2239.04,
+        2247
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "volume": 3,
+  "part": 1,
+  "audioFile": "14 - Question. 63 - THE MALICE OF THE ANGELS WITH REGARD TO SIN (NINE ARTICLES).mp3",
+  "audioRelPath": "vol03/14 - Question. 63 - THE MALICE OF THE ANGELS WITH REGARD TO SIN (NINE ARTICLES).mp3",
+  "audioDurationSec": 3208.86,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 938.39,
+    "audioProcessedSec": 3208.86,
+    "realtimeFactor": 0.292,
+    "mp3DecodeSec": 8.13
+  },
+  "expectedArticleCount": 9,
+  "matchedArticleCount": 8,
+  "status": "partial",
+  "question": {
+    "part": 1,
+    "question": 63,
+    "title": "The malice of the angels with regard to sin"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the evil of fault can be in the angels?",
+      "asrMatchedText": "First Article I, Question 63, Article I, whether the evil of fault can be in the angels. Objection",
+      "approxStartSec": 108.93,
+      "approxStartHMS": "00:01:48",
+      "sourceChunkTimestamp": [
+        108.84,
+        117.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether only the sin of pride and envy can exist in an angel?",
+      "asrMatchedText": "Second Article 1, Question 63, Article 2. Whether only the sin of pride and envy can",
+      "approxStartSec": 472.84,
+      "approxStartHMS": "00:07:52",
+      "sourceChunkTimestamp": [
+        472.76,
+        479.86
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the devil desired to be as God?",
+      "asrMatchedText": "Third Article 1, Question 63, Article 3, Whether the Devil Desired to Be as God. 1. It would seem that the devil did not desired to be as God.",
+      "approxStartSec": 776.94,
+      "approxStartHMS": "00:12:56",
+      "sourceChunkTimestamp": [
+        776.88,
+        785.1
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether any demons are naturally wicked?",
+      "asrMatchedText": "Fourth Article 1, Question 63, Article 4, Whether Any Demons Are Naturally Wicked",
+      "approxStartSec": 1150.13,
+      "approxStartHMS": "00:19:10",
+      "sourceChunkTimestamp": [
+        1150.04,
+        1157.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the devil was wicked by the fault of his own will in the first instant of his creation?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether there was any interval between the creation and the fall of the angel?",
+      "asrMatchedText": "Sixth Article I, Question 63, Article 6",
+      "approxStartSec": 1925.94,
+      "approxStartHMS": "00:32:05",
+      "sourceChunkTimestamp": [
+        1925.8,
+        1931.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether the highest angel among those who sinned was the highest of all?",
+      "asrMatchedText": "7th Article 1, Question 63, Article 7",
+      "approxStartSec": 2270.06,
+      "approxStartHMS": "00:37:50",
+      "sourceChunkTimestamp": [
+        2269.92,
+        2275.4
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the sin of the highest angel was the cause of the others sinning?",
+      "asrMatchedText": "Eighth Article 163, Article 8.",
+      "approxStartSec": 2637.76,
+      "approxStartHMS": "00:43:57",
+      "sourceChunkTimestamp": [
+        2637.6,
+        2642.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether those who sinned were as many as those who remained firm?",
+      "asrMatchedText": "9th Article 1, Question 63, Article 9. Whether those who sinned were as many as those who",
+      "approxStartSec": 2989.09,
+      "approxStartHMS": "00:49:49",
+      "sourceChunkTimestamp": [
+        2989,
+        2997.2
+      ],
+      "matched": true
+    }
+  ]
+}

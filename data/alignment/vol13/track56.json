@@ -1,0 +1,111 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "56 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol13/56 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 2006.82,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 311.33,
+    "audioProcessedSec": 2006.82,
+    "realtimeFactor": 0.155,
+    "mp3DecodeSec": 2.91
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 46,
+    "title": "The passion of Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it was necessary for Christ to suffer for the deliverance of the human race?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether there was any other possible way of human deliverance besides the Passion of Christ?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether there was any more suitable way of delivering the human race than by Christ's Passion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ ought to have suffered on the cross?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether Christ endured all suffering?",
+      "asrMatchedText": "5th article, Whether Christ Endured All Suffering.",
+      "approxStartSec": 44.01,
+      "approxStartHMS": "00:00:44",
+      "sourceChunkTimestamp": [
+        43.9,
+        49.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the pain of Christ's Passion was greater than all other pains?",
+      "asrMatchedText": "6th article Whether the pain of Christ's passion was greater than all other pains.",
+      "approxStartSec": 422.07,
+      "approxStartHMS": "00:07:02",
+      "sourceChunkTimestamp": [
+        421.96,
+        431.44
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether Christ suffered in His whole soul?",
+      "asrMatchedText": "Seventh Article Whether Christ Suffered in His Whole Soul",
+      "approxStartSec": 1275.92,
+      "approxStartHMS": "00:21:15",
+      "sourceChunkTimestamp": [
+        1275.84,
+        1280.24
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether Christ's entire soul enjoyed blessed fruition during the Passion?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether Christ suffered at a suitable time?",
+      "matched": false
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether Christ suffered in a suitable place?",
+      "matched": false
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether it was fitting for Christ to be crucified with thieves?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether Christ's Passion is to be attributed to His Godhead?",
+      "matched": false
+    }
+  ]
+}

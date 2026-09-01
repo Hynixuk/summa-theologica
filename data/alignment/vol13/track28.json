@@ -1,0 +1,78 @@
+{
+  "volume": 13,
+  "part": 4,
+  "audioFile": "28 - Question 23 - OF ADOPTION AS BEFITTING TO CHRIST (In Four Articles).mp3",
+  "audioRelPath": "vol13/28 - Question 23 - OF ADOPTION AS BEFITTING TO CHRIST (In Four Articles).mp3",
+  "audioDurationSec": 1274,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 207.15,
+    "audioProcessedSec": 1274,
+    "realtimeFactor": 0.163,
+    "mp3DecodeSec": 2.57
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 4,
+    "question": 23,
+    "title": "Adoption as befitting to Christ"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether it is fitting that God should adopt sons?",
+      "asrMatchedText": "First article, whether it is fitting that God should adopt sons.",
+      "approxStartSec": 72.11,
+      "approxStartHMS": "00:01:12",
+      "sourceChunkTimestamp": [
+        72,
+        79
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether it is fitting that the whole Trinity should adopt?",
+      "asrMatchedText": "Second article, whether it is fitting that the whole trinity should adopt.",
+      "approxStartSec": 350.54,
+      "approxStartHMS": "00:05:50",
+      "sourceChunkTimestamp": [
+        350.44,
+        357.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is proper to the rational nature to be adopted?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 680.13,
+      "approxStartHMS": "00:11:20",
+      "sourceChunkTimestamp": [
+        680,
+        682
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ as man is the adopted Son of God?",
+      "asrMatchedText": "article, Whether Christ is Man is the adopted Son of God. Fourth article.",
+      "approxStartSec": 984.75,
+      "approxStartHMS": "00:16:24",
+      "sourceChunkTimestamp": [
+        983.3,
+        985.12
+      ],
+      "matched": true
+    }
+  ]
+}

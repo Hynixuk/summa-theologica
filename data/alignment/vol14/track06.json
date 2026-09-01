@@ -1,0 +1,108 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "06 - Question 64 - THE CAUSES OF THE SACRAMENTS (In Ten Articles), part 2.mp3",
+  "audioRelPath": "vol14/06 - Question 64 - THE CAUSES OF THE SACRAMENTS (In Ten Articles), part 2.mp3",
+  "audioDurationSec": 1854.4,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 693.58,
+    "audioProcessedSec": 1854.4,
+    "realtimeFactor": 0.374,
+    "mp3DecodeSec": 5.57
+  },
+  "expectedArticleCount": 10,
+  "matchedArticleCount": 4,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 64,
+    "title": "The causes of the sacraments"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether God alone, or the minister also, works inwardly unto the sacramental effect?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the sacraments are instituted by God alone?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether Christ as man had the power of producing the inward sacramental effect?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether Christ could communicate to ministers the power which He had in the sacraments?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the sacraments can be conferred by evil ministers?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether wicked men sin in administering the sacraments?",
+      "asrMatchedText": "Sixth Article, Whether Wicked Men Sin In Administering the Sacraments",
+      "approxStartSec": 26.4,
+      "approxStartHMS": "00:00:26",
+      "sourceChunkTimestamp": [
+        26.24,
+        37.28
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether angels can administer sacraments?",
+      "asrMatchedText": "7th article, whether angels can administer sacraments.",
+      "approxStartSec": 480.58,
+      "approxStartHMS": "00:08:00",
+      "sourceChunkTimestamp": [
+        480.4,
+        490.52
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether the minister's intention is required for the validity of a sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether faith is required of necessity in the minister of a sacrament?",
+      "asrMatchedText": "9th article, Whether faith is required of necessity in the minister of a sacrament.",
+      "approxStartSec": 1113.59,
+      "approxStartHMS": "00:18:33",
+      "sourceChunkTimestamp": [
+        1113.52,
+        1119.36
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether the validity of a sacrament requires a good intention in the minister?",
+      "asrMatchedText": "10th article. Whether the validity of a sacrament requires a good intention in the ██████ 10.",
+      "approxStartSec": 1561.04,
+      "approxStartHMS": "00:26:01",
+      "sourceChunkTimestamp": [
+        1561,
+        1565
+      ],
+      "matched": true
+    }
+  ]
+}

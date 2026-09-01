@@ -1,0 +1,71 @@
+{
+  "volume": 9,
+  "part": 2,
+  "audioFile": "24 - Question 108 - OF THOSE THINGS THAT ARE CONTAINED IN THE NEW LAW (In Four Articl.mp3",
+  "audioRelPath": "vol09/24 - Question 108 - OF THOSE THINGS THAT ARE CONTAINED IN THE NEW LAW (In Four Articl.mp3",
+  "audioDurationSec": 2707.2,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 444.19,
+    "audioProcessedSec": 2707.2,
+    "realtimeFactor": 0.164,
+    "mp3DecodeSec": 5.54
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 3,
+  "status": "partial",
+  "question": {
+    "part": 2,
+    "question": 108,
+    "title": "Things that are contained in the New Law"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether the New Law ought to prescribe or prohibit any external acts?",
+      "asrMatchedText": "First article, whether the new law ought to prescribe or prohibit any external acts.",
+      "approxStartSec": 76.65,
+      "approxStartHMS": "00:01:16",
+      "sourceChunkTimestamp": [
+        76.56,
+        84.56
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the New Law made sufficient ordinations about external acts?",
+      "asrMatchedText": "Second article Whether the new law made sufficient ordinations about external acts.",
+      "approxStartSec": 605.01,
+      "approxStartHMS": "00:10:05",
+      "sourceChunkTimestamp": [
+        604.92,
+        612.64
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the New Law directed man sufficiently as regards interior actions?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether certain definite counsels are fittingly proposed in the New Law?",
+      "asrMatchedText": "Fourth Article",
+      "approxStartSec": 2151.5,
+      "approxStartHMS": "00:35:51",
+      "sourceChunkTimestamp": [
+        2151.4,
+        2152.9
+      ],
+      "matched": true
+    }
+  ]
+}

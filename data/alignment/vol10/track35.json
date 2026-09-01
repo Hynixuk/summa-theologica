@@ -1,0 +1,78 @@
+{
+  "volume": 10,
+  "part": 3,
+  "audioFile": "35 - Question 28 - OF JOY (In Four Articles).mp3",
+  "audioRelPath": "vol10/35 - Question 28 - OF JOY (In Four Articles).mp3",
+  "audioDurationSec": 1363.02,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 187.85,
+    "audioProcessedSec": 1363.02,
+    "realtimeFactor": 0.138,
+    "mp3DecodeSec": 2.86
+  },
+  "expectedArticleCount": 4,
+  "matchedArticleCount": 4,
+  "status": "ok",
+  "question": {
+    "part": 3,
+    "question": 28,
+    "title": "Joy"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether joy is effected in us by charity?",
+      "asrMatchedText": "First article, whether joy is affected in us by charity.",
+      "approxStartSec": 89.02,
+      "approxStartHMS": "00:01:29",
+      "sourceChunkTimestamp": [
+        88.88,
+        97.12
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether the spiritual joy, which results from charity, is compatible with an admixture of sorrow?",
+      "asrMatchedText": "Second article.",
+      "approxStartSec": 416.13,
+      "approxStartHMS": "00:06:56",
+      "sourceChunkTimestamp": [
+        416,
+        418
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether the spiritual joy which proceeds from charity, can be filled?",
+      "asrMatchedText": "Third article.",
+      "approxStartSec": 709.03,
+      "approxStartHMS": "00:11:49",
+      "sourceChunkTimestamp": [
+        708.64,
+        714.48
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether joy is a virtue?",
+      "asrMatchedText": "The fourth article, Whether joy is a virtue.",
+      "approxStartSec": 1064.65,
+      "approxStartHMS": "00:17:44",
+      "sourceChunkTimestamp": [
+        1063.92,
+        1070.48
+      ],
+      "matched": true
+    }
+  ]
+}

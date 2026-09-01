@@ -1,0 +1,125 @@
+{
+  "volume": 14,
+  "part": 4,
+  "audioFile": "19 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 2.mp3",
+  "audioRelPath": "vol14/19 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 2.mp3",
+  "audioDurationSec": 1857.66,
+  "method": {
+    "pipeline": "transformers.js (@huggingface/transformers) ASR pipeline, Whisper base.en, CPU (wasm) backend",
+    "mp3Decode": "mpg123-decoder (pure WASM, no ffmpeg needed)",
+    "timestampGranularity": "chunk-level (chunk_length_s=30, stride_length_s=5), NOT word-level",
+    "boundaryMethod": "regex search for narrator-read ordinal + 'article' (e.g. 'Second article') in ASR transcript chunks, scanning monotonically forward; timestamp linearly interpolated by character offset within the matched ~30s chunk",
+    "note": "Unlike the vol01/Q1 pilot, article 1's timestamp here is the actual ASR-detected heading position (not forced to 0:00) since most files don't carry the LibriVox-intro + Prologue boilerplate that only precedes the very first track of the corpus."
+  },
+  "timing": {
+    "fullFileInferenceSec": 591.35,
+    "audioProcessedSec": 1857.66,
+    "realtimeFactor": 0.318,
+    "mp3DecodeSec": 7.04
+  },
+  "expectedArticleCount": 12,
+  "matchedArticleCount": 5,
+  "status": "partial",
+  "question": {
+    "part": 4,
+    "question": 72,
+    "title": "The sacrament of Confirmation"
+  },
+  "articles": [
+    {
+      "articleNumber": 1,
+      "groundTruthTitle": "Whether confirmation is a sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 2,
+      "groundTruthTitle": "Whether chrism is a fitting matter for this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 3,
+      "groundTruthTitle": "Whether it is essential to this sacrament that the chrism which is its matter be previously consecrated by a bishop?",
+      "matched": false
+    },
+    {
+      "articleNumber": 4,
+      "groundTruthTitle": "Whether the proper form of this sacrament is: \"I sign thee with the sign of the cross,\" etc.?",
+      "matched": false
+    },
+    {
+      "articleNumber": 5,
+      "groundTruthTitle": "Whether the sacrament of Confirmation imprints a character?",
+      "matched": false
+    },
+    {
+      "articleNumber": 6,
+      "groundTruthTitle": "Whether the character of Confirmation presupposes of necessity, the baptismal character?",
+      "matched": false
+    },
+    {
+      "articleNumber": 7,
+      "groundTruthTitle": "Whether sanctifying grace is bestowed in this sacrament?",
+      "asrMatchedText": "Seventh Article Whether Sanctifying Grace is bestowed in",
+      "approxStartSec": 30.51,
+      "approxStartHMS": "00:00:30",
+      "sourceChunkTimestamp": [
+        30.44,
+        34.2
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 8,
+      "groundTruthTitle": "Whether this sacrament should be given to all?",
+      "asrMatchedText": "8th article, whether this sacrament should be given to all. one. It seems that this sacrament should not be given to all. Objection 1, it seems that this",
+      "approxStartSec": 316.12,
+      "approxStartHMS": "00:05:16",
+      "sourceChunkTimestamp": [
+        316.04,
+        327.66
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 9,
+      "groundTruthTitle": "Whether this sacrament should be given to man on the forehead?",
+      "asrMatchedText": "9th Article Whether this sacrament should be given to man on the forehead. Objection 1. It seems that this sacrament should not be given to man on the forehead.",
+      "approxStartSec": 699.17,
+      "approxStartHMS": "00:11:39",
+      "sourceChunkTimestamp": [
+        699.1,
+        710.88
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 10,
+      "groundTruthTitle": "Whether he who is confirmed needs one to stand for him?",
+      "asrMatchedText": "10th article. Whether he who is confirmed needs one to stand for him. 10.",
+      "approxStartSec": 959.99,
+      "approxStartHMS": "00:15:59",
+      "sourceChunkTimestamp": [
+        959.92,
+        965
+      ],
+      "matched": true
+    },
+    {
+      "articleNumber": 11,
+      "groundTruthTitle": "Whether only a bishop can confer this sacrament?",
+      "matched": false
+    },
+    {
+      "articleNumber": 12,
+      "groundTruthTitle": "Whether the rite of this sacrament is appropriate?",
+      "asrMatchedText": "12th article, whether the right of this sacrament is appropriate.",
+      "approxStartSec": 1573.24,
+      "approxStartHMS": "00:26:13",
+      "sourceChunkTimestamp": [
+        1573.1,
+        1582.1
+      ],
+      "matched": true
+    }
+  ]
+}
