@@ -6,9 +6,15 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const SUPABASE_URL = 'https://jwipfoqmxaedrvwhvsnn.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3aXBmb3FteGFlZHJ2d2h2c25uIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgyNzk2NjcsImV4cCI6MjEwMzg1NTY2N30.Ftv6JqlNvxs2khMEBoI8VcTeei7RE6VqzeZ6h1QXklw';
+const SUPABASE_URL = process.env.SUPABASE_URL || 'https://jwipfoqmxaedrvwhvsnn.supabase.co';
+const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
 const BUCKET_NAME = 'summa-audio';
+
+if (!SUPABASE_ANON_KEY) {
+  console.error('Error: SUPABASE_ANON_KEY environment variable is required');
+  console.error('Usage: SUPABASE_ANON_KEY=your_key node scripts/upload-audio-to-supabase.cjs');
+  process.exit(1);
+}
 
 const ROOT = path.join(__dirname, '..');
 const AUDIO_DIR = path.join(ROOT, 'audio');

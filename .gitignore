@@ -9,6 +9,9 @@ audio/
 # Local dev
 scripts/align_supervised.log
 scripts/watch-aquinas-commentary.log
+scripts/upload-audio.log
+.env
+.env.local
 .DS_Store
 *.log
 *.swp
