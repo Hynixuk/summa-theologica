@@ -171,6 +171,17 @@
 <script>window.AQUINAS_COMMENTARY = window.AQUINAS_COMMENTARY || {};</script>
 <script src="data-metaphysics-summaries.js" onerror="window.METAPHYSICS_SUMMARIES = window.METAPHYSICS_SUMMARIES || {overview:{},books:[]};"></script>
 <script>window.METAPHYSICS_SUMMARIES = window.METAPHYSICS_SUMMARIES || {overview:{},books:[]};</script>
+<script src="audio-urls.json" id="audio-urls-script"></script>
+<script>
+  // Load audio URL mapping (Supabase or local)
+  (function() {
+    fetch('audio-urls.json').then(r => r.json()).then(urls => {
+      window.AUDIO_URLS = urls || {};
+    }).catch(() => {
+      window.AUDIO_URLS = {};
+    });
+  })();
+</script>
 <script src="app.js"></script>
 <script>
 // Register service worker for offline support and PWA functionality

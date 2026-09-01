@@ -1224,7 +1224,7 @@
       audioEl.dataset.work = 'SCG';
       return;
     }
-    var resolved = new URL(c.audioFile, window.location.href).href;
+    var resolved = resolveAudioUrl(c.audioFile);
     if (audioEl.dataset.currentFile !== c.audioFile) {
       audioEl.src = resolved;
       audioEl.dataset.currentFile = c.audioFile;
@@ -1241,6 +1241,14 @@
     loadChapterAudio(state.book, state.chapter, shouldAutoplay);
   }
 
+  // Resolve audio URL: check AUDIO_URLS map (Supabase) first, fall back to local path
+  function resolveAudioUrl(localPath) {
+    if (!localPath) return null;
+    var mapped = (window.AUDIO_URLS || {})[localPath];
+    if (mapped) return mapped;
+    return new URL(localPath, window.location.href).href;
+  }
+
   // ---- Metaphysics audio (track-aware: several chapters commonly share one audio
   // file, so — like loadChapterAudio above — this only touches audioEl.src, and
   // therefore only interrupts playback, when the resolved file actually changes.
@@ -1254,7 +1262,7 @@
       audioEl.dataset.work = 'META';
       return;
     }
-    var resolved = new URL(c.audioFile, window.location.href).href;
+    var resolved = resolveAudioUrl(c.audioFile);
     if (audioEl.dataset.currentFile !== c.audioFile) {
       audioEl.src = resolved;
       audioEl.dataset.currentFile = c.audioFile;
