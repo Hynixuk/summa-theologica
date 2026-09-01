@@ -960,10 +960,53 @@
 
     chapterView.appendChild(artEl);
 
+    // Show book/overview summary before first chapter of each book
+    if (chapterNum === 1) {
+      if (book === 1) {
+        var overviewSummary = (window.METAPHYSICS_SUMMARIES || {}).overview;
+        if (overviewSummary && overviewSummary.content) {
+          chapterView.appendChild(renderMetaphysicsSummary(overviewSummary, 'overview'));
+        }
+      }
+      var bookSummary = ((window.METAPHYSICS_SUMMARIES || {}).books || []).find(function(b) { return b.book === book; });
+      if (bookSummary) {
+        chapterView.appendChild(renderMetaphysicsSummary(bookSummary, 'book'));
+      }
+    }
+
     var commentaryText = (window.AQUINAS_COMMENTARY || {})['B' + book + 'C' + chapterNum];
     if (commentaryText) {
       chapterView.appendChild(renderAquinasCommentary(commentaryText));
     }
+  }
+
+  // Renders a collapsible summary for Metaphysics (overview or book-level)
+  function renderMetaphysicsSummary(summary, type) {
+    var details = document.createElement('details');
+    details.className = 'metaphysics-summary';
+    details.open = true;
+
+    var summaryTitle = type === 'overview'
+      ? 'Overview: Aristotle\'s Metaphysics'
+      : summary.title || ('Book ' + summary.book + ' Summary');
+
+    var summary_el = document.createElement('summary');
+    summary_el.textContent = summaryTitle;
+    details.appendChild(summary_el);
+
+    var body = document.createElement('div');
+    body.className = 'metaphysics-summary-body';
+
+    (summary.content || '').split(/\n\n+/).forEach(function(para) {
+      var t = para.trim();
+      if (!t) return;
+      var pEl = document.createElement('p');
+      pEl.textContent = t;
+      body.appendChild(pEl);
+    });
+
+    details.appendChild(body);
+    return details;
   }
 
   // Renders a collapsible "Aquinas's Commentary" block for a Metaphysics chapter.

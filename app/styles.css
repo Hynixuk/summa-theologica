@@ -771,6 +771,49 @@ body {
   line-height: 1.5;
 }
 
+.metaphysics-summary {
+  margin-bottom: 28px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--accent-soft) 0%, var(--bg-elevated) 100%);
+  overflow: hidden;
+}
+.metaphysics-summary summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: var(--accent);
+  user-select: none;
+}
+.metaphysics-summary summary::-webkit-details-marker { display: none; }
+.metaphysics-summary summary::before {
+  content: '\203A';
+  display: inline-block;
+  transition: transform 0.15s ease;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+.metaphysics-summary[open] summary::before { transform: rotate(90deg); }
+.metaphysics-summary[open] summary {
+  border-bottom: 1px solid var(--rule);
+}
+.metaphysics-summary-body {
+  padding: 18px;
+}
+.metaphysics-summary-body p {
+  margin: 14px 0 0 0;
+  line-height: 1.7;
+  font-size: 0.96rem;
+  color: var(--ink);
+}
+.metaphysics-summary-body p:first-child {
+  margin-top: 0;
+}
+
 .article p {
   margin: 0 0 14px;
   line-height: 1.7;
