@@ -6,13 +6,30 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
+// Load .env file
+function loadEnv() {
+  const envFile = path.join(__dirname, '..', '.env');
+  if (fs.existsSync(envFile)) {
+    const content = fs.readFileSync(envFile, 'utf-8');
+    const lines = content.split('\n');
+    for (const line of lines) {
+      const [key, value] = line.split('=');
+      if (key && value) {
+        process.env[key.trim()] = value.trim();
+      }
+    }
+  }
+}
+
+loadEnv();
+
 const SUPABASE_URL = process.env.SUPABASE_URL || 'https://jwipfoqmxaedrvwhvsnn.supabase.co';
 const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
 const BUCKET_NAME = 'summa-audio';
 
 if (!SUPABASE_ANON_KEY) {
-  console.error('Error: SUPABASE_ANON_KEY environment variable is required');
-  console.error('Usage: SUPABASE_ANON_KEY=your_key node scripts/upload-audio-to-supabase.cjs');
+  console.error('Error: SUPABASE_ANON_KEY not found');
+  console.error('Create a .env file with: SUPABASE_ANON_KEY=your_key');
   process.exit(1);
 }
 
@@ -91,7 +108,8 @@ async function uploadAudio() {
       console.log(`[${uploaded + failed + 1}/${audioFiles.length}] Uploading ${fileName} (${(fileSize / 1024 / 1024).toFixed(1)}MB)...`);
 
       const fileContent = fs.readFileSync(filePath);
-      const uploadPath = `/storage/v1/object/summa-audio/${fileName}`;
+      const encodedFileName = encodeURIComponent(fileName);
+      const uploadPath = `/storage/v1/object/summa-audio/${encodedFileName}`;
 
       const response = await httpsRequest(
         'POST',
@@ -100,8 +118,8 @@ async function uploadAudio() {
         fileContent
       );
 
-      const publicUrl = `${SUPABASE_URL}/storage/v1/object/public/summa-audio/${fileName}`;
-      audioMap[`audio/${fileName}`] = publicUrl;
+      const publicUrl = `${SUPABASE_URL}/storage/v1/object/public/summa-audio/${encodedFileName}`;
+      audioMap[`audio/${fileName.replace(/\\/g, '/')}`] = publicUrl;
       uploaded++;
       console.log(`✓ Uploaded: ${publicUrl}\n`);
     } catch (err) {
