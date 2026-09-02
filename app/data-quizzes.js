@@ -6142,6 +6142,4053 @@ window.QUIZZES = {
       "explanation": "Aquinas argues that just as human speech manifests the interior reason and will that make law, repeated actions can likewise manifest that same reason and will even more effectively, since repeated conduct signals a deliberate judgment -- so custom can establish, expound, or abolish law."
     }
   ],
+  "P2Q058": [
+    {
+      "source": "ST II-58",
+      "question": "Based on Aquinas's answer in Question 58 on the difference between moral and intellectual virtues, what is the essential nature of this concept?",
+      "explanation": "Question 58 (The difference between moral and intellectual virtues) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-58",
+      "question": "According to Aquinas in Question 58, what key distinction does he make about the difference between moral and intellectual virtues?",
+      "explanation": "Question 58: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-58",
+      "question": "In Question 58, how does Aquinas relate the difference between moral and intellectual virtues to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 58: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q059": [
+    {
+      "source": "ST II-59",
+      "question": "Based on Aquinas's answer in Question 59 on moral virtue in relation to the passions, what is the essential nature of this concept?",
+      "explanation": "Question 59 (Moral virtue in relation to the passions) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-59",
+      "question": "According to Aquinas in Question 59, what key distinction does he make about moral virtue in relation to the passions?",
+      "explanation": "Question 59: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-59",
+      "question": "In Question 59, how does Aquinas relate moral virtue in relation to the passions to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 59: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q060": [
+    {
+      "source": "ST II-60",
+      "question": "Based on Aquinas's answer in Question 60 on how the moral virtues differ from one another, what is the essential nature of this concept?",
+      "explanation": "Question 60 (How the moral virtues differ from one another) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-60",
+      "question": "According to Aquinas in Question 60, what key distinction does he make about how the moral virtues differ from one another?",
+      "explanation": "Question 60: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-60",
+      "question": "In Question 60, how does Aquinas relate how the moral virtues differ from one another to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 60: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q061": [
+    {
+      "source": "ST II-61",
+      "question": "Based on Aquinas's answer in Question 61 on the cardinal virtues, what is the essential nature of this concept?",
+      "explanation": "Question 61 (The cardinal virtues) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-61",
+      "question": "According to Aquinas in Question 61, what key distinction does he make about the cardinal virtues?",
+      "explanation": "Question 61: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-61",
+      "question": "In Question 61, how does Aquinas relate the cardinal virtues to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 61: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q062": [
+    {
+      "source": "ST II-62",
+      "question": "Based on Aquinas's answer in Question 62 on the theological virtues, what is the essential nature of this concept?",
+      "explanation": "Question 62 (The theological virtues) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-62",
+      "question": "According to Aquinas in Question 62, what key distinction does he make about the theological virtues?",
+      "explanation": "Question 62: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-62",
+      "question": "In Question 62, how does Aquinas relate the theological virtues to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 62: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q063": [
+    {
+      "source": "ST II-63",
+      "question": "Based on Aquinas's answer in Question 63 on the cause of virtues, what is the essential nature of this concept?",
+      "explanation": "Question 63 (The cause of virtues) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-63",
+      "question": "According to Aquinas in Question 63, what key distinction does he make about the cause of virtues?",
+      "explanation": "Question 63: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-63",
+      "question": "In Question 63, how does Aquinas relate the cause of virtues to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 63: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q064": [
+    {
+      "source": "ST II-64",
+      "question": "Based on Aquinas's answer in Question 64 on the mean of virtue, what is the essential nature of this concept?",
+      "explanation": "Question 64 (The mean of virtue) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-64",
+      "question": "According to Aquinas in Question 64, what key distinction does he make about the mean of virtue?",
+      "explanation": "Question 64: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-64",
+      "question": "In Question 64, how does Aquinas relate the mean of virtue to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 64: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q065": [
+    {
+      "source": "ST II-65",
+      "question": "Based on Aquinas's answer in Question 65 on the connection of virtues, what is the essential nature of this concept?",
+      "explanation": "Question 65 (The connection of virtues) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-65",
+      "question": "According to Aquinas in Question 65, what key distinction does he make about the connection of virtues?",
+      "explanation": "Question 65: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-65",
+      "question": "In Question 65, how does Aquinas relate the connection of virtues to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 65: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q066": [
+    {
+      "source": "ST II-66",
+      "question": "Based on Aquinas's answer in Question 66 on equality among the virtues, what is the essential nature of this concept?",
+      "explanation": "Question 66 (Equality among the virtues) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-66",
+      "question": "According to Aquinas in Question 66, what key distinction does he make about equality among the virtues?",
+      "explanation": "Question 66: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-66",
+      "question": "In Question 66, how does Aquinas relate equality among the virtues to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 66: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q067": [
+    {
+      "source": "ST II-67",
+      "question": "Based on Aquinas's answer in Question 67 on the duration of virtues after this life, what is the essential nature of this concept?",
+      "explanation": "Question 67 (The duration of virtues after this life) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-67",
+      "question": "According to Aquinas in Question 67, what key distinction does he make about the duration of virtues after this life?",
+      "explanation": "Question 67: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-67",
+      "question": "In Question 67, how does Aquinas relate the duration of virtues after this life to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 67: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q068": [
+    {
+      "source": "ST II-68",
+      "question": "Based on Aquinas's answer in Question 68 on the gifts, what is the essential nature of this concept?",
+      "explanation": "Question 68 (The gifts) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-68",
+      "question": "According to Aquinas in Question 68, what key distinction does he make about the gifts?",
+      "explanation": "Question 68: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-68",
+      "question": "In Question 68, how does Aquinas relate the gifts to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 68: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q069": [
+    {
+      "source": "ST II-69",
+      "question": "Based on Aquinas's answer in Question 69 on the beatitudes, what is the essential nature of this concept?",
+      "explanation": "Question 69 (The beatitudes) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-69",
+      "question": "According to Aquinas in Question 69, what key distinction does he make about the beatitudes?",
+      "explanation": "Question 69: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-69",
+      "question": "In Question 69, how does Aquinas relate the beatitudes to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 69: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q070": [
+    {
+      "source": "ST II-70",
+      "question": "Based on Aquinas's answer in Question 70 on the fruits of the holy ghost, what is the essential nature of this concept?",
+      "explanation": "Question 70 (The fruits of the Holy Ghost) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-70",
+      "question": "According to Aquinas in Question 70, what key distinction does he make about the fruits of the holy ghost?",
+      "explanation": "Question 70: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-70",
+      "question": "In Question 70, how does Aquinas relate the fruits of the holy ghost to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 70: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q071": [
+    {
+      "source": "ST II-71",
+      "question": "Based on Aquinas's answer in Question 71 on vice and sin considered in themselves, what is the essential nature of this concept?",
+      "explanation": "Question 71 (Vice and sin considered in themselves) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-71",
+      "question": "According to Aquinas in Question 71, what key distinction does he make about vice and sin considered in themselves?",
+      "explanation": "Question 71: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-71",
+      "question": "In Question 71, how does Aquinas relate vice and sin considered in themselves to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 71: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q072": [
+    {
+      "source": "ST II-72",
+      "question": "Based on Aquinas's answer in Question 72 on the distinction of sins, what is the essential nature of this concept?",
+      "explanation": "Question 72 (The distinction of sins) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-72",
+      "question": "According to Aquinas in Question 72, what key distinction does he make about the distinction of sins?",
+      "explanation": "Question 72: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-72",
+      "question": "In Question 72, how does Aquinas relate the distinction of sins to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 72: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q073": [
+    {
+      "source": "ST II-73",
+      "question": "Based on Aquinas's answer in Question 73 on the comparison of one sin with another, what is the essential nature of this concept?",
+      "explanation": "Question 73 (The comparison of one sin with another) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-73",
+      "question": "According to Aquinas in Question 73, what key distinction does he make about the comparison of one sin with another?",
+      "explanation": "Question 73: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-73",
+      "question": "In Question 73, how does Aquinas relate the comparison of one sin with another to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 73: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q074": [
+    {
+      "source": "ST II-74",
+      "question": "Based on Aquinas's answer in Question 74 on the subject of sin, what is the essential nature of this concept?",
+      "explanation": "Question 74 (The subject of sin) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-74",
+      "question": "According to Aquinas in Question 74, what key distinction does he make about the subject of sin?",
+      "explanation": "Question 74: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-74",
+      "question": "In Question 74, how does Aquinas relate the subject of sin to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 74: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q075": [
+    {
+      "source": "ST II-75",
+      "question": "Based on Aquinas's answer in Question 75 on the causes of sin, in general, what is the essential nature of this concept?",
+      "explanation": "Question 75 (The causes of sin, in general) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-75",
+      "question": "According to Aquinas in Question 75, what key distinction does he make about the causes of sin, in general?",
+      "explanation": "Question 75: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-75",
+      "question": "In Question 75, how does Aquinas relate the causes of sin, in general to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 75: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q076": [
+    {
+      "source": "ST II-76",
+      "question": "Based on Aquinas's answer in Question 76 on the causes of sin, in particular, what is the essential nature of this concept?",
+      "explanation": "Question 76 (The causes of sin, in particular) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-76",
+      "question": "According to Aquinas in Question 76, what key distinction does he make about the causes of sin, in particular?",
+      "explanation": "Question 76: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-76",
+      "question": "In Question 76, how does Aquinas relate the causes of sin, in particular to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 76: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q077": [
+    {
+      "source": "ST II-77",
+      "question": "Based on Aquinas's answer in Question 77 on the cause of sin, on the part of the sensitive appetite, what is the essential nature of this concept?",
+      "explanation": "Question 77 (The cause of sin, on the part of the sensitive appetite) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-77",
+      "question": "According to Aquinas in Question 77, what key distinction does he make about the cause of sin, on the part of the sensitive appetite?",
+      "explanation": "Question 77: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-77",
+      "question": "In Question 77, how does Aquinas relate the cause of sin, on the part of the sensitive appetite to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 77: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q078": [
+    {
+      "source": "ST II-78",
+      "question": "Based on Aquinas's answer in Question 78 on that cause of sin which is malice, what is the essential nature of this concept?",
+      "explanation": "Question 78 (That cause of sin which is malice) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-78",
+      "question": "According to Aquinas in Question 78, what key distinction does he make about that cause of sin which is malice?",
+      "explanation": "Question 78: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-78",
+      "question": "In Question 78, how does Aquinas relate that cause of sin which is malice to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 78: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q079": [
+    {
+      "source": "ST II-79",
+      "question": "Based on Aquinas's answer in Question 79 on the external causes of sin, what is the essential nature of this concept?",
+      "explanation": "Question 79 (The external causes of sin) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-79",
+      "question": "According to Aquinas in Question 79, what key distinction does he make about the external causes of sin?",
+      "explanation": "Question 79: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-79",
+      "question": "In Question 79, how does Aquinas relate the external causes of sin to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 79: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q080": [
+    {
+      "source": "ST II-80",
+      "question": "Based on Aquinas's answer in Question 80 on the cause of sin, as regards the devil, what is the essential nature of this concept?",
+      "explanation": "Question 80 (The cause of sin, as regards the devil) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-80",
+      "question": "According to Aquinas in Question 80, what key distinction does he make about the cause of sin, as regards the devil?",
+      "explanation": "Question 80: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-80",
+      "question": "In Question 80, how does Aquinas relate the cause of sin, as regards the devil to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 80: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q081": [
+    {
+      "source": "ST II-81",
+      "question": "Based on Aquinas's answer in Question 81 on the cause of sin, on the part of man, what is the essential nature of this concept?",
+      "explanation": "Question 81 (The cause of sin, on the part of man) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-81",
+      "question": "According to Aquinas in Question 81, what key distinction does he make about the cause of sin, on the part of man?",
+      "explanation": "Question 81: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-81",
+      "question": "In Question 81, how does Aquinas relate the cause of sin, on the part of man to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 81: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q082": [
+    {
+      "source": "ST II-82",
+      "question": "Based on Aquinas's answer in Question 82 on original sin, as to its essence, what is the essential nature of this concept?",
+      "explanation": "Question 82 (Original sin, as to its essence) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-82",
+      "question": "According to Aquinas in Question 82, what key distinction does he make about original sin, as to its essence?",
+      "explanation": "Question 82: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-82",
+      "question": "In Question 82, how does Aquinas relate original sin, as to its essence to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 82: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q083": [
+    {
+      "source": "ST II-83",
+      "question": "Based on Aquinas's answer in Question 83 on the subject of original sin, what is the essential nature of this concept?",
+      "explanation": "Question 83 (The subject of original sin) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-83",
+      "question": "According to Aquinas in Question 83, what key distinction does he make about the subject of original sin?",
+      "explanation": "Question 83: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-83",
+      "question": "In Question 83, how does Aquinas relate the subject of original sin to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 83: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q084": [
+    {
+      "source": "ST II-84",
+      "question": "Based on Aquinas's answer in Question 84 on the cause of sin, in respect of one sin being the cause of another, what is the essential nature of this concept?",
+      "explanation": "Question 84 (The cause of sin, in respect of one sin being the cause of another) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-84",
+      "question": "According to Aquinas in Question 84, what key distinction does he make about the cause of sin, in respect of one sin being the cause of another?",
+      "explanation": "Question 84: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-84",
+      "question": "In Question 84, how does Aquinas relate the cause of sin, in respect of one sin being the cause of another to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 84: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q085": [
+    {
+      "source": "ST II-85",
+      "question": "Based on Aquinas's answer in Question 85 on the effects of sin, and, first, of the corruption of the good of nature, what is the essential nature of this concept?",
+      "explanation": "Question 85 (The effects of sin, and, first, of the corruption of the good of nature) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-85",
+      "question": "According to Aquinas in Question 85, what key distinction does he make about the effects of sin, and, first, of the corruption of the good of nature?",
+      "explanation": "Question 85: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-85",
+      "question": "In Question 85, how does Aquinas relate the effects of sin, and, first, of the corruption of the good of nature to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 85: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q086": [
+    {
+      "source": "ST II-86",
+      "question": "Based on Aquinas's answer in Question 86 on the stain of sin, what is the essential nature of this concept?",
+      "explanation": "Question 86 (The stain of sin) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-86",
+      "question": "According to Aquinas in Question 86, what key distinction does he make about the stain of sin?",
+      "explanation": "Question 86: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-86",
+      "question": "In Question 86, how does Aquinas relate the stain of sin to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 86: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q087": [
+    {
+      "source": "ST II-87",
+      "question": "Based on Aquinas's answer in Question 87 on the debt of punishment, what is the essential nature of this concept?",
+      "explanation": "Question 87 (The debt of punishment) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-87",
+      "question": "According to Aquinas in Question 87, what key distinction does he make about the debt of punishment?",
+      "explanation": "Question 87: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-87",
+      "question": "In Question 87, how does Aquinas relate the debt of punishment to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 87: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q088": [
+    {
+      "source": "ST II-88",
+      "question": "Based on Aquinas's answer in Question 88 on venial and mortal sin, what is the essential nature of this concept?",
+      "explanation": "Question 88 (Venial and mortal sin) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-88",
+      "question": "According to Aquinas in Question 88, what key distinction does he make about venial and mortal sin?",
+      "explanation": "Question 88: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-88",
+      "question": "In Question 88, how does Aquinas relate venial and mortal sin to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 88: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q089": [
+    {
+      "source": "ST II-89",
+      "question": "Based on Aquinas's answer in Question 89 on venial sin in itself, what is the essential nature of this concept?",
+      "explanation": "Question 89 (Venial sin in itself) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-89",
+      "question": "According to Aquinas in Question 89, what key distinction does he make about venial sin in itself?",
+      "explanation": "Question 89: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-89",
+      "question": "In Question 89, how does Aquinas relate venial sin in itself to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 89: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q090": [
+    {
+      "source": "ST II-90",
+      "question": "Based on Aquinas's answer in Question 90 on the essence of law, what is the essential nature of this concept?",
+      "explanation": "Question 90 (The essence of law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-90",
+      "question": "According to Aquinas in Question 90, what key distinction does he make about the essence of law?",
+      "explanation": "Question 90: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-90",
+      "question": "In Question 90, how does Aquinas relate the essence of law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 90: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q091": [
+    {
+      "source": "ST II-91",
+      "question": "Based on Aquinas's answer in Question 91 on the various kinds of law, what is the essential nature of this concept?",
+      "explanation": "Question 91 (The various kinds of law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-91",
+      "question": "According to Aquinas in Question 91, what key distinction does he make about the various kinds of law?",
+      "explanation": "Question 91: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-91",
+      "question": "In Question 91, how does Aquinas relate the various kinds of law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 91: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q092": [
+    {
+      "source": "ST II-92",
+      "question": "Based on Aquinas's answer in Question 92 on the effects of law, what is the essential nature of this concept?",
+      "explanation": "Question 92 (The effects of law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-92",
+      "question": "According to Aquinas in Question 92, what key distinction does he make about the effects of law?",
+      "explanation": "Question 92: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-92",
+      "question": "In Question 92, how does Aquinas relate the effects of law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 92: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q093": [
+    {
+      "source": "ST II-93",
+      "question": "Based on Aquinas's answer in Question 93 on the eternal law, what is the essential nature of this concept?",
+      "explanation": "Question 93 (The eternal law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-93",
+      "question": "According to Aquinas in Question 93, what key distinction does he make about the eternal law?",
+      "explanation": "Question 93: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-93",
+      "question": "In Question 93, how does Aquinas relate the eternal law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 93: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q094": [
+    {
+      "source": "ST II-94",
+      "question": "Based on Aquinas's answer in Question 94 on the natural law, what is the essential nature of this concept?",
+      "explanation": "Question 94 (The natural law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-94",
+      "question": "According to Aquinas in Question 94, what key distinction does he make about the natural law?",
+      "explanation": "Question 94: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-94",
+      "question": "In Question 94, how does Aquinas relate the natural law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 94: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q095": [
+    {
+      "source": "ST II-95",
+      "question": "Based on Aquinas's answer in Question 95 on human law, what is the essential nature of this concept?",
+      "explanation": "Question 95 (Human law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-95",
+      "question": "According to Aquinas in Question 95, what key distinction does he make about human law?",
+      "explanation": "Question 95: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-95",
+      "question": "In Question 95, how does Aquinas relate human law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 95: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q096": [
+    {
+      "source": "ST II-96",
+      "question": "Based on Aquinas's answer in Question 96 on the power of human law, what is the essential nature of this concept?",
+      "explanation": "Question 96 (The power of human law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-96",
+      "question": "According to Aquinas in Question 96, what key distinction does he make about the power of human law?",
+      "explanation": "Question 96: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-96",
+      "question": "In Question 96, how does Aquinas relate the power of human law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 96: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q097": [
+    {
+      "source": "ST II-97",
+      "question": "Based on Aquinas's answer in Question 97 on change in laws, what is the essential nature of this concept?",
+      "explanation": "Question 97 (Change in laws) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-97",
+      "question": "According to Aquinas in Question 97, what key distinction does he make about change in laws?",
+      "explanation": "Question 97: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-97",
+      "question": "In Question 97, how does Aquinas relate change in laws to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 97: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q098": [
+    {
+      "source": "ST II-98",
+      "question": "Based on Aquinas's answer in Question 98 on the old law, what is the essential nature of this concept?",
+      "explanation": "Question 98 (The old law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-98",
+      "question": "According to Aquinas in Question 98, what key distinction does he make about the old law?",
+      "explanation": "Question 98: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-98",
+      "question": "In Question 98, how does Aquinas relate the old law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 98: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q099": [
+    {
+      "source": "ST II-99",
+      "question": "Based on Aquinas's answer in Question 99 on the precepts of the old law, what is the essential nature of this concept?",
+      "explanation": "Question 99 (The precepts of the old law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-99",
+      "question": "According to Aquinas in Question 99, what key distinction does he make about the precepts of the old law?",
+      "explanation": "Question 99: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-99",
+      "question": "In Question 99, how does Aquinas relate the precepts of the old law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 99: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q100": [
+    {
+      "source": "ST II-100",
+      "question": "Based on Aquinas's answer in Question 100 on the moral precepts of the old law, what is the essential nature of this concept?",
+      "explanation": "Question 100 (The moral precepts of the old law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-100",
+      "question": "According to Aquinas in Question 100, what key distinction does he make about the moral precepts of the old law?",
+      "explanation": "Question 100: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-100",
+      "question": "In Question 100, how does Aquinas relate the moral precepts of the old law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 100: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q101": [
+    {
+      "source": "ST II-101",
+      "question": "Based on Aquinas's answer in Question 101 on the ceremonial precepts in themselves, what is the essential nature of this concept?",
+      "explanation": "Question 101 (The ceremonial precepts in themselves) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-101",
+      "question": "According to Aquinas in Question 101, what key distinction does he make about the ceremonial precepts in themselves?",
+      "explanation": "Question 101: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-101",
+      "question": "In Question 101, how does Aquinas relate the ceremonial precepts in themselves to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 101: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q102": [
+    {
+      "source": "ST II-102",
+      "question": "Based on Aquinas's answer in Question 102 on the causes of the ceremonial precepts, what is the essential nature of this concept?",
+      "explanation": "Question 102 (The causes of the ceremonial precepts) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-102",
+      "question": "According to Aquinas in Question 102, what key distinction does he make about the causes of the ceremonial precepts?",
+      "explanation": "Question 102: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-102",
+      "question": "In Question 102, how does Aquinas relate the causes of the ceremonial precepts to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 102: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q103": [
+    {
+      "source": "ST II-103",
+      "question": "Based on Aquinas's answer in Question 103 on the duration of the ceremonial precepts, what is the essential nature of this concept?",
+      "explanation": "Question 103 (The duration of the ceremonial precepts) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-103",
+      "question": "According to Aquinas in Question 103, what key distinction does he make about the duration of the ceremonial precepts?",
+      "explanation": "Question 103: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-103",
+      "question": "In Question 103, how does Aquinas relate the duration of the ceremonial precepts to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 103: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q104": [
+    {
+      "source": "ST II-104",
+      "question": "Based on Aquinas's answer in Question 104 on the judicial precepts, what is the essential nature of this concept?",
+      "explanation": "Question 104 (The judicial precepts) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-104",
+      "question": "According to Aquinas in Question 104, what key distinction does he make about the judicial precepts?",
+      "explanation": "Question 104: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-104",
+      "question": "In Question 104, how does Aquinas relate the judicial precepts to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 104: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q105": [
+    {
+      "source": "ST II-105",
+      "question": "Based on Aquinas's answer in Question 105 on the reason for the judicial precepts, what is the essential nature of this concept?",
+      "explanation": "Question 105 (The reason for the judicial precepts) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-105",
+      "question": "According to Aquinas in Question 105, what key distinction does he make about the reason for the judicial precepts?",
+      "explanation": "Question 105: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-105",
+      "question": "In Question 105, how does Aquinas relate the reason for the judicial precepts to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 105: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q106": [
+    {
+      "source": "ST II-106",
+      "question": "Based on Aquinas's answer in Question 106 on the law of the gospel, called the new law, considered in itself, what is the essential nature of this concept?",
+      "explanation": "Question 106 (The law of the Gospel, called the New Law, considered in itself) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-106",
+      "question": "According to Aquinas in Question 106, what key distinction does he make about the law of the gospel, called the new law, considered in itself?",
+      "explanation": "Question 106: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-106",
+      "question": "In Question 106, how does Aquinas relate the law of the gospel, called the new law, considered in itself to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 106: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q107": [
+    {
+      "source": "ST II-107",
+      "question": "Based on Aquinas's answer in Question 107 on the new law as compared with the old, what is the essential nature of this concept?",
+      "explanation": "Question 107 (The new law as compared with the old) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-107",
+      "question": "According to Aquinas in Question 107, what key distinction does he make about the new law as compared with the old?",
+      "explanation": "Question 107: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-107",
+      "question": "In Question 107, how does Aquinas relate the new law as compared with the old to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 107: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q108": [
+    {
+      "source": "ST II-108",
+      "question": "Based on Aquinas's answer in Question 108 on things that are contained in the new law, what is the essential nature of this concept?",
+      "explanation": "Question 108 (Things that are contained in the New Law) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-108",
+      "question": "According to Aquinas in Question 108, what key distinction does he make about things that are contained in the new law?",
+      "explanation": "Question 108: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-108",
+      "question": "In Question 108, how does Aquinas relate things that are contained in the new law to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 108: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q109": [
+    {
+      "source": "ST II-109",
+      "question": "Based on Aquinas's answer in Question 109 on the necessity of grace, what is the essential nature of this concept?",
+      "explanation": "Question 109 (The necessity of grace) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-109",
+      "question": "According to Aquinas in Question 109, what key distinction does he make about the necessity of grace?",
+      "explanation": "Question 109: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-109",
+      "question": "In Question 109, how does Aquinas relate the necessity of grace to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 109: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q110": [
+    {
+      "source": "ST II-110",
+      "question": "Based on Aquinas's answer in Question 110 on the grace of god as regards its essence, what is the essential nature of this concept?",
+      "explanation": "Question 110 (The grace of God as regards its essence) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-110",
+      "question": "According to Aquinas in Question 110, what key distinction does he make about the grace of god as regards its essence?",
+      "explanation": "Question 110: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-110",
+      "question": "In Question 110, how does Aquinas relate the grace of god as regards its essence to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 110: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q111": [
+    {
+      "source": "ST II-111",
+      "question": "Based on Aquinas's answer in Question 111 on the division of grace, what is the essential nature of this concept?",
+      "explanation": "Question 111 (The division of grace) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-111",
+      "question": "According to Aquinas in Question 111, what key distinction does he make about the division of grace?",
+      "explanation": "Question 111: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-111",
+      "question": "In Question 111, how does Aquinas relate the division of grace to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 111: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q112": [
+    {
+      "source": "ST II-112",
+      "question": "Based on Aquinas's answer in Question 112 on the cause of grace, what is the essential nature of this concept?",
+      "explanation": "Question 112 (The cause of grace) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-112",
+      "question": "According to Aquinas in Question 112, what key distinction does he make about the cause of grace?",
+      "explanation": "Question 112: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-112",
+      "question": "In Question 112, how does Aquinas relate the cause of grace to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 112: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q113": [
+    {
+      "source": "ST II-113",
+      "question": "Based on Aquinas's answer in Question 113 on the effects of grace, what is the essential nature of this concept?",
+      "explanation": "Question 113 (The effects of grace) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-113",
+      "question": "According to Aquinas in Question 113, what key distinction does he make about the effects of grace?",
+      "explanation": "Question 113: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-113",
+      "question": "In Question 113, how does Aquinas relate the effects of grace to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 113: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "P2Q114": [
+    {
+      "source": "ST II-114",
+      "question": "Based on Aquinas's answer in Question 114 on merit, what is the essential nature of this concept?",
+      "explanation": "Question 114 (Merit) in Aquinas: This concept is grounded in the nature of human acts and virtue as perfecting our rational nature",
+      "options": [
+        {
+          "text": "It pertains to the perfection of human capacities through habit formed by reason and will",
+          "correct": true
+        },
+        {
+          "text": "It is purely a matter of divine determination with no human agency involved",
+          "correct": false
+        },
+        {
+          "text": "It concerns only external actions without regard to internal disposition",
+          "correct": false
+        },
+        {
+          "text": "It is identical to the passions and emotions apart from rational control",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-114",
+      "question": "According to Aquinas in Question 114, what key distinction does he make about merit?",
+      "explanation": "Question 114: Aquinas employs careful philosophical analysis to clarify the nature and distinctions of this concept",
+      "options": [
+        {
+          "text": "He distinguishes between what pertains to the essence versus what pertains to effects or operations",
+          "correct": true
+        },
+        {
+          "text": "He claims there are no real distinctions, only linguistic differences",
+          "correct": false
+        },
+        {
+          "text": "He denies any difference from other similar concepts",
+          "correct": false
+        },
+        {
+          "text": "He attributes it solely to divine action without human participation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "source": "ST II-114",
+      "question": "In Question 114, how does Aquinas relate merit to the attainment of human happiness (beatitudo)?",
+      "explanation": "Question 114: For Aquinas, moral teachings are ordered toward human happiness achieved through virtue in conformity with reason",
+      "options": [
+        {
+          "text": "It is integral to acquiring virtue and thus necessary for human flourishing through right action",
+          "correct": true
+        },
+        {
+          "text": "It is an impediment to happiness that must be overcome through ascetic denial",
+          "correct": false
+        },
+        {
+          "text": "It has no connection to human fulfillment or the ultimate end",
+          "correct": false
+        },
+        {
+          "text": "It matters only for those pursuing contemplative religious life",
+          "correct": false
+        }
+      ]
+    }
+  ],
   "P3Q1": [
     {
       "q": "According to Aquinas, what is the formal object of faith — that by which everything else believed is held?",
@@ -9517,7 +13564,7 @@ window.QUIZZES = {
         "Because it is identical to humility"
       ],
       "correct": 1,
-      "explanation": "Aquinas argues that the essence of human virtue is safeguarding the good of reason, and since honors take precedence among external goods, magnanimity — which keeps honor within the mode of reason — is a genuine virtue, not mere pride."
+      "explanation": "Aquinas argues that the essence of human virtue is safeguarding the good of reason, and since honors take precedence among external goods, magnanimity â€” which keeps honor within the mode of reason â€” is a genuine virtue, not mere pride."
     },
     {
       "q": "Why does Aquinas classify magnanimity as a part of fortitude rather than an entirely separate cardinal virtue?",
@@ -9553,6 +13600,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas explains that magnanimity observes a mean proportionate to one's own ability, and the 'vain' or presumptuous man exceeds this proportion, making presumption the vice of excess opposed to magnanimity."
+    },
+    {
+      "q": "From Article 2's teaching about presumption, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : As stated above (II-II:129:3 ad 1), magnanimity observes the means, not as regards the quantity of that to which it tends, but in proportion to our own ability: for it does not tend to anything greater than is becoming to us. Now the presumptuous man..."
     }
   ],
   "P3Q131": [
@@ -9577,6 +13635,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas states that ambition signifies inordinate love of honor, while magnanimity uses honor in a becoming, well-ordered manner; thus ambition stands opposed to magnanimity as the inordinate to the well-ordered, i.e., an excess."
+    },
+    {
+      "q": "From Article 2's teaching about ambition, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : As stated above (Article 1), ambition signifies inordinate love of honor. Now magnanimity is about honors and makes use of them in a becoming manner. Wherefore it is evident that ambition is opposed to magnanimity as the inordinate to that which is w..."
     }
   ],
   "P3Q132": [
@@ -9595,12 +13664,12 @@ window.QUIZZES = {
       "q": "Under what conditions does Aquinas say vainglory becomes a mortal sin?",
       "options": [
         "It is always only a venial sin and can never be mortal",
-        "When it is contrary to charity — e.g., glorying in something false against reverence for God, preferring a temporal good to God, or preferring human praise to God's approval",
+        "When it is contrary to charity â€” e.g., glorying in something false against reverence for God, preferring a temporal good to God, or preferring human praise to God's approval",
         "Only when it involves stealing from another person",
         "Only when practiced by clergy, never by laypeople"
       ],
       "correct": 1,
-      "explanation": "Aquinas holds that vainglory becomes mortal when it opposes charity toward God — such as boasting in something false as if divine, preferring the glorying good to God, or preferring human esteem to God's glory."
+      "explanation": "Aquinas holds that vainglory becomes mortal when it opposes charity toward God â€” such as boasting in something false as if divine, preferring the glorying good to God, or preferring human esteem to God's glory."
     },
     {
       "q": "Why does Aquinas, following Gregory, classify vainglory as a capital vice even though pride is called the 'queen' of all vices?",
@@ -9611,7 +13680,7 @@ window.QUIZZES = {
         "Because only vainglory, not pride, appears in Scripture"
       ],
       "correct": 1,
-      "explanation": "Aquinas explains that while pride is the general root of all vice, vainglory specifically concerns the manifestation of excellence — something intensely desired — and its inordinate pursuit spawns numerous 'daughter' vices, qualifying it as a capital vice in its own right."
+      "explanation": "Aquinas explains that while pride is the general root of all vice, vainglory specifically concerns the manifestation of excellence â€” something intensely desired â€” and its inordinate pursuit spawns numerous 'daughter' vices, qualifying it as a capital vice in its own right."
     }
   ],
   "P3Q133": [
@@ -9635,7 +13704,7 @@ window.QUIZZES = {
         "The parable of the prodigal son"
       ],
       "correct": 1,
-      "explanation": "Aquinas cites the parable (Matthew 25; Luke 19) of the servant who buried the money entrusted to him rather than trading with it, out of timid fear, and was punished by his master — illustrating the sinfulness of shrinking from one's due potential."
+      "explanation": "Aquinas cites the parable (Matthew 25; Luke 19) of the servant who buried the money entrusted to him rather than trading with it, out of timid fear, and was punished by his master â€” illustrating the sinfulness of shrinking from one's due potential."
     },
     {
       "q": "Why is pusillanimity said to be directly opposed to magnanimity rather than merely its accidental cause or effect?",
@@ -9706,6 +13775,17 @@ window.QUIZZES = {
       ],
       "correct": 2,
       "explanation": "Aquinas identifies a vice of excess opposed to meanness, called in Greek banausia (or apyrokalia), translated as 'consumptio' or waste, in which a person spends disproportionately more than the work warrants, like a consuming fire."
+    },
+    {
+      "q": "From Article 2's teaching about meanness, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : Great is opposed to little. Also little and great are relative terms, as stated above (Article 1). Now just as expenditure may be little in comparison with the work, so may it be great in comparison with the work in that it exceeds the proportion whi..."
     }
   ],
   "P3Q136": [
@@ -9724,7 +13804,7 @@ window.QUIZZES = {
       "q": "Does Aquinas conclude that patience is the greatest of all the virtues?",
       "options": [
         "Yes, patience surpasses even faith, hope, and charity",
-        "No — virtues that positively establish good (like the theological virtues, prudence, and justice) and virtues that check greater obstacles (fortitude against death, temperance against pleasure) surpass patience, which checks lesser hardships",
+        "No â€” virtues that positively establish good (like the theological virtues, prudence, and justice) and virtues that check greater obstacles (fortitude against death, temperance against pleasure) surpass patience, which checks lesser hardships",
         "Yes, because Gregory and Augustine list it among the four principal virtues",
         "No, because patience is not actually a virtue at all"
       ],
@@ -9740,7 +13820,7 @@ window.QUIZZES = {
         "Patience comes solely from fear of punishment"
       ],
       "correct": 1,
-      "explanation": "Aquinas argues that one endures pain only for the sake of a greater good desired; the willingness to prefer the good of grace to all natural goods, even amid suffering, is rooted in charity, which loves God above all things — hence patience as a virtue is caused by charity."
+      "explanation": "Aquinas argues that one endures pain only for the sake of a greater good desired; the willingness to prefer the good of grace to all natural goods, even amid suffering, is rooted in charity, which loves God above all things â€” hence patience as a virtue is caused by charity."
     }
   ],
   "P3Q137": [
@@ -9800,6 +13880,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas explains that perseverance holds the rational mean, effeminacy falls short of it by giving up too soon, and pertinacity exceeds it by stubbornly holding to one's position ('head-strong' or 'self-opinionated') longer than reason dictates."
+    },
+    {
+      "q": "From Article 2's teaching about the vices opposed to perseverance, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : As Isidore says (Etym. x) \"a person is said to be pertinacious who holds on impudently, as being utterly tenacious.\" \"Pervicacious\" has the same meaning, for it signifies that a man \"perseveres in his purpose until he is victorious: for the ancients..."
     }
   ],
   "P3Q139": [
@@ -9824,6 +13915,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas follows Augustine in matching the fourth beatitude, concerning hunger and thirst for justice, to the gift of fortitude, since pursuing true goods and avoiding love of earthly things requires the toil and firmness that fortitude supplies."
+    },
+    {
+      "q": "From Article 2's teaching about the gift of fortitude, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : As stated above (II-II:121:2), Augustine makes the beatitudes correspond to the gifts according to the order in which they are set forth, observing at the same time a certain fittingness between them. Wherefore he ascribes the fourth beatitude, conce..."
     }
   ],
   "P3Q140": [
@@ -9848,6 +13950,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas argues that since man needs the secondary and annexed virtues (like patience, perseverance, magnanimity) in addition to principal virtues to live rightly, Divine Law, which perfectly instructs on all necessities of right living, includes precepts touching these as well."
+    },
+    {
+      "q": "From Article 2's teaching about the precepts of fortitude, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : The Divine Law instructs man perfectly about such things as are necessary for right living. Now in order to live aright man needs not only the principal virtues, but also the secondary and annexed virtues. Wherefore the Divine Law contains precepts n..."
     }
   ],
   "P3Q141": [
@@ -9866,12 +13979,12 @@ window.QUIZZES = {
       "q": "According to Aquinas, why is temperance specifically about pleasures of touch (food, drink, sex) rather than pleasures of sight or hearing?",
       "options": [
         "Because touch is the least important sense and thus easiest to regulate",
-        "Because temperance, like fortitude regarding the greatest fears, must address the greatest pleasures, and the pleasures tied to self-preservation (food/drink) and species-preservation (sex) — which come through touch — are the greatest and most natural",
+        "Because temperance, like fortitude regarding the greatest fears, must address the greatest pleasures, and the pleasures tied to self-preservation (food/drink) and species-preservation (sex) â€” which come through touch â€” are the greatest and most natural",
         "Because Aristotle disliked visual and auditory pleasures on principle",
         "Because the Bible only discusses touch-related sins"
       ],
       "correct": 1,
-      "explanation": "Aquinas parallels temperance with fortitude: just as fortitude concerns the gravest fears (death), temperance concerns the greatest pleasures, which arise from the most natural operations preserving the individual (food/drink) and species (sex) — pleasures mediated by touch."
+      "explanation": "Aquinas parallels temperance with fortitude: just as fortitude concerns the gravest fears (death), temperance concerns the greatest pleasures, which arise from the most natural operations preserving the individual (food/drink) and species (sex) â€” pleasures mediated by touch."
     },
     {
       "q": "Why does Aquinas conclude that temperance, while a cardinal virtue, is not the greatest of the virtues?",
@@ -9931,6 +14044,28 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas identifies shamefacedness and honesty as the integral parts of temperance: shamefacedness makes one recoil from the disgrace attached to intemperance, and honesty makes one love the beauty proper to temperance, since temperance uniquely lays claim to comeliness."
+    },
+    {
+      "q": "Why does Aquinas say that shamefacedness and honesty are integral parts of temperance?",
+      "correct": 1,
+      "options": [
+        "Because they are easy to practice without any difficulty",
+        "Because they are the conditions whose concurrence is necessary for temperance: shamefacedness makes one recoil from the disgrace contrary to temperance, and honesty makes one love the beauty of temperance",
+        "Because they belong to a different virtue entirely",
+        "Because they are merely optional additions to temperance"
+      ],
+      "explanation": "Aquinas explains that integral parts are conditions necessary for virtue; shamefacedness and honesty are the two integral parts because they address the disgrace and beauty that temperance uniquely claims, more than any other virtue."
+    },
+    {
+      "q": "According to Aquinas, why do the vices of intemperance stand out more in disgrace compared to other vices?",
+      "correct": 1,
+      "options": [
+        "Because they are less serious than other vices",
+        "Because temperance more than any other virtue lays claim to a certain comeliness and beauty, so intemperance's violation of this beauty stands out more prominently in disgrace",
+        "Because ancient philosophers were opposed to intemperance alone",
+        "Because intemperance violates divine law in a unique way"
+      ],
+      "explanation": "Aquinas states that temperance claims comeliness and beauty more than any other virtue; therefore the intemperance that violates this beauty and propriety excels other vices in disgrace, making shamefacedness and honesty particularly necessary as integral parts."
     }
   ],
   "P3Q144": [
@@ -9938,7 +14073,7 @@ window.QUIZZES = {
       "q": "Why does Aquinas argue that shamefacedness, strictly speaking, is not itself a virtue?",
       "options": [
         "Because it is not good at all",
-        "Because virtue in the strict sense is a perfection, and shamefacedness is fear of a base action, which implies an imperfection — a virtuous man does not apprehend disgraceful action as something possible or difficult to avoid for himself",
+        "Because virtue in the strict sense is a perfection, and shamefacedness is fear of a base action, which implies an imperfection â€” a virtuous man does not apprehend disgraceful action as something possible or difficult to avoid for himself",
         "Because only theologians can possess virtue",
         "Because shamefacedness applies only to children, who cannot possess virtue"
       ],
@@ -9955,6 +14090,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas explains that a person's attestation carries more weight when they know the matter well; since those close to us are better acquainted with our deeds, their judgment causes us more shame than that of strangers who are ignorant of what we do."
+    },
+    {
+      "q": "From Article 3's teaching about shamefacedness, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : Since reproach is opposed to honor, just as honor denotes attestation to someone's excellence, especially the excellence which is according to virtue, so too reproach, the fear of which is shamefacedness, denotes attestation to a person's defect, esp..."
     }
   ],
   "P3Q145": [
@@ -9978,7 +14124,18 @@ window.QUIZZES = {
         "The honest is always identical with what is merely pleasant to the senses"
       ],
       "correct": 1,
-      "explanation": "Drawing on Dionysius, Aquinas explains that beauty results from clarity and due proportion; just as bodily beauty is proportion plus color's clarity, honesty is 'spiritual beauty' — conduct proportioned according to reason's clarity, which is what virtue produces."
+      "explanation": "Drawing on Dionysius, Aquinas explains that beauty results from clarity and due proportion; just as bodily beauty is proportion plus color's clarity, honesty is 'spiritual beauty' â€” conduct proportioned according to reason's clarity, which is what virtue produces."
+    },
+    {
+      "q": "From Article 3's teaching about honesty, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : The honest concurs in the same subject with the useful and the pleasant, but it differs from them in aspect. For, as stated above (Article 2), a thing is said to be honest, in so far as it has a certain beauty through being regulated by reason. Now w..."
     }
   ],
   "P3Q146": [
@@ -9986,12 +14143,12 @@ window.QUIZZES = {
       "q": "In what sense does Aquinas say abstinence is a virtue?",
       "options": [
         "Any retrenchment of food whatsoever is automatically virtuous",
-        "Abstinence is virtuous only when regulated by reason — i.e., retrenching food with due regard for the company one keeps, one's own person, and health requirements, not mere reduction of food as such",
+        "Abstinence is virtuous only when regulated by reason â€” i.e., retrenching food with due regard for the company one keeps, one's own person, and health requirements, not mere reduction of food as such",
         "Abstinence is never a virtue, only a bodily discipline",
         "Abstinence is a virtue only for monks, not for laypeople"
       ],
       "correct": 1,
-      "explanation": "Aquinas distinguishes abstinence taken absolutely (mere reduction of food, morally indifferent) from abstinence regulated by reason, which is a virtuous habit or act — matching Peter's counsel to join abstinence 'with knowledge.'"
+      "explanation": "Aquinas distinguishes abstinence taken absolutely (mere reduction of food, morally indifferent) from abstinence regulated by reason, which is a virtuous habit or act â€” matching Peter's counsel to join abstinence 'with knowledge.'"
     },
     {
       "q": "Why does Aquinas classify abstinence as a special virtue rather than folding it into temperance generally?",
@@ -10003,6 +14160,17 @@ window.QUIZZES = {
       ],
       "correct": 0,
       "explanation": "Aquinas argues that wherever a passion has a special way of departing from reason's good, a special virtue is needed; since table pleasures are especially strong and tied to the necessity of food for life, abstinence emerges as a special virtue rather than being subsumed generally."
+    },
+    {
+      "q": "From Article 2's teaching about abstinence, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : As stated above (II-II:136:1; 141, 3) moral virtue maintains the good of reason against the onslaught of the passions: hence whenever we find a special motive why a passion departs from the good of reason, there is need of a special virtue. Now pleas..."
     }
   ],
   "P3Q147": [
@@ -10021,12 +14189,23 @@ window.QUIZZES = {
       "q": "Why, according to Aquinas, did the Church forbid meat, eggs, and milk products specifically during fasts?",
       "options": [
         "Because these foods were considered ritually unclean in all circumstances",
-        "Because these foods, coming from animals most like humans in body, give the greatest pleasure and nourishment, producing a surplus of seminal matter that becomes a great incentive to lust — precisely what fasting aims to curb",
+        "Because these foods, coming from animals most like humans in body, give the greatest pleasure and nourishment, producing a surplus of seminal matter that becomes a great incentive to lust â€” precisely what fasting aims to curb",
         "Because these foods were too expensive for ordinary people to obtain",
         "Because early Christians believed these foods contained demons"
       ],
       "correct": 1,
       "explanation": "Aquinas explains that fasting aims to bridle fleshly concupiscence connected with food and sex; meat, eggs, and milk, coming from animals bodily similar to humans, give the greatest pleasure and nourishment, generating surplus seminal matter that incites lust, hence their prohibition during fasts."
+    },
+    {
+      "q": "From Article 3's teaching about fasting, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : Just as it belongs to the secular authority to make legal precepts which apply the natural law to matters of common weal in temporal affairs, so it belongs to ecclesiastical superiors to prescribe by statute those things that concern the common weal..."
     }
   ],
   "P3Q148": [
@@ -10034,23 +14213,34 @@ window.QUIZZES = {
       "q": "Under what conditions does Aquinas say gluttony becomes a mortal, rather than venial, sin?",
       "options": [
         "Gluttony is always only a venial sin, never mortal",
-        "When a person adheres to the pleasure of eating as an end in itself, to the point of being willing to disobey God's commandments for the sake of that pleasure — turning away from man's final end, not merely disordering the means to it",
+        "When a person adheres to the pleasure of eating as an end in itself, to the point of being willing to disobey God's commandments for the sake of that pleasure â€” turning away from man's final end, not merely disordering the means to it",
         "Gluttony is always a mortal sin regardless of circumstances",
         "Only when the food eaten was stolen"
       ],
       "correct": 1,
-      "explanation": "Aquinas distinguishes concupiscence that merely disorders the means to the end (venial) from concupiscence that makes the pleasure itself one's end, to the point of contemning God and disobeying His commandments for it — this constitutes mortal sin."
+      "explanation": "Aquinas distinguishes concupiscence that merely disorders the means to the end (venial) from concupiscence that makes the pleasure itself one's end, to the point of contemning God and disobeying His commandments for it â€” this constitutes mortal sin."
     },
     {
       "q": "Why does Aquinas conclude gluttony is not the gravest of sins, despite Gregory listing it among the capital vices?",
       "options": [
         "Because gluttony does not actually exist as a real sin",
-        "Because judged by its matter (bodily nourishment, not divine things) it is not the greatest, and judged by the sinner's culpability it is actually diminished by the necessity of eating and the difficulty of exact moderation — though it does have some gravity from the sins it occasions",
+        "Because judged by its matter (bodily nourishment, not divine things) it is not the greatest, and judged by the sinner's culpability it is actually diminished by the necessity of eating and the difficulty of exact moderation â€” though it does have some gravity from the sins it occasions",
         "Because Aquinas believed all sins are equally grave",
         "Because gluttony only affects animals, not humans"
       ],
       "correct": 1,
       "explanation": "Aquinas measures sin's gravity by matter, by the sinner's culpability, and by resulting effects; gluttony concerns bodily nourishment (not the gravest matter), involves necessity and difficulty of moderation (reducing culpability), yet still has some gravity due to sins it occasions."
+    },
+    {
+      "q": "From Article 3's teaching about gluttony, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : The gravity of a sin may be measured in three ways. First and foremost it depends on the matter in which the sin is committed: and in this way sins committed in connection with Divine things are the greatest. From this point of view gluttony is not t..."
     }
   ],
   "P3Q149": [
@@ -10075,6 +14265,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas gives two reasons virtues are specially needed in certain persons: proneness to the relevant vice (concupiscence in the young and women) and the special necessity of the virtue for one's proper duties (unimpaired reason in elders, clergy, and rulers who instruct, minister, or govern)."
+    },
+    {
+      "q": "From Article 3's teaching about sobriety, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : No meat or drink, considered in itself, is unlawful, according to Matthew 15:11, \"Not that which goeth into the mouth defileth a man.\" Wherefore it is not unlawful to drink wine as such. Yet it may become unlawful accidentally. This is sometimes owin..."
     }
   ],
   "P3Q150": [
@@ -10093,12 +14294,23 @@ window.QUIZZES = {
       "q": "Why does Aquinas classify deliberate drunkenness (knowingly choosing intoxication over sobriety) as a mortal sin?",
       "options": [
         "Because alcohol itself is intrinsically evil",
-        "Because a person who knowingly and willingly deprives himself of the use of reason — through which he performs virtuous deeds and avoids sin — voluntarily runs the risk of falling into sin, per Ambrose's warning that drunkenness makes us commit unknowingly what we would avoid sober",
+        "Because a person who knowingly and willingly deprives himself of the use of reason â€” through which he performs virtuous deeds and avoids sin â€” voluntarily runs the risk of falling into sin, per Ambrose's warning that drunkenness makes us commit unknowingly what we would avoid sober",
         "Because Church law imposes automatic excommunication for any alcohol use",
         "Because it wastes money that could be given to the poor"
       ],
       "correct": 1,
       "explanation": "Aquinas reasons that when someone knowingly prefers drunkenness to sobriety despite recognizing the drink's intoxicating strength, he willfully deprives himself of reason (his safeguard against sin), thus voluntarily risking mortal sin, as Ambrose warns."
+    },
+    {
+      "q": "From Article 3's teaching about drunkenness, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : A thing is said to be evil because it removes a good. Wherefore the greater the good removed by an evil, the graver the evil. Now it is evident that a Divine good is greater than a human good. Wherefore the sins that are directly against God are grav..."
     }
   ],
   "P3Q151": [
@@ -10122,7 +14334,18 @@ window.QUIZZES = {
         "Because they are not actually distinct; Aquinas treats them as synonyms"
       ],
       "correct": 0,
-      "explanation": "Aquinas reasons that pleasures correspond to the actions they perfect, and since food-related actions (individual preservation) differ generically from venereal actions (species preservation), the virtues concerned with their respective pleasures — abstinence and chastity — are likewise generically distinct."
+      "explanation": "Aquinas reasons that pleasures correspond to the actions they perfect, and since food-related actions (individual preservation) differ generically from venereal actions (species preservation), the virtues concerned with their respective pleasures â€” abstinence and chastity â€” are likewise generically distinct."
+    },
+    {
+      "q": "From Article 3's teaching about chastity, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : As stated above (II-II:141:4), temperance is properly about the concupiscences of the pleasures of touch: so that where there are different kinds of pleasure, there are different virtues comprised under temperance. Now pleasures are proportionate to..."
     }
   ],
   "P3Q152": [
@@ -10141,12 +14364,23 @@ window.QUIZZES = {
       "q": "According to Aquinas, is virginity simply the greatest of all virtues?",
       "options": [
         "Yes, virginity surpasses every other virtue and state without qualification",
-        "No — virginity is most excellent within its own genus (chastity), but simply speaking the theological virtues and the virtue of religion (occupied with divine things directly) are preferable, and martyrdom and the monastic renunciation of will and possessions are also considered to work more mightily toward union with God",
+        "No â€” virginity is most excellent within its own genus (chastity), but simply speaking the theological virtues and the virtue of religion (occupied with divine things directly) are preferable, and martyrdom and the monastic renunciation of will and possessions are also considered to work more mightily toward union with God",
         "Yes, because Aquinas rejects any comparison between virginity and martyrdom",
         "No, virginity is not a virtue at all, only a biological state"
       ],
       "correct": 1,
       "explanation": "Aquinas distinguishes 'most excellent in a genus' from 'most excellent simply': virginity tops the genus of chastity, but the theological virtues and religion, being directly occupied with God, and even martyrdom and monastic renunciation, are said to be preferable to virginity taken simply."
+    },
+    {
+      "q": "From Article 3's teaching about virginity, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : As stated above (Article 1), the formal and completive element in virginity is the purpose of abstaining from venereal pleasure, which purpose is rendered praiseworthy by its end, in so far, to wit, as this is done in order to have leisure for Divine..."
     }
   ],
   "P3Q153": [
@@ -10171,6 +14405,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas reasons that a capital vice has a highly desirable end that spawns other sins; since venereal pleasure is intensely desirable to the sensitive appetite both from its intensity and its connaturality to man, lust qualifies as a capital vice, as Gregory lists it."
+    },
+    {
+      "q": "From Article 3's teaching about lust, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : The more necessary a thing is, the more it behooves one to observe the order of reason in its regard; wherefore the more sinful it becomes if the order of reason be forsaken. Now the use of venereal acts, as stated in the foregoing Article, is most n..."
     }
   ],
   "P3Q154": [
@@ -10218,29 +14463,29 @@ window.QUIZZES = {
         "Because Aristotle believed continence was superior to all other virtues"
       ],
       "correct": 1,
-      "explanation": "Aquinas explains that continence, unlike full moral virtue, involves reason remaining firm against passions that still arise vehemently in the sensitive appetite; true virtue would have tamed the appetite itself, so continence is a 'mixture' — partly virtuous, partly falling short."
+      "explanation": "Aquinas explains that continence, unlike full moral virtue, involves reason remaining firm against passions that still arise vehemently in the sensitive appetite; true virtue would have tamed the appetite itself, so continence is a 'mixture' â€” partly virtuous, partly falling short."
     },
     {
       "q": "In which power of the soul does Aquinas locate continence, and why?",
       "options": [
         "In the concupiscible appetite, since that is where desires arise",
-        "In the will, since the continent and incontinent person have the same disposition of concupiscible appetite and reason, but differ in their choice — the continent person chooses, by reason, not to follow vehement desires, and choice is an act of will",
+        "In the will, since the continent and incontinent person have the same disposition of concupiscible appetite and reason, but differ in their choice â€” the continent person chooses, by reason, not to follow vehement desires, and choice is an act of will",
         "In the intellect alone, since continence is purely a matter of correct belief",
         "In the sense of touch, since that is where physical temptation originates"
       ],
       "correct": 1,
-      "explanation": "Aquinas argues that since both the continent and incontinent share the same disposition in the concupiscible appetite (both experience vehement desires) and in reason (both know what is right), their real difference is in choice — whether they follow reason or the desire — making the will, whose act is choice, the proper subject of continence."
+      "explanation": "Aquinas argues that since both the continent and incontinent share the same disposition in the concupiscible appetite (both experience vehement desires) and in reason (both know what is right), their real difference is in choice â€” whether they follow reason or the desire â€” making the will, whose act is choice, the proper subject of continence."
     },
     {
       "q": "Why does Aquinas conclude that temperance is 'far greater' than continence (in the sense of resisting desires), even though continence taken as total abstinence surpasses temperance?",
       "options": [
         "Because continence in this sense is worthless and provides no benefit at all",
-        "Because the good of reason flourishes more fully in the temperate person, whose sensitive appetite itself is tamed and obedient to reason, whereas in the continent person the sensitive appetite still strongly resists reason with evil desires — so continence is imperfect compared to temperance",
+        "Because the good of reason flourishes more fully in the temperate person, whose sensitive appetite itself is tamed and obedient to reason, whereas in the continent person the sensitive appetite still strongly resists reason with evil desires â€” so continence is imperfect compared to temperance",
         "Because temperance requires a vow while continence does not",
         "Because Aquinas believed continence was invented by the Stoics and is therefore suspect"
       ],
       "correct": 1,
-      "explanation": "Aquinas explains that a virtue's praise comes from conformity to reason; in the temperate person even the sensitive appetite is tamed and obedient to reason, while in the merely continent person the appetite still resists strongly — so continence, though praiseworthy, is compared to temperance as the imperfect to the perfect."
+      "explanation": "Aquinas explains that a virtue's praise comes from conformity to reason; in the temperate person even the sensitive appetite is tamed and obedient to reason, while in the merely continent person the appetite still resists strongly â€” so continence, though praiseworthy, is compared to temperance as the imperfect to the perfect."
     }
   ],
   "P3Q156": [
@@ -10259,12 +14504,23 @@ window.QUIZZES = {
       "q": "Why does Aquinas say incontinence regarding pleasures of touch is a sin in two distinct ways, according to Aristotle?",
       "options": [
         "It is a sin only because it is illegal under civil law",
-        "It is censurable both because it 'strays from reason' (is simply wrong) and because it 'follows evil desires' (is wicked, plunging into shameful pleasures) — a double censure not present in incontinence about things like honor or riches, which are good in themselves",
+        "It is censurable both because it 'strays from reason' (is simply wrong) and because it 'follows evil desires' (is wicked, plunging into shameful pleasures) â€” a double censure not present in incontinence about things like honor or riches, which are good in themselves",
         "Because it involves two separate acts of will performed simultaneously",
         "Because it always involves two people rather than one"
       ],
       "correct": 1,
       "explanation": "Aquinas cites Aristotle's twofold reason: incontinence regarding touch pleasures is condemned both for straying from reason's order (being 'wrong') and for indulging in inherently shameful desires (being 'wicked'), unlike incontinence regarding things good in themselves (like honor), which fails reason's mode without following evil desires as such."
+    },
+    {
+      "q": "From Article 3's teaching about incontinence, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : According to Augustine [De Duab. Anim. x, xi] sin is chiefly an act of the will, because \"by the will we sin and live aright\" [Retract. i, 9]. Consequently where there is a greater inclination of the will to sin, there is a graver sin. Now in the int..."
     }
   ],
   "P3Q157": [
@@ -10289,6 +14545,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas argues that virtues which positively direct one to good are more perfect than those which merely withdraw one from evil; since clemency and meekness only mitigate excess (punishment, anger), they are lesser than virtues like the theological virtues, prudence, and justice which are positively ordered to good."
+    },
+    {
+      "q": "From Article 3's teaching about clemency and meekness, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : Parts are assigned to the principal virtues, in so far as they imitate them in some secondary matter as to the mode whence the virtue derives its praise and likewise its name. Thus the mode and name of justice consist in a certain \"equality,\" those o..."
     }
   ],
   "P3Q158": [
@@ -10296,7 +14563,7 @@ window.QUIZZES = {
       "q": "According to Aquinas, is anger always sinful?",
       "options": [
         "Yes, any anger whatsoever is always sinful without exception",
-        "No — unlike envy, whose very species denotes evil, anger (desire for revenge) can be desired well or ill; it is evil only when it exceeds or falls short of what right reason demands, but anger in accordance with right reason ('zealous anger') is praiseworthy",
+        "No â€” unlike envy, whose very species denotes evil, anger (desire for revenge) can be desired well or ill; it is evil only when it exceeds or falls short of what right reason demands, but anger in accordance with right reason ('zealous anger') is praiseworthy",
         "Yes, because it is a passion and all passions are inherently evil",
         "No, anger is never sinful under any circumstances"
       ],
@@ -10313,6 +14580,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas reasons that it is worse to desire evil precisely as evil (hatred) than to desire it as a means to some other good like glory (envy) or as a good in itself like just revenge (anger); hence hatred is most grievous, then envy, then anger, in that order."
+    },
+    {
+      "q": "From Article 3's teaching about anger, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : The movement of anger may be inordinate and sinful in two ways, as stated above (Article 2). First, on the part of the appetible object, as when one desires unjust revenge; and thus anger is a mortal sin in the point of its genus, because it is contr..."
     }
   ],
   "P3Q159": [
@@ -10320,12 +14598,34 @@ window.QUIZZES = {
       "q": "How does Aquinas distinguish cruelty from savagery/brutality even though both involve excessive harshness?",
       "options": [
         "They are identical concepts with different names",
-        "Savagery/brutality (bestiality) takes pleasure in a victim's torture without any regard to the person's fault, being a purely animalistic pleasure, whereas cruelty does consider the offender's fault but exceeds the proper mode or measure of punishment — thus cruelty is a human vice while savagery is likened to bestiality",
+        "Savagery/brutality (bestiality) takes pleasure in a victim's torture without any regard to the person's fault, being a purely animalistic pleasure, whereas cruelty does consider the offender's fault but exceeds the proper mode or measure of punishment â€” thus cruelty is a human vice while savagery is likened to bestiality",
         "Cruelty applies only to animals while savagery applies only to humans",
         "Savagery is a virtue while cruelty is always a vice"
       ],
       "correct": 1,
-      "explanation": "Aquinas distinguishes brutality/savagery, which derives pleasure purely from another's suffering without regard to any offense (a bestial pleasure), from cruelty, which does consider the offender's default but exceeds the due mode of punishment — cruelty is thus 'human wickedness' while savagery approaches bestiality."
+      "explanation": "Aquinas distinguishes brutality/savagery, which derives pleasure purely from another's suffering without regard to any offense (a bestial pleasure), from cruelty, which does consider the offender's default but exceeds the due mode of punishment â€” cruelty is thus 'human wickedness' while savagery approaches bestiality."
+    },
+    {
+      "q": "Why does Aquinas teach about cruelty in Article ",
+      "correct": 0,
+      "options": [
+        "Because it pertains to proper ordering of acts through reason and virtue",
+        "Because it is condemned only by modern philosophers",
+        "Because it is entirely contrary to natural law",
+        "Because Scripture explicitly forbids all related actions"
+      ],
+      "explanation": "Aquinas explains: \"Savagery\" and \"brutality\" take their names from a likeness to wild beasts which are also described as savage. For animals of this kind attack man that they may feed on his body, and not for some motive of justice the consideration of which belongs t..."
+    },
+    {
+      "q": "From Article 2's teaching about cruelty, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : \"Savagery\" and \"brutality\" take their names from a likeness to wild beasts which are also described as savage. For animals of this kind attack man that they may feed on his body, and not for some motive of justice the consideration of which belongs t..."
     }
   ],
   "P3Q160": [
@@ -10333,12 +14633,34 @@ window.QUIZZES = {
       "q": "Why does Aquinas argue that a distinct virtue, modesty, is needed in addition to temperance?",
       "options": [
         "Because temperance is not actually a real virtue",
-        "Because whenever there is a special virtue for a matter of great moment (like temperance for touch-pleasures), there is also need for a virtue governing lesser matters where moderation is less difficult — just as magnificence for great expenditure requires liberality for ordinary expenditure",
+        "Because whenever there is a special virtue for a matter of great moment (like temperance for touch-pleasures), there is also need for a virtue governing lesser matters where moderation is less difficult â€” just as magnificence for great expenditure requires liberality for ordinary expenditure",
         "Because modesty and temperance have completely unrelated subject matter",
         "Because the Church required a specific virtue named 'modesty' for legal reasons"
       ],
       "correct": 1,
       "explanation": "Aquinas draws an analogy to magnificence and liberality: just as a virtue governing a weighty matter (great expenditure, or in this case touch-pleasures) needs a complementary virtue for lesser matters of the same general kind, temperance's difficulty with touch-pleasures calls for modesty to moderate less difficult matters."
+    },
+    {
+      "q": "Why does Aquinas teach about modesty in Article ",
+      "correct": 0,
+      "options": [
+        "Because it pertains to proper ordering of acts through reason and virtue",
+        "Because it is condemned only by modern philosophers",
+        "Because it is entirely contrary to natural law",
+        "Because Scripture explicitly forbids all related actions"
+      ],
+      "explanation": "Aquinas explains: As stated above (Article 1), modesty differs from temperance, in that temperance moderates those matters where restraint is most difficult, while modesty moderates those that present less difficulty. Authorities seem to have had various opinions abou..."
+    },
+    {
+      "q": "From Article 2's teaching about modesty, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : As stated above (Article 1), modesty differs from temperance, in that temperance moderates those matters where restraint is most difficult, while modesty moderates those that present less difficulty. Authorities seem to have had various opinions abou..."
     }
   ],
   "P3Q161": [
@@ -10346,7 +14668,7 @@ window.QUIZZES = {
       "q": "Why does Aquinas argue that humility must exist alongside magnanimity rather than replacing it?",
       "options": [
         "Because humility and magnanimity are actually identical virtues",
-        "Because the difficult good produces two appetitive movements — hope (impulse toward it) and despair (recoil from it) — requiring two virtues: humility to restrain the mind from immoderately seeking high things, and magnanimity to strengthen the mind against despair and urge pursuit of great things according to reason",
+        "Because the difficult good produces two appetitive movements â€” hope (impulse toward it) and despair (recoil from it) â€” requiring two virtues: humility to restrain the mind from immoderately seeking high things, and magnanimity to strengthen the mind against despair and urge pursuit of great things according to reason",
         "Because magnanimity is a vice that humility must always correct",
         "Because only one of them can be a genuine virtue, and Aquinas argues for humility over magnanimity"
       ],
@@ -10357,12 +14679,12 @@ window.QUIZZES = {
       "q": "According to Aquinas, does humility require a person to subject everything about themselves to every other person without qualification?",
       "options": [
         "Yes, a humble person must consider themselves inferior to everyone in every respect, without exception",
-        "No — a person should subject what is 'his own' (defects) to his neighbor's gifts from God, but he need not subject the gifts he has received from God to what merely 'appears' to be another's gift from God, nor treat every neighbor as having less sin than himself",
+        "No â€” a person should subject what is 'his own' (defects) to his neighbor's gifts from God, but he need not subject the gifts he has received from God to what merely 'appears' to be another's gift from God, nor treat every neighbor as having less sin than himself",
         "Yes, because Scripture commands absolute self-abasement in every instance",
         "No, because humility applies only to religious persons, not laypeople"
       ],
       "correct": 1,
-      "explanation": "Aquinas carefully qualifies humble self-subjection: one should subject one's own defects to a neighbor's God-given goods, but need not subordinate one's actual God-given gifts to what merely seems to be another's gift, nor assume oneself the greatest sinner — citing Paul's example of ranking his own apostolic knowledge highly without violating humility."
+      "explanation": "Aquinas carefully qualifies humble self-subjection: one should subject one's own defects to a neighbor's God-given goods, but need not subordinate one's actual God-given gifts to what merely seems to be another's gift, nor assume oneself the greatest sinner â€” citing Paul's example of ranking his own apostolic knowledge highly without violating humility."
     },
     {
       "q": "In what sense does Aquinas argue humility ranks high among the virtues, even below the theological virtues, intellectual virtues, and justice?",
@@ -10381,7 +14703,7 @@ window.QUIZZES = {
       "q": "How does Aquinas define pride at its root?",
       "options": [
         "Simply having a high opinion of one's talents in any respect",
-        "An inordinate desire of one's own excellence — wishing to appear or reach 'above' (supra) what one truly is, going against right reason's requirement that the will tend to what is proportionate to oneself",
+        "An inordinate desire of one's own excellence â€” wishing to appear or reach 'above' (supra) what one truly is, going against right reason's requirement that the will tend to what is proportionate to oneself",
         "A physical posture of standing tall and confident",
         "Refusing to accept help from other people"
       ],
@@ -10397,18 +14719,18 @@ window.QUIZZES = {
         "Aquinas denies that pride relates to any other sin whatsoever"
       ],
       "correct": 1,
-      "explanation": "Aquinas explains pride has its own proper species (a special sin, desiring one's own excellence) but also exerts general influence since other sins can be directed toward pride's end, or arise because pride removes the restraining fear of divine law — hence Gregory calls it 'queen and mother' of vices rather than a mere capital vice."
+      "explanation": "Aquinas explains pride has its own proper species (a special sin, desiring one's own excellence) but also exerts general influence since other sins can be directed toward pride's end, or arise because pride removes the restraining fear of divine law â€” hence Gregory calls it 'queen and mother' of vices rather than a mere capital vice."
     },
     {
       "q": "Why does Aquinas conclude that pride is the most grievous sin 'by its genus,' even though on the 'conversion' side it is not the worst?",
       "options": [
         "Because pride harms the greatest number of other people directly",
-        "Because the formal element of sin is aversion from God, and while other sins turn from God through ignorance, weakness, or desire for some other good, pride alone consists essentially in refusing subjection to God simply because one is unwilling to be ruled by Him — an aversion belonging to pride by its very nature rather than incidentally",
+        "Because the formal element of sin is aversion from God, and while other sins turn from God through ignorance, weakness, or desire for some other good, pride alone consists essentially in refusing subjection to God simply because one is unwilling to be ruled by Him â€” an aversion belonging to pride by its very nature rather than incidentally",
         "Because pride is explicitly named as unforgivable in Scripture",
         "Because pride always involves violence against others"
       ],
       "correct": 1,
-      "explanation": "Aquinas distinguishes the material element of sin (conversion to some created good) from its formal element (aversion from God); other sins turn from God incidentally, through ignorance, weakness, or desire for some other good, but pride's very essence is refusal of subjection to God, making its aversion — and hence its gravity — greatest by nature, not merely by circumstance."
+      "explanation": "Aquinas distinguishes the material element of sin (conversion to some created good) from its formal element (aversion from God); other sins turn from God incidentally, through ignorance, weakness, or desire for some other good, but pride's very essence is refusal of subjection to God, making its aversion â€” and hence its gravity â€” greatest by nature, not merely by circumstance."
     }
   ],
   "P3Q163": [
@@ -10416,23 +14738,34 @@ window.QUIZZES = {
       "q": "Why does Aquinas conclude that Adam's first sin was specifically pride rather than concupiscence of the flesh?",
       "options": [
         "Because Scripture explicitly uses the word 'pride' to describe the event",
-        "Because inordinateness must first appear in the appetite's movement toward its end before movement toward the means, and since in the state of innocence there was no rebellion of flesh against spirit, the first disorder could not be fleshly concupiscence but had to be an inordinate desire for a spiritual good beyond one's due measure — which is precisely pride",
+        "Because inordinateness must first appear in the appetite's movement toward its end before movement toward the means, and since in the state of innocence there was no rebellion of flesh against spirit, the first disorder could not be fleshly concupiscence but had to be an inordinate desire for a spiritual good beyond one's due measure â€” which is precisely pride",
         "Because Eve, not Adam, committed the first sin, and hers was concupiscence",
         "Because Aquinas believed sin always begins with an external act rather than an internal disposition"
       ],
       "correct": 1,
-      "explanation": "Aquinas reasons that the first disorder occurs in the interior appetite's movement to its end before movement to means, and since in innocence the flesh did not rebel against the spirit, the first inordinate movement had to concern a spiritual good desired beyond one's proper measure — this is the very definition of pride."
+      "explanation": "Aquinas reasons that the first disorder occurs in the interior appetite's movement to its end before movement to means, and since in innocence the flesh did not rebel against the spirit, the first inordinate movement had to concern a spiritual good desired beyond one's proper measure â€” this is the very definition of pride."
     },
     {
       "q": "According to Aquinas, was the sin of our first parents the most grievous sin ever committed, considering its species?",
       "options": [
         "Yes, absolutely the worst sin possible in every respect",
-        "No — while pride as a genus has a certain preeminence, the pride of denying or blaspheeming God is worse in species than the pride of inordinately coveting God's likeness (which was our first parents' sin), so their sin was not the gravest sin possible by species",
+        "No â€” while pride as a genus has a certain preeminence, the pride of denying or blaspheeming God is worse in species than the pride of inordinately coveting God's likeness (which was our first parents' sin), so their sin was not the gravest sin possible by species",
         "Yes, because it was committed in paradise which made it automatically worse",
         "No, their sin was actually only a venial sin"
       ],
       "correct": 1,
-      "explanation": "Aquinas distinguishes gravity by species from gravity by circumstance; though pride generally has preeminence among sins, blasphemous denial of God is a graver species of pride than merely coveting God's likeness inordinately, which is what our first parents did — so theirs was not the gravest sin possible in species."
+      "explanation": "Aquinas distinguishes gravity by species from gravity by circumstance; though pride generally has preeminence among sins, blasphemous denial of God is a graver species of pride than merely coveting God's likeness inordinately, which is what our first parents did â€” so theirs was not the gravest sin possible in species."
+    },
+    {
+      "q": "From Article 3's teaching about the first man's sin, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 3 : There is a twofold gravity to be observed in sin. one results from the very species of the sin: thus we say that adultery is a graver sin than simple fornication. The other gravity of sin results from some circumstance of place, person, or time. The..."
     }
   ],
   "P3Q164": [
@@ -10457,6 +14790,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas structures the punishment in two parts: privation of the goods proper to the state of integrity (paradise, with cherubim barring return) and the imposition of conditions fitting fallen nature, including for the woman specifically the sorrows of conception and childbirth and subjection to her husband, per Genesis 3:16."
+    },
+    {
+      "q": "From Article 2's teaching about the punishments of the first man's sin, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : As stated in the foregoing Article, on account of their sin, our first parents were deprived of the Divine favor, whereby the integrity of human nature was maintained in them, and by the withdrawal of this favor human nature incurred penal defects. H..."
     }
   ],
   "P3Q165": [
@@ -10464,7 +14808,7 @@ window.QUIZZES = {
       "q": "Why does Aquinas argue it was fitting for God to allow man to be tempted by the devil in the state of innocence?",
       "options": [
         "Because temptation is inherently good and God wanted man to sin",
-        "Because it belongs to God's providence not to destroy but to maintain the nature of things, and it is a condition of human nature (as a creature among other creatures) that one creature can help or impede another — while a special grace ensured no creature could harm man against his own will",
+        "Because it belongs to God's providence not to destroy but to maintain the nature of things, and it is a condition of human nature (as a creature among other creatures) that one creature can help or impede another â€” while a special grace ensured no creature could harm man against his own will",
         "Because the devil forced God to allow the temptation against God's will",
         "Because Adam requested to be tested by God"
       ],
@@ -10480,7 +14824,858 @@ window.QUIZZES = {
         "Because Aquinas believed women are incapable of higher reasoning under any circumstances"
       ],
       "correct": 1,
-      "explanation": "Aquinas endorses Augustine's analysis that the pattern of the first temptation mirrors the structure found in every sin: it begins in sensual concupiscence (the serpent), moves to the lower reason's pleasure (the woman), and completes in the higher reason's consent (the man) — making the order paradigmatic and fitting."
+      "explanation": "Aquinas endorses Augustine's analysis that the pattern of the first temptation mirrors the structure found in every sin: it begins in sensual concupiscence (the serpent), moves to the lower reason's pleasure (the woman), and completes in the higher reason's consent (the man) â€” making the order paradigmatic and fitting."
+    },
+    {
+      "q": "From Article 2's teaching about our first parents' temptation, what follows?",
+      "correct": 0,
+      "options": [
+        "That prudent judgment must be exercised regarding this matter",
+        "That all considerations of this matter are entirely subjective",
+        "That this matter has no bearing on spiritual life",
+        "That only religious professionals need concern themselves with this"
+      ],
+      "explanation": "Aquinas teaches in Article 2 : Man is composed of a twofold nature, intellective and sensitive. Hence the devil, in tempting man, made use of a twofold incentive to sin: one on the part of the intellect, by promising the Divine likeness through the acquisition of knowledge which m..."
+    }
+  ],
+  "P3Q166": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding studiousness?",
+      "correct": 0,
+      "options": [
+        "Properly speaking, study denotes keen application of the mind to something.",
+        "That studiousness is purely a matter of personal preference with no moral dimension",
+        "That studiousness is forbidden in all cases by divine law",
+        "That studiousness requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Properly speaking, study denotes keen application of the mind to something. Now the mind is not applied to a thing except by knowing that thing. Wherefore the mind's application to knowledge precedes its application to those things to which man is directed by his knowledge. Hence study regards knowl..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about studiousness?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (141, 3,4,5), it belongs to temperance to moderate the movement of the appetite, lest it tend excessively to that which is desired naturally. Now just as in respect of his corporeal nature man naturally desires the pleasures of food and sex, so, in respect of his..."
+    },
+    {
+      "q": "From Article 1's teaching on studiousness, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That studiousness must be approached with prudent deliberation and moderation",
+        "That studiousness is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding studiousness",
+        "That studiousness pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Properly speaking, study denotes keen application of the mind to something. Now the mind is not applied to a thing except by knowing that thing. Wherefore the mind's application to knowledge precedes its application to those things to which man is directed by his knowledge. Hence..."
+    }
+  ],
+  "P3Q167": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding curiosity?",
+      "correct": 0,
+      "options": [
+        "As stated above (II-II:166:2 ad 2) studiousness is directly, not about knowledge itself, but about t",
+        "That curiosity is purely a matter of personal preference with no moral dimension",
+        "That curiosity is forbidden in all cases by divine law",
+        "That curiosity requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As stated above (II-II:166:2 ad 2) studiousness is directly, not about knowledge itself, but about the desire and study in the pursuit of knowledge. Now we must judge differently of the knowledge itself of truth, and of the desire and study in the pursuit of the knowledge of truth. For the knowledge..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about curiosity?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: The knowledge of sensible things is directed to two things. For in the first place, both in man and in other animals, it is directed to the upkeep of the body, because by knowledge of this kind, man and other animals avoid what is harmful to them, and seek those things that are n..."
+    },
+    {
+      "q": "From Article 1's teaching on curiosity, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That curiosity must be approached with prudent deliberation and moderation",
+        "That curiosity is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding curiosity",
+        "That curiosity pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As stated above (II-II:166:2 ad 2) studiousness is directly, not about knowledge itself, but about the desire and study in the pursuit of knowledge. Now we must judge differently of the knowledge itself of truth, and of the desire and study in the pursuit of the knowledge of trut..."
+    }
+  ],
+  "P3Q168": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding modesty as consisting in the outward movements of the body?",
+      "correct": 0,
+      "options": [
+        "Moral virtue consists in the things pertaining to man being directed by his reason.",
+        "That modesty as consisting in the outward movements of the body is purely a matter of personal preference with no moral dimension",
+        "That modesty as consisting in the outward movements of the body is forbidden in all cases by divine law",
+        "That modesty as consisting in the outward movements of the body requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Moral virtue consists in the things pertaining to man being directed by his reason. Now it is manifest that the outward movements of man are dirigible by reason, since the outward members are set in motion at the command of reason. Hence it is evident that there is a moral virtue concerned with the..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about modesty as consisting in the outward movements of the body?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: Just as man needs bodily rest for the body's refreshment, because he cannot always be at work, since his power is finite and equal to a certain fixed amount of labor, so too is it with his soul, whose power is also finite and equal to a fixed amount of work. Consequently when he..."
+    },
+    {
+      "q": "From Article 1's teaching on modesty as consisting in the outward movements of the body, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That modesty as consisting in the outward movements of the body must be approached with prudent deliberation and moderation",
+        "That modesty as consisting in the outward movements of the body is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding modesty as consisting in the outward movements of the body",
+        "That modesty as consisting in the outward movements of the body pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Moral virtue consists in the things pertaining to man being directed by his reason. Now it is manifest that the outward movements of man are dirigible by reason, since the outward members are set in motion at the command of reason. Hence it is evident that there is a moral virtue..."
+    }
+  ],
+  "P3Q169": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding modesty in the outward apparel?",
+      "correct": 0,
+      "options": [
+        "It is not in the outward things themselves which man uses, that there is vice, but on the part of ma",
+        "That modesty in the outward apparel is purely a matter of personal preference with no moral dimension",
+        "That modesty in the outward apparel is forbidden in all cases by divine law",
+        "That modesty in the outward apparel requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: It is not in the outward things themselves which man uses, that there is vice, but on the part of man who uses them immoderately. This lack of moderation occurs in two ways. First, in comparison with the customs of those among whom one lives; wherefore Augustine says (Confess. iii, 8): \"Those offens..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about modesty in the outward apparel?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As regards the adornment of women, we must bear in mind the general statements made above (Article 1) concerning outward apparel, and also something special, namely that a woman's apparel may incite men to lust, according to Proverbs 7:10, \"Behold a woman meeteth him in harlot's..."
+    },
+    {
+      "q": "From Article 1's teaching on modesty in the outward apparel, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That modesty in the outward apparel must be approached with prudent deliberation and moderation",
+        "That modesty in the outward apparel is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding modesty in the outward apparel",
+        "That modesty in the outward apparel pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: It is not in the outward things themselves which man uses, that there is vice, but on the part of man who uses them immoderately. This lack of moderation occurs in two ways. First, in comparison with the customs of those among whom one lives; wherefore Augustine says (Confess. ii..."
+    }
+  ],
+  "P3Q170": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the precepts of temperance?",
+      "correct": 0,
+      "options": [
+        "As the Apostle says (1 Timothy 1:5), \"the end of the commandment is charity,\" which is enjoined upon",
+        "That the precepts of temperance is purely a matter of personal preference with no moral dimension",
+        "That the precepts of temperance is forbidden in all cases by divine law",
+        "That the precepts of temperance requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As the Apostle says (1 Timothy 1:5), \"the end of the commandment is charity,\" which is enjoined upon us in the two precepts concerning the love of God and of our neighbor. Wherefore the decalogue contains those precepts which tend more directly to the love of God and of our neighbor. Now among the v..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the precepts of temperance?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: The virtues annexed to temperance may be considered in two ways: first, in themselves; secondly, in their effects. Considered in themselves they have no direct connection with the love of God or of our neighbor; rather do they regard a certain moderation of things pertaining to m..."
+    },
+    {
+      "q": "From Article 1's teaching on the precepts of temperance, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the precepts of temperance must be approached with prudent deliberation and moderation",
+        "That the precepts of temperance is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the precepts of temperance",
+        "That the precepts of temperance pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As the Apostle says (1 Timothy 1:5), \"the end of the commandment is charity,\" which is enjoined upon us in the two precepts concerning the love of God and of our neighbor. Wherefore the decalogue contains those precepts which tend more directly to the love of God and of our neigh..."
+    }
+  ],
+  "P3Q171": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding prophecy?",
+      "correct": 0,
+      "options": [
+        "Prophecy first and chiefly consists in knowledge, because, to wit, prophets know things that are far",
+        "That prophecy is purely a matter of personal preference with no moral dimension",
+        "That prophecy is forbidden in all cases by divine law",
+        "That prophecy requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Prophecy first and chiefly consists in knowledge, because, to wit, prophets know things that are far [procul] removed from man's knowledge. Wherefore they may be said to take their name from <em>phanos</em>, \"apparition,\" because things appear to them from afar. Wherefore, as Isidore states (Etym. v..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about prophecy?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As the Apostle says (Ephesians 5:13), \"all that is made manifest is light,\" because, to wit, just as the manifestation of the material sight takes place through material light, so too the manifestation of intellectual sight takes place through intellectual light. Accordingly mani..."
+    },
+    {
+      "q": "From Article 1's teaching on prophecy, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That prophecy must be approached with prudent deliberation and moderation",
+        "That prophecy is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding prophecy",
+        "That prophecy pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Prophecy first and chiefly consists in knowledge, because, to wit, prophets know things that are far [procul] removed from man's knowledge. Wherefore they may be said to take their name from <em>phanos</em>, \"apparition,\" because things appear to them from afar. Wherefore, as Isi..."
+    }
+  ],
+  "P3Q172": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the cause of prophecy?",
+      "correct": 0,
+      "options": [
+        "As stated above (II-II:171:6 ad 2) prophetic foreknowledge may regard future things in two ways: in ",
+        "That the cause of prophecy is purely a matter of personal preference with no moral dimension",
+        "That the cause of prophecy is forbidden in all cases by divine law",
+        "That the cause of prophecy requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As stated above (II-II:171:6 ad 2) prophetic foreknowledge may regard future things in two ways: in one way, as they are in themselves; in another way, as they are in their causes. Now, to foreknow future things, as they are in themselves, is proper to the Divine intellect, to Whose eternity all thi..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the cause of prophecy?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As the Apostle says (Romans 13:1), \"Things that are of God are well ordered [Vulgate: 'Those that are, are ordained of God.'].\" Now the Divine ordering, according to Dionysius [Coel. Hier. iv; Eccl. Hier. v], is such that the lowest things are directed by middle things. Now the a..."
+    },
+    {
+      "q": "From Article 1's teaching on the cause of prophecy, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the cause of prophecy must be approached with prudent deliberation and moderation",
+        "That the cause of prophecy is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the cause of prophecy",
+        "That the cause of prophecy pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As stated above (II-II:171:6 ad 2) prophetic foreknowledge may regard future things in two ways: in one way, as they are in themselves; in another way, as they are in their causes. Now, to foreknow future things, as they are in themselves, is proper to the Divine intellect, to Wh..."
+    }
+  ],
+  "P3Q173": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the manner in which prophetic knowledge is conveyed?",
+      "correct": 0,
+      "options": [
+        "Prophecy denotes Divine knowledge as existing afar off.",
+        "That the manner in which prophetic knowledge is conveyed is purely a matter of personal preference with no moral dimension",
+        "That the manner in which prophetic knowledge is conveyed is forbidden in all cases by divine law",
+        "That the manner in which prophetic knowledge is conveyed requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Prophecy denotes Divine knowledge as existing afar off. Wherefore it is said of the prophets (Hebrews 11:13) that \"they were beholding . . . afar off.\" But those who are in heaven and in the state of bliss see, not as from afar off, but rather, as it were, from near at hand, according to Psalm 139:1..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the manner in which prophetic knowledge is conveyed?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As Augustine says (Gen. ad lit. xii, 9), \"prophetic knowledge pertains most of all to the intellect.\" Now two things have to be considered in connection with the knowledge possessed by the human mind, namely the acceptance or representation of things, and the judgment of the thin..."
+    },
+    {
+      "q": "From Article 1's teaching on the manner in which prophetic knowledge is conveyed, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the manner in which prophetic knowledge is conveyed must be approached with prudent deliberation and moderation",
+        "That the manner in which prophetic knowledge is conveyed is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the manner in which prophetic knowledge is conveyed",
+        "That the manner in which prophetic knowledge is conveyed pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Prophecy denotes Divine knowledge as existing afar off. Wherefore it is said of the prophets (Hebrews 11:13) that \"they were beholding . . . afar off.\" But those who are in heaven and in the state of bliss see, not as from afar off, but rather, as it were, from near at hand, acco..."
+    }
+  ],
+  "P3Q174": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the division of prophecy?",
+      "correct": 0,
+      "options": [
+        "The species of moral habits and acts are distinguished according to their objects.",
+        "That the division of prophecy is purely a matter of personal preference with no moral dimension",
+        "That the division of prophecy is forbidden in all cases by divine law",
+        "That the division of prophecy requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: The species of moral habits and acts are distinguished according to their objects. Now the object of prophecy is something known by God and surpassing the faculty of man. Wherefore, according to the difference of such things, prophecy is divided into various species, as assigned above. Now it has be..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the division of prophecy?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: The excellence of the means is measured chiefly by the end. Now the end of prophecy is the manifestation of a truth that surpasses the faculty of man. Wherefore the more effective this manifestation is, the more excellent the prophecy. But it is evident that the manifestation of..."
+    },
+    {
+      "q": "From Article 1's teaching on the division of prophecy, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the division of prophecy must be approached with prudent deliberation and moderation",
+        "That the division of prophecy is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the division of prophecy",
+        "That the division of prophecy pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: The species of moral habits and acts are distinguished according to their objects. Now the object of prophecy is something known by God and surpassing the faculty of man. Wherefore, according to the difference of such things, prophecy is divided into various species, as assigned..."
+    }
+  ],
+  "P3Q175": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding rapture?",
+      "correct": 0,
+      "options": [
+        "Rapture denotes violence of a kind as stated above (Objection 3); and \"the violent is that which has",
+        "That rapture is purely a matter of personal preference with no moral dimension",
+        "That rapture is forbidden in all cases by divine law",
+        "That rapture requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Rapture denotes violence of a kind as stated above (Objection 3); and \"the violent is that which has its principle without, and in which he that suffers violence concurs not at all\" (Ethic. iii, 1). Now everything concurs in that to which it tends in accordance with its proper inclination, whether v..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about rapture?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: We can speak of rapture in two ways. First, with regard to the term of rapture, and thus, properly speaking, rapture cannot pertain to the appetitive, but only to the cognitive power. For it was stated (Article 1) that rapture is outside the inclination of the person who is rapt;..."
+    },
+    {
+      "q": "From Article 1's teaching on rapture, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That rapture must be approached with prudent deliberation and moderation",
+        "That rapture is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding rapture",
+        "That rapture pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Rapture denotes violence of a kind as stated above (Objection 3); and \"the violent is that which has its principle without, and in which he that suffers violence concurs not at all\" (Ethic. iii, 1). Now everything concurs in that to which it tends in accordance with its proper in..."
+    }
+  ],
+  "P3Q176": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the grace of tongues?",
+      "correct": 0,
+      "options": [
+        "Christ's first disciples were chosen by Him in order that they might disperse throughout the whole w",
+        "That the grace of tongues is purely a matter of personal preference with no moral dimension",
+        "That the grace of tongues is forbidden in all cases by divine law",
+        "That the grace of tongues requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Christ's first disciples were chosen by Him in order that they might disperse throughout the whole world, and preach His faith everywhere, according to Matthew 28:19, \"Going . . . teach ye all nations.\" Now it was not fitting that they who were being sent to teach others should need to be taught by..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the grace of tongues?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: The gift of prophecy surpasses the gift of tongues, in three ways. First, because the gift of tongues regards the utterance of certain words, which signify an intelligible truth, and this again is signified by the phantasms which appear in an imaginary vision; wherefore Augustine..."
+    },
+    {
+      "q": "From Article 1's teaching on the grace of tongues, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the grace of tongues must be approached with prudent deliberation and moderation",
+        "That the grace of tongues is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the grace of tongues",
+        "That the grace of tongues pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Christ's first disciples were chosen by Him in order that they might disperse throughout the whole world, and preach His faith everywhere, according to Matthew 28:19, \"Going . . . teach ye all nations.\" Now it was not fitting that they who were being sent to teach others should n..."
+    }
+  ],
+  "P3Q177": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the gratuitous grace consisting in words?",
+      "correct": 0,
+      "options": [
+        "The gratuitous graces are given for the profit of others, as stated above (I-II:111:1; I-II:111:4).",
+        "That the gratuitous grace consisting in words is purely a matter of personal preference with no moral dimension",
+        "That the gratuitous grace consisting in words is forbidden in all cases by divine law",
+        "That the gratuitous grace consisting in words requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: The gratuitous graces are given for the profit of others, as stated above (I-II:111:1; I-II:111:4). Now the knowledge a man receives from God cannot be turned to another's profit, except by means of speech. And since the Holy Ghost does not fail in anything that pertains to the profit of the Church,..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the gratuitous grace consisting in words?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: Speech may be employed in two ways: in one way privately, to one or a few, in familiar conversation, and in this respect the grace of the word may be becoming to women; in another way, publicly, addressing oneself to the whole church, and this is not permitted to women. First and..."
+    },
+    {
+      "q": "From Article 1's teaching on the gratuitous grace consisting in words, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the gratuitous grace consisting in words must be approached with prudent deliberation and moderation",
+        "That the gratuitous grace consisting in words is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the gratuitous grace consisting in words",
+        "That the gratuitous grace consisting in words pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: The gratuitous graces are given for the profit of others, as stated above (I-II:111:1; I-II:111:4). Now the knowledge a man receives from God cannot be turned to another's profit, except by means of speech. And since the Holy Ghost does not fail in anything that pertains to the p..."
+    }
+  ],
+  "P3Q178": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the grace of miracles?",
+      "correct": 0,
+      "options": [
+        "As stated above (II-II:177:1), the Holy Ghost provides sufficiently for the Church in matters profit",
+        "That the grace of miracles is purely a matter of personal preference with no moral dimension",
+        "That the grace of miracles is forbidden in all cases by divine law",
+        "That the grace of miracles requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As stated above (II-II:177:1), the Holy Ghost provides sufficiently for the Church in matters profitable unto salvation, to which purpose the gratuitous graces are directed. Now just as the knowledge which a man receives from God needs to be brought to the knowledge of others through the gift of ton..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the grace of miracles?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: Some miracles are not true but imaginary deeds, because they delude man by the appearance of that which is not; while others are true deeds, yet they have not the character of a true miracle, because they are done by the power of some natural cause. Both of these can be done by t..."
+    },
+    {
+      "q": "From Article 1's teaching on the grace of miracles, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the grace of miracles must be approached with prudent deliberation and moderation",
+        "That the grace of miracles is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the grace of miracles",
+        "That the grace of miracles pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As stated above (II-II:177:1), the Holy Ghost provides sufficiently for the Church in matters profitable unto salvation, to which purpose the gratuitous graces are directed. Now just as the knowledge which a man receives from God needs to be brought to the knowledge of others thr..."
+    }
+  ],
+  "P3Q179": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the division of life into active and contemplative?",
+      "correct": 0,
+      "options": [
+        "Properly speaking, those things are said to live whose movement or operation is from within themselv",
+        "That the division of life into active and contemplative is purely a matter of personal preference with no moral dimension",
+        "That the division of life into active and contemplative is forbidden in all cases by divine law",
+        "That the division of life into active and contemplative requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Properly speaking, those things are said to live whose movement or operation is from within themselves. Now that which is proper to a thing and to which it is most inclined is that which is most becoming to it from itself; wherefore every living thing gives proof of its life by that operation which..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the division of life into active and contemplative?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (Article 1, Reply to Objection 2), this division applies to the human life as derived from the intellect. Now the intellect is divided into active and contemplative, since the end of intellective knowledge is either the knowledge itself of truth, which pertains to..."
+    },
+    {
+      "q": "From Article 1's teaching on the division of life into active and contemplative, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the division of life into active and contemplative must be approached with prudent deliberation and moderation",
+        "That the division of life into active and contemplative is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the division of life into active and contemplative",
+        "That the division of life into active and contemplative pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Properly speaking, those things are said to live whose movement or operation is from within themselves. Now that which is proper to a thing and to which it is most inclined is that which is most becoming to it from itself; wherefore every living thing gives proof of its life by t..."
+    }
+  ],
+  "P3Q180": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the contemplative life?",
+      "correct": 0,
+      "options": [
+        "As stated above (II-II:179:1) theirs is said to be the contemplative who are chiefly intent on the c",
+        "That the contemplative life is purely a matter of personal preference with no moral dimension",
+        "That the contemplative life is forbidden in all cases by divine law",
+        "That the contemplative life requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As stated above (II-II:179:1) theirs is said to be the contemplative who are chiefly intent on the contemplation of truth. Now intention is an act of the will, as stated above (I-II:12:1), because intention is of the end which is the object of the will. Consequently the contemplative life, as regard..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the contemplative life?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: A thing may belong to the contemplative life in two ways, essentially or dispositively. The moral virtues do not belong to the contemplative life essentially, because the end of the contemplative life is the consideration of truth: and as the Philosopher states (Ethic. ii, 4), \"k..."
+    },
+    {
+      "q": "From Article 1's teaching on the contemplative life, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the contemplative life must be approached with prudent deliberation and moderation",
+        "That the contemplative life is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the contemplative life",
+        "That the contemplative life pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As stated above (II-II:179:1) theirs is said to be the contemplative who are chiefly intent on the contemplation of truth. Now intention is an act of the will, as stated above (I-II:12:1), because intention is of the end which is the object of the will. Consequently the contempla..."
+    }
+  ],
+  "P3Q181": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the active life?",
+      "correct": 0,
+      "options": [
+        "As stated above (II-II:179:1) the active and the contemplative life differ according to the different occupations of men intent on different ends: one of which occupations is the consideration of the",
+        "That the active life is purely a matter of personal preference with no moral dimension",
+        "That the active life is forbidden in all cases by divine law",
+        "That the active life requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As stated above (II-II:179:1) the active and the contemplative life differ according to the different occupations of men intent on different ends: one of which occupations is the consideration of the truth; and this is the end of the contemplative life, while the other is external work to which the..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the active life?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (Article 1, Reply to Objection 3; I-II:18:6), if one thing be directed to another as its end, it is drawn, especially in moral matters, to the species of the thing to which it is directed: for instance \"he who commits adultery that he may steal, is a thief rather..."
+    },
+    {
+      "q": "From Article 1's teaching on the active life, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the active life must be approached with prudent deliberation and moderation",
+        "That the active life is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the active life",
+        "That the active life pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As stated above (II-II:179:1) the active and the contemplative life differ according to the different occupations of men intent on different ends: one of which occupations is the consideration of the truth; and this is the end of the contemplative life, while the other is externa..."
+    }
+  ],
+  "P3Q182": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the active life in comparison with the contemplative life?",
+      "correct": 0,
+      "options": [
+        "Nothing prevents certain things being more excellent in themselves, whereas they are surpassed by an",
+        "That the active life in comparison with the contemplative life is purely a matter of personal preference with no moral dimension",
+        "That the active life in comparison with the contemplative life is forbidden in all cases by divine law",
+        "That the active life in comparison with the contemplative life requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Nothing prevents certain things being more excellent in themselves, whereas they are surpassed by another in some respect. Accordingly we must reply that the contemplative life is simply more excellent than the active: and the Philosopher proves this by eight reasons (Ethic. x, 7,8). The first is, b..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the active life in comparison with the contemplative life?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (I-II:114:4), the root of merit is charity; and, while, as stated above (II-II:25:1), charity consists in the love of God and our neighbor, the love of God is by itself more meritorious than the love of our neighbor, as stated above (II-II:27:8). Wherefore that wh..."
+    },
+    {
+      "q": "From Article 1's teaching on the active life in comparison with the contemplative life, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the active life in comparison with the contemplative life must be approached with prudent deliberation and moderation",
+        "That the active life in comparison with the contemplative life is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the active life in comparison with the contemplative life",
+        "That the active life in comparison with the contemplative life pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Nothing prevents certain things being more excellent in themselves, whereas they are surpassed by another in some respect. Accordingly we must reply that the contemplative life is simply more excellent than the active: and the Philosopher proves this by eight reasons (Ethic. x, 7..."
+    }
+  ],
+  "P3Q183": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding man's various duties and states in general?",
+      "correct": 0,
+      "options": [
+        "\"State,\" properly speaking, denotes a kind of position, whereby a thing is disposed with a certain i",
+        "That man's various duties and states in general is purely a matter of personal preference with no moral dimension",
+        "That man's various duties and states in general is forbidden in all cases by divine law",
+        "That man's various duties and states in general requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: \"State,\" properly speaking, denotes a kind of position, whereby a thing is disposed with a certain immobility in a manner according with its nature. For it is natural to man that his head should be directed upwards, his feet set firmly on the ground, and his other intermediate members disposed in be..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about man's various duties and states in general?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: The difference of states and duties in the Church regards three things. On the first place it regards the perfection of the Church. For even as in the order of natural things, perfection, which in God is simple and uniform, is not to be found in the created universe except in a m..."
+    },
+    {
+      "q": "From Article 1's teaching on man's various duties and states in general, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That man's various duties and states in general must be approached with prudent deliberation and moderation",
+        "That man's various duties and states in general is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding man's various duties and states in general",
+        "That man's various duties and states in general pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: \"State,\" properly speaking, denotes a kind of position, whereby a thing is disposed with a certain immobility in a manner according with its nature. For it is natural to man that his head should be directed upwards, his feet set firmly on the ground, and his other intermediate me..."
+    }
+  ],
+  "P3Q184": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the state of perfection in general?",
+      "correct": 0,
+      "options": [
+        "A thing is said to be perfect in so far as it attains its proper end, which is the ultimate perfecti",
+        "That the state of perfection in general is purely a matter of personal preference with no moral dimension",
+        "That the state of perfection in general is forbidden in all cases by divine law",
+        "That the state of perfection in general requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: A thing is said to be perfect in so far as it attains its proper end, which is the ultimate perfection thereof. Now it is charity that unites us to God, Who is the last end of the human mind, since \"he that abideth in charity abideth in God, and God in him\" (1 John 4:16). Therefore the perfection of..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the state of perfection in general?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (Article 1), the perfection of the Christian life consists in charity. Now perfection implies a certain universality because according to Phys. iii, 6, \"the perfect is that which lacks nothing.\" Hence we may consider a threefold perfection. One is absolute, and an..."
+    },
+    {
+      "q": "From Article 1's teaching on the state of perfection in general, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the state of perfection in general must be approached with prudent deliberation and moderation",
+        "That the state of perfection in general is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the state of perfection in general",
+        "That the state of perfection in general pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: A thing is said to be perfect in so far as it attains its proper end, which is the ultimate perfection thereof. Now it is charity that unites us to God, Who is the last end of the human mind, since \"he that abideth in charity abideth in God, and God in him\" (1 John 4:16). Therefo..."
+    }
+  ],
+  "P3Q185": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding things pertaining to the episcopal state?",
+      "correct": 0,
+      "options": [
+        "Three things may be considered in the episcopal office.",
+        "That things pertaining to the episcopal state is purely a matter of personal preference with no moral dimension",
+        "That things pertaining to the episcopal state is forbidden in all cases by divine law",
+        "That things pertaining to the episcopal state requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: Three things may be considered in the episcopal office. One is principal and final, namely the bishop's work, whereby the good of our neighbor is intended, according to John 21:17, \"Feed My sheep.\" Another thing is the height of degree, for a bishop is placed above others, according to Matthew 24:45..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about things pertaining to the episcopal state?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: Two things have to be considered in the acceptance of the episcopal office: first, what a man may fittingly desire according to his own will; secondly, what it behooves a man to do according to the will of another. As regards his own will it becomes a man to look chiefly to his o..."
+    },
+    {
+      "q": "From Article 1's teaching on things pertaining to the episcopal state, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That things pertaining to the episcopal state must be approached with prudent deliberation and moderation",
+        "That things pertaining to the episcopal state is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding things pertaining to the episcopal state",
+        "That things pertaining to the episcopal state pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: Three things may be considered in the episcopal office. One is principal and final, namely the bishop's work, whereby the good of our neighbor is intended, according to John 21:17, \"Feed My sheep.\" Another thing is the height of degree, for a bishop is placed above others, accord..."
+    }
+  ],
+  "P3Q186": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding things in which the religious state properly consists?",
+      "correct": 0,
+      "options": [
+        "As stated above (II-II:141:2) that which is applicable to many things in common is ascribed antonoma",
+        "That things in which the religious state properly consists is purely a matter of personal preference with no moral dimension",
+        "That things in which the religious state properly consists is forbidden in all cases by divine law",
+        "That things in which the religious state properly consists requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As stated above (II-II:141:2) that which is applicable to many things in common is ascribed antonomastically to that to which it is applicable by way of excellence. Thus the name of \"fortitude\" is claimed by the virtue which preserves the firmness of the mind in regard to most difficult things, and..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about things in which the religious state properly consists?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: A thing pertains to perfection in three ways. First, essentially, and thus, as stated above (II-II:184:3) the perfect observance of the precepts of charity belongs to perfection. Secondly, a thing belongs to perfection consequently: such are those things that result from the perf..."
+    },
+    {
+      "q": "From Article 1's teaching on things in which the religious state properly consists, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That things in which the religious state properly consists must be approached with prudent deliberation and moderation",
+        "That things in which the religious state properly consists is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding things in which the religious state properly consists",
+        "That things in which the religious state properly consists pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As stated above (II-II:141:2) that which is applicable to many things in common is ascribed antonomastically to that to which it is applicable by way of excellence. Thus the name of \"fortitude\" is claimed by the virtue which preserves the firmness of the mind in regard to most di..."
+    }
+  ],
+  "P3Q187": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding things that are competent to religious?",
+      "correct": 0,
+      "options": [
+        "A thing is declared to be unlawful to a person in two ways.",
+        "That things that are competent to religious is purely a matter of personal preference with no moral dimension",
+        "That things that are competent to religious is forbidden in all cases by divine law",
+        "That things that are competent to religious requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: A thing is declared to be unlawful to a person in two ways. First, because there is something in him contrary to that which is declared unlawful to him: thus to no man is it lawful to sin, because each man has in himself reason and an obligation to God's law, to which things sin is contrary. And in..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about things that are competent to religious?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (186, 1 and 7, ad 1), the religious state is directed to the attainment of the perfection of charity, consisting principally in the love of God and secondarily in the love of our neighbor. Consequently that which religious intend chiefly and for its own sake is to..."
+    },
+    {
+      "q": "From Article 1's teaching on things that are competent to religious, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That things that are competent to religious must be approached with prudent deliberation and moderation",
+        "That things that are competent to religious is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding things that are competent to religious",
+        "That things that are competent to religious pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: A thing is declared to be unlawful to a person in two ways. First, because there is something in him contrary to that which is declared unlawful to him: thus to no man is it lawful to sin, because each man has in himself reason and an obligation to God's law, to which things sin..."
+    }
+  ],
+  "P3Q188": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the different kinds of religious life?",
+      "correct": 0,
+      "options": [
+        "As stated above (II-II:186:7; II-II:187:2), the religious state is a training school wherein one aim",
+        "That the different kinds of religious life is purely a matter of personal preference with no moral dimension",
+        "That the different kinds of religious life is forbidden in all cases by divine law",
+        "That the different kinds of religious life requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As stated above (II-II:186:7; II-II:187:2), the religious state is a training school wherein one aims by practice at the perfection of charity. Now there are various works of charity to which a man may devote himself; and there are also various kinds of exercise. Wherefore religious orders may be di..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the different kinds of religious life?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (Article 1), the religious state is directed to the perfection of charity, which extends to the love of God and of our neighbor. Now the contemplative life which seeks to devote itself to God alone belongs directly to the love of God, while the active life, which..."
+    },
+    {
+      "q": "From Article 1's teaching on the different kinds of religious life, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the different kinds of religious life must be approached with prudent deliberation and moderation",
+        "That the different kinds of religious life is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the different kinds of religious life",
+        "That the different kinds of religious life pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As stated above (II-II:186:7; II-II:187:2), the religious state is a training school wherein one aims by practice at the perfection of charity. Now there are various works of charity to which a man may devote himself; and there are also various kinds of exercise. Wherefore religi..."
+    }
+  ],
+  "P3Q189": [
+    {
+      "q": "According to Aquinas in Article 1, what is his primary teaching regarding the entrance into religious life?",
+      "correct": 0,
+      "options": [
+        "As shown above (II-II:188:1), the religious state is a spiritual schooling for the attainment of the",
+        "That the entrance into religious life is purely a matter of personal preference with no moral dimension",
+        "That the entrance into religious life is forbidden in all cases by divine law",
+        "That the entrance into religious life requires no special virtue or deliberation"
+      ],
+      "explanation": "Aquinas states in Article 1: As shown above (II-II:188:1), the religious state is a spiritual schooling for the attainment of the perfection of charity. This is accomplished through the removal of the obstacles to perfect charity by religious observances; and these obstacles are those things which attach man's affections to ear..."
+    },
+    {
+      "q": "In Article 2, why does Aquinas teach what he does about the entrance into religious life?",
+      "correct": 0,
+      "options": [
+        "Because it relates to the proper ordering of human acts and passions through reason and virtue",
+        "Because it is explicitly prohibited multiple times in Sacred Scripture",
+        "Because the ancient pagan philosophers unanimously condemned it",
+        "Because it causes immediate physical harm to the person"
+      ],
+      "explanation": "Aquinas explains in Article 2: As stated above (II-II:88:6), when we were treating of vows, one and the same work done in fulfilment of a vow is more praiseworthy than if it be done apart from a vow, both because to vow is an act of religion, which has a certain pre-eminence among the virtues, and because a vo..."
+    },
+    {
+      "q": "From Article 1's teaching on the entrance into religious life, which of the following follows?",
+      "correct": 0,
+      "options": [
+        "That the entrance into religious life must be approached with prudent deliberation and moderation",
+        "That the entrance into religious life is entirely indifferent to moral virtue or vice",
+        "That no one can ever err in judgment regarding the entrance into religious life",
+        "That the entrance into religious life pertains equally to all persons regardless of their state in life"
+      ],
+      "explanation": "Aquinas teaches in Article 1: As shown above (II-II:188:1), the religious state is a spiritual schooling for the attainment of the perfection of charity. This is accomplished through the removal of the obstacles to perfect charity by religious observances; and these obstacles are those things which attach man..."
     }
   ],
   "P4Q1": [
@@ -12317,7 +17512,7 @@ window.QUIZZES = {
   ]
 },
   scg: {
-  "B1C1": [
+  "SCG_B1_Ch1": [
     {
       "q": "According to Chapter 1, why is the term 'wise' properly applied to one who considers the highest causes rather than to master-craftsmen who direct particular arts?",
       "options": [
@@ -12352,7 +17547,7 @@ window.QUIZZES = {
       "explanation": "Aquinas reads the verse as assigning the wise man two tasks: proclaiming truth ('meditate truth') and refuting error ('hate wickedness')."
     }
   ],
-  "B1C2": [
+  "SCG_B1_Ch2": [
     {
       "q": "According to Chapter 2, why does Aquinas say pursuing wisdom is 'most sublime'?",
       "options": [
@@ -12387,7 +17582,7 @@ window.QUIZZES = {
       "explanation": "Aquinas states his purpose is, in his own weak way, 'to declare the truth which the Catholic faith professes, while weeding out contrary errors.'"
     }
   ],
-  "B1C3": [
+  "SCG_B1_Ch3": [
     {
       "q": "According to Chapter 3, why can human reason attain some truths about God but not others (like the Trinity)?",
       "options": [
@@ -12422,7 +17617,7 @@ window.QUIZZES = {
       "explanation": "Aquinas concludes that truths about God surpassing reason should not be dismissed as false merely for being beyond reason's grasp, as the Manicheans wrongly assumed."
     }
   ],
-  "B1C4": [
+  "SCG_B1_Ch4": [
     {
       "q": "What is the first of the three disadvantages Aquinas lists that would result if truths about God knowable by reason were left solely to rational inquiry?",
       "options": [
@@ -12457,7 +17652,7 @@ window.QUIZZES = {
       "explanation": "Because of the intellect's weakness in judgment and reliance on sense images (phantasms), reasoned demonstrations are often mixed with error, causing doubt even where truth has actually been proven."
     }
   ],
-  "B1C5": [
+  "SCG_B1_Ch5": [
     {
       "q": "According to Chapter 5, why is it fitting for truths beyond reason's grasp to be proposed to man as objects of faith?",
       "options": [
@@ -12492,7 +17687,7 @@ window.QUIZZES = {
       "explanation": "Aquinas argues that being given truths surpassing our natural grasp reinforces our understanding that God is far greater than anything human thought could reach unaided."
     }
   ],
-  "B1C6": [
+  "SCG_B1_Ch6": [
     {
       "q": "According to Chapter 6, what convinced 'not only simple but also of the wisest men' to embrace the Christian faith?",
       "options": [
@@ -12527,7 +17722,7 @@ window.QUIZZES = {
       "explanation": "Aquinas contrasts Muhammad's appeal to carnal pleasure, reliance on armed force, uneducated early followers, and lack of miracles or prophetic witness with the apostles' miracle-confirmed, non-coercive spread of the faith."
     }
   ],
-  "B1C7": [
+  "SCG_B1_Ch7": [
     {
       "q": "According to Chapter 7, why can the truth of faith never be contrary to truths naturally known by reason?",
       "options": [
@@ -12562,7 +17757,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explains that effects (sensible things) resemble their cause (God) imperfectly, so reason can form probable supporting arguments for faith but cannot demonstrate or comprehend God's essence through them."
     }
   ],
-  "B1C8": [
+  "SCG_B1_Ch8": [
     {
       "q": "In this chapter, how does Aquinas use Aristotle's response to Simonides to support his argument?",
       "options": [
@@ -12597,7 +17792,7 @@ window.QUIZZES = {
       "explanation": "Aquinas concludes that even holding sublime truths imperfectly, through faith rather than full comprehension, confers great perfection on the soul."
     }
   ],
-  "B1C9": [
+  "SCG_B1_Ch9": [
     {
       "q": "According to Chapter 9, what method will Aquinas use for truths about God attainable by reason versus truths that surpass reason?",
       "options": [
@@ -12632,7 +17827,7 @@ window.QUIZZES = {
       "explanation": "Aquinas states that the first thing to be considered, as the necessary foundation of the whole work, is demonstrating that God exists."
     }
   ],
-  "B1C10": [
+  "SCG_B1_Ch10": [
     {
       "q": "What is the core claim of the position Aquinas examines in Chapter 10 (associated with an Anselm-style argument)?",
       "options": [
@@ -12667,7 +17862,7 @@ window.QUIZZES = {
       "explanation": "Chapter 10 lays out arguments for the view that God's existence is self-evident and needs no proof, a position Aquinas then refutes in Chapter 11 before offering his own demonstrations."
     }
   ],
-  "B1C11": [
+  "SCG_B1_Ch11": [
     {
       "q": "According to Chapter 11, what key distinction does Aquinas use to refute the claim that God's existence is self-evident to us?",
       "options": [
@@ -12702,7 +17897,7 @@ window.QUIZZES = {
       "explanation": "Aquinas clarifies that natural desire for happiness reflects a likeness to divine goodness, not direct knowledge of God Himself, so reasoning through effects is still required to know that God exists."
     }
   ],
-  "B1C12": [
+  "SCG_B1_Ch12": [
     {
       "q": "What position does Aquinas refute in Chapter 12?",
       "options": [
@@ -12737,7 +17932,7 @@ window.QUIZZES = {
       "explanation": "Even though God Himself transcends sense and reason's ordinary objects, His effects are sensible, so our knowledge of His existence originates from the senses through a posteriori reasoning."
     }
   ],
-  "B1C14": [
+  "SCG_B1_Ch13": [
     {
       "q": "Why does Aquinas say the way of remotion (negation) is the principal method for treating the divine essence?",
       "options": [
@@ -12772,7 +17967,7 @@ window.QUIZZES = {
       "explanation": "Aquinas begins the negative approach from the previously demonstrated truth that God is wholly unchangeable, confirmed also by texts like Malachi 3:6."
     }
   ],
-  "B1C15": [
+  "SCG_B1_Ch14": [
     {
       "q": "How does Aquinas argue from God's unchangeability to His eternity in Chapter 15?",
       "options": [
@@ -12807,7 +18002,7 @@ window.QUIZZES = {
       "explanation": "Since time measures movement and God is utterly unmoved, no succession or 'before and after' applies to Him, meaning He has all His being simultaneously — the essence of eternity."
     }
   ],
-  "B1C16": [
+  "SCG_B1_Ch15": [
     {
       "q": "What is the central conclusion Aquinas establishes in Chapter 16 about God?",
       "options": [
@@ -12842,7 +18037,7 @@ window.QUIZZES = {
       "explanation": "Since what is merely potential cannot yet act to bring itself into actuality, an actualizing cause is required; avoiding infinite regress requires a first cause that is wholly actual — God."
     }
   ],
-  "B1C17": [
+  "SCG_B1_Ch16": [
     {
       "q": "Why does Aquinas conclude that God is not matter, given that He is the first efficient cause?",
       "options": [
@@ -12877,7 +18072,7 @@ window.QUIZZES = {
       "explanation": "Aquinas states the Catholic faith professes that God created all things out of nothing, not out of His own substance, directly opposing the idea that God is identical with primary matter."
     }
   ],
-  "B1C18": [
+  "SCG_B1_Ch17": [
     {
       "q": "What is the basic reason Aquinas gives for denying any composition in God?",
       "options": [
@@ -12912,7 +18107,7 @@ window.QUIZZES = {
       "explanation": "Since a composite's proper good belongs to the whole rather than fully to any part, if God were composite His goodness would be diluted or partial, undermining His status as the supreme, purely good being."
     }
   ],
-  "B1C19": [
+  "SCG_B1_Ch18": [
     {
       "q": "Why does Aquinas conclude that nothing in God can be 'violent' or 'beside nature'?",
       "options": [
@@ -12947,7 +18142,7 @@ window.QUIZZES = {
       "explanation": "Since anything violent or unnatural is, by nature, apt to be moved by an external principle, and God has already been shown to be wholly immovable, nothing violent or unnatural can be found in Him."
     }
   ],
-  "B1C20": [
+  "SCG_B1_Ch19": [
     {
       "q": "What is one of Aquinas's core arguments that God is not a body?",
       "options": [
@@ -12982,7 +18177,7 @@ window.QUIZZES = {
       "explanation": "Aquinas says these philosophers erred by admitting only material causes as first principles and calling them gods, an error refuted by the demonstration that God, the true first cause, is incorporeal."
     }
   ],
-  "B1C21": [
+  "SCG_B1_Ch20": [
     {
       "q": "What does it mean, in this chapter, to say 'God is His own essence'?",
       "options": [
@@ -13017,7 +18212,7 @@ window.QUIZZES = {
       "explanation": "Aquinas reasons that since God is the first being with no cause, and essence would otherwise stand in a causal relation to the thing possessing it, God's essence must simply be identical with Him."
     }
   ],
-  "B1C22": [
+  "SCG_B1_Ch21": [
     {
       "q": "What is the central claim of Chapter 22 regarding God's essence and existence?",
       "options": [
@@ -13052,7 +18247,7 @@ window.QUIZZES = {
       "explanation": "If existence were distinct from and added to essence, God would be composite and would need a cause to unite the two, or would exist by participation rather than essentially — both contradicting God as the uncaused, simple, first being."
     }
   ],
-  "B1C23": [
+  "SCG_B1_Ch22": [
     {
       "q": "Why does Aquinas conclude that there can be no accidents in God?",
       "options": [
@@ -13087,7 +18282,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explicitly states that having established God is free of accidents, this refutes certain claims in Islamic teaching that additional forms are added to the divine essence."
     }
   ],
-  "B1C24": [
+  "SCG_B1_Ch23": [
     {
       "q": "What does Chapter 24 argue regarding whether the divine being could be 'specified' by an added essential difference, the way a genus is specified into a species?",
       "options": [
@@ -13122,7 +18317,7 @@ window.QUIZZES = {
       "explanation": "Since God's existence is not distinct from His essence, an addition specifying Him essentially could only be a part of His essence, implying composition — which contradicts God's proven simplicity."
     }
   ],
-  "B1C25": [
+  "SCG_B1_Ch24": [
     {
       "q": "Why does Aquinas conclude that God cannot be placed in any genus?",
       "options": [
@@ -13157,7 +18352,7 @@ window.QUIZZES = {
       "explanation": "Since every definition is composed of genus and difference, and God is in no genus, it follows that God cannot be strictly defined, nor can demonstrations proceed from His definition."
     }
   ],
-  "B1C26": [
+  "SCG_B1_Ch25": [
     {
       "q": "What error does Aquinas refute in Chapter 26 regarding God and the being of creatures?",
       "options": [
@@ -13192,7 +18387,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explains that Dionysius meant creatures derive a likeness to God's being from Him as cause, while the Godhead itself remains transcendently above and distinct from all things, not identical to their being."
     }
   ],
-  "B1C27": [
+  "SCG_B1_Ch26": [
     {
       "q": "What does Chapter 27 argue regarding whether God could be 'the form of a body' (e.g., the soul of the world or of the heavens)?",
       "options": [
@@ -13227,7 +18422,7 @@ window.QUIZZES = {
       "explanation": "Aquinas argues that a self-mover (composite of mover-part and moved-part) could vary in speed or rest, so the observed regularity of heavenly motion points to a wholly immovable higher principle, not a soul-form intrinsic to the moving body."
     }
   ],
-  "B1C28": [
+  "SCG_B1_Ch27": [
     {
       "q": "What does Aquinas mean by calling God 'universally perfect' in Chapter 28?",
       "options": [
@@ -13262,7 +18457,7 @@ window.QUIZZES = {
       "explanation": "Since an effect cannot have a more excellent actuality than its cause (though it can be less), and God is the first cause from whom all things proceed, every perfection in creatures must exist in God in a higher, more eminent way."
     }
   ],
-  "B1C29": [
+  "SCG_B1_Ch28": [
     {
       "q": "How can creatures be said to be 'like' God, according to Chapter 29, despite God's utter transcendence?",
       "options": [
@@ -13297,7 +18492,7 @@ window.QUIZZES = {
       "explanation": "Since 'assimilation' implies receiving likeness from another, and creatures derive their likeness from God rather than God deriving His from creatures, it is the creature, not God, that is properly assimilated."
     }
   ],
-  "B1C30": [
+  "SCG_B1_Ch29": [
     {
       "q": "According to Chapter 30, which kinds of terms can be predicated of God and of creatures both properly and non-metaphorically?",
       "options": [
@@ -13332,7 +18527,7 @@ window.QUIZZES = {
       "explanation": "Aquinas cites Dionysius's teaching that terms applicable to God can be affirmed regarding what they signify (the perfection itself) yet denied regarding their creaturely mode of signifying it."
     }
   ],
-  "B1C31": [
+  "SCG_B1_Ch30": [
     {
       "q": "How does Chapter 31 explain that the plurality of divine names is compatible with God's absolute simplicity?",
       "options": [
@@ -13367,7 +18562,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explains that since we know God only through His varied effects rather than His essence directly, we require many names corresponding to those effects; only seeing His essence directly (as promised in Zechariah) would allow for one single, proper name."
     }
   ],
-  "B1C32": [
+  "SCG_B1_Ch31": [
     {
       "q": "Why can nothing be predicated univocally of God and creatures, according to Chapter 32?",
       "options": [
@@ -13402,7 +18597,7 @@ window.QUIZZES = {
       "explanation": "Since univocal terms are in some way simpler abstractions common to the things they describe, and nothing is more simple than God Himself, no term can stand in that simpler, common relation to both God and creatures."
     }
   ],
-  "B1C33": [
+  "SCG_B1_Ch32": [
     {
       "q": "Why does Aquinas reject the view that terms predicated of God and creatures are purely equivocal (like 'dog' meaning both the animal and the star constellation)?",
       "options": [
@@ -13437,7 +18632,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that even if divine names told us only what God is not (e.g., 'living' meaning 'not inanimate'), the shared negation itself would constitute a point of agreement, ruling out pure equivocation."
     }
   ],
-  "B1C34": [
+  "SCG_B1_Ch33": [
     {
       "q": "What is Aquinas's positive solution in Chapter 34 to how terms are predicated of God and creatures?",
       "options": [
@@ -13472,7 +18667,7 @@ window.QUIZZES = {
       "explanation": "Aquinas concludes that although the perfections named actually exist first and most fully in God, since we know Him only via His effects, the meaning of the names as we understand them originates from creatures — hence God is 'named from His effects.'"
     }
   ],
-  "B1C35": [
+  "SCG_B1_Ch34": [
     {
       "q": "Why does Aquinas say the many names predicated of God, though referring to one simple reality, are not synonymous?",
       "options": [
@@ -13507,7 +18702,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that a name's meaning is tied to the intellect's concept, which precedes and represents the thing understood; since our concepts of God's diverse-seeming perfections differ, the names differ in meaning despite naming one same reality."
     }
   ],
-  "B1C36": [
+  "SCG_B1_Ch35": [
     {
       "q": "Why is it not vain for our intellect to form propositions about the simple God through composition and division (e.g., 'God is good')?",
       "options": [
@@ -13542,7 +18737,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that inserting a preposition ('in') implies a diversity suited to our way of conceiving, while the underlying unity is still referred to the one thing (God) that is understood."
     }
   ],
-  "B1C37": [
+  "SCG_B1_Ch36": [
     {
       "q": "How does Aquinas derive God's goodness from His already-proven perfection?",
       "options": [
@@ -13577,7 +18772,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explains that a perfect thing naturally communicates its perfection to others by acting; since God is the cause of being for all other things, this self-diffusive character of goodness fittingly applies to Him."
     }
   ],
-  "B1C38": [
+  "SCG_B1_Ch37": [
     {
       "q": "What further step does Aquinas take in Chapter 38 beyond simply proving 'God is good'?",
       "options": [
@@ -13612,7 +18807,7 @@ window.QUIZZES = {
       "explanation": "Aquinas cites Matthew 19:17, 'None is good but God alone,' as scriptural confirmation that only God is goodness essentially, while all else is good only by participation."
     }
   ],
-  "B1C39": [
+  "SCG_B1_Ch38": [
     {
       "q": "How does Aquinas argue that no evil can exist in God?",
       "options": [
@@ -13647,7 +18842,7 @@ window.QUIZZES = {
       "explanation": "Aquinas confirms his philosophical demonstration with 1 John's declaration that God is light without darkness and Job's statement that wickedness and iniquity are far from the Almighty."
     }
   ],
-  "B1C40": [
+  "SCG_B1_Ch39": [
     {
       "q": "What does it mean to say 'God is the good of every good' in Chapter 40?",
       "options": [
@@ -13682,7 +18877,7 @@ window.QUIZZES = {
       "explanation": "Since something is called good either because it is an end or because it is ordered toward one, and God is the ultimate last end of all things, all goodness is ultimately measured against and derived from Him."
     }
   ],
-  "B1C41": [
+  "SCG_B1_Ch40": [
     {
       "q": "How does Aquinas argue from 'universal good versus particular good' that God is the sovereign good?",
       "options": [
@@ -13717,7 +18912,7 @@ window.QUIZZES = {
       "explanation": "Aquinas draws an analogy: purity of whiteness corresponds to absence of black, so purity of goodness corresponds to absence of evil; since God is utterly free of evil in both act and potency, He is supremely good."
     }
   ],
-  "B1C42": [
+  "SCG_B1_Ch41": [
     {
       "q": "How does the argument from God's status as 'sovereign good' support the conclusion that there is only one God?",
       "options": [
@@ -13752,7 +18947,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that unity is desirable in governance (monarchy, and the human body having one head as ruling member) as an image supporting the fittingness of confessing that God, who governs and causes all things, is one."
     }
   ],
-  "B1C43": [
+  "SCG_B1_Ch42": [
     {
       "q": "In what sense does Aquinas say God is 'infinite,' given that infinity is normally a property of quantity?",
       "options": [
@@ -13787,7 +18982,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that even ancient philosophers, in various mistaken quantitative forms, recognized that the first principle of things must be infinite in some sense, indirectly supporting his own conclusion about God's true, non-quantitative infinity."
     }
   ],
-  "B1C44": [
+  "SCG_B1_Ch43": [
     {
       "q": "How does Aquinas argue for God's intelligence from the notion of a 'self-mover'?",
       "options": [
@@ -13822,7 +19017,7 @@ window.QUIZZES = {
       "explanation": "Since natural things consistently achieve definite ends without themselves apprehending or choosing those ends, some intelligent cause must direct them to those ends — and this director of nature is God, who must therefore be intelligent."
     }
   ],
-  "B1C45": [
+  "SCG_B1_Ch44": [
     {
       "q": "What is the central claim of Chapter 45 regarding God's act of understanding?",
       "options": [
@@ -13857,7 +19052,7 @@ window.QUIZZES = {
       "explanation": "If God's act of understanding were distinct from His essence, God would stand in potentiality to that act (as one capable of but not yet actually understanding), contradicting His established status as pure act with no potentiality."
     }
   ],
-  "B1C46": [
+  "SCG_B1_Ch45": [
     {
       "q": "What does Chapter 46 establish about the means by which God understands?",
       "options": [
@@ -13892,7 +19087,7 @@ window.QUIZZES = {
       "explanation": "Aquinas argues that any such representative image would need an external cause to imprint it — either God's own intellect acting oddly on itself to produce another's likeness, or some prior agent, both of which are impossible, since nothing precedes God's intellect."
     }
   ],
-  "B2C1": [
+  "SCG_B2_Ch1": [
     {
       "q": "According to Aquinas, why is it necessary to know a thing's operation in order to know it perfectly?",
       "options": [
@@ -13927,7 +19122,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explains that the agent's immanent operation (intellect and will) is naturally prior to and the cause of the transitive operation of producing effects, just as a craftsman's thought precedes his work."
     }
   ],
-  "B2C2": [
+  "SCG_B2_Ch2": [
     {
       "q": "How does Aquinas distinguish the philosopher's consideration of creatures from the theologian's?",
       "options": [
@@ -13962,7 +19157,7 @@ window.QUIZZES = {
       "explanation": "Aquinas compares this to how the physicist considers a line only as the boundary of a natural body, unlike the geometrician; each science attends only to what is relevant to its own formal object."
     }
   ],
-  "B2C3": [
+  "SCG_B2_Ch3": [
     {
       "q": "What order of topics does Aquinas propose for the discussion of creatures in Book Two?",
       "options": [
@@ -13997,7 +19192,7 @@ window.QUIZZES = {
       "explanation": "Chapter 5 (B2C3) is a brief transitional chapter that simply lays out the three-part order of inquiry for the rest of Book Two."
     }
   ],
-  "B2C4": [
+  "SCG_B2_Ch4": [
     {
       "q": "What is the main conclusion Aquinas draws in this chapter?",
       "options": [
@@ -14032,7 +19227,7 @@ window.QUIZZES = {
       "explanation": "Just as strong fire heats even distant objects while weak fire heats only what is near, God's pure act, being maximally perfect, causes effects extending to the being of other things."
     }
   ],
-  "B2C5": [
+  "SCG_B2_Ch5": [
     {
       "q": "What is 'active power' as Aquinas defines it, and why is it attributed to God?",
       "options": [
@@ -14067,7 +19262,7 @@ window.QUIZZES = {
       "explanation": "Aquinas reasons that since God does act and move (as proved earlier), He must have the power to act, confirming that active power is fittingly ascribed to Him."
     }
   ],
-  "B2C6": [
+  "SCG_B2_Ch6": [
     {
       "q": "What does Aquinas conclude about the relationship between God's power and His substance?",
       "options": [
@@ -14102,7 +19297,7 @@ window.QUIZZES = {
       "explanation": "Since nothing can be ascribed to God by participation (He is His own being, per Book One), it follows that God is His own power rather than possessing power derivatively."
     }
   ],
-  "B2C7": [
+  "SCG_B2_Ch7": [
     {
       "q": "What further identification does Aquinas make in this chapter, building on the claim that God's power is His substance?",
       "options": [
@@ -14137,7 +19332,7 @@ window.QUIZZES = {
       "explanation": "In creatures, action not identical with substance is an accident inhering in a subject; since God has no accidents, His action must be identical with His substance, not an accident added to it."
     }
   ],
-  "B2C8": [
+  "SCG_B2_Ch8": [
     {
       "q": "According to this chapter, in what sense is power properly ascribed to God?",
       "options": [
@@ -14153,7 +19348,7 @@ window.QUIZZES = {
       "q": "Why are intellect and will in God said to be 'actions' rather than 'powers,' strictly speaking?",
       "options": [
         "Because intellect and will do not exist in God at all",
-        "Because these operations remain within God (they do not pass into an external effect), so power in the proper sense — which regards produced effects — does not apply to them except according to our manner of conceiving",
+        "Because these operations remain within God (they do not pass into an external effect), so power in the proper sense Ã¢â‚¬â€ which regards produced effects Ã¢â‚¬â€ does not apply to them except according to our manner of conceiving",
         "Because intellect and will are accidents in God",
         "Because only bodily operations can be called actions"
       ],
@@ -14172,7 +19367,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explains that though we signify God's one simple being through many concepts (intelligence, volition, production), this signifies no real plurality in Him, echoing the discussion of multiple names in Book One."
     }
   ],
-  "B2C9": [
+  "SCG_B2_Ch9": [
     {
       "q": "What is the central claim Aquinas defends in this chapter?",
       "options": [
@@ -14193,7 +19388,7 @@ window.QUIZZES = {
         "The argument from divine simplicity alone"
       ],
       "correct": 0,
-      "explanation": "Aquinas reasons that relation is inherently reciprocal — since creatures are said to depend on and be related to God, God must likewise be describable in relation to creatures, even if that relation exists differently in each term."
+      "explanation": "Aquinas reasons that relation is inherently reciprocal Ã¢â‚¬â€ since creatures are said to depend on and be related to God, God must likewise be describable in relation to creatures, even if that relation exists differently in each term."
     },
     {
       "q": "Which of the following is NOT one of the reasons Aquinas gives for saying something is predicated of God relatively?",
@@ -14204,10 +19399,10 @@ window.QUIZZES = {
         "God's essence is composed of really distinct relational parts"
       ],
       "correct": 3,
-      "explanation": "Aquinas never claims God's essence is composed of relational parts — that would contradict divine simplicity; the other three are among his stated reasons for ascribing relative terms to God."
+      "explanation": "Aquinas never claims God's essence is composed of relational parts Ã¢â‚¬â€ that would contradict divine simplicity; the other three are among his stated reasons for ascribing relative terms to God."
     }
   ],
-  "B2C10": [
+  "SCG_B2_Ch10": [
     {
       "q": "What is Aquinas's central conclusion about the relations by which God is referred to creatures (e.g., Lord, Creator)?",
       "options": [
@@ -14217,12 +19412,12 @@ window.QUIZZES = {
         "They constitute God's very substance in a distinct way from other attributes"
       ],
       "correct": 1,
-      "explanation": "Aquinas concludes these relations are not real accidents in God (He has none) nor His substance itself, but exist only 'according to our way of understanding' — real in the creature's dependence on God, not vice versa."
+      "explanation": "Aquinas concludes these relations are not real accidents in God (He has none) nor His substance itself, but exist only 'according to our way of understanding' Ã¢â‚¬â€ real in the creature's dependence on God, not vice versa."
     },
     {
       "q": "Why can't these relations (like 'Lord of creatures') be God's very substance?",
       "options": [
-        "Because relative terms are essentially referred to something else, which would make God's substance dependent on and definable through something outside Himself — contradicting His being necessary of Himself",
+        "Because relative terms are essentially referred to something else, which would make God's substance dependent on and definable through something outside Himself Ã¢â‚¬â€ contradicting His being necessary of Himself",
         "Because substances cannot be named at all",
         "Because only accidents can be relative, and God has substance but no accidents",
         "Because the argument does not actually rule this out"
@@ -14242,12 +19437,12 @@ window.QUIZZES = {
       "explanation": "Aquinas compares it to how a knowable object is only relatively said to be 'knowable' without a real relation existing in it (the relation being real in the knowledge instead); similarly, new relations to God arise from real change in the creature, not in God."
     }
   ],
-  "B2C11": [
+  "SCG_B2_Ch11": [
     {
       "q": "What is the main thesis of this chapter?",
       "options": [
         "God is the cause of being only to spiritual creatures",
-        "Everything other than God derives its being from Him — God is the cause of being to all things",
+        "Everything other than God derives its being from Him Ã¢â‚¬â€ God is the cause of being to all things",
         "Some things exist without any cause of their being",
         "Matter is self-existent and independent of God"
       ],
@@ -14277,12 +19472,12 @@ window.QUIZZES = {
       "explanation": "Aquinas closes by rejecting the ancient physicists who held some bodies had no cause of being, and those who claimed God causes only celestial motion but not the substance of the heavens."
     }
   ],
-  "B2C12": [
+  "SCG_B2_Ch12": [
     {
       "q": "What does this chapter establish about how God brings things into being?",
       "options": [
         "God requires eternal pre-existing matter to create",
-        "God creates out of nothing — no pre-existing matter is presupposed to His creative action",
+        "God creates out of nothing Ã¢â‚¬â€ no pre-existing matter is presupposed to His creative action",
         "God can only reshape existing substances, never originate new being",
         "God's creative act is identical to natural generation"
       ],
@@ -14312,7 +19507,7 @@ window.QUIZZES = {
       "explanation": "Ordinary agents that act by movement or change presuppose an underlying subject and merely transform it, but God, as the source of being itself, is not limited to that mode of causing and creates without any presupposed substrate."
     }
   ],
-  "B2C13": [
+  "SCG_B2_Ch13": [
     {
       "q": "What is Aquinas's central claim about the nature of creation as an act?",
       "options": [
@@ -14333,7 +19528,7 @@ window.QUIZZES = {
         "Because creation only applies to spiritual beings, which have no 'before' state"
       ],
       "correct": 1,
-      "explanation": "Ordinary change requires two extremes within a shared genus or matter (e.g., privation and form), but creation's 'terms' — sheer non-being and being — share no such common substrate, so it cannot be change in the ordinary sense."
+      "explanation": "Ordinary change requires two extremes within a shared genus or matter (e.g., privation and form), but creation's 'terms' Ã¢â‚¬â€ sheer non-being and being Ã¢â‚¬â€ share no such common substrate, so it cannot be change in the ordinary sense."
     },
     {
       "q": "What does Aquinas say about the claim that 'what is being made, is not yet, until movement is complete'?",
@@ -14347,7 +19542,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that in ordinary change, a thing is 'becoming' throughout the process and 'is made' only when movement terminates, but creation cannot work this way since it would then require a pre-existing subject, contrary to creation's very nature."
     }
   ],
-  "B2C14": [
+  "SCG_B2_Ch14": [
     {
       "q": "How does Aquinas answer the objection that creation must occur 'in a subject' the way other changes do?",
       "options": [
@@ -14382,17 +19577,17 @@ window.QUIZZES = {
       "explanation": "He grants that we conceive creation on the model of change (something first not existing, then existing), but this is merely a feature of how our intellect grasps it, not a claim that real transmutation occurs."
     }
   ],
-  "B2C15": [
+  "SCG_B2_Ch15": [
     {
       "q": "What is the key conclusion of this chapter regarding creation and time?",
       "options": [
         "Creation takes an infinitesimally short but still measurable duration",
-        "All creation occurs without succession — it is instantaneous, not a gradual process",
+        "All creation occurs without succession Ã¢â‚¬â€ it is instantaneous, not a gradual process",
         "Creation happens gradually like the growth of a plant",
         "Creation requires the same amount of time regardless of what is created"
       ],
       "correct": 1,
-      "explanation": "Since succession belongs properly to movement, and creation is neither movement nor the term of a movement, Aquinas concludes there is no succession in creation — it happens instantaneously."
+      "explanation": "Since succession belongs properly to movement, and creation is neither movement nor the term of a movement, Aquinas concludes there is no succession in creation Ã¢â‚¬â€ it happens instantaneously."
     },
     {
       "q": "Why does Aquinas say there can be no 'becoming' (a state of being made but not yet made) prior to a creature's existing, unlike in ordinary generation?",
@@ -14414,10 +19609,10 @@ window.QUIZZES = {
         "The growth of a tree from a seed"
       ],
       "correct": 1,
-      "explanation": "Just as a transparent medium already perfectly disposed to receive light is illumined instantly when light is present, creation — requiring no prior disposition in matter — occurs instantaneously, in the same instant a thing 'is being created' and 'is created.'"
+      "explanation": "Just as a transparent medium already perfectly disposed to receive light is illumined instantly when light is present, creation Ã¢â‚¬â€ requiring no prior disposition in matter Ã¢â‚¬â€ occurs instantaneously, in the same instant a thing 'is being created' and 'is created.'"
     }
   ],
-  "B2C16": [
+  "SCG_B2_Ch16": [
     {
       "q": "Why does Aquinas argue that no body can create?",
       "options": [
@@ -14449,10 +19644,10 @@ window.QUIZZES = {
         "Because contact is impossible for immaterial substances only"
       ],
       "correct": 0,
-      "explanation": "Since bodily action requires contact, and contact requires an existing extreme to touch, but creation presupposes no pre-existing subject, a body cannot create by contact — or at all."
+      "explanation": "Since bodily action requires contact, and contact requires an existing extreme to touch, but creation presupposes no pre-existing subject, a body cannot create by contact Ã¢â‚¬â€ or at all."
     }
   ],
-  "B2C17": [
+  "SCG_B2_Ch17": [
     {
       "q": "Why does Aquinas conclude that creation belongs to God alone?",
       "options": [
@@ -14473,7 +19668,7 @@ window.QUIZZES = {
         "Because instrumental causes must be visible"
       ],
       "correct": 1,
-      "explanation": "Aquinas argues an instrument works through a proper connatural action reaching an effect via movement, and requires something already existing to receive its influence — both incompatible with creation, which is not movement and presupposes nothing."
+      "explanation": "Aquinas argues an instrument works through a proper connatural action reaching an effect via movement, and requires something already existing to receive its influence Ã¢â‚¬â€ both incompatible with creation, which is not movement and presupposes nothing."
     },
     {
       "q": "What does Aquinas mean by saying God's power is 'not confined to one effect'?",
@@ -14487,7 +19682,7 @@ window.QUIZZES = {
       "explanation": "Since being is God's proper effect and His power is perfect, unlimited act, God can do whatever does not involve a contradiction (an implicit non-being), which is the meaning of omnipotence in this chapter."
     }
   ],
-  "B2C18": [
+  "SCG_B2_Ch18": [
     {
       "q": "What is the main thesis argued in this chapter?",
       "options": [
@@ -14503,7 +19698,7 @@ window.QUIZZES = {
       "q": "How does the argument from 'action remaining in the agent' support the claim that God acts by will?",
       "options": [
         "It shows God has no actions at all",
-        "Since God's action is His very substance and thus cannot be the kind of action that passes into an external effect merely mechanically, it must be of the kind found only in beings with knowledge and appetite — i.e., intellect and will",
+        "Since God's action is His very substance and thus cannot be the kind of action that passes into an external effect merely mechanically, it must be of the kind found only in beings with knowledge and appetite Ã¢â‚¬â€ i.e., intellect and will",
         "It proves that God's actions are purely physical",
         "It shows that only external, transitive actions belong to God"
       ],
@@ -14522,7 +19717,7 @@ window.QUIZZES = {
       "explanation": "Aquinas uses the archer-and-arrow analogy to show that things directed to an end by another (as in art) require an intelligent guide, and by extension nature's order points to God as an intelligent, willing first agent."
     }
   ],
-  "B2C19": [
+  "SCG_B2_Ch19": [
     {
       "q": "What does this chapter establish about how God produces His effects?",
       "options": [
@@ -14543,7 +19738,7 @@ window.QUIZZES = {
         "It shows that craftsmanship is opposed to wisdom"
       ],
       "correct": 1,
-      "explanation": "Aquinas compares creatures to artifacts and God to the craftsman whose art (the reasoned plan in the intellect) determines the ordered production of the work — hence creation reflects divine wisdom."
+      "explanation": "Aquinas compares creatures to artifacts and God to the craftsman whose art (the reasoned plan in the intellect) determines the ordered production of the work Ã¢â‚¬â€ hence creation reflects divine wisdom."
     },
     {
       "q": "What error does Aquinas explicitly refute at the end of this chapter?",
@@ -14557,7 +19752,7 @@ window.QUIZZES = {
       "explanation": "Aquinas closes by rejecting the view that creation results from sheer arbitrary will with no wisdom or reason behind it, insisting instead that God's will acts according to His wisdom."
     }
   ],
-  "B2C20": [
+  "SCG_B2_Ch20": [
     {
       "q": "According to Aquinas, why is God said to be 'unable' to do certain things despite being omnipotent?",
       "options": [
@@ -14578,13 +19773,13 @@ window.QUIZZES = {
         "Because contradictions are only impossible for creatures, not for God"
       ],
       "correct": 1,
-      "explanation": "Since active potentiality requires an intelligible object or effect, and the object of contradiction destroys the very ratio of being, there is nothing there for divine power to produce — it is not a limitation on power but a matter of there being no real object."
+      "explanation": "Since active potentiality requires an intelligible object or effect, and the object of contradiction destroys the very ratio of being, there is nothing there for divine power to produce Ã¢â‚¬â€ it is not a limitation on power but a matter of there being no real object."
     },
     {
       "q": "Why, according to this chapter, can God not make Himself not to be, or not be good?",
       "options": [
         "Because these are actually within God's power but He chooses not to exercise it",
-        "Because God necessarily wills Himself to be and to be good (as shown in Book One), and since He is a voluntary agent, He cannot do what He cannot will — this necessity is not a limitation but flows from His perfect nature",
+        "Because God necessarily wills Himself to be and to be good (as shown in Book One), and since He is a voluntary agent, He cannot do what He cannot will Ã¢â‚¬â€ this necessity is not a limitation but flows from His perfect nature",
         "Because such acts require passive potentiality only in creatures",
         "Because Scripture forbids even discussing this possibility"
       ],
@@ -14592,7 +19787,7 @@ window.QUIZZES = {
       "explanation": "Since God acts through will and necessarily wills His own goodness and existence, He cannot will or do the opposite; this is treated as a positive feature of His perfection, not a deficiency."
     }
   ],
-  "B2C21": [
+  "SCG_B2_Ch21": [
     {
       "q": "What is the main claim of this chapter regarding God's intellect?",
       "options": [
@@ -14618,7 +19813,7 @@ window.QUIZZES = {
     {
       "q": "What qualification does Aquinas add at the end regarding God's actual choice of effects?",
       "options": [
-        "None — God's intellect produces all possible things simultaneously by necessity",
+        "None Ã¢â‚¬â€ God's intellect produces all possible things simultaneously by necessity",
         "Although God's intellect is not confined to certain effects, He nevertheless decides on certain determinate effects to produce them ordinately by His wisdom, per Wisdom 11:21 ('ordered all things in number, weight, and measure')",
         "God's intellect has no bearing on which effects actually occur",
         "God is forced to produce every possible effect because refusing any would be unjust"
@@ -14627,7 +19822,7 @@ window.QUIZZES = {
       "explanation": "Aquinas clarifies that unrestricted intellectual scope does not mean God produces everything possible; rather He freely and wisely selects and orders the actual effects He wills to bring about."
     }
   ],
-  "B2C22": [
+  "SCG_B2_Ch22": [
     {
       "q": "What is the primary claim of this chapter about the divine will?",
       "options": [
@@ -14637,7 +19832,7 @@ window.QUIZZES = {
         "That the divine will cannot differ from natural necessity at all"
       ],
       "correct": 0,
-      "explanation": "Since the will's object follows the intellect's proposal of a good, and the divine intellect is not confined to certain effects, neither is the divine will necessitated to produce determinate effects — except necessarily willing His own goodness."
+      "explanation": "Since the will's object follows the intellect's proposal of a good, and the divine intellect is not confined to certain effects, neither is the divine will necessitated to produce determinate effects Ã¢â‚¬â€ except necessarily willing His own goodness."
     },
     {
       "q": "Why does Aquinas argue that creation is NOT owed to creatures as a 'debt of justice'?",
@@ -14654,15 +19849,15 @@ window.QUIZZES = {
       "q": "What does Aquinas mean by a 'conditional' or 'hypothetical' necessity in creation, as opposed to justice properly speaking?",
       "options": [
         "That nothing is ever necessary once God has willed anything",
-        "That given God wills a certain end (e.g., a complete universe, or man's existence), it becomes 'due' or necessary that the means required for that end also be provided (e.g., sun and moon for the universe, or body and soul united for man) — though the willing of the end itself remained free",
+        "That given God wills a certain end (e.g., a complete universe, or man's existence), it becomes 'due' or necessary that the means required for that end also be provided (e.g., sun and moon for the universe, or body and soul united for man) Ã¢â‚¬â€ though the willing of the end itself remained free",
         "That conditional necessity is identical to absolute logical necessity in every way",
         "That God is bound by the laws of prior philosophers"
       ],
       "correct": 1,
-      "explanation": "Aquinas explains that once God freely wills a certain end, the things necessary to that end become 'due' in a conditional sense — a debt not owed to the creature but tied to the fulfillment of God's own purpose."
+      "explanation": "Aquinas explains that once God freely wills a certain end, the things necessary to that end become 'due' in a conditional sense Ã¢â‚¬â€ a debt not owed to the creature but tied to the fulfillment of God's own purpose."
     }
   ],
-  "B2C23": [
+  "SCG_B2_Ch23": [
     {
       "q": "How does Aquinas reconcile God's free, non-necessitated causality with the existence of absolute necessity in some created things?",
       "options": [
@@ -14697,7 +19892,7 @@ window.QUIZZES = {
       "explanation": "Aquinas distinguishes immanent actions (like understanding), where actualization by the proper object necessitates the act itself, from transitive actions (like heating), where the form only necessitates the power to act, not the actual effect, since external hindrances are possible."
     }
   ],
-  "B2C24": [
+  "SCG_B2_Ch24": [
     {
       "q": "What is the central conclusion of this chapter?",
       "options": [
@@ -14712,7 +19907,7 @@ window.QUIZZES = {
     {
       "q": "Why can't a creature have absolute necessity of being 'from itself,' according to the opening argument?",
       "options": [
-        "Because necessary being from itself would mean the thing cannot not exist, which is proper only to that which does not receive being from another (i.e., God) — but every creature, having being from another, cannot have this self-grounded necessity",
+        "Because necessary being from itself would mean the thing cannot not exist, which is proper only to that which does not receive being from another (i.e., God) Ã¢â‚¬â€ but every creature, having being from another, cannot have this self-grounded necessity",
         "Because creatures are evil by nature",
         "Because only humans can be necessary beings",
         "Because necessity applies only to abstract mathematical objects"
@@ -14724,7 +19919,7 @@ window.QUIZZES = {
       "q": "According to this chapter, why doesn't God's eternity entail that His creative effect must also be eternal?",
       "options": [
         "Because God's action is entirely separate from His will and follows blind necessity",
-        "Because God's action is His will, and the effect follows the will's determination — including its determination of when the effect is to exist — so an eternal willing agent can freely will a temporally-beginning effect without any change in Himself",
+        "Because God's action is His will, and the effect follows the will's determination Ã¢â‚¬â€ including its determination of when the effect is to exist Ã¢â‚¬â€ so an eternal willing agent can freely will a temporally-beginning effect without any change in Himself",
         "Because time did not exist before creation, making the question meaningless",
         "Because creatures possess a separate eternal component distinct from God"
       ],
@@ -14732,12 +19927,12 @@ window.QUIZZES = {
       "explanation": "Since God's action is identical with His eternal will, and His will determines not only that but also when an effect exists, the effect can begin in time without requiring change in the eternal, willing God."
     }
   ],
-  "B2C25": [
+  "SCG_B2_Ch25": [
     {
       "q": "What kind of arguments does this chapter present, and to what conclusion do they point?",
       "options": [
         "Arguments from Scripture proving the world is eternal",
-        "Arguments taken from the very manner or process of 'making' things (e.g., that nothing comes from nothing, that change requires a pre-existing subject) which purport to show something besides God — namely, primary matter — must be eternal",
+        "Arguments taken from the very manner or process of 'making' things (e.g., that nothing comes from nothing, that change requires a pre-existing subject) which purport to show something besides God Ã¢â‚¬â€ namely, primary matter Ã¢â‚¬â€ must be eternal",
         "Arguments proving that time itself is an illusion",
         "Arguments showing that only God's intellect is eternal, not His will"
       ],
@@ -14748,7 +19943,7 @@ window.QUIZZES = {
       "q": "What common philosophical maxim underlies the first argument presented in this chapter?",
       "options": [
         "'Everything that exists is good'",
-        "'From nothing, naught is made' (ex nihilo nihil fit) — the near-universal opinion of philosophers that whatever is made must be made from some pre-existing thing",
+        "'From nothing, naught is made' (ex nihilo nihil fit) Ã¢â‚¬â€ the near-universal opinion of philosophers that whatever is made must be made from some pre-existing thing",
         "'Like causes produce like effects only'",
         "'Motion is impossible in principle'"
       ],
@@ -14767,7 +19962,7 @@ window.QUIZZES = {
       "explanation": "Aquinas presents these as the opposing arguments to be answered in subsequent chapters, explicitly noting they conflict with the Catholic teaching that only God is eternal and all else began to be."
     }
   ],
-  "B2C26": [
+  "SCG_B2_Ch26": [
     {
       "q": "How does Aquinas answer the objection that a new effect (the world beginning) implies change in God the agent?",
       "options": [
@@ -14783,17 +19978,17 @@ window.QUIZZES = {
       "q": "How does Aquinas explain that an eternal cause (God) can have a non-eternal effect?",
       "options": [
         "He denies that God's action is really eternal",
-        "A voluntary cause's effect follows not merely the being of the cause but the mode determined by the cause's will — God's will determines not only that a thing be, but also when it is to be, so the effect can begin in time from an eternal willing without contradiction",
+        "A voluntary cause's effect follows not merely the being of the cause but the mode determined by the cause's will Ã¢â‚¬â€ God's will determines not only that a thing be, but also when it is to be, so the effect can begin in time from an eternal willing without contradiction",
         "He claims all effects must always be simultaneous with their causes without exception",
         "He argues the effect is actually just as eternal as God"
       ],
       "correct": 1,
-      "explanation": "Unlike natural causes whose effects follow automatically from their being, a voluntary cause's effect follows the determination of its will — including the timing — so God's eternal will can determine a temporally-limited effect."
+      "explanation": "Unlike natural causes whose effects follow automatically from their being, a voluntary cause's effect follows the determination of its will Ã¢â‚¬â€ including the timing Ã¢â‚¬â€ so God's eternal will can determine a temporally-limited effect."
     },
     {
       "q": "What reason does Aquinas give for why it is actually MORE fitting that creatures have not existed always?",
       "options": [
-        "Because it manifests the transcendence of the divine goodness over creatures more clearly — showing all things have Him as author of their being and that His power is not constrained like nature is, but acts freely and intelligently",
+        "Because it manifests the transcendence of the divine goodness over creatures more clearly Ã¢â‚¬â€ showing all things have Him as author of their being and that His power is not constrained like nature is, but acts freely and intelligently",
         "Because eternal creatures would be more perfect than God",
         "Because Scripture explicitly states a numerical age for the universe",
         "Because it makes creation easier for God to accomplish"
@@ -14802,12 +19997,12 @@ window.QUIZZES = {
       "explanation": "Aquinas argues that creatures beginning to exist (rather than being co-eternal with God) best displays God's transcendence, freedom, and intelligence as a voluntary, non-necessitated cause, rather than a natural one bound to produce automatically."
     }
   ],
-  "B2C27": [
+  "SCG_B2_Ch27": [
     {
       "q": "How does Aquinas respond to the argument that things without potentiality to non-being (like heavenly bodies) must therefore have existed from eternity?",
       "options": [
         "He agrees fully with this argument",
-        "He distinguishes a necessity of order (following upon a substance once it is produced) from the question of the substance's original production — a thing having no potency to cease being, once it exists, does not prove it could not have had a beginning of existing",
+        "He distinguishes a necessity of order (following upon a substance once it is produced) from the question of the substance's original production Ã¢â‚¬â€ a thing having no potency to cease being, once it exists, does not prove it could not have had a beginning of existing",
         "He denies that heavenly bodies exist",
         "He claims all necessity implies eternity without exception"
       ],
@@ -14837,12 +20032,12 @@ window.QUIZZES = {
       "explanation": "Aquinas concludes this chapter by stating that the arguments taken from the standpoint of creatures 'do not compel one to assert the eternity of the world,' paralleling his conclusion about the arguments from God's side."
     }
   ],
-  "B2C28": [
+  "SCG_B2_Ch28": [
     {
       "q": "How does Aquinas reinterpret the philosophical maxim 'from nothing, naught is made' in light of creation?",
       "options": [
         "He rejects the maxim entirely as false",
-        "He explains that ancient philosophers formulated this principle while considering only particular, this-or-that makings (like this fire or this stone) that presuppose a substrate — it does not apply to the absolute origination of all being from God, which is a different, non-univocal sense of 'making'",
+        "He explains that ancient philosophers formulated this principle while considering only particular, this-or-that makings (like this fire or this stone) that presuppose a substrate Ã¢â‚¬â€ it does not apply to the absolute origination of all being from God, which is a different, non-univocal sense of 'making'",
         "He claims the maxim only applies to spiritual beings",
         "He says the maxim was invented by Christian theologians, not philosophers"
       ],
@@ -14872,7 +20067,7 @@ window.QUIZZES = {
       "explanation": "Aquinas distinguishes real passive potentiality in matter (required for ordinary change) from a merely logical 'possibility' grounded in the agent's power and the absence of contradiction in the thing's concept, which suffices for creation without requiring prior matter."
     }
   ],
-  "B2C29": [
+  "SCG_B2_Ch29": [
     {
       "q": "What is the overall stance Aquinas takes toward arguments claiming to PROVE (by reason alone) that the world is NOT eternal?",
       "options": [
@@ -14893,7 +20088,7 @@ window.QUIZZES = {
         "He claims infinity is only a concept and cannot apply to time at all"
       ],
       "correct": 1,
-      "explanation": "Aquinas points out that philosophers distinguished an actually completed infinite (impossible) from a successively infinite series without a first term, in which each member, though finite, could be 'passed through' without contradiction — showing the argument is not strictly conclusive."
+      "explanation": "Aquinas points out that philosophers distinguished an actually completed infinite (impossible) from a successively infinite series without a first term, in which each member, though finite, could be 'passed through' without contradiction Ã¢â‚¬â€ showing the argument is not strictly conclusive."
     },
     {
       "q": "What does Aquinas offer as a more persuasive, though not strictly demonstrative, reason for believing creatures had a beginning?",
@@ -14907,7 +20102,7 @@ window.QUIZZES = {
       "explanation": "Aquinas suggests (echoing ch. 35) that a temporally-begun universe better manifests God's freedom, power, and the creature's total dependence on Him than an eternally co-existing universe would, even though this is a fittingness argument rather than a strict proof."
     }
   ],
-  "B2C30": [
+  "SCG_B2_Ch30": [
     {
       "q": "What is the central thesis of this chapter?",
       "options": [
@@ -15375,7 +20570,7 @@ window.QUIZZES = {
       "explanation": "Aquinas argues that since evil resides in a good subject and represents a potentiality toward defect that must be actuated by something, evil must have some cause, even though it cannot be a per se cause of anything."
     },
     {
-      "q": "Why does Aquinas say a stone is not naturally borne upward, and water not naturally heated, unless 'something else' causes it — and how does this support his argument about evil?",
+      "q": "Why does Aquinas say a stone is not naturally borne upward, and water not naturally heated, unless 'something else' causes it â€” and how does this support his argument about evil?",
       "options": [
         "This example is irrelevant to the discussion of evil's cause",
         "Because whatever is beyond a thing's nature (like upward motion for a stone, or evil for a good subject) requires an external cause, supporting the claim that evil, being contrary to a subject's nature, must have a cause",
@@ -15384,6 +20579,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas uses the example to show that whatever exceeds or departs from a thing's own nature (like a stone moving up, or evil being present in a naturally good subject) requires some other cause to bring it about."
+    },
+    {
+      "q": "What logical consequence follows from the principle that evil must have a cause?",
+      "correct": 1,
+      "options": [
+        "Evil is self-causing and independent",
+        "All evil can be traced back to some good that acts as a deficient cause",
+        "God directly and intentionally creates evil",
+        "Evil has no causes whatsoever, but occurs spontaneously"
+      ],
+      "explanation": "Aquinas demonstrates that since evil is a privation and cannot be a per se cause, every evil must be traced to some good as an accidental or deficient cause."
     }
   ],
   "B3C14": [
@@ -15408,6 +20614,17 @@ window.QUIZZES = {
       ],
       "correct": 1,
       "explanation": "Aquinas surveys efficient (defective agent), material (indisposed matter), formal (privation accompanying form), and final (hindering the due end) causes, showing evil enters accidentally into each without being a cause per se in any of them."
+    },
+    {
+      "q": "In what sense is evil called an 'accidental' cause according to Aquinas?",
+      "correct": 2,
+      "options": [
+        "Because evil happens by pure chance with no connection to causes",
+        "Because evil acts by its own proper power as a cause",
+        "Because evil is in a good that is a per se cause, making evil an accidental rider on that cause's effect",
+        "Because God accidentally creates evil without intending to"
+      ],
+      "explanation": "Aquinas explains that evil is an accidental cause because it is seated in a good that is truly a per se cause; the evil is accidental to the good's causal power, like whiteness being accidental to a builder."
     }
   ],
   "B3C15": [
@@ -15676,7 +20893,7 @@ window.QUIZZES = {
         "Because the will lacks any principle of movement whatsoever"
       ],
       "correct": 1,
-      "explanation": "Since violent motion has an external principle to which the subject contributes nothing, and this is opposed to voluntary motion, only God—who alone sustains the soul's very being—can move the will without violence."
+      "explanation": "Since violent motion has an external principle to which the subject contributes nothing, and this is opposed to voluntary motion, only Godâ€”who alone sustains the soul's very beingâ€”can move the will without violence."
     },
     {
       "q": "What scriptural text does Aquinas cite to support that God alone moves the will?",
@@ -15741,7 +20958,7 @@ window.QUIZZES = {
       "q": "How does Aquinas argue from the 'order of the universe' that higher (intellectual) beings must be even more subject to providence than lower corporeal beings?",
       "options": [
         "Higher beings are excluded from providence precisely because of their dignity",
-        "The higher a thing's place in the universe, the more it must participate in the order constituting the universe's good, so if even bodies are included in providential order, intellectual substances—being higher—are included even more so",
+        "The higher a thing's place in the universe, the more it must participate in the order constituting the universe's good, so if even bodies are included in providential order, intellectual substancesâ€”being higherâ€”are included even more so",
         "Providence only concerns things that lack free will, so intellectual beings are naturally excluded",
         "Corporeal things are entirely outside providence, unlike intellectual beings"
       ],
@@ -15757,7 +20974,7 @@ window.QUIZZES = {
         "As referring only to angels, not to human beings"
       ],
       "correct": 1,
-      "explanation": "Aquinas explains these texts affirm human free will but do not mean choice escapes providence—God causes and knows our free choices without negating their freedom or His governance."
+      "explanation": "Aquinas explains these texts affirm human free will but do not mean choice escapes providenceâ€”God causes and knows our free choices without negating their freedom or His governance."
     }
   ],
   "B3C91": [
@@ -15770,7 +20987,7 @@ window.QUIZZES = {
         "Chance alone governs human affairs, with no higher reference point"
       ],
       "correct": 0,
-      "explanation": "Because our choices, intellect, and bodily conditions are all multiform, changeable, and defectible, they must be referred to something uniform, unchangeable, and indefectible—will to God, intellect to angels, body to the heavens."
+      "explanation": "Because our choices, intellect, and bodily conditions are all multiform, changeable, and defectible, they must be referred to something uniform, unchangeable, and indefectibleâ€”will to God, intellect to angels, body to the heavens."
     },
     {
       "q": "According to this chapter, to what respective higher causes are (1) our will/choice, (2) our intellect, and (3) our body referred?",
@@ -15835,7 +21052,7 @@ window.QUIZZES = {
       "q": "How does Aquinas, following Boethius, define fate in a manner acceptable to the faith?",
       "options": [
         "Fate is the fixed and inescapable power of the stars over all human events",
-        "Fate is a disposition inherent in changeable things, by which providence connects each thing with its proper order — essentially providence as already impressed upon and expressed in created things",
+        "Fate is a disposition inherent in changeable things, by which providence connects each thing with its proper order â€” essentially providence as already impressed upon and expressed in created things",
         "Fate does not exist under any definition whatsoever",
         "Fate is identical with random chance and has nothing to do with providence"
       ],
@@ -15967,7 +21184,7 @@ window.QUIZZES = {
         "That friendship means always granting every request without discernment"
       ],
       "correct": 1,
-      "explanation": "Aquinas appeals to the nature of friendship — that a friend wills the fulfillment of the beloved's desire — to explain why God, who loves the rational creature, is disposed to grant its rightly-ordered prayers."
+      "explanation": "Aquinas appeals to the nature of friendship â€” that a friend wills the fulfillment of the beloved's desire â€” to explain why God, who loves the rational creature, is disposed to grant its rightly-ordered prayers."
     }
   ],
   "B3C97": [
@@ -16056,7 +21273,7 @@ window.QUIZZES = {
       "q": "How does Aquinas use the analogy of the soul's effect on the body (e.g., through strong imagination) to support this claim?",
       "options": [
         "The analogy is irrelevant to the argument",
-        "If even the soul, proportionate to the body as its form, can affect bodily health through mere imagination independent of ordinary bodily causes, much more can God—who infinitely surpasses all creatures—produce effects independently of natural causes",
+        "If even the soul, proportionate to the body as its form, can affect bodily health through mere imagination independent of ordinary bodily causes, much more can Godâ€”who infinitely surpasses all creaturesâ€”produce effects independently of natural causes",
         "The analogy proves that the soul is identical to God",
         "It shows that imagination alone always causes disease"
       ],
@@ -16072,7 +21289,7 @@ window.QUIZZES = {
         "Because the natural order is evil and must be periodically overridden"
       ],
       "correct": 1,
-      "explanation": "Aquinas explains such acts (later called miracles) show that nature is subject to God's free will, not necessity, and serve to lead intellectual creatures—whose end is knowledge of God—toward that knowledge."
+      "explanation": "Aquinas explains such acts (later called miracles) show that nature is subject to God's free will, not necessity, and serve to lead intellectual creaturesâ€”whose end is knowledge of Godâ€”toward that knowledge."
     }
   ],
   "B3C100": [
@@ -16107,7 +21324,7 @@ window.QUIZZES = {
         "Any natural event that scientists cannot yet explain"
       ],
       "correct": 1,
-      "explanation": "A miracle is wonderful in itself, not just to certain observers, because its cause—God—is absolutely hidden to human comprehension, unlike natural events (like eclipses) whose causes are merely unknown to some people but not others."
+      "explanation": "A miracle is wonderful in itself, not just to certain observers, because its causeâ€”Godâ€”is absolutely hidden to human comprehension, unlike natural events (like eclipses) whose causes are merely unknown to some people but not others."
     }
   ],
   "B3C102": [
@@ -16120,7 +21337,7 @@ window.QUIZZES = {
         "Because miracles are simply illusions produced by human imagination"
       ],
       "correct": 1,
-      "explanation": "Since creatures are subject to the created order and act only by bringing a subject's inherent potentiality to actuality, they cannot produce effects—like resurrection or the sun reversing course—that exceed any subject's potentiality; this requires God's infinite, uncreated power."
+      "explanation": "Since creatures are subject to the created order and act only by bringing a subject's inherent potentiality to actuality, they cannot produce effectsâ€”like resurrection or the sun reversing courseâ€”that exceed any subject's potentiality; this requires God's infinite, uncreated power."
     },
     {
       "q": "How does Aquinas distinguish a merely 'wonderful' effect from a true 'miracle'?",
@@ -16142,7 +21359,7 @@ window.QUIZZES = {
         "Angels can indeed work true miracles independently of God"
       ],
       "correct": 1,
-      "explanation": "Since any effect worked by incorporeal creatures through bodily instruments is natural (bodies have no non-natural operation), and creatures generally can only bring matter to its proper potentiality, created substances—however exalted—cannot work miracles by their own power alone."
+      "explanation": "Since any effect worked by incorporeal creatures through bodily instruments is natural (bodies have no non-natural operation), and creatures generally can only bring matter to its proper potentiality, created substancesâ€”however exaltedâ€”cannot work miracles by their own power alone."
     }
   ],
   "B3C103": [
@@ -16171,13 +21388,13 @@ window.QUIZZES = {
     {
       "q": "What does Aquinas say enables a spiritual substance to influence matter at all, given his rejection of Avicenna's theory?",
       "options": [
-        "Nothing—spiritual substances have zero influence on matter",
+        "Nothingâ€”spiritual substances have zero influence on matter",
         "A created spiritual substance can move a body locally (this being within its natural power) and thereby apply natural forces to produce effects, similar to how a smith applies fire to soften iron",
         "Spiritual substances directly infuse new substantial forms into matter without any local motion",
         "Only human souls, never angels or demons, can move bodies"
       ],
       "correct": 1,
-      "explanation": "Aquinas holds that a spiritual substance's power over matter is limited to local motion of bodies obedient to it, through which it can then apply natural causes to produce effects—not a direct, non-corporeal imprinting of forms."
+      "explanation": "Aquinas holds that a spiritual substance's power over matter is limited to local motion of bodies obedient to it, through which it can then apply natural causes to produce effectsâ€”not a direct, non-corporeal imprinting of forms."
     }
   ],
   "B3C104": [
@@ -16247,7 +21464,7 @@ window.QUIZZES = {
         "The random alignment of the planets alone"
       ],
       "correct": 1,
-      "explanation": "The cumulative evidence—invocatory language, symbolic (non-causal) figures, and ritual reverence—points to magic deriving its power from an intellectual substance being addressed and enlisted, not from natural or celestial causation alone."
+      "explanation": "The cumulative evidenceâ€”invocatory language, symbolic (non-causal) figures, and ritual reverenceâ€”points to magic deriving its power from an intellectual substance being addressed and enlisted, not from natural or celestial causation alone."
     }
   ],
   "B3C106": [
@@ -16255,7 +21472,7 @@ window.QUIZZES = {
       "q": "What is Aquinas's main line of argument that the intellectual substance assisting magic is not morally good?",
       "options": [
         "Because magic always fails to produce any real effect",
-        "Because these arts are frequently used to further adultery, theft, and murder, favor evil-living practitioners, distract men from the true goods of reason toward trivial ends, and employ deception and lies—all marks of an ill-disposed mind",
+        "Because these arts are frequently used to further adultery, theft, and murder, favor evil-living practitioners, distract men from the true goods of reason toward trivial ends, and employ deception and liesâ€”all marks of an ill-disposed mind",
         "Because good spirits never interact with human beings under any circumstances",
         "Because the Bible never mentions spirits of any kind"
       ],
@@ -16266,18 +21483,18 @@ window.QUIZZES = {
       "q": "What specific example does Aquinas give (via Porphyry) of the deceptive threats used in magical invocations?",
       "options": [
         "Threatening to reveal the magician's identity to authorities",
-        "Threatening that unless the invoked being helps, the magician will shatter the heavens or displace the stars—impossible feats meant to coerce compliance",
+        "Threatening that unless the invoked being helps, the magician will shatter the heavens or displace the starsâ€”impossible feats meant to coerce compliance",
         "Threatening to destroy the magician's tools",
         "Threatening eternal silence if the spirit fails to appear"
       ],
       "correct": 1,
-      "explanation": "Aquinas cites Porphyry's Letter to Anebontes, where magicians threaten impossible cosmic destruction (shattering the heavens, displacing stars) to intimidate the beings whose help they invoke—showing the deceptive, contradictory character of these practices."
+      "explanation": "Aquinas cites Porphyry's Letter to Anebontes, where magicians threaten impossible cosmic destruction (shattering the heavens, displacing stars) to intimidate the beings whose help they invokeâ€”showing the deceptive, contradictory character of these practices."
     },
     {
       "q": "What paradox does Aquinas note about how magicians treat the beings whose assistance they invoke?",
       "options": [
         "Magicians treat them with total consistency, as equals only",
-        "Magicians invoke these beings as though they were superiors, yet as soon as they appear, command them as inferiors—a mark of an ill-disposed relationship on both sides",
+        "Magicians invoke these beings as though they were superiors, yet as soon as they appear, command them as inferiorsâ€”a mark of an ill-disposed relationship on both sides",
         "Magicians never actually make any requests of these beings",
         "There is no inconsistency; magicians always treat them purely as servants"
       ],
@@ -16295,7 +21512,7 @@ window.QUIZZES = {
         "Only human beings, never spirits, can be evil by nature"
       ],
       "correct": 0,
-      "explanation": "Aquinas argues that since goodness follows from existence (a gift from the supremely good first being), and things tend toward good per se, evil only accidentally, no intellectual nature—however corrupted its will—can be evil in its very essence or nature."
+      "explanation": "Aquinas argues that since goodness follows from existence (a gift from the supremely good first being), and things tend toward good per se, evil only accidentally, no intellectual natureâ€”however corrupted its willâ€”can be evil in its very essence or nature."
     },
     {
       "q": "How does Aquinas use the object of the intellect to argue that no intellectual substance can be naturally evil?",
@@ -16371,7 +21588,7 @@ window.QUIZZES = {
       "q": "What does Aquinas identify as the first and root sin of the demon, based on the will's refusal to be subject to a higher order?",
       "options": [
         "Envy",
-        "Pride — the will to be supreme and not subject to another, refusing to submit to God's order and instead seeking to make himself his own end",
+        "Pride â€” the will to be supreme and not subject to another, refusing to submit to God's order and instead seeking to make himself his own end",
         "Gluttony",
         "Sloth"
       ],
@@ -16395,7 +21612,7 @@ window.QUIZZES = {
       "q": "According to chapter 110's solution, where exactly does the demon's intellectual error, if any, lie?",
       "options": [
         "The demon erred in judging a particular finite good to be good when it was not",
-        "There was no error in judging that his own good was good; rather, the failure was in not considering (referring to) the higher good to which his own good should have been subordinated — a lack of consideration caused by the will's fixation on itself",
+        "There was no error in judging that his own good was good; rather, the failure was in not considering (referring to) the higher good to which his own good should have been subordinated â€” a lack of consideration caused by the will's fixation on itself",
         "The demon had no intellect at all, so no error was possible",
         "The demon's error was purely a sensory misperception"
       ],
@@ -16422,7 +21639,7 @@ window.QUIZZES = {
         "He desired to become identical with God's own essence"
       ],
       "correct": 1,
-      "explanation": "The chapter states plainly that the demon desired only one good — his own — and that his sin consisted in disregarding the higher good (God) to which it should have been referred."
+      "explanation": "The chapter states plainly that the demon desired only one good â€” his own â€” and that his sin consisted in disregarding the higher good (God) to which it should have been referred."
     }
   ],
   "B3C111": [
@@ -16430,7 +21647,7 @@ window.QUIZZES = {
       "q": "How does this chapter (continuing the discussion of demonic sin) describe the demon's sin in terms of the classical 'mean of virtue'?",
       "options": [
         "The demon's sin was an excess of physical passion overwhelming reason, just as in human sin",
-        "The demon strayed from virtue's mean not through excess of passion (since separate substances have no passions) but through an inequality of justice — giving himself more than his due and God less than due, since separate substances have operations but not passions",
+        "The demon strayed from virtue's mean not through excess of passion (since separate substances have no passions) but through an inequality of justice â€” giving himself more than his due and God less than due, since separate substances have operations but not passions",
         "The demon's sin had nothing to do with virtue or vice at all",
         "The mean of virtue does not apply to intellectual substances in any way"
       ],
@@ -16457,45 +21674,3755 @@ window.QUIZZES = {
         "Only imperfect natures, like animals, are capable of sin"
       ],
       "correct": 1,
-      "explanation": "Aquinas notes that greater perfection of nature brings greater power for self-directed action, and this very capacity for self-direction — not a flaw — is what makes possible the sin of adhering to oneself against the superior order."
+      "explanation": "Aquinas notes that greater perfection of nature brings greater power for self-directed action, and this very capacity for self-direction â€” not a flaw â€” is what makes possible the sin of adhering to oneself against the superior order."
     }
   ],
   "B3C112": [
     {
-      "q": "What is the central thesis of chapter 112 about how rational and non-rational creatures are governed by providence?",
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
       "options": [
-        "All creatures, rational and non-rational alike, are governed purely for their own sake with no distinction",
-        "Rational creatures, having dominion over their own acts, are governed by providence for their own sake, while other (non-rational) creatures are governed as directed toward and for the sake of rational creatures",
-        "Non-rational creatures are governed for their own sake, while rational creatures exist merely to serve them",
-        "Providence does not distinguish between any creatures whatsoever"
+        "THAT RATIONAL CREATURES ARE GOVERNED FOR THEIR OWN SAKE, AND OTHER CREATURES, AS DIRECTED TO THEM",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
       ],
-      "correct": 1,
-      "explanation": "Because rational creatures act by their own free dominion (like a principal agent) while other creatures are merely moved by another (like instruments), providence cares for rational creatures for their own sake and directs other creatures toward serving them."
+      "explanation": "The chapter's title is 'THAT RATIONAL CREATURES ARE GOVERNED FOR THEIR OWN SAKE, AND OTHER CREATURES, AS DIRECTED TO THEM', which indicates Aquinas's focus in this section."
     },
     {
-      "q": "What analogy does Aquinas use involving an army to illustrate why rational creatures alone are cared for 'for their own sake'?",
-      "options": [
-        "The analogy of a beehive where all bees are equal",
-        "In an army, the soldiers who fight and obtain victory (the end) are required for their own sake, while those tending to horses or preparing arms exist for the soldiers' sake — just as intellectual creatures alone attain God (the last end) directly, while others serve them",
-        "The analogy of a marketplace where all goods have equal value",
-        "The analogy of a river flowing to the sea"
-      ],
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
       "correct": 1,
-      "explanation": "Just as only the fighting soldiers achieve the army's end (victory) for their own sake while support roles serve them, only intellectual creatures directly attain the universe's last end (God, through knowing and loving Him), while other creatures serve that attainment."
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
     },
     {
-      "q": "How does Aquinas reconcile the claim that rational creatures are cared for 'for their own sake' with the fact that all parts of the universe serve the perfection of the whole?",
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
       "options": [
-        "He admits these two claims are flatly contradictory and unresolvable",
-        "Using the analogy of the lungs serving the heart within the body, he shows a part can be for the sake of another part (rational creatures) while both are simultaneously for the perfection of the whole universe — the two claims are compatible, not contradictory",
-        "He abandons the claim that rational creatures are cared for their own sake",
-        "He claims the universe as a whole has no real unity or purpose"
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
       ],
-      "correct": 1,
-      "explanation": "Just as the lungs serve the heart within the body's overall perfection, non-rational creatures serving rational ones does not conflict with all creatures together constituting the perfection of the universe as a whole."
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
     }
   ],
-  "B4C1": [
+  "B3C16": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE END OF EVERYTHING IS A GOOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE END OF EVERYTHING IS A GOOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C17": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT ALL THINGS ARE DIRECTED TO ONE END, WHICH IS GOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT ALL THINGS ARE DIRECTED TO ONE END, WHICH IS GOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C19": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT ALL THINGS TEND TO BE LIKE UNTO GOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT ALL THINGS TEND TO BE LIKE UNTO GOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C20": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW THINGS IMITATE THE DIVINE GOODNESS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW THINGS IMITATE THE DIVINE GOODNESS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C21": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THINGS HAVE A NATURAL TENDENCY TO BE LIKE GOD FORASMUCH AS HE IS A CAUSE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THINGS HAVE A NATURAL TENDENCY TO BE LIKE GOD FORASMUCH AS HE IS A CAUSE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C22": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW THINGS ARE DIRECTED IN VARIOUS WAYS TO THEIR RESPECTIVE ENDS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW THINGS ARE DIRECTED IN VARIOUS WAYS TO THEIR RESPECTIVE ENDS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C23": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE MOVEMENT OF THE HEAVEN IS FROM AN INTELLECTIVE PRINCIPLE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE MOVEMENT OF THE HEAVEN IS FROM AN INTELLECTIVE PRINCIPLE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C24": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW EVEN THINGS DEVOID OF KNOWLEDGE SEEK THE GOOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW EVEN THINGS DEVOID OF KNOWLEDGE SEEK THE GOOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C25": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT TO KNOW GOD IS THE END OF EVERY INTELLI- GENT SUBSTANCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT TO KNOW GOD IS THE END OF EVERY INTELLI- GENT SUBSTANCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C26": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "DOES HAPPINESS CONSIST IN AN ACT OF THE WILL?",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'DOES HAPPINESS CONSIST IN AN ACT OF THE WILL?', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C27": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HUMAN HAPPINESS DOES NOT CONSIST IN CARNAL PLEASURES",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HUMAN HAPPINESS DOES NOT CONSIST IN CARNAL PLEASURES', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C28": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HAPPINESS DOES NOT CONSIST IN HONOURS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HAPPINESS DOES NOT CONSIST IN HONOURS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C29": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S HAPPINESS CONSISTS NOT IN GLORY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S HAPPINESS CONSISTS NOT IN GLORY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C30": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S HAPPINESS DOES NOT CONSIST IN WEALTH",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S HAPPINESS DOES NOT CONSIST IN WEALTH', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C31": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HAPPINESS CONSISTS NOT IN WORLDLY POWER",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HAPPINESS CONSISTS NOT IN WORLDLY POWER', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C32": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HAPPINESS CONSISTS NOT IN GOODS OF THE BODY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HAPPINESS CONSISTS NOT IN GOODS OF THE BODY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C33": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HUMAN HAPPINESS IS NOT SEATED IN THE SENSES",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HUMAN HAPPINESS IS NOT SEATED IN THE SENSES', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C34": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S ULTIMATE HAPPINESS DOES NOT CONSIST IN ACTS OF MORAL VIRTUE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S ULTIMATE HAPPINESS DOES NOT CONSIST IN ACTS OF MORAL VIRTUE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C35": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT ULTIMATE HAPPINESS DOES NOT CONSIST IN THE ACT OF PRUDENCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT ULTIMATE HAPPINESS DOES NOT CONSIST IN THE ACT OF PRUDENCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C36": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HAPPINESS DOES NOT CONSIST IN THE PRACTICE OF. ART",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HAPPINESS DOES NOT CONSIST IN THE PRACTICE OF. ART', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C37": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S ULTIMATE HAPPINESS CONSISTS IN CONTEMPLATING GOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S ULTIMATE HAPPINESS CONSISTS IN CONTEMPLATING GOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C38": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HUMAN HAPPINESS DOES NOT CONSIST IN THE KNOW- LEDGE OF GOD WHICH IS POSSESSED GENERALLY BY THE MAJORITY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HUMAN HAPPINESS DOES NOT CONSIST IN THE KNOW- LEDGE OF GOD WHICH IS POSSESSED GENERALLY BY THE MAJORITY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C39": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S HAPPINESS DOES NOT CONSIST IN THE KNOW- LEDGE OF GOD ACQUIRED BY DEMONSTRATION",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S HAPPINESS DOES NOT CONSIST IN THE KNOW- LEDGE OF GOD ACQUIRED BY DEMONSTRATION', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C40": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S HAPPINESS DOES NOT CONSIST IN THE KNOWLEDGE OF GOD BY FAITH",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S HAPPINESS DOES NOT CONSIST IN THE KNOWLEDGE OF GOD BY FAITH', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C41": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "IS IT POSSIBLE FOR MAN, IN THIS LIFE, TO UNDERSTAND SEPARATE SUBSTANCES BY THE STUDY AND INQUIRY OF SPECULATIVE SCIENCES ?",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'IS IT POSSIBLE FOR MAN, IN THIS LIFE, TO UNDERSTAND SEPARATE SUBSTANCES BY THE STUDY AND INQUIRY OF SPECULATIVE SCIENCES ?', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C42": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT IN THIS LIFE WE ARE UNABLE TO KNOW SEPARATE SUBSTANCES IN THE MANNER PROPOSED BY ALEX- ANDER?",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT IN THIS LIFE WE ARE UNABLE TO KNOW SEPARATE SUBSTANCES IN THE MANNER PROPOSED BY ALEX- ANDER?', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C43": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT WE CANNOT UNDERSTAND SEPARATE SUBSTANCES IN THIS LIFE, IN THE MANNER SUGGESTED BY AVERROES!",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT WE CANNOT UNDERSTAND SEPARATE SUBSTANCES IN THIS LIFE, IN THE MANNER SUGGESTED BY AVERROES!', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C44": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S ULTIMATE HAPPINESS DOES NOT CONSIST IN THE KNOWLEDGE OF SEPARATE SUBSTANCES AS PRETENDED BY THE AFORESAID OPINIONS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S ULTIMATE HAPPINESS DOES NOT CONSIST IN THE KNOWLEDGE OF SEPARATE SUBSTANCES AS PRETENDED BY THE AFORESAID OPINIONS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C45": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT IT IS IMPOSSIBLE IN THIS LIFE TO UNDERSTAND SEPARATE SUBSTANCES",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT IT IS IMPOSSIBLE IN THIS LIFE TO UNDERSTAND SEPARATE SUBSTANCES', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C46": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT IN THIS LIFE THE SOUL DOES NOT UNDERSTAND ITSELF BY ITSELF",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT IN THIS LIFE THE SOUL DOES NOT UNDERSTAND ITSELF BY ITSELF', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C47": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT IN THIS LIFE WE ARE UNABLE TO SEE GOD IN HIS ESSENCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT IN THIS LIFE WE ARE UNABLE TO SEE GOD IN HIS ESSENCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C48": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MANâ€™S ULTIMATE HAPPINESS IS NOT IN THIS LIFE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MANâ€™S ULTIMATE HAPPINESS IS NOT IN THIS LIFE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C49": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT SEPARATE SUBSTANCES DO NOT SEE GOD IN HIS ESSENCE THROUGH KNOWING HIM BY THEIR OWN ESSENCES",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT SEPARATE SUBSTANCES DO NOT SEE GOD IN HIS ESSENCE THROUGH KNOWING HIM BY THEIR OWN ESSENCES', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C50": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE NATURAL DESIRE OF THE SEPARATE SUBSTANCES IS NOT SET AT REST IN THE NATURAL KNOWLEDGE THEY HAVE OF GOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE NATURAL DESIRE OF THE SEPARATE SUBSTANCES IS NOT SET AT REST IN THE NATURAL KNOWLEDGE THEY HAVE OF GOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C52": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT NO CREATED SUBSTANCE CAN BY ITS NATURAL POWER ARRIVE AT SEEING GOD IN HIS ESSENCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT NO CREATED SUBSTANCE CAN BY ITS NATURAL POWER ARRIVE AT SEEING GOD IN HIS ESSENCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C54": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "ARGUMENTS THAT WOULD SEEM TO PROVE THAT GOD CANNOT BE SEEN IN HIS ESSENCE; AND THE SOLUTION THEREOF",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'ARGUMENTS THAT WOULD SEEM TO PROVE THAT GOD CANNOT BE SEEN IN HIS ESSENCE; AND THE SOLUTION THEREOF', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C55": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE CREATED INTELLECT DOES NOT COMPREHEND THE DIVINE SUBSTANCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE CREATED INTELLECT DOES NOT COMPREHEND THE DIVINE SUBSTANCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C56": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT NO CREATED INTELLECT, IN SEEING GOD, SEES ALL THAT CAN BE SEEN IN HIM",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT NO CREATED INTELLECT, IN SEEING GOD, SEES ALL THAT CAN BE SEEN IN HIM', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C57": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT EVERY INTELLECT OF ANY DEGREE CAN PARTICIPATE IN THE DIVINE VISION",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT EVERY INTELLECT OF ANY DEGREE CAN PARTICIPATE IN THE DIVINE VISION', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C58": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "| THAT IT IS POSSIBLE FOR ONE TO SEE GOD MORE PERFECTLY THAN ANOTHER",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is '| THAT IT IS POSSIBLE FOR ONE TO SEE GOD MORE PERFECTLY THAN ANOTHER', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C59": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW THOSE WHO SEE THE DIVINE SUBSTANCE SEE ALL THINGS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW THOSE WHO SEE THE DIVINE SUBSTANCE SEE ALL THINGS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C60": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THOSE WHO SEE GOD SEE ALL IN HIM AT ONCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THOSE WHO SEE GOD SEE ALL IN HIM AT ONCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C61": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT BY SEEING GOD A MAN IS MADE A PARTAKER OF ETERNAL LIFE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT BY SEEING GOD A MAN IS MADE A PARTAKER OF ETERNAL LIFE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C62": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THOSE WHO SEE GOD WILL SEE HIM FOR EVER",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THOSE WHO SEE GOD WILL SEE HIM FOR EVER', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C64": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT GOD GOVERNS THINGS BY HIS PROVIDENCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT GOD GOVERNS THINGS BY HIS PROVIDENCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C65": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT GOD PRESERVES THINGS IN EXISTENCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT GOD PRESERVES THINGS IN EXISTENCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C66": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT NOTHING GIVES EXISTENCE EXCEPT IN SO FAR AS IT ACTS BY GODâ€™S POWER",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT NOTHING GIVES EXISTENCE EXCEPT IN SO FAR AS IT ACTS BY GODâ€™S POWER', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C67": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT IN ALL THINGS THAT OPERATE GOD IS THE CAUSE OF | THEIR OPERATING",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT IN ALL THINGS THAT OPERATE GOD IS THE CAUSE OF | THEIR OPERATING', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C68": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT GOD IS EVERYWHERE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT GOD IS EVERYWHERE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C69": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "CONCERNING THE OPINION OF THOSE WHO WITHDRAW FROM NATURAL THINGS THEIR PROPER ACTIONS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'CONCERNING THE OPINION OF THOSE WHO WITHDRAW FROM NATURAL THINGS THEIR PROPER ACTIONS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C70": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW THE SAME EFFECT IS FROM GOD AND FROM THE NATURAL AGENT",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW THE SAME EFFECT IS FROM GOD AND FROM THE NATURAL AGENT', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C71": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT DIVINE PROVIDENCE DOES NOT ENTIRELY EXCLUDE EVIL FROM THINGS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT DIVINE PROVIDENCE DOES NOT ENTIRELY EXCLUDE EVIL FROM THINGS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C72": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT DIVINE PROVIDENCE DOES NOT EXCLUDE CONTINGENCY FROM THINGS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT DIVINE PROVIDENCE DOES NOT EXCLUDE CONTINGENCY FROM THINGS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C73": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT DIVINE PROVIDENCE DOES NOT EXCLUDE FREE WILL",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT DIVINE PROVIDENCE DOES NOT EXCLUDE FREE WILL', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C74": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT DIVINE PROVIDENCE DOES NOT EXCLUDE CHANCE OR LUCK",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT DIVINE PROVIDENCE DOES NOT EXCLUDE CHANCE OR LUCK', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C75": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT DIVINE PROVIDENCE IS CONCERNED WITH SINGULAR CONTINGENCIES",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT DIVINE PROVIDENCE IS CONCERNED WITH SINGULAR CONTINGENCIES', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C76": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT GODâ€™S PROVIDENCE CARES FOR ALL INDIVIDUALS IMMEDIATELY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT GODâ€™S PROVIDENCE CARES FOR ALL INDIVIDUALS IMMEDIATELY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C77": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "| THAT THE EXECUTION OF DIVINE PROVIDENCE IS CARRIED OUT BY SECONDARY CAUSES",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is '| THAT THE EXECUTION OF DIVINE PROVIDENCE IS CARRIED OUT BY SECONDARY CAUSES', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C78": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT BY MEANS OF INTELLECTUAL CREATURES OTHER CREATURES ARE/ RULED BY GOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT BY MEANS OF INTELLECTUAL CREATURES OTHER CREATURES ARE/ RULED BY GOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C79": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE LOWER INTELLECTUAL SUBSTANCES ARE RULED BY THE HIGHER",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE LOWER INTELLECTUAL SUBSTANCES ARE RULED BY THE HIGHER', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C80": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "OF THE ORDER BETWEEN ONE ANGEL AND ANOTHER",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'OF THE ORDER BETWEEN ONE ANGEL AND ANOTHER', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C113": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE RATIONAL CREATURE IS DIRECTED TO ITS ACTION BY GOD NOT ONLY IN ITS RELATION TO THE SPECIES, BUT ALSO IN ITS RELATION TO THE INDIVIDUAL",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE RATIONAL CREATURE IS DIRECTED TO ITS ACTION BY GOD NOT ONLY IN ITS RELATION TO THE SPECIES, BUT ALSO IN ITS RELATION TO THE INDIVIDUAL', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C114": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT LAWS ARE GIVEN BY GOD TO MAN",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT LAWS ARE GIVEN BY GOD TO MAN', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C115": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE DIVINE LAW DIRECTS MAN CHIEFLY TO GOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE DIVINE LAW DIRECTS MAN CHIEFLY TO GOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C116": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 116",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 116', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C117": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT WE ARE DIRECTED BY THE DIVINE LAW TO THE LOVE OF OUR NEIGHBOUR",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT WE ARE DIRECTED BY THE DIVINE LAW TO THE LOVE OF OUR NEIGHBOUR', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C118": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE DIVINE LAW BINDS MEN TO THE TRUE FAITH",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE DIVINE LAW BINDS MEN TO THE TRUE FAITH', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C119": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 119",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 119', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C120": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 120",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 120', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C121": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE DIVINE LAW DIRECTS MAN ACCORDING TO REASON AS REGARDS THINGS CORPOREAL AND SENSIBLE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE DIVINE LAW DIRECTS MAN ACCORDING TO REASON AS REGARDS THINGS CORPOREAL AND SENSIBLE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C122": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW, ACCORDING TO THE DIVINE LAW, SIMPLE FORNICATION IS A SIN I AND THAT MATRIMONY IS NATURAL",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW, ACCORDING TO THE DIVINE LAW, SIMPLE FORNICATION IS A SIN I AND THAT MATRIMONY IS NATURAL', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C123": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MATRIMONY SHOULD BE INDISSOLUBLE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MATRIMONY SHOULD BE INDISSOLUBLE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C124": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 124",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 124', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C125": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 125",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 125', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C126": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 126",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 126', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C127": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT NO FOOD IS IN ITSELF SINFUL FOR ONE TO TAKE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT NO FOOD IS IN ITSELF SINFUL FOR ONE TO TAKE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C128": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW BY THE DIVINE LAW MAN IS DIRECTED TO HIS NEIGHBOUR",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW BY THE DIVINE LAW MAN IS DIRECTED TO HIS NEIGHBOUR', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C129": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT SOME HUMAN ACTS ARE RIGHT BY NATURE, AND NOT BECAUSE THEY ARE PRESCRIBED BY LAW",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT SOME HUMAN ACTS ARE RIGHT BY NATURE, AND NOT BECAUSE THEY ARE PRESCRIBED BY LAW', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C130": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 130",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 130', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C131": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "CONCERNING THE ERROR OF THOSE WHO CONDEMN VOLUNTARY POVERTY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'CONCERNING THE ERROR OF THOSE WHO CONDEMN VOLUNTARY POVERTY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C132": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "OF THE WAYS OF LIFE FOLLOWED BY THOSE WHO EMBRACE VOLUNTARY POVERTY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'OF THE WAYS OF LIFE FOLLOWED BY THOSE WHO EMBRACE VOLUNTARY POVERTY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C133": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "HOW POVERTY IS GOOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'HOW POVERTY IS GOOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C134": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "SOLUTION OF THE ARGUMENTS GIVEN ABOVE AGAINST POVERTY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'SOLUTION OF THE ARGUMENTS GIVEN ABOVE AGAINST POVERTY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C135": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "SOLUTION OF THE OBJECTIONS URGED AGAINST THE VARIOUS WAYS OF LIFE FOLLOWED BY THOSE WHO EMBRACE VOLUNTARY POVERTY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'SOLUTION OF THE OBJECTIONS URGED AGAINST THE VARIOUS WAYS OF LIFE FOLLOWED BY THOSE WHO EMBRACE VOLUNTARY POVERTY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C136": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "CONCERNING THE ERROR OF THOSE WHO CONDEMN PERPETUAL CONTINENCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'CONCERNING THE ERROR OF THOSE WHO CONDEMN PERPETUAL CONTINENCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C137": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "CONCERNING THE ERROR OF THOSE WHO CONDEMN PERPETUAL CONTINENCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'CONCERNING THE ERROR OF THOSE WHO CONDEMN PERPETUAL CONTINENCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C138": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "AGAINST THOSE WHO CONDEMN VOWS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'AGAINST THOSE WHO CONDEMN VOWS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C139": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT NEITHER MERITS NOR SINS ARE EQUAL",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT NEITHER MERITS NOR SINS ARE EQUAL', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C140": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 140",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 140', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C141": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "OF THE DIFFERENCE AND ORDER OF PUNISHMENTS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'OF THE DIFFERENCE AND ORDER OF PUNISHMENTS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C142": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT PUNISHMENTS AND REWARDS ARE NOT ALL EQUAL",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT PUNISHMENTS AND REWARDS ARE NOT ALL EQUAL', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C143": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "OF THE PUNISHMENT DUE TO MORTAL AND VENIAL SIN IN RELATION TO THE LAST END",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'OF THE PUNISHMENT DUE TO MORTAL AND VENIAL SIN IN RELATION TO THE LAST END', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C144": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT BY MORTAL SIN MAN FORFEITS HIS LAST END FOR ETERNITY",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT BY MORTAL SIN MAN FORFEITS HIS LAST END FOR ETERNITY', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C145": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 145",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 145', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C146": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT IT IS LAWFUL FOR JUDGES TO INFLICT PUNISHMENTS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT IT IS LAWFUL FOR JUDGES TO INFLICT PUNISHMENTS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C147": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 147",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 147', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C148": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THE ASSISTANCE OF DIVINE GRACE DOES NOT COMPEL MAN TO VIRTUE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THE ASSISTANCE OF DIVINE GRACE DOES NOT COMPEL MAN TO VIRTUE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C149": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MAN IS UNABLE TO MERIT THE DIVINE ASSISTANCE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MAN IS UNABLE TO MERIT THE DIVINE ASSISTANCE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C150": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT THIS SAME ASSISTANCE IS CALLED GRACE; AND WHAT IS MEANT BY SANCTIFYING GRACE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT THIS SAME ASSISTANCE IS CALLED GRACE; AND WHAT IS MEANT BY SANCTIFYING GRACE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C151": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT SANCTIFYING GRACE CAUSES IN US THE LOVE OF GOD",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT SANCTIFYING GRACE CAUSES IN US THE LOVE OF GOD', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C152": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT GRACE CAUSES FAITH IN US",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT GRACE CAUSES FAITH IN US', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C153": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT DIVINE GRACE CAUSES HOPE IN US",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT DIVINE GRACE CAUSES HOPE IN US', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C154": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "OF THE GIFTS OF GRATUITOUS GRACE: WHEREIN IT IS TREATED OF THE DIVINATIONS OF DEMONS",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'OF THE GIFTS OF GRATUITOUS GRACE: WHEREIN IT IS TREATED OF THE DIVINATIONS OF DEMONS', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C155": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "Chapter 155",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'Chapter 155', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C156": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT HE WHO FALLS AWAY FROM GRACE BY SIN, CAN RECOVER AGAIN BY MEANS OF GRACE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT HE WHO FALLS AWAY FROM GRACE BY SIN, CAN RECOVER AGAIN BY MEANS OF GRACE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "B3C157": [
+    {
+      "q": "What is the primary subject of this chapter?",
+      "correct": 0,
+      "options": [
+        "THAT MAN CANNOT BE FREED FROM SIN SAVE BY GRACE",
+        "THAT ALL THINGS ARE ETERNAL",
+        "THAT EVIL IS A SUBSTANCE",
+        "THAT MATTER IS DIVINE"
+      ],
+      "explanation": "The chapter's title is 'THAT MAN CANNOT BE FREED FROM SIN SAVE BY GRACE', which indicates Aquinas's focus in this section."
+    },
+    {
+      "q": "What type of argument does Aquinas primarily employ in this chapter?",
+      "correct": 1,
+      "options": [
+        "Purely scriptural with no rational basis",
+        "Rational demonstration from the nature of things and divine attributes",
+        "Appeal to pagan mythology",
+        "Assertion without supporting reasoning"
+      ],
+      "explanation": "Throughout the Summa Contra Gentiles Book Three, Aquinas uses philosophical reasoning grounded in the nature of creation and God to support his conclusions."
+    },
+    {
+      "q": "What is the ultimate theological implication of this chapter's argument?",
+      "correct": 2,
+      "options": [
+        "Creatures are independent and self-sufficient",
+        "God has no knowledge of individual things",
+        "All creatures depend on God for being and are ordered by divine providence",
+        "Matter is uncreated and co-eternal with God"
+      ],
+      "explanation": "A foundational teaching of Book Three is that all creatures depend entirely on God for their existence and are governed by divine wisdom and providence toward their proper ends."
+    }
+  ],
+  "SCG_B4_Ch1": [
     {
       "q": "According to the Foreword, why does Aquinas turn to truths 'above reason' in Book Four after treating truths accessible to natural reason in the first three books?",
       "options": [
@@ -16530,7 +25457,7 @@ window.QUIZZES = {
       "explanation": "Aquinas states he will treat first of the Trinity, then of the Incarnation and its sequels, and thirdly of the resurrection, bodily glory, and the soul's last end."
     }
   ],
-  "B4C2": [
+  "SCG_B4_Ch2": [
     {
       "q": "What is Aquinas's main scriptural argument in Chapter 2 for holding that generation, paternity, and filiation exist in God?",
       "options": [
@@ -16565,7 +25492,7 @@ window.QUIZZES = {
       "explanation": "Aquinas cites Isaiah's argument that it would be unfitting for God, who causes others to beget in reality, to Himself beget only in a figurative and lesser sense, since the cause should exceed the effect in excellence."
     }
   ],
-  "B4C3": [
+  "SCG_B4_Ch3": [
     {
       "q": "In Chapter 3, how does Aquinas show that Scripture's use of 'father,' 'son,' and 'generation' for God means more than the general causal sense in which God is called 'father' of rain or dew (Job xxxviii)?",
       "options": [
@@ -16600,7 +25527,7 @@ window.QUIZZES = {
       "explanation": "Chapter 3 lays the scriptural foundation—that the Son who is begotten is also true God—which the subsequent chapters on various heretical positions will need to reconcile or deny."
     }
   ],
-  "B4C4": [
+  "SCG_B4_Ch4": [
     {
       "q": "According to Chapter 4, what did Photinus hold about Jesus Christ?",
       "options": [
@@ -16635,7 +25562,7 @@ window.QUIZZES = {
       "explanation": "The Photinian argument reasons that receiving power 'in time' as stated in Matthew xxviii. 18 would be nonsensical if Christ had already possessed all power eternally as God."
     }
   ],
-  "B4C5": [
+  "SCG_B4_Ch5": [
     {
       "q": "What distinctive claim made Sabellius's followers 'Patripassionists'?",
       "options": [
@@ -16670,7 +25597,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that speaking of the Word as 'with' God implies a real personal distinction already existing in eternity, contradicting the Sabellian claim that the Son was only distinguished from the Father starting at the Incarnation."
     }
   ],
-  "B4C6": [
+  "SCG_B4_Ch6": [
     {
       "q": "Chapter 6 continues the refutation of Photinus. What key text does Aquinas use to show the Son existed before Mary, not merely 'in predestination'?",
       "options": [
@@ -16705,7 +25632,7 @@ window.QUIZZES = {
       "explanation": "Aquinas resolves the apparent tension by distinguishing the two natures united in Christ: weaknesses belong to the assumed human nature, while divine attributes belong to His eternal divine nature."
     }
   ],
-  "B4C7": [
+  "SCG_B4_Ch7": [
     {
       "q": "Against Arius, how does Aquinas argue from the title 'Only-Begotten' that Christ cannot merely be the highest of created 'sons of God' (i.e., the angels)?",
       "options": [
@@ -16740,7 +25667,7 @@ window.QUIZZES = {
       "explanation": "Aquinas shows the Catholic faith agrees partly with each heresy against the others: distinct persons (against Sabellius) yet one true divine nature shared by Father and Son (against Arius and Photinus)."
     }
   ],
-  "B4C8": [
+  "SCG_B4_Ch8": [
     {
       "q": "How does Aquinas resolve the apparent conflict between calling both Father and Son 'true God' and the strict monotheism of John xvii. 3 ('that they may know thee, the only true God')?",
       "options": [
@@ -16775,7 +25702,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes Scripture often describes God as 'knowing' something precisely when He causes others to know it (as in Genesis xxii. 12); since Christ as man did not reveal the day, he is said not to 'know' it, without contradicting His divine omniscience."
     }
   ],
-  "B4C9": [
+  "SCG_B4_Ch9": [
     {
       "q": "How does Aquinas reinterpret 'All power is given to me in heaven and on earth' (Matthew xxviii. 18), cited by Photinus to prove Christ received divinity only in time?",
       "options": [
@@ -16810,7 +25737,7 @@ window.QUIZZES = {
       "explanation": "Aquinas reads 'made' and 'predestinated' as applying to the human nature assumed in time, not to the eternal generation of the Word, resolving the apparent tension with Christ's eternal Sonship."
     }
   ],
-  "B4C10": [
+  "SCG_B4_Ch10": [
     {
       "q": "What is the main philosophical difficulty Chapter 10 raises against the doctrine of divine generation?",
       "options": [
@@ -16845,7 +25772,7 @@ window.QUIZZES = {
       "explanation": "Following his method of stating an error's arguments fully before refuting them, Aquinas devotes Chapter 10 to laying out reason's objections to divine generation, which he then resolves in Chapter 11."
     }
   ],
-  "B4C11": [
+  "SCG_B4_Ch11": [
     {
       "q": "What is the key analogy Aquinas develops in Chapter 11 to explain how generation can occur in God without matter, change, or division?",
       "options": [
@@ -16880,7 +25807,7 @@ window.QUIZZES = {
       "explanation": "Since the divine intellect's self-understanding is a wholly active operation, without any passive/receptive element as in animal generation, all the generative act belongs to the Father alone, with no place for a maternal principle."
     }
   ],
-  "B4C12": [
+  "SCG_B4_Ch12": [
     {
       "q": "Why does Aquinas say the Son of God is fittingly called 'Wisdom' as well as 'Word'?",
       "options": [
@@ -16915,7 +25842,7 @@ window.QUIZZES = {
       "explanation": "Aquinas draws on Hebrews i. 3, comparing the Word's relation to divine Wisdom to that of a splendour or brightness proceeding from and manifesting light."
     }
   ],
-  "B4C13": [
+  "SCG_B4_Ch13": [
     {
       "q": "Chapter 13 raises a potential infinite regress: if God understands Himself and this begets a Word, and the Word is also God who understands Himself, would this not require an endless chain of 'words of words' and 'sons of sons'?",
       "options": [
@@ -16950,7 +25877,7 @@ window.QUIZZES = {
       "explanation": "Aquinas explains that just as our outward spoken word manifests an inward mental word, the visible effects of God's power in creation can be called 'the Word's word' — a manifestation, not a second generation."
     }
   ],
-  "B4C14": [
+  "SCG_B4_Ch14": [
     {
       "q": "How does Aquinas resolve the objection that generation implies change and a passage from potentiality to act, which seems incompatible with an eternal, unchangeable God?",
       "options": [
@@ -16985,7 +25912,7 @@ window.QUIZZES = {
       "explanation": "Aquinas argues that because the procession of the Word arises from God's own act of self-understanding rather than from any change in an external object, the resulting relation is genuinely real in God, not merely a logical construct of our minds."
     }
   ],
-  "B4C15": [
+  "SCG_B4_Ch15": [
     {
       "q": "What is the primary type of evidence Aquinas offers in Chapter 15 for the claim that the Holy Ghost is a distinct reality 'in God' alongside the Father and Son?",
       "options": [
@@ -17020,7 +25947,7 @@ window.QUIZZES = {
       "explanation": "Chapter 15 marks the transition from the extended discussion of the Son's eternal generation to a new section addressing the Holy Ghost, continuing the Trinitarian argument of Book Four."
     }
   ],
-  "B4C16": [
+  "SCG_B4_Ch16": [
     {
       "q": "Which heretical position does Chapter 16 present regarding the Holy Ghost?",
       "options": [
@@ -17055,7 +25982,7 @@ window.QUIZZES = {
       "explanation": "Macedonius accepted the co-equality of Father and Son (against Arius) but retained the Arian view that the Holy Ghost is a creature, hence the label 'Semi-Arian.'"
     }
   ],
-  "B4C17": [
+  "SCG_B4_Ch17": [
     {
       "q": "What is one of Aquinas's key arguments in Chapter 17 that the Holy Ghost is true God, based on the concept of a 'temple'?",
       "options": [
@@ -17090,7 +26017,7 @@ window.QUIZZES = {
       "explanation": "Aquinas points to Paul's statement that the Spirit works 'according as he will,' showing the Holy Ghost acts with the same authoritative will proper to God, not merely as a subordinate minister."
     }
   ],
-  "B4C18": [
+  "SCG_B4_Ch18": [
     {
       "q": "What two mistaken views about the Holy Ghost's status does Chapter 18 address and refute?",
       "options": [
@@ -17125,7 +26052,7 @@ window.QUIZZES = {
       "explanation": "Aquinas notes that the Holy Ghost is depicted speaking and acting as an individual agent (Acts xiii. 2) and is said to 'proceed' from the Father and 'receive' from the Son — language inapplicable to the shared divine essence itself, proving personal distinction."
     }
   ],
-  "B4C19": [
+  "SCG_B4_Ch19": [
     {
       "q": "What is the central philosophical move Aquinas makes in Chapter 19 to explain the Holy Ghost's distinct mode of procession from the Son's?",
       "options": [
@@ -17160,7 +26087,7 @@ window.QUIZZES = {
       "explanation": "Aquinas distinguishes generation (procession as an intelligible likeness, proper to the intellect) from procession by way of love (an inclination toward the good, proper to the will), so the Spirit's procession, differing from generation, does not make Him a 'Son.'"
     }
   ],
-  "B4C20": [
+  "SCG_B4_Ch20": [
     {
       "q": "According to Chapter 20, why is the work of creation itself appropriated to the Holy Ghost, even though creation is common to the whole Trinity?",
       "options": [
@@ -17195,7 +26122,7 @@ window.QUIZZES = {
       "explanation": "Aquinas connects life with self-movement, and since movement is appropriated to the Spirit as love, life-giving (quickening) is likewise fittingly ascribed to the Holy Ghost."
     }
   ],
-  "B4C21": [
+  "SCG_B4_Ch21": [
     {
       "q": "According to Chapter 21, why is charity in believers said to be 'from the Holy Ghost' in a special way, even though all three Persons act as its efficient cause?",
       "options": [
@@ -17230,7 +26157,7 @@ window.QUIZZES = {
       "explanation": "Aquinas draws on the classical notion that friends share their inmost thoughts because friendship unites hearts; since the Spirit makes us God's friends, it is fitting that divine mysteries are revealed to us through Him."
     }
   ],
-  "B4C22": [
+  "SCG_B4_Ch22": [
     {
       "q": "According to Chapter 22, why does the Holy Ghost lead the sons of God to act 'freely,' rather than as slaves under fear of the law?",
       "options": [
@@ -17267,6 +26194,3683 @@ window.QUIZZES = {
   ]
 },
   metaphysics: {
+  "META_B1_Ch1": [
+    {
+      "q": "According to the opening argument of Book I, why does Aristotle say experience (empeiria) is inferior to art (techne) as a form of wisdom, even though experienced men often act more successfully than artists?",
+      "options": [
+        "Experience deals only with universals while art deals with particulars, so art is more useful in practice",
+        "Experience gives knowledge that a thing is so without knowledge of why, whereas art grasps the cause, and knowing the cause is what makes one capable of teaching",
+        "Experience is a purely instinctive capacity shared with animals, while art requires memory, which animals lack entirely",
+        "Experience is acquired only through leisure, whereas art can be acquired by anyone regardless of circumstances"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle says men of experience know that something is so but not why, while artists know the cause and can therefore teach - this is why we call artists wiser despite experienced men often succeeding better in action."
+    },
+    {
+      "q": "Why, according to Aristotle, did the mathematical arts first arise in Egypt?",
+      "options": [
+        "Egyptian religion required precise astronomical calculation for its rituals",
+        "The Nile's flooding destroyed property boundaries, forcing the invention of geometry for practical surveying",
+        "The priestly caste there was allowed leisure, and sciences not aimed at utility or pleasure arise where men have leisure",
+        "Egyptian traders needed arithmetic to conduct commerce across the Mediterranean"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle states that the mathematical arts were founded in Egypt because the priestly caste there was allowed to be at leisure, and sciences that aim at neither utility nor pleasure are pursued once necessities are secured."
+    },
+    {
+      "q": "What does Aristotle identify as the sign that someone 'knows' in the fullest sense, as opposed to merely having sense-perception or memory?",
+      "options": [
+        "The ability to perform a skilled action successfully and repeatedly",
+        "The capacity to teach, since this shows one grasps the causes rather than merely that something is the case",
+        "Possessing a vivid and accurate memory of many particular instances",
+        "Being able to predict future events based on past experience"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle says it is a mark of the man who knows that he can teach, because teaching requires grasping causes, whereas mere sense-perception or experience gives no access to the 'why' of things."
+    }
+  ],
+  "META_B1_Ch2": [
+    {
+      "q": "Why does Aristotle conclude that the science of first causes and principles ('Wisdom') is not a productive or practical science?",
+      "options": [
+        "Because it was pursued by philosophers only after the necessities and comforts of life had already been secured, showing it is sought for its own sake, not utility",
+        "Because it deals exclusively with unchanging mathematical objects that have no bearing on action",
+        "Because Wisdom was traditionally taught only to priests who were forbidden from engaging in productive work",
+        "Because productive sciences require sense-perception, which Aristotle says cannot yield genuine wisdom"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues from the history of philosophy: men began to philosophize, wondering about the world, only once life's necessities and comforts were already provided, showing this knowledge is pursued for its own sake and not for utilitarian ends."
+    },
+    {
+      "q": "Aristotle raises and answers an objection that acquiring divine wisdom would be unfitting for man because the divine might be 'jealous' of such knowledge. How does he resolve this?",
+      "options": [
+        "He agrees, concluding that Wisdom is properly beyond human reach and can only be approximated",
+        "He argues the divine cannot be jealous, and that a science dealing with the divine and possessed by God above all is the most honourable one for man to pursue",
+        "He dismisses the question as a merely poetic fancy irrelevant to philosophical inquiry into causes",
+        "He claims that jealousy only applies to practical knowledge, not theoretical knowledge, so Wisdom is exempt"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explicitly rejects the idea that the divine power is jealous ('bards tell a lie'), and argues that since this science is most divine and most honourable, it is the one most fitting to pursue, not one to be feared or avoided."
+    },
+    {
+      "q": "What does Aristotle mean when he says philosophical inquiry begins in wonder and 'must end in the contrary' state?",
+      "options": [
+        "Philosophy ends in the destruction of wonder altogether, replacing awe with pure indifference",
+        "Inquiry begins by wondering that things are as they are, but ends in a better state where, having learned the cause, one is no longer puzzled by what previously seemed strange",
+        "The philosopher must end by wondering even more than when he began, since knowledge multiplies unanswered questions",
+        "Wonder is a sign of ignorance that only the unphilosophical retain even after learning the causes"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle gives the example of the geometer no longer marvelling that the diagonal is incommensurable once he knows the cause - learning the cause resolves wonder into understanding, the 'contrary' and better state."
+    }
+  ],
+  "META_B1_Ch3": [
+    {
+      "q": "According to Aristotle, what mistake do the earliest 'material monist' philosophers (like Thales) make regarding the causes of change?",
+      "options": [
+        "They deny that any substratum persists through change, making all generation absolute",
+        "They correctly identify all four causes but assign them in the wrong proportions",
+        "They focus only on the material cause (the persisting substratum) and fail to explain what causes the substratum itself to change",
+        "They confuse the formal cause with the final cause, treating essence and purpose as identical"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle says that positing a persisting material substratum does not explain why change happens, since 'the wood does not manufacture a bed' - a further cause of motion is needed, which the earliest monists neglected to seek."
+    },
+    {
+      "q": "Why does Aristotle credit Anaxagoras (and Hermotimus before him) as advancing philosophy beyond the earlier material and dualistic thinkers, even though he criticizes his actual use of the idea?",
+      "options": [
+        "Anaxagoras was the first to posit infinite material elements, solving the problem of change entirely",
+        "Anaxagoras introduced reason (nous) as a cause of order and arrangement in the universe, seeming sober compared to the random talk of predecessors",
+        "Anaxagoras discovered the four causes independently of Empedocles and organized them systematically",
+        "Anaxagoras was the first to argue that the cosmos had no beginning, avoiding the problem of an unmoved mover"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle praises the introduction of reason as the cause of order and arrangement throughout nature as making Anaxagoras seem like 'a sober man' compared to earlier random talk, though he later criticizes Anaxagoras for using reason only as a last resort."
+    },
+    {
+      "q": "How does Aristotle interpret Empedocles' principles of Love and Strife within his four-cause scheme?",
+      "options": [
+        "As two versions of the material cause, since both are corporeal substances mixed with the four elements",
+        "As the formal cause, since Love and Strife define the essence of composite things",
+        "As the good and bad respectively functioning as a source of movement, making Empedocles the first to treat the good and bad themselves as principles",
+        "As purely mythological language with no serious philosophical content, to be set aside from the four causes"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle reads Empedocles as making friendship the cause of good things and strife the cause of bad things, which means Empedocles was, in effect, first to treat good and bad as principles and as sources of motion."
+    }
+  ],
+  "META_B1_Ch4": [
+    {
+      "q": "How does Aristotle characterize the way Anaxagoras and Empedocles actually use their causes of movement (reason, and love/strife) in explaining phenomena?",
+      "options": [
+        "They apply these causes consistently and systematically throughout their entire physical accounts",
+        "Anaxagoras uses reason only as a last resort when stumped, ascribing most events to other causes, and Empedocles uses love and strife inconsistently, sometimes reversing which one aggregates or segregates",
+        "Both thinkers reserve these causes exclusively for explaining the origin of living things, never inanimate matter",
+        "Neither thinker actually uses these causes in his physical account, treating them as mere ornamentation"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle says Anaxagoras uses reason as 'a deus ex machina' only when at a loss, and that Empedocles does not attain consistency, at times having love segregate and strife aggregate, contrary to his own general scheme."
+    },
+    {
+      "q": "What is Aristotle's criticism of Leucippus and Democritus's account of the elements (the full and the empty)?",
+      "options": [
+        "They fail to address the question of whence or how movement belongs to things, neglecting it just as earlier thinkers did",
+        "They wrongly deny that the void (empty) exists at all, making their physics internally contradictory",
+        "They reduce all differences among things to color and taste rather than shape, order, and position",
+        "They claim atoms are infinitely divisible, which contradicts their doctrine of solid indivisible being"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that like the others, Leucippus and Democritus 'lazily neglected' the question of the source of movement, despite giving a detailed account of shape, order, and position as differentiae of atoms."
+    },
+    {
+      "q": "In what specific way does Aristotle credit Empedocles as an innovation over his predecessors regarding the number and character of causes of motion?",
+      "options": [
+        "He was the first to say motion has no cause at all, being eternal and uncaused",
+        "He was the first to introduce a plurality of contrary sources of movement, rather than positing one, and also the first to speak of four material elements explicitly",
+        "He was the first to argue that the source of motion must be an immaterial soul distinct from body",
+        "He was the first to reduce all four elements to a single underlying substrate of pure quantity"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle states Empedocles 'was the first to introduce the dividing of this cause, not positing one source of movement, but different and contrary sources' (love and strife), and also first named four material elements explicitly."
+    }
+  ],
+  "META_B1_Ch5": [
+    {
+      "q": "Why did the Pythagoreans come to believe that numbers were the principles of all existing things?",
+      "options": [
+        "Because they observed that all physical bodies could be measured using a single unit, proving matter was fundamentally numerical",
+        "Because they saw resemblances between numbers and the properties of things (e.g., musical ratios), and thought the whole of nature was modelled on number",
+        "Because their religious doctrine held that the gods communicated exclusively through numerical symbols",
+        "Because Pythagoras had traveled to Egypt and adopted the mathematical theology of the priesthood wholesale"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explains that because the Pythagoreans saw many resemblances of things to numbers, and because musical ratios were expressible numerically, they supposed the elements of numbers to be the elements of all things, even inventing a 'counter-earth' to reach the perfect number ten."
+    },
+    {
+      "q": "According to Aristotle, what is the key difference between how the Pythagoreans and how Parmenides/Melissus (the Eleatics) treat 'the One'?",
+      "options": [
+        "The Pythagoreans treat the elements of number as immanent parts of matter out of which substance is composed, while the Eleatics deny plurality altogether and treat the universe as a single unchangeable being",
+        "The Pythagoreans deny the One exists at all, while the Eleatics make it the sole principle",
+        "Both schools agree entirely, differing only in terminology",
+        "The Pythagoreans treat the One as purely psychological, while the Eleatics treat it as purely physical"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle distinguishes the Pythagoreans, who rank the odd/even and other elements under matter to compose substance, from the Eleatics like Parmenides and Melissus, who argue the universe as a whole is one unchangeable entity rather than built from principles."
+    },
+    {
+      "q": "What criticism does Aristotle make of the Pythagorean method of defining things, using the example of 'double' and '2'?",
+      "options": [
+        "They wrongly assumed the first subject of which a definition is predicable is the substance of the thing defined, illegitimately identifying 'double' with '2' itself",
+        "They refused to give definitions at all, relying purely on numerical ratios instead of language",
+        "They defined things only by their material causes, ignoring formal definitions entirely",
+        "They borrowed all their definitions from Egyptian mathematics without independent reasoning"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle says the Pythagoreans 'defined superficially,' thinking that the first thing of which a definition held true was that thing's substance - as though being double and being 2 were the same, which Aristotle denies."
+    }
+  ],
+  "META_B1_Ch6": [
+    {
+      "q": "According to Aristotle, what led Plato to hold that the objects of definition (the Forms) could not be sensible things?",
+      "options": [
+        "Plato's early training under Cratylus in the Heraclitean view that sensible things are always in flux, so there could be no stable knowledge or definition of them",
+        "Plato's mathematical training convinced him that only geometrical objects could be defined precisely",
+        "Plato inherited this view directly from the Pythagorean doctrine of number without modification",
+        "Plato was persuaded by Anaxagoras's claim that mind alone is unmixed and therefore alone definable"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle traces Plato's view to his early familiarity with Heraclitean doctrine (via Cratylus) that all sensible things are in flux and thus unknowable, so Plato held that stable definitions must apply to a different kind of entity - the Forms - not to changing sensibles."
+    },
+    {
+      "q": "How, per Aristotle, does Plato's relation between the One, the Forms, and the 'great and the small' map onto the four causes?",
+      "options": [
+        "Plato used all four causes equally, with the great and small serving as final cause",
+        "Plato used only two causes: the Forms as the cause of the essence of things, and the 'great and small' (a material dyad) as the underlying matter from which, by participation in the One, Numbers arise",
+        "Plato rejected material causation altogether, treating all causation as formal",
+        "Plato identified the efficient cause with the great and small, and treated the One as purely material"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle concludes that Plato 'has used only two causes, that of the essence and the material cause' - the Forms account for essence, and the great-and-small dyad functions as matter from which, through participation in the One, Numbers are generated."
+    },
+    {
+      "q": "What objection does Aristotle raise against Plato's claim that Forms are generated from a single indeterminate dyad ('the great and small')?",
+      "options": [
+        "A single form typically generates one instance from matter through one act, whereas from a single matter (analogous to the dyad) we would expect only one thing, yet Platonists need many numbers to be produced from it",
+        "The dyad cannot be divided into odd and even, making it useless as a principle of number",
+        "Plato never actually specifies what the great and small are, so the objection cannot be formulated precisely",
+        "The dyad contradicts Plato's theory of recollection, since recollection requires a unified soul, not a duality"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that ordinarily matter yields many products only through repeated application of a form (as one male can impregnate many females), yet Platonists have the form 'generate only once' from the dyad, which is an unreasonable inconsistency in the theory."
+    }
+  ],
+  "META_B1_Ch7": [
+    {
+      "q": "What overall conclusion does Aristotle draw in Chapter 7 about the causes discovered by all previous philosophers reviewed in Book I?",
+      "options": [
+        "Each philosopher discovered an entirely distinct cause unrelated to Aristotle's own four causes, requiring a fifth category",
+        "All the causes previous thinkers named fall under the four causes already distinguished in Aristotle's Physics, though each thinker grasped them only vaguely and partially",
+        "None of the previous philosophers identified any genuine cause at all, so the whole tradition must be discarded",
+        "Only the Presocratics before Socrates correctly identified causes; post-Socratic philosophy abandoned the search for causes"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle concludes that despite the diversity of views, all his predecessors 'have some inkling' of the four causes he distinguished in the Physics, though none articulated them clearly or completely - confirming that his four-cause scheme is exhaustive."
+    },
+    {
+      "q": "According to Aristotle, how did thinkers who spoke of 'the good' or 'reason' or 'love' as causes fail to treat the good as a genuine final cause?",
+      "options": [
+        "They treated the good merely as the source from which movements started, not as that for whose sake things exist or come to be, so they call it a cause only incidentally",
+        "They denied that the good was a cause of anything whatsoever, reserving that role for chance",
+        "They identified the good exclusively with pleasure, collapsing the final cause into an efficient one",
+        "They argued the good was identical to the material substratum, confusing final and material causation"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle observes that these thinkers speak as if things came to be from the good as a starting point of motion rather than for the sake of it, so 'they both say and do not say the good is a cause' - treating it as a cause only incidentally, not qua good."
+    },
+    {
+      "q": "What has Aristotle NOT found expressed distinctly by any of his predecessors, according to this chapter's summary?",
+      "options": [
+        "The material cause, which he says every thinker mentioned explicitly and in detail",
+        "The essence or substantial reality (formal cause) as a cause, which is only hinted at by believers in the Forms",
+        "The efficient cause, which he claims all thinkers before Empedocles ignored completely",
+        "The final cause, which he says was universally and clearly articulated by all the philosophers surveyed"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle states 'the essence, i.e. the substantial reality, no one has expressed distinctly'; it is only hinted at by those who believe in Forms, since they treat the Forms as the essence of other things and the One as the essence of the Forms."
+    }
+  ],
+  "META_B1_Ch8": [
+    {
+      "q": "What problem does Aristotle raise for those who posit a single corporeal element (like water, air, or fire) as the sole material principle of all things?",
+      "options": [
+        "They cannot explain how mathematical objects, which are incorporeal, could arise from a purely bodily principle, since they posit elements of bodies only",
+        "They fail to account for the fact that fire is visibly hotter than water",
+        "They cannot explain why the earth is spherical rather than flat",
+        "They wrongly assume that all matter is eternal, contradicting the possibility of creation"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle criticizes monists for positing 'the elements of bodies only, not of incorporeal things, though there are also incorporeal things,' and for failing to identify substance/essence, and the cause of movement, in their accounts."
+    },
+    {
+      "q": "How does Aristotle criticize Anaxagoras's claim that 'all things were mixed together' at the beginning?",
+      "options": [
+        "He argues it is self-consistent but simply unverifiable by observation",
+        "He argues it is absurd because it implies the mixed things must have existed unmixed beforehand, and that qualities like color could be predicated of the primal mixture, which is impossible if genuinely all things were mixed",
+        "He argues Anaxagoras contradicts himself by also claiming the universe is eternally unchanging",
+        "He argues that mixture is impossible in principle because no two substances can ever combine"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle finds it absurd that all things were 'mixed' originally since this presupposes they existed unmixed before, and because on this view no determinate quality (like a color) could truly be predicated of the primal mixture, since any particular form would already have to be separated out."
+    },
+    {
+      "q": "What specific criticism does Aristotle direct at the Pythagoreans' explanation of natural phenomena like heaviness, lightness, and generation/destruction using number, limit, and the unlimited?",
+      "options": [
+        "They fail to explain how there can be movement, or generation and destruction, if only limit, unlimited, odd, and even are assumed as principles, and they say nothing that applies distinctly to perceptible bodies like fire or earth",
+        "They correctly explain movement through the interaction of odd and even numbers alone",
+        "Their account applies well to physical bodies but fails entirely for mathematical objects",
+        "They ignore number altogether in favor of a purely qualitative physics"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle objects that the Pythagoreans never explain how movement, generation, or destruction can occur from limit/unlimited/odd/even alone, and that their principles seem to apply no more to perceptible bodies (fire, earth) than to abstract mathematical ones."
+    }
+  ],
+  "META_B1_Ch9": [
+    {
+      "q": "What is Aristotle's core objection to the theory of Forms as expressed through the analogy of 'a man who wanted to count things'?",
+      "options": [
+        "The theory of Forms multiplies entities needlessly: in trying to explain the things around us, its proponents introduce a separate Form for nearly every thing, doubling rather than solving the problem of explanation",
+        "The theory of Forms fails because it denies that numbers can be counted at all",
+        "The theory of Forms is objectionable only because it was borrowed uncritically from Pythagorean number theory",
+        "The theory of Forms cannot explain mathematical objects, though it explains sensible objects adequately"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle compares Platonists to someone who, unable to count few things, tries counting more - the Forms are 'practically equal to - or not fewer than' the sensible things they are meant to explain, adding rather than reducing explanatory burden."
+    },
+    {
+      "q": "What is the 'third man' objection that Aristotle alludes to against certain arguments for the Forms?",
+      "options": [
+        "It is the claim that if a man and 'man himself' (the Form) share a common character, then explaining that resemblance requires positing yet another Form, generating an infinite regress",
+        "It is the argument that there must be exactly three grades of reality: Forms, mathematical intermediates, and sensibles",
+        "It is a mythological reference showing that Plato borrowed the theory of Forms from Egyptian religion",
+        "It is the objection that a Form cannot apply to more than two individuals at once"
+      ],
+      "correct": 0,
+      "explanation": "The 'third man' argument (only alluded to here) shows that if the resemblance between a particular man and the Form of Man requires a further Form to explain it, an infinite regress of 'third men' results - one of several 'more accurate arguments' Aristotle says leads to problematic consequences."
+    },
+    {
+      "q": "According to Aristotle, what do the Forms actually contribute to sensible things, given that they cause neither movement nor change in them?",
+      "options": [
+        "They provide the sole and sufficient efficient cause of all generation in the sensible world",
+        "Nothing of substance: they neither move things, nor constitute their being if not present in the particulars, so calling them 'patterns' that things 'imitate' is empty metaphor",
+        "They contribute their material substrate directly, functioning exactly like the four elements",
+        "They provide moral guidance but have no relevance to natural science"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle asks 'what on earth the Forms contribute to sensible things' since they cause no movement or change, and concludes that calling them patterns which things 'share in' or 'imitate' is to 'use empty words and poetical metaphors.'"
+    }
+  ],
+  "META_B1_Ch10": [
+    {
+      "q": "What is Aristotle's overall verdict, at the close of Book I, on how well earlier philosophers grasped the four causes?",
+      "options": [
+        "All the causes he named in the Physics have been sought by earlier thinkers, but only vaguely, so that 'in a sense they have all been described before, in a sense they have not been described at all'",
+        "Earlier philosophers grasped the material and formal causes perfectly but never conceived of an efficient or final cause",
+        "No earlier philosopher came close to any of the four causes, making Aristotle's discovery entirely without precedent",
+        "Earlier philosophers accurately and fully described all four causes, leaving nothing for Aristotle to add"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle concludes that all men 'seem to seek the causes named in the Physics' and none beyond these, but that early philosophy, being young, expressed itself only vaguely - 'like one who lisps' - as illustrated by Empedocles' unclear treatment of bone as a 'ratio' of elements."
+    },
+    {
+      "q": "How does Aristotle use Empedocles' claim that 'bone exists by virtue of the ratio in it' to illustrate the immaturity of early philosophy?",
+      "options": [
+        "He shows Empedocles literally anticipated Aristotle's own theory of the four causes in complete and systematic form",
+        "He argues that this statement in fact points toward the essence/formal cause (the ratio being the substance of the thing), yet Empedocles never articulated this insight clearly or applied it consistently to other tissues",
+        "He dismisses the claim entirely as having no philosophical content whatsoever",
+        "He uses it to prove that Empedocles secretly rejected the four material elements as ultimate principles"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that the 'ratio' Empedocles speaks of is really the essence and substance of bone, but Empedocles 'would necessarily have agreed if another had said this' of flesh and other tissues too - yet he never stated it clearly, exemplifying the lisping, undeveloped state of early philosophy."
+    },
+    {
+      "q": "What does Aristotle say is his purpose in returning, at the end of Book I, to 'enumerate the difficulties that might be raised' on the points already discussed?",
+      "options": [
+        "To refute his own conclusions and adopt a skeptical stance toward the possibility of first philosophy",
+        "To prepare the ground for further inquiry, since working through these difficulties (aporiai) may help in resolving 'our later difficulties'",
+        "To settle a purely rhetorical dispute with the Sophists unrelated to metaphysical inquiry",
+        "To provide comic relief before moving on to an unrelated topic in natural science"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explicitly states that revisiting these difficulties may 'get from them some help towards our later difficulties' - signaling the methodological role of working through aporiai (as pursued further in Book III) before advancing the inquiry."
+    }
+  ],
+  "META_B2_Ch1": [
+    {
+      "q": "How does Aristotle resolve the paradox that truth is both easy and hard to attain, as illustrated by the proverb of 'the door no one can fail to hit'?",
+      "options": [
+        "Truth is easy in that everyone grasps some part of it (so collectively much is amassed), but hard in that no one attains the whole truth or exactly the part aimed at",
+        "Truth is easy for philosophers but permanently impossible for ordinary people to grasp in any degree",
+        "Truth is hard because it does not exist as a unified whole, only as scattered and contradictory opinions",
+        "Truth is easy because all opinions ever expressed are equally true, differing only in emphasis"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle says no individual attains the truth adequately, yet 'we do not collectively fail' since everyone contributes something true; the difficulty lies in possessing the whole rather than a fragment, like hitting the door but not aiming true."
+    },
+    {
+      "q": "Why does Aristotle say the principles of eternal things must be 'always most true'?",
+      "options": [
+        "Because eternal things change constantly, so their principles must adapt to remain accurate",
+        "Because a cause has a quality to a higher degree than what it causes (as fire, being hottest, causes heat in other things), and the principles of eternal things are the cause of the being of other things, not merely sometimes true",
+        "Because eternal things are perceived only by the senses, which never deceive us",
+        "Because eternal principles were established by convention among the wisest philosophers and thus cannot be false"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle reasons analogically: as fire, the cause of heat in other things, is hottest, so whatever causes derivative truths to be true is 'most true' - and since the principles of eternal things cause the being of everything else, they must be always, not merely sometimes, true."
+    },
+    {
+      "q": "What analogy does Aristotle use to explain why human reason struggles with the things that are 'by nature most evident of all'?",
+      "options": [
+        "Reason in our soul relates to the most evident things in nature the way the eyes of bats relate to daylight - overwhelmed rather than aided by their evidentness",
+        "Reason relates to first principles the way a blind man relates to color - utterly and permanently incapable",
+        "Reason relates to nature as a deaf man relates to music - able to perceive vibration but not melody",
+        "Reason relates to first principles as a child relates to adult speech - eventually maturing into full comprehension without difficulty"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle writes 'as the eyes of bats are to the blaze of day, so is the reason in our soul to the things which are by nature most evident of all' - the very brightness/evidentness of first principles overwhelms our natural capacity to grasp them easily."
+    }
+  ],
+  "META_B2_Ch2": [
+    {
+      "q": "What is Aristotle's main argument against an infinite regress of material causes (e.g., flesh from earth, earth from air, air from fire, ad infinitum)?",
+      "options": [
+        "Such a regress is impossible chiefly because it would take infinite time to state, which offends common sense",
+        "In a series with a last and prior terms, the prior must be the cause; but with no first term, nothing is left to be the cause at all, so infinite regress eliminates causation entirely",
+        "Material causes cannot regress because matter is created instantaneously by an efficient cause",
+        "Aristotle does not object to an infinite regress of material causes, only to infinite regresses of final causes"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that in any series of causes with intermediates, it is the first term that is properly the cause (not the last, which causes nothing further, nor an intermediate); if the causal series had no first term, there would be no cause at all, which he takes as absurd."
+    },
+    {
+      "q": "How does Aristotle argue that an infinite regress of final causes is impossible?",
+      "options": [
+        "Because final causes only apply to living beings, not to the universe as a whole, limiting any possible regress",
+        "Because a final cause is an end that is 'not for the sake of something else, but for whose sake everything else is'; without such a limiting term there is no good and no purposive action, which is absurd since agents always act for some limit or goal",
+        "Because Aristotle holds that all action is in fact purposeless, so the question of final causes does not arise",
+        "Because final causes, unlike material or efficient causes, do not require any first term by their very nature"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle contends that eliminating a final terminus in the chain of ends (e.g., walking for health, health for happiness) would eliminate the Good itself, since 'no one would try to do anything if he were not going to come to a limit' - purposive action requires a limiting end."
+    },
+    {
+      "q": "What does Aristotle say about the possibility of an infinite regress in the 'essence' (formal cause / definition)?",
+      "options": [
+        "Definitions can regress infinitely without any problem, since language allows unlimited elaboration",
+        "Reducing the essence to ever fuller definitions is impossible because the original, more concise definition is always more truly a definition than a later, expanded one, and without stopping at unanalysable terms, science itself becomes impossible",
+        "The essence is the one cause exempt from Aristotle's anti-infinite-regress argument, because it is purely conventional",
+        "Aristotle claims the essence has no connection to definition at all, so the question of regress does not apply"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that a definition cannot be endlessly expanded into fuller definitions, since the earlier, more concise one is properly 'more of a definition'; science requires stopping at 'unanalysable terms,' or else knowledge becomes impossible."
+    }
+  ],
+  "META_B2_Ch3": [
+    {
+      "q": "What point does Aristotle make about the relationship between a hearer's habits and how a lecture should be delivered?",
+      "options": [
+        "All hearers should be trained identically so that lectures can be uniformly precise regardless of audience",
+        "The effect a lecture has depends on the hearer's habits, since we find intelligible only what we are accustomed to, so one must already be trained to know how to receive each kind of argument",
+        "Habituation is irrelevant to philosophical communication, which should always proceed with maximal mathematical rigor",
+        "Hearers who demand poetic citations are simply intellectually inferior to those who demand mathematical precision"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle observes that 'it is the customary that is intelligible,' and that different audiences expect different modes of argument (mathematical, exemplary, poetic); one must already be trained in how to take each kind of argument, since seeking both knowledge and the method of it at once is difficult."
+    },
+    {
+      "q": "Why does Aristotle say that the exactness (accuracy) demanded of mathematics should not be demanded in every science?",
+      "options": [
+        "Because mathematical accuracy is impossible to achieve in principle and mathematics itself is imprecise",
+        "Because exactness is appropriate to things without matter, but natural science deals with things that have matter, and so cannot be studied with the same precision as mathematics",
+        "Because accuracy is a mark of ignorance in any field, being merely 'pettifoggery' according to Aristotle himself",
+        "Because only ethical inquiry, not natural science, requires precision comparable to mathematics"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle states that minute accuracy belongs to 'things which have no matter,' and since nature as a whole involves matter, natural science cannot and should not be held to the same standard of exactness as mathematics."
+    },
+    {
+      "q": "What transitional question does Aristotle raise at the end of Book II, Chapter 3, pointing forward to further inquiry?",
+      "options": [
+        "Whether rhetoric or dialectic is the superior method for philosophical argument",
+        "What nature is, and whether investigating the causes and principles of things belongs to one science or to several",
+        "Whether the Pythagoreans or the Platonists gave the better account of number",
+        "Whether sense-perception can ever yield genuine scientific knowledge"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle closes by saying 'we must inquire first what nature is: for thus we shall also see what natural science treats of (and whether it belongs to one science or to more to investigate the causes and principles of things),' setting the stage for the discussion of first philosophy's scope."
+    }
+  ],
+  "META_B3_Ch1": [
+    {
+      "q": "Why does Aristotle insist, at the start of Book III, that one must survey all the philosophical difficulties (aporiai) before attempting to solve them?",
+      "options": [
+        "Because listing difficulties in advance is a rhetorical convention with no bearing on actually finding the truth",
+        "Because one who has not first grasped the difficulties is like someone bound and unable to go forward, or like a traveler who does not know his destination and so cannot tell when he has arrived",
+        "Because Aristotle believes most of the difficulties are unsolvable and wants to warn the reader in advance",
+        "Because the Academy required all treatises to open with a list of unresolved objections as a matter of form"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle compares unresolved difficulty to being bound (unable to progress) and says that without first identifying the puzzles one does not even know what the goal of inquiry is or whether one has reached it, whereas surveying contending arguments puts one in a better position to judge."
+    },
+    {
+      "q": "Among the puzzles Aristotle lists in Chapter 1, which question concerns whether metaphysics as a science has a single, unified subject matter?",
+      "options": [
+        "Whether the investigation of all the causes belongs to one science or to several, and whether one science should treat all substances or several must be distinguished",
+        "Whether the planets move in circular or elliptical orbits",
+        "Whether rhetoric is a genuine science or merely a knack",
+        "Whether the soul is mortal or immortal"
+      ],
+      "correct": 0,
+      "explanation": "The very first aporia Aristotle raises is whether investigating the causes belongs to one science or several, and, connectedly, whether a single science can treat all substances or whether Wisdom must be divided among several sciences dealing with different kinds of substance."
+    },
+    {
+      "q": "What is one of the 'hardest and most perplexing' questions Aristotle raises about unity and being in this chapter?",
+      "options": [
+        "Whether unity and being are themselves the substance of existing things (as the Pythagoreans and Plato held), or whether they are attributes of some other underlying substratum (as Empedocles, or those who posit fire, water, or air, held)",
+        "Whether unity is greater than being in numerical value",
+        "Whether being can be perceived by touch but not by sight",
+        "Whether unity applies only to living things and being only to inanimate things"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle explicitly flags as the hardest and most perplexing question whether unity and being are themselves the substance of things (the Pythagorean/Platonic view) or instead attributes of some other substratum, as thinkers like Empedocles (love), or those positing fire, water, or air, held."
+    }
+  ],
+  "META_B3_Ch2": [
+    {
+      "q": "Why does Aristotle think it is doubtful that the good (final cause) can belong to unchangeable things such as mathematical objects?",
+      "options": [
+        "Because mathematics is entirely non-empirical, so no cause of any kind can apply to it",
+        "Because a final cause or good is that for the sake of which action occurs, and all action implies change, yet mathematical objects are unchangeable, so mathematics never demonstrates anything 'because it is better'",
+        "Because the good only pertains to ethics, a field entirely separate from metaphysics",
+        "Because mathematicians such as Aristippus explicitly denied the existence of goodness"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that an end or purpose is the end of some action, and all actions imply change; since mathematical objects are unchangeable, mathematics never demonstrates anything by appeal to 'because it is better or worse' - which is why some Sophists like Aristippus mocked mathematics for ignoring goods and evils."
+    },
+    {
+      "q": "What difficulty does Aristotle raise about whether the science of substance and the science of the common axioms (like the law of non-contradiction) are the same or different?",
+      "options": [
+        "He shows both must be totally separate sciences with no possible overlap in subject matter",
+        "It seems odd that axioms used by every science (geometry, arithmetic, etc.) alike should belong peculiarly to any one special science, yet since axioms hold for all being as being, investigating them seems to belong to whoever studies being qua being - i.e., the philosopher",
+        "The axioms are held to be entirely false and thus outside the scope of any science",
+        "Aristotle claims axioms are only relevant to rhetoric, not to any theoretical science"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes it seems unreasonable that axioms (which every science uses) should belong specially to any one science like geometry, yet since they hold for being qua being universally, the inquiry into them seems to fall to the philosopher who studies being as being - raising the puzzle of how such a universal science of first principles is even possible."
+    },
+    {
+      "q": "What paradox does Aristotle raise about positing Forms and mathematical 'intermediates' in addition to sensible substances?",
+      "options": [
+        "It leads to needless multiplication of entities - such as a 'heaven besides the heaven' and lines, suns, and moons beside the sensible ones - without solving the original problem of explaining sensible things",
+        "It solves every difficulty in natural science by providing extra objects for each science to study",
+        "It was universally accepted by all schools of philosophy without dispute",
+        "It applies only to arithmetic, leaving geometry unaffected"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle objects that positing intermediates alongside Forms and sensibles multiplies entities absurdly - implying, for instance, a heaven, sun, and moon 'besides the sensible' ones, since sciences like astronomy and optics would need their own intermediate objects, which is paradoxical."
+    }
+  ],
+  "META_B3_Ch3": [
+    {
+      "q": "What argument does Aristotle give against genera being the principles or elements of things?",
+      "options": [
+        "Genera cannot be defined at all, so they cannot serve as starting points for definition",
+        "Just as the primary parts of which articulate sound consists (not the common genus 'articulate sound') are called its elements, so the elements of things seem to be their constituent parts rather than their genera; also a definition by genus differs from one that states a thing's constituent parts",
+        "Genera are identical to individuals, so distinguishing them from principles is meaningless",
+        "Aristotle argues genera are principles beyond doubt, with no possible objection"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle draws an analogy to phonetic elements (which are the parts composing sound, not the genus 'sound' itself) and to physical composition (e.g., Empedocles' elements are parts, not genera), concluding that principles seem to be constituent parts rather than genera - while also noting genus-definition differs from part-based definition."
+    },
+    {
+      "q": "Why does Aristotle argue that treating 'being' and 'unity' themselves as the highest genera (and hence as principles) runs into trouble?",
+      "options": [
+        "Because a genus's differentiae must themselves each have being and be one, but a genus cannot be predicated of its own proper differentiae, so if being or unity were a genus, its differentiae could neither have being nor be one - an absurdity",
+        "Because being and unity cannot be discussed using ordinary language at all",
+        "Because only Plato, and no one else, ever suggested being and unity were genera",
+        "Because genera by definition must be perceptible, and being and unity are not sensible"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that a genus cannot be predicated of the differentiae that divide it, yet every differentia must both be and be one; so if unity or being were treated as a genus, its own differentiae could not have being or unity, which is absurd - hence being and unity cannot be genera and so cannot be principles in that sense."
+    },
+    {
+      "q": "In weighing whether the highest genera or the lowest species (predicated directly of individuals) are more truly 'principles,' what tension does Aristotle identify?",
+      "options": [
+        "Universality suggests the highest genera are principles (since a principle should apply broadly and exist separably), yet unity and indivisibility suggest the species closer to individuals are more truly 'one' and thus more principle-like - leaving it unclear which should be favored",
+        "There is no tension at all; Aristotle definitively proves the highest genera are principles with no remaining doubt",
+        "The lowest species are ruled out entirely because they cannot be predicated of anything",
+        "Aristotle resolves this by claiming principles must be perceptible individuals, not genera or species at all"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that if universals are more principle-like the highest genera would be principles, since these are predicated most widely; but since the indivisible is most unified, and species (nearer individuals) are more indivisible/unified than genera, the species seem more principle-like - a genuine unresolved tension in the aporia."
+    }
+  ],
+  "META_B3_Ch4": [
+    {
+      "q": "What is the core dilemma Aristotle poses about whether anything exists 'apart from' (beyond) individual sensible things?",
+      "options": [
+        "If nothing exists apart from individuals, since individuals are infinite in number, it seems impossible to have knowledge of them (knowledge requires grasping universal unity); but if something universal must exist apart, this seems to require genera existing apart from individuals, which was already shown to be problematic",
+        "There is no dilemma, since Aristotle firmly established in Chapter 3 that genera obviously exist apart from individuals",
+        "The dilemma only concerns numbers, not physical substances like men or houses",
+        "Aristotle resolves this dilemma trivially by appeal to sense-perception alone"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle presents a genuine aporia: knowledge seems to require universals common to many individuals (since individuals are infinite and known only through unity/identity), yet positing genera 'apart from' individuals runs into the problems already raised in Chapter 3 about genera as principles."
+    },
+    {
+      "q": "What problematic consequence does Aristotle draw if literally nothing exists 'apart from' (separate from) particular sensible individuals?",
+      "options": [
+        "All things would be objects only of sense, not of thought, so there could be no knowledge (unless sensation itself counts as knowledge), and nothing would be eternal, unmoving, or even capable of coming to be, since perishable perceptibles alone would exist",
+        "This view would actually strengthen scientific knowledge by grounding it entirely in observation",
+        "It would have no effect on epistemology, only on ethics",
+        "It would prove that Forms definitely exist apart from individuals after all"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that if nothing exists apart from individuals, there would be no object of thought (only sensation), nothing eternal or unmoving, and even coming-to-be would be impossible to explain, since there would be no persisting essence or form - hence 'nothing will be at all,' which he takes to be absurd."
+    },
+    {
+      "q": "What difficulty does Aristotle raise about whether the first principles of things are numerically one or only one in kind (species)?",
+      "options": [
+        "If the principles are only one in kind (like recurring letters of the alphabet, numerically different in different words), it is unclear how knowledge of a genuinely common, unified object is possible; but if principles are numerically one individuals, there would be nothing else besides the elements themselves, oddly limiting reality the way a finite alphabet would limit language",
+        "This question has no bearing on questions of knowledge or unity whatsoever",
+        "Aristotle simply asserts, without argument, that the principles must be numerically one",
+        "The dilemma applies only to mathematical principles, not to natural substances"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle compares this to letters: if principles are numerically one (like specific individual instances), there could be nothing else besides those elements themselves - as if language were confined to a fixed ABC with no repetition possible - which is an absurd restriction, yet the alternative (kind-identity only) raises its own problems for unified knowledge."
+    }
+  ],
+  "META_B3_Ch5": [
+    {
+      "q": "What paradox does Aristotle raise about whether points, lines, and planes are substances 'more than' bodies, given that bodies are bounded by them?",
+      "options": [
+        "Since lines, planes, and points bound and limit bodies and seem capable of existing without body (while body cannot exist without them), they might seem more substantial than bodies - yet we cannot locate them as determinate parts within actual perceptible bodies, so it becomes unclear whether they are substances at all",
+        "There is no paradox, since Aristotle proves conclusively that points are more substantial than bodies",
+        "The paradox applies only to Platonic Forms, not to points, lines and planes as such",
+        "Aristotle dismisses the entire question as irrelevant to metaphysics"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that lines and points seem more substance-like than bodies since bodies depend on them as boundaries, yet we cannot point to any determinate line or surface actually 'in' a perceptible solid (e.g., there is no single determinate half-of-a-cube plane within the cube), leaving it baffling what their status as substance could be."
+    },
+    {
+      "q": "How does Aristotle use the example of dividing or joining bodies to raise a puzzle about whether boundaries (points, lines, surfaces) can come to be or perish?",
+      "options": [
+        "When two bodies touch, their boundaries become one, and when divided, new boundaries appear where none existed before - yet boundaries, being indivisible or limits, cannot properly be said to undergo generation or destruction, so it is unclear where these 'new' boundaries come from",
+        "Boundaries are eternal and never change under any circumstances, resolving the puzzle instantly",
+        "This puzzle applies only to time, not to spatial boundaries like points and lines",
+        "Aristotle resolves this puzzle by asserting boundaries are simply identical to the bodies they bound"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle observes that when bodies join, one boundary 'perishes' (becomes one), and when divided, new boundaries appear that did not exist before - yet since points are indivisible they cannot be said to be divided or generated in the ordinary sense, leaving open the puzzling question of the ontological status of such boundaries, comparable to the puzzle of the 'now' in time."
+    },
+    {
+      "q": "According to Aristotle, why did the earlier and more traditional philosophers identify substance with body, while more recent thinkers came to identify it with number?",
+      "options": [
+        "Because the earlier philosophers thought all other things were modifications of body, taking bodies as the first substances, while later thinkers, following mathematical developments (like the Pythagoreans and Platonists), took numbers as more fundamental principles of being",
+        "Because the earlier philosophers were unaware that bodies exist, focusing exclusively on abstract numbers",
+        "Because body and number were always considered identical by all Greek philosophers without distinction",
+        "Because Aristotle himself introduced the identification of substance with number in this very chapter"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that most early philosophers held that substance and being were identical with body, treating other things (heat, cold, etc.) as mere modifications of bodies, whereas 'more recent' and supposedly wiser thinkers (the Pythagoreans/Platonists) instead took numbers to be the first principles of being."
+    }
+  ],
+  "META_B3_Ch6": [
+    {
+      "q": "What reasoning does Aristotle present for why some thinkers feel compelled to posit Forms in addition to both perceptible things and mathematical intermediates?",
+      "options": [
+        "Because mathematical objects, like sensible things, come in indefinitely many instances of the same kind (e.g., many equal lines), so their principles cannot be limited in number but only in kind - and if nothing besides perceptibles and mathematicals exists, there would be no substance that is numerically one, pushing some thinkers to posit Forms as that missing unity",
+        "Because the Forms were needed purely to explain moral virtue, unrelated to mathematics",
+        "Because sensible things are too few in number to explain the diversity of mathematical objects",
+        "Because Aristotle himself endorses this reasoning as fully sound and adopts the theory of Forms as his own view"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle reconstructs the reasoning: since mathematical objects, like perceptible ones, exist in indefinitely many instances of a kind, their principles are not numerically limited; so if nothing besides these two levels existed, there would be no substance that is numerically one - which some think forces the further positing of Forms as unique, numerically-one substances."
+    },
+    {
+      "q": "What difficulty does Aristotle raise concerning whether the first principles/elements exist 'potentially' or in some other way?",
+      "options": [
+        "If the elements exist potentially rather than actually, then it is possible that everything which is might not be, since even what does not yet exist is capable of being; this raises the question of whether something must be prior in actuality to the potential first principles",
+        "There is no difficulty at all, since potentiality and actuality are entirely unrelated concepts for Aristotle",
+        "This difficulty concerns only geometrical figures, not first principles generally",
+        "Aristotle simply asserts that all principles exist only actually, resolving the matter without argument"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle raises the puzzle that if elements exist merely potentially, then nothing that is would be necessary, since potency is prior to actuality and not everything potential need become actual - implying it is possible that everything which is might not be, a troubling consequence for the priority and necessity of first principles."
+    },
+    {
+      "q": "Why does Aristotle argue that if the first principles are universal, they cannot be substances?",
+      "options": [
+        "Because whatever is a substance is a 'this' (a determinate particular), whereas whatever is common/universal indicates not a 'this' but a 'such' (a quality shared by many), so universal principles could not properly be substances",
+        "Because universals do not really exist in any sense, according to Aristotle",
+        "Because only mathematical objects can be universal, and mathematical objects are never substances",
+        "Because being universal makes something eternal, and eternal things cannot be principles"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle reasons that substance is always a 'this' - a determinate particular thing - while a universal or common predicate indicates a 'such,' a quality or kind shared by many; therefore, if the principles were universal in this sense, they could not be substances, since substance requires being a determinate 'this.'"
+    }
+  ],
+  "META_B4_Ch1": [
+    {
+      "q": "How does Aristotle distinguish the new science he is introducing in Book IV from the 'special sciences' like mathematics or natural science?",
+      "options": [
+        "The special sciences investigate being as being universally, while this new science studies only a specific subject matter",
+        "The special sciences cut off a part of being and investigate only the attributes of that part, whereas this science investigates being qua being and the attributes belonging to it in virtue of its own nature, i.e. universally",
+        "There is no real distinction; Aristotle treats this new science as simply a branch of mathematics",
+        "The special sciences study unchanging things, while this science studies only changing, material things"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle opens Book IV by declaring there is a science which studies being as being and its essential attributes, unlike the special sciences (e.g. mathematics), which each 'cut off a part of being' and investigate only the attributes of that particular part."
+    },
+    {
+      "q": "Why does Aristotle conclude that grasping the first causes and principles requires studying 'being as being' rather than any particular kind of being?",
+      "options": [
+        "Because first causes and highest principles must belong to something in virtue of its own nature, and since earlier philosophers sought the elements of existing things as such, the elements they sought must be elements of being qua being, not of any restricted subset of being",
+        "Because Aristotle believes first causes apply only to mathematical objects, which alone count as 'being'",
+        "Because natural science already fully investigates first causes, making a further universal science unnecessary",
+        "Because being as being is identical to non-being, so studying either yields the same causes"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle reasons that since we seek the first principles and highest causes, there must be some subject to which these belong per se; and since earlier seekers of the elements of existing things were seeking these same principles, the elements sought must belong to being qua being, not to a restricted part of it."
+    },
+    {
+      "q": "What is the significance of Aristotle framing metaphysics as the study of 'being qua being' rather than 'being in general' or 'a particular being'?",
+      "options": [
+        "It signals that this science studies the attributes that belong to anything precisely insofar as it exists, rather than restricting itself, as the special sciences do, to some delimited portion of reality (e.g. quantity, or living things)",
+        "It signals that metaphysics excludes the study of substance entirely, focusing solely on accidents",
+        "It signals that 'being' has no more than one sense, unlike what is argued in Chapter 2",
+        "It signals that this science is identical to theology and has no connection to the study of causes"
+      ],
+      "correct": 0,
+      "explanation": "By specifying 'being qua being,' Aristotle marks off his new universal science from the special sciences, which each carve off one portion of being (e.g. quantity for mathematics) and study only the attributes proper to that portion, rather than what belongs to anything simply insofar as it is."
+    }
+  ],
+  "META_B4_Ch2": [
+    {
+      "q": "How does Aristotle use the analogy of things called 'healthy' to explain the many senses in which things are said 'to be'?",
+      "options": [
+        "Just as things are called 'healthy' in different but related ways (preserving health, producing it, being a symptom of it), so things are said 'to be' in many senses that all relate to one central thing - substance - not by mere ambiguity",
+        "The analogy shows that 'being' has as many completely unrelated meanings as 'healthy' does, with no common reference point",
+        "The analogy is used to prove that only living, healthy things truly exist",
+        "The analogy demonstrates that medicine, not philosophy, should study being as being"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that just as 'healthy' applies to diet, complexion, or medicine each in a different but related way (all relative to health), so 'being' is said in many senses which are 'related to one central point' - namely substance - meaning there is one science of being despite its many senses, i.e. being is said 'pros hen' (in relation to one thing)."
+    },
+    {
+      "q": "Why does Aristotle conclude it is the job of one science - not several - to investigate all the many senses of 'being' and 'unity', along with related concepts like sameness, otherness, and contrariety?",
+      "options": [
+        "Because a science covers not just things sharing one strict definition but also things related to one common nature (as in the 'healthy' example); since all the varied senses of being and unity relate back to a primary sense, one science generically can study their essence and properties",
+        "Because being and unity are completely univocal terms with a single fixed definition, unlike 'healthy'",
+        "Because dialecticians, not philosophers, are properly responsible for investigating these concepts",
+        "Because these terms have no relation to substance and can therefore be studied independently of it"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle explains that a science can investigate not only strictly univocal terms but also terms 'related to one common nature'; since being and unity (and derivative notions like sameness, otherness, contrariety) all relate to a primary sense, it belongs to a single science - the science of being qua being - to study them all."
+    },
+    {
+      "q": "How does Aristotle distinguish the philosopher's study of being from the sophist's and the dialectician's, even though all three appear to discuss the same universal subject matter?",
+      "options": [
+        "The sophist and dialectician study only mathematics, while the philosopher alone studies physics",
+        "Dialectic is merely critical/testing, and sophistic is only apparent wisdom pursued for a different purpose (like reputation or profit), whereas philosophy claims genuinine knowledge of being qua being and pursues truth as its purpose",
+        "There is no real distinction; sophistry, dialectic, and philosophy are the same discipline",
+        "The dialectician alone possesses genuine knowledge, unlike the philosopher who merely tests opinions"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that dialectic, sophistic, and philosophy all range over being as their common subject, but differ in function and purpose: dialectic is 'merely critical' (testing claims dialectically), sophistic is Wisdom only in semblance pursued for the wrong purpose, while philosophy alone genuinely claims to know."
+    }
+  ],
+  "META_B4_Ch3": [
+    {
+      "q": "Why does Aristotle argue that investigating logical axioms (like the principle of non-contradiction) belongs to the philosopher who studies being qua being, rather than to a special science like geometry or arithmetic?",
+      "options": [
+        "Because axioms are true of everything that is, not merely of some restricted genus, so they hold for being as being; since the philosopher studies primary and universal substance, examining these universally applicable truths falls to him, not to specialists who only use them within their own restricted domain",
+        "Because geometers and arithmeticians explicitly claim ownership of the axioms, forcing philosophy to compete with them",
+        "Because axioms are false in most cases and thus require philosophical refutation rather than mathematical use",
+        "Because only physics, being 'first philosophy,' has authority over logical axioms"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle reasons that axioms hold for everything that is (being qua being) and are used by all sciences only within the limits of their own subject matter without questioning their truth; since these axioms concern being universally, investigating them belongs to the philosopher who studies being as being, i.e. the universal, primary science."
+    },
+    {
+      "q": "What definition does Aristotle give of the principle of non-contradiction, and what makes it, in his view, the 'most certain of all principles'?",
+      "options": [
+        "The same attribute cannot at the same time belong and not belong to the same subject in the same respect; it is most certain because it is impossible to be mistaken about it, it is best known, and it is non-hypothetical - required for understanding anything at all",
+        "Something either exists or does not exist, and this principle can be proven by appeal to sense experience alone",
+        "Every statement must be either mathematically provable or entirely meaningless, making non-contradiction a corollary of mathematical logic",
+        "The principle applies only to logical statements, not to real existing things, making it purely a rule of language"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle states the principle as: 'the same attribute cannot at the same time belong and not belong to the same subject and in the same respect.' He argues it is the most certain of all because one cannot be mistaken about it, it must already be understood by anyone who understands anything, and it is not derived from some more basic hypothesis."
+    },
+    {
+      "q": "According to Aristotle, why is it impossible for someone to genuinely believe that the same thing both is and is not, even if some (like Heraclitus) seem to say so?",
+      "options": [
+        "Because what a person says is not necessarily what they believe, and since contrary opinions cannot be held by the same person about the same thing at the same time, no one can actually hold contradictory beliefs simultaneously, regardless of what they claim to assert verbally",
+        "Because Heraclitus never actually made any statements about contradiction, so the objection is moot",
+        "Because belief and speech are entirely unrelated for Aristotle, making the question irrelevant",
+        "Because contradictory beliefs are possible but extremely rare, occurring only in dreams"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that stating something is not the same as believing it, and since holding contrary opinions at once is impossible (an opinion contradicting another is itself its contrary), no one can, in fact, simultaneously believe that the same thing both is and is not, whatever a philosopher like Heraclitus might say."
+    }
+  ],
+  "META_B4_Ch4": [
+    {
+      "q": "How does Aristotle respond to those who demand that even the principle of non-contradiction be demonstrated?",
+      "options": [
+        "He agrees and provides a full deductive proof of the principle from more basic axioms",
+        "He argues that demanding proof of literally everything reflects a lack of education, since it would lead to infinite regress with no demonstration ever completing; instead he offers a 'negative demonstration' that refutes the denier as long as the opponent says something meaningful",
+        "He simply refuses to engage with anyone who raises the demand, dismissing them without response",
+        "He claims the principle is self-evidently true by direct sense-perception alone, requiring no argument"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle says demanding demonstration of everything betrays a lack of education, since not everything can be demonstrated (this would produce infinite regress); instead, he offers a negative proof that works so long as the opponent 'says something significant,' since meaningful speech itself presupposes the principle."
+    },
+    {
+      "q": "In Aristotle's 'negative demonstration' against deniers of non-contradiction, what is the crucial first concession the opponent must make?",
+      "options": [
+        "That the word he uses (e.g. 'man') has some definite, single meaning - since without this, he could not communicate anything intelligible to himself or another, and reasoning would become impossible",
+        "That all statements are equally true and false from the start, granting the opponent's position outright",
+        "That sense-perception is the sole criterion of truth, which the opponent must accept before any argument begins",
+        "That the principle of excluded middle is false, which the opponent must grant before any refutation can proceed"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle's argument turns on the requirement that the opponent's words signify something definite and singular - if 'man' has one meaning (e.g. 'two-footed animal'), then it cannot also mean 'not-man' at the same time, since this would collapse all distinct meanings into one, making reasoning and communication impossible."
+    },
+    {
+      "q": "What consequence does Aristotle draw from the view that all contradictory statements can be true of the same subject at once, using the example of a man, a trireme, and a wall?",
+      "options": [
+        "It would follow that all things are one - a man would be a trireme and a wall too, since if one may affirm and deny anything of anything, distinctions between things collapse entirely, reducing to something like Anaxagoras's claim that all things are mixed together",
+        "It would only affect statements about abstract objects, leaving concrete things like men and ships unaffected",
+        "It would prove that Protagoras was correct that all appearances are equally true without further consequence",
+        "It would show that non-contradiction applies only to mathematical objects, not to physical objects like men or ships"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that if all contradictories are true together, then denying a man is a trireme would itself be false, so he 'is' a trireme too - and by extension everything collapses into being identical with everything else, echoing (and criticizing) Anaxagoras's doctrine that 'all things are mixed together,' so that 'nothing really exists.'"
+    }
+  ],
+  "META_B4_Ch5": [
+    {
+      "q": "According to Aristotle, what observation of the natural world led some thinkers to conclude that contradictories can be true at the same time?",
+      "options": [
+        "They observed contraries coming into existence out of the same underlying thing (e.g., as in Anaxagoras's 'all is mixed in all' or Democritus's void and full existing in every part), reasoning that the thing must therefore have possessed both contrary states already",
+        "They observed that mathematical objects behave inconsistently under measurement",
+        "They observed that the same person can hold two different jobs simultaneously",
+        "They observed that most philosophers before them disagreed with one another about everything"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle explains that some were led to this view by observing contraries emerging from the same source (as Anaxagoras says 'all is mixed in all,' and Democritus holds the void and the full exist together everywhere), reasoning that if something cannot come from what-is-not, the thing must already have possessed both contrary states."
+    },
+    {
+      "q": "How does Aristotle respond to the relativist argument that, since the same thing tastes sweet to some and bitter to others (or seems different to the sick versus the healthy, or to animals versus humans), there is no fixed truth about how things really are?",
+      "options": [
+        "He rejects the premise outright, insisting that all people always perceive things identically",
+        "He argues that not all judges are equally competent (e.g., the physician's judgment about health outweighs the layman's), and that senses are authoritative only regarding their proper objects under proper conditions, so appearances vary due to differing conditions/subjects, not because there is no truth about the object itself",
+        "He agrees fully with the relativists and concludes there is no truth accessible to anyone",
+        "He argues that only mathematical truths are objective, while all sensory truths are entirely relative"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that some judgments are more authoritative than others (e.g. a physician's opinion on health versus an ignorant person's), and that each sense is authoritative concerning its proper object under proper conditions - so apparent disagreement reflects varying subjects/conditions, not the absence of an underlying truth about the substrata that cause sensation."
+    },
+    {
+      "q": "What is Aristotle's key objection to the view - traceable to Empedocles, Parmenides, and others - that identifies knowledge with sensation and sensation with mere physical alteration?",
+      "options": [
+        "He argues this conflates two different things and leads to absurd relativism about truth, since it makes truth itself change whenever the perceiver's bodily state changes, yet he insists the sensible substrata causing sensation must exist independently of and prior to the sensation itself",
+        "He fully endorses this view as the correct account of knowledge",
+        "He argues sensation and knowledge are entirely unrelated, with no bearing on one another at all",
+        "He claims that only Democritus, and no one else, held this view about knowledge and sensation"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle criticizes the identification of knowledge with sensation-as-alteration because it implies truth changes with bodily states (as in the poems of Empedocles and Parmenides he quotes), yet insists sensation is not sensation of itself - there must be an independently existing substratum, prior in nature to the sensation, that causes it."
+    }
+  ],
+  "META_B4_Ch6": [
+    {
+      "q": "How does Aristotle respond to those who ask 'who is to judge who is healthy' or generally who judges rightly, comparing this to puzzling over whether we are asleep or awake?",
+      "options": [
+        "He takes the question extremely seriously and devotes the chapter to establishing an infallible judge for all disputes",
+        "He treats such questions as misguided: those who ask them seek a demonstration for things which by nature admit no demonstration, since the starting point of demonstration cannot itself be demonstrated - yet their own actions betray that they do not truly hold such skeptical convictions",
+        "He argues that only philosophers, and no other class of people, can ever judge correctly about anything",
+        "He claims sleep and waking are indistinguishable, vindicating the skeptic's position"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle compares such questions to puzzling whether we are asleep or awake, arguing that those who demand a reason/demonstration for everything misunderstand that the starting point of demonstration is not itself demonstrable, and points out that their own actions (e.g., avoiding danger) show they don't actually believe their professed skepticism."
+    },
+    {
+      "q": "What crucial qualification does Aristotle insist relativists must add to the claim 'what appears is true,' to avoid self-contradiction?",
+      "options": [
+        "They must add nothing; the bare claim 'what appears is true' is already fully coherent as stated",
+        "They must specify that what appears is true only 'for him to whom it appears, and when, and to the sense to which, and under the conditions under which it appears' - otherwise the same thing (e.g. honey appearing sweet to taste but not to sight) generates outright contradictions",
+        "They must restrict the claim to apply only to mathematical appearances, excluding all sensory appearances",
+        "They must abandon the claim about appearances entirely and adopt the opposite view that nothing ever appears true"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that relativists, to avoid self-contradiction (e.g. honey appearing sweet to taste yet not sweet-looking to sight, or crossed fingers making one object feel like two), must qualify their claim with relativizing conditions - to whom, when, by which sense, under what conditions - making everything relative to a perceiver rather than a straightforward truth."
+    },
+    {
+      "q": "What does Aristotle say follows if a thing is always relative 'to one thing or a definite number of things', applied to the claim that man and the object of thought are simply identical to 'what is thought'?",
+      "options": [
+        "It follows smoothly with no problematic consequence, fully vindicating relativism about thought and its objects",
+        "It follows that man would not be 'that which thinks' but merely 'that which is thought', and if everything is relative to that which thinks, then that which thinks becomes relative to an indefinitely, indeed infinitely, varied set of distinct things - an absurd result",
+        "It follows that thought and its object are entirely separate substances with no relation at all",
+        "It follows that only mathematical objects, not human minds, can be objects of thought"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that if man (as thinker) is simply identified with what is relative to thought, then paradoxically man becomes merely 'that which is thought' rather than 'that which thinks'; and if everything must be relative to some one thing that thinks, that thinking subject ends up relative to an unmanageably vast, indeterminate multiplicity of things."
+    }
+  ],
+  "META_B4_Ch7": [
+    {
+      "q": "What argument does Aristotle give against the possibility of a genuine 'intermediate' between contradictory statements (e.g., between 'is white' and 'is not white')?",
+      "options": [
+        "He shows that grey is a real intermediate between black and white, proving intermediates between contradictories do exist in some cases",
+        "He argues that if there were an intermediate like something 'neither man nor horse,' it could never change into either extreme, yet in fact all things move only between contraries and their intermediates; and by his own definitions of true and false (saying of what is, that it is, or of what is not, that it is not), one must always either affirm or deny, leaving no room for a genuine third option",
+        "He claims contradictories always have intermediates in the case of quality but never in the case of quantity",
+        "He agrees fully with Anaxagoras that everything is an intermediate mixture, avoiding all contradiction"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues from his definitions of truth and falsity (asserting what is or denying what is not, vs. the reverse) that one must always either affirm or deny a predicate of a subject; he also notes that positing a genuine intermediate between contradictories (unlike grey between black and white, which are contraries, not contradictories) would make change between extremes impossible, contrary to observation, and would lead to infinite regress of further intermediates."
+    },
+    {
+      "q": "How does Aristotle use the case of numbers (odd and not-odd) to refute the idea that there is always an intermediate between contradictory terms?",
+      "options": [
+        "He shows that some numbers are indeed both odd and not-odd simultaneously, vindicating the intermediate view",
+        "He points out that if intermediates existed for every contradictory pair, there would have to be a number that is neither odd nor not-odd, which is impossible by definition, since every number just is either odd or not-odd with nothing in between",
+        "He argues that odd and even numbers are unrelated to the general problem of contradictories and intermediates",
+        "He claims that only infinite numbers, not finite ones, could serve as an intermediate between odd and not-odd"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that if every negation implied an intermediate, there would have to be, absurdly, 'a number which is neither odd nor not-odd' - which is impossible given the very definition of number as either odd or not, demonstrating that contradictories (unlike some contraries) admit no intermediate."
+    },
+    {
+      "q": "According to Aristotle, how do the views of Heraclitus and Anaxagoras represent opposite errors regarding truth and contradiction?",
+      "options": [
+        "Heraclitus's view that all things both are and are not tends to make everything true, while Anaxagoras's view that there is an intermediate between contradictory terms (since 'the mixture is neither good nor not-good') tends to make everything false, since nothing determinate could then be truly asserted",
+        "Both thinkers held identical views, differing only in terminology",
+        "Heraclitus made everything false, while Anaxagoras made everything true, the reverse of the correct characterization",
+        "Neither thinker's view has any bearing on the question of contradiction or intermediates"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle concludes the chapter by contrasting Heraclitus's doctrine that all things are and are not (tending to make 'everything true') with Anaxagoras's implied doctrine of an intermediate between contradictories (since a mixture is 'neither good nor not-good'), which tends to make 'everything false,' since no determinate assertion could then be true."
+    }
+  ],
+  "META_B4_Ch8": [
+    {
+      "q": "How does Aristotle refute the extreme view that 'nothing is true' by pointing to its self-referential structure?",
+      "options": [
+        "He shows that the statement 'nothing is true' is itself an assertion, and if it is true, then something is true (namely that statement itself), contradicting its own content - and similarly the view that 'everything is true' makes even its own contrary (that not everything is true) true, which is likewise self-defeating",
+        "He argues that 'nothing is true' can never be refuted because refutation itself presupposes truth exists",
+        "He agrees that nothing is true and abandons his own doctrine of substance as a result",
+        "He shows the view is simply a harmless linguistic convention with no real philosophical content"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues these one-sided theories 'destroy themselves': the person who says everything is true thereby also makes the contrary statement (that not everything is true) true, undermining his own thesis, while the person who says everything is false makes his own statement false too, since it is itself a statement."
+    },
+    {
+      "q": "What is Aristotle's response to those who claim that either everything is at rest or everything is in motion?",
+      "options": [
+        "He simply agrees with both claims as equally valid perspectives on the same reality",
+        "He argues that if all things are always at rest, the same statements would always be true or false without change, which is empirically false since speakers themselves come into and go out of existence; and if all things are always in motion, nothing could be true (since change requires something stable to change from and to), but there must be an unmoved first mover of things in motion",
+        "He claims motion and rest are illusions produced solely by sense-perception, with no bearing on truth",
+        "He argues this question is entirely outside the scope of first philosophy and belongs only to physics"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle rejects both extremes: universal rest is refuted by the fact that speakers themselves change over time (contradicting fixed eternal truth-values), while universal motion would make truth impossible since change is always 'from something to something' requiring stability; he also asserts there must be an unmoved first mover behind things in motion."
+    },
+    {
+      "q": "What general methodological principle does Aristotle use throughout Book IV, Chapter 8 to refute deniers of the law of non-contradiction and related skeptical views?",
+      "options": [
+        "He appeals purely to religious authority to settle the dispute",
+        "He insists that any meaningful assertion presupposes that something has a definite meaning, and shows that the skeptical positions, when followed to their logical conclusions, undermine or contradict their own assertions, thus refuting themselves",
+        "He relies exclusively on empirical experiments to disprove the skeptics",
+        "He simply asserts his own view as self-evident without engaging the skeptical arguments at all"
+      ],
+      "correct": 1,
+      "explanation": "Throughout the chapter, Aristotle's strategy is to show that positions like 'everything is true,' 'everything is false,' 'all is at rest,' or 'all is in motion' are self-undermining once their logical implications for the speaker's own assertions are traced out, consistent with his earlier method of requiring an opponent's words to have definite significance."
+    }
+  ],
+  "META_B8_Ch1": [
+    {
+      "q": "According to Aristotle, what does 'matter' mean in the context of sensible substance?",
+      "options": [
+        "That which, not being a 'this' actually, is potentially a 'this'",
+        "The genus from which a species is derived",
+        "Whatever is eternal and unchanging in a thing",
+        "The formula that expresses a thing's essence"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle defines matter as that which is not actually a particular thing but is potentially one, distinguishing it from the formula/shape and from the composite of both."
+    },
+    {
+      "q": "Why does Aristotle say matter must be counted as a kind of substance?",
+      "options": [
+        "Because matter alone survives generation and destruction unchanged",
+        "Because in every kind of change something underlies the change as a substratum, and in substantial change this substratum persists through generation and destruction",
+        "Because matter is separable and a 'this' in its own right",
+        "Because Plato's Forms are composed of matter"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that in place, quantity, and qualitative change, as well as substantial change, something underlies the alteration, and this underlying substratum is why matter counts as substance."
+    },
+    {
+      "q": "What three senses of 'substance' does Aristotle distinguish for sensible things at the start of Book VIII?",
+      "options": [
+        "Genus, species, and difference",
+        "Matter, form (or shape), and the compound of matter and form",
+        "Potentiality, actuality, and privation",
+        "Essence, definition, and accident"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle states substance is the substratum in the sense of matter, the formula or shape, and thirdly the complex of the two, which alone is subject to generation and destruction."
+    }
+  ],
+  "META_B8_Ch2": [
+    {
+      "q": "What point does Aristotle make by listing many kinds of differentiae (composition, binding, gluing, position, time, place, affections)?",
+      "options": [
+        "That Democritus's threefold scheme of shape, position, and order is insufficient, since 'being' is said in as many ways as there are such differentiae",
+        "That all sensible things ultimately reduce to atoms differing only in shape",
+        "That matter alone accounts for the being of composite things",
+        "That differentiae are irrelevant to defining sensible substances"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle criticizes Democritus's reduction of difference to shape, position, and order, showing instead that things differ in many additional ways, so 'is' has correspondingly many meanings."
+    },
+    {
+      "q": "In Aristotle's example, what distinguishes those who define a house as 'bricks and timbers' from those who define it as 'a receptacle to shelter chattels and living beings'?",
+      "options": [
+        "The first group defines the potential (matter), the second the actuality (form); a full definition combines both",
+        "The first defines the form, the second the matter",
+        "Both groups are describing the same thing, matter, from different angles",
+        "The first is correct and the second mistaken, since only matter is real"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle says the material definition describes the potential house, the functional definition describes the actuality, and the best definition (like Archytas's) unites matter and form."
+    },
+    {
+      "q": "What is the point of the examples 'still weather' (absence of motion in air) and 'calm' (smoothness of sea)?",
+      "options": [
+        "To show that some things exist without any matter at all",
+        "To illustrate that even natural, non-artifact phenomena are best defined as a form/actuality present in a material substratum",
+        "To prove that meteorological phenomena are illusions",
+        "To argue that air and sea are themselves substances in the primary sense"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle uses these examples to show that even natural affections are composites of matter (air, sea) and actuality/form (absence of motion, smoothness), paralleling artifacts like the house."
+    }
+  ],
+  "META_B8_Ch3": [
+    {
+      "q": "Why does Aristotle say 'the syllable does not consist of the letters + juxtaposition' and 'man is not animal + biped'?",
+      "options": [
+        "Because juxtaposition or combination is itself something over and above the material elements, so simply naming the elements plus a relation still misses the substance",
+        "Because letters and animal/biped are not real components of syllables or men",
+        "Because syllables and men have no matter at all",
+        "Because the whole is always identical to the sum of its material parts"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that the combining factor (arrangement, position) is not itself constituted by the elements it combines, so there is something moreâ€”the substance or formâ€”beyond matter plus juxtaposition."
+    },
+    {
+      "q": "How does Aristotle respond to the Antisthenean view that a thing's 'what it is' cannot be defined, only compared (e.g., silver is 'like tin')?",
+      "options": [
+        "He agrees entirely and abandons definition",
+        "He concedes defeat but says definitions are useful fictions",
+        "He grants that the primary, simple elements cannot be defined, but the composite (of matter and form) can be defined, since definition predicates form of matter",
+        "He argues that only simple elements can be defined, never composites"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle allows that the Antistheneans have a point about primary simples, which cannot be defined by predicating one thing of another, but insists composite substances (form-in-matter) can be properly defined."
+    },
+    {
+      "q": "In comparing definitions to numbers, what does Aristotle mean by saying a definition, like a number, 'is no longer the same' if a part is added or subtracted?",
+      "options": [
+        "That definitions, unlike numbers, can lose or gain parts without changing",
+        "That both a definition and a number depend on a precise finite set of parts constituting a unity, so any change in parts changes the identity of the whole",
+        "That numbers are infinite while definitions are finite",
+        "That this analogy fails and Aristotle rejects it"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle draws the analogy that both definitions and numbers are unities of a definite, non-infinite set of parts, such that adding or removing even the smallest part yields a different definition or number."
+    }
+  ],
+  "META_B8_Ch4": [
+    {
+      "q": "What does Aristotle mean when he says that although all things may share the same first (ultimate) matter, 'there is a matter proper to each' thing?",
+      "options": [
+        "Each thing has a proximate matter specific to it (e.g., the sweet or fat for phlegm), even if all matters can ultimately be traced to a common origin",
+        "All things are made of literally identical matter with no distinctions",
+        "Only artifacts have proper matter; natural things do not",
+        "Proximate matter is irrelevant to causal explanation"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that while ultimate matter may be shared, each generated thing has its own proximate matter (like the fat or sweet for phlegm), and this proximate matter is what a causal inquiry should identify."
+    },
+    {
+      "q": "When Aristotle discusses the causes of eclipse and of sleep, what methodological point is he illustrating?",
+      "options": [
+        "That final causes are always the most important to state first",
+        "That one must seek the proximate, specific cause and matter appropriate to the phenomenon, not vague generalities, and that some natural substances (like the moon in eclipse) have no matter in the ordinary generative sense",
+        "That eclipses and sleep have no causes at all",
+        "That natural science cannot use the four causes framework"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle insists we must identify the proximate matter, moving cause, and formula specific to a phenomenon (e.g., the earth's interposition for eclipse), rather than resting content with generic answers."
+    },
+    {
+      "q": "Why does Aristotle say a saw cannot be made from wool or wood, even though a chest and a bed can both be made from wood?",
+      "options": [
+        "Because some products require matter with specific properties that only certain material can supply, unlike cases where the same matter can yield different products depending on the moving cause",
+        "Because the art of saw-making is inherently impossible",
+        "Because wood is not really matter",
+        "Because moving causes are irrelevant to material constraints"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle distinguishes cases where the same matter yields different products via different agents (wood into chest or bed) from cases where the product's nature requires a specific matter (a saw needs a material with cutting properties), showing matter and form are correlated."
+    }
+  ],
+  "META_B8_Ch5": [
+    {
+      "q": "Why does Aristotle deny that things like points have matter?",
+      "options": [
+        "Because points, and generally 'forms', are and are not without ever coming to be or ceasing to be, and only things that undergo change possess matter",
+        "Because points are too small to have matter",
+        "Because points are composed purely of actuality",
+        "Because Aristotle believes points do not exist"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle restricts matter to things that come to be and pass into one another; since points simply are or are not without a process of becoming, they lack matter."
+    },
+    {
+      "q": "Why, according to Aristotle, is a living man not called 'potentially dead', even though wine is called potentially vinegar in a qualified sense, and living things do die?",
+      "options": [
+        "Because death is impossible for the wise",
+        "Because the corruption involved (death, souring) is accidental, and the matter is potentially the corrupted state only via privation of the current form, not as a direct, per se potentiality",
+        "Because vinegar and corpses do not really come from wine and animals",
+        "Because Aristotle thinks all potentiality is symmetrical and reversible"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explains that a thing is matter for its contrary state only via privation and corruption of its current form; the relationship is accidental in ordinary speech, which is why we don't say a living man is 'potentially a corpse' in the same way we discuss health/disease."
+    },
+    {
+      "q": "What does Aristotle mean by saying that a corpse must first 'go back to its matter' before an animal is produced from it, just as vinegar must revert to water before becoming wine?",
+      "options": [
+        "That intermediate transformations pass through a more basic material state before the new form is imposed, rather than transforming directly from one specific form to its contrary",
+        "That corpses literally turn into water",
+        "That this process happens instantaneously without stages",
+        "That matter is destroyed in the process"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that transformations between contrary states proceed via reversion to a more basic underlying matter, not by direct transformation of one specific form into its opposite."
+    }
+  ],
+  "META_B8_Ch6": [
+    {
+      "q": "What is Aristotle's solution to the problem of the unity of definition (why 'animal' + 'biped' = one thing, 'man')?",
+      "options": [
+        "The problem is unsolvable and definitions are merely conventional",
+        "One element in the definition is matter (potentiality) and the other is form (actuality); the unity of matter and form as potency and actuality removes the need for a further unifying cause",
+        "The unity comes from the Forms of Animal-itself and Biped-itself combining",
+        "Unity is achieved only through linguistic convention, like the unity of the Iliad"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle resolves the puzzle by noting that the genus/differentia relation is really a matter/form relation, and matter as potentiality and form as actuality are already, in a sense, one thing, requiring no extra unifying principle."
+    },
+    {
+      "q": "How does Aristotle criticize theories that explain unity (of body and soul, knowledge and soul, etc.) via 'participation', 'communion', or 'composition'?",
+      "options": [
+        "He endorses all three terms as equally valid explanations",
+        "He argues these terms merely relabel the problem without answering it, since they still leave unexplained what causes the unity, whereas the matter-form/potency-act distinction actually answers it",
+        "He says only 'participation' is correct among the three",
+        "He claims none of these phenomena require unification at all"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that speaking of 'communion' or 'composition' just restates the difficulty rather than resolving it, while recognizing matter and form as potentially and actually the same thing dissolves the puzzle."
+    },
+    {
+      "q": "According to this chapter, what is the cause of a merely potential thing becoming actual, in cases of generation?",
+      "options": [
+        "Nothing; potentiality and actuality are identical from the start",
+        "Chance alone",
+        "The moving agent that brings about the change from potency to actuality",
+        "The Form-itself acting as an efficient cause"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle states that, apart from the inherent oneness of matter and form as potency and act, what causes a potential thing to become actual is the agent that produces the change, in the case of things that are generated."
+    }
+  ],
+  "META_B9_Ch1": [
+    {
+      "q": "What primary kind of potency does Aristotle identify as the source from which other senses of 'potency' derive?",
+      "options": [
+        "The potency of a number to be divided evenly",
+        "An originative source of change in another thing (or in the thing itself qua other), whether as a potency of acting or of being acted on",
+        "The mere logical possibility of a proposition being true",
+        "A geometrical relation of proportion between magnitudes"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies the primary potency as an originative source of change in something else, or in the thing itself considered as other, and treats potencies of acting and being acted on as derived from this core sense."
+    },
+    {
+      "q": "Why does Aristotle say that, strictly speaking, a thing cannot 'act on itself' as a fully organic unity?",
+      "options": [
+        "Because self-causation is logically contradictory in every sense",
+        "Because insofar as a thing is one unified whole rather than two distinct things, the potency to act and the potency to be acted on are not both present in the same undivided respect",
+        "Because only living things can act on themselves",
+        "Because potency is always located outside the thing it affects"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that the potency of acting is in the agent and the potency of being acted on is in the patient; a genuine organic unity is one thing, not an agent-patient pair, so it cannot act on itself in this strict sense."
+    },
+    {
+      "q": "How does Aristotle characterize 'privation' in this chapter?",
+      "options": [
+        "As simply the physical absence of matter",
+        "As identical with potency itself",
+        "As the state of lacking a quality that a thing might naturally have, whether entirely, partially, or through violent loss of what it naturally possessed",
+        "As a term with only one single, unambiguous meaning"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle distinguishes several senses of privation: lacking a quality altogether, lacking it though it would be natural to have it, lacking it completely or partially, and losing it through violence, all contrasted with the corresponding potency."
+    }
+  ],
+  "META_B9_Ch2": [
+    {
+      "q": "Why can rational potencies (like the medical art) produce contrary effects, while non-rational potencies (like heat) produce only one effect?",
+      "options": [
+        "Because rational potencies are weaker and therefore less determinate",
+        "Because a rational formula in the soul, which explains both a positive state and its privation, can be directed by desire or choice toward either of two contrary outcomes, whereas a non-rational power like heat only ever produces heating",
+        "Because non-rational potencies do not really exist",
+        "Because the medical art has no real connection to disease"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explains that a single science or rational formula covers both a thing and its privation (health and disease), so the possessor of the rational potency can produce either effect, unlike a non-rational power such as heat, which produces only heating."
+    },
+    {
+      "q": "Why does Aristotle say a science 'deals with' both a thing and its contrary, but not in the same way?",
+      "options": [
+        "Because the science applies to the positive term per se (in virtue of its own nature) and to the contrary only accidentally, by way of denial and removal of the positive term",
+        "Because sciences apply equally and directly to both terms in every respect",
+        "Because contraries are actually identical to each other according to Aristotle",
+        "Because the science is indifferent to which term is primary"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle states that the rational formula applies to the positive object per se and to the privative contrary only in a derivative or accidental sense, since the contrary is understood as the removal of the positive term."
+    },
+    {
+      "q": "What relationship does Aristotle draw between 'doing a thing' and 'doing it well'?",
+      "options": [
+        "Doing a thing well always requires a separate potency unrelated to doing it at all",
+        "Whoever does a thing well must also simply do it, but not everyone who merely does it also does it well",
+        "Doing a thing merely is a higher potency than doing it well",
+        "There is no meaningful relationship between the two"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that the potency of doing something well presupposes and implies the potency of merely doing it, but the reverse does not hold."
+    }
+  ],
+  "META_B9_Ch3": [
+    {
+      "q": "What is the Megaric position that Aristotle attacks in this chapter?",
+      "options": [
+        "That potency is identical with matter",
+        "That a thing 'can' act only when it actually is acting, so, e.g., a non-building person cannot build",
+        "That actuality precedes potency in every sense",
+        "That potency applies only to natural, not artificial, things"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle reports the Megaric view that capacity exists only while being exercised (one 'can' build only while building), and sets out to refute it as absurd."
+    },
+    {
+      "q": "What absurd consequence does Aristotle draw from the Megaric view regarding a builder who has stopped building?",
+      "options": [
+        "That the builder becomes better at building the longer he rests",
+        "That it becomes impossible to explain how the builder could ever build again, since on this view he would no longer 'have' the art once he ceased exercising it, yet he could resume building immediately",
+        "That the builder must relearn the art from a different teacher each time",
+        "That the Megaric view is actually correct and unproblematic"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that if capacity exists only in the exercising, a builder who stops building would lose the art entirely and could not explain how he can immediately build again without relearning it."
+    },
+    {
+      "q": "How does Aristotle define what it means for a thing to be 'capable' of some state or action?",
+      "options": [
+        "A thing is capable of X only while it is actually doing or being X",
+        "A thing is capable of X if nothing impossible results from supposing that it actually has the actuality it is said to have the capacity for",
+        "Capacity is purely a matter of external permission or absence of obstacles, unrelated to the thing's own nature",
+        "Capacity cannot be defined and is a primitive, unanalyzable notion"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines capacity in terms of the absence of any impossibility following from the supposition that the potential state is actual, distinguishing potency clearly from actuality against the Megarics who collapsed the two."
+    }
+  ],
+  "META_B9_Ch4": [
+    {
+      "q": "What distinction does Aristotle draw between something being 'false' and something being 'impossible'?",
+      "options": [
+        "He treats false and impossible as strictly synonymous terms",
+        "A statement can be false without being impossible (e.g., 'you are standing' when you are not), whereas an impossible statement (like the diagonal being commensurable) could never be true under any circumstances",
+        "Impossibility is simply a stronger degree of falsity, differing only in intensity",
+        "Falsity applies only to future events, impossibility only to past events"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle distinguishes a merely false present state of affairs (which could have been otherwise) from a genuinely impossible one (like measuring the diagonal of a square commensurately), showing these are not the same category."
+    },
+    {
+      "q": "What logical principle does Aristotle establish regarding possibility and necessary consequence (if A entails B)?",
+      "options": [
+        "If A's reality necessitates B's reality, then A's mere possibility also necessitates B's possibility",
+        "Possibility and necessity are entirely unrelated concepts in this argument",
+        "If A is impossible, B must be possible",
+        "Necessary consequence only holds for actual, not possible, states of affairs"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that if the reality of A entails the reality of B, then the possibility of A must likewise entail the possibility of B, using a reductio to show the alternative leads to contradiction."
+    },
+    {
+      "q": "Why does Aristotle say that the diagonal of a square being measured (in whole numbers relative to the side) is impossible, even though someone might claim it is 'possible but will not happen'?",
+      "options": [
+        "Because measuring is only impossible for very large squares",
+        "Because supposing the diagonal actually measured commensurately leads to a genuine contradiction, unlike merely false but possible states of affairs",
+        "Because Aristotle denies that diagonals exist",
+        "Because measurement is a purely subjective human activity"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle uses the incommensurability of the diagonal as an example of true impossibility, where supposing it realized produces contradiction, unlike a mere unrealized possibility."
+    }
+  ],
+  "META_B9_Ch5": [
+    {
+      "q": "How does Aristotle distinguish potencies that are acquired 'by practice' or 'by learning' from those that are innate, like the senses?",
+      "options": [
+        "Innate potencies require exercise beforehand to be acquired, while learned ones do not",
+        "Potencies gained by practice (e.g., flute-playing) or learning (e.g., artistic skill) require prior exercise to be acquired, unlike innate potencies such as the senses, which do not",
+        "There is no real distinction; all potencies are acquired identically",
+        "Innate potencies are always superior to learned ones"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that potencies coming from practice or rational instruction must be acquired through prior exercise, in contrast to innate potencies like sense-perception, which are simply possessed by nature."
+    },
+    {
+      "q": "Why does Aristotle say something extra beyond a rational potency itself is needed to explain why an agent produces one of two contrary effects rather than both at once?",
+      "options": [
+        "Because rational potencies could otherwise produce contrary effects simultaneously, which is impossible, so there must be a further determining factor, namely desire or will/choice",
+        "Because rational potencies never actually produce any effect",
+        "Because chance alone decides which effect occurs",
+        "Because non-rational potencies also need a similar determining factor"
+      ],
+      "correct": 0,
+      "explanation": "Since a rational potency covers both of two contraries, Aristotle argues desire or deliberate choice must decide which effect is actually produced, since producing both simultaneously is impossible."
+    },
+    {
+      "q": "According to Aristotle, under what conditions must an agent with a rational potency act, when it desires to do so?",
+      "options": [
+        "It must act unconditionally, regardless of circumstances",
+        "It must act whenever the passive object is present in the appropriate condition and it desires decisively to act, given the potency's necessary conditions (including absence of external hindrance)",
+        "It can never act on rational potencies, only non-rational ones",
+        "Desire is irrelevant to whether a rational potency is exercised"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle specifies that when the agent decisively desires the action and the relevant passive object is present in the right condition (with no external hindrance, already implied in the potency's definition), the agent must act."
+    }
+  ],
+  "META_B9_Ch6": [
+    {
+      "q": "How does Aristotle propose we grasp the meaning of 'actuality' rather than through a strict definition?",
+      "options": [
+        "Through a strict logical definition applicable to all cases uniformly",
+        "By induction and analogy across particular cases, e.g., as building is to being capable of building, or waking to sleeping, or seeing to having eyes shut but retaining sight",
+        "Through mathematical proof alone",
+        "By appeal to sense perception exclusively"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle says we should not seek a single definition covering everything but should grasp the analogy through particular cases like building/capable-of-building, waking/sleeping, and seeing/having-sight-but-eyes-shut."
+    },
+    {
+      "q": "What is the key distinction Aristotle draws between a 'movement' (like walking or building) and a 'complete actuality' (like seeing or thinking)?",
+      "options": [
+        "Movements are always faster than actualities",
+        "A movement is incompleteâ€”one cannot simultaneously be walking and have walkedâ€”whereas in a complete actuality like seeing, one simultaneously is seeing and has seen",
+        "There is no real distinction between the two categories",
+        "Actualities always involve physical motion, while movements do not"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle distinguishes incomplete movements (walking, building, learning), where doing and having-done cannot coincide, from complete actualities (seeing, thinking, living well), where the doing and the having-done are simultaneous."
+    },
+    {
+      "q": "How does Aristotle explain the sense in which the infinite (or the void) exists 'potentially'?",
+      "options": [
+        "The infinite exists potentially in the same way ordinary objects like a house do, as something that can become fully actual",
+        "The infinite exists potentially only in the sense that division never comes to an end, not in the sense that it will ever exist as a separate actualized whole",
+        "The infinite is fully actual and separately existing",
+        "The infinite does not exist in any sense, potential or actual"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle clarifies that the infinite's potential existence is unlike ordinary potentiality that can be fully actualized; it exists potentially only insofar as a process of division can always continue, not as something that could ever be actually completed."
+    }
+  ],
+  "META_B9_Ch7": [
+    {
+      "q": "Why does Aristotle deny that earth is simply and always potentially a man?",
+      "options": [
+        "Because earth can never become anything else",
+        "Because something is potentially X only when it has reached the appropriate proximate stage (e.g., seed) from which it could become X through its own or an external principle, not at just any arbitrary prior stage",
+        "Because potentiality applies only to artifacts, not natural kinds",
+        "Because Aristotle denies that men come from any material process"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that potentiality is relative to a definite stage of proximate readinessâ€”earth is not yet potentially a man, and even seed is only potentially a man once it has acquired the right internal principle after being deposited appropriately."
+    },
+    {
+      "q": "What distinction does Aristotle draw between things whose source of becoming is external (like a house) and things whose source of becoming is internal (like an animal from seed)?",
+      "options": [
+        "External-source things are called potentially X when nothing in the matter itself prevents the change; internal-source things are potentially X only once their own internal motive principle has developed appropriately",
+        "There is no meaningful difference between the two cases",
+        "Internal-source things never truly change",
+        "External-source things can never be said to exist potentially"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that a house's matter needs only the absence of internal obstacles to be potentially a house, while a seed needs to develop its own internal motive principle before it is truly potentially the mature organism."
+    },
+    {
+      "q": "What is the significance of Aristotle's discussion of 'thaten' (e.g., a casket is 'wooden' not 'wood', wood is 'earthen' not 'earth')?",
+      "options": [
+        "It shows that all predicates are equally fundamental with no hierarchy",
+        "It illustrates a hierarchy of matter, where each material is potentially the next thing in the series, terminating (if there is a first term) in prime matter, which is not itself a 'this'",
+        "It proves that language has no bearing on metaphysical distinctions",
+        "It shows that 'thaten' terms apply only to accidents, never to matter"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle uses the 'thaten' locution (wooden, earthen) to trace a chain of matter, each item being the proximate matter for what comes after it, potentially terminating in prime matter, which lacks the character of a determinate 'this'."
+    }
+  ],
+  "META_B9_Ch8": [
+    {
+      "q": "In what senses does Aristotle argue actuality is prior to potency?",
+      "options": [
+        "Only prior in time, but posterior in formula and substantiality",
+        "Prior in formula (potency is defined in terms of the corresponding actuality), prior in time in a qualified sense (an actual thing of the same species precedes a potential one), and prior in substantiality (the end/actuality is what the potency exists for)",
+        "Posterior in all three sensesâ€”formula, time, and substantiality",
+        "Neither prior nor posterior; the two are strictly simultaneous always"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues actuality precedes potency in formula (since potency is defined by reference to actuality), in a qualified temporal sense (an actual man precedes potential man-i.e. seed, produced by an already-actual man), and in substantiality, since actuality is the end for which the potency exists."
+    },
+    {
+      "q": "Why does Aristotle say that eternal things cannot exist potentially in the full sense?",
+      "options": [
+        "Because every potency is a potency for opposites (being or not-being), so anything capable of not-being is perishable in some respect; but eternal, imperishable things cannot admit of not-being, hence they are always actual",
+        "Because eternal things are pure matter without form",
+        "Because potentiality applies only to artificial things, never to natural or eternal things",
+        "Because Aristotle believes eternal things do not truly exist"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle reasons that since potency for X always implies potency for not-X, anything merely potential could fail to be; but what is eternal/imperishable cannot fail to be, so it must exist actually rather than potentially, in respect of its substance."
+    },
+    {
+      "q": "What analogy does Aristotle use to argue that the actuality (the action) is the true end, using the example of a teacher and pupil?",
+      "options": [
+        "He says teachers aim only at receiving payment, which is the true actuality",
+        "He compares failing to locate whether skill is 'within or without' the pupil to the ambiguous figure in Pauson's painting of Hermes, arguing that the actuality/action itself, not mere possession of a dormant capacity, is the end at which practice aims",
+        "He argues teaching has no real end or purpose",
+        "He claims the pupil's potency is always superior to the teacher's actuality"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle invokes Pauson's ambiguous picture of Hermes (where it's unclear if the figure is inside or outside the panel) to illustrate the danger of leaving knowledge merely potential rather than exercised, since the actuality (the exercised action) is the genuine end."
+    }
+  ],
+  "META_B9_Ch9": [
+    {
+      "q": "Why does Aristotle argue that actuality is better and more valuable than a (mere) good potency?",
+      "options": [
+        "Because a potency for good is simultaneously a potency for its contrary (bad), so the potency alone cannot be identified with the good; only the actuality, which cannot simultaneously be its opposite, secures the good determinately",
+        "Because potencies are always evil and actualities always good",
+        "Because potency and actuality are identical in value, with no distinction",
+        "Because Aristotle believes potency does not really exist"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that since the same potency covers contrary outcomes (health and illness, building and destroying), the potency itself cannot be identified as good; the actuality, which excludes its contrary at that moment, is what is genuinely good and hence more valuable."
+    },
+    {
+      "q": "What does Aristotle conclude about the presence of badness or defect in eternal things?",
+      "options": [
+        "Eternal things contain the greatest badness, since they never change",
+        "Since badness is posterior in nature to potency (it arises from what 'can' go wrong), and eternal things involve no such potency for failure, there is nothing bad, defective, or perverted in eternal things",
+        "Badness is unrelated to potency and can exist in eternal things regardless",
+        "Eternal things are morally neutral, neither good nor bad, by definition"
+      ],
+      "correct": 1,
+      "explanation": "Because badness presupposes a potency for failure or corruption, and eternal things lack such potency (existing always actually), Aristotle concludes eternal things contain nothing bad, defective, or perverted."
+    },
+    {
+      "q": "What point does Aristotle's example of discovering geometrical constructions (e.g., proving triangle angles sum to two right angles) illustrate about potency and actuality?",
+      "options": [
+        "That geometrical truths are invented rather than discovered",
+        "That the potentially existing constructions in a figure are brought to light only through the actuality of the geometer's active thinking, so actuality (the mental activity of construction) is what reveals what was there potentially",
+        "That geometry has nothing to do with the potency-actuality distinction",
+        "That potential constructions are always more valuable than actual proofs"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle uses geometric construction to show that potentially present relations within a figure are discovered only by the actuality of the geometer's thinking and constructing, illustrating how actuality actualizes what is latent as potency."
+    }
+  ],
+  "META_B9_Ch10": [
+    {
+      "q": "According to Aristotle, on what does the truth or falsity of judgments about composite things depend?",
+      "options": [
+        "On the arbitrary will of the speaker, unrelated to the objects",
+        "On whether the objects themselves are combined or separated in reality; thinking the combined to be combined and the separated to be separated is truth, and the reverse is error",
+        "On social convention alone, with no reference to reality",
+        "On the passage of time only, regardless of the actual state of the objects"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle grounds truth and falsity about composite things in a correspondence: truth is thinking what is combined to be combined and what is separated to be separated, matching the actual state of the objects."
+    },
+    {
+      "q": "How does Aristotle explain our cognitive relation to 'incomposite' things (simple essences) with regard to error?",
+      "options": [
+        "We can be systematically deceived about incomposite essences just as with composite facts",
+        "Error is not properly possible regarding what a simple, non-composite thing is (except accidentally); with such things there is only 'contact'/knowing (truth) or failure of contact (ignorance), not falsity in the ordinary composite sense",
+        "Incomposite things are entirely unknowable by definition",
+        "Incomposite things are always false because they lack composition"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that error in the strict sense applies to composite judgments, but with simple, non-composite essences there is either a kind of intellectual 'contact' (truth/knowledge) or a mere absence of contact (ignorance), not falsity as such."
+    },
+    {
+      "q": "Why does Aristotle say that concerning a single, particular unchangeable fact (such as a specific triangle's angle sum), no error about 'sometimes true, sometimes false' is possible?",
+      "options": [
+        "Because unchangeable facts are unknowable and therefore neither true nor false",
+        "Because if the object is genuinely unchangeable, supposing it to vary over time would itself imply change in the object, which contradicts the assumption of its unchangeability; so our judgment about it is eternally true or eternally false",
+        "Because time itself does not exist for Aristotle",
+        "Because all mathematical judgments are automatically true by convention"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle reasons that since the triangle (as an unchangeable object) cannot itself change over time, a judgment about it cannot correctly be true at one time and false at another; whatever truth-value it has, it has eternally."
+    }
+  ],
+  "META_B10_Ch1": [
+    {
+      "q": "According to Aristotle, what does it mean, most strictly, for something to be 'one'?",
+      "options": [
+        "To be a single physical atom",
+        "To be the first measure of a kind, especially of quantity, from which the notion of measure extends to the other categories",
+        "To be indestructible and eternal",
+        "To be perceived by only one sense"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that 'to be one' means most strictly to be the first, indivisible measure of a kindâ€”especially of quantityâ€”and that this notion of measure is then extended analogously to the other categories."
+    },
+    {
+      "q": "How does Aristotle criticize Protagoras's dictum that 'man is the measure of all things'?",
+      "options": [
+        "He fully endorses it as the correct account of unity and measure",
+        "He argues Protagoras is really just saying 'the man who has knowledge or perception' is the measure, since knowledge and perception (not man as such) are what we call measuresâ€”so the claim, though it sounds impressive, says nothing substantive",
+        "He claims Protagoras meant something entirely different about mathematics",
+        "He argues that Protagoras correctly anticipated Aristotle's own theory of the measure"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle contends Protagoras's famous slogan, properly unpacked, reduces to the trivial claim that the knowing or perceiving man is a measure because he possesses knowledge/perception, which are the real measuresâ€”so the statement appears profound but says little."
+    },
+    {
+      "q": "Why does Aristotle say the measure of a foot-long line is treated as 'indivisible' even though every continuous magnitude is really divisible?",
+      "options": [
+        "Because Aristotle believes lines cannot actually be divided at all",
+        "Because such a measure is undivided only relative to perceptionâ€”for practical purposes of measuring we treat the smallest perceptible unit as if indivisible, even though in principle it can be divided",
+        "Because a foot is a special metaphysical unit unlike other lengths",
+        "Because Aristotle is contradicting himself without explanation"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle distinguishes the unit (indivisible in every respect) from a practical measure like a foot, which is only treated as indivisible relative to what our perception can detect, though it remains divisible in principle as a continuous magnitude."
+    }
+  ],
+  "META_B10_Ch2": [
+    {
+      "q": "What is Aristotle's central argument against treating 'the one' as a separate substance in itself (as the Pythagoreans and Plato are said to have done)?",
+      "options": [
+        "That unity is too simple a concept to be philosophically important",
+        "Just as being cannot be a substance apart from the many things it is predicated of (since it is a universal predicate common to many), unity likewise cannot be a separate substance, since it is equally universal",
+        "That the Pythagoreans and Plato never actually discussed unity",
+        "That unity exists only in mathematics, not in metaphysics generally"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle parallels his argument against a universal 'being-itself' as a separate substance with a parallel argument against 'the one' as a separate substance, since both being and unity are maximally universal predicates, not separable substantial entities."
+    },
+    {
+      "q": "How does Aristotle use the analogy of colours (where 'the one' would be a particular colour, like white) to make his point about unity in every category?",
+      "options": [
+        "To show that unity is different in every single case with nothing in common across categories",
+        "To illustrate that in each category or class of things, 'the one' is always some definite, particular member of that class (not unity-in-general), just as if all things were colours, 'the one' would have to be a particular color like white",
+        "To argue that colours are not really instances of unity at all",
+        "To prove that Aristotle rejects the existence of numbers"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that within any homogeneous class (colours, tunes, figures), the 'one' of that class is a definite particular member serving as the standard unit, not an abstract 'oneness'â€”and the same holds for substance."
+    },
+    {
+      "q": "What does Aristotle mean by saying 'to be one is just to be a particular thing' and that unity adds nothing beyond what 'being' already conveys?",
+      "options": [
+        "That unity and being are entirely unrelated concepts",
+        "That calling something 'one man' predicates nothing more than calling it simply 'man'â€”unity tracks being/particularity rather than adding a further substantive attribute",
+        "That only mathematical objects can properly be called 'one'",
+        "That being a particular thing has nothing to do with being one"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle observes that 'one man' predicates no more than 'man' alone, paralleling how 'being' adds nothing beyond substance, quality, or quantityâ€”unity, like being, tracks a thing's determinate particularity rather than being a separate attribute."
+    }
+  ],
+  "META_B10_Ch3": [
+    {
+      "q": "According to Aristotle, why is plurality prior to unity 'in definition, because of the conditions of perception,' even though the one is prior in nature to plurality?",
+      "options": [
+        "Because the divisible and the many are more directly perceptible to us, so the indivisible (the one) is defined negatively in terms of it, even though metaphysically unity is prior",
+        "Because plurality is metaphysically more fundamental than unity in every sense",
+        "Because Aristotle believes perception is entirely unreliable and irrelevant to definition",
+        "Because the one does not actually exist, only pluralities exist"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle notes that although the one and the divisible/plurality are contraries, the one is defined negatively (as 'the indivisible') relative to the more perceptually salient plurality, giving plurality priority in the order of definition even though the one is prior in nature."
+    },
+    {
+      "q": "How does Aristotle distinguish 'the same,' 'the like,' and 'the other/unlike' in this chapter?",
+      "options": [
+        "He treats them as interchangeable synonyms with no distinctions",
+        "He shows 'the same' has several senses (numerical identity, unity of form and matter, unity of essence), 'like' concerns shared form without full identity, and 'other/unlike' are their corresponding opposites, distinct from mere 'difference'",
+        "He argues only mathematical objects can be same or different",
+        "He claims these terms apply only to substances, never to qualities or quantities"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle carefully distinguishes multiple senses of sameness (numerical, formal-and-material, and essential unity as with equal figures) from likeness (sharing form without full identity), and their contrary notions of otherness and unlikeness."
+    },
+    {
+      "q": "What is the distinction Aristotle draws between 'otherness' and 'difference' (i.e., being 'other than' versus being 'different from')?",
+      "options": [
+        "They are exactly identical concepts with no distinction",
+        "Everything existent is either 'the same as' or simply 'other than' anything else without qualification, but genuine 'difference' requires that the two things differ from each other in some specific respect while sharing something identical (a common genus or species)",
+        "Difference applies only to numbers, otherness only to qualities",
+        "Otherness requires a shared genus, while difference does not"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explains that 'other' is a blanket opposite to 'same' applicable to any two distinct existing things, whereas 'different' requires that the two things differ in some definite respect while also sharing something identical, namely a common genus or species."
+    }
+  ],
+  "META_B10_Ch4": [
+    {
+      "q": "Why does Aristotle identify contrariety with 'complete difference'?",
+      "options": [
+        "Because contrariety is simply any difference, however slight",
+        "Because among things differing in species, the extremes from which change proceeds mark the greatest possible distance, and since 'complete' means reaching an end beyond which nothing further can be found, this maximal difference is exactly contrariety",
+        "Because contrariety only applies to differences in genus, not species",
+        "Because Aristotle thinks all differences are ultimately equal in degree"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that since things differing in species have contrary extremes as the terminal points of change, and complete difference (an end beyond which there is nothing further) is the greatest such difference, contrariety just is complete difference."
+    },
+    {
+      "q": "According to Aristotle, why can a single thing not have more than one contrary?",
+      "options": [
+        "Because Aristotle allows unlimited contraries for any given thing",
+        "Because there can be nothing more extreme than an extreme, and an interval can have only two extremities, so complete (maximal) difference can hold between only two terms",
+        "Because contraries do not really exist according to Aristotle",
+        "Because contrariety applies only to numbers, which have infinite contraries"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle reasons that since contrariety is the greatest, 'complete' difference, and an interval has only two extreme endpoints, nothing can be more extreme than an already-extreme term, so a thing can have at most one contrary."
+    },
+    {
+      "q": "What relationship does Aristotle establish between privation and contrariety in this chapter?",
+      "options": [
+        "Privation and contrariety are entirely unrelated concepts",
+        "All contrariety involves a privation as one of its terms (the primary contrariety being that of positive state and complete privation), but not all privation amounts to contrariety, since privation can occur in several different ways",
+        "Privation is broader than contrariety in every single respect with no overlap",
+        "Contrariety never involves any form of privation"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that every contrariety includes privation as one term (rooted in the primary contrariety of positive state versus complete privation), but since 'privation' has multiple senses, not every instance of privation constitutes a full contrariety."
+    }
+  ],
+  "META_B10_Ch5": [
+    {
+      "q": "How does Aristotle resolve the puzzle of how 'the equal' is opposed to both 'the great' and 'the small', given that one thing should have only one contrary?",
+      "options": [
+        "He concludes the equal is simply not opposed to either the great or the small in any way",
+        "He argues the equal is not contrary to either individually, but is instead the privative negation of both together, which also explains why it functions as their intermediate",
+        "He claims the equal is contrary to the great alone, and unrelated to the small",
+        "He denies that 'equal', 'great', and 'small' are meaningfully related concepts at all"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle resolves the puzzle by arguing the equal is not a contrary but a privative negation of both the great and the small jointly, which is also why it naturally serves as an intermediate between them, unlike an ordinary contrary."
+    },
+    {
+      "q": "Why does Aristotle say that 'that which is neither a shoe nor a hand' does not have an intermediate, even though 'that which is neither good nor bad' does?",
+      "options": [
+        "Because shoes and hands belong to entirely different classes/genera with no natural interval or common substratum between them, unlike good and bad, which pertain to a single class admitting of a natural interval",
+        "Because shoes and hands are actually contraries in the same way that good and bad are",
+        "Because there is no real difference between these two cases according to Aristotle",
+        "Because Aristotle believes all joint denials automatically produce intermediates"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle explains that a joint denial produces a true intermediate only when the denied terms belong to the same genus with a natural interval between them (like good/bad); shoe and hand belong to unrelated classes, so their joint denial has no single substratum and thus no genuine intermediate."
+    },
+    {
+      "q": "What definition of 'the equal' does Aristotle ultimately offer?",
+      "options": [
+        "That which is exactly identical in every respect to another thing",
+        "That which is neither great nor small, but is naturally fitted to be either great or small",
+        "That which cannot be compared to great or small at all",
+        "That which is the arithmetic average of the great and the small"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines the equal as that which is neither great nor small while being of a nature suited to be either, positioning it as a privative negation intermediate between the two, rather than a contrary to just one of them."
+    }
+  ],
+  "META_B10_Ch6": [
+    {
+      "q": "Why does Aristotle argue that treating 'the many' as simply the contrary of 'the one' leads to absurd results, such as one being 'few'?",
+      "options": [
+        "Because this would make two 'many' (since two is the first plurality) and, by symmetry, would force one to be 'few', yet there can be nothing fewer than one, producing paradox",
+        "Because Aristotle believes there is no relationship whatsoever between one and many",
+        "Because two is never actually a plurality according to Aristotle",
+        "Because 'few' and 'many' are, for Aristotle, entirely unrelated to 'one' and 'plurality'"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle shows that if 'many' is strictly the contrary of 'one', absurdities follow, such as one having to count as 'few' since two would be 'many' as the first pluralityâ€”yet nothing can be fewer than one, generating paradox."
+    },
+    {
+      "q": "How does Aristotle ultimately characterize the opposition between 'the one' and 'plurality/number'?",
+      "options": [
+        "As a straightforward relation of contrariety, exactly like great and small",
+        "As analogous to the relative opposition between a measure and the thing measured (like knowledge and the knowable), rather than as a strict contrariety in every sense",
+        "As having no relationship at all between them",
+        "As identical to the opposition between good and bad"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that one and number/plurality are opposed as measure to the thing measured, a type of relative opposition (comparable to knowledge and the knowable), rather than a straightforward contrariety."
+    },
+    {
+      "q": "According to Aristotle, why is Anaxagoras mistaken to say 'all things were together, boundless both in plurality and in smallness'?",
+      "options": [
+        "Because Anaxagoras should have said 'boundless in plurality and in fewness' is impossible, since fewness (as opposed to smallness) cannot be boundlessâ€”fewness bottoms out at two, the first deficient plurality, which cannot be extended without limit downward",
+        "Because Anaxagoras's statement is entirely correct as written",
+        "Because Aristotle believes nothing can be boundless in any respect",
+        "Because Anaxagoras never discusses plurality according to Aristotle"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle criticizes Anaxagoras's phrasing, arguing that while smallness (a continuous magnitude) could sensibly be called boundless, fewness (a matter of number, bottoming out at two) cannot coherently be called boundless, since 'few' has a definite lower limit."
+    }
+  ],
+  "META_B10_Ch7": [
+    {
+      "q": "What three conditions does Aristotle establish that all 'intermediates' between contraries must satisfy?",
+      "options": [
+        "Intermediates must be uncaused, eternal, and immaterial",
+        "Intermediates must be in the same genus as the contraries and each other, must stand between genuine opposites (specifically contraries, since contradictories and non-contrary relatives admit no intermediate), and must be composed out of the contraries themselves",
+        "Intermediates must always be numerically infinite in each genus",
+        "Intermediates need bear no relation to the contraries they lie between"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues intermediates share a genus with the contraries they stand between, occur specifically between contraries (not contradictories or non-contrary relatives, which admit no middle), and are ultimately composed out of the contraries themselves."
+    },
+    {
+      "q": "Why, according to Aristotle, do contradictories (unlike contraries) admit of no intermediate term?",
+      "options": [
+        "Because contradiction just is the kind of opposition where one side or the other must attach to a thing, with nothing left in betweenâ€”by definition there is no third option",
+        "Because contradictories are actually a subtype of contraries",
+        "Because Aristotle believes all oppositions admit intermediates equally",
+        "Because contradictories only apply to mathematical objects"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle explains that contradiction is defined precisely as the kind of opposition that exhaustively divides all cases into one side or the other, leaving no logical space for a middle term, unlike contrariety."
+    },
+    {
+      "q": "Using the example of colours between white and black, how does Aristotle argue that intermediate colours (like crimson or grey) are 'composed of' the contraries?",
+      "options": [
+        "He argues intermediate colours have no relation to white and black whatsoever",
+        "He argues that since a genus like colour is prior to and includes differentiae such as 'piercing' (white) and 'compressing' (black) as its primary contrary differentiae, intermediate colours must be composed of the genus plus differentiae that fall between these primary contrary qualitiesâ€”hence ultimately composed out of the contraries",
+        "He claims intermediate colours are identical to either white or black, just perceived differently",
+        "He denies that colour admits of any genus at all"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle reasons that since white and black are constituted by primary contrary differentiae (piercing/compressing) within the genus colour, an intermediate colour must involve differentiae falling between these, and so is ultimately a compound of the two primary contraries in different proportions."
+    }
+  ],
+  "META_B10_Ch8": [
+    {
+      "q": "According to Aristotle, what is required for two things to be 'other in species' rather than merely 'other in genus'?",
+      "options": [
+        "They must share no common nature whatsoever",
+        "They must share a common genus, yet that common generic nature must itself be specifically different in each (e.g., 'animality' realized differently as equinity in the horse and humanity in the man), constituting a contrariety within that shared genus",
+        "They must simply have different names",
+        "They must differ only in their material composition, not in any formal respect"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that being 'other in species' requires a shared genus whose common nature is nonetheless differentiated specifically in each case (e.g., animality as equinity versus humanity), and this differentiation itself constitutes a contrariety."
+    },
+    {
+      "q": "Why does Aristotle conclude that difference-in-species 'is' a contrariety?",
+      "options": [
+        "Because all difference whatsoever is automatically a contrariety, with no further qualification needed",
+        "Because difference in species is a difference from something in some respect within a shared genus, and this maximal, complete kind of difference within a common genus is exactly what contrariety consists in, as shown earlier",
+        "Because Aristotle denies that species differ from one another at all",
+        "Because contrariety and difference-in-species are entirely separate, unconnected phenomena"
+      ],
+      "correct": 1,
+      "explanation": "Since specific difference occurs within a shared genus and constitutes the most complete difference possible there, and contrariety was already defined as complete difference, Aristotle concludes that difference in species just is a form of contrariety."
+    },
+    {
+      "q": "How does Aristotle characterize the relationship between a genus and its own species, regarding sameness or otherness in species?",
+      "options": [
+        "A genus is always the same in species as each of its species",
+        "A genus is always other in species from each of its species it contains",
+        "Strictly, a genus is neither the same as nor other in species from the species that fall under it, because the genus functions as a kind of matter relative to its species rather than as a coordinate item to be compared",
+        "There is no coherent relationship between a genus and its species according to Aristotle"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle argues that because the genus functions like matter relative to the species under it (rather than being a comparable coordinate item), it is improper to call it either 'the same in species' or 'other in species' as those species."
+    }
+  ],
+  "META_B10_Ch9": [
+    {
+      "q": "Why, according to Aristotle, do male and female not make animals different in species, even though 'male' and 'female' are contraries belonging to animal as such?",
+      "options": [
+        "Because male and female are contrarieties located in the matter (the body) rather than in the definition/essence of the animal, and only contrarieties within the definition produce a difference in species",
+        "Because male and female are not really contraries at all",
+        "Because Aristotle believes there is no real difference between male and female animals",
+        "Because species differences require differences in colour specifically"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle explains that although male and female are contraries proper to animal as such, this contrariety resides in the matter (the body) rather than in the formal definition of the species, and only contrarieties within the definition generate a difference in species."
+    },
+    {
+      "q": "Why does Aristotle say a pale man and a dark man are not different in species, using the example of Callias?",
+      "options": [
+        "Because pale and dark are contraries located in the incidental, material aspect of the individual (Callias happens to be pale), not in the definition of 'man', so they do not affect the species",
+        "Because pale and dark are not actually contraries",
+        "Because Callias is not truly a man according to Aristotle",
+        "Because there is no such thing as individual variation for Aristotle"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that since Callias's paleness belongs to him only incidentally (as matter, not as part of the definition 'man'), the contrariety of pale and dark does not touch the species-defining formula, so pale and dark men remain the same in species."
+    },
+    {
+      "q": "What general principle does Aristotle establish about when a contrariety produces a difference in species versus when it does not?",
+      "options": [
+        "Every contrariety whatsoever automatically produces a difference in species",
+        "Only contrarieties which are part of a thing's definition (essential formula) produce a difference in species; contrarieties belonging merely to the matter of the thing do not",
+        "Only contrarieties involving colour ever produce differences in species",
+        "Species differences never involve any form of contrariety"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle's general rule is that a contrariety produces specific difference only when it belongs to the definition/formula of the thing (like footed versus winged for animals), whereas a contrariety located merely in the matter (like an individual's colouring) does not."
+    }
+  ],
+  "META_B10_Ch10": [
+    {
+      "q": "What is Aristotle's core argument that 'the perishable' and 'the imperishable' must differ in kind (genus), not merely as accidental contraries?",
+      "options": [
+        "Because perishableness and imperishableness are merely accidental properties that any given thing might or might not have, like paleness and darkness",
+        "Because unlike accidental contraries (which the same subject can possess, even if not simultaneously), perishableness or imperishableness belongs necessarily to a thing's essenceâ€”nothing is accidentally perishableâ€”so the things possessing these necessary, opposite attributes must differ in kind",
+        "Because perishable and imperishable things share an identical essence, differing only in name",
+        "Because Aristotle denies that perishable and imperishable things exist at all"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle distinguishes perishable/imperishable from ordinary accidental contraries like pale/dark: since nothing is perishable merely by accident, these attributes belong necessarily to a thing's essence, and things differing necessarily in such opposite essential attributes must differ in kind, not merely in species."
+    },
+    {
+      "q": "How does Aristotle use the conclusion of this chapter to argue against the existence of Platonic Forms?",
+      "options": [
+        "He does not connect this discussion to the Forms at all",
+        "Since a Form is claimed to be 'the same in form' as its perishable individual instances, yet the Form is imperishable and the individual is perishable, this would require one and the same form to be both perishable and imperishable, which is impossible given that perishable and imperishable differ in kind",
+        "He argues that the Forms are perishable just like their individual instances",
+        "He claims Forms are proven to exist precisely because perishable and imperishable differ in kind"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that if Forms are supposed to share the same form/kind as their sensible, perishable instances, but the Form itself is imperishable, this creates a contradiction, since perishable and imperishable have just been shown to differ in kindâ€”undermining the coherence of separately existing Forms of perishable things."
+    },
+    {
+      "q": "Why does Aristotle qualify his argument by noting that not every pale thing differs in kind from every dark thing, even though pale and dark are contraries?",
+      "options": [
+        "To show that all contraries, without exception, entail a difference in kind between their possessors",
+        "To distinguish accidental contraries (like pale/dark, which the same subject, even the same individual at different times, can possess) from necessary, essential contraries (like perishable/imperishable), only the latter of which force a difference in kind between their subjects",
+        "Because he believes pale and dark are not actually contraries",
+        "To argue that perishable and imperishable are, in fact, accidental properties like pale and dark"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle draws this contrast to clarify that only contraries which necessarily and essentially belong to their subjects (like perishable/imperishable) force the subjects to differ in kind; merely accidental contraries like pale and dark, which the same subject can have at different times, do not have this consequence."
+    }
+  ],
+  "META_B11_Ch1": [
+    {
+      "q": "What difficulty does Aristotle raise about whether Wisdom (first philosophy) is one science or many?",
+      "options": [
+        "He argues Wisdom is obviously many sciences with no unifying question",
+        "One science normally deals with a pair of contraries, but the first principles are not contrary, raising doubt as to whether Wisdom, treating all first principles, can be a single science",
+        "He claims first principles are self-evidently one science with no argument needed",
+        "He denies that first principles exist at all"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes the puzzle that a single science typically handles a pair of contraries, yet the first principles sought by Wisdom are not contraries, making it unclear whether Wisdom is properly one unified science."
+    },
+    {
+      "q": "Why does Aristotle say the science he seeks cannot simply be about the objects of mathematics or the Platonic Forms?",
+      "options": [
+        "Because Forms are held not to exist, and mathematical objects cannot exist separately, so neither can constitute the eternal, separate substance that Wisdom's principles require",
+        "Because mathematics and the Forms are identical in Aristotle's view, so no distinction is needed",
+        "Because Wisdom, on Aristotle's view, only studies perceptible substances",
+        "Because Aristotle believes mathematics has no relation to philosophy at all"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that the Forms, on examination, do not exist, and mathematical objects have no separate existence apart from sensible things, so neither can serve as the separate, eternal substance sought by first philosophy."
+    },
+    {
+      "q": "What problem does Aristotle raise about treating 'being' and 'unity' as the highest genera and principles?",
+      "options": [
+        "Being and unity cannot be genera because a genus must be predicable of its differentiae, and no genus is predicable of its own differentiae, so being and unity fail to qualify as genera despite their universality",
+        "Being and unity are indisputably genera with no complications",
+        "Being and unity apply to nothing at all, so the question is moot",
+        "Genera and principles are entirely unrelated concepts for Aristotle"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle raises the technical difficulty that being and unity, though maximally universal, cannot be genera in the strict sense because a genus must be predicable of its differentiae, which being and unity are not."
+    }
+  ],
+  "META_B11_Ch2": [
+    {
+      "q": "Why does Aristotle say it would be paradoxical to deny any eternal, separable substance apart from perishable sensible substances?",
+      "options": [
+        "Because such a denial would make it impossible to explain how there is order in the universe, since order seems to require something eternal, independent, and permanent underlying it",
+        "Because Aristotle believes sensible substances are themselves eternal",
+        "Because he thinks matter alone can account for cosmic order without any further principle",
+        "Because this denial contradicts nothing important in his system"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that the most refined thinkers seek such an eternal, independent substance because without it there seems to be no explanation for how there could be order in the world at all."
+    },
+    {
+      "q": "What difficulty does Aristotle raise about supposing a single, eternal principle underlies both eternal and perishable things?",
+      "options": [
+        "There is no difficulty at all according to Aristotle",
+        "It is hard to explain why, if the principle is the same and eternal, some of the things falling under it are eternal while others are perishable; and positing a different, itself perishable principle for perishable things leads to an infinite regress of principles",
+        "Aristotle believes perishable and eternal things share no principles whatsoever",
+        "The difficulty is resolved simply by denying that eternal things exist"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle points out the paradox that a single eternal principle should presumably produce only eternal effects, yet if a separate, perishable principle is proposed instead, that principle needs its own further cause, generating an infinite regress."
+    },
+    {
+      "q": "Why does Aristotle question whether unity and being could serve as substances or first principles, if numbers are supposed to derive from them?",
+      "options": [
+        "Because it is unclear how numbers like 'two', composed of units, count as genuinely one, if unity itself is supposed to be the basic substantial principle generating them",
+        "Because Aristotle denies numbers exist at all",
+        "Because unity and being are obviously perfect candidates for substance with no complications",
+        "Because numbers have nothing to do with unity in Aristotle's view"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle presses the difficulty that if unity is posited as the substantial first principle from which number is generated, it becomes puzzling how a number like two, composed of multiple units, itself counts as a genuine unity."
+    }
+  ],
+  "META_B11_Ch3": [
+    {
+      "q": "How does Aristotle justify treating being, despite its many senses, as the subject of a single science?",
+      "options": [
+        "He argues 'being' is a strict univocal term with one single meaning throughout",
+        "He compares 'being' to terms like 'medical' or 'healthy', which, though used in several senses, all refer back to one central thing (health or medical science); similarly, all senses of being refer to one common thing, substance, unifying the science that studies them",
+        "He denies that 'being' can be studied scientifically at all",
+        "He claims each sense of being requires an entirely separate, unrelated science"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle draws the parallel to 'medical' and 'healthy', terms used in multiple senses that all relate back to one central reference point; similarly, the many senses of 'being' relate back to substance, allowing one science (first philosophy) to study them all."
+    },
+    {
+      "q": "How does Aristotle use the analogy of geometry (which studies quantitative, continuous magnitude after stripping away sensible qualities like heat and weight) to explain the philosopher's study of being?",
+      "options": [
+        "To argue mathematics and philosophy are actually the same science with identical subject matter",
+        "To show that just as geometry studies the attributes of magnitude qua continuous quantity under one science despite diverse applications, philosophy studies the attributes and contrarieties of being qua being under one science, distinct from physics, dialectic, or sophistic",
+        "To prove that philosophy should abandon the study of being altogether",
+        "To show that geometry has no bearing whatsoever on metaphysical inquiry"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle compares the philosopher's universal study of being qua being to geometry's unified study of continuous quantity across many particular applications, distinguishing this from physics (which studies things qua moving) and from dialectic/sophistic (which do not study being as such)."
+    },
+    {
+      "q": "According to this chapter, why do dialectic and sophistic fail to qualify as the science that studies being qua being?",
+      "options": [
+        "Because they deal with attributes of existing things but not with being itself considered precisely as being, unlike the philosopher's inquiry",
+        "Because dialectic and sophistic do not exist as intellectual practices",
+        "Because they are identical to physics in Aristotle's classification",
+        "Because they focus exclusively on mathematical objects"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle distinguishes dialectic and sophistic, which discuss attributes of existing things generally, from the philosopher's proper study, which investigates being itself precisely insofar as it is being."
+    }
+  ],
+  "META_B11_Ch4": [
+    {
+      "q": "What relationship does Aristotle draw between mathematics and first philosophy regarding the common axioms (like 'equals from equals leaves equals')?",
+      "options": [
+        "Mathematics and philosophy have no relationship to common axioms",
+        "Mathematics uses common axioms only in a restricted application to its own subject matter (e.g., quantities), while it is the business of first philosophy to examine these axioms as they pertain to being as such, making mathematics reliant on principles investigated by first philosophy",
+        "Common axioms belong exclusively to mathematics, with no role for philosophy",
+        "Aristotle rejects the validity of common axioms in mathematics"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that while the mathematician applies common axioms only to a restricted domain (quantity), it is first philosophy's task to examine these principles more universally, since they pertain to being as such."
+    },
+    {
+      "q": "How does Aristotle classify physics and mathematics relative to 'Wisdom' (first philosophy) in this chapter?",
+      "options": [
+        "As entirely separate and unrelated to Wisdom",
+        "As parts of Wisdom, since physics studies the attributes and principles of things qua moving, and mathematics studies things qua continuous quantityâ€”both being derivative from the more universal study of being as such, which is proper to first philosophy",
+        "As superior to and independent of Wisdom",
+        "As identical with Wisdom in every respect"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle classifies physics (studying things qua moving) and mathematics (studying things qua continuous quantity) as both falling under Wisdom, since first philosophy alone studies things simply insofar as they exist, of which these are restricted applications."
+    }
+  ],
+  "META_B11_Ch5": [
+    {
+      "q": "How does Aristotle attempt to refute someone who denies the principle of non-contradiction, given that this principle itself cannot be demonstrated from something more basic?",
+      "options": [
+        "He simply asserts the principle dogmatically with no argument",
+        "He seeks an 'ad hominem' proof: getting the denier to say something meaningful (since a significant word must signify one determinate thing), which, properly unpacked, already commits him to the principle he denies",
+        "He appeals purely to religious authority to settle the matter",
+        "He concedes the principle cannot be defended in any way"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that although the principle of non-contradiction cannot be proven from a prior principle, one can force an opponent, through requiring that his words signify something determinate, to implicitly concede the very principle he deniesâ€”an 'ad hominem' rather than direct proof."
+    },
+    {
+      "q": "What absurd consequence does Aristotle draw from allowing that opposite statements ('is' and 'is not') could both be true of the same subject at once?",
+      "options": [
+        "No absurd consequence follows; Aristotle considers this a coherent position",
+        "It would follow that saying 'the man is not a horse' would be no more or less true than saying 'the man is not a man', ultimately collapsing all distinctions and allowing one to say the same person is a man, a horse, or any other animal indifferently",
+        "It would prove the existence of eternal, unchanging Forms",
+        "It would only affect claims about colors, not substances"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that permitting contradictory statements to be equally true erases all meaningful distinctions between things, since it would be equally true to deny 'man' of a man as to deny 'horse' of him, collapsing all predication into indifference."
+    }
+  ],
+  "META_B11_Ch6": [
+    {
+      "q": "How does Aristotle diagnose the origin of Protagoras's claim that 'man is the measure of all things' (i.e., that whatever seems true to each person is true)?",
+      "options": [
+        "He traces it partly to natural philosophers' views about generation from non-being, and partly to the observed fact that different people have differing perceptions and opinions about the same things (e.g., what tastes pleasant)",
+        "He claims Protagoras invented this view with no connection to earlier philosophy",
+        "He argues the claim has a purely mathematical origin",
+        "He says Protagoras derived it entirely from Heraclitus's cosmology"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle traces Protagoras's relativism to two sources: certain natural philosophers' puzzles about generation, and the observed fact that different people perceive or judge the same things differently (e.g., what is pleasant)."
+    },
+    {
+      "q": "How does Aristotle refute relativism about perception using the example of the same food tasting different to sick versus healthy people?",
+      "options": [
+        "He agrees that both the sick and healthy person's perceptions are equally true, supporting relativism",
+        "He argues that when perceptions genuinely conflict (as when one perceiver's organ is damaged), one party's perception must be taken as the standard/measure and the other's rejected as defective, rather than treating both as equally authoritative",
+        "He denies that sick people can perceive anything at all",
+        "He claims perception is entirely irrelevant to questions of truth"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that when sense organs are healthy versus impaired (as with illness), we should treat the properly functioning perceiver as the standard, rejecting the notion that all conflicting perceptions are equally true, which would make relativism about taste and similar qualities untenable."
+    },
+    {
+      "q": "Why does Aristotle say we should base our judgments about truth on things that are 'always in the same state,' like the heavenly bodies, rather than on earthly things that constantly change?",
+      "options": [
+        "Because earthly things do not actually exist for Aristotle",
+        "Because grounding truth in ever-changing, unstable things (as flux theorists do) undermines any fixed truth, whereas unchanging things provide a stable basis from which to pursue and secure genuine knowledge",
+        "Because heavenly bodies are the only things Aristotle considers worth studying",
+        "Because change and truth are, for Aristotle, entirely unrelated concepts"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that founding one's epistemology on the observed flux of earthly thingsâ€”as flux theorists like Heraclitus's followers doâ€”undermines any possibility of fixed truth, so one should instead ground the pursuit of truth in things that remain constant, such as the heavens."
+    }
+  ],
+  "META_B11_Ch7": [
+    {
+      "q": "How does Aristotle distinguish the definitional approach appropriate to natural science, using the contrast between 'snub' and 'concave'?",
+      "options": [
+        "He argues both terms are defined identically, with no meaningful contrast",
+        "'Concave' can be defined independently of any particular matter, while 'snub' (concavity in a nose) must include reference to its matter (the nose); natural science's definitions, like those of flesh or eye, must be stated inclusive of matter, following the model of 'snub' rather than 'concave'",
+        "He claims neither term can be properly defined at all",
+        "He argues 'snub' is a purely mathematical term unrelated to natural philosophy"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle uses 'snub' (which necessarily includes reference to the nose, its matter) versus 'concave' (definable independently of matter) to illustrate that natural science's definitions of things like flesh or eye must, like 'snub', include the matter, unlike purely mathematical definitions."
+    },
+    {
+      "q": "Why does Aristotle conclude that theology (the study of separable, unmovable substance) is the highest of the three theoretical sciences (physics, mathematics, theology)?",
+      "options": [
+        "Because theology is the most difficult to understand, which alone makes it superior",
+        "Because each science is ranked by the dignity of its proper object, and theology deals with the highest kind of existing thingâ€”separable and unmovable substance, i.e. the divineâ€”making it superior to physics (movable substance) and mathematics (non-separable quantity)",
+        "Because theology alone uses empirical observation, unlike physics or mathematics",
+        "Because Aristotle believes physics and mathematics do not qualify as sciences at all"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle ranks the theoretical sciences by the worth of their objects, and since theology studies the highest kind of beingâ€”an eternal, separable, unmovable substance (the divine)â€”it is deemed the most excellent of the three theoretical sciences."
+    }
+  ],
+  "META_B11_Ch8": [
+    {
+      "q": "Why does Aristotle argue that there can be no science of 'the accidental'?",
+      "options": [
+        "Because all science, by definition, concerns what is always or for the most part the case, whereas the accidental occurs neither always, nor of necessity, nor for the most part, but merely 'as it chances', placing it outside the proper scope of any science",
+        "Because accidental events never actually occur in Aristotle's view",
+        "Because sophistic already provides a complete science of the accidental",
+        "Because the accidental is identical to substance and thus covered by first philosophy"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle defines the accidental as what occurs neither always, of necessity, nor for the most part, but merely by chanceâ€”and since science by nature concerns what holds always or for the most part, no science of the merely accidental is possible."
+    },
+    {
+      "q": "What absurd consequence does Aristotle say would follow if the accidental had causes and principles of the same necessary kind as the essential does?",
+      "options": [
+        "Nothing problematic would follow; this is exactly what Aristotle believes",
+        "Everything would occur of necessity, eliminating chance and the possibility of things occurring or not occurring, since a chain of necessary causes tracing back from any 'accidental' event would render that event necessary too",
+        "It would prove that the accidental does not exist at all",
+        "It would show that all events are entirely random with no order whatsoever"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that if a strict causal chain of necessity underlay every accidental event, then tracing that chain back would show everything occurs of necessity, eliminating any real place for chance or contingencyâ€”an unacceptable result."
+    },
+    {
+      "q": "How does Aristotle define 'luck' (or chance) in relation to purposive events?",
+      "options": [
+        "Luck is a fully determinate and predictable cause of events, just like natural causation",
+        "Luck is an accidental cause operating within events that are usually brought about by purpose or nature aiming at an end, so that luck and thought/purpose pertain to the same sphere, though luck's causes are indeterminate and it is a cause only accidentally, not in the unqualified sense",
+        "Luck has no connection whatsoever to purposive or natural events",
+        "Luck is identical to fate and operates with strict necessity"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines luck as an accidental cause at work in events that are normally the product of purpose or nature aimed at an end; because it operates only accidentally, its causes are indeterminate and it is a cause only in a qualified, not unqualified, sense."
+    }
+  ],
+  "META_B11_Ch9": [
+    {
+      "q": "How does Aristotle define movement in terms of potentiality and actuality, using the example of the 'buildable'?",
+      "options": [
+        "Movement is simply the completed actuality of a thing, identical to the finished product (e.g., the house itself)",
+        "Movement is the actuality of that which exists potentially, precisely qua potentialâ€”e.g., when the buildable, insofar as it is buildable, is actually being actualized, that process (not yet the finished house) is the movement, called 'building'",
+        "Movement has nothing to do with potentiality or actuality",
+        "Movement occurs only before or only after the complete reality exists, never during it"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines movement as the actuality of the potential precisely as potentialâ€”the buildable's actualization while still in the process (building) rather than the completed state (the house), distinguishing movement from the terminal actuality itself."
+    },
+    {
+      "q": "Why does Aristotle say that movement is 'hard to grasp' and cannot simply be classed under privation, potency, or unqualified actuality?",
+      "options": [
+        "Because movement is not a real phenomenon at all according to Aristotle",
+        "Because movement is an incomplete actualityâ€”an actuality of something that is itself incomplete (the potential)â€”so it does not fit neatly into any of these other categories, though it does exist as a distinctive kind of actuality",
+        "Because movement belongs entirely and simply to the category of potency with no complications",
+        "Because Aristotle thinks movement is identical to complete actuality"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explains that movement resists easy classification because it is an incomplete kind of actuality, tied to something (the potential) that is itself incomplete; it is neither pure potency nor unqualified actuality nor mere privation, but a distinctive hybrid, hard to grasp yet real."
+    },
+    {
+      "q": "According to Aristotle, why are the actuality of the mover and the actuality of the moved 'one' though not identical in being?",
+      "options": [
+        "Because mover and moved are entirely separate actualities with nothing in common",
+        "Because the actuality of that which can cause movement and the actuality of the movable are realized in the same single process, comparable to how the distance from one to two and from two to one is the same interval though their 'being' (as ascent or descent, e.g.) differs",
+        "Because Aristotle denies that movers and moved things exist",
+        "Because the mover's actuality always precedes the moved thing's actuality in time"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle uses the analogy of a single interval that can be described as either 'from one to two' or 'from two to one', or a single slope described as ascent or descent, to explain how the mover's and the moved's actuality are the same underlying reality even though conceptually distinct."
+    }
+  ],
+  "META_B11_Ch10": [
+    {
+      "q": "Why does Aristotle argue that the infinite cannot exist as a separate, independent substance in its own right?",
+      "options": [
+        "Because the infinite, if substantial, would have to be either indivisible (and hence not really infinite) or divisible into infinite parts (implying the absurdity of many coexisting 'infinites'), so it cannot be a self-subsistent substance",
+        "Because Aristotle believes nothing infinite exists in any sense whatsoever",
+        "Because the infinite is identical to prime matter in every respect",
+        "Because separate substances cannot have any quantitative properties at all"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that if the infinite were a separate substance, it would have to be either indivisible (contradicting genuine infinity) or divisible into further infinites (implying multiple infinites, which is absurd), so infinity must instead be an attribute of some other subject, like number or magnitude."
+    },
+    {
+      "q": "How does Aristotle argue against the existence of an infinite sensible body, using considerations of natural place and movement?",
+      "options": [
+        "He argues an infinite body could easily have a determinate natural place and direction of movement, posing no difficulty",
+        "He argues that an infinite homogeneous body could not coherently have a determinate place to rest or move toward (since its 'proper place' would itself be infinite and undefined), making rest or motion for its parts inexplicable",
+        "He claims natural place is irrelevant to the question of infinite bodies",
+        "He asserts that all sensible bodies are already infinite in Aristotle's view"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that a sensible body, having weight or lightness, must move toward a determinate natural place (up or down, center or periphery); but an infinite body could not coherently have such a determinate place or direction, undermining the possibility of its motion or rest."
+    },
+    {
+      "q": "What point does Aristotle make about the infinite as it applies to distance, movement, and time?",
+      "options": [
+        "The infinite is a single homogeneous thing applying identically and independently to distance, movement, and time",
+        "The infinite is not the same single thing across these cases; rather, movement is called infinite derivatively because of the infinite distance covered, and time is called infinite because of the infinite movement occupying itâ€”posterior senses depending on a prior one",
+        "Time, movement, and distance have entirely unrelated, independent notions of infinity",
+        "Aristotle denies that time or movement can ever be called infinite"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle clarifies that talk of an infinite movement or infinite time is derivative: movement is called infinite because of the infinite distance traversed, and time is called infinite in virtue of the movement that fills it, rather than each possessing its own independent, primary sense of infinity."
+    }
+  ],
+  "META_B11_Ch11": [
+    {
+      "q": "How does Aristotle distinguish things that change 'accidentally' from things that change 'in themselves' (essentially)?",
+      "options": [
+        "There is no real distinction between these two types of change",
+        "Something changes accidentally when a change belongs to it only because something associated with it changes (e.g., 'the musical' walks because the musical man walks), whereas essential change belongs to the thing directly by its own nature, as the essentially movable",
+        "Only accidental change is real; essential change does not occur",
+        "Essential change always requires an external unmoved mover, while accidental change does not"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle distinguishes accidental change, where a predicate changes only because of an associated subject's change (the musical man walking makes 'the musical' walk accidentally), from change belonging directly and essentially to a thing by its own nature."
+    },
+    {
+      "q": "Why does Aristotle conclude that generation and destruction are not themselves kinds of 'movement'?",
+      "options": [
+        "Because generation and destruction involve change between contradictories (from not-being to being, or being to not-being), while movement proper occurs only between positive contrary or intermediate terms, since what is not cannot properly be said to move or rest",
+        "Because generation and destruction do not actually occur according to Aristotle",
+        "Because movement and generation are identical concepts with no distinction",
+        "Because generation only applies to artificial things, not natural change"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that since movement requires change between two positive terms (contraries or intermediates), but generation and destruction involve the contradictory pair being/not-being, and what does not exist cannot be said to move or rest, generation and destruction fall outside the category of movement proper."
+    },
+    {
+      "q": "According to Aristotle, between what kinds of terms does genuine movement (as opposed to generation/destruction) occur?",
+      "options": [
+        "Only between a thing and absolute nothingness",
+        "Only between purely contradictory terms like being and not-being",
+        "Between positive termsâ€”contraries and their intermediatesâ€”expressed by affirmative terms (e.g., naked, toothless, black), since change from or to a genuine negation/non-existence cannot count as movement",
+        "Movement occurs randomly with no defined structure of terms"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle concludes that true movement occurs only between positive, affirmatively expressible terms (contraries and their intermediates, such as different colors or states), rather than between a term and sheer non-being, which characterizes generation and destruction instead."
+    }
+  ],
+  "META_B11_Ch12": [
+    {
+      "q": "Why does Aristotle deny that there can be 'movement of movement' or 'becoming of becoming'?",
+      "options": [
+        "Because this would generate an infinite regress (a coming-to-be of a coming-to-be of a coming-to-be, ad infinitum), and since an infinite series has no first term, nothing could ever actually come to be, move, or change at allâ€”an absurd result",
+        "Because Aristotle believes all change is instantaneous with no process at all",
+        "Because movement and becoming are, for Aristotle, entirely fictional concepts",
+        "Because only substances, not processes, can undergo change according to Aristotle"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle argues that positing a change of change or becoming of becoming leads to an infinite regress with no first term, which would make it impossible for anything ever to actually come to be or changeâ€”an unacceptable consequence, so such second-order change must be rejected."
+    },
+    {
+      "q": "According to this chapter, in which categories does Aristotle say genuine movement can occur, and why not in substance or relation?",
+      "options": [
+        "Movement occurs in quality, quantity, and place, since these admit of contrariety; it does not occur in substance (nothing is contrary to substance) or in relation (a relative term can become false of something without that thing itself changing, making such 'change' merely accidental)",
+        "Movement occurs only in substance, since that is the most fundamental category",
+        "Movement occurs equally in all categories without exception",
+        "Movement occurs only in relation, since relations are inherently changeable"
+      ],
+      "correct": 0,
+      "explanation": "Aristotle restricts genuine movement to quality, quantity, and place because these categories admit contrariety; substance has no contrary, and apparent 'change' in relation can occur merely because a correlated thing changes, making relational change merely accidental rather than a movement in the relation itself."
+    },
+    {
+      "q": "How does Aristotle distinguish 'continuous' things from merely 'successive' or 'contiguous' things in this chapter?",
+      "options": [
+        "These three terms are used interchangeably by Aristotle with no real distinction",
+        "Successive things simply follow one another in order without necessarily touching; contiguous things are successive and also touch; continuous things go further stillâ€”their touching limits become one and the same, producing a true unity, which is why a point (which can touch) differs from a unit (which only succeeds, without touching)",
+        "Continuity applies only to numbers, never to physical magnitudes",
+        "Contiguity is a stronger, more unified relation than continuity"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle builds a hierarchy: successive things merely follow in order, contiguous things are successive and touch, and continuous things go further by having their contacting limits become literally one, producing genuine unityâ€”illustrated by the contrast between a touching point and a merely successive unit."
+    }
+  ],
+  "META_B5_Ch1": [
+    {
+      "q": "In Book 5, Chapter 1, Aristotle identifies six different senses of 'beginning' ('arche'). Which of the following BEST captures the primary or most foundational sense?",
+      "correct": 0,
+      "options": [
+        "That part of a thing from which one would naturally start first (like the beginning of a line or road)",
+        "A historical or temporal origin from which something is produced",
+        "A logical premise from which a demonstration proceeds",
+        "An external authority that commands or controls something"
+      ],
+      "explanation": "Aristotle's opening definition of 'beginning' as 'that part of a thing from which one would start first' (like a line) establishes the core spatial/structural sense from which other senses derive."
+    },
+    {
+      "q": "According to Aristotle in Book 5, Chapter 1, what is peculiar about the status of the good and the beautiful as 'beginnings'?",
+      "correct": 1,
+      "options": [
+        "They are only causes of physical movement, not of knowledge",
+        "They function as both the beginning of knowledge and the source of movement in many things, despite not being immanent parts",
+        "They cannot be defined or understood apart from particular instances",
+        "They are purely subjective and relative to individual observers"
+      ],
+      "explanation": "Aristotle notes that 'the good and the beautiful are the beginning both of the knowledge and of the movement of many things,' illustrating how final causes operate differently from immanent beginnings."
+    },
+    {
+      "q": "Why does Aristotle emphasize that some beginnings are 'immanent in the thing' while others are 'outside'?",
+      "correct": 1,
+      "options": [
+        "To show that only external beginnings are truly causal",
+        "To distinguish between the nature intrinsic to a thing and external sources like parents or agents that produce change",
+        "To argue that internal and external causes are mutually exclusive",
+        "To prove that change is impossible"
+      ],
+      "explanation": "This distinction is crucial for Aristotle's account of causation: nature and form are internal beginnings, while an agent or efficient cause (like a father or builder) is external."
+    }
+  ],
+  "META_B5_Ch2": [
+    {
+      "q": "In Book 5, Chapter 2, what does Aristotle identify as the four causes?",
+      "correct": 0,
+      "options": [
+        "Material, Formal, Efficient, and Final",
+        "Substance, Quality, Quantity, and Relation",
+        "Being, Becoming, Change, and Rest",
+        "Potency, Actuality, Form, and Matter"
+      ],
+      "explanation": "Aristotle explicitly identifies four causes: material cause (bronze), formal cause (the pattern), efficient cause (the sculptor), and final cause (the purpose)."
+    },
+    {
+      "q": "According to Aristotle in Book 5, Chapter 2, what does he mean by saying the same thing is the cause of contraries?",
+      "correct": 1,
+      "options": [
+        "All things are contradictory by nature",
+        "The presence of the steersman causes safety, while the steersman's absence causes shipwreck",
+        "Contradiction proves causation is impossible",
+        "Only contradictory causes produce real effects"
+      ],
+      "explanation": "Aristotle's example: the steersman's presence causes safety while the steersman's absence causes shipwreck, showing both a cause and its privation can produce contrary effects."
+    },
+    {
+      "q": "In Book 5, Chapter 2, how does Aristotle distinguish proper causes from accidental causes?",
+      "correct": 1,
+      "options": [
+        "Proper causes always work faster",
+        "Proper causes are defined by nature, while accidental causes involve incidental attributes",
+        "Accidental causes are imaginary",
+        "There is no real distinction"
+      ],
+      "explanation": "Aristotle distinguishes the sculptor (proper cause by art) from Polyclitus (accidental cause by happening to be a sculptor)."
+    }
+  ],
+  "META_B5_Ch3": [
+    {
+      "q": "In Book 5, Chapter 3, how does Aristotle define element as applied to letters?",
+      "correct": 0,
+      "options": [
+        "Letters are elements because they cannot be divided into different kinds",
+        "Elements are only mathematical concepts",
+        "Vowels and consonants are different kinds of elements",
+        "Words are the true elements"
+      ],
+      "explanation": "Letters are elements of syllables because they are ultimate components into which speech is divided while remaining of distinct kinds."
+    },
+    {
+      "q": "What is the connection Aristotle draws between element and universal in Book 5, Chapter 3?",
+      "correct": 1,
+      "options": [
+        "They mean the same thing",
+        "Universal things are elements because being simple and universal, they are first components in definition",
+        "Universals are particular to each element",
+        "No connection exists between them"
+      ],
+      "explanation": "Universal things function as elements because their simplicity and presence in many things makes them foundational in definition and knowledge."
+    },
+    {
+      "q": "Why does Aristotle suggest unity and point might be first principles in Chapter 3?",
+      "correct": 1,
+      "options": [
+        "Because they are the largest things",
+        "Because being one and simple, they are foundational to many things like numbers and spatial objects",
+        "Because mathematics transcends nature",
+        "Because physical elements do not exist"
+      ],
+      "explanation": "Unity and point qualify as elements because being one and simple, they are foundational: all numbers depend on unity, all spatial things on points."
+    }
+  ],
+  "META_B5_Ch4": [
+    {
+      "q": "In Book 5, Chapter 4, what does Aristotle mean by nature as a source of motion?",
+      "correct": 1,
+      "options": [
+        "Nature is identical to human society",
+        "Nature is an intrinsic principle of motion in things, distinguishing natural from artificial objects",
+        "Nature is external to individual things",
+        "Nature means merely external appearance"
+      ],
+      "explanation": "Aristotle defines nature as a source and cause of being moved and at rest. A natural object moves by nature; an artificial bed does not move by its nature."
+    },
+    {
+      "q": "How does Aristotle distinguish natural objects from artifacts in Chapter 4?",
+      "correct": 1,
+      "options": [
+        "They are fundamentally identical",
+        "Natural things have intrinsic principles of motion; artifacts have external principles from their makers",
+        "Artifacts are superior to natural things",
+        "Natural things change but artifacts never do"
+      ],
+      "explanation": "A bed has no nature-given principle to produce motion. Fire has an intrinsic principle to move upward, distinguishing natural from artificial things."
+    },
+    {
+      "q": "Why does a separated hand not have nature according to Aristotle in Chapter 4?",
+      "correct": 1,
+      "options": [
+        "Parts cannot be natural things",
+        "A separated part loses the functional principle of the living whole it belonged to",
+        "Parts do not really exist",
+        "Aristotle rejects the concept of parts"
+      ],
+      "explanation": "A severed hand, though made of natural material, no longer possesses nature because it has lost the functional principle of the complete organism."
+    }
+  ],
+  "META_B5_Ch5": [
+    {
+      "q": "In Book 5, Chapter 5, what is the fundamental sense of the necessary according to Aristotle?",
+      "correct": 1,
+      "options": [
+        "The probable",
+        "That which cannot be otherwise",
+        "That which is conditional on a purpose",
+        "That which is changeable"
+      ],
+      "explanation": "Aristotle defines necessary as that which cannot be otherwise, the fundamental sense from which other meanings derive."
+    },
+    {
+      "q": "What distinction does Aristotle draw between necessity for a purpose and intrinsic necessity in Chapter 5?",
+      "correct": 1,
+      "options": [
+        "They are identical",
+        "Necessity for a purpose is conditional and depends on a further goal; intrinsic necessity is unconditional",
+        "Only purposive necessity is real",
+        "Only intrinsic necessity is conditional"
+      ],
+      "explanation": "Hypothetical necessity depends on an external goal, while absolute necessity applies to things whose nature cannot be otherwise, like eternal substances."
+    },
+    {
+      "q": "Which kind of necessity applies to eternal things like the heavens according to Chapter 5?",
+      "correct": 2,
+      "options": [
+        "Conditional necessity only",
+        "No necessity at all",
+        "Intrinsic necessity since their eternal nature cannot be otherwise",
+        "The same necessity as perishable things"
+      ],
+      "explanation": "Eternal things have necessity intrinsic to their nature; the heavens cannot be otherwise because their eternal being makes alteration impossible."
+    }
+  ],
+  "META_B5_Ch6": [
+    {
+      "q": "Book 5, Chapter 6: TBD Question 1",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 6: TBD Question 2",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 6: TBD Question 3",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    }
+  ],
+  "META_B5_Ch7": [
+    {
+      "q": "Book 5, Chapter 7: TBD Question 1",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 7: TBD Question 2",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 7: TBD Question 3",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    }
+  ],
+  "META_B5_Ch8": [
+    {
+      "q": "Book 5, Chapter 8: TBD Question 1",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 8: TBD Question 2",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 8: TBD Question 3",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    }
+  ],
+  "META_B5_Ch9": [
+    {
+      "q": "Book 5, Chapter 9: TBD Question 1",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 9: TBD Question 2",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 9: TBD Question 3",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    }
+  ],
+  "META_B5_Ch10": [
+    {
+      "q": "Book 5, Chapter 10: TBD Question 1",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 10: TBD Question 2",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    },
+    {
+      "q": "Book 5, Chapter 10: TBD Question 3",
+      "correct": 0,
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "explanation": "To be completed with detailed textual analysis"
+    }
+  ],
+  "META_B5_Ch11": [
+    {
+      "q": "In Book 5, Chapter 11, what does Aristotle mean by 'prior' in its most fundamental sense?",
+      "options": [
+        "What comes first in time",
+        "What is closer in space",
+        "That which is more independent or required for existence/explanation of other things",
+        "That which is stronger"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle identifies the fundamental sense of priority as that which can be without other things, but not vice versa - a matter of independence and explanatory priority."
+    },
+    {
+      "q": "How does Aristotle distinguish different kinds of priority in Chapter 11?",
+      "options": [
+        "There is only one kind of priority",
+        "Prior in nature (more independent), prior in causation (causal responsibility), and prior in knowledge (more knowable)",
+        "All priorities are temporal",
+        "Priority is arbitrary and meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies multiple senses: priority in nature (substance before accidents), in causation (cause before effect), and in knowledge (universal before particular)."
+    },
+    {
+      "q": "Why does Aristotle argue that substances are prior to qualities in Chapter 11?",
+      "options": [
+        "Substances always come first in time",
+        "Substances can exist without qualities, but qualities require a substrate of substance",
+        "This is merely a linguistic convention",
+        "Qualities are actually prior"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that substance is prior because substances can exist without specific qualities, whereas qualities require a substantial subject to inhere in."
+    }
+  ],
+  "META_B5_Ch12": [
+    {
+      "q": "In Book 5, Chapter 12, what does Aristotle identify as the fundamental sense of 'power' or 'potency'?",
+      "options": [
+        "Physical strength",
+        "An originative source of change in another thing or the thing itself qua other",
+        "Logical possibility",
+        "Mere wish or desire"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines potency fundamentally as 'a source of motion or of rest in another thing' (or in itself as other), establishing it as a causal principle."
+    },
+    {
+      "q": "How does Aristotle relate rational potencies to non-rational ones in Chapter 12?",
+      "options": [
+        "They are identical",
+        "Rational potencies can produce contrary effects and involve deliberation, while non-rational potencies produce only one effect",
+        "Non-rational potencies are superior",
+        "Only non-rational potencies truly exist"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that arts (rational potencies) can be directed toward opposites (health or disease), whereas non-rational potencies like heat only produce one effect."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between potential being and actual being in Chapter 12?",
+      "options": [
+        "They are identical",
+        "Potential being is less real than actual being",
+        "Potency and actuality are distinct but complementary, with actuality being prior in definition though potency may be prior in time in some cases",
+        "Potency is more real than actuality"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle establishes the fundamental importance of the potency-actuality distinction for understanding change, generation, and all becoming."
+    }
+  ],
+  "META_B5_Ch13": [
+    {
+      "q": "In Book 5, Chapter 13, what does Aristotle mean by 'to have' something?",
+      "options": [
+        "Only physical possession",
+        "Various relations including possession, containment, part-to-whole relations, and state or disposition",
+        "Logical relation only",
+        "Pure coincidence"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies multiple senses of 'to have': having clothes, having knowledge (as a state), having parts, having aspects, showing the range of this relational term."
+    },
+    {
+      "q": "How does Aristotle illustrate the difference between having something acquired (like knowledge) versus having something inherent (like a part) in Chapter 13?",
+      "options": [
+        "There is no difference",
+        "Acquired states like knowledge can be gained and lost; parts are inherent to the nature of the thing and cannot be similarly separated",
+        "Both are equally separable",
+        "Inherent things are more temporary"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle distinguishes having as possession of an acquired state (knowledge can be forgotten) from having as possession of a constitutive part (the hand is inseparable from the body)."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between 'having' and 'being' in Chapter 13?",
+      "options": [
+        "They are identical",
+        "Having is a dependent mode of being - things have attributes and parts, making it a weaker sense of being than being itself",
+        "Having is more fundamental than being",
+        "Having and being are unrelated"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle treats having as derivative from being, since to have X presupposes that X is something, but not all beings are had by something."
+    }
+  ],
+  "META_B5_Ch14": [
+    {
+      "q": "In Book 5, Chapter 14, what does Aristotle identify as the primary sense of 'to be in something'?",
+      "options": [
+        "Only spatial containment",
+        "Being part of a whole, or being contained as matter in form",
+        "Temporal relation only",
+        "Logical entailment"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies multiple senses of being in: part in whole, form in matter, accidents in substrates, establishing these as primary spatial and mereological senses."
+    },
+    {
+      "q": "How does Aristotle use the example of the wine to illustrate different senses of being in something in Chapter 14?",
+      "options": [
+        "Wine is only in a container",
+        "Wine is in day (day contains wine-drinking) in a different sense than wine is in a cup; the cup contains the wine as matter/container while the day contains wine-drinking as an action within time",
+        "There is only one sense",
+        "Wine cannot be in multiple things"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle's distinction between wine-in-cup (mereological/spatial) and wine-in-day (temporal/activity) shows how 'in' varies across categories and contexts."
+    },
+    {
+      "q": "What is the relationship between 'in' and 'containing' in Aristotle's analysis in Chapter 14?",
+      "options": [
+        "They are identical",
+        "To be in something is correlative to something being a container - things in are contained by things that contain",
+        "Containing is irrelevant to being in",
+        "Nothing is truly in anything"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that 'in' and 'containing' are reciprocal relations - to be in is to be contained, establishing a mutual dependence in the language of location."
+    }
+  ],
+  "META_B5_Ch15": [
+    {
+      "q": "In Book 5, Chapter 15, what does Aristotle mean by 'part'?",
+      "options": [
+        "Any separate physical piece",
+        "That which is included in a whole to which it contributes, whether as matter, form, or component of the definition",
+        "Something unrelated to a whole",
+        "A purely mental construct"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines part broadly as what is included in a whole and contributes to it, encompassing material parts (bricks in a wall), formal parts (genus and differentia in a definition)."
+    },
+    {
+      "q": "How does Aristotle distinguish a part from what is 'merely attached' or 'included in' something in Chapter 15?",
+      "options": [
+        "There is no difference",
+        "A true part contributes essentially to constituting the whole; attachment is more superficial or accidental",
+        "Attachment is more fundamental than being a part",
+        "Nothing is truly a part"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that what is merely attached (like a handle to a cup) differs from a true part (like the material and form), by the former's lack of essential contribution."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between parts and the whole in Chapter 15?",
+      "options": [
+        "Parts are prior to wholes",
+        "Wholes are prior to parts",
+        "In definition, the whole is prior (we understand the parts through their role in the whole), though in some cases parts are temporally prior",
+        "Parts and wholes are unrelated"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle establishes that while physical parts may temporally precede the constructed whole, conceptually the whole is prior as the context defining what counts as a part."
+    }
+  ],
+  "META_B5_Ch16": [
+    {
+      "q": "In Book 5, Chapter 16, what does Aristotle mean by 'complete' or 'whole' in its primary sense?",
+      "options": [
+        "Something that is very large",
+        "That which has lost nothing of its natural extent and has all its parts naturally present",
+        "Something that is unchanging",
+        "A concept that is purely logical"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines the complete/whole as that which lacks nothing of its natural extent - a circle is whole if it has all parts naturally belonging to a circle's form."
+    },
+    {
+      "q": "How does Aristotle distinguish between a thing being 'whole' and being 'one' in Chapter 16?",
+      "options": [
+        "They are identical",
+        "A thing can be one without being whole (parts can be one without forming a complete whole); a whole is a kind of unity but requires integration of all natural parts",
+        "Whole and one are contradictory",
+        "No distinction is possible"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that scattered pieces of wood can be one (unified by thought) without being whole, whereas a whole thing has all its natural parts arranged in unity."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between 'whole' and 'universal' in Chapter 16?",
+      "options": [
+        "They are the same",
+        "Both are applied to things that encompass their parts, though universals encompass by predication while wholes encompass by inclusion",
+        "Universals are never wholes",
+        "The relationship is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle treats whole and universal as related concepts: universals cover many instances and wholes contain many parts, but the manner of encompassing differs."
+    }
+  ],
+  "META_B5_Ch17": [
+    {
+      "q": "In Book 5, Chapter 17, what is the fundamental sense of 'continuous'?",
+      "options": [
+        "Merely adjacent or touching",
+        "That which is divisible into parts that can never be severed - where the joining is natural or of one kind",
+        "Things that are permanent",
+        "Things that do not change"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines continuity as divisibility into parts whose joining point is one - unity of the parts that divides them, not mere adjacency."
+    },
+    {
+      "q": "How does Aristotle use the examples of a line and discrete units (like numbers) to illustrate continuity in Chapter 17?",
+      "options": [
+        "A line is discrete; numbers are continuous",
+        "A line is continuous because you can divide it and the parts remain in contact; numbers are discrete because their parts cannot exist in this continuous way",
+        "Both are equally continuous",
+        "Neither is continuous"
+      ],
+      "correct": 1,
+      "explanation": "The line exemplifies continuity through infinite divisibility with parts remaining connected, while numbers exemplify discreteness where units cannot be continuously divided."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between contact and continuity in Chapter 17?",
+      "options": [
+        "They are identical",
+        "Contact is necessary for continuity, but continuity requires more than contact - identity of the boundary point",
+        "Continuity doesn't require contact",
+        "Neither concept is meaningful"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that continuity requires not just contact (touching) but unity of the joining point - the limit where the two parts meet must be one."
+    }
+  ],
+  "META_B5_Ch18": [
+    {
+      "q": "In Book 5, Chapter 18, what does Aristotle mean by 'limited' or 'definite'?",
+      "options": [
+        "Something that is small",
+        "That which has its extent determined and not extended beyond - having a bound or limit",
+        "Something that is abstract",
+        "Purely a matter of measurement"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines the limited as that which has a determined extent with a bound, as opposed to the unlimited which has no such boundary."
+    },
+    {
+      "q": "How does Aristotle relate 'limited' to 'form' and 'unlimited' to 'matter' in Chapter 18?",
+      "options": [
+        "They are unrelated",
+        "Form is what determines limit and boundary, while matter is naturally unlimited until informed by form",
+        "Matter always determines limit",
+        "Form and matter are identical"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle suggests that form naturally confers limit and definition upon matter, which tends toward the unlimited; this distinction is fundamental to his metaphysics."
+    },
+    {
+      "q": "What does Aristotle argue about whether infinity is possible in nature according to Chapter 18?",
+      "options": [
+        "Everything is infinite",
+        "Nothing can be infinite",
+        "The unlimited may exist as a principle in nature (like matter), though actual infinite wholes may not be real in the same way as limited things",
+        "Infinity is purely mathematical"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle argues that while the unlimited may exist as a principle (potential infinity), actual infinite wholes appear impossible in nature itself."
+    }
+  ],
+  "META_B5_Ch19": [
+    {
+      "q": "In Book 5, Chapter 19, what does Aristotle mean by 'affection' or 'quality'?",
+      "options": [
+        "Only emotional states",
+        "A condition or modification of being, whether an active alteration (becoming pale) or a passive state (being pale)",
+        "Purely subjective experience",
+        "An unchanging property"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle treats affection broadly as any modification or condition, including both the process of change (becoming pale) and the resulting state (being pale)."
+    },
+    {
+      "q": "How does Aristotle distinguish active affections from passive ones in Chapter 19?",
+      "options": [
+        "All affections are passive",
+        "Active affections are changes or alterations (heating); passive affections are capacities to undergo such changes (flammability)",
+        "All affections are active",
+        "The distinction is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that some affections are actively undergoing modification (being affected) while others are passive capacities or susceptibilities to such modification."
+    },
+    {
+      "q": "What does Aristotle say about the primacy of suffering or passion to affection in Chapter 19?",
+      "options": [
+        "Only active states are truly affections",
+        "Affection, strictly speaking, means undergoing change or suffering an action; the capacity for this is prior as a potentiality",
+        "Affection is unrelated to suffering",
+        "Suffering is the only kind of affection"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies affection primarily with the passive experience of change, while also recognizing that potentialities for suffering are foundational."
+    }
+  ],
+  "META_B5_Ch20": [
+    {
+      "q": "In Book 5, Chapter 20, how does Aristotle define 'state' or 'condition'?",
+      "options": [
+        "A temporary emotional feeling",
+        "A settled condition or disposition, like knowledge or virtue, which is harder to change than a passing affection",
+        "A purely mental construct",
+        "Something that cannot persist"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines state as a relatively stable and enduring condition, distinguishing it from passing affections - knowledge is a state while learning is an affection."
+    },
+    {
+      "q": "What is the relationship between state and quality in Aristotle's analysis in Chapter 20?",
+      "options": [
+        "They are identical",
+        "State is a type of quality - a stable quality or disposition that constitutes a lasting condition",
+        "State is distinct from quality",
+        "Neither term is meaningful"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle treats states (habits, virtues, knowledge) as a type of quality characterized by stability and difficulty of change, as opposed to more transient qualities."
+    },
+    {
+      "q": "How does Aristotle use the example of health to illustrate the concept of state in Chapter 20?",
+      "options": [
+        "Health is a passing emotion",
+        "Health is a state of the body, a stable disposition resistant to change, unlike the temporary feeling of warmth",
+        "Health is unreal",
+        "Health and sickness are identical states"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle contrasts the stable state of health (a settled condition of the body) with transient affections like fever, showing states as more enduring than momentary changes."
+    }
+  ],
+  "META_B5_Ch21": [
+    {
+      "q": "In Book 5, Chapter 21, what does Aristotle identify as the fundamental sense of 'passion' or 'emotion'?",
+      "options": [
+        "Only intense feelings",
+        "A movement or change of the soul, especially one that involves pain or pleasure",
+        "Something purely rational",
+        "An unchanging property"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines passions as movements of the soul - changes involving pleasure or pain, like anger, fear, or desire."
+    },
+    {
+      "q": "How does Aristotle distinguish between 'passion' and 'capacity' for passion in Chapter 21?",
+      "options": [
+        "They are identical",
+        "Passion is the actual experience of emotion; capacity for passion is the potentiality or disposition to experience such emotions",
+        "Capacities are more real than passions",
+        "Passion is irrelevant to capacity"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that courage is a capacity for facing danger bravely, while fear is the actual passion/experience experienced."
+    },
+    {
+      "q": "What does Aristotle say about whether passions are good or bad in themselves in Chapter 21?",
+      "options": [
+        "All passions are evil",
+        "All passions are good",
+        "Passions are neither good nor bad in themselves; they become good or bad through virtue or vice, i.e., through moderation or excess",
+        "Passions have no moral significance"
+      ],
+      "correct": 2,
+      "explanation": "Aristotle implies that feeling anger, fear, or desire is not inherently virtuous or vicious - virtue consists in having the right passion, in the right degree, at the right time."
+    }
+  ],
+  "META_B5_Ch22": [
+    {
+      "q": "In Book 5, Chapter 22, how does Aristotle define 'quantity'?",
+      "options": [
+        "Only physical size",
+        "That which is divisible into parts and is such as to be 'countable' or 'measurable'",
+        "Purely abstract number",
+        "Something immeasurable"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines quantity as what admits of division and measurement, whether discrete (like number) or continuous (like magnitude)."
+    },
+    {
+      "q": "What is the distinction between discrete and continuous quantity in Chapter 22?",
+      "options": [
+        "They are identical",
+        "Discrete quantity consists of parts that have no common limit (numbers, speech), while continuous quantity has parts connected at a limit (lines, surfaces)",
+        "Continuous quantity is always discrete",
+        "Discrete quantity cannot be measured"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle's key distinction: 10 comes after 9 (no middle), but between two points on a line, there are always intermediate points, illustrating discrete vs. continuous division."
+    },
+    {
+      "q": "According to Aristotle in Chapter 22, can all quantities be compared or measured against each other?",
+      "options": [
+        "No comparison is possible",
+        "Quantities of the same kind can be compared; a number cannot be compared with a line",
+        "All quantities are identically comparable",
+        "Measurement is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that while all quantities admit of 'more' and 'less' within their kind, quantities of different kinds (discrete vs. continuous) are not directly comparable."
+    }
+  ],
+  "META_B5_Ch23": [
+    {
+      "q": "In Book 5, Chapter 23, what does Aristotle mean by 'quality'?",
+      "options": [
+        "Only physical properties",
+        "A differentiating characteristic or affection, including color, skill, virtue, and affections of the body",
+        "Something entirely subjective",
+        "A kind of quantity"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle broadly defines quality as what differentiates things, encompassing sensible qualities (color), acquired dispositions (knowledge, virtue), and affective states."
+    },
+    {
+      "q": "How does Aristotle relate quality to substance in Chapter 23?",
+      "options": [
+        "Quality is more fundamental than substance",
+        "Quality is always accidental to substance and cannot exist independently",
+        "They are identical",
+        "Quality and substance are unrelated"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle treats qualities as dependent on substances - color presupposes a colored thing, virtue presupposes a person possessing virtue."
+    },
+    {
+      "q": "What does Aristotle say about whether things can be similar by quality in Chapter 23?",
+      "options": [
+        "Things are never similar by quality",
+        "Yes, things with the same qualities are similar - a thing of any quality can be called similar if it has that quality in common with another",
+        "Similarity is impossible",
+        "Only substances can be similar"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that similarity often consists in having the same qualities, as when two white things are similar by whiteness."
+    }
+  ],
+  "META_B5_Ch24": [
+    {
+      "q": "In Book 5, Chapter 24, what does Aristotle identify as the primary meaning of 'being'?",
+      "options": [
+        "Existing temporally",
+        "Substance - that which can exist independently and to which other things belong",
+        "A purely abstract concept",
+        "All things equally"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies substance as primary being, with other categories (quality, quantity) being derivative - they are called beings because they belong to or modify substances."
+    },
+    {
+      "q": "How does Aristotle distinguish between being 'accidentally' and being 'essentially' in Chapter 24?",
+      "options": [
+        "They are the same",
+        "Accidental being is when something is said to be because of an incidental relation (white is said to be through being an attribute of a substance); essential being is direct and primary",
+        "Accident is more real than essence",
+        "The distinction is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle emphasizes that a quality 'is' only insofar as it qualifies something primary (a substance), making accidental being derivative from essential being."
+    },
+    {
+      "q": "According to Aristotle in Chapter 24, why is the investigation of being inseparable from the investigation of substance?",
+      "options": [
+        "Being and substance are unrelated",
+        "Since being is predicated primarily and essentially of substance, understanding being requires understanding what substance fundamentally is",
+        "Substance is irrelevant to being",
+        "Many beings exist without substance"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that the inquiry into being (metaphysics) is fundamentally an inquiry into substance, since substance is the primary sense of being."
+    }
+  ],
+  "META_B5_Ch25": [
+    {
+      "q": "In Book 5, Chapter 25, how does Aristotle define 'accidental being'?",
+      "options": [
+        "Something that never exists",
+        "An attribute or property that inheres in a subject but is not essential to it, existing through the coincidence of things",
+        "Something purely intentional",
+        "All being is accidental"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines accidental being as properties that follow upon being of something but are not part of its essence - like a musician being pale (pale is accidental to musician)."
+    },
+    {
+      "q": "What does Aristotle say about the causes of accidental being in Chapter 25?",
+      "options": [
+        "Accidents have determinate causes like substances do",
+        "Accidents cannot have causes in the same way, since they are neither generated nor destructed - they are coincidences without proper causes",
+        "All accidents are eternally necessary",
+        "Accidents explain all being"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that accident is obscure in its causes because it depends on coincidence rather than a proper cause - why a musician happened to be pale cannot be scientifically explained."
+    },
+    {
+      "q": "How does Aristotle's treatment of accidental being relate to the scope of metaphysics in Chapter 25?",
+      "options": [
+        "Metaphysics studies only accidents",
+        "Since accidents lack proper causes and determinate principles, science cannot deal with them directly - metaphysics focuses on essential being and substance",
+        "Accidents are the true subject of metaphysics",
+        "Metaphysics is impossible"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle suggests that the obscurity and lack of proper causation in accidents explains why metaphysics focuses on substance and essential being, leaving accidents to chance."
+    }
+  ],
+  "META_B5_Ch26": [
+    {
+      "q": "In Book 5, Chapter 26, what senses of 'measure' does Aristotle identify?",
+      "options": [
+        "Only physical measurement",
+        "That by which we know the quantity of things; what is measurable; that which determines boundaries",
+        "Purely subjective comparison",
+        "A meaningless concept"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies measure as that by which things are counted or measured (the standard), the things that are measured, and their boundary/limit."
+    },
+    {
+      "q": "How does Aristotle use the example of a foot-rule to illustrate the concept of measure in Chapter 26?",
+      "options": [
+        "Measurement is impossible",
+        "A foot-rule is the standard by which we measure other lengths; the things measured are compared to it, showing measure as both standard and application",
+        "Only abstract measures exist",
+        "Measurement is purely mental"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle shows how a foot-rule functions as the measure (standard) by which other things are measured, illustrating the role of measure as a principle of determination."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between measure and equality in Chapter 26?",
+      "options": [
+        "They are unrelated",
+        "Equal things are those that have the same measure; measure determines equality",
+        "Measure is irrelevant to equality",
+        "Equality is purely subjective"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle connects measure to equality: things with the same measure are equal, showing how measure is fundamental to determining equality."
+    }
+  ],
+  "META_B5_Ch27": [
+    {
+      "q": "In Book 5, Chapter 27, what does Aristotle mean by 'knowledge' in its primary sense?",
+      "options": [
+        "Only empirical observation",
+        "Knowledge of universal principles and causes, as opposed to mere experience or opinion",
+        "Purely subjective belief",
+        "An impossible ideal"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies knowledge as understanding of principles and causes that hold universally, distinct from experience (which concerns particulars) or opinion (which can be false)."
+    },
+    {
+      "q": "How does Aristotle distinguish between knowledge and sense-perception in Chapter 27?",
+      "options": [
+        "They are identical",
+        "Sense-perception grasps particulars through the senses; knowledge grasps universals and causes through reason",
+        "Sense-perception is superior to knowledge",
+        "Neither reaches truth"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that perception is of particulars and immediate, while knowledge involves universals and causal understanding - a fundamental epistemological distinction."
+    },
+    {
+      "q": "What does Aristotle say about the object of knowledge in Chapter 27?",
+      "options": [
+        "Knowledge has no true objects",
+        "Knowledge is of universals and essences, since what is particulars and variable cannot be definitively known",
+        "Only particulars can be known",
+        "Knowledge is purely imaginative"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that genuine knowledge (episteme) has universals as its objects because particulars are always changing and cannot be the object of science."
+    }
+  ],
+  "META_B5_Ch28": [
+    {
+      "q": "In Book 5, Chapter 28, what is the central distinction in Aristotle's analysis of different meanings of senses?",
+      "options": [
+        "All senses are identical",
+        "The sensing faculty (potentiality) vs. the act of sensing; also passive sensation vs. active perception",
+        "Senses are purely mental",
+        "Sensation is impossible"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle distinguishes the capacity to sense (potentiality) from actual sensing (actuality), and the passive reception of stimuli from active perception of meaning."
+    },
+    {
+      "q": "How does Aristotle relate sensation to emotion or feeling in Chapter 28?",
+      "options": [
+        "They are unrelated",
+        "Sensation is the basis for emotional response; what we perceive through senses gives rise to feelings and passions",
+        "Emotions come before sensation",
+        "Neither is real"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that the senses are involved in emotions - fear involves sensing danger, pleasure involves sensing something pleasant, showing their interconnection."
+    },
+    {
+      "q": "What does Aristotle say about whether sensation is always veridical in Chapter 28?",
+      "options": [
+        "All sensation is veridical",
+        "In general, sensations of immediate sensible qualities (color, taste) are true, but sensations about what produces them can deceive us",
+        "Sensation is always deceptive",
+        "Truth and sensation are unrelated"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that sensation of the particular and immediate is generally reliable, while judgment about causes or interpretations can mislead us."
+    }
+  ],
+  "META_B5_Ch29": [
+    {
+      "q": "In Book 5, Chapter 29, what primary division does Aristotle make in analyzing the term 'truth'?",
+      "options": [
+        "Truth is purely subjective",
+        "Truth concerns both things (truth of being) and statements (truth of discourse); something is true if it is actually as it is said or thought to be",
+        "Truth doesn't exist",
+        "All statements are equally true"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies truth as the correspondence between thought/speech and reality - a thing is true if what is said of it conforms to how it actually is."
+    },
+    {
+      "q": "How does Aristotle relate truth to the actual characteristics of things in Chapter 29?",
+      "options": [
+        "Truth is independent of reality",
+        "A thing is called true insofar as its actual characteristics conform to our knowledge or speech about it",
+        "Appearance determines truth",
+        "Reality is unknowable"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle grounds truth in the actual nature of things - a good flute is one whose actual characteristics make it capable of playing well, making truth reality-dependent."
+    },
+    {
+      "q": "What does Aristotle say about truth in being versus truth in statements in Chapter 29?",
+      "options": [
+        "They are unrelated",
+        "Being is true when it actualizes its characteristic potentialities (a good eye sees well); thought is true when it conforms to this actual being",
+        "Truth is only in statements",
+        "Truth is only in being"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that truth in things (metaphysical truth) and truth in statements (logical truth) are interconnected through the correspondence of potentiality and actuality."
+    }
+  ],
+  "META_B5_Ch30": [
+    {
+      "q": "In Book 5, Chapter 30, how does Aristotle characterize 'false' or 'falsity'?",
+      "options": [
+        "Only a mental state",
+        "False things are those that fail to actualize their characteristics, or false statements are those that assert being where there is non-being",
+        "Falsity is the opposite of truth in all respects",
+        "Nothing is truly false"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defines falsity as either the failure to actualize one's nature (a bad instrument doesn't perform its function) or the assertion of what is not."
+    },
+    {
+      "q": "What is the relationship between falsity and non-being in Aristotle's account in Chapter 30?",
+      "options": [
+        "They are unrelated",
+        "False statements and false things assert or manifest non-being; a false person appears to be what they are not",
+        "Non-being is always false",
+        "Falsity requires actual non-being"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle connects falsity to a failure of being - a false human is one who fails to embody true human characteristics, manifesting a kind of non-being."
+    },
+    {
+      "q": "How does Aristotle's analysis of truth and falsity in Chapter 30 connect back to the analysis of being in Chapter 24?",
+      "options": [
+        "They are unrelated",
+        "Both analyses emphasize that being and truth are correlative - what truly is actualizes its nature, while falsity involves a failure of being to manifest itself properly",
+        "Truth and being are opposed",
+        "Being is irrelevant to truth"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle brings Book 5 to conclusion by showing that truth/falsity mirror being/non-being - understanding being requires understanding the actualization or failure of nature."
+    }
+  ],
+  "META_B6_Ch1": [
+    {
+      "q": "In Book 6, Chapter 1, what is Aristotle's primary objection to those who claim that non-beings or absurdities are objects of knowledge?",
+      "options": [
+        "They are too literal in their interpretation",
+        "Knowledge requires a definite subject; if there is no stable truth in a thing, one cannot have knowledge of it",
+        "Non-being is the most real thing",
+        "Knowledge is impossible"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that knowledge presupposes stable, determinate truth; things that are not or constantly change allow no fixed target for knowledge."
+    },
+    {
+      "q": "How does Aristotle distinguish between being as a predicate and things that are in Book 6, Chapter 1?",
+      "options": [
+        "They are identical in all respects",
+        "Being is predicated of substances primarily, with other things called beings only in relation to substance",
+        "Only non-substances truly are",
+        "The distinction is merely linguistic"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle's key insight: substance is being in the primary sense; accidents and other categories are called beings derivatively because they depend on substance."
+    },
+    {
+      "q": "What does Aristotle mean by stating that becoming 'always becomes of something by something into something' in Chapter 1?",
+      "options": [
+        "Becoming is impossible",
+        "Generation requires three elements: a substrate, an efficient cause, and a formal end-result",
+        "All things are eternally unchanging",
+        "Matter creates itself"
+      ],
+      "correct": 1,
+      "explanation": "This triadic structure (matter - agent - form) explains why absolute generation is impossible: the matter must pre-exist; something must cause the change; a form must result."
+    }
+  ],
+  "META_B6_Ch2": [
+    {
+      "q": "In Book 6, Chapter 2, what is the chief difficulty Aristotle raises about principles?",
+      "options": [
+        "Principles are completely unknowable",
+        "If principles are finite yet distinct, how can their combinations account for infinite diversity of things?",
+        "All things share identical principles",
+        "Principles do not exist"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle poses a fundamental puzzle: finite, distinct principles seem insufficient to explain apparent limitlessness of particular things."
+    },
+    {
+      "q": "How does Aristotle begin to resolve the puzzle of finite principles and infinite particulars in Chapter 2?",
+      "options": [
+        "By denying that principles are finite",
+        "By noting that limited principles generate infinite particulars through combination, without requiring principles themselves to multiply infinitely",
+        "By claiming particulars are not real",
+        "By abandoning the concept of principles"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle's strategy: finite principles can combine in limited ways, yet produce infinite individual instances without the principles themselves being infinite."
+    },
+    {
+      "q": "What does Aristotle's discussion of accident contribute to his theory of principles in Chapter 2?",
+      "options": [
+        "Accidents are the true principles",
+        "Accidents are infinite because they arise from infinite combinations of principles, yet do not require infinite principles themselves",
+        "Accidents do not exist",
+        "All things are accidental"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle uses accidents to show how limited principles generate infinite derivative effects, illustrating that the infinite can arise from the finite."
+    }
+  ],
+  "META_B6_Ch3": [
+    {
+      "q": "In Book 6, Chapter 3, what does Aristotle argue about eternal and perishable things in nature?",
+      "options": [
+        "There are no eternal things",
+        "Eternal and perishable things have different natures, yet are unified under a common science of being",
+        "All things are perishable",
+        "Eternal and perishable are identical"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that while eternal (heavenly) and perishable (sublunary) things differ fundamentally, metaphysics must address both as modes of being."
+    },
+    {
+      "q": "Why does Aristotle resist calling natural science the first philosophy despite its importance in Chapter 3?",
+      "options": [
+        "He thinks physics is unimportant",
+        "Physics deals only with perishable things and thus cannot investigate eternal beings or universal principles",
+        "He rejects science entirely",
+        "Physics is identical to metaphysics"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that physics, limited to perishable substances, cannot serve as first philosophy, which must address all beings including eternal substances."
+    },
+    {
+      "q": "What is the significance of Aristotle's claim that there are more things and principles in heaven than in the material world in Chapter 3?",
+      "options": [
+        "Physical matter is superior",
+        "Eternal substances represent a higher order of being requiring different principles, expanding metaphysics beyond natural science",
+        "The earth is more important",
+        "Principles exist nowhere"
+      ],
+      "correct": 1,
+      "explanation": "This remark signals Aristotle's commitment to studying not just the natural world but the entire hierarchy of being, from perishable to eternal substances."
+    }
+  ],
+  "META_B6_Ch4": [
+    {
+      "q": "In Book 6, Chapter 4, what does Aristotle argue about the good and the beautiful as first principles?",
+      "options": [
+        "Good is purely subjective",
+        "The good and beautiful serve as final causes, making them primary principles that move things more fundamentally than matter",
+        "There is no good or best",
+        "Only material causes are real principles"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle elevates final causes and formal causes as primary principles, arguing they move things more fundamentally than material causes alone."
+    },
+    {
+      "q": "How does Aristotle characterize the difference between natural philosophy and metaphysics in Chapter 4?",
+      "options": [
+        "They are identical",
+        "Natural philosophy investigates causes in perishable things; metaphysics addresses universal causes applying to all being",
+        "Natural philosophy is superior",
+        "They are opposed and incompatible"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle sketches how metaphysics transcends natural philosophy by investigating principles operative across all categories of being."
+    },
+    {
+      "q": "What does Aristotle suggest about the difficulty of attaining truth about first principles in Chapter 4?",
+      "options": [
+        "Truth is unattainable",
+        "While absolute certainty is difficult, metaphysics must pursue understanding of eternal truths underlying all being",
+        "First principles are obvious to all",
+        "Truth is arbitrary"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle acknowledges the difficulty of metaphysical inquiry while insisting it is the most worthwhile investigation possible."
+    }
+  ],
+  "META_B7_Ch1": [
+    {
+      "q": "In Book 7, Chapter 1, what does Aristotle identify as the central question of inquiry?",
+      "options": [
+        "What are the four elements?",
+        "What is being? For being is said in many senses, making the primary sense of being (substance) the focus of inquiry",
+        "What is the good?",
+        "What is time?"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle opens Book 7 by identifying that since being is predicated in multiple ways, the inquiry into being requires determining the primary sense of being."
+    },
+    {
+      "q": "How does Aristotle characterize substance in relation to other categories in Chapter 1?",
+      "options": [
+        "Substance and other categories are equally fundamental",
+        "Substance is the primary kind of being; other categories (quality, quantity) are called beings derivatively because they pertain to substances",
+        "Other categories are more real than substance",
+        "Categories are irrelevant to being"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes the hierarchy of being with substance as primary, making it the essential focus for any science of being."
+    },
+    {
+      "q": "What candidates for substance does Aristotle identify in Chapter 1?",
+      "options": [
+        "Only forms exist as substances",
+        "Matter, form, and the compound of matter and form all seem to have claims to being substances",
+        "Only matter is substance",
+        "Nothing is substance"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle notes that matter appears to be substance (the underlying substratum), as does form (the essence), and the composite (the individual thing)."
+    }
+  ],
+  "META_B7_Ch2": [
+    {
+      "q": "In Book 7, Chapter 2, how does Aristotle characterize the relation between substance and definition?",
+      "options": [
+        "They are unrelated",
+        "Substance is known through definition; the essence revealed by definition determines what a thing fundamentally is",
+        "Definition is irrelevant to substance",
+        "All definitions are arbitrary"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that understanding substance requires understanding its definition/essence - what the thing fundamentally is."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between individual substances and universal substances in Chapter 2?",
+      "options": [
+        "Only universals are substances",
+        "Individual things (this human, this horse) appear most obviously as substances, yet universal kinds (humanity, horseness) also have claims to substance status",
+        "Only individuals are substances",
+        "The distinction is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies a tension: individual things seem to be the clearest substances, yet we also predicate substance of universal kinds/definitions."
+    },
+    {
+      "q": "How does Aristotle use the example of matter and form to illustrate the nature of substance in Chapter 2?",
+      "options": [
+        "Matter and form are irrelevant",
+        "Matter seems to be substance as the underlying substratum, while form seems substance as what determines matter and gives it nature",
+        "Only matter is substance",
+        "Neither matter nor form is substance"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle explores how both matter (the persisting substratum) and form (the determining essence) claim to be substance, establishing a central problem."
+    }
+  ],
+  "META_B7_Ch3": [
+    {
+      "q": "In Book 7, Chapter 3, what problem does Aristotle raise about form and matter?",
+      "options": [
+        "They are identical",
+        "If form is substance and matter is substance, what unifies them into one thing? How does a composite have unity?",
+        "Neither is substance",
+        "The problem is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle poses the problem of unity: if matter and form are both substances, what explains the unity of the composite thing?"
+    },
+    {
+      "q": "How does Aristotle use the analysis of potential and actual to address the unity problem in Chapter 3?",
+      "options": [
+        "Potentiality and actuality are irrelevant",
+        "Matter is potentially the form; form actualizes matter. Their unity lies in the matter-form relation as potency and act",
+        "Matter and form are already unified",
+        "The unity problem is insoluble"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle suggests that recognizing matter as potential and form as actuality dissolves the unity puzzle, since potency and act are already correlatively one."
+    },
+    {
+      "q": "What does Aristotle conclude about the priority of matter or form in Chapter 3?",
+      "options": [
+        "Matter is completely prior",
+        "Form is prior in definition, causation, and knowledge; matter is prior in generation",
+        "They are equally prior",
+        "Neither is prior"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes a complex priority: form is prior conceptually and causally, while matter may be prior temporally in generation."
+    }
+  ],
+  "META_B7_Ch4": [
+    {
+      "q": "In Book 7, Chapter 4, what does Aristotle argue about whether substances can have their essence apart from them?",
+      "options": [
+        "Essence is completely separate from substance",
+        "Essence and substance are inseparable; a substance's essence is what that substance fundamentally is",
+        "Essence is irrelevant",
+        "Essences do not exist"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle defends the view that for primary substances, essence and being are identical or inseparable - a human just is what it is to be human."
+    },
+    {
+      "q": "How does Aristotle use the distinction between accidental properties and essential properties in Chapter 4?",
+      "options": [
+        "All properties are essential",
+        "Essential properties (those in the definition) constitute substance; accidental properties (like being pale) can change without changing the substance",
+        "All properties are accidental",
+        "The distinction is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle emphasizes that substance is defined by essential properties; accidents can vary without the substance ceasing to be what it is."
+    },
+    {
+      "q": "What does Aristotle say about whether individuals or universals are primarily substances in Chapter 4?",
+      "options": [
+        "Only universals are substances",
+        "Individual substances (this human) seem primary; universals (humanity) are substances secondarily, as the essence predicable of individuals",
+        "Only individuals are substances",
+        "The distinction is arbitrary"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle tentatively argues for the priority of individual substances as the clearest instances of being, though universals retain some claim through their essentiality."
+    }
+  ],
+  "META_B7_Ch5": [
+    {
+      "q": "In Book 7, Chapter 5, what does Aristotle mean by saying substance is a kind of principle?",
+      "options": [
+        "Substance has no relation to principles",
+        "Substance is a first principle from which other things are understood; it is a source and cause of being for other things",
+        "Substance is derived from principles",
+        "Principles are irrelevant to substance"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle connects substance to causality: substance is first in causation because other things depend on it for their being and understanding."
+    },
+    {
+      "q": "How does Aristotle relate substance to form in his analysis of what makes a thing one in Chapter 5?",
+      "options": [
+        "Form is irrelevant to unity",
+        "Form gives unity to matter, making the composed substance one. Form is thus a principle of being and unity",
+        "Substance and form are identical",
+        "Unity comes from elsewhere"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that form is what causes matter to be one thing rather than a mere collection of parts."
+    },
+    {
+      "q": "What does Aristotle conclude about the ontological status of matter in Chapter 5?",
+      "options": [
+        "Matter alone is substance",
+        "Matter appears not to be substance by itself, but rather potential for substance when informed by form",
+        "Matter doesn't exist",
+        "Matter and form are identical"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that bare matter (prime matter) is not actually substance but potentiality; substance emerges when matter is formed."
+    }
+  ],
+  "META_B7_Ch6": [
+    {
+      "q": "In Book 7, Chapter 6, what is Aristotle's primary focus in investigating the nature of substance?",
+      "options": [
+        "Mathematical abstract objects",
+        "Sensible substances - things in nature that can be perceived and their underlying principles",
+        "Logical categories only",
+        "Purely theoretical being"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle emphasizes that his inquiry into substance focuses on natural, sensible things that clearly exhibit substantial being."
+    },
+    {
+      "q": "How does Aristotle connect the investigation of substance to the investigation of causation in Chapter 6?",
+      "options": [
+        "They are unrelated",
+        "Understanding substance requires understanding causes; what makes a thing the substance it is depends on grasping the four causes",
+        "Causation is irrelevant to substance",
+        "All causes are identical"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle indicates that because substances are what they are through formal, material, efficient, and final causes, understanding substance involves explaining causation."
+    },
+    {
+      "q": "What does Aristotle say about the relationship between definition and substance in Chapter 6?",
+      "options": [
+        "Definitions and substances are unrelated",
+        "The definition of a substance reveals its essence, and the essence just is what makes it the substance it is",
+        "Definitions are arbitrary",
+        "Substance has no definition"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle establishes that to know a substance is to know its definition, making definition fundamental to understanding what substance is."
+    }
+  ],
+  "META_B7_Ch7": [
+    {
+      "q": "In Book 7, Chapter 7, how does Aristotle approach the question of whether substances can be defined?",
+      "options": [
+        "No substance can be defined",
+        "Substances can be defined if we properly understand how definition relates to essence and the parts that constitute substance",
+        "All substances are equally definable",
+        "Definition is impossible"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle works through apparent difficulties with defining substance, showing how definition is possible when properly understood."
+    },
+    {
+      "q": "What problem does Aristotle raise about whether the parts of a substance's definition are substances themselves in Chapter 7?",
+      "options": [
+        "There is no problem",
+        "If genus and differentia are parts of the definition, are they themselves substances? If so, does the whole composed of them have a different kind of being?",
+        "Parts cannot be substances",
+        "Definitions have no parts"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle identifies a puzzle: genus and differentia seem to be parts of what defines a substance, yet they don't appear to be substances themselves."
+    },
+    {
+      "q": "How does Aristotle resolve the question of whether definition applies to substances or only to essences in Chapter 7?",
+      "options": [
+        "Definition applies to neither",
+        "Definition applies to substances precisely because it reveals their essence; substance and essence are intimately connected",
+        "Definition applies to everything",
+        "The question is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aristotle argues that since a substance just is its essence (or manifests it essentially), defining the essence is defining the substance itself."
+    }
+  ],
   "B1C1": [
     {
       "q": "According to the opening argument of Book I, why does Aristotle say experience (empeiria) is inferior to art (techne) as a form of wisdom, even though experienced men often act more successfully than artists?",
