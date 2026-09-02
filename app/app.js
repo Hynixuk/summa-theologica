@@ -2179,14 +2179,21 @@
   updateNavReadBadges();
   buildSearchIndex();
   var savedSession = getSavedSession();
-  var start = initialLocation();
-  setActiveWork(start.work);
-  if (start.work === 'SCG') {
-    goToChapter(start.book, start.chapter);
-  } else if (start.work === 'META') {
-    goToChapterMeta(start.book, start.chapter);
+  var hasLocation = window.location.hash.replace('#', '') || (savedSession && savedSession.hash);
+
+  if (!hasLocation) {
+    // Show menu screen on first visit
+    openMenuScreen();
   } else {
-    goTo(start.part, start.question, start.article);
+    var start = initialLocation();
+    setActiveWork(start.work);
+    if (start.work === 'SCG') {
+      goToChapter(start.book, start.chapter);
+    } else if (start.work === 'META') {
+      goToChapterMeta(start.book, start.chapter);
+    } else {
+      goTo(start.part, start.question, start.article);
+    }
   }
 
   // Restore audio position from saved session

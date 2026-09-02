@@ -199,7 +199,7 @@ function main() {
         title: null, // Metaphysics chapters are unnamed in this translation
         paragraphs: c.paragraphs,
         hasAudio: !!(track && track.file),
-        audioFile: track && track.file ? `../audio/metaphysics/${track.file}` : null,
+        audioFile: track && track.file ? key : null,
         audioTrack: track ? track.track : null,
         durationSeconds: track ? track.durationSeconds : null,
       };
