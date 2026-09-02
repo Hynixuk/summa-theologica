@@ -1075,49 +1075,59 @@
 
     // Parse paragraphs and bullet lists
     text.split(/\n\n+/).forEach(function (section) {
-      var lines = section.trim().split('\n');
-      var bulletLines = [];
-      var i = 0;
+      var sectionText = section.trim();
+      // Check if section contains bullet points
+      if (sectionText.match(/•/)) {
+        // Split on bullet points (including inline ones)
+        var bulletMatch = sectionText.match(/^([^•]*)(.*)$/s);
+        var prefixText = bulletMatch[1].trim();
+        var bulletPart = bulletMatch[2];
 
-      // Collect consecutive bullet lines
-      while (i < lines.length && lines[i].trim().match(/^•/)) {
-        bulletLines.push(lines[i].trim().substring(1).trim());
-        i++;
-      }
-
-      // Render bullet list if any bullets found
-      if (bulletLines.length > 0) {
-        var ul = document.createElement('ul');
-        bulletLines.forEach(function (line) {
-          var li = document.createElement('li');
-          // Parse markdown-style bold (**text**)
-          var parts = line.split(/(\*\*[^*]+\*\*)/);
-          parts.forEach(function (part) {
+        // Render prefix text if any
+        if (prefixText) {
+          var prefixEl = document.createElement('p');
+          var prefixParts = prefixText.split(/(\*\*[^*]+\*\*)/);
+          prefixParts.forEach(function (part) {
             if (part.match(/^\*\*.+\*\*$/)) {
-              var boldText = part.replace(/\*\*/g, '');
               var boldEl = document.createElement('strong');
-              boldEl.textContent = boldText;
-              li.appendChild(boldEl);
+              boldEl.textContent = part.replace(/\*\*/g, '');
+              prefixEl.appendChild(boldEl);
             } else {
-              li.appendChild(document.createTextNode(part));
+              prefixEl.appendChild(document.createTextNode(part));
             }
           });
-          ul.appendChild(li);
-        });
-        body.appendChild(ul);
-      }
+          body.appendChild(prefixEl);
+        }
 
-      // Render remaining lines as paragraph
-      var remainingText = lines.slice(i).join('\n').trim();
-      if (remainingText) {
+        // Extract and render bullets
+        var bullets = bulletPart.split(/•/).filter(function(b) { return b.trim(); });
+        if (bullets.length > 0) {
+          var ul = document.createElement('ul');
+          bullets.forEach(function (bullet) {
+            var li = document.createElement('li');
+            var bulletText = bullet.trim();
+            var parts = bulletText.split(/(\*\*[^*]+\*\*)/);
+            parts.forEach(function (part) {
+              if (part.match(/^\*\*.+\*\*$/)) {
+                var boldEl = document.createElement('strong');
+                boldEl.textContent = part.replace(/\*\*/g, '');
+                li.appendChild(boldEl);
+              } else {
+                li.appendChild(document.createTextNode(part));
+              }
+            });
+            ul.appendChild(li);
+          });
+          body.appendChild(ul);
+        }
+      } else {
+        // No bullets, render as paragraph
         var pEl = document.createElement('p');
-        // Parse markdown-style bold (**text**)
-        var parts = remainingText.split(/(\*\*[^*]+\*\*)/);
+        var parts = sectionText.split(/(\*\*[^*]+\*\*)/);
         parts.forEach(function (part) {
           if (part.match(/^\*\*.+\*\*$/)) {
-            var boldText = part.replace(/\*\*/g, '');
             var boldEl = document.createElement('strong');
-            boldEl.textContent = boldText;
+            boldEl.textContent = part.replace(/\*\*/g, '');
             pEl.appendChild(boldEl);
           } else {
             pEl.appendChild(document.createTextNode(part));
