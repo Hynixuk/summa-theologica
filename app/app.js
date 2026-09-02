@@ -947,8 +947,21 @@
     h1.textContent = chapterLabel;
     chapterView.appendChild(h1);
 
-    // Chapter-level summary (shorter), shown at the top of every chapter.
-    // (Book-level summary is rendered further below, once, at chapter 1 of each book.)
+    // Book-level summary (longer, ~150-200 words), shown once at the first chapter of each book.
+    if (chapterNum === 1) {
+      if (book === 1 && summaryData.metaphysics && summaryData.metaphysics.overview) {
+        var overviewSummary = summaryData.metaphysics.overview;
+        if (overviewSummary && overviewSummary.content) {
+          chapterView.appendChild(renderMetaphysicsSummary(overviewSummary, 'overview'));
+        }
+      }
+      var metaBook = summaryData.metaphysics && summaryData.metaphysics.books && summaryData.metaphysics.books['B' + book];
+      if (metaBook) {
+        chapterView.appendChild(renderMetaphysicsSummary(metaBook, 'book'));
+      }
+    }
+
+    // Chapter-level summary (shorter, ~20-40 words), shown at the top of every chapter.
     var metaChapterSummaryText = summaryData.metaphysics.chapters && summaryData.metaphysics.chapters[metaKey(book, chapterNum)];
     var metaChapterSummaryEl = renderChapterSummary(metaChapterSummaryText);
     if (metaChapterSummaryEl) chapterView.appendChild(metaChapterSummaryEl);
@@ -1004,20 +1017,6 @@
     });
 
     chapterView.appendChild(artEl);
-
-    // Show book/overview summary before first chapter of each book
-    if (chapterNum === 1) {
-      if (book === 1) {
-        var overviewSummary = (window.METAPHYSICS_SUMMARIES || {}).overview;
-        if (overviewSummary && overviewSummary.content) {
-          chapterView.appendChild(renderMetaphysicsSummary(overviewSummary, 'overview'));
-        }
-      }
-      var bookSummary = ((window.METAPHYSICS_SUMMARIES || {}).books || []).find(function(b) { return b.book === book; });
-      if (bookSummary) {
-        chapterView.appendChild(renderMetaphysicsSummary(bookSummary, 'book'));
-      }
-    }
 
     var commentaryText = (window.AQUINAS_COMMENTARY || {})['B' + book + 'C' + chapterNum];
     if (commentaryText) {
