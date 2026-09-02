@@ -1072,13 +1072,39 @@
 
     var body = document.createElement('div');
     body.className = 'work-summary-body';
-    text.split(/\n\n+/).forEach(function (para) {
-      var t = para.trim();
-      if (!t) return;
-      var pEl = document.createElement('p');
-      pEl.textContent = t;
-      body.appendChild(pEl);
+
+    // Parse paragraphs and bullet lists
+    text.split(/\n\n+/).forEach(function (section) {
+      var lines = section.trim().split('\n');
+      var bulletLines = [];
+      var i = 0;
+
+      // Collect consecutive bullet lines
+      while (i < lines.length && lines[i].trim().match(/^•/)) {
+        bulletLines.push(lines[i].trim().substring(1).trim());
+        i++;
+      }
+
+      // Render bullet list if any bullets found
+      if (bulletLines.length > 0) {
+        var ul = document.createElement('ul');
+        bulletLines.forEach(function (line) {
+          var li = document.createElement('li');
+          li.textContent = line;
+          ul.appendChild(li);
+        });
+        body.appendChild(ul);
+      }
+
+      // Render remaining lines as paragraph
+      var remainingText = lines.slice(i).join('\n').trim();
+      if (remainingText) {
+        var pEl = document.createElement('p');
+        pEl.textContent = remainingText;
+        body.appendChild(pEl);
+      }
     });
+
     details.appendChild(body);
     return details;
   }

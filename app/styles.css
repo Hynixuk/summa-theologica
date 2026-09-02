@@ -825,6 +825,19 @@ body {
 .metaphysics-summary-body p:first-child, .work-summary-body p:first-child {
   margin-top: 0;
 }
+.metaphysics-summary-body ul, .work-summary-body ul {
+  margin: 14px 0 0 20px;
+  line-height: 1.7;
+  font-size: 0.96rem;
+  color: var(--ink);
+  padding-left: 0;
+}
+.metaphysics-summary-body ul:first-child, .work-summary-body ul:first-child {
+  margin-top: 0;
+}
+.metaphysics-summary-body li, .work-summary-body li {
+  margin-bottom: 6px;
+}
 
 /* Short chapter/question-level summary shown at the top of every chapter */
 .chapter-summary-box {
