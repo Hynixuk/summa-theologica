@@ -10,7 +10,7 @@
 // Bump CACHE_VERSION whenever the caching *strategy* changes (as here) so old
 // clients drop their stale cache promptly; content updates don't need a bump
 // since network-first already picks them up.
-const CACHE_VERSION = 'summa-v2';
+const CACHE_VERSION = 'summa-v3';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -77,8 +77,14 @@ self.addEventListener('fetch', (event) => {
   // network-first, falling back to cache only when offline. This is what makes a
   // new deploy actually show up for returning visitors instead of being stuck
   // behind a stale cache-first copy.
+  //
+  // `cache: 'no-store'` is essential here: vercel.json sends these files with
+  // `Cache-Control: max-age=3600`, and a plain fetch() honors that — silently
+  // handing back the browser's own hour-old HTTP cache entry, making this whole
+  // "network-first" branch a no-op for up to an hour after every deploy. Forcing
+  // no-store makes fetch() actually hit the network (or Vercel's edge) every time.
   event.respondWith(
-    fetch(request)
+    fetch(request, { cache: 'no-store' })
       .then((response) => {
         if (response && response.status === 200) {
           const responseToCache = response.clone();
