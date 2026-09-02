@@ -1,0 +1,317 @@
+{
+  "P4Q55": [
+    {
+      "q": "According to Aquinas, why was Christ's Resurrection not manifested to everyone, but only to certain witnesses?",
+      "options": [
+        "Because Christ wished to punish unbelievers by hiding the truth from them",
+        "Because things concerning future glory exceed common human knowledge and are known only by divine revelation to some, through whose testimony others come to know it",
+        "Because the Resurrection was not a bodily event and so could not be seen by anyone",
+        "Because Roman authorities forbade public knowledge of the event"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that things of future glory are beyond common human knowledge and are known only through divine revelation given to some, by whose testimony it reaches others, following the pattern by which higher beings communicate divine things to lower ones."
+    },
+    {
+      "q": "Why does Aquinas say it was fitting that Christ's Resurrection be proclaimed to the disciples by angels rather than being witnessed directly by them as it happened?",
+      "options": [
+        "Because the disciples were asleep at the tomb and could not have seen it",
+        "Because angels are naturally superior to Christ and had the right to announce it first",
+        "Because the divinely established order is that things above human understanding are revealed to men by angels, and Christ's rising was to an immortal, God-like condition beyond ordinary human ken",
+        "Because Christ had not yet decided whether to appear to the disciples at all"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas holds that the established order of divine communication has angels reveal things above human ken; since Christ's Resurrection was to a glorious, immortal state, it was fitting for angels to be the first heralds rather than for men to witness the rising directly."
+    },
+    {
+      "q": "Why, according to Aquinas, did the risen Christ not live constantly with His disciples as He had before, yet still appear to them, eat, and let them touch Him?",
+      "options": [
+        "He needed to manifest both the truth of the Resurrection (via familiar appearances, eating, being touched) and the glory of His risen state (by not resuming His former manner of constant living with them)",
+        "He was avoiding the disciples because they had abandoned Him during the Passion",
+        "He had become purely spiritual and could no longer eat or be touched at all",
+        "He lived constantly with them exactly as before to prove nothing had changed"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains two things needed manifesting: the truth of the Resurrection (shown by familiar appearances, eating, and touch) and the glory of the risen Christ (shown by not resuming His former constant mode of life, lest it seem He rose to the same kind of life as before)."
+    }
+  ],
+  "P4Q56": [
+    {
+      "q": "What is Aquinas's argument for why Christ's Resurrection is the cause of the resurrection of our bodies?",
+      "options": [
+        "Because Christ's body was made of the same matter as all human bodies",
+        "Because whatever is first in an order is the cause of what comes after it, and Christ's Resurrection is first in the order of resurrection, as the Apostle calls Him 'the first-fruits of them that sleep'",
+        "Because Christ promised each individual believer a private resurrection unrelated to His own",
+        "Because the resurrection of bodies depends solely on the merits of each person's own good works"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas invokes the principle that what is first in an order causes what follows in that order, applying 1 Corinthians 15:20-21 where Christ is called the first-fruits of those who sleep, making His Resurrection causal for ours."
+    },
+    {
+      "q": "How does Aquinas explain that Christ's Resurrection causes the resurrection of souls (i.e., their rising from sin to grace), not just of bodies?",
+      "options": [
+        "It works only as a moral example with no real causal power",
+        "It has no bearing on souls at all, only on the future resurrection of bodies at the end of time",
+        "Christ's Resurrection works by the power of the Godhead, which extends to both bodily and spiritual life; it is thus both an effective, instrumental cause and an exemplar cause of the soul's rising to newness of life, per Romans 6",
+        "Souls are resurrected automatically at baptism regardless of Christ's Resurrection"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas argues Christ's Resurrection works instrumentally by divine power extending to the resurrection of souls (living by grace) as well as bodies, and also serves as an exemplar cause, since believers are to be conformed to the risen Christ by walking in newness of life (Romans 6:4-11)."
+    },
+    {
+      "q": "In Aquinas's account of Christ's Resurrection as exemplar cause of the soul's resurrection, what does 'exemplar cause' mean in this context?",
+      "options": [
+        "That Christ's rising is merely a historical precedent with no ongoing relevance",
+        "That believers' spiritual rising from sin to life must be conformed to the pattern of Christ's own rising and dying no more, as the model their spiritual life imitates",
+        "That the exemplar cause refers only to Christ's example of moral virtue during His earthly ministry",
+        "That the term applies solely to the bodily, not spiritual, resurrection"
+      ],
+      "correct": 1,
+      "explanation": "As exemplar cause, Christ's rising provides the pattern to which the believer's soul must be conformed: just as He rose and dies no more, so believers are to reckon themselves dead to sin and alive to God, living in newness of life."
+    }
+  ],
+  "P4Q57": [
+    {
+      "q": "Why does Aquinas say it was fitting for Christ to ascend into heaven after the Resurrection rather than remain on earth?",
+      "options": [
+        "Because earth had become physically uninhabitable after the Crucifixion",
+        "Because a place ought to correspond to what it contains, and having entered an immortal, incorruptible life through the Resurrection, Christ belonged in the incorruptible heavenly place rather than the corruptible earthly realm of generation and corruption",
+        "Because the disciples asked Him to leave so they could establish the Church independently",
+        "Because remaining on earth would have made Christ's identity as God visible to all people, which had to be avoided"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons from the principle that place should suit its content: since Christ's Resurrection brought Him into immortal, incorruptible life, it was fitting He ascend to the incorruptible heavenly place rather than remain in the earthly realm of generation and corruption."
+    },
+    {
+      "q": "According to Aquinas, does the Ascension belong to Christ according to His Divine Nature or His human nature?",
+      "options": [
+        "According to His Divine Nature only, since ascension shows His superiority over creation",
+        "Equally according to both natures at once, without distinction",
+        "According to neither nature, since the Ascension is purely a symbolic event with no real motion involved",
+        "According to His human nature, since ascension is local motion and thus unfitting to the immovable, unlocated Divine Nature; there is also nothing higher to which the Godhead could ascend"
+      ],
+      "correct": 3,
+      "explanation": "Aquinas distinguishes: as local motion, ascension cannot belong to the Divine Nature, which is immovable and not confined to place, and there is nothing above the Godhead to ascend to; it belongs properly to Christ's human nature, which is circumscribed by place and capable of motion."
+    },
+    {
+      "q": "By what power, according to Aquinas, did Christ ascend into heaven?",
+      "options": [
+        "By the natural power inherent in ordinary human bodies to rise upward",
+        "Purely by the ministry of angels who carried His body upward",
+        "By the power of glory belonging to His human nature (not by the merely natural power of human nature, and not by His Godhead considered as the 'condition' of the one ascending)",
+        "By an external miracle performed by God the Father acting on a passive Christ, with Christ's own will playing no role"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas distinguishes a natural power of the body (by which Christ clearly did not ascend) from the power of glory present in His human nature, and holds it was by this glorified power that Christ ascended by His own power."
+    }
+  ],
+  "P4Q58": [
+    {
+      "q": "According to Aquinas, what are the two senses in which Christ 'sits' at the right hand of the Father?",
+      "options": [
+        "Sitting as physical rest after exertion, and sitting as a temporary posture before further activity",
+        "Abiding/dwelling in the Father's bliss, and possessing royal or judiciary power together with the Father",
+        "Sitting as subordination to the Father, and sitting as equality only in a metaphorical sense",
+        "Sitting as a merely future event at the Last Judgment, and sitting as a past event limited to the Ascension day"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains 'sitting' can mean abiding (dwelling eternally and unchangeably in the Father's bliss, called His right hand) or royal/judiciary power (as one who sits at a king's right hand shares in ruling and judging)."
+    },
+    {
+      "q": "Does Aquinas hold that it belongs to Christ as God, or only as man, to sit at the right hand of the Father?",
+      "options": [
+        "Only as man, since 'sitting' implies a bodily posture impossible for the Godhead",
+        "It belongs to Christ as God, since to sit at the right hand of the Father is to share the glory of the Godhead, beatitude, and judiciary power unchangeably and royally with the Father, which belongs to the Son as God",
+        "It belongs to neither nature, being purely a figure of speech Aquinas rejects as unfitting",
+        "Only as an angel-like intermediary status distinct from both His human and divine natures"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas concludes that sitting at the right hand -- sharing the Godhead's glory, beatitude, and judiciary power unchangeably and royally -- belongs to the Son precisely as God, though the preposition 'at' implies only personal distinction, not inequality of nature."
+    },
+    {
+      "q": "Why does Aquinas say it is proper to Christ alone, and belongs to no angel or other man, to sit at the right hand of the Father?",
+      "options": [
+        "Because only Christ has ever entered heaven at all",
+        "Because Christ alone is on equality with the Father in His Divine Nature and, in His humanity, alone excels all creatures in the possession of Divine gifts -- both conditions belonging exclusively to Him",
+        "Because the phrase is purely honorific and was never meant to convey any real theological content",
+        "Because angels are barred from heaven's throne room by nature"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that sitting at the right hand involves both equality with the Father in Divine Nature and, in respect of humanity, surpassing excellence in Divine gifts -- and both conditions belong to Christ alone, not to any angel or other human being."
+    }
+  ],
+  "P4Q59": [
+    {
+      "q": "According to Aquinas, what three things are required for passing judgment, and which one supplies the actual standard or rule by which judgment is made?",
+      "options": [
+        "Wealth, popularity, and eloquence; popularity supplies the rule",
+        "The power of coercing subjects, upright zeal (from love of justice, not hatred), and wisdom; wisdom supplies the rule of judgment, since the standard is the law of truth according to which judgment is passed",
+        "Age, lineage, and physical strength; lineage supplies the rule",
+        "Mercy, patience, and eloquence; mercy supplies the rule of judgment"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas lists coercive power and upright zeal as conditions for judging, but identifies wisdom as what grounds the actual rule of judgment, since judgment is based on the law of wisdom or truth."
+    },
+    {
+      "q": "Aquinas cites Chrysostom's view on whether judiciary power belongs to Christ as man. What does Chrysostom argue, according to the text?",
+      "options": [
+        "That judiciary power belongs to Christ only as man, never as God",
+        "That judiciary power belongs to Christ not because He is man, but because He is Son of the ineffable God; the phrase 'Son of man' is invoked only to explain the greatness of the claim, not to ground the power itself in His humanity",
+        "That judiciary power belongs equally and independently to both His humanity and His Godhead without any distinction",
+        "That judiciary power was granted to Christ only after the Ascension and had nothing to do with His Sonship"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reports that Chrysostom holds Christ received judiciary power because He is Son of the ineffable God, not because He is man, and that the reference to 'Son of man' was added merely to explain why such great claims were not to be doubted."
+    },
+    {
+      "q": "Why, according to Aquinas, does he hold that judiciary power belongs to the Man Christ as a matter of merit, not merely as an automatic consequence of His divine personality?",
+      "options": [
+        "Because merit plays no role and judiciary power is purely a natural right of the Incarnation",
+        "Because in accordance with divine justice, it is fitting that He who fought for God's justice, conquered, and was unjustly condemned should be the one who judges -- so judiciary power is due Him partly by merit, per Apocalypse 3:21 ('I have overcome and am set down...')",
+        "Because Christ earned judiciary power only by performing miracles during His ministry",
+        "Because the Father originally intended to judge personally but transferred the office to the Son as a reward for obedience in the Ascension alone"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that judiciary power belongs to Christ as man both from His divine personality, headship, and fulness of grace, and from merit -- fittingly, since in divine justice the one who fought for justice, conquered, and was unjustly condemned should be set as judge."
+    }
+  ],
+  "P4Q60": [
+    {
+      "q": "According to Aquinas, in what specific sense is a sacrament called a 'sign,' as distinct from other things that can be denominated from health (like medicine or urine)?",
+      "options": [
+        "A sacrament is a sign in exactly the same sense that urine is a 'healthy' sign -- merely indicating a hidden reality without any causal role",
+        "A sacrament is a sign in the sense of the 'habitude of sign' specifically, one of several possible relations (cause, sign, or other) a thing can have to hidden sanctity, and this signifying relation is how the term 'sacrament' is used in the strict theological sense here",
+        "A sacrament is not really a sign at all but purely a hidden secret with no external manifestation",
+        "A sacrament is a sign only in a metaphorical, non-technical sense unrelated to real signification"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes a thing can be called sacred by having hidden sanctity itself, or by relating to that sanctity as cause, sign, or otherwise; when discussing sacraments in the sense under consideration, he specifies it is the sign relation that is meant."
+    },
+    {
+      "q": "Why does Aquinas hold that not every sign of a holy thing is a sacrament, but only signs of holy things pertaining to man?",
+      "options": [
+        "Because signs are given to men, who come to know the unknown through the known, so a sacrament properly speaking is the sign of a sacred thing specifically insofar as it makes men holy",
+        "Because only signs instituted by angels count as true sacraments",
+        "Because all signs of holy things are automatically sacraments regardless of their relation to human sanctification",
+        "Because sacraments must be entirely invisible and thus cannot be 'signs' of anything sensible"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that since signs exist for men to reach the unknown through the known, a sacrament properly so called is defined precisely as a sign of a holy thing insofar as it sanctifies man -- narrowing the general category of 'sign of a holy thing.'"
+    },
+    {
+      "q": "What three things does a sacrament signify, according to Aquinas's answer on whether a sacrament signifies only one thing?",
+      "options": [
+        "Only the future glory to come, since sacraments are purely predictive signs",
+        "The cause of our sanctification (Christ's passion, recalled as past), the form of our sanctification (grace and virtue, present), and the end of our sanctification (eternal life, future) -- a sacrament is thus commemorative, demonstrative, and prognostic all at once",
+        "Only the past event of Christ's passion, functioning purely as a historical memorial",
+        "The believer's personal sins, the priest's authority, and the Church's institutional structure"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies three things signified: the cause of sanctification (Christ's passion, a reminder of the past), its form (grace, indicated as present), and its end (eternal glory, foretold for the future) -- making a sacrament simultaneously commemorative, demonstrative, and prognostic."
+    }
+  ],
+  "P4Q61": [
+    {
+      "q": "What is Aquinas's first and primary reason that sacraments are necessary for man's salvation?",
+      "options": [
+        "Because God arbitrarily decided humans needed rituals to obey, with no deeper rationale",
+        "Because human nature's condition requires it to be led by things corporeal and sensible to things spiritual and intelligible, and divine providence fittingly provides accordingly, using sensible signs called sacraments",
+        "Because without sacraments the Church would have no source of institutional authority or income",
+        "Because angels require visible signs to confirm human salvation before they can announce it"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas's first reason is rooted in human epistemology: since it is proper to human nature to be led from the sensible to the spiritual, divine providence fittingly furnishes man with corporeal, sensible signs -- sacraments -- suited to that condition."
+    },
+    {
+      "q": "Why does Aquinas argue that sacraments were not necessary for man in the state of innocence (before sin)?",
+      "options": [
+        "Because Adam and Eve had no bodies before the Fall",
+        "Because in the rectitude of that state the higher parts of man ruled the lower and did not depend on them, so it would be contrary to that order for the soul to be perfected in knowledge or grace by anything corporeal, as happens in the sacraments",
+        "Because sacraments had not yet been invented by any human culture",
+        "Because sin is a logical precondition for any sign to exist at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons from the original rectitude of the state of innocence, where higher powers (mind subject to God, lower powers subject to mind, body subject to soul) governed without dependence on the corporeal -- so perfecting the soul through something bodily, as sacraments do, would have violated that order."
+    },
+    {
+      "q": "Why does Aquinas hold that the sacraments of the New Law must differ from those of the Old Law, even though both testify to faith in Christ?",
+      "options": [
+        "Because the Old Law had no true sacraments at all, only civil regulations",
+        "Because signs should vary according to whether they signify the future, past, or present: Old Law sacraments foreshadowed Christ's coming as future, while New Law sacraments signify Christ's birth and Passion as past, following Augustine's distinction between 'going to suffer' and 'having suffered'",
+        "Because the New Law sacraments are purely symbolic while Old Law sacraments actually caused grace",
+        "Because the Old Testament forbade any sensible signs whatsoever"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws on Augustine's point that the same reality is expressed differently depending on tense (going to suffer vs. having suffered); since the ancient Fathers looked to a future Christ and we look to His accomplished Passion, the sacraments signifying these must differ accordingly."
+    }
+  ],
+  "P4Q62": [
+    {
+      "q": "What is Aquinas's basic argument that the sacraments of the New Law actually cause grace, rather than merely signifying it?",
+      "options": [
+        "Because Scripture never mentions grace in connection with sacraments, so causation must be inferred independently",
+        "Because through the sacraments man is incorporated with Christ (e.g., Baptism, per Galatians 3:27, 'as many of you as have been baptized...have put on Christ'), and man is made a member of Christ through grace alone -- so the sacraments must in some way cause grace",
+        "Because the sacraments cause grace only in the sense that they inspire good feelings in the recipient",
+        "Because grace is caused entirely by the recipient's own faith, and the sacraments play no causal role whatsoever"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since the sacraments incorporate man into Christ (as with Baptism putting on Christ per Galatians 3:27), and since one becomes a member of Christ through grace alone, the sacraments must in some way be causes of grace, not bare signs."
+    },
+    {
+      "q": "According to Aquinas, does sacramental grace confer anything beyond the grace already given through the virtues and gifts?",
+      "options": [
+        "No, sacramental grace and the grace of the virtues and gifts are entirely identical with no distinction",
+        "Yes -- just as virtues and gifts add a special perfection to the soul's powers beyond grace commonly so called, sacramental grace confers a certain divine assistance in obtaining the sacrament's specific end (e.g., Baptism's spiritual regeneration), over and above the virtues and gifts",
+        "No, because the sacraments only remove the effects of past sin and add nothing positive",
+        "Yes, but only in the sacrament of the Eucharist; the other sacraments add nothing beyond ordinary grace"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that just as virtues and gifts add particular perfections to the soul's powers, sacramental grace likewise confers, in addition to the grace of virtues and gifts, a divine assistance directed to the special effect proper to each sacrament, such as Baptism's spiritual regeneration."
+    },
+    {
+      "q": "How does Aquinas describe the way sacraments derive their grace-causing power from Christ's Passion, using the analogy of instruments?",
+      "options": [
+        "Christ's Passion has no bearing on sacramental power; sacraments derive power directly from the Church's institutional authority alone",
+        "Christ's humanity acts as a 'united instrument' (like a hand) of the Godhead, while the sacrament acts as a 'separate instrument' (like a stick) moved through that united instrument, so saving power flows from the Godhead through Christ's humanity into the sacraments",
+        "The sacrament is the united instrument and Christ's humanity is the separate instrument, reversing the usual order",
+        "Sacraments and Christ's Passion are two independent, unrelated sources of grace that happen to coincide"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes a united instrument (like a hand, moved directly by the agent) from a separate instrument (like a stick, moved through the united instrument); Christ's humanity is the united instrument of the Godhead, and the sacraments are separate instruments deriving their saving power through it."
+    }
+  ],
+  "P4Q63": [
+    {
+      "q": "According to Aquinas, why do the sacraments imprint a 'character' on the soul, and what analogy does he use to explain this?",
+      "options": [
+        "Because the sacraments leave a physical, visible mark on the recipient's body, comparable to a tattoo",
+        "Because those deputed to a definite purpose customarily receive an outward sign of it, as soldiers of old were marked with bodily characters when enlisted; likewise, since the sacraments depute the faithful to spiritual service in divine worship, they receive a corresponding spiritual character",
+        "Because the character is simply a metaphorical way of describing baptismal certificates kept by the Church",
+        "Because early Christians required a mark to distinguish them from pagans for legal purposes only"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws the analogy of soldiers marked with a bodily character upon enlistment; similarly, since the sacraments depute the faithful to the spiritual service of divine worship, they receive a corresponding spiritual character, as Augustine's soldier analogy illustrates."
+    },
+    {
+      "q": "In Aquinas's account, what kind of thing is a sacramental 'character' -- specifically, why does he call it a spiritual power rather than, say, a habit or simply a mark?",
+      "options": [
+        "It is a passive stain analogous to sin, with no positive function",
+        "Since divine worship consists in either receiving or bestowing divine gifts, and both require power (active power to bestow, passive power to receive), the character signifies a certain spiritual power ordained to what pertains to divine worship",
+        "It is identical to sanctifying grace itself, with no distinct meaning",
+        "It is merely an honorary title with no functional role in worship"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that divine worship involves either receiving gifts (requiring passive power) or bestowing them (requiring active power), and concludes that the character signifies this spiritual power ordained to the acts of divine worship."
+    },
+    {
+      "q": "Why does Aquinas conclude that a sacramental character, once imprinted, can never be blotted out from the soul?",
+      "options": [
+        "Because the character is a physical mark on the body that simply cannot be erased by any human means",
+        "Because the character is a participation in Christ's own eternal Priesthood ('a priest for ever, according to the order of Melchisedech'), and since it is subjected in the soul's intellective part, which is perpetual and incorruptible, the character sanctified by it cannot be erased",
+        "Because Church law forbids ever repeating baptism, regardless of any theological reasoning about the soul",
+        "Because Aquinas holds that a character actually can be blotted out, contrary to how the question is usually framed"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues the character is a share in Christ's eternal Priesthood, and since it resides in the soul's intellective part -- which is perpetual and incorruptible -- and since Christ's priesthood is eternal, the sanctification it confers, the character, cannot be blotted out."
+    }
+  ]
+}

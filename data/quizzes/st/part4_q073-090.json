@@ -1,0 +1,632 @@
+{
+  "P4Q73": [
+    {
+      "q": "Aquinas argues the Eucharist was needed as a sacrament by analogy with what aspect of bodily life?",
+      "options": [
+        "Food, needed to preserve the life already given by generation and matured by growth",
+        "Healing, needed to cure a wound already inflicted",
+        "Clothing, needed to protect life once it is born",
+        "Rest, needed to restore strength after labor"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas compares the sacraments to the corporeal life: Baptism is spiritual generation, Confirmation is spiritual growth, and just as food preserves bodily life, the Eucharist is required as spiritual food to preserve the spiritual life."
+    },
+    {
+      "q": "According to Aquinas, how does the Eucharist's necessity for salvation differ from that of Baptism?",
+      "options": [
+        "The Eucharist is not necessary at all, while Baptism is strictly required",
+        "Baptism is the beginning and door of the spiritual life, so it must be actually received, whereas the Eucharist is the consummation of that life and can be had in desire before actual reception",
+        "The Eucharist can be received without any faith, unlike Baptism",
+        "Both are equally necessary and neither can be supplied by mere desire"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas says a person can obtain the reality of the Eucharist through desire before actual reception, similar to Baptism of desire, but unlike Baptism, which is the door of the sacraments, the Eucharist is the end and consummation of the spiritual life."
+    },
+    {
+      "q": "Regarding Old Testament figures of the Eucharist, what does Aquinas identify as the chief figure with respect to the sacrament considered simply as sign (bread and wine)?",
+      "options": [
+        "The Paschal Lamb",
+        "The Manna in the desert",
+        "Melchisedech's oblation of bread and wine",
+        "The sacrifice of Isaac"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas distinguishes three aspects of the sacrament: as sign only (bread and wine), its chief figure is Melchisedech's offering of bread and wine; as containing Christ crucified, its figure is the Old Testament sacrifices; as to its effect, the chief figure is the Manna."
+    }
+  ],
+  "P4Q74": [
+    {
+      "q": "Why does Aquinas hold that wheaten bread specifically is the proper matter of the Eucharist?",
+      "options": [
+        "Because Scripture forbids any other grain",
+        "Because wheaten bread is most commonly used among men and its nourishing strength fittingly signifies the sacrament's effect",
+        "Because wheaten bread was cheaper in Christ's time",
+        "Because only wheat can be made unleavened"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that the matter of a sacrament should be what is commonly used among men, and since wheaten bread is the bread most commonly used and strengthens man, it more suitably signifies the sacrament's effect."
+    },
+    {
+      "q": "Why must the wine used in this sacrament be wine of the grape?",
+      "options": [
+        "Because Christ instituted the sacrament with grape wine, it is properly and universally called 'wine,' and it fittingly signifies the sacrament's spiritual effect of cheering the heart",
+        "Because grape wine was the only alcoholic drink available in Palestine",
+        "Because Church law forbids fruit wines for reasons of cost",
+        "Because grape wine alone can be mixed with water"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas gives three reasons: Christ's own institution used wine from the grape, only such wine is properly called 'wine,' and it is fitting to the sacrament's spiritual effect, citing that wine 'cheers the heart of man.'"
+    },
+    {
+      "q": "According to Pope Julius, quoted by Aquinas, what does the mixing of water with wine chiefly signify?",
+      "options": [
+        "The dilution needed to make the wine safe to drink",
+        "The union of the people with Christ, since water signifies the people and wine signifies Christ's blood",
+        "The tears of repentance shed by sinners",
+        "The purification of the wine from impurities"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas quotes Pope Julius: the water signifies the people, the wine signifies Christ's blood, so mixing water into the wine signifies that the people are made one with Christ."
+    }
+  ],
+  "P4Q75": [
+    {
+      "q": "Why does Aquinas conclude that Christ's body cannot come to be present in the Eucharist by local motion?",
+      "options": [
+        "Because local motion would require Christ's body to cease being in heaven, pass through intermediate spaces, and be terminated in several places at once by one movement, all of which are impossible",
+        "Because local motion is too slow for the moment of consecration",
+        "Because Christ's body has no weight and therefore cannot move",
+        "Because local motion would violate the priest's free will"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues that local motion would mean Christ's body left heaven, passed through intervening space, and could not be in many places at once through a single motion — so the presence must instead come from conversion of the bread's substance into Christ's body."
+    },
+    {
+      "q": "Aquinas gives three reasons why the accidents (species) of bread and wine remain after the consecration. Which of the following is NOT one of them?",
+      "options": [
+        "To avoid the horror of visibly eating human flesh and drinking blood",
+        "To prevent the sacrament from being derided by unbelievers if Christ appeared in His own species",
+        "So that receiving Christ invisibly may redound to the merit of faith",
+        "So that the bread and wine could still be sold in the marketplace afterward"
+      ],
+      "correct": 3,
+      "explanation": "Aquinas's three reasons are: avoiding the horror of eating human flesh, avoiding derision from unbelievers, and increasing the merit of faith by receiving Christ invisibly. Commercial reuse of the elements is not among them."
+    },
+    {
+      "q": "What does Aquinas mean when he says Christ's body begins to be present in the Eucharist 'by conversion of the substance of bread into itself'?",
+      "options": [
+        "The bread is annihilated and Christ's body is newly created in its place",
+        "The bread's accidents change into Christ's body while its substance is left behind",
+        "The whole substance of the bread is changed into the substance of Christ's body, while the accidents remain unchanged",
+        "The bread and Christ's body coexist side by side after consecration"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas teaches transubstantiation: it is precisely the substance of the bread that is converted into the substance of Christ's body, not the accidents, and the bread's substance does not remain after this conversion."
+    }
+  ],
+  "P4Q76": [
+    {
+      "q": "Aquinas distinguishes two ways something of Christ is in the Eucharist. What is the difference between presence 'by the power of the sacrament' and presence 'by natural concomitance'?",
+      "options": [
+        "By the power of the sacrament is what the words of consecration directly signify (e.g., body under bread's species); by concomitance is what is really united to that reality even though not directly signified (e.g., blood, soul, Godhead)",
+        "By the power of the sacrament refers only to the priest's intention; by concomitance refers to the congregation's faith",
+        "They are two names for the exact same mode of presence",
+        "By concomitance means Christ is present only symbolically, not really"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that the words of consecration directly effect what they signify (body under bread's species, blood under wine's species) 'by the power of the sacrament,' while whatever is really united to that reality — such as the soul and Godhead, and the body under the wine's species — is present 'by natural concomitance.'"
+    },
+    {
+      "q": "Aquinas notes that if this sacrament had been celebrated during Christ's Passion, when His blood was separated from His body, what would have been true?",
+      "options": [
+        "The body would be present under the wine's species and the blood under the bread's species",
+        "Neither the body nor the blood would be present at all",
+        "The body would be under the species of bread without the blood, and the blood would be under the species of wine without the body, since concomitance follows the real union that existed at that time",
+        "Only the Godhead would be present, without body, blood, or soul"
+      ],
+      "correct": 2,
+      "explanation": "Since real concomitance follows the actual union of body and blood, and at the time of the Passion Christ's blood was actually separated from His body, the sacrament then would have shown the body under bread's species without blood, and blood under wine's species without body."
+    },
+    {
+      "q": "Does Aquinas hold that Christ's body is in the Eucharist 'as in a place'?",
+      "options": [
+        "Yes, it occupies the same dimensive space that the bread's dimensions previously occupied",
+        "No, His body is present after the manner of substance, not according to the dimensive quantity by which a body is commensurate with a place",
+        "Yes, but only in churches that have been properly consecrated",
+        "No, because Christ's body is not really present at all, only symbolically"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that a body is 'in a place' according to its dimensive quantity being commensurate with that place, but Christ's body is present in the sacrament substantially, not dimensively, so it is not there 'as in a place.'"
+    }
+  ],
+  "P4Q77": [
+    {
+      "q": "Why does Aquinas hold that the accidents of bread and wine remain 'without a subject' after consecration?",
+      "options": [
+        "Because the substance of bread/wine no longer remains to support them, and they cannot be subjected in Christ's body (which cannot be altered by such accidents) or in a substantial form that no longer exists — so divine power alone sustains them",
+        "Because accidents never require a subject in ordinary natural philosophy",
+        "Because the priest's blessing itself becomes their subject",
+        "Because the accidents are illusions produced in the senses of believers only"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that the accidents cannot inhere in the bread's substance (gone), its substantial form (gone), or Christ's glorious, impassible body (which cannot receive such qualities), so by divine power they exist miraculously without a subject."
+    },
+    {
+      "q": "According to Aquinas, what serves as the underlying 'subject' that supports the other accidents (color, taste, etc.) that remain in the sacrament?",
+      "options": [
+        "The substance of Christ's body",
+        "The dimensive quantity of the bread and wine, which itself remains after consecration",
+        "The priest's intention during Mass",
+        "Nothing; the other accidents float freely with no relation to one another"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues the dimensive quantity of the bread and wine remains and serves as the subject in which the other accidents (color, taste, etc.) are founded, since dimensive quantity is the first disposition of matter."
+    },
+    {
+      "q": "Can the sacramental species (the remaining accidents of bread and wine) actually nourish the body, according to Aquinas?",
+      "options": [
+        "No, because they have no substance and thus cannot be converted into anything",
+        "Yes, because they retain the same being and causal powers they had before consecration, including the capacity to be converted into the substance of the one who eats, just as ordinary food nourishes",
+        "No, nourishment only occurs symbolically, not physically",
+        "Yes, but only for those in a state of grace"
+      ],
+      "correct": 1,
+      "explanation": "Since the species can be corrupted and something can be generated from them (as from ordinary bread), and food nourishes by being converted into the substance of the one nourished, Aquinas concludes the sacramental species can indeed nourish the body."
+    }
+  ],
+  "P4Q78": [
+    {
+      "q": "How does the form of the Eucharist ('This is My body') differ from the forms of other sacraments, according to Aquinas?",
+      "options": [
+        "It is pronounced as if Christ Himself were speaking, rather than in the person of the minister as in other sacraments (e.g., 'I baptize thee')",
+        "It requires no words at all, only the priest's gesture",
+        "It must be spoken in Hebrew rather than the vernacular",
+        "It is identical in wording to the form of Baptism"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that other sacramental forms are spoken in the minister's own person (by way of exercising an act, command, or entreaty), but the Eucharistic form is spoken as if Christ Himself were speaking, since the minister does nothing but pronounce Christ's own words."
+    },
+    {
+      "q": "Does Aquinas hold that there is a created power within the words of consecration that causes the transubstantiation?",
+      "options": [
+        "No, the words are merely symbolic reminders with no causal power",
+        "Yes, an instrumental created power, deriving from Christ's institution, just as in the other sacraments",
+        "Yes, but it is a power inherent in the words themselves apart from Christ's institution",
+        "No power is needed since transubstantiation happens automatically regardless of the words spoken"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas affirms there is a created instrumental power in the words of the form, deriving from Christ's command, just as the sacraments generally have instrumental causal power from Christ's institution and Passion."
+    },
+    {
+      "q": "Regarding the form for consecrating the wine ('This is the chalice of My blood... etc.'), what does Aquinas say about the words that follow 'This is the chalice of My blood'?",
+      "options": [
+        "They are optional additions with no bearing on validity",
+        "They are determinations of the predicate ('My blood') and therefore belong to the integrity of the form's expression",
+        "They belong to a completely separate blessing unrelated to consecration",
+        "They were added later by the Church and should be removed"
+      ],
+      "correct": 1,
+      "explanation": "Against the opinion that only 'This is the chalice of My blood' belongs to the substance of the form, Aquinas holds that the following words determine the predicate (Christ's blood) and so belong to the integrity of the expression."
+    }
+  ],
+  "P4Q79": [
+    {
+      "q": "Why, according to Aquinas, is grace considered the primary effect of the Eucharist?",
+      "options": [
+        "Because the bread symbolizes moral discipline",
+        "Because Christ Himself, the source of grace, is really contained in the sacrament, and just as His visible coming brought grace and truth to the world, His sacramental coming causes the life of grace in the recipient",
+        "Because the priest's blessing alone confers grace regardless of what is received",
+        "Because grace comes only from the act of fasting beforehand"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grounds the sacrament's effect in what it contains — Christ Himself — arguing that just as Christ's visible coming into the world brought grace, His sacramental coming into a person causes the life of grace, citing John 6:58."
+    },
+    {
+      "q": "How does Aquinas explain that the Eucharist forgives venial sins?",
+      "options": [
+        "It does not forgive venial sins at all, only mortal sins",
+        "By analogy to bodily food replenishing the daily wear caused by natural heat, this spiritual food remedies the daily 'wear' on charity caused by venial sin, which is why Ambrose calls it a remedy against daily infirmity",
+        "By automatically erasing all past sins regardless of disposition",
+        "Only through the words of absolution spoken separately by the priest"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares the Eucharist as spiritual nourishment to bodily food that daily restores what is lost to natural heat; venial sins similarly lessen the fervor of charity daily, and this sacrament remedies that daily infirmity."
+    },
+    {
+      "q": "According to Aquinas, does actual venial sin (being committed at the time of reception) completely block the effect of the Eucharist?",
+      "options": [
+        "Yes, it entirely nullifies any grace received",
+        "No — it only partly hinders the effect, dulling the actual spiritual sweetness/refreshment, but it does not take away the increase of habitual grace or charity",
+        "No, venial sin has absolutely no effect on the reception at all",
+        "Yes, but only if the sinner is unaware of the sin"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes past venial sins (no hindrance) from venial sin being currently committed, which partially hinders the actual spiritual sweetness of the sacrament through distraction, but does not remove the increase in habitual grace or charity."
+    }
+  ],
+  "P4Q80": [
+    {
+      "q": "What is the distinction Aquinas draws between 'sacramental' and 'spiritual' eating of the Eucharist?",
+      "options": [
+        "Sacramental eating is receiving the sign alone (imperfect reception); spiritual eating is receiving with its effect — being united to Christ through faith and charity",
+        "Sacramental eating is for priests only; spiritual eating is for the laity",
+        "They are identical terms Aquinas uses interchangeably",
+        "Spiritual eating means merely thinking about the Eucharist without ever receiving it"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas divides the perfect reception (obtaining the sacrament's effect, called spiritual eating, whereby one is united with Christ through faith and charity) from the imperfect, merely sacramental eating, which receives the sign without necessarily obtaining the fruit."
+    },
+    {
+      "q": "Why does Aquinas conclude that a person in mortal sin who receives Communion commits sacrilege?",
+      "options": [
+        "Because such a person is physically incapable of swallowing the host",
+        "Because receiving the sacrament signifies being incorporated into Christ's mystical body through living faith, which the sinner lacks, so he 'lies' to the sacrament by profaning it",
+        "Because Church law imposes an automatic excommunication unrelated to the sacrament's meaning",
+        "Because mortal sinners cannot physically touch consecrated bread"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that receiving the Eucharist signifies one's incorporation into Christ through living faith, which no one in mortal sin possesses; receiving it under such conditions is therefore a lie against the sacrament and a mortal sin of sacrilege."
+    },
+    {
+      "q": "What is Aquinas's position on receiving the Eucharist daily?",
+      "options": [
+        "It is strictly forbidden except on major feast days",
+        "It is commendable for one who finds himself properly disposed with devotion, though not obligatory or universally praised or blamed, since 'many persons are lacking in this devotion'",
+        "It is required of all Christians without exception",
+        "It is only permitted for the ordained clergy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that daily reception profits one who approaches with genuine devotion, quoting Augustine ('receive daily... so live as to deserve to receive it daily'), but since not everyone has such disposition, he neither universally praises nor blames daily communion."
+    }
+  ],
+  "P4Q81": [
+    {
+      "q": "Did Christ, according to Aquinas, receive His own body and blood at the Last Supper before giving it to the disciples?",
+      "options": [
+        "No, He only distributed it without partaking Himself",
+        "Yes, because Christ was first to fulfill what He required of others, just as He was first baptized before instituting Baptism for others",
+        "This question cannot be answered from Scripture or tradition",
+        "No, because it would have been physically impossible for Him to consume His own body"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas rejects the view that Christ did not partake, arguing instead that Christ, following His pattern of first doing what He taught others to do (as with His own baptism), took His own body and blood before giving it to the disciples."
+    },
+    {
+      "q": "According to Aquinas, did Judas receive Christ's body and blood at the Last Supper along with the other disciples?",
+      "options": [
+        "No, Christ deliberately withheld it from him since His betrayal was already known",
+        "Yes — Aquinas holds, citing Dionysius and Augustine, that Judas received it with the others, since Christ as a model of justice would not publicly exclude a hidden sinner without accuser or proof",
+        "The question is left entirely unresolved by Aquinas",
+        "No, Judas left the supper before the institution of the sacrament"
+      ],
+      "correct": 1,
+      "explanation": "Though Hilary held Christ withheld His body from Judas, Aquinas concludes, following Dionysius and Augustine, that Judas did receive Communion with the others, since Christ would not exclude a still-secret sinner without due process, lest this become a bad example."
+    },
+    {
+      "q": "If the sacrament had been reserved and Christ had died while it remained consecrated, would Christ have died 'there' (in the sacrament) as well?",
+      "options": [
+        "No, nothing that happens to Christ in His own species can be attributed to Him in the sacrament",
+        "Yes, but only if the sacrament were touched by an unworthy person",
+        "Whatever belongs to Christ 'in Himself' (such as living or dying) can be attributed to Him both in His proper species and in the sacrament, but what involves relation to surrounding bodies (such as being crucified or scourged) applies only to His proper species, not to His presence in the sacrament",
+        "The question is meaningless because Christ's body cannot die twice"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas distinguishes what belongs to Christ 'in Himself' (life, death, etc.), attributable to both modes of His existence, from what involves contact with external bodies (being crucified, scourged, spat upon), which applies only to His proper species, since in the sacrament His body is not present in the dimensive mode that contacts surrounding bodies."
+    }
+  ],
+  "P4Q82": [
+    {
+      "q": "Why does Aquinas hold that only a priest can consecrate the Eucharist?",
+      "options": [
+        "Because only priests are physically able to perform the ritual gestures correctly",
+        "Because the priest receives, at his ordination, the power granted by Christ to act in His person, placing him on the same level as those to whom Christ said 'Do this in commemoration of Me'",
+        "Because civil law reserves this act to the clergy",
+        "Because consecration requires ownership of the sacred vessels"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that whoever acts in another's stead must act by power that one has bestowed; Christ bestowed the power to consecrate on priests at their ordination, just as He gave it to the apostles at the Last Supper."
+    },
+    {
+      "q": "According to Aquinas, can a morally wicked or sinful priest still validly consecrate the Eucharist?",
+      "options": [
+        "No, only a priest in a state of grace can validly consecrate",
+        "Yes, because the priest consecrates not by his own power but as Christ's minister, and Christ has both good and wicked ministers",
+        "No, an invalid consecration by a sinful priest must be repeated by a worthy priest later",
+        "Yes, but the resulting sacrament lacks Christ's true presence"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues the priest acts in the person of Christ by ministerial, not personal, power; since Christ has both good and evil ministers, a priest's personal sinfulness does not prevent him from validly consecrating."
+    },
+    {
+      "q": "What does Aquinas conclude about heretical, schismatic, or excommunicated priests consecrating the Eucharist?",
+      "options": [
+        "They cannot validly consecrate at all, since they are cut off from the Church",
+        "They can validly consecrate, since the power of order received at ordination is indelible, but they sin by using that power wrongly and it is unlawful to receive Communion from them",
+        "They can validly consecrate only if later reconciled to the Church",
+        "The Eucharist they consecrate lacks Christ's body but retains His blood"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes having a power from using it rightly: separated clergy retain the indelible power of order and can truly consecrate, but they sin in exercising it while separated, and the faithful should not receive from them."
+    }
+  ],
+  "P4Q83": [
+    {
+      "q": "In what two senses does Aquinas say the celebration of the Eucharist is called a 'sacrifice'?",
+      "options": [
+        "Only because bread and wine are physically destroyed on the altar",
+        "First, because it is an image representing Christ's true sacrifice, the Passion; second, because through it we are made partakers of the fruit of that Passion",
+        "Only because the priest offers his own life symbolically",
+        "Only in a legal sense required by canon law"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains, citing Augustine's principle that images are named after what they represent, that the Mass is called a sacrifice both as a representation of Christ's Passion and because it makes us partakers in the effect of that Passion."
+    },
+    {
+      "q": "Why does Aquinas say the Eucharist is fittingly offered daily in the Church?",
+      "options": [
+        "Because Church law arbitrarily requires it",
+        "Because of our daily need for the fruits of Christ's Passion, comparable to the daily bread we pray for in the Lord's Prayer",
+        "Because the bread would spoil if not consecrated daily",
+        "Because priests are obligated by a vow taken at ordination to say Mass every day"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas ties the frequency of celebration to our daily need for the Passion's fruits owing to our daily defects, appealing to the 'daily bread' of the Lord's Prayer as explained by Augustine."
+    },
+    {
+      "q": "According to Aquinas, what do the ceremonial words and actions performed during the celebration of the Mass generally signify?",
+      "options": [
+        "Nothing in particular; they are purely aesthetic",
+        "Either something pertaining to Christ's Passion and mystical body being represented, or something pertaining to the devotion and reverence owed to the sacrament",
+        "Only the personal preferences of the celebrant",
+        "Exclusively events from the Old Testament unrelated to Christ"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that sacraments signify through both words and actions; in the Mass, actions either represent Christ's Passion or His mystical body, or express the devotion and reverence due to the sacrament's use."
+    }
+  ],
+  "P4Q84": [
+    {
+      "q": "Why does Aquinas consider Penance to be a sacrament?",
+      "options": [
+        "Because it involves the wearing of special garments",
+        "Because in it, by deed and word, the penitent signifies the renunciation of sin in his heart, and the priest's absolution signifies God's work of forgiving sin — fulfilling the definition of a sacrament as a solemn sign that confers the holiness it signifies",
+        "Because it was invented entirely by later Church councils with no scriptural basis",
+        "Because it always requires physical penance such as fasting"
+      ],
+      "correct": 1,
+      "explanation": "Citing the definition of a sacrament as an act signifying the holiness it confers, Aquinas notes that in Penance the penitent's deeds and words signify renunciation of sin, and the priest's words and deeds signify God's forgiveness."
+    },
+    {
+      "q": "In the sacrament of Penance, what does Aquinas identify as the 'matter' and what as the 'form'?",
+      "options": [
+        "The matter is holy water; the form is the sign of the cross",
+        "The acts of the penitent (contrition, confession, satisfaction) are the matter; the priest's part (absolution) constitutes the form, since the sacrament is perfected by what the priest does",
+        "The matter is the priest's stole; the form is the confessional itself",
+        "There is no distinction between matter and form in Penance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since the sacrament is perfected by what the priest does, the priest's part takes the place of the form, while the penitent's acts (words or deeds) serve as the sacrament's matter."
+    },
+    {
+      "q": "Is Penance necessary for salvation in the same absolute way that Baptism is, according to Aquinas?",
+      "options": [
+        "Yes, exactly the same way, since both are commanded equally for everyone",
+        "No — Penance is necessary only 'on a supposition,' that is, for those who have sinned after Baptism, much as medicine is needed only by the sick, whereas Baptism is absolutely necessary for all",
+        "No, Penance is entirely optional and has no bearing on salvation",
+        "Yes, but only for those ordained to the priesthood"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes absolute necessity (like Baptism, needed by all for salvation) from conditional necessity: Penance is needed only by those who have sinned, comparing it to medicine needed only after contracting a disease — hence it is called 'a second plank after shipwreck.'"
+    }
+  ],
+  "P4Q85": [
+    {
+      "q": "Under what condition does Aquinas say penance (sorrow for sin) counts as a virtue rather than merely a passion?",
+      "options": [
+        "Whenever a person feels any sadness at all, regardless of its cause",
+        "When it is an act of the will involving choice according to right reason — a moderated grief for one's sins undertaken with the intention of removing them",
+        "Only when it is imposed as a legal punishment",
+        "Never; penance is always merely a passion of the sensitive appetite"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes sorrow as a mere passion of the sensitive appetite from sorrow as an act of will involving right-reasoned choice; only the latter, a moderated grief aimed at removing sin, counts as (or as an act of) virtue."
+    },
+    {
+      "q": "Why does Aquinas classify the virtue of penance as a species (part) of justice?",
+      "options": [
+        "Because penance involves punishing others for their crimes",
+        "Because amending an offense against God requires not merely ceasing to offend but making some compensation or satisfaction, which is a kind of commutation belonging to the matter of justice",
+        "Because penance is administered exclusively by civil judges",
+        "Because justice and penance share no real connection in Aquinas's system"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that true amendment for an offense requires compensation, not mere cessation, which is a form of commutation and thus belongs to justice — making penance a part of that virtue."
+    },
+    {
+      "q": "According to Aquinas's account of the acts leading toward penance, which movement directly precedes the movement of hope and follows the initial act of faith?",
+      "options": [
+        "A movement of pride",
+        "A movement of servile fear, whereby a man is withdrawn from sin through fear of punishment",
+        "A movement of despair",
+        "A movement of envy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas lists the sequence: God's operation turning the heart, an act of faith, a movement of servile fear (withdrawing one from sin through fear of punishment), then hope, charity, and filial fear."
+    }
+  ],
+  "P4Q86": [
+    {
+      "q": "Why does Aquinas hold that God cannot pardon mortal sin without a real change in the sinner's will (that is, without penance)?",
+      "options": [
+        "Because God is bound by human legal procedures",
+        "Because unlike human forgiveness, which can occur without changing the offender, God's grace actually causes goodness in the one graced rather than merely presupposing it, so pardoning the offense of sin requires the sinner's will to actually turn back to God",
+        "Because penance is merely a legal formality with no real effect",
+        "Because forgiveness is impossible for any sin whatsoever"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas contrasts human grace/forgiveness (which presupposes goodness in the one forgiven) with divine grace (which causes goodness); since mortal sin is the will's aversion from God, pardoning it requires an actual change — a turning back — of that will."
+    },
+    {
+      "q": "Can Penance, according to Aquinas, forgive one mortal sin while leaving another mortal sin unforgiven?",
+      "options": [
+        "Yes, sins can be forgiven individually and separately",
+        "No — since all mortal sins share the common element of turning away from God, true repentance (motivated by love of God) necessarily extends to all of them together, and grace excludes every mortal sin",
+        "Yes, provided the penitent confesses the sins in the correct order",
+        "No, because only the gravest sin needs to be confessed"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas gives multiple reasons: grace excludes every mortal sin, true repentance from love of God extends to all sins sharing that same motive for rejection, and God's mercy is perfect, forgiving wholly rather than partially."
+    },
+    {
+      "q": "How does Aquinas explain that a debt of temporal punishment can remain even after the guilt of mortal sin has been forgiven?",
+      "options": [
+        "Because forgiveness is never truly complete in this life",
+        "Because mortal sin has two aspects — aversion from the immutable Good (incurring eternal punishment) and an inordinate turning to a mutable good (incurring a debt of some punishment) — and grace removes the aversion's eternal debt while the disorder from the inordinate turning can still require punishment to restore justice",
+        "Because the Church imposes additional penalties unrelated to the sin itself",
+        "Because temporal punishment is imposed randomly by divine decree"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the two aspects of mortal sin: turning from God (eternal punishment, removed by grace's forgiveness) and turning to a created good (a debt of punishment restoring the order of justice), which can persist even after guilt is forgiven."
+    }
+  ],
+  "P4Q87": [
+    {
+      "q": "Does forgiveness of venial sin require a fresh infusion of habitual grace, according to Aquinas?",
+      "options": [
+        "Yes, exactly as with mortal sin, a new infusion of grace is always required",
+        "No — since venial sin is not directly contrary to habitual grace or charity but merely hampers its act, a movement proceeding from existing grace or charity, in detestation of the sin, suffices for its forgiveness",
+        "No infusion or movement of grace is needed at all; venial sin forgives itself with time",
+        "Only the sacrament of Penance, never any other means, can remove venial sin"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues venial sin, unlike mortal sin, does not destroy charity but only hampers its exercise, so a mere movement of grace already present, directed against the sin, is enough to remove it — no new infusion is required."
+    },
+    {
+      "q": "Aquinas gives three reasons certain acts and sacramentals (like holy water, the Lord's Prayer, a bishop's blessing) remit venial sins. Which of the following is one of these three reasons?",
+      "options": [
+        "They involve a movement of reverence for God and divine things",
+        "They release the sinner from all future temptation permanently",
+        "They automatically confer the priesthood",
+        "They replace the need for the sacrament of Penance entirely"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas's three reasons are: implying an infusion of grace (as in the sacraments), implying a movement of detestation for sin (as in the Confiteor or Lord's Prayer), and implying a movement of reverence for God (as in a blessing or holy water)."
+    },
+    {
+      "q": "Can venial sins be forgiven in a person who is currently in a state of mortal sin, according to Aquinas?",
+      "options": [
+        "Yes, venial and mortal sin forgiveness are entirely independent processes",
+        "No — since forgiveness of any sin requires grace, and one in mortal sin lacks the grace of God, his venial sins cannot be forgiven until the mortal sin itself is dealt with",
+        "Yes, but only if the venial sin was committed first",
+        "The question does not arise since mortal sin abolishes the possibility of venial sin"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that no sin whatsoever is forgiven except by the power of grace, and since a person in mortal sin is without grace, his venial sins cannot be forgiven while that mortal sin remains."
+    }
+  ],
+  "P4Q88": [
+    {
+      "q": "In what sense does Aquinas say previously forgiven sins can 'return' through a later mortal sin?",
+      "options": [
+        "The exact same specific sinful acts are literally repeated automatically",
+        "As regards the common element of aversion from God (loss of grace and debt of eternal punishment), not as regards the specific 'adherence' or matter proper to each prior sin, since one sin cannot cause the return of a contrary sin's disposition",
+        "They return only if the same confessor absolved them originally",
+        "They never return under any circumstances once absolved"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the 'aversion' aspect common to all mortal sins (which can return through any subsequent mortal sin) from the 'adherence' aspect specific to each sin's object, arguing a sin of one kind cannot restore the disposition proper to a contrary sin."
+    },
+    {
+      "q": "According to Aquinas, how can a person be guilty of 'ingratitude' in a special way after having received forgiveness, beyond merely committing a new mortal sin?",
+      "options": [
+        "By donating money to the Church",
+        "By acting against the very form of the favor received — for example, refusing to forgive others, apostatizing from the faith, regretting one's own penance, or scorning to confess as one had purposed",
+        "By attending Mass too infrequently",
+        "By fasting excessively"
+      ],
+      "correct": 1,
+      "explanation": "Beyond the general ingratitude of any subsequent mortal sin, Aquinas identifies special forms of ingratitude that act against the specific form of the favor received: refusing to forgive others (against the benefactor's forgiveness), and apostasy, regret at penance, or refusal to confess (against the penitent's own proper movements)."
+    },
+    {
+      "q": "Is the debt of punishment that 'returns' through a subsequent sin equal to the sum of all the previously forgiven sins plus the new one, according to Aquinas?",
+      "options": [
+        "Yes, all previous debts are fully restored in addition to the new sin's debt",
+        "No — Aquinas holds that the returning debt is proportionate only to the gravity of the subsequent sin itself, not to the accumulated debts of all previously pardoned sins",
+        "No, no debt of punishment ever returns under any circumstance",
+        "Yes, but only if the subsequent sin is also a sin against the Eucharist"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas rejects the view that returning punishment equals the sum of prior debts, holding instead that what returns is measured according to the gravity of the subsequent sin alone."
+    }
+  ],
+  "P4Q89": [
+    {
+      "q": "Does Aquinas hold that all the virtues, not just faith or charity, are restored through Penance?",
+      "options": [
+        "No, only charity is restored; other virtues must be reacquired through separate effort",
+        "Yes — since forgiveness of sin requires infusion of grace, and all the gratuitous virtues flow from grace just as the soul's powers flow from its essence, all virtues are restored together with grace",
+        "No, Penance restores nothing but removes only the guilt of sin",
+        "Yes, but only the cardinal virtues, not the theological virtues"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since grace is infused for the forgiveness of sins, and all virtues flow from grace as powers flow from the soul's essence, all the virtues are restored together through Penance."
+    },
+    {
+      "q": "According to Aquinas, does a penitent always return to exactly the same degree of grace and virtue he possessed before he sinned?",
+      "options": [
+        "Yes, always precisely equal, since God's mercy is uniform",
+        "Not necessarily — depending on the intensity of the penitent's movement of contrition, he may rise to greater, equal, or lesser grace than he had before falling into sin",
+        "No, he always receives strictly less grace than before as a form of lasting punishment",
+        "No, he always receives strictly more grace as compensation for his suffering"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that since grace is received according to the intensity of the free will's movement in justification, and that movement can vary in fervor, the penitent may rise to greater, equal, or lesser grace than before."
+    },
+    {
+      "q": "Does Penance restore the sinner's original innocence of never having sinned, according to Aquinas?",
+      "options": [
+        "Yes, penance fully erases all trace that the sin ever occurred, including the fact of it",
+        "No — the penitent recovers his principal dignity as a child of God, but not the secondary dignity of innocence itself, though he may sometimes gain even greater merit than before, as the Gospel's prodigal son and Gregory's parable illustrate",
+        "No, penance restores neither dignity, leaving the sinner permanently diminished",
+        "Yes, but only for sins committed in ignorance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the principal dignity (being counted among God's children, restored by Penance, as with the prodigal son) from the secondary dignity of innocence (never having strayed), which cannot be recovered — though the penitent may sometimes gain greater merit than before, per Gregory's image of the returning soldier."
+    }
+  ],
+  "P4Q90": [
+    {
+      "q": "What three 'parts' does Aquinas assign to the sacrament of Penance?",
+      "options": [
+        "Baptism, Confirmation, and Eucharist",
+        "Contrition, confession, and satisfaction — the acts of the penitent that serve as the matter of the sacrament",
+        "Faith, hope, and charity",
+        "Absolution, indulgence, and excommunication"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies contrition, confession, and satisfaction as the parts of Penance, corresponding to the acts of the penitent, which constitute the quantitative/material parts of the sacrament."
+    },
+    {
+      "q": "Why does Aquinas classify contrition, confession, and satisfaction as 'integral' parts of Penance rather than 'subjective' or 'potential' parts?",
+      "options": [
+        "Because they are unrelated to one another and can each stand entirely alone",
+        "Because, unlike subjective parts (where the whole nature is fully present in each, like animal species dividing the genus 'animal') or potential parts (where the whole essence is present in each, like the soul's powers), the whole of Penance is present only when all three are taken together",
+        "Because canon law arbitrarily labels them this way with no underlying rationale",
+        "Because only two of the three are actually required for validity"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas rejects classifying them as subjective parts (each possessing the whole power, like species of a genus) or potential parts (each possessing the whole essence, like the soul's powers), concluding instead they are integral parts, present together as a whole rather than individually."
+    },
+    {
+      "q": "How does Aquinas divide penance considered as a virtue in its temporal exercise?",
+      "options": [
+        "Penance for the rich, penance for the poor, and penance for clergy",
+        "Penance before Baptism, penance for mortal sins (after Baptism), and penance for venial sins",
+        "Penance of the body, penance of the mind, and penance of the will",
+        "Public penance, private penance, and secret penance, with no further distinction"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas divides penance as a virtue according to the timing and object of its exercise under the New Law: penance before Baptism, penance directed at mortal sins committed afterward, and penance for venial sins."
+    }
+  ]
+}

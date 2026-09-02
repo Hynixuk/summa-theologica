@@ -1,0 +1,317 @@
+{
+  "P4Q64": [
+    {
+      "q": "According to Aquinas, who produces the interior sacramental effect (grace) as a principal cause?",
+      "options": [
+        "The priest, acting by his own spiritual authority",
+        "God alone, since only God can enter the soul and grace is from God alone",
+        "The Church as a corporate body, through her collective merit",
+        "Christ's human nature acting with independent divine authority"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues the interior effect can only be produced principally by God, because no agent can act immediately where it is not present in the soul, and grace comes from God alone; the minister works only instrumentally."
+    },
+    {
+      "q": "Why does Aquinas conclude that God alone can institute the sacraments?",
+      "options": [
+        "Because only God has legal authority over the Church's canon law",
+        "Because the power of a sacrament comes from its institutor, and the power of the sacraments comes from God alone",
+        "Because the sacraments were all directly commanded in the Old Testament by God",
+        "Because human institutors would make sacraments too variable across regions"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that a sacrament's power, like an instrument's power, derives from whoever institutes it; since the power of the sacraments comes only from God, only God can institute them, not the minister who merely applies them."
+    },
+    {
+      "q": "Why does Aquinas hold that wicked or sinful ministers can still validly confer the sacraments?",
+      "options": [
+        "Because the sacraments only signify grace symbolically and confer nothing real",
+        "Because the minister acts as an instrument moved by the principal agent, so his personal moral state is accidental to that instrumental role, like a pipe carrying water regardless of whether it is silver or lead",
+        "Because God suspends judgment on ministers during the rite itself",
+        "Because the recipient's faith alone determines the sacrament's validity, not the minister's state"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas uses the analogy of an instrument (like a pipe of silver or lead) whose incidental qualities do not affect its function; since ministers act instrumentally by Christ's power, their personal wickedness does not invalidate the sacrament, though he holds they still sin gravely in administering it."
+    }
+  ],
+  "P4Q65": [
+    {
+      "q": "According to Aquinas, why is it fitting that there be exactly seven sacraments?",
+      "options": [
+        "Because seven mirrors the seven days of creation with no further theological purpose",
+        "Because they were instituted for a twofold purpose: to perfect man in the worship of God according to Christian life, and to serve as a remedy against the defects caused by sin",
+        "Because the Church council of Nicaea fixed the number arbitrarily at seven",
+        "Because there are seven deadly sins that each require a distinct remedy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grounds the number seven in the twofold purpose of the sacraments established earlier: perfecting the spiritual life of worship, and remedying the effects of sin, and argues seven sacraments fittingly answer to both purposes."
+    },
+    {
+      "q": "Why, in Aquinas's account of the order of the sacraments, are Order and Matrimony placed last?",
+      "options": [
+        "Because they are the least sacred and least necessary of all the sacraments",
+        "Because sacraments ordained to the perfection of the individual naturally precede those ordained to the perfection of the multitude, and Order and Matrimony serve the multitude",
+        "Because they were the last sacraments to be historically instituted by Christ",
+        "Because they can only be received once a person has already received all other sacraments"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues unity precedes multitude, so sacraments perfecting the individual come first; Order and Matrimony, which perfect the community/multitude, come last, with Matrimony after Order since it has less participation in the spiritual life."
+    },
+    {
+      "q": "Why does Aquinas judge the Eucharist to be, absolutely speaking, the greatest of all the sacraments?",
+      "options": [
+        "Because it is received most frequently by the faithful",
+        "Because it requires the most elaborate ritual preparation of any sacrament",
+        "Because it contains Christ Himself substantially, whereas the other sacraments contain only an instrumental power that is a share of Christ's power",
+        "Because only bishops, not ordinary priests, may confer it"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas reasons that what is essentially such (the Eucharist containing Christ Himself) always surpasses what is such merely by participation (the instrumental power shared by the other sacraments)."
+    }
+  ],
+  "P4Q66": [
+    {
+      "q": "In Aquinas's analysis of Baptism, what are the three things that can be considered in the sacrament?",
+      "options": [
+        "Matter, form, and minister only",
+        "That which is 'sacrament only' (the outward washing), that which is 'reality and sacrament' (the character), and that which is 'reality only' (grace)",
+        "Faith, hope, and charity as the three infused virtues bestowed",
+        "The candidate, the godparent, and the officiating priest"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the outward visible sign (sacrament only, i.e., the washing), an intermediate reality-and-sign (the character), and the ultimate inward reality (grace) as the effect of Baptism."
+    },
+    {
+      "q": "Why does Aquinas hold that water is the fitting proper matter of Baptism?",
+      "options": [
+        "Because water is the cheapest and most universally available liquid",
+        "Because water's nature corresponds especially well to Baptism's purpose as a regeneration unto spiritual life, since seeds from which living things are generated are moist and water-like",
+        "Because Christ specifically forbade the use of any other liquid in the Gospels",
+        "Because water alone among liquids can be blessed by a bishop"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas connects water's role in natural generation (moist seeds generate living things) to Baptism's role as spiritual regeneration, arguing this natural symbolism makes water the fitting matter by divine institution."
+    },
+    {
+      "q": "Regarding the mode of washing in Baptism, what does Aquinas conclude about immersion?",
+      "options": [
+        "Immersion is absolutely essential and no other mode validly confers Baptism",
+        "Immersion is safer and more customary, but Baptism can also validly be conferred by sprinkling or pouring, especially in cases of urgency",
+        "Only pouring is valid; immersion was a later corruption of the original rite",
+        "The mode of washing was left entirely to each local bishop's discretion with no scriptural basis either way"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas concludes immersion is not strictly necessary for Baptism; sprinkling or pouring also validly washes away sin, citing Ezekiel 36:25 and the example of St. Lawrence, and notes urgency (large numbers, scarce water, weak minister or candidate) as reasons to use these alternatives."
+    }
+  ],
+  "P4Q67": [
+    {
+      "q": "According to Aquinas, why does it belong properly to priests (and bishops), rather than deacons, to baptize as chief celebrants?",
+      "options": [
+        "Because deacons lack the physical strength required for the ritual",
+        "Because deacons are by their very name 'ministers' who serve and assist their elders rather than acting as chief celebrants, whereas the priestly office (ordained principally for the Eucharist, the sacrament of ecclesial unity) extends properly to baptizing since Baptism brings a person into that same unity",
+        "Because only priests have university training in theology",
+        "Because the Council of Nicaea explicitly forbade deacons from ever touching baptismal water"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues from the etymology of 'deacon' as minister/servant that deacons assist rather than preside, while priests, ordained for the Eucharist (the sacrament of unity), fittingly baptize since Baptism incorporates one into that same ecclesial unity."
+    },
+    {
+      "q": "Why does Aquinas conclude that even a layman, and indeed a woman, can validly baptize?",
+      "options": [
+        "Because Baptism is a minor sacrament that requires no special ordination whatsoever",
+        "Because Christ is the true and chief Baptizer, and given the necessity of Baptism for salvation, God in His mercy ordained that its minister could be anyone, so that no one should lose salvation for lack of access to a priest",
+        "Because early Christian communities had no ordained clergy at all",
+        "Because women historically served as priests in the primitive Church"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons from God's mercy and the extreme necessity of Baptism for salvation: since Christ is the true Baptizer working through any minister as instrument, and since there is no substitute remedy for children, the ordinary minister requirement is relaxed so that anyone, even a layman or woman, can baptize in need."
+    },
+    {
+      "q": "What does Aquinas conclude about whether an unbaptized person (a Jew or pagan) can validly confer Baptism?",
+      "options": [
+        "An unbaptized person can never validly baptize under any circumstances",
+        "An unbaptized person can validly baptize provided the correct form of the Church (invoking the Trinity) is used, though doing so outside a case of urgency would be a grave sin for both parties",
+        "An unbaptized person can baptize only if a priest supervises the rite in person",
+        "Baptism by an unbaptized person is always valid but never licit under any circumstance, urgent or not"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas concludes that just as any water suffices for the matter, any person, even an unbaptized one, is competent as minister provided the Church's Trinitarian form is used; two unbaptized people could even validly baptize each other, though doing so without urgent necessity is gravely sinful."
+    }
+  ],
+  "P4Q68": [
+    {
+      "q": "In Article 9, why does Aquinas hold that infants should be baptized despite having no personal faith or actual sin of their own?",
+      "options": [
+        "Because infant Baptism was a purely disciplinary custom with no doctrinal basis",
+        "Because children contract original sin from Adam and thus need the remedy Christ provides through rebirth in water and the Spirit, and it is also fitting they be raised in Christian life from childhood so as to persevere in it more easily",
+        "Because infants who are not baptized automatically become members of the clergy",
+        "Because Aquinas held infants actually do commit personal sins that require washing away"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues from Romans 5 that children inherit Adam's original sin (evidenced by their being subject to death) and so need Christ's grace through Baptism (citing John 3:5), and adds the further fittingness that early Christian formation helps lifelong perseverance."
+    },
+    {
+      "q": "Why does Aquinas argue that no works of satisfaction should be imposed on someone who has just been baptized, regardless of past sins?",
+      "options": [
+        "Because satisfaction only applies to venial, not mortal, sins",
+        "Because Christ's Passion and death already offered sufficient satisfaction for all sins of the whole world, and imposing further satisfaction on the newly baptized would dishonor the sufficiency of Christ's Passion",
+        "Because the baptized person is physically too weak after the ritual to perform penitential works",
+        "Because satisfaction can only be assigned by a bishop, not an ordinary priest"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since Baptism incorporates a person into Christ's death, and Christ's Passion sufficiently satisfied for all sin, imposing additional satisfaction on the newly baptized would imply that Christ's sacrifice was insufficient, which is why no such works are enjoined."
+    },
+    {
+      "q": "According to Aquinas, why can a child not be baptized while still in its mother's womb, even if the mother herself is baptized at that time?",
+      "options": [
+        "Because canon law simply forbids it as a matter of Church discipline with no deeper rationale",
+        "Because the child's soul is distinct from the mother's soul and its body, once formed, is distinct from the mother's body, so water washing the mother's body does not reach or wash the child within her",
+        "Because unborn children are not yet considered persons and so cannot receive any sacrament",
+        "Because Baptism requires the recipient to personally profess faith, which an unborn child cannot do"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that Baptism essentially requires washing some part of the recipient's own body with water; since the unborn child's soul and (once animated) body are distinct from the mother's, the mother's Baptism cannot 'overflow' onto the child in the womb, citing Augustine's argument from the case of a pregnant woman baptized in danger of death."
+    }
+  ],
+  "P4Q69": [
+    {
+      "q": "According to Aquinas, does Baptism free a person from all debt of punishment due to sin, and why?",
+      "options": [
+        "No, Baptism only removes the guilt of sin but leaves the full debt of temporal punishment intact",
+        "Yes, because by Baptism a person is incorporated into Christ's Passion and death, which is a sufficient satisfaction for all sins of all men, so the baptized is freed from all debt of punishment as if he himself had made sufficient satisfaction",
+        "No, only the sacrament of Penance can remove any debt of punishment",
+        "Yes, but only for original sin, never for any actual personal sins committed before Baptism"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that because the baptized is incorporated into Christ's death, Christ's Passion (already established as sufficient satisfaction for all sin) is communicated to him, so he is freed from all debt of punishment just as if he had personally offered full satisfaction."
+    },
+    {
+      "q": "If Baptism removes the debt of all punishment, why, according to Aquinas, do the baptized still suffer bodily death and other penalties of this life?",
+      "options": [
+        "Because Baptism only forgives sins committed after receiving it, not before",
+        "Because grace in Baptism is given only to the soul while the body remains passible, following the pattern of Christ Himself, who was full of grace from conception yet retained a passible body until His own glorification; full impassibility is reserved for the resurrection",
+        "Because the temporal penalties are unrelated to sin and were never actually removed by any sacrament",
+        "Because insincerity on the part of most recipients blocks the removal of bodily penalties"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that the baptized receives grace in the soul but keeps a passible body, paralleling Christ who had grace from conception yet a passible body until the Resurrection; the full removal of penalties like death is deferred to the general resurrection."
+    },
+    {
+      "q": "What does Aquinas mean by 'insincerity' (fictio) hindering the effect of Baptism, and what happens when that insincerity later ceases?",
+      "options": [
+        "Insincerity means lying about one's name during the ceremony, and once corrected the sacrament must be repeated",
+        "Insincerity refers to a will opposed to Baptism or its effect (e.g., through unbelief, contempt, or lack of devotion), which blocks grace even though the character is still received; when the obstacle is later removed through Penance, Baptism's effect (grace) is produced without needing to be repeated",
+        "Insincerity applies only to the minister, never to the person being baptized",
+        "Insincerity has no real effect on the sacrament since grace is given automatically regardless of disposition"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that the baptismal character is received immediately like a form, but its proper effect of grace can be blocked by an insincere will (disbelief, scorn, wrong rite, lack of devotion); once that obstacle is removed by Penance, the character already present produces its effect without a second Baptism."
+    }
+  ],
+  "P4Q70": [
+    {
+      "q": "According to Aquinas, what is the relationship between circumcision and Baptism?",
+      "options": [
+        "Circumcision and Baptism have no theological connection; circumcision was purely a hygienic practice",
+        "Circumcision was a preparation for, and figure of, Baptism, since it too was a protestation of faith by which the men of old were incorporated into the community of the faithful, just as our faith is the same faith as that of the Fathers of old",
+        "Circumcision replaced Baptism entirely until the time of the apostles",
+        "Circumcision was instituted specifically to be superior to and replace Baptism among Christians"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that because Christian faith is the same faith held by the Fathers of the Old Testament, and circumcision was their profession of that faith aggregating them to the community of believers, circumcision prefigures and prepares for Baptism."
+    },
+    {
+      "q": "Why, according to Aquinas, was circumcision fittingly instituted in the person of Abraham specifically?",
+      "options": [
+        "Because Abraham was the physically strongest of the patriarchs and could endure the rite",
+        "Because Abraham was the first to receive the promise of Christ's future birth ('in thy seed shall all nations be blessed') and the first commanded to separate himself from unbelievers",
+        "Because Abraham personally invented the rite of circumcision independent of any divine command",
+        "Because circumcision had already been practiced by Abraham's pagan neighbors and was simply adopted"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes Abraham was the first to receive the promise concerning Christ's lineage and the first called by God to separate from unbelievers, making him the fitting recipient of circumcision as a sign of faith in the coming Christ."
+    },
+    {
+      "q": "Regarding whether circumcision bestowed sanctifying grace, what position does Aquinas take against 'the Master' (Peter Lombard)?",
+      "options": [
+        "Aquinas agrees entirely that circumcision only remitted sin without conferring any grace",
+        "Aquinas argues that circumcision must have conferred grace, since guilt (including original sin) is never remitted except by grace, so it is impossible for circumcision to remove sin without also bestowing grace",
+        "Aquinas argues circumcision conferred neither grace nor remission of sin, being a merely civil rite",
+        "Aquinas refuses to take any position, calling the question undecidable"
+      ],
+      "correct": 1,
+      "explanation": "Against the view (attributed to Peter Lombard, 'the Master') that circumcision only remitted sin without grace, Aquinas insists this is impossible since guilt can never be remitted except through grace, per Romans 3:2, so circumcision must have conferred grace."
+    }
+  ],
+  "P4Q71": [
+    {
+      "q": "Why does Aquinas hold that catechism (instruction) should precede Baptism?",
+      "options": [
+        "Because catechism is a legal requirement imposed by Roman civil law",
+        "Because Baptism is the Sacrament of Faith, a profession of Christian faith, and one cannot receive faith without first being instructed in it, per Romans 10:14",
+        "Because catechism replaces the need for the baptismal rite itself in most cases",
+        "Because early instruction was required only for adult converts, never for children"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons from Romans 10:14 ('how shall they believe without a preacher') that since Baptism professes faith, instruction in that faith must logically precede it, citing Christ's own command to teach before baptizing."
+    },
+    {
+      "q": "What is the purpose of exorcism preceding Baptism, according to Aquinas?",
+      "options": [
+        "It has no real purpose and is merely traditional theater with no doctrinal significance",
+        "Because the devil has a certain power over a person on account of original or actual sin, and one who purposes to act wisely first removes obstacles to his work, so demons are fittingly cast out before Baptism to prevent them from impeding salvation",
+        "It exists solely to test the candidate's physical endurance before the ceremony",
+        "It replaces catechism as an alternative form of instruction for the illiterate"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since the devil holds a kind of power over the person due to sin, and wise action requires removing obstacles first, exorcism fittingly precedes Baptism to clear the way for the sacrament's salvific effect, with the various exorcism rites symbolizing casting out and barring the devil's return."
+    },
+    {
+      "q": "According to Aquinas, do the ritual actions performed in exorcism (such as commanding the devil to depart) actually accomplish something, or are they merely symbolic signs?",
+      "options": [
+        "They are merely symbolic signs with no real effect on the person or any spiritual power",
+        "They genuinely have an effect, since the Church uses words of command to actually cast out the devil's power, not merely to signify something",
+        "They only work if performed by a bishop personally, otherwise they are empty signs",
+        "Their effectiveness depends entirely on the subjective faith of the person being exorcised"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explicitly rejects the view that exorcism rites are mere signs, insisting the Church's words of command genuinely exercise real power to expel the devil's influence, not simply represent it."
+    }
+  ],
+  "P4Q72": [
+    {
+      "q": "According to Aquinas, what is the relationship between Confirmation and Baptism, using the analogy of bodily life?",
+      "options": [
+        "Confirmation and Baptism are entirely unrelated sacraments serving unconnected purposes",
+        "Baptism is like the movement of generation (spiritual birth/regeneration), while Confirmation is like the movement of growth, bringing the person to the 'perfect age' of spiritual life",
+        "Confirmation must always be received before Baptism to prepare the soul for regeneration",
+        "Confirmation simply repeats and reinforces the exact same grace given in Baptism with no distinct effect"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws a parallel to bodily development: Baptism parallels generation/birth into spiritual life, while Confirmation parallels growth to the perfect age, citing Pope Melchiades that in Baptism we are born again and in Confirmation we are strengthened."
+    },
+    {
+      "q": "Why does Aquinas hold that only a bishop, ordinarily, can confer the sacrament of Confirmation?",
+      "options": [
+        "Because bishops alone possess the physical strength required to perform the anointing",
+        "Because Confirmation is the final completion of the spiritual building/writing begun in Baptism, and final completion is reserved to the supreme power, just as the apostles (whose place bishops hold) gave the fullness of the Holy Ghost in the primitive Church",
+        "Because priests are canonically forbidden from ever touching chrism",
+        "Because only bishops can consecrate the oil used, though anyone could apply it once consecrated"
+      ],
+      "correct": 1,
+      "explanation": "Using the analogy of a building's final completion or a letter's signing being reserved to the highest authority, Aquinas argues Confirmation, as the completion of Baptism, is fittingly reserved to bishops, who hold the place of the apostles who bestowed the fullness of the Holy Ghost in Acts 8."
+    },
+    {
+      "q": "According to Aquinas, what specific spiritual power or effect does a person receive in Confirmation that is distinct from what is received in Baptism?",
+      "options": [
+        "Confirmation grants forgiveness of all future sins in advance, unlike Baptism",
+        "In Baptism a person receives power to do those things pertaining to his own salvation, living to himself; in Confirmation he receives power for the spiritual combat, to publicly and bravely confess the faith even before enemies, as exemplified by the apostles after Pentecost",
+        "Confirmation grants the power to forgive others' sins, a power otherwise reserved to priests",
+        "There is no distinct effect; Confirmation merely repeats the baptismal character a second time"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas contrasts the baptized person's private orientation toward his own salvation with the confirmed person's public strength for spiritual combat, illustrated by the apostles moving from hiding in the upper room to boldly proclaiming their faith after receiving the Holy Ghost."
+    }
+  ]
+}

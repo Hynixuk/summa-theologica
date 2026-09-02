@@ -1,0 +1,1054 @@
+{
+  "SCG_B2_Ch1": [
+    {
+      "q": "According to Aquinas, why is it necessary to know a thing's operation in order to know it perfectly?",
+      "options": [
+        "Because operation is easier to observe than substance",
+        "Because the mode and species of a thing's operation reveal the measure of its power, and power shows forth its nature",
+        "Because Scripture commands meditation on works rather than essences",
+        "Because only sensible operations can be known by the human intellect"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that we gauge a thing's power from its operation, and its power in turn reveals its nature, since a thing acts according to the nature it actually has."
+    },
+    {
+      "q": "Aquinas distinguishes two kinds of operation in God. What are they?",
+      "options": [
+        "Creating and sustaining",
+        "Knowing and loving",
+        "An operation that remains in the operator (understanding, willing) and one that passes into an external effect (producing, governing things)",
+        "Natural operation and voluntary operation"
+      ],
+      "correct": 2,
+      "explanation": "He follows Aristotle in distinguishing an immanent operation that perfects the agent itself (understanding, willing) from a transitive operation that produces an external effect, which is the subject of Book Two."
+    },
+    {
+      "q": "Why does Aquinas say Book One (on God's knowledge and will) must be followed by Book Two (on creation)?",
+      "options": [
+        "Because creation is logically and causally prior, as the thought and will of an agent naturally precede and are the reason for the work produced",
+        "Because Scripture presents them in that order for literary reasons only",
+        "Because the philosophers before him always treated causation before God's nature",
+        "Because Book One was incomplete without examples from nature"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that the agent's immanent operation (intellect and will) is naturally prior to and the cause of the transitive operation of producing effects, just as a craftsman's thought precedes his work."
+    }
+  ],
+  "SCG_B2_Ch2": [
+    {
+      "q": "How does Aquinas distinguish the philosopher's consideration of creatures from the theologian's?",
+      "options": [
+        "The philosopher studies creatures as they are in themselves according to their own natures; the theologian studies them only insofar as they relate to God",
+        "The philosopher studies only physical creatures while the theologian studies only spiritual ones",
+        "The philosopher uses reason while the theologian rejects reason entirely",
+        "There is no real difference; both proceed identically"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas states that philosophy considers fire, for example, as such (that it tends upward), while faith considers it only in its relation to God, such as being created and subject to Him."
+    },
+    {
+      "q": "Why does Aquinas say the order of inquiry differs between philosophy and the teaching of faith?",
+      "options": [
+        "Because faith forbids discussing creatures at all",
+        "Because philosophy studies creatures first and ascends to God, while faith begins with God and descends to creatures, which is more perfect and more like God's own self-knowledge",
+        "Because philosophers cannot know God exists",
+        "Because theology must always follow the historical order of Genesis"
+      ],
+      "correct": 1,
+      "explanation": "Since philosophy reasons from creatures to God while faith considers creatures in relation to God already known, faith's order (God first, then creatures) mirrors God's own way of knowing all things through knowing Himself."
+    },
+    {
+      "q": "Why is it not a defect in the teaching of faith that it overlooks many properties of things, such as the shape of the heavens?",
+      "options": [
+        "Because faith considers only what pertains to things' relation to God, just as the physicist and geometrician each attend to different aspects of the same line",
+        "Because such properties are unknowable to anyone",
+        "Because Scripture explicitly forbids studying astronomy",
+        "Because faith is inferior to philosophy and cannot address such matters"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas compares this to how the physicist considers a line only as the boundary of a natural body, unlike the geometrician; each science attends only to what is relevant to its own formal object."
+    }
+  ],
+  "SCG_B2_Ch3": [
+    {
+      "q": "What order of topics does Aquinas propose for the discussion of creatures in Book Two?",
+      "options": [
+        "First their distinction, then their production, then their nature",
+        "First the production of things into being, second their distinction from one another, third the nature of the things so produced and distinguished",
+        "First their nature, then their production, then their distinction",
+        "First angels, then bodies, then the human soul"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas states he will treat first of the bringing forth of things into being, second of their distinction, and third of the nature of these same distinct things."
+    },
+    {
+      "q": "Why does this ordering (production, distinction, nature) make sense as a plan for Book Two?",
+      "options": [
+        "It follows no logical principle, just the order of Genesis chapters",
+        "It moves from the most general question (that things come to be at all) to their differentiation from one another, and finally to detailed examination of specific kinds of creatures",
+        "It is arranged alphabetically by topic",
+        "It reflects the order in which Aristotle treated physics"
+      ],
+      "correct": 1,
+      "explanation": "The plan proceeds from the broadest question of creaturely origin, to how creatures come to differ from each other, and finally to the specific natures of particular creatures (culminating in intellectual substances)."
+    },
+    {
+      "q": "This short chapter functions primarily as what kind of chapter within the Summa's structure?",
+      "options": [
+        "A refutation of Averroes",
+        "A programmatic outline stating the sequence of topics to follow",
+        "A proof of God's existence",
+        "A discussion of the Trinity"
+      ],
+      "correct": 1,
+      "explanation": "Chapter 5 (B2C3) is a brief transitional chapter that simply lays out the three-part order of inquiry for the rest of Book Two."
+    }
+  ],
+  "SCG_B2_Ch4": [
+    {
+      "q": "What is the main conclusion Aquinas draws in this chapter?",
+      "options": [
+        "That it is fitting for God to be the source and cause of being to other things",
+        "That the world is eternal",
+        "That God cannot cause anything outside Himself",
+        "That creatures cause their own being"
+      ],
+      "correct": 0,
+      "explanation": "Building on Book One's proof of a first efficient cause and first mover, Aquinas concludes that it belongs to God to be the cause of being to other things."
+    },
+    {
+      "q": "One argument in this chapter reasons from God's status as 'pure act.' How does the argument proceed?",
+      "options": [
+        "Pure act cannot act at all, since act excludes movement",
+        "Since even act mixed with potentiality (as in us) is a principle of both immanent and outward actions, God's pure act, being more perfect, must be able to produce effects even more so",
+        "Pure act is identical with matter and thus cannot cause anything",
+        "Since God is pure act, He must be purely passive"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that if imperfect act in us extends to producing outward effects, then God's perfect, unmixed act must be capable of causing being in other things all the more."
+    },
+    {
+      "q": "How does the analogy of fire's heating power support the argument that God causes being in other things?",
+      "options": [
+        "It shows that fire, being imperfect, cannot really heat anything",
+        "It illustrates that the more perfect a principle's power, the more and further-reaching things it can affect, so God's supremely perfect act extends His causality to producing other beings",
+        "It proves that all causation is material",
+        "It shows that God's power is limited to nearby things only"
+      ],
+      "correct": 1,
+      "explanation": "Just as strong fire heats even distant objects while weak fire heats only what is near, God's pure act, being maximally perfect, causes effects extending to the being of other things."
+    }
+  ],
+  "SCG_B2_Ch5": [
+    {
+      "q": "What is 'active power' as Aquinas defines it, and why is it attributed to God?",
+      "options": [
+        "The capacity to be acted upon by another; God has it because He is perfect",
+        "The principle of acting on another as such; it is fitting for God since it belongs to His being the principle of being to other things",
+        "A physical force found only in bodies; inapplicable to God",
+        "Passive potentiality; ascribed to God because He receives being from nothing"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas defines active power as the principle of acting upon another, and since God is the principle of being to other things, active power is rightly ascribed to Him."
+    },
+    {
+      "q": "Why does Aquinas insist that only active, not passive, power belongs to God?",
+      "options": [
+        "Because passive power belongs to a being insofar as it is in potentiality, but God is pure act with no potentiality",
+        "Because passive power is greater than active power",
+        "Because God lacks any kind of power whatsoever",
+        "Because Scripture only mentions active verbs for God"
+      ],
+      "correct": 0,
+      "explanation": "He argues that just as passive potentiality follows upon being in potentiality, active power follows upon being in act; since God is pure act, only active power, not passive potency, is fitting for Him."
+    },
+    {
+      "q": "What general principle links a thing's activity to its power in this chapter's argument?",
+      "options": [
+        "Whatever acts must have the power to act, since what lacks the power to act cannot act, and what cannot act does not act",
+        "Power and activity are entirely unrelated",
+        "Only material things can be said to have power",
+        "Power exists prior to and independently of any act"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that since God does act and move (as proved earlier), He must have the power to act, confirming that active power is fittingly ascribed to Him."
+    }
+  ],
+  "SCG_B2_Ch6": [
+    {
+      "q": "What does Aquinas conclude about the relationship between God's power and His substance?",
+      "options": [
+        "God's power is really distinct from His substance, as in creatures",
+        "God's power is identical with His very substance, since He is pure act with no potentiality or accidents",
+        "God's power is an accident inhering in His substance",
+        "God's power is caused by something outside Him"
+      ],
+      "correct": 1,
+      "explanation": "Because active power belongs to a thing according as it is in act, and God is pure act with no distinction between Himself and His act of being, His power must be His very substance."
+    },
+    {
+      "q": "Why can't God's power be an accident, according to this chapter?",
+      "options": [
+        "Because accidents are too weak to be divine",
+        "Because natural power in creatures falls in the second species of accident, but no accident can exist in God, who was proved in Book One to be free of all accidents",
+        "Because accidents only exist in composite creatures, and this proves nothing about God",
+        "Because power is always identical to substance in every being"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes that in things where power is not identical with substance, power is an accident; but since God has no accidents (as shown in Book One), His power must be His substance itself."
+    },
+    {
+      "q": "What does the argument 'whatever is powerful and is not its own power is powerful by participation' establish about God?",
+      "options": [
+        "That God participates in a higher power beyond Himself",
+        "That since God is His own being rather than a being that participates in existence, He must likewise be His own power, not a participated power",
+        "That participation is impossible in principle",
+        "That God's power varies over time"
+      ],
+      "correct": 1,
+      "explanation": "Since nothing can be ascribed to God by participation (He is His own being, per Book One), it follows that God is His own power rather than possessing power derivatively."
+    }
+  ],
+  "SCG_B2_Ch7": [
+    {
+      "q": "What further identification does Aquinas make in this chapter, building on the claim that God's power is His substance?",
+      "options": [
+        "That God's power is distinct from His action",
+        "That God's power is not other than His action, since both are identical with His substance",
+        "That God has no action at all",
+        "That God's action is caused by creatures"
+      ],
+      "correct": 1,
+      "explanation": "Since God's power is His substance and His action (as shown in Book One regarding intellectual operation) is likewise His substance, it follows that in God power and action are not distinct."
+    },
+    {
+      "q": "How does the analogy of action as 'second act to first act' function in this chapter?",
+      "options": [
+        "It shows action and power are utterly unrelated concepts",
+        "It shows that action completes or perfects power the way second act perfects first act, but since God's power is not completed by anything other than Himself, His action cannot be distinct from His power",
+        "It proves that God is purely potential",
+        "It shows that only creatures have both first and second act"
+      ],
+      "correct": 1,
+      "explanation": "Because action is normally the actualization/complement of a power, and God's power is already His own complete essence, His action cannot be something added to or distinct from that power."
+    },
+    {
+      "q": "Why does Aquinas argue that action cannot be an accident in God as it typically is in creatures?",
+      "options": [
+        "Because action is one of the nine predicaments of accident when it is not the substance of the agent, but nothing accidental can exist in God",
+        "Because creatures never truly act",
+        "Because divine action requires a material subject",
+        "Because accidents are eternal and God's actions are temporal"
+      ],
+      "correct": 0,
+      "explanation": "In creatures, action not identical with substance is an accident inhering in a subject; since God has no accidents, His action must be identical with His substance, not an accident added to it."
+    }
+  ],
+  "SCG_B2_Ch8": [
+    {
+      "q": "According to this chapter, in what sense is power properly ascribed to God?",
+      "options": [
+        "As the principle of His own internal action",
+        "Not as a principle of action (since action and power are not really distinct in Him) but as the principle of the thing made, i.e., in relation to His effects",
+        "Power is not ascribed to God at all",
+        "As a power He shares with creatures"
+      ],
+      "correct": 1,
+      "explanation": "Since power implies relation to something else as the term of action, and God's action is not distinct from His power, power is ascribed to God really in relation to His effects, not to His action itself."
+    },
+    {
+      "q": "Why are intellect and will in God said to be 'actions' rather than 'powers,' strictly speaking?",
+      "options": [
+        "Because intellect and will do not exist in God at all",
+        "Because these operations remain within God (they do not pass into an external effect), so power in the proper sense Ã¢â‚¬â€ which regards produced effects Ã¢â‚¬â€ does not apply to them except according to our manner of conceiving",
+        "Because intellect and will are accidents in God",
+        "Because only bodily operations can be called actions"
+      ],
+      "correct": 1,
+      "explanation": "Power, properly speaking, regards effects that pass into something made; since understanding and willing remain in God as immanent acts, they are called actions rather than powers except in our way of conceiving."
+    },
+    {
+      "q": "How does Aquinas explain that many actions are ascribed to God (understanding, willing, producing) without introducing multiplicity into Him?",
+      "options": [
+        "He admits this creates real multiplicity in God",
+        "Each of these actions in God is identical with His one and the same act of being; the multiplicity arises only from our diverse concepts, not from real distinction in God",
+        "God literally changes identity depending on which action is under discussion",
+        "These terms are meaningless when applied to God"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that though we signify God's one simple being through many concepts (intelligence, volition, production), this signifies no real plurality in Him, echoing the discussion of multiple names in Book One."
+    }
+  ],
+  "SCG_B2_Ch9": [
+    {
+      "q": "What is the central claim Aquinas defends in this chapter?",
+      "options": [
+        "That nothing can truly be said of God in relation to creatures",
+        "That something can genuinely be said of God relatively, in relation to His effects (creatures)",
+        "That God is identical with His creatures",
+        "That relations exist only among creatures, never involving God"
+      ],
+      "correct": 1,
+      "explanation": "Since power implies a principle, and principle implies relation to what proceeds from it, and creatures depend on and are referred to God, it follows that God can correspondingly be spoken of in relation to them."
+    },
+    {
+      "q": "Which argument appeals to the nature of correlative terms to establish that God can be spoken of relatively?",
+      "options": [
+        "The argument that if creatures are referred to God (as dependent on Him for being), then conversely God must be referred to creatures, since one thing cannot be referred to another without the reverse relation holding in some way",
+        "The argument from the Trinity",
+        "The argument that creatures have no real being",
+        "The argument from divine simplicity alone"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that relation is inherently reciprocal Ã¢â‚¬â€ since creatures are said to depend on and be related to God, God must likewise be describable in relation to creatures, even if that relation exists differently in each term."
+    },
+    {
+      "q": "Which of the following is NOT one of the reasons Aquinas gives for saying something is predicated of God relatively?",
+      "options": [
+        "God's knowledge is of things other than Himself",
+        "God produces things like Himself (likeness is a kind of relation)",
+        "God is called 'first' and 'supreme,' terms that imply relation",
+        "God's essence is composed of really distinct relational parts"
+      ],
+      "correct": 3,
+      "explanation": "Aquinas never claims God's essence is composed of relational parts Ã¢â‚¬â€ that would contradict divine simplicity; the other three are among his stated reasons for ascribing relative terms to God."
+    }
+  ],
+  "SCG_B2_Ch10": [
+    {
+      "q": "What is Aquinas's central conclusion about the relations by which God is referred to creatures (e.g., Lord, Creator)?",
+      "options": [
+        "They are real accidents inhering in God",
+        "They are not really in God as anything really distinct, but are ascribed to Him only according to our way of understanding, since it is creatures that are really related to Him",
+        "They do not exist in any sense, not even conceptually",
+        "They constitute God's very substance in a distinct way from other attributes"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas concludes these relations are not real accidents in God (He has none) nor His substance itself, but exist only 'according to our way of understanding' Ã¢â‚¬â€ real in the creature's dependence on God, not vice versa."
+    },
+    {
+      "q": "Why can't these relations (like 'Lord of creatures') be God's very substance?",
+      "options": [
+        "Because relative terms are essentially referred to something else, which would make God's substance dependent on and definable through something outside Himself Ã¢â‚¬â€ contradicting His being necessary of Himself",
+        "Because substances cannot be named at all",
+        "Because only accidents can be relative, and God has substance but no accidents",
+        "Because the argument does not actually rule this out"
+      ],
+      "correct": 0,
+      "explanation": "If God's substance were itself relative, it would be essentially dependent on something else for its existence or intelligibility, which contradicts God's being necessary being of Himself, proven in Book One."
+    },
+    {
+      "q": "What example does Aquinas use to show that new relations (like becoming 'Lord' of a thing that begins to exist) do not imply real change in God?",
+      "options": [
+        "The example of a knowable object being related to knowledge: the relation of 'knowable' exists really in the knowledge, not in the thing known, just as new relations to creatures exist in the creature's new dependence, not in God",
+        "The example of fire heating water",
+        "The example of a craftsman changing his blueprint",
+        "The example of the sun literally moving toward the earth"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas compares it to how a knowable object is only relatively said to be 'knowable' without a real relation existing in it (the relation being real in the knowledge instead); similarly, new relations to God arise from real change in the creature, not in God."
+    }
+  ],
+  "SCG_B2_Ch11": [
+    {
+      "q": "What is the main thesis of this chapter?",
+      "options": [
+        "God is the cause of being only to spiritual creatures",
+        "Everything other than God derives its being from Him Ã¢â‚¬â€ God is the cause of being to all things",
+        "Some things exist without any cause of their being",
+        "Matter is self-existent and independent of God"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since being cannot belong to two things both 'as such' without one causing the other or a third cause being common to both, and God is proven to have no cause of His being, everything else must derive its being from Him."
+    },
+    {
+      "q": "How does the argument from 'being by essence' versus 'being by participation' support God as universal cause?",
+      "options": [
+        "It shows all things, including God, exist by participation",
+        "It shows that God alone is being by His very essence (He is Being itself), while everything else has being only by participation, and what is essentially so is the cause of what is so by participation (as fire causes things to be ignited)",
+        "It shows participation is impossible",
+        "It has nothing to do with causality"
+      ],
+      "correct": 1,
+      "explanation": "Since only one being can be its own act of being (proven in Book One), and God is that being, everything else that 'has' being through participation must derive it causally from God who is Being itself."
+    },
+    {
+      "q": "What error does this chapter explicitly refute?",
+      "options": [
+        "The Trinity being three persons in one God",
+        "The ancient physicists' view that certain bodies (or matter) have no cause of their being, and the view that God causes only the heaven's movement but not its substance",
+        "The doctrine of the incarnation",
+        "The idea that angels exist"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas closes by rejecting the ancient physicists who held some bodies had no cause of being, and those who claimed God causes only celestial motion but not the substance of the heavens."
+    }
+  ],
+  "SCG_B2_Ch12": [
+    {
+      "q": "What does this chapter establish about how God brings things into being?",
+      "options": [
+        "God requires eternal pre-existing matter to create",
+        "God creates out of nothing Ã¢â‚¬â€ no pre-existing matter is presupposed to His creative action",
+        "God can only reshape existing substances, never originate new being",
+        "God's creative act is identical to natural generation"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since God is the universal, first cause of being itself (not merely of change in pre-existing matter), His action requires no prejacent matter, i.e., He creates ex nihilo."
+    },
+    {
+      "q": "Why does Aquinas say an agent that needs prejacent matter to act must be a 'particular' cause rather than universal?",
+      "options": [
+        "Because working with pre-existing matter and enduing it with a particular form is proper to a cause aiming at some particular species, whereas God, as universal cause of being as such, is not limited in this way",
+        "Because particular causes are always more powerful than universal ones",
+        "Because matter itself is a universal cause",
+        "Because this distinction applies only to living things"
+      ],
+      "correct": 0,
+      "explanation": "An agent that must work upon existing matter to produce a specific form is thereby restricted to producing particular kinds of things, unlike God who is the cause of being universally and thus needs no substrate."
+    },
+    {
+      "q": "How does the analogy with generation and corruption help explain why God's causation differs from natural change?",
+      "options": [
+        "It shows generation also occurs without any matter",
+        "Natural change/movement only makes 'this being from this non-being' (transforming existing subjects), whereas God as universal cause of being brings things from absolute non-being to being, which is not a change requiring a subject",
+        "It shows there is no real difference between creation and generation",
+        "It proves matter causes itself"
+      ],
+      "correct": 1,
+      "explanation": "Ordinary agents that act by movement or change presuppose an underlying subject and merely transform it, but God, as the source of being itself, is not limited to that mode of causing and creates without any presupposed substrate."
+    }
+  ],
+  "SCG_B2_Ch13": [
+    {
+      "q": "What is Aquinas's central claim about the nature of creation as an act?",
+      "options": [
+        "Creation is a very rapid form of ordinary physical movement",
+        "Creation, properly speaking, is neither movement nor change, since it involves no pre-existing subject or potentiality that receives the action",
+        "Creation is identical with local motion",
+        "Creation requires time to unfold, like biological growth"
+      ],
+      "correct": 1,
+      "explanation": "Since movement and change are the actualization of something already existing in potentiality, and creation presupposes no pre-existing potential subject, creation cannot be classified as movement or change in the strict sense."
+    },
+    {
+      "q": "Why does Aquinas say the 'extremes' involved in change (like privation and form, or contraries) do not apply to creation?",
+      "options": [
+        "Because creation, like other changes, involves a common genus or a shared underlying matter between its 'before' and 'after' states",
+        "Because in change, the extremes share a genus or a common potentiality of matter, but in creation there is no pre-existing potentiality or common genus linking non-being and being",
+        "Because creation happens over infinite time",
+        "Because creation only applies to spiritual beings, which have no 'before' state"
+      ],
+      "correct": 1,
+      "explanation": "Ordinary change requires two extremes within a shared genus or matter (e.g., privation and form), but creation's 'terms' Ã¢â‚¬â€ sheer non-being and being Ã¢â‚¬â€ share no such common substrate, so it cannot be change in the ordinary sense."
+    },
+    {
+      "q": "What does Aquinas say about the claim that 'what is being made, is not yet, until movement is complete'?",
+      "options": [
+        "This applies equally and without qualification to creation",
+        "This principle applies to change/movement, where something is 'becoming' over successive time, but creation involves no such succession because it does not presuppose a subject undergoing change",
+        "This principle is meaningless and irrelevant to any philosophical discussion",
+        "It proves that creation takes an infinite amount of time"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes that in ordinary change, a thing is 'becoming' throughout the process and 'is made' only when movement terminates, but creation cannot work this way since it would then require a pre-existing subject, contrary to creation's very nature."
+    }
+  ],
+  "SCG_B2_Ch14": [
+    {
+      "q": "How does Aquinas answer the objection that creation must occur 'in a subject' the way other changes do?",
+      "options": [
+        "He concedes the objection and abandons the doctrine of creation from nothing",
+        "He explains that creation is not a change at all but the relation of dependence of the created being on its creator, and as a relation it can be said to exist in the creature (the created thing) rather than requiring a prior subject",
+        "He argues creation happens in God as its subject",
+        "He claims creation is purely imaginary and not real"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas resolves the objection by clarifying that creation, properly understood, is a relation of dependence in the creature toward God, not a change requiring an antecedent subject."
+    },
+    {
+      "q": "Why doesn't creation itself need to be created by a further act of creation, avoiding infinite regress?",
+      "options": [
+        "Because a relation is not referred to its term through another relation; it is essentially a relation and refers to God directly, without needing a separate creative act to 'create' the relation itself",
+        "Because relations don't really exist",
+        "Because only substances, not relations, require causes",
+        "Because God directly answers this in Scripture, bypassing the philosophical question"
+      ],
+      "correct": 0,
+      "explanation": "Since creation is itself a relation, and a relation refers to its term by its very essence (not through some further relation), there is no need to posit an infinite series of 'creations of creation.'"
+    },
+    {
+      "q": "What does Aquinas say about creation only seeming to involve change 'according to our way of understanding'?",
+      "options": [
+        "Our intellect naturally frames the coming-to-be of a creature as though it were a transition from a prior non-existing state to an existing one, similar to ordinary change, even though no real transmutation occurs",
+        "Our understanding is entirely false when it comes to creation",
+        "Creation genuinely does involve transmutation of non-being into being like fire changing into air",
+        "This way of understanding should be rejected entirely as useless"
+      ],
+      "correct": 0,
+      "explanation": "He grants that we conceive creation on the model of change (something first not existing, then existing), but this is merely a feature of how our intellect grasps it, not a claim that real transmutation occurs."
+    }
+  ],
+  "SCG_B2_Ch15": [
+    {
+      "q": "What is the key conclusion of this chapter regarding creation and time?",
+      "options": [
+        "Creation takes an infinitesimally short but still measurable duration",
+        "All creation occurs without succession Ã¢â‚¬â€ it is instantaneous, not a gradual process",
+        "Creation happens gradually like the growth of a plant",
+        "Creation requires the same amount of time regardless of what is created"
+      ],
+      "correct": 1,
+      "explanation": "Since succession belongs properly to movement, and creation is neither movement nor the term of a movement, Aquinas concludes there is no succession in creation Ã¢â‚¬â€ it happens instantaneously."
+    },
+    {
+      "q": "Why does Aquinas say there can be no 'becoming' (a state of being made but not yet made) prior to a creature's existing, unlike in ordinary generation?",
+      "options": [
+        "Because 'becoming' would require a subject to undergo the process, but this subject could not be the creature itself (not yet existing), nor could it be in God (since being moved is an act of what is moved, not the mover), nor could it be pre-existing matter, which creation excludes",
+        "Because becoming is impossible in principle for any being",
+        "Because time itself did not exist before creation, making the question moot",
+        "Because God experiences becoming instead of the creature"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas systematically rules out every possible subject for a preliminary 'becoming' phase in creation, concluding that no such subject is available, so creation cannot be a successive process."
+    },
+    {
+      "q": "What comparison does Aquinas use to illustrate the instantaneous nature of creation?",
+      "options": [
+        "The gradual heating of water to a boil",
+        "The illumination of a fully diaphanous (transparent) body, which becomes actually lit the instant a luminous body is present, without any preceding alteration on its own part",
+        "The construction of a house over many days",
+        "The growth of a tree from a seed"
+      ],
+      "correct": 1,
+      "explanation": "Just as a transparent medium already perfectly disposed to receive light is illumined instantly when light is present, creation Ã¢â‚¬â€ requiring no prior disposition in matter Ã¢â‚¬â€ occurs instantaneously, in the same instant a thing 'is being created' and 'is created.'"
+    }
+  ],
+  "SCG_B2_Ch16": [
+    {
+      "q": "Why does Aquinas argue that no body can create?",
+      "options": [
+        "Because bodies lack sufficient beauty to reflect the divine likeness",
+        "Because creation is instantaneous and without succession, while every bodily action requires movement and hence succession, so a body cannot act by creation",
+        "Because bodies are too small to affect the whole universe",
+        "Because only spiritual substances have any causal power at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that bodily action always involves movement, which takes time and succession, but creation has no succession, so no body can be the cause of creation."
+    },
+    {
+      "q": "What does the argument from infinite power establish about creation?",
+      "options": [
+        "That creation requires only a finite power since matter does no real work",
+        "That because creating means producing something from no pre-existing potentiality at all (an infinitely 'distant' starting point), it requires an infinite power, which no body possesses",
+        "That bodies with more mass have proportionally greater creative power",
+        "That infinite power is impossible for any being, including God"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that an agent's power is greater the more distant from actuality the potentiality it actualizes; since creation presupposes no potentiality whatsoever, only infinite power suffices, and no bodily power is infinite."
+    },
+    {
+      "q": "Why can't a body create even by contact with what it produces?",
+      "options": [
+        "Because contact requires two pre-existing things in relation, but in creation nothing pre-exists besides the agent, so there is nothing for the body to be in contact with",
+        "Because bodies never touch anything directly",
+        "Because contact would destroy the object being created",
+        "Because contact is impossible for immaterial substances only"
+      ],
+      "correct": 0,
+      "explanation": "Since bodily action requires contact, and contact requires an existing extreme to touch, but creation presupposes no pre-existing subject, a body cannot create by contact Ã¢â‚¬â€ or at all."
+    }
+  ],
+  "SCG_B2_Ch17": [
+    {
+      "q": "Why does Aquinas conclude that creation belongs to God alone?",
+      "options": [
+        "Because creation is the first, most excellent action, presupposing nothing else, and so belongs to the first and most excellent agent alone; also because only God is the universal cause of being as such",
+        "Because Scripture never mentions any other cause",
+        "Because angels lack sufficient wisdom to create",
+        "Because creation requires physical strength beyond any creature's capacity"
+      ],
+      "correct": 0,
+      "explanation": "Since the order of actions follows the order of agents, and creation is the first action presupposing nothing, it must belong to the first agent (God) alone, who alone is the universal cause of being."
+    },
+    {
+      "q": "Why can no creature act as an instrumental cause of creation, according to this chapter?",
+      "options": [
+        "Because instruments are only used for actions that don't produce real effects",
+        "Because an instrument functions as a 'mover moved' operating by way of movement, but creation is not movement, and because a caused substance can only be a secondary, instrumental cause with respect to a nature it already presupposes, never the source of being as such",
+        "Because instruments are inherently evil",
+        "Because instrumental causes must be visible"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues an instrument works through a proper connatural action reaching an effect via movement, and requires something already existing to receive its influence Ã¢â‚¬â€ both incompatible with creation, which is not movement and presupposes nothing."
+    },
+    {
+      "q": "What does Aquinas mean by saying God's power is 'not confined to one effect'?",
+      "options": [
+        "That God's power extends to everything that does not imply a contradiction, since His power is the per se cause of being as such, not of this or that particular being",
+        "That God can create contradictions like square circles",
+        "That God's power fluctuates depending on circumstances",
+        "That God can only create the specific things He has already created"
+      ],
+      "correct": 0,
+      "explanation": "Since being is God's proper effect and His power is perfect, unlimited act, God can do whatever does not involve a contradiction (an implicit non-being), which is the meaning of omnipotence in this chapter."
+    }
+  ],
+  "SCG_B2_Ch18": [
+    {
+      "q": "What is the main thesis argued in this chapter?",
+      "options": [
+        "That God acts by necessity of His nature, like fire necessarily heats",
+        "That God does not act among creatures by necessity of His nature but by the free judgment of His will",
+        "That God has no will at all, only nature",
+        "That creatures compel God's actions"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that because God's power is not confined to one effect, and He acts through intellect and will (not mere nature), He works freely rather than by natural necessity."
+    },
+    {
+      "q": "How does the argument from 'action remaining in the agent' support the claim that God acts by will?",
+      "options": [
+        "It shows God has no actions at all",
+        "Since God's action is His very substance and thus cannot be the kind of action that passes into an external effect merely mechanically, it must be of the kind found only in beings with knowledge and appetite Ã¢â‚¬â€ i.e., intellect and will",
+        "It proves that God's actions are purely physical",
+        "It shows that only external, transitive actions belong to God"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since God's action is identical with His substance (an immanent kind of act), and only knowing, appetitive beings have such immanent acts, God must act through intellect and will, not blind natural necessity."
+    },
+    {
+      "q": "What comparison does Aquinas use involving an archer to illustrate divine purposiveness?",
+      "options": [
+        "An archer represents chance, showing God's acts are random",
+        "Just as an arrow is directed to its mark by the intellect and aim of the archer, natural things directed to an end (like the universe) require an intelligent director, supporting that the first agent acts by intellect and will",
+        "The archer symbolizes matter shaping form",
+        "The comparison shows archery is condemned by Scripture"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas uses the archer-and-arrow analogy to show that things directed to an end by another (as in art) require an intelligent guide, and by extension nature's order points to God as an intelligent, willing first agent."
+    }
+  ],
+  "SCG_B2_Ch19": [
+    {
+      "q": "What does this chapter establish about how God produces His effects?",
+      "options": [
+        "That God works blindly, without any plan",
+        "That God produces His effects according to His wisdom, ordering all things through the reason of His intellect",
+        "That God's wisdom is separate from His will and plays no role in creation",
+        "That wisdom belongs only to creatures, not to God"
+      ],
+      "correct": 1,
+      "explanation": "Since God works by will, and voluntary agents act according to their intellectual apprehension, and God's understanding is His wisdom, it follows that God brings things into being through His wisdom."
+    },
+    {
+      "q": "How does the analogy with a craftsman support the claim that God works through wisdom?",
+      "options": [
+        "It shows that craftsmen never really understand their work",
+        "Just as a craftsman brings his handiwork into being by the ordering of his intellect and wisdom (his 'art'), so created things, which proceed from God as 'things made,' are ordered by the reason belonging to His intellect",
+        "It proves that God is not really the maker of things, only a craftsman is",
+        "It shows that craftsmanship is opposed to wisdom"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares creatures to artifacts and God to the craftsman whose art (the reasoned plan in the intellect) determines the ordered production of the work Ã¢â‚¬â€ hence creation reflects divine wisdom."
+    },
+    {
+      "q": "What error does Aquinas explicitly refute at the end of this chapter?",
+      "options": [
+        "The error that God has no will",
+        "The error of those who said all things depend on God's simple will without any reason",
+        "The error that matter is eternal",
+        "The error that angels are pure act"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas closes by rejecting the view that creation results from sheer arbitrary will with no wisdom or reason behind it, insisting instead that God's will acts according to His wisdom."
+    }
+  ],
+  "SCG_B2_Ch20": [
+    {
+      "q": "According to Aquinas, why is God said to be 'unable' to do certain things despite being omnipotent?",
+      "options": [
+        "Because God actually has limited power like creatures",
+        "Because 'being able' with respect to passive potentiality (which requires matter subject to contrariety) does not apply to God, who has no passive potentiality; so things pertaining to passive potency (like being a body, being changed, failing, sinning) are 'impossible' for Him",
+        "Because omnipotence is a myth invented by theologians",
+        "Because God's power decreases over time"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes active potentiality (which God has fully) from passive potentiality (which God, being pure act, entirely lacks), so 'inability' language about God concerns only what would require passive potency."
+    },
+    {
+      "q": "Why can't God make contradictories true simultaneously (e.g., a thing to be and not be at the same time)?",
+      "options": [
+        "Because this is simply a linguistic trick with no real content",
+        "Because the object of such a 'power' is not really a thing at all but a self-canceling non-thing; power regards genuine objects, and what is inherently self-contradictory has no coherent object for power to act upon",
+        "Because God fears contradictions",
+        "Because contradictions are only impossible for creatures, not for God"
+      ],
+      "correct": 1,
+      "explanation": "Since active potentiality requires an intelligible object or effect, and the object of contradiction destroys the very ratio of being, there is nothing there for divine power to produce Ã¢â‚¬â€ it is not a limitation on power but a matter of there being no real object."
+    },
+    {
+      "q": "Why, according to this chapter, can God not make Himself not to be, or not be good?",
+      "options": [
+        "Because these are actually within God's power but He chooses not to exercise it",
+        "Because God necessarily wills Himself to be and to be good (as shown in Book One), and since He is a voluntary agent, He cannot do what He cannot will Ã¢â‚¬â€ this necessity is not a limitation but flows from His perfect nature",
+        "Because such acts require passive potentiality only in creatures",
+        "Because Scripture forbids even discussing this possibility"
+      ],
+      "correct": 1,
+      "explanation": "Since God acts through will and necessarily wills His own goodness and existence, He cannot will or do the opposite; this is treated as a positive feature of His perfection, not a deficiency."
+    }
+  ],
+  "SCG_B2_Ch21": [
+    {
+      "q": "What is the main claim of this chapter regarding God's intellect?",
+      "options": [
+        "That the divine intellect is limited to knowing only what God has actually created",
+        "That the divine intellect, like the divine power, is not confined to any determinate set of effects but comprehends infinitely more than what actually exists",
+        "That God's intellect changes and grows over time as He creates more things",
+        "That the divine intellect cannot know things that will never exist"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that God's intellect, being infinite and understanding His own essence which virtually contains all possible effects, is not restricted to the effects that actually come to be."
+    },
+    {
+      "q": "How does the infinity of the divine essence relate to the divine intellect's scope, according to this chapter?",
+      "options": [
+        "No matter how many finite effects are considered, they never equal the infinite divine essence, so the intellect that perfectly knows that infinite essence necessarily surpasses and is not confined to any set of finite effects",
+        "The divine essence is finite and thus limited in what it can produce",
+        "Infinity applies only to God's power, not His intellect",
+        "The divine essence only becomes infinite after creation occurs"
+      ],
+      "correct": 0,
+      "explanation": "Since God's essence infinitely exceeds any collection of finite effects, and the divine intellect perfectly knows that essence, its causal scope likewise exceeds any determinate finite set of effects."
+    },
+    {
+      "q": "What qualification does Aquinas add at the end regarding God's actual choice of effects?",
+      "options": [
+        "None Ã¢â‚¬â€ God's intellect produces all possible things simultaneously by necessity",
+        "Although God's intellect is not confined to certain effects, He nevertheless decides on certain determinate effects to produce them ordinately by His wisdom, per Wisdom 11:21 ('ordered all things in number, weight, and measure')",
+        "God's intellect has no bearing on which effects actually occur",
+        "God is forced to produce every possible effect because refusing any would be unjust"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas clarifies that unrestricted intellectual scope does not mean God produces everything possible; rather He freely and wisely selects and orders the actual effects He wills to bring about."
+    }
+  ],
+  "SCG_B2_Ch22": [
+    {
+      "q": "What is the primary claim of this chapter about the divine will?",
+      "options": [
+        "That the divine will, like the divine intellect and power, is not necessitated to produce any particular determinate set of effects, since it wills nothing other than Himself with absolute necessity",
+        "That the divine will is entirely random and has no connection with the divine intellect",
+        "That God's will produces effects only out of obligation to justice",
+        "That the divine will cannot differ from natural necessity at all"
+      ],
+      "correct": 0,
+      "explanation": "Since the will's object follows the intellect's proposal of a good, and the divine intellect is not confined to certain effects, neither is the divine will necessitated to produce determinate effects Ã¢â‚¬â€ except necessarily willing His own goodness."
+    },
+    {
+      "q": "Why does Aquinas argue that creation is NOT owed to creatures as a 'debt of justice'?",
+      "options": [
+        "Because justice requires rendering what is due to another, but nothing exists prior to creation to which anything could be owed, and a thing only 'has something of its own' (a prerequisite for justice) after it is created, not before",
+        "Because creatures deserve punishment, not reward, from God",
+        "Because justice does not exist in Aquinas's framework",
+        "Because God is unjust in dealing with creatures"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that justice presupposes a prior right or due owed to an existing subject, but before creation nothing exists to be owed anything, so creation cannot be an act of justice in the strict sense."
+    },
+    {
+      "q": "What does Aquinas mean by a 'conditional' or 'hypothetical' necessity in creation, as opposed to justice properly speaking?",
+      "options": [
+        "That nothing is ever necessary once God has willed anything",
+        "That given God wills a certain end (e.g., a complete universe, or man's existence), it becomes 'due' or necessary that the means required for that end also be provided (e.g., sun and moon for the universe, or body and soul united for man) Ã¢â‚¬â€ though the willing of the end itself remained free",
+        "That conditional necessity is identical to absolute logical necessity in every way",
+        "That God is bound by the laws of prior philosophers"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that once God freely wills a certain end, the things necessary to that end become 'due' in a conditional sense Ã¢â‚¬â€ a debt not owed to the creature but tied to the fulfillment of God's own purpose."
+    }
+  ],
+  "SCG_B2_Ch23": [
+    {
+      "q": "How does Aquinas reconcile God's free, non-necessitated causality with the existence of absolute necessity in some created things?",
+      "options": [
+        "He denies that any necessity exists in creation at all",
+        "Although the whole created order depends on God's free will (not natural necessity) as its first cause, some things (like separate substances or heavenly bodies lacking matter subject to contrariety) have, from their proximate created natures, an absolute necessity of being once they are constituted as they are",
+        "He claims all creation is equally and uniformly necessary",
+        "He argues necessity only applies to accidents, never to substances"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the free, non-necessary origin of the whole created order in God's will from the absolute necessity found in particular natures once instituted, such as immaterial or unchangeable beings lacking potentiality to non-being."
+    },
+    {
+      "q": "Why do certain creatures (like separate substances and heavenly bodies) have no potentiality to non-being?",
+      "options": [
+        "Because God directly wills their eternal preservation regardless of their nature",
+        "Because they either lack matter altogether (separate substances) or their form completely actualizes all the potentiality of their matter, leaving no residual potency to another form (heavenly bodies), unlike things composed of contraries such as the elements",
+        "Because they are more beautiful than other creatures",
+        "Because they existed before God created time"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that potentiality to non-being arises from matter's capacity to receive a different form; where there is no matter, or where form exhausts matter's potentiality, there is no such potency to cease to be."
+    },
+    {
+      "q": "What example does Aquinas give of necessity arising in action itself versus necessity of a subsequent effect?",
+      "options": [
+        "He uses the example of prayer being always answered",
+        "When sense or intellect is actualized by its proper species, it is necessary that it perceive or understand (necessity in the immanent action itself); but for a transitive action like fire heating, only the power to heat follows necessarily from the form, not that heating will actually occur, since extrinsic obstacles can intervene",
+        "He claims all natural actions are entirely voluntary",
+        "He argues there is no difference between immanent and transitive necessity"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes immanent actions (like understanding), where actualization by the proper object necessitates the act itself, from transitive actions (like heating), where the form only necessitates the power to act, not the actual effect, since external hindrances are possible."
+    }
+  ],
+  "SCG_B2_Ch24": [
+    {
+      "q": "What is the central conclusion of this chapter?",
+      "options": [
+        "That it is necessary for the universe to have existed from eternity",
+        "That it is not necessary for created things to have existed from eternity, since neither God's nature, will, nor any debt of justice compels Him to have produced creatures always",
+        "That the world definitely began a finite time ago, provable by unaided reason",
+        "That eternity and creation are logically incompatible concepts"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since God does not act of natural necessity, and does not necessarily will creatures at all (let alone eternally), there is no necessity forcing the conclusion that the world has always existed."
+    },
+    {
+      "q": "Why can't a creature have absolute necessity of being 'from itself,' according to the opening argument?",
+      "options": [
+        "Because necessary being from itself would mean the thing cannot not exist, which is proper only to that which does not receive being from another (i.e., God) Ã¢â‚¬â€ but every creature, having being from another, cannot have this self-grounded necessity",
+        "Because creatures are evil by nature",
+        "Because only humans can be necessary beings",
+        "Because necessity applies only to abstract mathematical objects"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that self-necessary being requires having being from oneself, but every creature has being from another (God), so no creature can be necessary being of itself."
+    },
+    {
+      "q": "According to this chapter, why doesn't God's eternity entail that His creative effect must also be eternal?",
+      "options": [
+        "Because God's action is entirely separate from His will and follows blind necessity",
+        "Because God's action is His will, and the effect follows the will's determination Ã¢â‚¬â€ including its determination of when the effect is to exist Ã¢â‚¬â€ so an eternal willing agent can freely will a temporally-beginning effect without any change in Himself",
+        "Because time did not exist before creation, making the question meaningless",
+        "Because creatures possess a separate eternal component distinct from God"
+      ],
+      "correct": 1,
+      "explanation": "Since God's action is identical with His eternal will, and His will determines not only that but also when an effect exists, the effect can begin in time without requiring change in the eternal, willing God."
+    }
+  ],
+  "SCG_B2_Ch25": [
+    {
+      "q": "What kind of arguments does this chapter present, and to what conclusion do they point?",
+      "options": [
+        "Arguments from Scripture proving the world is eternal",
+        "Arguments taken from the very manner or process of 'making' things (e.g., that nothing comes from nothing, that change requires a pre-existing subject) which purport to show something besides God Ã¢â‚¬â€ namely, primary matter Ã¢â‚¬â€ must be eternal",
+        "Arguments proving that time itself is an illusion",
+        "Arguments showing that only God's intellect is eternal, not His will"
+      ],
+      "correct": 1,
+      "explanation": "This chapter surveys arguments claiming that because everything that begins presupposes some pre-existing subject undergoing change, there must be an eternal, uncreated first subject (primary matter) distinct from God."
+    },
+    {
+      "q": "What common philosophical maxim underlies the first argument presented in this chapter?",
+      "options": [
+        "'Everything that exists is good'",
+        "'From nothing, naught is made' (ex nihilo nihil fit) Ã¢â‚¬â€ the near-universal opinion of philosophers that whatever is made must be made from some pre-existing thing",
+        "'Like causes produce like effects only'",
+        "'Motion is impossible in principle'"
+      ],
+      "correct": 1,
+      "explanation": "The chapter opens with the argument that since 'from nothing, naught is made' was the common judgment of all philosophers (thought to reflect a reliable, non-accidental truth), everything made must come from some pre-existing subject, implying an eternal first matter."
+    },
+    {
+      "q": "How does the chapter conclude regarding these arguments and Catholic faith?",
+      "options": [
+        "It endorses these arguments as fully sound and consistent with faith",
+        "It notes these arguments are advanced 'as though they were demonstrations' by some to prove creatures have necessarily existed always, but this contradicts the Catholic faith, which holds nothing besides God has always existed",
+        "It claims the Catholic faith has no position on the matter",
+        "It says these arguments prove the non-existence of matter"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas presents these as the opposing arguments to be answered in subsequent chapters, explicitly noting they conflict with the Catholic teaching that only God is eternal and all else began to be."
+    }
+  ],
+  "SCG_B2_Ch26": [
+    {
+      "q": "How does Aquinas answer the objection that a new effect (the world beginning) implies change in God the agent?",
+      "options": [
+        "He concedes that God does change when creating",
+        "He distinguishes newness of effect from newness of action: since God's action is identical with His unchanging essence, a new effect does not require a new action in God, only a new effect at the time His eternal will determined",
+        "He argues time itself is identical with God",
+        "He says the objection is unanswerable and abandons creation ex nihilo"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that because God's action is His very essence (not something added to Him), an effect's temporal newness does not entail any newness or change in the divine agent producing it."
+    },
+    {
+      "q": "How does Aquinas explain that an eternal cause (God) can have a non-eternal effect?",
+      "options": [
+        "He denies that God's action is really eternal",
+        "A voluntary cause's effect follows not merely the being of the cause but the mode determined by the cause's will Ã¢â‚¬â€ God's will determines not only that a thing be, but also when it is to be, so the effect can begin in time from an eternal willing without contradiction",
+        "He claims all effects must always be simultaneous with their causes without exception",
+        "He argues the effect is actually just as eternal as God"
+      ],
+      "correct": 1,
+      "explanation": "Unlike natural causes whose effects follow automatically from their being, a voluntary cause's effect follows the determination of its will Ã¢â‚¬â€ including the timing Ã¢â‚¬â€ so God's eternal will can determine a temporally-limited effect."
+    },
+    {
+      "q": "What reason does Aquinas give for why it is actually MORE fitting that creatures have not existed always?",
+      "options": [
+        "Because it manifests the transcendence of the divine goodness over creatures more clearly Ã¢â‚¬â€ showing all things have Him as author of their being and that His power is not constrained like nature is, but acts freely and intelligently",
+        "Because eternal creatures would be more perfect than God",
+        "Because Scripture explicitly states a numerical age for the universe",
+        "Because it makes creation easier for God to accomplish"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues that creatures beginning to exist (rather than being co-eternal with God) best displays God's transcendence, freedom, and intelligence as a voluntary, non-necessitated cause, rather than a natural one bound to produce automatically."
+    }
+  ],
+  "SCG_B2_Ch27": [
+    {
+      "q": "How does Aquinas respond to the argument that things without potentiality to non-being (like heavenly bodies) must therefore have existed from eternity?",
+      "options": [
+        "He agrees fully with this argument",
+        "He distinguishes a necessity of order (following upon a substance once it is produced) from the question of the substance's original production Ã¢â‚¬â€ a thing having no potency to cease being, once it exists, does not prove it could not have had a beginning of existing",
+        "He denies that heavenly bodies exist",
+        "He claims all necessity implies eternity without exception"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that the necessity of a heavenly body's continued existence (lacking potency to non-being) presupposes its substance is already produced; it says nothing about whether that substance's initial production must have been eternal."
+    },
+    {
+      "q": "How does Aquinas handle the argument about time requiring an infinite regress of 'nows' (each now being both an end of the past and beginning of the future)?",
+      "options": [
+        "He concedes time must be infinite",
+        "He argues this reasoning presupposes that movement (and hence time) is eternal, but if movement is not eternal, the first instant of time can simply be a beginning with no past preceding it, without violating the nature of a continuous 'now'",
+        "He claims 'now' does not exist in reality",
+        "He agrees the argument is unanswerable and abandons a temporal beginning"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas points out the argument assumes what it needs to prove (that movement/time is eternal); if time itself began, the first 'now' can simply lack a preceding 'past' without contradiction, similar to how a line can have a starting point."
+    },
+    {
+      "q": "What overall conclusion does Aquinas draw about the arguments taken 'from the side of creatures'?",
+      "options": [
+        "That they conclusively prove the eternity of the world",
+        "That, like the arguments from God's side, none of them compel one to assert the eternity of the world",
+        "That they prove the opposite of what they intend, i.e., that nothing exists",
+        "That only some apply to spiritual creatures but not bodies"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas concludes this chapter by stating that the arguments taken from the standpoint of creatures 'do not compel one to assert the eternity of the world,' paralleling his conclusion about the arguments from God's side."
+    }
+  ],
+  "SCG_B2_Ch28": [
+    {
+      "q": "How does Aquinas reinterpret the philosophical maxim 'from nothing, naught is made' in light of creation?",
+      "options": [
+        "He rejects the maxim entirely as false",
+        "He explains that ancient philosophers formulated this principle while considering only particular, this-or-that makings (like this fire or this stone) that presuppose a substrate Ã¢â‚¬â€ it does not apply to the absolute origination of all being from God, which is a different, non-univocal sense of 'making'",
+        "He claims the maxim only applies to spiritual beings",
+        "He says the maxim was invented by Christian theologians, not philosophers"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues the ancients' maxim concerned particular material changes and did not anticipate or address the metaphysician's deeper question of the origin of being as such from the first cause, so it does not refute creation ex nihilo."
+    },
+    {
+      "q": "Why does Aquinas say creation can only be called a 'change' metaphorically?",
+      "options": [
+        "Because creation genuinely does involve a transformation of an underlying subject, just very quickly",
+        "Because calling it a 'change' merely reflects that the created thing has being after non-being (like day succeeding night, without one being changed into the other), not a true transformation of a preexisting subject, since true change requires an actual passive potentiality that precedes",
+        "Because Aquinas considers the word 'change' meaningless in all contexts",
+        "Because creation happens repeatedly over time like ordinary change"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas clarifies that calling creation a change is only an analogy based on succession of being after non-being (as day follows night) without a true underlying subject undergoing transformation, unlike ordinary change which does require a persisting subject."
+    },
+    {
+      "q": "What distinction does Aquinas draw regarding 'possibility' in things made by movement versus things created?",
+      "options": [
+        "There is no distinction; both require identical prior potentiality",
+        "Things made by movement require a real passive potentiality in pre-existing matter beforehand, but a created thing's 'possibility to be' beforehand refers only to the power of the creating agent and the non-contradictory nature of the thing itself, not to any actual passive potentiality",
+        "Created things are impossible by definition",
+        "Only movement-based makings are truly possible; creation is logically incoherent"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes real passive potentiality in matter (required for ordinary change) from a merely logical 'possibility' grounded in the agent's power and the absence of contradiction in the thing's concept, which suffices for creation without requiring prior matter."
+    }
+  ],
+  "SCG_B2_Ch29": [
+    {
+      "q": "What is the overall stance Aquinas takes toward arguments claiming to PROVE (by reason alone) that the world is NOT eternal?",
+      "options": [
+        "He fully endorses them as certain demonstrations equal to proofs of God's existence",
+        "He treats them as merely probable, not strictly demonstrative, cautioning that the Catholic faith should not appear to rest on such weak reasonings but rather on the authority of divine revelation",
+        "He rejects them completely as worthless and illogical",
+        "He claims they are identical to the arguments proving the world IS eternal"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explicitly says these arguments 'do not conclude of absolute necessity, although they are not devoid of probability,' and that Catholic faith about the world's beginning rests on revelation, not on these philosophical proofs."
+    },
+    {
+      "q": "How does Aquinas answer the objection that an eternal world entails actually passing through an infinite number of past days, which is impossible?",
+      "options": [
+        "He agrees this is impossible and thus proves the world had a beginning definitively",
+        "He notes that though an actual infinite is impossible, a successive infinite (where any given point is finite, but the whole never completes) is not obviously impossible in the same way, since each individual day, though part of an endless series, is itself finite and 'passable'",
+        "He says this objection has nothing to do with the question of eternity",
+        "He claims infinity is only a concept and cannot apply to time at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas points out that philosophers distinguished an actually completed infinite (impossible) from a successively infinite series without a first term, in which each member, though finite, could be 'passed through' without contradiction Ã¢â‚¬â€ showing the argument is not strictly conclusive."
+    },
+    {
+      "q": "What does Aquinas offer as a more persuasive, though not strictly demonstrative, reason for believing creatures had a beginning?",
+      "options": [
+        "The argument from the number of grains of sand on a beach",
+        "The end of the divine will is God's goodness manifested in His effects, and this goodness and power are especially shown by the fact that creatures have not always existed, revealing that they depend entirely on Him and that He acts freely, not by natural necessity",
+        "The argument that eternal creatures would be too heavy for the earth to support",
+        "The claim that ancient historians recorded a specific creation date"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas suggests (echoing ch. 35) that a temporally-begun universe better manifests God's freedom, power, and the creature's total dependence on Him than an eternally co-existing universe would, even though this is a fittingness argument rather than a strict proof."
+    }
+  ],
+  "SCG_B2_Ch30": [
+    {
+      "q": "What is the central thesis of this chapter?",
+      "options": [
+        "That the distinction and order among created things results from mere chance collision of atoms",
+        "That the distinction of things is not the result of chance, but of God's intentional will and wisdom, since the universe has an intelligent, voluntary author whose power cannot fail of its intention",
+        "That there is no real distinction among created things at all",
+        "That chance and God's will are the same thing"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since the universe's author, God, is an intellectual, voluntary agent whose infinite power cannot fail of its intention, the differentiated forms and order of the universe reflect His deliberate design, not chance."
+    },
+    {
+      "q": "Why does Aquinas say the specific distinction among things (distinction by species/form) cannot result from chance?",
+      "options": [
+        "Because chance operates only on things where the underlying possibility of being otherwise lies in matter, not form; but distinction of species comes from form, which determines the possibility to one, so specific distinction cannot be by chance (though chance might affect individual variation within a species, which comes from matter)",
+        "Because all distinctions, including individual variation, are entirely from chance",
+        "Because forms do not really exist",
+        "Because species distinctions are purely a human linguistic convention"
+      ],
+      "correct": 0,
+      "explanation": "Since chance requires a real possibility of being otherwise, rooted in matter, and specific distinction is rooted in form (which fixes matter to one determinate kind), the distinction of species cannot be attributed to chance."
+    },
+    {
+      "q": "What philosophical position(s) does Aquinas explicitly refute at the end of this chapter?",
+      "options": [
+        "Only the position of Plato regarding the World Soul",
+        "The views of ancient natural philosophers who posited only a material cause (explaining diversity by mere expansion/cohesion), and of Democritus and Leucippus, who attributed the world's diversity to the chance convergence of atoms differing in shape, order, and position",
+        "The teachings of Aristotle regarding the four causes",
+        "The view that God exists"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas closes by rejecting the ancient materialists and atomists (Democritus, Leucippus) who explained the world's differentiation through blind chance combinations of matter rather than an intelligent ordering cause."
+    }
+  ]
+}
+
+

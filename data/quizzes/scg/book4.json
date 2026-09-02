@@ -1,0 +1,772 @@
+{
+  "SCG_B4_Ch1": [
+    {
+      "q": "According to the Foreword, why does Aquinas turn to truths 'above reason' in Book Four after treating truths accessible to natural reason in the first three books?",
+      "options": [
+        "Because natural reason is entirely unreliable and must be discarded",
+        "Because man's perfect good consists in knowing God, and since unaided reason yields only a meagre knowledge, God has revealed further truths that surpass the human intellect",
+        "Because philosophers of his day demanded it",
+        "Because the Incarnation can be fully demonstrated by reason alone"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that since the human intellect by nature can attain only a partial knowledge of God through creatures, God in His goodness revealed further truths surpassing reason so that man's knowledge of Him might have greater stability."
+    },
+    {
+      "q": "Aquinas identifies a threefold knowledge of divine things in the Foreword. What are they?",
+      "options": [
+        "Sense knowledge, imagination, and memory",
+        "Knowledge by natural reason through creatures, knowledge by revelation received in faith through hearing, and the perfect intuitive vision of God",
+        "Knowledge of the Father, the Son, and the Holy Ghost as three separate objects of study",
+        "Historical knowledge, moral knowledge, and mystical knowledge"
+      ],
+      "correct": 1,
+      "explanation": "He distinguishes the ascent of reason through creatures, the hearing of revealed truth by faith, and the future beatific vision in which the truth is seen directly, tying each to a phrase from Job xxvi. 14."
+    },
+    {
+      "q": "How does Aquinas organize the remaining subject matter of Book Four according to the Foreword?",
+      "options": [
+        "By listing errors first, then virtues, then sacraments, in no particular order",
+        "First the Trinity, second the Incarnation and what follows from it, third the resurrection and final glory of the body and soul",
+        "Only the sacraments, since the Trinity and Incarnation belong to Book Three",
+        "Randomly, following the order of scriptural books quoted"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas states he will treat first of the Trinity, then of the Incarnation and its sequels, and thirdly of the resurrection, bodily glory, and the soul's last end."
+    }
+  ],
+  "SCG_B4_Ch2": [
+    {
+      "q": "What is Aquinas's main scriptural argument in Chapter 2 for holding that generation, paternity, and filiation exist in God?",
+      "options": [
+        "Philosophical speculation alone requires it",
+        "Holy Writ repeatedly and explicitly calls Jesus Christ the 'Son of God' and calls God 'Father,' and passages like Psalm ii and Proverbs viii speak of God begetting",
+        "The terms are borrowed from pagan mythology and adapted",
+        "Church councils invented the terminology centuries after Christ"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grounds the doctrine in numerous New and Old Testament texts (e.g., Matthew xi. 17, Psalm ii. 7, Proverbs viii. 24-25) that name Christ Son and speak of divine begetting."
+    },
+    {
+      "q": "How does Aquinas answer the objection that Psalm ii ('The Lord hath said to me: Thou art my son') refers merely to David?",
+      "options": [
+        "He concedes the objection entirely",
+        "He shows the psalm's full context (universal inheritance 'to the utmost parts of the earth') cannot literally apply to David's kingdom, so it points beyond David to Christ",
+        "He says the Psalms are not authoritative for this question",
+        "He argues David was himself divine"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes that details like inheriting 'the utmost parts of the earth' do not fit David's actual kingdom, so Scripture's custom is to use David and Solomon as figures fulfilled in another, namely Christ."
+    },
+    {
+      "q": "Why does Aquinas argue that God's 'generation' of the Son must mean more than a merely figurative expression for creation?",
+      "options": [
+        "Because Isaiah lxvi. 9 argues that if God gives generation to others (causing offspring), He himself, as cause, should not be barren of true generation, since a cause should be more excellent than what it causes",
+        "Because Scripture never uses generation language about creation",
+        "Because generation and creation are simply synonyms in Hebrew",
+        "Because the Church Fathers voted on this meaning"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas cites Isaiah's argument that it would be unfitting for God, who causes others to beget in reality, to Himself beget only in a figurative and lesser sense, since the cause should exceed the effect in excellence."
+    }
+  ],
+  "SCG_B4_Ch3": [
+    {
+      "q": "In Chapter 3, how does Aquinas show that Scripture's use of 'father,' 'son,' and 'generation' for God means more than the general causal sense in which God is called 'father' of rain or dew (Job xxxviii)?",
+      "options": [
+        "He shows Scripture explicitly and directly calls the Son 'God,' as in John i. 1 ('the Word was God') and Psalm xliv, which goes beyond mere causal language",
+        "He argues Job's language about rain is simply an error in the text",
+        "He claims the term 'father' is never applied to creation in Scripture",
+        "He appeals only to later Church tradition, not Scripture"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas notes Scripture sometimes uses generation-language loosely for creation (rain, dew), but distinguishes the Son's case because Scripture also declares him to be God Himself, as in John's prologue and the Old Testament texts he cites."
+    },
+    {
+      "q": "Which New Testament confession does Aquinas cite as key evidence that the Son is truly God and not merely called 'son' in a diminished sense?",
+      "options": [
+        "Peter's confession, 'Thou art the Christ, the Son of the living God' (Matthew xvi. 16)",
+        "Judas's betrayal in the garden",
+        "The doubt of Thomas at the resurrection",
+        "Pilate's question 'What is truth?'"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas points to Peter's confession as scriptural testimony that Christ is not merely the only-begotten but is also true God, reinforcing the identity of the Son with the Godhead."
+    },
+    {
+      "q": "What is the logical function of Chapter 3 within Aquinas's overall argument about the Trinity?",
+      "options": [
+        "It refutes the Arian heresy directly",
+        "It establishes, prior to addressing specific heresies, that the one Scripture calls 'Son' and 'begotten' is also truly called God, setting up the terms the later chapters on Photinus, Sabellius, and Arius will contest",
+        "It proves the existence of God from natural reason",
+        "It discusses the sacraments of the New Law"
+      ],
+      "correct": 1,
+      "explanation": "Chapter 3 lays the scriptural foundation—that the Son who is begotten is also true God—which the subsequent chapters on various heretical positions will need to reconcile or deny."
+    }
+  ],
+  "SCG_B4_Ch4": [
+    {
+      "q": "According to Chapter 4, what did Photinus hold about Jesus Christ?",
+      "options": [
+        "That Christ was a mere man born of the Virgin Mary who, through the merit of his holy life, was granted the honor of being called 'Son of God' by adoption and grace, not by nature",
+        "That Christ was the Father himself appearing in flesh",
+        "That Christ was a created angelic being superior to all other creatures",
+        "That Christ had no human soul at all"
+      ],
+      "correct": 0,
+      "explanation": "Photinus's position, as Aquinas presents it, was that Christ was purely human and was called 'Son of God' and even 'God' only by a moral or adoptive likeness to God, as other saints are, not by nature."
+    },
+    {
+      "q": "What scriptural texts did Photinus's followers use to support calling Christ 'Son of God' merely by adoption?",
+      "options": [
+        "Texts about the sacraments of the New Law",
+        "Texts such as John i. 12 and 1 John iii. 1, which speak of believers receiving 'power to be made the sons of God' by grace",
+        "The genealogies in Matthew and Luke",
+        "The parables of the Kingdom"
+      ],
+      "correct": 1,
+      "explanation": "Photinus's party appealed to passages describing believers generally as adopted sons of God by grace, arguing Christ's sonship was of the same kind, only more excellent."
+    },
+    {
+      "q": "What text does Photinus's position cite regarding Christ receiving power, and how is it used to argue against Christ's eternal Godhead?",
+      "options": [
+        "'All power is given to me in heaven and on earth' (Matthew xxviii. 18), taken to imply that if Christ received power in time, he could not have been God from eternity",
+        "'Let there be light,' taken to prove Christ was uncreated",
+        "'I and the Father are one,' taken to prove Christ was co-eternal",
+        "'Before Abraham was, I am,' taken to prove Christ predated creation"
+      ],
+      "correct": 0,
+      "explanation": "The Photinian argument reasons that receiving power 'in time' as stated in Matthew xxviii. 18 would be nonsensical if Christ had already possessed all power eternally as God."
+    }
+  ],
+  "SCG_B4_Ch5": [
+    {
+      "q": "What distinctive claim made Sabellius's followers 'Patripassionists'?",
+      "options": [
+        "They denied Christ had a body",
+        "They held that God the Father Himself is the one who became incarnate, suffered, and died—so that the names 'Father' and 'Son' denote the same one person under different states, not distinct persons",
+        "They believed the Father and Son were two separate gods",
+        "They taught the Son existed before the Father"
+      ],
+      "correct": 1,
+      "explanation": "Sabellians (Patripassionists) held Christ and the Father are the same single person, so that whatever Christ suffered in the flesh was, in effect, suffered by the Father—hence 'Father-suffering.'"
+    },
+    {
+      "q": "Which of Aquinas's arguments refutes Sabellius by appeal to the impossibility of self-generation?",
+      "options": [
+        "Since a son is begotten by his father, and the begetter gives being to the begotten, it is impossible for the giver of being to be identical with the receiver of being—so the Father cannot be His own Son",
+        "Because Scripture never mentions the Son",
+        "Because Mary could not have been the mother of God",
+        "Because generation requires two separate substances of different natures"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues that if the Father truly begets the Son, the one who gives being (Father) cannot be identical to the one who receives being (Son), which rules out Sabellius's identification of Father and Son as one person."
+    },
+    {
+      "q": "How does Aquinas use John i. 1 ('the Word was with God') against Sabellius's claim that the Son and Father were undistinguished before the Incarnation?",
+      "options": [
+        "He argues 'with' implies real distinction of persons even before the Incarnation, since we only speak of one person being 'with' another when they are distinct, refuting the claim that distinction began only at Mary's conception",
+        "He argues the verse is a later scribal insertion",
+        "He claims 'the Word' refers only to spoken human language",
+        "He says the verse actually supports Sabellius's view"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas notes that speaking of the Word as 'with' God implies a real personal distinction already existing in eternity, contradicting the Sabellian claim that the Son was only distinguished from the Father starting at the Incarnation."
+    }
+  ],
+  "SCG_B4_Ch6": [
+    {
+      "q": "Chapter 6 continues the refutation of Photinus. What key text does Aquinas use to show the Son existed before Mary, not merely 'in predestination'?",
+      "options": [
+        "Proverbs viii. 24-30, where Wisdom says she was already conceived and 'forming all things' with God when he balanced the foundations of the earth — an activity impossible for something merely predestined",
+        "Genesis i. 1, 'In the beginning God created heaven and earth'",
+        "The genealogy of Christ in Matthew 1",
+        "Psalm 23, 'The Lord is my shepherd'"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues that Wisdom's claim to be actively 'forming all things' with God before creation could not be true of something that existed merely as a future predestined event, proving real pre-existence."
+    },
+    {
+      "q": "How does Aquinas use the distinction between Moses and Christ in Hebrews iii. 5-6 to refute the idea that Christ is Son of God only by the grace of adoption, like other saints?",
+      "options": [
+        "He shows the Apostle explicitly distinguishes Christ as 'Son in his own house' from Moses who was merely 'a servant,' proving Christ's sonship is different in kind, not just degree, from adopted sonship",
+        "He argues Moses never received any grace at all",
+        "He claims Moses is also called an 'only-begotten son'",
+        "He says the distinction is purely a matter of moral virtue"
+      ],
+      "correct": 0,
+      "explanation": "Since Moses, richly graced, is called a faithful servant while Christ is called Son in His own house, sonship by adoption/grace cannot explain Christ's unique title of Son, even though Moses too received abundant grace."
+    },
+    {
+      "q": "What is Aquinas's final resolution regarding the biblical texts that seem to show 'defects' in Christ (hunger, fatigue, growth, fear, ignorance of the day of judgment)?",
+      "options": [
+        "These texts are later scribal corruptions and should be disregarded",
+        "Since Christ has two natures after the Incarnation, human and divine, whatever savors of imperfection is said of Him by reason of His human nature, while what is proper to God is said of Him by reason of His divine nature",
+        "They prove Christ was never truly divine",
+        "They show that Christ's divinity diminished over the course of his life"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas resolves the apparent tension by distinguishing the two natures united in Christ: weaknesses belong to the assumed human nature, while divine attributes belong to His eternal divine nature."
+    }
+  ],
+  "SCG_B4_Ch7": [
+    {
+      "q": "Against Arius, how does Aquinas argue from the title 'Only-Begotten' that Christ cannot merely be the highest of created 'sons of God' (i.e., the angels)?",
+      "options": [
+        "If Christ were called Son merely by the sublimity of a created nature, He could at most be called the 'First-Born' among many similarly-titled creatures (the angels are also called sons of God), not the 'Only-Begotten' as Scripture actually calls Him",
+        "Because angels are never called sons of God in Scripture",
+        "Because 'Only-Begotten' is a title only ever used for the Father",
+        "Because Arius never quoted the term 'Only-Begotten'"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas notes Scripture calls angels 'sons of God,' so if Christ's sonship were of the same created kind, He would only be first among many, not truly 'Only-Begotten,' the title Scripture actually assigns him."
+    },
+    {
+      "q": "What argument from action does Aquinas draw from John v. 19 ('What things soever he doth, these the Son also doth in like manner') to refute the Arian claim that the Son merely acts as God's instrument?",
+      "options": [
+        "Since action follows nature, and the Son performs the very same divine actions (creating, sustaining, forgiving sins) in the same manner as the Father rather than as a subordinate instrument, the Son must share the Father's nature and power, not merely serve as His tool",
+        "The verse actually supports the Arian view that the Son is only an instrument",
+        "This verse is not really about the Son's actions at all",
+        "Aquinas dismisses this verse as unreliable"
+      ],
+      "correct": 0,
+      "explanation": "Because the Son works 'in like manner,' not merely as a subordinate instrument, and proper action follows from nature, Aquinas concludes the Father and Son share the same nature and power."
+    },
+    {
+      "q": "How does Aquinas summarize the three-way contrast between Photinus, Sabellius, and Arius at the end of Chapter 7?",
+      "options": [
+        "All three heresies are actually identical in substance",
+        "The Catholic faith takes a 'middle way': with Arius and Photinus it holds Father and Son are distinct Persons (against Sabellius), and with Sabellius it holds Christ is true God of the same nature as the Father (against Arius and Photinus)",
+        "Photinus and Arius were correct about everything except minor details",
+        "Sabellius alone was entirely correct"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas shows the Catholic faith agrees partly with each heresy against the others: distinct persons (against Sabellius) yet one true divine nature shared by Father and Son (against Arius and Photinus)."
+    }
+  ],
+  "SCG_B4_Ch8": [
+    {
+      "q": "How does Aquinas resolve the apparent conflict between calling both Father and Son 'true God' and the strict monotheism of John xvii. 3 ('that they may know thee, the only true God')?",
+      "options": [
+        "He says the Son is a lesser, secondary god",
+        "Since Father and Son share one identical divine essence, calling the Father 'the only true God' does not exclude the Son, because the Son possesses that same one true Godhead by nature; it distinguishes true God from false gods, not Father from Son",
+        "He argues the verse is inauthentic and should be removed",
+        "He claims 'God' is used only metaphorically of the Father"
+      ],
+      "correct": 1,
+      "explanation": "Because Father and Son are one in essence, ascribing the 'only true Godhead' to the Father does not exclude the Son, since whatever belongs to the Father's Godhead belongs equally to the Son who shares that same nature."
+    },
+    {
+      "q": "According to Aquinas, in what sense is 'the Father is greater than I' (John xiv. 28) true, without denying the Son's equality with the Father?",
+      "options": [
+        "It is simply false and should be disregarded",
+        "It refers to the Son's abasement in His assumed human nature ('the form of a servant'), not to His divine nature, in which He is equal to the Father as 'in the form of God'",
+        "It proves the Son is a creature",
+        "It means the Father is greater in a purely honorary sense with no real basis"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas applies Philippians ii. 6-7 to show the comparison of 'greater' concerns Christ's assumed human, abased nature, while in His divine nature ('form of God') He remains fully equal to the Father."
+    },
+    {
+      "q": "How does Aquinas explain Christ's statement that He does not know 'the day or the hour' (Mark xiii. 32) despite having 'all the treasures of wisdom' (Colossians ii. 3)?",
+      "options": [
+        "Christ actually did not know it in any sense, proving He lacked full divinity",
+        "Scripture speaks of God 'knowing' something when He makes it known to others; thus Christ, living among men as man, did not reveal the day, and so is said not to 'know' it in that sense, without denying His perfect divine knowledge",
+        "This is a later addition to the Gospel text",
+        "It refers only to angels, not to Christ himself"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes Scripture often describes God as 'knowing' something precisely when He causes others to know it (as in Genesis xxii. 12); since Christ as man did not reveal the day, he is said not to 'know' it, without contradicting His divine omniscience."
+    }
+  ],
+  "SCG_B4_Ch9": [
+    {
+      "q": "How does Aquinas reinterpret 'All power is given to me in heaven and on earth' (Matthew xxviii. 18), cited by Photinus to prove Christ received divinity only in time?",
+      "options": [
+        "He argues the eternal power the Son had from eternity began to be manifested in Him as man after His resurrection and victory over death — it was not newly received but newly revealed",
+        "He says the phrase is a mistranslation and Christ never said it",
+        "He agrees fully with Photinus's reading",
+        "He claims this refers only to earthly political power"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that Scripture is speaking of manifestation in time of power that the Son eternally possessed as God, not of an origin of that power at the resurrection."
+    },
+    {
+      "q": "How does Aquinas use John xiv. 10 ('I am in the Father, and the Father in me') to refute both Sabellius and Arius simultaneously?",
+      "options": [
+        "He shows it proves nothing about either heresy",
+        "He argues that 'being in' one another proves unity of essence, not unity of person (against Sabellius, who denied real distinction) while also proving they share the same essence (against Arius, who denied the Son's true divinity)",
+        "He claims this text refers only to physical location",
+        "He says it only refutes Sabellius, not Arius"
+      ],
+      "correct": 1,
+      "explanation": "Since a single supposit is not properly said to be 'in' itself, the mutual indwelling of Father and Son proves they are distinct persons (contra Sabellius) sharing one essence (contra Arius)."
+    },
+    {
+      "q": "According to Chapter 9, how should Romans i. 3-4 ('made of the seed of David... predestinated the Son of God') be understood?",
+      "options": [
+        "As proof the Son began to exist only at his human conception",
+        "As referring to the Son's human nature: it was by God's predestining grace, not by human merit, that the human nature assumed by the Son of God came to be called Son of God, while His eternal Sonship as God is unaffected",
+        "As evidence that David is the true father of the eternal Son",
+        "As a purely poetic expression with no doctrinal content"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reads 'made' and 'predestinated' as applying to the human nature assumed in time, not to the eternal generation of the Word, resolving the apparent tension with Christ's eternal Sonship."
+    }
+  ],
+  "SCG_B4_Ch10": [
+    {
+      "q": "What is the main philosophical difficulty Chapter 10 raises against the doctrine of divine generation?",
+      "options": [
+        "That Scripture never actually mentions generation in God",
+        "Human reason, drawn from the properties of creatures (where generation implies change, matter, and division of nature into distinct individuals), struggles to see how two distinct persons could share one numerically identical, unchangeable essence",
+        "That the Trinity was invented at the Council of Nicaea",
+        "That Aristotle explicitly denied the possibility of divine generation"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas presents the natural difficulty reason has with divine generation: created generation involves change, division of nature among many individuals, or transmission of matter, none of which seem to fit an unchangeable, indivisible God."
+    },
+    {
+      "q": "One objection in Chapter 10 asks: if Father and Son share one essence but are distinct persons, what distinguishes them, and does this compromise their divine simplicity?",
+      "options": [
+        "The objection assumes some principle of distinction beyond the shared essence must exist, which would seem to introduce composition into Persons who should be simple, since divine simplicity means there is nothing in God besides His essence",
+        "This objection is not raised in the chapter at all",
+        "The chapter simply asserts the answer without raising the difficulty",
+        "The objection concerns only the color and shape of divine persons"
+      ],
+      "correct": 0,
+      "explanation": "The chapter raises the puzzle that if the shared essence cannot itself be the principle of distinction, some further reality would seem needed, apparently compromising the simplicity that requires nothing in God beyond His essence."
+    },
+    {
+      "q": "What is the overall rhetorical purpose of Chapter 10 within Aquinas's argument?",
+      "options": [
+        "To definitively prove the Trinity is false",
+        "To honestly lay out the strongest rational objections against the divine generation and Trinity so that Chapter 11 can then answer them systematically",
+        "To conclude the discussion of the Trinity with no further chapters needed",
+        "To argue that faith and reason are always in direct contradiction"
+      ],
+      "correct": 1,
+      "explanation": "Following his method of stating an error's arguments fully before refuting them, Aquinas devotes Chapter 10 to laying out reason's objections to divine generation, which he then resolves in Chapter 11."
+    }
+  ],
+  "SCG_B4_Ch11": [
+    {
+      "q": "What is the key analogy Aquinas develops in Chapter 11 to explain how generation can occur in God without matter, change, or division?",
+      "options": [
+        "The analogy of two candles lighting a third",
+        "The analogy of intellectual emanation: just as a mind conceives an inner 'word' (concept) of what it understands, so God, in understanding Himself perfectly and eternally, eternally conceives His Word, which — because God's understanding is His very being — is truly God, distinct only as it proceeds from the Father",
+        "The analogy of a river flowing from a spring",
+        "The analogy of a seed growing into a tree"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grounds divine generation in the intellectual procession of a 'word' from an act of self-understanding; because in God understanding and being are identical, this Word is really God, not just a mental concept as in human thought."
+    },
+    {
+      "q": "Why is the divine Word, unlike the 'word' or concept in a human mind, truly and substantially God, according to Aquinas?",
+      "options": [
+        "Because human words are written down while divine words are not",
+        "Because in us the intellect's being is distinct from its act of understanding (so our inner 'word' has only a diminished, conceptual kind of being), whereas in God, understanding and being are identical, so God's self-understood 'Word' has the full, real being of God Himself",
+        "Because human words are shorter than divine words",
+        "Because God speaks Hebrew and humans do not"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas contrasts human concepts, which have merely 'intelligible' being distinct from the mind's real being, with the divine Word, whose being simply is God's being, since in God intellect and existence are one."
+    },
+    {
+      "q": "How does Aquinas explain that, in the analogy of intellectual generation, God's begetting requires no 'mother' or passive principle?",
+      "options": [
+        "Because in animal generation the father contributes actively (giving nature/species) and the mother passively/receptively (conception and gestation); but God's self-understanding proceeds entirely from an active intellectual power (not a passive one), so all the language of conceiving and begetting is properly ascribed to the Father alone",
+        "Because God has no need of any generation at all",
+        "Because Mary functions as the mother of the eternal Word",
+        "Because Scripture nowhere uses maternal language for God"
+      ],
+      "correct": 0,
+      "explanation": "Since the divine intellect's self-understanding is a wholly active operation, without any passive/receptive element as in animal generation, all the generative act belongs to the Father alone, with no place for a maternal principle."
+    }
+  ],
+  "SCG_B4_Ch12": [
+    {
+      "q": "Why does Aquinas say the Son of God is fittingly called 'Wisdom' as well as 'Word'?",
+      "options": [
+        "Because 'Wisdom' and 'Word' are unrelated titles used arbitrarily",
+        "Because, just as a wise mental conception is called 'wisdom' by a figure of speech naming the act after the habit that produces it, God's Word is the wise conception of the divine mind, and since God knows Himself by His very essence rather than a habit, this conceived Wisdom is the divine essence itself",
+        "Because Wisdom refers only to the Holy Ghost, not the Son",
+        "Because Wisdom is a title reserved for the Father alone"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that just as a human's wise thought can be called 'wisdom' by naming the act from its source, the Son as the Word conceived by God's self-knowledge is rightly called 'begotten Wisdom,' as the Apostle does in 1 Corinthians i. 24."
+    },
+    {
+      "q": "Does Aquinas hold that the name 'Wisdom' belongs exclusively to the Son, or is it also common to the Father?",
+      "options": [
+        "It belongs to the Son alone, never to the Father",
+        "Taken absolutely, 'Wisdom' is common to both Father and Son, since the divine essence which the Word manifests is the Father's essence too, though 'begotten Wisdom' specifically designates the Son as the one who proceeds",
+        "It belongs exclusively to the Holy Ghost",
+        "It cannot be applied to any divine Person"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas clarifies that while 'begotten Wisdom' specifically names the Son, 'Wisdom' taken without qualification is common to Father and Son since the essence manifested through the Word is shared by both."
+    },
+    {
+      "q": "What scriptural image does Aquinas use to describe the relationship between divine Wisdom (essence) and the Word as its expression?",
+      "options": [
+        "A seed sprouting into a tree",
+        "Light and its splendour or brightness (Hebrews i. 3, 'the brightness of his glory'), since manifestation is what light naturally produces as its radiance",
+        "A river dividing into two streams",
+        "A mirror reflecting an image with no real substance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws on Hebrews i. 3, comparing the Word's relation to divine Wisdom to that of a splendour or brightness proceeding from and manifesting light."
+    }
+  ],
+  "SCG_B4_Ch13": [
+    {
+      "q": "Chapter 13 raises a potential infinite regress: if God understands Himself and this begets a Word, and the Word is also God who understands Himself, would this not require an endless chain of 'words of words' and 'sons of sons'?",
+      "options": [
+        "Yes, and Aquinas concedes this is a real problem with the doctrine",
+        "No — Aquinas resolves it by showing the Word is not 'another God' with a separate act of understanding; the Word shares the very same single act of self-understanding as the Father, so no additional word is generated by the Word understanding Himself",
+        "Yes, and this is why Aquinas ultimately rejects the doctrine of the Word",
+        "The objection is dismissed as irrelevant to Trinitarian doctrine"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that because the Word is not a separate God with His own distinct intellect or act of understanding, but the same divine act shared with the Father, there is no basis for an infinite series of further generations."
+    },
+    {
+      "q": "How does Aquinas explain why the Father can beget a Son but the Son cannot also beget a son, without implying any lack of power in the Son?",
+      "options": [
+        "The Son is simply weaker than the Father in this respect",
+        "Father and Son share the very same generative power, which is identical with the single divine act of self-understanding; that power belongs to the Father as the one who begets and to the Son as the one begotten — the difference is purely relative, not a difference in power",
+        "The Son voluntarily refuses to use his power to beget",
+        "Only Father and Holy Ghost can beget; the Son is categorically excluded from any generative capacity"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas insists Father and Son have identical power since they share the single divine act of understanding; the Father has the power of begetting for the purpose of begetting, and the Son has the identical power for the purpose of being begotten — a merely relative distinction, not an inequality of power."
+    },
+    {
+      "q": "How does Aquinas explain the Apostle's phrase 'upholding all things by the word of his power' (Hebrews i. 3) without introducing a second 'word' distinct from the Son?",
+      "options": [
+        "He argues this is a scribal error to be removed from the text",
+        "He explains that just as an effect can bear the name of its cause, the created effects that manifest the divine concept in the world can themselves be called a further 'word' — the 'word of the Word' — without implying another divine Person",
+        "He claims the phrase refers to human speech, not divine action",
+        "He says the phrase actually refers to the Holy Ghost, not the Son"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that just as our outward spoken word manifests an inward mental word, the visible effects of God's power in creation can be called 'the Word's word' — a manifestation, not a second generation."
+    }
+  ],
+  "SCG_B4_Ch14": [
+    {
+      "q": "How does Aquinas resolve the objection that generation implies change and a passage from potentiality to act, which seems incompatible with an eternal, unchangeable God?",
+      "options": [
+        "He denies that Christ is truly begotten at all",
+        "He argues that intelligible begetting (as in the conception of a mental word) does not involve the passage from potentiality to act in the way material generation does; since God's intellect is always fully in act, His Word is begotten without any change, coeternal with Him, as one act (light) gives rise to another (brightness)",
+        "He claims the objection is unanswerable and abandons the doctrine",
+        "He argues that time itself does not exist for God, so the question is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Because the divine intellect is never in potentiality but always fully in act, the Word's generation involves no change or temporal process, unlike material generation, and so is eternally coexistent with the Father."
+    },
+    {
+      "q": "How does Aquinas explain that Father and Son can be distinct persons while sharing a single, undivided divine essence, without introducing composition into God?",
+      "options": [
+        "By denying that the Father and Son are truly distinct",
+        "By showing that in creatures relations (like paternity) are accidents added to a substance, but in God, whose simple essence contains all perfections without composition, subsistent relations like paternity and sonship are themselves identical with the one divine essence — distinguishing the persons without dividing the essence",
+        "By claiming that 'person' and 'essence' are simply synonyms with no real distinction of meaning",
+        "By arguing that only the Son, not the Father, possesses the divine essence"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that unlike in creatures, where relations are accidents, in God the relations of paternity and sonship are themselves the one divine essence differently regarded, so distinction of persons is compatible with unity and simplicity of essence."
+    },
+    {
+      "q": "According to Chapter 14, why are the relations in God (such as paternity and filiation) real rather than merely conceptual or 'logical'?",
+      "options": [
+        "Because Scripture uses the words 'Father' and 'Son' at all, regardless of any real basis",
+        "Because a relation grounded in a thing's own operation or action (like the relation of a knower to what is known) is real in that subject; since the Word's procession is grounded in God's own act of understanding Himself, the relation between Father and Son is truly real in God, not just a way we happen to think about God",
+        "Because relations in creatures are never real, providing a useful contrast with God",
+        "Because early Church councils simply legislated that these relations must be called 'real'"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that because the procession of the Word arises from God's own act of self-understanding rather than from any change in an external object, the resulting relation is genuinely real in God, not merely a logical construct of our minds."
+    }
+  ],
+  "SCG_B4_Ch15": [
+    {
+      "q": "What is the primary type of evidence Aquinas offers in Chapter 15 for the claim that the Holy Ghost is a distinct reality 'in God' alongside the Father and Son?",
+      "options": [
+        "Purely philosophical arguments with no appeal to Scripture",
+        "Scriptural testimony: Christ's baptismal formula in Matthew xxviii. 19 ('in the name of the Father, and of the Son, and of the Holy Ghost') and 1 John v. 7, which lists three who 'give testimony in heaven'",
+        "Testimony from pagan philosophers about a threefold divine principle",
+        "Aquinas's own private mystical experience"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas opens the treatment of the Holy Ghost, as he did with the Son, by grounding the doctrine in explicit scriptural texts naming the Holy Ghost alongside Father and Son."
+    },
+    {
+      "q": "According to the scriptural text Aquinas cites (John xv. 26), what distinguishes the Holy Ghost's relation to the Father in terms of origin?",
+      "options": [
+        "The Holy Ghost is said to be created by the Father out of nothing, like the angels",
+        "The Holy Ghost is described as 'proceeding' from the Father, a term of origin distinct from 'begetting,' which Aquinas will later have to clarify as a different mode of procession than the Son's generation",
+        "The Holy Ghost has no origin at all and simply always existed independently",
+        "The Holy Ghost proceeds from creatures back to God"
+      ],
+      "correct": 1,
+      "explanation": "John xv. 26 speaks of the Spirit as 'the Spirit of truth, who proceedeth from the Father,' introducing the language of 'procession' that Aquinas must distinguish from the Son's 'generation' in later chapters."
+    },
+    {
+      "q": "What is the structural significance of Chapter 15 in Book Four's overall treatment of the Trinity?",
+      "options": [
+        "It concludes the entire treatise on the Trinity with no further discussion needed",
+        "Having completed the treatment of the Son's generation (Chapters 2-14), Aquinas now begins a new stage of the argument devoted specifically to establishing and explaining the Holy Ghost as a third divine reality",
+        "It is an isolated aside unrelated to the rest of the book",
+        "It primarily addresses the Incarnation, not the Trinity"
+      ],
+      "correct": 1,
+      "explanation": "Chapter 15 marks the transition from the extended discussion of the Son's eternal generation to a new section addressing the Holy Ghost, continuing the Trinitarian argument of Book Four."
+    }
+  ],
+  "SCG_B4_Ch16": [
+    {
+      "q": "Which heretical position does Chapter 16 present regarding the Holy Ghost?",
+      "options": [
+        "That the Holy Ghost is identical with the Father",
+        "That the Holy Ghost, like the Son according to Arius, is a creature — higher than other creatures but subordinate and subject to the Son, a view held by Arius and continued by Macedonius",
+        "That the Holy Ghost did not exist before Pentecost",
+        "That the Holy Ghost is a mere symbol with no real referent"
+      ],
+      "correct": 1,
+      "explanation": "Chapter 16 presents the Arian/Macedonian position that the Holy Ghost is a creature subordinate to the Son, citing texts about the Spirit being 'sent,' 'formed,' 'grieved,' and 'given' as apparent evidence of creaturely status."
+    },
+    {
+      "q": "What scriptural detail do the Macedonians (Semi-Arians) cite to argue the Holy Ghost is not equal to the Father and Son in the way texts pair Father and Son?",
+      "options": [
+        "That texts like Matthew xi. 27 and John xvii. 3 pair the Father and Son together in statements about divine knowledge and being sent, without mentioning the Holy Ghost, suggesting He is not included in the same rank of Godhead",
+        "That the Holy Ghost is never mentioned anywhere in the New Testament",
+        "That the Holy Ghost is explicitly called 'a lesser god' in Scripture",
+        "That the Council of Nicaea explicitly excluded the Holy Ghost from the Godhead"
+      ],
+      "correct": 0,
+      "explanation": "The objection notes that several key texts pairing Father and Son in statements of unique divine knowledge or being make no parallel mention of the Holy Ghost, seemingly implying His exclusion from full Godhead."
+    },
+    {
+      "q": "Why does Macedonius's position get called 'Semi-Arian' according to Chapter 16?",
+      "options": [
+        "Because Macedonius accepted only half the books of Scripture",
+        "Because he agreed with orthodox teaching that Father and Son are of one substance, but disagreed by holding, like Arius, that the Holy Ghost is a creature",
+        "Because he lived exactly halfway through the Arian controversy",
+        "Because he was only partially baptized"
+      ],
+      "correct": 1,
+      "explanation": "Macedonius accepted the co-equality of Father and Son (against Arius) but retained the Arian view that the Holy Ghost is a creature, hence the label 'Semi-Arian.'"
+    }
+  ],
+  "SCG_B4_Ch17": [
+    {
+      "q": "What is one of Aquinas's key arguments in Chapter 17 that the Holy Ghost is true God, based on the concept of a 'temple'?",
+      "options": [
+        "Since temples are dedicated to God alone, and Scripture calls believers' bodies 'temples of the Holy Ghost' (1 Corinthians vi. 19), the Holy Ghost must be God",
+        "Because pagan temples were sometimes dedicated to spirits",
+        "Because the Jerusalem Temple was built during Solomon's reign",
+        "Because temple architecture symbolizes the Trinity generally"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that since consecration of temples is proper to God alone, and Scripture calls believers' bodies temples of the Holy Ghost, this is strong evidence of the Holy Ghost's divinity."
+    },
+    {
+      "q": "How does Aquinas use 1 Corinthians ii. 10-11 (comparing the Spirit's knowledge of God to a man's spirit knowing his own inner thoughts) to argue for the Holy Ghost's divinity?",
+      "options": [
+        "Since the Spirit 'searcheth the deep things of God' just as a man's own spirit alone knows his inmost thoughts, and no creature can comprehend the depths of God, the Holy Ghost who does comprehend them cannot be a creature but must share the divine nature",
+        "Because the comparison shows the Holy Ghost is merely a psychological faculty of the human soul",
+        "Because the passage proves the Holy Ghost is a separate god apart from the Father",
+        "Because it shows the Holy Ghost has limited knowledge, like human spirits"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues that just as a person's own spirit alone truly knows his inner thoughts, the Holy Ghost's comprehensive knowledge of 'the deep things of God' shows He is not a creature but shares in the divine nature itself."
+    },
+    {
+      "q": "How does Aquinas rebut the objection that the divine works ascribed to the Holy Ghost (sanctifying, raising the dead, revealing mysteries) might be performed only 'ministerially,' as a creature serving God, rather than 'authoritatively,' as God?",
+      "options": [
+        "He concedes the objection is valid and modifies his position",
+        "He cites 1 Corinthians xii. 11, where Paul says the Spirit 'worketh all in all... according as he will,' showing the Holy Ghost acts by His own authoritative will rather than as a subordinate instrument",
+        "He argues that ministers of God are always equal to God, so the objection fails regardless",
+        "He says Scripture never describes the Holy Ghost as acting at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas points to Paul's statement that the Spirit works 'according as he will,' showing the Holy Ghost acts with the same authoritative will proper to God, not merely as a subordinate minister."
+    }
+  ],
+  "SCG_B4_Ch18": [
+    {
+      "q": "What two mistaken views about the Holy Ghost's status does Chapter 18 address and refute?",
+      "options": [
+        "That the Holy Ghost is a planet and that the Holy Ghost is an angel",
+        "That the Holy Ghost is merely the shared Godhead of Father and Son (not a distinct person), and that the Holy Ghost is merely an accidental perfection like wisdom or charity bestowed on souls, not a subsistent being",
+        "That the Holy Ghost existed before the Father and that the Holy Ghost will cease to exist after Judgment",
+        "That the Holy Ghost is identical with the human soul"
+      ],
+      "correct": 1,
+      "explanation": "Chapter 18 addresses views that deny the Holy Ghost's distinct personal subsistence: one collapsing Him into the shared essence of Father and Son, another reducing Him to a created accidental quality like an infused virtue."
+    },
+    {
+      "q": "How does Aquinas argue against the view that the Holy Ghost is merely an accidental perfection (like an infused virtue) of the soul, rather than a subsistent person?",
+      "options": [
+        "Accidental forms have no independent operation of their own — it is the subject (e.g., a wise man) that acts using an accident like wisdom; but Scripture says the Holy Ghost Himself 'works... according as he will' (1 Corinthians xii. 11), which is proper to a subsistent agent, not a mere accident",
+        "Because accidents cannot be named in Scripture at all",
+        "Because virtues like charity are never associated with the Holy Ghost in the Bible",
+        "Because accidental perfections are eternal, while the Holy Ghost is temporal"
+      ],
+      "correct": 0,
+      "explanation": "Since accidents do not act on their own but are used by their subject, while Scripture depicts the Holy Ghost as Himself actively willing and working, Aquinas concludes the Holy Ghost is a subsistent agent, not a mere quality inhering in the soul."
+    },
+    {
+      "q": "What scriptural evidence does Aquinas cite to show the Holy Ghost is personally distinct from the Father and Son, not merely a name for their shared essence?",
+      "options": [
+        "Acts xiii. 2, where 'the Holy Ghost said... Separate me Saul and Barnabas,' along with texts describing the Spirit as 'proceeding' from the Father and 'receiving' from the Son — actions that cannot apply to the divine essence as such, since essence does not proceed or receive",
+        "The fact that 'Holy Ghost' and 'God' never appear together in any single verse",
+        "The absence of the Holy Ghost from the Nicene Creed",
+        "A citation from Aristotle's Metaphysics"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas notes that the Holy Ghost is depicted speaking and acting as an individual agent (Acts xiii. 2) and is said to 'proceed' from the Father and 'receive' from the Son — language inapplicable to the shared divine essence itself, proving personal distinction."
+    }
+  ],
+  "SCG_B4_Ch19": [
+    {
+      "q": "What is the central philosophical move Aquinas makes in Chapter 19 to explain the Holy Ghost's distinct mode of procession from the Son's?",
+      "options": [
+        "He argues the Holy Ghost proceeds by way of the will as love, in contrast to the Son who proceeds by way of the intellect as a conceived Word — since intellect and will are both really identical with the one divine essence, this yields two distinct real processions without dividing the Godhead",
+        "He argues the Holy Ghost proceeds by physical division of the divine substance",
+        "He denies any real distinction between the Son's procession and the Holy Ghost's",
+        "He claims the Holy Ghost proceeds only in a metaphorical, non-real sense"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas grounds the Son's procession in the intellect (as a conceived Word) and the Holy Ghost's procession in the will (as the love by which God loves Himself), giving two really distinct modes of procession within the one simple God."
+    },
+    {
+      "q": "Why, according to Aquinas, is the term 'Spirit' (rather than 'Son') fitting for the one who proceeds by way of love?",
+      "options": [
+        "Because 'love' as an act of will inclines and impels the lover toward the beloved, like a breath (spiritus) that impels from within; since love does not proceed as an intelligible likeness (as generation does), the one proceeding by love is called 'Spirit,' not 'Son'",
+        "Because 'Spirit' is simply an arbitrary label with no connection to the mode of procession",
+        "Because 'Son' was already used up by an earlier heresy",
+        "Because love in God is impersonal and needs no proper name"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that since procession by way of love does not involve a specific likeness (as generation does) but rather an inward impulse, the fitting name is 'Spirit' (breath/impulse), not 'Son.'"
+    },
+    {
+      "q": "Why does the Holy Ghost's procession NOT count as a 'generation' (which would make Him a second Son), according to Aquinas's analysis?",
+      "options": [
+        "Because a begotten thing must proceed as a likeness in the mode of the intellect (a word), whereas the beloved is in the will not by way of a specific likeness but as the term of an inclination; since this differs in kind from intellectual generation, it is not a 'begetting'",
+        "Because the Holy Ghost is not really distinct from the Father at all",
+        "Because only males can be begotten according to Aquinas",
+        "Because love and understanding are actually the very same divine operation with no real distinction"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas distinguishes generation (procession as an intelligible likeness, proper to the intellect) from procession by way of love (an inclination toward the good, proper to the will), so the Spirit's procession, differing from generation, does not make Him a 'Son.'"
+    }
+  ],
+  "SCG_B4_Ch20": [
+    {
+      "q": "According to Chapter 20, why is the work of creation itself appropriated to the Holy Ghost, even though creation is common to the whole Trinity?",
+      "options": [
+        "Because the Holy Ghost alone actually performs creation while Father and Son merely observe",
+        "Because the Holy Ghost proceeds as the love by which God loves His own goodness, and this love is the reason God wills other things to exist and share in that goodness — hence 'appropriating' creation's motive to the Spirit, as in 'Send forth thy Spirit and they shall be created' (Psalm ciii. 30)",
+        "Because Genesis explicitly denies the Father and Son any role in creation",
+        "Because ancient philosophers proved the Holy Ghost alone is eternal"
+      ],
+      "correct": 1,
+      "explanation": "Since the Holy Ghost proceeds as the love by which God loves His own goodness, and love for goodness is the reason God wills creatures to exist and share in that goodness, creation's motive is fittingly 'appropriated' to the Holy Ghost even though the act is common to the whole Trinity."
+    },
+    {
+      "q": "Why does Aquinas link the theme of 'movement' (e.g., the Spirit 'moving over the waters' in Genesis i. 2) especially to the Holy Ghost?",
+      "options": [
+        "Because the Holy Ghost is literally in motion through space, unlike the Father and Son",
+        "Because love, as an act of the will, is inherently an impelling, moving force; therefore any movement or impulse God causes in creatures — including government, guidance, and life itself — is fittingly appropriated to the Holy Ghost as love",
+        "Because Genesis was written especially about the Holy Ghost",
+        "Because 'movement' in Scripture always refers exclusively to physical objects"
+      ],
+      "correct": 1,
+      "explanation": "Since the Holy Ghost proceeds as love, and love is by nature an impelling and moving force, Aquinas appropriates every kind of divine movement in creation — formation, governance, and animation — to the Holy Ghost."
+    },
+    {
+      "q": "How does Chapter 20 connect the theme of 'life' to the Holy Ghost?",
+      "options": [
+        "Because life is especially revealed in self-movement, and since impulse/movement is appropriated to the Holy Ghost as love, life-giving is likewise fittingly ascribed to Him, as in 'It is the Spirit that quickeneth' (John vi. 64)",
+        "Because only living things can receive the Holy Ghost",
+        "Because 'life' in Scripture never refers to spiritual realities",
+        "Because the Holy Ghost created only biological organisms, not inanimate matter"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas connects life with self-movement, and since movement is appropriated to the Spirit as love, life-giving (quickening) is likewise fittingly ascribed to the Holy Ghost."
+    }
+  ],
+  "SCG_B4_Ch21": [
+    {
+      "q": "According to Chapter 21, why is charity in believers said to be 'from the Holy Ghost' in a special way, even though all three Persons act as its efficient cause?",
+      "options": [
+        "Because only the Holy Ghost is truly God, while Father and Son merely assist",
+        "Because whatever we receive from God reflects Him in an exemplary way as well as being efficiently caused by the whole Trinity; since the Holy Ghost is the Love by which God loves Himself, the love (charity) implanted in us specially reflects and is 'appropriated' to Him, just as wisdom implanted in us reflects the Son as Word",
+        "Because the Father and Son cannot dwell in human souls at all",
+        "Because charity is a purely natural virtue unrelated to grace"
+      ],
+      "correct": 1,
+      "explanation": "Though all three Persons share one operation and are the efficient cause of charity in us, the gift of charity specially resembles (is 'exemplarily' traced to) the Holy Ghost, since He is Himself the divine Love, just as implanted wisdom especially reflects the Son as Word."
+    },
+    {
+      "q": "How does Aquinas explain the claim that through the Holy Ghost, 'not only is God in us, but we are in God'?",
+      "options": [
+        "He denies this is really taught in Scripture",
+        "Since the beloved is in the lover, and God loves those to whom He gives the Holy Ghost (making them lovers of Him), and since every loved object is also, in a sense, present in what loves it, the Holy Ghost effects a mutual indwelling: God dwells in us and we dwell in God",
+        "Because God's presence in creation is purely physical, like air filling a room",
+        "Because the phrase refers only to a future state after death, not present experience"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons from the nature of love (the beloved is in the lover, and vice versa) to explain the mutual indwelling of God and the believer through the gift of the Holy Ghost, citing 1 John iv. 13, 16."
+    },
+    {
+      "q": "Aquinas compares the effect of the Holy Ghost to friendship. What aspect of friendship does he use to explain why the Holy Ghost 'reveals divine mysteries' to believers?",
+      "options": [
+        "Friendship requires financial partnership between friends",
+        "It is proper to friendship that friends reveal their secrets to one another, since friendship unites hearts; since the Holy Ghost makes us friends of God, it is fitting that He also reveals divine mysteries to us, as Christ told the disciples He made known to them all He heard from the Father",
+        "Friends are legally obligated to share all information",
+        "Revealing secrets has nothing to do with friendship in Aquinas's account"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws on the classical notion that friends share their inmost thoughts because friendship unites hearts; since the Spirit makes us God's friends, it is fitting that divine mysteries are revealed to us through Him."
+    }
+  ],
+  "SCG_B4_Ch22": [
+    {
+      "q": "According to Chapter 22, why does the Holy Ghost lead the sons of God to act 'freely,' rather than as slaves under fear of the law?",
+      "options": [
+        "Because the Holy Ghost inclines the will to love the true good willingly, so that one acts from love rather than from external compulsion or servile fear; hence 'where the Spirit of the Lord is, there is liberty' (2 Corinthians iii. 17)",
+        "Because the Holy Ghost abolishes all moral law entirely",
+        "Because slaves cannot receive any spiritual gifts under Old Testament law",
+        "Because freedom means doing whatever one desires regardless of the good"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that because the Holy Ghost inclines the will toward the true good through love rather than external compulsion, believers act freely and willingly rather than servilely out of fear of the law."
+    },
+    {
+      "q": "How does Aquinas use the analogy of friendship to explain contemplation of God as an effect of the Holy Ghost?",
+      "options": [
+        "Mutual intercourse (conversation, presence, delight) is proper to friendship, and since man's converse with God consists in contemplating Him, the Holy Ghost, who makes us lovers and friends of God, is what makes us contemplators of God, per 2 Corinthians iii. 18",
+        "Because contemplation requires no relationship with God at all",
+        "Because friendship excludes any form of intellectual activity",
+        "Because contemplation is achieved solely through ascetic bodily discipline, unrelated to the Spirit"
+      ],
+      "correct": 0,
+      "explanation": "Since mutual intercourse (including conversation and delight in one another's presence) belongs to friendship, and our converse with God is contemplation, the Spirit who makes us God's friends is fittingly the cause of our contemplating God."
+    },
+    {
+      "q": "How does Chapter 22 explain the Holy Ghost's role as 'Paraclete' or 'Comforter' in terms of friendship?",
+      "options": [
+        "Because friends find consolation and joy in one another especially in times of sorrow, and since the Holy Ghost makes us friends of God who dwells in us, it follows that through Him we rejoice in God and are comforted in hardship, which is why Christ calls Him Paraclete",
+        "Because 'Paraclete' merely means 'legal advocate' with no connection to comfort",
+        "Because the Holy Ghost removes all suffering from believers' earthly lives entirely",
+        "Because comfort comes only from other human friends, not from the Spirit"
+      ],
+      "correct": 0,
+      "explanation": "Drawing on the idea that friends console one another especially amid hardship, Aquinas explains that the Holy Ghost, who makes us God's friends and causes mutual indwelling, is the source of our joy and comfort — hence the title Paraclete."
+    }
+  ]
+}

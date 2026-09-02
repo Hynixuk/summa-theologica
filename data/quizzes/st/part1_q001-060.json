@@ -1,0 +1,1052 @@
+{
+  "P1Q1": [
+    {
+      "q": "According to Aquinas, why was it necessary for man's salvation that there be a sacred doctrine revealed by God, in addition to the philosophical sciences built up by reason?",
+      "options": [
+        "Because philosophy contains too many contradictions to be trusted",
+        "Because man is directed to God as an end that surpasses the grasp of reason, and even truths about God knowable by reason would only be known by a few, after a long time, and mixed with error",
+        "Because reason cannot know anything true about the natural world",
+        "Because divine revelation makes philosophical inquiry unnecessary"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues man is ordained to an end (God) exceeding reason's grasp, and that even the truths about God reason could discover would be known by few, slowly, and with errors, so revelation was fitting for salvation."
+    },
+    {
+      "q": "In what sense does Aquinas say sacred doctrine is a 'science'?",
+      "options": [
+        "It is a science because it proceeds from self-evident first principles known to everyone",
+        "It is a science because it proceeds from principles known by the light of a higher science, namely the knowledge God and the blessed have of themselves, just as music takes its principles from arithmetic",
+        "It is not truly a science but merely a collection of pious opinions",
+        "It is a science identical in method to the natural sciences, deriving conclusions purely from sense observation"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares sacred doctrine to subalternate sciences like music, which accepts principles from arithmetic on authority; sacred doctrine likewise accepts its principles from the higher science of God and the blessed."
+    },
+    {
+      "q": "Why does Aquinas conclude that sacred doctrine, though it treats many different subjects, is nevertheless one science?",
+      "options": [
+        "Because it studies all things under the one formal aspect of being divinely revealed",
+        "Because it was written by a single human author",
+        "Because it only ever discusses one topic, namely angels",
+        "Because unity of a science depends on having only one physical book"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas holds that the unity of a science is judged by the formal aspect (ratio) of its object, not its material diversity; since sacred doctrine considers all things under the single formality of being divinely revealed, it is one science."
+    }
+  ],
+  "P1Q2": [
+    {
+      "q": "Why does Aquinas say the proposition 'God exists' is self-evident in itself but not self-evident to us?",
+      "options": [
+        "Because in God, essence and existence are the same, but we do not know God's essence, so we cannot see that the predicate 'exists' is contained in the subject 'God'",
+        "Because the proposition is actually false and only appears self-evident",
+        "Because 'self-evident' means known to every culture throughout history",
+        "Because Aquinas denies that God's existence can be known at all"
+      ],
+      "correct": 0,
+      "explanation": "A proposition is self-evident when the predicate is included in the subject's essence; since God's essence is His existence, 'God exists' is self-evident in itself, but since we do not grasp God's essence, it must be demonstrated to us through effects."
+    },
+    {
+      "q": "How does Aquinas say God's existence can be demonstrated, given that we cannot demonstrate it 'a priori' through its cause?",
+      "options": [
+        "It cannot be demonstrated at all and must be accepted purely on faith",
+        "Through a posteriori demonstration, arguing from effects that are better known to us to the existence of their cause",
+        "Through mathematical proof alone, independent of the physical world",
+        "By appealing exclusively to the authority of Scripture"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes a priori demonstration (through cause) from a posteriori demonstration (through effect); since God's existence is not self-evident to us, it must be demonstrated a posteriori from His effects."
+    },
+    {
+      "q": "What is the general strategy common to all Five Ways Aquinas offers for proving God's existence in Question 2, Article 3?",
+      "options": [
+        "Each argues that Scripture explicitly states God exists",
+        "Each starts from an observed feature of the world (motion, causation, contingency, gradation, or governance) and argues it requires a first, uncaused explanatory source, which all call God",
+        "Each relies solely on the argument that everyone innately believes in God",
+        "Each is a purely a priori argument based on the definition of God as 'that than which nothing greater can be conceived'"
+      ],
+      "correct": 1,
+      "explanation": "The Five Ways (from motion, efficient causation, contingency and necessity, gradation of perfection, and governance/design) are all a posteriori arguments moving from observed effects in the world to a first cause, which Aquinas identifies as God."
+    }
+  ],
+  "P1Q3": [
+    {
+      "q": "According to Aquinas, why is God not composed of matter and form?",
+      "options": [
+        "Because matter is evil and God cannot be evil",
+        "Because matter is what makes a thing merely potential, whereas God is pure actuality with no unrealized potency",
+        "Because matter did not exist before creation",
+        "Because form always requires a body, and Aquinas denies God has a body without giving further reason"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues matter is in potentiality, but God, as first agent and pure act, has no admixture of potentiality, so He cannot be composed of matter and form."
+    },
+    {
+      "q": "Why does Aquinas hold that in God, essence and 'suppositum' (the individual thing) are identical, unlike in composite creatures such as man?",
+      "options": [
+        "Because in things composed of matter and form, individualizing matter adds something beyond the essence (e.g., 'this flesh, these bones' beyond 'humanity'), but since God has no matter, there is nothing added to His essence to individuate Him",
+        "Because God has many essences that are all identical to each other",
+        "Because Aquinas thinks all individuals, human or divine, are identical with their essence",
+        "Because 'suppositum' is a term that does not apply to God in any sense"
+      ],
+      "correct": 0,
+      "explanation": "In material beings, individual matter and accidents add something beyond the defining essence (e.g., 'this' flesh and bone beyond 'humanity'), so the individual is more than the essence; since God has no matter, He simply is His own Godhead."
+    },
+    {
+      "q": "What does Aquinas mean when he denies that God is 'in a genus'?",
+      "options": [
+        "That God cannot be classified as a species falling under a wider genus the way creatures are, because such classification requires a genus-differentia composition and potentiality that God, as absolutely simple, lacks",
+        "That God is a member of the genus 'spirit' but not of the genus 'substance'",
+        "That the word 'God' has no meaning at all",
+        "That only material things exist, so there is no genus for anything spiritual"
+      ],
+      "correct": 0,
+      "explanation": "Being placed in a genus requires composition (genus plus differentia, potency plus act), which God's absolute simplicity excludes; hence God is not a species contained under any genus."
+    }
+  ],
+  "P1Q4": [
+    {
+      "q": "Why does Aquinas say God must be 'most perfect,' contrary to ancient philosophers like the Pythagoreans who denied perfection to the first principle?",
+      "options": [
+        "Because those philosophers considered only a material first principle, which as pure potentiality is most imperfect, whereas God is the first principle in the order of efficient, actual causation, and a thing is perfect in proportion to its actuality",
+        "Because perfection is simply a matter of popular opinion",
+        "Because God created the world in six days",
+        "Because the ancient philosophers had never heard of God"
+      ],
+      "correct": 0,
+      "explanation": "The ancients erred by treating the first principle as material (hence potential and imperfect); Aquinas holds God is pure act as the first efficient cause, and perfection follows actuality, so God is most perfect."
+    },
+    {
+      "q": "How can perfections found in creatures, such as wisdom or goodness, be said to be 'in God'?",
+      "options": [
+        "They are not in God at all; God only causes them in creatures without possessing them Himself",
+        "All created perfections pre-exist in God in a more excellent and unified way, since God, as universal first cause, lacks no excellence found in any genus",
+        "God possesses only the perfections mentioned explicitly in Scripture",
+        "Perfections exist in God only potentially, awaiting actualization"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that as universal efficient cause, God possesses all created perfections in a higher, unified mode, since an effect's perfection must in some way pre-exist in its cause."
+    },
+    {
+      "q": "In what sense, according to Aquinas, can a creature be said to be 'like' God?",
+      "options": [
+        "Creatures cannot resemble God in any way whatsoever",
+        "Creatures are like God univocally, sharing the exact same specific form as God",
+        "Creatures are like God only by analogy, insofar as they participate in being, since God is an agent outside every genus whose effects reproduce His likeness only remotely, not according to a common species or genus",
+        "Creatures are like God only in physical appearance"
+      ],
+      "correct": 2,
+      "explanation": "Since God is not a univocal cause (not in the same species or genus as His effects), creatures resemble Him only by a remote analogy of being, as effects diversely reflect the form of a transcendent agent."
+    }
+  ],
+  "P1Q5": [
+    {
+      "q": "According to Aquinas, how do goodness and being differ, given that they are 'really the same'?",
+      "options": [
+        "Goodness and being are totally unrelated concepts with nothing in common",
+        "They differ only in idea (ratio): being is prior as the first thing conceived by the intellect, while goodness adds the notion of desirability, since a thing is desirable insofar as it is perfect and actual",
+        "Goodness applies only to human actions, while being applies only to physical objects",
+        "Goodness is greater than being because goodness includes moral qualities being lacks"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds goodness and being are the same in reality but differ conceptually: being is what the intellect first grasps, while goodness names that same reality under the aspect of desirability, since a thing is desirable to the extent it is actual/perfect."
+    },
+    {
+      "q": "Why does Aquinas conclude that 'every being, as being, is good'?",
+      "options": [
+        "Because Scripture declares all creatures morally virtuous",
+        "Because every being has some actuality, and actuality implies perfection, and perfection implies desirability, which is the very meaning of goodness",
+        "Because evil does not really exist in any sense",
+        "Because all beings are equally good in the same degree"
+      ],
+      "correct": 1,
+      "explanation": "Since every being possesses some act/perfection, and perfection is desirable (the definition of goodness), it follows that every being, insofar as it is a being, is good."
+    },
+    {
+      "q": "According to Aquinas, what three things constitute the essence of goodness understood as perfection?",
+      "options": [
+        "Faith, hope, and charity",
+        "Mode (measure/determination), species (form), and order (inclination toward an end)",
+        "Matter, form, and privation",
+        "Substance, quantity, and quality"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas teaches that a thing's goodness/perfection consists in mode (the due measure of its principles), species (its form), and order (its consequent inclination or tendency toward its end)."
+    }
+  ],
+  "P1Q6": [
+    {
+      "q": "Why does Aquinas say goodness belongs to God 'pre-eminently'?",
+      "options": [
+        "Because God performs many good deeds recorded in Scripture",
+        "Because goodness follows desirableness, and since every agent's effect bears a likeness to it that makes the agent desirable, and God is the first effective cause of all things, the aspect of goodness belongs to Him supremely",
+        "Because God is bound by moral laws external to Himself",
+        "Because creatures vote on which being is 'good'"
+      ],
+      "correct": 1,
+      "explanation": "A thing is desirable, and hence good, as the source of perfection communicated to its effects; since God is the first efficient cause of all things, supreme goodness belongs to Him as the source from which all desired perfections flow."
+    },
+    {
+      "q": "Why is God the 'supreme good' not merely within some genus, but simply and absolutely?",
+      "options": [
+        "Because God is a univocal cause whose goodness is measured the same way as creatures' goodness",
+        "Because as the equivocal (non-univocal) first cause, the perfections found in effects pre-exist in Him in a more excellent way, as heat is more excellent in the sun than in fire",
+        "Because 'supreme good' is simply a title bestowed by the Church",
+        "Because God is the largest being in the universe"
+      ],
+      "correct": 1,
+      "explanation": "Since God is not a univocal cause but an equivocal, transcendent cause, the perfections flowing from Him to creatures exist in Him in a more excellent way, making Him the supreme good absolutely, not just within a genus."
+    },
+    {
+      "q": "Why does Aquinas say that only God is good 'essentially,' while creatures are good by participation?",
+      "options": [
+        "Because creatures are inherently evil",
+        "Because complete goodness requires perfection in being, in operative accidents, and in attaining one's end, and only in God are essence and existence identical with no accidents needed and no further end beyond Himself, so only He possesses this triple perfection by His very essence",
+        "Because only God performs miracles",
+        "Because creatures lack any actuality whatsoever"
+      ],
+      "correct": 1,
+      "explanation": "Full goodness requires perfection in being, operation, and attainment of an end; since only in God are essence and existence one, with no accidents and no higher end beyond Himself, only God is good by His very essence, while creatures are good by participation in Him."
+    }
+  ],
+  "P1Q7": [
+    {
+      "q": "Why did some ancient philosophers wrongly attribute a material infinity to the first principle?",
+      "options": [
+        "Because they correctly reasoned that all things flow infinitely from a first principle, but erred by supposing that first principle to be some infinite body/matter",
+        "Because they believed the universe had no first principle at all",
+        "Because they thought infinity was impossible in any sense",
+        "Because they equated infinity strictly with a large finite number"
+      ],
+      "correct": 0,
+      "explanation": "The ancients rightly saw that things proceed infinitely (in a sense) from a first principle, but erred by conceiving that principle materially, thus attributing to it a material infinity, i.e. an infinite body."
+    },
+    {
+      "q": "How does Aquinas distinguish God's infinity from the sort of 'infinity' creatures like angels might have?",
+      "options": [
+        "Creatures cannot be infinite in any respect whatsoever",
+        "A subsisting form not received in matter (like an angel) can be relatively infinite since it is not bounded by matter, but because its being is still received and contracted to a determinate nature, it cannot be absolutely infinite as God is",
+        "God's infinity and an angel's infinity are identical in every respect",
+        "Angels are infinite because they are made of infinitely divisible matter"
+      ],
+      "correct": 1,
+      "explanation": "A subsistent immaterial form is not limited by matter and so is relatively infinite in that respect, but its received, determinate being still limits it; only God, whose essence is His own unreceived existence, is infinite absolutely."
+    },
+    {
+      "q": "What kind of infinity does Aquinas deny is possible when he argues no actually infinite magnitude or multitude can exist in creation?",
+      "options": [
+        "He denies that God is infinite",
+        "He denies that an actually infinite (as opposed to potentially infinite) created body or an absolutely necessary infinite created multitude can actually exist, since a body or multitude has a determinate, finite nature and generation cannot pass through an infinite medium",
+        "He denies that mathematics can meaningfully discuss infinity",
+        "He affirms that space itself is infinite while denying bodies can be"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues an actually infinite magnitude cannot exist because bodies are terminated by form and matter, and an absolutely infinite multitude is impossible because it could never be traversed or completed in generation."
+    }
+  ],
+  "P1Q8": [
+    {
+      "q": "In what way does Aquinas say God is 'in all things'?",
+      "options": [
+        "As a physical part mixed into the substance of things",
+        "As an agent is present to that upon which it works, since God as very being causes and sustains the created being of all things continuously, making Him present innermostly to everything that exists",
+        "God is not actually present in things; He only observes them from outside",
+        "Only in things that possess a rational soul"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since God causes and continually preserves the existence of all things (as light is continually caused in air by the sun), He is present to everything as an efficient cause is present to its effect, and innermostly so, since being is what is most fundamental in a thing."
+    },
+    {
+      "q": "According to Aquinas, in what special way is God present 'in the saints by grace,' beyond His universal presence in all creatures?",
+      "options": [
+        "God is present to the saints only after their bodily death",
+        "In addition to being present as efficient cause to all creatures, God is present in the rational creature as the object known is in the knower and the object loved is in the lover, which happens through grace when the creature actually or habitually knows and loves Him",
+        "The saints are physically larger containers for God than other creatures",
+        "There is no difference; God is present identically in all things"
+      ],
+      "correct": 1,
+      "explanation": "Beyond His presence as cause in all things, God dwells in a special way in rational creatures who know and love Him, as an object of knowledge is 'in' the knower and an object of love is 'in' the lover; this special indwelling occurs through grace."
+    },
+    {
+      "q": "Why does Aquinas say being 'everywhere' primarily and absolutely belongs to God alone?",
+      "options": [
+        "Because God is a very large body that fills all space",
+        "Because to be everywhere primarily and absolutely means existing wholly (not merely part-by-part) in every place under any possible supposition, which can only belong to the being on whom the existence of every possible place depends",
+        "Because angels are confined to a single location, unlike God",
+        "Because Aquinas thinks the universe itself is infinite and coextensive with God"
+      ],
+      "correct": 1,
+      "explanation": "To be 'everywhere' primarily and absolutely requires being wholly present in every place, actual or possible, without dependence on any particular arrangement of the world; since nothing can exist without God, this belongs to Him alone."
+    }
+  ],
+  "P1Q9": [
+    {
+      "q": "Why does Aquinas conclude that God is altogether immutable?",
+      "options": [
+        "Because change is impossible in any being whatsoever",
+        "Because God, as shown in prior questions, is pure act with no unrealized potentiality, is simple with no composition, and is infinite/perfect, and change requires potentiality and composition, which God lacks",
+        "Because Scripture forbids speculation about God's nature",
+        "Because immutability was decided by Church council rather than philosophical argument"
+      ],
+      "correct": 1,
+      "explanation": "Building on earlier conclusions (God as pure act, simple, infinite, and perfect), Aquinas argues change requires potentiality, which God, lacking all potency, cannot undergo; hence God is altogether immutable."
+    },
+    {
+      "q": "In what sense are creatures called 'mutable,' according to Aquinas, even though creation itself is not, strictly speaking, a change in God?",
+      "options": [
+        "Creatures are mutable only in the sense that they can change their location",
+        "Creatures are mutable by a power possessed by another (God), since their existence depends entirely on God's will both for their coming to be and their continued preservation, so God could reduce them to nothing",
+        "Creatures are actually just as immutable as God",
+        "Mutability applies only to inanimate objects, not living creatures"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes mutability by a thing's own power from mutability by another's power; creatures are mutable by God's power since their being depends entirely on His will to produce and preserve them, so He could in principle reduce them to nothing."
+    },
+    {
+      "q": "What is the basis for saying that God alone is 'altogether' immutable, while a creature such as an angel might be relatively unchangeable?",
+      "options": [
+        "Because angels change constantly while God never does",
+        "Because a creature, however unchangeable in some respect, still owes its very existence to another and could in principle fail to exist, whereas God's existence depends on nothing outside Himself and He is pure actuality in every respect",
+        "Because 'altogether immutable' simply means 'incorporeal'",
+        "Because immutability is a matter of degree that all beings share equally"
+      ],
+      "correct": 1,
+      "explanation": "Only God is immutable without qualification because His existence is uncaused and He is pure act in every respect; a creature may be unchangeable in some way yet remains contingent, dependent on God for its being."
+    }
+  ],
+  "P1Q10": [
+    {
+      "q": "How does Aquinas explain the definition of eternity as 'the simultaneously-whole and perfect possession of interminable life'?",
+      "options": [
+        "Eternity simply means an extremely long span of time",
+        "Just as time is the measure of before-and-after in movement, eternity is grasped by analogy as the measure proper to what is wholly immutable, possessing its whole existence at once with no succession of before and after",
+        "Eternity is identical to time except it never ends",
+        "Eternity refers only to the future, not to a mode of existing outside time"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas parallels time (measure of before-and-after in change) with eternity (the measure of what is utterly without succession, possessing its being all at once), so eternity is not simply endless time but a different mode of existence altogether."
+    },
+    {
+      "q": "Why does Aquinas say God is not merely eternal but 'is His own eternity'?",
+      "options": [
+        "Because eternity is a separate divine being alongside God",
+        "Because the idea of eternity follows from immutability, and since God is supremely immutable and identical with His own being, He is likewise identical with His own eternity, unlike creatures whose duration is not identical to their being",
+        "Because 'eternity' is just another name humans invented for God",
+        "Because God exists only within time, but for an unusually long duration"
+      ],
+      "correct": 1,
+      "explanation": "Since eternity follows immutability and God is His own immutable being (essence = existence), God is also His own eternity, whereas no creature's duration is identical with its own being."
+    },
+    {
+      "q": "How does Aquinas distinguish 'aeviternity' (the mode of duration of angels) from both time and eternity?",
+      "options": [
+        "Aeviternity is identical to time in every respect",
+        "Aeviternity is a mean between eternity and time: like eternity it lacks succession in the being of the aeviternal thing itself, but unlike eternity it can be associated with a beginning and, in the case of operations, some change or succession",
+        "Aeviternity applies exclusively to material bodies, not spiritual beings",
+        "There is no real difference between aeviternity and eternity; Aquinas uses the terms interchangeably"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas places aeviternity as a middle mode of duration: aeviternal beings (like angels) have unchangeable being similar to eternity, yet, unlike God's pure eternity, they had a beginning and can admit some change, especially in their operations."
+    }
+  ],
+  "P1Q11": [
+    {
+      "q": "According to Aquinas, what does the term 'one' add to the concept of 'being'?",
+      "options": [
+        "It adds a distinct positive reality not found in the notion of being",
+        "Nothing real; 'one' is only a negation of division, meaning undivided being, so 'one' and 'being' are really the same",
+        "It adds numerical quantity, making 'one' always a number",
+        "It adds moral perfection to being"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues 'one' adds no reality to being but simply denotes 'undivided being'; a thing preserves its unity precisely insofar as it preserves its being."
+    },
+    {
+      "q": "Why does Aquinas conclude that God is 'supremely one'?",
+      "options": [
+        "Because there is only one religion that worships Him",
+        "Because to be supremely one requires being supremely undivided and supremely a being, and God is both supreme being (His act of existing is not limited by any nature) and absolutely simple (undivided in any way)",
+        "Because mathematics proves the number one is the most perfect number",
+        "Because unity in God is merely a metaphor for His moral goodness"
+      ],
+      "correct": 1,
+      "explanation": "Since 'one' means undivided being, and God is supreme, unlimited being (His essence is His existence) and is absolutely simple with no division whatsoever, God is one in the highest, supreme degree."
+    },
+    {
+      "q": "How does Aquinas distinguish the 'one' that is the principle of number from the 'one' that is convertible with 'being'?",
+      "options": [
+        "They are identical concepts with no real distinction",
+        "The 'one' of number is opposed to multitude as a measure is opposed to what it measures (quantitative), while the transcendental 'one' convertible with being is opposed to multitude merely by way of privation, as the undivided is opposed to the divided",
+        "The 'one' of number applies only to God, while the transcendental 'one' applies only to creatures",
+        "Aquinas denies that 'one' can be the principle of number"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes numerical unity (a quantitative measure, opposed to multitude as measure to the measured) from transcendental unity convertible with being (opposed to multitude merely as undivided is opposed to divided)."
+    }
+  ],
+  "P1Q12": [
+    {
+      "q": "Why can no created intellect see the essence of God by its own natural powers, according to Aquinas?",
+      "options": [
+        "Because God actively hides His essence out of malice",
+        "Because knowledge follows the mode of the knower's nature, and only God's own intellect is proportioned to self-subsistent being itself; created intellects, even angelic ones, know only what is proportioned to their created, participated nature",
+        "Because human beings lack immortal souls",
+        "Because vision of God's essence is logically self-contradictory and impossible even for God to grant"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that a knower's mode of knowledge is proportioned to its own nature; since only God is His own subsistent being, only the divine intellect can naturally know the divine essence, so any created intellect needs a supernatural elevation (grace) to see it."
+    },
+    {
+      "q": "What does Aquinas mean by the 'light of glory' needed for the blessed to see God's essence?",
+      "options": [
+        "A physical light shining in heaven visible to bodily eyes",
+        "A supernatural disposition added by grace that elevates and strengthens the created intellect beyond its natural capacity, enabling it to be united to the divine essence as its intelligible form",
+        "A symbolic term with no real effect on the intellect's power",
+        "The natural light of reason unaided by grace"
+      ],
+      "correct": 1,
+      "explanation": "Since the created intellect cannot naturally see God's essence, Aquinas holds that grace adds a supernatural 'light of glory' that raises and disposes the intellect to be directly united with the divine essence in the beatific vision."
+    },
+    {
+      "q": "Can the human soul in this present mortal life see the essence of God, according to Aquinas?",
+      "options": [
+        "Yes, mystics regularly achieve full vision of the divine essence in this life",
+        "No, because as long as the soul is united to the body its natural mode of knowing is tied to sensible, material things via phantasms, and the divine essence cannot be known through any created likeness in that way",
+        "Yes, because the intellect is entirely independent of the body even in this life",
+        "The question is left completely undecided by Aquinas"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that while joined to the body, the soul's knowledge depends on phantasms drawn from the senses, and the divine essence cannot be grasped through any created similitude, so the essence of God cannot be seen in this mortal life (with the possible exception of rapture, discussed elsewhere)."
+    }
+  ],
+  "P1Q13": [
+    {
+      "q": "According to Aquinas, since we cannot know God's essence in this life, on what basis can we still give names to God?",
+      "options": [
+        "Names for God are purely arbitrary conventions with no basis in reality",
+        "We name God from creatures, insofar as we know Him as their cause and by way of excellence and remotion (negation), even though such names do not express the divine essence as it is in itself the way 'man' expresses human essence",
+        "Only names found explicitly in Scripture may be applied to God",
+        "We can only address God through silence, never through positive language"
+      ],
+      "correct": 1,
+      "explanation": "Since we know God only from His effects (creatures), we can name Him from them, by way of causality, excellence, and negation, but such names, unlike 'man' for humans, do not comprehend or express the divine essence itself."
+    },
+    {
+      "q": "Why does Aquinas hold that terms like 'wise' or 'good,' when applied to both God and creatures, are neither univocal nor purely equivocal, but analogical?",
+      "options": [
+        "Because such terms mean exactly the same thing in God and creatures",
+        "Because they mean something totally unrelated in each case, by mere coincidence of the word",
+        "Because the perfections signified pre-exist in God unitedly and in a more excellent, uncircumscribed way, while in creatures they exist divided, multiplied, and are proportioned to a definite mode, so the term applies to both by a real but proportional relation",
+        "Because Aquinas denies that any term can meaningfully be said of God at all"
+      ],
+      "correct": 2,
+      "explanation": "Univocal predication is impossible between God and creatures since creaturely perfections are received/limited copies of what exists simply and unitedly in God; hence such terms are predicated analogically, related but not identically applied."
+    },
+    {
+      "q": "Why does Aquinas consider 'HE WHO IS' (Qui est / He Who Is) the most proper name for God?",
+      "options": [
+        "Because it was chosen arbitrarily by later theologians",
+        "Because it signifies being itself, without any determinate mode, most fittingly expressing God, whose essence just is His act of existing (subsistent being itself), rather than signifying some particular form or nature",
+        "Because it is the shortest possible name and thus easiest to remember",
+        "Because it refers exclusively to God's power over creation, not His existence"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds 'He Who Is' is the most proper divine name because it signifies unrestricted, subsistent existence itself, fitting God whose essence is identical with His act of being, rather than naming Him via a limited creaturely form."
+    }
+  ],
+  "P1Q14": [
+    {
+      "q": "According to Aquinas, why does God possess the most perfect knowledge of all beings?",
+      "options": [
+        "Because God has access to more sensory data than any creature",
+        "Because cognition follows immateriality (the more a thing is free from matter, the more it can receive the forms of other things and know), and since God is in the highest degree immaterial (pure act with no matter), He has knowledge in the highest degree",
+        "Because knowledge in God is simply granted by an external source",
+        "Because God's knowledge is limited to what He directly observes happening in time"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas links cognition to immateriality: the more immaterial a being, the greater its capacity to know; since God is supremely immaterial (pure act), He possesses knowledge in the highest degree."
+    },
+    {
+      "q": "How does Aquinas explain that God's knowledge of things other than Himself does not compromise His simplicity or add discursive reasoning to His mind?",
+      "options": [
+        "God does not actually know anything besides Himself",
+        "God knows all other things by knowing Himself as their first cause, seeing all things at once in His one simple essence rather than moving successively from premises to conclusions or from one thought to another",
+        "God's knowledge of other things is imperfect and constantly changing",
+        "God learns about creatures gradually as history unfolds"
+      ],
+      "correct": 1,
+      "explanation": "Because God's own act of understanding is identical with His essence, and all things pre-exist in Him as effects in their cause, He knows all things simultaneously in knowing Himself, without succession or the discursive movement from principles to conclusions found in human reasoning."
+    },
+    {
+      "q": "How does Aquinas explain that God has genuine knowledge of evil, given that evil is not a positive being?",
+      "options": [
+        "God does not know evil at all, since He knows only good things",
+        "Since evil is the privation of a good, and one who knows a good perfectly must also know what can happen to it (its possible corruption), God knows evil through knowing the good of which it is a privation, as light reveals darkness",
+        "God directly wills and creates evil as a positive reality alongside good",
+        "Evil is known by God only through the testimony of angels"
+      ],
+      "correct": 1,
+      "explanation": "Since evil is merely the privation of good, and perfect knowledge of a good includes knowing what can be accidental to it (including its corruption), God's perfect knowledge of good things entails knowledge of evil, comparable to how light makes darkness known."
+    }
+  ],
+  "P1Q15": [
+    {
+      "q": "Why does Aquinas hold it necessary to posit 'ideas' existing in the divine mind?",
+      "options": [
+        "Because Plato's authority alone settles the question",
+        "Because a form existing apart from the thing itself serves either as the exemplar/type according to which a thing is made, or as a principle of knowledge, and since God creates things intelligently according to a plan and knows them, ideas as the exemplar types of things must exist in His mind",
+        "Because ideas are physical templates stored in a heavenly realm",
+        "Because human beings cannot think without appealing to divine ideas directly"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since God creates things through intelligence and according to a definite plan, and an idea functions as the exemplar or type by which something is made, there must be ideas in the divine mind serving as the types of created things."
+    },
+    {
+      "q": "How does Aquinas reconcile the multiplicity of ideas in God's mind with the absolute simplicity of the divine essence?",
+      "options": [
+        "He does not reconcile them; he admits an outright contradiction",
+        "The many ideas are not many distinct images informing God's intellect, but are the many ways in which God's one simple essence can be known as imitable by creatures in different degrees, so multiplicity is on the side of what is understood, not on the side of a plurality of forms in God",
+        "God literally contains many separate divine essences",
+        "Ideas exist not in God but in a separate Platonic realm outside Him"
+      ],
+      "correct": 1,
+      "explanation": "The plurality of ideas does not multiply forms informing the divine intellect (which would violate simplicity); rather, God's one essence is understood as capable of being imitated by creatures in many different ways, giving rise to many ideas as objects understood."
+    },
+    {
+      "q": "According to Aquinas, does God have an idea corresponding to every individual thing He knows, or only to species/kinds?",
+      "options": [
+        "Only general categories, since Aquinas rejects individual providence",
+        "God has proper ideas of all things, including particulars, since He intends the very order of the universe (composed of individual parts) and not merely a general succession of causes, so ideas must extend to each individual part of that order",
+        "God has ideas only of angels, not of material creatures",
+        "Ideas apply only to sinful beings, as a corrective template"
+      ],
+      "correct": 1,
+      "explanation": "Because God directly intends the order of the whole universe (not just a first creature from which others accidentally follow), and a whole cannot be properly conceived without ideas of its parts, Aquinas holds there are proper ideas of all things, including individuals."
+    }
+  ],
+  "P1Q16": [
+    {
+      "q": "According to Aquinas, where does truth reside in its primary sense?",
+      "options": [
+        "In external physical things themselves, considered apart from any mind",
+        "In the intellect, according as it is conformed to the thing understood, since truth is completed by the mind's judgment (composing and dividing) that a thing corresponds to the form it apprehends",
+        "In the will's desire for what is good",
+        "In sensation alone, since the senses never err"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas locates truth primarily in the intellect (specifically in its act of judging/composing and dividing) as conformed to reality, while things are called 'true' only secondarily, insofar as they correspond to an intellect (especially the divine intellect)."
+    },
+    {
+      "q": "Why does Aquinas say God is truth itself, and indeed 'sovereign and first truth'?",
+      "options": [
+        "Because God always tells the truth in Scripture, like a reliable witness",
+        "Because in God, being is not only conformed to intellect but is identical with the very act of His understanding, and His understanding is the cause and measure of all other being and truth, so He is truth itself in the highest degree",
+        "Because human philosophers agree unanimously that God exists",
+        "Because 'truth' and 'God' are simply synonyms with no deeper explanation"
+      ],
+      "correct": 1,
+      "explanation": "Since God's very being is identical with His act of understanding, and this understanding is the cause and standard of everything else's being and truth, God is not merely true but is truth itself, the first and sovereign truth."
+    },
+    {
+      "q": "How does Aquinas explain the sense in which there is only 'one truth' by which all things are said to be true?",
+      "options": [
+        "Because there is only one human being who can know truth",
+        "Considered as it resides in things (rather than in created intellects), all things are true by conformity to one primary truth, the divine intellect, though there remain many truths in the sense of many created intellects and their many acts of knowledge",
+        "Because propositions never change their truth value",
+        "Because Aquinas denies there is truth in the divine intellect at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes truth as it exists in many created intellects (which are many) from truth as it exists in things, which are all true by conformity to the one divine intellect/truth, comparing it to many reflections of one face in a mirror."
+    }
+  ],
+  "P1Q17": [
+    {
+      "q": "According to Aquinas, why does falsity not exist in things 'simply' but only in relation to an intellect?",
+      "options": [
+        "Because nothing is ever really false in any sense",
+        "Because true and false are properly found where they originate, namely in the intellect to which a thing is compared; natural things are compared per se to the divine intellect (on which they depend) and so are not false in themselves, though artificial things can be called false relative to the human art they fail to match",
+        "Because falsity exists equally and independently in all things regardless of any mind",
+        "Because Aquinas holds that matter itself is the source of all falsity"
+      ],
+      "correct": 1,
+      "explanation": "Since truth and falsity are found essentially in the intellect, a thing is called false essentially only in relation to the intellect it depends on; natural things depend essentially on the divine intellect and so are not false in themselves, whereas artificial things can fall short of the human art's intended form."
+    },
+    {
+      "q": "Can the intellect be deceived about the essence of a thing it directly apprehends, according to Aquinas?",
+      "options": [
+        "No, the intellect can never be deceived about anything whatsoever, including complex judgments",
+        "The intellect is not deceived about the essence it directly grasps (just as sense is not deceived about its proper sensible object), but it can be deceived in the act of composing and dividing, i.e., in judging or affirming/denying something about that essence",
+        "Yes, the intellect is deceived about everything all the time",
+        "Aquinas denies the intellect has any proper object at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas parallels sense and intellect: just as sense is not deceived regarding its proper sensible object, the intellect is not deceived about the essence it directly apprehends, but error/falsity arises in judgment, when the intellect wrongly composes or divides concepts."
+    },
+    {
+      "q": "How does Aquinas classify the logical opposition between 'true' and 'false'?",
+      "options": [
+        "As a simple negation, where false merely means the absence of truth with no positive content",
+        "As contraries, since falsity actually asserts something (that a thing is other than it is) and determines its subject, rather than being a bare negation",
+        "As entirely unrelated terms with no logical opposition",
+        "As identical terms used interchangeably by Aquinas"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues true and false are contraries (not mere affirmation/negation) because falsity, like truth, asserts something positive about its subject (an inadequate apprehension), rather than being a bare absence of assertion."
+    }
+  ],
+  "P1Q18": [
+    {
+      "q": "According to Aquinas, what is the defining mark of a 'living' thing?",
+      "options": [
+        "Possessing a physical body composed of organic matter",
+        "The capacity to move or operate of oneself (self-movement in a broad sense, including acts like understanding and sensing), as opposed to being moved only by an external power",
+        "The ability to reproduce sexually",
+        "Being visible to the naked eye"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas defines living things as those that move or act of themselves (self-determination to movement or operation), distinguishing them from things that are only moved by an external power."
+    },
+    {
+      "q": "Why does Aquinas say that life belongs to God 'in the highest degree'?",
+      "options": [
+        "Because God is physically the largest living being",
+        "Because life is more perfect the more a thing operates from itself rather than being moved by another and the more its self-movement approaches the highest kind of operation (understanding); God, as pure act who understands Himself entirely from Himself, possesses life most perfectly",
+        "Because God was the first thing to ever move",
+        "Because God experiences biological growth and decay like plants"
+      ],
+      "correct": 1,
+      "explanation": "Since life is attributed in the highest degree to beings that operate from themselves, and God's self-understanding is the most perfect self-originating operation possible (with no external mover and no potentiality), life belongs to God most properly and supremely."
+    },
+    {
+      "q": "In what sense does Aquinas say that 'all things are life in God'?",
+      "options": [
+        "Because every physical creature is literally alive, even rocks",
+        "Because in God, understanding is identical with His life, and since all created things exist in God as objects understood (as ideas), those things, as they exist in God's understanding, are the divine life itself",
+        "Because pantheism is true and creatures are literally parts of God's body",
+        "Because Aquinas denies any distinction between Creator and creature"
+      ],
+      "correct": 1,
+      "explanation": "Since in God to live is to understand, and all things exist within God as objects of His understanding (as ideas), those things, insofar as they exist in Him as known, are identical with His own divine life, without this implying pantheism."
+    }
+  ],
+  "P1Q19": [
+    {
+      "q": "Why does Aquinas hold that there must be will in God, given that there is intellect in Him?",
+      "options": [
+        "Because Scripture explicitly lists 'will' as one of God's parts",
+        "Because will follows upon intellect: intellectual beings have an aptitude to rest in a good already possessed through their intelligible form and to seek it when not possessed, which is precisely what will is; since God has intellect, He must also have will, and as His intellect is His existence, so is His will",
+        "Because will is a separate substance created alongside God",
+        "Because God needs a will to overcome internal conflicting desires"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues will naturally follows intellect (an intellectual nature has an appetite following its apprehended good); since God has intellect, He necessarily has will, identical with His own existence, just as His intellect is."
+    },
+    {
+      "q": "Does God will things apart from Himself of absolute necessity, according to Aquinas?",
+      "options": [
+        "Yes, God is compelled by necessity of nature to will the existence of creatures just as He wills His own goodness",
+        "No, God necessarily wills His own goodness (His proper object), but wills other things only insofar as they are ordered to that goodness as an end not strictly requiring them, so willing creatures is not absolutely necessary, though once willed, it is necessary 'by supposition' since God's will cannot change",
+        "God does not will anything apart from Himself at all",
+        "God wills creatures out of need, since His own goodness is otherwise incomplete"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes God's necessary willing of His own goodness (His proper object) from His non-necessary willing of creatures, which are not required for His already-perfect goodness; once willed, however, it becomes necessary 'by supposition' since the divine will cannot change."
+    },
+    {
+      "q": "How does Aquinas explain that God does not will the evil of sin, yet does will certain evils such as natural defects or punishment?",
+      "options": [
+        "God wills all evil directly and equally with good",
+        "Evil as such is never the object of any appetite, including God's will, but some evils (natural defect, punishment) accompany a good that God wills more (like the order of justice or the natural order), whereas the evil of sin is the privation of right order toward God's own goodness, which God never wills",
+        "God is indifferent to moral evil and merely permits it randomly",
+        "Aquinas claims evil does not exist in any sense, so the question is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Since evil as such cannot be an object of appetite, God does not will the evil of sin (privation of due order to Himself); but He does will certain evils of defect or punishment insofar as they accompany or serve a greater good He wills, such as justice or the preservation of natural order."
+    }
+  ],
+  "P1Q20": [
+    {
+      "q": "Why does Aquinas say that love must be the 'first' act of the will, prior to joy, desire, or hatred?",
+      "options": [
+        "Because love is mentioned first in Scripture's list of virtues",
+        "Because love regards good universally (whether possessed or not), while other acts like joy or desire regard good under some more specific condition (as present or absent); the more universal is naturally prior, so love is the root from which all other movements of appetite arise",
+        "Because human infants feel love before any other emotion, proving its priority in all wills",
+        "Because Aquinas held that hatred is impossible for any will to have"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues love regards good in the most universal way (possessed or not), making it prior to more specific appetitive acts like joy or desire, which presuppose love as their root; since God has will, love is properly attributed to Him."
+    },
+    {
+      "q": "How does divine love differ from human love in its relation to the goodness of the beloved, according to Aquinas?",
+      "options": [
+        "There is no difference; both are caused by a prior perceived goodness in the object",
+        "Human love is called forth by a goodness already present in the beloved (our will does not cause but is moved by that goodness), whereas God's love actually infuses and creates goodness in the thing loved, since His will is the cause of all created goodness",
+        "Divine love is weaker than human love because it lacks emotion",
+        "Human love is causative of goodness while divine love merely responds to pre-existing goodness"
+      ],
+      "correct": 1,
+      "explanation": "Whereas human love responds to and is caused by a goodness already found (or imagined) in the beloved, God's love for creatures is not caused by pre-existing goodness in them but rather causes and infuses goodness into them, since God's will is the source of all created goodness."
+    },
+    {
+      "q": "In what sense does Aquinas say God 'loves some things more than others,' despite loving with a single, simple, unchanging act of will?",
+      "options": [
+        "God's love varies in intensity of feeling, becoming more emotional toward favorites",
+        "Not in the intensity of the act of willing (which is always one and the same in God), but in the greater good willed for one thing over another; since God's will causes goodness in things, willing a greater good for something is what it means for God to love it more",
+        "God does not love some things more than others in any sense",
+        "God loves things proportionally to how much they resemble Him physically"
+      ],
+      "correct": 1,
+      "explanation": "Because God's act of willing is one, simple, and unchanging, He cannot love with varying intensity of act; rather, 'loving more' means willing a greater good for one thing than another, and since divine willing causes goodness, this explains why some things are objectively better than others."
+    }
+  ],
+  "P1Q21": [
+    {
+      "q": "What kind of justice does Aquinas attribute to God, and why does he rule out 'commutative' justice?",
+      "options": [
+        "God has neither kind of justice",
+        "Commutative justice (fair exchange in buying/selling) does not apply to God since no one gives to God first so as to be owed something back; instead God has distributive justice, giving to each thing what befits its nature and preserving the proper order of the universe",
+        "God only has commutative justice, since He exchanges grace for merit",
+        "Aquinas says both kinds apply equally and identically"
+      ],
+      "correct": 1,
+      "explanation": "Since nothing is owed to God prior to His giving (no one gives Him anything first), commutative justice is inapplicable; instead God exercises distributive justice by allotting to each creature what is proper to its nature and place in the order of the universe."
+    },
+    {
+      "q": "How does Aquinas explain that mercy applies to God, even though God cannot literally feel 'sorrow' at another's misery?",
+      "options": [
+        "Mercy cannot be attributed to God in any sense",
+        "Mercy is attributed to God according to its effect (dispelling misery/defect through bestowing goodness) rather than as a passion or emotional sorrow, since God, lacking passions, does not suffer with others but does act to remove their defects",
+        "Mercy in God means only that He forgives sins committed against Him personally",
+        "God's mercy is identical to His justice with no distinction"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas attributes mercy to God as seen in its effect - the removal of defects/misery through the bestowal of goodness - rather than as an emotional passion, since God cannot suffer as creatures do."
+    },
+    {
+      "q": "Why does Aquinas say that mercy is, in a sense, the root of every work of God, even those governed by justice?",
+      "options": [
+        "Because justice is entirely absent from God's works",
+        "Because whatever is due to a creature is ultimately traced back through a series of prior gifts to something that depends solely on God's free goodness (not owed to anything), so justice always presupposes and is founded upon a prior, unmerited gift, which is the work of mercy",
+        "Because mercy and justice are simply two names for the same divine act with no distinguishable meaning",
+        "Because creatures earn mercy before they earn justice"
+      ],
+      "correct": 1,
+      "explanation": "Since what is due to a creature ultimately depends on some prior gift not itself owed (traced back to God's free goodness), justice in God's works is always grounded upon and preceded by the gratuitous gift of mercy."
+    }
+  ],
+  "P1Q22": [
+    {
+      "q": "According to Aquinas, why must providence be attributed to God?",
+      "options": [
+        "Because ancient mythology required a governing deity",
+        "Because God is the cause of things through His intellect, so the type/plan of the order of things toward their end must pre-exist in His mind, and this type of ordering toward an end is precisely what providence is",
+        "Because providence is simply another word for predestination with no distinct meaning",
+        "Because natural things need no ordering, only rational creatures do"
+      ],
+      "correct": 1,
+      "explanation": "Since God causes things through His intellect, the plan or type of their ordering toward an end must pre-exist in the divine mind, and this type of ordination is what Aquinas identifies as providence."
+    },
+    {
+      "q": "Against philosophers like Democritus and certain others, what does Aquinas affirm about the scope of divine providence?",
+      "options": [
+        "That providence covers only the heavenly spheres, not earthly individuals",
+        "That everything, including corruptible individual things (not merely species or incorruptible things), is subject to God's providence, against those who denied providence altogether or restricted it to incorruptible things or to species alone",
+        "That providence covers only human beings, excluding animals and plants entirely",
+        "That providence does not really exist and the world operates by chance"
+      ],
+      "correct": 1,
+      "explanation": "Against Democritus/Epicureans (who denied providence, attributing the world to chance) and others who limited it to incorruptible things or species, Aquinas holds that everything, including individual corruptible things, falls under God's providence."
+    },
+    {
+      "q": "How does Aquinas reconcile God's providence with the existence of contingent (non-necessary) events in the world?",
+      "options": [
+        "Providence eliminates all contingency, making everything happen of strict necessity",
+        "Providence, in ordering the universe to reflect the full perfection of being, has prepared necessary causes for some effects and contingent causes for others, so it is precisely providence itself that ordains that some things happen contingently, according to the nature of their proximate causes",
+        "Contingency is an illusion with no basis in reality",
+        "God's providence applies only to necessary things and ignores contingent ones entirely"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds providence itself accounts for the diversity of modes of being in the universe, assigning necessary causes to some effects and contingent causes to others, so contingency in the world flows from, rather than contradicts, providence."
+    }
+  ],
+  "P1Q23": [
+    {
+      "q": "How does Aquinas define predestination in relation to providence?",
+      "options": [
+        "Predestination is unrelated to providence, a completely separate divine attribute",
+        "Predestination is the part of providence that directs rational creatures toward the end of eternal life, which exceeds the created nature's own power to attain, just as an archer directs an arrow to a mark it cannot reach on its own",
+        "Predestination is simply God's foreknowledge of future free acts with no directive causal role",
+        "Predestination applies to all creatures equally, rational and irrational"
+      ],
+      "correct": 1,
+      "explanation": "Since eternal life exceeds what any created nature can attain by its own power, rational creatures must be directed to it by God; this pre-existing type of direction toward eternal life in God's mind is called predestination, a part of providence."
+    },
+    {
+      "q": "According to Aquinas, does predestination place anything real in the predestined person themselves?",
+      "options": [
+        "Yes, predestination is a quality infused into the soul of the predestined at birth",
+        "No, predestination itself exists only as a type/plan in the mind of God (the one who predestines); only its execution (the actual calling and glorification) is found, passively, in the predestined",
+        "Predestination is identical with the person's own free choice to believe",
+        "Predestination is a physical mark placed on the body"
+      ],
+      "correct": 1,
+      "explanation": "As part of providence, predestination exists as a plan in the divine intellect, not as something inhering in the predestined; only its execution (calling, justification, glorification) occurs, passively, within the persons predestined."
+    },
+    {
+      "q": "Why does Aquinas say love, not merit, precedes election in explaining why God predestines some to eternal life?",
+      "options": [
+        "Because in us, love follows upon a good already found in someone, causing us to choose (elect) them; but in God, His will/love is the cause of the goodness in the person chosen, so in God love precedes and causes election, reversing the human order where election precedes love",
+        "Because merit always precedes and causes divine election, just as it does in human affairs",
+        "Because Aquinas denies that God loves anyone in particular",
+        "Because election in God is based on foreseen good works, exactly as in human choice"
+      ],
+      "correct": 0,
+      "explanation": "In humans, we love what we have already elected/chosen based on some already-existing good in the person; but since God's will causes goodness rather than responding to it, His love for someone precedes and grounds His electing them, reversing the human order."
+    }
+  ],
+  "P1Q24": [
+    {
+      "q": "What does Aquinas mean by the metaphor of the 'book of life'?",
+      "options": [
+        "A literal physical book kept in heaven containing handwritten names",
+        "A metaphor drawn from the human practice of inscribing the names of those chosen for an office (like soldiers) in a register; it signifies God's knowledge of those He has predestined to eternal life, since His unfailing memory functions like such a written record",
+        "A reference to the Bible itself as a book",
+        "A symbol representing only earthly, temporal blessings, not eternal salvation"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains 'book of life' as a metaphor from human practice (registering the chosen for an office), applied to God's firm, unfailing knowledge of those predestined to eternal life."
+    },
+    {
+      "q": "According to Aquinas, can anyone be 'blotted out' of the book of life?",
+      "options": [
+        "No one written in the book of life in any sense can ever be blotted out, since predestination never fails",
+        "Those written in the book of life through predestination alone are never blotted out; but those written in it only through grace (fitness for eternal life without being predestined) can be 'blotted out' if they later fall from grace through mortal sin, though this reflects a change in the thing known, not in God's unchanging knowledge",
+        "Everyone written in the book of life is eventually blotted out due to universal sinfulness",
+        "The book of life concerns only earthly rewards, so blotting out is meaningless"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes being written in the book of life 'simply' (through predestination, which never fails) from being written 'relatively' (through grace alone), the latter of which can be lost through mortal sin, without implying any change in God's own unchanging knowledge."
+    },
+    {
+      "q": "Why does Aquinas say the book of life, strictly speaking, concerns the life of glory rather than every good a person might receive?",
+      "options": [
+        "Because being 'chosen' for something implies being chosen for the proper end or purpose of that choosing, and just as a soldier is chosen for the purpose of fighting (not merely to wear armor), the predestined are inscribed for the ultimate end of glory, which exceeds human nature",
+        "Because the life of glory is unrelated to being 'chosen' at all",
+        "Because Aquinas denies any distinction between grace and glory",
+        "Because the book of life is only a symbol used for excommunicated persons"
+      ],
+      "correct": 0,
+      "explanation": "Since being 'chosen' implies being directed toward the proper end of that choice, and the life of glory (exceeding human nature) is the proper end to which the predestined are directed, the book of life properly concerns that ultimate end of glory."
+    }
+  ],
+  "P1Q25": [
+    {
+      "q": "Why does Aquinas say God possesses active power in the highest degree, but no passive power at all?",
+      "options": [
+        "Because power is entirely inapplicable to a purely spiritual being",
+        "Because active power belongs to a thing as it is actual and perfect, while passive power belongs to a thing as it is deficient and imperfect; since God is pure act with no imperfection, active power belongs to Him supremely while passive power (being acted upon) has no place in Him",
+        "Because passive power is morally superior and thus reserved for creatures alone",
+        "Because Aquinas denies God has any power whatsoever"
+      ],
+      "correct": 1,
+      "explanation": "Active power follows from actuality/perfection while passive power follows from deficiency; since God is pure act without any imperfection, He possesses active power in the highest degree and no passive power at all."
+    },
+    {
+      "q": "What does Aquinas mean by saying God 'can do all things' (omnipotence), given his qualification about what is 'possible'?",
+      "options": [
+        "God can literally make contradictions true, such as making a square circle",
+        "God's omnipotence means He can do whatever does not involve an intrinsic contradiction; things that are inherently self-contradictory (like making the past not to have happened) are not really 'something' at all and so do not fall under the scope of power",
+        "Omnipotence means God can do only what human beings consider physically possible",
+        "Omnipotence is purely a poetic title with no philosophical content"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that 'omnipotence' means the ability to do all things that are intrinsically possible; what involves a contradiction (like an event both having happened and not happened) is not a 'thing' at all, so it does not limit true omnipotence to say God cannot do it."
+    },
+    {
+      "q": "According to Aquinas, could God have made a different world order, or created things better than He did?",
+      "options": [
+        "No, God acts from natural necessity, so the present order of things is the only one possible, exactly as an olive tree can only produce olives",
+        "Yes: since God does not act from natural necessity but by will, and since His wisdom is not restricted to any single order (as the divine goodness exceeds all proportion to any particular created order), God could have made other things or another order of things, and could make many particular creatures better than they are (though not better in a way that alters their essential definition)",
+        "God could have made the world better, but only by adding more physical matter to it",
+        "God is entirely constrained by logical necessity from making anything different from what currently exists"
+      ],
+      "correct": 1,
+      "explanation": "Since God's will, not natural necessity, is the cause of things, and since His wisdom vastly exceeds any single created order, Aquinas concludes God could have made a different order of creation and can make individual things better, though not better in a way that would change their essential definition (e.g., a number could not be 'more' four)."
+    }
+  ],
+  "P1Q26": [
+    {
+      "q": "Why does Aquinas say beatitude (perfect happiness) belongs to God in a most excellent way?",
+      "options": [
+        "Because beatitude is essentially the perfect good of an intellectual nature aware of its own good and capable of self-control, and God possesses perfection and intelligence in the highest degree",
+        "Because God experiences pleasurable feelings more intensely than any creature",
+        "Because beatitude is simply a title given to God by tradition with no deeper rational basis",
+        "Because God's beatitude depends on the praise He receives from creatures"
+      ],
+      "correct": 0,
+      "explanation": "Since beatitude is defined as the perfect good of an intellectual nature (which knows its own sufficiency and controls its actions), and God possesses perfect being and intelligence supremely, beatitude belongs to Him in the highest possible way."
+    },
+    {
+      "q": "In what faculty does Aquinas locate God's beatitude, and why?",
+      "options": [
+        "In God's will, since willing is more fundamental than understanding",
+        "In God's intellect, since the beatitude of any intellectual nature consists in its highest operation, which is understanding, and in God to be and to understand are identical",
+        "In God's power, since beatitude means the ability to do anything",
+        "Beatitude cannot properly be located in any single divine attribute"
+      ],
+      "correct": 1,
+      "explanation": "Because the beatitude of an intellectual nature consists in its highest act, understanding, and because in God being and understanding are identical, Aquinas locates the divine beatitude specifically in God's intellect."
+    },
+    {
+      "q": "How does Aquinas argue that all forms of created happiness, even false or earthly ones like wealth or power, are somehow contained in God's beatitude?",
+      "options": [
+        "He denies any relation between divine beatitude and human notions of happiness",
+        "Whatever is genuinely desirable in any form of happiness (contemplative joy, active governance, delight, self-sufficiency instead of riches, omnipotence instead of power, universal admiration instead of fame) pre-exists wholly and more eminently in God, so God's beatitude eminently contains what people seek, however imperfectly, in earthly goods",
+        "Because God literally possesses gold, silver, and political offices",
+        "Because earthly happiness and divine beatitude are entirely unrelated and incomparable"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that whatever people genuinely desire in contemplative, active, or earthly happiness (delight, self-sufficiency, power, fame) exists more eminently and truly in God, so all authentic desirability found in any kind of happiness is eminently contained in the divine beatitude."
+    }
+  ],
+  "P1Q27": [
+    {
+      "q": "How does Aquinas understand 'procession' within God, as distinct from the erroneous views of Arius and Sabellius?",
+      "options": [
+        "Procession means an effect proceeding from its cause as a creature (Arius) or the cause taking on a new external role (Sabellius); Aquinas instead locates procession as an immanent act remaining within the agent, analogous to how an inward mental word proceeds within an intellect that understands itself",
+        "Aquinas agrees fully with Arius that the Son is a creature proceeding from the Father",
+        "Aquinas agrees fully with Sabellius that Father, Son, and Holy Spirit are just different names for the same person in different roles",
+        "Aquinas denies that the word 'procession' can be applied to God in any sense"
+      ],
+      "correct": 0,
+      "explanation": "Rejecting both Arius's view (procession as an external creature-cause relation) and Sabellius's view (procession as one person taking different external roles), Aquinas locates procession as an immanent intellectual act, comparing it to how an inner mental word proceeds from one's understanding of oneself, remaining within the agent."
+    },
+    {
+      "q": "Why does Aquinas call the procession of the divine Word 'generation' in the proper sense?",
+      "options": [
+        "Because any change from non-existence to existence counts as generation",
+        "Because true generation (in living things) requires origin from a conjoined living principle, by way of similitude, within the same specific nature, and the intellectual procession of the Word meets all these conditions since the conceived word is a likeness of the one understanding, proceeding from a living intellectual act within the same divine nature",
+        "Because 'generation' is simply a metaphor with no strict philosophical basis in this context",
+        "Because the Word is created out of nothing like other creatures"
+      ],
+      "correct": 1,
+      "explanation": "True generation among living things requires origin from a conjoined living principle, by way of similitude, in the same nature; the intellectual procession of the Word satisfies all these conditions, so it is properly called generation, and the one proceeding is called the Son."
+    },
+    {
+      "q": "Why does Aquinas hold there are exactly two processions in God (Word and Love), and not more or fewer?",
+      "options": [
+        "Because Scripture explicitly counts exactly two names for God",
+        "Because divine processions can only arise from acts that remain entirely within the agent (immanent acts), and in an intellectual nature there are only two such acts, understanding and willing (love); sensation, by contrast, is not a purely immanent operation since it involves being acted upon by an external object",
+        "Because there are only two persons in God according to Aquinas",
+        "Because generation and creation are the only two kinds of divine action"
+      ],
+      "correct": 1,
+      "explanation": "Since only immanent acts (which remain within the agent) can ground processions in God, and intellectual nature has exactly two such acts (understanding and willing), Aquinas concludes there are exactly two processions: the Word (from intellect) and Love (from will)."
+    }
+  ],
+  "P1Q28": [
+    {
+      "q": "Why does Aquinas argue that the relations in God (like paternity and filiation) are real relations, not merely relations of reason?",
+      "options": [
+        "Because all relations everywhere are always merely mental constructs with no reality",
+        "Because when something proceeds from a principle of the same nature (as occurs in the divine processions of Word and Love, both within the one divine nature), the one proceeding and its source share a real relation to one another, unlike relations that exist only in the mind comparing two things (like species to genus)",
+        "Because God explicitly commands us to believe relations are real in Scripture, with no rational basis",
+        "Because relations in God are identical to accidents inhering in a subject, as with creatures"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes real relations (arising when something proceeds from a principle of the same nature, as in the divine processions) from merely logical/mental relations (like comparing species to genus); since the divine processions occur within one same nature, the resulting relations are real."
+    },
+    {
+      "q": "How does Aquinas reconcile real relations in God (paternity, filiation, etc.) with the absolute unity and simplicity of the divine essence?",
+      "options": [
+        "He does not reconcile them; he simply admits a contradiction and moves on",
+        "The real distinction among the relations exists only insofar as they are relative and mutually opposed to one another (paternity opposed to filiation), not according to what is absolute in God (the one, simple divine essence), which remains supremely one and undivided",
+        "By denying that any real distinction exists among the persons",
+        "By claiming that the divine essence itself is composed of separable parts"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas locates real distinction in God only on the side of relative opposition between the relations (e.g., paternity vs. filiation), while the absolute divine essence, in which there is no such opposition, remains supremely one and simple."
+    },
+    {
+      "q": "Why does Aquinas say there are exactly four real relations in God: paternity, filiation, spiration, and procession?",
+      "options": [
+        "Because relations in God must be based on quantity, and there happen to be four quantitative measures in the Trinity",
+        "Because real relation in God can only be grounded in the two immanent processions (of the Word and of Love), and each procession generates two opposite relations (source and the one proceeding): generation yields paternity/filiation, and the procession of love yields spiration/procession",
+        "Because Scripture lists exactly four names for God explicitly",
+        "Because Aquinas is following Aristotle's four causes directly"
+      ],
+      "correct": 1,
+      "explanation": "Since real relations in God arise only from the two immanent processions (intellectual generation and the procession of love), and each procession involves two opposed relational terms (the principle and the one proceeding), there are exactly four real relations: paternity, filiation, spiration, and procession."
+    }
+  ],
+  "P1Q29": [
+    {
+      "q": "According to Aquinas's account (following Boethius), what is the definition of 'person'?",
+      "options": [
+        "Any individual physical body capable of independent movement",
+        "An individual substance of a rational nature (a subsistent individual of a rational nature), applying within the genus of rational substances what 'hypostasis' or 'suppositum' signifies generally within the genus of substance",
+        "A relation existing between two or more beings",
+        "A purely legal or social fiction with no ontological basis"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that 'person' signifies, in the genus of rational substances, what terms like 'hypostasis,' 'subsistence,' and 'thing of nature' signify more generally for any substance: an individual, subsisting rational substance."
+    },
+    {
+      "q": "Why does Aquinas say the term 'person,' though usually meaning an individual substance, can fittingly be applied to God despite God's absolute simplicity?",
+      "options": [
+        "Because 'person' signifies what is most perfect in all nature (a subsistent rational individual), and since every perfection must be attributed to God (whose essence contains all perfection), the term applies to Him, though in a more excellent way than it applies to creatures",
+        "Because 'person' in God means something totally different and unrelated to its ordinary meaning",
+        "Because Aquinas rejects using the term 'person' for God altogether",
+        "Because 'person' in Trinitarian theology refers only to a role or mask, as in ancient drama"
+      ],
+      "correct": 0,
+      "explanation": "Since 'person' signifies what is most perfect in nature (a subsistent rational individual) and every perfection belongs to God pre-eminently, the term is fittingly applied to God, though in a more excellent manner than to creatures, just as other names transferred from creatures to God are."
+    },
+    {
+      "q": "What is the peculiar difficulty Aquinas notes about how the word 'person' functions when applied to the Trinity?",
+      "options": [
+        "That the word 'person' cannot be pluralized in Latin grammar",
+        "That, unlike names that explicitly signify relation (such as 'Father' or 'Son'), the word 'person' itself does not on its face signify relation, yet in the Trinity 'person' must in some sense include or signify the relation that distinguishes each divine person from the others",
+        "That there is no difficulty at all; the term poses no theological complication",
+        "That 'person' can only refer to human beings, never to God"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes the puzzle that 'person' is predicated of the Three as an absolute-sounding term unlike explicitly relative terms (Father, Son), yet since what distinguishes the divine persons is precisely their relations, 'person' in God must somehow signify relation."
+    }
+  ],
+  "P1Q30": [
+    {
+      "q": "Why does Aquinas conclude there are 'several persons' in God?",
+      "options": [
+        "Because Scripture uses the plural form 'Elohim' for God in Hebrew",
+        "Because 'person' signifies a subsisting relation in the divine nature, and since there are several real, subsisting relations in God (as previously established), it follows there are several subsistent realities, i.e., several persons, in God",
+        "Because ancient pagan religions had multiple gods, and Christianity adapted this idea",
+        "Because the divine essence itself is really divided into multiple essences"
+      ],
+      "correct": 1,
+      "explanation": "Since 'person' means a subsisting relation in the divine nature, and Aquinas already established there are several real, distinct relations in God, it follows logically that there are several persons subsisting in the one divine nature."
+    },
+    {
+      "q": "Why does Aquinas argue there are exactly three persons in God, no more and no fewer?",
+      "options": [
+        "Because three is an arbitrary number chosen for symbolic reasons only",
+        "Because there are four real relations (paternity, filiation, spiration, procession), but paternity and filiation, being opposed, ground two distinct persons (Father and Son), while spiration is not opposed to either of these and so belongs to both Father and Son together, leaving procession alone to ground a third distinct person (the Holy Ghost)",
+        "Because Aquinas holds that spiration and procession are actually names for the same single additional person, making four persons total",
+        "Because philosophical reasoning alone, apart from Scripture, proves there must be three persons"
+      ],
+      "correct": 1,
+      "explanation": "Since real distinction among divine relations requires relative opposition, paternity/filiation (opposed) yield the Father and the Son; spiration, not opposed to either, belongs to both Father and Son together; only procession, opposed to spiration, grounds the third person, the Holy Ghost — yielding exactly three persons."
+    },
+    {
+      "q": "When we say 'three persons' in God, what does Aquinas say is NOT implied by the term 'three'?",
+      "options": [
+        "That 'three' does not necessarily correspond to any real distinction in God, per some interpretations Aquinas discusses, though he ultimately affirms real distinction of persons under relative opposition, not a division of the one shared essence",
+        "That there could actually be an infinite number of divine persons",
+        "That the divine persons differ in their degree of power or eternity",
+        "That the persons share nothing at all in common"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas is careful to explain that numbering the persons ('three') does not imply dividing the single divine essence, which remains one and undivided; the plurality concerns the really distinct relations/persons, not a multiplication of the shared, simple divine nature."
+    }
+  ]
+}

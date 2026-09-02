@@ -1,0 +1,77 @@
+{
+  "books": {
+    "B1": {
+      "title": "Book One: God",
+      "bookSummary": "Book One of the Summa Contra Gentiles undertakes to demonstrate truths about God that are attainable by human reason alone, without reliance upon divine revelation. This approach reflects Aquinas's conviction that since non-believers do not accept scriptural authority, the refutation of errors and the establishment of divine truth must proceed through philosophical argumentation accessible to reason. The book systematically establishes God's existence through the classical five ways (the argument from motion, from efficient causation, from possibility and necessity, from degrees of perfection, and from the order of the universe). It then demonstrates God's essential attributes: God's simplicity (freedom from composition), God's perfection and infinity, God's unchangeableness, God's eternality, God's unity, and God's incorporeality and immateriality. Throughout, Aquinas shows how God must be understood as pure actuality (actus purus) without potentiality, and as the ultimate source and ground of all being.",
+      "chapters": {
+        "B1C1": "In what consists the office of a wise man",
+        "B1C2": "The author's intention in this work",
+        "B1C3": "In what way it is possible to make known the divine truth",
+        "B1C4": "That the truth about divine things which is attainable by reason is fittingly proposed to man as an object of belief",
+        "B1C13": "That God is not a body",
+        "B1C14": "That there is no composition of form and matter in God",
+        "B1C16": "That God is not composed of essence and existence",
+        "B1C22": "That God is eternal",
+        "B1C25": "That God is unchangeable",
+        "B1C28": "That God is one",
+        "B1C42": "That God knows all things",
+        "B1C50": "That God's understanding is His substance",
+        "B1C66": "That God is perfect goodness",
+        "B1C75": "That God acts by will"
+      }
+    },
+    "B2": {
+      "title": "Book Two: Creation",
+      "bookSummary": "Book Two examines God's creative activity and the nature of creation. Aquinas establishes that creation—the production of beings from non-being—manifests God's power and is not contrary to reason. The book analyzes what it means for God to create and sustains that creation is a free act of God's will, not a necessary emanation. It then investigates the nature of creatures themselves: how all creatures possess being participated from God (who alone is Being subsisting), how creatures are constituted of essence and existence, how they possess reality and goodness even as dependent beings. The work treats extensively the different orders of creation: the nature of angels (spiritual creatures), the material universe including the celestial bodies, and finally human beings as composites of body and soul. Special attention is given to human nature: the rational soul as the substantial form of the body, the intellect's capacity to know all things, and the will's orientation toward good. The book also addresses the freedom of human choice and how divine foreknowledge is compatible with human freedom.",
+      "chapters": {
+        "B2C1": "What it is befitting for God to make something besides Himself",
+        "B2C6": "That to create is the proper work of God alone",
+        "B2C8": "That creatures are distinguished from God by the fact that they are creatures",
+        "B2C15": "That all creatures partake of the divine goodness",
+        "B2C19": "That there must be a distinction of things",
+        "B2C23": "That the angels are incorporeal substances",
+        "B2C45": "Of the nature and properties of the human soul",
+        "B2C56": "That the human intellect can understand the universal nature of things",
+        "B2C60": "That the human will is free",
+        "B2C80": "That divine foreknowledge and predestination are not contrary to freedom of human choice"
+      }
+    },
+    "B3": {
+      "title": "Book Three: Providence and Divine Governance",
+      "bookSummary": "Book Three treats God's providential governance of creation and the principles of human conduct and virtue. Having established what God is and what God creates, Aquinas now addresses how all things are directed toward God as their ultimate end. Divine providence is shown to be necessary: God must govern and direct all creatures toward their proper ends, and this governance is exercised through particular providence concerning individual creatures and acts. The work then systematically expounds the virtues as the means by which humans achieve their ultimate end (beatitude, or union with God). It covers the cardinal virtues (prudence, temperance, fortitude, and justice) and theological virtues (faith, hope, and charity), explaining how these virtues perfect human faculties and direct human conduct toward the good. A substantial portion addresses the natural law—the divine reason governing all creatures, apprehended by humans through reason—and the eternal law as the source of all particular laws. The book also treats vice and sin as departures from the natural law and divine governance, and explains how grace perfects and elevates nature toward the supernatural end.",
+      "chapters": {
+        "B3C1": "The end of everything",
+        "B3C2": "How things are ordered to their end",
+        "B3C17": "That all things are subject to divine providence",
+        "B3C21": "Of divine love",
+        "B3C25": "That man's ultimate felicity consists in the knowledge of God",
+        "B3C37": "That human felicity does not consist in bodily pleasures",
+        "B3C48": "That man is ordered to a higher end",
+        "B3C116": "Of the natural law",
+        "B3C122": "Of the eternal law",
+        "B3C129": "Of virtue and vice",
+        "B3C133": "Of the cardinal virtues",
+        "B3C150": "Of the theological virtues",
+        "B3C160": "Of grace"
+      }
+    },
+    "B4": {
+      "title": "Book Four: Salvation and Christ",
+      "bookSummary": "Book Four addresses God's plan for human salvation through Christ and the sacraments, completing the arc of Aquinas's philosophical theology. Having demonstrated through reason alone what can be known of God, creation, and divine governance, Aquinas now addresses truths that exceed reason and depend upon Christian revelation: the mystery of the Incarnation and the redemptive work of Christ. The book establishes that the Incarnation—God's assumption of human nature in the person of the divine Word—is fitting and necessary for human salvation. It demonstrates how Christ, as both God and man, is the perfect mediator between God and humanity, whose passion and death accomplish the redemption of mankind. Christ's sacrifice is shown to have infinite value because offered by a divine person, and thus capable of satisfying for the sins of all. The work then addresses the principal means by which Christ's redemptive grace is communicated to believers: the sacraments, especially Baptism (the gateway to salvation) and the Eucharist (the perpetuation of Christ's sacrifice and nourishment of the faithful). Special attention is given to the Incarnate Word's wisdom and power, and how Christ serves as the exemplar and principal cause of grace in the Church.",
+      "chapters": {
+        "B4C1": "That the incarnation was necessary",
+        "B4C27": "That the Son of God assumed a true body",
+        "B4C41": "That the Word Incarnate was subject to suffering",
+        "B4C53": "That the passion of Christ was a sacrifice",
+        "B4C63": "How the passion of Christ produces its effect",
+        "B4C68": "The resurrection of Christ",
+        "B4C73": "The ascension of Christ",
+        "B4C76": "Of the sacraments in general",
+        "B4C80": "Of baptism",
+        "B4C87": "Of the Eucharist",
+        "B4C98": "Of penance",
+        "B4C110": "The offices and states of the Church"
+      }
+    }
+  }
+}

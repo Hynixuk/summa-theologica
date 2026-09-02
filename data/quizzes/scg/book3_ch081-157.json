@@ -1,0 +1,1052 @@
+{
+ "B3C82": [
+  {
+   "q": "According to Aquinas, why are lower bodies ruled by the heavenly bodies?",
+   "options": [
+    "Because heavenly bodies are perfect without contrariety and thus more universal in power, and universal powers move particular powers",
+    "Because heavenly bodies are composed of the four elements in perfect balance",
+    "Because heavenly bodies are alive and therefore superior to inanimate lower bodies",
+    "Because lower bodies have no natural motion of their own"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas argues heavenly bodies, being free of contrariety (neither hot/cold, light/heavy), have more universal power, and universal powers move particular powers, so the heavens govern lower bodies."
+  },
+  {
+   "q": "Why does Aquinas say local (especially circular) movement is the first among all movements?",
+   "options": [
+    "Because it is the fastest of all movements",
+    "Because it alone can be everlasting, precedes alteration in nature, and returns to its own principle in perfect simplicity",
+    "Because it was the first movement mentioned in Genesis",
+    "Because only rational creatures can produce it"
+   ],
+   "correct": 1,
+   "explanation": "He argues circular movement is first in time (alone everlasting), in nature (alteration presupposes local motion), and in perfection (it returns to its starting principle)."
+  },
+  {
+   "q": "What is the ultimate conclusion of chapter 82 regarding governance of the physical world?",
+   "options": [
+    "The heavenly bodies act as independent gods governing the earth",
+    "Lower bodies are governed by God through the mediation of the heavenly bodies",
+    "There is no order between heavenly and earthly bodies",
+    "Earthly bodies govern the heavenly bodies through their density"
+   ],
+   "correct": 1,
+   "explanation": "The chapter concludes that the lower bodies are governed by God by means of the heavenly bodies, consistent with providence acting through an ordered hierarchy of causes."
+  }
+ ],
+ "B3C83": [
+  {
+   "q": "How does chapter 83 summarize the two aspects of God's governance established so far?",
+   "options": [
+    "God governs by design entirely through angels, never directly",
+    "As to the design of order, God governs all things by Himself directly; as to execution, He governs lower things by means of higher things",
+    "God only governs spiritual things directly and abandons bodies to chance",
+    "God governs the design of order through the heavens but executes all effects Himself"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes: God alone conceives and designs the order of providence, but in executing it He works through higher creatures governing lower ones (spirits over bodies, higher spirits over lower, higher bodies over lower)."
+  },
+  {
+   "q": "Which authority does the chapter cite to support the claim that God governs corporeal things by means of invisible/spiritual creatures?",
+   "options": [
+    "Aristotle's Physics",
+    "Gregory's Dialogues, stating nothing visible can be ruled except by means of the invisible creature",
+    "Ptolemy's Centiloquium",
+    "Augustine's Confessions"
+   ],
+   "correct": 1,
+   "explanation": "Gregory (Dial. iv. 6) is quoted: 'In this visible world nothing can be ruled except by means of the invisible creature.'"
+  },
+  {
+   "q": "According to Augustine as quoted in this chapter, what is the complete hierarchy of rule over bodies and spirits?",
+   "options": [
+    "All beings are ruled equally with no hierarchy",
+    "Grosser bodies are ruled by subtler bodies, all bodies by the rational spirit of life, and the sinful rational spirit by the righteous rational spirit",
+    "Only bodies are ruled; spirits are autonomous",
+    "The righteous spirit is ruled by the sinful spirit until judgment"
+   ],
+   "correct": 1,
+   "explanation": "Augustine's quoted text lays out a chain: grosser bodies ruled by subtler/more powerful bodies, all bodies ruled by the rational spirit of life, and the sinful rational spirit ruled by the righteous rational spirit."
+  }
+ ],
+ "B3C84": [
+  {
+   "q": "What is Aquinas's central claim in chapter 84 about the heavenly bodies and the intellect?",
+   "options": [
+    "Heavenly bodies directly cause and control our intellectual operations",
+    "Heavenly bodies cannot directly impress or cause anything in our intellect, since intellect surpasses all bodies and is not moved through corporeal movement",
+    "Heavenly bodies have no relation whatsoever to human beings",
+    "The intellect is itself a heavenly body"
+   ],
+   "correct": 1,
+   "explanation": "Since intellect ranks above all bodies and bodies act only through movement while intellectual operation is outside movement, heavenly bodies cannot be the direct cause of anything pertaining to the intellect."
+  },
+  {
+   "q": "How, according to Aquinas, can heavenly bodies indirectly affect the operation of the intellect?",
+   "options": [
+    "By directly infusing intelligible species into the mind",
+    "By disposing the body (through imagination, memory, and bodily temperament) in ways that facilitate or hinder the intellect's operation, since the intellect depends on these powers in this life",
+    "Through astrological determinism that fixes all human thought",
+    "They cannot affect the intellect in any way, directly or indirectly"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas allows that since intellectual operation in this life requires imagination and bodily powers, and these are subject to bodily disposition (which heavenly bodies influence), the heavens can indirectly help or hinder understanding."
+  },
+  {
+   "q": "Which ancient view does Aquinas reject as the source of the error that heavenly bodies cause our knowledge directly?",
+   "options": [
+    "The Platonic doctrine of Forms",
+    "The view of Democritus, Empedocles, and others who held that intellect does not differ from sense, making thought merely another corporeal transmutation",
+    "Aristotle's doctrine of the active intellect",
+    "The Christian doctrine of the soul's immortality"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas traces the error to ancient natural philosophers who conflated intellect with sense, thereby making intellectual knowledge (like sensation) subject to corporeal causation, including the heavens."
+  }
+ ],
+ "B3C85": [
+  {
+   "q": "What is Aquinas's main argument that heavenly bodies do not cause our willing and choosing?",
+   "options": [
+    "Since the will resides in the intellective part of the soul and heavenly bodies cannot directly impress the intellect, they cannot directly move the will either",
+    "The will is a purely bodily faculty entirely subject to celestial influence",
+    "Human choice is random and has no cause at all",
+    "The heavens have no power over any earthly things"
+   ],
+   "correct": 0,
+   "explanation": "Because choice/will follows intellectual apprehension of the good, and heavenly bodies cannot directly affect intellect, they equally cannot directly cause an act of will or choice."
+  },
+  {
+   "q": "Why does Aquinas argue that human choice cannot come 'naturally' from the stars, using the analogy of virtue and vice?",
+   "options": [
+    "Because virtues and vices are innate and unchangeable from birth",
+    "Because civic virtues and vices arise from habituation, not from nature, showing that choice is not simply a natural, uniform effect like animal instinct",
+    "Because virtue is caused directly by planetary alignment at birth",
+    "Because vice is impossible for rational creatures"
+   ],
+   "correct": 1,
+   "explanation": "Following Aristotle, Aquinas notes virtues and vices come from habituation rather than nature; if choice were natural (caused by the stars), all men would choose alike, which is plainly false."
+  },
+  {
+   "q": "How does Aquinas qualify his conclusion about celestial influence on choice?",
+   "options": [
+    "Heavenly bodies have absolutely zero influence on human beings in any respect",
+    "While the heavens cannot be the direct cause of choice, they can indirectly occasion it by affecting bodily passions and dispositions, which reason can still resist",
+    "Heavenly bodies fully determine choice in the wise but not in fools",
+    "Choice is entirely independent of the body in every way"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas allows an indirect influence: celestial impressions on the body can stir passions (e.g., the bilious are prone to anger) that occasion certain choices, but reason remains free to resist these promptings."
+  }
+ ],
+ "B3C86": [
+  {
+   "q": "What does Aquinas conclude about whether corporeal effects here below follow necessarily from the heavenly bodies?",
+   "options": [
+    "All earthly effects follow the heavens with strict necessity, leaving no contingency",
+    "Earthly effects do not follow of necessity from the heavens because they are received in fluctuating, contingent matter and the proximate causes are themselves contingent",
+    "The heavens have no causal influence whatsoever on earthly bodies",
+    "Necessity applies only to living things, not to inanimate matter"
+   ],
+   "correct": 1,
+   "explanation": "Since matter here below is changeable and proximate causes are contingent (a necessary remote cause with a contingent middle cause yields a contingent conclusion), celestial effects on earth are not necessary but contingent."
+  },
+  {
+   "q": "How does Aquinas respond to Avicenna's argument that any hindrance to a heavenly effect must itself derive from a heavenly cause, making the total system necessary?",
+   "options": [
+    "He agrees fully with Avicenna's conclusion",
+    "He follows Aristotle in denying that every cause necessitates its effect and that everything, including accidental conjunctions, has a per se cause; accidental hindrances need not be traced to a determinate heavenly cause",
+    "He claims heavenly bodies do not exist",
+    "He argues that hindrances always come from angels, not chance"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas invokes Aristotle's solution: not every per se cause necessitates its effect (it can be impeded), and accidental combinations of events have no per se cause, so the accidental hindrance cannot be traced to a single heavenly principle."
+  },
+  {
+   "q": "What distinction does Aquinas draw regarding two senses of 'possible' in this chapter?",
+   "options": [
+    "There is no meaningful distinction between kinds of possibility",
+    "One sense of possible simply follows from what is necessary (what must be, can be); the other sense is contrary to necessity, meaning a thing might not happen because it does not follow necessarily from its cause",
+    "Possibility only applies to human choices, never to physical events",
+    "'Possible' and 'necessary' are simply synonyms in Aristotelian logic"
+   ],
+   "correct": 1,
+   "explanation": "He distinguishes the possible that follows necessary being (trivially true) from the contingent/possible that is opposed to necessity, where a thing need not occur because it does not follow necessarily from its cause."
+  }
+ ],
+ "B3C87": [
+  {
+   "q": "What position of Avicenna does Aquinas refute in this chapter?",
+   "options": [
+    "That the heavens have no soul at all",
+    "That the heavenly bodies, being animate, cause our choice directly and per se through the movement proceeding from their soul, not merely by occasioning it",
+    "That the human soul is identical to the heavenly soul",
+    "That choice is entirely random and uncaused"
+   ],
+   "correct": 1,
+   "explanation": "Avicenna held the heaven is animate and that its soul's movement is a per se (not merely occasional) cause of our will and choice; Aquinas argues this is impossible."
+  },
+  {
+   "q": "What is Aquinas's key argument against a heavenly soul directly moving our intellect and will through celestial movement?",
+   "options": [
+    "An effect produced through an instrument must be proportionate to that instrument's power, but impressing intellect or will is entirely beyond the scope of bodily movement as an instrument",
+    "Souls cannot move bodies under any circumstances",
+    "The heavens have no movement of any kind",
+    "Human will is itself a heavenly body"
+   ],
+   "correct": 0,
+   "explanation": "Since any instrumental effect must be proportionate to the instrument, and bodily movement (the heaven's instrument) is wholly outside the scope of affecting immaterial intellect and will, a heavenly soul cannot use its movement to directly cause our choice."
+  },
+  {
+   "q": "By what route does Aquinas allow that a heavenly soul's action (if the heaven even has a soul) could reach our soul?",
+   "options": [
+    "Directly and immediately, bypassing the body entirely",
+    "Only indirectly, through a change wrought in our own body, since mover and moved must be connected in due order and our body is nearer to the heavens than our soul is",
+    "Only through the mediation of other human souls",
+    "It cannot reach our soul in any way, even indirectly"
+   ],
+   "correct": 1,
+   "explanation": "Since our body is closer to the heavenly body than our soul is, any impression from a heaven's soul would have to pass through our body first, thus only occasioning rather than directly causing choice."
+  }
+ ],
+ "B3C88": [
+  {
+   "q": "What does Aquinas conclude about which substances can directly cause our acts of willing and choosing?",
+   "options": [
+    "Angels can directly cause our choices whenever they wish",
+    "No created substance, only God, can directly move the will as an efficient cause; created substances can only move it by persuasion, presenting the good to the intellect",
+    "Heavenly bodies can directly move the will if they are animate",
+    "Human beings can never truly choose; all choice is illusory"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that since the will is moved by the good understood as by its proper object, created substances can only 'move' the will by persuasion (showing something as good), while God alone can move the will efficiently as its cause."
+  },
+  {
+   "q": "Why does Aquinas say that if the will were moved by an external created agent (not God), the movement would be 'violent'?",
+   "options": [
+    "Because violence requires physical force, which cannot apply to spiritual things",
+    "Because a violent movement is one whose principle is external and to which the patient contributes nothing, but voluntary movement must come from within, and only God is united to the soul in its innermost being as the cause of its very existence",
+    "Because all movement is inherently violent according to Aristotle",
+    "Because the will lacks any principle of movement whatsoever"
+   ],
+   "correct": 1,
+   "explanation": "Since violent motion has an external principle to which the subject contributes nothing, and this is opposed to voluntary motion, only God—who alone sustains the soul's very being—can move the will without violence."
+  },
+  {
+   "q": "What scriptural text does Aquinas cite to support that God alone moves the will?",
+   "options": [
+    "Genesis 1:1",
+    "Proverbs 21:1, 'The heart of the King is in the hand of the Lord, whithersoever He will He shall turn it'",
+    "Psalm 23",
+    "The Book of Revelation"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas quotes Proverbs 21:1 and Philippians 2:13 ('It is God who worketh in us both to will and to accomplish') to support that God alone moves the will."
+  }
+ ],
+ "B3C89": [
+  {
+   "q": "What false exposition of divine causality does Aquinas refute in chapter 89, attributed partly to Origen?",
+   "options": [
+    "That God causes both our power to will and our very act of willing this or that",
+    "That God only causes in us the power to will, but not the willing of this or that particular thing, in order to safeguard free will",
+    "That God has no relation whatsoever to the will",
+    "That the will is entirely self-caused with no dependence on God"
+   ],
+   "correct": 1,
+   "explanation": "Origen and others held God causes only the faculty of willing, not the particular act, to preserve free will; Aquinas argues Scripture and reason show God causes both the power and the act of willing."
+  },
+  {
+   "q": "How does Aquinas use the analogy of the craftsman and instrument to argue that God causes our very act of willing?",
+   "options": [
+    "The analogy shows tools have no relation to craftsmen at all",
+    "Just as an instrument acts by the power of the craftsman who applies it (even without receiving its form from him), so man acts by God's power, making God the cause not just of the will's power but of its act",
+    "The analogy proves that God is merely a distant observer of human action",
+    "Craftsmen never really cause the actions of their tools"
+   ],
+   "correct": 1,
+   "explanation": "Since nothing acts by its own power without acting by God's power (established earlier), man's willing is like an instrument's action, and the one whose power the instrument acts by is cause of both the power and the act."
+  },
+  {
+   "q": "What argument from Aristotle's Eudemian Ethics does Aquinas cite in support of God causing the movements of the will?",
+   "options": [
+    "That all human acts are randomly generated with no first cause",
+    "That there must be some cause of understanding, taking counsel, choosing and willing, and since an infinite regress of prior acts of will is impossible, there must be a first cause better than reason itself, namely God",
+    "That the will is self-explanatory and needs no external cause",
+    "That animals and humans share an identical source of willing"
+   ],
+   "correct": 1,
+   "explanation": "Aristotle argues every new act of will/counsel needs a cause; since we cannot regress infinitely through prior acts of will, there must be a first mover superior to reason itself, which is God."
+  }
+ ],
+ "B3C90": [
+  {
+   "q": "What is the main conclusion of chapter 90?",
+   "options": [
+    "Human choice and will are exempt from divine providence since they are free",
+    "Human choice and will, precisely because God causes them, are themselves subject to divine providence",
+    "Only bodily things are subject to providence, never spiritual acts",
+    "Providence governs the heavens but stops short of intellectual creatures"
+   ],
+   "correct": 1,
+   "explanation": "Since God is the cause of our choice and will (established in prior chapters), and whatever God does He does according to the order of His providence, human choice and will fall under divine providence."
+  },
+  {
+   "q": "How does Aquinas argue from the 'order of the universe' that higher (intellectual) beings must be even more subject to providence than lower corporeal beings?",
+   "options": [
+    "Higher beings are excluded from providence precisely because of their dignity",
+    "The higher a thing's place in the universe, the more it must participate in the order constituting the universe's good, so if even bodies are included in providential order, intellectual substances—being higher—are included even more so",
+    "Providence only concerns things that lack free will, so intellectual beings are naturally excluded",
+    "Corporeal things are entirely outside providence, unlike intellectual beings"
+   ],
+   "correct": 1,
+   "explanation": "Since even the lower corporeal order is not left to mere chance (contra ancient philosophers), and higher things participate more fully in the universe's order, intellectual substances' acts are all the more subject to providence."
+  },
+  {
+   "q": "How does Aquinas interpret scriptural passages suggesting man is 'left in the hand of his own counsel' (Ecclus. 15:14)?",
+   "options": [
+    "As proof that providence does not extend to human choice at all",
+    "As indicating that man has free will, not that his choice is withdrawn from divine providence",
+    "As a later scribal error that should be disregarded",
+    "As referring only to angels, not to human beings"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains these texts affirm human free will but do not mean choice escapes providence—God causes and knows our free choices without negating their freedom or His governance."
+  }
+ ],
+ "B3C91": [
+  {
+   "q": "What general principle does Aquinas use to explain why human affairs (choice, intellect, body) must be referred to higher governing causes?",
+   "options": [
+    "Anything multiform, changeable, and defectible must be traced back to a principle that is uniform, unchangeable, and indefectible",
+    "Human affairs have no need of any higher governing cause",
+    "Only bodily things need higher causes; spiritual acts are self-sufficient",
+    "Chance alone governs human affairs, with no higher reference point"
+   ],
+   "correct": 0,
+   "explanation": "Because our choices, intellect, and bodily conditions are all multiform, changeable, and defectible, they must be referred to something uniform, unchangeable, and indefectible—will to God, intellect to angels, body to the heavens."
+  },
+  {
+   "q": "According to this chapter, to what respective higher causes are (1) our will/choice, (2) our intellect, and (3) our body referred?",
+   "options": [
+    "All three are referred solely to the heavenly bodies",
+    "Will/choice to God directly; intellectual knowledge to angelic illumination; bodily/external things to the heavenly bodies (and angels)",
+    "Will/choice to angels; intellect to God; body to no cause at all",
+    "All three are governed equally and interchangeably by angels alone"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas assigns choice and will to God's immediate governance, intellectual knowledge to angelic mediation, and bodily/external matters to governance by angels and heavenly bodies."
+  },
+  {
+   "q": "Why is angelic cognition described as uniform, unchangeable, and indefectible compared to human intellection?",
+   "options": [
+    "Angels lack any real knowledge and simply guess correctly",
+    "Angels receive knowledge from the one fount of truth (God) by simple intuition of the natures of things, rather than by discursive reasoning from sense and imagination as humans do",
+    "Angels' knowledge changes constantly, unlike human knowledge",
+    "There is no real difference between angelic and human cognition"
+   ],
+   "correct": 1,
+   "explanation": "Unlike humans, who reason discursively and can err through reliance on imagination and sense, angels know truth by simple, direct intuition drawn from God, making their knowledge uniform, unchangeable, and indefectible."
+  }
+ ],
+ "B3C92": [
+  {
+   "q": "How does Aquinas define being 'fortunate' or having 'good luck' in this chapter?",
+   "options": [
+    "When something good happens to a person by their own careful planning and intention",
+    "When something good happens to a person beside his own intention, yet is not beside the intention of a higher cause that ordered things toward that end (like a master's larger plan for two servants)",
+    "When a person receives wealth through skillful labor alone",
+    "Fortune has no relation to intention at all, on any level"
+   ],
+   "correct": 1,
+   "explanation": "Using the analogy of a master sending two servants unknowingly to the same place, Aquinas explains that what is unintended relative to man may still be intended relative to a higher governing cause (angel, heaven, or God)."
+  },
+  {
+   "q": "What key difference does Aquinas draw between the assistance of angels/heavenly bodies and the assistance of God in disposing a person's choice?",
+   "options": [
+    "There is no difference; all three causes act identically",
+    "Angelic and celestial influence merely dispose a person toward a choice (and can be resisted or fail), while God's operation actually gives completion/effect to the choice and never fails",
+    "Angels always guarantee the choice will be made; God merely suggests it",
+    "Heavenly bodies alone guarantee successful choices, unlike angels or God"
+   ],
+   "correct": 1,
+   "explanation": "Since angelic and celestial influence work by disposition (through persuasion or bodily passion) which can fail, while God's action reaches to completing the will's act itself, only divine providence never fails, whereas guardianship of angels or stellar influence can be frustrated."
+  },
+  {
+   "q": "Why can a man never be said to be fortunate 'in every possible way' through the influence of a single heavenly body, according to Aquinas?",
+   "options": [
+    "Because heavenly bodies have unlimited power to direct all human affairs to one goal",
+    "Because natural causes are directed to one determinate effect, but the things in which a man can be fortunate are indeterminate and infinite in number, unlike divine causality, which as intelligent can direct many diverse things to one end",
+    "Because fortune does not exist in any real sense",
+    "Because only rational choice can ever produce good fortune"
+   ],
+   "correct": 1,
+   "explanation": "Since a natural agent (like a star) is limited to producing one kind of effect, and lucky events are indefinitely varied, a heavenly body cannot be the per se cause of a person's good fortune across every domain, unlike God who as an intelligent director can order many different things to one end."
+  }
+ ],
+ "B3C93": [
+  {
+   "q": "How does Aquinas, following Boethius, define fate in a manner acceptable to the faith?",
+   "options": [
+    "Fate is the fixed and inescapable power of the stars over all human events",
+    "Fate is a disposition inherent in changeable things, by which providence connects each thing with its proper order — essentially providence as already impressed upon and expressed in created things",
+    "Fate does not exist under any definition whatsoever",
+    "Fate is identical with random chance and has nothing to do with providence"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas cites Boethius's definition: fate is the order of providence as already impressed on changeable things, distinguished from providence as it exists eternally in the divine mind."
+  },
+  {
+   "q": "What error about fate does Aquinas explicitly reject as 'impossible and contrary to faith'?",
+   "options": [
+    "The Boethian view that fate is providence expressed in things",
+    "The view that all contingent occurrences, including human elections, are subject to the causality of the stars, which some called fate",
+    "The view that God's providence includes contingent events",
+    "The claim that fate is simply another name for chance"
+   ],
+   "correct": 1,
+   "explanation": "He rejects the astrological view (attributed partly to figures like Albumasar) that all events, including human choices, are governed by stellar causality, since this was refuted earlier regarding heavenly bodies and choice."
+  },
+  {
+   "q": "Why does Aquinas caution the faithful against using the word 'fate' even in its acceptable sense?",
+   "options": [
+    "Because 'fate' is a forbidden word in Scripture itself",
+    "Because using the same term as unbelievers who mean something false by it risks leading people into error, even though the underlying reality (providence's order in things) can be correctly named 'fate' by some like Augustine",
+    "Because fate and providence are entirely unrelated concepts",
+    "Because the word 'fate' has no Latin equivalent"
+   ],
+   "correct": 1,
+   "explanation": "Quoting Augustine ('let him keep his opinion but hold his tongue') and Gregory, Aquinas advises avoiding the term lest the faithful seem to agree with those who subject all things to the stars, even if a correct sense of 'fate' as providence's order is possible."
+  }
+ ],
+ "B3C94": [
+  {
+   "q": "What apparent dilemma does chapter 94 address regarding divine providence?",
+   "options": [
+    "Whether God exists at all",
+    "Whether providence is uncertain, or whether all things must happen of necessity, given that providence supposedly extends to contingent events",
+    "Whether angels have free will",
+    "Whether the heavens are eternal"
+   ],
+   "correct": 1,
+   "explanation": "The chapter tackles the objection (from arguments like Aristotle's chain of per se causes, and Cicero's argument on fate) that if providence is certain and covers all events, then either it must fail sometimes or everything must happen necessarily, threatening contingency and free will."
+  },
+  {
+   "q": "How does Aquinas resolve the tension between providence's certainty and the contingency of events?",
+   "options": [
+    "By denying that God has genuine providence over contingent events",
+    "By distinguishing that divine providence is the per se cause not merely that an effect occurs, but that it occurs in the mode (necessary or contingent) that God has ordained; thus providence infallibly produces contingent effects contingently",
+    "By claiming all events are actually necessary despite appearances",
+    "By asserting that providence only concerns necessary things, ignoring contingent ones entirely"
+   ],
+   "correct": 1,
+   "explanation": "God, as universal cause, ordains some effects to occur necessarily and others contingently by fitting them with necessary or contingent proximate causes; so providence's certainty guarantees that the contingent event will happen contingently, not necessarily."
+  },
+  {
+   "q": "What point does Aquinas make about the difference between a particular agent's intention and the universal agent's (God's) intention regarding defects and imperfections in the world?",
+   "options": [
+    "Defects are always contrary to God's intention just as they are contrary to the particular agent's intention",
+    "A particular agent intends the greatest good of its own effect, while the universal agent (God) intends the good of the whole, so what is a defect from the particular agent's viewpoint (e.g., corruption, the generation of a female) can fall within the universal intention that orders the whole for the good of the universe",
+    "God has no intention regarding imperfection since He is perfect",
+    "Particular and universal agents always share exactly the same intention"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that the whole's good requires diversity of parts (some necessary, some contingent, some corruptible); what seems a mere defect to the particular nature serves the universal order intended by God for the good of the whole."
+  }
+ ],
+ "B3C95": [
+  {
+   "q": "According to Aquinas, what is the real reason prayer is useful, given that divine providence is unchangeable?",
+   "options": [
+    "Prayer changes God's eternal will and forces Him to alter His plan",
+    "We do not pray to change God's unchangeable providence, but pray so that God, according to His goodness, grants our desires, since our prayers themselves are included within the order of providence as one of its causes",
+    "Prayer is useless since providence is already fixed and nothing we do matters",
+    "God is obligated by justice, not goodness, to answer every prayer exactly as asked"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues prayer does not alter God's eternal, unchangeable ordinance; rather, God's goodness has included the prayers of the rational creature within the very causal order by which certain effects are brought about."
+  },
+  {
+   "q": "Why does Aquinas say some prayers are not granted by God, even from devout people?",
+   "options": [
+    "Because God is capricious and arbitrary in answering prayer",
+    "Because sometimes what is requested is only apparently good and actually evil, or the request lacks persistence, proper disposition, or friendship with God, or God knows withholding it is better for the petitioner (as with Paul's 'thorn in the flesh')",
+    "Because God cannot hear prayers that are not spoken aloud",
+    "Because only priests' prayers are ever heard by God"
+   ],
+   "correct": 1,
+   "explanation": "He explains various reasons prayers go unanswered: the object sought is not a true good, the prayer lacks perseverance or right disposition, or (as with Paul's thorn) God in His goodness withholds something harmful for a greater good."
+  },
+  {
+   "q": "How does Aquinas refute both the view that prayer is entirely fruitless and the view that prayer changes God's eternal ordinance?",
+   "options": [
+    "He affirms both extremes are correct simultaneously",
+    "He shows both errors stem from failing to distinguish the universal order (which cannot be changed, since nothing is outside it) from particular orders (which can be altered by a higher cause, i.e., God, without violating the universal order); prayer's effect is included within, not opposed to, providence",
+    "He denies that any distinction between universal and particular order is possible",
+    "He says prayer only affects human affairs, never natural events"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues the error in both extremes (Epicureans/Stoics denying prayer's fruit, and those like the Egyptians thinking fate/providence itself changes) comes from not distinguishing the unchangeable universal order from particular orders, which God, being above all causes, can adjust through prayer without altering His eternal plan."
+  }
+ ],
+ "B3C96": [
+  {
+   "q": "What does chapter 96 (a restatement of the argument on prayer) identify as essential to why God, out of goodness, fulfills the pious desires expressed in prayer?",
+   "options": [
+    "God is compelled by external necessity to answer every prayer",
+    "Since all things naturally desire the good and it belongs to divine goodness to grant being and well-being in due order, God fittingly fulfills the pious desires expressed in prayer as an effect befitting His goodness, not as though our prayers changed Him",
+    "Prayer functions like a magical incantation which forces divine compliance",
+    "Only prayers made in Latin have any efficacy before God"
+   ],
+   "correct": 1,
+   "explanation": "As in chapter 95, Aquinas grounds the fittingness of answered prayer in divine goodness bestowing being and well-being, not in any change wrought in God by our petitions."
+  },
+  {
+   "q": "Which biblical example does Aquinas use to show that God sometimes 'repents' or seems to change His sentence without His eternal will actually changing?",
+   "options": [
+    "The story of Job's afflictions",
+    "The case of Ezechias (Hezekiah), whose life was extended fifteen years after his prayer, following Isaiah's earlier pronouncement of his death",
+    "The parting of the Red Sea",
+    "The temptation of Christ in the desert"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas cites Isaiah 38, where Isaiah first tells Ezechias he will die, but after his prayer God extends his life by fifteen years, illustrating a change in the order of lower causes (God's 'sentence') without change in His eternal decree."
+  },
+  {
+   "q": "What does the phrase 'friends have but one will' explain in the context of this chapter's argument for the efficacy of prayer?",
+   "options": [
+    "That friendship is irrelevant to why God answers prayer",
+    "That because God loves the rational creature as befits true friendship, He wills to fulfill that creature's rightly-ordered desires, expressed through prayer, as a friend wills the good desired by the beloved",
+    "That God has no real friends among human beings",
+    "That friendship means always granting every request without discernment"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas appeals to the nature of friendship — that a friend wills the fulfillment of the beloved's desire — to explain why God, who loves the rational creature, is disposed to grant its rightly-ordered prayers."
+  }
+ ],
+ "B3C97": [
+  {
+   "q": "Why, according to Aquinas, must there be diversity among created things rather than one single perfect creature?",
+   "options": [
+    "Because matter is inherently chaotic and resists unity",
+    "Because no single created substance can perfectly represent the infinite divine goodness, so diversity of kinds allows the divine likeness to be represented more fully in many ways, as many words are needed to express one idea",
+    "Because God grew tired of making only one kind of thing",
+    "Because diversity is an accident of creation with no purpose"
+   ],
+   "correct": 1,
+   "explanation": "Since every creature falls short of divine perfection, diversity of forms allows what cannot be represented perfectly by one thing to be represented more fully by many different kinds of things."
+  },
+  {
+   "q": "How does Aquinas explain the ultimate ground of the 'reason' behind providence's ordering of things, in relation to God's will?",
+   "options": [
+    "The reasons for things are entirely independent of God's will and bind Him externally",
+    "The order has genuine reasons (rooted in diversity of forms serving God's goodness), but this reasoned order itself presupposes and depends on God's free will choosing to communicate His goodness in this way",
+    "God acts with absolutely no reason, by sheer arbitrary whim, as the Islamic theologians held",
+    "The order of things is necessitated with no room for God's free choice at all"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas holds a middle position: providence's dispensations follow an intelligible reason, but that entire reasoned order rests upon God's free will to communicate His goodness through diversity, refuting both pure voluntarism and rigid necessitarianism."
+  },
+  {
+   "q": "What two errors does Aquinas refute at the end of chapter 97?",
+   "options": [
+    "The error that God does not exist, and the error that creation is eternal",
+    "The error (of some Islamic theologians) that everything results from God's will with no reason at all, and the error that the order of causes proceeds from providence by strict necessity",
+    "The error that angels exist, and the error that miracles are impossible",
+    "The error that matter is evil, and the error that form is illusory"
+   ],
+   "correct": 1,
+   "explanation": "He rejects both the view that fire heats only because God arbitrarily wills it with no underlying reason, and the opposite view that the causal order flows from providence with strict necessity."
+  }
+ ],
+ "B3C98": [
+  {
+   "q": "What distinction does Aquinas draw regarding whether God can act outside the order of providence?",
+   "options": [
+    "God can never act outside any order under any consideration",
+    "Considering the order with respect to the things subject to it, God's power is not bound to it and can do otherwise; but considering the order with respect to its reason (rooted in God's unchangeable knowledge and will), God cannot do anything outside it",
+    "God is entirely bound by natural necessity in everything He does",
+    "There is no meaningful distinction; God's providence is simply arbitrary"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes: as to the things ordered, God's absolute power is not restricted to this order (He could have made another); but as to the very reason of the order (flowing from His unchangeable will and knowledge), God cannot do otherwise than what is eternally contained in His providence."
+  },
+  {
+   "q": "What analogy does Aquinas use to illustrate the nested structure of particular orders within the universal order?",
+   "options": [
+    "The analogy of waves in the ocean",
+    "The analogy of civil society: households under heads of households, heads of households under city governors, and governors under the king",
+    "The analogy of a tree's roots and branches",
+    "The analogy of musical harmony"
+   ],
+   "correct": 1,
+   "explanation": "He compares it to civil governance, where household order is subordinate to city government, which is subordinate to the kingdom's order, illustrating how particular orders nest within and are subordinate to the universal order under God."
+  },
+  {
+   "q": "Which two errors does Aquinas warn against regarding the unchangeableness of divine providence?",
+   "options": [
+    "Neither error is discussed in this chapter",
+    "Extending the order's unchangeableness to require that all things must be exactly as they are (denying God could do otherwise), and conversely, projecting human inconstancy onto God by supposing His providence itself changes",
+    "The error that God has no providence at all, and the error that angels control providence",
+    "The error that miracles are common, and the error that miracles never happen"
+   ],
+   "correct": 1,
+   "explanation": "He refutes both those who claim God is bound to only produce what He currently produces, and those who (mistakenly seeing changeableness in effects) conclude that God's providence itself changes like a fickle human will."
+  }
+ ],
+ "B3C99": [
+  {
+   "q": "What is Aquinas's central argument for why God can produce effects without their usual proximate causes (i.e., work outside the created order)?",
+   "options": [
+    "God's power is limited, so He must always use intermediary causes",
+    "Because God acts by will (not natural necessity), and an agent acting by will can produce, without intermediary, any effect not exceeding its power, unlike an agent constrained to act only according to a fixed degree of power",
+    "God never actually acts outside the natural order in any circumstance",
+    "Only creatures, not God, can bypass intermediary causes"
+   ],
+   "correct": 1,
+   "explanation": "Since God acts by will rather than by natural necessity, He (like a master craftsman capable of a lesser work) can immediately produce effects that natural causes typically produce only through a chain of intermediaries."
+  },
+  {
+   "q": "How does Aquinas use the analogy of the soul's effect on the body (e.g., through strong imagination) to support this claim?",
+   "options": [
+    "The analogy is irrelevant to the argument",
+    "If even the soul, proportionate to the body as its form, can affect bodily health through mere imagination independent of ordinary bodily causes, much more can God—who infinitely surpasses all creatures—produce effects independently of natural causes",
+    "The analogy proves that the soul is identical to God",
+    "It shows that imagination alone always causes disease"
+   ],
+   "correct": 1,
+   "explanation": "Since even the soul, which is merely proportionate to the body, can affect bodily states through imagination alone, God's transcendent power over all creatures makes it far easier for Him to bypass natural causes."
+  },
+  {
+   "q": "According to this chapter, why does God sometimes act apart from the usual natural order?",
+   "options": [
+    "To correct mistakes in His original plan for creation",
+    "In part to manifest His power and reveal that the natural order proceeds from His free will rather than from natural necessity, thereby leading intellectual creatures to knowledge of Him",
+    "Because natural causes occasionally rebel against God's control",
+    "Because the natural order is evil and must be periodically overridden"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains such acts (later called miracles) show that nature is subject to God's free will, not necessity, and serve to lead intellectual creatures—whose end is knowledge of God—toward that knowledge."
+  }
+ ],
+ "B3C100": [
+  {
+   "q": "Why does Aquinas insist that what God does outside the customary order of nature is not 'contrary to nature' in the strict sense?",
+   "options": [
+    "Because nothing God does can ever be surprising",
+    "Because God, as pure act, relates to all things as mover to the moved, and it is not contrary to nature for something in potentiality to be actualized by its proper mover, even if it seems to conflict with a particular form's usual order",
+    "Because miracles do not really happen; they are only apparent",
+    "Because nature has no real order to begin with"
+   ],
+   "correct": 1,
+   "explanation": "Since God is pure act and all creatures are in potentiality relative to Him, His acting on them (even unusually) is not contrary to nature as such, though it may seem to conflict with the order proper to a particular nature."
+  },
+  {
+   "q": "How does Aquinas classify the 'highest degree' of miracles as distinct from lower degrees?",
+   "options": [
+    "All miracles are of exactly equal degree with no distinctions",
+    "The highest degree comprises works nature can never do at all (e.g., the sun standing still, two bodies in one place); a lower degree involves nature-possible effects occurring outside their usual order (e.g., the dead living again); a third degree involves natural effects produced without natural principles operating (e.g., a curable fever cured directly by God)",
+    "Miracles are classified only by how many people witness them",
+    "The classification depends solely on whether the miracle occurs during the day or night"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas identifies three degrees: things nature can never do; things nature can do but not in that particular order (e.g., life after death); and things nature can do, but here done without the operation of natural principles."
+  },
+  {
+   "q": "According to Aquinas's definition, what makes something properly a 'miracle'?",
+   "options": [
+    "Any event that is simply rare or statistically improbable",
+    "A work done by God outside the order usually observed in things, whose cause is hidden absolutely (not just to a particular observer), unlike a solar eclipse which only astonishes the ignorant because they don't know its cause",
+    "Any event that provokes strong emotion in observers",
+    "Any natural event that scientists cannot yet explain"
+   ],
+   "correct": 1,
+   "explanation": "A miracle is wonderful in itself, not just to certain observers, because its cause—God—is absolutely hidden to human comprehension, unlike natural events (like eclipses) whose causes are merely unknown to some people but not others."
+  }
+ ],
+ "B3C102": [
+  {
+   "q": "What is Aquinas's core argument that only God can work miracles?",
+   "options": [
+    "Because miracles have never actually occurred",
+    "Every creature is entirely subject to the order established by God and thus cannot act above that order; also, every creature needs a subject/matter to act upon and can only bring it to potentialities already present, whereas true miracles (like raising the dead) exceed any subject's potentiality",
+    "Because angels lack any power to affect the physical world",
+    "Because miracles are simply illusions produced by human imagination"
+   ],
+   "correct": 1,
+   "explanation": "Since creatures are subject to the created order and act only by bringing a subject's inherent potentiality to actuality, they cannot produce effects—like resurrection or the sun reversing course—that exceed any subject's potentiality; this requires God's infinite, uncreated power."
+  },
+  {
+   "q": "How does Aquinas distinguish a merely 'wonderful' effect from a true 'miracle'?",
+   "options": [
+    "There is no difference between the two terms",
+    "A wonderful effect (like a magnet attracting iron) results from a finite created power confined to its proper effect, astonishing only to the ignorant, whereas a true miracle results from God's infinite power exceeding all creaturely capacity",
+    "Wonderful effects are always evil, while miracles are always good",
+    "Miracles are simply more visually spectacular versions of wonders"
+   ],
+   "correct": 1,
+   "explanation": "A finite creature producing its proper effect (even something surprising to onlookers, like magnetism) is not miraculous properly speaking, since its power is limited to that effect; true miracles proceed from God's incomprehensible, infinite power."
+  },
+  {
+   "q": "Why can't even angels (created incorporeal substances) work true miracles by their own power, per this chapter?",
+   "options": [
+    "Angels are actually more powerful than God in physical matters",
+    "Because created incorporeal substances still need to act through natural, corporeal instruments (which have only natural operations) or bring matter only to its proper potentiality, and cannot exceed the natural order as God can",
+    "Angels do not exist according to Aquinas",
+    "Angels can indeed work true miracles independently of God"
+   ],
+   "correct": 1,
+   "explanation": "Since any effect worked by incorporeal creatures through bodily instruments is natural (bodies have no non-natural operation), and creatures generally can only bring matter to its proper potentiality, created substances—however exalted—cannot work miracles by their own power alone."
+  }
+ ],
+ "B3C103": [
+  {
+   "q": "What was Avicenna's view about how the soul (and separate substances) can affect bodies without a corporeal agent, and how does Aquinas respond?",
+   "options": [
+    "Aquinas fully endorses Avicenna's view without qualification",
+    "Avicenna held that matter is more obedient to separate substances than to bodily agents (citing cases like a strong imagination affecting one's own body); Aquinas responds that any bodily impression from an apprehension always occurs through a passion tied to local movement (e.g. of the heart), not directly on external matter",
+    "Avicenna denied that the soul has any effect on the body whatsoever",
+    "Aquinas argues that Avicenna's view is correct but should be extended to include all creatures equally"
+   ],
+   "correct": 1,
+   "explanation": "Avicenna appealed to phenomena like a person nearly falling from fear on a high plank to argue separate substances can directly affect matter; Aquinas counters that such bodily effects always occur via passions accompanied by local motion (e.g., of the heart), not a direct imprint on external matter."
+  },
+  {
+   "q": "According to Aquinas, in what sense can spiritual substances (angels or demons) produce effects that appear wonderful, without these being true miracles?",
+   "options": [
+    "They cannot produce any unusual effects whatsoever",
+    "By using natural things as instruments (as a physician uses herbs) to apply natural causes toward effects in ways that are strange or hidden from us, and sometimes by acting through God's power rather than their own",
+    "By creating new substances out of nothing, just as God does",
+    "Only by directly altering the human intellect"
+   ],
+   "correct": 1,
+   "explanation": "Spiritual substances can move bodies locally and apply natural causes as instruments (like a craftsman uses tools) to produce effects surprising to us, though this remains natural causation rather than a miracle in the strict sense, unless done by God's own power through them."
+  },
+  {
+   "q": "What does Aquinas say enables a spiritual substance to influence matter at all, given his rejection of Avicenna's theory?",
+   "options": [
+    "Nothing—spiritual substances have zero influence on matter",
+    "A created spiritual substance can move a body locally (this being within its natural power) and thereby apply natural forces to produce effects, similar to how a smith applies fire to soften iron",
+    "Spiritual substances directly infuse new substantial forms into matter without any local motion",
+    "Only human souls, never angels or demons, can move bodies"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas holds that a spiritual substance's power over matter is limited to local motion of bodies obedient to it, through which it can then apply natural causes to produce effects—not a direct, non-corporeal imprinting of forms."
+  }
+ ],
+ "B3C104": [
+  {
+   "q": "Why does Aquinas reject the claim that the wonders of magicians result solely from the influence of heavenly bodies?",
+   "options": [
+    "He fully accepts this explanation without qualification",
+    "Because effects like speech, answers to specific questions about hidden things, and knowledge beyond a person's natural intellectual capacity are proper only to a rational/intellectual nature, which heavenly bodies (being non-intellectual) cannot directly cause",
+    "Because heavenly bodies have no power over earthly matter at all",
+    "Because magicians never actually claim to observe the stars"
+   ],
+   "correct": 1,
+   "explanation": "Since answering questions, speaking meaningfully, and revealing hidden knowledge are acts proper to intellect, and heavenly bodies (as established earlier) cannot directly cause intellectual effects, some other intelligent cause besides the stars must be at work in magical phenomena."
+  },
+  {
+   "q": "What argument does Aquinas give against the idea that magical images (statues, etc.) are animated and moved by a purely celestial power?",
+   "options": [
+    "He argues that all statues are secretly alive already",
+    "Since life requires a substantial form and no new substantial form is introduced when an image is merely shaped (only an accidental change of shape occurs, e.g. in copper), the image cannot receive a genuine vital/life principle through mere celestial influence",
+    "Because celestial bodies are themselves inanimate and thus incapable of causing any motion whatsoever",
+    "Because magic images are always destroyed immediately after creation"
+   ],
+   "correct": 1,
+   "explanation": "Making an image only changes its shape (an accident), while the underlying substance (e.g., copper) remains; since receiving a new substantial form (life) requires losing the prior form, no genuine vital principle can be introduced by shaping alone."
+  },
+  {
+   "q": "Whose opinion, that men fashion animated 'gods' residing in temples that do wonders, does Aquinas explicitly refute via Augustine and Scripture?",
+   "options": [
+    "Aristotle's opinion in the Metaphysics",
+    "The opinion of Hermes, quoted by Augustine, refuted by citing Psalm 134's mockery of idols that 'have a mouth but they speak not'",
+    "Plato's opinion in the Republic",
+    "Avicenna's opinion on separate substances"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas cites and rejects Hermes' claim (recorded by Augustine) that men make animated temple-idols with genuine sense and knowledge, countering it with the Psalm's mockery of lifeless idols."
+  }
+ ],
+ "B3C105": [
+  {
+   "q": "What is Aquinas's main argument for why the significative words used by magicians must derive their efficacy from an intellect being addressed, rather than from the magician's own intellect?",
+   "options": [
+    "Words never have any power derived from intellect at all",
+    "Since human intellect normally receives knowledge from things rather than causing things by mere thought, and words used as invocations, supplications, or commands imply address to another, the efficacy must come from another intelligent being to whom the words are directed",
+    "Because words are purely physical sounds with mechanical power over matter",
+    "Because only written words, never spoken ones, have magical power"
+   ],
+   "correct": 1,
+   "explanation": "Human intellects normally cannot cause things merely by thinking them (that would put such humans in another species entirely); the invocatory, supplicating form of magical words indicates they are addressed to and depend upon another intelligence."
+  },
+  {
+   "q": "Why does Aquinas reject the idea that specific figures and characters used in magic dispose matter to receive celestial influence?",
+   "options": [
+    "Because figures always successfully alter matter in a determinate way",
+    "Because a figure, as a mathematical abstraction, does not by itself place matter into potentiality for any particular form (mathematical bodies are not active or passive), so figures function only as signs addressed to an intelligent being, not as physical dispositions",
+    "Because figures have no relationship to geometry",
+    "Because celestial bodies cannot influence any earthly matter whatsoever"
+   ],
+   "correct": 1,
+   "explanation": "Since figures abstract from matter and sensible qualities (being mathematical), they cannot per se dispose matter toward any specific form; thus their use in magic functions as a sign directed at an intelligence, confirmed by the very term 'character' meaning 'sign.'"
+  },
+  {
+   "q": "What does Aquinas conclude is the ultimate source of efficacy in magical practices, based on the evidence of invocations, figures used as signs, and acts of reverence like sacrifices?",
+   "options": [
+    "Pure chance and coincidence",
+    "Some intellectual substance being addressed and invoked by the magician, since words, figures, and ritual gestures like prostration function as signs directed toward an intelligent being, not as natural causes",
+    "The magician's own unaided will-power",
+    "The random alignment of the planets alone"
+   ],
+   "correct": 1,
+   "explanation": "The cumulative evidence—invocatory language, symbolic (non-causal) figures, and ritual reverence—points to magic deriving its power from an intellectual substance being addressed and enlisted, not from natural or celestial causation alone."
+  }
+ ],
+ "B3C106": [
+  {
+   "q": "What is Aquinas's main line of argument that the intellectual substance assisting magic is not morally good?",
+   "options": [
+    "Because magic always fails to produce any real effect",
+    "Because these arts are frequently used to further adultery, theft, and murder, favor evil-living practitioners, distract men from the true goods of reason toward trivial ends, and employ deception and lies—all marks of an ill-disposed mind",
+    "Because good spirits never interact with human beings under any circumstances",
+    "Because the Bible never mentions spirits of any kind"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas lists multiple signs of moral corruption in the beings behind magic: complicity in crime, favoring wicked practitioners, redirecting men from true goods (virtue, science) to trivial ends, and reliance on deceptive threats and lies."
+  },
+  {
+   "q": "What specific example does Aquinas give (via Porphyry) of the deceptive threats used in magical invocations?",
+   "options": [
+    "Threatening to reveal the magician's identity to authorities",
+    "Threatening that unless the invoked being helps, the magician will shatter the heavens or displace the stars—impossible feats meant to coerce compliance",
+    "Threatening to destroy the magician's tools",
+    "Threatening eternal silence if the spirit fails to appear"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas cites Porphyry's Letter to Anebontes, where magicians threaten impossible cosmic destruction (shattering the heavens, displacing stars) to intimidate the beings whose help they invoke—showing the deceptive, contradictory character of these practices."
+  },
+  {
+   "q": "What paradox does Aquinas note about how magicians treat the beings whose assistance they invoke?",
+   "options": [
+    "Magicians treat them with total consistency, as equals only",
+    "Magicians invoke these beings as though they were superiors, yet as soon as they appear, command them as inferiors—a mark of an ill-disposed relationship on both sides",
+    "Magicians never actually make any requests of these beings",
+    "There is no inconsistency; magicians always treat them purely as servants"
+   ],
+   "correct": 1,
+   "explanation": "He notes the odd reversal whereby the magician first addresses the being as a superior to be invoked, then commands it as an inferior once it appears, taken as evidence against the moral integrity of both parties."
+  }
+ ],
+ "B3C107": [
+  {
+   "q": "What is Aquinas's central argument that the intellectual substances behind magic (demons) cannot be evil by nature?",
+   "options": [
+    "Since all things tend to good per se and only accidentally to evil, and since existence itself is good, and every effect of the first (good) cause must itself be good insofar as it exists and has a nature, no intellectual substance can be naturally/essentially evil",
+    "Demons do not actually exist, so the question is moot",
+    "Nature and evil are simply identical concepts",
+    "Only human beings, never spirits, can be evil by nature"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas argues that since goodness follows from existence (a gift from the supremely good first being), and things tend toward good per se, evil only accidentally, no intellectual nature—however corrupted its will—can be evil in its very essence or nature."
+  },
+  {
+   "q": "How does Aquinas use the object of the intellect to argue that no intellectual substance can be naturally evil?",
+   "options": [
+    "The intellect has no proper object of its own",
+    "Because the intellect's proper object is the good understood in general (the universal good) rather than a particular restricted good, an intellectual nature cannot be naturally directed to evil, unlike, say, poison which is bad only relative to a particular being",
+    "Because intellects are incapable of knowing the good at all",
+    "Because the intellect's object is pleasure, which is inherently evil"
+   ],
+   "correct": 1,
+   "explanation": "Since intellectual natures are ordered toward the good as such (not a particular restricted good the way poison is 'good' for one thing and 'evil' for another), they cannot, by their nature, be directed toward evil."
+  },
+  {
+   "q": "Whose position does Aquinas explicitly reject at the end of this chapter regarding the natural malice of demons?",
+   "options": [
+    "Augustine's position that demons are good by nature",
+    "The Manicheans' view that these substances are naturally evil, and Porphyry's related claim (in his letter to Anebontes) that a whole genus of naturally deceitful spirits exists",
+    "Aristotle's view that demons do not exist",
+    "Boethius's view that fate governs demons"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas rejects the Manichean doctrine of naturally evil spirits and criticizes Porphyry's similar claim of a naturally deceitful spirit-genus, insisting malice in demons must be voluntary, not natural."
+  }
+ ],
+ "B3C108": [
+  {
+   "q": "What is the central puzzle raised in chapter 108 regarding sin in the demons?",
+   "options": [
+    "Whether demons can be forgiven by prayer",
+    "Whether sin of the will is even possible in separate intellectual substances, given that error seems necessary for sin, yet these substances (lacking corporeal cognitive powers like sense and passion) seemingly cannot err in their understanding",
+    "Whether demons have physical bodies made of fire",
+    "Whether angels can sin as often as humans do"
+   ],
+   "correct": 1,
+   "explanation": "The chapter poses arguments suggesting sin should be impossible for demons: since they understand without discursive reasoning or bodily passions, and error (which grounds sinful willing) seems tied to embodied, discursive cognition which they lack."
+  },
+  {
+   "q": "Why does the chapter argue that demons cannot experience the kind of passion-driven error that causes sin in humans?",
+   "options": [
+    "Because demons feel passions even more intensely than humans do",
+    "Because passions belong to the sensitive faculty, which requires a corporeal organ, and separate substances (not naturally united to bodies) have no such organ, hence no passions to cloud judgment as happens in human sin",
+    "Because demons have no faculties of any kind",
+    "Because human passions and demonic passions are identical in every way"
+   ],
+   "correct": 1,
+   "explanation": "Since sensitive passions require bodily organs and demons (unlike humans) are not naturally united to bodies, the chapter's arguments suggest they should lack the passion-driven distortions of judgment that typically produce sin in human wills."
+  },
+  {
+   "q": "What kind of intellectual error does the chapter's arguments suggest is impossible for separate substances, based on how they know truth?",
+   "options": [
+    "No kind of error is discussed in this chapter",
+    "Error arising from the discursive process of composing/dividing concepts (synthesis and analysis) in arriving at a definition, since separate substances know by simple intuition rather than by the step-by-step reasoning proper to embodied human intellects",
+    "Only errors about mathematics are impossible for them",
+    "Errors about their own existence are impossible for them"
+   ],
+   "correct": 1,
+   "explanation": "Since human error in defining things often arises from the discursive, step-by-step process of forming definitions (assigning wrong differences to a genus), and separate substances grasp truths by simple intuition rather than discursive reasoning, this source of error seems unavailable to them."
+  }
+ ],
+ "B3C109": [
+  {
+   "q": "How does Aquinas resolve the puzzle of demonic sin, given that demons lack bodily passions and discursive error?",
+   "options": [
+    "He denies that demons sin at all, contradicting Scripture",
+    "Sin in the demons occurs not through error in judging a particular good, but through the will's own free failure to subordinate its proper good to a higher end (God), since a will directed to itself as ultimate end constitutes sin even without any intellectual error",
+    "Sin in demons is identical in every respect to human sin, including bodily passions",
+    "Demons sin only because God directly causes their evil will"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas locates demonic sin in the will's free failure to refer its own good to God as final end (making itself its own end instead), which requires no error in judging a particular good, but a disorder in the will's own free direction toward its ultimate end."
+  },
+  {
+   "q": "What does Aquinas identify as the first and root sin of the demon, based on the will's refusal to be subject to a higher order?",
+   "options": [
+    "Envy",
+    "Pride — the will to be supreme and not subject to another, refusing to submit to God's order and instead seeking to make himself his own end",
+    "Gluttony",
+    "Sloth"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas identifies pride (the will to rule and refuse subjection to a superior) as the demon's first sin, from which other sins like hatred of God and envy of man subsequently arose."
+  },
+  {
+   "q": "How does Aquinas explain that only God cannot possibly sin, while every other will (even the highest separate substance) can?",
+   "options": [
+    "God's will can sin just like any other, since He is also a wilier",
+    "Because every will naturally desires its own proper good as ultimate, and only in God is the proper good (His own being, the sovereign good) identical with the ultimate end to which nothing higher exists; every other wilier's proper good must be subordinate to a higher good, allowing the possibility of failing to refer it there",
+    "Because sin requires a body, and God has no body, so this reasoning applies equally to all bodiless beings",
+    "Because sin is impossible for any being with free will, including all separate substances"
+   ],
+   "correct": 1,
+   "explanation": "Since only in God is the proper good identical to the sovereign, ultimate good (with no higher end above it), only God cannot sin; every other will, including the highest angel, has a proper good subordinate to a higher end, and so can fail to refer it there."
+  }
+ ],
+ "B3C110": [
+  {
+   "q": "According to chapter 110's solution, where exactly does the demon's intellectual error, if any, lie?",
+   "options": [
+    "The demon erred in judging a particular finite good to be good when it was not",
+    "There was no error in judging that his own good was good; rather, the failure was in not considering (referring to) the higher good to which his own good should have been subordinated — a lack of consideration caused by the will's fixation on itself",
+    "The demon had no intellect at all, so no error was possible",
+    "The demon's error was purely a sensory misperception"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas clarifies that the demon rightly recognized his own good as good; his sin was that his will, fixed on his own good, failed to direct that good to the higher, divine good it was owed."
+  },
+  {
+   "q": "How does Aquinas compare the demon's sin to human sin in this chapter's solution?",
+   "options": [
+    "He claims the two forms of sin have absolutely nothing in common",
+    "Just as human sin can occur through desiring inferior bodily goods outside the order of reason, the devil's sin occurred through not referring his own (good, non-sinful in itself) good to the divine good",
+    "Human sin is always worse than demonic sin because humans have bodies",
+    "He claims humans cannot sin the way demons do since only demons have free will"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas draws a parallel: as humans sin by desiring bodily goods outside right reason's order, demons sinned not by desiring something evil in itself, but by failing to subordinate their own good to God."
+  },
+  {
+   "q": "What single good did the demon desire, according to this chapter?",
+   "options": [
+    "He desired many conflicting evil goods simultaneously",
+    "He desired only his own (genuinely good) perfection; his sin lay entirely in disregarding the higher good to which this should have been directed",
+    "He desired nothing at all, since desire itself is impossible for spirits",
+    "He desired to become identical with God's own essence"
+   ],
+   "correct": 1,
+   "explanation": "The chapter states plainly that the demon desired only one good — his own — and that his sin consisted in disregarding the higher good (God) to which it should have been referred."
+  }
+ ],
+ "B3C111": [
+  {
+   "q": "How does this chapter (continuing the discussion of demonic sin) describe the demon's sin in terms of the classical 'mean of virtue'?",
+   "options": [
+    "The demon's sin was an excess of physical passion overwhelming reason, just as in human sin",
+    "The demon strayed from virtue's mean not through excess of passion (since separate substances have no passions) but through an inequality of justice — giving himself more than his due and God less than due, since separate substances have operations but not passions",
+    "The demon's sin had nothing to do with virtue or vice at all",
+    "The mean of virtue does not apply to intellectual substances in any way"
+   ],
+   "correct": 1,
+   "explanation": "Since separate substances lack passions altogether, the text explains their sin as an injustice of operation (unequal distribution of due honor between self and God) rather than a passion-driven deviation from a virtuous mean."
+  },
+  {
+   "q": "Why can defect/sin occur in intellectual substances but never in the heavenly bodies, according to this chapter?",
+   "options": [
+    "Heavenly bodies and intellectual substances are equally capable of sin",
+    "Because bodies and irrational beings are merely acted upon and cannot move themselves, so they cannot depart from the rectitude of the first rule (unless matter is indisposed, which heavenly bodies lack); but rational substances move themselves to their own actions and so can fail to follow the highest rule by choice",
+    "Heavenly bodies actually can sin, contrary to popular belief",
+    "Because intellectual substances have physical matter that resists God's rule, unlike heavenly bodies"
+   ],
+   "correct": 1,
+   "explanation": "Purely acted-upon things (like heavenly bodies, free of any indisposition of matter) cannot deviate from the order imposed on them, but self-moving rational substances, precisely because of their perfection (self-direction), retain the possibility of freely straying from the highest rule."
+  },
+  {
+   "q": "How does the chapter connect the perfection of a rational nature to its capacity for sin?",
+   "options": [
+    "A more perfect nature is therefore less capable of sin, since perfection excludes any defect",
+    "The more perfect a substance's nature, the more perfect its power for self-directed action, and it is precisely this self-direction (not a deficiency) that opens the possibility of adhering to oneself and disregarding the superior's order",
+    "Perfection and the capacity for sin are entirely unrelated concepts",
+    "Only imperfect natures, like animals, are capable of sin"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas notes that greater perfection of nature brings greater power for self-directed action, and this very capacity for self-direction — not a flaw — is what makes possible the sin of adhering to oneself against the superior order."
+  }
+ ],
+ "B3C112": [
+  {
+   "q": "What is the central thesis of chapter 112 about how rational and non-rational creatures are governed by providence?",
+   "options": [
+    "All creatures, rational and non-rational alike, are governed purely for their own sake with no distinction",
+    "Rational creatures, having dominion over their own acts, are governed by providence for their own sake, while other (non-rational) creatures are governed as directed toward and for the sake of rational creatures",
+    "Non-rational creatures are governed for their own sake, while rational creatures exist merely to serve them",
+    "Providence does not distinguish between any creatures whatsoever"
+   ],
+   "correct": 1,
+   "explanation": "Because rational creatures act by their own free dominion (like a principal agent) while other creatures are merely moved by another (like instruments), providence cares for rational creatures for their own sake and directs other creatures toward serving them."
+  },
+  {
+   "q": "What analogy does Aquinas use involving an army to illustrate why rational creatures alone are cared for 'for their own sake'?",
+   "options": [
+    "The analogy of a beehive where all bees are equal",
+    "In an army, the soldiers who fight and obtain victory (the end) are required for their own sake, while those tending to horses or preparing arms exist for the soldiers' sake — just as intellectual creatures alone attain God (the last end) directly, while others serve them",
+    "The analogy of a marketplace where all goods have equal value",
+    "The analogy of a river flowing to the sea"
+   ],
+   "correct": 1,
+   "explanation": "Just as only the fighting soldiers achieve the army's end (victory) for their own sake while support roles serve them, only intellectual creatures directly attain the universe's last end (God, through knowing and loving Him), while other creatures serve that attainment."
+  },
+  {
+   "q": "How does Aquinas reconcile the claim that rational creatures are cared for 'for their own sake' with the fact that all parts of the universe serve the perfection of the whole?",
+   "options": [
+    "He admits these two claims are flatly contradictory and unresolvable",
+    "Using the analogy of the lungs serving the heart within the body, he shows a part can be for the sake of another part (rational creatures) while both are simultaneously for the perfection of the whole universe — the two claims are compatible, not contradictory",
+    "He abandons the claim that rational creatures are cared for their own sake",
+    "He claims the universe as a whole has no real unity or purpose"
+   ],
+   "correct": 1,
+   "explanation": "Just as the lungs serve the heart within the body's overall perfection, non-rational creatures serving rational ones does not conflict with all creatures together constituting the perfection of the universe as a whole."
+  }
+ ]
+}

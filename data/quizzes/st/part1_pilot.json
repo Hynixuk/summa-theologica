@@ -1,0 +1,37 @@
+{
+  "P1Q1": [
+    {
+      "q": "According to Aquinas, why is sacred doctrine necessary in addition to philosophical science?",
+      "options": [
+        "Because philosophy is unreliable and often wrong",
+        "Because man is directed to an end (salvation) that exceeds what reason can grasp",
+        "Because philosophers disagree with one another",
+        "Because sacred doctrine replaces the need for reason entirely"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since man is ordained to an end (eternal life) beyond what reason can conceive, it was necessary that things beyond reason be made known through divine revelation."
+    },
+    {
+      "q": "Is sacred doctrine, in Aquinas's view, one science or many?",
+      "options": [
+        "Many sciences, one for each article of faith",
+        "One science, because it considers things under the formality of being divinely revealed",
+        "Not a science at all, only opinion",
+        "The same science as philosophy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds sacred doctrine is one science because unity of a science depends on the unity of its formal object — here, things as divinely revealed."
+    },
+    {
+      "q": "What does Aquinas say about sacred doctrine's use of philosophical arguments from authority?",
+      "options": [
+        "It relies wholly and only on the authority of philosophers",
+        "It uses philosophical arguments as the weakest kind of proof, subordinate to the authority of Scripture",
+        "It forbids the use of philosophy",
+        "It treats philosophers as equal in authority to canonical Scripture"
+      ],
+      "correct": 1,
+      "explanation": "Sacred doctrine properly argues from the articles of faith; arguments from human reason or philosophers are used only to illustrate, and are the weakest form of proof, since Scripture's authority is what truly grounds the science."
+    }
+  ]
+}

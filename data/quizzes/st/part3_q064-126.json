@@ -1,0 +1,1767 @@
+{
+  "P3Q64": [
+    {
+      "q": "According to Aquinas, why is it lawful for man to kill plants and animals for food?",
+      "options": [
+        "Because plants and animals have no rights that can be violated",
+        "Because the imperfect exists for the sake of the perfect, so plants are for animals and animals are for man in the order of nature",
+        "Because God only commanded love toward rational creatures",
+        "Because plants and animals cannot experience suffering"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that the order of nature proceeds from the imperfect to the perfect, so it is not unlawful for man to use plants for animals and animals for man, citing Genesis 1:29-30 and 9:3 as confirming this order."
+    },
+    {
+      "q": "Why does Aquinas say a private individual may never lawfully kill an evildoer on his own authority?",
+      "options": [
+        "Because private individuals lack the physical strength required",
+        "Because killing evildoers is always sinful regardless of who does it",
+        "Because care of the common good, which justifies such killing, is entrusted only to those with public authority, like a physician entrusted with the whole body",
+        "Because only clerics may pronounce such judgments"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas compares the community to a body and the evildoer to a diseased limb: only one entrusted with care of the whole (public authority), like a physician, may lawfully excise it, not any private person."
+    },
+    {
+      "q": "In discussing killing in self-defense, what principle does Aquinas use to explain why the act can be lawful even though it results in a death?",
+      "options": [
+        "The doctrine of double effect: one act can have two effects, and if death is beside the intention while saving one's life is intended, and proportionate force is used, the act is not unlawful",
+        "Self-defense is always fully intentional and therefore always a mortal sin unless the assailant is guilty",
+        "Killing in self-defense is only lawful for soldiers and public officials, never for private persons in any sense",
+        "Because natural law permits revenge against any aggressor"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas holds that self-defense may have two effects, the saving of one's life (intended) and the slaying of the aggressor (beside the intention); this is lawful provided one uses no more force than necessary."
+    }
+  ],
+  "P3Q65": [
+    {
+      "q": "According to Aquinas, under what condition is it lawful to cut off a diseased member of a private individual's own body?",
+      "options": [
+        "Only if a court orders it as punishment",
+        "It is never lawful under any circumstances",
+        "With the consent of the owner (or whoever has care of him), when the member is decayed and endangers the whole body",
+        "Only bishops may authorize such an act"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas teaches that while public authority alone may maim as punishment, a private individual may lawfully consent to amputation of his own decayed member because each person is entrusted with the care of his own welfare."
+    },
+    {
+      "q": "Why does Aquinas say parents may lawfully strike their children and masters their slaves?",
+      "options": [
+        "Because striking causes no real harm to the body",
+        "Because those subject to another's power may be justly punished by the one who has jurisdiction over them, for the sake of correction",
+        "Because it is never actually a punishment, only discipline",
+        "Because children and slaves have no capacity for reason"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that punishment may lawfully be inflicted by one who has jurisdiction over the person punished; since children are subject to parents and slaves to masters, these superiors may strike them moderately to enforce correction."
+    },
+    {
+      "q": "What does Aquinas say about whether it is a graver sin to injure someone who is closely connected to another person (such as a spouse or dependent)?",
+      "options": [
+        "It makes no difference at all to the gravity of the sin",
+        "It is generally a lighter sin because it distributes the injury among two people",
+        "Other things being equal, it is a graver sin because the injury affects two persons rather than one, though dignity of person or gravity of injury may alter this",
+        "It depends solely on whether the injured party forgives the offender"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas argues that when an injury is inflicted on a person connected to another, it affects two persons rather than one, and so, other things being equal, is a more grievous sin, though other circumstances could change the ranking."
+    }
+  ],
+  "P3Q66": [
+    {
+      "q": "According to Aquinas, in what sense is the possession of external things 'natural' to man, and in what sense is private property justified by human law?",
+      "options": [
+        "External things belong to man by nature only in their use, not in their substance (which belongs to God); private ownership is added by human convention for practical reasons like better care, order, and peace",
+        "External things are entirely and naturally owned by whoever first claims them permanently",
+        "Private property is condemned outright because true religion requires common ownership",
+        "Nature grants no dominion over things to man at all"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas distinguishes the power to use things (natural to man by reason) from the power to procure and dispense them as private possessions, which human law adds for three reasons: greater care, more orderly administration, and peace."
+    },
+    {
+      "q": "What three elements does Aquinas identify as constituting the essence of theft?",
+      "options": [
+        "Force, intent, and public knowledge",
+        "Taking what is another's (contrary to justice), taking a possession specifically (as distinct from a person), and taking it secretly",
+        "Poverty of the thief, wealth of the victim, and lack of witnesses",
+        "Deception, violence, and premeditation"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas says theft is constituted by (1) taking what belongs to another, contrary to justice; (2) taking a 'possession' as opposed to a person or part of a person; and (3) doing so secretly, which distinguishes theft from robbery."
+    },
+    {
+      "q": "Under what circumstance does Aquinas say it is not theft to take another's property to relieve one's own need?",
+      "options": [
+        "Never; taking another's property is always theft regardless of need",
+        "Only if the owner explicitly forgives the taking afterward",
+        "When the need is so manifest and urgent that there is no other lawful means of remedy, since in such extreme need all things become common",
+        "Only if the person taking the goods is a cleric"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas holds that in a case of manifest and urgent necessity, when there is no other way to remedy the danger, it is lawful to take what is necessary from another's property, and this is not properly theft or robbery."
+    }
+  ],
+  "P3Q67": [
+    {
+      "q": "Why does Aquinas say a judge cannot pronounce a lawful sentence against someone who is not under his jurisdiction?",
+      "options": [
+        "Because judgment requires coercive power, which belongs only to those in authority over their subjects",
+        "Because judges may only judge people of their own social class",
+        "Because sentences without a jury are automatically invalid",
+        "Because jurisdiction depends entirely on geography, not on subjection"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas compares a judge's sentence to a particular law, which must have coercive power; since such power belongs only to those with authority over their subjects, a judge can only judge those under his jurisdiction."
+    },
+    {
+      "q": "If a judge personally knows something to be true as a private individual, but the legal evidence presented to him points the other way, how does Aquinas say he should judge?",
+      "options": [
+        "He should always follow his private knowledge over the evidence",
+        "He should refuse to judge the case at all",
+        "He should judge according to what is proven in the legal record, though his private knowledge may help him sift the evidence more rigorously",
+        "He should ask a higher court to overrule him automatically"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas teaches the judge must base his sentence on evidence acquired in his public capacity (documents, witnesses) rather than his private knowledge, though the latter may help him probe the evidence's weaknesses."
+    },
+    {
+      "q": "According to Aquinas, can an inferior judge remit a just punishment out of mercy?",
+      "options": [
+        "Yes, any judge may always waive punishment at will",
+        "No inferior judge has this power, but the sovereign who holds full public authority may remit punishment, provided the injured party consents and the common good is not harmed",
+        "Only the accused himself can decide to waive his own punishment",
+        "Judges may remit punishment only for capital crimes, never for lesser ones"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that an inferior judge has no power to exempt someone from punishment against the laws of his superior, but the sovereign, holding full authority, can remit it if the injured party agrees and the public good is not harmed."
+    }
+  ],
+  "P3Q68": [
+    {
+      "q": "According to Aquinas, when is a person bound to formally accuse another of a crime?",
+      "options": [
+        "Whenever any wrongdoing is suspected, regardless of proof",
+        "Never, since accusation is always uncharitable",
+        "When the crime harms the common good and the accuser can offer sufficient proof, since it is the accuser's duty to prove the charge",
+        "Only when commanded directly by the accused's family"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas distinguishes accusation (aiming at punishment for the commonwealth's good) from denunciation (aiming at amendment); one is bound to accuse when the sin harms the community and sufficient proof can be offered."
+    },
+    {
+      "q": "What two ways does Aquinas identify by which an accuser can act unjustly, apart from outright calumny against the accused?",
+      "options": [
+        "By speaking too loudly and by writing illegibly",
+        "By collusion (fraudulently helping the other side while pretending to prosecute) and by evasion (withdrawing from the accusation to prevent just punishment)",
+        "By hiring a lawyer and by requesting a delay",
+        "By appealing to a higher court and by requesting witnesses"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that besides calumny (false charges), an accuser sins against the common good through collusion (fraudulently betraying his own side) or evasion/tergiversation (abandoning the accusation to hinder just punishment)."
+    },
+    {
+      "q": "Why does Aquinas hold that an accuser who fails to prove his indictment should himself suffer the punishment he sought for the accused?",
+      "options": [
+        "Because all accusations must be punished regardless of outcome",
+        "Because the equality of justice requires that a person suffer what harm he intended to inflict on another, following the principle of 'eye for eye'",
+        "Because failed accusations prove the accuser lied under oath",
+        "Because courts need to discourage all future accusations"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grounds this in the principle of retributive equality (Exodus 21:24): since the accuser sought to have the accused suffer a severe punishment, justice requires he suffer likewise if his accusation is unproven."
+    }
+  ],
+  "P3Q69": [
+    {
+      "q": "According to Aquinas, is the accused obligated to tell the judge the whole truth about everything, even matters the judge has no right to ask?",
+      "options": [
+        "Yes, total disclosure is always required regardless of the question asked",
+        "No; he must answer truthfully what the judge may rightly require according to the order of justice, but he may lawfully withhold what is not lawfully required of him, though he may never lie",
+        "He need not answer any question at all, ever",
+        "He must lie if it protects himself from harm"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds the accused must tell the truth on what the judge can rightly exact according to law, but may lawfully withhold what he is not bound to disclose (e.g., by not answering); however, he may never state a falsehood."
+    },
+    {
+      "q": "What distinction does Aquinas draw regarding the lawfulness of an accused person's appeal?",
+      "options": [
+        "All appeals are always lawful since justice permits endless review",
+        "An appeal made from genuine confidence in the justice of one's cause is lawful, but an appeal made merely to delay a just sentence is unlawful, defending oneself calumniously",
+        "Appeals are lawful only for members of the clergy",
+        "No appeal is ever permitted once a judge has spoken"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes appealing out of confidence in the justice of one's cause (lawful, a prudent escape) from appealing merely to cause delay and prevent a just sentence (unlawful, a form of calumnious defense)."
+    },
+    {
+      "q": "Under what circumstance does Aquinas permit a condemned man to resist his execution by force?",
+      "options": [
+        "Never, resistance to any sentence of death is always sinful",
+        "Only if he is innocent and can prove it in a new trial",
+        "If he has been condemned unjustly, since an unjust sentence is like the violence of robbers and it is lawful to resist robbers, except where resistance would cause grave scandal",
+        "Only members of the nobility have this right"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas teaches that while resisting a just sentence is sinful, one condemned unjustly may resist as one resists robbers, since an unjust judicial sentence has the character of violent robbery, barring cases where scandal would result."
+    }
+  ],
+  "P3Q70": [
+    {
+      "q": "According to Aquinas, when is a person bound to give evidence even without being formally summoned?",
+      "options": [
+        "Never, giving unsolicited testimony is always improper",
+        "Only for matters concerning taxation",
+        "When his testimony could deliver someone from unjust death, defamation, or loss, since to remain silent when one can disprove wrongdoing is to consent to it",
+        "Only if he personally benefits from testifying"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas argues that even without being asked, one is bound to declare truth that would rescue another from unjust death, false defamation, or loss, citing that silence when one can disprove wrongdoing amounts to consent."
+    },
+    {
+      "q": "Why does Aquinas hold that the testimony of two or three witnesses is required rather than the testimony of one?",
+      "options": [
+        "Because human judgment about contingent matters lacks demonstrative certainty, but the agreement of several witnesses yields a reasonable probability of truth, and three represents a complete number (beginning, middle, end)",
+        "Because ancient Roman law arbitrarily fixed this number",
+        "Because a single witness is always assumed to be lying",
+        "Because witnesses must be paid, so limiting their number saves money"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that human affairs admit only probable, not demonstrative, certitude, so several witnesses agreeing provide reasonable assurance; he also notes the symbolic completeness of the number three (beginning, middle, end)."
+    },
+    {
+      "q": "According to Aquinas, can a person's evidence be rejected even though he has committed no fault?",
+      "options": [
+        "No, only proven wrongdoers can ever be rejected as witnesses",
+        "Yes; besides culpable causes (e.g., being of ill repute), evidence may be rejected without fault due to a natural defect of reason (children, the mentally impaired), personal bias (enemies, family), or external pressure (the poor, slaves, subordinates)",
+        "Only the testimony of women can be rejected without fault",
+        "Evidence can never be rejected once formally given under oath"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies that evidence's reliability can be weakened without the witness's own fault, due to a natural defect (children, imbeciles), personal feeling (enemies, kin), or vulnerable external condition (the poor or those under authority who might be pressured)."
+    }
+  ],
+  "P3Q71": [
+    {
+      "q": "According to Aquinas, is an advocate always bound to defend the causes of the poor?",
+      "options": [
+        "Yes, an advocate must always drop all other business for any poor client",
+        "No; like other works of mercy, he is bound only when circumstances converge such that this particular person cannot easily be helped otherwise",
+        "No, advocates have no duty of mercy whatsoever toward the poor",
+        "Yes, but only if the poor person is a relative"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas treats defense of the poor as a work of mercy, following Augustine's principle that one cannot help everyone; one is strictly bound only when a particular person's need is pressing and cannot easily be met by another means."
+    },
+    {
+      "q": "What two reasons does Aquinas give for debarring certain persons from serving as advocates?",
+      "options": [
+        "Lack of wealth and lack of noble birth",
+        "Impossibility (lacking the sense, skill, speech, or hearing required) and unbecomingness (being engaged in higher things, like clergy, or bearing a personal defect that makes the role unfitting)",
+        "Old age and physical illness alone",
+        "Foreign citizenship and unfamiliarity with local customs"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes debarment through impossibility (e.g., madness, deafness, which make the act impossible) from debarment through unbecomingness (e.g., clerics engaged in divine things, or persons of ill repute), the latter yielding to necessity."
+    },
+    {
+      "q": "What does Aquinas say about an advocate who unknowingly defends an unjust cause, believing it just?",
+      "options": [
+        "He is guilty of grievous sin regardless of his ignorance",
+        "He is to be excused according to the measure that his ignorance is excusable, unlike one who knowingly defends injustice, who sins gravely and owes restitution",
+        "He must resign from the legal profession immediately",
+        "He automatically forfeits his fee no matter the outcome"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that knowingly defending an unjust cause is a grave sin requiring restitution, but if the advocate is unaware and believes the cause just, he is excused in proportion to how excusable his ignorance is."
+    }
+  ],
+  "P3Q72": [
+    {
+      "q": "According to Aquinas, in what does reviling (railing) properly consist?",
+      "options": [
+        "Only in violent physical deeds against another",
+        "In words, since words are the chief and most direct signs for expressing what is in the mind, though it can extend by analogy to injurious deeds",
+        "Exclusively in written insults published for the public",
+        "In silent contempt shown through facial expressions"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that reviling is properly done through words because words are the primary human signs for expressing what the mind conceives, though 'reviling' can extend more broadly to deeds that carry the same signification."
+    },
+    {
+      "q": "Under what condition does Aquinas say reviling is not a mortal sin?",
+      "options": [
+        "It is always a mortal sin no matter the speaker's intent",
+        "When the injurious word is spoken not with the intention to dishonor but for correction or a similar good purpose, and is not so grave as to dishonor the hearer regardless of intent",
+        "Whenever the person reviled deserves it in some way",
+        "Only if spoken in a foreign language the hearer does not understand"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas judges sins of word chiefly by the speaker's intention: if the intent is to dishonor, it is mortal like theft; if said for correction without intent to dishonor, it may be venial or no sin, unless the words are so grave they dishonor regardless."
+    },
+    {
+      "q": "From which vice does Aquinas say reviling chiefly arises, and why?",
+      "options": [
+        "From envy, because reviling seeks to diminish another's happiness",
+        "From anger, because reviling is the easiest way for an angry person to seek revenge, which is anger's proper end",
+        "From gluttony, because unrestrained appetite loosens the tongue",
+        "From sloth, because idle people have time to insult others"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that though a sin may have multiple causes, reviling is chiefly connected to anger because revenge is anger's end, and reviling is the readiest means for an angry person to take revenge on another."
+    }
+  ],
+  "P3Q73": [
+    {
+      "q": "How does Aquinas distinguish backbiting from reviling?",
+      "options": [
+        "They are identical in every respect",
+        "Reviling is done openly and injures a person's honor, while backbiting is done secretly and injures a person's good name",
+        "Backbiting is always spoken to the victim's face while reviling is never spoken directly",
+        "Reviling concerns only clergy while backbiting concerns only laity"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes them by manner (open vs. secret) and by the injury inflicted: the open reviler dishonors his victim, while the secret backbiter damages the victim's good name/reputation among hearers."
+    },
+    {
+      "q": "According to Aquinas, where does backbiting rank in gravity among sins against one's neighbor?",
+      "options": [
+        "It is worse than murder because words last longer than physical wounds",
+        "According to its genus it is more grievous than theft, but less grievous than murder or adultery, since it injures a good name which ranks below bodily goods but above wealth",
+            "It is always the least serious of all sins against one's neighbor",
+        "It is exactly equal in gravity to murder in every case"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas ranks sins against neighbor by the good taken away: bodily goods (murder, adultery) outweigh goods of external things, among which a good name (harmed by backbiting) ranks above wealth (harmed by theft), placing backbiting between theft and murder/adultery."
+    },
+    {
+      "q": "What does Aquinas say about the person who listens to backbiting without resisting it?",
+      "options": [
+        "The listener bears no responsibility whatsoever",
+        "The listener becomes a participator in the sin; if he induces the backbiting or delights in it out of hatred he sins as much or more, but if reluctant through fear or negligence, he sins less, usually venially",
+        "Listening is only sinful if the listener repeats the backbiting to others",
+        "The listener's guilt depends solely on the social rank of the person backbitten"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes degrees of complicity: one who encourages or delights maliciously in backbiting sins as gravely as the backbiter or more, while one who merely fails to resist out of fear or negligence sins, usually venially, though this can become mortal in some cases."
+    }
+  ],
+  "P3Q74": [
+    {
+      "q": "How does Aquinas distinguish tale-bearing from backbiting, though the two are materially similar?",
+      "options": [
+        "Tale-bearing is always done in writing while backbiting is always oral",
+        "The tale-bearer intends to sever friendship between people, whereas the backbiter intends to blacken another's good name",
+        "There is no real difference between them at all",
+        "Tale-bearing concerns political matters while backbiting concerns religious matters"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes they share matter and secretive form, but differ in end: the backbiter aims to depreciate a good name, while the tale-bearer aims to stir hearers' minds against friends and thus destroy friendship, per Proverbs 26:20."
+    },
+    {
+      "q": "Why does Aquinas conclude that tale-bearing is a graver sin than backbiting?",
+      "options": [
+        "Because tale-bearing always involves more people than backbiting",
+        "Because a friend is among the greatest of external goods (no man can live without friends), so destroying friendship injures a greater good than merely depreciating a good name",
+        "Because tale-bearing is punished more severely under civil law",
+        "Because backbiting is not really a sin at all according to Aquinas"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that sins against a neighbor are graver according to the good they take away; since friendship is a supreme external good ('no man can live without friends'), tale-bearing, which destroys friendship, exceeds backbiting in gravity."
+    },
+    {
+      "q": "What common feature do tale-bearing and backbiting share, according to Aquinas's definition?",
+      "options": [
+        "Both are committed only against people in positions of authority",
+        "Both speak evil of one's neighbor secretly, though they differ in the end intended",
+        "Both are venial sins by their very nature",
+        "Both require the collaboration of at least three people"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas states that the tale-bearer and the backbiter agree in matter and in the secretive mode of speaking evil of a neighbor, which is why the terms are sometimes used interchangeably, though their ends differ."
+    }
+  ],
+  "P3Q75": [
+    {
+      "q": "How does Aquinas distinguish derision from reviling, backbiting, and tale-bearing?",
+      "options": [
+        "Derision is not really distinct from these other sins",
+        "The derider's distinct intention is to shame the person derided, unlike the reviler (dishonor), backbiter (defame), or tale-bearer (sever friendship)",
+        "Derision can only occur in written form",
+        "Derision is always directed only at animals, not persons"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas judges sins of word by the speaker's intention, and identifies that the derider specifically intends to shame the person he derides, a distinct end from dishonoring, defaming, or severing friendship."
+    },
+    {
+      "q": "According to Aquinas, when does derision become a mortal sin?",
+      "options": [
+        "It is always merely venial regardless of circumstances",
+        "When the person treats another's defect as if it made the person utterly despicable and beneath concern, thereby scorning him altogether, especially when directed at God, parents, or the good",
+        "Only if the derision is expressed in a foreign language",
+        "Only if the victim of derision is a member of the clergy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that when a defect is treated as slight in itself, derision is venial; but when a person is scorned as utterly despicable, it is a mortal sin, escalating in gravity when directed at God, one's parents, or the virtuous."
+    }
+  ],
+  "P3Q76": [
+    {
+      "q": "According to Aquinas, when is cursing (evil speaking through command or wish) unlawful, and when can it be lawful?",
+      "options": [
+        "It is always unlawful, without exception",
+        "It is unlawful when the evil itself is what is intended, but it can be lawful when evil is willed under the aspect of a good, such as just punishment by a judge, or a useful remedy meant to reform or restrain a sinner",
+        "It is always lawful as long as the target deserves it",
+        "It is lawful only when done anonymously"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes cursing that intends evil as such (unlawful) from speaking evil under the aspect of justice (a judge condemning to a just penalty) or usefulness (wishing a sinner suffer something for his reform), which can be lawful."
+    },
+    {
+      "q": "What does Aquinas conclude about cursing irrational creatures, such as when Job cursed the day of his birth?",
+      "options": [
+        "It is always meaningless and therefore never a sin",
+        "Cursing irrational creatures considered as God's creatures is blasphemy, but cursing them considered merely in themselves is idle, vain, and thus unlawful",
+        "It is a mortal sin only if the creature is a domesticated animal",
+        "It is entirely praiseworthy because it expresses grief"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that good and evil pertain to irrational creatures only in relation to rational creatures; to curse them as God's creatures is blasphemy, while cursing them merely in themselves, apart from any signification, is vain and unlawful."
+    },
+    {
+      "q": "Why does Aquinas argue that cursing is, according to its genus, generally graver than backbiting?",
+      "options": [
+        "Actually Aquinas argues the reverse ordering depends on the mode: since backbiting asserts an evil of fault while cursing (as mere wish) speaks an evil of punishment, and fault is worse than punishment, backbiting is generically graver than a mere wish-cursing; cursing by way of command varies depending on the injury caused",
+        "Cursing is always more grievous because it involves the will directly",
+        "They are always equal in every case with no possible variation",
+        "Cursing is never a sin at all, so no comparison applies"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that evil of fault (spoken by reviler, backbiter, tale-bearer, derider) is worse than evil of punishment (spoken by the curser); thus backbiting is generically graver than cursing understood as mere wish, though cursing by command varies with the injury it causes."
+    }
+  ],
+  "P3Q77": [
+    {
+      "q": "According to Aquinas, is it lawful to sell a thing for more than its just price?",
+      "options": [
+        "Yes, sellers may charge whatever the market will bear with no restriction",
+        "No; apart from fraud, buying and selling should observe equality between the thing and its price, though the price may reasonably reflect the seller's own loss in parting with the item",
+        "Yes, but only if the buyer is wealthy",
+        "No, all commerce whatsoever is sinful"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas teaches that contracts of buying and selling should observe equality of thing and price for the common advantage of both parties; charging more than just price through deceit is unlawful, though a seller may account for his own loss in parting with a good thing."
+    },
+    {
+      "q": "What must a seller do, according to Aquinas, regarding a hidden defect in the goods sold that could cause the buyer loss or danger?",
+      "options": [
+        "He is never obligated to reveal any defects",
+        "He must disclose hidden defects that would occasion loss or danger to the buyer, though he need not disclose manifest defects that the buyer can see for himself",
+        "He must disclose all defects, hidden or obvious, or forfeit the entire sale price",
+        "Only defects affecting the color of the goods must be disclosed"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that a seller who conceals a hidden defect causing loss or danger commits a fraudulent, illicit sale and owes compensation, but he need not disclose a manifest defect (like a one-eyed horse) since the buyer can judge for himself."
+    },
+    {
+      "q": "How does Aquinas evaluate trading (buying to resell at a profit) as an occupation?",
+      "options": [
+        "It is intrinsically evil and forbidden to Christians in every case",
+        "Trading for gain as such tends toward unlimited greed and has a certain debasement, but gain is not inherently sinful and becomes lawful when directed to a necessary or virtuous end, such as supporting one's household or serving the public good",
+        "It is the highest and most praiseworthy of all occupations",
+        "It is only permissible for members of the clergy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes natural exchange (for life's necessities, praiseworthy) from trade for profit, which in itself has a debasement since gain has no natural limit; yet gain becomes lawful when ordered to a necessary or virtuous purpose, like supporting one's family."
+    }
+  ],
+  "P3Q78": [
+    {
+      "q": "What is Aquinas's core argument for why charging usury (interest on a loan of money) is unjust?",
+      "options": [
+        "Because money is sacred and must never be touched by commerce",
+        "Because with consumable things like money, the use of the thing cannot be separated from the thing itself, so charging separately for the loan of the money and for its use amounts to selling the same thing twice, or selling what does not exist",
+        "Because ancient Roman law forbade all interest",
+        "Because usury always results in the borrower's bankruptcy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that money's use consists in its consumption/alienation in exchange, so its use cannot be separated from its substance; charging for the loan and for the use separately is to sell the same thing twice or sell what does not exist."
+    },
+    {
+      "q": "According to Aquinas, may a lender lawfully accept a voluntary gift of gratitude from a borrower, beyond repayment of the principal?",
+      "options": [
+        "No, any extra payment whatsoever is always usury",
+        "Yes, because a gratuity given freely, not exacted or owed by agreement, is not usury, though exacting anything measurable in money by agreement is",
+        "Yes, but only if it is paid in a foreign currency",
+        "No, lenders may never lawfully receive anything beyond the exact sum lent under any circumstance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes a spontaneous gratuity, freely given and not exacted by agreement (lawful), from anything demanded by tacit or explicit agreement whose value can be measured in money (usury)."
+    },
+    {
+      "q": "Does Aquinas permit a person in need to borrow money under a condition of usury from a professional usurer?",
+      "options": [
+        "No, this is absolutely forbidden in every circumstance",
+        "Yes; while it is never lawful to induce someone to lend at usury, one may lawfully make use of a usurer's readiness to lend at interest for a good purpose, such as relieving one's own or another's need, just as one may point out one's goods to robbers to save one's life",
+        "Yes, but only if the borrower is a priest",
+        "No, because borrowing at interest is a worse sin than the usurer's own sin of lending at interest"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons by analogy to using another's sin for a good end without inducing it: one may not induce a man to lend at usury, but may borrow from a willing usurer for a good purpose, just as one may reveal goods to robbers to save one's life."
+    }
+  ],
+  "P3Q79": [
+    {
+      "q": "According to Aquinas, how are 'doing good' and 'declining from evil' related to justice as quasi-integral parts?",
+      "options": [
+        "They are unrelated to justice entirely and belong to other virtues",
+        "Doing good establishes the equality of justice by rendering another his due, while declining from evil preserves that equality by inflicting no injury; both are needed for the perfect act of justice",
+        "Only declining from evil pertains to justice; doing good pertains solely to charity",
+        "They are identical acts with no meaningful distinction"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that justice both establishes equality (by doing good, rendering another his due) and preserves it (by avoiding evil, inflicting no injury), and both acts are required for the complete exercise of justice."
+    },
+    {
+      "q": "How does Aquinas define 'transgression' as a special kind of sin?",
+      "options": [
+        "Any sin whatsoever, without distinction",
+        "Properly speaking, acting against a negative precept, stepping beyond the fixed boundary the precept establishes, treating the precept with contempt",
+        "Only sins committed by public officials",
+        "Failing to perform an act commanded by a positive precept"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that transgression, taken from the image of stepping beyond a boundary, properly means acting against a negative precept, treating it as an object of contempt, and is distinguished from omission, which opposes affirmative precepts."
+    },
+    {
+      "q": "Why does Aquinas conclude that, considered absolutely, transgression is a graver sin than omission?",
+      "options": [
+        "Because transgression always involves more people than omission",
+        "Because contrariety represents the greatest remoteness from virtue, and transgression is contrary to an act of virtue, while omission is merely the negation of that act, a lesser remoteness (though a particular omission can be graver than a particular transgression)",
+        "Because omission is never actually a sin at all",
+        "Because civil law always punishes transgression more severely than omission"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues from Metaphysics that contrariety is the greatest remoteness from a thing; since transgression is contrary to virtuous action while omission is merely its negation, transgression is generally graver, though particular cases can vary."
+    }
+  ],
+  "P3Q80": [
+    {
+      "q": "According to Aquinas, in what two ways can a virtue directed toward another person fall short of the full perfection of justice, thereby becoming 'annexed' to justice rather than being justice itself?",
+      "options": [
+        "By being either too public or too private in its exercise",
+        "By falling short of true equality (as with religion toward God or piety toward parents, where we can never render an equal return) or by falling short of a strict legal due (a moral rather than legal debt, as with truth, gratitude, and vengeance)",
+        "By requiring either too much wealth or too little wealth to practice",
+        "By being practiced only by clergy or only by laity"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that virtues annexed to justice fall short either in the aspect of equality (we cannot repay God or parents equally, giving rise to religion and piety) or in the aspect of legal due (giving rise to virtues meeting a moral due, like truth or gratitude)."
+    },
+    {
+      "q": "Which virtue does Aquinas identify as annexed to justice because man cannot repay an equal debt to those who excel in virtue?",
+      "options": [
+        "Liberality",
+        "Observance, which renders deference and honor to those who excel in worth",
+        "Prudence",
+        "Temperance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, following Cicero, identifies 'observance' as the virtue annexed to justice through which we render deference and honor to those who excel in worth, since an equal repayment for virtue cannot be made."
+    }
+  ],
+  "P3Q81": [
+    {
+      "q": "According to Aquinas, is religion a theological virtue?",
+      "options": [
+        "Yes, because its object is God directly, just like faith, hope, and charity",
+        "No; religion is a moral virtue because God is its end (that to which worship is directed) rather than its object/matter, which is the acts of worship themselves referred to God",
+        "Religion is not a virtue of any kind at all",
+        "Religion is an intellectual virtue concerned with speculative truth"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the matter of religion (worship, sacrifice, etc.) from its end (God, to whom worship is directed); since God is related to religion as end rather than object, religion is a moral virtue, not a theological one."
+    },
+    {
+      "q": "Why does Aquinas hold that religion should be preferred among the moral virtues?",
+      "options": [
+        "Because religion requires the most physical exertion",
+        "Because whatever is directed to an end is better the nearer it approaches that end, and religion's acts are directly and immediately ordered to the honor of God, more so than other moral virtues",
+        "Because religion was established before all other virtues chronologically",
+        "Because religion alone can be practiced without any external acts"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that moral virtues are all ordered to God as end, but religion approaches nearest to God since its actions are directly and immediately ordered to His honor, giving it precedence among the moral virtues."
+    },
+    {
+      "q": "How does Aquinas relate sanctity to religion?",
+      "options": [
+        "They are entirely separate and unrelated virtues",
+        "Sanctity differs from religion not essentially but only logically: it is called religion when giving God due service in matters of specific worship, and sanctity when man applies his mind and all his works, purely and firmly, to God",
+        "Sanctity is a lower virtue than religion, belonging only to laypeople",
+        "Sanctity refers only to physical cleanliness required before worship"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that sanctity denotes purity and firmness applying the mind to God; it is the same reality as religion viewed under a wider aspect, differing from religion only logically, not essentially."
+    }
+  ],
+  "P3Q82": [
+    {
+      "q": "How does Aquinas define devotion, and to which virtue does he assign it?",
+      "options": [
+        "Devotion is a passing emotion unrelated to any virtue",
+        "Devotion is the will to give oneself readily to things concerning the service of God, and it is an act of the virtue of religion",
+        "Devotion is a theological virtue distinct from faith, hope, and charity",
+        "Devotion belongs to the virtue of fortitude, not religion"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas defines devotion as the readiness of will to give oneself to God's service, and since doing what pertains to divine worship belongs properly to religion, he concludes devotion is an act of that virtue."
+    },
+    {
+      "q": "According to Aquinas, what is the intrinsic cause of devotion in man, alongside God as extrinsic cause?",
+      "options": [
+        "Bodily strength and youth",
+        "Meditation or contemplation, particularly on God's goodness (which wakens love) and on man's own shortcomings (which shuts out presumption)",
+        "Financial wealth used to support the Church",
+        "Mere repetition of vocal prayers without thought"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that since devotion is an act of will, and every act of will proceeds from some consideration understood by the mind, meditation on God's goodness and on man's own defects intrinsically causes devotion."
+    },
+    {
+      "q": "What does Aquinas identify as the direct and principal effect of devotion, versus its secondary and indirect effect?",
+      "options": [
+        "Spiritual joy is the direct effect, while sorrow is a secondary, accidental effect arising from awareness of one's failings or of not yet fully enjoying God",
+        "Sorrow is always the sole and only effect of true devotion",
+        "Physical healing is the direct effect of devotion",
+        "Devotion produces no discernible effects at all"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas teaches that the consideration of God's goodness directly produces joy, while accidentally it may cause sorrow in those not yet fully enjoying God; the consideration of one's failings directly causes sorrow but accidentally joy through hope."
+    }
+  ],
+  "P3Q83": [
+    {
+      "q": "According to Aquinas, why is prayer classified as an act of reason rather than merely of the appetitive power?",
+      "options": [
+        "Because prayer is simply the recitation of memorized words",
+        "Because prayer, understood as petition or beseeching, is an ordering of things through reason, whereby the reason 'asks or beseeches' something to be done by another, whether equal or superior",
+        "Because prayer requires no engagement of the will at all",
+        "Because only priests are capable of rational thought during prayer"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that reason can be a cause of things either by commanding (with necessity) or by asking/beseeching (imperfectly, disposing rather than necessitating); prayer as petition belongs to this second act of reason, ordering something to be done by another."
+    },
+    {
+      "q": "How does Aquinas answer the objection that prayer is useless because divine providence is unchangeable?",
+      "options": [
+        "He agrees prayer is useless and merely symbolic",
+        "He argues that divine providence disposes not only what effects will occur but also through which causes, including human prayers; we pray not to change God's disposition but to obtain by prayer what God has already disposed to grant through our asking",
+        "He claims that prayer actually does change God's eternal plan",
+        "He says only saints, not ordinary people, benefit from praying"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas resolves the tension by explaining that providence disposes effects through appointed causes, including our prayers; thus we pray not to alter God's plan but to merit and obtain, through prayer, what God has eternally disposed to give in that way."
+    },
+    {
+      "q": "According to Aquinas's exposition of the Lord's Prayer, what does the petition 'Give us this day our daily bread' correspond to?",
+      "options": [
+        "The removal of sin as an obstacle to beatitude",
+        "The instrumental means that help us merit beatitude, such as the sacramental Eucharist or bodily sustenance needed to perform acts of virtue",
+        "The direct and principal willing of God's glory",
+        "Protection from temptation alone"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains the sevenfold structure of the Lord's Prayer as ordered to beatitude: 'daily bread' corresponds to the instrumental helps to merit, understood either sacramentally (the Eucharist) or as bodily sustenance needed for virtuous acts."
+    }
+  ],
+  "P3Q84": [
+    {
+      "q": "According to Aquinas, why does adoration involve bodily as well as spiritual acts?",
+      "options": [
+        "Bodily adoration is unnecessary and only spiritual adoration matters",
+        "Because man is composed of both intellectual and sensible natures; exterior bodily signs of humility are offered to incite the internal affections to submit to God, since it is natural to man to proceed from the sensible to the intelligible",
+        "Because ancient pagan customs required physical gestures",
+        "Because words alone cannot be heard by God"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, citing Damascene, explains that since man has a twofold nature, exterior bodily adoration is offered on account of the interior, to incite our affections to submit to God, following man's natural movement from sensible to intelligible things."
+    },
+    {
+      "q": "Why does Aquinas say a definite place is required for adoration, even though God is not confined to any place?",
+      "options": [
+        "Because sacred buildings generate spiritual power on their own",
+        "Because while the mind apprehends God as not comprised in any place, the bodily signs of adoration must necessarily occur in some definite place, so a place is required by a certain fittingness rather than as essential to adoration itself",
+        "Because ancient law forbade praying outdoors",
+        "Because location determines whether God will hear the prayer"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the chief, internal part of adoration (devotion of the mind, not tied to place) from the secondary, external part (bodily signs, which must occur somewhere); a place is thus fitting for adoration's bodily component, though not essential to it."
+    }
+  ],
+  "P3Q85": [
+    {
+      "q": "According to Aquinas, is offering sacrifice to God part of the natural law?",
+      "options": [
+        "No, sacrifice was invented solely by human custom with no basis in nature",
+        "Yes; natural reason dictates that man, perceiving his defects and need for a higher being, should submit and honor that being using sensible signs, since man derives knowledge from sensible things, and this offering is sacrifice",
+        "No, sacrifice is exclusively a ceremonial requirement of the Old Law",
+        "Yes, but only because ancient philosophers agreed it should be done"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that natural reason recognizes man's subjection to a higher being (God) due to his own defects, and dictates that he show submission using sensible signs, since man's mode of knowing is through sensibles; this is what constitutes sacrifice."
+    },
+    {
+      "q": "Why does Aquinas insist that sacrifice must be offered to God alone, and not to any creature?",
+      "options": [
+        "Because sacrifice is merely a social custom with no deeper meaning",
+        "Because the outward sacrifice represents the inward spiritual sacrifice of the soul offering itself to its Creator and last end, and since God alone is the soul's creator and beatifier, outward sacrifice, like the inward, belongs to Him alone",
+        "Because pagan gods do not physically exist to receive sacrifices",
+        "Because only priests may lawfully offer any sacrifice"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that outward sacrifice signifies the soul's inward offering of itself to its beginning (Creator) and end (Beatifier); since God alone is Creator and source of beatitude according to true faith, sacrifice, like the interior offering it represents, is due to God alone."
+    }
+  ],
+  "P3Q86": [
+    {
+      "q": "According to Aquinas, is a man ordinarily obligated to make oblations to the Church?",
+      "options": [
+        "Yes, oblations are always strictly obligatory with no exceptions",
+        "Oblations are essentially voluntary, but obligation can arise from prior agreement, prior promise/bequest, the genuine need of the Church, or established custom",
+        "No, oblations were entirely abolished under the New Law",
+        "Only bishops are permitted to make oblations"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that oblation, unlike sacrifice, is essentially a voluntary offering, yet obligation to make them can arise in four ways: prior agreement, prior promise or bequest, the Church's genuine need, and established custom, though the quantity often remains voluntary."
+    },
+    {
+      "q": "Why, according to Aquinas, do oblations chiefly concern priests?",
+      "options": [
+        "Because priests own all Church property personally",
+        "Because the priest, as mediator between the people and God, is charged with faithfully dispensing what the people offer, partly for divine worship, partly for the ministers' livelihood, and partly for the poor",
+        "Because only priests are permitted to touch money in medieval law",
+        "Because laypeople are forbidden from ever giving gifts to the Church"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains the priest's mediatorial role means oblations concern him not merely for his own use but for faithful dispensation, part to worship, part to the ministers' livelihood, and part to the support of the poor from Church possessions."
+    }
+  ],
+  "P3Q87": [
+    {
+      "q": "According to Aquinas, is the obligation to pay tithes purely a matter of natural law, or purely a matter of positive human/church institution?",
+      "options": [
+        "It is partly natural law (that ministers of divine worship should be supported by the people, as with soldiers and workers) and partly a matter fixed by Church institution (the specific fraction of a tenth)",
+        "It is purely natural law with no role for Church legislation",
+        "It is purely a Church invention with no basis in reason or nature",
+        "Tithing was abolished entirely under the New Law and has no basis today"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas distinguishes the general natural-law principle (that those who minister divine worship should be supported by the people, like soldiers or workers) from the specific proportion of a tenth, which was fixed by divine institution in the Old Law and later by the Church."
+    },
+    {
+      "q": "According to Aquinas, are clergy themselves ever obligated to pay tithes?",
+      "options": [
+        "Never, clergy are exempt from all tithing under every circumstance",
+        "Clergy are not bound to pay tithes on ecclesiastical property they administer as ministers, but they are bound to pay tithes on property they hold in their own right, such as by inheritance or purchase",
+        "Only bishops, not ordinary priests, must pay tithes",
+        "Clergy must pay double tithes compared to laypeople"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the clergy's status as recipients of tithes on Church property (since tithes are due to ministers of the altar) from their status as private property owners, in which capacity they are bound to pay tithes on their own lands like anyone else."
+    }
+  ],
+  "P3Q88": [
+    {
+      "q": "According to Aquinas, what three things are essential to constitute a vow?",
+      "options": [
+        "Public announcement, written record, and witnesses",
+        "Deliberation, a purpose of the will, and a promise made to God",
+        "Fasting, prayer, and almsgiving performed together",
+        "Approval by a bishop, a formal ceremony, and a specific duration"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas defines a vow as a binding promise to God, requiring deliberation (since purpose presupposes deliberation), a purpose of the will, and the promise itself, which completes the nature of a vow; spoken words and witnesses are only confirmatory additions."
+    },
+    {
+      "q": "Why does Aquinas argue that a vow should properly be about a 'better good' rather than something merely necessary?",
+      "options": [
+        "Because vows about ordinary duties are always invalid",
+        "Because a vow is a voluntary promise, and what is absolutely necessary (or necessary only as a means, done necessarily) is not properly voluntary; only what is not strictly necessary is fully voluntary and thus most properly matter for a vow",
+        "Because God only listens to vows involving heroic sacrifice",
+        "Because ordinary goods cannot be pleasing to God"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that necessity excludes voluntariness, and since a vow is essentially a voluntary promise, what is absolutely necessary cannot be vowed; only that which is not necessary, and hence a 'greater good,' is properly the matter of a vow."
+    },
+    {
+      "q": "According to Aquinas, why is it more meritorious to do a good deed in fulfillment of a vow than to do the same deed without a vow?",
+      "options": [
+        "It is not more meritorious; vows add nothing to the value of an act",
+        "Because vowing is an act of religion (the highest moral virtue), because vowing subjects oneself to God more fully (as to both power and act), and because a vow fixes the will immovably on the good, which belongs to virtue's perfection",
+        "Because vows are legally enforceable while ordinary good deeds are not",
+        "Because only those who take vows can enter heaven"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas gives three reasons: vowing is itself an act of religion (a superior virtue commanding the lesser act), it subjects one to God more fully than mere doing, and it fixes the will immovably on the good, which belongs to the perfection of virtue."
+    }
+  ],
+  "P3Q89": [
+    {
+      "q": "According to Aquinas, why do we resort to invoking God as witness in an oath rather than relying solely on human testimony?",
+      "options": [
+        "Because human witnesses are legally forbidden from testifying in certain matters",
+        "Because human testimony is insufficient for confirming contingent particular facts, both due to man's propensity to lie and his limited knowledge of the future, secret thoughts, or distant things, whereas God cannot lie and nothing is hidden from Him",
+        "Because oaths are purely ceremonial and carry no real epistemic function",
+        "Because ancient religions required this practice arbitrarily"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that oaths confirm contingent facts that cannot be proven by necessary reason; human witnesses can fail through lying or ignorance, so we invoke God, who cannot lie and knows all things, as the ultimate witness."
+    },
+    {
+      "q": "What three conditions does Aquinas identify as necessary for the good use of an oath?",
+      "options": [
+        "Wealth, status, and public office",
+        "Judgment/discretion (swearing for urgent, not frivolous, reasons), truth (confirming what is true), and justice (confirming what is lawful)",
+        "Silence, secrecy, and solitude",
+        "Age, gender, and nationality"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies judgment (discretion in when to swear), truth (the matter sworn to must be true), and justice (the matter sworn to must be lawful) as the three conditions; a rash oath lacks judgment, a false oath lacks truth, and a wicked oath lacks justice."
+    },
+    {
+      "q": "According to Aquinas, is a vow or an oath the more binding obligation?",
+      "options": [
+        "They are absolutely identical in binding force",
+        "A vow is by its nature more binding than an oath, because the obligation of a vow arises from the fidelity owed to God (and infidelity implies irreverence), while an oath's obligation arises from the reverence owed to God, and irreverence does not always imply infidelity",
+        "An oath is always more binding because it is legally enforceable",
+        "Neither has any real binding force in Aquinas's view"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since every act of infidelity includes irreverence, but not every irreverence is infidelity, and a vow's obligation flows from fidelity while an oath's flows from reverence, a vow is by nature more binding than an oath."
+    }
+  ],
+  "P3Q90": [
+    {
+      "q": "According to Aquinas, when is it unlawful to adjure another person by invoking God's name?",
+      "options": [
+        "Adjuration is always unlawful under any circumstance",
+        "It is unlawful when a person who is not one's subject is intended to be put under a binding obligation by such adjuration, since this usurps a power one does not have; superiors may lawfully bind subjects, and anyone may lawfully use adjuration merely to obtain something without imposing obligation",
+        "It is unlawful only if performed on a Sunday",
+        "It is only unlawful for laypeople, never for clergy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes adjuration meant to impose a binding obligation (lawful only for a superior over a subject, since one cannot bind those over whom one has no authority) from adjuration merely intended to obtain something through reverence, which may be used toward anyone."
+    },
+    {
+      "q": "According to Aquinas, is it lawful to adjure demons?",
+      "options": [
+        "It is always unlawful in every possible sense",
+        "It is unlawful to adjure demons by way of prayer or friendly inducement, but it is lawful, within limits, to adjure them by way of compulsion to repel them as enemies, though not to learn from them or gain benefits through them",
+        "It is always fully lawful to adjure demons for any purpose",
+        "Only bishops may lawfully adjure demons"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes adjuration by friendly appeal (unlawful, since friendship with demons is forbidden) from adjuration by compulsion, which is lawful to repel demons as enemies (through God's power) but unlawful when used to learn from them or gain benefits."
+    }
+  ],
+  "P3Q91": [
+    {
+      "q": "According to Aquinas, for whose sake do we praise God with our lips, since God already knows our hearts?",
+      "options": [
+        "For God's sake alone, since He needs to hear our praise",
+        "For our own sake and the sake of others, since vocal praise arouses our own devotion toward God and incites others who hear it to reverence and imitate that devotion",
+        "For no purpose at all; vocal praise is meaningless",
+        "Solely to fulfill a legal requirement of worship"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that unlike speaking to men (to inform them of our thoughts), we speak to God not to inform Him but to arouse our own devotion and, when heard by others, to incite their affections toward God as well."
+    },
+    {
+      "q": "Why does Aquinas approve of the use of song and music in praising God?",
+      "options": [
+        "Because music is required by strict biblical command in every liturgy",
+        "Because the human soul is moved in various ways by different melodies, so music, like other salutary institutions, helps incite the faint-hearted more effectively to devotion",
+        "Because music was invented specifically for use in churches",
+        "Because silence in worship is always sinful"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, citing Aristotle and Augustine, notes that the soul responds variously to different melodies, so music in divine praise is a salutary institution that helps incite devotion, especially in the faint-hearted."
+    }
+  ],
+  "P3Q92": [
+    {
+      "q": "According to Aquinas, why is superstition classified as a vice of excess opposed to religion, even though it does not literally offer 'more' worship than true religion?",
+      "options": [
+        "Because superstition always involves more elaborate rituals than true religion",
+        "Because just as certain virtues (like magnanimity) can be exceeded not by degree but by wrong object, time, or manner, superstition exceeds the mean of religion by giving worship to whom it ought not, or in a manner it ought not, even if the quantity offered is not literally greater",
+        "Because superstitious people are always wealthier than religious people",
+        "Superstition is not actually classified as excess by Aquinas at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that the mean of virtue can be exceeded not only in quantity but in other circumstances (to whom, when, how); superstition is excess because it gives divine worship to the wrong recipient or in the wrong manner, not necessarily in greater amount."
+    },
+    {
+      "q": "How does Aquinas structure the species of superstition, following Augustine?",
+      "options": [
+        "There is only one undifferentiated species of superstition",
+        "Undue mode of worshiping the true God is one species; giving worship to a creature (idolatry, various species by end) is another genus; and undue means of being taught by God (divinatory superstition) and of directing acts (superstitious observances) round out the divisions",
+        "Superstition is divided solely by geography (Eastern vs. Western practices)",
+        "Superstition has exactly two species: theft and murder"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas differentiates superstition by mode (undue worship of the true God) and by object (worship given to a creature, subdivided by the end sought: reverence yields idolatry, teaching yields divination, and direction of acts yields superstitious observances)."
+    }
+  ],
+  "P3Q93": [
+    {
+      "q": "According to Aquinas, how can worship of the true God still become 'pernicious' or superstitious?",
+      "options": [
+        "True worship of God can never become pernicious under any circumstances",
+        "If the worship signifies something false, either because it is discordant with the reality it should signify (e.g., using Old Law ceremonies after Christ's mysteries are fulfilled) or because a minister worships in a manner contrary to what the Church or divine authority has established",
+        "Only if the worshiper is poor",
+        "Only if the worship occurs outdoors rather than in a church building"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that outward worship signifies something, like words do; it becomes false and pernicious either when discordant with the truth it should represent (like using superseded Old Law ceremonies) or when a minister worships contrary to the Church's established manner."
+    },
+    {
+      "q": "According to Aquinas, can there be excess in the worship of God with regard to absolute quantity?",
+      "options": [
+        "Yes, one can always do too much for God in an absolute sense",
+        "No; since whatever man does is always less than what he owes God, there cannot be absolute excess, but there can be excess in due proportion, when something is not conducive to God's glory, curbing concupiscence, or accords with lawful commandments and custom",
+        "Excess is impossible in any sense whatsoever",
+        "Only clergy can commit excess in worship, never laypeople"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes absolute quantity (where excess is impossible since we always owe God more than we can give) from proportional excess, which occurs when practices fail to serve God's glory, discipline concupiscence, or conform to legitimate commandments and custom."
+    }
+  ],
+  "P3Q94": [
+    {
+      "q": "According to Aquinas, are idolaters always guilty of a graver sin than heretics?",
+      "options": [
+        "Yes, idolatry is always the single gravest sin without exception in every respect",
+        "Considering the sin itself, idolatry is the gravest sin since it usurps God's honor entirely; but considering the sinner's culpability, heretics who knowingly corrupt the faith they received can sin more grievously than idolaters who err through ignorance",
+        "No, idolatry is never considered a serious sin by Aquinas",
+        "Heretics are always worse than idolaters in every possible respect"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the gravity of the sin considered in itself (idolatry is worst, since it gives God's honor to a creature) from gravity considered on the part of the sinner (one who knowingly corrupts a truth already received, like some heretics, may sin more grievously than an ignorant idolater)."
+    },
+    {
+      "q": "What dispositive causes on the part of man does Aquinas identify as leading to idolatry?",
+      "options": [
+        "Only poverty and lack of education",
+        "Inordinate affection (excessive love or reverence for other men, leading to worshiping them), natural pleasure in artistic representations, and ignorance of the true God through failing to consider His excellence",
+        "Only military conquest by pagan empires",
+        "Only the direct compulsion of civil law"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies three human dispositive causes: inordinate affection or reverence toward other men (as in the myth of the grieving father), natural delight in skillfully made images, and ignorance of God's true excellence, alongside the demons' completive role in encouraging worship."
+    }
+  ],
+  "P3Q95": [
+    {
+      "q": "According to Aquinas, why is divination (foretelling the future by illegitimate means) always classified as a sin?",
+      "options": [
+        "Because predicting anything about the future is inherently impossible and therefore always fraudulent",
+        "Because the future in itself, as opposed to in its necessary or probable causes, can only be known by God who sees it as present in His eternity; presuming to foreknow contingent future events by any means except divine revelation usurps what belongs to God alone",
+        "Because divination was banned by Roman civil law",
+        "Because it always involves charging money for services"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes future effects knowable through necessary or probable causes (not divination) from contingent future events knowable in themselves only to God in His eternity; presuming to foreknow the latter by any means but revelation is to usurp what belongs to God."
+    },
+    {
+      "q": "According to Aquinas, is it ever lawful to consult the movements of the stars regarding the future?",
+      "options": [
+        "It is always unlawful in every instance without exception",
+        "It is lawful when applied to effects genuinely caused by heavenly bodies (like weather patterns), since these follow of necessity, but unlawful when applied to chance events or to free acts of the will, since heavenly bodies cannot directly determine intellect or will",
+        "It is lawful for any purpose whatsoever, with no restriction",
+        "It is lawful only if performed by an ordained priest"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that heavenly bodies can be causes of necessary natural effects (like weather) and can be foreknown accordingly, but cannot directly cause or determine free acts of intellect and will, so applying astrology to human choices or chance events is superstitious and unlawful."
+    },
+    {
+      "q": "How does Aquinas evaluate 'sortilege of allotment' (casting lots to divide something, such as an inheritance, among people with equal claim) when done without superstitious intent?",
+      "options": [
+        "It is always gravely sinful regardless of intent",
+        "When the result is genuinely left to chance for a fair division, and not treated as though dependent on the stars, it need not imply vice beyond a certain vanity; when deliberately left to God's judgment, it is not wrong in itself, though it can become sinful if done without necessity, reverence, or is misapplied to trivial or ecclesiastical matters requiring the Holy Spirit's guidance",
+        "It is always meritorious and praiseworthy in every case",
+        "It is forbidden only because dice are considered unlucky objects"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes lots ascribed to mere chance (not vicious beyond vanity) from lots deliberately left to God's judgment (lawful in itself per Proverbs 16:33), while noting it becomes sinful without necessity or reverence, or when misapplied to earthly matters or ecclesiastical elections requiring the Holy Spirit."
+    }
+  ],
+  "P3Q96": [
+    {
+      "q": "According to Aquinas, why is the 'magic art' both unlawful and futile for acquiring knowledge?",
+      "options": [
+        "It is unlawful because its signs (gazing at shapes, muttering words) are not causes of knowledge but empty signs constituting a covenant with demons, and futile because true knowledge comes through God's infusion or natural instruction, and demons cannot enlighten the intellect",
+        "It is neither unlawful nor futile; Aquinas fully endorses magical practices",
+        "It is unlawful only because it is expensive to practice",
+        "It is futile only because it requires too much time to learn"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues that magic's methods do not function as natural causes of knowledge but as signs constituting an implicit demonic compact, and are futile because demons cannot enlighten the human intellect, so no genuine science is thereby acquired."
+    },
+    {
+      "q": "According to Aquinas, what determines whether an observance aimed at altering bodies (e.g., for health) is lawful or superstitious?",
+      "options": [
+        "Whether it is expensive or affordable",
+        "Whether the means employed can naturally produce the intended bodily effect (lawful, as natural causation) or whether it can only work as a sign in an implicit compact with demons (superstitious and unlawful)",
+        "Whether the practitioner is licensed by the state",
+        "Whether the practice originated in ancient Egypt or Greece"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that if a practice can naturally cause its intended bodily effect, it is lawful to use it as a natural cause; but if it cannot naturally produce that effect, its use implies employing it merely as a sign, which constitutes an unlawful compact with demons."
+    }
+  ],
+  "P3Q97": [
+    {
+      "q": "According to Aquinas, what does it mean to 'tempt God,' and when is it a sin?",
+      "options": [
+        "Tempting God means simply disbelieving in His existence",
+        "Tempting God is testing His knowledge, power, or will by word or deed, explicitly or implicitly; it is sinful because it proceeds from ignorance or doubt about God's perfection, except when done for a just, urgent, or pious purpose to prove God's power to others",
+        "Tempting God refers only to breaking one of the Ten Commandments directly",
+        "It is never possible to sin by tempting God since He cannot actually be tested"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains temptation as testing, which implies doubt or ignorance; testing God's power or will without urgent or useful cause is sinful since it implies doubting His perfection, though testing to manifest God's power for others' benefit, with due cause, is not sinful."
+    },
+    {
+      "q": "According to Aquinas, is the sin of tempting God graver or less grave than the sin of superstition?",
+      "options": [
+        "Tempting God is always graver than superstition in every case",
+        "Superstition is graver because the superstitious person professes an actual error about God's excellence, while one who tempts God merely expresses doubt, and holding a settled error is more opposed to reverence than expressing a doubt",
+        "They are always precisely equal in gravity",
+        "Neither sin admits of any comparison since they are entirely unrelated"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that superstition professes an error (like a confirmed unbeliever), which is more opposed to reverence than merely doubting, as tempting God does; therefore the sin of superstition is graver than the sin of tempting God."
+    }
+  ],
+  "P3Q98": [
+    {
+      "q": "According to Aquinas, why is falsehood essential to the sin of perjury?",
+      "options": [
+        "Because perjury requires no oath at all",
+        "Because the end of an oath is to confirm an assertion as true, and falsehood directly annuls that end since an assertion is confirmed by being shown true, which cannot happen with what is false; thus perjury takes its species chiefly from falsehood",
+        "Because perjury only concerns matters of theological doctrine",
+        "Because civil courts define perjury purely by procedural error"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since moral acts take their species from their end, and the end of an oath is confirmation of truth, falsehood, which annuls this end, is essential to what makes perjury the perversity that it is."
+    },
+    {
+      "q": "According to Aquinas, is all perjury a mortal sin, and why?",
+      "options": [
+        "No, perjury is always merely a venial sin",
+        "Yes; because perjury, by its very nature, implies contempt of God (calling Him to witness a falsehood, implying He is ignorant of truth or willing to attest to a lie), and whatever by its nature implies contempt of God is mortal",
+        "It depends entirely on the wealth of the person swearing falsely",
+        "Perjury is not classified as a sin against religion at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues from the principle that acts implying contempt of God by their nature are mortal sins; since perjury by its nature implies irreverence toward God (either that He is ignorant or willing to bear false witness), it is always a mortal sin."
+    }
+  ],
+  "P3Q99": [
+    {
+      "q": "According to Aquinas, what makes an act a sin of sacrilege?",
+      "options": [
+        "Any theft, regardless of what is stolen",
+        "The violation, through irreverent treatment, of something that has been deputed to divine worship and thereby made sacred, since irreverence toward what belongs to God is an injury to God",
+        "Only violence committed inside a church building",
+        "Any crime committed on a Sunday"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that a thing becomes sacred by being deputed to divine worship, acquiring a divine character deserving reverence; irreverent violation of such a thing is thus an injury to God and constitutes the special sin of sacrilege."
+    },
+    {
+      "q": "According to Aquinas, why is sacrilege committed against the Eucharist the gravest species of sacrilege?",
+      "options": [
+        "Because it is the most expensive sacred object to replace",
+        "Because the species of sacrilege are distinguished by the degree of holiness of what is violated, and among sacred things the sacraments hold the highest place, with the Eucharist chief among sacraments since it contains Christ Himself",
+        "Because only bishops are permitted near the Eucharist",
+        "Because the Eucharist is made of gold and silver vessels"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grades sacrilege by the sanctity of what is desecrated: persons, then places, then other sacred things, among which the sacraments rank highest, and the Eucharist ranks highest of all sacraments because it contains Christ Himself, making sacrilege against it the gravest."
+    }
+  ],
+  "P3Q100": [
+    {
+      "q": "According to Aquinas, what three reasons make a spiritual thing undue matter for buying and selling, thus constituting simony?",
+      "options": [
+        "Spiritual things are illegal to trade under Roman law, too heavy to transport, and prone to counterfeiting",
+        "A spiritual thing cannot be appraised at any earthly price; ecclesiastical superiors are dispensers, not owners, of spiritual things; and sale is opposed to the gratuitous divine origin of spiritual goods ('freely have you received, freely give')",
+        "Spiritual things belong only to the laity, not the clergy",
+        "Spiritual things have no market value whatsoever and thus cannot be discussed at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas gives three reasons spiritual things cannot be lawfully sold: they are beyond any earthly price, church officials merely dispense rather than own them, and their gratuitous divine origin is contradicted by commercial sale, citing Matthew 10:8."
+    },
+    {
+      "q": "According to Aquinas, is it simony to give financial support to ministers who administer the sacraments?",
+      "options": [
+        "Yes, any payment to clergy for any reason is always simony",
+        "No; receiving money as spiritual grace itself is simony, but receiving support for the ministers' sustenance, in accordance with Church statutes and approved custom, is not, since it is payment for their need rather than a price for the sacrament",
+        "It is simony only if the amount given exceeds a fixed sum",
+        "Simony applies only to bishops, never to ordinary priests"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes payment as the price of sacramental grace (always simony, incapable of excuse by custom) from payment for the sustenance of ministers according to Church statute and custom, which is legitimate support rather than a purchase of grace."
+    }
+  ],
+  "P3Q101": [
+    {
+      "q": "According to Aquinas, to whom does piety chiefly direct man's worship, after God?",
+      "options": [
+        "To wealthy benefactors and civic leaders generally",
+        "To one's parents and kindred, and to one's country and fellow-citizens, since these are the proximate principles of our being and government after God",
+        "To strangers exclusively, in order to test one's charity",
+        "To animals, since they too participate in the order of creation"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that after God, who is the first principle of being, our parents and country are the proximate principles of our being and government (birth, nourishment, upbringing), so piety directs worship chiefly to them and, by extension, to kindred and fellow-citizens."
+    },
+    {
+      "q": "According to Aquinas, must the duties of piety toward one's parents ever be set aside for the sake of religion?",
+      "options": [
+        "No, piety toward parents always takes absolute precedence over religion",
+        "Yes; since the worship of divine religion takes precedence over the claims of kindred, if honoring one's parents would draw one away from the worship of God, the duties of piety must yield to religion",
+        "The two virtues can never conflict in any circumstance",
+        "Piety and religion are actually the very same virtue with no distinction"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that although no true virtue opposes another, piety toward parents must observe due limits and yield when it would draw one away from the worship owed to God, since divine religion's claims take precedence over those of kindred."
+    }
+  ],
+  "P3Q102": [
+    {
+      "q": "According to Aquinas, what is the object of the virtue of 'observance'?",
+      "options": [
+        "Observance concerns keeping track of astronomical events",
+        "Observance pays worship and honor to persons in positions of dignity, who partake in a particular way of the character of 'father' by exercising some form of providence or governance (such as civic rulers, military commanders, or teachers)",
+        "Observance is a synonym for strict monastic rule-keeping only",
+        "Observance applies exclusively to the worship owed to God alone"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that persons in positions of dignity partake, in a particular way, of the fatherly character found universally in God, since they exercise some care or governance, and hence deserve the worship and honor called observance, analogous to piety toward parents."
+    },
+    {
+      "q": "Why does Aquinas conclude that piety takes precedence over observance?",
+      "options": [
+        "Because observance is not actually a real virtue",
+        "Because our parents and kindred are more substantially akin to us (through birth and upbringing, which touch our very substance) than persons in positions of dignity (whose relation is through external governance), so piety concerns those to whom we are more strictly bound",
+        "Because observance can only be practiced by soldiers",
+        "Because piety requires more elaborate ceremonies"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares the relations: birth and education (piety's object) touch our substance more intimately than external governance (observance's object, tied to persons in dignity), so piety, concerning those more closely bound to us, takes precedence."
+    }
+  ],
+  "P3Q103": [
+    {
+      "q": "According to Aquinas, why is honor expressed through corporal and external signs when directed toward men, rather than remaining purely internal?",
+      "options": [
+        "Because internal honor toward men is impossible in principle",
+        "Because honor is a witnessing to excellence, and while the witness of one's conscience suffices before God who searches hearts, before other men witness can only be borne through external signs, whether words, deeds, or gifts",
+        "Because external signs are legally required by civil authorities in all cases",
+        "Because internal honor is a heresy according to Aquinas"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that honor is essentially a witnessing to excellence; before God, whose knowledge is direct, an internal movement of the heart suffices, but before men, who cannot read hearts, this witness must be given through external, corporal signs."
+    },
+    {
+      "q": "According to Aquinas, why is dulia (reverence owed to a human lord) a distinct virtue from latria (worship owed to God alone)?",
+      "options": [
+        "They are actually identical virtues with different names",
+        "Because servitude is due to God and to man under entirely different aspects: God has absolute, paramount lordship over all creation, while human lordship is only a limited participation in that divine lordship over some particular subjects, so different virtues render these different dues",
+        "Because dulia can be practiced by animals as well as humans",
+        "Because latria applies only to Old Testament worship"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since different aspects of what is due require different virtues, and God's absolute lordship over all creatures differs in kind from a man's limited, participated lordship over certain subjects, dulia (owed to human lords) is distinct from latria (owed to God)."
+    }
+  ],
+  "P3Q104": [
+    {
+      "q": "According to Aquinas, why are inferiors bound to obey their superiors?",
+      "options": [
+        "Purely due to fear of punishment, with no deeper rational basis",
+        "Just as in the natural order the higher moves the lower to their proper actions, so in human affairs, in virtue of the order of natural and divine law, inferiors are bound to obey superiors who move them by reason and will (i.e., by command)",
+        "Because all human beings are naturally equal, obedience has no rational foundation at all",
+        "Because ancient custom alone requires it, with no basis in reason"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws an analogy from the natural order, where higher beings move lower ones by their inherent power; likewise, in the divinely established order of human affairs, superiors move inferiors by command (reason and will), and inferiors are bound to obey."
+    },
+    {
+      "q": "According to Aquinas, are subjects bound to obey their superiors in absolutely everything?",
+      "options": [
+        "Yes, without any exception whatsoever",
+        "No; a subject need not obey if a higher authority commands the contrary (God's command overrides man's), and need not obey in matters where he is not actually subject to that superior, such as internal movements of the will, or bodily matters like marriage",
+        "Subjects are never bound to obey any human superior at all",
+        "Obedience is required only from clergy, never from laity"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies two limits to obedience: obedience yields when a higher power commands otherwise (as God's command overrides an emperor's), and it does not extend to matters where the subject is not actually under that superior's authority, such as internal will-acts or bodily matters like marriage."
+    }
+  ],
+  "P3Q105": [
+    {
+      "q": "According to Aquinas, why is disobedience classified as a mortal sin?",
+      "options": [
+        "Disobedience is only ever a minor, venial matter",
+        "Because it is contrary to charity, both the love of God (whose commandments include obedience to superiors) and the love of neighbor (withdrawing from the superior, who is our neighbor, the obedience due to him)",
+        "Because disobedient people are always physically punished by civil authorities",
+        "Because obedience is merely a matter of social convention with no moral weight"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grounds the gravity of disobedience in its opposition to charity: it opposes the love of God, whose precepts require obedience to superiors, and the love of neighbor, since it denies the superior (our neighbor) the obedience owed to him."
+    },
+    {
+      "q": "According to Aquinas, what makes one act of disobedience more grievous than another?",
+      "options": [
+        "Only the amount of physical harm caused determines gravity",
+        "Gravity varies based on the rank of the one commanding (disobeying God is worse than disobeying man) and on how central the commanded matter is to the commander's intention (the greater good commanded, the more grievous to disobey)",
+        "All disobedience is precisely and identically grave in every instance",
+        "Gravity depends solely on whether the disobedient act was witnessed by others"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies two factors: the dignity of the one commanding (disobeying God is graver than disobeying man) and the importance of the matter commanded relative to the commander's intention (the more central the good commanded, the graver the disobedience)."
+    }
+  ],
+  "P3Q106": [
+    {
+      "q": "According to Aquinas, why does thankfulness (gratitude) rank as a distinct virtue after religion, piety, and observance?",
+      "options": [
+        "Because gratitude is actually identical to religion",
+        "Because the nature of a debt varies with its cause, and just as we owe God worship (religion), our parents worship (piety), and those excelling in dignity worship (observance), we owe our benefactors, from whom we received particular favors, the distinct debt of gratitude",
+        "Because gratitude only concerns financial repayment of loans",
+        "Because gratitude is a theological, not moral, virtue"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas situates gratitude within a hierarchy of debts rooted in different causes (God, parents, those in dignity, and benefactors), each requiring a distinct virtue; gratitude addresses the debt owed specifically to a benefactor for particular favors received."
+    },
+    {
+      "q": "According to Aquinas, should the repayment of gratitude exceed the favor originally received?",
+      "options": [
+        "No, repayment should always be exactly equal to the favor received, no more and no less",
+        "Yes, gratitude always inclines, as far as possible, to give back more than was received, since a benefactor is praised chiefly for giving gratis without obligation, and merely returning an equivalent would not itself be gratuitous",
+        "No, repayment should always be less than what was received to avoid presumption",
+        "Gratitude requires no repayment of any kind whatsoever"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since a benefactor deserves praise chiefly for giving freely without obligation, the recipient, to genuinely reciprocate this gratuitousness, should try to give back more than received, since merely returning the equivalent would not itself be a free gift."
+    }
+  ],
+  "P3Q107": [
+    {
+      "q": "According to Aquinas, what are the three ascending degrees of ingratitude, from least to most severe?",
+      "options": [
+        "Ignoring a favor briefly, delaying repayment, and forgetting it entirely",
+        "Failing to repay a favor received, declining to acknowledge or express thanks for a favor, and failing entirely to recognize that a favor was received at all (including outright forgetting it)",
+        "Complaining about a gift, criticizing the giver, and returning the gift",
+        "Being poor, being sick, and being imprisoned"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas orders the degrees of ingratitude in reverse of the order of gratitude's generation: first failing to repay, second failing to acknowledge or express thanks, and third (the worst) failing to even recognize that a favor was received."
+    },
+    {
+      "q": "According to Aquinas, is mere failure to repay a debt of gratitude always a mortal sin?",
+      "options": [
+        "Yes, any failure of gratitude is automatically mortal",
+        "No; since the fullest debt of gratitude (a liberal, exceeding return) is not strictly obligatory, mere omission of it is usually venial, unless it involves inward contempt or withholds something the benefactor genuinely needs",
+        "No, ingratitude is never sinful in any degree",
+        "It depends entirely on the social status of the benefactor"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes ingratitude by mere omission (usually venial, since the debt of liberal repayment is not strictly obligatory) from ingratitude that does the opposite of gratitude, and notes that omission can become mortal if it involves contempt or withholds something genuinely needed."
+    }
+  ],
+  "P3Q108": [
+    {
+      "q": "According to Aquinas, under what condition is vengeance lawful rather than sinful?",
+      "options": [
+        "Vengeance is always unlawful under any and all circumstances",
+        "It is lawful when the avenger's intention is directed chiefly to some good obtained through the punishment (the sinner's amendment, restraint of harm, upholding of justice, honor of God), and unlawful when the intention rests chiefly on the evil of the person punished, which belongs to hatred",
+        "Vengeance is always lawful as long as it is proportionate to the original offense",
+        "Vengeance is lawful only if carried out by the victim personally"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas judges vengeance by the intention of the avenger: if focused chiefly on the wrongdoer's evil for its own sake, it is unlawful hatred; if directed to some genuine good achieved through the punishment, it can be lawful, provided due circumstances are observed."
+    },
+    {
+      "q": "According to Aquinas, can a person be justly punished for something done involuntarily, without any personal fault?",
+      "options": [
+        "Never under any circumstances whatsoever",
+        "Punishment strictly as retribution requires voluntary fault, but punishment as medicine can sometimes fall on a person without personal fault in lesser (temporal) goods, for humiliation or probation, though never in spiritual goods without fault",
+        "Yes, punishment for involuntary acts is always just in every respect",
+        "Punishment for involuntary acts applies only to animals, not humans"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes retributive punishment (requiring voluntary fault, restoring justice's equality) from medicinal punishment (which can, without personal fault, affect lesser temporal goods for humbling or testing a person, but never spiritual goods, which are never removed without fault)."
+    }
+  ],
+  "P3Q109": [
+    {
+      "q": "According to Aquinas, in what sense is truth a virtue, distinct from truth as a metaphysical property?",
+      "options": [
+        "Truth as a virtue and truth as a metaphysical property are exactly the same thing",
+        "Truth taken as the equality between understanding/sign and the thing signified is not itself a virtue but the object of one; truth taken as the habit by which a person says what is true (truthfulness) is properly a virtue, since it makes one's act of manifestation good",
+        "Truth can never be considered a virtue under any description",
+        "Truth as a virtue applies only to mathematical and logical statements"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes truth as an equality (the ground of true statements, not itself a habit) from truth as truthfulness (a habit disposing a person to say what is true), and it is the latter sense in which truth is properly a virtue."
+    },
+    {
+      "q": "According to Aquinas, why is truth classified as a part of justice, annexed to it as a secondary virtue?",
+      "options": [
+        "Because truth requires no reference to other people at all",
+        "Because truth shares two things with justice: it is directed toward another (manifestation is directed to someone else) and it establishes a kind of equality (matching outward signs to inward reality), though it falls short of justice's strict legal debt, being instead a moral debt of equity",
+        "Because truth and justice are simply identical virtues with different names",
+        "Because both truth and justice are exclusively concerned with financial transactions"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies truth's two points of contact with justice: direction toward another person and establishment of equality (between sign and reality), while noting it falls short of strict legal debt, being instead a moral debt owed out of equity."
+    }
+  ],
+  "P3Q110": [
+    {
+      "q": "According to Aquinas, what three elements combine to constitute the full, formal nature of a lie?",
+      "options": [
+        "Wealth, power, and social status of the liar",
+        "The falsity of what is said (material element), the will to assert what is false (formal element, the essential note), and the intention to deceive (perfective element)",
+        "Public knowledge, a written record, and a court hearing",
+        "Age, gender, and profession of the speaker"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that a lie requires falsity of the statement (material), but the essential/formal element is the will to assert what one believes false, while the intention to deceive is the completing/perfective element, not the defining essence."
+    },
+    {
+      "q": "According to Aquinas, is every lie a sin, even a 'jocose' or 'officious' lie told for a good purpose?",
+      "options": [
+        "No, only mischievous lies intended to harm are sins; jocose and officious lies are morally neutral",
+        "Yes; every lie is evil in respect of its genus because it involves signifying by words something contrary to what is in one's mind, which is unnatural and undue, though the gravity varies by the end intended (mischievous being worst, officious and jocose being lighter, sometimes only venial)",
+        "No lie is ever a sin as long as no one is harmed by it",
+        "Lies are sins only if told under oath"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that lying is evil in its very genus, since words naturally signify what is in the mind, so signifying otherwise is undue; hence every lie is a sin, though mischievous lies are gravest, and jocose/officious lies, while still sinful, are typically only venial."
+    }
+  ],
+  "P3Q111": [
+    {
+      "q": "According to Aquinas, is hypocrisy identical to dissimulation in general, or a narrower category?",
+      "options": [
+        "They are identical in every respect with no distinction",
+        "Hypocrisy is a narrower form of dissimulation, specifically when one person simulates being another kind of person entirely, such as a sinner simulating the character of a just man",
+        "Hypocrisy has nothing to do with dissimulation at all",
+        "Dissimulation is a narrower subset of hypocrisy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, following Isidore and Augustine, explains that hypocrisy is dissimulation, but not every form of dissimulation; it specifically involves simulating another person's character, as when a sinner pretends to be a just man."
+    },
+    {
+      "q": "According to Aquinas, is hypocrisy always a mortal sin?",
+      "options": [
+        "Yes, hypocrisy is always and invariably a mortal sin with no exceptions",
+        "It depends: if a person cares nothing for actual holiness but only for appearing holy, this always implies mortal sin (total lack of holiness); but if one lacking holiness through mortal sin merely dissimulates it, the dissimulation itself is mortal only if directed to an end contrary to charity, otherwise it may be venial",
+        "No, hypocrisy is never a sin of any kind",
+        "Hypocrisy is a sin only if it involves financial fraud"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the hypocrite who cares only for appearing holy (always mortal sin, implying total absence of holiness) from one already in mortal sin who merely simulates the holiness he lacks, whose act of dissimulation is mortal only if its end is contrary to charity."
+    }
+  ],
+  "P3Q112": [
+    {
+      "q": "According to Aquinas, how does boasting (jactantia) properly relate to the virtue of truth?",
+      "options": [
+        "Boasting has no relationship whatsoever to truth or falsehood",
+        "Boasting, properly speaking, is an uplifting of oneself in words above what one actually is in oneself (more properly) or above what others esteem one to be; it is opposed to truth by way of excess",
+        "Boasting is actually a form of humility taken to an extreme",
+        "Boasting concerns only claims about physical strength"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas defines boasting as an uplifting of self through words, most properly speaking above what one is in reality (rather than merely above others' esteem), and classifies it as an excess opposed to the virtue of truth."
+    },
+    {
+      "q": "According to Aquinas, when is boasting a mortal sin versus a venial sin?",
+      "options": [
+        "Boasting is always and invariably venial regardless of content",
+        "It is mortal when it concerns something contrary to God's glory or entails contempt/injury of one's neighbor, or when it proceeds from a mortally sinful degree of pride or vainglory; it is venial when it involves neither, such as harmless self-praise",
+        "Boasting is mortal only if done in a house of worship",
+        "Boasting can never rise to the level of mortal sin under any circumstance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas evaluates boasting both as a form of lying (mortal if it offends God's glory or injures a neighbor, venial otherwise) and by its cause (mortal if springing from mortally sinful pride or vainglory, especially when aimed at gain, which he considers viler still)."
+    }
+  ],
+  "P3Q113": [
+    {
+      "q": "According to Aquinas, is all self-belittling speech classified as the sin of irony?",
+      "options": [
+        "Yes, any statement diminishing oneself is automatically ironic and sinful",
+        "No; belittling oneself while safeguarding truth (concealing greater qualities but not denying what one perceives in oneself) is not irony and not sinful in itself; only belittling oneself by departing from truth (denying or disclaiming what one actually perceives to possess) constitutes irony, which is always a sin",
+        "Irony refers exclusively to sarcastic humor with no moral content",
+        "Aquinas does not discuss irony as a moral category at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes belittling oneself while preserving truth (not irony, not sinful in itself) from belittling oneself by forsaking truth, denying a quality one actually recognizes in oneself, which constitutes irony and is always sinful."
+    },
+    {
+      "q": "According to Aquinas, is boasting or irony generally the more grievous sin?",
+      "options": [
+        "Irony is always more grievous than boasting without exception",
+        "Generally boasting is more grievous, since it typically proceeds from a viler motive (desire of gain or honor), while irony typically arises from an aversion, even if inordinate, to being disagreeable by self-exaltation; but irony can be worse when used for cunning deception",
+        "They are always exactly equal in every case",
+        "Neither irony nor boasting is ever sinful according to Aquinas"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, following Aristotle, generally ranks boasting as more grievous since it proceeds from baser motives like gain or honor, while irony arises from an aversion to self-exaltation; however, he notes irony can become graver when used for cunning deception."
+    }
+  ],
+  "P3Q114": [
+    {
+      "q": "According to Aquinas, why does friendliness (affability) qualify as a special virtue?",
+      "options": [
+        "Because being pleasant to others has no moral significance at all",
+        "Because good consists in order, and it behooves man to maintain a becoming order in his mutual relations with others in deed and word, requiring a special virtue that maintains this becomingness",
+        "Because friendliness is simply a synonym for charity with no distinct content",
+        "Because friendliness applies only to relationships between family members"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since good consists in order, and human beings need a becoming order in their mutual dealings, a special virtue, friendliness or affability, is needed to maintain this proper social order."
+    },
+    {
+      "q": "How does Aquinas classify friendliness/affability in relation to justice?",
+      "options": [
+        "It is entirely unrelated to justice in any sense",
+        "It is a part of justice annexed to it as a secondary virtue, since like justice it is directed to another person, but it falls short of full justice because it concerns merely a debt of equity (behaving pleasantly) rather than a strict legal or favor-based debt",
+        "It is identical to justice with no distinction whatsoever",
+        "It ranks above justice as the highest of all virtues"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas classifies friendliness as annexed to justice because, like justice, it is directed toward others, yet it falls short of the full notion of a strict debt, concerning instead the more modest debt of equitable, pleasant behavior toward those we live among."
+    }
+  ],
+  "P3Q115": [
+    {
+      "q": "According to Aquinas, what distinguishes mere 'complaisance' from actual flattery?",
+      "options": [
+        "There is no distinction; they are the same vice under different names",
+        "One who wishes always to please others merely from that desire is 'complaisant,' while one who does so with the intention of gaining some advantage is properly called a 'flatterer' or 'adulator'",
+        "Complaisance concerns speech while flattery concerns only physical gifts",
+        "Flattery applies only to interactions with royalty"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the person who exceeds in pleasing others purely from desire to please (complaisant) from one who does so intending some personal gain (a flatterer or adulator), though both exceed the proper mode of friendliness."
+    },
+    {
+      "q": "According to Aquinas, in which three ways can flattery become a mortal sin?",
+      "options": [
+        "By its matter (praising another's sin), by its intention (deceiving to injure body or soul), and by occasion (becoming, even unintentionally, an occasion of another's grave sin)",
+        "By its cost, its duration, and its location",
+        "Flattery is never a mortal sin under any circumstances",
+        "Only by praising a sin, with no other possible way it becomes mortal"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas identifies three ways flattery is contrary to charity and thus mortal: praising another's actual sin (matter), intending to deceive and injure (intention), and inadvertently becoming an occasion for another's serious downfall (occasion)."
+    }
+  ],
+  "P3Q116": [
+    {
+      "q": "According to Aquinas, how does quarreling differ from mere discord?",
+      "options": [
+        "They are entirely identical vices",
+        "Discord arises from a lack of love uniting minds and opposes charity; quarreling arises specifically from a willingness to be disagreeable to others in speech, opposing the virtue of friendliness/affability",
+        "Discord concerns actions while quarreling concerns only thoughts",
+        "Quarreling is a synonym for physical violence, never verbal conflict"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes contradiction arising from lack of love for the person (discord, opposed to charity) from contradiction arising because one does not fear being disagreeable to the person addressed (quarreling, opposed to friendliness or affability)."
+    },
+    {
+      "q": "According to Aquinas, is quarreling or flattery generally the graver sin?",
+      "options": [
+        "Considered by species, quarreling is generally graver, since the virtue of friendship has a greater tendency to please than to displease, so exceeding by displeasing (quarreling) departs further from the virtue than exceeding by pleasing (flattery); but external circumstances can sometimes reverse this",
+        "Flattery is always graver than quarreling in every case with no exception",
+        "They are precisely equal in every instance without exception",
+        "Neither quarreling nor flattery is treated as sinful by Aquinas"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues that since friendliness naturally tends more toward pleasing than displeasing, the quarrelsome person, who exceeds in displeasing, departs further from the virtue's nature than the flatterer; yet external motives (like deception for gain) can sometimes make flattery graver."
+    }
+  ],
+  "P3Q117": [
+    {
+      "q": "According to Aquinas, what is the proper matter of the virtue of liberality?",
+      "options": [
+        "Physical strength and courage",
+        "Money and whatever has a money value, since it is the goods which a person's free-handedness toward others concerns",
+        "Speculative and theoretical knowledge",
+        "Sacred vessels used in the liturgy exclusively"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that liberality concerns using well the external goods one possesses, denoted by 'money,' since it belongs to the liberal man to freely part with such goods for others, unburdened by excessive attachment."
+    },
+    {
+      "q": "According to Aquinas, why is giving, rather than merely using money moderately on oneself, the chief act for which a liberal man is praised?",
+      "options": [
+        "Because giving requires no real virtue at all",
+        "Because parting with money by giving it to others requires a greater force/virtue than spending it on oneself, similar to how throwing something farther requires more force, and virtue as such tends toward what is more perfect",
+        "Because giving is legally mandated in every case",
+        "Because keeping money always indicates greater virtue than giving it"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas uses the analogy of throwing something farther requiring greater force to argue that parting with money by giving to others demonstrates greater virtue than spending on oneself, and virtue tends toward what is more perfect, hence giving is chiefly praised."
+    }
+  ],
+  "P3Q118": [
+    {
+      "q": "According to Aquinas, in what two distinct ways can covetousness manifest, corresponding to opposition against two different virtues?",
+      "options": [
+        "Covetousness only ever opposes liberality and never any other virtue",
+        "Immediately, in acquiring/keeping riches unjustly (opposed to justice, e.g., theft), and interiorly, in excessive love, desire, or pleasure in riches even without unjust taking (opposed to liberality)",
+        "Covetousness manifests only through excessive spending, never through hoarding",
+        "Covetousness is entirely unrelated to any moral virtue"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes covetousness that unjustly acquires or retains another's property (opposed to justice, as in theft/robbery) from covetousness as inordinate interior affection for riches even without unjust taking (opposed to liberality)."
+    },
+    {
+      "q": "According to Aquinas, why is covetousness classified as a capital vice?",
+      "options": [
+        "Because it requires the most physical labor of any vice",
+        "Because riches give great promise of self-sufficiency (a condition resembling happiness, since 'all things obey money'), making covetousness, as desire for the most desirable-seeming end, a fountainhead from which many other vices spring",
+        "Because it was the first sin committed by Adam and Eve",
+        "Because only wealthy people can commit this sin"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that a capital vice gives rise to others under the aspect of a highly desirable end; since riches seem to promise self-sufficiency (resembling a condition of happiness), covetousness as desire for money becomes a capital vice from which other vices spring."
+    }
+  ],
+  "P3Q119": [
+    {
+      "q": "According to Aquinas, how is prodigality opposed to covetousness?",
+      "options": [
+        "They are not actually opposed; they are the same vice",
+        "The covetous man loves riches excessively and exceeds in acquiring/retaining, while the prodigal is deficient in caring for riches and exceeds in giving but is deficient in retaining and acquiring",
+        "Prodigality concerns spiritual goods while covetousness concerns only physical goods",
+        "Prodigality is worse than covetousness in every possible respect"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that covetousness and prodigality are opposed in respect of excess and deficiency: the covetous man exceeds in loving, acquiring, and retaining riches, while the prodigal is deficient in valuing riches and exceeds only in giving them away."
+    },
+    {
+      "q": "Why does Aquinas argue that prodigality, considered in itself, is a less grievous sin than covetousness?",
+      "options": [
+        "Because prodigality departs less from the opposite virtue (liberality, whose chief act is giving), because the prodigal is useful to others while the covetous man is useful to no one, and because prodigality is more easily cured, tending naturally toward the sobriety of old age and towards want",
+        "Because prodigal people are always wealthier than covetous people",
+        "Because prodigality is not actually a sin at all in Aquinas's view",
+        "Because covetous people never actually possess any money"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas gives three reasons: giving (in which the prodigal exceeds) is closer to liberality than retaining (in which the covetous man exceeds); the prodigal benefits others while the covetous man benefits no one; and prodigality is more easily cured than the entrenched vice of covetousness."
+    }
+  ],
+  "P3Q120": [
+    {
+      "q": "According to Aquinas, what is the purpose of 'epikeia' (equity), and why is it a virtue?",
+      "options": [
+        "Epikeia is the virtue of always following the strict letter of the law no matter the case",
+        "Because laws, framed to cover what commonly happens, can sometimes be harmful if applied to particular cases contrary to their purpose (e.g., returning a deposited sword to a madman), epikeia is the virtue of setting aside the letter of the law to follow the higher intent of justice and the common good",
+        "Epikeia concerns only ecclesiastical, never civil, law",
+        "Epikeia is simply another word for disobedience to all law"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that since laws are framed for the majority of cases and can be harmful if rigidly applied to exceptional cases (like returning a madman's sword), epikeia is the virtuous discernment to follow the deeper intent of justice rather than the letter, making it a genuine virtue."
+    },
+    {
+      "q": "How does Aquinas classify epikeia in relation to justice?",
+      "options": [
+        "It has no relation to justice whatsoever",
+        "It is a subjective part of justice, being itself a kind of justice, and is in fact a higher rule of human action than legal justice, since legal justice is subject to its direction",
+        "It replaces justice entirely as a superior, unrelated virtue",
+        "It is a purely legal category with no moral or virtuous dimension"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, citing Aristotle, explains that epikeia is a kind of justice and thus a subjective part of justice; moreover, since legal justice is subject to epikeia's direction, epikeia functions as a higher rule guiding human action than mere legal justice."
+    }
+  ],
+  "P3Q121": [
+    {
+      "q": "According to Aquinas, why is piety counted among the Gifts of the Holy Ghost, distinct from piety as an acquired moral virtue?",
+      "options": [
+        "Because the two are entirely unrelated and share nothing in common",
+        "Because the Holy Ghost moves us to a filial affection toward God as Father (the spirit of adoption), and since it belongs to piety to render duty and worship to one's father, piety as a gift is this Spirit-instigated worship and duty rendered to God as Father",
+        "Because piety as a gift concerns only reverence for civic rulers",
+        "Because gifts of the Holy Ghost cannot correspond to moral virtues in any way"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas connects the gift of piety to the Spirit's work of adoption (Romans 8:15), whereby believers are moved to filial affection for God; since piety properly renders duty and worship to a father, the gift of piety is this Spirit-prompted worship rendered to God as Father."
+    },
+    {
+      "q": "According to Aquinas, how does the beatitude 'Blessed are the meek' relate to the gift of piety?",
+      "options": [
+        "There is no relationship between them at all",
+        "Following one line of congruity (Augustine's ordering) it corresponds directly to piety, and even on a congruity of content, meekness has a fitting connection since it removes obstacles that would hinder acts of piety",
+        "Meekness actually opposes and undermines the gift of piety",
+        "The beatitudes have no correspondence to any of the gifts"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes two ways of matching beatitudes to gifts: by order (Augustine assigns meekness to piety) and by content (where meekness fittingly relates to piety because meekness removes obstacles to acts of piety, even though a stricter content-based matching might suggest other beatitudes)."
+    }
+  ],
+  "P3Q122": [
+    {
+      "q": "According to Aquinas, why must the precepts of the Decalogue pertain to justice?",
+      "options": [
+        "Because justice is the only virtue mentioned in Scripture",
+        "Because the notion of duty essential to a precept is most evident in matters relating to another person (justice), since in matters concerning only oneself a person seems free to act as he wishes, but toward others one is manifestly obligated to render what is due",
+        "Because all Ten Commandments concern only financial transactions",
+        "Because Moses was himself a judge and thus wrote only legal precepts"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that a precept's binding character (duty) appears most evidently in matters between persons, i.e., justice, since in purely self-regarding matters one seems free, but toward others one is clearly obligated; hence the first principles of law (the Decalogue) pertain to justice."
+    },
+    {
+      "q": "According to Aquinas, why does the first precept of the Decalogue (against false gods) come first in the order of the Law?",
+      "options": [
+        "Because it was the easiest commandment for the Israelites to understand",
+        "Because just as generation requires establishing the first (foundational) part and removing obstacles first, the Law must first lay the foundation of religion, directing the will's goodness to its true end, and first remove the chief obstacle to true religion, adherence to a false god",
+        "Because the commandments are simply listed in random order with no rationale",
+        "Because idolatry was a crime punishable only by exile, so it needed early mention"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws an analogy to the order of generation (establishing the foundation first, then removing obstacles), explaining that the Law first establishes religion as foundational to the will's goodness, and its first precept removes the chief obstacle to true religion: worship of false gods."
+    }
+  ],
+  "P3Q123": [
+    {
+      "q": "According to Aquinas, what specific role does fortitude play among the virtues that make man's action accord with reason?",
+      "options": [
+        "Fortitude rectifies reason itself, which is actually the role of the intellectual virtues",
+        "Fortitude removes the obstacle to rectitude that arises when the will is disinclined to follow reason on account of some difficulty (chiefly bodily danger), just as bodily fortitude overcomes physical obstacles",
+        "Fortitude establishes the rectitude of reason in human affairs, which is actually the role of justice",
+        "Fortitude has no distinct role and is identical to temperance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that reason's rectitude in human affairs faces two obstacles: being drawn away by pleasure (removed by temperance) and being deterred by difficulty (removed by fortitude, which strengthens the will against the discouraging effect of danger)."
+    },
+    {
+      "q": "According to Aquinas, why is fortitude properly and chiefly concerned with the dangers of death encountered in battle rather than other kinds of mortal danger?",
+      "options": [
+        "Because fortitude concerns only physical exercise and athletic competition",
+        "Because fortitude strengthens the will against the greatest evil (death), and while other kinds of death (illness, shipwreck) do not typically come to a man through his pursuit of some good, dangers of death in battle (whether public war or private combat for justice) arise directly from pursuing a good, namely defending the common good in a just fight",
+        "Because only soldiers are capable of possessing any virtue",
+        "Because ancient Roman law required this narrow definition"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that virtue always tends to good, and dangers of death in battle come to a person precisely through pursuing some good (defending the common good in a just war or upholding justice in a personal combat), unlike dangers from sickness or shipwreck, which do not arise from pursuing good in the same direct way."
+    },
+    {
+      "q": "According to Aquinas, why is 'enduring' rather than 'attacking' considered the chief act of fortitude?",
+      "options": [
+        "Because attacking is always cowardly and forbidden",
+        "Because fortitude is more concerned with allaying fear than moderating daring, since danger by its nature tends to check daring but increase fear, making fear harder to overcome; enduring corresponds to repressing fear, the harder task",
+        "Because enduring requires no courage at all, unlike attacking",
+        "Because the Church forbids all forms of physical combat"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, following Aristotle, argues that danger naturally checks daring but increases fear, making the repression of fear (which corresponds to endurance) more difficult and thus more properly the chief act of fortitude than attacking, which corresponds to moderating daring."
+    }
+  ],
+  "P3Q124": [
+    {
+      "q": "According to Aquinas, why is martyrdom classified as an act of the virtue of fortitude specifically?",
+      "options": [
+        "Because martyrdom requires no particular virtue at all, being purely a matter of chance",
+        "Because fortitude strengthens man in the good of virtue especially against the danger of death, and in martyrdom a person is firmly strengthened to cleave to faith and justice against the threatening danger of death inflicted through a kind of contest with persecutors, resembling a battle",
+        "Because martyrdom is exclusively an act of the virtue of religion, unrelated to fortitude",
+        "Because only soldiers who die in war can properly be called martyrs"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that fortitude strengthens the will chiefly against dangers of death, especially those occurring in a contest; since martyrdom involves standing firm in faith and justice against the danger of death imposed by persecutors, it is properly an act of fortitude, described as a kind of battle."
+    },
+    {
+      "q": "According to Aquinas, is death essential to the perfect notion of martyrdom, or can non-lethal suffering for the faith also count fully as martyrdom?",
+      "options": [
+        "Death is not essential at all; any suffering for the faith, however minor, constitutes full martyrdom",
+        "Death is essential to the perfect notion of martyrdom, because only in losing bodily life does a person show by deed that he despises all things relating to the body for the sake of invisible goods to come; lesser hardships (imprisonment, exile) are called martyrdom only insofar as they result in death",
+        "Only death by beheading counts as true martyrdom",
+        "Martyrdom requires no suffering at all, only public declaration of faith"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that so long as bodily life remains, a person has not shown by deed that he despises all bodily goods, since men typically sacrifice possessions and even endure pain rather than lose life itself; hence the perfect notion of martyrdom requires that death actually be suffered for Christ's sake."
+    },
+    {
+      "q": "According to Aquinas, is faith the sole possible cause of martyrdom, or can other virtuous acts also give rise to true martyrdom?",
+      "options": [
+        "Faith alone, understood narrowly as verbal profession, is the only possible cause of martyrdom",
+        "The truth of faith, which includes not only inward belief but outward profession through deeds, is the cause of martyrdom, so any virtuous deed referred to God as a profession of faith can be a cause of martyrdom, as with John the Baptist, who died not for refusing to deny the faith but for reproving adultery",
+        "Only miracles can be the cause of true martyrdom",
+        "Martyrdom can never result from any deed, only from words"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that the truth of faith includes outward profession by deeds as well as words; since virtuous deeds referred to God are professions of faith, they too can be causes of martyrdom, as shown by John the Baptist, honored as a martyr for reproving adultery rather than for refusing to renounce his faith verbally."
+    }
+  ],
+  "P3Q125": [
+    {
+      "q": "According to Aquinas, when does fear become sinful?",
+      "options": [
+        "Fear is always sinful under every possible circumstance",
+        "Fear becomes sinful (inordinate) when the appetite shuns something that reason dictates should be endured rather than allowing the forfeiture of some greater good; when the appetite fears in accordance with what reason dictates should be shunned, it is neither inordinate nor sinful",
+        "Fear is never sinful under any circumstance whatsoever",
+        "Fear is sinful only if experienced by clergy"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas grounds the sinfulness of fear in its being inordinate, i.e., contrary to reason's proper ordering of what to shun and what to pursue; fear that follows reason's correct dictates is not sinful, but fear that leads one to sacrifice a greater good to avoid a lesser evil is."
+    },
+    {
+      "q": "According to Aquinas, why is inordinate fear especially opposed to the virtue of fortitude?",
+      "options": [
+        "Because fortitude has nothing to do with fear at all",
+        "Because although love, from which fear arises, and its inordinacy pervade every vice, the greatest fear of all concerns danger of death, which is fortitude's proper object; hence timidity (inordinate fear) is said to be especially, by a figure of speech, opposed to fortitude",
+        "Because fear is a purely physical sensation with no moral significance",
+        "Because only cowards are capable of experiencing fear"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes that while inordinate love and fear accompany every kind of sin, the fear of death is the greatest fear and is fortitude's proper object; therefore timidity, as excessive fear of death, is specially (by antonomasia) said to be opposed to fortitude."
+    },
+    {
+      "q": "According to Aquinas, does fear ever excuse a person entirely from sin?",
+      "options": [
+        "Fear always fully excuses every action performed under its influence",
+        "Fear excuses when one avoids a greater evil (e.g., death) by accepting a lesser one (e.g., loss of money) as reason dictates, but does not wholly excuse if one commits a greater evil (like sin) to avoid a lesser one (like bodily harm), though such an act, being mixed voluntary and involuntary, is less culpable",
+        "Fear never excuses from sin in any way whatsoever, even partially",
+        "Only physical fear, never psychological fear, has any bearing on culpability"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes fear that leads to accepting a lesser evil to avoid a greater one (excusable, following reason's ordering) from fear that leads to committing a greater evil, like sin, to avoid a lesser one, like bodily harm, which is not wholly excused, though culpability is diminished since acts done from fear are a mixture of voluntary and involuntary."
+    }
+  ],
+  "P3Q126": [
+    {
+      "q": "According to Aquinas, why does he classify fearlessness (having no fear at all of dangers) as a vice rather than a virtue?",
+      "options": [
+        "Because fearlessness always indicates supreme courage and is praiseworthy in every case",
+        "Because since fear arises from love of one's own life and its due goods, and it is natural and right to love these things in due measure, having no fear at all of things that threaten them results either from a defective love (contrary to nature), from prideful presumption that one cannot be harmed, or from a defect of reason (dullness of understanding)",
+        "Because Aquinas does not actually discuss fearlessness anywhere in the Summa",
+        "Because fearlessness is identical to the virtue of fortitude with no distinction"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since it is natural and right to love one's own life and bodily goods in due measure, a total absence of fear regarding threats to them stems either from a defective love (contrary to nature), from pride presuming immunity from harm, or from a defect of reason (as with the example of the Celts), making it a vice, though a reasoning defect may be excused if invincible."
+    }
+  ]
+}

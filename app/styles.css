@@ -1043,6 +1043,25 @@ body {
   border-color: var(--accent);
 }
 
+/* Summary boxes for questions and chapters */
+.summary-box {
+  margin: 16px 0 24px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 4px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.summary-box strong {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+
 @media (max-width: 560px) {
   .topbar-work { display: none; }
   .content { padding: 20px 14px 30px; }

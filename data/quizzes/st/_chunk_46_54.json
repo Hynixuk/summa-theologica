@@ -1,0 +1,317 @@
+{
+  "P4Q46": [
+    {
+      "q": "In what sense does Aquinas say Christ's Passion was \"necessary\" for the deliverance of the human race?",
+      "options": [
+        "Necessary by absolute necessity, since God could not have acted otherwise",
+        "Necessary by necessity of compulsion, since God's justice forced His hand",
+        "Necessary from necessity of the end presupposed, given God's foreknowledge and ordinance, not by compulsion or absolute necessity",
+        "Not necessary in any sense, but merely the most convenient of many equal options"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas distinguishes absolute necessity, necessity of compulsion, and necessity from a presupposed end. He rules out the first two but affirms the Passion was necessary given that God's foreknowledge and preordination cannot be frustrated."
+    },
+    {
+      "q": "Why does Aquinas argue that the Passion was the most fitting way to deliver mankind, rather than God simply willing forgiveness?",
+      "options": [
+        "Because only bloody sacrifice can satisfy divine justice by natural necessity",
+        "Because it manifests God's love, provides an example of virtue, merits grace and glory for man, deepens man's obligation to avoid sin, and lets a man overcome the devil who had overcome man",
+        "Because the Old Law required a literal physical sacrifice with no spiritual meaning",
+        "Because angels could not have accomplished redemption on their own"
+      ],
+      "correct": 1,
+      "explanation": "In Q46 A3, Aquinas lists five converging reasons the Passion was more suitable than deliverance by sheer will alone, including commending God's love, offering an example, meriting grace, binding man from sin, and reversing man's defeat through a man's victory."
+    },
+    {
+      "q": "According to Aquinas, how could Christ's Passion be attributed to His Person while His Godhead remained impassible?",
+      "options": [
+        "The Passion belongs to the suppositum of the Divine Nature by reason of the passible human nature He assumed, not because the Godhead itself suffered",
+        "The Godhead temporarily lost its impassibility during the Passion",
+        "Only the human nature suffered and this had no connection to the Person of the Word at all",
+        "Christ's divine and human natures merged into a single passible nature at the Passion"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas holds that because Person and hypostasis are one in Christ while the two natures remain distinct, the Passion is predicated of the divine Person by reason of the human nature, without the impassible Godhead itself suffering."
+    }
+  ],
+  "P4Q47": [
+    {
+      "q": "In what sense does Aquinas say Christ was the cause of His own death?",
+      "options": [
+        "Directly, because He physically inflicted the wounds upon Himself",
+        "Indirectly, because He did not prevent His death when He had the power to do so, willing His flesh to succumb to the injury inflicted by others",
+        "He was not the cause of His own death in any sense; His persecutors alone caused it",
+        "Because His divine nature suffered and thereby caused the human nature to die"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes direct and indirect causation: His persecutors directly caused His death by inflicting a mortal cause, while Christ indirectly caused it by choosing not to use His power to prevent the injury from succeeding."
+    },
+    {
+      "q": "Why does Aquinas hold that it was fitting for Christ to suffer out of obedience specifically, rather than merely out of charity?",
+      "options": [
+        "Obedience was necessary to counter the disobedience of Adam and is preferred to sacrifice, fitting Christ's death as a sacrifice, reconciliation, and a victory achieved through obedience to His captain",
+        "Charity was insufficient because it applies only to the New Testament, not the Old",
+        "Obedience was required because Christ had sinned and needed to make amends",
+        "Aquinas denies any special role for obedience in the Passion"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas gives three reasons: obedience corresponds to Adam's disobedience (Romans 5:19), obedience is preferred to sacrifice for reconciling man to God, and victory over death requires a soldier's obedience to his commander."
+    },
+    {
+      "q": "In what three ways does Aquinas say God the Father \"delivered up\" Christ to the Passion?",
+      "options": [
+        "By personally torturing Christ, by commanding the Jews to act, and by punishing Him for humanity's sins",
+        "By eternally preordaining the Passion, by infusing in Christ the will (through charity) to suffer for us, and by not shielding Him from His persecutors",
+        "By abandoning the Trinity, by withdrawing the Incarnation, and by permitting sin to increase",
+        "Only in one way: by directly causing Christ's physical suffering"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains the Father delivered Christ up by eternal preordination, by inspiring in Him the charity to will to suffer, and by leaving Him to His persecutors rather than shielding Him, not by directly inflicting the suffering Himself."
+    }
+  ],
+  "P4Q48": [
+    {
+      "q": "How does Aquinas explain that Christ's Passion operated \"by way of merit\" for the salvation of others, not just Himself?",
+      "options": [
+        "Because Christ is the Head of the Church and grace bestowed on Him overflows into His members, so His meritorious suffering for justice benefits those united to Him as His body",
+        "Because merit cannot be transferred between persons, so this applies only to Christ Himself",
+        "Because the Church later voted to apply Christ's merits to believers",
+        "Because Christ's merit operated automatically regardless of anyone's union with Him by faith or grace"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas grounds Christ's meriting salvation for others in His headship of the Mystical Body: grace given to Him as Head overflows to the members, so His works, like the works of any person in grace, redound to those united to Him."
+    },
+    {
+      "q": "Why does Aquinas say Christ's Passion was not merely a \"sufficient\" but a \"superabundant\" atonement?",
+      "options": [
+        "Because atonement requires an infinite number of separate acts, and Christ performed several",
+        "Because of the exceeding charity from which He suffered, the dignity of the life He laid down (being the life of God and man), and the greatness of the Passion's suffering",
+        "Because Christ suffered longer than any other martyr in history",
+        "Because atonement is measured only by the number of people affected, not the value of the offering"
+      ],
+      "correct": 1,
+      "explanation": "In Q48 A2, Aquinas gives three reasons the atonement exceeded what strict justice required: the surpassing charity of the sufferer, the infinite dignity of the one suffering (God and man), and the magnitude of the grief endured."
+    },
+    {
+      "q": "According to Aquinas, in what sense is Christ properly called \"the Redeemer\"?",
+      "options": [
+        "Because redemption requires paying a price that is one's own, and Christ paid His own blood/bodily life as man, making Him immediately the Redeemer, while the whole Trinity is the remote cause",
+        "Because He merely announced redemption without actually paying any price",
+        "Because redemption belongs equally and only to the Father, who alone paid the price",
+        "Because the term applies only metaphorically, since no real price was paid"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas argues true redeeming requires paying a price that belongs to oneself; since Christ's own blood and bodily life were His own as man, He is properly and immediately the Redeemer, with the Trinity as the first, remote cause."
+    }
+  ],
+  "P4Q49": [
+    {
+      "q": "According to Aquinas, in what three ways does Christ's Passion cause the forgiveness of sins?",
+      "options": [
+        "By exciting our charity, by way of redemption (as Head paying the price for His members), and by way of efficiency (since His flesh, as instrument of the Godhead, expels sin with divine power)",
+        "Only by exciting emotional sympathy in believers",
+        "By legal decree of the Father with no causal connection to the Passion itself",
+        "By automatically erasing sin from all people regardless of faith or charity"
+      ],
+      "correct": 0,
+      "explanation": "Q49 A1 gives three modes: the Passion stirs our charity (which procures pardon), it redeems us as Head paying for the members' sins, and it acts efficiently since Christ's flesh, as the instrument of the Godhead, operates with divine power to expel sin."
+    },
+    {
+      "q": "How, according to Aquinas, did Christ's Passion free us from the debt of punishment for sin?",
+      "options": [
+        "Only indirectly, since punishment is entirely unrelated to sin",
+        "Directly, since the Passion was a sufficient and superabundant satisfaction that abolishes the debt once paid, and indirectly, since it causes forgiveness of the sin on which the debt rests",
+        "It did not free us from punishment at all, only from the guilt of sin",
+        "By persuading God to change the moral law so that punishment was no longer deserved"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies two ways: directly, because the Passion is a satisfaction so complete that the debt is abolished once paid; and indirectly, because it causes the forgiveness of the sin that grounds the debt of punishment."
+    },
+    {
+      "q": "What does Aquinas mean when he says Christ, by His Passion, \"merited to be exalted\"?",
+      "options": [
+        "Merit implies an equality of justice, so just as one who unjustly claims more than his due deserves to be deprived, one who justly strips himself of what is due deserves to be granted something further as reward, as Christ humbled Himself and thus deserved exaltation",
+        "Christ's exaltation was owed to Him automatically from eternity and had nothing to do with the Passion",
+        "Merit only applies to created beings receiving reward from other creatures, not from God",
+        "The exaltation was purely metaphorical language with no real causal connection to His suffering"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons by analogy with justice: just as unjust self-aggrandizement merits loss, just self-stripping (as in Christ's voluntary humiliation) merits a further reward — hence Luke 14:11, 'he that humbleth himself shall be exalted.'"
+    }
+  ],
+  "P4Q50": [
+    {
+      "q": "Which of the following is NOT one of Aquinas's five reasons why it was fitting for Christ to die?",
+      "options": [
+        "To satisfy for the human race sentenced to die because of sin",
+        "To show the reality of the flesh He assumed, so He would not seem a mere phantom",
+        "To deliver us from fear of death and set an example of dying to sin, and to give hope of rising again",
+        "Because His human nature was inherently weak and would have died of natural causes regardless"
+      ],
+      "correct": 3,
+      "explanation": "Aquinas gives five reasons for the fittingness of Christ's death (satisfaction, showing the reality of the flesh, freeing us from fear of death, example of dying to sin, and giving hope of resurrection) — nowhere does he attribute it to natural weakness; indeed elsewhere he insists Christ's death was voluntary, not from infirmity."
+    },
+    {
+      "q": "What happened to the union between the Godhead and Christ's body and soul at the moment of His death, according to Aquinas?",
+      "options": [
+        "The Godhead was separated from both the body and the soul, since death dissolves all unions",
+        "The Godhead remained united to both the separated body and the separated soul, since the grace of union, being greater than the grace of adoption (which is not lost without fault), could not be dissolved absent sin in Christ",
+        "The Godhead stayed united only to the soul but abandoned the dead body entirely",
+        "The union was suspended for three days and only restored at the Resurrection"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues the grace of union, being greater and more permanent than the grace of adoption (which is never lost without fault), could not be withdrawn since Christ was sinless — so the Word remained united to both the separated body and the separated soul."
+    },
+    {
+      "q": "Why does Aquinas say it is erroneous to assert simply that \"Christ was a man\" during the three days of His death?",
+      "options": [
+        "Because being human requires the union of body and soul, and death is precisely the separation of the soul (the form) from the body, so the subject ceased to be, strictly speaking, a living man — though He can be called \"a dead man\"",
+        "Because Christ's divine nature ceased to exist during those three days",
+        "Because the Church teaches Christ was never truly human at any point",
+        "Because \"man\" is a term that applies only after the Resurrection"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that death is precisely the soul's departure as the body's formal complement, so calling Christ simply 'a man' during those three days would deny the truth of His death; he permits calling Him 'a dead man' instead."
+    }
+  ],
+  "P4Q51": [
+    {
+      "q": "According to Aquinas, why was it fitting for Christ to be buried?",
+      "options": [
+        "Only to fulfill a legal requirement of Jewish burial customs with no theological significance",
+        "To establish the truth of His death, to give hope of resurrection to those in the grave, and to serve as an example of those who die spiritually to sin (as in baptism, we are 'buried together with Christ')",
+        "Because His body would have decomposed and needed to be hidden",
+        "Solely to prevent the Romans from further desecrating His body"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas gives three reasons: certifying His true death (as Pilate confirmed), giving hope of resurrection to the dead, and serving as a model for those who through baptism are buried with Christ to sin, per Romans 6:4."
+    },
+    {
+      "q": "Why, according to Aquinas, did Christ not permit His body to putrefy or be reduced to dust in the tomb?",
+      "options": [
+        "Because putrefaction comes from weakness of nature, and Christ's death (and hence anything following from it) should not be attributed to infirmity, since He died voluntarily from inflicted suffering, not sickness",
+        "Because Jewish burial customs of the time prevented any bodily decay",
+        "Because His body was not truly physical and therefore could not decay",
+        "Because three days was too short a time for any decay to occur naturally"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains that putrefaction results from a body's natural infirmity; since Christ's death came not from sickness but from voluntarily accepted suffering, it was fitting that His incorruption manifest His divine power rather than be mistaken for natural weakness."
+    },
+    {
+      "q": "How does Aquinas interpret the theological significance of Christ remaining in the tomb for parts of three days (one day and two nights)?",
+      "options": [
+        "The time period has no symbolic meaning; it was simply however long burial customs required",
+        "The two nights signify the twofold death (of soul and of body) from which we are delivered, while the intervening day, since His death came from charity rather than sin, signifies day rather than night",
+        "The three days represent the three Persons of the Trinity acting in sequence",
+        "The time period was chosen to match the exact length of Jonah's three days, with no other symbolism"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reads the two nights as signifying the twofold death (soul and body) from which Christ's death delivers us, while the one full day signifies that His death, springing from charity rather than sin, has the character of day, not night."
+    }
+  ],
+  "P4Q52": [
+    {
+      "q": "What are the three reasons Aquinas gives for why it was fitting for Christ to descend into hell?",
+      "options": [
+        "To torment the damned further, to demonstrate His anger, and to close hell permanently",
+        "To bear our full penalty (including the debt of descending into hell) in order to free us from it, to despoil the devil of the captives he held after the Passion overthrew him, and to manifest His power by visiting and enlightening hell as He had manifested it on earth",
+        "Only to preach to unbelievers in hopes of their conversion",
+        "Simply because Scripture mentions it with no further theological purpose"
+      ],
+      "correct": 1,
+      "explanation": "Q52 A1 gives three reasons: bearing our penalty of descent into hell to free us from it, delivering the captives after overthrowing the devil, and manifesting divine power in hell as He had on earth."
+    },
+    {
+      "q": "According to Aquinas, how did Christ's descent affect the different \"compartments\" of hell (the hell of the lost, purgatory, and the limbo of the Fathers)?",
+      "options": [
+        "It had an identical effect everywhere: universal release of every soul detained there",
+        "By His effect: He put the lost to shame for unbelief and wickedness, gave those in purgatory hope of glory, and shed the light of everlasting glory upon the holy Fathers detained only for original sin",
+        "It had no effect on any of them since only His body, not His soul, went to the underworld",
+        "It affected only the hell of the lost, ignoring purgatory and the limbo of the Fathers entirely"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains Christ was present to each part of hell by effect but differently: shaming the damned, giving hope to those in purgatory, and bestowing the light of glory on the Fathers held only by original sin."
+    },
+    {
+      "q": "Why, according to Aquinas, did Christ's descent into hell NOT deliver children who died in original sin, even though it delivered the holy Fathers?",
+      "options": [
+        "Because children are inherently less deserving of salvation than adults",
+        "Because deliverance required union with Christ's Passion through faith and charity, which the holy Fathers had but which children who died in original sin could not have, lacking the use of free will and not being cleansed by parental faith or sacrament",
+        "Because Christ's descent had no power to affect anyone who died before His Incarnation",
+        "Because only those killed for their faith could benefit from the descent into hell"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas ties deliverance to union with Christ's Passion through faith and charity; the Fathers possessed this, but infants dying in original sin, lacking free will and not cleansed by any faith or sacrament, could not be so united and thus were not delivered."
+    }
+  ],
+  "P4Q53": [
+    {
+      "q": "What is the first of Aquinas's five reasons why it \"behooved\" Christ to rise again?",
+      "options": [
+        "For the commendation of divine justice, which exalts those who humble themselves for God's sake, since Christ humbled Himself to the death of the cross out of love and obedience",
+        "Because His disciples demanded proof of His divinity",
+        "Because without resurrection, His human nature would have remained forever corrupted",
+        "Because Jewish law required a demonstrable sign after three days"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas's first reason (Q53 A1) is the commendation of divine justice: since it belongs to justice to exalt those who humble themselves, and Christ humbled Himself even to death on the cross, it was fitting He be exalted through a glorious resurrection."
+    },
+    {
+      "q": "Why, according to Aquinas, was the third day specifically fitting for Christ's Resurrection — not immediately after death, nor much later?",
+      "options": [
+        "An immediate rising might have suggested His death was not genuine, undermining faith in His true humanity, while an excessive delay was not needed since some sign of life normally still appears within that timeframe if one is not really dead — so the third day confirmed both His true death and His divinity without excessive delay",
+        "The number three was chosen arbitrarily by later Church tradition",
+        "It matched the exact time needed for the body to naturally decompose",
+        "Roman law required a minimum three-day waiting period before any burial rites"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons that a too-quick rising would cast doubt on the reality of His death, while the third day was sufficient to establish that death was genuine (since apparent-death cases show signs of life sooner) without needlessly delaying the confirmation of His Godhead."
+    },
+    {
+      "q": "In what sense does Aquinas say Christ was the cause of His own Resurrection?",
+      "options": [
+        "Only in the sense that His disciples' faith caused it to happen",
+        "According to the Godhead united to His soul and body — by that divine power His body resumed the soul and His soul resumed the body — but according to the power of mere created nature this reunion could not occur, and God the Father also raised Him",
+        "Christ had no role whatsoever; the Resurrection was accomplished entirely apart from Him",
+        "Because His body had never truly died, resurrection did not require any special cause"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that since the Godhead was never separated from either the dead body or the dead soul, by that divine power Christ rose by His own power; but considered merely according to created nature, the reunion required God to raise Him."
+    }
+  ],
+  "P4Q54": [
+    {
+      "q": "Why does Aquinas insist that Christ's risen body was a \"true body\" and not merely an apparition?",
+      "options": [
+        "Because resurrection means that which fell rises again, and since Christ's body truly fell in death through separation from its soul, a true resurrection required the same body to be reunited with the same soul, giving it the same nature as before",
+        "Because Aquinas denies that Christ's body could have had any material substance even before death",
+        "Because the disciples' testimony alone establishes this, apart from any philosophical reasoning",
+        "Because a resurrected body is by definition a different, newly created body unrelated to the one that died"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas reasons from the nature of resurrection itself (that which fell must rise) and from the principle that a body's nature comes from its form (the soul); since the same body was reunited with the same soul, it was truly the same body, not an illusion."
+    },
+    {
+      "q": "What three reasons does Aquinas give for why Christ's risen body was glorified?",
+      "options": [
+        "His Resurrection is the exemplar and cause of ours (and the saints will rise in glory, so the cause must be even more glorious); He merited the glory of the Resurrection by the lowliness of the Passion; and His soul, glorified from His conception but withholding its glory from the body during His mortal life for the sake of the Passion, communicated that glory to the body once the Passion was accomplished",
+        "Because glorification was purely symbolic and did not affect the actual physical body",
+        "Because the Roman soldiers' report of the empty tomb proves the body was glorified",
+        "Because glorification only applied to His soul, never to His body"
+      ],
+      "correct": 0,
+      "explanation": "Q54 A2 lays out three arguments: the Resurrection as exemplar/cause of ours must be even more glorious than its effect; Christ merited resurrection glory through the humility of the Passion; and His already-glorified soul, withheld from overflowing into the body until the redemptive mystery was complete, communicated its glory to the body at the Resurrection."
+    },
+    {
+      "q": "According to Aquinas, why did Christ choose to keep the scars of His wounds in His risen body rather than heal them completely?",
+      "options": [
+        "Because He lacked the power to heal them fully even after rising",
+        "To wear them as an everlasting trophy of His victory, to confirm the disciples' faith in the Resurrection, to show the Father the manner of death He endured when interceding for us, to convince the redeemed of the mercy shown them, and to upbraid the wicked at the Judgment",
+        "Because scars are an unavoidable natural consequence that even glorified bodies cannot avoid",
+        "Only to satisfy Thomas the Apostle's doubt, with no further purpose"
+      ],
+       "correct": 1,
+      "explanation": "Aquinas, citing Bede and Augustine, lists multiple purposes for the retained scars: as a trophy of victory, confirmation of faith for the disciples, an intercessory sign before the Father, a token of mercy for the redeemed, and a rebuke for the damned at the Last Judgment."
+    }
+  ]
+}

@@ -1,0 +1,1402 @@
+{
+  "P2Q1": [
+    {
+      "q": "According to Aquinas, what makes an action properly \"human\" rather than merely \"an action of a man\"?",
+      "options": [
+        "That it produces a visible external effect",
+        "That it proceeds from a deliberate will, i.e. from reason and free-will",
+        "That it is performed in public",
+        "That it is habitual and repeated often"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas says only actions of which man is master, proceeding from a deliberate will (reason and will), are properly called \"human\"; other actions are merely \"of a man.\""
+    },
+    {
+      "q": "Why does Aquinas conclude that there must be one last end of human life (Article 4)?",
+      "options": [
+        "Because Scripture names only one end explicitly",
+        "Because an infinite regress in the order of ends is impossible; without a last end nothing would be desired and the appetite would never rest",
+        "Because philosophers before him agreed on a single end",
+        "Because human life has a fixed biological limit"
+      ],
+      "correct": 1,
+      "explanation": "Just as there cannot be an infinite regress of movers, there cannot be an infinite series of ends; if there were no last end, nothing would be desired and the intention of the agent would never come to rest."
+    },
+    {
+      "q": "In Article 7, in what sense does Aquinas say all men have the same last end?",
+      "options": [
+        "All men agree only in the general notion of a fulfilling, perfect good, though they disagree about the concrete thing in which it consists",
+        "All men consciously seek God as their last end",
+        "All men pursue wealth as their practical last end",
+        "All men have identical last ends because society determines individual desires"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas distinguishes the formal aspect of \"last end\" (which all desire, namely fulfillment) from the concrete thing that realizes it (riches, pleasure, etc.), on which men disagree."
+    }
+  ],
+  "P2Q2": [
+    {
+      "q": "Why, according to Article 1, can man's happiness not consist in wealth?",
+      "options": [
+        "Because wealth is evil in itself",
+        "Because wealth (natural or artificial) is sought only as useful for something else, not as an end in itself",
+        "Because the poor cannot be happy",
+        "Because wealth cannot be possessed permanently"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes natural wealth (a remedy for natural wants) from artificial wealth (money, invented for exchange); both are ordered to something further, so neither can be the last end."
+    },
+    {
+      "q": "Why can happiness not consist in power, according to Article 4?",
+      "options": [
+        "Because power is always abused",
+        "Because power has the nature of a principle (ordained to something further) whereas happiness has the nature of a last end, and power relates indifferently to good and evil",
+        "Because only kings possess power",
+        "Because power diminishes over time"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas gives two reasons: power is a principle for acting, not a final end, and since power can be used well or badly it cannot itself be man's perfect good."
+    },
+    {
+      "q": "According to Article 8, why must happiness ultimately be found in God rather than any created good?",
+      "options": [
+        "Because creation is inherently corrupt",
+        "Because the will's object is the universal good, and only God possesses goodness essentially rather than by participation",
+        "Because only God can be perceived by the senses",
+        "Because created goods are always temporary"
+      ],
+      "correct": 1,
+      "explanation": "Since the will's object is universal good and every creature has goodness only by participation, only God, who is goodness itself, can satisfy the will completely."
+    }
+  ],
+  "P2Q3": [
+    {
+      "q": "In Article 2, what does Aquinas conclude that happiness, considered as something created and existing in man, essentially is?",
+      "options": [
+        "A habit acquired through virtue",
+        "An operation, since happiness is man's supreme perfection and each thing is perfect insofar as it is in act",
+        "A feeling of pleasure",
+        "A possession of external goods"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since potentiality without act is imperfect, and operation is the \"last act\" of a power, man's happiness must consist in an operation."
+    },
+    {
+      "q": "According to Article 5, is perfect happiness an operation of the practical or the speculative intellect?",
+      "options": [
+        "The practical intellect, since happiness concerns action",
+        "Neither, since happiness is purely an act of will",
+        "The speculative intellect, since man's highest power's highest object (the Divine Good) belongs to contemplation, not to practical action",
+        "Both equally, in balanced measure"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas reasons that happiness must be man's highest operation, and man's highest power (intellect) attains its highest object (the Divine Good) through contemplation, i.e., the speculative intellect."
+    },
+    {
+      "q": "What does Aquinas conclude, in Article 8, is the only thing in which final and perfect happiness can consist?",
+      "options": [
+        "Knowledge of separate substances such as angels",
+        "Moral virtue perfected over a lifetime",
+        "The vision of the Divine Essence",
+        "Mastery of the speculative sciences"
+      ],
+      "correct": 2,
+      "explanation": "Because man is not perfectly happy while something remains to be known, and the intellect's perfection lies in knowing a cause's essence, final happiness must be the direct vision of God's Essence."
+    }
+  ],
+  "P2Q4": [
+    {
+      "q": "According to Article 3, what three things does Aquinas say must concur in perfect Happiness?",
+      "options": [
+        "Wealth, honor, and fame",
+        "Vision (perfect knowledge of the end), comprehension (presence of the end), and delight/enjoyment (rest of the lover in the object)",
+        "Faith, hope, and charity alone",
+        "Health of body, wealth, and friendship"
+      ],
+      "correct": 1,
+      "explanation": "Corresponding to man's threefold ordering to an end through intellect and will, perfect Happiness requires vision, comprehension, and delight."
+    },
+    {
+      "q": "Regarding the body and happiness in Article 5, what does Aquinas conclude?",
+      "options": [
+        "The body is absolutely required even for perfect happiness in the vision of God",
+        "The body is required for the imperfect happiness of this life (which needs phantasms), but not for the perfect happiness of the separated soul's vision of God",
+        "Happiness is impossible without perfect bodily health",
+        "The soul cannot function at all apart from the body"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that intellectual operation in this life needs phantasms rooted in bodily organs, but the separated souls of the saints already \"walk by sight,\" seeing God's Essence without their bodies."
+    },
+    {
+      "q": "Why, according to Article 8, does the happy man need the fellowship of friends in this life?",
+      "options": [
+        "Because he cannot be happy without being used and served by others",
+        "Not to use them or to find delight in them, since he suffices himself, but for the purpose of good operation—to do good to them and be helped by them in good works",
+        "Because friendship is required to attain the vision of God",
+        "Because without friends a man cannot acquire wealth"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, following Aristotle, says the happy man needs friends for the sake of good action—doing good to them, delighting in their good deeds, and being helped in his own."
+    }
+  ],
+  "P2Q5": [
+    {
+      "q": "According to Article 5, can man attain perfect happiness by his own natural powers alone?",
+      "options": [
+        "Yes, through sufficient effort and virtue",
+        "No, because the vision of God's Essence surpasses the nature of every creature, not only man's",
+        "Yes, but only for exceptionally wise philosophers",
+        "No, because happiness is entirely a matter of chance"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that since the vision of the Divine Essence infinitely surpasses all created substance, neither man nor any creature can attain final Happiness by natural powers."
+    },
+    {
+      "q": "According to Article 4, can the imperfect happiness available in this life be lost?",
+      "options": [
+        "No, once attained it is permanent",
+        "Yes—for example, contemplative happiness can be lost through sickness or through being drawn away by other occupations",
+        "Only through death",
+        "No, because true happiness by definition cannot be lost"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas states that imperfect happiness in this life, such as contemplative happiness, can be lost through forgetfulness (e.g., illness) or through preoccupations that withdraw a man from contemplation."
+    },
+    {
+      "q": "In Article 8, why does Aquinas say every man desires happiness, even though not everyone agrees on what happiness is?",
+      "options": [
+        "Because everyone has been taught the same definition of happiness",
+        "Because, under the general notion of the perfect good that satisfies the will, all necessarily desire happiness, even though they differ about the specific thing in which it consists",
+        "Because desire for happiness is a cultural convention",
+        "Because all men desire wealth above all else"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes the general notion of happiness (the perfect good that satisfies the will, which all desire of necessity) from its specific notion (the particular thing that is happiness), about which people disagree."
+    }
+  ],
+  "P2Q6": [
+    {
+      "q": "According to Article 1, what two things are essential to a voluntary act?",
+      "options": [
+        "Physical strength and social approval",
+        "An intrinsic principle of the act together with some knowledge of the end",
+        "Divine command and human obedience",
+        "Habit and repetition"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that a voluntary act requires that its principle be within the agent, together with some knowledge of the end for which it acts."
+    },
+    {
+      "q": "How does Aquinas classify actions done through fear in Article 6?",
+      "options": [
+        "Simply voluntary, since fear does not affect the will",
+        "Simply involuntary, since fear compels the will entirely",
+        "Mixed—involuntary considered in itself, but voluntary in the particular circumstance, since it is chosen to avoid a still-worse evil",
+        "Neither voluntary nor involuntary, but morally neutral"
+      ],
+      "correct": 2,
+      "explanation": "Following Aristotle, Aquinas says actions done through fear are \"of a mixed character\": not voluntary considered absolutely, but voluntary in the particular case as a means of avoiding the feared evil."
+    },
+    {
+      "q": "Does concupiscence (desire) cause involuntariness, according to Article 7?",
+      "options": [
+        "Yes, because desire overrides free choice",
+        "No—on the contrary, concupiscence makes an act voluntary, since it inclines the will toward the desired object",
+        "Yes, but only in the case of extreme passion",
+        "It has no effect on voluntariness either way"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that concupiscence inclines the will to desire its object, so its effect is to make an act more voluntary rather than involuntary."
+    }
+  ],
+  "P2Q7": [
+    {
+      "q": "According to Article 2, why must theologians take note of the circumstances of human acts?",
+      "options": [
+        "Only because circumstances make stories more interesting",
+        "Because acts must be proportionate to happiness as their end, because moral goodness or evil depends on circumstances, and because merit or demerit requires voluntariness, which depends on knowledge of circumstances",
+        "Because circumstances have no real bearing on morality",
+        "Because civil law requires it"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas gives a threefold reason: circumstances affect an act's proportion to its end, its degree of goodness or evil, and whether it is voluntary (hence meritorious or blameworthy)."
+    },
+    {
+      "q": "Which two circumstances does Aquinas identify in Article 4 as the most important?",
+      "options": [
+        "Where and when the act occurred",
+        "Who did it and by what means",
+        "\"Why\" (the end) and \"what he did\" (the substance of the act)",
+        "How much and how often"
+      ],
+      "correct": 2,
+      "explanation": "Since acts are human insofar as voluntary, and the will's object is the end, the circumstance of \"why\" is most important, followed by the circumstance touching the very substance of the act."
+    },
+    {
+      "q": "According to Article 1, from what domain is the word \"circumstance\" metaphorically borrowed to describe features of human acts?",
+      "options": [
+        "From medicine and the treatment of illness",
+        "From local, spatial position—things that \"stand around\" a located thing",
+        "From military strategy",
+        "From commerce and exchange"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that just as intellectual knowledge proceeds from what is better known (bodies located in place) to what is less obvious, the term \"circumstance,\" originally spatial, was transferred to describe the accidental conditions of acts."
+    }
+  ],
+  "P2Q8": [
+    {
+      "q": "According to Article 1, what alone is the object of the will?",
+      "options": [
+        "The pleasant",
+        "The good, since the will is a rational appetite and every appetite tends only to something good",
+        "Whatever the intellect commands regardless of goodness",
+        "Being in general, whether good or evil"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas states the will is a rational appetite, and every appetite is only of something good, since every inclination is toward something suitable, i.e. good."
+    },
+    {
+      "q": "In Article 2, does volition concern only the last end, or also the means?",
+      "options": [
+        "Only the last end",
+        "Both the end and the means, since the will as a power extends to anything in which the aspect of good can be found",
+        "Only the means, never the end itself",
+        "Neither; volition only concerns feelings"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that the will as a power extends to both end and means because the aspect of good, its object, is found in both."
+    },
+    {
+      "q": "According to Article 3, how does the will's movement toward the end relate to its movement toward the means?",
+      "options": [
+        "They are always entirely separate and unrelated acts",
+        "The will can be moved to the end without being moved to the means, but is moved to the means (as such) only by the same movement by which it is moved to the end as the reason for willing them",
+        "The will is moved to the means first, and only afterward to the end",
+        "The end and means are always willed simultaneously by identical, indistinguishable acts in every case"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that willing the means presupposes willing the end as the reason for the means (one movement), while the will can also be moved to the end absolutely in itself by a distinct act, which can precede in time."
+    }
+  ],
+  "P2Q9": [
+    {
+      "q": "According to Article 1, how does the intellect move the will?",
+      "options": [
+        "By physically forcing it to act",
+        "By presenting the good as an object, since a power in potentiality to several things needs to be moved by something actual, in this case as to specification of the act",
+        "The intellect has no influence over the will at all",
+        "By replacing the will's function entirely"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains the will, like other powers, is in potentiality to different acts and objects, and the intellect moves it by presenting the object (the apprehended good) that specifies its act."
+    },
+    {
+      "q": "According to Article 3, can the will move itself?",
+      "options": [
+        "No, the will can only be moved by external causes",
+        "Yes, through willing the end, the will moves itself to will the means, just as the intellect through principles moves itself to conclusions",
+        "No, self-motion is logically impossible for any power",
+        "Yes, but only in irrational creatures"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas draws an analogy: just as the intellect, through knowledge of a principle, reduces itself to actually knowing a conclusion, the will, through willing the end, moves itself to will the means."
+    },
+    {
+      "q": "According to Article 6, who alone can move the will as an exterior principle with respect to the interior act of willing itself?",
+      "options": [
+        "Any powerful human authority",
+        "The heavenly bodies",
+        "God alone, since only the cause of the will's very nature can move it in the manner natural to it",
+        "Angels acting on their own authority"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas reasons that just as only the cause of a stone's nature can cause its natural downward movement, only God, as cause of the will's nature, can be the will's exterior mover in the proper, interior sense."
+    }
+  ],
+  "P2Q10": [
+    {
+      "q": "According to Article 2, under what condition does an object move the will of necessity?",
+      "options": [
+        "Whenever the object is presented clearly to the senses",
+        "Only when the object is good in every respect and lacking in nothing—i.e., perfect Happiness—since particular goods, being deficient in some respect, do not move the will of necessity",
+        "Whenever the object is commanded by legitimate authority",
+        "Never; the will is always moved with absolute necessity by any object"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares this to sight and color: an object that is good from every point of view (Happiness) moves the will necessarily, but a good lacking in some respect (a particular good) does not."
+    },
+    {
+      "q": "According to Article 3, can passion of the sensitive appetite ever remove the free use of reason and will entirely?",
+      "options": [
+        "No, passion can never affect reason or will at all",
+        "Yes—when passion is so violent that reason is wholly bound (as in fury or insanity), a person then acts of necessity, like irrational animals",
+        "Only in animals, never in human beings",
+        "Yes, but only regarding purely intellectual judgments, never regarding action"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas acknowledges that in cases of violent passion that entirely bind the use of reason, the will follows the passion of necessity, comparable to how irrational animals follow their impulses."
+    },
+    {
+      "q": "According to Article 4, does God's moving of the will destroy its freedom or contingency?",
+      "options": [
+        "Yes, God's causality makes every act of will strictly necessary",
+        "No; Divine providence moves each thing according to its own nature, so it moves the will as a contingent cause, preserving its freedom except toward what it wills naturally",
+        "God does not move the will at all, leaving it entirely autonomous",
+        "Yes, but only for sinners, while the righteous retain freedom"
+      ],
+      "correct": 1,
+      "explanation": "Citing Dionysius, Aquinas holds that Providence preserves the nature of things it moves; since the will is a contingent, non-determined power, God moves it contingently, not of necessity, except with respect to things willed naturally (like Happiness in general)."
+    }
+  ],
+  "P2Q11": [
+    {
+      "q": "According to Article 1, to what power does \"fruition\" (enjoyment) belong?",
+      "options": [
+        "The apprehensive power, since it requires knowledge",
+        "The appetitive power, since fruition denotes delight in realizing the longed-for term, i.e. the end",
+        "The nutritive power, since it derives from sensible fruit",
+        "The imaginative power alone"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas connects fruition to delight in attaining what is longed for, and since the end and the good are objects of the appetitive power, fruition is an act of that power."
+    },
+    {
+      "q": "According to Article 2, do irrational animals enjoy their ends?",
+      "options": [
+        "Yes, in exactly the same way as rational creatures",
+        "No, strictly speaking, because enjoyment belongs to the power that commands the end, not merely the power that executes it, and irrational things lack that commanding power in themselves",
+        "Yes, because all animals seek pleasure",
+        "No animal, rational or not, can properly be said to enjoy anything"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that irrational things attain an end through natural tendency but do not have within themselves a governing appetite ordered by reason, so, strictly, only creatures endowed with knowledge and command over their appetite can enjoy an end."
+    },
+    {
+      "q": "According to Article 3, of what is enjoyment properly said to be?",
+      "options": [
+        "Any pleasurable experience whatsoever",
+        "Only the last end, in which the will finds absolute rest, not something desired merely as a means to something else",
+        "Only bodily pleasures",
+        "Any intermediate goal along the way"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that \"fruit\" implies something ultimate that calms the appetite with delight; what is desired only for the sake of something else (like a bitter medicine for health) is not properly enjoyed."
+    }
+  ],
+  "P2Q12": [
+    {
+      "q": "According to Article 1, to which faculty does \"intention\" properly belong?",
+      "options": [
+        "The intellect, since it involves understanding",
+        "The will, since intention belongs to that which moves toward an end, and the will moves the other powers of the soul to the end",
+        "The imagination",
+        "The sensitive appetite exclusively"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains intention means \"to tend to something,\" which belongs to the mover; since the will moves all other powers toward the end, intention is properly an act of the will."
+    },
+    {
+      "q": "According to Article 2, is intention always of the very last end?",
+      "options": [
+        "Yes, intention can never regard an intermediate goal",
+        "No; intention can regard an intermediate terminus (like a midway point B on the way to C) as well as the ultimate terminus",
+        "Intention only ever concerns means, never ends",
+        "Intention and choice are identical acts with identical objects"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares intention to a terminus of movement, which can be either the final terminus or a midpoint that is both a beginning and an end of part of the movement; thus intention need not always be of the absolutely last end."
+    },
+    {
+      "q": "According to Article 3, can a person intend two things at the same time?",
+      "options": [
+        "Never under any circumstances",
+        "Yes, if the two things are ordained to one another, such as a proximate end (mixing a medicine) and the further end it serves (giving health)",
+        "Yes, but only if the two things are completely unrelated",
+        "No, human intention is always confined to a single indivisible object"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas holds that when things are ordained to one another, a person can intend both the proximate and the ultimate end simultaneously, as in mixing a medicine for the sake of health."
+    }
+  ],
+  "P2Q13": [
+    {
+      "q": "According to Article 1, what does choice involve, combining which two elements?",
+      "options": [
+        "Pure appetite alone, with no role for reason",
+        "Something belonging to reason (counsel) and something belonging to the will (appetite)—an intellect influenced by appetite, or appetite influenced by intellect",
+        "Pure intellect alone, with no involvement of the will",
+        "Random impulse unconnected to either faculty"
+      ],
+      "correct": 1,
+      "explanation": "Citing Aristotle, Aquinas describes choice as a combination of desire and counsel, comparable to how an animal is composed of both soul and body."
+    },
+    {
+      "q": "According to Article 3, is choice ever of the last end, or only of the means?",
+      "options": [
+        "Choice is always of the last end, never of means",
+        "Choice is properly only of the means, since in practical matters the end functions as a principle (presupposed), not as a conclusion to be chosen",
+        "Choice concerns neither ends nor means, only feelings",
+        "Choice and intention are identical in every respect"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that choice follows from a practical syllogism's conclusion, and since the end functions as a principle rather than a conclusion in practical reasoning, the end as such is not an object of choice."
+    },
+    {
+      "q": "According to Article 6, does man choose of necessity or freely?",
+      "options": [
+        "Man chooses of necessity, since reason always dictates one determinate option",
+        "Man chooses freely, because reason can apprehend both the good and the corresponding lack of good in particular goods, so it can regard any of them as either to be chosen or avoided (unlike Happiness itself, which is willed of necessity)",
+        "Man never truly chooses; all human action is instinctual",
+        "Choice is entirely random and has no connection to reason"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that while man wills Happiness (the perfect good) of necessity, choice concerns particular goods, in which reason can always see some lacking aspect, so man is not determined to choose any one of them—hence choice is free."
+    }
+  ],
+  "P2Q14": [
+    {
+      "q": "According to Article 1, why is counsel described as an \"inquiry\"?",
+      "options": [
+        "Because it is a formal legal proceeding",
+        "Because actions concern contingent, uncertain singulars, so reason must investigate before judging what is to be chosen",
+        "Because it always involves consulting written texts",
+        "Because it is identical with prayer"
+      ],
+      "correct": 1,
+      "explanation": "Since actions deal with contingent particulars that admit of uncertainty, reason cannot judge without prior inquiry, and this inquiry is called counsel."
+    },
+    {
+      "q": "According to Article 2, is counsel about the end or about the means?",
+      "options": [
+        "Counsel is about the end alone, since ends are always uncertain",
+        "Properly, counsel is not about the end (which is presupposed as a principle), but about the means, though what is an end in one context can be a means examined by counsel in another",
+        "Counsel concerns neither ends nor means, only past events",
+        "Counsel and choice are always about entirely different matters, with no overlap"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that the end functions as a principle in practical reasoning and cannot be called into question by the very inquiry it grounds, so, properly, counsel concerns the means; though a subordinate end can become an object of counsel relative to a further end."
+    },
+    {
+      "q": "According to Article 5, in what direction does the process of counsel proceed?",
+      "options": [
+        "Synthetically, from cause to effect",
+        "Analytically, beginning from what is intended in the future (the end) and proceeding back to what is to be done at once",
+        "Randomly, with no order at all",
+        "Only backward through past experiences, never forward"
+      ],
+      "correct": 1,
+      "explanation": "Since the end, though first in intention, comes last in execution, the inquiry of counsel is one of analysis, tracing back from the intended end to the immediate action to be done."
+    }
+  ],
+  "P2Q15": [
+    {
+      "q": "According to Article 1, to what power does consent belong?",
+      "options": [
+        "The apprehensive power, since it requires understanding of the situation",
+        "The appetitive power, since consent implies the appetite \"cleaving to\" or taking complacency in a thing, likened metaphorically to sense",
+        "The purely vegetative power",
+        "No power at all, since it is merely verbal"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that consent, though named by analogy to sense (direct cognizance), is really an act of the appetitive power applying itself to and taking complacency in an object."
+    },
+    {
+      "q": "According to Article 2, do irrational animals properly have consent?",
+      "options": [
+        "Yes, fully and properly, since all animals have appetites",
+        "No, properly speaking, because consent requires having command over the appetitive movement, applying it to this or that object—something only rational creatures can do",
+        "Yes, but only in domesticated animals",
+        "Consent applies equally to plants and animals"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that irrational animals' appetitive movement follows natural instinct rather than being applied by their own command to a particular object, so consent, properly speaking, belongs to rational nature alone."
+    },
+    {
+      "q": "According to Article 3, to what is consent, properly speaking, directed?",
+      "options": [
+        "Only to the last end itself",
+        "Only to the means, since consent is the application of the appetitive movement to the decision reached through counsel, and counsel is only about means",
+        "Equally and always to both end and means without distinction",
+        "To nothing in particular; consent is not directed to any object"
+      ],
+      "correct": 1,
+      "explanation": "Since the appetite tends to the last end naturally (simple volition) and counsel concerns only the means, consent as application of appetite to counsel's decision is, properly speaking, only of the means."
+    }
+  ],
+  "P2Q16": [
+    {
+      "q": "According to Article 1, to what power does \"use\" of a thing properly belong?",
+      "options": [
+        "The reason alone, as director",
+        "The will, as the power that first applies other powers and things to an operation, though reason directs and other powers execute",
+        "The external members of the body exclusively",
+        "The imagination, since use requires picturing an action beforehand"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that use is the application of something to an operation; since it is the will that moves the soul's powers to their acts (applying them to operation), use belongs first and principally to the will."
+    },
+    {
+      "q": "According to Article 3, does \"use\" ever regard the last end itself?",
+      "options": [
+        "Yes, use always and primarily regards the last end",
+        "No; since use implies applying one thing to another as a means, use always regards the means, not the last end",
+        "Use regards only bodily pleasures",
+        "Use and enjoyment (fruition) are identical acts with identical objects"
+      ],
+      "correct": 1,
+      "explanation": "Because use implies applying something to another as to an end (i.e., as a means), it always regards the means and not the last end, which is why useful things are called \"useful.\""
+    },
+    {
+      "q": "According to Article 2, is \"use\" found in irrational animals?",
+      "options": [
+        "Yes, since animals clearly use tools like sticks and stones",
+        "No, because only a rational agent, capable of referring one thing to another (an act of reason), can properly be said to use and to consent",
+        "Yes, but only in animals trained by humans",
+        "Use is found in plants but not animals"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that referring something to an end requires an act of reason, which is why only a rational animal, not an irrational one, properly consents and uses."
+    }
+  ],
+  "P2Q17": [
+    {
+      "q": "According to Article 1, is command an act of the reason or of the will?",
+      "options": [
+        "Purely an act of the will with no involvement of reason",
+        "An act of the reason, but one that presupposes an act of the will, since reason and will's acts bear upon one another",
+        "Purely an act of the sensitive appetite",
+        "An act belonging to neither reason nor will, but to memory alone"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that command is an act of reason directing something toward an end, but this directing act presupposes that the will has already willed that end, so the two acts are intertwined."
+    },
+    {
+      "q": "According to Article 7, is the act of the sensitive appetite subject to the command of reason?",
+      "options": [
+        "Not at all, since the sensitive appetite is entirely independent of reason",
+        "Yes, but only indirectly and imperfectly, since the sensitive appetite depends not only on the appetitive power but also on the disposition of a bodily organ, which is not wholly under reason's control",
+        "Yes, completely and without qualification, exactly like the intellect's own acts",
+        "No, because the sensitive appetite does not exist in human beings"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes the sensitive appetite is a power of a bodily organ, so its acts depend partly on the condition of that organ; hence it is subject to reason's command only to the extent that reason can influence that bodily disposition."
+    },
+    {
+      "q": "According to Article 8, are the acts of the vegetal soul (such as nutrition and generation) subject to command of reason?",
+      "options": [
+        "Yes, fully, since reason governs the entire soul",
+        "No, because these acts proceed from natural appetite, which does not follow from any apprehension, whereas reason commands only what proceeds from apprehensive/appetitive powers",
+        "Yes, but only during sleep",
+        "No acts of the soul are ever subject to reason's command"
+      ],
+      "correct": 1,
+      "explanation": "Since reason commands by way of the apprehensive power, and the natural appetite (governing vegetal functions like nutrition and generation) does not arise from apprehension, such acts are not subject to reason's command."
+    }
+  ],
+  "P2Q18": [
+    {
+      "q": "According to Article 2, from what does a human action primarily derive its species as good or evil?",
+      "options": [
+        "From the intention of bystanders",
+        "From its object, just as a natural thing's species is derived from its form",
+        "From the time at which it occurs",
+        "From whether it succeeds or fails"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares an action's object to a natural thing's form: just as form gives a natural thing its species, an action's suitable or unsuitable object gives it its primary moral goodness or evil \"in its genus.\""
+    },
+    {
+      "q": "According to Article 4, does a human action's goodness or evil also depend on its end?",
+      "options": [
+        "No, only the object matters, never the end",
+        "Yes; since the goodness of things whose being depends on something else is measured by that on which they depend, human actions (which depend on their end) are also judged by their end",
+        "No, the end is only relevant to non-human agents",
+        "Yes, but only for actions performed in public"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that just as a thing's being can depend on an external cause, human actions' goodness depends on their end besides whatever goodness they have absolutely considered in themselves."
+    },
+    {
+      "q": "According to Article 8, can any human action be indifferent (neither good nor evil) according to its species?",
+      "options": [
+        "No, every action is necessarily either good or evil in species",
+        "Yes—for example, picking up a straw from the ground, an action whose object includes nothing that accords or conflicts with the order of reason",
+        "No, indifference is impossible because reason judges every conceivable object",
+        "Yes, and in fact most human actions are indifferent in species"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that when an action's object neither includes something in accord with reason's order nor something repugnant to it, the action is indifferent according to its species, giving the example of picking up a straw."
+    }
+  ],
+  "P2Q19": [
+    {
+      "q": "According to Article 3, on what does the goodness of the will depend, in addition to its object?",
+      "options": [
+        "On reason, since the will's object (the good understood) is proposed to it by reason, unlike sensitive appetite which is proportioned to sensible good",
+        "On the color of objects perceived",
+        "On physical strength alone",
+        "On social consensus regarding what is good"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains the will's proper object, the good as understood, is proposed to it by reason (unlike the sensitive appetite, proportioned to particular sensible goods), so the goodness of the will depends on reason as well as on the object."
+    },
+    {
+      "q": "According to Article 5, is the will evil whenever it disagrees with an erring reason or conscience?",
+      "options": [
+        "Always evil in every case without exception",
+        "It depends on the matter: reason/conscience errs bindingly in matters of indifference, but there is more nuance when reason commands what is evil in itself or forbids what is necessary for salvation",
+        "Never evil, since conscience is always infallible",
+        "The question is irrelevant because reason never errs"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas discusses the classic problem of whether an erring conscience binds, distinguishing cases of indifferent matters (where erring conscience does bind) from cases where conscience commands something evil in itself or forbids something necessary for salvation."
+    },
+    {
+      "q": "According to Article 9, on what does the ultimate goodness of the human will depend?",
+      "options": [
+        "On its conformity to the Sovereign Good, God, since the goodness of the will depends on the intention of the end, and man's last end is God",
+        "On its conformity to popular opinion",
+        "On the amount of pleasure it produces",
+        "On its conformity strictly to civil law"
+      ],
+      "correct": 0,
+      "explanation": "Since the goodness of the will depends on the intention of the end (Article 7), and the last end of the human will is God as the Sovereign Good, the will's goodness ultimately requires being ordained to Him."
+    }
+  ],
+  "P2Q20": [
+    {
+      "q": "According to Article 1, where is goodness or malice found first: in the interior act of the will, or in the external action?",
+      "options": [
+        "Always and only in the external action",
+        "In the act of the will first, considered as the external action's goodness in relation to its end, though goodness from due matter and circumstances comes from reason and, in execution, follows from the will",
+        "External actions have no moral quality whatsoever",
+        "Goodness is located equally and identically in both, with no priority"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes: goodness relative to the end is found first in the will (whence it passes to the external act), while goodness from due matter/circumstances comes from reason, though as executed it follows upon the will's goodness."
+    },
+    {
+      "q": "According to Article 4, does the external action ever add any goodness or malice beyond that of the interior act?",
+      "options": [
+        "No, external action can never add anything to interior goodness or malice",
+        "Yes, it can, in three ways: by number (repeated willing), by extension/duration (persevering in the will), and by intensity (external acts making the will itself more intense)",
+        "Only by increasing the actor's reputation",
+        "Only in cases of accidental, unintended outcomes"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains the external action can increase the goodness or malice of the will itself in point of number, duration, and intensity, even though its goodness in relation to the end comes wholly from the will."
+    },
+    {
+      "q": "According to Article 6, can one and the same external action be both morally good and morally evil at once?",
+      "options": [
+        "Yes, always, since every action has both good and bad aspects simultaneously",
+        "No; if considered as one action in the moral order (unified by a single act of will), it cannot be both good and evil at once, though it could be one physically while being morally multiple if the will changes during it",
+        "Only for actions performed by more than one person",
+        "Moral goodness and evil are illusions with no real basis in actions"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that unity in the moral order depends on the unity of the will's act; one continuous physical action (like walking) can become morally multiple if the walker's will changes, but a single moral action cannot be simultaneously both good and evil."
+    }
+  ],
+  "P2Q21": [
+    {
+      "q": "According to Article 1, in what sense is a human action called \"right\" or \"sinful\"?",
+      "options": [
+        "\"Right\" and \"sinful\" only apply to actions judged by civil courts",
+        "An action is right when it accords with the due order to its end (measured by a rule such as natural inclination or reason), and sinful when it strays from that rectitude",
+        "These terms are purely a matter of subjective preference",
+        "Sin refers to any evil whatsoever, with no distinct sense of its own"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that sin is more specific than mere evil: it concerns an action done for an end but lacking due order to that end, judged by a governing rule."
+    },
+    {
+      "q": "According to Article 2, when is a human action said to deserve praise or blame?",
+      "options": [
+        "Whenever it produces good or bad consequences, regardless of the agent's control",
+        "When it is imputed to the agent, i.e., when it is in the agent's power/dominion through the will",
+        "Only when performed in front of witnesses",
+        "Never, since praise and blame are meaningless categories"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas ties praiseworthiness and blameworthiness to imputability: an act is imputed to an agent when it is under the agent's power through the will."
+    },
+    {
+      "q": "According to Article 4, do human actions acquire merit or demerit before God?",
+      "options": [
+        "No, God is indifferent to human actions",
+        "Yes, both because God is man's last end (owed honor through referring actions to Him) and because God, as ruler of the universe, awards retribution for what is done well or ill in the community",
+        "Only actions performed inside a church acquire merit or demerit",
+        "Merit and demerit apply only to actions affecting other people, never oneself"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues human actions merit or demerit before God both as our last end (owed due honor) and because God governs the whole universe and rewards or punishes accordingly."
+    }
+  ],
+  "P2Q22": [
+    {
+      "q": "According to Article 1, in what sense, properly speaking, are passions found in the soul?",
+      "options": [
+        "Only in the sense of pure reception with no loss involved, like understanding",
+        "Properly speaking, passion (with loss of something and bodily transmutation) is in the soul only accidentally, i.e. insofar as the composite of soul and body is affected",
+        "Passions belong exclusively to the intellect, never to appetite",
+        "The soul cannot be said to have passions in any sense"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes passion in its most proper sense (involving bodily transmutation and loss, e.g. sickness) from a broader sense (mere reception, e.g. understanding); properly speaking, passion belongs to the soul only through the body-soul composite."
+    },
+    {
+      "q": "According to Article 2, is passion found more properly in the appetitive or the apprehensive power?",
+      "options": [
+        "The apprehensive power, since knowledge causes the greatest change",
+        "The appetitive power, since the soul is drawn toward things themselves through appetite, whereas the apprehensive power knows things only through an \"intention\" it holds within itself",
+        "Passion belongs equally and identically to both powers",
+        "Neither power can properly be said to have passions"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues passion implies being drawn toward what belongs to the agent; since the appetitive power relates to things as they exist in themselves (unlike apprehension, which deals with intentions/likenesses), passion fits the appetitive power more properly."
+    },
+    {
+      "q": "According to Article 3, is passion more properly found in the sensitive appetite or the intellectual appetite (will)?",
+      "options": [
+        "The intellectual appetite (will), since it is the higher faculty",
+        "The sensitive appetite, because passion properly requires bodily transmutation, and the sensitive appetite (unlike the will) operates through a bodily organ",
+        "Passion is found equally in both without distinction",
+        "Neither the sensitive appetite nor the will can have passions"
+      ],
+      "correct": 1,
+      "explanation": "Since proper passion involves bodily transmutation, and the sensitive appetite (unlike the intellectual appetite, which needs no bodily organ) operates through the body, passion belongs more properly to the sensitive appetite."
+    }
+  ],
+  "P2Q23": [
+    {
+      "q": "According to Article 1, do the passions of the irascible part differ in species from those of the concupiscible part?",
+      "options": [
+        "No, they are identical since both arise from the same power",
+        "Yes, because different powers have different objects, and the passions of different powers are referred to different objects, causing a difference not merely of species but of genus",
+        "They differ only in intensity, not in kind",
+        "The irascible part does not actually exist as distinct from the concupiscible part"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that since the irascible and concupiscible are distinct powers with distinct objects, their passions differ not merely specifically, like species within one genus, but as belonging to different genera."
+    },
+    {
+      "q": "According to Article 3, why does anger have no contrary passion?",
+      "options": [
+        "Because anger is caused by a difficult evil already present, so there is no possibility of a corresponding movement of withdrawal from an absent evil",
+        "Because anger is identical to joy",
+        "Because all passions are contrary to one another equally",
+        "Because anger does not really exist as a distinct passion"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas explains anger arises from a present, difficult evil, and can only result in either succumbing (sadness) or attacking (anger); since the evil is already present, there is no possible movement of \"withdrawal\" to serve as anger's contrary."
+    },
+    {
+      "q": "According to Article 2, on what is the contrariety of the irascible passions based?",
+      "options": [
+        "On the contrariety of good and evil in the same way as the concupiscible passions",
+        "On contrariety of approach and withdrawal with respect to the same term, since passion is a kind of movement and this is one of the two kinds of contrariety found in changes and movements",
+        "On no basis at all, since the irascible passions cannot be compared to one another",
+        "On differences of bodily organ affected"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes contrariety according to approach/withdrawal from the same term (proper to changes like generation/corruption) from contrariety of opposite termini; the irascible passions' contrariety follows the former kind."
+    }
+  ],
+  "P2Q24": [
+    {
+      "q": "According to Article 1, can moral good and evil be found in the passions of the soul?",
+      "options": [
+        "Never, because passions are purely irrational movements outside reason's scope",
+        "Yes, when the passions are considered as subject to the command of reason and will, since they can then be called voluntary and thus morally good or evil",
+        "Only in the case of extremely violent passions",
+        "Passions are morally neutral in every possible sense, always and everywhere"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes passions considered simply as movements of irrational appetite (morally neutral in themselves) from passions as subject to reason and will's command, in which case they can be morally good or evil."
+    },
+    {
+      "q": "According to Article 3, according to Aquinas's own view (as opposed to the Stoics), do moderate passions controlled by reason increase or decrease the goodness of a human act?",
+      "options": [
+        "They always decrease it, since any passion is an imperfection",
+        "They can increase the perfection of moral good, since it belongs to the perfection of human good that passions be moderated and controlled by reason",
+        "Passions have absolutely no bearing on the goodness of an act",
+        "Only bodily passions matter; passions of the will are irrelevant"
+      ],
+      "correct": 1,
+      "explanation": "Unlike the Stoics who held all passion diminishes goodness, Aquinas argues that when passions are moderated by reason, their control belongs to the perfection of moral good, since good extends to more of what pertains to man."
+    },
+    {
+      "q": "According to Article 2, how does Aquinas assess the disagreement between Stoics and Peripatetics on whether passions are evil?",
+      "options": [
+        "He sides entirely with the Stoics that all passion is evil",
+        "He says the disagreement is largely verbal: the Stoics used \"passion\" to mean only disordered movements exceeding reason, while the Peripatetics used it more broadly to include moderate, reason-governed movements",
+        "He rejects both positions as entirely mistaken",
+        "He says the question cannot be resolved and remains permanently open"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes the Stoics did not distinguish sense from intellect, so what they called evil \"passion\" was really disordered movement exceeding reason, while the Peripatetics' \"good\" passions were moderate ones—so the dispute is largely terminological."
+    }
+  ],
+  "P2Q25": [
+    {
+      "q": "According to Article 4, which four passions does Aquinas identify as the principal passions, and how are they distinguished?",
+      "options": [
+        "Love, hatred, desire, and aversion, distinguished by intensity",
+        "Joy, sadness, hope, and fear—joy and sadness relate to present good and evil, while hope and fear relate to future good and evil",
+        "Anger, fear, love, and joy, distinguished by which bodily organ they affect",
+        "Pride, envy, gluttony, and lust, distinguished by their moral gravity"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains joy and sadness are principal because all other passions terminate in them, while hope and fear are principal with respect to movement toward future good or evil."
+    },
+    {
+      "q": "According to Article 2, which passion does Aquinas identify as first among the concupiscible passions?",
+      "options": [
+        "Hatred, since evil must be recognized before good can be pursued",
+        "Love, since good naturally precedes evil (which is merely privation of good), so passions regarding good precede those regarding evil",
+        "Fear, since self-preservation is the most basic drive",
+        "Desire, prior to any apprehension of good or evil"
+      ],
+      "correct": 1,
+      "explanation": "Since evil is a privation of good, and good naturally precedes evil, Aquinas concludes love (whose object is good) precedes its contrary and other concupiscible passions."
+    },
+    {
+      "q": "According to Article 1, why do the irascible passions include nothing pertaining to repose?",
+      "options": [
+        "Because the irascible faculty deals only with what is arduous or difficult, and once we rest in a thing, we no longer regard it as arduous",
+        "Because the irascible faculty does not actually exist in human beings",
+        "Because repose belongs exclusively to the intellect, not to appetite",
+        "Because the irascible passions occur only in dreams"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas notes that the object of the irascible faculty is something arduous; once something is attained and rested in, it is no longer regarded under the aspect of the arduous, so repose belongs to the concupiscible passions (joy, sadness), not the irascible."
+    }
+  ],
+  "P2Q26": [
+    {
+      "q": "According to Article 4, how does Aquinas divide love?",
+      "options": [
+        "Into love of self and love of others only",
+        "Into love of concupiscence (toward the good one wishes for someone, oneself or another) and love of friendship (toward the one for whom that good is wished)",
+        "Into natural love and supernatural love only, with no other distinctions",
+        "Into love of the body and love of the soul"
+      ],
+      "correct": 1,
+      "explanation": "Following the idea that \"to love is to wish good to someone,\" Aquinas distinguishes love of concupiscence (toward the good wished) from love of friendship (toward the person to whom good is wished)."
+    },
+    {
+      "q": "According to Article 2, is love a passion?",
+      "options": [
+        "No, love is purely spiritual and never a passion",
+        "Yes, properly so called when in the concupiscible faculty, since love is the change wrought in the appetite by the object, from which desire and then joy follow",
+        "Love is identical with joy and has no distinct nature",
+        "Love cannot be classified at all since it defies analysis"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas describes love as the first change the appetible object works in the appetite (a complacency), from which desire (movement toward the object) and joy (rest in it) follow; properly, as it occurs in the concupiscible faculty, it is a passion."
+    },
+    {
+      "q": "According to Article 1, from where does love originate according to the will (rational or intellectual appetite)?",
+      "options": [
+        "From an apprehension existing in the subject of the appetite itself, following freely, unlike the merely natural appetite",
+        "From an external, entirely unconscious biological process",
+        "From apprehension in something outside the loving subject, as with natural appetite",
+        "Love in the will is identical to love in irrational animals"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas distinguishes three kinds of appetite: natural (from apprehension in another), sensitive (from apprehension in the subject but by necessity), and the will's rational appetite (from apprehension in the subject, following freely)."
+    }
+  ],
+  "P2Q27": [
+    {
+      "q": "According to Article 1, what is the proper cause of love?",
+      "options": [
+        "Knowledge alone, independent of any object",
+        "The good, since love implies a certain connaturalness or complacency of the lover for the object loved, which is what makes that object a good to the lover",
+        "Physical proximity alone",
+        "Random chance, unrelated to any object's qualities"
+      ],
+      "correct": 1,
+      "explanation": "Since love's object is the good (that which is akin and suitable to the lover), Aquinas concludes good is love's proper cause."
+    },
+    {
+      "q": "According to Article 2, is knowledge a cause of love?",
+      "options": [
+        "No, love can arise entirely without any apprehension of the object",
+        "Yes, because good can be the object of appetite only insofar as it is apprehended, so love requires some knowledge of the good that is loved",
+        "Knowledge actively prevents love from arising",
+        "Knowledge is only relevant to hatred, never to love"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues good is not an object of appetite except as apprehended, so knowledge (of the beloved good) is necessarily a cause of love, since love can only be for what is known in some way."
+    },
+    {
+      "q": "According to Article 3, is likeness a cause of love?",
+      "options": [
+        "No, likeness has nothing to do with the causes of love",
+        "Yes, properly speaking, whether the likeness is of shared actual quality or of potentiality resembling another's actuality",
+        "Only physical resemblance causes love, never any other kind of similarity",
+        "Likeness only ever causes hatred, through rivalry"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies two kinds of likeness that cause love: sharing an actual quality (e.g., two white things) and the likeness of potentiality to a corresponding actuality."
+    }
+  ],
+  "P2Q28": [
+    {
+      "q": "According to Article 1, what is one effect of love regarding union?",
+      "options": [
+        "Love always causes physical separation between lover and beloved",
+        "Union, understood as real union (presence) and union of affection, arising from an apprehension of oneness between lover and beloved—whether through love of concupiscence or love of friendship",
+        "Love has no connection to union of any kind",
+        "Union occurs only in love of friendship, never in love of concupiscence"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains both love of concupiscence (apprehending the desired thing as belonging to one's well-being) and love of friendship (willing good to another as to oneself) involve an apprehension of oneness, producing union of affection, and sometimes real union."
+    },
+    {
+      "q": "According to Article 3, what does Aquinas mean by \"ecstasy\" as an effect of love?",
+      "options": [
+        "A purely physical fainting spell unrelated to love",
+        "Being placed outside oneself, whether in apprehension (raised to higher knowledge or debased) or in appetite (the appetitive power borne toward something else, going forth out of itself)",
+        "A technical term used only in mystical theology, never applicable to ordinary love",
+        "An effect found only in love of concupiscence, never love of friendship"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains ecstasy, \"being placed outside oneself,\" can occur through the apprehensive power (raised to higher knowledge or lowered into passion) or through the appetitive power being drawn out toward the beloved."
+    },
+    {
+      "q": "According to Article 5, when does love wound the lover?",
+      "options": [
+        "Love always wounds the lover regardless of its object",
+        "When the appetite is adapted to a good that is not suitable to the lover (as with love of sin), whereas love of a truly suitable good (as love of God) perfects and betters him",
+        "Love never has any negative effect on the lover under any circumstance",
+        "Only love of friendship, never love of concupiscence, can wound"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that adaptation to something unsuitable hurts and worsens a thing, so while love of a suitable good (like God) perfects the lover, love of an unsuitable good (like sin) wounds him."
+    }
+  ],
+  "P2Q29": [
+    {
+      "q": "According to Article 2, which passion does Aquinas say is the cause of hatred?",
+      "options": [
+        "Hatred arises spontaneously with no prior cause",
+        "Love, since we must first recognize what agrees with us before recognizing what disagrees, and nothing is hated except as contrary to some suitable thing that is loved",
+        "Fear alone causes all hatred",
+        "Hatred and love arise completely independently of one another"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues love (agreement with a suitable thing) must be considered prior to hatred (disagreement), since something is hated only as being contrary to something loved—so every hatred is caused by some love."
+    },
+    {
+      "q": "According to Article 4, can a man, properly speaking, hate himself?",
+      "options": [
+        "Yes, self-hatred is common and psychologically normal",
+        "No, properly speaking, because everything naturally desires good for itself, and to love oneself is simply to will good to oneself, which occurs of necessity",
+        "Yes, but only among the wicked",
+        "Self-hatred and self-love are simply identical states"
+      ],
+      "correct": 1,
+      "explanation": "Since to love someone means to will good to them, and everything naturally wills good to itself, Aquinas concludes it is, properly speaking, impossible for a man to hate himself."
+    },
+    {
+      "q": "According to Article 3, can hatred be stronger than love?",
+      "options": [
+        "Yes, hatred is always the more powerful passion",
+        "No, absolutely speaking, since an effect cannot be stronger than its cause, and every hatred arises from some love as its cause",
+        "Hatred and love are always exactly equal in strength",
+        "The comparison is meaningless since hatred and love are unrelated"
+      ],
+      "correct": 1,
+      "explanation": "Since hatred is caused by love, and an effect cannot exceed its cause in strength, Aquinas concludes hatred cannot be stronger than love, absolutely speaking."
+    }
+  ],
+  "P2Q30": [
+    {
+      "q": "According to Article 1, to which appetite does concupiscence, properly speaking, belong?",
+      "options": [
+        "The intellectual appetite (will) exclusively",
+        "The sensitive appetite, specifically the concupiscible faculty, since concupiscence is a craving for pleasure belonging to the composite of soul and body",
+        "Concupiscence belongs to no appetite at all, being purely bodily reflex",
+        "It belongs equally and identically to both intellectual and sensitive appetite"
+      ],
+      "correct": 1,
+      "explanation": "Since concupiscence craves the pleasure of the united soul and body (sensible pleasure), Aquinas concludes it properly belongs to the sensitive appetite's concupiscible faculty."
+    },
+    {
+      "q": "According to Article 3, how does Aquinas distinguish natural from non-natural concupiscence?",
+      "options": [
+        "Natural concupiscence craves what is suitable to the animal's nature (like food or drink); non-natural concupiscence (\"cupidity\") arises from something apprehended as good and suitable, not from bodily need itself",
+        "There is no real distinction; all concupiscence is identical in kind",
+        "Natural concupiscence pertains only to plants, non-natural only to animals",
+        "Non-natural concupiscence refers to concupiscence experienced only in dreams"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas distinguishes concupiscence for things naturally suited to the animal (food, drink) from concupiscence for things merely apprehended as suitable and pleasurable, which he calls \"not natural\" and more properly \"cupidity.\""
+    },
+    {
+      "q": "According to Article 4, can natural concupiscence be actually infinite?",
+      "options": [
+        "Yes, natural concupiscence has no limits whatsoever",
+        "No, natural concupiscence cannot be actually infinite because it is for what nature requires, which is always something finite and fixed, though it can recur successively",
+        "Yes, because nature itself is infinite",
+        "Natural concupiscence is infinite only in animals, never in humans"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues natural concupiscence tends to a fixed, finite measure required by nature (e.g., a finite amount of food), though it can arise again and again successively as bodily goods are used up."
+    }
+  ],
+  "P2Q31": [
+    {
+      "q": "According to Article 4, in which appetite is joy found, as distinct from bodily delight?",
+      "options": [
+        "Only in the sensitive appetite",
+        "In the intellectual appetite (the will), since when reason apprehends something, the will can also be moved, and delight following on such rational apprehension is called joy",
+        "Joy and bodily delight are simply identical terms for the same thing",
+        "In no appetite at all; joy is purely intellectual with no appetitive component"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes delight following the reason's apprehension (called joy, found in the will) from mere bodily delight of the sensitive appetite."
+    },
+    {
+      "q": "According to Article 5, are bodily and sensible pleasures greater than spiritual and intellectual pleasures?",
+      "options": [
+        "Yes, always, since bodily pleasures are more immediate",
+        "No; Aquinas argues that the operations of the sensitive and intellectual soul are themselves goods known by sense and intellect, from which pleasure also arises, not merely from external objects, implying spiritual pleasures can surpass bodily ones",
+        "Bodily and spiritual pleasures cannot be compared at all",
+        "Pleasure is entirely illusory in both cases"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas notes that the soul's own operations (understanding, willing) are themselves goods that generate pleasure beyond mere bodily objects, laying groundwork for holding intellectual pleasures superior."
+    },
+    {
+      "q": "According to Article 3, how does Aquinas distinguish delight from joy?",
+      "options": [
+        "They are entirely identical terms with no distinction",
+        "Delight is broader, including both natural/bodily delights and rational delights, but \"joy\" specifically refers to delight that follows reason, which is why irrational animals are said to have delight but not joy",
+        "Joy refers only to bodily delight, while delight refers only to spiritual pleasure",
+        "Delight is experienced only by animals, joy only by humans"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains some delights are natural (of the body) and some are rational (following reason); joy specifically denotes delight that follows reason, so irrational animals have delight but not joy."
+    }
+  ],
+  "P2Q32": [
+    {
+      "q": "According to Article 1, what is the proper cause of pleasure?",
+      "options": [
+        "External wealth alone",
+        "Operation, since pleasure requires both attainment of a suitable good and knowledge of that attainment, and each of these is itself achieved through an operation",
+        "Sleep and physical rest exclusively",
+        "Nothing; pleasure has no identifiable cause"
+      ],
+      "correct": 1,
+      "explanation": "Since pleasure requires attaining a suitable good (achieved by operation) and knowing that attainment (itself an operation), Aquinas concludes every pleasure results from some operation."
+    },
+    {
+      "q": "According to Article 3, which is greater: the pleasure of sensation (a thing actually present), of hope, or of memory?",
+      "options": [
+        "The pleasure of memory is greatest, since the past cannot be lost",
+        "They are all exactly equal in every case",
+        "Sensation's pleasure is greatest because it involves actual real conjunction with the object; hope is second because it involves potential conjunction; memory is third, involving only conjunction of apprehension",
+        "Hope is always greatest because anticipation exceeds actual enjoyment"
+      ],
+      "correct": 2,
+      "explanation": "Aquinas ranks pleasures by the degree of conjunction with the good: sensation (actual, real conjunction) is greatest, followed by hope (potential real conjunction), then memory (mere apprehension)."
+    },
+    {
+      "q": "According to Article 4, can sadness ever be a cause of pleasure?",
+      "options": [
+        "No, sadness and pleasure are entirely unrelated and mutually exclusive",
+        "Yes, both in itself (bringing to mind something loved) and in memory (recalling deliverance from past sorrow, which is pleasant because absence of evil seems good)",
+        "Sadness can cause pleasure only in mentally disturbed individuals",
+        "Sadness is identical to pleasure, just under a different name"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains sadness can cause pleasure by recalling something loved (even if its absence saddens), and remembered sadness can please us through the pleasure of having been delivered from it."
+    }
+  ],
+  "P2Q33": [
+    {
+      "q": "According to Article 1, what does Aquinas mean by \"expansion\" as an effect of pleasure?",
+      "options": [
+        "A literal physical growth of bodily organs",
+        "A metaphorical dimension describing how pleasure, through apprehension of a perfection attained and the appetite's resting in and embracing the pleasurable object, is said to \"expand\" the mind and affections",
+        "An economic term describing increased wealth",
+        "A term used only for describing joy in animals, not humans"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that \"breadth\"/expansion, properly a bodily dimension, is applied metaphorically to pleasure: the mind is \"expanded\" by perceiving a spiritual perfection, and the affections \"expand\" by resting in and embracing the pleasurable object."
+    },
+    {
+      "q": "According to Article 4, in what two ways does pleasure perfect operation?",
+      "options": [
+        "Only by making the operation more difficult",
+        "As an end (a further good added to the operation, like the repose of appetite in a presupposed good) and as an (indirect) agent, since taking pleasure in an action makes one more eagerly and carefully intent on it",
+        "Pleasure never perfects operation; it always hinders it",
+        "Only by lengthening the duration of the operation"
+      ],
+      "correct": 1,
+      "explanation": "Following Aristotle, Aquinas explains pleasure perfects operation as an added end (a further good completing it) and indirectly as an agent, by making one more attentive and eager in the operation performed with pleasure."
+    },
+    {
+      "q": "According to Article 3, does pleasure always hinder the use of reason?",
+      "options": [
+        "Yes, in every instance without exception",
+        "No; \"appropriate\" pleasures taken in the very act of reason (such as contemplating or reasoning) actually help the act of reason, since we attend more carefully to what pleases us",
+        "Pleasure and reason are entirely unrelated to one another",
+        "Pleasure always destroys reason permanently once experienced"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, citing Aristotle, distinguishes appropriate pleasures (taken in reason's own act, which increase attentiveness and thus help reason) from pleasures from other sources, which can impede activity."
+    }
+  ],
+  "P2Q34": [
+    {
+      "q": "According to Article 1, what mistake does Aquinas attribute to those (like some Stoics) who held that all pleasure is evil?",
+      "options": [
+        "They correctly analyzed all forms of pleasure but drew the wrong conclusion",
+        "They considered only sensible and bodily pleasures, not discriminating between the intelligible and the sensible, and their own inconsistent practice (taking pleasure while teaching against it) undermined their teaching",
+        "They had never experienced any pleasure themselves",
+        "They confused pleasure with pain entirely"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues these thinkers failed to distinguish intelligible/spiritual pleasure from sensible/bodily pleasure, and notes that since no one can live entirely without bodily pleasure, their example undercut their own teaching."
+    },
+    {
+      "q": "According to Article 2, what error does Aquinas attribute to the Epicureans, who held all pleasures are good?",
+      "options": [
+        "They correctly identified that all pleasure is good simply, with no qualification needed",
+        "They failed to distinguish between what is good simply (in itself) and what is merely good relative to a particular individual's (sometimes unnatural) disposition",
+        "They denied that pleasure exists at all",
+        "They held that only intellectual pleasures are good, contrary to what Aquinas says they actually held"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains the Epicureans erred by not distinguishing pleasure that is good simply (resting in a truly good object) from pleasure that is merely good relative to an individual's disordered disposition (like a leper enjoying poison)."
+    },
+    {
+      "q": "According to Article 4, what does Aquinas say is the relationship between pleasure and moral judgment of a person's character?",
+      "options": [
+        "Pleasure has no bearing whatsoever on moral character",
+        "Since moral goodness or evil depends chiefly on the will, and the will's repose in good is pleasure, a man is judged good or evil chiefly according to what gives him pleasure—the virtuous man delights in virtuous works, the evil man in evil works",
+        "Only external actions matter for moral judgment, never internal pleasure",
+        "Pleasure is always morally neutral and irrelevant to virtue"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas connects moral character to pleasure because the will's goodness is discerned chiefly from the end in which it rests (its pleasure); thus a man's character is revealed by what he takes pleasure in."
+    }
+  ],
+  "P2Q35": [
+    {
+      "q": "According to Article 1, to what power do pleasure and pain belong?",
+      "options": [
+        "The intellect alone",
+        "The appetite, since both pleasure and pain require conjunction with something under the aspect of good or evil, and good and evil, as such, are objects of the appetite",
+        "The five external senses exclusively, with no appetitive component",
+        "Neither power; pain and pleasure are purely physiological with no psychological aspect"
+      ],
+      "correct": 1,
+      "explanation": "Just as pleasure requires conjunction with a good and its perception, pain requires conjunction with an evil and its perception; since good and evil as such are the appetite's objects, both pleasure and pain belong to the appetite."
+    },
+    {
+      "q": "According to Article 6, does Aquinas say sorrow is to be shunned more eagerly than pleasure is to be sought, or vice versa?",
+      "options": [
+        "Sorrow is shunned more eagerly than pleasure is sought, because avoiding evil is naturally the primary motive",
+        "Desire for pleasure is naturally more eager than the shunning of sorrow, since a suitable good can be entirely unmixed while an evil is never entirely unsuitable, and good is sought for its own sake while evil is avoided only as a privation",
+        "They are always exactly equal in eagerness",
+        "Neither pleasure nor sorrow generates any natural eagerness"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues pleasure can be complete and unmixed (a wholly suitable good), while sorrow is always partial (since no evil is wholly unsuitable), and since good is sought for itself while evil is shunned only derivatively, pursuit of pleasure is naturally more eager than avoidance of sorrow."
+    },
+    {
+      "q": "According to Article 2, what distinguishes \"sorrow\" from mere \"pain\" in Aquinas's terminology?",
+      "options": [
+        "There is no distinction; the terms are used completely interchangeably in every instance",
+        "Sorrow is pain caused specifically by an interior apprehension (of intellect or imagination), while pain caused by exterior sensation alone is called pain but not sorrow, so sorrow is a species of pain",
+        "Sorrow refers only to physical injuries, pain only to emotional distress",
+        "Sorrow is always more intense than any form of pain"
+      ],
+      "correct": 1,
+      "explanation": "Since interior apprehension extends to more objects than exterior sense apprehension, Aquinas holds that only pain arising from an interior apprehension is properly called sorrow, making sorrow a species of the broader genus pain."
+    }
+  ],
+  "P2Q36": [
+    {
+      "q": "According to Article 1, what does sorrow chiefly regard: the presence of evil or the loss of good?",
+      "options": [
+        "Sorrow can regard either the present evil or the good that is lost, depending on which the appetite's movement chiefly concerns, since even a privation, as apprehended, is regarded as a positive 'contrary'",
+        "Sorrow can never regard the loss of a good, only the presence of evil",
+        "Sorrow can never regard a present evil, only the loss of a good",
+        "There is no meaningful distinction to be made here at all"
+      ],
+      "correct": 0,
+      "explanation": "Aquinas notes that although evil is really just privation of good, as apprehended by the mind it takes on the character of a positive contrary, so which aspect the movement of sorrow chiefly regards (loss of good or presence of evil) makes a real difference."
+    },
+    {
+      "q": "According to Article 3, does Aquinas connect craving for unity with a cause of sorrow?",
+      "options": [
+        "No, unity and sorrow are entirely unrelated concepts for Aquinas",
+        "Yes; since the good of a thing consists in a certain unity, everything naturally desires unity as it desires goodness, so just as love/desire for good causes sorrow (when frustrated), so does craving for unity",
+        "Unity is only relevant to metaphysics, never to the passions",
+        "Craving for unity is said to be a cause only of pleasure, never of sorrow"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas links the desire for unity to the desire for good (since a thing's good consists in the unity of its perfecting elements), concluding that craving for unity, like craving for good, can be a cause of sorrow when unfulfilled."
+    },
+    {
+      "q": "According to Article 4, why does Aquinas say an irresistible power is a cause of sorrow?",
+      "options": [
+        "Because being united with a present evil is contrary to the appetite's inclination, and whatever is contrary to a thing's inclination happens to it only through the action of something stronger",
+        "Because irresistible power always causes pleasure instead of sorrow",
+        "Because power, whether resistible or not, never has any bearing on sorrow",
+        "Because irresistible power belongs only to God and thus cannot cause any passion in creatures"
+      ],
+      "correct": 0,
+      "explanation": "Since union with present evil runs contrary to the appetite's natural inclination, and a thing's inclination is only overridden by something more powerful, Aquinas reasons that a superior, irresistible power is what causes the evil to become present, and hence causes sorrow."
+    }
+  ],
+  "P2Q37": [
+    {
+      "q": "According to Article 1, why does pain or sorrow hinder learning?",
+      "options": [
+        "Because all the powers of the soul are rooted in one essence, so when the soul's intention is strongly drawn to one action (dwelling on the painful matter), it is withdrawn from other actions requiring attention, such as learning",
+        "Pain has no effect whatsoever on learning or any mental activity",
+        "Because pain physically damages the brain in every instance",
+        "Because learning requires no attention or intention at all"
+      ],
+      "correct": 0,
+      "explanation": "Since the soul, being one, has only one intention at a time, if sorrow draws the soul's intention strongly to itself, less remains available for activities like learning that require considerable attention."
+    },
+    {
+      "q": "According to Article 4, why does Aquinas judge sorrow to be more harmful to the body than other passions?",
+      "options": [
+        "Sorrow is not actually more harmful than any other passion",
+        "Because sorrow is repugnant to the vital movement of the body specifically in kind (hindering its natural progress), not merely in degree, unlike other passions which may exceed a measure but not oppose the movement's very nature",
+        "Because sorrow always causes immediate physical death",
+        "Because sorrow is the only passion that has any bodily effect at all"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that life consists in a certain natural bodily movement; other passions might exceed the due measure of this movement, but sorrow specifically hinders its very progress, making it repugnant to life in kind, not just degree."
+    },
+    {
+      "q": "According to Article 2, how does sorrow \"burden\" the soul, according to the metaphor Aquinas develops?",
+      "options": [
+        "Sorrow has no metaphorical description in Aquinas's text",
+        "Just as fervor is ascribed to love and expansion to pleasure, depression/burdening is ascribed to sorrow because the soul is hindered by a present evil from enjoying what it wishes, similar to being weighed down",
+        "Sorrow is described as making the soul lighter and more free",
+        "The metaphor of burdening applies only to physical labor, not to sorrow"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains that the soul's passions are named metaphorically from bodily likenesses; sorrow, hindering the will's movement toward what it craves, is likened to being weighed down or depressed by a burden."
+    }
+  ],
+  "P2Q38": [
+    {
+      "q": "According to Article 1, does every pleasure assuage sorrow?",
+      "options": [
+        "No pleasure can ever affect sorrow in any way",
+        "Yes; since pleasure is a kind of repose of the appetite in a suitable good, and sorrow is a kind of weariness or ailing of the appetite, every pleasure brings relief to sorrow just as bodily repose relieves weariness from any cause",
+        "Only pleasures of exactly the same kind as the cause of sorrow can assuage it",
+        "Pleasure always increases sorrow rather than relieving it"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas compares pleasure (repose of appetite) to bodily repose relieving weariness, concluding that any pleasure, regardless of its specific source, can bring some relief to any sorrow."
+    },
+    {
+      "q": "According to Article 3, why does the sympathy of friends assuage sorrow, according to the two reasons Aquinas gives (via Aristotle)?",
+      "options": [
+        "Friends can magically remove the cause of sorrow instantly",
+        "First, seeing others share the burden of one's sorrow makes it feel lighter (like sharing a physical load); second, seeing that one is loved by friends who condole gives pleasure, and pleasure assuages sorrow",
+        "Friends have no real effect on a person's sorrow at all",
+        "Sympathy from friends only works if the friends themselves are not sorrowful"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas cites Aristotle's twofold explanation: friends sharing our sorrow lessens its felt weight like shared physical burden, and their expressed love gives us pleasure, which in turn assuages sorrow."
+    },
+    {
+      "q": "According to Article 4, does the contemplation of truth assuage pain or sorrow?",
+      "options": [
+        "No, contemplation of truth is entirely unrelated to emotional states",
+        "Yes, especially, since the greatest of all pleasures consists in the contemplation of truth, and every pleasure assuages sorrow—illustrated by martyrs who found joy amid physical torment through contemplating divine things",
+        "Contemplation of truth only increases sorrow by making one more aware of evils",
+        "Only contemplation of purely secular truths has this effect, not divine truths"
+      ],
+      "correct": 1,
+      "explanation": "Since the greatest pleasure is found in contemplating truth, and every pleasure assuages sorrow, Aquinas concludes contemplation of truth (especially divine truth) is a powerful remedy for sorrow, illustrated by the example of martyrs."
+    }
+  ],
+  "P2Q39": [
+    {
+      "q": "According to Article 1, is all sorrow evil?",
+      "options": [
+        "Sorrow is always and only evil, with no qualification whatsoever",
+        "Considered simply in itself, sorrow is an evil (an uneasy appetite hindering repose in good); but on the supposition of a present evil, it is a sign of goodness that one is properly saddened by it, since failing to be saddened would itself be evil",
+        "Sorrow is always good and never evil in any sense",
+        "Sorrow has no moral quality of any kind, being purely physiological"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas distinguishes sorrow considered absolutely (an evil, since it is an uneasiness of appetite) from sorrow considered relative to a present evil (a sign of goodness, since not grieving at a real evil would itself indicate a defect)."
+    },
+    {
+      "q": "According to Article 2, can sorrow be a virtuous good?",
+      "options": [
+        "No, sorrow can never be connected with virtue in any way",
+        "Yes; insofar as sorrow denotes right perception of evil (often through right judgment of reason) and rejection of that evil (an act of a well-disposed will), which are the two elements underlying every virtuous good",
+        "Sorrow is a virtue only for the Stoics, not for Aquinas",
+        "Sorrow is always identical with despair, which cannot be virtuous"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas argues that perceiving evil correctly and rejecting it through a well-disposed will—the components of interior sorrow—are the same rectitude of reason and will that underlie every virtuous good, so sorrow can be a virtuous good."
+    },
+    {
+      "q": "According to Article 4, is bodily pain the greatest evil a man can suffer?",
+      "options": [
+        "Yes, bodily pain is unequivocally the worst evil possible",
+        "No; sorrow or pain for something truly evil is not the greatest evil, since it would be worse not to recognize or reject that evil; and sorrow for an apparent (but really good) evil is not the greatest evil either, since total separation from a true good would be worse",
+        "Bodily pain and spiritual pain are always exactly equal in gravity",
+        "Pain cannot be evaluated morally at all, according to Aquinas"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas reasons that whether sorrow concerns a truly evil thing or merely an apparent evil, something worse than the sorrow itself is always conceivable (failing to reject real evil, or being separated from a true good), so no sorrow or pain can be the greatest evil."
+    }
+  ],
+  "P2Q40": [
+    {
+      "q": "According to Article 1, how does hope differ from mere desire or cupidity?",
+      "options": [
+        "Hope and desire are entirely identical with no distinction",
+        "Hope's object must be good, future, arduous/difficult to obtain, and possible to attain, whereas desire regards the future good absolutely, without requiring difficulty—hope belongs to the irascible faculty, desire to the concupiscible",
+        "Desire requires difficulty, but hope does not",
+        "Hope concerns only past goods, unlike desire which concerns future goods"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas identifies four conditions of hope's object: good, future, arduous, and possible; the arduous condition especially distinguishes hope (irascible) from desire/cupidity (concupiscible), which regards future good without requiring difficulty."
+    },
+    {
+      "q": "According to Article 6, why, according to Aquinas, do young men and drunkards tend to be full of hope?",
+      "options": [
+        "Because they have more life experience of failure than others",
+        "Because of three reasons tied to hope's object being future, arduous, and possible: youths live much in the future with little past to remember, their heat of nature expands the heart toward the arduous, and inexperience of obstacles makes things seem more possible—drunkards share the causes of heat/high spirits and heedlessness of danger",
+        "Because young people and drunkards are inherently more virtuous",
+        "Because hope is caused exclusively by wealth, which the young typically possess"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas, following Aristotle, connects the three conditions of hope's object (future, arduous, possible) to youth's orientation toward the future, natural heat expanding the heart, and inexperience of obstacles—two of which (heat/spirits and heedlessness) also apply to drunkards."
+    },
+    {
+      "q": "According to Article 8, is hope a help or a hindrance to action?",
+      "options": [
+        "Hope always hinders action by making one complacent",
+        "Hope is a help to action, both because contemplating something as difficult arouses attention while its possibility does not discourage effort, and because hope causes pleasure, which itself aids action",
+        "Hope has no effect whatsoever on action",
+        "Hope helps only intellectual actions, never physical ones"
+      ],
+      "correct": 1,
+      "explanation": "Aquinas explains hope intensifies action both by its object (arduous yet possible, which focuses attention without deterring effort) and by its effect (causing pleasure, which aids action)."
+    }
+  ]
+}

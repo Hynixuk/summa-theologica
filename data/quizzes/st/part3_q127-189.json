@@ -1,0 +1,1059 @@
+{
+ "P3Q127": [
+  {
+   "q": "According to Aquinas, when is daring (audacia) sinful?",
+   "options": [
+    "Whenever a person acts before consulting a superior",
+    "When it exceeds the moderation of reason, i.e. when it denotes excess of the passion",
+    "Whenever it is directed against an armed enemy",
+    "Whenever it arises from hope rather than fear"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that a passion is moderated by reason or lacks moderation by excess or defect; daring is called sinful precisely when the name is used to mean excessive daring, just as anger meaning excessive anger is sinful."
+  },
+  {
+   "q": "Why does Aquinas conclude that daring, as a vice, is opposed to fortitude rather than to justice or humility?",
+   "options": [
+    "Because daring always causes physical harm to others, which is unjust",
+    "Because opposition between a vice and a virtue depends on the vice's own species (excess in the very matter fortitude governs), not on its cause or effects",
+    "Because daring is condemned only in Scripture, not by philosophers",
+    "Because fortitude has no vice of deficiency, so daring must belong to it by default"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that opposition of vice to virtue follows the vice's species, not its cause (e.g., presumption) or its effects (e.g., harm done); since daring is excess in the very passions (fear and daring) that fortitude moderates, it is directly opposed to fortitude."
+  },
+  {
+   "q": "In Aquinas's reply to the objection about presumption, why isn't daring opposed to humility even though presumption of mind often causes it?",
+   "options": [
+    "Because presumption and daring are actually the same vice",
+    "Because the direct opposition of a vice to a virtue is not determined by the vice's cause, and presumption is merely daring's cause, not its essence",
+    "Because humility only concerns physical dangers",
+    "Because Scripture never mentions humility in this context"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explicitly states that opposition between vice and virtue does not depend chiefly on the cause of the vice but on the vice's very species, so daring need not be opposed to the same virtue (humility) as its cause (presumption)."
+  }
+ ],
+ "P3Q128": [
+  {
+   "q": "Why does Aquinas say fortitude as a special virtue has no subjective parts?",
+   "options": [
+    "Because fortitude is not a virtue at all",
+    "Because it is not divided into several specifically distinct virtues, being about a very special (narrow) matter",
+    "Because subjective parts belong only to theological virtues",
+    "Because fortitude is identical with courage in every respect"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that fortitude, taken as a special virtue, concerns a very specific matter (fear and daring regarding danger of death), so it cannot be divided into several distinct subjective species as a genus is divided into species."
+  },
+  {
+   "q": "What kind of 'parts' does Aquinas primarily use to organize virtues like magnanimity, magnificence, patience, and perseverance in relation to fortitude?",
+   "options": [
+    "Subjective parts only",
+    "Integral and potential parts, where secondary virtues are annexed to fortitude as accessory to a principal virtue",
+    "No parts at all; they are wholly unrelated to fortitude",
+    "They are only quantitative divisions of one virtue"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas uses the framework of integral and potential parts, treating virtues such as magnanimity and patience as annexed to fortitude as secondary virtues sharing something of its mode without being subjective species of it."
+  },
+  {
+   "q": "According to Aquinas's general schema (referenced from earlier discussion), what are the three kinds of parts a virtue can have?",
+   "options": [
+    "Formal, material, and efficient parts",
+    "Subjective, integral, and potential parts",
+    "Natural, supernatural, and moral parts",
+    "Interior, exterior, and mixed parts"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas's standard threefold division, applied here to fortitude, distinguishes subjective parts (species of a genus), integral parts (elements required for a complete act), and potential parts (virtues annexed as secondary to a principal virtue)."
+  }
+ ],
+ "P3Q129": [
+  {
+   "q": "According to Aquinas, why is magnanimity chiefly about honor rather than about wealth or other external goods?",
+   "options": [
+    "Because honor is the least valuable external good and thus easiest to master",
+    "Because honor takes precedence over other external goods, and magnanimity concerns doing something great, which is recognized chiefly through honor",
+    "Because Aristotle never discusses wealth",
+    "Because magnanimity is primarily an internal, not external, virtue and honor is the only external good mentioned in Scripture"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas notes that among external human goods honor takes precedence of all others, and since magnanimity is about stretching the mind to great things and being recognized for the best use of the greatest things, it is essentially concerned with honor."
+  },
+  {
+   "q": "Why does Aquinas hold that magnanimity is a genuine virtue rather than a form of pride?",
+   "options": [
+    "Because it always downplays a person's real accomplishments",
+    "Because it safeguards the good of reason with respect to great honors, observing the rational mean in the matter of honor",
+    "Because ancient philosophers never criticized it",
+    "Because it is identical to humility"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that the essence of human virtue is safeguarding the good of reason, and since honors take precedence among external goods, magnanimity — which keeps honor within the mode of reason — is a genuine virtue, not mere pride."
+  },
+  {
+   "q": "Why does Aquinas classify magnanimity as a part of fortitude rather than an entirely separate cardinal virtue?",
+   "options": [
+    "Because both concern physical strength",
+    "Because a principal virtue establishes firmness of mind in a difficult matter, and magnanimity, like fortitude, requires firmness in something arduous (great honors)",
+    "Because Aristotle simply grouped them alphabetically",
+    "Because magnanimity and fortitude have identical objects"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that virtues requiring firmness of mind in difficult matters are akin to fortitude, whose proper business is standing firm amid danger; magnanimity requires similar firmness regarding great honors, so it is reckoned a potential part of fortitude."
+  }
+ ],
+ "P3Q130": [
+  {
+   "q": "On what basis does Aquinas argue that presumption is sinful?",
+   "options": [
+    "Because it always leads to physical injury",
+    "Because it is contrary to the natural order in which every agent's action is proportioned to its own power, so attempting what exceeds one's power is vicious",
+    "Because it is condemned only by ecclesiastical law, not natural reason",
+    "Because presumption is identical to hope, which is always a sin"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that nature establishes that every action is commensurate with an agent's power; presumption, by definition, is assuming to do what is beyond one's power, and thus it contradicts this natural order and is sinful."
+  },
+  {
+   "q": "How does presumption relate to magnanimity according to Aquinas?",
+   "options": [
+    "Presumption is unrelated to magnanimity and instead opposes temperance",
+    "Presumption is opposed to magnanimity by excess, since the magnanimous man observes a mean proportioned to his own ability while the presumptuous man exceeds it",
+    "Presumption is a species of magnanimity, not a vice",
+    "Presumption is a deficiency of magnanimity, like pusillanimity"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that magnanimity observes a mean proportionate to one's own ability, and the 'vain' or presumptuous man exceeds this proportion, making presumption the vice of excess opposed to magnanimity."
+  }
+ ],
+ "P3Q131": [
+  {
+   "q": "Why does Aquinas say the desire for honor becomes sinful ambition?",
+   "options": [
+    "Because desiring any honor at all is always sinful",
+    "Because honor is due principally to God as the source of one's excellence, and inordinate desire for honor for its own sake, disregarding this order, becomes sinful",
+    "Because honor should be given only to clergy",
+    "Because ambition is simply another word for magnanimity with no distinct meaning"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas notes that honor witnesses to excellence that ultimately comes from God, and honor should be desired only insofar as it helps one profit others; inordinate love of honor disregarding this proper order constitutes the sin of ambition."
+  },
+  {
+   "q": "How is ambition related to magnanimity in Aquinas's analysis?",
+   "options": [
+    "Ambition is a deficiency of magnanimity",
+    "Ambition is opposed to magnanimity as excess, being an inordinate (disordered) love of honor beyond the well-ordered use magnanimity makes of it",
+    "Ambition and magnanimity are entirely unrelated virtues/vices",
+    "Ambition is simply a synonym for magnanimity"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas states that ambition signifies inordinate love of honor, while magnanimity uses honor in a becoming, well-ordered manner; thus ambition stands opposed to magnanimity as the inordinate to the well-ordered, i.e., an excess."
+  }
+ ],
+ "P3Q132": [
+  {
+   "q": "How does Aquinas define 'glory' in his treatment of vainglory?",
+   "options": [
+    "Glory is simply wealth publicly displayed",
+    "Glory denotes the display of something as seeming comely in the sight of many, i.e., a person's good being known and approved by many",
+    "Glory is a synonym for eternal happiness in heaven",
+    "Glory refers only to military victory"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that glory (from clarity) properly denotes the manifest display of some good, bodily or spiritual, such that it becomes known and approved by many people."
+  },
+  {
+   "q": "Under what conditions does Aquinas say vainglory becomes a mortal sin?",
+   "options": [
+    "It is always only a venial sin and can never be mortal",
+    "When it is contrary to charity — e.g., glorying in something false against reverence for God, preferring a temporal good to God, or preferring human praise to God's approval",
+    "Only when it involves stealing from another person",
+    "Only when practiced by clergy, never by laypeople"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas holds that vainglory becomes mortal when it opposes charity toward God — such as boasting in something false as if divine, preferring the glorying good to God, or preferring human esteem to God's glory."
+  },
+  {
+   "q": "Why does Aquinas, following Gregory, classify vainglory as a capital vice even though pride is called the 'queen' of all vices?",
+   "options": [
+    "Because vainglory and pride are the same vice under different names",
+    "Because glory (manifestation of one's excellence) is a good so strongly desired that many other vices spring from the inordinate desire for it, giving it a special generative role like other capital vices",
+    "Because vainglory is worse than pride",
+    "Because only vainglory, not pride, appears in Scripture"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that while pride is the general root of all vice, vainglory specifically concerns the manifestation of excellence — something intensely desired — and its inordinate pursuit spawns numerous 'daughter' vices, qualifying it as a capital vice in its own right."
+  }
+ ],
+ "P3Q133": [
+  {
+   "q": "How does Aquinas parallel pusillanimity with presumption in Article 1?",
+   "options": [
+    "They are unrelated; presumption is a sin but pusillanimity is not",
+    "Just as presumption makes one exceed what is proportionate to one's power, pusillanimity makes one fall short of what is proportionate to one's power, both being contrary to the natural inclination to act according to one's ability",
+    "Pusillanimity is simply a form of laziness unrelated to power or ability",
+    "Presumption is a virtue while pusillanimity is its corresponding vice"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas draws a direct parallel: presumption oversteps one's proportionate power while pusillanimity falls short of it, and since every nature is inclined to act according to its power, both violate this natural inclination and are sinful."
+  },
+  {
+   "q": "What scriptural example does Aquinas use to illustrate the sin of pusillanimity?",
+   "options": [
+    "The parable of the Good Samaritan",
+    "The servant who buried his master's money in the earth out of fainthearted fear and was punished for it",
+    "The story of David and Goliath",
+    "The parable of the prodigal son"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas cites the parable (Matthew 25; Luke 19) of the servant who buried the money entrusted to him rather than trading with it, out of timid fear, and was punished by his master — illustrating the sinfulness of shrinking from one's due potential."
+  },
+  {
+   "q": "Why is pusillanimity said to be directly opposed to magnanimity rather than merely its accidental cause or effect?",
+   "options": [
+    "Because opposition of vice to virtue follows chiefly the vice's own species, and pusillanimity by its very nature (littleness of soul shrinking from great things) is the direct contrary of magnanimity's greatness of soul",
+    "Because pusillanimity is a physical illness, not a moral vice",
+    "Because Aristotle never discussed pusillanimity",
+    "Because magnanimity and pusillanimity share the same object only accidentally"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas states that in itself pusillanimity is opposed to magnanimity as littleness to greatness of soul regarding the same subject; even considering cause and effect, opposition of vice to virtue depends on their respective species, confirming this direct opposition."
+  }
+ ],
+ "P3Q134": [
+  {
+   "q": "Why does Aquinas consider magnificence a virtue?",
+   "options": [
+    "Because it involves any spending of money whatsoever",
+    "Because virtue is spoken of in relation to the extreme limit of a thing's power in the direction of excess, and doing something great (which magnificence names) fits this very notion of virtue",
+    "Because magnificence is identical to liberality",
+    "Because it is required for salvation"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons from Aristotle's De Coelo that virtue relates to a power's upper limit of excellence; since magnificence denotes doing something great, this fits precisely with the notion of virtue as tending toward the extreme of excellence."
+  },
+  {
+   "q": "According to Aquinas, what distinguishes magnificence from liberality as its proper matter?",
+   "options": [
+    "Magnificence concerns only spiritual gifts, liberality only material ones",
+    "Magnificence concerns great expenditure needed to produce a great work, whereas liberality concerns money transactions generally, not necessarily on a grand scale",
+    "They have identical matter and differ only in name",
+    "Magnificence concerns receiving gifts, liberality concerns giving them"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas, citing Aristotle, notes that magnificence does not extend to all money transactions like liberality does, but specifically to great expenditures required to accomplish some great work in a fitting manner."
+  },
+  {
+   "q": "Why is magnificence classified as a part of fortitude despite not sharing fortitude's matter (danger of death)?",
+   "options": [
+    "Because it is annexed to fortitude as a secondary virtue, sharing fortitude's general mode of firmness in something difficult, even though it is not a subjective species of fortitude",
+    "Because magnificence and fortitude have exactly the same matter",
+    "Because Aquinas made an error that later scholastics corrected",
+    "Because magnificence is really just another name for fortitude"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas explains that magnificence cannot be a subjective part of fortitude since its matter (expenditure toward great works) differs, but it is reckoned a potential part, annexed to fortitude as secondary to principal, following Cicero and others."
+  }
+ ],
+ "P3Q135": [
+  {
+   "q": "How does Aquinas characterize the vice of meanness (parvificentia)?",
+   "options": [
+    "Intending to spend generously even on unimportant projects",
+    "Intending principally to spend as little as possible, even at the cost of failing to produce a work proportionate to what was fitting, thus violating the reason-based proportion between expenditure and work",
+    "Refusing to ever give money to charity",
+    "Spending exactly what is proportionate to the work at hand"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that the mean man's principal intent is to spend the least possible, even sacrificing the goodness of the work for the sake of saving a trifle, thereby failing the rational proportion between expenditure and the work performed."
+  },
+  {
+   "q": "What is the vice opposed to meanness on the side of excess, according to Aquinas?",
+   "options": [
+    "Magnificence itself, since it too involves great expense",
+    "There is no opposite vice; meanness has no contrary",
+    "A vice of excessive, wasteful expenditure (called banausia or 'consumptio' in Latin) which spends more than a work is worth",
+    "Pusillanimity, which is a deficiency, not an excess"
+   ],
+   "correct": 2,
+   "explanation": "Aquinas identifies a vice of excess opposed to meanness, called in Greek banausia (or apyrokalia), translated as 'consumptio' or waste, in which a person spends disproportionately more than the work warrants, like a consuming fire."
+  }
+ ],
+ "P3Q136": [
+  {
+   "q": "Why does Aquinas hold that patience is necessary as a virtue?",
+   "options": [
+    "Because sorrow is a passion powerful enough to hinder the good of reason, so a virtue is needed to keep reason firm against sorrow without abandoning the good one pursues",
+    "Because patience is needed only for physical illness",
+    "Because patience replaces the need for fortitude entirely",
+    "Because sorrow is not really a passion but merely a bodily state"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas argues that sorrow strongly hinders the good of reason, citing Scripture that sorrow 'worketh death'; patience is the virtue that safeguards reason against being overcome by sorrow, bearing evil 'with an equal mind.'"
+  },
+  {
+   "q": "Does Aquinas conclude that patience is the greatest of all the virtues?",
+   "options": [
+    "Yes, patience surpasses even faith, hope, and charity",
+    "No — virtues that positively establish good (like the theological virtues, prudence, and justice) and virtues that check greater obstacles (fortitude against death, temperance against pleasure) surpass patience, which checks lesser hardships",
+    "Yes, because Gregory and Augustine list it among the four principal virtues",
+    "No, because patience is not actually a virtue at all"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that virtues are greater the more directly and effectively they incline to good; since patience only checks hardship (a lesser obstacle than death or pleasure), it ranks below the theological virtues, prudence, justice, fortitude, and temperance."
+  },
+  {
+   "q": "According to Aquinas, what is the ultimate source that makes true patience possible?",
+   "options": [
+    "Patience is entirely a natural virtue achievable without grace",
+    "Patience as a virtue is caused by charity, since one endures evils patiently only because one loves and prefers some greater good (ultimately God) more than what is lost",
+    "Patience results from Stoic indifference to good and evil alike",
+    "Patience comes solely from fear of punishment"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that one endures pain only for the sake of a greater good desired; the willingness to prefer the good of grace to all natural goods, even amid suffering, is rooted in charity, which loves God above all things — hence patience as a virtue is caused by charity."
+  }
+ ],
+ "P3Q137": [
+  {
+   "q": "Why does Aquinas hold that perseverance requires its own special virtue distinct from other virtues about the same acts?",
+   "options": [
+    "Because virtuous deeds can involve difficulty not only from the act's species but also from the length of time one must persist in it, and long persistence in something difficult until completion constitutes a special kind of difficulty",
+    "Because perseverance is only about avoiding physical pain",
+    "Because ancient authors invented the term without philosophical grounding",
+    "Because perseverance concerns only religious vows"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas reasons that virtue concerns the difficult and the good, and difficulty can arise either from an act's own nature or from the length of time required to persist in it; persisting long in a good work until its completion is thus the province of a special virtue, perseverance."
+  },
+  {
+   "q": "Why is perseverance classified as a secondary part of fortitude rather than an equally principal virtue?",
+   "options": [
+    "Because fortitude and perseverance have no real relationship",
+    "Because the difficulty of enduring delay in a good work, while real, is not as difficult as enduring dangers of death, which fortitude, as the principal virtue of firmness, governs",
+    "Because perseverance is actually greater than fortitude",
+    "Because perseverance concerns only spiritual, not moral, matters"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that fortitude is principal because it maintains firmness amid the hardest thing to endure, danger of death; perseverance's difficulty (enduring delay) is less extreme, so it is annexed to fortitude as a secondary virtue."
+  },
+  {
+   "q": "How does Aquinas distinguish perseverance from constancy?",
+   "options": [
+    "They are identical with no real distinction",
+    "Perseverance deals with difficulty arising from the continuance of the act itself, while constancy deals with difficulty from external hindrances; perseverance takes precedence as more intrinsic to the act of virtue",
+    "Constancy is a theological virtue while perseverance is a natural one",
+    "Perseverance concerns only fasting while constancy concerns only chastity"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes the two: perseverance makes one persist against the difficulty of the act's own duration, whereas constancy resists external obstacles; since internal difficulty from continuance is more intrinsic to virtue, perseverance ranks ahead of constancy."
+  }
+ ],
+ "P3Q138": [
+  {
+   "q": "How does Aquinas define effeminacy as a vice opposed to perseverance?",
+   "options": [
+    "Being unable to lift heavy objects",
+    "Readily abandoning a good on account of difficulties one cannot bear, 'yielding' like something soft to a slight touch, especially through sorrow arising from lack of pleasure",
+    "Being too generous with money",
+    "Excessive physical strength used improperly"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas compares effeminacy to softness that yields even to a light touch; the effeminate man abandons a good too readily under difficulty, particularly succumbing to sorrow caused by the privation of pleasure, rather than enduring like the persevering man."
+  },
+  {
+   "q": "How does pertinacity differ from proper perseverance according to Aquinas?",
+   "options": [
+    "Pertinacity and perseverance are exactly the same virtue",
+    "Pertinacity exceeds the mean by clinging obstinately to one's own opinion or purpose beyond what reason warrants, while perseverance observes the mean and effeminacy falls short of it",
+    "Pertinacity is a virtue superior to perseverance",
+    "Pertinacity refers only to fasting practices"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that perseverance holds the rational mean, effeminacy falls short of it by giving up too soon, and pertinacity exceeds it by stubbornly holding to one's position ('head-strong' or 'self-opinionated') longer than reason dictates."
+  }
+ ],
+ "P3Q139": [
+  {
+   "q": "How does the gift of fortitude differ from the virtue of fortitude in Aquinas's account?",
+   "options": [
+    "They are entirely unrelated and share only a name",
+    "Fortitude as a gift shares the same name and general function (firmness of mind) as the virtue, but the gift denotes a movement from the Holy Spirit assisting reason beyond its connatural mode",
+    "The gift of fortitude concerns only bodily strength, while the virtue concerns moral strength",
+    "There is no gift of fortitude in Aquinas's system"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas treats the gift of fortitude as sharing the virtue's basic character of firmness of mind in doing good and enduring evil, but as a gift of the Holy Ghost it moves and perfects reason under a higher, divine instinct beyond its ordinary human mode, per Isaiah 11:2."
+  },
+  {
+   "q": "Which beatitude does Aquinas, following Augustine, correspond to the gift of fortitude?",
+   "options": [
+    "Blessed are the poor in spirit",
+    "Blessed are they that hunger and thirst after justice",
+    "Blessed are the peacemakers",
+    "Blessed are the merciful"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas follows Augustine in matching the fourth beatitude, concerning hunger and thirst for justice, to the gift of fortitude, since pursuing true goods and avoiding love of earthly things requires the toil and firmness that fortitude supplies."
+  }
+ ],
+ "P3Q140": [
+  {
+   "q": "Why does Aquinas hold that the Divine Law fittingly contains precepts of fortitude?",
+   "options": [
+    "Because fortitude has nothing to do with religion",
+    "Because the end of Divine Law is that man adhere to God, and precepts of fortitude (like others) direct the mind toward that end, as illustrated by Deuteronomy's command not to fear enemies since God fights for His people",
+    "Because ancient Israel had no army and needed encouragement",
+    "Because fortitude precepts apply only to priests"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that precepts of law are framed according to the lawgiver's end; since Divine Law aims at man's adherence to God, it fittingly includes precepts of fortitude (and other virtues) directing the mind toward God, as in Deuteronomy 20:3-4."
+  },
+  {
+   "q": "Why does Aquinas say Divine Law includes precepts not only about fortitude itself but also about its annexed/secondary virtues?",
+   "options": [
+    "Because secondary virtues are unimportant and included only for completeness",
+    "Because right living requires not just the principal virtues but also the secondary and annexed virtues, so Divine Law, which perfectly instructs man in what is necessary for right living, addresses both",
+    "Because the annexed virtues are actually more important than fortitude itself",
+    "Because Aquinas believed Scripture must mention every virtue by name"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that since man needs the secondary and annexed virtues (like patience, perseverance, magnanimity) in addition to principal virtues to live rightly, Divine Law, which perfectly instructs on all necessities of right living, includes precepts touching these as well."
+  }
+ ],
+ "P3Q141": [
+  {
+   "q": "Why does Aquinas identify temperance as a virtue?",
+   "options": [
+    "Because it eliminates all bodily pleasure entirely",
+    "Because virtue inclines man to what is in accordance with reason, and temperance's very name implies the moderation reason causes",
+    "Because it was invented by the Stoics and later canonized by the Church",
+    "Because it deals exclusively with fasting"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that human virtue inclines man to act according to reason, and since temperance denotes moderation or temperateness that reason produces, it qualifies as a virtue by this very definition."
+  },
+  {
+   "q": "According to Aquinas, why is temperance specifically about pleasures of touch (food, drink, sex) rather than pleasures of sight or hearing?",
+   "options": [
+    "Because touch is the least important sense and thus easiest to regulate",
+    "Because temperance, like fortitude regarding the greatest fears, must address the greatest pleasures, and the pleasures tied to self-preservation (food/drink) and species-preservation (sex) — which come through touch — are the greatest and most natural",
+    "Because Aristotle disliked visual and auditory pleasures on principle",
+    "Because the Bible only discusses touch-related sins"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas parallels temperance with fortitude: just as fortitude concerns the gravest fears (death), temperance concerns the greatest pleasures, which arise from the most natural operations preserving the individual (food/drink) and species (sex) — pleasures mediated by touch."
+  },
+  {
+   "q": "Why does Aquinas conclude that temperance, while a cardinal virtue, is not the greatest of the virtues?",
+   "options": [
+    "Because temperance is not really a virtue at all",
+    "Because virtues regarding the common good of many (justice, fortitude) are more excellent than temperance, which only moderates pleasures affecting oneself, and prudence and the theological virtues surpass it further still",
+    "Because temperance was added to the list of cardinal virtues later than the others",
+    "Because Aquinas believed pleasure itself is evil"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that virtues benefiting the many are greater than those benefiting the individual alone; since justice and fortitude serve the common good more than temperance (which governs only one's own desires), they rank higher, with prudence and the theological virtues higher still."
+  }
+ ],
+ "P3Q142": [
+  {
+   "q": "Why does Aquinas consider insensibility (excessive rejection of pleasure) to be a vice rather than a virtue of extreme self-denial?",
+   "options": [
+    "Because nature has ordered pleasure into operations necessary for life, so rejecting pleasure to the point of omitting things necessary for self-preservation goes against the natural order and is therefore sinful",
+    "Because pleasure is always intrinsically good regardless of moderation",
+    "Because Aquinas believed asceticism was heretical",
+    "Because insensibility is physically impossible for humans"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas argues that since nature attached pleasure to operations necessary for individual and species preservation, refusing such pleasure to the point of neglecting these necessities violates the natural order, making insensibility a vice opposed to temperance."
+  },
+  {
+   "q": "In what sense does Aquinas call intemperance a 'childish' sin?",
+   "options": [
+    "Because only children commit it",
+    "Because concupiscence resembles a child in three ways: both desire what is disgraceful without heeding reason, both grow stronger/more headstrong if indulged, and both are corrected by the same remedy of restraint",
+    "Because it is a minor, trivial sin unworthy of serious concern",
+    "Because Aristotle used the term to mock young philosophers"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that intemperate concupiscence is likened to a child in three respects: desiring shameful things without heeding reason, growing stronger and more unruly when indulged (as an unchecked child becomes headstrong), and requiring the same remedy of restraint/correction."
+  },
+  {
+   "q": "Why does Aquinas argue that intemperance is more disgraceful ('the most disgraceful of sins' in a specific sense) than other vices?",
+   "options": [
+    "Because it harms other people directly and visibly",
+    "Because it is most repugnant to human excellence (sharing pleasures common to beasts) and most repugnant to man's rational 'clarity' or beauty, since these pleasures dim the light of reason from which virtue's beauty arises",
+    "Because it is punished most severely by civil law",
+    "Because it was the first sin committed by Adam and Eve"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas gives two reasons: intemperance concerns pleasures shared with animals, contrary to human excellence, and its pleasures dim the light of reason, from which the beauty/clarity of virtue arises, making it 'most disgraceful' in these particular respects."
+  }
+ ],
+ "P3Q143": [
+  {
+   "q": "According to Aquinas, what are the two integral parts of temperance and what does each safeguard?",
+   "options": [
+    "Fasting and abstinence, both concerning food only",
+    "Shamefacedness (recoiling from the disgrace opposed to temperance) and honesty (loving the beauty of temperance), since temperance especially claims comeliness and its opposite vices excel in disgrace",
+    "Chastity and virginity, both concerning sexual purity only",
+    "Sobriety and continence, both concerning drink only"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas identifies shamefacedness and honesty as the integral parts of temperance: shamefacedness makes one recoil from the disgrace attached to intemperance, and honesty makes one love the beauty proper to temperance, since temperance uniquely lays claim to comeliness."
+  }
+ ],
+ "P3Q144": [
+  {
+   "q": "Why does Aquinas argue that shamefacedness, strictly speaking, is not itself a virtue?",
+   "options": [
+    "Because it is not good at all",
+    "Because virtue in the strict sense is a perfection, and shamefacedness is fear of a base action, which implies an imperfection — a virtuous man does not apprehend disgraceful action as something possible or difficult to avoid for himself",
+    "Because only theologians can possess virtue",
+    "Because shamefacedness applies only to children, who cannot possess virtue"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that strict virtue is a perfection, but shamefacedness (fear of disgrace) presupposes a susceptibility to disgraceful action that a perfectly virtuous person, who neither does base things nor fears doing them, would not have; hence it falls short of true virtue, agreeing with Aristotle."
+  },
+  {
+   "q": "According to Aquinas, why are people more ashamed before those closely connected to them (e.g., family) than before strangers?",
+   "options": [
+    "Because family members are legally entitled to judge us",
+    "Because their attestation carries more weight, both due to greater rectitude of judgment in some cases and, more relevantly, their greater knowledge of our actual deeds, since 'everyone judges well of what is known to him'",
+    "Because strangers are incapable of feeling shame themselves",
+    "Because closely connected persons are always morally superior"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that a person's attestation carries more weight when they know the matter well; since those close to us are better acquainted with our deeds, their judgment causes us more shame than that of strangers who are ignorant of what we do."
+  }
+ ],
+ "P3Q145": [
+  {
+   "q": "How does Aquinas relate honesty (honestas) to virtue?",
+   "options": [
+    "Honesty is entirely unrelated to virtue and concerns only legal contracts",
+    "Honesty properly refers to the same thing as virtue, since honesty means an honorable state worthy of honor, and honor is due chiefly to excellence, which is gauged according to virtue",
+    "Honesty is a purely bodily quality with no moral content",
+    "Honesty is opposed to virtue as its contrary"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that honesty denotes an honorable state worthy of honor, and since honor is due to excellence, which is measured chiefly by virtue, honesty properly refers to the same reality as virtue itself."
+  },
+  {
+   "q": "How does Aquinas explain the relationship between the 'honest' (honestum) and the 'beautiful'?",
+   "options": [
+    "They are completely unrelated concepts",
+    "Honesty is spiritual beauty: just as bodily beauty involves well-proportioned limbs with clarity of color, honesty involves conduct well-proportioned according to the spiritual clarity of reason, which virtue supplies",
+    "Beauty concerns only physical appearance and has no analogue in moral life",
+    "The honest is always identical with what is merely pleasant to the senses"
+   ],
+   "correct": 1,
+   "explanation": "Drawing on Dionysius, Aquinas explains that beauty results from clarity and due proportion; just as bodily beauty is proportion plus color's clarity, honesty is 'spiritual beauty' — conduct proportioned according to reason's clarity, which is what virtue produces."
+  }
+ ],
+ "P3Q146": [
+  {
+   "q": "In what sense does Aquinas say abstinence is a virtue?",
+   "options": [
+    "Any retrenchment of food whatsoever is automatically virtuous",
+    "Abstinence is virtuous only when regulated by reason — i.e., retrenching food with due regard for the company one keeps, one's own person, and health requirements, not mere reduction of food as such",
+    "Abstinence is never a virtue, only a bodily discipline",
+    "Abstinence is a virtue only for monks, not for laypeople"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes abstinence taken absolutely (mere reduction of food, morally indifferent) from abstinence regulated by reason, which is a virtuous habit or act — matching Peter's counsel to join abstinence 'with knowledge.'"
+  },
+  {
+   "q": "Why does Aquinas classify abstinence as a special virtue rather than folding it into temperance generally?",
+   "options": [
+    "Because pleasures of the table pose a specific and significant threat to the good of reason, both due to their intensity and because food is necessary for the life man desires above all else, warranting a dedicated virtue",
+    "Because abstinence has nothing to do with pleasure at all",
+    "Because eating is not really connected to any passion",
+    "Because Church law required a separate virtue category for canonical reasons"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas argues that wherever a passion has a special way of departing from reason's good, a special virtue is needed; since table pleasures are especially strong and tied to the necessity of food for life, abstinence emerges as a special virtue rather than being subsumed generally."
+  }
+ ],
+ "P3Q147": [
+  {
+   "q": "What threefold purpose does Aquinas give for fasting?",
+   "options": [
+    "To save money, to please superiors, and to appear pious to others",
+    "To bridle the lusts of the flesh, to free the mind for contemplation of heavenly things, and to make satisfaction for sin",
+    "To lose weight, to improve health, and to follow tradition",
+    "To punish the body for being inherently evil"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas gives a threefold purpose for fasting: it curbs fleshly lust (citing 2 Corinthians on fasting and chastity), frees the mind to rise to contemplation (as with Daniel), and serves to make satisfaction for sins (citing Joel 2:12)."
+  },
+  {
+   "q": "Why, according to Aquinas, did the Church forbid meat, eggs, and milk products specifically during fasts?",
+   "options": [
+    "Because these foods were considered ritually unclean in all circumstances",
+    "Because these foods, coming from animals most like humans in body, give the greatest pleasure and nourishment, producing a surplus of seminal matter that becomes a great incentive to lust — precisely what fasting aims to curb",
+    "Because these foods were too expensive for ordinary people to obtain",
+    "Because early Christians believed these foods contained demons"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that fasting aims to bridle fleshly concupiscence connected with food and sex; meat, eggs, and milk, coming from animals bodily similar to humans, give the greatest pleasure and nourishment, generating surplus seminal matter that incites lust, hence their prohibition during fasts."
+  }
+ ],
+ "P3Q148": [
+  {
+   "q": "Under what conditions does Aquinas say gluttony becomes a mortal, rather than venial, sin?",
+   "options": [
+    "Gluttony is always only a venial sin, never mortal",
+    "When a person adheres to the pleasure of eating as an end in itself, to the point of being willing to disobey God's commandments for the sake of that pleasure — turning away from man's final end, not merely disordering the means to it",
+    "Gluttony is always a mortal sin regardless of circumstances",
+    "Only when the food eaten was stolen"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes concupiscence that merely disorders the means to the end (venial) from concupiscence that makes the pleasure itself one's end, to the point of contemning God and disobeying His commandments for it — this constitutes mortal sin."
+  },
+  {
+   "q": "Why does Aquinas conclude gluttony is not the gravest of sins, despite Gregory listing it among the capital vices?",
+   "options": [
+    "Because gluttony does not actually exist as a real sin",
+    "Because judged by its matter (bodily nourishment, not divine things) it is not the greatest, and judged by the sinner's culpability it is actually diminished by the necessity of eating and the difficulty of exact moderation — though it does have some gravity from the sins it occasions",
+    "Because Aquinas believed all sins are equally grave",
+    "Because gluttony only affects animals, not humans"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas measures sin's gravity by matter, by the sinner's culpability, and by resulting effects; gluttony concerns bodily nourishment (not the gravest matter), involves necessity and difficulty of moderation (reducing culpability), yet still has some gravity due to sins it occasions."
+  }
+ ],
+ "P3Q149": [
+  {
+   "q": "Why does Aquinas hold that sobriety is specifically about the drinking of intoxicants rather than food or drink in general?",
+   "options": [
+    "Because a virtue named from a common condition (like 'measure') claims as its special matter that in which observing the measure is hardest and most praiseworthy, and intoxicating drink is precisely such matter since immoderate use gravely hinders reason",
+    "Because Aquinas disliked wine personally",
+    "Because intoxicants were rare and expensive in his time",
+    "Because sobriety technically applies to all human behavior equally with no special focus"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas reasons that a virtue named for a general condition (measure) specially claims the matter where observing that measure is most difficult and praiseworthy; since intoxicating drink most seriously threatens reason when used immoderately, sobriety is specially concerned with it."
+  },
+  {
+   "q": "According to Aquinas, why is sobriety especially required of the young, women, the old, clergy, and rulers, though for different reasons?",
+   "options": [
+    "Because these groups are legally forbidden from all alcohol consumption",
+    "Because the young and women are more prone to concupiscence needing restraint, while the old, clergy, and rulers especially need unimpaired reason for the important duties (teaching, spiritual ministry, governance) proper to them",
+    "Because Aquinas believed only these groups drink alcohol",
+    "Because Church law applied different rules to each group arbitrarily"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas gives two reasons virtues are specially needed in certain persons: proneness to the relevant vice (concupiscence in the young and women) and the special necessity of the virtue for one's proper duties (unimpaired reason in elders, clergy, and rulers who instruct, minister, or govern)."
+  }
+ ],
+ "P3Q150": [
+  {
+   "q": "According to Aquinas, when is drunkenness not a sin at all?",
+   "options": [
+    "Drunkenness is always a sin under every circumstance",
+    "When it results from ignorance of the drink's strength without negligence on the drinker's part (as he believed occurred with Noah), or refers merely to the resulting defect itself rather than a voluntary act",
+    "Whenever a person drinks in the company of friends",
+    "Only if the person is a member of the clergy"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes drunkenness as a penal defect (not sinful in itself) from the voluntary act causing it; if one is drunk unknowingly through no negligence (as with wine unexpectedly strong, citing Noah), there is no sin."
+  },
+  {
+   "q": "Why does Aquinas classify deliberate drunkenness (knowingly choosing intoxication over sobriety) as a mortal sin?",
+   "options": [
+    "Because alcohol itself is intrinsically evil",
+    "Because a person who knowingly and willingly deprives himself of the use of reason — through which he performs virtuous deeds and avoids sin — voluntarily runs the risk of falling into sin, per Ambrose's warning that drunkenness makes us commit unknowingly what we would avoid sober",
+    "Because Church law imposes automatic excommunication for any alcohol use",
+    "Because it wastes money that could be given to the poor"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that when someone knowingly prefers drunkenness to sobriety despite recognizing the drink's intoxicating strength, he willfully deprives himself of reason (his safeguard against sin), thus voluntarily risking mortal sin, as Ambrose warns."
+  }
+ ],
+ "P3Q151": [
+  {
+   "q": "Why does Aquinas hold that chastity, taken metaphorically, can be called a 'general' virtue?",
+   "options": [
+    "Because every virtue, without exception, is merely a form of sexual restraint",
+    "Because just as chastity properly withdraws the mind from unlawful bodily union, metaphorically every virtue withdraws the human mind from delighting in union with unlawful things, though this general chastity's essence lies chiefly in charity and the other theological virtues",
+    "Because Aquinas denies that chastity has any special, proper meaning at all",
+    "Because the Church requires all virtues to be classified under chastity for canonical purposes"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that in its proper sense chastity is a special virtue about venereal pleasure, but metaphorically, since every virtue withdraws the mind from delighting in what is unlawful (analogous to spiritual union with God versus 'spiritual fornication'), chastity can be called general, though this general sense is rooted chiefly in charity and the theological virtues."
+  },
+  {
+   "q": "Why does Aquinas distinguish chastity from abstinence as two distinct virtues under temperance?",
+   "options": [
+    "Because pleasures are proportionate to the actions they perfect, and actions preserving the individual (eating) differ generically from actions preserving the species (sexual union), so chastity (about venereal pleasure) and abstinence (about pleasures of the palate) are distinct virtues",
+    "Because chastity concerns money and abstinence concerns food",
+    "Because abstinence is a theological virtue while chastity is a cardinal virtue",
+    "Because they are not actually distinct; Aquinas treats them as synonyms"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas reasons that pleasures correspond to the actions they perfect, and since food-related actions (individual preservation) differ generically from venereal actions (species preservation), the virtues concerned with their respective pleasures — abstinence and chastity — are likewise generically distinct."
+  }
+ ],
+ "P3Q152": [
+  {
+   "q": "Why does Aquinas argue that virginity is not sinful, contrary to those who claimed abstaining from marriage was against nature?",
+   "options": [
+    "Because right reason permits refraining from a lesser good (bodily/external goods, including marriage) for the sake of a greater good, and virginity is embraced precisely to have leisure for contemplation of divine things, which is a higher good than the active, bodily goods of marriage",
+    "Because Aquinas believed marriage itself was inherently sinful",
+    "Because virginity was legally mandated by Church law for all Christians",
+    "Because bodily goods have no value whatsoever and should always be rejected"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas argues that right reason allows refraining from a lower good (external/bodily goods including marital and procreative goods) for a higher one; virginity is praiseworthy because it is undertaken so one may have greater leisure for contemplating divine things, per 1 Corinthians 7:34."
+  },
+  {
+   "q": "According to Aquinas, is virginity simply the greatest of all virtues?",
+   "options": [
+    "Yes, virginity surpasses every other virtue and state without qualification",
+    "No — virginity is most excellent within its own genus (chastity), but simply speaking the theological virtues and the virtue of religion (occupied with divine things directly) are preferable, and martyrdom and the monastic renunciation of will and possessions are also considered to work more mightily toward union with God",
+    "Yes, because Aquinas rejects any comparison between virginity and martyrdom",
+    "No, virginity is not a virtue at all, only a biological state"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes 'most excellent in a genus' from 'most excellent simply': virginity tops the genus of chastity, but the theological virtues and religion, being directly occupied with God, and even martyrdom and monastic renunciation, are said to be preferable to virginity taken simply."
+  }
+ ],
+ "P3Q153": [
+  {
+   "q": "How does Aquinas defend the claim that venereal acts are not sinful in themselves?",
+   "options": [
+    "Because all bodily pleasures are automatically good regardless of use",
+    "Because just as the preservation of an individual's life (a true good) justifies the use of food, so the preservation of the human species (also a true good) justifies venereal acts, provided they are used in due manner and order fitting to that end, as Augustine says food is to individual well-being what intercourse is to the human race's welfare",
+    "Because venereal acts were commanded directly by Mosaic Law for everyone",
+    "Because only married priests may lawfully engage in such acts"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas parallels food (ordered to individual preservation) with venereal acts (ordered to preservation of the species): both are legitimate goods when reason directs their use in due manner and order toward their proper end, following Augustine's comparison in De Bono Conjugali."
+  },
+  {
+   "q": "Why does Aquinas classify lust as a capital vice?",
+   "options": [
+    "Because it always leads directly to murder",
+    "Because its end, venereal pleasure, is extremely desirable to the sensitive appetite both due to its intensity and because such concupiscence is connatural to man, making it a principal source from which many other sins spring",
+    "Because Gregory arbitrarily added it to a list without reasoning",
+    "Because lust is identical to pride in Aquinas's system"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that a capital vice has a highly desirable end that spawns other sins; since venereal pleasure is intensely desirable to the sensitive appetite both from its intensity and its connaturality to man, lust qualifies as a capital vice, as Gregory lists it."
+  }
+ ],
+ "P3Q154": [
+  {
+   "q": "Why does Aquinas argue that simple fornication (between two unmarried, unrelated persons) is a mortal sin, against those who called it merely 'venial'?",
+   "options": [
+    "Because it violates a purely arbitrary Church rule with no natural basis",
+    "Because it implies an inordinateness that injures the good of the offspring to be born, since human child-rearing requires a determinate, lasting union of father and mother (unlike animals whose young need only the mother), so nature itself demands committed, determinate unions, and sin directly against human life (including future life) is mortal",
+    "Because Aquinas considered all pleasure inherently sinful",
+    "Because fornication was punishable by death under Roman law"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues from natural design: since human offspring need sustained paternal as well as maternal care (unlike many animals), nature demands a determinate, lasting union between man and woman; fornication violates this good owed to potential offspring, and since it is a sin against the good of human life, it is mortal."
+  },
+  {
+   "q": "According to Aquinas, why is nocturnal pollution (during sleep) generally not imputed as a sin?",
+   "options": [
+    "Because sin depends on the judgment of reason, and during sleep reason lacks free judgment (the sleeper cannot distinguish imagined from real events), so an act occurring without reason's judgment is not imputed as sin, just as with a madman's actions",
+    "Because the body is evil and not truly part of the person",
+    "Because it never actually happens to virtuous people",
+    "Because Church law explicitly exempts all bodily functions from sin"
+   ],
+   "correct": 0,
+   "explanation": "Aquinas reasons that sin requires the judgment of reason; since during sleep reason cannot exercise free judgment (dreamers cannot distinguish imagination from reality), what happens involuntarily during sleep is not imputed as sin, comparable to the actions of the insane."
+  },
+  {
+   "q": "Why does Aquinas judge the 'unnatural vice' to be the gravest species within the sin of lust?",
+   "options": [
+    "Because it harms the greatest number of people",
+    "Because in every genus the worst corruption is of the very principle on which the rest depend, and since reason presupposes what is determined by nature before ordering further conduct, acting against nature's own determination regarding venereal acts is the gravest transgression in this matter, worse even than incest",
+    "Because it is explicitly named in more scriptural passages than other sins",
+    "Because it always involves violence, unlike other forms of lust"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that corrupting the very principles upon which further order depends is the worst kind of corruption in any genus; since nature itself determines the proper use of venereal acts prior to reason's further ordering, transgressing this natural determination (the unnatural vice) is the gravest sin of lust, worse than incest."
+  }
+ ],
+ "P3Q155": [
+  {
+   "q": "Why does Aquinas say continence (in the sense of resisting vehement desires) is 'not a virtue but a mixture,' per Aristotle?",
+   "options": [
+    "Because continence is entirely evil and has nothing praiseworthy about it",
+    "Because it has something of virtue (reason stands firm against passion) but falls short of the perfect nature of moral virtue, in which even the sensitive appetite itself, not just reason, would be conformed to reason so that vehement contrary passions would not even arise",
+    "Because it is a purely theological virtue rather than a moral one",
+    "Because Aristotle believed continence was superior to all other virtues"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that continence, unlike full moral virtue, involves reason remaining firm against passions that still arise vehemently in the sensitive appetite; true virtue would have tamed the appetite itself, so continence is a 'mixture' — partly virtuous, partly falling short."
+  },
+  {
+   "q": "In which power of the soul does Aquinas locate continence, and why?",
+   "options": [
+    "In the concupiscible appetite, since that is where desires arise",
+    "In the will, since the continent and incontinent person have the same disposition of concupiscible appetite and reason, but differ in their choice — the continent person chooses, by reason, not to follow vehement desires, and choice is an act of will",
+    "In the intellect alone, since continence is purely a matter of correct belief",
+    "In the sense of touch, since that is where physical temptation originates"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that since both the continent and incontinent share the same disposition in the concupiscible appetite (both experience vehement desires) and in reason (both know what is right), their real difference is in choice — whether they follow reason or the desire — making the will, whose act is choice, the proper subject of continence."
+  },
+  {
+   "q": "Why does Aquinas conclude that temperance is 'far greater' than continence (in the sense of resisting desires), even though continence taken as total abstinence surpasses temperance?",
+   "options": [
+    "Because continence in this sense is worthless and provides no benefit at all",
+    "Because the good of reason flourishes more fully in the temperate person, whose sensitive appetite itself is tamed and obedient to reason, whereas in the continent person the sensitive appetite still strongly resists reason with evil desires — so continence is imperfect compared to temperance",
+    "Because temperance requires a vow while continence does not",
+    "Because Aquinas believed continence was invented by the Stoics and is therefore suspect"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that a virtue's praise comes from conformity to reason; in the temperate person even the sensitive appetite is tamed and obedient to reason, while in the merely continent person the appetite still resists strongly — so continence, though praiseworthy, is compared to temperance as the imperfect to the perfect."
+  }
+ ],
+ "P3Q156": [
+  {
+   "q": "According to Aquinas, is the cause of incontinence located in the body or the soul?",
+   "options": [
+    "Entirely in the body, since bodily disposition alone determines incontinence",
+    "Chiefly in the soul: bodily disposition is only an occasional cause allowing vehement passions to arise, but incontinence properly results from the soul's failure to resist those passions by reason, either by yielding to passion before reason counsels ('impetuosity') or by not holding firmly to reason's judgment ('weakness')",
+    "Entirely in external circumstances beyond a person's control",
+    "In neither soul nor body, but in demonic influence alone"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues bodily disposition merely occasions vehement passions, but as long as reason's use remains, one can resist; the direct cause of incontinence is the soul's failure to resist passion by reason, occurring either as impetuous yielding before counsel or as weakness in holding to a right judgment already made."
+  },
+  {
+   "q": "Why does Aquinas say incontinence regarding pleasures of touch is a sin in two distinct ways, according to Aristotle?",
+   "options": [
+    "It is a sin only because it is illegal under civil law",
+    "It is censurable both because it 'strays from reason' (is simply wrong) and because it 'follows evil desires' (is wicked, plunging into shameful pleasures) — a double censure not present in incontinence about things like honor or riches, which are good in themselves",
+    "Because it involves two separate acts of will performed simultaneously",
+    "Because it always involves two people rather than one"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas cites Aristotle's twofold reason: incontinence regarding touch pleasures is condemned both for straying from reason's order (being 'wrong') and for indulging in inherently shameful desires (being 'wicked'), unlike incontinence regarding things good in themselves (like honor), which fails reason's mode without following evil desires as such."
+  }
+ ],
+ "P3Q157": [
+  {
+   "q": "How does Aquinas distinguish clemency from meekness even though both are virtues of restraint?",
+   "options": [
+    "They are entirely identical with no meaningful distinction",
+    "Clemency is specifically leniency of a superior toward an inferior in mitigating punishment, whereas meekness moderates anger between any persons regardless of rank, so they differ though both concur toward the same effect",
+    "Clemency concerns anger while meekness concerns punishment, the reverse of the correct pairing",
+    "Meekness applies only to rulers while clemency applies to ordinary citizens"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas notes, citing Seneca's definition, that clemency is specifically a superior's leniency toward an inferior in mitigating punishment, while meekness moderates anger generally between any two people; they concur toward similar effects but differ specifically."
+  },
+  {
+   "q": "Why does Aquinas deny that clemency and meekness are absolutely the greatest virtues, even though he affirms they are genuine virtues?",
+   "options": [
+    "Because they are not really virtues but only natural temperaments",
+    "Because they only withdraw a person from evil (excessive punishment or anger), and it is more perfect to be positively directed to good, so virtues like faith, hope, charity, prudence, and justice that direct one to good simply are absolutely greater",
+    "Because Seneca, a pagan, could not have identified true virtues",
+    "Because clemency and meekness require no reference to reason at all"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas argues that virtues which positively direct one to good are more perfect than those which merely withdraw one from evil; since clemency and meekness only mitigate excess (punishment, anger), they are lesser than virtues like the theological virtues, prudence, and justice which are positively ordered to good."
+  }
+ ],
+ "P3Q158": [
+  {
+   "q": "According to Aquinas, is anger always sinful?",
+   "options": [
+    "Yes, any anger whatsoever is always sinful without exception",
+    "No — unlike envy, whose very species denotes evil, anger (desire for revenge) can be desired well or ill; it is evil only when it exceeds or falls short of what right reason demands, but anger in accordance with right reason ('zealous anger') is praiseworthy",
+    "Yes, because it is a passion and all passions are inherently evil",
+    "No, anger is never sinful under any circumstances"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes anger from vices like envy, which are evil by their very species; anger as desire for revenge can be directed well or badly, so it is sinful only when it exceeds or falls short of the order of right reason, while anger in accord with reason is called 'zealous anger' and is praiseworthy."
+  },
+  {
+   "q": "How does Aquinas rank the gravity of anger compared to hatred and envy?",
+   "options": [
+    "Anger is the gravest of the three since it involves the most violent passion",
+    "Anger is generally less grievous than envy, and envy less grievous than hatred, because hatred desires evil absolutely as evil, envy desires another's evil for the sake of one's own glory, while the angry man desires another's evil under the aspect of just revenge (a good)",
+    "All three are exactly equal in gravity according to Aquinas",
+    "Hatred is least grievous because it is merely a passive emotion"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that it is worse to desire evil precisely as evil (hatred) than to desire it as a means to some other good like glory (envy) or as a good in itself like just revenge (anger); hence hatred is most grievous, then envy, then anger, in that order."
+  }
+ ],
+ "P3Q159": [
+  {
+   "q": "How does Aquinas distinguish cruelty from savagery/brutality even though both involve excessive harshness?",
+   "options": [
+    "They are identical concepts with different names",
+    "Savagery/brutality (bestiality) takes pleasure in a victim's torture without any regard to the person's fault, being a purely animalistic pleasure, whereas cruelty does consider the offender's fault but exceeds the proper mode or measure of punishment — thus cruelty is a human vice while savagery is likened to bestiality",
+    "Cruelty applies only to animals while savagery applies only to humans",
+    "Savagery is a virtue while cruelty is always a vice"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes brutality/savagery, which derives pleasure purely from another's suffering without regard to any offense (a bestial pleasure), from cruelty, which does consider the offender's default but exceeds the due mode of punishment — cruelty is thus 'human wickedness' while savagery approaches bestiality."
+  }
+ ],
+ "P3Q160": [
+  {
+   "q": "Why does Aquinas argue that a distinct virtue, modesty, is needed in addition to temperance?",
+   "options": [
+    "Because temperance is not actually a real virtue",
+    "Because whenever there is a special virtue for a matter of great moment (like temperance for touch-pleasures), there is also need for a virtue governing lesser matters where moderation is less difficult — just as magnificence for great expenditure requires liberality for ordinary expenditure",
+    "Because modesty and temperance have completely unrelated subject matter",
+    "Because the Church required a specific virtue named 'modesty' for legal reasons"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas draws an analogy to magnificence and liberality: just as a virtue governing a weighty matter (great expenditure, or in this case touch-pleasures) needs a complementary virtue for lesser matters of the same general kind, temperance's difficulty with touch-pleasures calls for modesty to moderate less difficult matters."
+  }
+ ],
+ "P3Q161": [
+  {
+   "q": "Why does Aquinas argue that humility must exist alongside magnanimity rather than replacing it?",
+   "options": [
+    "Because humility and magnanimity are actually identical virtues",
+    "Because the difficult good produces two appetitive movements — hope (impulse toward it) and despair (recoil from it) — requiring two virtues: humility to restrain the mind from immoderately seeking high things, and magnanimity to strengthen the mind against despair and urge pursuit of great things according to reason",
+    "Because magnanimity is a vice that humility must always correct",
+    "Because only one of them can be a genuine virtue, and Aquinas argues for humility over magnanimity"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that a difficult good evokes both hope (impulse) and despair (recoil), requiring complementary virtues: humility moderates and restrains excessive aspiration to high things, while magnanimity strengthens the mind against despair, urging pursuit of great things according to right reason."
+  },
+  {
+   "q": "According to Aquinas, does humility require a person to subject everything about themselves to every other person without qualification?",
+   "options": [
+    "Yes, a humble person must consider themselves inferior to everyone in every respect, without exception",
+    "No — a person should subject what is 'his own' (defects) to his neighbor's gifts from God, but he need not subject the gifts he has received from God to what merely 'appears' to be another's gift from God, nor treat every neighbor as having less sin than himself",
+    "Yes, because Scripture commands absolute self-abasement in every instance",
+    "No, because humility applies only to religious persons, not laypeople"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas carefully qualifies humble self-subjection: one should subject one's own defects to a neighbor's God-given goods, but need not subordinate one's actual God-given gifts to what merely seems to be another's gift, nor assume oneself the greatest sinner — citing Paul's example of ranking his own apostolic knowledge highly without violating humility."
+  },
+  {
+   "q": "In what sense does Aquinas argue humility ranks high among the virtues, even below the theological virtues, intellectual virtues, and justice?",
+   "options": [
+    "Humility ranks lowest of all virtues, being merely a minor moral adjustment",
+    "Humility makes a person a good subject to right ordinance in all matters generally, whereas other virtues (besides the theological virtues, intellectual virtues regarding reason itself, and especially legal justice) have this ordering effect only in some special matter, so humility stands before all other particular virtues",
+    "Humility and charity are declared by Aquinas to be exactly equal in rank",
+    "Humility is ranked above even the theological virtues"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that virtuous order chiefly concerns the end (giving primacy to the theological virtues) and secondarily the ordering of means, which belongs to reason (intellectual virtues) and to justice; since humility disposes a person to be well-ordered in all matters generally rather than one special matter, it ranks after these but ahead of other particular virtues."
+  }
+ ],
+ "P3Q162": [
+  {
+   "q": "How does Aquinas define pride at its root?",
+   "options": [
+    "Simply having a high opinion of one's talents in any respect",
+    "An inordinate desire of one's own excellence — wishing to appear or reach 'above' (supra) what one truly is, going against right reason's requirement that the will tend to what is proportionate to oneself",
+    "A physical posture of standing tall and confident",
+    "Refusing to accept help from other people"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains, following Isidore, that pride (superbia) means wishing to appear above what one really is; since right reason requires the will to tend toward what is proportionate to oneself, pride's overreaching is opposed to reason and thus sinful."
+  },
+  {
+   "q": "Why does Aquinas consider pride to be, in a sense, both a special sin and something like a general source of sin?",
+   "options": [
+    "Pride is purely a special sin with no broader influence at all",
+    "As a special sin it has its own proper object (inordinate desire of one's own excellence), but it also has a general influence over other sins since sins can be directed to pride's end (excellence) or committed because pride removes the obstacle of respect for Divine law",
+    "Pride is purely general and has no distinct species of its own",
+    "Aquinas denies that pride relates to any other sin whatsoever"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains pride has its own proper species (a special sin, desiring one's own excellence) but also exerts general influence since other sins can be directed toward pride's end, or arise because pride removes the restraining fear of divine law — hence Gregory calls it 'queen and mother' of vices rather than a mere capital vice."
+  },
+  {
+   "q": "Why does Aquinas conclude that pride is the most grievous sin 'by its genus,' even though on the 'conversion' side it is not the worst?",
+   "options": [
+    "Because pride harms the greatest number of other people directly",
+    "Because the formal element of sin is aversion from God, and while other sins turn from God through ignorance, weakness, or desire for some other good, pride alone consists essentially in refusing subjection to God simply because one is unwilling to be ruled by Him — an aversion belonging to pride by its very nature rather than incidentally",
+    "Because pride is explicitly named as unforgivable in Scripture",
+    "Because pride always involves violence against others"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes the material element of sin (conversion to some created good) from its formal element (aversion from God); other sins turn from God incidentally, through ignorance, weakness, or desire for some other good, but pride's very essence is refusal of subjection to God, making its aversion — and hence its gravity — greatest by nature, not merely by circumstance."
+  }
+ ],
+ "P3Q163": [
+  {
+   "q": "Why does Aquinas conclude that Adam's first sin was specifically pride rather than concupiscence of the flesh?",
+   "options": [
+    "Because Scripture explicitly uses the word 'pride' to describe the event",
+    "Because inordinateness must first appear in the appetite's movement toward its end before movement toward the means, and since in the state of innocence there was no rebellion of flesh against spirit, the first disorder could not be fleshly concupiscence but had to be an inordinate desire for a spiritual good beyond one's due measure — which is precisely pride",
+    "Because Eve, not Adam, committed the first sin, and hers was concupiscence",
+    "Because Aquinas believed sin always begins with an external act rather than an internal disposition"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that the first disorder occurs in the interior appetite's movement to its end before movement to means, and since in innocence the flesh did not rebel against the spirit, the first inordinate movement had to concern a spiritual good desired beyond one's proper measure — this is the very definition of pride."
+  },
+  {
+   "q": "According to Aquinas, was the sin of our first parents the most grievous sin ever committed, considering its species?",
+   "options": [
+    "Yes, absolutely the worst sin possible in every respect",
+    "No — while pride as a genus has a certain preeminence, the pride of denying or blaspheeming God is worse in species than the pride of inordinately coveting God's likeness (which was our first parents' sin), so their sin was not the gravest sin possible by species",
+    "Yes, because it was committed in paradise which made it automatically worse",
+    "No, their sin was actually only a venial sin"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas distinguishes gravity by species from gravity by circumstance; though pride generally has preeminence among sins, blasphemous denial of God is a graver species of pride than merely coveting God's likeness inordinately, which is what our first parents did — so theirs was not the gravest sin possible in species."
+  }
+ ],
+ "P3Q164": [
+  {
+   "q": "According to Aquinas, what is the underlying cause of death and bodily defects as punishment for original sin?",
+   "options": [
+    "Death is a purely natural biological process unrelated to sin",
+    "God had originally granted that as long as man's mind remained subject to God, his lower powers would be subject to reason and his body subject to his soul; when the mind withdrew from subjection to God through sin, the body lost this special subjection to the soul, resulting in death, sickness, and bodily defects",
+    "Death was directly and separately created by God as an arbitrary added punishment unrelated to the loss of any prior gift",
+    "Adam and Eve would have died even without sinning, so death is not really a punishment"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas explains that original justice included the gift that mind's subjection to God ensured the body's subjection to the soul (the source of bodily life and health); when sin broke the mind's subjection to God, this cascading order collapsed, and death and bodily defects followed as a natural consequence of the body no longer being fully subject to the soul."
+  },
+  {
+   "q": "What two-fold structure does Aquinas identify in the punishments given to our first parents?",
+   "options": [
+    "Only bodily punishments were given; the soul was left entirely unaffected",
+    "They were punished by being deprived of what befitted the state of integrity (expulsion from paradise, with obstacles set against return) and by having appointed to them things befitting their now-diminished nature (e.g., for the woman, sorrow in conception and childbirth, and subjection to her husband's authority)",
+    "They received identical punishments with no distinction between man and woman",
+    "The only punishment mentioned is physical labor for both equally"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas structures the punishment in two parts: privation of the goods proper to the state of integrity (paradise, with cherubim barring return) and the imposition of conditions fitting fallen nature, including for the woman specifically the sorrows of conception and childbirth and subjection to her husband, per Genesis 3:16."
+  }
+ ],
+ "P3Q165": [
+  {
+   "q": "Why does Aquinas argue it was fitting for God to allow man to be tempted by the devil in the state of innocence?",
+   "options": [
+    "Because temptation is inherently good and God wanted man to sin",
+    "Because it belongs to God's providence not to destroy but to maintain the nature of things, and it is a condition of human nature (as a creature among other creatures) that one creature can help or impede another — while a special grace ensured no creature could harm man against his own will",
+    "Because the devil forced God to allow the temptation against God's will",
+    "Because Adam requested to be tested by God"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas reasons that divine providence maintains rather than overrides the nature of things, and it belongs to created nature that creatures can help or hinder one another; hence it was fitting for man to face temptation from evil angels while being aided by good angels, protected by grace so nothing could harm him against his will."
+  },
+  {
+   "q": "Why does Aquinas find the specific order of the first temptation (through the serpent, then the woman, then the man) fitting?",
+   "options": [
+    "It was random and Aquinas found no particular significance in it",
+    "It corresponds to the order found in every kind of sin, according to Augustine: beginning with concupiscence in the sensuality (signified by the serpent), extending to the lower reason through pleasure (signified by the woman), and reaching the higher reason through consent (signified by the man)",
+    "Because the serpent, woman, and man represent three different gods in pagan mythology",
+    "Because Aquinas believed women are incapable of higher reasoning under any circumstances"
+   ],
+   "correct": 1,
+   "explanation": "Aquinas endorses Augustine's analysis that the pattern of the first temptation mirrors the structure found in every sin: it begins in sensual concupiscence (the serpent), moves to the lower reason's pleasure (the woman), and completes in the higher reason's consent (the man) — making the order paradigmatic and fitting."
+  }
+ ]
+}

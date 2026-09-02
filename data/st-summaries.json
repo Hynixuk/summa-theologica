@@ -1,0 +1,71 @@
+{
+  "parts": {
+    "P1": {
+      "title": "Prima Pars (First Part): God and Creation",
+      "bookSummary": "The Prima Pars examines the nature of God and God's creative activity. Aquinas establishes that theology is a science that proceeds from divine revelation. The work investigates God's existence and attributes, including God's simplicity, perfection, knowledge, will, and power. It then treats the Trinity of Persons in the unity of divine essence, and concludes with an extensive analysis of creation, including angels, the celestial spheres, and the creation of humans. The human person is understood as a substantial union of body and soul, with intellect and will as the highest faculties through which humans orient themselves toward God.",
+      "questions": {
+        "P1Q1": "The nature and extent of sacred doctrine",
+        "P1Q2": "The existence of God",
+        "P1Q3": "God's simplicity",
+        "P1Q4": "God's perfection",
+        "P1Q5": "God's goodness",
+        "P1Q12": "God's knowledge",
+        "P1Q19": "God's will",
+        "P1Q25": "God's power",
+        "P1Q27": "The Trinity of Divine Persons",
+        "P1Q44": "Creation",
+        "P1Q50": "The first human, Adam",
+        "P1Q75": "The nature of the human soul",
+        "P1Q84": "How the soul acquires knowledge through sensation and intellection"
+      }
+    },
+    "P2": {
+      "title": "Prima Secundae (First Part of the Second Part): Human Acts and Virtues",
+      "bookSummary": "The Prima Secundae turns attention to human conduct and moral theology. It begins with a comprehensive analysis of human acts, examining the voluntary, the involuntary, and the role of passion, habit, and virtue in human behavior. Aquinas then develops his understanding of virtues, especially the cardinal virtues of prudence, justice, fortitude, and temperance. He analyzes vice as the contrary of virtue, discusses the passions and their role in the moral life, and examines grace as the supernatural principle that elevates human nature and makes salvation possible. This part establishes the metaphysical and psychological foundations for the detailed moral theology that follows in the Second Part of the Second Part.",
+      "questions": {
+        "P2Q1": "The human act and its principles",
+        "P2Q6": "The voluntary and involuntary",
+        "P2Q22": "The passions of the soul",
+        "P2Q49": "Habits in general",
+        "P2Q55": "The virtues and their nature",
+        "P2Q61": "The cardinal virtues",
+        "P2Q71": "Vice and sin",
+        "P2Q83": "Grace and its necessity",
+        "P2Q109": "The gift of the Holy Spirit and sanctifying grace"
+      }
+    },
+    "P3": {
+      "title": "Secunda Secundae (Second Part of the Second Part): Virtues and Moral Conduct",
+      "bookSummary": "The Secunda Secundae applies virtue ethics to the full range of human conduct. It provides detailed analysis of the theological virtues (faith, hope, and charity), examining both their nature and their expression in human life. It then systematically covers the cardinal virtues and their integral parts—prudence and its attendant virtues, justice and its diverse forms including commutative, distributive, and legal justice, fortitude and its parts including martyrdom and endurance, and temperance with its divisions into continence, sobriety, modesty, and others. The part also addresses vices opposed to each virtue, the gifts of the Holy Spirit, and the states of Christian life (episcopal, religious, and clerical). It culminates in treating the active and contemplative lives, establishing the contemplative life as the highest form of human perfection.",
+      "questions": {
+        "P3Q1": "The virtue of faith",
+        "P3Q17": "The virtue of hope",
+        "P3Q23": "The virtue of charity",
+        "P3Q47": "Prudence",
+        "P3Q58": "Justice",
+        "P3Q123": "Fortitude",
+        "P3Q141": "Temperance",
+        "P3Q179": "The states of life and perfection",
+        "P3Q182": "The contemplative and active lives"
+      }
+    },
+    "P4": {
+      "title": "Tertia Pars (Third Part): Christ and the Sacraments",
+      "bookSummary": "The Tertia Pars treats Christology and the sacraments through which Christ's redemptive work is applied to the faithful. It begins with an extended analysis of the Incarnation, establishing that in Christ there is one person (the divine Word) in two natures (divine and human), and examining how Christ is truly God and truly human. It discusses Christ's life and work as Savior, including His passions, death, and resurrection. The part then addresses the sacraments as the principal instruments through which Christ extends the grace of redemption. It provides thorough treatment of Baptism and Confirmation (the sacraments of initiation), the Eucharist (the sacrament of sustenance), Penance and Anointing of the Sick (sacraments of healing), and Holy Orders and Matrimony (sacraments of social bond). Each sacrament is examined for its essential nature, its effects, its matter and form, and the manner of its administration.",
+      "questions": {
+        "P4Q1": "The Incarnation",
+        "P4Q2": "The assumption of human nature by the Divine Word",
+        "P4Q35": "Christ's passions and suffering",
+        "P4Q55": "The resurrection of Christ",
+        "P4Q60": "The sacraments in general",
+        "P4Q65": "Baptism",
+        "P4Q72": "Confirmation",
+        "P4Q75": "The Eucharist",
+        "P4Q84": "Penance",
+        "P4Q99": "Extreme Unction (Anointing of the Sick)",
+        "P4Q105": "Holy Orders",
+        "P4Q115": "Matrimony"
+      }
+    }
+  }
+}

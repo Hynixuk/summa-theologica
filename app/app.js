@@ -19,6 +19,7 @@
 
   var topicsData = window.TOPICS || { categories: [] };
   var quizData = window.QUIZZES || { st: {}, scg: {}, metaphysics: {} };
+  var summaryData = window.SUMMARIES || { st: {}, scg: {}, metaphysics: {} };
 
   var WPM = 220; // assumed reading speed for time estimates
 
@@ -744,6 +745,17 @@
     h1.textContent = q.title;
     questionView.appendChild(h1);
 
+    // Display question summary if available
+    var questionSummary = summaryData.st && summaryData.st.parts && summaryData.st.parts['P' + part] &&
+                          summaryData.st.parts['P' + part].questions &&
+                          summaryData.st.parts['P' + part].questions['P' + part + 'Q' + qnum];
+    if (questionSummary) {
+      var summaryBox = document.createElement('div');
+      summaryBox.className = 'summary-box';
+      summaryBox.innerHTML = '<strong>Question Summary:</strong> ' + questionSummary;
+      questionView.appendChild(summaryBox);
+    }
+
     var curIdx = articleIndex(part, qnum, article.number);
     if (curIdx >= 0) {
       var timeRemaining = document.createElement('div');
@@ -845,6 +857,17 @@
     h1.textContent = c.title;
     chapterView.appendChild(h1);
 
+    // Display chapter summary if available
+    var chapterSummary = summaryData.scg && summaryData.scg.books && summaryData.scg.books['B' + book] &&
+                          summaryData.scg.books['B' + book].chapters &&
+                          summaryData.scg.books['B' + book].chapters['B' + book + 'C' + chapterNum];
+    if (chapterSummary) {
+      var summaryBox = document.createElement('div');
+      summaryBox.className = 'summary-box';
+      summaryBox.innerHTML = '<strong>Chapter Summary:</strong> ' + chapterSummary;
+      chapterView.appendChild(summaryBox);
+    }
+
     var curIdx = chapterIndexSCG(book, chapterNum);
     if (curIdx >= 0) {
       var timeRemaining = document.createElement('div');
@@ -921,6 +944,18 @@
     var h1 = document.createElement('h1');
     h1.textContent = chapterLabel;
     chapterView.appendChild(h1);
+
+    // Display chapter summary if available
+    var chapterSummaryMeta = summaryData.metaphysics && summaryData.metaphysics.books &&
+                              summaryData.metaphysics.books.find(function(b) { return b.book === book; }) &&
+                              summaryData.metaphysics.books.find(function(b) { return b.book === book; }).chapters &&
+                              summaryData.metaphysics.books.find(function(b) { return b.book === book; }).chapters['B' + book + 'C' + chapterNum];
+    if (chapterSummaryMeta) {
+      var summaryBox = document.createElement('div');
+      summaryBox.className = 'summary-box';
+      summaryBox.innerHTML = '<strong>Chapter Summary:</strong> ' + chapterSummaryMeta;
+      chapterView.appendChild(summaryBox);
+    }
 
     var curIdx = chapterIndexMeta(book, chapterNum);
     if (curIdx >= 0) {
