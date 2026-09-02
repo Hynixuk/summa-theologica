@@ -745,16 +745,17 @@
     h1.textContent = q.title;
     questionView.appendChild(h1);
 
-    // Display question summary if available
-    var questionSummary = summaryData.st && summaryData.st.parts && summaryData.st.parts['P' + part] &&
-                          summaryData.st.parts['P' + part].questions &&
-                          summaryData.st.parts['P' + part].questions['P' + part + 'Q' + qnum];
-    if (questionSummary) {
-      var summaryBox = document.createElement('div');
-      summaryBox.className = 'summary-box';
-      summaryBox.innerHTML = '<strong>Question Summary:</strong> ' + questionSummary;
-      questionView.appendChild(summaryBox);
+    // Book/part-level summary (longer), shown once at the first question of each part.
+    if (qnum === 1) {
+      var stBook = summaryData.st.books && summaryData.st.books['P' + part];
+      var bookSummaryEl = stBook && renderBookSummary(stBook.title || (PART_NAMES[part] || 'Part ' + part), stBook.summary);
+      if (bookSummaryEl) questionView.appendChild(bookSummaryEl);
     }
+
+    // Question-level summary (shorter), shown at the top of every question.
+    var questionSummaryText = summaryData.st.chapters && summaryData.st.chapters[questionKey(part, qnum)];
+    var questionSummaryEl = renderChapterSummary(questionSummaryText);
+    if (questionSummaryEl) questionView.appendChild(questionSummaryEl);
 
     var curIdx = articleIndex(part, qnum, article.number);
     if (curIdx >= 0) {
@@ -857,16 +858,17 @@
     h1.textContent = c.title;
     chapterView.appendChild(h1);
 
-    // Display chapter summary if available
-    var chapterSummary = summaryData.scg && summaryData.scg.books && summaryData.scg.books['B' + book] &&
-                          summaryData.scg.books['B' + book].chapters &&
-                          summaryData.scg.books['B' + book].chapters['B' + book + 'C' + chapterNum];
-    if (chapterSummary) {
-      var summaryBox = document.createElement('div');
-      summaryBox.className = 'summary-box';
-      summaryBox.innerHTML = '<strong>Chapter Summary:</strong> ' + chapterSummary;
-      chapterView.appendChild(summaryBox);
+    // Book-level summary (longer), shown once at the first chapter of each book.
+    if (chapterNum === 1) {
+      var scgBook = summaryData.scg.books && summaryData.scg.books['B' + book];
+      var scgBookSummaryEl = scgBook && renderBookSummary(scgBook.title || ('Book ' + book), scgBook.summary);
+      if (scgBookSummaryEl) chapterView.appendChild(scgBookSummaryEl);
     }
+
+    // Chapter-level summary (shorter), shown at the top of every chapter.
+    var scgChapterSummaryText = summaryData.scg.chapters && summaryData.scg.chapters[scgKey(book, chapterNum)];
+    var scgChapterSummaryEl = renderChapterSummary(scgChapterSummaryText);
+    if (scgChapterSummaryEl) chapterView.appendChild(scgChapterSummaryEl);
 
     var curIdx = chapterIndexSCG(book, chapterNum);
     if (curIdx >= 0) {
@@ -945,17 +947,11 @@
     h1.textContent = chapterLabel;
     chapterView.appendChild(h1);
 
-    // Display chapter summary if available
-    var chapterSummaryMeta = summaryData.metaphysics && summaryData.metaphysics.books &&
-                              summaryData.metaphysics.books.find(function(b) { return b.book === book; }) &&
-                              summaryData.metaphysics.books.find(function(b) { return b.book === book; }).chapters &&
-                              summaryData.metaphysics.books.find(function(b) { return b.book === book; }).chapters['B' + book + 'C' + chapterNum];
-    if (chapterSummaryMeta) {
-      var summaryBox = document.createElement('div');
-      summaryBox.className = 'summary-box';
-      summaryBox.innerHTML = '<strong>Chapter Summary:</strong> ' + chapterSummaryMeta;
-      chapterView.appendChild(summaryBox);
-    }
+    // Chapter-level summary (shorter), shown at the top of every chapter.
+    // (Book-level summary is rendered further below, once, at chapter 1 of each book.)
+    var metaChapterSummaryText = summaryData.metaphysics.chapters && summaryData.metaphysics.chapters[metaKey(book, chapterNum)];
+    var metaChapterSummaryEl = renderChapterSummary(metaChapterSummaryText);
+    if (metaChapterSummaryEl) chapterView.appendChild(metaChapterSummaryEl);
 
     var curIdx = chapterIndexMeta(book, chapterNum);
     if (curIdx >= 0) {
@@ -1060,6 +1056,49 @@
 
     details.appendChild(body);
     return details;
+  }
+
+  // ---- Generic book/chapter summary rendering, shared by ST, SCG, and Metaphysics ----
+  // Book-level (longer, ~150-200 words): a collapsible block shown once, at the first
+  // chapter/question of each book/part, open by default.
+  function renderBookSummary(title, text) {
+    if (!text) return null;
+    var details = document.createElement('details');
+    details.className = 'work-summary';
+    details.open = true;
+
+    var summaryEl = document.createElement('summary');
+    summaryEl.textContent = title;
+    details.appendChild(summaryEl);
+
+    var body = document.createElement('div');
+    body.className = 'work-summary-body';
+    text.split(/\n\n+/).forEach(function (para) {
+      var t = para.trim();
+      if (!t) return;
+      var pEl = document.createElement('p');
+      pEl.textContent = t;
+      body.appendChild(pEl);
+    });
+    details.appendChild(body);
+    return details;
+  }
+
+  // Chapter-level (shorter, ~20-40 words): a small non-collapsible box shown at the top
+  // of every chapter/question, right under the title.
+  function renderChapterSummary(text) {
+    if (!text) return null;
+    var box = document.createElement('div');
+    box.className = 'chapter-summary-box';
+    var label = document.createElement('span');
+    label.className = 'cs-label';
+    label.textContent = 'In this chapter';
+    box.appendChild(label);
+    var body = document.createElement('span');
+    body.className = 'cs-text';
+    body.textContent = text;
+    box.appendChild(body);
+    return box;
   }
 
   // Renders a collapsible "Aquinas's Commentary" block for a Metaphysics chapter.

@@ -783,14 +783,14 @@ body {
   line-height: 1.5;
 }
 
-.metaphysics-summary {
+.metaphysics-summary, .work-summary {
   margin-bottom: 28px;
   border: 1px solid var(--rule);
   border-radius: 10px;
   background: linear-gradient(135deg, var(--accent-soft) 0%, var(--bg-elevated) 100%);
   overflow: hidden;
 }
-.metaphysics-summary summary {
+.metaphysics-summary summary, .work-summary summary {
   cursor: pointer;
   list-style: none;
   padding: 16px 18px;
@@ -801,29 +801,52 @@ body {
   color: var(--accent);
   user-select: none;
 }
-.metaphysics-summary summary::-webkit-details-marker { display: none; }
-.metaphysics-summary summary::before {
+.metaphysics-summary summary::-webkit-details-marker, .work-summary summary::-webkit-details-marker { display: none; }
+.metaphysics-summary summary::before, .work-summary summary::before {
   content: '\203A';
   display: inline-block;
   transition: transform 0.15s ease;
   font-size: 1.1rem;
   flex-shrink: 0;
 }
-.metaphysics-summary[open] summary::before { transform: rotate(90deg); }
-.metaphysics-summary[open] summary {
+.metaphysics-summary[open] summary::before, .work-summary[open] summary::before { transform: rotate(90deg); }
+.metaphysics-summary[open] summary, .work-summary[open] summary {
   border-bottom: 1px solid var(--rule);
 }
-.metaphysics-summary-body {
+.metaphysics-summary-body, .work-summary-body {
   padding: 18px;
 }
-.metaphysics-summary-body p {
+.metaphysics-summary-body p, .work-summary-body p {
   margin: 14px 0 0 0;
   line-height: 1.7;
   font-size: 0.96rem;
   color: var(--ink);
 }
-.metaphysics-summary-body p:first-child {
+.metaphysics-summary-body p:first-child, .work-summary-body p:first-child {
   margin-top: 0;
+}
+
+/* Short chapter/question-level summary shown at the top of every chapter */
+.chapter-summary-box {
+  margin: 0 0 24px;
+  padding: 14px 18px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: 0 8px 8px 0;
+}
+.chapter-summary-box .cs-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+.chapter-summary-box .cs-text {
+  font-size: 0.94rem;
+  line-height: 1.6;
+  color: var(--ink);
 }
 
 .quiz-section {

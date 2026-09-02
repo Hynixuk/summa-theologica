@@ -1,7 +1,16 @@
 // Service Worker for Summa Theologica PWA
-// Enables offline reading, caching, and app-like experience
-
-const CACHE_VERSION = 'summa-v1';
+// Enables offline reading, caching, and app-like experience.
+//
+// Cache strategy: audio files (large, essentially immutable once published) stay
+// cache-first. Everything else — app code and all the data-*.js / *.json content
+// files — is network-first, so a fresh deploy is picked up on the next successful
+// load instead of being masked by a stale cache indefinitely. The cache is kept
+// only as an offline fallback for those files, not as the primary source.
+//
+// Bump CACHE_VERSION whenever the caching *strategy* changes (as here) so old
+// clients drop their stale cache promptly; content updates don't need a bump
+// since network-first already picks them up.
+const CACHE_VERSION = 'summa-v2';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -12,107 +21,68 @@ const STATIC_ASSETS = [
   '/data-metaphysics.js',
   '/data-aquinas-commentary.js',
   '/data-topics.js',
+  '/data-summaries.js',
+  '/data-quizzes.js',
   '/alignment-data.js',
   '/manifest.json'
 ];
 
-// Install: cache static assets
+// Install: warm the cache with static assets, then activate immediately —
+// don't make users wait for every tab to close before getting the new worker.
 self.addEventListener('install', (event) => {
-  console.log('[SW] Installing...');
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_VERSION).then((cache) => {
-      console.log('[SW] Caching static assets');
       return cache.addAll(STATIC_ASSETS).catch(() => {
-        // If addAll fails (e.g., some resources don't exist), proceed anyway
-        // We'll handle individual failures in fetch
-        console.log('[SW] Some assets failed to cache, will retry on fetch');
+        // Some resources may not exist yet (e.g. audio-urls.json) — proceed anyway,
+        // individual fetches are still handled at request time.
         return Promise.resolve();
       });
     })
   );
 });
 
-// Activate: clean up old caches
+// Activate: clean up old caches and take control of open tabs right away.
 self.addEventListener('activate', (event) => {
-  console.log('[SW] Activating...');
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames.map((name) => {
-          if (name !== CACHE_VERSION) {
-            console.log('[SW] Deleting old cache:', name);
-            return caches.delete(name);
-          }
+          if (name !== CACHE_VERSION) return caches.delete(name);
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
 });
 
-// Fetch: network-first for dynamic content, cache-first for static
 self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
 
-  // Only handle GET requests
-  if (request.method !== 'GET') {
-    return;
-  }
+  if (request.method !== 'GET') return;
 
-  // Audio files: use cache-first strategy (large, infrequently updated)
+  // Audio files: cache-first. Large and effectively immutable once published,
+  // so serving from cache (and filling it on first listen) is the right trade-off.
   if (url.pathname.includes('/audio/')) {
     event.respondWith(
       caches
         .match(request)
         .then((response) => response || fetch(request))
-        .catch(() => {
-          console.log('[SW] Failed to fetch audio:', url.pathname);
-          return new Response('Audio not available offline', { status: 503 });
-        })
+        .catch(() => new Response('Audio not available offline', { status: 503 }))
     );
     return;
   }
 
-  // Static assets (JS, CSS): cache-first
-  if (
-    url.pathname.endsWith('.js') ||
-    url.pathname.endsWith('.css') ||
-    url.pathname === '/' ||
-    url.pathname.endsWith('.json')
-  ) {
-    event.respondWith(
-      caches
-        .match(request)
-        .then((response) => {
-          if (response) return response;
-          return fetch(request).then((fetchResponse) => {
-            // Cache successful responses
-            if (fetchResponse && fetchResponse.status === 200) {
-              const responseToCache = fetchResponse.clone();
-              caches.open(CACHE_VERSION).then((cache) => {
-                cache.put(request, responseToCache);
-              });
-            }
-            return fetchResponse;
-          });
-        })
-        .catch(() => {
-          console.log('[SW] Offline: serving cached version of', url.pathname);
-          return caches.match(request);
-        })
-    );
-    return;
-  }
-
-  // Default: network-first
+  // Everything else (app shell, styles, and all data-*.js / *.json content files):
+  // network-first, falling back to cache only when offline. This is what makes a
+  // new deploy actually show up for returning visitors instead of being stuck
+  // behind a stale cache-first copy.
   event.respondWith(
     fetch(request)
       .then((response) => {
         if (response && response.status === 200) {
           const responseToCache = response.clone();
-          caches.open(CACHE_VERSION).then((cache) => {
-            cache.put(request, responseToCache);
-          });
+          caches.open(CACHE_VERSION).then((cache) => cache.put(request, responseToCache));
         }
         return response;
       })
