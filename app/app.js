@@ -1090,7 +1090,18 @@
         var ul = document.createElement('ul');
         bulletLines.forEach(function (line) {
           var li = document.createElement('li');
-          li.textContent = line;
+          // Parse markdown-style bold (**text**)
+          var parts = line.split(/(\*\*[^*]+\*\*)/);
+          parts.forEach(function (part) {
+            if (part.match(/^\*\*.+\*\*$/)) {
+              var boldText = part.replace(/\*\*/g, '');
+              var boldEl = document.createElement('strong');
+              boldEl.textContent = boldText;
+              li.appendChild(boldEl);
+            } else {
+              li.appendChild(document.createTextNode(part));
+            }
+          });
           ul.appendChild(li);
         });
         body.appendChild(ul);
@@ -1100,7 +1111,18 @@
       var remainingText = lines.slice(i).join('\n').trim();
       if (remainingText) {
         var pEl = document.createElement('p');
-        pEl.textContent = remainingText;
+        // Parse markdown-style bold (**text**)
+        var parts = remainingText.split(/(\*\*[^*]+\*\*)/);
+        parts.forEach(function (part) {
+          if (part.match(/^\*\*.+\*\*$/)) {
+            var boldText = part.replace(/\*\*/g, '');
+            var boldEl = document.createElement('strong');
+            boldEl.textContent = boldText;
+            pEl.appendChild(boldEl);
+          } else {
+            pEl.appendChild(document.createTextNode(part));
+          }
+        });
         body.appendChild(pEl);
       }
     });
