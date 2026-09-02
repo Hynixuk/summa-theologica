@@ -952,12 +952,12 @@
       if (book === 1 && summaryData.metaphysics && summaryData.metaphysics.overview) {
         var overviewSummary = summaryData.metaphysics.overview;
         if (overviewSummary && overviewSummary.content) {
-          chapterView.appendChild(renderMetaphysicsSummary(overviewSummary, 'overview'));
+          chapterView.appendChild(renderBookSummary('Overview: Aristotle\'s Metaphysics', overviewSummary.content));
         }
       }
       var metaBook = summaryData.metaphysics && summaryData.metaphysics.books && summaryData.metaphysics.books['B' + book];
       if (metaBook) {
-        chapterView.appendChild(renderMetaphysicsSummary(metaBook, 'book'));
+        chapterView.appendChild(renderBookSummary(metaBook.title || ('Book ' + book), metaBook.summary || ''));
       }
     }
 
