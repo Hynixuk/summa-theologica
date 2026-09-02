@@ -18,6 +18,7 @@
   var metaTextIndex = window.METAPHYSICS_TEXT || {};
 
   var topicsData = window.TOPICS || { categories: [] };
+  var quizData = window.QUIZZES || { st: {}, scg: {}, metaphysics: {} };
 
   var WPM = 220; // assumed reading speed for time estimates
 
@@ -814,6 +815,15 @@
     });
 
     questionView.appendChild(artEl);
+
+    // Quiz appears once the reader reaches the last article of the question —
+    // i.e. at the "end of the chapter" for the Summa's Question/Article structure.
+    var isLastArticle = artIdx === q.articles.length - 1;
+    if (isLastArticle) {
+      var quizQuestions = quizData.st[questionKey(part, qnum)];
+      var quizEl = renderQuiz(quizQuestions, 'ST-' + questionKey(part, qnum));
+      if (quizEl) questionView.appendChild(quizEl);
+    }
   }
 
   // ---- Render a single SCG chapter as its own page ----
@@ -886,6 +896,10 @@
     });
 
     chapterView.appendChild(artEl);
+
+    var scgQuizQuestions = quizData.scg[scgKey(book, chapterNum)];
+    var scgQuizEl = renderQuiz(scgQuizQuestions, 'SCG-' + scgKey(book, chapterNum));
+    if (scgQuizEl) chapterView.appendChild(scgQuizEl);
   }
 
   // ---- Render a single Metaphysics chapter as its own page ----
@@ -978,6 +992,10 @@
     if (commentaryText) {
       chapterView.appendChild(renderAquinasCommentary(commentaryText));
     }
+
+    var metaQuizQuestions = quizData.metaphysics[metaKey(book, chapterNum)];
+    var metaQuizEl = renderQuiz(metaQuizQuestions, 'META-' + metaKey(book, chapterNum));
+    if (metaQuizEl) chapterView.appendChild(metaQuizEl);
   }
 
   // Renders a collapsible summary for Metaphysics (overview or book-level)
@@ -1042,6 +1060,145 @@
 
     details.appendChild(body);
     return details;
+  }
+
+  // ---- Chapter-end quizzes ----
+  // Renders a multiple-choice quiz block. `questions` is an array of
+  // { q, options: [4 strings], correct: index, explanation }.
+  // `storageKey` is a unique string per chapter/question used to remember the
+  // learner's best score across visits (localStorage, same pattern as read-tracking).
+  function quizScoreKey(storageKey) { return 'quiz-' + storageKey; }
+  function getQuizBestScore(storageKey) {
+    try {
+      var raw = localStorage.getItem('summa-quiz-scores');
+      var map = raw ? JSON.parse(raw) : {};
+      return map[quizScoreKey(storageKey)] || null;
+    } catch (e) { return null; }
+  }
+  function setQuizBestScore(storageKey, correct, total) {
+    try {
+      var raw = localStorage.getItem('summa-quiz-scores');
+      var map = raw ? JSON.parse(raw) : {};
+      var k = quizScoreKey(storageKey);
+      var prev = map[k];
+      if (!prev || correct > prev.correct) map[k] = { correct: correct, total: total };
+      localStorage.setItem('summa-quiz-scores', JSON.stringify(map));
+    } catch (e) {}
+  }
+
+  function renderQuiz(questions, storageKey) {
+    if (!questions || !questions.length) return null;
+
+    var wrap = document.createElement('div');
+    wrap.className = 'quiz-section';
+
+    var heading = document.createElement('h3');
+    heading.className = 'quiz-heading';
+    heading.textContent = 'Check your understanding';
+    wrap.appendChild(heading);
+
+    var best = getQuizBestScore(storageKey);
+    var bestBadge = document.createElement('div');
+    bestBadge.className = 'quiz-best-badge';
+    if (best) bestBadge.textContent = 'Best score: ' + best.correct + ' / ' + best.total;
+    wrap.appendChild(bestBadge);
+
+    var form = document.createElement('form');
+    form.className = 'quiz-form';
+    form.noValidate = true;
+
+    questions.forEach(function (item, qIdx) {
+      var qEl = document.createElement('fieldset');
+      qEl.className = 'quiz-q';
+
+      var legend = document.createElement('legend');
+      legend.textContent = (qIdx + 1) + '. ' + item.q;
+      qEl.appendChild(legend);
+
+      var optsEl = document.createElement('div');
+      optsEl.className = 'quiz-options';
+
+      item.options.forEach(function (optText, oIdx) {
+        var label = document.createElement('label');
+        label.className = 'quiz-option';
+
+        var input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'quiz-' + storageKey + '-q' + qIdx;
+        input.value = String(oIdx);
+
+        var span = document.createElement('span');
+        span.textContent = optText;
+
+        label.appendChild(input);
+        label.appendChild(span);
+        optsEl.appendChild(label);
+      });
+
+      qEl.appendChild(optsEl);
+
+      var explanation = document.createElement('div');
+      explanation.className = 'quiz-explanation';
+      explanation.hidden = true;
+      qEl.appendChild(explanation);
+
+      form.appendChild(qEl);
+    });
+
+    var checkBtn = document.createElement('button');
+    checkBtn.type = 'submit';
+    checkBtn.className = 'quiz-check-btn';
+    checkBtn.textContent = 'Check answers';
+    form.appendChild(checkBtn);
+
+    var resultEl = document.createElement('div');
+    resultEl.className = 'quiz-result';
+    resultEl.setAttribute('role', 'status');
+    form.appendChild(resultEl);
+
+    form.addEventListener('submit', function (evt) {
+      evt.preventDefault();
+      var correct = 0;
+      var allAnswered = true;
+
+      questions.forEach(function (item, qIdx) {
+        var qEl = form.querySelectorAll('.quiz-q')[qIdx];
+        var options = qEl.querySelectorAll('.quiz-option');
+        var selected = qEl.querySelector('input[type="radio"]:checked');
+        var explanation = qEl.querySelector('.quiz-explanation');
+
+        if (!selected) { allAnswered = false; return; }
+
+        var selectedIdx = parseInt(selected.value, 10);
+        var isCorrect = selectedIdx === item.correct;
+        if (isCorrect) correct++;
+
+        options.forEach(function (optLabel, oIdx) {
+          optLabel.classList.remove('is-correct', 'is-incorrect');
+          if (oIdx === item.correct) optLabel.classList.add('is-correct');
+          else if (oIdx === selectedIdx) optLabel.classList.add('is-incorrect');
+        });
+
+        explanation.textContent = item.explanation || '';
+        explanation.hidden = false;
+      });
+
+      if (!allAnswered) {
+        resultEl.textContent = 'Please answer every question before checking.';
+        resultEl.className = 'quiz-result quiz-result-incomplete';
+        return;
+      }
+
+      setQuizBestScore(storageKey, correct, questions.length);
+      var pct = Math.round((correct / questions.length) * 100);
+      resultEl.textContent = 'You scored ' + correct + ' / ' + questions.length + ' (' + pct + '%)';
+      resultEl.className = 'quiz-result ' + (correct === questions.length ? 'quiz-result-perfect' : 'quiz-result-partial');
+      bestBadge.textContent = 'Best score: ' + Math.max(correct, best ? best.correct : 0) + ' / ' + questions.length;
+      best = getQuizBestScore(storageKey);
+    });
+
+    wrap.appendChild(form);
+    return wrap;
   }
 
   function hashFor(part, qnum, articleNumber) {
