@@ -26,11 +26,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/index.html"
-    }
   ]
 }
