@@ -46,7 +46,7 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 2
+        "audioTrack": 3
       },
       {
         "chapter": 8,
@@ -64,7 +64,7 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 3
+        "audioTrack": 4
       }
     ]
   },
@@ -78,19 +78,19 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 4
+        "audioTrack": 5
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 4
+        "audioTrack": 5
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 4
+        "audioTrack": 5
       }
     ]
   },
@@ -104,37 +104,37 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 5
+        "audioTrack": 6
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 5
+        "audioTrack": 6
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 5
+        "audioTrack": 6
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 6
+        "audioTrack": 7
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 6
+        "audioTrack": 7
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 6
+        "audioTrack": 7
       }
     ]
   },
@@ -148,25 +148,25 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 7
+        "audioTrack": 8
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 7
+        "audioTrack": 8
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 7
+        "audioTrack": 8
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 8
+        "audioTrack": 9
       },
       {
         "chapter": 5,
@@ -184,13 +184,13 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 9
+        "audioTrack": 10
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 9
+        "audioTrack": 10
       }
     ]
   },
@@ -204,181 +204,181 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 10
+        "audioTrack": 11
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 10
+        "audioTrack": 11
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 10
+        "audioTrack": 11
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 10
+        "audioTrack": 12
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 10
+        "audioTrack": 12
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 10
+        "audioTrack": 12
       },
       {
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 13
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 13
       },
       {
         "chapter": 9,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 13
       },
       {
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 14
       },
       {
         "chapter": 11,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 14
       },
       {
         "chapter": 12,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 14
       },
       {
         "chapter": 13,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 15
       },
       {
         "chapter": 14,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 15
       },
       {
         "chapter": 15,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 11
+        "audioTrack": 15
       },
       {
         "chapter": 16,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 16
       },
       {
         "chapter": 17,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 16
       },
       {
         "chapter": 18,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 16
       },
       {
         "chapter": 19,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 17
       },
       {
         "chapter": 20,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 17
       },
       {
         "chapter": 21,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 17
       },
       {
         "chapter": 22,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 18
       },
       {
         "chapter": 23,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 18
       },
       {
         "chapter": 24,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 18
       },
       {
         "chapter": 25,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 19
       },
       {
         "chapter": 26,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 19
       },
       {
         "chapter": 27,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 19
       },
       {
         "chapter": 28,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 20
       },
       {
         "chapter": 29,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 20
       },
       {
         "chapter": 30,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 12
+        "audioTrack": 20
       }
     ]
   },
@@ -392,25 +392,25 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 13
+        "audioTrack": 21
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 13
+        "audioTrack": 21
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 13
+        "audioTrack": 21
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 13
+        "audioTrack": 22
       }
     ]
   },
@@ -424,103 +424,103 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 14
+        "audioTrack": 23
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 14
+        "audioTrack": 23
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 14
+        "audioTrack": 23
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 14
+        "audioTrack": 24
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 14
+        "audioTrack": 24
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 15
+        "audioTrack": 24
       },
       {
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 15
+        "audioTrack": 25
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 15
+        "audioTrack": 25
       },
       {
         "chapter": 9,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 15
+        "audioTrack": 25
       },
       {
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 16
+        "audioTrack": 26
       },
       {
         "chapter": 11,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 16
+        "audioTrack": 26
       },
       {
         "chapter": 12,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 16
+        "audioTrack": 26
       },
       {
         "chapter": 13,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 17
+        "audioTrack": 27
       },
       {
         "chapter": 14,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 17
+        "audioTrack": 27
       },
       {
         "chapter": 15,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 17
+        "audioTrack": 27
       },
       {
         "chapter": 16,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 17
+        "audioTrack": 28
       },
       {
         "chapter": 17,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 17
+        "audioTrack": 28
       }
     ]
   },
@@ -534,37 +534,37 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 18
+        "audioTrack": 29
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 18
+        "audioTrack": 29
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 18
+        "audioTrack": 29
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 18
+        "audioTrack": 30
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 18
+        "audioTrack": 30
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 18
+        "audioTrack": 30
       }
     ]
   },
@@ -578,61 +578,61 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 19
+        "audioTrack": 31
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 19
+        "audioTrack": 31
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 19
+        "audioTrack": 31
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 19
+        "audioTrack": 32
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 19
+        "audioTrack": 32
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 19
+        "audioTrack": 32
       },
       {
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 19
+        "audioTrack": 33
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 20
+        "audioTrack": 33
       },
       {
         "chapter": 9,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 20
+        "audioTrack": 33
       },
       {
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 20
+        "audioTrack": 34
       }
     ]
   },
@@ -646,61 +646,61 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 21
+        "audioTrack": 35
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 21
+        "audioTrack": 35
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 21
+        "audioTrack": 35
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 21
+        "audioTrack": 36
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 22
+        "audioTrack": 36
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 22
+        "audioTrack": 36
       },
       {
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 22
+        "audioTrack": 37
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 22
+        "audioTrack": 37
       },
       {
         "chapter": 9,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 22
+        "audioTrack": 37
       },
       {
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 22
+        "audioTrack": 38
       }
     ]
   },
@@ -714,73 +714,73 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 23
+        "audioTrack": 39
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 23
+        "audioTrack": 39
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 23
+        "audioTrack": 39
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 23
+        "audioTrack": 40
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 23
+        "audioTrack": 40
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 24
+        "audioTrack": 40
       },
       {
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 24
+        "audioTrack": 41
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 24
+        "audioTrack": 41
       },
       {
         "chapter": 9,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 24
+        "audioTrack": 41
       },
       {
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 25
+        "audioTrack": 42
       },
       {
         "chapter": 11,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 25
+        "audioTrack": 42
       },
       {
         "chapter": 12,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 25
+        "audioTrack": 42
       }
     ]
   },
@@ -794,61 +794,61 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 26
+        "audioTrack": 43
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 26
+        "audioTrack": 43
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 26
+        "audioTrack": 43
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 26
+        "audioTrack": 44
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 26
+        "audioTrack": 44
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 26
+        "audioTrack": 44
       },
       {
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 27
+        "audioTrack": 45
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 27
+        "audioTrack": 45
       },
       {
         "chapter": 9,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 27
+        "audioTrack": 45
       },
       {
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 27
+        "audioTrack": 46
       }
     ]
   },
@@ -862,61 +862,61 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 28
+        "audioTrack": 47
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 28
+        "audioTrack": 47
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 28
+        "audioTrack": 47
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 28
+        "audioTrack": 48
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 29
+        "audioTrack": 48
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 29
+        "audioTrack": 48
       },
       {
         "chapter": 7,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 29
+        "audioTrack": 49
       },
       {
         "chapter": 8,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 30
+        "audioTrack": 49
       },
       {
         "chapter": 9,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 30
+        "audioTrack": 49
       },
       {
         "chapter": 10,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 30
+        "audioTrack": 50
       }
     ]
   },
@@ -930,37 +930,37 @@ window.METAPHYSICS_BOOKS = [
         "chapter": 1,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 31
+        "audioTrack": 51
       },
       {
         "chapter": 2,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 31
+        "audioTrack": 51
       },
       {
         "chapter": 3,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 31
+        "audioTrack": 51
       },
       {
         "chapter": 4,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 32
+        "audioTrack": 52
       },
       {
         "chapter": 5,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 32
+        "audioTrack": 52
       },
       {
         "chapter": 6,
         "title": null,
         "hasAudio": true,
-        "audioTrack": 32
+        "audioTrack": 52
       }
     ]
   }
@@ -1208,8 +1208,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B1C7",
-    "audioTrack": 2,
-    "durationSeconds": 880
+    "audioTrack": 3,
+    "durationSeconds": 1332
   },
   "B1C8": {
     "book": 1,
@@ -1340,8 +1340,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B1C10",
-    "audioTrack": 3,
-    "durationSeconds": 1332
+    "audioTrack": 4,
+    "durationSeconds": 63
   },
   "B2C1": {
     "book": 2,
@@ -1366,8 +1366,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B2C1",
-    "audioTrack": 4,
-    "durationSeconds": 63
+    "audioTrack": 5,
+    "durationSeconds": 488
   },
   "B2C2": {
     "book": 2,
@@ -1398,8 +1398,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B2C2",
-    "audioTrack": 4,
-    "durationSeconds": 63
+    "audioTrack": 5,
+    "durationSeconds": 488
   },
   "B2C3": {
     "book": 2,
@@ -1415,8 +1415,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B2C3",
-    "audioTrack": 4,
-    "durationSeconds": 63
+    "audioTrack": 5,
+    "durationSeconds": 488
   },
   "B3C1": {
     "book": 3,
@@ -1435,8 +1435,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B3C1",
-    "audioTrack": 5,
-    "durationSeconds": 488
+    "audioTrack": 6,
+    "durationSeconds": 1103
   },
   "B3C2": {
     "book": 3,
@@ -1479,8 +1479,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B3C2",
-    "audioTrack": 5,
-    "durationSeconds": 488
+    "audioTrack": 6,
+    "durationSeconds": 1103
   },
   "B3C3": {
     "book": 3,
@@ -1505,8 +1505,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B3C3",
-    "audioTrack": 5,
-    "durationSeconds": 488
+    "audioTrack": 6,
+    "durationSeconds": 1103
   },
   "B3C4": {
     "book": 3,
@@ -1603,8 +1603,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B3C4",
-    "audioTrack": 6,
-    "durationSeconds": 1103
+    "audioTrack": 7,
+    "durationSeconds": 1069
   },
   "B3C5": {
     "book": 3,
@@ -1623,8 +1623,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B3C5",
-    "audioTrack": 6,
-    "durationSeconds": 1103
+    "audioTrack": 7,
+    "durationSeconds": 1069
   },
   "B3C6": {
     "book": 3,
@@ -1649,8 +1649,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B3C6",
-    "audioTrack": 6,
-    "durationSeconds": 1103
+    "audioTrack": 7,
+    "durationSeconds": 1069
   },
   "B4C1": {
     "book": 4,
@@ -1666,8 +1666,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B4C1",
-    "audioTrack": 7,
-    "durationSeconds": 1069
+    "audioTrack": 8,
+    "durationSeconds": 802
   },
   "B4C2": {
     "book": 4,
@@ -1701,8 +1701,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B4C2",
-    "audioTrack": 7,
-    "durationSeconds": 1069
+    "audioTrack": 8,
+    "durationSeconds": 802
   },
   "B4C3": {
     "book": 4,
@@ -1721,8 +1721,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B4C3",
-    "audioTrack": 7,
-    "durationSeconds": 1069
+    "audioTrack": 8,
+    "durationSeconds": 802
   },
   "B4C4": {
     "book": 4,
@@ -1777,8 +1777,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B4C4",
-    "audioTrack": 8,
-    "durationSeconds": 802
+    "audioTrack": 9,
+    "durationSeconds": 1738
   },
   "B4C5": {
     "book": 4,
@@ -1894,8 +1894,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B4C7",
-    "audioTrack": 9,
-    "durationSeconds": 1738
+    "audioTrack": 10,
+    "durationSeconds": 345
   },
   "B4C8": {
     "book": 4,
@@ -1911,8 +1911,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B4C8",
-    "audioTrack": 9,
-    "durationSeconds": 1738
+    "audioTrack": 10,
+    "durationSeconds": 345
   },
   "B5C1": {
     "book": 5,
@@ -1928,8 +1928,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C1",
-    "audioTrack": 10,
-    "durationSeconds": 345
+    "audioTrack": 11,
+    "durationSeconds": 520
   },
   "B5C2": {
     "book": 5,
@@ -1954,8 +1954,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C2",
-    "audioTrack": 10,
-    "durationSeconds": 345
+    "audioTrack": 11,
+    "durationSeconds": 520
   },
   "B5C3": {
     "book": 5,
@@ -1974,8 +1974,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C3",
-    "audioTrack": 10,
-    "durationSeconds": 345
+    "audioTrack": 11,
+    "durationSeconds": 520
   },
   "B5C4": {
     "book": 5,
@@ -2006,8 +2006,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C4",
-    "audioTrack": 10,
-    "durationSeconds": 345
+    "audioTrack": 12,
+    "durationSeconds": 744
   },
   "B5C5": {
     "book": 5,
@@ -2026,8 +2026,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C5",
-    "audioTrack": 10,
-    "durationSeconds": 345
+    "audioTrack": 12,
+    "durationSeconds": 744
   },
   "B5C6": {
     "book": 5,
@@ -2067,8 +2067,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C6",
-    "audioTrack": 10,
-    "durationSeconds": 345
+    "audioTrack": 12,
+    "durationSeconds": 744
   },
   "B5C7": {
     "book": 5,
@@ -2096,8 +2096,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C7",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 13,
+    "durationSeconds": 361
   },
   "B5C8": {
     "book": 5,
@@ -2116,8 +2116,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C8",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 13,
+    "durationSeconds": 361
   },
   "B5C9": {
     "book": 5,
@@ -2145,8 +2145,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C9",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 13,
+    "durationSeconds": 361
   },
   "B5C10": {
     "book": 5,
@@ -2168,8 +2168,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C10",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 14,
+    "durationSeconds": 595
   },
   "B5C11": {
     "book": 5,
@@ -2194,8 +2194,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C11",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 14,
+    "durationSeconds": 595
   },
   "B5C12": {
     "book": 5,
@@ -2220,8 +2220,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C12",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 14,
+    "durationSeconds": 595
   },
   "B5C13": {
     "book": 5,
@@ -2240,8 +2240,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C13",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 15,
+    "durationSeconds": 464
   },
   "B5C14": {
     "book": 5,
@@ -2263,8 +2263,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C14",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 15,
+    "durationSeconds": 464
   },
   "B5C15": {
     "book": 5,
@@ -2292,8 +2292,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C15",
-    "audioTrack": 11,
-    "durationSeconds": 520
+    "audioTrack": 15,
+    "durationSeconds": 464
   },
   "B5C16": {
     "book": 5,
@@ -2309,8 +2309,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C16",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 16,
+    "durationSeconds": 263
   },
   "B5C17": {
     "book": 5,
@@ -2326,8 +2326,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C17",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 16,
+    "durationSeconds": 263
   },
   "B5C18": {
     "book": 5,
@@ -2346,8 +2346,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C18",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 16,
+    "durationSeconds": 263
   },
   "B5C19": {
     "book": 5,
@@ -2363,8 +2363,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C19",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 17,
+    "durationSeconds": 88
   },
   "B5C20": {
     "book": 5,
@@ -2380,8 +2380,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C20",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 17,
+    "durationSeconds": 88
   },
   "B5C21": {
     "book": 5,
@@ -2397,8 +2397,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C21",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 17,
+    "durationSeconds": 88
   },
   "B5C22": {
     "book": 5,
@@ -2417,8 +2417,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C22",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 18,
+    "durationSeconds": 275
   },
   "B5C23": {
     "book": 5,
@@ -2437,8 +2437,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C23",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 18,
+    "durationSeconds": 275
   },
   "B5C24": {
     "book": 5,
@@ -2454,8 +2454,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C24",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 18,
+    "durationSeconds": 275
   },
   "B5C25": {
     "book": 5,
@@ -2471,8 +2471,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C25",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 19,
+    "durationSeconds": 251
   },
   "B5C26": {
     "book": 5,
@@ -2491,8 +2491,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C26",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 19,
+    "durationSeconds": 251
   },
   "B5C27": {
     "book": 5,
@@ -2508,8 +2508,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C27",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 19,
+    "durationSeconds": 251
   },
   "B5C28": {
     "book": 5,
@@ -2528,8 +2528,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C28",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 20,
+    "durationSeconds": 336
   },
   "B5C29": {
     "book": 5,
@@ -2551,8 +2551,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C29",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 20,
+    "durationSeconds": 336
   },
   "B5C30": {
     "book": 5,
@@ -2568,8 +2568,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B5C30",
-    "audioTrack": 12,
-    "durationSeconds": 744
+    "audioTrack": 20,
+    "durationSeconds": 336
   },
   "B6C1": {
     "book": 6,
@@ -2591,8 +2591,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B6C1",
-    "audioTrack": 13,
-    "durationSeconds": 361
+    "audioTrack": 21,
+    "durationSeconds": 674
   },
   "B6C2": {
     "book": 6,
@@ -2611,8 +2611,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B6C2",
-    "audioTrack": 13,
-    "durationSeconds": 361
+    "audioTrack": 21,
+    "durationSeconds": 674
   },
   "B6C3": {
     "book": 6,
@@ -2628,8 +2628,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B6C3",
-    "audioTrack": 13,
-    "durationSeconds": 361
+    "audioTrack": 21,
+    "durationSeconds": 674
   },
   "B6C4": {
     "book": 6,
@@ -2642,8 +2642,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B6C4",
-    "audioTrack": 13,
-    "durationSeconds": 361
+    "audioTrack": 22,
+    "durationSeconds": 97
   },
   "B7C1": {
     "book": 7,
@@ -2665,8 +2665,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C1",
-    "audioTrack": 14,
-    "durationSeconds": 595
+    "audioTrack": 23,
+    "durationSeconds": 486
   },
   "B7C2": {
     "book": 7,
@@ -2688,8 +2688,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C2",
-    "audioTrack": 14,
-    "durationSeconds": 595
+    "audioTrack": 23,
+    "durationSeconds": 486
   },
   "B7C3": {
     "book": 7,
@@ -2714,8 +2714,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C3",
-    "audioTrack": 14,
-    "durationSeconds": 595
+    "audioTrack": 23,
+    "durationSeconds": 486
   },
   "B7C4": {
     "book": 7,
@@ -2746,8 +2746,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C4",
-    "audioTrack": 14,
-    "durationSeconds": 595
+    "audioTrack": 24,
+    "durationSeconds": 765
   },
   "B7C5": {
     "book": 7,
@@ -2769,8 +2769,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C5",
-    "audioTrack": 14,
-    "durationSeconds": 595
+    "audioTrack": 24,
+    "durationSeconds": 765
   },
   "B7C6": {
     "book": 7,
@@ -2804,8 +2804,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C6",
-    "audioTrack": 15,
-    "durationSeconds": 464
+    "audioTrack": 24,
+    "durationSeconds": 765
   },
   "B7C7": {
     "book": 7,
@@ -2836,8 +2836,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C7",
-    "audioTrack": 15,
-    "durationSeconds": 464
+    "audioTrack": 25,
+    "durationSeconds": 794
   },
   "B7C8": {
     "book": 7,
@@ -2856,8 +2856,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C8",
-    "audioTrack": 15,
-    "durationSeconds": 464
+    "audioTrack": 25,
+    "durationSeconds": 794
   },
   "B7C9": {
     "book": 7,
@@ -2885,8 +2885,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C9",
-    "audioTrack": 15,
-    "durationSeconds": 464
+    "audioTrack": 25,
+    "durationSeconds": 794
   },
   "B7C10": {
     "book": 7,
@@ -2911,8 +2911,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C10",
-    "audioTrack": 16,
-    "durationSeconds": 263
+    "audioTrack": 26,
+    "durationSeconds": 1048
   },
   "B7C11": {
     "book": 7,
@@ -2949,8 +2949,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C11",
-    "audioTrack": 16,
-    "durationSeconds": 263
+    "audioTrack": 26,
+    "durationSeconds": 1048
   },
   "B7C12": {
     "book": 7,
@@ -2978,8 +2978,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C12",
-    "audioTrack": 16,
-    "durationSeconds": 263
+    "audioTrack": 26,
+    "durationSeconds": 1048
   },
   "B7C13": {
     "book": 7,
@@ -3007,8 +3007,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C13",
-    "audioTrack": 17,
-    "durationSeconds": 88
+    "audioTrack": 27,
+    "durationSeconds": 662
   },
   "B7C14": {
     "book": 7,
@@ -3036,8 +3036,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C14",
-    "audioTrack": 17,
-    "durationSeconds": 88
+    "audioTrack": 27,
+    "durationSeconds": 662
   },
   "B7C15": {
     "book": 7,
@@ -3062,8 +3062,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C15",
-    "audioTrack": 17,
-    "durationSeconds": 88
+    "audioTrack": 27,
+    "durationSeconds": 662
   },
   "B7C16": {
     "book": 7,
@@ -3085,8 +3085,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C16",
-    "audioTrack": 17,
-    "durationSeconds": 88
+    "audioTrack": 28,
+    "durationSeconds": 418
   },
   "B7C17": {
     "book": 7,
@@ -3105,8 +3105,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B7C17",
-    "audioTrack": 17,
-    "durationSeconds": 88
+    "audioTrack": 28,
+    "durationSeconds": 418
   },
   "B8C1": {
     "book": 8,
@@ -3131,8 +3131,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B8C1",
-    "audioTrack": 18,
-    "durationSeconds": 275
+    "audioTrack": 29,
+    "durationSeconds": 718
   },
   "B8C2": {
     "book": 8,
@@ -3154,8 +3154,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B8C2",
-    "audioTrack": 18,
-    "durationSeconds": 275
+    "audioTrack": 29,
+    "durationSeconds": 718
   },
   "B8C3": {
     "book": 8,
@@ -3183,8 +3183,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B8C3",
-    "audioTrack": 18,
-    "durationSeconds": 275
+    "audioTrack": 29,
+    "durationSeconds": 718
   },
   "B8C4": {
     "book": 8,
@@ -3206,8 +3206,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B8C4",
-    "audioTrack": 18,
-    "durationSeconds": 275
+    "audioTrack": 30,
+    "durationSeconds": 525
   },
   "B8C5": {
     "book": 8,
@@ -3226,8 +3226,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B8C5",
-    "audioTrack": 18,
-    "durationSeconds": 275
+    "audioTrack": 30,
+    "durationSeconds": 525
   },
   "B8C6": {
     "book": 8,
@@ -3246,8 +3246,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B8C6",
-    "audioTrack": 18,
-    "durationSeconds": 275
+    "audioTrack": 30,
+    "durationSeconds": 525
   },
   "B9C1": {
     "book": 9,
@@ -3269,8 +3269,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C1",
-    "audioTrack": 19,
-    "durationSeconds": 251
+    "audioTrack": 31,
+    "durationSeconds": 542
   },
   "B9C2": {
     "book": 9,
@@ -3292,8 +3292,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C2",
-    "audioTrack": 19,
-    "durationSeconds": 251
+    "audioTrack": 31,
+    "durationSeconds": 542
   },
   "B9C3": {
     "book": 9,
@@ -3318,8 +3318,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C3",
-    "audioTrack": 19,
-    "durationSeconds": 251
+    "audioTrack": 31,
+    "durationSeconds": 542
   },
   "B9C4": {
     "book": 9,
@@ -3338,8 +3338,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C4",
-    "audioTrack": 19,
-    "durationSeconds": 251
+    "audioTrack": 32,
+    "durationSeconds": 482
   },
   "B9C5": {
     "book": 9,
@@ -3358,8 +3358,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C5",
-    "audioTrack": 19,
-    "durationSeconds": 251
+    "audioTrack": 32,
+    "durationSeconds": 482
   },
   "B9C6": {
     "book": 9,
@@ -3381,8 +3381,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C6",
-    "audioTrack": 19,
-    "durationSeconds": 251
+    "audioTrack": 32,
+    "durationSeconds": 482
   },
   "B9C7": {
     "book": 9,
@@ -3404,8 +3404,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C7",
-    "audioTrack": 19,
-    "durationSeconds": 251
+    "audioTrack": 33,
+    "durationSeconds": 822
   },
   "B9C8": {
     "book": 9,
@@ -3454,8 +3454,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C8",
-    "audioTrack": 20,
-    "durationSeconds": 336
+    "audioTrack": 33,
+    "durationSeconds": 822
   },
   "B9C9": {
     "book": 9,
@@ -3474,8 +3474,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C9",
-    "audioTrack": 20,
-    "durationSeconds": 336
+    "audioTrack": 33,
+    "durationSeconds": 822
   },
   "B9C10": {
     "book": 9,
@@ -3497,8 +3497,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B9C10",
-    "audioTrack": 20,
-    "durationSeconds": 336
+    "audioTrack": 34,
+    "durationSeconds": 223
   },
   "B10C1": {
     "book": 10,
@@ -3532,8 +3532,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C1",
-    "audioTrack": 21,
-    "durationSeconds": 674
+    "audioTrack": 35,
+    "durationSeconds": 876
   },
   "B10C2": {
     "book": 10,
@@ -3558,8 +3558,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C2",
-    "audioTrack": 21,
-    "durationSeconds": 674
+    "audioTrack": 35,
+    "durationSeconds": 876
   },
   "B10C3": {
     "book": 10,
@@ -3590,8 +3590,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C3",
-    "audioTrack": 21,
-    "durationSeconds": 674
+    "audioTrack": 35,
+    "durationSeconds": 876
   },
   "B10C4": {
     "book": 10,
@@ -3622,8 +3622,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C4",
-    "audioTrack": 21,
-    "durationSeconds": 674
+    "audioTrack": 36,
+    "durationSeconds": 717
   },
   "B10C5": {
     "book": 10,
@@ -3645,8 +3645,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C5",
-    "audioTrack": 22,
-    "durationSeconds": 97
+    "audioTrack": 36,
+    "durationSeconds": 717
   },
   "B10C6": {
     "book": 10,
@@ -3665,8 +3665,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C6",
-    "audioTrack": 22,
-    "durationSeconds": 97
+    "audioTrack": 36,
+    "durationSeconds": 717
   },
   "B10C7": {
     "book": 10,
@@ -3691,8 +3691,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C7",
-    "audioTrack": 22,
-    "durationSeconds": 97
+    "audioTrack": 37,
+    "durationSeconds": 559
   },
   "B10C8": {
     "book": 10,
@@ -3714,8 +3714,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C8",
-    "audioTrack": 22,
-    "durationSeconds": 97
+    "audioTrack": 37,
+    "durationSeconds": 559
   },
   "B10C9": {
     "book": 10,
@@ -3731,8 +3731,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C9",
-    "audioTrack": 22,
-    "durationSeconds": 97
+    "audioTrack": 37,
+    "durationSeconds": 559
   },
   "B10C10": {
     "book": 10,
@@ -3754,8 +3754,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B10C10",
-    "audioTrack": 22,
-    "durationSeconds": 97
+    "audioTrack": 38,
+    "durationSeconds": 108
   },
   "B11C1": {
     "book": 11,
@@ -3789,8 +3789,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C1",
-    "audioTrack": 23,
-    "durationSeconds": 486
+    "audioTrack": 39,
+    "durationSeconds": 785
   },
   "B11C2": {
     "book": 11,
@@ -3821,8 +3821,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C2",
-    "audioTrack": 23,
-    "durationSeconds": 486
+    "audioTrack": 39,
+    "durationSeconds": 785
   },
   "B11C3": {
     "book": 11,
@@ -3844,8 +3844,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C3",
-    "audioTrack": 23,
-    "durationSeconds": 486
+    "audioTrack": 39,
+    "durationSeconds": 785
   },
   "B11C4": {
     "book": 11,
@@ -3861,8 +3861,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C4",
-    "audioTrack": 23,
-    "durationSeconds": 486
+    "audioTrack": 40,
+    "durationSeconds": 611
   },
   "B11C5": {
     "book": 11,
@@ -3884,8 +3884,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C5",
-    "audioTrack": 23,
-    "durationSeconds": 486
+    "audioTrack": 40,
+    "durationSeconds": 611
   },
   "B11C6": {
     "book": 11,
@@ -3934,8 +3934,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C6",
-    "audioTrack": 24,
-    "durationSeconds": 765
+    "audioTrack": 40,
+    "durationSeconds": 611
   },
   "B11C7": {
     "book": 11,
@@ -3960,8 +3960,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C7",
-    "audioTrack": 24,
-    "durationSeconds": 765
+    "audioTrack": 41,
+    "durationSeconds": 729
   },
   "B11C8": {
     "book": 11,
@@ -3992,8 +3992,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C8",
-    "audioTrack": 24,
-    "durationSeconds": 765
+    "audioTrack": 41,
+    "durationSeconds": 729
   },
   "B11C9": {
     "book": 11,
@@ -4015,8 +4015,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C9",
-    "audioTrack": 24,
-    "durationSeconds": 765
+    "audioTrack": 41,
+    "durationSeconds": 729
   },
   "B11C10": {
     "book": 11,
@@ -4044,8 +4044,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C10",
-    "audioTrack": 25,
-    "durationSeconds": 794
+    "audioTrack": 42,
+    "durationSeconds": 908
   },
   "B11C11": {
     "book": 11,
@@ -4064,8 +4064,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C11",
-    "audioTrack": 25,
-    "durationSeconds": 794
+    "audioTrack": 42,
+    "durationSeconds": 908
   },
   "B11C12": {
     "book": 11,
@@ -4084,8 +4084,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B11C12",
-    "audioTrack": 25,
-    "durationSeconds": 794
+    "audioTrack": 42,
+    "durationSeconds": 908
   },
   "B12C1": {
     "book": 12,
@@ -4104,8 +4104,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C1",
-    "audioTrack": 26,
-    "durationSeconds": 1048
+    "audioTrack": 43,
+    "durationSeconds": 412
   },
   "B12C2": {
     "book": 12,
@@ -4124,8 +4124,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C2",
-    "audioTrack": 26,
-    "durationSeconds": 1048
+    "audioTrack": 43,
+    "durationSeconds": 412
   },
   "B12C3": {
     "book": 12,
@@ -4147,8 +4147,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C3",
-    "audioTrack": 26,
-    "durationSeconds": 1048
+    "audioTrack": 43,
+    "durationSeconds": 412
   },
   "B12C4": {
     "book": 12,
@@ -4170,8 +4170,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C4",
-    "audioTrack": 26,
-    "durationSeconds": 1048
+    "audioTrack": 44,
+    "durationSeconds": 677
   },
   "B12C5": {
     "book": 12,
@@ -4196,8 +4196,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C5",
-    "audioTrack": 26,
-    "durationSeconds": 1048
+    "audioTrack": 44,
+    "durationSeconds": 677
   },
   "B12C6": {
     "book": 12,
@@ -4225,8 +4225,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C6",
-    "audioTrack": 26,
-    "durationSeconds": 1048
+    "audioTrack": 44,
+    "durationSeconds": 677
   },
   "B12C7": {
     "book": 12,
@@ -4254,8 +4254,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C7",
-    "audioTrack": 27,
-    "durationSeconds": 662
+    "audioTrack": 45,
+    "durationSeconds": 930
   },
   "B12C8": {
     "book": 12,
@@ -4286,8 +4286,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C8",
-    "audioTrack": 27,
-    "durationSeconds": 662
+    "audioTrack": 45,
+    "durationSeconds": 930
   },
   "B12C9": {
     "book": 12,
@@ -4309,8 +4309,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C9",
-    "audioTrack": 27,
-    "durationSeconds": 662
+    "audioTrack": 45,
+    "durationSeconds": 930
   },
   "B12C10": {
     "book": 12,
@@ -4341,8 +4341,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B12C10",
-    "audioTrack": 27,
-    "durationSeconds": 662
+    "audioTrack": 46,
+    "durationSeconds": 334
   },
   "B13C1": {
     "book": 13,
@@ -4364,8 +4364,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C1",
-    "audioTrack": 28,
-    "durationSeconds": 418
+    "audioTrack": 47,
+    "durationSeconds": 833
   },
   "B13C2": {
     "book": 13,
@@ -4408,8 +4408,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C2",
-    "audioTrack": 28,
-    "durationSeconds": 418
+    "audioTrack": 47,
+    "durationSeconds": 833
   },
   "B13C3": {
     "book": 13,
@@ -4434,8 +4434,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C3",
-    "audioTrack": 28,
-    "durationSeconds": 418
+    "audioTrack": 47,
+    "durationSeconds": 833
   },
   "B13C4": {
     "book": 13,
@@ -4463,8 +4463,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C4",
-    "audioTrack": 28,
-    "durationSeconds": 418
+    "audioTrack": 48,
+    "durationSeconds": 697
   },
   "B13C5": {
     "book": 13,
@@ -4489,8 +4489,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C5",
-    "audioTrack": 29,
-    "durationSeconds": 718
+    "audioTrack": 48,
+    "durationSeconds": 697
   },
   "B13C6": {
     "book": 13,
@@ -4518,8 +4518,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C6",
-    "audioTrack": 29,
-    "durationSeconds": 718
+    "audioTrack": 48,
+    "durationSeconds": 697
   },
   "B13C7": {
     "book": 13,
@@ -4565,8 +4565,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C7",
-    "audioTrack": 29,
-    "durationSeconds": 718
+    "audioTrack": 49,
+    "durationSeconds": 1686
   },
   "B13C8": {
     "book": 13,
@@ -4609,8 +4609,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C8",
-    "audioTrack": 30,
-    "durationSeconds": 525
+    "audioTrack": 49,
+    "durationSeconds": 1686
   },
   "B13C9": {
     "book": 13,
@@ -4647,8 +4647,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C9",
-    "audioTrack": 30,
-    "durationSeconds": 525
+    "audioTrack": 49,
+    "durationSeconds": 1686
   },
   "B13C10": {
     "book": 13,
@@ -4673,8 +4673,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B13C10",
-    "audioTrack": 30,
-    "durationSeconds": 525
+    "audioTrack": 50,
+    "durationSeconds": 198
   },
   "B14C1": {
     "book": 14,
@@ -4699,8 +4699,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B14C1",
-    "audioTrack": 31,
-    "durationSeconds": 542
+    "audioTrack": 51,
+    "durationSeconds": 1212
   },
   "B14C2": {
     "book": 14,
@@ -4749,8 +4749,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B14C2",
-    "audioTrack": 31,
-    "durationSeconds": 542
+    "audioTrack": 51,
+    "durationSeconds": 1212
   },
   "B14C3": {
     "book": 14,
@@ -4778,8 +4778,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B14C3",
-    "audioTrack": 31,
-    "durationSeconds": 542
+    "audioTrack": 51,
+    "durationSeconds": 1212
   },
   "B14C4": {
     "book": 14,
@@ -4807,8 +4807,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B14C4",
-    "audioTrack": 32,
-    "durationSeconds": 482
+    "audioTrack": 52,
+    "durationSeconds": 809
   },
   "B14C5": {
     "book": 14,
@@ -4845,8 +4845,8 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B14C5",
-    "audioTrack": 32,
-    "durationSeconds": 482
+    "audioTrack": 52,
+    "durationSeconds": 809
   },
   "B14C6": {
     "book": 14,
@@ -4877,7 +4877,7 @@ window.METAPHYSICS_TEXT = {
     ],
     "hasAudio": true,
     "audioFile": "B14C6",
-    "audioTrack": 32,
-    "durationSeconds": 482
+    "audioTrack": 52,
+    "durationSeconds": 809
   }
 };

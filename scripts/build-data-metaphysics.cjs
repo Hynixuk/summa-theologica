@@ -6,87 +6,46 @@
 //  1. A single flat text file (data/text/metaphysics.json — array of
 //     {book, bookTitle, chapter, paragraphs}) instead of one file per book.
 //  2. Audio that does NOT map 1:1 to chapters. There are 14 books with up to
-//     30 chapters each, but only 32 LibriVox tracks total, so each track
-//     spans a *range* of chapters (and every track stays within one book —
-//     verified below, no track crosses a book boundary).
+//     30 chapters each, but only 52 audio tracks total, so each track spans
+//     a *range* of chapters (every track stays within one book).
 //
-// TRACK -> BOOK/CHAPTER-RANGE MAPPING (the hard part)
+// TRACK -> BOOK/CHAPTER-RANGE MAPPING
 // -----------------------------------------------------------------------
-// LibriVox's track titles look like "Book I Chapters 1-3", "Book I (the
-// Less) Chapters 1-3", "Book II Chapters 4-6", etc. Two things make this
-// NOT a simple "parse the roman numeral" job:
+// The current audio/metaphysics files are named plainly and consistently —
+// "01 - Book 1 Chapters 1-3.mp3", "04 - Book 1 Chapter 10.mp3", etc. — with
+// book numbers that already match this edition's own Book/Chapter numbering
+// directly (no LibriVox-style relabeling to correct for, unlike an older
+// 32-track recording this script once targeted). So the mapping is parsed
+// straight out of each track's filename at build time below, rather than
+// kept as a hand-maintained table — which is important because a hardcoded
+// table silently goes stale the moment the audio files themselves change
+// (exactly what happened here: an earlier 32-track table was still in this
+// file after the audio was replaced with the current, more finely segmented
+// 52-track set, silently mismatching several chapters to the wrong track).
 //
-//   (a) Typos in the actual titles ("14 - Book VI Chaptes 1-5", "22 - Boox
-//       IX Chapters 5-10") make a fully-general regex fragile.
-//   (b) LibriVox's book *labeling* scheme does not match this translation's
-//       internal book numbering. The text scraper (scrape-metaphysics.cjs)
-//       numbers books 1-14 sequentially, where book 2 is "Book II (α, "the
-//       Less")" — i.e. it already burns a roman-numeral slot on the "Less"
-//       book. LibriVox instead calls that book "Book I (the Less)" (as if
-//       it were a variant of Book I, not its own numbered book), and then
-//       reuses "Book II" for what the text calls Book III, "Book III" for
-//       the text's Book IV, ... up through "Book XIII" for the text's Book
-//       14. So every LibriVox roman numeral from II upward is the text's
-//       book number MINUS 1, and "Book I (the Less)" is the text's book 2.
-//
-// Given both, the safest approach is to hardcode the 32-entry table below
-// rather than regex-parse titles at runtime. It was derived by:
-//   1. Reading every track title in audio/metaphysics/manifest.json once
-//      the audio download finished (all 32 present).
-//   2. Applying the label-shift rule above to get each track's internal
-//      book number.
-//   3. Cross-checking the resulting per-book chapter coverage against the
-//      well-established canonical chapter counts for each book (10, 3, 6,
-//      8, 30, 4, 17, 6, 10, 10, 12, 10, 10, 6 for books 1-14 respectively —
-//      see CANONICAL_CHAPTER_COUNTS in scrape-metaphysics.cjs) — every book
-//      except Book 1 lines up exactly (tracks 1-3 cover chapters 1-9 of a
-//      canonically-10-chapter book; the actual OCR'd text also only yielded
-//      chapters 1, 3-9 for Book 1, i.e. the scrape independently lost the
-//      same tail, which is corroborating rather than concerning).
-//
-// This table is APPROXIMATE in the sense that a track's audio is assigned
-// in full to every chapter it nominally covers — there's no way to derive
-// exact in-track timestamps for each chapter boundary from a LibriVox
-// title, so all chapters in a track share one audioFile/durationSeconds and
-// the player will need to let the listener scrub within the track rather
-// than jump to an exact chapter-start timestamp. If per-chapter timestamps
-// are ever wanted, they'd have to come from manual listening or forced
-// alignment (see align-corpus.mjs for the machinery used elsewhere in this
-// project), not from this table.
-const TRACK_BOOK_CHAPTERS = [
-  { track: 1, book: 1, chapterStart: 1, chapterEnd: 3 },
-  { track: 2, book: 1, chapterStart: 4, chapterEnd: 7 },
-  { track: 3, book: 1, chapterStart: 8, chapterEnd: 9 },
-  { track: 4, book: 2, chapterStart: 1, chapterEnd: 3 },
-  { track: 5, book: 3, chapterStart: 1, chapterEnd: 3 },
-  { track: 6, book: 3, chapterStart: 4, chapterEnd: 6 },
-  { track: 7, book: 4, chapterStart: 1, chapterEnd: 3 },
-  { track: 8, book: 4, chapterStart: 4, chapterEnd: 4 },
-  { track: 9, book: 4, chapterStart: 5, chapterEnd: 8 },
-  { track: 10, book: 5, chapterStart: 1, chapterEnd: 6 },
-  { track: 11, book: 5, chapterStart: 7, chapterEnd: 15 },
-  { track: 12, book: 5, chapterStart: 16, chapterEnd: 30 },
-  { track: 13, book: 6, chapterStart: 1, chapterEnd: 4 },
-  { track: 14, book: 7, chapterStart: 1, chapterEnd: 5 },
-  { track: 15, book: 7, chapterStart: 6, chapterEnd: 9 },
-  { track: 16, book: 7, chapterStart: 10, chapterEnd: 12 },
-  { track: 17, book: 7, chapterStart: 13, chapterEnd: 17 },
-  { track: 18, book: 8, chapterStart: 1, chapterEnd: 6 },
-  { track: 19, book: 9, chapterStart: 1, chapterEnd: 7 },
-  { track: 20, book: 9, chapterStart: 8, chapterEnd: 10 },
-  { track: 21, book: 10, chapterStart: 1, chapterEnd: 4 },
-  { track: 22, book: 10, chapterStart: 5, chapterEnd: 10 },
-  { track: 23, book: 11, chapterStart: 1, chapterEnd: 5 },
-  { track: 24, book: 11, chapterStart: 6, chapterEnd: 9 },
-  { track: 25, book: 11, chapterStart: 10, chapterEnd: 12 },
-  { track: 26, book: 12, chapterStart: 1, chapterEnd: 6 },
-  { track: 27, book: 12, chapterStart: 7, chapterEnd: 10 },
-  { track: 28, book: 13, chapterStart: 1, chapterEnd: 4 },
-  { track: 29, book: 13, chapterStart: 5, chapterEnd: 7 },
-  { track: 30, book: 13, chapterStart: 8, chapterEnd: 10 },
-  { track: 31, book: 14, chapterStart: 1, chapterEnd: 3 },
-  { track: 32, book: 14, chapterStart: 4, chapterEnd: 6 },
-];
+// A track's audio is assigned in full to every chapter it nominally covers —
+// there's no way to derive exact in-track timestamps for each chapter
+// boundary from the filename alone, so all chapters in a track share one
+// audioFile/durationSeconds and the player lets the listener scrub within
+// the track rather than jump to an exact chapter-start timestamp.
+const TRACK_TITLE_PATTERN = /Book\s+(\d+)\s+Chapters?\s+(\d+)(?:\s*-\s*(\d+))?/i;
+
+function parseTrackBookChapters(manifest) {
+  const out = [];
+  if (!manifest || !Array.isArray(manifest.tracks)) return out;
+  manifest.tracks.forEach((t) => {
+    const m = TRACK_TITLE_PATTERN.exec(t.file || t.title || '');
+    if (!m) {
+      console.warn(`  ⚠ Could not parse book/chapter range from track ${t.track} filename: ${t.file}`);
+      return;
+    }
+    const book = parseInt(m[1], 10);
+    const chapterStart = parseInt(m[2], 10);
+    const chapterEnd = m[3] ? parseInt(m[3], 10) : chapterStart;
+    out.push({ track: t.track, book, chapterStart, chapterEnd });
+  });
+  return out;
+}
 
 const fs = require('fs');
 const path = require('path');
@@ -148,9 +107,10 @@ function main() {
   if (manifest && Array.isArray(manifest.tracks)) {
     manifest.tracks.forEach((t) => { tracksByNumber[t.track] = t; });
   }
-  // Enrich TRACK_BOOK_CHAPTERS entries with the actual manifest track data
-  // (file name, duration) so lookups below have everything in one place.
-  const trackMap = TRACK_BOOK_CHAPTERS.map((t) => {
+  // Parse each track's book/chapter range straight from its filename (see
+  // header comment), then enrich with the actual manifest track data (file
+  // name, duration) so lookups below have everything in one place.
+  const trackMap = parseTrackBookChapters(manifest).map((t) => {
     const m = tracksByNumber[t.track] || null;
     return {
       ...t,

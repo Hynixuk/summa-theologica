@@ -1595,14 +1595,22 @@
       audioEl.playbackRate = playbackRate;
       if (autoplay) audioEl.play().catch(function () {});
     }
-    // Use the label baked into the audio file's own name (e.g. "Book IV Chapters
-    // 7-15") rather than re-deriving "Book <roman>" from our own book numbering:
-    // the source recordings use their own (older) book-numbering convention, which
-    // doesn't always match this edition's Book/Chapter numbering, so mixing the two
-    // in one label would read as a contradiction (e.g. "Book V — Book IV Chapters...").
-    var trackLabel = trackLabelFromFile(c.audioFile);
+    // c.audioFile is a lookup key (e.g. "B1C1"), not a filename, so there's no
+    // label to extract from it — build one instead from the actual range of
+    // chapters that share this chapter's audio track (several chapters
+    // commonly share one recording), e.g. "Book I — Chapter 1-3".
     var bookMeta = metaBooks.filter(function (b) { return b.book === book; })[0];
-    playerTrackTitle.textContent = trackLabel || ('Book ' + (bookMeta ? bookMeta.roman : book) + ' — Chapter ' + chapterNum);
+    var trackChapters = [];
+    Object.keys(metaTextIndex).forEach(function (k) {
+      var e = metaTextIndex[k];
+      if (e.book === book && e.audioTrack === c.audioTrack) trackChapters.push(e.chapter);
+    });
+    var chapterLabel = 'Chapter ' + chapterNum;
+    if (trackChapters.length > 1) {
+      var lo = Math.min.apply(null, trackChapters), hi = Math.max.apply(null, trackChapters);
+      chapterLabel = 'Chapter ' + lo + '-' + hi;
+    }
+    playerTrackTitle.textContent = 'Book ' + (bookMeta ? bookMeta.roman : book) + ' — ' + chapterLabel;
   }
 
   function syncAudioToChapterMeta(autoplayIfWasPlaying) {
