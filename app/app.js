@@ -1239,12 +1239,23 @@
     form.noValidate = true;
 
     questions.forEach(function (item, qIdx) {
-      var qEl = document.createElement('fieldset');
+      // Plain <div> with role="group" instead of <fieldset>/<legend>: browsers
+      // render a fieldset's border straddling through the legend's own box
+      // (the border-top line is drawn through the legend's vertical center,
+      // per the HTML rendering spec), which visually breaks a multi-line
+      // question out of its rounded box no matter how the legend is styled.
+      // A div avoids that special-case layout entirely.
+      var qEl = document.createElement('div');
       qEl.className = 'quiz-q';
+      qEl.setAttribute('role', 'group');
+      var legendId = 'quiz-q-label-' + storageKey.replace(/[^a-zA-Z0-9]/g, '') + '-' + qIdx;
+      qEl.setAttribute('aria-labelledby', legendId);
 
       // Use textContent (not innerHTML) to render quiz questions as plain text,
       // preventing unintended link styling or HTML injection.
-      var legend = document.createElement('legend');
+      var legend = document.createElement('div');
+      legend.id = legendId;
+      legend.className = 'quiz-q-label';
       legend.textContent = (qIdx + 1) + '. ' + item.q;
       qEl.appendChild(legend);
 

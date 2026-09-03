@@ -884,6 +884,7 @@ body {
   gap: 20px;
 }
 .quiz-q {
+  display: block;
   border: 1px solid var(--rule);
   border-radius: 10px;
   padding: 14px 16px 16px;
@@ -891,10 +892,8 @@ body {
   margin: 0;
   min-width: 0;
 }
-.quiz-q legend {
-  display: table;
-  width: 100%;
-  float: none;
+.quiz-q-label {
+  display: block;
   padding: 0 0 8px;
   margin: 0;
   font-weight: 600;
@@ -904,11 +903,11 @@ body {
   white-space: normal;
 }
 /* Ensure quiz text is never styled as links */
-.quiz-q legend, .quiz-option span, .quiz-explanation {
+.quiz-q-label, .quiz-option span, .quiz-explanation {
   color: inherit;
   text-decoration: none;
 }
-.quiz-q legend a, .quiz-option span a, .quiz-explanation a {
+.quiz-q-label a, .quiz-option span a, .quiz-explanation a {
   color: inherit;
   text-decoration: none;
 }
