@@ -1263,18 +1263,31 @@
       var optsEl = document.createElement('div');
       optsEl.className = 'quiz-options';
 
-      item.options.forEach(function (optText, oIdx) {
+      // Display options in shuffled order so the correct answer isn't
+      // guessable by position alone — across this app's quiz data the
+      // correct answer sits at a fixed index (usually the 2nd option) far
+      // more often than chance, which let a reader skip straight to a good
+      // score without reading anything. input.value keeps the option's
+      // ORIGINAL index regardless of display order, so grading below still
+      // just compares against item.correct unchanged.
+      var displayOrder = item.options.map(function (_, i) { return i; });
+      for (var si = displayOrder.length - 1; si > 0; si--) {
+        var sj = Math.floor(Math.random() * (si + 1));
+        var tmp = displayOrder[si]; displayOrder[si] = displayOrder[sj]; displayOrder[sj] = tmp;
+      }
+
+      displayOrder.forEach(function (originalIdx) {
         var label = document.createElement('label');
         label.className = 'quiz-option';
 
         var input = document.createElement('input');
         input.type = 'radio';
         input.name = 'quiz-' + storageKey + '-q' + qIdx;
-        input.value = String(oIdx);
+        input.value = String(originalIdx);
 
         // Use textContent for option text to prevent unwanted HTML rendering
         var span = document.createElement('span');
-        span.textContent = optText;
+        span.textContent = item.options[originalIdx];
 
         label.appendChild(input);
         label.appendChild(span);
@@ -1319,10 +1332,14 @@
         var isCorrect = selectedIdx === item.correct;
         if (isCorrect) correct++;
 
-        options.forEach(function (optLabel, oIdx) {
+        // Options render in a shuffled display order (see renderQuiz above),
+        // so each option's real identity is its radio input's value — the
+        // DOM position (oIdx) no longer corresponds to item.correct.
+        options.forEach(function (optLabel) {
+          var optIdx = parseInt(optLabel.querySelector('input').value, 10);
           optLabel.classList.remove('is-correct', 'is-incorrect');
-          if (oIdx === item.correct) optLabel.classList.add('is-correct');
-          else if (oIdx === selectedIdx) optLabel.classList.add('is-incorrect');
+          if (optIdx === item.correct) optLabel.classList.add('is-correct');
+          else if (optIdx === selectedIdx) optLabel.classList.add('is-incorrect');
         });
 
         // Use textContent for explanations to ensure plain text rendering
@@ -2079,7 +2096,11 @@
   // Matched by substring against whatever WebLLM's current prebuilt list actually
   // contains (rather than hardcoding one exact versioned ID) so a library update
   // that renames/retires a quantization variant doesn't silently break this.
-  var AI_MODEL_PREFERENCE = ['Llama-3.2-1B-Instruct', 'Qwen2.5-1.5B-Instruct', 'Qwen2.5-0.5B-Instruct', 'gemma-2-2b-it'];
+  // Qwen2.5-0.5B first: it's the smallest capable instruct model WebLLM ships
+  // (roughly a third the download of the 1B/1.5B options), so first load is
+  // much faster — worth more here than the small quality gap for 2-sentence
+  // grounded answers. Larger models stay as fallbacks only if it's missing.
+  var AI_MODEL_PREFERENCE = ['Qwen2.5-0.5B-Instruct', 'Llama-3.2-1B-Instruct', 'Qwen2.5-1.5B-Instruct', 'gemma-2-2b-it'];
   var _webllmModulePromise = null;
   var _aiEngine = null;
   var _aiEngineLoading = null;
@@ -2103,9 +2124,28 @@
     throw new Error('No AI models available from WebLLM.');
   }
 
+  // A device/browser without WebGPU support (older browsers, most mobile
+  // browsers as of this writing, Safari without the feature flag, corporate
+  // GPU-disabled machines) will otherwise sit on the initial "Loading…" state
+  // forever with no explanation — the WebLLM module loads fine, it's the
+  // model init call inside it that eventually errors, but only after however
+  // long the browser takes to give up on requesting a GPU adapter. Checking
+  // navigator.gpu directly first fails fast with an actionable message.
+  function checkAISupport() {
+    if (!('gpu' in navigator)) {
+      return 'This browser doesn’t support the technology (WebGPU) the on-device AI needs. ' +
+        'Try a recent Chrome or Edge on a laptop/desktop, or turn AI off to use keyword search.';
+    }
+    return null;
+  }
+
   function getAIEngine(onProgress) {
     if (_aiEngine) return Promise.resolve(_aiEngine);
     if (_aiEngineLoading) return _aiEngineLoading;
+
+    var unsupported = checkAISupport();
+    if (unsupported) return Promise.reject(new Error(unsupported));
+
     _aiEngineLoading = loadWebLLMModule()
       .then(function (webllm) {
         var modelId = pickAIModel(webllm);
@@ -2127,6 +2167,46 @@
   // snippet shown in ordinary keyword results.
   function entryContextText(entry) {
     return entry.paragraphs.slice(0, 4).map(function (p) { return p.text; }).join(' ').slice(0, 900);
+  }
+
+  // Once a device is confirmed unable to run the on-device model at all (no
+  // WebGPU adapter, not just a slow/failed one-off attempt), skip straight to
+  // the non-AI fallback on every later query in this session instead of
+  // re-attempting and re-failing each time.
+  var _aiConfirmedUnsupported = false;
+
+  // Non-AI fallback for devices that can't run the on-device model: the same
+  // "brief answer, then push to the source" shape as the real AI answer, just
+  // built by extraction (the top matching passage's own opening) instead of
+  // generation. Keeps the feature usable everywhere even without WebGPU.
+  function renderExtractiveFallback(sources) {
+    if (!sources.length) {
+      aiAnswerEl.innerHTML =
+        '<div class="ai-answer-label">AI answer</div>' +
+        '<div class="ai-answer-error">This device can’t run the on-device AI model, and no closely ' +
+        'matching passage was found either. Try rephrasing, or turn AI off to browse keyword results.</div>';
+      return;
+    }
+    var top = sources[0];
+    var excerpt = entryContextText(top.entry).slice(0, 220).trim();
+    var lastSpace = excerpt.lastIndexOf(' ');
+    if (lastSpace > 160) excerpt = excerpt.slice(0, lastSpace);
+    var text = excerpt + '… Read the full passage below for the complete argument.';
+    var html =
+      '<div class="ai-answer-label">Closest passage — on-device AI isn’t available on this device</div>' +
+      '<div class="ai-answer-text">' + escapeHtml(text) + '</div>' +
+      '<div class="ai-answer-sources">' + sources.map(function (r, i) {
+        return '<button type="button" class="ai-answer-source" data-src-index="' + i + '">[' + (i + 1) + '] ' +
+          escapeHtml(locationLabelFor(r.entry)) + ' — ' + escapeHtml(r.entry.aTitle) + '</button>';
+      }).join('') + '</div>';
+    aiAnswerEl.innerHTML = html;
+    aiAnswerEl.querySelectorAll('.ai-answer-source').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var idx = parseInt(btn.dataset.srcIndex, 10);
+        var r = sources[idx];
+        if (r) activateResult(r);
+      });
+    });
   }
 
   function renderAIAnswerShell() {
@@ -2177,13 +2257,33 @@
     var seq = ++_aiQuerySeq;
     var sources = runSearchLenient(query, 5);
 
+    if (_aiConfirmedUnsupported) {
+      aiAnswerEl.hidden = false;
+      renderExtractiveFallback(sources);
+      return;
+    }
+
     renderAIAnswerShell();
+
+    // If no progress callback has fired at all after a while, the download
+    // likely never started (network/extension blocking esm.run or the model
+    // host) rather than just being slow — a real in-progress download reports
+    // percentages well before this. Surface that instead of an unexplained
+    // spinner. Cleared as soon as any real progress or the answer arrives.
+    var gotProgress = false;
+    var stallTimer = setTimeout(function () {
+      if (seq !== _aiQuerySeq || gotProgress) return;
+      setAIProgress('Still trying to start the download… if this doesn’t move, your network or browser extensions may be blocking it.');
+    }, 12000);
 
     getAIEngine(function (report) {
       if (seq !== _aiQuerySeq) return;
+      gotProgress = true;
+      clearTimeout(stallTimer);
       setAIProgress(report && report.text ? report.text : 'Loading on-device AI model…');
     }).then(function (engine) {
       if (seq !== _aiQuerySeq) return;
+      clearTimeout(stallTimer);
       setAIProgress('Thinking…');
 
       var context = sources.length
@@ -2195,13 +2295,19 @@
       var systemPrompt =
         'You are a study assistant inside a reading app containing Aristotle\'s Metaphysics, ' +
         'Aquinas\'s Summa Contra Gentiles, and Aquinas\'s Summa Theologica. Base your answer ONLY on ' +
-        'the numbered excerpts below, not outside knowledge.\n\n' +
-        'STRICT FORMAT — follow exactly:\n' +
-        '1. Write EXACTLY 2 short sentences of orienting answer. Never more.\n' +
-        '2. Then, on a new line, write one final sentence starting with "Read " naming which excerpt ' +
-        'number(s) have the full argument, e.g. "Read [2] for the complete argument."\n' +
-        '3. If no excerpt addresses the question, write one sentence saying so instead of steps 1-2.\n' +
-        'Do not restate the question. Do not write an introduction or a list. Stop after the "Read" sentence.\n\n' +
+        'the numbered excerpts given, not outside knowledge. You MUST always state the actual answer ' +
+        'first — never skip straight to telling the reader where to read it.\n\n' +
+        'Every reply has exactly two parts, in this order:\n' +
+        'PART 1 (required, never omit): 2 sentences that directly answer the question, giving the real ' +
+        'content of the answer.\n' +
+        'PART 2 (required, always last): 1 sentence starting with "Read " pointing to the excerpt ' +
+        'number(s) with the full argument.\n\n' +
+        'Example of a correctly formatted reply, given excerpt [3] on the soul\'s immortality:\n' +
+        'Q: Is the soul immortal?\n' +
+        'A: Yes — the intellectual soul does not depend on the body for its own act of understanding, ' +
+        'so it does not perish when the body does. Read [3] for the complete argument.\n\n' +
+        'If (and only if) none of the excerpts address the question at all, reply with a single sentence ' +
+        'saying so, and skip Part 1.\n\n' +
         'Excerpts:\n' + context;
 
       var accumulated = '';
@@ -2227,12 +2333,21 @@
         })();
       });
     }).catch(function (err) {
+      clearTimeout(stallTimer);
       if (seq !== _aiQuerySeq) return;
       console.error('[AI search]', err);
-      var msg = (err && /webgpu/i.test(String(err.message || err)))
-        ? 'This browser/device does not support the on-device AI model (requires WebGPU). Try a recent Chrome or Edge on desktop, or turn AI off to use keyword search.'
-        : 'Could not load or run the on-device AI model. Turn AI off to use keyword search instead.';
-      renderAIError(msg);
+      var raw = String((err && err.message) || err || '');
+      // Covers both our own checkAISupport() message and WebLLM/the browser's
+      // own wording ("Unable to find a compatible GPU", "No adapter found",
+      // etc.) for a device that has no usable WebGPU adapter at all — as
+      // opposed to some other, possibly-transient failure (network, etc.).
+      var isGpuUnsupported = /webgpu|compatible gpu|gpu adapter|no adapter|requestadapter/i.test(raw);
+      if (isGpuUnsupported) {
+        _aiConfirmedUnsupported = true;
+        renderExtractiveFallback(sources);
+        return;
+      }
+      renderAIError('Could not load or run the on-device AI model. Turn AI off to use keyword search instead.');
     });
   }
 

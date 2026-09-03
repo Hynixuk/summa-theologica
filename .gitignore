@@ -28,3 +28,5 @@ scripts/upload-audio.log
 .idea/
 *.sublime-project
 *.sublime-workspace
+scratch_v1assets.json
+scratch_v3assets.json
