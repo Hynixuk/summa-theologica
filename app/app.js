@@ -33,6 +33,7 @@
   function isRead(part, q, a) { return readSet.has(readKey(part, q, a)); }
   function saveRead() {
     try { localStorage.setItem('summa-read', JSON.stringify(Array.from(readSet))); } catch (e) {}
+    queueSyncPush();
   }
   function setRead(part, q, a, val) {
     var k = readKey(part, q, a);
@@ -1216,6 +1217,7 @@
       if (!prev || correct > prev.correct) map[k] = { correct: correct, total: total };
       localStorage.setItem('summa-quiz-scores', JSON.stringify(map));
     } catch (e) {}
+    queueSyncPush();
   }
 
   function renderQuiz(questions, storageKey) {
@@ -1851,6 +1853,7 @@
         scrollY: window.scrollY || 0
       }));
     } catch (e) {}
+    queueSyncPush();
   }
 
   document.addEventListener('visibilitychange', function () {
@@ -2629,6 +2632,175 @@
       }
     }
   });
+
+  // ---- Account + cross-device sync (Supabase) ----
+  // One row per signed-in user (table user_progress, see supabase-schema.sql)
+  // mirrors the three localStorage keys this app already used solo:
+  // summa-read, summa-quiz-scores, summa-session. Signed-out visitors are
+  // completely unaffected — everything falls back to localStorage-only,
+  // exactly as before this feature existed.
+  var accountBtn = $('accountBtn'), accountOverlay = $('accountOverlay'), closeAccountBtn = $('closeAccountBtn'), accountBody = $('accountBody');
+
+  var supabaseClient = null;
+  if (window.supabase && window.SUPABASE_URL && window.SUPABASE_ANON_KEY) {
+    try { supabaseClient = window.supabase.createClient(window.SUPABASE_URL, window.SUPABASE_ANON_KEY); } catch (e) { supabaseClient = null; }
+  }
+  var currentUser = null; // { id, email } | null
+  var _syncPushTimer = null;
+  var _syncInFlight = false; // guards mergeRemoteIntoLocal's own writes from immediately re-queuing a push
+
+  function queueSyncPush() {
+    if (!supabaseClient || !currentUser || _syncInFlight) return;
+    clearTimeout(_syncPushTimer);
+    _syncPushTimer = setTimeout(pushLocalToRemote, 1500);
+  }
+
+  function pushLocalToRemote() {
+    if (!supabaseClient || !currentUser) return;
+    var readKeys = [], quizScores = {}, session = null;
+    try { readKeys = JSON.parse(localStorage.getItem('summa-read') || '[]'); } catch (e) {}
+    try { quizScores = JSON.parse(localStorage.getItem('summa-quiz-scores') || '{}'); } catch (e) {}
+    try { session = JSON.parse(localStorage.getItem('summa-session') || 'null'); } catch (e) {}
+    supabaseClient.from('user_progress').upsert({
+      user_id: currentUser.id,
+      read_keys: readKeys,
+      quiz_scores: quizScores,
+      session: session
+    }).then(function (res) {
+      if (res.error) console.error('[sync] push failed', res.error);
+    });
+  }
+
+  // Union read markers, keep the higher of each quiz score, and only adopt
+  // the remote reading/audio position if this device doesn't already have
+  // one of its own (never clobber an in-progress local session).
+  function mergeRemoteIntoLocal(remote) {
+    if (!remote) return;
+    _syncInFlight = true;
+    try {
+      var localReadArr = [];
+      try { localReadArr = JSON.parse(localStorage.getItem('summa-read') || '[]'); } catch (e) {}
+      var merged = new Set(localReadArr);
+      (remote.read_keys || []).forEach(function (k) { merged.add(k); });
+      readSet = merged;
+      saveRead();
+
+      var localScores = {};
+      try { localScores = JSON.parse(localStorage.getItem('summa-quiz-scores') || '{}'); } catch (e) {}
+      var remoteScores = remote.quiz_scores || {};
+      Object.keys(remoteScores).forEach(function (k) {
+        var r = remoteScores[k], l = localScores[k];
+        if (!l || r.correct > l.correct) localScores[k] = r;
+      });
+      localStorage.setItem('summa-quiz-scores', JSON.stringify(localScores));
+
+      if (!getSavedSession() && remote.session) {
+        localStorage.setItem('summa-session', JSON.stringify(remote.session));
+      }
+    } finally {
+      _syncInFlight = false;
+    }
+  }
+
+  function pullRemoteAndMerge() {
+    if (!supabaseClient || !currentUser) return;
+    supabaseClient.from('user_progress').select('*').eq('user_id', currentUser.id).maybeSingle()
+      .then(function (res) {
+        if (res.error) { console.error('[sync] pull failed', res.error); return; }
+        if (res.data) mergeRemoteIntoLocal(res.data);
+        else pushLocalToRemote(); // first sign-in on this account: seed the row from local data
+        updateNavReadBadges();
+        renderAccountBody();
+      });
+  }
+
+  function sendMagicLink(email) {
+    if (!supabaseClient) return Promise.resolve({ error: { message: 'Sync is not available right now.' } });
+    return supabaseClient.auth.signInWithOtp({
+      email: email,
+      options: { emailRedirectTo: window.location.origin + window.location.pathname }
+    });
+  }
+
+  function signOutAccount() {
+    if (!supabaseClient) return;
+    supabaseClient.auth.signOut();
+  }
+
+  function renderAccountBody() {
+    if (!accountBody) return;
+    if (!supabaseClient) {
+      accountBody.innerHTML = '<p class="account-lede">Account sync isn’t available right now.</p>';
+      return;
+    }
+    if (currentUser) {
+      accountBody.innerHTML =
+        '<div class="account-signedin-email">' + escapeHtml(currentUser.email) + '</div>' +
+        '<div class="account-signedin-sub">Signed in — your reading progress, quiz scores, and position sync automatically across devices.</div>' +
+        '<button type="button" id="accountSignOutBtn" class="account-btn account-btn-secondary">Sign out</button>';
+      var signOutBtn = $('accountSignOutBtn');
+      if (signOutBtn) signOutBtn.addEventListener('click', signOutAccount);
+    } else {
+      accountBody.innerHTML =
+        '<p class="account-lede">Sign in with your email to sync your reading progress, quiz scores, and position across devices. No password — we’ll email you a sign-in link.</p>' +
+        '<form id="accountForm" novalidate>' +
+        '<div class="account-field"><label for="accountEmail">Email</label>' +
+        '<input type="email" id="accountEmail" required autocomplete="email" placeholder="you@example.com"></div>' +
+        '<button type="submit" class="account-btn">Send sign-in link</button>' +
+        '</form>' +
+        '<div id="accountStatus" class="account-status" role="status"></div>';
+      var form = $('accountForm');
+      if (form) {
+        form.addEventListener('submit', function (evt) {
+          evt.preventDefault();
+          var emailInput = $('accountEmail');
+          var status = $('accountStatus');
+          var submitBtn = form.querySelector('button[type="submit"]');
+          var email = emailInput.value.trim();
+          if (!email) return;
+          submitBtn.disabled = true;
+          status.textContent = 'Sending…';
+          status.className = 'account-status';
+          sendMagicLink(email).then(function (res) {
+            submitBtn.disabled = false;
+            if (res.error) {
+              status.textContent = res.error.message || 'Could not send sign-in link.';
+              status.className = 'account-status is-error';
+            } else {
+              status.textContent = 'Check your email for a sign-in link.';
+              status.className = 'account-status is-success';
+            }
+          });
+        });
+      }
+    }
+  }
+
+  function openAccount() { accountOverlay.classList.add('open'); renderAccountBody(); }
+  function closeAccount() { accountOverlay.classList.remove('open'); }
+  if (accountBtn) accountBtn.addEventListener('click', openAccount);
+  if (closeAccountBtn) closeAccountBtn.addEventListener('click', closeAccount);
+  if (accountOverlay) {
+    accountOverlay.addEventListener('click', function (e) { if (e.target === accountOverlay) closeAccount(); });
+  }
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && accountOverlay && accountOverlay.classList.contains('open')) closeAccount();
+  });
+
+  if (supabaseClient) {
+    supabaseClient.auth.onAuthStateChange(function (event, session) {
+      var wasSignedIn = !!currentUser;
+      currentUser = (session && session.user) ? { id: session.user.id, email: session.user.email } : null;
+      renderAccountBody();
+      if (currentUser && !wasSignedIn) pullRemoteAndMerge();
+    });
+    supabaseClient.auth.getSession().then(function (res) {
+      var session = res.data && res.data.session;
+      currentUser = (session && session.user) ? { id: session.user.id, email: session.user.email } : null;
+      renderAccountBody();
+      if (currentUser) pullRemoteAndMerge();
+    });
+  }
 
   // ---- Init ----
   buildTree();

@@ -482,9 +482,111 @@ body {
   opacity: 0;
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
-.search-overlay.open .search-panel {
+.search-overlay.open .search-panel,
+.search-overlay.open .account-panel {
   transform: translateY(0);
   opacity: 1;
+}
+
+/* Account / sync panel — shares .search-overlay's backdrop, own compact panel */
+.account-panel {
+  width: min(420px, 100%);
+  background: var(--bg-elevated);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  box-shadow: 0 12px 40px var(--shadow);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateY(-10px);
+  opacity: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.account-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--rule);
+}
+.account-head h2 {
+  margin: 0;
+  font-size: 1rem;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+.account-body {
+  padding: 18px 20px 22px;
+}
+.account-lede {
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+.account-field {
+  display: block;
+  margin-bottom: 14px;
+}
+.account-field label {
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+.account-field input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+.account-field input:focus {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+}
+.account-btn {
+  width: 100%;
+  padding: 11px 14px;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-family: inherit;
+  font-size: 0.92rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.account-btn:hover { filter: brightness(1.08); }
+.account-btn:disabled { opacity: 0.6; cursor: default; }
+.account-btn-secondary {
+  background: transparent;
+  border: 1px solid var(--rule);
+  color: var(--ink);
+}
+.account-status {
+  margin-top: 12px;
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+.account-status.is-error { color: var(--danger); }
+.account-status.is-success { color: var(--success); }
+.account-signedin-email {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.account-signedin-sub {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
 }
 .search-bar {
   display: flex;
