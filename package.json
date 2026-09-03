@@ -1,0 +1,21 @@
+{
+  "name": "summa-theologica",
+  "version": "1.0.0",
+  "description": "Read and listen to Aristotle's Metaphysics, Summa Contra Gentiles, and Summa Theologica with synchronized audio and cross-references",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "summa-theologica",
+    "philosophy",
+    "theology",
+    "thomas-aquinas",
+    "aristotle"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
