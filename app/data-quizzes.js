@@ -1,4 +1,5 @@
-// Auto-generated — quiz data for ST, SCG, and Metaphysics.
+// Auto-generated — quiz data for ST, SCG, Metaphysics, and Trinity.
+// Rebuild trinity section with: node scripts/build-trinity-quizzes.cjs
 window.QUIZZES = {
   "st": {
     "P4Q46": [
@@ -33370,6 +33371,7953 @@ window.QUIZZES = {
         ],
         "correct": 1,
         "explanation": "Aristotle's conclusion reveals the ultimate aim of metaphysics: to understand the eternal principles grounding reality, and in that understanding to achieve human fulfillment through participation in divine wisdom."
+      }
+    ]
+  },
+  "trinity": {
+    "TRIN-B1C0": [
+      {
+        "q": "According to the prefatory letter to Bishop Aurelius, why was On the Trinity published in a less polished state than Augustine intended?",
+        "options": [
+          "Augustine deliberately released an early draft to gather feedback before finishing it",
+          "Some of the books were stolen and circulated before he had revised and completed them, forcing him to finish and correct the rest to match",
+          "Aurelius commissioned a rival editor to publish it against Augustine's wishes",
+          "Augustine lost his original manuscript in a fire and had to reconstruct it from memory"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that unauthorized copies of the unfinished work got out, so rather than let the surreptitious version stand uncorrected forever, he completed and revised it as best he could and sent it to Aurelius."
+      },
+      {
+        "q": "Per Augustine's Retractations, how many years and books did the composition of On the Trinity involve, and what happened at Book Thirteen?",
+        "options": [
+          "It was written quickly in under a year, and no interruption occurred",
+          "It took several years across fifteen books, and it was stolen from him before he had finished the thirteenth",
+          "It took several years, and Book Thirteen was the first one he ever wrote",
+          "It was written in fifteen books over several years, and Book Thirteen was later suppressed by Church authorities"
+        ],
+        "correct": 1,
+        "explanation": "Augustine says he spent years writing the fifteen books, and that the work was stolen from him before he had finished the thirteenth book, in a less correct state than he wanted."
+      },
+      {
+        "q": "Why does Augustine say he had originally decided NOT to publish the work himself once he learned of the theft?",
+        "options": [
+          "He planned instead to mention what had happened in another work, until his brethren's urgent requests persuaded him to finish and publish it after all",
+          "He believed the doctrine of the Trinity was too dangerous to commit to writing at all",
+          "He was waiting for imperial approval before releasing any theological work",
+          "He wanted Aurelius to co-author the final version with him"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states he first resolved not to publish it himself but to note the theft elsewhere, only changing course because of the pressing request of brethren he could not refuse."
+      }
+    ],
+    "TRIN-B1C1": [
+      {
+        "q": "Augustine identifies three classes of people whose errors about God he is writing against. What is the error of the second class?",
+        "options": [
+          "They transfer ideas drawn from bodily, sensory experience directly onto God",
+          "They frame their notions of God according to the nature and affections of the human mind, such as imagining God forgetting or remembering",
+          "They deny that God can be known by faith at all and demand mathematical proof",
+          "They confuse the persons of the Trinity with three separate gods worshiped by pagans"
+        ],
+        "correct": 1,
+        "explanation": "The first class transfers bodily conceptions to God, the second projects the mind's own nature and affections onto Him (as when Scripture speaks of God 'forgetting' or 'repenting'), and the third tries to transcend all creation but errs through presumptuous over-boldness."
+      },
+      {
+        "q": "Why, according to Augustine, does Scripture use bodily images like 'hide me under the shadow of your wings' when speaking of God?",
+        "options": [
+          "Because God genuinely possesses wings in a spiritual sense",
+          "Because such language is a later corruption introduced by careless scribes",
+          "As nourishment drawn from things that really exist, so that the understanding of the weak may rise by degrees toward things divine",
+          "Because the human body is itself considered part of the divine substance"
+        ],
+        "correct": 2,
+        "explanation": "Augustine says Scripture 'suits itself to babes' and draws words from things that really exist (bodily or spiritual) as a kind of nourishment, so the mind can gradually be raised toward transcendent truth, unlike the third class of error which imagines things answering to nothing real at all."
+      },
+      {
+        "q": "What does Augustine say makes the third class of erring inquirers 'more mischievously and emptily vain' than the other two?",
+        "options": [
+          "They alone reject Scripture outright and rely solely on pagan philosophy",
+          "They surmise things about God that correspond to nothing at all, neither body, nor created spirit, nor the Creator, unlike the other two who at least draw on things that really exist",
+          "They alone commit the sin of idolatry by worshiping images",
+          "They alone are formally excommunicated by the Church for their views"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues the first two classes at least draw their false conceptions from things that exist (bodies, or the mind's own nature), while the third invents notions answering to nothing found anywhere in creation or the Creator, making their error emptier."
+      }
+    ],
+    "TRIN-B1C2": [
+      {
+        "q": "What specific thing does Augustine set out to demonstrate first, before tackling the harder philosophical questions about the Trinity?",
+        "options": [
+          "That reason alone, without Scripture, can establish the doctrine of the Trinity",
+          "According to the authority of Holy Scripture, whether the faith concerning the Trinity is as the Catholic Church holds it",
+          "That the Greek and Latin philosophical traditions agree on the nature of God",
+          "The historical timeline of the Church councils that defined the Trinity"
+        ],
+        "correct": 1,
+        "explanation": "Augustine says he must first demonstrate from the authority of Scripture whether the faith is as stated, before engaging the more contentious arguers on their own terms."
+      },
+      {
+        "q": "What does Augustine hope quarrelsome disputants will gain even if they cannot grasp the deepest truths about the Trinity?",
+        "options": [
+          "That they will at least find something they cannot doubt, prompting them to blame their own minds rather than the truth, and so return to faith",
+          "That they will abandon philosophy entirely and devote themselves only to manual labor",
+          "That they will be persuaded to convert immediately without any further inquiry",
+          "That they will accept Augustine's authority as bishop without question"
+        ],
+        "correct": 0,
+        "explanation": "Augustine hopes to give even the 'more puffed up than capable' disputants something indubitable, so that where they fail to find the same elsewhere they blame their own minds rather than the truth, and are led back to begin from faith."
+      },
+      {
+        "q": "How does Augustine characterize his own attitude toward inquiry and possible error in this chapter?",
+        "options": [
+          "He claims complete certainty and refuses to entertain the possibility of correction",
+          "He says he will not shrink from inquiry if in doubt, nor be ashamed to learn if in error",
+          "He states that only bishops are permitted to inquire into such matters",
+          "He insists the topic is too dangerous for him to have investigated personally"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explicitly says, 'Neither will I myself shrink from inquiry, if I am anywhere in doubt; nor be ashamed to learn, if I am anywhere in error,' presenting himself as a fellow seeker rather than a settled authority."
+      }
+    ],
+    "TRIN-B1C3": [
+      {
+        "q": "What four-part 'agreement' does Augustine propose to his readers at the start of this chapter?",
+        "options": [
+          "That readers pay for copies, memorize the text, debate it publicly, and report disagreements to the bishop",
+          "That they advance together where both agree, inquire together where both hesitate, return to Augustine where the reader sees his own error, and call Augustine back where the reader sees his",
+          "That readers accept every claim on Augustine's authority without question",
+          "That readers first master Greek philosophy before attempting the work"
+        ],
+        "correct": 1,
+        "explanation": "Augustine proposes a mutual, charitable pact: go on together in agreement, inquire together in doubt, return to him when the reader errs, and call him back when he errs, so both advance on 'the path of charity' together."
+      },
+      {
+        "q": "If a reader cannot understand Augustine's language in a given passage, what does Augustine say this shows?",
+        "options": [
+          "That the reader's faith is defective",
+          "That the reader finds fault with his language, not with his faith, and the point could perhaps have been expressed more clearly",
+          "That the passage must be a later scribal corruption",
+          "That the reader should immediately abandon the study of theology"
+        ],
+        "correct": 1,
+        "explanation": "Augustine distinguishes clearly: an obscure passage is a fault of expression, not of the doctrine itself, and he even grants it might have been put more clearly."
+      },
+      {
+        "q": "What does Augustine say is useful about many different authors writing many books on the same theological questions?",
+        "options": [
+          "It proves that no single author can be trusted on such difficult matters",
+          "Differing in style but not in faith, many books let the same matter reach more readers, since not everyone who understands one author will find or understand another",
+          "It allows the Church to select the one official version and discard the rest",
+          "It demonstrates that theological truth is ultimately a matter of majority opinion"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reasons that because not all readers will find or grasp the same books, it is useful that many write on the same subjects in different styles, so more readers are reached even if some find only one author's work and not another's."
+      }
+    ],
+    "TRIN-B1C4": [
+      {
+        "q": "According to the Catholic rule of faith Augustine states here, what is true of the Father, Son, and Holy Spirit together?",
+        "options": [
+          "They are three separate gods who cooperate in perfect harmony",
+          "They intimate a divine unity of one and the same substance in indivisible equality, and so are not three Gods but one God",
+          "They are three names for the same single Person appearing at different times",
+          "Only the Father is properly God; the Son and Spirit are exalted creatures"
+        ],
+        "correct": 1,
+        "explanation": "Augustine states the Catholic teaching plainly: Father, Son, and Holy Spirit are one and the same substance in indivisible equality, hence one God, not three."
+      },
+      {
+        "q": "Why, in this rule of faith, was it only the Son and not the whole Trinity who was born of the Virgin Mary and crucified?",
+        "options": [
+          "Because the Father and Spirit are not truly divine and could not be incarnate",
+          "Because the Trinity works indivisibly overall, yet Scripture attributes the incarnation, birth, and crucifixion specifically to the person of the Son alone, not to Father or Spirit",
+          "Because Mary chose only the Son as her child, excluding the others by her own will",
+          "Because the Father and the Spirit had already been incarnate in earlier ages"
+        ],
+        "correct": 1,
+        "explanation": "Even though the Trinity acts indivisibly, Augustine insists only the Son, not the Trinity as such, was born of Mary, crucified, buried, and rose again, preserving the distinction of persons within the unity of substance."
+      },
+      {
+        "q": "What example besides the incarnation does Augustine give of an action proper to only one Person of the Trinity?",
+        "options": [
+          "The parting of the Red Sea, attributed to the Father alone",
+          "The descent in the form of a dove at Jesus' baptism and the appearance of tongues of fire at Pentecost, both attributed to the Holy Spirit alone",
+          "The creation of Adam, attributed to the Son alone",
+          "The giving of the Law at Sinai, attributed to the Spirit alone"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes that the dove at the baptism and the tongues of fire at Pentecost are said of the Holy Spirit alone, not of the whole Trinity, just as the voice from heaven, 'You are my Son,' belongs to the Father alone."
+      }
+    ],
+    "TRIN-B1C5": [
+      {
+        "q": "What is the central difficulty Augustine says inquirers raise about the Trinity's 'indivisible' working?",
+        "options": [
+          "How the Trinity can be indivisible if the Father spoke a voice at the Jordan, only the Son took flesh and rose, and only the Spirit appeared as a dove, seemingly performing separate acts",
+          "How three Persons can share a single physical body",
+          "How the Trinity can create a world that contains evil",
+          "How the Son can be younger in time than the Father"
+        ],
+        "correct": 0,
+        "explanation": "The puzzle Augustine names is how the Trinity can work indivisibly in everything, yet particular acts (the Father's voice, the Son's incarnation and passion, the Spirit's dove-form) seem to belong to only one Person each."
+      },
+      {
+        "q": "What further question about the Holy Spirit's origin does Augustine flag as difficult in this chapter?",
+        "options": [
+          "Whether the Holy Spirit ceased to exist after Pentecost",
+          "In what manner the Holy Spirit is in the Trinity, since He is not begotten by the Father, the Son, or both, yet is called the Spirit of both",
+          "Whether the Holy Spirit is younger than the Son",
+          "Whether the Holy Spirit has a distinct physical form of his own"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes the puzzle of how the Spirit belongs to the Trinity when He is 'begotten' by neither Father nor Son nor both together, yet is truly the Spirit of each."
+      },
+      {
+        "q": "How does Augustine describe his own posture in undertaking to answer these difficulties?",
+        "options": [
+          "As one discoursing with the authority of settled knowledge on matters already fully known to him",
+          "As one who, echoing Paul's 'not as though I had already attained,' is learning by piously discoursing rather than teaching from a position of complete knowledge",
+          "As a scribe merely compiling the opinions of earlier Fathers without adding anything",
+          "As someone who considers the whole question already too obscure to be worth pursuing"
+        ],
+        "correct": 1,
+        "explanation": "Augustine quotes Philippians 3 ('not as though I had already attained') to frame himself as still pressing forward, disclosing the road he has traveled so far rather than lecturing with settled finality."
+      }
+    ],
+    "TRIN-B1C6": [
+      {
+        "q": "How does Augustine argue from John 1:1-3 that the Son cannot be a creature?",
+        "options": [
+          "Because John never mentions the Son being 'made,' the argument rests on silence alone",
+          "Because 'all things were made by Him' means He made the whole creature; therefore He himself was not made, and whatever is not made and not a creature must be of the same substance as the Father",
+          "Because the Son is described as older than the Father in the Greek text",
+          "Because John identifies the Son with the Holy Spirit directly"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's syllogism: all things (the whole creature) were made through Him, so He was not made; whatever is not made is not a creature; whatever is not a creature is of the same substance as God — hence the Son is consubstantial with the Father."
+      },
+      {
+        "q": "What scriptural argument does Augustine use to show the Holy Spirit is not a creature?",
+        "options": [
+          "That the Spirit is never mentioned as acting in the Old Testament",
+          "That believers are commanded to render the exclusive worship owed to God alone (latria) to the Spirit, and that our bodies are called the temple of the Holy Spirit, which would be blasphemous if the Spirit were a lesser creature",
+          "That the Spirit is described in Genesis as one of the six days' creations",
+          "That the Spirit is explicitly called an angel in the book of Daniel"
+        ],
+        "correct": 1,
+        "explanation": "Augustine points to texts commanding the exclusive service (latria) due only to God being rendered to the Spirit, and to 'your body is the temple of the Holy Ghost,' arguing it would be senseless for Christ's members to be the temple of a mere creature."
+      },
+      {
+        "q": "Why does Augustine say 1 Timothy's phrase 'who only has immortality' should be understood of the whole Trinity rather than the Father alone?",
+        "options": [
+          "Because the passage explicitly names Father, Son, and Spirit in sequence",
+          "Because the surrounding text names no single Person specially but speaks of 'the blessed and only Potentate, King of kings, and Lord of lords,' which Augustine takes as the one true God, the Trinity itself, and because the Son too is 'eternal life'",
+          "Because Paul is quoting a psalm addressed only to the Spirit",
+          "Because the Latin manuscripts differ from the Greek on this point"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes the passage names no Person specifically, and since the Son is elsewhere called 'eternal life' itself, immortality in the fullest sense belongs to the one God who is the Trinity, not to the Father exclusively."
+      }
+    ],
+    "TRIN-B1C7": [
+      {
+        "q": "What is the interpretive key Augustine introduces here for texts like 'My Father is greater than I'?",
+        "options": [
+          "That such texts are later interpolations that should be excised from Scripture",
+          "That the Son is less than the Father according to the 'form of a servant' He took in the Incarnation, while remaining equal according to the eternal 'form of God'",
+          "That 'greater' here means only 'older,' not superior in any other sense",
+          "That the text refers only to the Father's greater physical size in a vision"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's rule: the form of God/form of servant distinction (drawn from Philippians 2) lets both 'equal to the Father' and 'the Father is greater' be true simultaneously, applied to different aspects of the one Christ."
+      },
+      {
+        "q": "In what surprising sense does Augustine say the Son is even 'less than Himself'?",
+        "options": [
+          "Because His human body was smaller in stature than typical adult men",
+          "Because in taking the form of a servant while not losing the form of God, He who is equal to the Father in the form of God is also, in the form of a servant, less than that very same divine self",
+          "Because His resurrected body possessed fewer capacities than His earthly body",
+          "Because the Son's knowledge decreased permanently after the Ascension"
+        ],
+        "correct": 1,
+        "explanation": "Since the same one Son exists both in the form of God (equal to the Father) and the form of a servant (less than the Father), Augustine notes He is, in a real sense, less than Himself when the two forms are compared."
+      },
+      {
+        "q": "Does Augustine say that taking the form of a servant meant the Son lost the form of God?",
+        "options": [
+          "Yes, the divine nature was entirely converted into human nature at the Incarnation",
+          "No; the form of a servant was taken without the form of God being lost, so the same Son is simultaneously equal to the Father and, in the assumed nature, less than the Father",
+          "Yes, but only temporarily during the Passion, after which the divine form was restored",
+          "The chapter leaves the question deliberately unanswered pending further argument"
+        ],
+        "correct": 1,
+        "explanation": "Augustine is explicit that the form of a servant was so taken 'that the form of God was not lost,' since neither nature is converted into the other by the union."
+      }
+    ],
+    "TRIN-B1C8": [
+      {
+        "q": "How does Augustine interpret 'then shall the Son also himself be subject unto him that put all things under him' (1 Corinthians 15)?",
+        "options": [
+          "As meaning Christ's human nature will be transformed into the very substance of the Father",
+          "As meaning Christ will bring believers, who now live by faith under His mediatorial reign, to the direct contemplation of God, not that His human nature is converted into deity or that He ceases to reign",
+          "As a prophecy that Christ will be replaced by the Father as ruler of the universe",
+          "As referring only to the future subjection of demons at the Last Judgment"
+        ],
+        "correct": 1,
+        "explanation": "Augustine rejects readings that make Christ's human nature literally become divine substance, arguing instead that 'delivering up the kingdom' means bringing the faithful to face-to-face contemplation of God, while the Father-Son working remains indivisible."
+      },
+      {
+        "q": "Why does Augustine reject the view that Christ's 'delivering up the kingdom to the Father' means He gives it away and no longer possesses it?",
+        "options": [
+          "Because he denies that 1 Corinthians 15 is genuinely Pauline",
+          "Because the Father and Son work indivisibly and are one God together, so the Father having the kingdom does not exclude the Son, any more than the Son 'delivering up' authority means He is stripped of it",
+          "Because the kingdom in question refers only to an earthly, political kingdom",
+          "Because Augustine believes the passage describes an event that already occurred at the Ascension and has no future reference"
+        ],
+        "correct": 1,
+        "explanation": "Augustine insists that since Father and Son are one God working indivisibly, 'delivering up the kingdom to the Father' cannot mean the Son loses or is excluded from it, but rather describes bringing believers to a fuller vision of the one God."
+      },
+      {
+        "q": "What does Augustine say about the word 'until' in 'He must reign, until He has put all enemies under his feet'?",
+        "options": [
+          "It proves conclusively that Christ's reign will end at a fixed date",
+          "It is a phrase careless or contentious readers misuse, since Scripture elsewhere uses 'until' (as in 'he shall not be afraid, until he see his desire upon his enemies') without implying the state ends afterward",
+          "It should be translated 'forever' in the original Greek, resolving the difficulty",
+          "It refers to a period of exactly one thousand years"
+        ],
+        "correct": 1,
+        "explanation": "Augustine points out that Scripture's use of 'until' does not always imply cessation afterward, using a psalm parallel to show the same construction elsewhere does not mean the state described stops when the 'until' clause is fulfilled."
+      }
+    ],
+    "TRIN-B1C9": [
+      {
+        "q": "What principle does Augustine draw from Christ's promise 'I will manifest myself to him' without mentioning the Father?",
+        "options": [
+          "That the Son is greater than the Father in that particular promise",
+          "That naming one Person of the Trinity often implies the others by consequence, since the Persons are inseparable, so manifesting the Son entails manifesting the Father who is in Him",
+          "That this text proves the Father cannot be seen even in eternity",
+          "That the promise applies only to the apostles and no one else"
+        ],
+        "correct": 1,
+        "explanation": "Because the Father and the Son mutually indwell one another ('I and my Father are one'), Augustine argues that naming the Son's self-manifestation implicitly includes the Father's, since the Persons cannot be separated in such acts."
+      },
+      {
+        "q": "How does Augustine handle the objection that when 'the Father and Son make their abode' with a believer, the Holy Spirit might be excluded?",
+        "options": [
+          "He concedes the Spirit is indeed excluded from that particular indwelling",
+          "He rejects the idea as senseless, citing Christ's promise of 'another Comforter... that he may abide with you for ever,' showing the Spirit remains eternally in the same abode with the Father and Son",
+          "He argues the question is unanswerable and leaves it open",
+          "He claims the Spirit only indwells believers after the believer's death"
+        ],
+        "correct": 1,
+        "explanation": "Augustine cites the promise that the Comforter will 'abide with you for ever' to show the Spirit does not depart to make way for the Father and Son, since none of the three come or dwell without the others."
+      },
+      {
+        "q": "According to Augustine, why does Scripture sometimes name only one Person of the Trinity when discussing salvation or indwelling?",
+        "options": [
+          "Because the other two Persons are less directly involved in the economy of salvation",
+          "In order to intimate the Trinity by naming Persons separately at different points, without thereby excluding the others, given the unity of substance and Godhead",
+          "Because early manuscripts of Scripture only recognized one divine Person",
+          "Because Scripture is inconsistent and reflects competing theological schools"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that Scripture names Persons separately 'to intimate the Trinity,' distinguishing them for our understanding, while never actually excluding the other two given their inseparable unity."
+      }
+    ],
+    "TRIN-B1C10": [
+      {
+        "q": "What does Augustine say Mary's sitting at Jesus' feet (Luke 10) prefigures?",
+        "options": [
+          "The active life of good works that Martha represents as ultimately superior",
+          "The 'best part' of restful contemplation of the truth that will not be taken away, foreshadowing the eternal contemplation of God after the kingdom is delivered up",
+          "The temporary nature of all religious devotion in this present life",
+          "The subordination of women's spiritual authority to that of men in the early Church"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reads Mary's choice as prefiguring the eternal rest of contemplating God, contrasted with Martha's necessary but passing ministry, since the 'best part... shall not be taken away.'"
+      },
+      {
+        "q": "Why will Christ, according to Augustine, no longer 'make intercession for us' once He has delivered up the kingdom to the Father?",
+        "options": [
+          "Because He will have ceased to be both God and man at that point",
+          "Because intercession belongs to His office as Mediator for those who live by faith; once believers attain face-to-face vision, that mediating intercession, tied to the 'form of a servant,' will no longer be needed",
+          "Because the Father will replace Him with the Holy Spirit as the sole mediator",
+          "Because intercession was only ever a symbolic ritual with no ongoing reality"
+        ],
+        "correct": 1,
+        "explanation": "Augustine ties intercession to Christ's priestly mediating role for those who believe without yet seeing; once the redeemed reach the vision of God, that particular office, exercised through the form of a servant, comes to its intended completion."
+      },
+      {
+        "q": "How does Augustine explain John 16's 'I will no more speak unto you in similitudes, but shall show you plainly of the Father'?",
+        "options": [
+          "As referring to a change in Jesus' rhetorical style during His earthly ministry only",
+          "As describing the shift from believing 'through a glass, in an enigma' to seeing 'face to face,' when similitudes give way to direct vision at the consummation",
+          "As a prediction that all parables would be removed from the four Gospels",
+          "As proof that the Father can never be known even in the age to come"
+        ],
+        "correct": 1,
+        "explanation": "Augustine connects this to Paul's 'face to face' language, reading it as the promise that the mediated, symbolic knowledge of this life will give way to direct contemplation in eternity."
+      }
+    ],
+    "TRIN-B1C11": [
+      {
+        "q": "What is the single interpretive 'rule' Augustine says he has now established for reading Scripture on the Son?",
+        "options": [
+          "That every text about the Son should be read literally without further distinction",
+          "That texts must be sorted by whether they concern the 'form of God,' in which the Son is equal to the Father, or the 'form of a servant,' in which He is less",
+          "That only texts from the Gospel of John apply to the divine nature of Christ",
+          "That texts calling the Son 'less' are simply scribal errors to be corrected"
+        ],
+        "correct": 1,
+        "explanation": "Augustine states the rule plainly: distinguish what is said according to the form of God (equality) from what is said according to the form of a servant (subordination) to avoid being troubled by apparently contradictory texts."
+      },
+      {
+        "q": "Besides being 'less than the Father,' what other kind of 'lessening' does Augustine mention the Son undergoes according to the form of a servant?",
+        "options": [
+          "He is also said to be less than the Holy Spirit, since blasphemy against the Spirit is unforgivable while blasphemy against the Son of man can be forgiven",
+          "He is said to be less than the angels in intelligence permanently",
+          "He is said to be less than Adam in moral perfection",
+          "He is said to be less than John the Baptist in authority to baptize"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes Christ's own words that speaking against the Son of man can be forgiven but not against the Holy Spirit, taking this (according to the form of a servant) as another sense in which the Son is spoken of as 'less.'"
+      },
+      {
+        "q": "What example from Isaiah does Augustine cite to show the Son acting 'in the Spirit' according to the form of a servant?",
+        "options": [
+          "'The Spirit of the Lord God is upon me... he has anointed me to preach good tidings,' which Christ read in the synagogue and applied to Himself",
+          "'A voice crying in the wilderness, prepare the way of the Lord'",
+          "'Behold, a virgin shall conceive and bear a son'",
+          "'He was despised and rejected of men, a man of sorrows'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the passage from Isaiah that Christ read and applied to Himself in the synagogue ('The Spirit of the Lord God is upon me... he has anointed me'), showing Him sent and anointed by the Spirit according to the form of a servant."
+      }
+    ],
+    "TRIN-B1C12": [
+      {
+        "q": "How does Augustine explain the Son's statement that He does not know 'that day and that hour'?",
+        "options": [
+          "As proof that the Son's knowledge is genuinely and permanently less than the Father's",
+          "As meaning He 'makes others ignorant,' i.e., He does not disclose it to the disciples at that time, similar to how 'now I know that you fear God' means 'now I have caused you to know it'",
+          "As a later scribal insertion not original to the Gospel text",
+          "As referring only to His ignorance before His conception in the Virgin's womb"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reads 'the Son knows not' as a case of Scripture calling something 'not known' when it is not communicated, drawing a parallel to God saying 'now I know' meaning 'now I have made known,' so it does not imply a real deficiency in the Son's knowledge."
+      },
+      {
+        "q": "How does Augustine reconcile 'It is not mine to give, but [it shall be given] to them for whom it is prepared by my Father' with the Son's equality?",
+        "options": [
+          "By concluding that seats of glory really are outside the Son's power to grant, proving He is inferior to the Father",
+          "By reading 'It is not mine to give' as meaning it is not in the Son's power as man to give, while as God, since all the Father has is His, He together with the Father does prepare these things",
+          "By claiming the verse is a mistranslation and should read 'It is not the Father's to give'",
+          "By arguing that only the Holy Spirit ultimately grants such seats of glory"
+        ],
+        "correct": 1,
+        "explanation": "Augustine applies the form-of-a-servant reading: as man He does not give by human power, but as God, since 'all things that the Father has are mine,' He shares in preparing what is given, so the statement does not contradict His equality."
+      },
+      {
+        "q": "What does Augustine conclude about the statement 'My doctrine is not mine, but his that sent me'?",
+        "options": [
+          "That Christ is here confessing to teaching false doctrine unknowingly",
+          "That the same doctrine can be truly called both 'His own' (according to the form of God, being the Father's Word) and 'not His own' (according to the form of a servant, since He did not originate it as man)",
+          "That the doctrine referred to belongs exclusively to the Holy Spirit",
+          "That this proves the Gospel of John was written by someone other than an eyewitness"
+        ],
+        "correct": 1,
+        "explanation": "Augustine resolves the apparent contradiction the same way as elsewhere: what is 'His own' according to the form of God (since He is the Father's Word) can also be called 'not His own' according to the form of a servant He assumed."
+      }
+    ],
+    "TRIN-B1C13": [
+      {
+        "q": "How does Augustine explain Paul's statement that the 'princes of this world' crucified 'the Lord of glory' (1 Corinthians 2:8)?",
+        "options": [
+          "As proof that the divine nature itself literally suffered and died on the cross",
+          "As showing that because the Son of man and Son of God are one Person, what happens to the human nature (crucifixion) can rightly be predicated of the whole Person, described by the divine title 'Lord of glory,' without the divinity itself suffering",
+          "As an error in Paul's theology that later councils had to correct",
+          "As referring only to a metaphorical, not an actual, crucifixion"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that because one Person unites both natures, actions proper to the human nature (like being crucified) can be predicated of the Person under a divine title, without the divine nature itself undergoing suffering."
+      },
+      {
+        "q": "Why does Augustine say the wicked, at the Last Judgment, will see Christ only as the 'Son of man' and not in the 'form of God'?",
+        "options": [
+          "Because only the righteous have bodies capable of any kind of sight in the resurrection",
+          "Because seeing the form of God, in which He is equal to the Father, is reserved for the pure in heart ('blessed are the pure in heart, for they shall see God'), while the visible form of the Son of man can be seen even by those who pierced Him",
+          "Because the wicked will be struck blind before the judgment begins",
+          "Because Christ will judge remotely without appearing to anyone at all"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reasons that the beatitude promising the vision of God to the pure in heart excludes the ungodly from seeing the form of God, while the visible, human form of the Son of man will be seen by 'those also who pierced him,' both righteous and wicked."
+      },
+      {
+        "q": "How does Augustine reconcile 'the Father judges no man, but has committed all judgment unto the Son' with the Father's equal share in judging?",
+        "options": [
+          "By concluding the Father genuinely has no role whatsoever in judgment, making the Son alone competent to judge",
+          "By explaining that only the form of the Son of man, not the form of the Father, will be visibly seen in judgment, so 'the Father judges no man' means no one will see the Father as Judge, while the Son's Godhead judges together with the Father unseen",
+          "By arguing the text refers to a symbolic judgment that already concluded at Pentecost",
+          "By claiming this text applies only to the judgment of angels, not of human beings"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reads it as being about visibility in judgment: no one will see the Father judging, since only the Son, as Son of man, will be visible to all, even though the Father's judgment is exercised together with the Son's according to their shared, invisible divine power."
+      }
+    ],
+    "TRIN-B2C0": [
+      {
+        "q": "What two faults does Augustine say are hardest to bear in those who err about God?",
+        "options": [
+          "Speaking too much and writing too little",
+          "Hasty assumption before the truth is plain, and defending the falsehood once it has been made plain",
+          "Reading too many pagan philosophers and too few Church Fathers",
+          "Praying too rarely and studying too often"
+        ],
+        "correct": 1,
+        "explanation": "Augustine names hasty assumption before truth is clear, and then defending that hasty error even after the truth is shown, as the two faults most inimical to finding truth."
+      },
+      {
+        "q": "Why does Augustine say he would rather be censured by an enemy than praised by a flatterer?",
+        "options": [
+          "Because an enemy's censure must be endured while a flatterer's praise seduces one into error, whereas a friend's correction, if deserved, actually teaches",
+          "Because enemies are always more truthful than friends by nature",
+          "Because Church law forbids accepting any praise whatsoever",
+          "Because he believes flatterers are secretly heretics in every case"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that flattering praise (whether from one who errs or one who flatters) confirms or seduces one into error, while honest correction from a friend teaches and honest censure even from an enemy must simply be borne."
+      },
+      {
+        "q": "What two sources does Augustine say he will search to know God's substance?",
+        "options": [
+          "Church councils and imperial decrees",
+          "His own private visions and dreams",
+          "Scripture and the creature (creation), both set forth so that God who inspired the one and made the other may be sought and loved",
+          "Roman law and Greek poetry"
+        ],
+        "correct": 2,
+        "explanation": "Augustine states he will search God's substance 'whether through His Scripture or through the creature,' since both are given so that God may be sought and loved."
+      }
+    ],
+    "TRIN-B2C1": [
+      {
+        "q": "What new interpretive rule does Augustine introduce in this chapter alongside the form-of-God/form-of-servant rule?",
+        "options": [
+          "That some texts show the Son neither as less nor equal, but simply as being 'of the Father,' expressing His generation rather than any inequality",
+          "That all statements about the Son must be read as purely figurative and never literal",
+          "That the Holy Spirit's sayings always take precedence over the Son's",
+          "That texts about the Son should be dated according to when in His life they were spoken"
+        ],
+        "correct": 0,
+        "explanation": "Augustine adds a second rule: texts like 'the Son can do nothing of himself but what he sees the Father do' don't indicate inequality but simply express that the Son is 'of' the Father, i.e., His eternal generation."
+      },
+      {
+        "q": "Why does Augustine say it would be absurd to read 'the Son can do nothing of himself, but what he sees the Father do' according to the form-of-a-servant rule?",
+        "options": [
+          "Because it would imply the Father must have first walked on water or opened blind eyes with clay before the Son did, which no sane person would think",
+          "Because that reading was already condemned at the Council of Nicaea by name",
+          "Because the Greek grammar makes such a reading impossible",
+          "Because it would contradict the doctrine of the Holy Spirit's procession"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that if this text meant the Son does only what He literally observed the Father do first (as a servant imitates a master), the Father would have had to perform Christ's miracles first — an absurd conclusion, so the true sense is that the Son 'sees' the Father by being begotten of Him."
+      },
+      {
+        "q": "According to Augustine, why do the Father and Son not do 'the same things' as a painter copying another painter's work?",
+        "options": [
+          "Because the working of Father and Son is indivisible and equal, so the Son does not observe and imitate separately but acts jointly and identically with the Father from whom He is",
+          "Because painting is an inappropriate analogy for any theological reasoning",
+          "Because the Son's works are always inferior copies of the Father's original works",
+          "Because Augustine rejects the very idea that the Father and Son perform the same works"
+        ],
+        "correct": 0,
+        "explanation": "Augustine denies the painter analogy (copying a separate model) because the Father and Son's operation is one indivisible act, not two similar but distinct acts, since the Son does 'the same things... likewise' by virtue of being of the Father."
+      }
+    ],
+    "TRIN-B2C2": [
+      {
+        "q": "How does Augustine propose to read 'My doctrine is not mine, but his that sent me' in this chapter?",
+        "options": [
+          "As applicable only to the form of a servant, with no other possible reading",
+          "As ambiguous enough to be read safely under either rule, since according to the form of God the Son's doctrine is not something distinct from Himself but identical with His being begotten of the Father",
+          "As a later interpolation not found in the earliest manuscripts",
+          "As proof that the Son's teaching contradicts the Father's teaching"
+        ],
+        "correct": 1,
+        "explanation": "Augustine allows this text to be read under either rule when genuinely ambiguous, offering the form-of-God reading: as the Son's life is not separate from Him but is Him, so His 'doctrine' being given by the Father just means He is begotten as doctrine itself."
+      },
+      {
+        "q": "What parallel does Augustine draw between 'he has given life to the Son' and 'he has given doctrine to the Son'?",
+        "options": [
+          "That both phrases are metaphors with no doctrinal content",
+          "That just as 'giving life' means begetting the Son who is life itself, so 'giving doctrine' can mean begetting the Son who is doctrine itself, not conferring something separate from His being",
+          "That neither phrase can be attributed to the Father under any circumstance",
+          "That both refer exclusively to events after the Incarnation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reasons by analogy: since the Son is Life itself, 'giving Him life' means begetting Him; likewise, since the Son can be understood as Doctrine itself, 'giving Him doctrine' can mean begetting Him as doctrine, without implying inferiority."
+      },
+      {
+        "q": "What general principle does this chapter illustrate about applying Augustine's two rules to difficult texts?",
+        "options": [
+          "That every text has only one certain, singular correct interpretation that must be identified with certainty",
+          "That when a text's precise reference (equality vs. generation) is genuinely uncertain, it may without danger be understood under either rule, since both preserve orthodox faith",
+          "That ambiguous texts should simply be omitted from consideration entirely",
+          "That only bishops are permitted to decide how ambiguous texts should be read"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explicitly states that where a text's true reference cannot be discerned with certainty, it may 'without danger' be understood according to either rule, since both readings remain compatible with the equality of Father and Son."
+      }
+    ],
+    "TRIN-B2C3": [
+      {
+        "q": "Why does Augustine say texts about the Holy Spirit, such as 'he shall not speak of himself,' fall under only the second rule (generation/procession), not the first (form of a servant)?",
+        "options": [
+          "Because the Holy Spirit, unlike the Son, never 'emptied himself and took the form of a servant,' so there is no incarnate humiliation to which such sayings could refer",
+          "Because the Holy Spirit is inferior in nature to the Son and therefore always 'less'",
+          "Because the Gospel of John never mentions the Holy Spirit at all",
+          "Because the Spirit's statements are considered non-canonical by Augustine"
+        ],
+        "correct": 0,
+        "explanation": "Since the Spirit never took on a servant-form as the Son did in the Incarnation, sayings about Him receiving from the Father express His eternal procession from the Father, not any assumed lesser nature."
+      },
+      {
+        "q": "How does Augustine explain 'he shall receive of mine, and shall show it unto you' regarding the Spirit and the Son?",
+        "options": [
+          "As proof the Spirit was created after the Son and therefore inherited some of the Son's substance in time",
+          "By noting Christ's own explanation follows immediately: 'all things that the Father has are mine; therefore I said that he shall take of mine' — so the Spirit receiving from the Son is really receiving what belongs commonly to Father and Son",
+          "As referring only to material gifts distributed to the apostles at Pentecost",
+          "As a statement Augustine considers spurious and excludes from his argument"
+        ],
+        "correct": 1,
+        "explanation": "Augustine cites Christ's own clarifying words that 'all things that the Father has are mine,' so the Spirit's 'receiving' from the Son is receiving from what is common to Father and Son by nature, consistent with His procession from the Father."
+      },
+      {
+        "q": "What question does Augustine explicitly defer to a later book at the end of this chapter?",
+        "options": [
+          "Whether the Holy Spirit is fully divine",
+          "Why, if both the Son is 'of the Father' and the Spirit 'proceeds from the Father,' only the Son is called 'begotten' and 'Son,' while the Spirit is called neither",
+          "Whether the Father can be seen by human eyes",
+          "Whether the Incarnation was necessary for human salvation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explicitly postpones the question of why the Son alone is called 'begotten' and 'Son' while the Spirit, though also from the Father, is called neither, promising to discuss it 'in another place.'"
+      }
+    ],
+    "TRIN-B2C4": [
+      {
+        "q": "What logical trap does Augustine set for those who cite 'Father, glorify me' as proof the Father is greater than the Son?",
+        "options": [
+          "He points out that the Holy Spirit also glorifies the Son (since He receives of the Son's and shows it), which on their own logic would make the Spirit greater than the Son too",
+          "He argues the phrase is a mistranslation of an Aramaic idiom meaning something entirely different",
+          "He claims the verse does not appear in the earliest Greek manuscripts",
+          "He argues 'glorify' here means only 'illuminate physically,' not confer honor"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that if glorifying implies superiority, then since the Spirit also glorifies the Son, the Spirit would have to be greater than the Son too — an absurd conclusion that undermines the whole premise."
+      },
+      {
+        "q": "What text does Augustine cite to show the Son also glorifies the Father, reversing the supposed hierarchy?",
+        "options": [
+          "\"I have glorified You on the earth\"",
+          "\"Let there be light\"",
+          "\"In the beginning was the Word\"",
+          "\"Before Abraham was, I am\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine quotes Christ's words 'I have glorified You on the earth,' showing the Son glorifies the Father just as the Father glorifies the Son, which on the 'greater/lesser' logic would make them mutually equal, not one superior."
+      },
+      {
+        "q": "What conclusion does Augustine draw about those who mutually glorify each other?",
+        "options": [
+          "That mutual glorifying is impossible between divine Persons",
+          "That if glorifying implied superiority, mutual glorifiers would have to be considered equal to one another, undercutting the argument that glorifying proves the Father greater than the Son",
+          "That only creatures, never divine Persons, are capable of glorifying one another",
+          "That glorifying always flows from the lesser to the greater and never the reverse"
+        ],
+        "correct": 1,
+        "explanation": "Augustine concludes that 'if he who glorifies is greater than he whom he glorifies, let them allow that those are equal who mutually glorify each other' — turning the objectors' own premise against them."
+      }
+    ],
+    "TRIN-B2C5": [
+      {
+        "q": "How does Augustine refute the claim that being 'sent' proves the Son is inferior to the sender?",
+        "options": [
+          "By arguing that since the Son who 'came forth from the Father' was already present everywhere ('I fill heaven and earth'), being sent means becoming visible where he already invisibly was, not being dispatched by a superior",
+          "By denying that the Gospels ever describe the Son as being sent",
+          "By claiming 'sending' language applies only to angels, never to the Son",
+          "By arguing the Father is also sent, in Old Testament theophanies, making the argument moot"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that because the Son (and the Spirit) fill heaven and earth, being 'sent' cannot mean moving from where they were not to where they are; rather, it means becoming visibly manifest, which does not imply inferiority."
+      },
+      {
+        "q": "According to Augustine, why is the Father never described in Scripture as being 'sent'?",
+        "options": [
+          "Because the Father is inherently incapable of manifesting Himself to creatures",
+          "Because 'sending' refers to the divine Person taking on a visible, temporal, created form (as the Son took flesh, the Spirit a dove/fire), and the Father alone never took such a form of His own",
+          "Because early scribes deliberately removed all references to the Father being sent",
+          "Because only Persons who proceed from another can be 'sent,' and Augustine holds the Father proceeds from no one, so being sent is definitionally about origin, not manifestation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's proposed reasoning is that being sent means becoming outwardly manifest through an assumed creaturely form; since only the Son (in flesh) and the Spirit (in dove, fire, tongues) took such forms, only they are said to be sent, not the Father."
+      },
+      {
+        "q": "How does Augustine handle the puzzle that the Son 'sent Himself' if the Incarnation is the work of the whole Trinity?",
+        "options": [
+          "He avoids the question entirely as unanswerable",
+          "He parallels it with 'the Father sanctified him' and 'I sanctify myself,' and 'the Father delivered him up' and 'he delivered himself,' concluding both are true because the will and working of Father and Son are one and indivisible",
+          "He concludes that only the Father, not the Son, actually willed the Incarnation",
+          "He argues the phrase 'sent himself' does not actually occur anywhere in Scripture"
+        ],
+        "correct": 1,
+        "explanation": "Augustine draws parallel cases (being sanctified by the Father yet sanctifying Himself; being delivered up by the Father yet delivering Himself) to show that because the Father's and Son's will and operation are one, both 'the Father sent Him' and 'He sent Himself' can be true together."
+      }
+    ],
+    "TRIN-B2C6": [
+      {
+        "q": "How does Augustine distinguish the Holy Spirit's appearance as a dove or fire from the Son's taking of human flesh?",
+        "options": [
+          "He sees no real distinction between the two kinds of manifestation",
+          "The Spirit did not permanently unite the dove or fire to His own person the way the Word permanently united humanity to Himself in the one Person of Christ; the creaturely forms served briefly to signify and then passed away",
+          "He argues the dove was, in fact, permanently united to the Spirit's person forever",
+          "He claims the Son likewise took many temporary forms besides His human flesh"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that flesh was joined to the Word in one enduring Person (we say 'the Word was made flesh' and call Christ both God and man), whereas the dove and fire were creaturely signs that appeared, signified, and then ceased, never becoming permanently united to the Spirit's person."
+      },
+      {
+        "q": "What comparison does Augustine draw between Christ being called 'the Lamb of God' and the Spirit being signified by the dove?",
+        "options": [
+          "That both titles describe permanent hypostatic unions in exactly the same way",
+          "That we can say the Son 'is' the Lamb (in the sense of the Word made flesh, or in prophetic vision) but we cannot say the Spirit 'is' a dove in the same substantial sense, since the dove was only a passing outward sign",
+          "That neither title has any real theological significance",
+          "That the Lamb of God title refers only to the Holy Spirit, not the Son"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes we call the Son both God and man, or the Lamb of God, because of a true, abiding union or a genuine prophetic vision, but we cannot likewise say the Spirit is 'a dove,' since the dove-form was a passing sign, not a lasting union."
+      },
+      {
+        "q": "What Old Testament examples does Augustine compare to the dove and the Pentecost fire as similarly passing signs?",
+        "options": [
+          "The bronze serpent Moses lifted up and the manna in the wilderness",
+          "The burning bush seen by Moses, the pillar the Israelites followed in the wilderness, and the thunder and lightning at the giving of the Law",
+          "The Ark of the Covenant and the veil of the Temple",
+          "Jacob's ladder and the ram caught in the thicket at Isaac's sacrifice"
+        ],
+        "correct": 1,
+        "explanation": "Augustine likens the dove and Pentecostal fire to the flame in Moses's bush, the pillar of cloud/fire in the wilderness, and the thunder and lightning at Sinai — all corporeal forms that arose to signify something and then passed away."
+      }
+    ],
+    "TRIN-B2C7": [
+      {
+        "q": "What threefold question does Augustine say must now be investigated regarding the Old Testament theophanies?",
+        "options": [
+          "Whether they occurred in Egypt, Israel, or Babylon; whether they were seen by men, women, or both; and whether they occurred by day or night",
+          "Whether it was the Father, the Son, the Holy Spirit, or the undivided Trinity who appeared in each case; whether the creature used was specially made or an angel's assumed form; and whether the Son and Spirit were ever 'sent' before the Incarnation and Pentecost",
+          "Whether the theophanies are historical fact, allegory, or later scribal fabrication",
+          "Whether angels, demons, or God Himself caused each apparition"
+        ],
+        "correct": 1,
+        "explanation": "Augustine lays out the structure for the rest of the book: identify which Person (or the Trinity indiscriminately) appeared, how the creaturely appearance was produced, and whether this counts as the Son or Spirit being 'sent' in the same sense as the Incarnation and Pentecost."
+      },
+      {
+        "q": "Why does the burning bush and pillar of fire pose a genuine problem for Augustine's 'sending' theory from the previous chapters?",
+        "options": [
+          "Because if the Son or Spirit already appeared visibly to the patriarchs long before the Incarnation or Pentecost, one must ask why those events are called something new rather than a repetition",
+          "Because Augustine believes the burning bush account is not canonical Scripture",
+          "Because these theophanies contradict the doctrine of divine omnipresence entirely",
+          "Because Moses is never described as being frightened by any of these appearances"
+        ],
+        "correct": 0,
+        "explanation": "If the Son or Spirit appeared visibly before the Incarnation and Pentecost, Augustine must explain what, if anything, is distinctive about being 'sent' in those later, definitive events compared to the earlier theophanies."
+      },
+      {
+        "q": "What three possible explanations for the theophanies does Augustine list for further investigation?",
+        "options": [
+          "That the creature was fashioned solely for the occasion; that an already-existing angel spoke in God's person, taking on a corporeal form; or that an angel transformed his own body, which he governs as subject to himself",
+          "That the visions were dreams, hallucinations, or later legendary embellishments",
+          "That only Moses, Abraham, and Daniel experienced true theophanies, and all others are figurative",
+          "That the theophanies were caused by demons impersonating God"
+        ],
+        "correct": 0,
+        "explanation": "Augustine proposes examining whether a creature was specially fashioned for the theophany, an existing angel spoke as God's representative using an assumed corporeal form, or an angel changed its own governed body into the needed appearance."
+      }
+    ],
+    "TRIN-B2C8": [
+      {
+        "q": "What error does Augustine attribute to those who think the Son was directly, visibly seen by the patriarchs in His own divine substance?",
+        "options": [
+          "They correctly grasp that the Word is changeable but wrongly deny He is visible",
+          "They wrongly think the Word and Wisdom of God is not only changeable but also visible, when in fact even the human soul, though changeable, is invisible — so the unchangeable divine Wisdom is invisible all the more",
+          "They deny the Son has any real substance at all",
+          "They confuse the Son with a created angel named Wisdom"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues from a lesser case: the soul, though changeable, cannot be seen with bodily eyes; therefore the unchangeable divine Wisdom, which is far more excellent than the changeable soul, is certainly invisible too."
+      },
+      {
+        "q": "Which two Pauline texts do these carnal thinkers appeal to, according to Augustine, in order to argue that invisibility belongs to the Father alone?",
+        "options": [
+          "\"Love is patient, love is kind\" and \"Faith, hope, and love abide\"",
+          "\"Now unto the King eternal, immortal, invisible, the only wise God\" and \"who only has immortality... whom no man has seen, nor can see\"",
+          "\"All have sinned and fall short of the glory of God\" and \"The wages of sin is death\"",
+          "\"There is one body and one Spirit\" and \"One Lord, one faith, one baptism\""
+        ],
+        "correct": 1,
+        "explanation": "Augustine identifies the two texts these thinkers apply exclusively to the Father — 'the King eternal, immortal, invisible, the only wise God' and 'who only has immortality... whom no man has seen, nor can see' — which he has already argued in Book I refer to the whole Trinity."
+      },
+      {
+        "q": "What phrase does Augustine use to describe the divine Wisdom's unchangeableness in this chapter?",
+        "options": [
+          "\"She flies from place to place, ever restless\"",
+          "\"Remaining in herself, she makes all things new\"",
+          "\"She grows from glory to glory as the ages pass\"",
+          "\"She is divided among the three Persons unequally\""
+        ],
+        "correct": 1,
+        "explanation": "Augustine quotes the description of Wisdom, 'remaining in herself, she makes all things new,' as evidence of her unchangeable nature, unlike the soul, which is changeable even though also invisible."
+      }
+    ],
+    "TRIN-B2C9": [
+      {
+        "q": "What further, more radical claim does Augustine say these opponents make about the pre-incarnate Son?",
+        "options": [
+          "That the Son did not exist before the Incarnation at all",
+          "That the Son was 'mortal' in Himself even before taking flesh, understanding mortality as mere changeableness, since He appeared in various visible forms to the patriarchs",
+          "That the Son is identical in every respect to the Holy Spirit",
+          "That the Son's pre-incarnate appearances were purely allegorical fictions with no bearing on doctrine"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reports that these opponents, having made the Son visible before the Incarnation, go further and call Him 'mortal' too, in the sense of changeable, reasoning that whatever ceases to be as it was counts as 'mortal.'"
+      },
+      {
+        "q": "How does Augustine turn the 'mortal flesh' argument back on his opponents regarding the Holy Spirit?",
+        "options": [
+          "He points out the Holy Spirit never took flesh at all, so if the Son's supposed mortality is blamed on taking flesh, that explanation cannot apply to the Spirit's mortality, forcing them into inconsistency about 'who only has immortality'",
+          "He argues the Holy Spirit did take flesh in a different form than the Son",
+          "He agrees that the Holy Spirit is also mortal in the same sense",
+          "He claims the Holy Spirit is not truly divine, resolving the tension"
+        ],
+        "correct": 0,
+        "explanation": "Since the Spirit never took on flesh, Augustine argues his opponents cannot consistently explain 'who only has immortality' as applying strictly to the Father while both Son and Spirit are somehow excluded from full immortality."
+      },
+      {
+        "q": "What does Augustine propose to do differently from these 'reasoners' in approaching the theophanies?",
+        "options": [
+          "Assume the Trinity always appeared indiscriminately without further inquiry",
+          "Deny that God ever appeared to the fathers before Christ came in the flesh, unless through a corporeal creature made subject to His power, and investigate calmly and charitably whether the Trinity, one Person, or Persons by turns appeared",
+          "Refuse to discuss the topic further as too speculative",
+          "Insist dogmatically that only the Son ever appeared in the Old Testament"
+        ],
+        "correct": 1,
+        "explanation": "Augustine sets his own method: deny outright substantial visibility of God apart from a subject creature, and proceed 'in catholic peace and with peaceful study' to ask which Person or Persons appeared in each theophany."
+      }
+    ],
+    "TRIN-B2C10": [
+      {
+        "q": "In examining God's walking and speaking with Adam in Genesis 3, what does Augustine conclude about which Person appeared?",
+        "options": [
+          "He confidently identifies it as the Holy Spirit based on the mention of 'breath'",
+          "He notes Scripture does not clearly mark a change of speaker from the one who said 'Let there be light' (usually taken as the Father acting through His Word), leaving it genuinely uncertain, though he suggests it could be the Son intimated by an unmarked shift",
+          "He states categorically and without qualification that it must have been the entire Trinity acting as three separate visible bodies",
+          "He argues it must have been an unnamed angel, since God Himself never speaks directly to fallen humanity"
+        ],
+        "correct": 1,
+        "explanation": "Augustine finds the text ambiguous: the narrative seems to continue from the Creator who said 'Let there be light,' but he allows Scripture may have quietly shifted to the Son without marking the transition explicitly, so no firm identification is possible."
+      },
+      {
+        "q": "What textual detail does Augustine highlight as raising doubt about whether Adam literally saw a bodily form of God?",
+        "options": [
+          "That Adam is described as blind from birth",
+          "That it is unclear whether Adam usually saw God with bodily eyes at all, since 'Adam hid himself from the face of God' could mean merely fearing to be seen, as with Cain, rather than proving he had regularly beheld God's face",
+          "That the Hebrew text of Genesis 3 has no verb for 'walking'",
+          "That Adam is explicitly said to have been deaf as well before the fall"
+        ],
+        "correct": 1,
+        "explanation": "Augustine compares Adam's hiding 'from the face of God' to Cain's similar statement, arguing that hiding from being seen does not necessarily prove one is accustomed to seeing that face oneself."
+      },
+      {
+        "q": "Regarding the appearance to Abraham in Genesis 12 and 18, what does Augustine note is left unstated by the text?",
+        "options": [
+          "The exact geographic location of Abraham's tent",
+          "In what form God appeared, and specifically whether it was the Father, Son, or Holy Spirit, even though it is 'the Lord' who is said to have appeared to him",
+          "Whether Abraham was married at the time",
+          "The number of years Abraham had lived before the appearance occurred"
+        ],
+        "correct": 1,
+        "explanation": "Augustine observes that Genesis says only 'the Lord appeared to Abraham' without specifying which divine Person appeared or in what form, leaving the matter open for the careful inquiry that follows in later chapters."
+      }
+    ],
+    "TRIN-B2C11": [
+      {
+        "q": "Why does Augustine consider the appearance of three men of equal dignity to Abraham at Mamre theologically significant?",
+        "options": [
+          "Because it proves conclusively that only angels, never God, appeared to Abraham",
+          "Because no one of the three is depicted as greater in form, age, or power than the others, which Augustine suggests may visibly intimate the equality of the three Persons of the Trinity in one substance",
+          "Because it shows that Abraham hosted exactly three separate deities from different religions",
+          "Because the number three here is purely coincidental and carries no theological weight for Augustine"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reasons that since none of the three visitors is depicted as superior to the others, this equality may be a fitting visible sign of the equal, undivided Trinity, rather than one figure (say, the Son) attended by two lesser angels."
+      },
+      {
+        "q": "What alternative reading does Augustine consider and set out to test against the 'three visitors are the Trinity' reading?",
+        "options": [
+          "That the three men were simply ordinary travelers with no theological significance whatsoever",
+          "That one of the three, addressed by Abraham as 'the Lord,' was the Son of God appearing in His own substance, while the other two were merely His attendant angels",
+          "That the three represented the three patriarchs Abraham, Isaac, and Jacob, not the divine Persons at all",
+          "That the vision was purely allegorical poetry with no claim to describe an actual historical event"
+        ],
+        "correct": 1,
+        "explanation": "Augustine considers the view that one of the three (addressed by Abraham in the singular as 'Lord') was specially the Son of God, with two accompanying angels — an interpretation he goes on to test in the following chapter using the parallel account of Lot."
+      },
+      {
+        "q": "How does the account of Lot's angelic visitors (examined in the next chapter) function as a check on Augustine's reading of Abraham's three visitors?",
+        "options": [
+          "It has no bearing whatsoever on the interpretation of Abraham's vision",
+          "Since a parallel scene involving Lot describes 'two angels' rather than one Lord attended by two angels, it anticipates and rules out the idea that one of Abraham's three visitors was uniquely superior as 'the Lord' while the other two were mere angelic attendants",
+          "It proves definitively that all such visions in Genesis are hallucinations",
+          "It shows Lot saw four angels rather than two, doubling the difficulty"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes that Scripture 'anticipates' the objection by describing Lot's visitors as simply two angels, which complicates any neat reading of Abraham's three visitors as one superior Lord (the Son) plus two lesser angelic companions."
+      }
+    ],
+    "TRIN-B2C12": [
+      {
+        "q": "What puzzle does Augustine find in the shift between plural and singular address in the Lot narrative?",
+        "options": [
+          "Lot is described as speaking to 'two angels' in the plural, inviting them plurally, yet later addresses them as 'my lord' in the singular, which raises the question of who exactly is meant by the singular title",
+          "The text switches from Hebrew to Aramaic mid-narrative without explanation",
+          "Lot first calls them 'angels' and later insists they are ordinary human travelers",
+          "The number of visitors changes from two to three partway through the account"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes the narrative describes 'two angels' and Lot addressing them plurally, yet later Lot says 'Oh! not so, my lord' in the singular, prompting Augustine's inquiry into what this singular address signifies about the divine Persons represented."
+      },
+      {
+        "q": "Which two Persons does Augustine tentatively suggest may be represented by the 'two angels' who visit Lot?",
+        "options": [
+          "The Father and the Son, since both are explicitly called 'Lord' throughout Genesis",
+          "The Son and the Holy Spirit, since Scripture describes them as being 'sent,' language never used of the Father",
+          "Two different angels with no connection to the Trinity whatsoever",
+          "The Father and the Holy Spirit exclusively, excluding the Son from this vision"
+        ],
+        "correct": 1,
+        "explanation": "Augustine tentatively favors the Son and the Holy Spirit as the two figures, reasoning that Scripture nowhere describes the Father as 'sent,' while both angels here describe themselves as sent, matching what is elsewhere said of the Son and Spirit."
+      },
+      {
+        "q": "What tone does Augustine adopt when proposing that the two angels represent the Son and the Holy Spirit?",
+        "options": [
+          "Absolute dogmatic certainty, presenting it as settled Church doctrine",
+          "Tentative and exploratory ('perhaps... the more suitable'), consistent with his broader caution throughout Book II about assigning specific theophanies to specific Persons",
+          "Mocking and dismissive of the very question he raises",
+          "He refuses to offer any opinion at all on the matter"
+        ],
+        "correct": 1,
+        "explanation": "True to the book's overall cautious method, Augustine frames this identification tentatively ('the last, perhaps, is the more suitable'), rather than asserting it as certain doctrine."
+      }
+    ],
+    "TRIN-B2C13": [
+      {
+        "q": "What title is used for the figure who calls to Moses from the burning bush before He is called 'God'?",
+        "options": [
+          "The Prince of Peace",
+          "The Angel of the Lord",
+          "The Ancient of Days",
+          "The Word made flesh"
+        ],
+        "correct": 1,
+        "explanation": "The text first calls the figure 'the Angel of the Lord' appearing in the flame, and only then has Him identify Himself as 'the God of Abraham, Isaac, and Jacob' — a shift Augustine examines closely."
+      },
+      {
+        "q": "Why does Augustine say it is difficult to determine whether the 'Angel of the Lord' at the bush was a created angel or a divine Person?",
+        "options": [
+          "Because if it was one of the created angels, no one can easily say whose person — the Son's, the Spirit's, the Father's, or the whole Trinity's — was being represented by that angel's proclamation, since all three could equally be called 'the God of Abraham'",
+          "Because the Hebrew word for 'angel' cannot mean 'messenger' in any context",
+          "Because Augustine believes angels cannot speak at all, only appear silently",
+          "Because he considers the entire episode a later scribal addition"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that if a created angel spoke as God's representative, one cannot easily tell which divine Person's message the angel was bearing, since Father, Son, Spirit, and the Trinity itself can all rightly be called 'the God of Abraham, Isaac, and Jacob.'"
+      },
+      {
+        "q": "What title does Augustine note is elsewhere applied to Christ that resembles 'angel,' and how does he treat the possibility that the Spirit could also be called an angel?",
+        "options": [
+          "He cites Isaiah calling Christ 'the Angel of Great Counsel,' and cautiously allows the Spirit might be called an angel in a broad sense given His work of 'showing things to come,' though he cannot recall Scripture using the term for the Spirit directly",
+          "He claims 'angel' can never apply to either the Son or the Spirit under any circumstance",
+          "He insists only the title 'Rock' is comparable, dismissing 'angel' entirely",
+          "He says the Spirit is called 'the Great Angel' explicitly in the Psalms"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes Isaiah calls Christ 'the Angel of Great Counsel,' and reasons the Spirit's function ('he will show you things to come') fits the sense of 'messenger,' though he admits he cannot recall an explicit scriptural instance of the Spirit being called an angel."
+      }
+    ],
+    "TRIN-B2C14": [
+      {
+        "q": "What conclusion does Augustine reach about the pillar of cloud and fire that led Israel out of Egypt?",
+        "options": [
+          "That it was certainly and unmistakably the Father, since only the Father can lead a nation",
+          "That God clearly appeared through a subject, corporeal creature rather than in His own substance, but that Scripture gives no clear indication of which specific divine Person, if any, was thereby signified",
+          "That it must have been a natural meteorological phenomenon with no theological meaning",
+          "That it represented the Holy Spirit exclusively, based on the word 'pillar' in Hebrew"
+        ],
+        "correct": 1,
+        "explanation": "Augustine again affirms that God appeared through a creature made subject to Him (not in His own substance) but candidly states the text does not distinguish which Person — Father, Son, Spirit, or the Trinity as such — was manifested."
+      },
+      {
+        "q": "How does Augustine describe his own certainty regarding 'the glory of the Lord appeared in the cloud' in this chapter?",
+        "options": [
+          "As entirely certain and beyond any possible doubt",
+          "As similarly undetermined ('nor is this distinguished there either, in my judgment'), consistent with his repeated caution about assigning a specific Person to these appearances",
+          "As definitely referring to the Son alone, without qualification",
+          "As a phrase he considers spurious and not part of the original text"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explicitly says this appearance is likewise 'not distinguished... in my judgment,' maintaining his consistent refusal to assign an unwarranted certainty to which Person appeared."
+      },
+      {
+        "q": "What is the overall pattern Augustine is building across chapters 10-14 of Book II regarding the theophanies?",
+        "options": [
+          "That every single theophany can be assigned with total confidence to one specific Person",
+          "That, apart from a few cases where context gives probable indications, most Old Testament theophanies do not allow certain identification of which divine Person appeared, since God acted through a subject creature in each case",
+          "That all theophanies are, without exception, appearances of the Father alone",
+          "That the theophanies are entirely unrelated to any question about the Trinity"
+        ],
+        "correct": 1,
+        "explanation": "Across these chapters Augustine methodically works through Genesis and Exodus, generally concluding that Scripture does not specify which Person appeared, reserving confident identification for cases with clearer contextual clues (like Daniel's vision later in the book)."
+      }
+    ],
+    "TRIN-B2C15": [
+      {
+        "q": "What tentative reason does Augustine give for suspecting the Holy Spirit is signified in the Sinai theophany?",
+        "options": [
+          "Because the Law was written 'by the finger of God,' a phrase the Gospel identifies with the Holy Spirit, and because fifty days separate Passover from Sinai just as fifty days separate the Resurrection from Pentecost, when tongues of fire again appeared",
+          "Because the text explicitly names the Holy Spirit as speaking from the mountain",
+          "Because Moses is described as baptized with the Spirit before ascending Sinai",
+          "Because the number fifty is sacred to the Spirit alone in rabbinic tradition"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a numerical and thematic parallel: fifty days from Passover to Sinai mirrors fifty days from the Resurrection to Pentecost, and the finger-of-God imagery plus the fire at both events suggests, tentatively, the Holy Spirit's involvement."
+      },
+      {
+        "q": "What alternative reading does Augustine offer if the Sinai fire and smoke are not specifically the Holy Spirit's manifestation?",
+        "options": [
+          "That the whole scene is purely legendary and never happened",
+          "That the manifestations occurred because the Law required all three Persons to cooperate together, so that the fire and cloud might not signify one Person distinctly but the fact that Father, Son, and Spirit necessarily acted together in giving the Law",
+          "That the appearance must be assigned exclusively to a group of created angels with no relation to the Trinity",
+          "That the appearance definitely represents the Father alone, contradicting his earlier caution"
+        ],
+        "correct": 1,
+        "explanation": "Augustine allows that the appearances may simply reflect the necessary joint working of the Trinity in giving the Law (since neither Father nor Son could act without the Spirit), rather than singling out one specific Person by a proper mark."
+      },
+      {
+        "q": "Does Augustine treat the Arians as denying that the fire and cloud at Sinai were the Father's own substance?",
+        "options": [
+          "No, he says even the Arians never dared claim the fire, cloud, and smoke were the Father's own substance, since 'no one can be so insane' as to think so",
+          "Yes, he claims the Arians insisted the fire literally was the Father's substance",
+          "The chapter does not mention the Arians at all",
+          "He says the Arians agreed the fire was the Son's own substance but disputed the Father's involvement"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that even the Arians, whom he opposes throughout the work, never went so far as to claim the fire and smoke at Sinai were literally the Father's own substance, treating this as an uncontroversial point of agreement."
+      }
+    ],
+    "TRIN-B2C16": [
+      {
+        "q": "What apparent contradiction troubles Augustine in this chapter regarding Moses and God?",
+        "options": [
+          "That Scripture says 'the Lord spoke to Moses face to face, as a man speaks to his friend,' yet Moses immediately after asks, 'show me now Yourself plainly, that I may see You'",
+          "That Moses is described as both blind and sighted in the same passage",
+          "That two different names are used for God within a single verse",
+          "That Moses claims to have seen God but later denies it entirely"
+        ],
+        "correct": 0,
+        "explanation": "Augustine highlights the tension between the description of God speaking to Moses 'face to face' and Moses's own subsequent plea to see God's substance plainly, which would be redundant if 'face to face' already meant a literal vision of God's essence."
+      },
+      {
+        "q": "What does Augustine conclude Moses's request 'show me Yourself plainly, that I may see You' actually proves?",
+        "options": [
+          "That Moses had already fully seen God's substance and was merely being rhetorical",
+          "That Moses knew he had so far only seen corporeal signs and truly sought God's substance spiritually, proving that the earlier 'face to face' speech was not a vision of God's essence, since Moses would not ask to see what he already saw",
+          "That Moses doubted God's existence and demanded proof",
+          "That the request was granted immediately and without qualification"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reasons that Moses's continued longing to see God's substance directly demonstrates the earlier 'face to face' conversation was only a mode of speech (as between friends), not an actual vision of the divine essence, which Moses still desired."
+      },
+      {
+        "q": "How does Augustine use this episode to rebuke those who think the divine substance was seen through the corporeal signs in Exodus?",
+        "options": [
+          "He argues that if Moses had not made this request, we would have had to indulge such foolish people, but since Moses's request shows that direct vision of God's substance was not yet granted, it disproves the idea that earlier signs already showed God's very substance",
+          "He agrees fully with those who think the corporeal signs revealed God's substance",
+          "He says the question is irrelevant to the broader argument of the book",
+          "He claims Moses's request was later rescinded and is therefore untrustworthy evidence"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that Moses's plea to see God's substance directly, occurring after the 'face to face' speech, proves that neither that speech nor any prior sign had shown Moses God's actual substance, refuting those who thought the theophanies revealed God's essence."
+      }
+    ],
+    "TRIN-B2C17": [
+      {
+        "q": "How does Augustine interpret God's promise to show Moses His 'back parts' but not His 'face'?",
+        "options": [
+          "As a literal description of God's physical anatomy that Augustine accepts without qualification",
+          "As figuratively representing Christ's flesh (the 'back parts,' seen and believed through faith, especially in the resurrection) versus the 'face,' the very form of God reserved for the vision to come after this life",
+          "As referring exclusively to the Old Testament Law versus the New Testament Gospel",
+          "As a purely meteorological description with no theological content"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reads the 'back parts' as prefiguring Christ's incarnate flesh — born, dying, and rising — knowable now by faith, while the 'face' signifies the form of God itself, seen only in the beatific vision after this life."
+      },
+      {
+        "q": "What does Augustine identify as 'the place by the Lord' where one stands to see God's 'back parts,' per Exodus 33?",
+        "options": [
+          "Mount Sinai itself, understood literally as a geographic location",
+          "The Catholic Church, understood as the 'rock' on which one stands to see, through faith in the resurrection, the passing-by of the Lord",
+          "The Jerusalem Temple exclusively",
+          "The wilderness tabernacle before its later destruction"
+        ],
+        "correct": 1,
+        "explanation": "Augustine identifies 'the place by the Lord' as the Catholic Church itself, understood as the rock of solid faith (echoing 'upon this rock I will build my Church'), from which believers see Christ's 'back parts' — His flesh, resurrection, and passing over."
+      },
+      {
+        "q": "According to Augustine, why is it wrong to think of the 'face' and 'back' of God as physical parts of the Word or Wisdom of God?",
+        "options": [
+          "Because Augustine actually affirms this literal, bodily reading as the correct one",
+          "Because the Word and Wisdom of God, unlike a human body, has no face on one side and a back on the other, nor is changed in place or time by any appearance or motion — such language must be understood figuratively of the form of God versus the form of a servant",
+          "Because Scripture explicitly forbids any figurative reading of any passage whatsoever",
+          "Because the passage refers only to an angel, not to God at all"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explicitly warns against imagining the Word and Wisdom of God has a literal 'face' and 'back' like a human body, insisting instead that the language figuratively distinguishes the visible, incarnate form of a servant from the invisible form of God."
+      }
+    ],
+    "TRIN-B2C18": [
+      {
+        "q": "How does Daniel's vision of the 'Ancient of Days' bestowing dominion on 'one like the Son of man' function in Augustine's argument?",
+        "options": [
+          "It proves that the Father can never appear to anyone, awake or dreaming",
+          "It shows both the Father (giving) and the Son (receiving an everlasting kingdom) appearing together in visible form to Daniel, refuting the claim that the Father never appeared to the prophets and must be understood as absolutely invisible while Son and Spirit are visible",
+          "It shows that Daniel actually saw the Holy Spirit alone, with no reference to Father or Son",
+          "It is dismissed by Augustine as a purely symbolic, non-visionary text with no bearing on the question"
+        ],
+        "correct": 1,
+        "explanation": "Augustine cites the Ancient of Days giving dominion to the one 'like the Son of man' as clear evidence that the Father, too, was manifested in visible form to a prophet, refuting the notion that invisibility belongs to the Father exclusively while the Son and Spirit are visible."
+      },
+      {
+        "q": "How does Augustine respond to the objection that Daniel's vision occurred in a dream, unlike Moses's supposedly 'waking' visions?",
+        "options": [
+          "He concedes the objection and admits the Father's appearance to Daniel therefore does not count as equally valid evidence",
+          "He argues it is absurd to think the Son and Spirit could be seen by waking men while the Father can only be seen in dreams, since none of the divine Persons' actual substance is seen either way — Abraham, moreover, was fully awake when three men, none more prominent than another, appeared to him",
+          "He claims dreams are always more reliable sources of revelation than waking visions",
+          "He states Moses never actually saw anything, waking or dreaming, and neither did Daniel"
+        ],
+        "correct": 1,
+        "explanation": "Augustine rejects this distinction as senseless: the divine substance is not literally seen either awake or asleep, and Abraham (indisputably awake) saw three equal figures at Mamre, so waking versus dreaming cannot be used to privilege the Son and Spirit's visibility over the Father's."
+      },
+      {
+        "q": "What is Augustine's final, cautious conclusion at the close of Book II regarding which Person appeared in the Old Testament theophanies?",
+        "options": [
+          "That it can always be determined with total certainty which Person appeared in every single case",
+          "That we should not rashly affirm which Person appeared in a given theophany unless the context gives some probable intimation, since God's very substance is never seen corporeally, though Father, Son, or Spirit may each give intimations of themselves through a subject creature",
+          "That only the Son ever appeared to anyone in the entire Old Testament",
+          "That none of the Old Testament theophanies have any connection whatsoever to the Trinity"
+        ],
+        "correct": 1,
+        "explanation": "Augustine closes Book II with a measured conclusion: we must not rashly assign a specific Person to a theophany without probable scriptural indications, since God's substance itself is never seen, only creaturely signs by which Father, Son, or Spirit may give intimations of themselves."
+      }
+    ],
+    "TRIN-B3C0": [
+      {
+        "q": "What does Augustine say he would honestly prefer to do rather than write this treatise himself?",
+        "options": [
+          "Bestow his labor in reading what others have already written, rather than in dictating something for others to read",
+          "Abandon theological writing altogether for the study of law",
+          "Delegate the entire project to a group of younger scribes",
+          "Focus exclusively on preaching rather than any written composition"
+        ],
+        "correct": 0,
+        "explanation": "Augustine opens by professing he would rather read others' treatments of the Trinity than write his own, undertaking the labor only because sufficient material was not easily available to him in Latin."
+      },
+      {
+        "q": "What request does Augustine make of both his ordinary reader and his 'free corrector' in this preface?",
+        "options": [
+          "That the reader treat his writings with the same certainty as canonical Scripture, while the corrector defer entirely to Augustine's authority",
+          "That the reader not yield to his writings as to canonical Scripture but believe only what is truly demonstrated, while the corrector amend him only by Scripture or unanswerable reason, not by mere personal opinion",
+          "That both reader and corrector remain entirely silent and refrain from any engagement with the text",
+          "That the reader memorize the entire work before offering any criticism"
+        ],
+        "correct": 1,
+        "explanation": "Augustine distinguishes canonical Scripture, to be believed unhesitatingly, from his own writings, which should be believed only when truly understood as certain, and asks any corrector to amend him only by Scripture or by unanswerable reason, not personal opinion."
+      },
+      {
+        "q": "According to Augustine's recap, what conclusion had Book II reached about the identity of the divine Person in Old Testament appearances?",
+        "options": [
+          "That it was always and exclusively the Son who appeared in every theophany",
+          "That either the Trinity indiscriminately, or some one Person of the Trinity (as context might indicate), appeared through those ancient corporeal forms and visions",
+          "That the appearances were purely symbolic literary devices with no theophanic content at all",
+          "That only the Holy Spirit ever appeared in the entire Old Testament"
+        ],
+        "correct": 1,
+        "explanation": "Augustine recaps that Book II concluded either the Trinity as such, or one particular Person as context might indicate, appeared in those ancient visions — setting up Book III's new question of how, through what agency, such appearances were actually produced."
+      }
+    ],
+    "TRIN-B3C1": [
+      {
+        "q": "What two main hypotheses does Augustine set out to weigh regarding how angels produced the Old Testament theophanies?",
+        "options": [
+          "Whether the theophanies were purely mental visions with no external reality, or purely physical events with no spiritual meaning",
+          "Whether a creature was specially fashioned just for that occasion and manifestation, or whether already-existing angels spoke in God's person by assuming a corporeal appearance or transforming their own body",
+          "Whether the theophanies occurred only in Egypt or only in the wilderness",
+          "Whether Moses alone experienced true theophanies while all others were later inventions"
+        ],
+        "correct": 1,
+        "explanation": "Augustine frames the inquiry as choosing between a creature freshly made for the occasion, versus pre-existing angels who either assumed a bodily appearance from the corporeal creature or transformed their own governed bodies to appear as needed."
+      },
+      {
+        "q": "What final question does Augustine say remains after this second question about angelic agency is settled?",
+        "options": [
+          "Whether the Son and the Holy Spirit were also 'sent' before the Incarnation and Pentecost, and if so, how that differs from being sent as recorded in the Gospel",
+          "Whether angels themselves have free will",
+          "Whether Moses was a real historical figure",
+          "Whether the Old Testament and New Testament contradict each other on the nature of God"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states that once the agency question is settled, the remaining task is to determine whether the Son and Spirit were truly 'sent' in earlier theophanies, and how that sending compares to their sending in the Incarnation and at Pentecost."
+      },
+      {
+        "q": "Why does Augustine say he will not pursue the question of exactly how angels change their bodies to produce visible appearances?",
+        "options": [
+          "Because he considers the whole topic heretical and forbidden",
+          "Because he confesses it exceeds his purpose and his own human experience of such matters, and because it does not affect the substance of the present theological question either way",
+          "Because Scripture explicitly forbids any speculation about angelic bodies",
+          "Because he believes no angels actually possess bodies of any kind"
+        ],
+        "correct": 1,
+        "explanation": "Augustine admits the precise mechanism of angelic bodily transformation reaches beyond his purpose and his own experiential competence as a man, and notes it does not matter to the present inquiry which explanation is correct."
+      }
+    ],
+    "TRIN-B3C2": [
+      {
+        "q": "According to Augustine, why do frequent natural events like sunrise and sunset fail to cause the wonder that rarer events like eclipses do?",
+        "options": [
+          "Because frequent events are caused by different laws of physics than rare ones",
+          "Because their unbroken continuity and familiarity, though they equally serve God's will, makes them cease to provoke wonder, unlike rarer events which are less understood and thus seem more marvelous",
+          "Because only rare events are actually caused by God, while common events are self-sustaining",
+          "Because ancient philosophers proved that frequent events have no cause at all"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues both frequent and rare natural events equally serve God's bidding, but familiarity through unbroken repetition dulls our sense of wonder at the former, while rarity keeps the latter marvelous to most people."
+      },
+      {
+        "q": "What criticism does Augustine level at 'the vanity of philosophers' regarding rare natural events like eclipses and earthquakes?",
+        "options": [
+          "That they deny such events occur at all",
+          "That they assign these events to proximate causes (sometimes true, but not ultimate) or even to false causes guessed at without diligent investigation, failing to see the will of God as the cause higher than all others",
+          "That they attribute every natural event directly and exclusively to demonic activity",
+          "That they refuse to study natural events scientifically in any way"
+        ],
+        "correct": 1,
+        "explanation": "Augustine criticizes philosophers for stopping at proximate (sometimes genuinely true) causes, or resorting to false guessed causes, while failing to recognize the will of God as the higher cause underlying all of them."
+      },
+      {
+        "q": "What phrase does Augustine quote from Psalm 122 (Vulgate) about Jerusalem to illustrate participation in unchangeable wisdom?",
+        "options": [
+          "\"Jerusalem is built as a city, that is partaker of that which is in and of itself\"",
+          "\"By the rivers of Babylon we sat down and wept\"",
+          "\"Pray for the peace of Jerusalem: they shall prosper that love you\"",
+          "\"If I forget you, O Jerusalem, let my right hand forget her cunning\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites this verse to illustrate how the rational soul, though itself changeable, can be a 'partaker' of the unchangeable good, God's own wisdom and will, just as the heavenly Jerusalem partakers of that which is 'in and of itself.'"
+      }
+    ],
+    "TRIN-B3C3": [
+      {
+        "q": "In Augustine's extended example, what does the wise man consult before undertaking his self-imposed toil that leads to illness?",
+        "options": [
+          "The advice of professional astrologers",
+          "The highest reason of divine righteousness, heard secretly with the ear of his heart, by whose bidding he acts",
+          "A council of fellow philosophers who vote on the matter",
+          "Random chance, deliberately, to avoid any appearance of premeditation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine describes the wise man as consulting, in the secret of his heart, the highest reason of divine righteousness, obeying which he undertakes the toil that eventually leads to his illness."
+      },
+      {
+        "q": "When two physicians disagree about whether the wise man's illness was caused by dryness or moisture, what does Augustine say about their explanations?",
+        "options": [
+          "Both are equally false since illness has no natural cause",
+          "One of the two indeed states the true (but still proximate) cause and the other errs, yet both remain at the level of proximate corporeal causes, missing the deeper cause found in the soul's obedience to God's will",
+          "Both are equally true because truth is entirely relative to the observer",
+          "Neither can be evaluated because medicine was unknown in Augustine's time"
+        ],
+        "correct": 1,
+        "explanation": "Augustine allows one physician's proximate diagnosis may be true and the other false, but insists both remain at the level of proximate corporeal causes, whereas the true first cause lies in the soul's obedience to the unchangeable divine will."
+      },
+      {
+        "q": "What examples of instruments does Augustine list that the wise man might use in his work of mercy, whose changes are ultimately traced back to God's will?",
+        "options": [
+          "Musical instruments used only for entertainment",
+          "Co-workers with impure motives, beasts of burden acting from natural appetite, and senseless things like grain, wine, oil, clothes, money, or a book",
+          "Only weapons of war, since the example concerns conflict",
+          "Nothing but written contracts and legal documents"
+        ],
+        "correct": 1,
+        "explanation": "Augustine lists co-laborers who serve for their own carnal motives, irrational beasts of burden, and inanimate necessities like grain, wine, oils, clothes, money, or a book, all of whose changes he traces to the invisible, unchangeable will of God as their ultimate cause."
+      }
+    ],
+    "TRIN-B3C4": [
+      {
+        "q": "How does Augustine extend his single wise man example to a broader picture of governance in this chapter?",
+        "options": [
+          "He extends it to a family, city, or the whole world if governed by the wise and pious, but then turns instead to the heavenly country, where God's will governs angelic spirits joined in perfect peace",
+          "He argues the example applies only to isolated individuals and cannot be extended to any larger community",
+          "He claims families and cities are governed by entirely different principles than individuals",
+          "He abandons the example entirely as unhelpful for further argument"
+        ],
+        "correct": 0,
+        "explanation": "Augustine extends the single wise man's case to what an ideal, wisely-governed family, city, or world would look like, then turns to describe the actual heavenly commonwealth of angelic spirits united in God's will."
+      },
+      {
+        "q": "What is Augustine's stated hierarchy of governance from God down to inanimate bodies?",
+        "options": [
+          "God governs bodies directly with no intermediaries whatsoever",
+          "God governs the reasonable, pious spirit; that spirit governs the irrational living spirit; and the living spirit in turn governs bodies, with grosser bodies governed by more subtle ones",
+          "Bodies govern spirits, which in turn govern God's own will",
+          "Angels govern God, who then governs all lower creation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine describes a descending order: God governs the pious, reasonable spirit; that governs the irrational living spirit; the living spirit governs bodies; and among bodies, the more subtle and powerful govern the grosser and inferior ones."
+      },
+      {
+        "q": "What example from Paul's ministry does Augustine use to show that visible, corporeal means can signify Christ without themselves being Christ's substance?",
+        "options": [
+          "Paul preaching by tongue, by epistle, and through the sacrament of the body and blood, none of which (ink, parchment, or the tongue itself) is literally called Christ's body and blood, only the consecrated element",
+          "Paul's shipwreck on the island of Malta",
+          "Paul's tent-making trade in Corinth",
+          "Paul's imprisonment in Rome awaiting trial before Caesar"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes Paul preached Christ by tongue, by letter, and by the sacrament, yet none of the physical media themselves (ink, parchment, spoken sound) are called Christ's body and blood — only the consecrated bread and wine, and even that not through human action alone but the Spirit's invisible working."
+      }
+    ],
+    "TRIN-B3C5": [
+      {
+        "q": "How does Augustine explain the miracle at Elijah's prayer for rain after a long drought?",
+        "options": [
+          "As an ordinary meteorological event unrelated to Elijah's prayer",
+          "As the same divine power that ordinarily governs rainfall becoming apparent in the sudden, unexpected abundance of rain immediately following the prayer, when no natural signs of rain had preceded it",
+          "As a purely symbolic story with no claim to any real historical rainfall",
+          "As proof that Elijah himself, not God, directly controlled the weather"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues the same God who ordinarily governs rainfall made His power specially manifest by producing abundant rain right after Elijah's prayer, with no preceding natural indications, making the ordinary process suddenly a recognized miracle."
+      },
+      {
+        "q": "What comparison does Augustine draw between the miracle at Cana and the ordinary ripening of grapes into wine?",
+        "options": [
+          "He denies any connection between the two, treating Cana as an entirely different kind of event",
+          "He argues that the same God who ordinarily draws sap through the vine's root to produce wine over a season did so instantaneously at Cana, the divine power being made manifest by the sheer speed of the change rather than by a different cause",
+          "He claims the wine at Cana was not actually created but merely relabeled water",
+          "He argues wine production has nothing to do with divine causality at all"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's point is that ordinary winemaking and the Cana miracle share the same ultimate cause (God), differing only in that the miracle compressed the usual gradual process into an extraordinary instant, thereby revealing the divine power even to the foolish."
+      },
+      {
+        "q": "What does Augustine say about Aaron's rod blossoming compared to the ordinary blossoming of trees?",
+        "options": [
+          "That it was an entirely unrelated category of event, having no connection to God's ordinary work in nature",
+          "That the same God who ordinarily clothes trees with leaves and flowers made the divine presence known to doubting people through the unusual, sudden blossoming of Aaron's dead rod",
+          "That Aaron's rod never actually blossomed and the account is purely allegorical",
+          "That the blossoming was caused by human ingenuity rather than divine power"
+        ],
+        "correct": 1,
+        "explanation": "Augustine treats Aaron's blossoming rod like the other examples: the same God who ordinarily produces leaves and flowers on trees made this ordinary power extraordinarily and suddenly manifest, communicating with a doubting people through the sign."
+      }
+    ],
+    "TRIN-B3C6": [
+      {
+        "q": "What single principle does Augustine offer in this short chapter to distinguish 'nature' from 'miracle'?",
+        "options": [
+          "Nature and miracle differ in their ultimate cause, since miracles alone come directly from God while nature operates independently",
+          "Things flowing in a continuous, ever-repeated, regular course are called natural, while the same kind of divine working, thrust in with unusual suddenness for people's instruction, is called a miracle",
+          "Miracles are defined strictly by their violation of physical laws, which nature can never do",
+          "Nature refers only to inanimate things, while miracle refers only to living creatures"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's summary principle: it is not a difference in ultimate cause but a difference in the manner and regularity of occurrence — continuous and familiar is 'nature,' sudden and unusual (for our admonition) is 'miracle.'"
+      },
+      {
+        "q": "What example does Augustine use in this chapter to link resurrection of the dead to God's ordinary work of ensoulment?",
+        "options": [
+          "He argues that the God who gives a soul to flesh in the womb (so that mortal beings come into existence) is the same God who restores souls to corpses at the resurrection of the dead",
+          "He compares resurrection to the annual migration patterns of birds",
+          "He compares it to the germination of seeds sown in autumn",
+          "He argues resurrection has no connection whatsoever to the ordinary giving of life in the womb"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws the parallel that the God who ordinarily ensouls flesh in the womb, giving life to beings who are yet destined to die, is the very same God who restores souls to the dead at the resurrection — an unusual instance of the same underlying power."
+      },
+      {
+        "q": "According to this chapter's logic, what makes an event 'miraculous' rather than 'diverse' in kind from nature?",
+        "options": [
+          "The event's location, since only events in the Holy Land can be miracles",
+          "Diversity alone — that is, an unusual break from the ordinary, beaten pattern of natural succession, not a different kind of causal power altogether",
+          "The number of witnesses present at the event",
+          "Whether the event is recorded in a canonical or non-canonical text"
+        ],
+        "correct": 1,
+        "explanation": "As the chapter's title indicates ('Diversity Alone Makes a Miracle'), Augustine holds that it is simply the unusual, non-repeating manner of an event — not a distinct kind of causal power — that marks it as miraculous rather than natural."
+      }
+    ],
+    "TRIN-B3C7": [
+      {
+        "q": "At what specific plague did Pharaoh's magicians fail to replicate Moses' sign, despite having succeeded with serpents?",
+        "options": [
+          "The plague of lice (gnats), tiny short-lived flies, at which point they confessed, \"This is the finger of God\"",
+          "The plague of hail, which they claimed was too large to reproduce",
+          "The plague of darkness, which they said was outside their power from the start",
+          "The final plague, the death of the firstborn"
+        ],
+        "correct": 0,
+        "explanation": "Augustine highlights that though the magicians could make serpents, they failed at producing the tiny, short-lived lice, forcing them to admit, 'This is the finger of God.'"
+      },
+      {
+        "q": "According to Augustine, how far does the power of fallen angels behind magic arts actually extend?",
+        "options": [
+          "They possess unlimited power equal to God's own, restrained only by their own choice",
+          "They can do nothing except by power granted from above, given either to deceive the deceitful, to warn the faithful against seeking such things, or to test and manifest the patience of the righteous",
+          "They have no power whatsoever and all magical effects are pure illusion with no real cause",
+          "Their power is entirely independent of God and operates as a rival source of causation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine insists fallen angels act only within power permitted from above, for one of three purposes: deceiving the deceitful (as with the Egyptians), warning the faithful not to desire such power, or testing the righteous, as with Job."
+      },
+      {
+        "q": "What example does Augustine give of the 'testing of the righteous' purpose behind permitted angelic/demonic power?",
+        "options": [
+          "The temptation of Christ in the wilderness",
+          "Job's loss of his children, possessions, and bodily health through no small power of visible affliction",
+          "The plagues sent upon Pharaoh and Egypt",
+          "The trial of Abraham in offering Isaac"
+        ],
+        "correct": 1,
+        "explanation": "Augustine cites Job's losses — children, possessions, and health — as resulting from a significant exercise of permitted power, given for the purpose of exercising, proving, and manifesting the patience of the righteous."
+      }
+    ],
+    "TRIN-B3C8": [
+      {
+        "q": "How does Augustine explain the magicians' apparent 'creation' of frogs and serpents without granting them true creative power?",
+        "options": [
+          "He grants that they are true creators, on par with God, of these particular animals",
+          "He argues hidden seeds of all future kinds of things were embedded in the elements of creation from the start, and the magicians (like farmers, or Jacob with his colored rods) merely applied external conditions that drew out and accelerated what God alone truly creates",
+          "He claims frogs and serpents are not really created beings but illusions with no physical substance",
+          "He denies the biblical account entirely as a later scribal invention"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's key distinction is between God's inward creating from hidden seeds present since creation, and the merely external application of conditions (by farmers, breeders, or magicians alike) that brings latent potentials to visible completion, without themselves being 'creators.'"
+      },
+      {
+        "q": "What example from Genesis does Augustine use to illustrate that an outward, non-creative influence can still shape visible results?",
+        "options": [
+          "Jacob's use of variously colored rods before the flocks at watering time, which he says colored the offspring through the mothers' visual impression, without Jacob or the cattle themselves being 'creators' of the color",
+          "Noah's construction of the ark",
+          "Joseph's interpretation of Pharaoh's dreams",
+          "Esau selling his birthright for a bowl of stew"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Jacob's rods (Genesis 30), arguing that although the visual impression on the pregnant animals influenced their offspring's coloring, neither Jacob nor the animals' own souls are thereby 'creators,' since the underlying causal order belongs to God's unchangeable wisdom alone."
+      },
+      {
+        "q": "Why does Augustine deny that even good angels should be called 'creators' when they manipulate hidden seeds in nature?",
+        "options": [
+          "Because good angels never interact with the physical world in any way",
+          "Because, like farmers who are not creators of grain, angels (good or bad) only scatter or combine seeds already latently present by God's design, and act only as far as God commands or permits, not as independent originators",
+          "Because good angels are actually inferior in power to demons",
+          "Because Augustine denies that angels exist at all in a corporeal sense"
+        ],
+        "correct": 1,
+        "explanation": "Augustine likens angelic manipulation of latent seeds to a farmer's cultivation of grain: an external application of conditions, not true creation, since angels (like farmers) act only within the bounds of what God commands or permits, not as ultimate originators."
+      }
+    ],
+    "TRIN-B3C9": [
+      {
+        "q": "What scriptural phrase does Augustine cite as summarizing God's role as the true Creator behind all secondary causes?",
+        "options": [
+          "\"He has ordered all things in measure, and number, and weight\"",
+          "\"In the beginning God created the heavens and the earth\"",
+          "\"Let us make man in our image, after our likeness\"",
+          "\"The heavens declare the glory of God\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine repeatedly invokes this Wisdom-literature phrase to express that God alone, as the source of all things' measure, number, and weight, is the true and only Creator, while other agents merely apply or accelerate what He has already ordained."
+      },
+      {
+        "q": "How does Augustine explain angels' remarkable speed in producing effects like frogs or serpents compared to human efforts?",
+        "options": [
+          "By denying angels have any advantage in speed over humans at all",
+          "By comparing it to how bodies naturally generate worms more quickly in summer than winter, arguing that angels' finer, more subtle perception and swifter motion let them draw out latent causes far more rapidly than humans, whose sluggish earthly bodies limit them",
+          "By claiming angelic speed comes from a different, rival source of power than God's",
+          "By asserting the biblical account exaggerates and no real speed differential exists"
+        ],
+        "correct": 1,
+        "explanation": "Augustine compares it to the natural fact that decay produces worms faster in summer heat than winter cold, arguing angels' greater subtlety of perception and motion lets them apply latent natural causes far more quickly than the sluggish, earthbound human body allows."
+      },
+      {
+        "q": "What reason does Augustine give for why the magicians could not, even with permission, do certain other things at all (as opposed to merely being forbidden)?",
+        "options": [
+          "Because some acts, like flying, exceed the very nature and condition given to them by God, regardless of any permission, just as a man can walk (if permitted) but simply cannot fly, permitted or not",
+          "Because all their powers are equally available to them at all times with no restriction whatsoever",
+          "Because Pharaoh himself limited what the magicians were allowed to attempt",
+          "Because the text never actually specifies any limits on their abilities"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes between what a creature's nature simply cannot do (like a man flying) regardless of permission, and what it could do by nature but is nonetheless forbidden by God's greater power, applying both categories to the limits on the magicians' abilities."
+      }
+    ],
+    "TRIN-B3C10": [
+      {
+        "q": "How does Augustine explain the theological status of the Eucharistic bread in relation to the appearance of God's own substance?",
+        "options": [
+          "He argues the consecrated bread literally becomes visible proof that God's own substance can be physically seen by mortal eyes",
+          "He compares it to a thing 'made for the purpose' that passes away after fulfilling its signifying ministry, like the bronze serpent, cautioning that if children only ever saw the sacrament without other context, they might wrongly conclude the Lord's own substance had appeared to mortal eyes, when in truth it signifies without being that substance itself",
+          "He denies that the Eucharist has any signifying function whatsoever",
+          "He claims the bread and wine are merely symbolic with no sacramental reality at all"
+        ],
+        "correct": 1,
+        "explanation": "Augustine uses the Eucharist as an example of a thing made specifically to signify and then consumed, cautioning that without proper instruction one might mistakenly think the visible sign is literally God's own substance appearing, a mistake he is at pains to avoid regarding the Old Testament theophanies too."
+      },
+      {
+        "q": "According to Augustine, why are angelic signs (like the rod becoming a serpent) more 'wonderful' to us than human signs (like Jacob's use of a stone), even when they signify the same truth?",
+        "options": [
+          "Because angelic signs are objectively more true, while human signs are always false",
+          "Because angelic actions are more difficult and less familiar to human capacity, even though they are as easy and well-understood to angels as their own natural actions, whereas human signs, being done by men, are within reach of common understanding",
+          "Because angelic signs are always visible while human signs are always invisible",
+          "Because only angelic signs are recorded in canonical Scripture"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that what makes something 'wonderful' is its being difficult and unfamiliar to us, even though it is easy for the agent performing it (angels find their actions as natural as we find our own); human actions, being familiar, provoke understanding but not wonder."
+      },
+      {
+        "q": "What does Augustine say Jacob's anointed stone and the serpent from Moses' rod have in common as prophetic signs of Christ?",
+        "options": [
+          "Nothing; Augustine treats them as entirely unrelated events with no common symbolism",
+          "Both, in different ways, signified Christ — the anointed stone signifying Christ anointed in the flesh, and the rod-turned-serpent signifying Christ made obedient unto the death of the cross and then restored (as the serpent's tail was regrasped and it became a rod again) in the resurrection",
+          "Both signified only the future destruction of Jerusalem",
+          "Both were later shown by Augustine to be inauthentic later additions to the text"
+        ],
+        "correct": 1,
+        "explanation": "Augustine offers a typological reading: the anointed stone points to Christ's anointing in the flesh, while the rod becoming a serpent and then, when grasped by the tail, becoming a rod again, signifies Christ's death and resurrection, with the returning rod symbolizing the whole Christ risen with His body, the Church."
+      }
+    ],
+    "TRIN-B3C11": [
+      {
+        "q": "What text from Hebrews does Augustine cite as decisive proof that Old Testament theophanies were wrought through angels?",
+        "options": [
+          "\"Are they not all ministering spirits, sent forth to minister for them who shall be heirs of salvation?\"",
+          "\"Faith is the substance of things hoped for, the evidence of things not seen\"",
+          "\"Let us run with patience the race that is set before us\"",
+          "\"Jesus Christ, the same yesterday, today, and forever\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine quotes Hebrews' description of angels as 'ministering spirits' to argue that the Old Testament dispensation, including its theophanies and the giving of the Law, involved angelic agency, contrasted with the New Testament word spoken directly 'by the Lord.'"
+      },
+      {
+        "q": "How does Augustine reconcile 'the Lord said to Moses' with his claim that an angel was the actual speaker?",
+        "options": [
+          "He argues the text is simply corrupt and cannot be trusted",
+          "He compares it to how a court record names the judge, not the crier who proclaims the judge's words, and to how 'the prophet said' really means 'the Lord said' through him — so naming the Lord as speaker doesn't exclude an angel as the intermediate voice",
+          "He claims 'the Lord' in this context is a mistranslation that should read 'an angel'",
+          "He denies that Moses ever actually heard any voice at all"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's analogy: just as a court record credits the judge rather than the crier who proclaims his words, and just as 'the prophet said' implies 'the Lord said' through him, Scripture attributing speech to 'the Lord' does not exclude an angel serving as the actual intermediate voice."
+      },
+      {
+        "q": "What verse from Stephen's speech in Acts, and what verse from Galatians, does Augustine marshal to prove the Law itself was given through angels?",
+        "options": [
+          "Acts: \"you... have received the Law by the disposition of angels, and have not kept it\"; Galatians: the promise \"was ordered through angels in the hand of a mediator\"",
+          "Acts: \"Saul, Saul, why do you persecute me?\"; Galatians: \"neither Jew nor Greek, neither bond nor free\"",
+          "Acts: \"repent, and be baptized every one of you\"; Galatians: \"I am crucified with Christ\"",
+          "Acts: \"we ought to obey God rather than men\"; Galatians: \"the fruit of the Spirit is love, joy, peace\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Stephen's rebuke ('received the Law by the disposition of angels') and Paul's statement to the Galatians that the promise 'was ordered through angels in the hand of a mediator' as explicit scriptural proof that angelic ministry, not God's bare substance, mediated the Sinai theophany and the giving of the Law."
+      }
+    ],
+    "TRIN-B4C0": [
+      {
+        "q": "What kind of knowledge does Augustine say is more praiseworthy than knowing 'the walls of the world, the foundations of the earth, and the pinnacles of heaven'?",
+        "options": [
+          "Knowledge of ancient languages and rhetoric",
+          "Knowledge of one's own weakness, gained through being awakened to God and finding one's own filthiness cannot mingle with His purity",
+          "Knowledge of the precise dates of future eclipses",
+          "Knowledge of civil and canon law"
+        ],
+        "correct": 1,
+        "explanation": "Augustine says the mind that knows its own weakness is more praiseworthy than one that knows the stars but not the way to its own health, preferring self-knowledge that leads to humility and grief over sin."
+      },
+      {
+        "q": "What does Augustine pray regarding his own writing in this preface?",
+        "options": [
+          "That he will complete the work quickly regardless of quality",
+          "That he will not 'vomit forth' the figments of his own heart as if they were solid truths, but write only what the breath of God's truth has breathed into him",
+          "That his book will be more popular than the works of pagan philosophers",
+          "That readers will never dare to question anything he writes"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explicitly prays that nothing but what God's truth has breathed into him will pass into his writing, distinguishing this from the merely human 'figments' his own heart could generate."
+      },
+      {
+        "q": "According to Augustine, what three things about the divine essence are said to have 'nothing changeable' in them?",
+        "options": [
+          "Neither eternity, nor truth, nor will",
+          "Neither size, nor color, nor shape",
+          "Neither Scripture, nor tradition, nor reason",
+          "Neither the Father, nor the Son, nor creation"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states that God's essence has nothing changeable in eternity, truth, or will, and that in God these three are united: eternal truth, true love, and loved eternity."
+      }
+    ],
+    "TRIN-B4C1": [
+      {
+        "q": "According to Augustine, what two things did humanity need to be persuaded of, and why?",
+        "options": [
+          "That God exists and that angels are real, both to strengthen intellectual belief",
+          "How much God loved us (lest we despair) and what manner of sinners we are whom He loved (lest we grow proud), so that humility might perfect charity",
+          "That the world is temporal and that philosophy is useless, both to discourage secular learning",
+          "That the Old Law is abolished and that only the New Law matters, both to settle a legal dispute"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains humanity needed to know both the depth of God's love (to avoid despair) and its own sinfulness (to avoid pride), so that humility and charity could together be perfected."
+      },
+      {
+        "q": "What Pauline text does Augustine cite to show that God's love was proven precisely toward sinners, not the righteous?",
+        "options": [
+          "\"God commends His love toward us, in that, while we were yet sinners, Christ died for us\"",
+          "\"Love your neighbor as yourself\"",
+          "\"Love is patient, love is kind\"",
+          "\"There is no fear in love, but perfect love casts out fear\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine quotes Romans 5 to demonstrate that God's love toward us was displayed precisely while we were sinners, not after we had become worthy, which humbles us and prevents pride."
+      },
+      {
+        "q": "How does Augustine describe the relationship between the eternal Word and everything that was made through Him?",
+        "options": [
+          "Whatever was made by Him was not made 'in Him,' but existed independently from the start",
+          "Whatever was made was already 'life in Him' before it was made, since all things exist in the unchangeable Word potentially and unchangeably, simultaneously with what has been and will be",
+          "Only living things were ever 'in' the Word; inanimate matter was created separately",
+          "The Word only came to contain all things after the Incarnation, not from eternity"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that in the unchangeable Word all things (past, present, future) are simultaneously and potentially present as 'life,' since 'that which was made was already life in Him' before it came to be in time."
+      }
+    ],
+    "TRIN-B4C2": [
+      {
+        "q": "Why does Augustine say a sinner needed a righteous man, rather than simply God directly, to intercede for him?",
+        "options": [
+          "Because God is incapable of caring about sinners without an intermediary",
+          "Because 'the sinner is not congruous to the righteous, but man is congruous to man,' so God made Himself a righteous man in order to intercede for man the sinner with a fitting congruity",
+          "Because angels refused to intercede on behalf of sinful humanity",
+          "Because Jewish law forbade any direct approach to God whatsoever"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's principle of 'congruity' holds that since a sinner is not congruous (fitting) to the righteous God, God became a righteous man, so that man might intercede fittingly for sinful man."
+      },
+      {
+        "q": "What musical analogy does Augustine use to illustrate the 'congruity' of single to double in Christ's one death answering our double death?",
+        "options": [
+          "The harmony (harmonia) by which treble and bass voices agree, so that any voice departing from proper ratio offends both trained skill and the very sense of hearing, demonstrable on a monochord",
+          "The rhythm of a marching drum used in Roman military processions",
+          "The tuning of a lyre used exclusively in pagan temple worship",
+          "The chanting patterns used in synagogue worship, which he claims are mathematically identical to Christian liturgy"
+        ],
+        "correct": 0,
+        "explanation": "Augustine compares the ratio of one to two (which underlies harmonic consonance between treble and bass voices) to the fittingness of Christ's single death answering our double death, a congruity demonstrable to the ear even by the untrained, such as on a monochord."
+      },
+      {
+        "q": "According to Augustine, by taking on our mortality, what did Christ make us partakers of in return?",
+        "options": [
+          "His own royal lineage",
+          "His divinity, since 'by being made partaker of our mortality, He made us partakers of His divinity'",
+          "His specific human ethnicity and nationality",
+          "Nothing in return; the exchange was entirely one-directional"
+        ],
+        "correct": 1,
+        "explanation": "Augustine states the classic exchange formula: Christ, by joining Himself to our mortal likeness, made us partakers of His own divinity, taking away the unlikeness caused by our unrighteousness."
+      }
+    ],
+    "TRIN-B4C3": [
+      {
+        "q": "What are the two 'deaths' Augustine says every human being suffers, according to this chapter?",
+        "options": [
+          "Physical death and social death (exile from community)",
+          "Death of the soul (ungodliness, when God leaves the soul) and death of the body (corruption, when the soul leaves the body)",
+          "Death of reputation and death of wealth",
+          "Death in infancy and death in old age, as two separate categories"
+        ],
+        "correct": 1,
+        "explanation": "Augustine distinguishes the soul's death, which is ungodliness (God's departure from the soul), from the body's death, which is corruptibility (the soul's departure from the body), together constituting humanity's 'double death.'"
+      },
+      {
+        "q": "How does Augustine read Christ's cry from the cross, 'My God, my God, why have you forsaken me?'",
+        "options": [
+          "As proof that Christ actually despaired and lost faith at the moment of death",
+          "As a mystery pertaining to the inner man, signifying the death of the soul that must be overcome through repentance, paired with Paul's 'our old man is crucified with Him'",
+          "As a literal complaint against the Father's injustice",
+          "As a quotation with no theological significance, included only for historical accuracy"
+        ],
+        "correct": 1,
+        "explanation": "Augustine treats this cry as signifying, in mystery, the death of our inner soul (through the pains of repentance and self-control), linking it to Paul's teaching that 'our old man is crucified with Him.'"
+      },
+      {
+        "q": "What does the risen Christ's statement 'Touch me not, for I am not yet ascended to my Father' signify for Augustine, in contrast to His later invitation for the disciples to 'handle me, and see'?",
+        "options": [
+          "A contradiction in the Gospel accounts that Augustine says cannot be resolved",
+          "That not touching Christ signifies not having merely fleshly thoughts of Him (the mystery of inner resurrection), while being touched and handled afterward is a type of the outer man's future bodily resurrection",
+          "That Mary Magdalene was forbidden to touch Jesus because of her past sins, unlike the male disciples",
+          "That Christ's body was not actually physical until after the Ascension"
+        ],
+        "correct": 1,
+        "explanation": "Augustine distinguishes 'touch me not' (signifying we should not think of Christ in a merely fleshly way, tied to the inner man's resurrection) from the later invitation to handle His wounds, which typifies the outer man's future bodily resurrection."
+      }
+    ],
+    "TRIN-B4C4": [
+      {
+        "q": "Why does Augustine call six a 'perfect' number?",
+        "options": [
+          "Because it is the number of days God rested from creation",
+          "Because it is completed by the sum of its own aliquot parts: its sixth part is 1, its third part is 2, its half is 3, and 1+2+3=6",
+          "Because six was the number of tribes descended from Jacob's favored wife",
+          "Because six letters spell the Hebrew name for God"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains six is 'perfect' because it equals the sum of its own proper divisors (1, 2, and 3, which are its sixth, third, and half parts respectively), a property unique among small numbers."
+      },
+      {
+        "q": "In what 'age' of the world, according to Augustine's scheme, did the Son of God come to be born as the Son of man?",
+        "options": [
+          "The third age, corresponding to the time of David",
+          "The sixth age, following the ages from Adam to Noah, Noah to Abraham, Abraham to David, David to the Babylonian captivity, and captivity to the Virgin's travail",
+          "The first age, immediately after Adam's creation",
+          "An age still to come, not yet begun even at the time of Augustine's writing"
+        ],
+        "correct": 1,
+        "explanation": "Augustine lists five prior ages (Adam-Noah, Noah-Abraham, Abraham-David, David-Babylon, Babylon-Virgin) and identifies Christ's nativity as beginning the sixth age, ongoing until the end of time, mirroring the sixth day when man was made."
+      },
+      {
+        "q": "What episode does Augustine connect to the cube of six (six times six times six, or 216) via a period of eighteen years?",
+        "options": [
+          "The eighteen years Jacob served Laban for his wives",
+          "The woman bowed down by infirmity for eighteen years, whom the Lord made whole and upright, understood as a type of the Church bound by Satan",
+          "The eighteen years of King Solomon's temple construction",
+          "The eighteen years between Christ's birth and His appearance in the Temple at age twelve"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes the eighteen years (whose months equal six cubed) of the woman's infirmity in the Gospel, healed by the Lord, taking her as a figure of the Church freed from bondage to Satan."
+      }
+    ],
+    "TRIN-B4C5": [
+      {
+        "q": "What calculation does Augustine perform using the '46 years' the Jews said the Temple took to build?",
+        "options": [
+          "He divides 46 by 6 to get roughly 7.67, which he calls meaningless",
+          "He multiplies 46 by 6 to get 276, which he says matches the traditional span of days from Christ's conception (March 25) to His birth (December 25), reading the Temple's 46 years as a figure of the perfecting of Christ's body",
+          "He adds 46 and 6 to get 52, matching the weeks of a year",
+          "He subtracts 6 from 46 to get 40, matching the days of Christ's fasting"
+        ],
+        "correct": 1,
+        "explanation": "Augustine multiplies 46 (years of Temple-building, per John 2:20) by 6 to get 276 days, which he identifies with the traditional interval between Christ's conception and birth, since 'He spoke this of the temple of His body.'"
+      },
+      {
+        "q": "According to church tradition Augustine cites, on what date was Christ traditionally believed to have been both conceived and to have later suffered?",
+        "options": [
+          "December 25th",
+          "March 25th",
+          "January 6th",
+          "Easter Sunday, whatever date it fell on that year"
+        ],
+        "correct": 1,
+        "explanation": "Augustine records the tradition that Christ was conceived on March 25th, the same calendar date on which He later suffered, drawing a parallel between the virgin womb (never occupied before) and the new tomb (never occupied before)."
+      },
+      {
+        "q": "What Gospel text does Augustine cite to confirm that 'the temple' Jesus said He would 'raise up in three days' refers to His own body?",
+        "options": [
+          "\"Destroy this temple, and in three days I will raise it up\" together with John's clarification, \"He spoke this of the temple of his body\"",
+          "\"My house shall be called a house of prayer\"",
+          "\"Not one stone shall be left upon another\"",
+          "\"The veil of the temple was rent in twain\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Christ's statement about raising the destroyed temple in three days, together with John's editorial clarification that this referred to the temple of His own body, to support his numerical typology."
+      }
+    ],
+    "TRIN-B4C6": [
+      {
+        "q": "How does Augustine reckon the 'three days' of Christ's death, burial, and resurrection so that all three are 'whole' days?",
+        "options": [
+          "By treating each of the three days as a full 24-hour period with no exceptions",
+          "By counting the first day as whole from its last part (Friday afternoon), the third day as whole from its first part (early Sunday), with the middle day (Saturday) a complete 24 hours",
+          "By ignoring the Sabbath entirely in his calculation",
+          "By counting only the daylight hours across the three days, ignoring nights altogether"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that Scripture reckons a day as whole even from just its final part or its first part, so the crucifixion afternoon counts as the whole first day, Saturday is a complete second day, and the resurrection dawn counts as the whole third day."
+      },
+      {
+        "q": "What number does Augustine calculate for the hours from Christ's death (the ninth hour) to the dawn of the resurrection, and what does he connect it to?",
+        "options": [
+          "Forty hours, which he links to the frequent scriptural use of forty (as in the forty days of Christ's post-resurrection appearances) to signify perfection in a fourfold world",
+          "Twelve hours, linked to the twelve apostles",
+          "Seventy hours, linked to the seventy nations of Genesis 10",
+          "Fifty hours, linked to the fifty days until Pentecost"
+        ],
+        "correct": 0,
+        "explanation": "Augustine calculates forty hours from the ninth-hour death to the dawn of resurrection and connects this to the scripturally significant number forty (ten, itself perfect, multiplied by the fourfold world), matching Christ's subsequent forty days on earth."
+      },
+      {
+        "q": "What number does Augustine find for the hours from the evening burial to the dawn of resurrection, and how does he connect it to the 'single to double' ratio?",
+        "options": [
+          "Thirty-six hours (six squared), matching twelve (a whole night) added to twenty-four (a whole day and night), the ratio of one to two",
+          "Twenty-four hours exactly, with no further numerical significance",
+          "Eighteen hours, matching the eighteen years of the bowed woman discussed earlier",
+          "Six hours only, matching a single quarter of a day"
+        ],
+        "correct": 0,
+        "explanation": "Augustine finds thirty-six hours (six squared) from burial to resurrection dawn, breaking this into twelve hours (night) plus twenty-four hours (a full day and night), which he reads as another instance of the single-to-double ratio he has traced throughout the chapter."
+      }
+    ],
+    "TRIN-B4C7": [
+      {
+        "q": "According to Augustine, why did 'many things' (angelic miracles, prophetic acts, and events done by the fathers) need to jointly proclaim the coming of the 'One' Mediator?",
+        "options": [
+          "Because Scripture requires multiple witnesses for any legal testimony to be valid",
+          "Because humanity had fallen into discord and vanity, distracted and scattered among 'many things,' so it needed the many to jointly witness the One who would gather it back from that fragmentation into unity",
+          "Because a single witness would have been considered scientifically insufficient by ancient standards",
+          "Because Augustine believed multiple witnesses made the prophecies easier to falsify and detect fraud"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that because ungodliness had scattered humanity among 'many things' in discord from the one true God, it was fitting that many signs and witnesses should jointly proclaim the coming of the One who would restore that scattered unity."
+      },
+      {
+        "q": "What does Augustine say is the purpose of these many prior similitudes 'joining in witnessing' after the One had come?",
+        "options": [
+          "To provide entertainment for future generations of Christians",
+          "So that freed from the burden of the many, we should come to the One, loving Him who died sinless for us, being justified by being made one in Him, and not despairing of our own bodily resurrection since our Head has gone before us",
+          "To replace the need for personal faith with historical evidence alone",
+          "To prove that pagan religions were entirely without value or truth"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that the many witnesses converge to draw believers, freed from the burden of scattered multiplicity, to unity with the One, so that loving and believing in Him, we may be justified in Him and hope for our own resurrection, since our Head has already risen."
+      },
+      {
+        "q": "How does Augustine describe humanity's condition prior to the Mediator's coming, using the language of 'many' and 'one'?",
+        "options": [
+          "As perfectly unified and at peace, requiring no Mediator at all",
+          "As having 'recoiled and fallen away in discord from the one true and supreme God,' having 'become vain' and being 'distracted through many things and cleaving fast to many things'",
+          "As entirely ignorant of God's existence, with no prior revelation whatsoever",
+          "As already reconciled to God through the Law alone, needing only minor correction"
+        ],
+        "correct": 1,
+        "explanation": "Augustine describes fallen humanity as having recoiled from the one true God into discord, becoming 'vain' through distraction and attachment to 'many things,' the very condition the Mediator's coming was meant to heal."
+      }
+    ],
+    "TRIN-B4C8": [
+      {
+        "q": "In Christ's prayer quoted in this chapter, for whom besides His immediate disciples does He pray?",
+        "options": [
+          "Only for the twelve apostles present at the Last Supper",
+          "For 'them also which shall believe in me through their word,' i.e., all future believers reached through the apostles' preaching",
+          "Only for the Jewish people specifically, excluding Gentiles",
+          "For no one beyond Himself, since the prayer concerns only His own glorification"
+        ],
+        "correct": 1,
+        "explanation": "Augustine quotes Christ's prayer explicitly extending beyond the immediate disciples to 'them also which shall believe in me through their word,' i.e., future believers reached through apostolic preaching."
+      },
+      {
+        "q": "What is the model Christ gives, according to this prayer, for the unity He desires among believers?",
+        "options": [
+          "\"That they all may be one; as You, Father, are in me, and I in You, that they also may be one in us\"",
+          "\"That they may be scattered, each according to his own conscience\"",
+          "\"That they may compete for the greatest place in the kingdom\"",
+          "\"That they may be divided into twelve tribes as Israel was\""
+        ],
+        "correct": 0,
+        "explanation": "Christ prays that believers' unity would mirror His own unity with the Father ('as You, Father, are in me, and I in You'), so that they too may be one in the Father and the Son."
+      },
+      {
+        "q": "What purpose does Christ give, in this prayer, for the believers' unity, according to the text Augustine quotes?",
+        "options": [
+          "So that the apostles might gain earthly political power",
+          "\"That the world may believe that You have sent me\" — believers' unity is meant to be evidence to the world of Christ's divine mission",
+          "So that the Roman Empire would recognize Christianity as the official state religion",
+          "So that no further persecution of Christians would ever occur"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's quoted text gives the missionary purpose of believers' unity: 'that the world may believe that You have sent me,' making unity itself a testimony to Christ's divine mission."
+      }
+    ],
+    "TRIN-B4C9": [
+      {
+        "q": "Why does Augustine say Christ deliberately did NOT say 'I and they are one thing' (unum) in this prayer?",
+        "options": [
+          "Because such phrasing was grammatically impossible in Koine Greek",
+          "In order to show His own Godhead consubstantial with the Father in the strict sense ('I and my Father are one'), while wishing His followers to be one only 'in Him,' since in themselves they are separated by various sinful desires",
+          "Because Christ intended to exclude the apostles from any real unity with Himself",
+          "Because the phrase would have implied Christ was not truly human"
+        ],
+        "correct": 1,
+        "explanation": "Augustine draws a careful distinction: Christ's oneness with the Father is consubstantial equality of nature ('I and my Father are one'), while believers' oneness is achieved only 'in Him' as Mediator, since in themselves they remain separated by sin until cleansed."
+      },
+      {
+        "q": "According to Augustine, in what two ways does Christ want believers to be 'one, even as we are one'?",
+        "options": [
+          "Only through outward ritual practices held in common",
+          "Through the same nature (elevated from mortal humanity to equality with the angels) and through the same will, harmoniously united and fused by the fire of charity into 'one spirit'",
+          "Only through political allegiance to a single earthly ruler",
+          "Through identical individual personalities, eliminating all human diversity"
+        ],
+        "correct": 1,
+        "explanation": "Augustine identifies two dimensions of believers' unity 'in Christ': a shared elevated nature (raised to equality with angels) and a shared will, unified by charity into 'one spirit,' paralleling (though not identical to) the Father-Son unity of substance and will."
+      },
+      {
+        "q": "Could Christ have said 'the head and the body is one Christ' in a different sense than the consubstantial unity with the Father, according to Augustine?",
+        "options": [
+          "No, Augustine denies the Church can be called 'one Christ' with the head in any sense",
+          "Yes; Augustine acknowledges that, since the head and body form one Christ, He might have spoken of Himself and believers as 'one person,' but chose instead a different formulation to highlight His distinct consubstantial equality with the Father",
+          "The chapter does not address the head-body relationship of Christ and the Church at all",
+          "Augustine claims this is a heretical formulation that no Catholic should ever use"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes that Christ, as head of the Church which is His body, could have spoken of Himself and believers as 'one person,' but instead used language emphasizing His distinct, consubstantial equality with the Father as the ground for believers' derived unity in Him."
+      }
+    ],
+    "TRIN-B4C10": [
+      {
+        "q": "What parallel does Augustine draw between the devil and Christ as 'mediators'?",
+        "options": [
+          "Both mediators are said to be equally good, differing only in their followers' interpretation",
+          "As the devil, through pride, led man through pride to death, so Christ, through lowliness, led man back through obedience to life",
+          "Neither the devil nor Christ actually mediates anything, according to Augustine's final view",
+          "The devil mediates only physical death while Christ mediates only spiritual death, with no overlap"
+        ],
+        "correct": 1,
+        "explanation": "Augustine sets up the chapter's controlling antithesis: the devil, exalted by pride, cast man down through pride into death, while Christ, humbled in lowliness, raised man up through obedience into life."
+      },
+      {
+        "q": "Why, according to Augustine, could the devil bring man only to spiritual death and not accompany him into bodily death?",
+        "options": [
+          "Because the devil chose out of mercy not to inflict bodily death on humanity",
+          "Because the devil, though dying spiritually through his own ungodliness, never assumed flesh and so never underwent the death of the flesh himself, unlike Christ who assumed mortal flesh to undergo it for us",
+          "Because bodily death did not exist until after the Incarnation",
+          "Because only human beings, never spiritual beings of any kind, can experience any form of death"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes the devil bore the death of the spirit through his own ungodliness but never assumed flesh, so he could not himself undergo bodily death — a key asymmetry Augustine will use throughout the following chapters to explain Christ's victory."
+      },
+      {
+        "q": "By what means, according to Augustine, does the devil deceive the proud who seek spiritual cleansing apart from Christ?",
+        "options": [
+          "Through sacrilegious rites and initiations (τελεταί) in which he transforms himself into 'an angel of light,' promising cleansing through magical trickery and signs",
+          "Through open, undisguised warfare against all religion whatsoever",
+          "Through direct, honest philosophical argument that Augustine considers logically sound",
+          "Through bribery of Church officials specifically"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes the devil deceiving the proud and curious through sacrilegious initiation rites (τελεταί), transforming himself into an appearance of 'an angel of light' while promising false cleansing through magical signs and prodigies."
+      }
+    ],
+    "TRIN-B4C11": [
+      {
+        "q": "How does Augustine explain the wonders demons can perform through their 'aerial bodies'?",
+        "options": [
+          "He denies demons can perform any wonders whatsoever, calling all such reports pure fabrication",
+          "He compares them to trained human performers who astonish audiences with theatrical marvels, arguing it is no harder for demons to produce corporeal wonders or deceptive fantasies through their aerial bodies than for skilled humans to perform astonishing feats",
+          "He claims demonic wonders always involve visible physical destruction, unlike any other kind of miracle",
+          "He argues demonic wonders are indistinguishable in every respect from divine miracles"
+        ],
+        "correct": 1,
+        "explanation": "Augustine compares demonic wonders to the astonishing feats of skilled but morally unremarkable human performers (like rope-walkers), arguing it is unsurprising that spirits with subtler, aerial bodies could produce even more startling effects."
+      },
+      {
+        "q": "What attitude does Augustine recommend the faithful soul take toward demonic miracles it witnesses or hears of?",
+        "options": [
+          "Despair at its own inability to perform such wonders",
+          "Neither despair at lacking such powers nor judging the demons (or those who display such feats) to be superior, since it belongs to the company of saints and holy angels who accomplish far greater, non-deceptive wonders through God's power",
+          "Immediate attempts to replicate demonic feats through similar rites",
+          "Complete indifference, since Augustine claims demonic wonders have no bearing on faith whatsoever"
+        ],
+        "correct": 1,
+        "explanation": "Augustine counsels that the pious soul should neither lament its own lack of such power nor consider demons or their human imitators superior, since it belongs instead to the fellowship of saints and holy angels, whose God-given wonders are far greater and free of deception."
+      },
+      {
+        "q": "What comparison does Augustine draw between a virtuous but ordinary person watching a skilled performer and the faithful soul witnessing demonic wonders?",
+        "options": [
+          "He denies any legitimate comparison can be drawn between the two situations",
+          "Just as a morally better person may watch a rope-walker's amazing feats without wishing to imitate them or considering the performer superior, so the faithful soul can witness demonic marvels without envy or false admiration",
+          "He argues the virtuous person should always attempt to outperform the skilled entertainer",
+          "He claims only sinners are capable of watching such performances without being corrupted"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's analogy: a person of superior character can watch a rope-walker's skillful, difficult performance without desiring to imitate it or ranking the performer above himself, just as the faithful should regard demonic wonders."
+      }
+    ],
+    "TRIN-B4C12": [
+      {
+        "q": "According to Augustine, why does humanity tend to fear bodily death more than the guilt of sin itself?",
+        "options": [
+          "Because Scripture teaches that bodily death is objectively worse than sin",
+          "Because sin's avoidance is a matter people are often careless about, while the impossibility of escaping bodily death, though inescapable, is still eagerly (though futilely) resisted by natural instinct",
+          "Because ancient philosophy proved that only bodily death has any real consequences",
+          "Because Augustine says fear of bodily death was invented by the Church to control believers"
+        ],
+        "correct": 1,
+        "explanation": "Augustine observes that people are often careless about avoiding sin (the desert of punishment) yet eagerly seek to avoid death itself (the punishment), even though death cannot ultimately be escaped, revealing a disordered set of priorities that Christ's teaching seeks to correct."
+      },
+      {
+        "q": "How does Augustine explain the statement 'God made not death' alongside the fact that death is 'inflicted on the sinner'?",
+        "options": [
+          "He says this is a scriptural contradiction that cannot be resolved",
+          "By comparing it to a judge who inflicts punishment on the guilty: the judge's justice, not his personal will to harm, is the formal cause, and likewise it is the sinner's own crime (the desert of punishment), not God's direct causation, that brings about death",
+          "By claiming death does not actually exist and is merely an illusion",
+          "By arguing 'God made not death' refers only to the death of animals, not humans"
+        ],
+        "correct": 1,
+        "explanation": "Augustine uses the judge analogy: just as a judge's sentence is caused by the criminal's own deed rather than by the judge's malice, so death is inflicted on the sinner through God's just retribution, with the sin, not God's direct will to harm, as its true cause."
+      },
+      {
+        "q": "What does Augustine mean by saying the Mediator of life leads us 'not by the way by which we came' but to the same destination (death)?",
+        "options": [
+          "That Christ avoided physical death altogether, taking a spiritual shortcut around it",
+          "That while sin led us to death, Christ arrives at that same end (death) through righteousness rather than sin, so His death, unlike ours, is a voluntary sacrifice for sin rather than a punishment for sin",
+          "That Christ's path to death was identical in every respect to Adam's, with no distinction",
+          "That this refers only to a geographical difference in where Christ died compared to Adam"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that while we arrive at death through sin, Christ arrives at the very same destination through righteousness; hence, as our death is the punishment for sin, His death was instead offered as a sacrifice for sin."
+      }
+    ],
+    "TRIN-B4C13": [
+      {
+        "q": "What does Augustine say especially astonished onlookers at Christ's crucifixion, given the usual course of crucifixion deaths?",
+        "options": [
+          "That He spoke seven distinct sayings from the cross, more than any other crucified person",
+          "That He gave up His spirit immediately after His last recorded word, whereas crucifixion victims (like the two thieves, whose legs had to be broken) usually endured a prolonged death",
+          "That He was crucified alongside two others rather than alone",
+          "That darkness fell over the land during His crucifixion"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notes the wonder (shared even by Pilate) at how quickly Christ died compared to the typically prolonged death by crucifixion, evidenced by the need to break the thieves' legs to hasten their deaths, taking this as a sign of Christ's voluntary control over His own death."
+      },
+      {
+        "q": "How does Augustine explain the devil's defeat 'in the very death of the flesh' where he thought himself victorious?",
+        "options": [
+          "The devil, dead in spirit, had no purchase within the sinless, spiritually living Christ, so his only avenue of attack was Christ's mortal flesh; but by wrongly killing the sinless Christ, the devil forfeited his just claim over sinners, since Christ's undue death cancelled the debt owed by the guilty",
+          "The devil was physically destroyed at the moment of the crucifixion",
+          "The devil never actually attacked Christ in any way, according to Augustine",
+          "Christ's death had no effect whatsoever on the devil's power, according to this chapter"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that since the devil (dead in spirit) could find no foothold in Christ (alive in spirit and sinless), his only avenue was Christ's assumed mortal flesh; but by wrongly killing an innocent victim, the devil lost his rightful claim over sinners, whose debt Christ's undue death cancelled."
+      },
+      {
+        "q": "What quotation from Christ does Augustine use to demonstrate the voluntary nature of His death?",
+        "options": [
+          "\"I have power to lay down my life, and I have power to take it again. No man takes it from me\"",
+          "\"Father, into your hands I commit my spirit\"",
+          "\"It is finished\"",
+          "\"Today you will be with me in paradise\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine quotes Christ's own claim of authority over His life and death ('I have power to lay down my life, and I have power to take it again. No man takes it from me') as proof that His death was not imposed by necessity but chosen freely."
+      }
+    ],
+    "TRIN-B4C14": [
+      {
+        "q": "What four elements does Augustine say must be considered in every sacrifice?",
+        "options": [
+          "The season, the location, the witnesses, and the cost",
+          "To whom it is offered, by whom it is offered, what is offered, and for whom it is offered",
+          "The animal species, its age, its color, and its physical condition",
+          "The priest's rank, the altar's material, the time of day, and the accompanying prayers"
+        ],
+        "correct": 1,
+        "explanation": "Augustine identifies four elements essential to any true sacrifice: the recipient, the offerer, the thing offered, and the beneficiaries — all of which, he argues, are uniquely fulfilled in Christ."
+      },
+      {
+        "q": "Why does Augustine say Christ alone is fit to be the perfectly 'righteous and holy priest' of this sacrifice?",
+        "options": [
+          "Because Christ, unlike any other priest, had no need to purge His own sins by sacrifice, whether original sin or sins added through personal life",
+          "Because Christ was descended from the tribe of Levi, the priestly tribe",
+          "Because Christ was formally ordained by the Jewish Sanhedrin",
+          "Because Christ performed more ritual sacrifices than any other Jewish priest in history"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues Christ's unique fitness as priest rests on His complete sinlessness, needing no sacrifice for His own original or personal sin, unlike every other human priest."
+      },
+      {
+        "q": "How does Christ, according to Augustine, uniquely fulfill all four elements of true sacrifice simultaneously?",
+        "options": [
+          "By remaining one with the Father (to whom offered), making believers one in Himself (for whom offered), and Himself being both the offerer and the offering",
+          "By requiring a separate priest, victim, and recipient for each individual believer's sacrifice",
+          "By eliminating the need for any of the four elements Augustine listed",
+          "By delegating the offering itself to the apostles while remaining only the recipient"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's climactic point: the one true Mediator remains one with the Father to whom He offers, unites believers in Himself as those for whom He offers, and is Himself simultaneously the offerer and the very thing offered."
+      }
+    ],
+    "TRIN-B4C15": [
+      {
+        "q": "What group does Augustine criticize for believing they can be cleansed 'by their own righteousness' to contemplate God?",
+        "options": [
+          "Ordinary lay Christians who attend church regularly",
+          "Those (implicitly Platonist philosophers) who have been able, in some small part, to touch the light of unchangeable truth with the mind's eye, and who on that account deride Christians who still live only by faith",
+          "The apostles themselves, whom Augustine accuses of spiritual pride",
+          "Only the Old Testament patriarchs, none of whom Augustine considers relevant to his own era"
+        ],
+        "correct": 1,
+        "explanation": "Augustine targets those (largely Platonist philosophers) who, having glimpsed unchangeable truth through pure intellect, look down on ordinary believers who live by faith alone, considering their own achievement sufficient for cleansing and contemplation of God."
+      },
+      {
+        "q": "What is the meaning of Augustine's image of 'the ship of wood' that the proud disdain to board?",
+        "options": [
+          "A literal reference to Noah's ark",
+          "A figure for the cross of Christ, which alone can actually carry a person to God, contrasted with merely glimpsing the destination from a distant shore without any means of crossing",
+          "A reference to the wooden altar used in Old Testament sacrifices",
+          "A metaphor for the Church's material wealth, which Augustine criticizes as excessive"
+        ],
+        "correct": 1,
+        "explanation": "Augustine uses 'the ship of wood' as a figure for the cross, arguing that the proud philosopher who merely glimpses his homeland (God) from a distance but refuses to embark on the cross gains nothing over the humble believer who is actually carried there by it."
+      },
+      {
+        "q": "Does Augustine say it actually harms the humble believer that he cannot behold God's truth 'from so great a distance' the way the proud philosopher claims to?",
+        "options": [
+          "Yes, Augustine considers this a genuine and permanent spiritual disadvantage for the humble believer",
+          "No; Augustine asks rhetorically how it could hurt the humble man not to see it from a distance, when he is actually being carried there by the very wood (the cross) which the proud man disdains to board",
+          "The chapter does not address this question at all",
+          "Augustine says both the proud and the humble arrive equally quickly regardless of method"
+        ],
+        "correct": 1,
+        "explanation": "Augustine turns the objection around: it does not harm the humble man to lack the philosopher's distant glimpse, since the humble man is actually being carried to his true homeland by the cross, which the proud man refuses to board."
+      }
+    ],
+    "TRIN-B4C16": [
+      {
+        "q": "What limitation does Augustine identify in even the best pagan philosophers' understanding of the eternal Creator?",
+        "options": [
+          "That their grasp of eternal, unchangeable substance did not give them any special ability to know particular facts about the natural world, such as kinds of animals, or the succession of ages, which they derived instead from ordinary historical observation",
+          "That they never had any true insight into eternal truth at all, contrary to Romans 1",
+          "That their philosophy was entirely fabricated with no rational basis whatsoever",
+          "That they lacked access to any Hebrew scriptures whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grants that some philosophers genuinely grasped the unchangeable, eternal substance through reason, but denies this gave them any special competence regarding particular natural facts or future history, which even they gathered through ordinary historical experience."
+      },
+      {
+        "q": "According to Augustine, on what basis do philosophers actually know things like the kinds of animals, their reproduction, and lifespans?",
+        "options": [
+          "Through direct mystical revelation from the eternal Wisdom itself",
+          "Through the actual history of places and times, or by trusting the written experience of others, not through their grasp of eternal wisdom",
+          "Through innate ideas present in the soul from birth",
+          "Through mathematical deduction alone, without any empirical observation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues philosophers' knowledge of particular natural facts comes from historical observation and the recorded experience of others, the same method historians use, not from any direct access to eternal wisdom."
+      },
+      {
+        "q": "Why does Augustine say it is less surprising that philosophers failed to grasp the succession of future ages?",
+        "options": [
+          "Because such knowledge belongs to future history, which historians (who describe only the past) could not have described, and philosophers who merely grasp eternal principles are not thereby given knowledge of contingent future events either",
+          "Because the philosophers deliberately concealed their knowledge of the future from the public",
+          "Because Augustine believes no one, not even prophets, can know anything about the future",
+          "Because philosophical texts about the future were systematically destroyed by Roman authorities"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that since even historians (describing the past) cannot describe events yet unexperienced, and philosophers' grasp of eternal principles does not confer knowledge of contingent future events, their failure regarding future ages is unsurprising."
+      }
+    ],
+    "TRIN-B4C17": [
+      {
+        "q": "What several distinct ways of 'foreknowing' future things does Augustine outline in this chapter?",
+        "options": [
+          "Conjecture from past experience (as physicians, farmers, sailors do); perceiving from a distance events already in motion (as from a mountaintop); revelation via holy angels; and the mind being borne up by the Holy Spirit to directly behold the causes of things in the highest pinnacle of the universe",
+          "Only two ways: direct divine revelation or pure guesswork, with no other options",
+          "Astrology alone, which Augustine says is the only reliable method",
+          "Only through consulting written prophetic texts, with no other legitimate means"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes several modes: experience-based conjecture (as by physicians or farmers), perception of already-unfolding distant events (like seeing someone approaching from a mountain), angelic revelation, and direct illumination of the mind by the Holy Spirit."
+      },
+      {
+        "q": "What biblical example does Augustine give of prophecy spoken 'by a kind of instinct' by someone who did not understand what he was saying?",
+        "options": [
+          "Balaam's donkey speaking to rebuke him",
+          "Caiaphas, who as high priest unknowingly prophesied Christ's death for the nation",
+          "Pharaoh's dream about seven fat and seven lean cows",
+          "Nebuchadnezzar's dream of the great statue"
+        ],
+        "correct": 1,
+        "explanation": "Augustine cites Caiaphas as an example of unwitting prophecy: 'Caiaphas did not know what he said, but being the high priest, he prophesied,' illustrating prophecy given through office or instinct without the speaker's own understanding."
+      },
+      {
+        "q": "According to Augustine, why should Christians not consult pagan philosophers about the resurrection of the dead or the succession of ages?",
+        "options": [
+          "Because philosophers deliberately spread malicious falsehoods about Christianity",
+          "Because, despite understanding God through created things, they did not glorify Him as God nor give thanks, and 'professing themselves wise, became fools,' so they were not judged worthy of angelic revelation about the future ages or bodily resurrection",
+          "Because philosophy as a discipline was formally banned within the Church by Augustine's time",
+          "Because Augustine believed philosophers lacked the intellectual capacity to understand any theological claims"
+        ],
+        "correct": 1,
+        "explanation": "Quoting Romans 1, Augustine argues philosophers who knew God through creation but failed to glorify or thank Him, becoming fools in their vain reasoning, were therefore not granted angelic revelation about the succession of ages or the resurrection, unlike the truly pious fathers and prophets."
+      }
+    ],
+    "TRIN-B4C18": [
+      {
+        "q": "Why, according to Augustine, could humanity not be cleansed for eternal things except through something temporal?",
+        "options": [
+          "Because eternal things are entirely fictional and do not actually exist",
+          "Because we were 'held fast' by the love of temporal things due to sin, and healing (like medicine) must have some congruity with the disease, so useful temporal things take up those needing healing and pass them on, healed, to things eternal",
+          "Because God is incapable of acting in eternity, only in time",
+          "Because temporal things are inherently superior to eternal things in Augustine's view"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues that since we are entangled with temporal things through sin, our healing (like any medicine) must have some congruity with our disease, so useful temporal realities (like Christ's Incarnation) can carry the sick toward eternal health."
+      },
+      {
+        "q": "What formula from 'one of the Greeks' does Augustine cite about the relationship of truth to faith?",
+        "options": [
+          "\"Truth stands to faith in the same relation in which eternity stands to that which has a beginning\"",
+          "\"Faith without works is dead\"",
+          "\"The unexamined life is not worth living\"",
+          "\"Man is the measure of all things\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites this formula (attributed to a Greek philosopher) as capturing why our temporal faith in things 'that have a beginning' will, in eternity, be surpassed by truth itself, just as what has a beginning is surpassed by eternity."
+      },
+      {
+        "q": "How does Augustine explain that eternal Truth 'took a beginning from earth' without losing its eternity?",
+        "options": [
+          "By denying that the Incarnation actually happened in any literal sense",
+          "Because the Son of God, co-eternal with the Father, became also the Son of man, taking to Himself our faith (rooted in things with a beginning) in order to lead us to His own truth and eternity, undertaking our mortality without losing His own eternity",
+          "By claiming eternity itself began at a specific point in time for the whole Godhead",
+          "By arguing the Incarnation applies only to the Holy Spirit, not the Son"
+        ],
+        "correct": 1,
+        "explanation": "Augustine explains that the eternal Word, without ceasing to be eternal, took a temporal 'beginning' in the Incarnation in order to meet our faith (fixed on temporal, historical realities) and lead it toward the eternal truth to which faith, once fulfilled, gives way."
+      }
+    ],
+    "TRIN-B4C19": [
+      {
+        "q": "According to Augustine, why did the coming of the Son need to be attested by 'great' testimonies even though heaven and earth are far greater works of the Son than any sign or miracle?",
+        "options": [
+          "Because lowly people needed lowly-seeming signs, made to appear great to them, in order to believe that the truly great works (heaven and earth) were also His doing, since He who was great was sent to the lowly as one who was Himself made lowly",
+          "Because Augustine believed miracles were objectively greater than the created order itself",
+          "Because the Jewish leaders demanded a specific number of signs before they would believe anything",
+          "Because Augustine denies that heaven and earth are actually greater works than any miracle"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that although heaven and earth (made by the Son) far exceed any miracle in grandeur, lowly people needed signs that seemed 'great' to them in their lowliness, so that they might come to believe the truly great, cosmic works were also wrought by the same Son who came to them in lowliness."
+      },
+      {
+        "q": "What is the key move in this chapter that identifies the Son's being 'sent' with His being 'made'?",
+        "options": [
+          "\"God sent forth His Son, made of a woman, made under the Law\" — so lowly that He was 'made,' and it is precisely in being 'made' that He is understood to be 'sent'",
+          "The chapter argues that being 'sent' and being 'made' are entirely unrelated concepts with no connection",
+          "Augustine claims the Son was 'sent' before He existed, then later 'made' afterward, as two separate temporal events",
+          "The Son is said to be 'sent' only in the sense of being physically relocated from one place to another"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key exegetical move: quoting Galatians 4's 'God sent forth His Son, made of a woman,' he argues the Son's being 'sent' is identical with His being 'made' (i.e., taking on human nature), not with any inequality of substance."
+      },
+      {
+        "q": "How does Augustine reconcile Christ's statement to Philip, 'he that has seen me, has seen the Father also,' with the fact that many who saw Jesus (including His crucifiers) did not truly know Him?",
+        "options": [
+          "By arguing Philip's vision was somehow different in kind from everyone else's physical sight of Jesus",
+          "By distinguishing between being seen 'as He had been made' in the flesh (visible) and not being seen 'as by Him all things were made' (the eternal Word, invisible), so Christ was simultaneously seen and not seen",
+          "By claiming the crucifixion account is entirely legendary and not historical",
+          "By denying that Philip's question in John's Gospel actually occurred"
+        ],
+        "correct": 1,
+        "explanation": "Augustine resolves the tension by distinguishing the visible, incarnate flesh (which was seen even by His crucifiers) from the invisible, eternal Word by whom all things were made (which was not seen), so Christ was, in different respects, both seen and not seen."
+      }
+    ],
+    "TRIN-B4C20": [
+      {
+        "q": "What is Augustine's mature answer, given in this chapter, to why the Son is said to be 'sent' by the Father?",
+        "options": [
+          "Because the Son is inferior in power or substance to the Father",
+          "Not because of any inequality, but simply because the Son is Son and the Father is Father — the one is He from whom the sent One is, the other is He who is from the sender, just as begetting and being begotten do not imply inequality",
+          "Because the Father needed the Son's help to accomplish tasks He could not do alone",
+          "Because 'sending' in Scripture always and only refers to spatial movement between two different locations"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's final formulation: the Son's being 'sent' reflects only the relation of origin (Son from Father, not Father from Son), not any inequality of substance, power, or anything else — exactly parallel to begetting and being begotten."
+      },
+      {
+        "q": "What image from the Wisdom literature does Augustine use to explain why the Son 'issuing' from the Father does not make Him lesser?",
+        "options": [
+          "Water issuing from a spring or crack in a rock, which is a different substance from the rock",
+          "\"The brightness of the everlasting light\" — brightness issuing from light is not darker than the light itself, but equal to it, unlike water issuing from an aperture of earth or stone, which is a different substance",
+          "Smoke rising from a fire, which dissipates and is of lesser substance",
+          "A shadow cast by a body, which has no substance of its own at all"
+        ],
+        "correct": 1,
+        "explanation": "Augustine uses Wisdom's description of Wisdom as 'the brightness of the everlasting light' to argue that brightness issuing from light shares the same substance and is not lesser or darker, unlike water issuing from a rock, which is genuinely a different substance."
+      },
+      {
+        "q": "What evidence does Augustine cite for the Holy Spirit's procession from the Son as well as the Father?",
+        "options": [
+          "Christ breathing on the disciples and saying 'Receive the Holy Ghost' before His ascension, taken as a sign that the Spirit proceeds not only from the Father but also from the Son",
+          "The dove descending at Christ's baptism, which Augustine says proves the Spirit proceeds only from the Father",
+          "The tongues of fire at Pentecost, which Augustine says shows the Spirit proceeding from neither Father nor Son but independently",
+          "Augustine explicitly denies in this chapter that the Spirit proceeds from the Son at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine points to Christ's breathing on the disciples ('Receive the Holy Ghost') as a fitting sign that the same Spirit given at Pentecost also proceeds from the Son, not the Father alone, since 'the veriest of madmen' would not say two different Spirits were given on the two occasions."
+      }
+    ],
+    "TRIN-B4C21": [
+      {
+        "q": "What analogy does Augustine use to explain how the inseparable Trinity can be manifested 'separably' through creaturely signs (the Father's voice, the Son's flesh, the Spirit's dove)?",
+        "options": [
+          "The way three separate rivers flow from a single unseen spring",
+          "The way naming his own memory, intellect, and will refers to each severally, though each name is in fact uttered by all three faculties acting together, since none of the three names is spoken by only one of the three powers alone",
+          "The way three different actors can play the same character in a single play",
+          "The way three separate languages can express an identical single thought with no loss of meaning"
+        ],
+        "correct": 1,
+        "explanation": "Augustine offers the psychological analogy of memory, understanding, and will: though he can name each separately, each name is actually spoken through the joint operation of all three faculties together, illustrating how the inseparable Trinity can still be manifested in distinguishable creaturely signs."
+      },
+      {
+        "q": "What does Augustine explicitly refuse to assert as certain, at the end of Book IV, regarding the corporeal signs that appeared even after the Incarnation (such as the Father's voice, or the Spirit as dove)?",
+        "options": [
+          "Whether these signs were produced by merely corporeal and sensible creation alone, or also involved some rational or intellectual creature, judging this difficult to discover and inexpedient to affirm rashly",
+          "Whether the Incarnation itself actually happened in history",
+          "Whether the Father, Son, and Holy Spirit are truly three distinct Persons at all",
+          "Whether the Gospel accounts of these events are historically reliable in any respect"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly declines to assert with certainty whether such post-Incarnation signs involved merely corporeal creation or also some rational/intellectual creature acting as intermediary, calling the question difficult and inappropriate to settle rashly."
+      },
+      {
+        "q": "How does Augustine summarize the book's overall conclusion about the Son and Spirit being 'sent'?",
+        "options": [
+          "That being sent proves definitively that the Son and Spirit are lesser than the Father in substance",
+          "That the Son is not less because sent by the Father, nor the Spirit less because sent by both Father and Son, since these statements concern either the visible creature used, or (more properly) the commending of the eternal relations of origin within the Godhead, not any inequality of substance",
+          "That 'sending' language should be removed from all future translations of Scripture as misleading",
+          "That only the Father can properly be said never to be 'sent,' while the Son and Spirit are always inferior when sent"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's closing summary reaffirms the book's central thesis: sending-language reflects either the visible creaturely sign employed, or (more fundamentally) the eternal relations of origin (Son from Father, Spirit from both) within the one, equal Godhead, never any inequality of substance."
+      }
+    ],
+    "TRIN-B5C1": [
+      {
+        "q": "What does Augustine warn against imagining when we think about God's nature in this chapter?",
+        "options": [
+          "Imagining God has emotions at all",
+          "Imagining any outlines of forms, brightness of colors, greatness of space, distance of parts, or movement through intervals of place, since none of these are found even in our own best faculty, the intellect",
+          "Imagining God can forgive sins",
+          "Imagining God interacts with the material world in any way"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues that since we find no shape, color, spatial size, or motion even in our own intellect (our best faculty), we certainly should not project such things onto God, who is far greater than our intellect."
+      },
+      {
+        "q": "How does Augustine describe God using paradoxical or 'apophatic' phrases in this chapter?",
+        "options": [
+          "As 'good without quality, great without quantity... eternal without time, making things that are changeable, without change of Himself'",
+          "As 'large without size, fast without motion, and colorful without hue'",
+          "As 'a substance composed of the finest possible matter'",
+          "As entirely beyond any description, so that literally nothing whatsoever can be said of Him"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers this string of paradoxical descriptions to express that God possesses the reality signified by terms like 'great' or 'good' without the creaturely qualifications (quality, quantity, place, time) that normally accompany them."
+      },
+      {
+        "q": "What standard does Augustine set for 'piously' thinking about God, even without fully comprehending Him?",
+        "options": [
+          "To think nothing of Him that He is not, even while acknowledging one cannot yet find out in every way what He is",
+          "To refuse to think about God at all, since any thought risks error",
+          "To think of God only in the most vivid, imaginative, and emotionally powerful terms possible",
+          "To rely solely on philosophical proofs, setting aside Scripture entirely"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's modest standard for pious reflection is to take heed, as far as one is able, 'to think nothing of Him that He is not,' even while admitting the impossibility of comprehending fully what He is."
+      }
+    ],
+    "TRIN-B5C2": [
+      {
+        "q": "What scriptural text does Augustine cite to link the name 'essence' to God's own self-revelation?",
+        "options": [
+          "\"I am that I am... Thus shall you say unto the children of Israel, He who is has sent me unto you\"",
+          "\"In the beginning was the Word\"",
+          "\"The Lord is my shepherd\"",
+          "\"Let there be light\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine connects the philosophical term 'essence' (from 'being') to God's self-disclosure to Moses as 'I am that I am,' arguing that being itself belongs to God most truly and especially."
+      },
+      {
+        "q": "Why does Augustine say God alone is the 'unchangeable substance or essence' in the fullest sense?",
+        "options": [
+          "Because other substances, unlike God, admit of accidents that produce change in them, whereas nothing accidental of that kind can occur in God",
+          "Because only God has ever been observed directly by human beings",
+          "Because created substances do not actually exist, only God truly exists",
+          "Because the term 'essence' was invented specifically to describe God and cannot properly apply to anything else"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's reasoning: created substances admit accidents that change them (great or small), but God admits no accidents whatsoever, so He alone is unchangeable substance in the fullest, truest sense of 'being.'"
+      },
+      {
+        "q": "According to Augustine, why does what 'can be changed,' even if not actually changed, fail to fully qualify as 'being'?",
+        "options": [
+          "Because such a thing is able not to be what it had been, meaning its hold on being itself is precarious, unlike that which cannot be changed at all",
+          "Because all changeable things are, in Augustine's view, complete illusions with no real existence",
+          "Because change is impossible in the created order, so this category is purely hypothetical",
+          "Because Augustine considers change itself to be evil and therefore devoid of true being"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that what merely can change, even without doing so, is capable of ceasing to be what it was, so only that which is utterly incapable of change falls 'most truly' under the category of being — namely God alone."
+      }
+    ],
+    "TRIN-B5C3": [
+      {
+        "q": "What is the Arians' 'most crafty' argument, as Augustine presents it in this chapter?",
+        "options": [
+          "That since everything said of God is said according to substance, and 'unbegotten' belongs to the Father while 'begotten' belongs to the Son, and these are different, therefore Father and Son have different substances",
+          "That the Son cannot be divine because Scripture never explicitly calls Him God",
+          "That the Holy Spirit is inferior because He was not present at creation",
+          "That the Father and Son cannot be equal because one came before the other in Scripture's narrative order"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states the Arian syllogism precisely: if all divine predicates are 'according to substance,' and being unbegotten/begotten are different, then Father and Son differ in substance — an argument Augustine sets out to refute in this and the following chapters."
+      },
+      {
+        "q": "How does Augustine use 'I and the Father are one' and 'equal with God' to begin dismantling the Arian argument?",
+        "options": [
+          "He argues these texts are not authentic and should be excluded from consideration",
+          "He notes that if all statements about God are 'according to substance,' then 'equal to God' and 'one with the Father' must also be according to substance, proving one substance for Father and Son — unless the Arians admit not everything is said according to substance, in which case their argument about 'begotten/unbegotten' collapses too",
+          "He claims these texts refer only to moral, not substantial, unity",
+          "He argues these texts apply only to the Holy Spirit, not the Son"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's counter-dilemma: either 'one' and 'equal' are said according to substance (proving one divine substance), or not everything about God is said according to substance (undermining the Arians' claim about 'begotten/unbegotten' proving different substances) — either way their argument fails."
+      },
+      {
+        "q": "What does Augustine ask the Arians to specify, regarding Philippians 2's 'equal with God'?",
+        "options": [
+          "Equal according to what — implicitly forcing them to admit it must be according to substance, since there is no other sensible category for divine equality",
+          "Whether 'equal' here means numerically or merely qualitatively similar",
+          "Whether the Greek or Latin translation of this phrase is more authoritative",
+          "Whether this phrase was a later interpolation by Arian scribes themselves"
+        ],
+        "correct": 0,
+        "explanation": "Augustine presses the Arians to specify in what respect the Son is 'equal' to God, arguing that if they will not say 'according to substance,' they must admit some divine predicates are not substantial — which then undoes their own argument about begotten/unbegotten."
+      }
+    ],
+    "TRIN-B5C4": [
+      {
+        "q": "How does Augustine distinguish 'separable' from 'inseparable' accidents, using examples?",
+        "options": [
+          "Inseparable accidents (like blackness in a raven's feather) are lost only when the whole thing ceases to exist, while separable accidents (like blackness in human hair, which can turn white) can change while the underlying thing persists",
+          "Inseparable accidents can never change under any circumstances whatsoever, even by the thing's destruction",
+          "Separable accidents belong only to living things, while inseparable accidents belong only to inanimate objects",
+          "Augustine denies there is any meaningful difference between the two categories"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes inseparable accidents (like a raven's black feather color, lost only when the feather itself ceases to exist) from separable accidents (like hair color, which can change from black to white while the hair remains hair)."
+      },
+      {
+        "q": "What further, subtler category of change does Augustine identify using the example of the soul's life and wisdom?",
+        "options": [
+          "A change not of presence/absence but of degree — the soul always lives, but 'lives more' when wise and 'less' when foolish, a kind of increase or decrease rather than gain or loss of a quality entirely",
+          "A change that occurs only in the body, never affecting the soul in any way",
+          "A change that Augustine says cannot actually occur in any created thing",
+          "A change that only affects angels, never human souls"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies a category of accident involving degree rather than presence/absence: the soul's life doesn't come and go like wisdom does in a fool, but it can be 'more' or 'less' vigorous, e.g., through wisdom or folly."
+      },
+      {
+        "q": "What is Augustine's overall conclusion in this chapter about accidents and God?",
+        "options": [
+          "That God has many inseparable accidents but no separable ones",
+          "That nothing accidental of any kind — whether separable, inseparable, or a matter of increase/decrease — can occur in God, since He remains altogether unchangeable",
+          "That God has accidents just like creatures, but they never change",
+          "That the concept of 'accident' does not apply to any being, created or divine"
+        ],
+        "correct": 1,
+        "explanation": "Augustine concludes that none of the varieties of accident he has distinguished — separable, inseparable, or matters of degree — apply to God in any way, since His unchangeableness rules out accidents of every kind."
+      }
+    ],
+    "TRIN-B5C5": [
+      {
+        "q": "What third category, beyond substance and accident, does Augustine introduce to resolve the Arian dilemma?",
+        "options": [
+          "The category of relation, exemplified by 'Father' and 'Son,' which are eternally and unchangeably true (so not accidental) yet not said of the Persons 'in relation to themselves' (so not substantial either)",
+          "The category of quantity, which Augustine claims applies uniquely to the Trinity",
+          "The category of place, since God is said to dwell 'between the cherubim'",
+          "Augustine denies any third category exists beyond substance and accident"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key innovation in this chapter is identifying relation as a third category: 'Father' and 'Son' are neither accidental (since eternal and unchangeable) nor purely substantial (since said in reference to another, not to oneself)."
+      },
+      {
+        "q": "Why does Augustine say 'Father' is not said 'according to substance'?",
+        "options": [
+          "Because the Father is not called Father in relation to Himself but only in that He has a Son — the term inherently refers to another",
+          "Because the Father does not actually possess a divine substance in Augustine's view",
+          "Because Scripture never uses the word 'Father' to describe God",
+          "Because Augustine believes 'Father' is a purely metaphorical title with no real theological content"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains 'Father' is a relative term because it is only true of the Father in virtue of His relation to the Son (having a Son), not something predicated of Him considered simply in Himself."
+      },
+      {
+        "q": "Why, according to Augustine, is the Father-Son relation not 'accidental' despite being relative rather than substantial?",
+        "options": [
+          "Because both being called Father and being called Son are eternal and unchangeable to them — the Son 'was always born,' never began to be the Son, so there is no change involved, unlike a true accident",
+          "Because accidents, by definition, can only apply to physical bodies, and God has no body",
+          "Because Augustine considers the term 'accident' meaningless in Latin theology",
+          "Because the Father-Son relationship changes constantly, which paradoxically excludes it from being an accident"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's crucial move: since the Son was eternally and unchangeably begotten (never beginning or ceasing to be Son), the relation involves no change, and therefore, despite being relative rather than substantial, it cannot be classified as an 'accident' either."
+      }
+    ],
+    "TRIN-B5C6": [
+      {
+        "q": "What counter-argument do the Arians (as Augustine presents them) offer regarding 'begotten' and 'unbegotten' versus 'Father' and 'Son'?",
+        "options": [
+          "That while Father/Son are relative terms, 'unbegotten' and 'begotten' are said 'in relation to oneself,' not to another, and so (unlike Father/Son) are said according to substance, proving different substances",
+          "That 'begotten' and 'unbegotten' are simply synonyms with no theological weight",
+          "That only the Father can be called 'unbegotten,' while the Son has no comparable term at all",
+          "That the terms 'begotten' and 'unbegotten' do not appear anywhere in Scripture"
+        ],
+        "correct": 0,
+        "explanation": "The Arian counter-move Augustine addresses: they claim being unbegotten is said 'in respect to himself' (like 'being a father' being independent of any particular son), not relatively, making it (unlike Father/Son) a substantial predicate that proves differing substances."
+      },
+      {
+        "q": "How does Augustine refute this by analyzing what it means to be 'begotten'?",
+        "options": [
+          "He argues that no one can be said to be 'begotten' except in relation to something (a begetter) — just as being a 'son' implies a father, being 'begotten' equally implies a begetter, so it too is relative, not substantial",
+          "He agrees fully with the Arians on this specific point but argues it doesn't matter theologically",
+          "He claims the word 'begotten' has no clear meaning in either Greek or Latin",
+          "He argues 'begotten' refers only to physical human reproduction and cannot properly apply to God at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key insight: 'begotten' logically entails 'of a begetter' just as much as 'son' entails 'of a father' — so both pairs of terms are equally relative, undermining the Arians' attempt to treat 'begotten/unbegotten' as substantial predicates."
+      },
+      {
+        "q": "How does Augustine conclude the Son is 'equal according to substance,' using the logic of this chapter?",
+        "options": [
+          "Since the Son cannot be equal to the Father 'in relation to the Father' (because relative to the Father He is Son, not Father), His equality must be 'in relation to Himself,' and whatever is said in relation to self is said according to substance — so the Son is equal according to substance",
+          "By simply asserting it as an article of faith with no argument whatsoever",
+          "By arguing that 'equal' and 'unequal' are both relative terms, so the question is meaningless",
+          "By claiming the Council of Nicaea alone settles the matter without further reasoning needed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: since 'Son' expresses a relation to the Father (not to Himself), the Son's equality to the Father cannot be 'relative equality' but must be 'equality in respect to Himself' — and what is said in relation to self is said according to substance, hence the Son is equal in substance."
+      }
+    ],
+    "TRIN-B5C7": [
+      {
+        "q": "What is Augustine's central logical principle in this chapter, tested across many Aristotelian categories?",
+        "options": [
+          "That adding a negative particle to a term never shifts it out of the category (substance, quantity, quality, relation, etc.) that the positive term already belonged to — it only denies within that same category",
+          "That negative statements about God are always more reliable than positive ones",
+          "That double negatives in Latin theology always cancel out to become positive statements",
+          "That Aristotle's categories do not apply to theological language at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine systematically shows (using examples like 'man'/'not man,' 'white'/'not white,' 'near'/'not near') that negating a term keeps it in the same logical category as its positive counterpart — it denies according to that category, never shifts to another."
+      },
+      {
+        "q": "How does Augustine apply this principle to conclude that 'unbegotten' (ingenitus) is a relative term, not a substantial one?",
+        "options": [
+          "Since 'begotten' (genitus) is a relative term (implying 'of a begetter'), its negation 'not begotten' (i.e., unbegotten) remains within the category of relation, simply denying the relation to a begetter, rather than jumping to the category of substance",
+          "He argues 'unbegotten' cannot be analyzed this way because it is a uniquely divine term with no ordinary grammatical structure",
+          "He claims Latin and Greek treat this word completely differently, invalidating any general rule",
+          "He concludes 'unbegotten' must be a substantial term precisely because it uses a negative prefix"
+        ],
+        "correct": 0,
+        "explanation": "Applying his general rule, Augustine concludes that since 'begotten' is relative (implying a begetter), 'not begotten'/'unbegotten' remains relative too, simply denying that there is a begetter, rather than somehow becoming a statement about substance."
+      },
+      {
+        "q": "What linguistic point does Augustine make about the availability of words like 'infilius' in Latin?",
+        "options": [
+          "That Latin usage does not permit the word 'infilius' (un-son), but we can still say 'non filius' (not a son) with the identical meaning, so the accident of vocabulary does not change the underlying logical point",
+          "That the Latin language has no way whatsoever to express negation of relative terms",
+          "That 'infilius' was in fact a common and accepted Latin word in Augustine's time",
+          "That this linguistic point has no relevance to the theological argument being made"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that although Latin idiom doesn't produce a single word 'infilius' (as it does 'ingenitus' for 'unbegotten'), the periphrasis 'non filius' (not a son) carries the identical logical meaning, so the argument is unaffected by mere vocabulary gaps."
+      }
+    ],
+    "TRIN-B5C8": [
+      {
+        "q": "What is the central rule Augustine establishes in this chapter for speaking of the Trinity?",
+        "options": [
+          "Whatever is said of God absolutely (in respect to Himself, according to substance) is predicated of each Person individually and of the whole Trinity together, always in the singular, never multiplied into three",
+          "Whatever is said of one Person of the Trinity may never be said of the others under any circumstances",
+          "The three Persons should always be referred to using plural predicates, to emphasize their real distinctness",
+          "Substance-language should be avoided entirely when discussing the Trinity, using only relational language"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key rule: absolute (substantial) predicates like 'God,' 'great,' 'good,' 'omnipotent' apply individually to Father, Son, and Spirit and together to the Trinity, always in the singular — not three Gods, three greats, or three omnipotents, but one of each."
+      },
+      {
+        "q": "What text does Augustine cite to show Scripture itself does not restrict 'great' and 'God alone' to the Father only?",
+        "options": [
+          "\"You are great: You are God alone,\" which he says is written of the Father, Son, and Holy Spirit together, not of the Father alone as some perversely suppose",
+          "\"The Lord is my shepherd, I shall not want\"",
+          "\"In my Father's house are many mansions\"",
+          "\"Before Abraham was, I am\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the psalm-derived phrase 'You are great: You are God alone' as applying not to the Father exclusively but to the whole Trinity together, refuting those who read such absolute predicates as belonging to the Father alone."
+      },
+      {
+        "q": "How does Augustine explain Christ's reply to 'Good Master' ('None is good, save one, that is, God')?",
+        "options": [
+          "As proof that only the Father, not the Son, is truly good",
+          "As Christ deliberately avoiding saying 'none is good save the Father alone,' instead saying 'save one, that is, God' — meaning Father, Son, and Spirit together, since 'God' names the whole Trinity while 'Father' names only one Person",
+          "As a statement Augustine considers a later scribal corruption",
+          "As referring only to Christ's human nature, which He denies is good"
+        ],
+        "correct": 1,
+        "explanation": "Augustine highlights that Christ carefully says 'save one, that is, God' rather than 'save the Father alone,' precisely because 'God' encompasses the whole Trinity, whereas 'Father' names only the first Person specifically."
+      }
+    ],
+    "TRIN-B5C9": [
+      {
+        "q": "Why does Augustine say human language 'labors under great poverty of speech' when asked 'three what?' regarding the Trinity?",
+        "options": [
+          "Because no single word exists that perfectly and adequately captures what the 'three' actually are, though 'persons' is used so the reality need not be passed over in complete silence",
+          "Because Latin, unlike Greek, has no word for 'three' at all",
+          "Because Augustine believes the question itself is heretical and should never be asked",
+          "Because he considers the entire doctrine of the Trinity to be indefensible using human language"
+        ],
+        "correct": 0,
+        "explanation": "Augustine candidly admits that no perfect term exists to answer 'three what?' — 'persons' is adopted not because it fully captures the reality, but so that the truth is not left entirely unspoken."
+      },
+      {
+        "q": "How does Augustine use 'I and my Father are one' to argue against the Sabellians in this chapter?",
+        "options": [
+          "By noting Christ says 'we are one' (plural verb, singular predicate), not 'I is one,' showing genuine plurality of Persons against the Sabellian view that Father and Son are merely one Person under different names",
+          "By arguing this verse actually supports the Sabellian position more than the Catholic one",
+          "By claiming the verse is grammatically ambiguous and therefore useless in this debate",
+          "By arguing the verse refers only to moral agreement, not to any question of personal distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine points out the grammar: Christ says 'sumus unum' ('we are one'), using a plural verb, not 'I is one,' which would collapse the distinction the Sabellians deny — thus the verse itself displays real plurality of Persons united in one substance."
+      },
+      {
+        "q": "What does Augustine affirm is certain, even while confessing the inadequacy of the word 'persons'?",
+        "options": [
+          "That the Father is not the Son, the Son is not the Father, and the Holy Spirit (also called the gift of God) is neither the Father nor the Son — certainly, then, they are three",
+          "That there is ultimately no way to distinguish the three Persons in any meaningful sense",
+          "That only two Persons genuinely exist, with the third being merely a title for their combined activity",
+          "That the number three is itself merely symbolic and not to be taken as an actual count"
+        ],
+        "correct": 0,
+        "explanation": "Despite the difficulty of naming what the 'three' are, Augustine affirms with certainty that the Father is not the Son, the Son is not the Father, and the Spirit is neither — hence there are genuinely three, whatever we call them."
+      }
+    ],
+    "TRIN-B5C10": [
+      {
+        "q": "What distinction does Augustine draw between a 'great house' and God's own greatness?",
+        "options": [
+          "A great house is great by 'partaking' of a greatness distinct from itself, whereas God does not partake of a greatness other than Himself — He simply IS His own greatness, since nothing can be greater than God",
+          "A great house and God's greatness are considered by Augustine to be exactly the same kind of greatness",
+          "Augustine denies that God can meaningfully be called 'great' in any sense",
+          "A great house is greater than God in physical extension, though lesser in moral goodness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes participatory greatness (a house is great by sharing in a greatness distinct from and greater than itself) from God's greatness, which cannot be participatory (since nothing exceeds God), so God simply is His own greatness."
+      },
+      {
+        "q": "Why does this distinction lead Augustine to conclude the Trinity is 'one greatness,' not three?",
+        "options": [
+          "Because for God, to be and to be great are the same thing — since God is not great by partaking of greatness (which would require a greatness greater than God), He is His own greatness, and so, as with essence, we do not say 'three greatnesses'",
+          "Because the concept of number simply does not apply to God in any sense",
+          "Because Augustine considers 'greatness' an inappropriate term to apply to God at all",
+          "Because only the Father, not the Son or Spirit, can properly be called 'great'"
+        ],
+        "correct": 0,
+        "explanation": "Since for God, being and being great are identical (He doesn't 'have' greatness as a separate attribute), the same logic that yields 'one essence' also yields 'one greatness' rather than three, following the pattern established for all absolute divine predicates."
+      },
+      {
+        "q": "What other divine attributes does Augustine say follow the same 'one, not three' pattern as greatness?",
+        "options": [
+          "Goodness, eternity, and omnipotence, and in general every predicate said of God properly (not metaphorically) and in respect to Himself",
+          "Only omnipotence; goodness and eternity are treated differently, according to this chapter",
+          "None besides greatness; each attribute requires an entirely separate argument",
+          "Only attributes explicitly mentioned in the Nicene Creed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine extends the same reasoning explicitly to goodness, eternity, and omnipotence, and generally to 'all the predicaments which can be predicated of God' properly and absolutely, not metaphorically."
+      }
+    ],
+    "TRIN-B5C11": [
+      {
+        "q": "Why can the whole Trinity be called 'the Holy Spirit' in a general sense, according to Augustine, even though 'the Holy Spirit' is also the proper name of one Person?",
+        "options": [
+          "Because 'God is a Spirit' and 'holy' both apply absolutely to Father, Son, and Spirit alike, so the descriptive phrase 'holy spirit' (lowercase, so to speak) truly fits the whole Trinity, even though 'the Holy Spirit' as a proper name refers specifically to the third Person",
+          "Because Augustine believes there is ultimately no real distinction between the third Person and the Trinity as a whole",
+          "Because the Father and Son are secretly identical with the Holy Spirit in Augustine's view",
+          "Because Scripture nowhere actually calls any single Person 'the Holy Spirit'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's subtle point: since 'spirit' and 'holy' both apply absolutely to all three Persons (the Father is spirit and holy, the Son is spirit and holy), the whole Trinity can rightly be called 'a holy spirit' in the general descriptive sense, distinct from the proper name of the third Person."
+      },
+      {
+        "q": "Why, by contrast, can the Trinity NOT properly be called 'the Father' or 'the Son'?",
+        "options": [
+          "Because 'Father' and 'Son' are relative, proper names of specific individual Persons within the Trinity, not absolute descriptions true of all three alike (except that the Trinity can be called 'our Father' metaphorically, toward creatures, through adoption)",
+          "Because Augustine denies that the Father and Son are truly distinct Persons at all",
+          "Because 'Father' and 'Son' are considered by Augustine to be purely human, not divine, categories",
+          "Because Scripture explicitly forbids ever calling the whole Trinity 'Father'"
+        ],
+        "correct": 0,
+        "explanation": "Unlike 'spirit' and 'holy,' the terms 'Father' and 'Son' are inherently relative and proper to specific Persons (relating them to each other), not absolute descriptions shared equally by all three, so the whole Trinity cannot properly be called either, except metaphorically as 'our Father' through adoption."
+      },
+      {
+        "q": "How does Augustine explain why the Holy Spirit is specifically called 'the gift of God' as His relative, proper designation?",
+        "options": [
+          "Because He is the 'unutterable communion' of Father and Son, and since both Father and Son are equally 'spirit' and 'holy,' the name 'Holy Spirit' alone doesn't distinguish His relation, so 'gift,' referring to the giver(s), better expresses His relative distinctness",
+          "Because the Holy Spirit was literally purchased as a gift for humanity through Christ's atonement",
+          "Because 'gift' was the term used exclusively in the Old Testament, before 'Holy Spirit' became standard",
+          "Because Augustine considers 'gift' and 'Holy Spirit' to be entirely unrelated concepts with no connection"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that since 'spirit' and 'holy' apply equally to Father and Son, the title 'Holy Spirit' alone doesn't capture His distinct relation; calling Him 'the gift' of the Father and Son (who together give Him) better signifies this relational communion."
+      }
+    ],
+    "TRIN-B5C12": [
+      {
+        "q": "What linguistic gap does Augustine identify regarding 'the Holy Spirit of the Father'?",
+        "options": [
+          "We can say 'the Holy Spirit of the Father' but there is no reciprocal phrase like 'the Father of the Holy Spirit,' since that would wrongly suggest the Spirit is the Father's Son",
+          "There is, in fact, a perfectly standard reciprocal phrase in both Latin and Greek that Augustine simply chooses not to mention",
+          "Augustine argues we should never say 'the Holy Spirit of the Father' under any circumstances",
+          "The gap he identifies concerns only the Son's relation to the Spirit, not the Father's"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes we speak of 'the Holy Spirit of the Father,' but cannot reciprocally say 'the Father of the Holy Spirit,' since that phrasing would wrongly imply the Spirit is the Father's Son (a relation reserved for the Son alone)."
+      },
+      {
+        "q": "What non-theological example does Augustine use to show that some relative terms simply lack a matching reciprocal word?",
+        "options": [
+          "'Earnest' (a pledge or down payment) — we say 'the earnest of the Father and the Son' but cannot say 'the Father of the earnest'",
+          "The words 'north' and 'south,' which he claims have no logical relation to each other",
+          "The relationship between 'teacher' and 'student,' which he says works perfectly in every language",
+          "The word 'shadow,' which he claims cannot be used relatively at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites 'earnest' (a pledge) as a purely linguistic example: though clearly relative (an earnest is always an earnest 'of' something), there is no reciprocal term like 'the giver of the earnest' available in ordinary usage."
+      },
+      {
+        "q": "How does Augustine resolve the reciprocity problem specifically for 'gift'?",
+        "options": [
+          "By using the phrase 'the gift of the giver' and 'the giver of the gift,' which do successfully correspond to each other, unlike 'earnest,' where no such matching phrase exists",
+          "By inventing an entirely new Latin word specifically for this purpose",
+          "By declaring the problem theologically unsolvable and abandoning the term 'gift' altogether",
+          "By arguing that 'gift' should never be used of the Holy Spirit due to this linguistic difficulty"
+        ],
+        "correct": 0,
+        "explanation": "Unlike with 'earnest,' Augustine finds that 'gift' does have an available reciprocal pairing: 'the gift of the giver' and 'the giver of the gift' correspond to each other successfully, resolving the linguistic gap in this particular case."
+      }
+    ],
+    "TRIN-B5C13": [
+      {
+        "q": "In what sense does Augustine argue 'Beginning' (principium) is a relative term when applied to the Father?",
+        "options": [
+          "The Father is called 'Beginning' in relation to all created things that come from Him, just as 'Creator' is relative to 'creature,' not an absolute description of God's own inner substance",
+          "Augustine denies that 'Beginning' can ever properly be applied to God at all",
+          "'Beginning' refers exclusively to the first moment of the Father's own existence",
+          "The term is used only in a temporal sense, describing when God began to exist"
+        ],
+        "correct": 0,
+        "explanation": "Augustine treats 'Beginning' as a relative term analogous to 'Creator': the Father is 'Beginning' in relation to the creation that comes from Him, not as a statement about His inner, absolute nature."
+      },
+      {
+        "q": "Why does Augustine say that Father and Son together are 'one Beginning,' not two, in relation to creation?",
+        "options": [
+          "Because just as they are one Creator and one God relative to the creature, so too Father and Son together constitute a single Beginning relative to what proceeds from them, without multiplying into two beginnings",
+          "Because Augustine believes only the Father can be called 'Beginning,' excluding the Son entirely",
+          "Because the Son did not exist at the time creation began, according to this chapter",
+          "Because Augustine considers the term 'Beginning' theologically meaningless and best avoided"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that since Father and Son are one Creator and one God relative to creatures, they must likewise be one, not two, 'Beginning' in relation to the creature — following the pattern of unity in absolute/relational predicates already established."
+      },
+      {
+        "q": "How does Augustine argue that even the Holy Spirit can rightly be called 'Beginning'?",
+        "options": [
+          "Because whatever 'remains within itself' while producing or working something is a beginning to what it produces, and Scripture describes the Spirit distributing spiritual gifts ('the manifestation of the Spirit is given to every man to profit withal') while Himself remaining unchanged",
+          "Because the Holy Spirit alone, not the Father or Son, is properly called 'Beginning' in Scripture",
+          "Because Augustine claims the Spirit created the world independently of the Father and Son",
+          "Because the term 'Beginning' cannot apply to any Person and this chapter actually denies it applies to the Spirit"
+        ],
+        "correct": 0,
+        "explanation": "Augustine extends his definition of 'Beginning' (that which remains itself while producing something) to the Spirit, citing 1 Corinthians 12's list of the Spirit's gifts as evidence of His creative working while Himself remaining unchanged."
+      }
+    ],
+    "TRIN-B5C14": [
+      {
+        "q": "What question does Augustine raise about whether the Father is also a 'Beginning' in relation to the Holy Spirit?",
+        "options": [
+          "Whether, since the Spirit 'proceeds from the Father,' the Father is a beginning not only to what He begets (the Son) but also to what He gives (the Spirit)",
+          "Whether the Father predates the Spirit in actual temporal duration",
+          "Whether the Spirit is inferior to the Father because He 'proceeds' rather than is 'begotten'",
+          "Whether the term 'Beginning' can only apply to the act of begetting, never to procession"
+        ],
+        "correct": 0,
+        "explanation": "Augustine raises the question of whether, in addition to being a Beginning to the Son (whom He begets), the Father is also a Beginning to the Holy Spirit (whom He gives, since the Spirit 'proceeds from the Father')."
+      },
+      {
+        "q": "Why, according to Augustine, is the Holy Spirit not called a 'Son,' even though He too 'comes forth from the Father'?",
+        "options": [
+          "Because the Spirit comes forth 'as given,' not 'as born' — He was neither born like the Only-begotten Son, nor adopted like believers, so 'Son' language does not fit His mode of coming forth",
+          "Because the Spirit is inferior in nature to the Son and unworthy of the title",
+          "Because Scripture explicitly forbids ever using the word 'Son' in connection with the Spirit under any pretext",
+          "Because the Spirit came into existence at a later point in time than the Son"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key distinction: the Son is 'born' of the Father, while the Spirit is 'given' by the Father (and Son) — a different mode of procession that explains why 'Son' language, appropriate to birth, does not extend to the Spirit."
+      },
+      {
+        "q": "In what sense does Augustine say the Holy Spirit is uniquely called 'ours,' unlike the Son?",
+        "options": [
+          "Because what is 'given' (like the Spirit) is referred both to the giver and to those who receive it, so the Spirit is called both 'the Spirit of God' (who gave Him) and 'ours' (who received Him), whereas what is 'born' (the Son) refers only to the one who begot Him",
+          "Because the Holy Spirit belongs exclusively and only to believers, with no relation to the Father or Son at all",
+          "Because Augustine believes each individual believer possesses a numerically distinct 'holy spirit,' unlike the one shared Son",
+          "Because 'ours' here refers to the human soul, which Augustine says is identical to the Holy Spirit"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's distinction: something 'given' (like the Spirit) is referred both to the giver and the recipients, so we rightly call the Spirit both God's and 'ours,' while something 'born' (the Son) is referred only to the begetter, hence the Son is never called 'ours' in the same sense."
+      }
+    ],
+    "TRIN-B5C15": [
+      {
+        "q": "What precise question does Augustine pose at the start of this chapter regarding the Holy Spirit as 'gift'?",
+        "options": [
+          "Whether the Holy Spirit was already, in some sense, a 'gift' from eternity (even before there was any creature to receive Him), or only became a gift at the moment He was actually given",
+          "Whether the Holy Spirit can ever cease being a gift once He has been given",
+          "Whether human beings are capable of refusing the gift of the Holy Spirit once offered",
+          "Whether the Holy Spirit's status as 'gift' depends on the moral worthiness of the recipient"
+        ],
+        "correct": 0,
+        "explanation": "Augustine poses a subtle question: does the Spirit's eternal procession make Him eternally 'a gift' (something inherently giveable), even prior to any actual bestowal on a creature, or does 'gift' apply to Him only once He is actually given?"
+      },
+      {
+        "q": "What distinction does Augustine draw between 'a gift' and 'a thing that has been given'?",
+        "options": [
+          "A gift may exist even before it is given, but a 'thing that has been given' cannot be so called until it has actually been given",
+          "Augustine treats these two phrases as entirely synonymous with no meaningful distinction",
+          "'A gift' refers only to material objects, while 'a thing given' refers only to spiritual realities",
+          "'A gift' is always temporary, while 'a thing given' is always permanent"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's precise distinction resolves the puzzle: something can be 'a gift' in its inherent capacity to be given even before any actual bestowal, whereas 'a thing that has been given' logically requires the giving to have already occurred."
+      },
+      {
+        "q": "How does this distinction let Augustine affirm the Spirit's eternal procession without making 'gift' a temporal, accidental addition to His nature?",
+        "options": [
+          "By concluding the Spirit eternally proceeds (not in time) and, precisely because that eternal procession makes Him capable of being given, He was already 'a gift' even before there was anyone to receive Him, though He only became 'a thing given' in time",
+          "By denying that the Holy Spirit proceeds from the Father at all",
+          "By arguing the Spirit's procession happened at a specific moment in time, like the Son's Incarnation",
+          "By claiming the question is unanswerable and refusing to draw any conclusion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine concludes the Spirit's eternal procession is what makes Him eternally capable of being given, i.e., eternally 'a gift' in potential, while the actual bestowal ('a thing given') is what happens in time — preserving both His eternity and the reality of His temporal mission."
+      }
+    ],
+    "TRIN-B5C16": [
+      {
+        "q": "How does Augustine's example of money as a 'price' or 'pledge' help explain how God can be called things 'in time' without changing?",
+        "options": [
+          "Just as money is called a 'price' or 'pledge' relatively, without any change occurring in the money itself when it begins or ceases to be so called, so God can be called 'our refuge' or 'our Father' in time without any change occurring in His own unchangeable substance",
+          "Augustine rejects this analogy as inapplicable to divine realities",
+          "The example is used to show that God, like money, actually does change over time",
+          "Augustine uses this example only to discuss economic ethics, unrelated to the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's analogy: money becomes a 'price' or 'pledge' relatively, with no change in the money's own nature; likewise, God begins to be called 'our refuge' or 'our Father' in time relatively, with the real change occurring only in us, not in God's unchangeable substance."
+      },
+      {
+        "q": "According to Augustine, when God 'becomes' our Father through regeneration, what actually changes?",
+        "options": [
+          "Nothing changes anywhere; the relationship is purely illusory",
+          "Our own substance is changed for the better (we become His adopted sons) at the moment He 'begins' to be called our Father, without any change occurring in God's own substance",
+          "God's own substance changes to accommodate the new relationship",
+          "Only the language used to describe God changes; no real relationship of any kind is established"
+        ],
+        "correct": 1,
+        "explanation": "Augustine argues that when we are 'regenerated through His grace,' our own substance changes for the better (becoming sons), and God 'begins' to be called our Father relatively at that moment, but without any corresponding change occurring in God's own unchangeable nature."
+      },
+      {
+        "q": "How does Augustine explain God being described as 'angry with the unrighteous' or 'gentle with the good' without implying change in God?",
+        "options": [
+          "By comparing it to light, which is troublesome to weak eyes and pleasant to strong ones — the change is in the eyes (or in us), not in the light (or in God) itself",
+          "By arguing that God's anger and gentleness are both complete fictions with no basis in Scripture",
+          "By claiming God genuinely does change moods, contradicting his earlier arguments about divine immutability",
+          "By arguing these descriptions apply only to the Son, never to the Father or the Spirit"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's illustration: just as light itself doesn't change even though it troubles weak eyes and pleases strong ones (the difference lying in the eyes), so God's unchanging nature is experienced differently by the wicked and the righteous, without any actual change occurring in Him."
+      }
+    ],
+    "TRIN-B6C1": [
+      {
+        "q": "What objection to the Son's equality does Augustine address, based on 'Christ, the power of God, and the wisdom of God'?",
+        "options": [
+          "That since the Father is the begetter of wisdom rather than being wisdom Himself, the Father and Son seem unequal, since one has wisdom by nature and the other only by begetting it",
+          "That Christ cannot be both power and wisdom simultaneously, since these are contradictory attributes",
+          "That the phrase proves Christ is inferior to the Holy Spirit",
+          "That the phrase was later added to Paul's epistle by Arian scribes"
+        ],
+        "correct": 0,
+        "explanation": "The objection: if Christ alone is called 'the wisdom of God,' does this imply the Father is not Himself wise but merely the begetter of a separate wisdom, undermining their equality?"
+      },
+      {
+        "q": "How does the Catholic argument against early Arians (which Augustine reports) use this same verse to prove the Son's co-eternity?",
+        "options": [
+          "If the Son is God's power and wisdom, and God was never without power or wisdom, then the Son (as that power and wisdom) must be co-eternal with the Father",
+          "By arguing wisdom is a created attribute that began at a specific point in time",
+          "By denying that Paul ever actually wrote this phrase about Christ",
+          "By claiming 'wisdom' in this context refers only to the Holy Spirit, not the Son"
+        ],
+        "correct": 0,
+        "explanation": "The Catholic argument Augustine recounts: since God was never without power and wisdom, and Christ is that power and wisdom, the Son must be co-eternal with the Father, refuting the Arian claim that 'there was a time when the Son was not.'"
+      },
+      {
+        "q": "What absurd consequence does Augustine draw out if we insist the Father only 'begets' wisdom rather than being wisdom Himself?",
+        "options": [
+          "That God would have to also be the begetter of His own greatness, goodness, eternity, and omnipotence as separate co-eternal 'sons,' multiplying divine sons absurdly, whereas in reality greatness, goodness, wisdom, and power in God are all identical, not separate begotten realities",
+          "That the Father would then be considered inferior to the Holy Spirit",
+          "That there would be no meaningful distinction between the Father and Son at all",
+          "That Scripture would then contain an irreconcilable contradiction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that if wisdom must be a separately begotten 'son,' the same logic would force greatness, goodness, eternity, and omnipotence to also be separately begotten co-eternal sons — an absurdity resolved once we see all these terms in God actually name the very same single reality."
+      }
+    ],
+    "TRIN-B6C2": [
+      {
+        "q": "According to Augustine's analysis here, when is the Father called 'great,' 'wise,' or 'good'?",
+        "options": [
+          "Never; these terms apply only to the Son",
+          "Only together with the Son, since the Father is 'great' with the very greatness He begot (the Son), just as the Son is 'great' or 'wise' only in relation to the Father, of whom He is the wisdom",
+          "Only in the Old Testament, never in the New Testament",
+          "Independently of the Son, since these are purely substantial terms with no relational component"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's analysis: the Father is called wise, great, or good 'with' the wisdom/greatness/goodness He begot (i.e., the Son), and reciprocally the Son is called wise or great in relation to the Father whose wisdom He is, so both are named together, not separately, for substantial attributes."
+      },
+      {
+        "q": "How does Augustine explain 'In the beginning was the Word, and the Word was with God' in light of this chapter's argument?",
+        "options": [
+          "As proving the Word and God are simply identical with no distinction whatsoever",
+          "As showing the Word (the Son alone) was 'with God' (the Father, or the Father together with the Son considered as God), comparable to how the soul can be 'with' or 'in' a man even though the man is soul and body together",
+          "As a phrase Augustine considers untranslatable and therefore sets aside",
+          "As referring exclusively to the Holy Spirit's relationship to creation"
+        ],
+        "correct": 1,
+        "explanation": "Augustine reads 'the Word was with God' using the analogy of soul and body: as the soul can be 'with' or 'in' a man (even though 'man' means soul and body together), so the Word (Son alone) is 'with God' (which, when naming the substance, may include Father and Son together)."
+      },
+      {
+        "q": "Why does Augustine say we cannot speak of 'Word of Word' or 'Image of Image,' unlike 'God of God' or 'Light of Light'?",
+        "options": [
+          "Because 'Word' and 'Image' are strictly relative terms proper to the Son alone (not shared by Father and Son together), so there is no 'Word' (the Father) of which the Son could be called 'Word,' unlike 'God' and 'Light,' which do apply to both together",
+          "Because Augustine considers 'Word' and 'Image' to be heretical terms unfit for Trinitarian discourse",
+          "Because these phrases were never actually used in early Christian creeds",
+          "Because Augustine believes only the Holy Spirit can be called 'Word' or 'Image'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful distinction: unlike 'God' and 'Light,' which apply to Father and Son together (making 'God of God' and 'Light of Light' meaningful), 'Word,' 'Image,' and 'Son' are strictly proper to the Son alone, so there is no possibility of 'Word of Word' since 'Word' never applies to both together."
+      }
+    ],
+    "TRIN-B6C3": [
+      {
+        "q": "How does Augustine distinguish 'they are one' (unqualified) from 'they are one body' or 'one spirit' (qualified)?",
+        "options": [
+          "When 'one' is unqualified and applies to more than one thing, it signifies identical essence and nature (as with the Father and Son); when qualified by a specified thing they become (like 'one body' or 'one spirit'), it can mean things of different natures being joined into a genuine unity",
+          "He treats these two forms of expression as completely interchangeable with identical meaning",
+          "He argues 'one body' and 'one spirit' can never apply to two distinct entities under any circumstances",
+          "He claims only 'one spirit' language can ever apply to God, never unqualified 'one'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key linguistic observation: unqualified 'they are one' (as in John 17, of Father and Son) indicates shared essence and nature, while qualified expressions like 'one body' (of a harlot's union) or 'one spirit' (of the soul joined to God) can describe a real unity formed from differing natures."
+      },
+      {
+        "q": "Why is it significant, according to Augustine, that Christ never says 'that they may be one with me' regarding believers, but only 'as we are one'?",
+        "options": [
+          "It shows Christ deliberately withholds any real unity between Himself and believers",
+          "It indicates that the Father-Son unity is a distinct, higher kind of oneness (of substance) which believers' unity with one another only imitates, rather than believers achieving that same substantial identity with Christ Himself",
+          "It proves that believers can never be united with God in any sense",
+          "It is dismissed by Augustine as an insignificant grammatical quirk"
+        ],
+        "correct": 1,
+        "explanation": "Augustine notices Christ never says believers will be 'one with Himself' in the same unqualified way He and the Father are 'one,' preserving the distinction between the Father-Son unity of substance and believers' derivative unity achieved 'in' Christ."
+      },
+      {
+        "q": "How does Augustine argue from 'the Father is greater' being false to the Son's full equality?",
+        "options": [
+          "By showing that if the Father were greater 'by greatness,' but the Son IS that very greatness, then the Father would have to be greater than His own greatness, which is absurd, so they must be equal, and by extension equal in every substantial attribute or not equal at all",
+          "By simply citing a Church council's authority without further argument",
+          "By denying that the term 'greater' can ever meaningfully be applied to God",
+          "By arguing that 'greater' refers only to physical size, which is irrelevant to a spiritual being"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's reductio: if the Father were greater 'by greatness,' but the Son is Himself that greatness, the Father would be greater than His own greatness — absurd. So they are equal, and since inequality in any one substantial attribute would spoil equality altogether, they must be equal in all things."
+      }
+    ],
+    "TRIN-B6C4": [
+      {
+        "q": "What analogy from human virtues does Augustine use to argue that partial equality is impossible for substantial attributes?",
+        "options": [
+          "He argues that if two people are equal in courage, they must also be equal in prudence, temperance, and justice, since these virtues, though conceptually distinct, are inseparably united in the mind that possesses them",
+          "He compares it to two athletes competing in different sporting events",
+          "He uses the analogy of two merchants with different amounts of wealth",
+          "He compares it to two soldiers of different military ranks"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that in a human mind, being equal in courage entails equality in prudence and the other virtues too, since virtues are mutually inseparable — if one person's courage were more 'prudent' than another's, they wouldn't truly be equal in courage either."
+      },
+      {
+        "q": "Why does Augustine say this principle applies 'how much more' to God than to the human mind?",
+        "options": [
+          "Because in the human mind, 'to be' is not the same as 'to be strong or prudent or just' (a mind can exist without these virtues), but in God, to be is identical with being wise, strong, and just — God's unity is even more absolute than the human mind's",
+          "Because God, unlike the human mind, is not actually simple at all",
+          "Because human virtues are considered by Augustine to be entirely illusory",
+          "Because this principle, in fact, does NOT apply more to God according to this chapter"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that while a human mind can exist without possessing wisdom or courage (they are separable from mere existence), in God 'to be' simply is 'to be wise, strong, just' — a far more radical, simple unity than even the virtues' inseparability in the mind."
+      },
+      {
+        "q": "What Pauline text does Augustine invoke to illustrate 'union' between different substances, applying it analogically to the Trinity's greater union?",
+        "options": [
+          "\"He that is joined unto the Lord is one spirit\" — showing that even distinct substances (God and the human spirit) can become 'one' through union, so how much more can there be an eternal, inseparable union within the single divine substance",
+          "\"Faith, hope, and love, these three; but the greatest of these is love\"",
+          "\"There is one body and one Spirit, even as you are called in one hope of your calling\"",
+          "\"For we are laborers together with God\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites 'he that is joined unto the Lord is one spirit' to show that even genuinely different substances (God and a human spirit) can, through union, be called 'one,' using this as an a fortiori argument for the far deeper, eternal, inseparable unity within the Godhead itself."
+      }
+    ],
+    "TRIN-B6C5": [
+      {
+        "q": "What role does Augustine tentatively propose for the Holy Spirit within the Trinity in this chapter?",
+        "options": [
+          "The Holy Spirit as the unity, holiness, or love shared between the Begetter and the Begotten — not one of the two who are joined, but that by which they are joined, 'through whom the Begotten is loved by the Begetter, and loves Him that begot Him'",
+          "The Holy Spirit as a created intermediary between God and humanity, lower than both Father and Son",
+          "The Holy Spirit as identical to the Father, with no real distinction between them",
+          "The Holy Spirit as merely a symbolic title with no distinct personal reality"
+        ],
+        "correct": 0,
+        "explanation": "Augustine proposes the Spirit as the bond of love and unity between Father and Son — not a third party alongside two others, but the very love 'through whom' Begetter and Begotten love one another, consubstantially and co-eternally."
+      },
+      {
+        "q": "How does Augustine argue for the Spirit's equality in this chapter, following the logic already established for the Son?",
+        "options": [
+          "By arguing that if love were 'less great' than wisdom in God, then wisdom would be loved less than its true worth; but since love must be equal (to love wisdom according to its true being), and wisdom is already equal to the Father, the Spirit (as love) must likewise be equal",
+          "By simply repeating the Nicene formula without further reasoning",
+          "By arguing the Spirit's equality cannot actually be demonstrated and must be taken purely on faith with no rational support",
+          "By claiming the Spirit is inferior in love but superior in power, thus 'balancing out' to equality"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: if love (identified with the Spirit) were less great than wisdom (identified with the Son) in God, wisdom would be loved in a diminished way, unworthy of its true being; since love must equal wisdom's worth, and wisdom is equal to the Father, the Spirit as love must be equal too."
+      },
+      {
+        "q": "What triad does Augustine offer as a summary description of the Trinity at the end of this chapter?",
+        "options": [
+          "\"One who loves Him who is from Himself, and One who loves Him from whom He is, and Love itself\"",
+          "\"The Creator, the creature, and the space between them\"",
+          "\"The Judge, the accused, and the verdict\"",
+          "\"The teacher, the student, and the lesson\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's summarizing formula for the Trinity in this chapter identifies the Father as the One who loves the Son from whom He begot, the Son as the One who loves the Father from whom He is, and the Holy Spirit as Love itself, the bond between them."
+      }
+    ],
+    "TRIN-B6C6": [
+      {
+        "q": "Why does Augustine say every body is necessarily 'manifold' rather than simple?",
+        "options": [
+          "Because bodies are composed of separable parts (size, color, shape can each change independently while others remain, and the whole is greater than any single part), showing an inherent plurality within any bodily thing",
+          "Because Augustine believes bodies do not actually exist in any meaningful sense",
+          "Because bodies, unlike souls, have no unifying principle whatsoever",
+          "Because bodies are constantly annihilated and recreated at every instant"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues bodies are inherently manifold because their size, color, and shape can each change independently of the others (the same color can remain with diminished size, etc.), demonstrating real internal plurality and separability."
+      },
+      {
+        "q": "In what sense does Augustine say the soul is 'more simple' than the body, while still being manifold in itself?",
+        "options": [
+          "The soul is more simple because it is not spread out in spatial bulk (it is 'whole in the whole' and 'whole in each part' of the body), yet it remains manifold because distinct faculties like skill, memory, fear, and joy exist in it separately and vary independently",
+          "The soul is more simple because it has literally no distinct faculties or capacities of any kind",
+          "Augustine denies that the soul is simpler than the body in any respect",
+          "The soul is simpler only because it is smaller in physical size than the body"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grants the soul relative simplicity compared to body (not being spatially extended, being 'whole' in every part of the body it animates), but insists it remains manifold since distinct capacities (memory, fear, joy, skill) exist and vary independently within it."
+      },
+      {
+        "q": "What principle does Augustine state that links simplicity to unchangeableness in this chapter?",
+        "options": [
+          "\"Nothing simple is changeable, but every creature is changeable\" — implying no creature, however simple relative to others, can be absolutely simple the way God is",
+          "\"Everything changeable is simple, but nothing unchangeable is simple\" — the reverse of Augustine's actual claim",
+          "\"Simplicity and change are unrelated concepts with no logical connection\"",
+          "\"Only bodies can be simple; souls are inherently complex by definition\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine states the governing principle: 'nothing simple is changeable, but every creature is changeable,' which establishes why no creature, not even the soul, can be absolutely simple — only God, who is unchangeable, achieves true simplicity."
+      }
+    ],
+    "TRIN-B6C7": [
+      {
+        "q": "In what sense does Augustine say God is called 'manifold' in this chapter, despite being absolutely simple?",
+        "options": [
+          "God is truly manifold in reality, possessing genuinely separate attributes like a creature does",
+          "God is 'manifold' only in the sense that many different words (great, good, wise, blessed, true) are used of Him, while in reality all these name the very same single divine reality — His greatness IS His wisdom IS His goodness IS His truth",
+          "God is manifold because the three Persons are entirely separate substances",
+          "Augustine denies in this chapter that God can be called manifold in any sense whatsoever"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's key distinction: the multiplicity is in our language (the many different words we must use), not in God's reality, where greatness, wisdom, goodness, and truth are all identically the same single divine being."
+      },
+      {
+        "q": "What does Augustine mean by saying God is 'a Trinity, but not triple' (Trinitas, non triplex)?",
+        "options": [
+          "That God should not be counted as three Persons at all, but strictly as one indivisible unit",
+          "That although there are three Persons, the Father alone (or Son alone) is not 'less' than Father and Son together, since combining them does not produce something 'triple' the size or degree of any one alone — unlike, say, three separate created things which together would be three times as much as one",
+          "That the term 'Trinity' itself is theologically incorrect and should be replaced",
+          "That only two of the three Persons possess full divinity, making 'triple' technically inapplicable"
+        ],
+        "correct": 1,
+        "explanation": "Augustine's point: unlike three creaturely things, where three together amount to three times one, in God the Father alone (or Son alone) is already 'as great as' Father and Son together — hence God is genuinely three Persons ('Trinity') without being three times anything ('triple')."
+      },
+      {
+        "q": "Why does Augustine say we call the Father 'alone' the Father, even though He is never actually separate from the Son?",
+        "options": [
+          "Because the term 'alone' here means only that Father and Son 'together' are not, jointly, 'the Father' — it is not a claim about spatial or temporal separation, just as we call the Trinity 'God alone' though God is always present with holy souls",
+          "Because Augustine believes the Father genuinely does exist apart from the Son for some period",
+          "Because the term 'alone' is a scribal error that should be removed from all texts",
+          "Because Augustine denies that the Father and Son are ever united in any sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains 'the Father alone' means only that Father-and-Son-together are not, as a pair, called 'the Father' (since 'Father' names the first Person specifically) — parallel to calling the Trinity 'God alone' even though God is always accompanied by holy souls who are not themselves God."
+      }
+    ],
+    "TRIN-B6C8": [
+      {
+        "q": "What contrast does Augustine draw between how bodies increase through union and how spiritual things do?",
+        "options": [
+          "Bodies increase in size when joined (a married couple's combined body is greater than either spouse's alone), but in spiritual union, when the lesser (a creature) cleaves to the greater (God), the lesser becomes better/greater, while the greater (God) does not increase at all",
+          "Both bodies and spirits increase identically when joined, according to this chapter",
+          "Neither bodies nor spirits ever increase through any kind of union, according to Augustine",
+          "Augustine argues spiritual union always diminishes both parties involved"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's contrast: physical bodies literally add up in bulk when joined, but in spiritual union, the creature that cleaves to God becomes better (and so, in the relevant sense, 'greater'), while God Himself, already perfect, does not increase."
+      },
+      {
+        "q": "Why does the joining of the equal Son (or Spirit) to the Father not make God 'greater' than any Person alone, according to Augustine?",
+        "options": [
+          "Because divine perfection cannot increase — whether Father, Son, or Holy Spirit, each is already fully perfect, so their union does not add to what is already infinite and complete",
+          "Because Augustine denies the three Persons are ever actually united",
+          "Because only the Father is considered perfect; the Son and Spirit are lesser and cannot add anything",
+          "Because Augustine claims the three Persons compete for the same finite amount of greatness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's reasoning: since each divine Person is already perfect, and perfection cannot increase, the union of the equal Persons does not make the whole Trinity 'greater' than any one alone — hence God is a Trinity, not something 'triple.'"
+      },
+      {
+        "q": "What is the concluding formula of this chapter regarding why God is called 'Trinity rather than triple'?",
+        "options": [
+          "Because whether Father, Son, or Holy Spirit, each is perfect, and God the Father, Son, and Holy Spirit is [also] perfect — and since perfectness cannot increase by their union, God is a Trinity rather than triple",
+          "Because 'triple' is a term that cannot grammatically apply to any noun in Latin",
+          "Because only the Father can properly be called God, making 'triple' automatically inapplicable",
+          "Because the Church officially banned the word 'triple' from theological usage"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's summary conclusion: each Person is fully perfect, and the whole Trinity is likewise perfect without their union adding anything, since perfection admits no increase — hence 'Trinity,' not 'triple.'"
+      }
+    ],
+    "TRIN-B6C9": [
+      {
+        "q": "What tension does Augustine wrestle with regarding John 17:3, 'that they may know You the one true God'?",
+        "options": [
+          "Whether this text, addressed to the Father, means the Father alone is 'the one true God' (as the Arians claim) or whether it can be understood to include the Son (and implicitly the Spirit) within that same title",
+          "Whether the verse is authentic to the original Gospel of John",
+          "Whether 'true God' here refers to a pagan deity being contrasted with the biblical God",
+          "Whether this verse contradicts the doctrine of the Trinity entirely, with no possible resolution"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grapples with the Arian use of this verse (spoken to the Father, calling Him 'the one true God') to argue that only the Father is truly God, proposing instead that the Son (through the following clause) is implicitly included."
+      },
+      {
+        "q": "How does Augustine propose the Son might be included in 'the one true God,' given the verse continues 'and Jesus Christ whom you have sent'?",
+        "options": [
+          "By suggesting the phrase might be read as 'that they may know You, and Jesus Christ whom you have sent, [as] the one true God,' extending the title to both, with the Spirit understood by implication through their inseparable unity",
+          "By denying that Jesus Christ is mentioned anywhere in this verse",
+          "By arguing this proves conclusively that Jesus Christ is inferior to the Father in this text",
+          "By claiming the phrase 'the one true God' should be deleted from Scripture entirely"
+        ],
+        "correct": 0,
+        "explanation": "Augustine proposes reading the verse so that 'the one true God' applies to both the Father and 'Jesus Christ whom you have sent,' with the Holy Spirit understood implicitly, just as Paul sometimes mentions two Persons while implying the third through their inseparable harmony."
+      },
+      {
+        "q": "What further, harder question does Augustine explicitly defer to a later point in the work at the end of this chapter?",
+        "options": [
+          "How the whole Trinity (or the Father with the Son, considered as 'God') can be called 'the head of Christ,' given that Christ as Mediator, in His humanity, has the Father greater than Himself, while the Word with the Father, as God, would be the 'head' of the man who is Mediator",
+          "Whether the Holy Spirit exists at all",
+          "Whether the doctrine of the Trinity is compatible with monotheism in any way",
+          "Whether Jesus Christ actually rose from the dead"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly postpones the harder question of how 'God is the head of Christ' (1 Corinthians 11:3) should be understood — whether as the whole Trinity, or the Father-with-Son as God, being 'head' of Christ specifically as Mediator/man — promising to treat it 'somewhat more carefully hereafter.'"
+      }
+    ],
+    "TRIN-B6C10": [
+      {
+        "q": "What formula, attributed to Hilary, does Augustine examine to close Book VI?",
+        "options": [
+          "\"Eternity is in the Father, form in the Image, use in the Gift\"",
+          "\"Power in the Father, wisdom in the Son, goodness in the Spirit\"",
+          "\"Unity in the Father, plurality in the Son, harmony in the Spirit\"",
+          "\"Justice in the Father, mercy in the Son, peace in the Spirit\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine examines and interprets Hilary's tripartite formula: 'eternity is in the Father, form in the Image [the Son], use in the Gift [the Holy Spirit],' seeking its 'hidden meaning.'"
+      },
+      {
+        "q": "How does Augustine interpret 'form' as applied to the Son (the Image) in this formula?",
+        "options": [
+          "As referring to the Son's perfect beauty and equality as Image — fitting, equal, and like the Father in every respect, differing in nothing, with nothing lacking, as a perfect Word full of unchangeable knowledge",
+          "As referring to the Son's physical shape as a human being after the Incarnation only",
+          "As a term Augustine rejects entirely as unhelpful for understanding the Son",
+          "As referring to the visible, external form of Old Testament theophanies"
+        ],
+        "correct": 0,
+        "explanation": "Augustine interprets 'form' as the Son's perfect equality and beauty as the Father's Image — an image so complete and fitting that it equals rather than falls short of what it images, full of unchangeable wisdom and life."
+      },
+      {
+        "q": "How does Augustine interpret 'use' as applied to the Holy Spirit (the Gift) in this formula?",
+        "options": [
+          "As the mutual love, delight, joy, or 'sweetness' shared between the Father and the Son — their unspeakable conjunction not being 'without fruition, without love, without joy' — filling all creatures according to their capacity",
+          "As referring to the Spirit's practical usefulness in performing miracles alone",
+          "As a term Augustine considers untranslatable and leaves entirely unexplained",
+          "As referring only to the Spirit's role at Pentecost, with no broader significance"
+        ],
+        "correct": 0,
+        "explanation": "Augustine interprets 'use' as the joy, delight, love, or 'sweetness' of the Father and Son's mutual relationship — identified with the Holy Spirit, who as this shared love fills creatures according to their capacity, keeping them in their proper order."
+      }
+    ],
+    "TRIN-B7C1": [
+      {
+        "q": "What absurd consequence does Augustine identify if the Father is only wise 'by' a wisdom He begot, the way a soul is made wise by partaking in wisdom outside itself?",
+        "options": [
+          "The Son would become the Father's 'quality' rather than His offspring, destroying the absolute simplicity of God, and would even seem to have begotten the Father (since whatever causes something 'to be wise' would also be the cause of its 'being' at all)",
+          "It would prove the Father and Son are two entirely separate gods with no relation",
+          "It would mean the Holy Spirit does not actually exist",
+          "It would have no theological consequences at all, according to Augustine"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons that if the Father were made wise the way a soul is made wise by an external wisdom, the Son (as that wisdom) would be reduced to a mere quality of the Father, destroying divine simplicity, and absurdly would seem to be the cause of the Father's very being."
+      },
+      {
+        "q": "How does Augustine use the example of a soul that becomes foolish again to distinguish divine wisdom from creaturely 'wisdom by participation'?",
+        "options": [
+          "When a soul that was wise becomes foolish, the wisdom it had participated in remains unchanged in itself, proving that wisdom was not identical with the soul's own being — unlike God, where wisdom cannot be lost because 'to be' simply is 'to be wise'",
+          "Augustine argues souls can never actually become foolish once they have partaken of wisdom",
+          "He uses this example to prove that wisdom itself is changeable, just like the soul",
+          "He argues this example has no relevance to understanding God's wisdom"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that a soul's changeability (able to become foolish again) shows wisdom was something distinct from and merely participated in by the soul; in God, by contrast, 'to be' and 'to be wise' cannot be separated even conceptually, since God is unchangeable."
+      },
+      {
+        "q": "What is Augustine's final resolution to the chapter's central puzzle about the Father's relation to wisdom?",
+        "options": [
+          "The Father is Himself wisdom (not merely wisdom's begetter), and the Son is 'wisdom of wisdom' exactly as He is 'light of light' — one essence shared, not a wisdom created or added to the Father from outside",
+          "The Father possesses no wisdom whatsoever; only the Son and Spirit are wise",
+          "Wisdom does not actually apply to God in any sense, according to this chapter's conclusion",
+          "The Father and Son are two separate and unequal instances of wisdom"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution follows the 'light of light' model from the Nicene Creed: the Father is wisdom Himself, and the Son is wisdom of/from that same wisdom, both being the identical single divine essence, not a created addition."
+      }
+    ],
+    "TRIN-B7C2": [
+      {
+        "q": "Why can Father and Son together be called 'one wisdom' and 'one essence,' but never 'one Word' or 'one Son'?",
+        "options": [
+          "Because 'wisdom' and 'essence' are absolute terms describing what God simply and identically is, while 'Word' and 'Son' are strictly relative terms describing the Son's relation to the Father specifically, so combining Father and Son cannot produce a joint 'Word' or 'Son'",
+          "Because Augustine believes 'wisdom' applies only to the Father, never to the Son",
+          "Because the terms 'Word' and 'Son' are considered heretical by Augustine in this context",
+          "Because Father and Son are, in this chapter, said to be two entirely different essences"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key distinction: absolute terms like 'wisdom' or 'essence' name the shared divine substance itself (hence 'one'), while relative terms like 'Word' and 'Son' name the Son's specific relation to the Father, which cannot be predicated of 'Father and Son together' as if they formed a joint Son."
+      },
+      {
+        "q": "How does Augustine explain that the Word 'is' wisdom without being called Word 'because' He is wisdom?",
+        "options": [
+          "The Son is called 'Word' relatively (in reference to the Father whose Word He is), but is called 'wisdom' according to substance/essence — so while the Word truly is wisdom, His being called 'Word' specifically expresses His relation, not His essence",
+          "Augustine argues the Son is not actually wisdom at all, only the Father is",
+          "He claims 'Word' and 'wisdom' are entirely unrelated and never overlap in meaning",
+          "He denies that the term 'Word' can be applied to the second Person of the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes the relational sense of 'Word' (expressing the Son's relation to the Father as His utterance) from the essential sense of 'wisdom' (naming the divine substance) — the Son truly is both, but for different reasons, one relative and one absolute."
+      },
+      {
+        "q": "What phrase does Augustine coins to summarize how 'wisdom born' relates to 'Word,' 'Image,' and 'Son'?",
+        "options": [
+          "'Wisdom that is born' — in which 'born' signifies the relative names (Word, Image, Son), while 'wisdom' signifies the essence shared with the Father",
+          "'Wisdom that is created,' emphasizing the Son's status as a creature",
+          "'Wisdom that is silent,' emphasizing the ineffability of the divine nature",
+          "'Wisdom that is divided,' emphasizing separate portions of divine wisdom among the Persons"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's formula 'wisdom born' captures both aspects at once: 'born' conveys the relative names proper to the Son (Word, Image, Son), while 'wisdom' conveys the shared essence, so 'wisdom of wisdom' parallels 'essence of essence.'"
+      }
+    ],
+    "TRIN-B7C3": [
+      {
+        "q": "Why, according to Augustine, does Scripture speak of wisdom primarily as 'begotten' or 'made,' even though the Father too is wisdom?",
+        "options": [
+          "Because wisdom is meant to be commended to us for imitation, and the Son, as the Word made flesh, gives us a visible, imitable pattern to follow back to God, which is why Scripture emphasizes wisdom's generation rather than the Father's own hidden wisdom",
+          "Because Augustine believes the Father is not truly wise in any sense",
+          "Because Scripture, in his view, actually never applies the term 'wisdom' to the Son at all",
+          "Because the concept of 'begotten wisdom' is, for Augustine, purely a later theological invention with no scriptural basis"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that wisdom's being 'begotten' or made flesh is emphasized in Scripture because it gives believers an imitable example to follow, whereas the hidden divine wisdom shared identically by the Father would not itself provide such a visible pattern."
+      },
+      {
+        "q": "What various kinds of 'examples' does Augustine say the incarnate Word (Wisdom made flesh) provides to different kinds of people?",
+        "options": [
+          "An example upwards to those who see God, downwards to those who admire mere man, to the sound to persevere, to the sick to be made whole, to the dying not to fear, and to the dead that they may rise again",
+          "An example only to kings and rulers, with no relevance to ordinary believers",
+          "An example solely of how to perform ritual sacrifices correctly",
+          "An example only for angels, since humans cannot truly imitate Christ"
+        ],
+        "correct": 0,
+        "explanation": "Augustine lists a rich variety of examples the incarnate Wisdom provides — for the spiritually advanced and the ordinary, the healthy and the sick, the dying and even the dead — so 'that in all things He might have the pre-eminence.'"
+      },
+      {
+        "q": "How does the chapter conclude regarding the Holy Spirit's status as wisdom?",
+        "options": [
+          "The Holy Spirit, since He is God and is light (per 'God is light'), is therefore also wisdom, so that Father, Son, and Spirit are together 'not three wisdoms, but one wisdom,' just as they are one light and one God",
+          "The Holy Spirit is explicitly excluded from being called wisdom in this chapter",
+          "The chapter argues the Holy Spirit is a lesser, created form of wisdom compared to the Father and Son",
+          "Augustine claims the question of the Spirit's wisdom cannot be settled and leaves it entirely open"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons from 'God is light' (and the Spirit's own divinity, evidenced by 'the Spirit of God dwells in you') that the Spirit too is light and therefore wisdom, concluding the three Persons are 'not three wisdoms, but one wisdom.'"
+      }
+    ],
+    "TRIN-B7C4": [
+      {
+        "q": "Why do the Greeks say 'one essence, three hypostases' while Latins say 'one essence, three persons,' according to Augustine?",
+        "options": [
+          "Because in Latin, 'essence' already means the same thing as 'substance,' so using 'substance' for the 'threeness' as the Greeks do with 'hypostasis' would confusingly suggest three essences too, so Latin speakers chose 'person' instead for the threefold term",
+          "Because the Greek and Latin churches held fundamentally different doctrines of the Trinity at this point",
+          "Because 'hypostasis' and 'person' are, in Augustine's telling, complete synonyms with identical Greek and Latin roots",
+          "Because Augustine believes the Latin terminology is simply a translation error with no theological justification"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains the terminological divergence arises because in Latin 'essence' and 'substance' are synonymous, so using 'substance' (as Greek uses 'hypostasis') for the threefold term would wrongly suggest three essences, prompting Latin speakers to adopt 'person' instead."
+      },
+      {
+        "q": "Using the analogy of Abraham, Isaac, and Jacob, what problem does Augustine identify in finding a proper name for 'what' the three divine Persons are?",
+        "options": [
+          "Abraham, Isaac, and Jacob share a common specific name ('men') because they share a common nature; but the Father, Son, and Spirit share no such common name (they are not, e.g., interchangeably 'fathers,' 'sons,' or 'holy spirits' to one another), leaving no adequate specific term available",
+          "Augustine argues there is, in fact, a perfectly adequate term available and the whole discussion is unnecessary",
+          "He argues the patriarchs example proves the three divine Persons are not really distinct individuals at all",
+          "He claims the term 'men' cannot ever apply in the plural to more than two individuals"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's analogy reveals the problem: 'three men' works because Abraham, Isaac, and Jacob share the common nature 'man,' but 'Father,' 'Son,' and 'Holy Spirit/Gift' are precisely NOT common to all three (only one is Father, only one is Son), so no comparable specific noun exists for 'what' they are."
+      },
+      {
+        "q": "Why does Augustine say it is permissible to say 'three persons' even though Scripture never uses that phrase, while it would NOT be permissible to say 'three Gods'?",
+        "options": [
+          "Because Scripture, while not using the phrase 'three persons,' also does not contradict it, whereas Scripture explicitly contradicts 'three Gods' via the Shema ('the Lord your God is one God')",
+          "Because 'three persons' appears in the Old Testament, just not the New Testament",
+          "Because Augustine considers 'three Gods' theologically true but merely politically inconvenient to say",
+          "Because the word 'persons' was directly revealed to Augustine in a private vision"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's principle: 'three persons,' though absent from Scripture, is at least not contradicted by it, making it a permissible term of necessity, whereas 'three Gods' is directly ruled out by the explicit monotheistic confession of Deuteronomy's Shema."
+      }
+    ],
+    "TRIN-B7C5": [
+      {
+        "q": "How does Augustine distinguish 'substance' from 'essence' as applied to God in this chapter?",
+        "options": [
+          "'Substance' properly implies something 'subsisting' as a subject in which accidental qualities (like color or shape) inhere, which cannot literally apply to God since He has nothing distinct from His own being; 'essence' (from 'to be') applies to God properly, since God simply and purely is",
+          "Augustine argues 'substance' and 'essence' are perfect synonyms with no meaningful distinction",
+          "He claims 'essence' applies only to creatures, while 'substance' applies only to God",
+          "He denies that either term can be meaningfully applied to God in any sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful distinction: 'substance' properly names a subject that underlies changeable qualities (as a body underlies its color), which cannot literally fit God (who has no such qualities distinct from Himself), while 'essence' (naming pure being) fits God perfectly and properly."
+      },
+      {
+        "q": "What example does Augustine use to explain why 'substance' in the strict philosophical sense implies non-simplicity?",
+        "options": [
+          "Color or shape existing 'in' a body as its subject — the body can lose or change its color without ceasing to be a body, showing the body (substance) and its color (accident) are genuinely distinct",
+          "The relationship between a river and the water flowing through it",
+          "The relationship between a shadow and the object that casts it",
+          "The relationship between music and the instrument that produces it"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example: a body 'subsists' as the subject in which properties like color or shape exist; since the body can change color while remaining a body, this shows substance and accident are genuinely distinct — a distinction that cannot apply to the absolutely simple God."
+      },
+      {
+        "q": "What text does Augustine again cite as supporting 'essence' as God's proper, truest name?",
+        "options": [
+          "\"I am that I am... He who is has sent me unto you,\" spoken to Moses",
+          "\"The Lord is my shepherd, I shall not want\"",
+          "\"In the beginning God created the heaven and the earth\"",
+          "\"Holy, holy, holy, is the Lord of hosts\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine returns to God's self-revelation to Moses ('I am that I am... He who is has sent me') as grounding why 'essence,' derived from 'to be,' is God's truest and most proper name, unlike 'substance,' which is applied to Him only improperly."
+      }
+    ],
+    "TRIN-B7C6": [
+      {
+        "q": "What analogy does Augustine use to explain 'three persons, one essence' without resorting to genus/species logic (like 'three horses, one animal')?",
+        "options": [
+          "Three golden statues made 'of the same gold' — we say 'three statues, one gold' without treating gold as a genus and statues as species, illustrating how the Trinity is 'three persons of one essence' without essence being a genus that the persons subdivide",
+          "The relationship between a tree's roots, trunk, and branches",
+          "The relationship between a single musical note played on three different instruments",
+          "Augustine explicitly rejects using any analogy at all in this chapter"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's chosen analogy is three golden statues sharing one gold: we say 'three statues, one gold' without gold being a genus subdivided into statue-species, offering a partial (though imperfect) model for 'three persons, one essence.'"
+      },
+      {
+        "q": "Where does Augustine say this golden-statue analogy ultimately breaks down when applied to the Trinity?",
+        "options": [
+          "In gold, more statues mean more total gold (three statues = more gold than one), but in the Trinity, Father, Son, and Spirit together are not a greater essence than any one alone — the created 'matter' analogy fails to capture divine simplicity",
+          "The analogy is presented as a perfect, flawless model with no limitations whatsoever",
+          "It breaks down because gold, unlike God, cannot be shaped into multiple forms",
+          "It breaks down because statues, unlike divine Persons, can be destroyed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly notes the analogy's limit: unlike three golden statues (which together contain more gold than one alone), the three divine Persons together are not a 'greater essence' than any one Person alone, since God's simplicity admits no such accumulation."
+      },
+      {
+        "q": "How does Augustine explain the difference between man as 'the image' of God and man as merely 'after the image'?",
+        "options": [
+          "The Son alone is 'the Image,' equal to the Father by being begotten, not created; man is 'after the image,' created (not born) and approaching God only by an imperfect likeness, not equality, which is why Genesis says 'our image' (Trinity) rather than referring solely to the Son",
+          "Augustine claims there is no meaningful difference between these two phrases",
+          "He argues 'the image' refers only to Adam specifically, while 'after the image' refers to all his descendants",
+          "He claims only angels, not humans, can be called 'after the image' of God"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes the Son as the perfect, equal 'Image' (begotten, not made) from man as merely 'after the image' (created, approaching God only through imperfect likeness), explaining why Genesis uses the plural 'our image,' referring to the whole Trinity rather than the Son's equal image alone."
+      }
+    ],
+    "TRIN-B8C0": [
+      {
+        "q": "What rule does Augustine set for himself and the reader as Book VIII begins its deeper inquiry?",
+        "options": [
+          "That whatever has not yet been made clear to the intellect should nevertheless not be loosened from the firmness of faith",
+          "That every prior conclusion should be abandoned and the argument restarted from nothing",
+          "That only professional philosophers should attempt to follow the argument from this point on",
+          "That the reader should stop consulting Scripture and rely on reason alone from here forward"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly states the guiding rule for the more difficult inquiry ahead: intellectual clarity may lag behind, but faith's firm grasp on the truth already established should not be loosened in the meantime."
+      },
+      {
+        "q": "What equality does Augustine reaffirm at the outset of Book VIII, summarizing the argument of Books V-VII?",
+        "options": [
+          "That the Father and Son together are not greater than the Holy Spirit, and no single Person is less than the Trinity itself",
+          "That only the Father and Son are truly equal, while the Holy Spirit remains somewhat lesser",
+          "That equality within the Trinity applies only to moral goodness, not to divine power",
+          "That the three Persons are equal only in a metaphorical, not a literal, sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine recaps that there is such equality in the Trinity that the Father and Son together are not greater than the Holy Spirit, nor is any individual Person less than the whole Trinity — the culmination of the substance/relation argument of the prior books."
+      },
+      {
+        "q": "What does Augustine ask God to grant him as he begins this new, deeper stage of the inquiry?",
+        "options": [
+          "That God will open our understanding and take away the inclination of disputing, so our minds may discern the essence of truth, which has neither bulk nor movableness",
+          "That God will grant him victory in a public debate against Arian bishops",
+          "That God will reveal the exact number of angels present at creation",
+          "That God will provide him with additional Greek manuscripts to translate"
+        ],
+        "correct": 0,
+        "explanation": "Augustine prays specifically for illumination and freedom from mere contentious argument, so the mind can discern the truth's essence, which unlike bodies has 'neither bulk nor movableness.'"
+      }
+    ],
+    "TRIN-B8C1": [
+      {
+        "q": "What is Augustine's key premise for arguing that 'two or three Persons are not anything greater than one'?",
+        "options": [
+          "That in respect to the substance of truth, to be more truly is to be greater, and since the Father and Son together are not 'more truly' than either singly, they are not greater either",
+          "That the human eye cannot perceive spiritual magnitudes, so the question is meaningless",
+          "That only the Father possesses true magnitude, while the Son and Spirit have none at all",
+          "That magnitude in God refers exclusively to physical size, which does not apply to any of the three Persons"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's core logical move: since 'to be great' equals 'to be true' in the realm of eternal, unchangeable being, and no combination of Persons is 'more truly' than another, no combination can be 'more great' either."
+      },
+      {
+        "q": "Why does Augustine say ordinary 'carnal perception' resists the claim that three Persons are not greater than one?",
+        "options": [
+          "Because carnal perception grasps only created things (where magnitude and truth vary independently) and cannot discern the truth itself by which those created things exist, unlike the intelligible and unchangeable realm where all things are equally and eternally true",
+          "Because carnal perception is inherently evil and incapable of any theological reasoning",
+          "Because Augustine believes ordinary human senses are always completely reliable except in this one case",
+          "Because carnal perception was invented specifically to oppose the doctrine of the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that carnal (bodily-oriented) perception is used to created things, where magnitude and truth genuinely can differ, so it struggles with the intelligible, unchangeable realm where all things are equally and eternally true, and hence equally great."
+      },
+      {
+        "q": "What is Augustine's concluding syllogism regarding the Trinity's magnitude in this chapter?",
+        "options": [
+          "Since to be true is the same as to be, and to be is the same as to be great, then to be great is the same as to be true — and what is equally true must also be equally great, so the Trinity is exactly as great as each Person within it",
+          "Since the Father is greater in age, He must also be greater in magnitude than the Son and Spirit",
+          "Since the Trinity is composed of three Persons, it must logically be three times as great as any single Person",
+          "Since magnitude cannot be discussed meaningfully in theology, Augustine declines to draw any conclusion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's chain of identity (to be true = to be = to be great) yields his conclusion: since Father, Son, and Spirit are equally true, they must be equally great, and the Trinity as a whole is exactly as great as each Person individually."
+      }
+    ],
+    "TRIN-B8C2": [
+      {
+        "q": "What kind of mental images does Augustine explicitly tell the reader to reject when thinking of God?",
+        "options": [
+          "Only images of angels, but bodily images of God Himself are acceptable",
+          "Both corporeal images (magnified light, the heavens, a multiplied Geryon-like three-bodied being) and changeable spiritual images (like angels animating bodies, even imagined without bodies), since anything that could be 'greater in three than in one' must be rejected",
+          "Only images derived from pagan mythology; biblical imagery is entirely appropriate",
+          "Augustine argues all mental images whatsoever, including of created things, must be permanently abandoned even in daily life"
+        ],
+        "correct": 1,
+        "explanation": "Augustine systematically rejects both corporeal images (light, a three-bodied Geryon-like figure) and changeable spiritual images (multiplied angels), insisting anything conceivable as 'greater in combination' cannot be God, who is unchangeable truth."
+      },
+      {
+        "q": "What experience does Augustine describe when the reader is told simply 'Truth' or 'Reality' as a name for God?",
+        "options": [
+          "A permanent, effortless, and unwavering vision that never fades once achieved",
+          "A fleeting 'first twinkling,' a flash of insight that the mind, weighed down by 'the bird-lime of the stains of appetite,' quickly slides back away from into earthly, corporeal images",
+          "Complete incomprehension, with no glimpse of understanding possible at all for anyone",
+          "An experience available only to ordained priests, never to laypeople"
+        ],
+        "correct": 1,
+        "explanation": "Augustine vividly describes a momentary, dazzling glimpse ('that first twinkling') at the word 'Truth,' immediately lost as the mind, weighed down by sinful attachments ('bird-lime'), slides back into familiar corporeal and imaginative thinking."
+      },
+      {
+        "q": "What scriptural phrase does Augustine invoke to justify calling God 'truth' rather than describing Him visually?",
+        "options": [
+          "\"God is light\" — understood not as the eyes see light, but as 'the heart sees' when it hears that God is truth [reality]",
+          "\"God is a consuming fire,\" understood literally as describing God's physical appearance",
+          "\"The Lord is a man of war,\" taken as evidence God has a warrior's bodily form",
+          "\"God is spirit,\" taken to mean God is composed of wind or breath"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites 'God is light,' explaining this must be understood as the heart's inner perception of truth, not the eyes' perception of physical light, to support his claim that God is best approached as Truth/Reality itself."
+      }
+    ],
+    "TRIN-B8C3": [
+      {
+        "q": "What method does Augustine use to lead the reader from particular goods to 'the good itself'?",
+        "options": [
+          "He lists many diverse goods (fertile land, a healthy body, a virtuous friend, a well-composed poem) and asks the reader to 'take away this and that' particular good and 'regard good itself,' identifying this with God, 'the good of all good'",
+          "He argues that all particular goods are illusions and only 'the good itself' genuinely exists",
+          "He claims particular goods and 'the good itself' are entirely unrelated concepts with no connection",
+          "He dismisses the question of particular goods as irrelevant to theology"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's method is inductive-contemplative: by listing many varied goods and then asking the reader to abstract from each particular instance to 'the good itself' by which all are judged good, he arrives at God as 'the good of all good.'"
+      },
+      {
+        "q": "According to Augustine, how does a mind become 'good,' as distinct from merely existing as a mind?",
+        "options": [
+          "By the mind's own unaided effort to improve itself through sheer willpower with no external reference point",
+          "By the will turning itself toward the unchangeable good (God) which it loves, seeks, and obtains; a mind cannot make itself 'a good mind' any more than it made itself 'a mind' in the first place",
+          "By accumulating enough philosophical knowledge about ethics",
+          "Augustine denies that minds can become good or bad in any meaningful sense"
+        ],
+        "correct": 1,
+        "explanation": "Augustine distinguishes 'being a mind' (given, not self-caused) from 'being a good mind,' which requires the will to turn toward and cleave to the unchangeable good outside itself — it cannot achieve this by turning only to itself."
+      },
+      {
+        "q": "What does Augustine say happens to 'changeable goods' if there were no 'unchangeable good'?",
+        "options": [
+          "There would be no changeable goods at all unless there were the unchangeable good, since particular goods are only recognizable as good by reference to the good itself which they participate in",
+          "Changeable goods would become permanently fixed and unchangeable themselves",
+          "Changeable goods would multiply infinitely without any limiting principle",
+          "Nothing would change about changeable goods either way, according to Augustine"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that 'there would be no changeable goods, unless there were the unchangeable good' — particular, variable goods depend for their status as 'good' on participating in the unchangeable good itself."
+      }
+    ],
+    "TRIN-B8C4": [
+      {
+        "q": "What logical problem does Augustine raise about loving what one does not know?",
+        "options": [
+          "Since something can be known without being loved, but (Augustine argues) nothing can be loved without first being known in some way, no one can love God before knowing Him in some sense — raising the question of how faith itself can involve genuine love",
+          "Augustine argues love and knowledge are entirely unrelated and can occur completely independently",
+          "He claims all human beings automatically love everything they encounter, whether known or not",
+          "He argues that only perfect, complete knowledge permits any degree of love whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine poses the problem precisely: while something known need not be loved, nothing can be loved that is entirely unknown — so how can faith, which believes without full sight, generate genuine love of God?"
+      },
+      {
+        "q": "What triad does Augustine say the 'whole apparatus of the divine Scriptures' has been raised up to build in the mind?",
+        "options": [
+          "Faith, Hope, and Charity — found in a mind believing what it does not yet see, and hoping for and loving what it believes",
+          "Wisdom, Understanding, and Counsel",
+          "Prophecy, Miracles, and Tongues",
+          "Law, Prophets, and Gospel"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies Faith, Hope, and Charity as the triad Scripture aims to build in the believing mind, resolving the knowledge/love problem: one believes what is not yet seen, and from that hopes for and loves what is believed."
+      },
+      {
+        "q": "What caution does Augustine attach to this account of believing and loving what is not seen?",
+        "options": [
+          "That the mind must take care not to 'feign to itself something which is not,' lest it hope for and love something false rather than true, undermining charity 'out of a pure heart, and of a good conscience, and of faith unfeigned'",
+          "That believers should avoid all forms of hope entirely, relying only on present sight",
+          "That only ordained clergy are permitted to exercise faith in things unseen",
+          "That this problem applies only to belief in the Old Testament, not the New Testament"
+        ],
+        "correct": 0,
+        "explanation": "Augustine warns that the mind, believing what it does not see, risks 'feigning to itself' a falsehood and thus hoping for and loving something untrue — undermining the 'charity out of a pure heart... and faith unfeigned' that Scripture aims for."
+      }
+    ],
+    "TRIN-B8C5": [
+      {
+        "q": "How does Augustine explain that we can imagine and believe things about people we have never seen, like the Apostle Paul?",
+        "options": [
+          "Through a 'special or general notion' — we know what a human being generally is (from our own case), so we can frame a mental image, however inaccurate in specific detail, and believe truly in what matters (that Paul lived and acted as Scripture records) regardless of whether our imagined image of his face is accurate",
+          "Augustine claims it is impossible to believe anything about people we have never personally met",
+          "By assuming everyone throughout history looked identical to one another",
+          "By relying exclusively on painted portraits handed down through tradition"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains our 'general notion' of human nature lets us picture (even if inaccurately) unseen figures like Paul, while what genuinely matters to faith — that he lived and acted as Scripture records — does not depend on getting the imagined bodily details right."
+      },
+      {
+        "q": "What problem does Augustine identify in trying to love the Trinity using this same 'general notion' method?",
+        "options": [
+          "There is no other Trinity, and indeed no other God, that we have experienced, from which we could form a 'general notion' by comparison, the way many human faces let us form a general notion of 'man'",
+          "Augustine claims the Trinity is simply identical in kind to the human mind, so no special problem exists at all",
+          "The problem is entirely about vocabulary, not about any real difficulty of knowledge",
+          "He argues we should abandon the attempt to love the Trinity altogether as hopeless"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's central difficulty: while many observed human beings let us form a general concept of 'man' to apply to unseen individuals like Paul, there is no other Trinity (nor any other God) we have encountered, so no comparable general notion is available for loving the unseen Trinity."
+      },
+      {
+        "q": "What alternative comparison does Augustine test — using our experience of death and resurrection — for loving what we have not directly seen?",
+        "options": [
+          "Since we know what it is to die and to live (from experience), we can understand what 'to rise again' means (return to life from death) even without having seen anyone rise, suggesting we might similarly love the Trinity by extension from what we do know — a possibility the chapter leaves as an open, unresolved comparison",
+          "Augustine flatly rejects any possibility of using our experience of death to understand resurrection",
+          "He claims resurrection and the Trinity are entirely unrelated topics with no possible connection",
+          "He argues only those who have personally died and been resurrected could understand or love the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine considers whether our direct experience of life and death lets us understand and love the concept of resurrection (a compound of two known things) by analogy, tentatively exploring whether a similar move could help us love the Trinity, though he leaves the deeper puzzle (how we truly come to love the specific Trinity, not just any trinity of things) unresolved here, to be pursued further."
+      }
+    ],
+    "TRIN-B8C6": [
+      {
+        "q": "According to Augustine, through what faculty do we recognize and love a 'righteous man,' rather than through any image of his body?",
+        "options": [
+          "Through the mind's own inner recognition of righteousness — since 'righteousness is... the beauty of the mind,' invisible to the eyes, we must already know within ourselves what a righteous man is in order to recognize and love one",
+          "Through hearing detailed physical descriptions from eyewitnesses who saw him act righteously",
+          "Through examining ancient portraits and busts thought to represent righteous men",
+          "Augustine denies we can recognize or love a righteous man in any meaningful way"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues righteousness, being the mind's own invisible beauty, cannot be perceived with the eyes; we recognize and love a righteous man only because we already possess, within our own mind, some standard or notion of what righteousness is."
+      },
+      {
+        "q": "What paradox does Augustine highlight about a person who is 'not yet righteous' loving righteousness?",
+        "options": [
+          "Even one who is not yet righteous must, in some sense, already know what righteousness is (finding it 'nowhere else' but within himself) in order to love it and thereby be moved to wish to become righteous, though he himself does not yet possess it as his own character",
+          "Augustine claims only fully righteous people are capable of understanding or loving the concept of righteousness at all",
+          "He argues the concept of righteousness is entirely learned from external teachers with no inner component",
+          "He denies any paradox exists, since loving righteousness requires no prior understanding whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's paradox: someone not yet righteous must nonetheless already discern, within his own mind, what righteousness truly is (finding this knowledge nowhere but in himself), in order to love and aspire toward what he does not yet possess."
+      },
+      {
+        "q": "How does Augustine's illustration of 'Carthage' and 'Alexandria' (cities he had and had not visited) clarify what is different about knowing 'what is righteous'?",
+        "options": [
+          "Unlike an image of a distant city (formed from hearsay or memory, and possibly mistaken), the knowledge of what is righteous is not an absent thing pictured from without, but 'something present' discerned within the mind itself — a direct, inner perception rather than a recalled or imagined external image",
+          "Augustine argues that righteousness, like Alexandria, is something we can only know secondhand through the reports of others who have directly experienced it",
+          "He claims cities and moral qualities are known in exactly the same way, with no relevant difference",
+          "He uses this example only to discuss geography, with no bearing on the chapter's argument about righteousness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts imagining an absent, unseen city (Alexandria, known only through others' reports, possibly inaccurately pictured) with discerning righteousness, which is not an absent image recalled from elsewhere but something 'present,' directly discerned within the mind itself."
+      }
+    ],
+    "TRIN-B8C7": [
+      {
+        "q": "What does Augustine identify as 'chiefly to be regarded' in the whole inquiry concerning the Trinity and knowing God?",
+        "options": [
+          "What is true love, or rather, what is love itself — distinguishing true love (which cleaves to truth to live righteously) from mere desire, which is improperly called 'love'",
+          "The precise number of angelic hierarchies and their respective ranks",
+          "The exact chronological dating of when the Trinity was first revealed in history",
+          "The correct Latin grammar to use when discussing theological terms"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies true love — as opposed to mere desire — as the central concern of the whole inquiry, since it is through love, cleaving to truth and living righteously, that the mind can come to know God."
+      },
+      {
+        "q": "How does Augustine explain that Scripture sometimes mentions only one of the two great commandments (love of God, love of neighbor) while implying both?",
+        "options": [
+          "He argues that loving God necessarily entails obeying His command to love neighbor, and loving neighbor necessarily entails loving 'love itself,' which is God — so mentioning either commandment implicitly carries the other",
+          "He claims Scripture actually contradicts itself on this point with no possible resolution",
+          "He argues only the love of God matters and the love of neighbor is a later, less authoritative addition",
+          "He denies that these are, in fact, two distinct commandments at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's explanation: loving God entails keeping His command to love neighbor, while loving neighbor already involves loving 'love itself' (which is God), so the two commandments are logically inseparable even when Scripture names only one."
+      },
+      {
+        "q": "What does Augustine say Christ commended as the example to 'learn' from Him, rather than His raising of Lazarus from the dead?",
+        "options": [
+          "\"Learn of me; for I am meek and lowly in heart\" — humility and lowliness, not the ability to perform dramatic miracles, is what Christ presents as the lesson to be imitated",
+          "Christ's skill in debating with the Pharisees and scribes",
+          "Christ's knowledge of astronomy and the movements of the stars",
+          "Christ's ability to fast for forty days without eating"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts what people marvel at (Christ's power to raise the dead) with what Christ actually commends for imitation: 'Learn of me; for I am meek and lowly in heart' — inner humility, sought inwardly, rather than outward wonders."
+      }
+    ],
+    "TRIN-B8C8": [
+      {
+        "q": "How does Augustine argue that loving one's brother already involves loving God?",
+        "options": [
+          "Since 'God is love' (1 John), whoever loves love itself loves God; and whoever loves his brother must love the very love by which he loves him — so brotherly love and love of God cannot exist apart from each other",
+          "He argues brotherly love and love of God are entirely separate and unrelated categories requiring different means",
+          "He claims we should love God instead of our brother, never both simultaneously",
+          "He denies that 1 John's statement 'God is love' has any bearing on this question"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument rests on 1 John's identification of God with love itself: since loving one's brother requires loving the very love by which one loves him, and that love is God, brotherly love inherently already involves the love of God."
+      },
+      {
+        "q": "How does Augustine explain 1 John's statement, 'he who does not love his brother whom he has seen, how can he love God whom he has not seen'?",
+        "options": [
+          "Because failing to love one's visible brother means one does not abide in love, and since God is love and light, one who does not abide in love does not abide in light — hence cannot 'see' (know and love) God, who is that very love/light",
+          "Because Augustine claims this verse is unrelated to the topic of divine love and concerns only social etiquette",
+          "Because he argues seeing one's brother and seeing God are literally the same act with no distinction",
+          "Because he denies this verse actually appears in the text of 1 John"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons through John's logic: not loving one's visible brother means not abiding in love, hence not abiding in God (who is love) or in light (since God is light), and so being unable to truly 'see'/know the God one claims not to see."
+      },
+      {
+        "q": "How does Augustine resolve the question of how much love should be given to God versus to one's neighbor?",
+        "options": [
+          "Incomparably more upon God than upon ourselves, but upon our brother as much as upon ourselves — and we love ourselves more truly the more we love God, since God, self, and neighbor are all loved from one and the same love, ultimately for God's sake",
+          "He argues love for neighbor should always exceed love for God in daily practice",
+          "He claims the question is meaningless since love cannot be measured or compared in any way",
+          "He argues one should love neither God nor neighbor more than material possessions"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution: incomparably more love is due to God than to oneself, but love for one's neighbor should equal self-love; ultimately all three loves (God, self, neighbor) flow from a single love directed 'for the sake of God.'"
+      }
+    ],
+    "TRIN-B8C9": [
+      {
+        "q": "According to Augustine, what actually kindles our love when we read Paul's account of his sufferings and virtues (2 Corinthians 6)?",
+        "options": [
+          "Not a bodily image of Paul, but our prior love of the unchangeable form of righteousness itself, discerned within ourselves, which we recognize Paul's recorded life as conforming to",
+          "Purely the dramatic and exciting narrative style of the passage, unrelated to any moral content",
+          "Our admiration for Paul's physical courage alone, apart from any moral or spiritual dimension",
+          "Augustine denies that reading this passage produces any genuine love in the reader at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that we love Paul because we believe his life conformed to the unchangeable form of righteousness we already discern within ourselves — it is love of that form, not any bodily image, that is truly kindled and then extended to Paul."
+      },
+      {
+        "q": "How does believing that others (like Paul) lived righteously affect our own hope and love, according to Augustine?",
+        "options": [
+          "It stirs up a more burning love of the unchangeable form of righteousness itself, and gives us hope and confidence that we too, being human like them, are capable of living such a life, so we desire and pray for it more ardently",
+          "It has no effect whatsoever on our own aspirations, according to this chapter",
+          "It makes us despair further, believing such righteousness is impossible for ordinary people",
+          "It causes us to worship Paul himself as a divine being, replacing our worship of God"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes a reciprocal dynamic: belief in others' righteous lives intensifies our love of the unchangeable form itself, and gives us confident hope that, being human as they were, we too can aspire to and pray for such a life."
+      },
+      {
+        "q": "What is Augustine's concluding point about faith's role in knowing and loving God, closing this chapter?",
+        "options": [
+          "Faith avails to the knowledge and love of God, not as of one altogether unknown or altogether unloved, but so that He may thereby be known more clearly and loved more steadfastly",
+          "Faith is ultimately unnecessary once true love of God has been achieved",
+          "Faith and knowledge of God are entirely unrelated according to Augustine's final view",
+          "Faith should be abandoned in favor of direct philosophical proof of God's existence"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's summarizing conclusion: faith functions not to introduce love of a totally unknown, unloved God, but to deepen and clarify a knowledge and love of God that, however partial, is already genuinely present."
+      }
+    ],
+    "TRIN-B8C10": [
+      {
+        "q": "What three elements does Augustine identify as always present in love, whether carnal or spiritual?",
+        "options": [
+          "He that loves, and that which is loved, and love [itself] — a threefold structure present even in ordinary human affections",
+          "The lover, the beloved, and the wedding ceremony that unites them",
+          "The body, the soul, and the spirit",
+          "The desire, the object desired, and the act of possessing it"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key discovery, closing Book VIII: analyzing love reveals three inseparable elements — 'he that loves, and that which is loved, and love' — present even in ordinary, 'outward and carnal' loves."
+      },
+      {
+        "q": "How does Augustine refine this triad when he moves from bodily love to the mind loving a friend?",
+        "options": [
+          "He asks 'what does the mind love in a friend except the mind?' — locating the same threefold structure (lover, beloved, love) now entirely within or between minds, rather than involving bodies at all",
+          "He argues the triad disappears entirely once bodily elements are removed from consideration",
+          "He claims friendship between minds involves a completely different, unrelated structure with no parallel to bodily love",
+          "He denies that minds are capable of loving one another in any real sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine 'treads down the flesh' to consider the mind loving another mind (as in friendship), finding the same triadic structure — lover, beloved, love — now purified of bodily elements."
+      },
+      {
+        "q": "How does Augustine characterize the significance of this discovery at the very end of Book VIII?",
+        "options": [
+          "As merely finding 'the place' where the sought-after thing is to be looked for, not yet the thing itself — a starting-point ('the hinge') from which the rest of the inquiry, pursued in subsequent books, can proceed",
+          "As the complete and final solution to the entire mystery of the Trinity, requiring no further inquiry",
+          "As a discovery Augustine says he now regrets making and wishes to retract",
+          "As applicable only to human relationships, with no possible bearing on understanding the divine Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine is careful to frame this as only a preliminary result — like finding the location where a sought object might be, not yet the object itself — a 'hinge' or starting point for the extended psychological inquiry that follows in Book IX and beyond."
+      }
+    ],
+    "TRIN-B9C1": [
+      {
+        "q": "What posture does Augustine, quoting Paul, recommend for the whole inquiry into the Trinity?",
+        "options": [
+          "\"Not as though I had already attained... forgetting those things which are behind, and reaching forth unto those things which are before\" — genuine, ongoing seeking rather than presumptuous claims to have grasped the truth",
+          "\"I have fought the good fight, I have finished the course\" — treating the inquiry as already complete",
+          "\"Let no man deceive you with vain words\" — a call to abandon philosophical inquiry altogether",
+          "\"Prove all things; hold fast that which is good\" — a call to test every doctrine against pagan philosophy"
+        ],
+        "correct": 0,
+        "explanation": "Augustine quotes Philippians 3's 'not as though I had already attained... reaching forth unto those things which are before' as the model posture for the inquiry: genuine ongoing seeking, not presumptuous claims to have already grasped the mystery."
+      },
+      {
+        "q": "What test case does Augustine propose for checking whether a claim about one Person 'fits' the whole Trinity?",
+        "options": [
+          "Whether the Holy Spirit is properly identified as 'love' (given 'God is love'), since if He is not, then either the Father, the Son, or the Trinity itself must be love, and nothing can be said of the Trinity that fits only a creature, not the Creator",
+          "Whether the Son should be called 'wisdom' more than the Father, tested by counting scriptural occurrences",
+          "Whether the Father alone, and not the Son, created the physical universe",
+          "Whether the Holy Spirit appeared more often in the Old Testament than the New Testament"
+        ],
+        "correct": 0,
+        "explanation": "Augustine sets up the test case that will occupy the coming books: whether the Holy Spirit can properly be identified with 'love' itself (given 1 John's 'God is love'), while insisting that nothing said of the Trinity may fit a creature rather than the Creator."
+      },
+      {
+        "q": "What rule does Augustine lay out for what may rightly be said about any one Person of the Trinity?",
+        "options": [
+          "That whatever is said of the Father must properly belong to the Father (not improperly to the Son, Spirit, or Trinity), and likewise for the Son and Spirit — nothing should be said that is unworthy or that confuses what belongs to one Person with what belongs to another",
+          "That anything at all may be said of any Person interchangeably, since they are perfectly equal",
+          "That only the Father may be discussed directly; the Son and Spirit should be inferred only indirectly",
+          "That statements about the Persons should follow strict grammatical rules of Latin declension"
+        ],
+        "correct": 0,
+        "explanation": "Augustine sets the methodological rule for the whole subsequent inquiry: care must be taken that whatever is predicated of the Father, Son, Spirit, or the Trinity as a whole is properly fitting to that Person (or to all), never confused or improperly assigned."
+      }
+    ],
+    "TRIN-B9C2": [
+      {
+        "q": "What happens to the 'lover, beloved, love' triad from Book VIII when Augustine applies it to a case of pure self-love?",
+        "options": [
+          "It collapses to only two things (mind and love), since the one who loves and the one who is loved are identical in self-love, leaving Augustine to ask 'where, then, is the trinity?'",
+          "It remains exactly three distinct things with no change at all",
+          "It becomes four things instead of three, since self-love adds an extra element",
+          "Augustine declares the whole inquiry a dead end and abandons it entirely at this point"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notices that self-love collapses lover and beloved into the same subject, reducing the triad to just two elements (mind and love), which prompts his explicit question 'where, then, is the trinity?' — setting up the rest of the book's search."
+      },
+      {
+        "q": "Why does Augustine say he restricts the inquiry to 'the mind alone,' setting aside 'the other many things of which a man consists'?",
+        "options": [
+          "In order to isolate, as clearly as possible, whatever trinity might exist within the purely spiritual, non-bodily aspect of the human person",
+          "Because he believes the body is evil and should never be discussed in theology",
+          "Because Scripture explicitly forbids discussing the body in connection with the image of God",
+          "Because he considers the question of embodiment already fully resolved in an earlier book"
+        ],
+        "correct": 0,
+        "explanation": "Augustine deliberately narrows the focus to the mind alone, setting aside the body and other aspects of the human person, in order to isolate as clearly as possible whatever inner trinity might be found there."
+      },
+      {
+        "q": "What does Augustine say about the relationship between 'mind' and 'love' as substances, when the mind loves itself?",
+        "options": [
+          "Love and mind are not two spirits but one spirit, not two essences but one — yet they remain 'two things that are one,' since he that loves and love are 'mutually said relatively,' while mind and spirit express essence rather than relation",
+          "He argues love and mind are two entirely separate and unrelated substances with no connection",
+          "He claims only the mind is a real substance, while love is a mere illusion with no reality",
+          "He denies that love can be called a substance in any sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine carefully distinguishes: mind and love, as substance, are one spirit and one essence, yet 'he that loves' and 'love' are mutually relative terms (like Father and Son), giving a subtle 'two that are one' structure even before the full trinity is found."
+      }
+    ],
+    "TRIN-B9C3": [
+      {
+        "q": "Why does Augustine say the mind cannot love itself without also knowing itself?",
+        "options": [
+          "Because one cannot love what one does not know — a simple but decisive premise that leads Augustine to add self-knowledge to self-love as a distinct element in the sought-after trinity",
+          "Because Augustine believes love and knowledge are simply identical concepts with no distinction",
+          "Because he claims only philosophers, not ordinary people, are capable of self-love",
+          "Because knowledge, in his view, is entirely irrelevant to the question of love"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's simple but pivotal premise: 'how can it love what it does not know?' — this drives him to add self-knowledge as a necessary third element alongside mind and self-love."
+      },
+      {
+        "q": "How does Augustine contrast the mind's self-knowledge with how the bodily eye perceives?",
+        "options": [
+          "The bodily eye cannot see itself except by reflection in a mirror, and sees other things (not itself) directly; the mind, by contrast, knows itself directly through itself, not merely by generalizing from having observed other minds",
+          "Augustine claims the eye and the mind perceive themselves in exactly the same way, with no relevant difference",
+          "He argues the mind, like the eye, requires an external 'mirror' in order to know itself at all",
+          "He claims neither the eye nor the mind can ever know themselves under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's contrast: the bodily eye needs a mirror to see itself (it naturally sees outward, not itself), while the mind knows itself directly and immediately, through itself, without needing to observe other minds first."
+      },
+      {
+        "q": "Why does Augustine reject the idea that the mind comes to know itself by first observing and generalizing from other minds?",
+        "options": [
+          "Because a mind could not even recognize another mind AS a mind unless it already possessed self-knowledge to draw upon — self-knowledge is thus prior to, not derived from, knowledge of others",
+          "Because he denies that other minds exist at all, making the question moot",
+          "Because he believes all minds are, in fact, identical with no individual differences to observe",
+          "Because Scripture explicitly forbids comparing one's mind to another person's mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: to recognize another being as having 'a mind' at all, one must already possess some understanding of what a mind is — drawn from one's own case — so self-knowledge cannot be derivative of observing others; it must be prior and direct."
+      }
+    ],
+    "TRIN-B9C4": [
+      {
+        "q": "What three things does Augustine now identify as the sought trinity, replacing 'lover, beloved, love'?",
+        "options": [
+          "The mind itself, the mind's knowledge of itself, and the mind's love of itself",
+          "The mind, the body, and the soul",
+          "Memory, understanding, and will (already fully developed in this chapter)",
+          "Faith, hope, and love, considered as three separate mental faculties"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's refined triad for Book IX: the mind, and the knowledge of it (self-knowledge), and the love of it (self-love) — three things which, when perfect, are equal to one another."
+      },
+      {
+        "q": "Why does Augustine say that loving oneself either 'more' or 'less' than one truly is constitutes a fault?",
+        "options": [
+          "Because loving oneself less than one's true worth (e.g., as if merely a body) or more than one's true worth (e.g., as if one were God) both represent a distortion — proper self-love must be proportionate to what the mind actually is, no more and no less",
+          "Because Augustine believes self-love is always sinful regardless of degree",
+          "Because he claims only saints are permitted to love themselves at all",
+          "Because he argues the mind's worth constantly changes, making any fixed love impossible"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that proper love of self, like proper knowledge of self, must match the mind's actual worth — loving oneself as merely bodily (too little) or as divine (too much) are both faults that prevent the perfect equality of mind, knowledge, and love."
+      },
+      {
+        "q": "Why does Augustine say knowledge and love are not 'in' the mind the way color is 'in' a body (as an accident in a subject)?",
+        "options": [
+          "Because a body's color cannot exist beyond that body, but the mind can love and know things besides itself, showing love and knowledge are not confined the way an accident is confined to its one subject — rather, they exist substantially, as the mind itself does",
+          "Because Augustine claims color does not actually exist in bodies in any real sense",
+          "Because he argues love and knowledge, unlike color, can be seen directly with the bodily eyes",
+          "Because he believes the mind itself is merely an accident of the body, reversing the usual relationship"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key distinction: a body's color cannot be transferred or extend beyond that one body, but the mind's love and knowledge can extend to other things beyond itself, showing they exist 'substantially' like the mind itself, not as mere accidents confined to one subject."
+      }
+    ],
+    "TRIN-B9C5": [
+      {
+        "q": "What formula does Augustine use to describe how mind, knowledge, and love relate to one another in this chapter?",
+        "options": [
+          "\"Each severally in themselves and mutually all in all\" — each element is fully itself, while also being wholly present within each of the other two and within their combinations",
+          "\"Each entirely separate and independent, meeting only occasionally\"",
+          "\"One dominant and two subordinate, arranged in a strict hierarchy\"",
+          "\"Constantly shifting roles, so that mind sometimes becomes knowledge and vice versa\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's formula for this intricate mutual indwelling: mind, knowledge, and love are each severally in themselves, yet also mutually 'all in all' — each fully present within the others and their combinations."
+      },
+      {
+        "q": "How does Augustine contrast this trinity's inseparability with the separability of two human friends?",
+        "options": [
+          "Two friends can be physically separated, or one can even begin to hate the other while unbeknownst to him, while mind-knowledge-love cannot be so separated — if the love or knowledge ceases, the mind's loving or knowing ceases with it, simultaneously",
+          "He claims friends and this inner trinity are equally and identically separable in every way",
+          "He argues friends can never truly be separated once friendship begins, making the comparison pointless",
+          "He denies that human friendship provides any useful comparison whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine highlights a key disanalogy: friends can be separated in body, or one can silently turn to hatred while the other still loves — but mind, self-knowledge, and self-love cannot be so separated, since the loss of one instantly entails the loss of the corresponding activity of the mind."
+      },
+      {
+        "q": "What Gospel text does the chapter connect to this mutual indwelling of the inner trinity?",
+        "options": [
+          "\"Believest thou not that I am in the Father, and the Father in Me?... that they all may be one, as thou Father art in Me, and I in Thee\"",
+          "\"In my Father's house are many mansions\"",
+          "\"I am the vine, you are the branches\"",
+          "\"Whosoever believes in me shall never thirst\""
+        ],
+        "correct": 0,
+        "explanation": "The chapter connects the mutual indwelling of mind, knowledge, and love to Christ's prayer in John 17 about His own mutual indwelling with the Father, offered as an analogy (with acknowledged limitations) for how the three inner elements are 'all in all.'"
+      }
+    ],
+    "TRIN-B9C6": [
+      {
+        "q": "What distinction does Augustine draw between the self-knowledge each person has of his own mind and knowledge of 'the human mind' generally?",
+        "options": [
+          "Private, individual self-knowledge (which others must take on trust, since they cannot directly see it, and which changes over time) versus the unchangeable, universally accessible truth about what the human mind is or ought to be, which anyone can gaze upon directly",
+          "Augustine argues these are, in fact, exactly identical with no meaningful distinction",
+          "He claims only philosophers can access general truths about the mind, while ordinary people know only their own individual minds",
+          "He denies that any general or unchangeable truth about the human mind exists at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes each person's private, changing self-report (believed on trust by others) from the unchangeable, universally accessible truth about what a human mind is or ought to be — the latter gazed upon directly, not merely believed."
+      },
+      {
+        "q": "How does the example of imagining 'the walls of Alexandria' (never seen) versus 'the walls of Carthage' (seen) illustrate Augustine's point about judgment?",
+        "options": [
+          "Even in preferring one imaginary or remembered image to another, we appeal to fixed, unchangeable rules of judgment that lie above and beyond both images, showing that truth's judgment remains clear even when clouded by corporeal imagery",
+          "Augustine uses this example only to discuss geography and travel, with no bearing on epistemology",
+          "He argues that imagined and remembered images are entirely indistinguishable and equally reliable",
+          "He claims we cannot make any reasoned judgment about places we have not personally visited"
+        ],
+        "correct": 0,
+        "explanation": "Augustine uses the Carthage/Alexandria example to show that even comparing imaginary and remembered images involves appeal to fixed, unchangeable standards of judgment above both images — evidence of an inner light of truth not reducible to corporeal imagination."
+      },
+      {
+        "q": "What happens to Augustine's love for a courageous, faithful martyr, in his extended example, if the man turns out to have suffered for an unworthy motive?",
+        "options": [
+          "The love that had been directed to him 'is repelled, and taken away from an unworthy man' as previously believed, though it may persist redirected toward the goal that he might yet become what was believed of him — showing that our love was really for the unchangeable form of goodness itself, judged by fixed standards, not for the man as such",
+          "Augustine's love remains completely unchanged regardless of what he learns about the man's true motives",
+          "He argues we should continue loving the man exactly as before, since motives are irrelevant to genuine love",
+          "He claims this scenario is impossible and could never actually occur"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example shows that discovering the martyr's true, unworthy motive changes our estimation of him (judged by the unchangeable standard of truth), and our love shifts from enjoying him as already good to hoping/working that he might become good — revealing that the standard by which we judged him remains fixed even as our estimate of him changes."
+      }
+    ],
+    "TRIN-B9C7": [
+      {
+        "q": "What does Augustine mean by saying we 'conceive and beget the word within' from what we behold in eternal truth?",
+        "options": [
+          "Whatever true knowledge we grasp by looking to eternal truth becomes an inner 'word' that remains within us even as we speak it outwardly, since speaking to another is an attempt to produce something similar in the hearer's mind without the inner word ever leaving the speaker",
+          "Augustine argues that speaking a word physically removes and transfers the knowledge out of the speaker's mind entirely",
+          "He claims 'words' in this sense refer only to spoken Latin or Greek vocabulary, with no broader meaning",
+          "He denies that any inner mental process precedes outward speech or action"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes an inner 'word' (true knowledge conceived by gazing at eternal truth) that persists within the speaker even while being outwardly communicated through voice or sign to produce something similar in a hearer, 'nor by being born does it depart from us.'"
+      },
+      {
+        "q": "What claim does Augustine make about the relationship between inner words and outward human action?",
+        "options": [
+          "We do nothing through bodily words or actions, whether praised or blamed, that we have not first 'said' within ourselves — no one willingly does anything he has not first 'said in his heart'",
+          "He claims outward action always precedes and causes any corresponding inner thought",
+          "He argues inner words and outward actions are entirely disconnected phenomena",
+          "He denies that any correlation exists between what is thought and what is done"
+        ],
+        "correct": 0,
+        "explanation": "Augustine claims a strong link between inner and outer: 'no one willingly does anything, which he has not first said in his heart' — every willed action or word is preceded by an inner 'word' conceived within the mind."
+      },
+      {
+        "q": "According to this chapter, what conceives the inner 'word,' whether it concerns creature or Creator?",
+        "options": [
+          "Love — the inner word is 'conceived by love, either of the creature or of the Creator, that is, either of changeable nature or of unchangeable truth'",
+          "Fear, since Augustine claims all knowledge originates in the fear of punishment",
+          "Memory alone, with no involvement of the will or affections",
+          "Pure logical deduction, entirely apart from any emotional or volitional element"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly states the word is 'conceived by love,' whether directed toward the changeable creature or the unchangeable Creator/truth, linking the birth of the inner word to the affective, willing dimension of the mind, not mere passive cognition."
+      }
+    ],
+    "TRIN-B9C8": [
+      {
+        "q": "How does Augustine distinguish 'desire' (cupiditas) from 'love/charity' (caritas) with respect to created things?",
+        "options": [
+          "Desire loves the creature 'for itself,' which corrupts through mere enjoyment of it; charity refers that same love back to God, so that inferior things are rightly 'used' toward God and equal things (like our neighbor) are rightly 'enjoyed' only in God",
+          "Augustine claims desire and love/charity are simply synonyms with no meaningful difference",
+          "He argues desire is always good, while charity/love is always suspect and to be avoided",
+          "He claims the distinction applies only to romantic love, not to any other kind of affection"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's classic use/enjoyment (uti/frui) distinction: desire loves a creature for its own sake (self-corrupting), while charity refers that love back to God, rightly using inferior things and enjoying equal things (like a neighbor) only 'in' God."
+      },
+      {
+        "q": "What does Augustine say about how we should relate to ourselves and to others we love 'as ourselves'?",
+        "options": [
+          "\"As you ought to enjoy yourself, not in yourself, but in Him who made you, so also him whom you love as yourself\" — we should not rest final enjoyment in ourselves or others, but in God alone",
+          "He claims we should enjoy ourselves purely for our own sake, with no reference to God whatsoever",
+          "He argues we should never love ourselves under any circumstances, only others",
+          "He claims loving others 'as ourselves' is a lesser commandment that Christians may safely disregard"
+        ],
+        "correct": 0,
+        "explanation": "Augustine extends the use/enjoyment principle reflexively: even our enjoyment of ourselves should not terminate in ourselves but in God who made us, and the same applies to how we love those we love 'as ourselves.'"
+      },
+      {
+        "q": "What role does Augustine assign to love as 'a third' element in this chapter's closing image?",
+        "options": [
+          "Love, 'as it were a mean,' conjoins our (inner) word and the mind from which it is conceived, and 'without any confusion binds itself as a third with them, in an incorporeal embrace'",
+          "Love is described as a mere byproduct with no active binding function",
+          "Love is said to replace and eliminate the need for both mind and word",
+          "Love is described purely as an obstacle that must be overcome to reach true knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's closing image describes love as the binding 'mean' or third term that joins the mind and its conceived word together, 'in an incorporeal embrace,' anticipating the full trinity of mind, word/knowledge, and love."
+      }
+    ],
+    "TRIN-B9C9": [
+      {
+        "q": "In the case of loving 'spiritual things,' what does Augustine say about the difference between 'the word conceived' and 'the word born'?",
+        "options": [
+          "They are the very same, since the will finds rest in the knowledge itself — one who perfectly knows and loves righteousness is already righteous, with no further 'bringing forth' required through bodily action",
+          "They are always entirely distinct and separate acts, even in spiritual matters",
+          "Augustine denies that 'conceiving' and 'being born' can ever apply to spiritual things at all",
+          "He argues spiritual things require an even longer gap between conception and birth than carnal things do"
+        ],
+        "correct": 0,
+        "explanation": "For spiritual/intellectual goods, Augustine says conception and birth coincide: perfect knowledge and love of righteousness already constitutes being righteous, since the will finds rest in the knowledge itself, with no further external act required."
+      },
+      {
+        "q": "How does Augustine contrast this with the love of 'carnal and temporal things,' using the analogy of animal offspring?",
+        "options": [
+          "In carnal desire, conceiving (wanting) and bringing forth (attaining) are distinct — it is not enough for avarice to know and love gold, it must also possess it, and even possession never fully satisfies ('whoever drinks of this water shall thirst again')",
+          "He argues carnal desires, like spiritual ones, are always fully satisfied the moment they are conceived",
+          "He claims animals, unlike humans, never experience any gap between desire and attainment",
+          "He denies any meaningful analogy exists between spiritual and carnal 'conception'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts spiritual satisfaction (conception = birth) with carnal desire, where wanting and attaining are distinct steps, and even attainment leaves one unsatisfied and thirsting again, per Christ's words about the woman at the well."
+      },
+      {
+        "q": "What Psalm-derived image does Augustine cite to describe sinful desire's 'conception' and 'birth'?",
+        "options": [
+          "\"He has conceived pain [or labor/mischief] and brought forth iniquity,\" connecting sinful desire to a painful, laboring pregnancy that culminates in sin",
+          "\"Blessed is the man who walks not in the counsel of the ungodly\"",
+          "\"The heavens declare the glory of God\"",
+          "\"Out of the mouth of babes and sucklings you have ordained strength\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the psalm 'he has conceived pain [or mischief] and brought forth iniquity' to illustrate how sinful desire is 'conceived' with painful longing (unlike spiritual love's immediate rest) and eventually 'brought forth' as sinful action."
+      }
+    ],
+    "TRIN-B9C10": [
+      {
+        "q": "What refined question does Augustine pose about the relationship between knowledge and 'word' in this chapter?",
+        "options": [
+          "Whether ALL knowledge counts as an inner 'word,' or only knowledge that is also loved/approved — since we know many things (like vices) that we dislike, and such knowledge is not 'spoken' as a word in the fullest sense",
+          "Whether words can exist without any corresponding sound or written form whatsoever",
+          "Whether animals, like humans, are capable of forming genuine inner 'words'",
+          "Whether the Latin and Greek languages differ in how they define 'word'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine refines the definition of 'word,' asking whether merely knowing something (even something disliked, like a vice) counts as a 'word,' concluding that a true 'word' in the fullest sense requires knowledge joined with love or approval."
+      },
+      {
+        "q": "How does Augustine explain that even 'knowing and disliking a vice' can still involve a kind of 'word'?",
+        "options": [
+          "Because even when we dislike the vice itself, we approve of and 'like' our own correct censure or definition of it — e.g., 'I like to know and define what intemperance is,' and that definition (not the vice itself) becomes a word",
+          "Because Augustine claims all knowledge whatsoever, without exception, automatically becomes a word",
+          "He argues that disliking something is impossible without first loving it in some hidden sense",
+          "He claims vices themselves are secretly loved by everyone who studies them"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's subtle point: while we dislike the vice (e.g., intemperance) itself, we do 'like' and approve our own correct knowledge and definition of what it is — that approved act of definition, not the disliked vice, functions as a genuine 'word.'"
+      },
+      {
+        "q": "What is Augustine's concluding formula for what a 'word' truly is, in the sense relevant to this inquiry?",
+        "options": [
+          "\"A word, then... is knowledge together with love\" — so when the mind knows and loves itself, its word is joined to it by love, and both word and love are 'in him who loves and speaks'",
+          "\"A word is simply any sound uttered by the human voice, regardless of meaning\"",
+          "\"A word is a word only when written down and preserved for future generations\"",
+          "\"A word is whatever a person believes to be true, regardless of whether it is loved or known\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's concluding definition: a 'word,' in the theologically relevant sense, is 'knowledge together with love' — when the mind knows and loves itself, its self-knowledge becomes a true inner word, joined to it by love."
+      }
+    ],
+    "TRIN-B9C11": [
+      {
+        "q": "Why does Augustine say our knowledge of God, though real, is not equal to God, even though it is a genuine 'likeness' of Him?",
+        "options": [
+          "Because knowledge is 'in a lower nature' than what it knows when the knower (the human mind, a creature) is lesser than the known (God, the Creator) — so while we become 'better' by knowing and loving God, that knowledge remains a lower-nature likeness, not an equal image",
+          "Because Augustine denies that any real knowledge of God is possible in this life",
+          "Because he claims our knowledge of God is entirely false and corresponds to nothing real",
+          "Because he argues knowledge of God and knowledge of ourselves are identical in every respect"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that knowledge, as a likeness of what it knows, is nonetheless 'in' the nature of the knower — since the mind (creature) is of a lower nature than God (Creator), its knowledge of God, while real and elevating, cannot be a fully equal image of Him."
+      },
+      {
+        "q": "Why, by contrast, is the mind's knowledge of itself uniquely 'equal' to the mind, according to Augustine?",
+        "options": [
+          "Because in self-knowledge, the knower and the known are the very same nature (the mind knowing the mind), so the resulting knowledge is neither of a lower nature (as with bodies) nor a higher one (as with God), making it perfectly 'on a par and equal' with the mind itself",
+          "Because Augustine claims self-knowledge is always false and therefore trivially 'equal' to nothing real",
+          "Because he argues the mind is actually of a higher nature than itself, creating a paradox he leaves unresolved",
+          "Because he denies any distinction between the mind's knowledge of itself and its knowledge of external bodies"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key insight for this chapter: self-knowledge is unique because the knower and known share the identical nature (mind knowing mind), unlike knowledge of bodies (lower nature known) or of God (higher nature known), making self-knowledge uniquely 'equal' to and a true 'image' of the mind."
+      },
+      {
+        "q": "How does Augustine use the comparison of a mental image of a body ('phantasm') to sharpen this point about self-knowledge?",
+        "options": [
+          "A phantasm of a body, though only a likeness (not the body itself), is actually 'of a better sort' than the body since it exists in a living substance (the mind); but our self-knowledge, unlike such phantasms, achieves 'perfect and equal likeness' because both knower and known are the very same mind",
+          "He argues phantasms of bodies are always more accurate and reliable than self-knowledge",
+          "He claims bodies and their mental images are identical in every respect, eliminating any distinction",
+          "He denies that mental images (phantasms) of bodies exist at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes a phantasm (mental image) of a body, while only a likeness, is actually of a 'better sort' than the body (being in a living mind); but he contrasts this with self-knowledge, which achieves full equality precisely because the knower and known are identically the same mind, unlike the phantasm/body relationship."
+      }
+    ],
+    "TRIN-B9C12": [
+      {
+        "q": "What question does Augustine explicitly link, at the start of this chapter, to the theological puzzle of why the Holy Spirit is not also called 'Son'?",
+        "options": [
+          "Why the mind's self-knowledge is called its 'offspring' (begotten), while its self-love, though equally arising from the mind, is not similarly called 'begotten'",
+          "Why the Father is called 'unbegotten' while the Son is called 'begotten'",
+          "Why the Holy Spirit is sometimes depicted as a dove and sometimes as fire",
+          "Why the number three, rather than some other number, is significant for the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly draws the parallel: just as it is asked why the Holy Spirit, though also from the Father, is not called 'Son' or 'begotten,' so here he asks why the mind's self-love, though also arising from the mind, is not called 'begotten' the way self-knowledge is."
+      },
+      {
+        "q": "How does Augustine explain why knowledge, but not love, is properly called the mind's 'offspring' or 'begotten'?",
+        "options": [
+          "Knowledge is preceded by desire/inquiry (a seeking that culminates in 'finding,' like something brought forth or discovered), whereas the desire itself, once it has found and embraces its 'offspring' (knowledge), becomes love — so love is the embracing continuation of desire around the found knowledge, not itself a separately 'found' thing",
+          "Augustine claims love is entirely unrelated to and cannot arise from the mind in any sense",
+          "He argues knowledge and love are, in fact, identical, making the question meaningless",
+          "He claims only love, not knowledge, can properly be called the mind's offspring"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution: desire/inquiry precedes and culminates in the 'finding' of knowledge (properly called offspring, since it results from a search), while that same desire, now embracing what it has found, becomes love — so love completes and unites with the offspring rather than being itself a separately 'begotten' find."
+      },
+      {
+        "q": "What is the final image of the Trinity that Book IX arrives at, and what does Augustine say about its equality?",
+        "options": [
+          "The mind itself, and the knowledge of it (its offspring/word), and love (as a third) — 'these three are one, and one substance,' with neither the offspring nor the love being 'less,' since each corresponds to the full measure of the mind's own being and knowledge",
+          "Faith, hope, and charity, considered as the definitive and final image of the Trinity",
+          "The body, the soul, and the spirit, in equal proportion",
+          "The Father, Son, and Holy Spirit directly perceived within the human mind without any creaturely analogy"
+        ],
+        "correct": 0,
+        "explanation": "Book IX concludes with its image of the Trinity: mind, its self-knowledge (offspring/word), and self-love, 'these three are one, and one substance,' with Augustine insisting neither the knowledge nor the love falls short of the full measure of the mind's being."
+      }
+    ],
+    "TRIN-B10C1": [
+      {
+        "q": "In Augustine's example of the unfamiliar Latin word 'temetum,' what does the inquirer actually love, since he does not yet know the word's meaning?",
+        "options": [
+          "He loves the general excellence and usefulness of understanding language and signs as such (so as not to be lost when hearing or reading something), not the unknown meaning of the word itself, which he does not yet possess",
+          "He loves the specific sound and rhythm of the word's three syllables purely for their own sake",
+          "He loves nothing at all, since Augustine argues true curiosity about words is impossible",
+          "He loves the person who first used the word, even though he does not know who that was"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key point: the inquirer's zeal is really love for the known excellence and usefulness of understanding signs and language (so as to communicate and not be a 'foreigner' to others' words), not love of the specific, still-unknown meaning he seeks."
+      },
+      {
+        "q": "What example of a marvel Augustine uses to illustrate how learning is desired for a result already glimpsed?",
+        "options": [
+          "A person unfamiliar with writing being shown that words can be silently sent in writing to someone far away and read with the eyes rather than heard — moving him to want to learn how to do this himself",
+          "A person watching a magician perform an unexplained trick with no interest in learning how it was done",
+          "A person hearing a foreign language spoken fluently with no desire to ever learn it themselves",
+          "A person seeing a painting and wanting only to own it, not to learn how to paint"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example: someone unfamiliar with writing, upon seeing that words can be silently written and read at a distance, is moved to study in pursuit of a result he already recognizes and desires, illustrating that study is directed toward an end already known and valued."
+      },
+      {
+        "q": "What is Augustine's overall conclusion about the 'love' involved in studious desire to learn what one doesn't yet know?",
+        "options": [
+          "That the love of a studious mind is not love of the unknown thing itself, but of something already known, on account of which the mind wishes to know the unknown thing",
+          "That such love is entirely illusory and does not really exist in any meaningful sense",
+          "That studious love always and only concerns things that are already fully known, contrary to appearances",
+          "That study is motivated purely by fear of appearing ignorant to others, not by any genuine love"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's chapter-summarizing conclusion: 'the love of a studious mind... is not the love of that thing which it does not know, but of that which it knows; on account of which it wishes to know what it does not know.'"
+      }
+    ],
+    "TRIN-B10C2": [
+      {
+        "q": "How does Augustine explain loving 'a good man whose face we never saw'?",
+        "options": [
+          "We love him from knowledge of his virtues, which we know abstractly in the truth itself — not from any unknown feature of him personally",
+          "We do not actually love him at all, since we have never seen his face",
+          "We love only the idea of his reputation, with no connection to any real virtues",
+          "Augustine denies this scenario is possible under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that loving an unseen good man rests on knowledge of virtues we understand abstractly through eternal truth — the love targets known virtues, not an unknown personal feature of the man."
+      },
+      {
+        "q": "What alternative explanations does Augustine offer for cases that seem to show 'loving the unknown,' before concluding no one truly loves what is unknown?",
+        "options": [
+          "Loving a known genus while picturing an individual not yet seen; loving an image/species glimpsed in eternal reason, later confirmed by report; loving something known while seeking something else unknown that belongs to it; or loving 'knowing' itself",
+          "Augustine offers no alternative explanations and simply asserts the unknown can be loved without argument",
+          "He claims all apparent cases of loving the unknown are actually cases of loving physical beauty alone",
+          "He argues these cases prove decisively that the unknown genuinely can be loved, reversing his usual position"
+        ],
+        "correct": 0,
+        "explanation": "Augustine works through several ways apparent 'love of the unknown' can be explained (known genus/species, eternal reason's glimpsed image, known thing linked to unknown, or the love of knowing itself), consistently supporting his broader claim that nothing wholly unknown can be loved."
+      },
+      {
+        "q": "What harder question does Augustine flag at the end of this chapter, in preparation for the rest of the book?",
+        "options": [
+          "Whether the same principle (nothing unknown can be loved) still holds when it is the mind itself, rather than some other object, that the mind desires to know",
+          "Whether animals are capable of studious love in the same way humans are",
+          "Whether love of God differs fundamentally from love of any created thing",
+          "Whether the Latin and Greek languages define 'love' in incompatible ways"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly flags the harder case yet to be examined: whether his conclusion (nothing unknown can be loved) still applies when the mind seeks to know not something external, but itself — the topic of the following chapter."
+      }
+    ],
+    "TRIN-B10C3": [
+      {
+        "q": "What is the seemingly paradoxical situation Augustine examines when the mind seeks to know itself?",
+        "options": [
+          "The mind appears to love and seek something (itself) that it does not yet know, which would seem to contradict the principle that nothing unknown can be loved",
+          "The mind seeks to know something entirely external to itself, with no connection to self-knowledge",
+          "The mind seeks to forget itself entirely, rather than to know itself",
+          "The mind seeks to become a different mind altogether than the one it currently is"
+        ],
+        "correct": 0,
+        "explanation": "Augustine poses the central puzzle: if the mind seeks to know itself while 'still unknown to itself,' this seems to violate the principle just established that nothing wholly unknown can be loved or sought."
+      },
+      {
+        "q": "How does Augustine resolve this puzzle through a chain of reasoning about the mind's self-awareness in seeking?",
+        "options": [
+          "He shows the mind knows itself as seeking, and knows itself as not (fully) knowing itself — since it distinguishes its own seeking and knows it is itself, not another mind, that does not know itself — proving it is 'more known to itself than unknown'",
+          "He simply asserts by fiat that the mind always fully knows itself with no argument",
+          "He concludes the mind can never actually know itself under any circumstances, leaving the paradox unresolved",
+          "He argues the paradox proves the whole inquiry into self-knowledge is meaningless and should be abandoned"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution traces a subtle chain: the mind knows that IT (not some other mind) is seeking, and knows that IT does not fully know itself — this self-referential awareness itself proves the mind is already substantially known to itself, 'more known... than unknown.'"
+      },
+      {
+        "q": "Why does Augustine reject the idea that the mind comes to picture itself the way we picture people we've heard about but never seen?",
+        "options": [
+          "Because unlike an absent person pictured from report, the mind, if it pictures itself from knowing OTHER minds, would already need to know itself to recognize those others as minds in the first place — an argument he made explicitly in the previous book",
+          "Because Augustine claims the mind has no capacity to form mental images of any kind",
+          "Because he argues other minds do not actually exist, making the comparison moot",
+          "Because he claims all mental self-images are automatically and always perfectly accurate"
+        ],
+        "correct": 0,
+        "explanation": "Augustine rejects this analogy since it presupposes prior knowledge of 'other minds' as minds, which (as argued in Book IX) itself requires already knowing what a mind is from one's own case — so self-knowledge can't be derived this way without circularity."
+      }
+    ],
+    "TRIN-B10C4": [
+      {
+        "q": "What paradoxical argument does Augustine make about the mind seeking itself 'in part' versus 'as a whole'?",
+        "options": [
+          "Since 'the mind' names a whole, any partial self-knowledge is still knowledge belonging to and possessed by the whole mind, so it is absurd to speak of the mind knowing only 'part' of itself while somehow not knowing as a whole what it does know",
+          "He argues the mind consists of separable physical parts, like a body, that can be known independently",
+          "He claims the mind can never know any part of itself under any circumstances",
+          "He argues 'part' and 'whole' are meaningless terms when applied to minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's intricate argument: since the mind, whatever it knows about itself, knows it 'as a whole' (there's no fragmentary knower), and since it is a whole mind that lives and seeks, it cannot be said to seek or find only 'a part' of itself distinct from the whole."
+      },
+      {
+        "q": "How does this chapter's argument lead to the striking conclusion that the mind 'does not seek itself at all' in one sense?",
+        "options": [
+          "Augustine argues that since the mind as a whole seeks itself, and 'the mind which seeks' cannot itself be the thing that is wanting/missing, nothing is truly absent for it to search out — paradoxically implying the mind, in seeking itself, discovers it was never actually missing from itself",
+          "He argues this conclusion straightforwardly, with no supporting reasoning of any kind",
+          "He claims the mind literally ceases to exist the moment it begins seeking itself",
+          "He argues this conclusion applies only to insane or dreaming minds, not to ordinary waking minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's paradoxical chain concludes that since the seeking mind (the whole) is not itself what is 'missing' (what is sought is what is wanting), and the whole mind is present to itself in seeking, in a real sense nothing is absent — the mind was never actually missing from itself."
+      },
+      {
+        "q": "What comparison does Augustine use for how the mind 'seeks' something not altogether lost from it?",
+        "options": [
+          "Like recalling something that has 'slipped from the mind, but has not altogether gone away from it,' recognizable once it returns as the very thing sought",
+          "Like searching a house for a lost object that might not be there at all",
+          "Like a stranger seeking directions in an unfamiliar city",
+          "Like a merchant searching for a buyer for his goods in a foreign market"
+        ],
+        "correct": 0,
+        "explanation": "Augustine compares the mind's self-seeking to recalling something 'slipped from the mind, but not altogether gone away,' recognizable as the same thing once recovered — suggesting the mind's self-knowledge is never wholly lost, only temporarily unattended."
+      }
+    ],
+    "TRIN-B10C5": [
+      {
+        "q": "According to Augustine, what is the real purpose of the command 'know yourself,' beyond mere factual self-discovery?",
+        "options": [
+          "That the mind should 'consider itself, and live according to its own nature' — properly subordinate to God and properly ruling over what is beneath it, rather than pursuing self-forgetful vicious desire",
+          "That the mind should catalog a complete, technical inventory of its own psychological faculties",
+          "That the mind should compare itself point-by-point against the minds of philosophers to assess its intelligence",
+          "That the mind should focus exclusively on bodily health as the truest form of self-knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains the command 'know yourself' aims at practical self-regulation: living according to one's proper nature, subject to God and ruling rightly over what is beneath it, rather than being lost in self-forgetful vicious desire."
+      },
+      {
+        "q": "How does the mind fall into vicious self-forgetfulness, according to Augustine's account in this chapter?",
+        "options": [
+          "By seeing excellent things in God's nature but, instead of remaining steadfast to enjoy them in Him, wishing to appropriate them to itself and be self-sufficient like God rather than by His gift — sliding downward while thinking it is rising",
+          "By spending too much time in quiet, solitary contemplation and prayer",
+          "By reading too many philosophical texts and too few scriptural ones",
+          "By failing to exercise the body sufficiently, leading to spiritual sluggishness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes the mind's fall as a perverse imitation of God: seeing excellent things in God and, rather than remaining subject to enjoy them through Him, wishing to possess them by its own power — 'to be what He is by its own,' sliding into 'less and less' while thinking itself 'more and more.'"
+      },
+      {
+        "q": "What distinction does Augustine draw between 'not knowing oneself' and 'not thinking of oneself,' using the analogy of a learned scholar?",
+        "options": [
+          "A grammar expert who is currently thinking about medicine is not thereby 'ignorant of grammar' — he simply isn't attending to it at that moment; similarly, the mind can genuinely know itself while, through love of external things, simply not be attending to (thinking of) itself",
+          "Augustine claims these two phrases mean exactly the same thing with no distinction",
+          "He argues that not thinking of oneself always necessarily means not knowing oneself as well",
+          "He denies that any scholar could ever be knowledgeable in more than one subject at a time"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's analogy: a scholar skilled in grammar isn't 'ignorant of grammar' just because he's currently thinking about medicine instead — similarly, the mind doesn't lose self-knowledge just because it is presently absorbed in thinking about (loving) external things."
+      }
+    ],
+    "TRIN-B10C6": [
+      {
+        "q": "What specific error does Augustine identify the mind falling into through its 'loving and intimate' connection with images of bodily things?",
+        "options": [
+          "The mind comes to consider itself to be 'something of the same kind' as the bodily images it loves — not literally thinking itself an image, but mistakenly identifying itself with the corporeal thing the image represents",
+          "The mind becomes permanently incapable of ever perceiving any bodily thing again",
+          "The mind loses all capacity for rational thought whatsoever, becoming purely instinctual",
+          "The mind begins to physically transform into the shape of the objects it contemplates"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's precise diagnosis: through loving connection with corporeal images, the mind comes to think of itself AS the corporeal thing itself (not merely as having an image of it) — mistaking its own nature for that of the bodily things it has dwelt on."
+      },
+      {
+        "q": "What power does Augustine say normally still 'lives' in the mind, even amid this error, allowing some self-correction?",
+        "options": [
+          "The power of distinguishing the external corporeal thing itself from the internal image of that thing which the mind retains — a discriminating capacity that persists except in extreme states",
+          "The power to physically alter one's own bodily senses at will",
+          "The power to completely erase all mental images through sheer willpower",
+          "The power to perceive other people's thoughts directly, bypassing all corporeal signs"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes the mind retains the power to distinguish an external corporeal thing from its internal image of that thing — a capacity for discrimination that persists in ordinary waking states, even amid the error of mistaking itself for something corporeal."
+      },
+      {
+        "q": "In what unusual states does Augustine say this normally-persisting power of discrimination can fail entirely?",
+        "options": [
+          "In cases of sleep, madness, or trance, when images are 'projected as if felt without and not thought within'",
+          "Only during moments of extreme physical exercise or exertion",
+          "Only when reading works of pagan philosophy",
+          "Only when a person is completely silent and not speaking to anyone"
+        ],
+        "correct": 0,
+        "explanation": "Augustine specifically identifies sleep, madness, and trance as the states in which the mind's usual power to distinguish external things from internal images breaks down, so that images seem to be felt as external rather than recognized as internal representations."
+      }
+    ],
+    "TRIN-B10C7": [
+      {
+        "q": "What various material substances does Augustine list that different ancient philosophers thought the soul was made of?",
+        "options": [
+          "Blood, brain, heart, atoms (minute individual particles), air, fire, and a mere 'tempering together' or combination of the body's elements",
+          "Only water and earth, according to a strict two-element theory",
+          "Exclusively gold and silver, reflecting a purely metallurgical theory of the soul",
+          "Only the number seven, understood as a purely mathematical entity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine surveys ancient theories of the soul's substance: blood, brain, heart, atoms, air, fire, or simply the combination/tempering of the body's elements — all materialist accounts he goes on to critique."
+      },
+      {
+        "q": "According to Augustine, why do these philosophers err in thinking the soul is corporeal, given that they clearly know the mind intimately (as everyone does)?",
+        "options": [
+          "Their error does not come from 'defect of knowledge concerning mind,' but from an inability to conceive of any real existence at all except through corporeal images/phantasms — if asked to conceive existence without such images, they consider it 'merely nothing'",
+          "Because they had never personally experienced having a mind at all",
+          "Because ancient philosophy had no vocabulary whatsoever for discussing non-physical realities",
+          "Because Augustine claims these philosophers were being deliberately deceptive rather than genuinely mistaken"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's diagnosis is subtle: these philosophers do know the mind (as everyone intimately does), but their error stems from an inability to conceive existence at all apart from corporeal phantasms — anything non-corporeal strikes them as simply 'nothing.'"
+      },
+      {
+        "q": "How does Augustine define 'finding' (invention) in this chapter, connecting it to how the mind 'comes into' what it seeks?",
+        "options": [
+          "'To find out' (invenire) means literally to 'come into' (in-venire) that which is sought — things that arrive in the mind 'of themselves' without a prior search are known but not properly said to be 'found,' since finding implies a preceding search",
+          "He defines 'finding' as purely a matter of luck or chance with no connection to seeking",
+          "He argues 'finding' applies only to physical objects lost and later located, never to knowledge",
+          "He claims the Latin word for 'finding' has no etymological connection to 'seeking' whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers an etymological observation: 'invenire' (to find/invent) literally suggests 'coming into' what is sought; things that simply occur to the mind without prior search are known but not properly 'found' in this technical sense."
+      }
+    ],
+    "TRIN-B10C8": [
+      {
+        "q": "According to Augustine, why can the mind not conceive of itself 'alone,' apart from the images of bodily things it has loved?",
+        "options": [
+          "Because those images have 'marvellously cohered with it by the close adhesion of love' — the mind's attachment to what it has loved outwardly makes it unable to separate itself, in thought, from the images of those loved things",
+          "Because the mind, according to Augustine, is literally composed of the same physical matter as bodily things",
+          "Because bodily images are, in Augustine's account, actually superior in reality to the mind itself",
+          "Because the mind has no independent existence apart from bodily images under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains the mind's difficulty conceiving itself 'alone' stems from love: images of loved bodily things have 'cohered' with the mind so closely through the 'adhesion of love' that it cannot easily separate itself from them in thought."
+      },
+      {
+        "q": "What key instruction does Augustine give for how the mind should respond to the command 'know yourself,' given this entanglement?",
+        "options": [
+          "Not to seek itself as though it were absent/withdrawn from itself, but to 'withdraw that which it has added to itself' — removing the foreign accretions of loved images rather than searching for something missing",
+          "To physically withdraw from all society and live in complete isolation from other people",
+          "To seek out a physical mirror in which to observe itself as directly as possible",
+          "To abandon the pursuit of self-knowledge entirely as inherently self-defeating"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's practical instruction: the mind should not search for itself as if absent, but rather 'withdraw that which it has added to itself' — stripping away the foreign images it has confused with its own nature, rather than searching outward for something lost."
+      },
+      {
+        "q": "What does Augustine say the mind will discover once it properly attends to itself, according to this chapter's conclusion?",
+        "options": [
+          "That 'at no time did it ever not love itself, at no time did it ever not know itself,' but that by loving other things alongside itself, it had confused itself with them, mistaking diverse things for one",
+          "That it had, in fact, never known or loved itself at any point prior to this exercise",
+          "That self-knowledge is permanently impossible and the whole exercise is futile",
+          "That the mind's confusion about itself is entirely irreversible once it has occurred"
+        ],
+        "correct": 0,
+        "explanation": "Augustine concludes the mind will discover it 'never did not love itself' or 'not know itself,' but had confused itself with the external things it loved alongside itself — mistaking diverse things (itself plus loved objects) for a single thing."
+      }
+    ],
+    "TRIN-B10C9": [
+      {
+        "q": "How does Augustine distinguish the command 'Know yourself' from a command like 'Know the cherubim and seraphim'?",
+        "options": [
+          "The cherubim and seraphim are absent and known only by belief based on report, whereas the mind, when told to 'know yourself,' knows itself by the very act of understanding what the word 'yourself' means, since it is immediately and directly present to itself",
+          "Augustine claims both commands are, in fact, identical in kind, requiring identical processes to fulfill",
+          "He argues knowledge of angels is actually easier to obtain than self-knowledge",
+          "He denies that the cherubim and seraphim can be known by any means whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's contrast: unlike the cherubim and seraphim (absent, known only by belief/report), the mind knows itself in the very act of understanding the address 'yourself,' since nothing could be more directly and immediately present to it than itself."
+      },
+      {
+        "q": "How does Augustine distinguish knowing oneself from 'seeing one's own face,' which requires a mirror?",
+        "options": [
+          "Unlike the face, which is literally outside the reach of one's own sight and requires an external reflecting surface, the mind requires no external mirror to know itself, since it is immediately present to itself without needing any intermediary",
+          "He argues the mind, exactly like the face, also requires a kind of mirror to be known",
+          "He claims seeing one's face and knowing one's mind are, in fact, identical processes",
+          "He denies that mirrors can ever accurately reflect a person's actual face"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts the face (literally outside one's own line of sight, requiring a mirror) with the mind, which needs no such external device or intermediary since it is already, and always, immediately present to itself."
+      },
+      {
+        "q": "What is Augustine's concluding logical point about understanding the command 'Know yourself'?",
+        "options": [
+          "The mind is 'bidden to do that thing which it does do, when it understands the very precept that bids it' — understanding the command 'know yourself' just IS an instance of the mind knowing itself, since it must grasp what 'yourself' means",
+          "The command is logically incoherent and cannot actually be fulfilled by any mind",
+          "Only philosophers with advanced training can ever truly understand or fulfill this command",
+          "The command applies only to disembodied minds after death, not to minds in this present life"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's elegant closing logical point: the very act of understanding the command 'know yourself' already fulfills it, since understanding what 'yourself' refers to requires the mind to be self-aware — the command is thus performatively satisfied in the act of comprehending it."
+      }
+    ],
+    "TRIN-B10C10": [
+      {
+        "q": "What is the famous certainty Augustine identifies that survives even radical doubt about the mind's substance?",
+        "options": [
+          "That one lives, remembers, understands, wills, thinks, knows, and judges — since even the act of doubting proves all of these: if he doubts, he lives; if he doubts, he understands that he doubts; if he doubts, he wishes to be certain",
+          "That the mind is definitely made of fire, since this can never be doubted according to Augustine",
+          "That nothing at all can be known with any certainty whatsoever, not even that one exists",
+          "That only trained philosophers can achieve this kind of certainty; ordinary people cannot"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's celebrated proto-Cartesian argument: even radical doubt about what the mind IS (fire, air, brain, etc.) cannot touch the certainty that one lives, understands, wills, and judges, since the very act of doubting requires and proves all of these."
+      },
+      {
+        "q": "How does Augustine describe the error of those who think the mind is a corporeal substance (like air or fire) with understanding as its 'quality'?",
+        "options": [
+          "They treat the corporeal substance (air, fire, etc.) as 'the subject' in which understanding exists 'as its quality,' the way color exists in a body — a materialist framework Augustine sets out to refute by showing the mind's certainty about itself does not depend on any such corporeal identification",
+          "Augustine claims this description perfectly and correctly captures the true nature of the mind",
+          "He argues this view was universally rejected by all ancient philosophers with no dissent",
+          "He claims this view applies only to animal minds, never to human minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes and critiques the materialist framework in which a corporeal substance (air, fire) is treated as 'the subject' bearing understanding as a mere quality — a view he contrasts with the mind's immediate, non-corporeal self-certainty."
+      },
+      {
+        "q": "What is Augustine's final criterion for what the mind truly is, given all this uncertainty about corporeal identification?",
+        "options": [
+          "'Whatsoever remains to it from itself' after stripping away everything it merely imagines about itself (fire, air, body) through 'imaginary phantasy' — the mind IS only that which it knows through true, direct, inward presence to itself, not through imagined external comparison",
+          "The mind is definitively identified as a fifth kind of body, distinct from the four classical elements",
+          "The mind is whatever the majority of ancient philosophers agreed it to be",
+          "The mind's true nature can never be determined by any process of reasoning whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion: after stripping away all the merely imagined/phantasized corporeal identifications (fire, air, etc.), 'whatsoever remains to it from itself' — known through direct, non-imaginary inward presence — is the mind's true self, distinct from the imaginative guesses about corporeal identity."
+      }
+    ],
+    "TRIN-B10C11": [
+      {
+        "q": "What three things does Augustine now focus the inquiry on, setting aside other things the mind is certain of concerning itself?",
+        "options": [
+          "Memory, understanding, and will",
+          "Ability, learning, and habit",
+          "Faith, hope, and charity",
+          "Sensation, imagination, and reason"
+        ],
+        "correct": 0,
+        "explanation": "Augustine narrows his focus in this chapter specifically to memory, understanding, and will as the trinity he will examine in depth, setting aside the mind's other certainties (that it lives, is, etc.) discussed previously."
+      },
+      {
+        "q": "How does Augustine demonstrate that memory, understanding, and will 'mutually contain' one another as wholes?",
+        "options": [
+          "By showing chains like 'I remember that I have memory and understanding, and will; and I understand that I understand, and will, and remember; and I will that I will, and remember, and understand' — each faculty, when exercised, involves and encompasses the others as complete wholes",
+          "By arguing they are entirely separate faculties with no overlap or mutual relationship whatsoever",
+          "By claiming only memory truly exists, while understanding and will are illusions",
+          "By showing that only one of the three faculties can be active at any given moment, never more than one simultaneously"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's demonstration proceeds through interlocking statements ('I remember that I have memory and understanding and will; I understand that I understand, and will, and remember...') showing each faculty's exercise necessarily involves and encompasses the others as complete wholes, not fragments."
+      },
+      {
+        "q": "What is Augustine's concluding claim about the unity and plurality of memory, understanding, and will in this chapter?",
+        "options": [
+          "They are not three lives but one life, not three minds but one mind, not three substances but one substance — yet genuinely three 'in that wherein they are mutually referred to each other,' since each is called by a relative name (memory OF something, etc.) even while each, considered in itself, simply IS life, mind, and essence",
+          "They are three entirely separate and unequal substances, with memory being clearly superior to the other two",
+          "They cannot be meaningfully distinguished from one another in any respect whatsoever",
+          "Only will is a genuine faculty; memory and understanding are, in Augustine's final view, merely aspects of will"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion follows the pattern established for the divine Persons: memory, understanding, and will are one life, one mind, one substance in respect to themselves, yet genuinely three in their mutual relations to one another (each named relatively, e.g., 'memory of...')."
+      }
+    ],
+    "TRIN-B10C12": [
+      {
+        "q": "What image of the Trinity does Augustine identify at the close of Book X, as the culmination of this book's inquiry?",
+        "options": [
+          "Memory, understanding, and will — specifically the mind's ever-present memory, understanding, and love/will of itself, found to be 'an inadequate image, yet an image' of the highest, chiefest essence",
+          "Faith, hope, and charity, treated here as the definitive final answer",
+          "Body, soul, and spirit, in equal balance",
+          "The Father, Son, and Holy Spirit, understood as directly and fully visible within human consciousness with no distinction from the divine reality itself"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies memory, understanding, and will/love (as they concern the mind's relation to itself) as the culminating image of the Trinity for this book — explicitly calling it 'an inadequate image, yet an image' of the highest divine essence."
+      },
+      {
+        "q": "What difficulty does Augustine acknowledge in distinguishing the mind's self-memory from its self-understanding in this 'always-actual' case?",
+        "options": [
+          "Since the mind is understood to 'always know and always will itself,' its memory and understanding of itself are 'very closely conjoined,' with 'one is not preceded by the other by any time at all,' making them look 'not two things, but one called by two names'",
+          "He claims no difficulty exists whatsoever in distinguishing these three in the always-actual case",
+          "He argues memory and understanding of oneself are, in this always-actual case, completely and permanently identical with no distinction possible at all",
+          "He claims this difficulty applies only to animals, not to the human mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine candidly notes a real difficulty: because the mind always already knows and wills itself (with no temporal gap), its self-memory and self-understanding seem to collapse into 'one thing called by two names,' making the trinity harder to discern clearly."
+      },
+      {
+        "q": "What alternative approach does Augustine propose, at the very end of the book, to make the threefold distinction clearer?",
+        "options": [
+          "Examining knowledge and love as they arise freshly 'in time' — remembering what one did not remember before, seeing what one did not see before, loving what one did not love before — since temporal, changing examples are easier for 'duller minds' to follow than the always-already-actual case of self-knowledge",
+          "Abandoning the psychological analogy entirely and returning to purely scriptural argument",
+          "Focusing exclusively on angelic minds rather than human minds, since angels are simpler",
+          "Restricting the inquiry only to the minds of small children, whose thoughts are less complex"
+        ],
+        "correct": 0,
+        "explanation": "Augustine proposes shifting to examples involving temporal, in-time acquisition of knowledge and love (remembering, seeing, loving something new) as an easier, more accessible way to make the threefold distinction clear — the approach that Book XI's turn to external, bodily perception will pursue."
+      }
+    ],
+    "TRIN-B11C1": [
+      {
+        "q": "Why does Augustine turn to examine the 'outer man' governed by bodily sense, after focusing on the inner mind in Books IX-X?",
+        "options": [
+          "To seek some fainter trace of the Trinity even in the outer man, since we are so habituated to handling bodily, visible things that examples drawn from them may make inward, spiritual realities easier to grasp, even though this trace is not the true image of God found in the inner man",
+          "Because Augustine has concluded the inner man contains no trace of the Trinity at all",
+          "Because he believes the outer man is actually superior to the inner man in reflecting God",
+          "Because Scripture, in his reading, forbids any further discussion of the inner man"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that because we are so habituated to bodily things (more than intelligible ones), examples from the 'outer man' may help make spiritual truths more accessible, even though this trace, unlike the inner man, is not the true image of God."
+      },
+      {
+        "q": "Why does Augustine choose to focus primarily on the sense of sight among the five bodily senses?",
+        "options": [
+          "Because sight 'far surpasses the rest' among the bodily senses and, in its difference of kind, is nearer to the sight of the mind, making it the clearest analogy",
+          "Because Augustine considers the other four senses entirely irrelevant to any philosophical inquiry",
+          "Because sight is the only sense mentioned in Scripture, in his account",
+          "Because he claims most people are blind and this makes sight practically important to discuss"
+        ],
+        "correct": 0,
+        "explanation": "Augustine selects sight because it 'far surpasses the rest' of the bodily senses in excellence and is, by its nature, closer to 'the sight of the mind,' making it the clearest available analogy for the mental trinity to follow."
+      },
+      {
+        "q": "What does Augustine say about the outer man's status relative to the 'image of God' mentioned by Paul?",
+        "options": [
+          "The apostle clearly teaches the INNER man is renewed after the image of God, while the outer man 'perishes' — so any trace found in the outer man will not itself be 'the image of God' in the same full sense",
+          "He claims the outer man alone bears God's image, while the inner man bears no such likeness",
+          "He argues both inner and outer man are equally and identically 'the image of God'",
+          "He denies that Paul ever discusses the distinction between inner and outer man"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes Paul's teaching that the inner man is renewed 'after the image of Him that created him,' while the outer man 'perishes' — setting up his qualification that whatever trace is found in the outer man is not, strictly, the image of God."
+      }
+    ],
+    "TRIN-B11C2": [
+      {
+        "q": "What three elements does Augustine identify in the simple act of seeing a corporeal object?",
+        "options": [
+          "The object itself (that which is seen), vision (the sense informed by the object), and the attention of the mind that keeps the sense fixed on the object",
+          "The eye, the light, and the color of the object, considered as three purely physical elements",
+          "Memory, imagination, and reason, treated as the components of ordinary vision",
+          "The right eye, the left eye, and the brain, considered as three separate physical organs"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's first bodily trinity: the visible object itself, the vision (the sense actually informed by that object), and the mind's attention that applies and holds the sense to the object — three things of genuinely different natures."
+      },
+      {
+        "q": "What analogy does Augustine use to explain how vision is a real, distinct impression, comparable to a signet ring's mark?",
+        "options": [
+          "A ring imprinted on wax leaves a visible mark even after the ring is removed, proving an impression really was made; similarly (though less obviously, since the mark vanishes) the object seen leaves a genuine impression — a 'form' — on the sense, which is vision itself",
+          "He compares vision to a photograph developed in a darkroom, a purely modern and anachronistic analogy",
+          "He argues vision leaves no impression whatsoever, unlike a ring on wax, making the analogy fail entirely",
+          "He compares vision only to hearing, arguing sound and sight function in an identical way physically"
+        ],
+        "correct": 0,
+        "explanation": "Augustine uses the wax-seal analogy: a ring pressed into wax leaves a lasting, visible mark proving an impression occurred; he argues something similar (though the mark fades once the object is removed) occurs when the sense of sight is 'informed' by a visible object, producing vision."
+      },
+      {
+        "q": "What everyday phenomena does Augustine cite as evidence that vision really is a distinct 'form' impressed on the sense?",
+        "options": [
+          "Afterimages of bright colors that linger and fade after looking at a light and closing one's eyes, and the doubled appearance of a single flame when both eyes' rays are not perfectly aligned",
+          "The fact that people can recognize faces they have seen only once before",
+          "The existence of colorblindness in some individuals",
+          "The way pupils dilate and contract in response to changing light levels"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the fading afterimages seen after staring at a light and closing one's eyes, and the doubled appearance of a single flame (due to each eye's separate rays), as evidence that a real, distinct impression ('vision') is produced in the sense by the object seen."
+      }
+    ],
+    "TRIN-B11C3": [
+      {
+        "q": "How does the outward trinity of seeing (object, vision, will) get 'mirrored' inwardly as a trinity of pure thought, according to Augustine?",
+        "options": [
+          "The likeness of the object retained in memory replaces the outward object; an inner vision formed when the mind's eye turns to that memory replaces the outward vision; and the will still unites the two, now entirely within the soul — together called 'conception'",
+          "Augustine argues no such inward mirroring is possible; thought and sensation are entirely unrelated processes",
+          "He claims the inward trinity involves entirely different faculties with no relationship to the outward one",
+          "He argues the inward trinity requires the physical presence of the original object at all times"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes how, once an object is gone, its memory-trace stands in for the outward object, an inner vision formed by turning the mind's eye to that memory stands in for outward vision, and the will still unites them — this whole process, now entirely within the soul, is called 'conception.'"
+      },
+      {
+        "q": "Why is this inner trinity of memory, inner vision, and will harder to analyze than the outer trinity of seeing?",
+        "options": [
+          "Because in this inner case, unlike outward seeing (where object and sense are of clearly different natures), all three elements — memory, mental vision, and will — share the exact same spiritual nature, making them harder to distinguish from one another",
+          "Because this inner trinity, unlike the outer, involves no genuine distinction of any kind and is purely illusory",
+          "Because Augustine claims memory is entirely unreliable and therefore unsuitable for philosophical analysis",
+          "Because this trinity only occurs during sleep, making it difficult to study directly"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that unlike the outer trinity (where the visible body has an obviously different nature from the mind), in this inner case all three elements are of the identical spiritual/mental nature, making them 'discovered to be two [or three]... only by the judgment of reason,' not by any obvious difference in kind."
+      },
+      {
+        "q": "What would it mean, according to Augustine, if the memory-trace of a thing were altogether gone?",
+        "options": [
+          "We would say we had 'so forgotten as to be altogether unable to recollect' — showing that successful recollection depends on the trace genuinely persisting in memory for the mind's eye to be informed by it",
+          "Augustine claims memory traces can never actually be lost under any circumstances",
+          "He argues the mind would simply invent a false memory to replace the missing trace with no ill effect",
+          "He claims this scenario is logically impossible and could never occur in reality"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that if the relevant memory-trace were not there for the mind's eye to be informed by, we would describe this as having forgotten so completely that we cannot recollect at all — confirming that successful recollection requires the retained trace to genuinely persist."
+      }
+    ],
+    "TRIN-B11C4": [
+      {
+        "q": "What can happen when the will 'wholly converges' on an inward phantasy, turning entirely away from present bodily senses, according to Augustine?",
+        "options": [
+          "The imagined likeness can become so vivid and exact that 'not even reason itself is permitted to discern whether the body itself is seen without, or only something of the kind thought of within' — as in daydreaming so intensely one speaks as if actually present in the imagined scene",
+          "Augustine claims this can never actually happen and dismisses the possibility entirely",
+          "He argues the will's convergence always weakens, never strengthens, the vividness of an inner image",
+          "He claims this phenomenon only ever occurs in professional actors and never in ordinary people"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes how intense inward attention can produce an imagined image so vivid that even reason cannot distinguish it from actual outward perception, citing people who have 'suddenly uttered words' as if actually engaged in an imagined scene."
+      },
+      {
+        "q": "What various causes does Augustine list for the mind being forced onto vivid, unbidden images, distinguishing several different scenarios?",
+        "options": [
+          "Sleep (senses lulled to torpor), madness (senses disturbed 'from their inward structure'), or divination/prophecy (via 'spiritual commixtures'), as opposed to ordinary daydreaming, where a healthy, waking person's will simply turns itself away from the senses",
+          "He claims all vivid, unbidden mental images have exactly the same single cause with no meaningful variation",
+          "He argues only demonic possession can account for any vivid mental imagery whatsoever",
+          "He claims such images occur only in early childhood and never affect adults"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes several distinct causes of vivid, involuntary imagery: sleep (senses dulled), madness (inward disturbance), prophetic/divinatory states (spiritual influence), as opposed to the healthy, waking person whose will simply and voluntarily withdraws attention from the senses."
+      },
+      {
+        "q": "According to Augustine, what two opposite emotional states can both intensify the vividness of a mental image?",
+        "options": [
+          "Both desire and fear — 'not only desire, but fear, causes... the mental eye to be informed by the images of those sensible things,' with more vehement emotion producing a more distinctly formed image",
+          "Only joy and sorrow, with all other emotions having no effect on imagery",
+          "Only boredom, since Augustine claims strong emotions always suppress imagination",
+          "Augustine denies that any emotional state affects the vividness of mental images"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that both desire (wanting to see something) and fear (wanting to avoid it) intensify mental imagery — 'the more vehement has been either fear or desire, the more distinctly is the eye informed' — whether in actual perception or in memory-based conception."
+      }
+    ],
+    "TRIN-B11C5": [
+      {
+        "q": "Why does Augustine ultimately conclude the 'trinity of the outer man' (object, vision, will) is NOT the image of God?",
+        "options": [
+          "Because it is produced in the mind through the bodily sense, arising from a lower, corporeal creature (the body) rather than directly and solely from the mind's own nature, which is higher than the corporeal creature",
+          "Because Augustine believes the outer man has no connection whatsoever to God",
+          "Because this trinity, in his view, does not actually involve three genuinely distinguishable elements",
+          "Because he claims only angels, never humans, can bear any image of the Trinity at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key reason: this outward trinity arises through the bodily sense from a lower, corporeal creature, rather than directly from the mind's own higher nature — disqualifying it from being 'the image of God' in the proper sense, even though it retains some faint likeness."
+      },
+      {
+        "q": "How does Augustine explain that even sinful desire for likeness to God reflects something real about creation?",
+        "options": [
+          "He notes that even souls 'in their very sins strive after nothing else but some kind of likeness of God' — citing the temptation 'you shall be as gods' — since everything that exists, insofar as it is good, bears some faint likeness to the supreme good, however distorted or perverse the pursuit of that likeness may become",
+          "He argues sin has no connection whatsoever to any desire for likeness to God",
+          "He claims only the righteous, never sinners, can desire any kind of likeness to God",
+          "He denies that Genesis' 'you shall be as gods' has any relevance to this discussion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine observes that even sinful pursuit of self-exaltation (echoing the serpent's promise 'you shall be as gods') is a perverse striving after likeness to God, illustrating his broader point that everything good, however faintly, reflects the supreme good even when that reflection is corrupted."
+      },
+      {
+        "q": "How does Augustine tentatively map the three elements of the outer trinity onto the divine Persons in this chapter?",
+        "options": [
+          "The visible object as a 'quasi-parent,' the vision as 'quasi-offspring' (though neither a TRUE parent nor offspring, since the sense also contributes something), and the uniting will as 'more spiritual than either' and beginning 'to suggest... the person of the Spirit'",
+          "He maps the visible object directly onto the Father, the vision directly onto the Son, and denies any parallel exists for the Holy Spirit",
+          "He refuses to draw any analogy whatsoever between this trinity and the divine Persons",
+          "He maps all three elements equally onto the Son alone, since Christ became visible in the Incarnation"
+        ],
+        "correct": 0,
+        "explanation": "Augustine tentatively (and carefully, noting it is not a TRUE parent/offspring relationship) likens the visible object to a 'quasi-parent,' the vision to 'quasi-offspring,' and the uniting will — 'more spiritual than either' — as beginning 'to suggest... the person of the Spirit in the Trinity.'"
+      }
+    ],
+    "TRIN-B11C6": [
+      {
+        "q": "In what limited sense does Augustine say 'vision' can be called the 'end' or 'rest' of the will?",
+        "options": [
+          "Only with respect to a single, particular object of sight — not as the whole will's ultimate end, which is nothing other than blessedness itself; particular acts of will (like willing to see) have their own proximate, limited ends",
+          "He claims vision is always and unconditionally the will's ultimate final end in every case",
+          "He argues 'rest' and 'end' are meaningless terms that cannot apply to the will under any circumstances",
+          "He claims the will has no capacity to 'end' or 'rest' in anything whatsoever, ever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine carefully qualifies: vision is only the will's end with respect to that one particular object, not the whole will's ultimate end (which is blessedness) — a proximate rather than final end."
+      },
+      {
+        "q": "What examples does Augustine use to illustrate how particular 'ends' of the will can be chained together, referring to further ends?",
+        "options": [
+          "Wishing to see a scar in order to prove there had been a wound, or wishing to see a window in order to see passers-by through it — each proximate end feeding into a further one",
+          "The example of eating food, drinking water, and sleeping, treated as three unrelated and disconnected ends",
+          "The example of a soldier marching, fighting, and retreating, with no connection between these acts",
+          "The example of a merchant buying, selling, and storing goods, with each act entirely independent"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's examples: willing to see a scar (in order to conclude there was a wound) and willing to see a window (in order to see passers-by through it) both illustrate how one act's 'end' becomes a means feeding into a further, connected act of will."
+      },
+      {
+        "q": "What image does Augustine use to describe the 'connected series of right wills' leading toward blessedness?",
+        "options": [
+          "\"A sort of road which consists as it were of certain steps, whereby to ascend to blessedness,\" contrasted with 'the entanglement of depraved and distorted wills,' which is 'a bond' leading to 'outer darkness'",
+          "\"A tangled forest with no clear path, through which one wanders aimlessly\"",
+          "\"A vast ocean with no landmarks, on which one drifts without direction\"",
+          "\"A locked door that can never be opened by any human effort\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's image contrasts a rightly-ordered 'road... of certain steps, whereby to ascend to blessedness' with the 'entanglement of depraved and distorted wills,' described as a binding rope leading to 'outer darkness' — echoing the Psalms' 'song of steps/degrees' (Gradual Psalms)."
+      }
+    ],
+    "TRIN-B11C7": [
+      {
+        "q": "What new, 'more inward' trinity does Augustine identify in this chapter, distinct from the trinity of outward seeing?",
+        "options": [
+          "The species/likeness already stored in the memory (a 'quasi-parent'), the image copied from it in the mind's eye when we remember (a 'quasi-offspring'), and (implicitly) the will that unites them — a trinity entirely 'conceived from' sense experience but no longer requiring the outward sense itself",
+          "The same three elements as the outward trinity (object, vision, will), with no meaningful difference introduced",
+          "A trinity involving only two elements, since Augustine claims will and memory are, in fact, identical",
+          "A trinity that has no connection whatsoever to the earlier trinity of outward seeing"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies a trinity of pure recollection: the species retained in memory ('quasi-parent'), the mental image copied from it when remembering ('quasi-offspring'), and (as before) the will uniting them — now entirely internal, without requiring the object's actual outward presence."
+      },
+      {
+        "q": "Why does Augustine say neither the memory-trace nor the recollected image is a 'TRUE' parent or offspring, in this inner trinity?",
+        "options": [
+          "Because the mind's eye that is 'informed' by the memory-trace when remembering actually existed BEFORE the original object was even seen or remembered — so the 'offspring' (recollected vision) doesn't strictly proceed only from its supposed 'parent' (the memory-trace)",
+          "Because he claims memory and recollection are, in fact, entirely identical with no distinction whatsoever",
+          "Because he argues the mind's eye is created anew each time we remember something, with no continuity",
+          "Because he denies that memory can retain any accurate trace of past experience at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful qualification: the mind's eye that gets 'informed' when we remember already existed prior to our first seeing (and even more so, prior to remembering) the object — so it doesn't proceed purely 'from' the memory-trace the way a true offspring proceeds solely from its parent."
+      },
+      {
+        "q": "Why is it more difficult in this inner trinity to identify whether the will is 'parent' or 'offspring' of the other two elements?",
+        "options": [
+          "Because 'the likeness and equality of the same nature and substance' among all three elements (unlike the outward case, where body and mind are obviously different natures) makes it much harder to distinguish which, if any, might be prior to or derived from another",
+          "Because Augustine claims the will simply does not exist in this inner trinity at all",
+          "Because he argues memory itself does not actually exist as a real faculty",
+          "Because this difficulty, in his account, applies only to animals, not to human minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies the core difficulty: since memory, recollected vision, and will now share the exact same spiritual nature and substance (unlike the earlier case spanning body and mind), distinguishing their relative priority (parent/offspring status) becomes much harder than in the outward trinity."
+      }
+    ],
+    "TRIN-B11C8": [
+      {
+        "q": "What does Augustine argue must already be true before we can even 'will to remember' something?",
+        "options": [
+          "We must already retain in memory at least some part of what we wish to remember — using the example that wishing to recall 'what I supped on yesterday' already presupposes remembering that there was a 'yesterday' and that 'supping' is a thing that happens",
+          "We must already have completely forgotten the thing in question, with no trace remaining anywhere",
+          "We must have written the memory down beforehand in some physical record",
+          "We must have discussed the memory with at least one other person previously"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: the very will to remember something presupposes we already retain some fragment of it — his example is wishing to recall yesterday's supper, which presupposes already remembering that 'yesterday' existed and that 'supping' is a kind of activity."
+      },
+      {
+        "q": "What everyday example does Augustine use to show that the will can 'separate' memory from present sensation, causing forgetting despite genuine perception?",
+        "options": [
+          "Reading through a page or letter while thinking of something else, then realizing one has retained nothing and must begin reading again — the eyes genuinely perceived the words, but the will's attention (needed to fix them in memory) was elsewhere",
+          "The example of a person who is completely deaf being unable to hear any words at all",
+          "The example of someone reading a book in a language they have never learned",
+          "The example of a person intentionally covering their ears to avoid hearing a loud noise"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's memorable example: reading a page while one's will/attention is elsewhere, so that afterward one realizes nothing was retained and the page must be re-read — the senses genuinely perceived the words, but the will's inattention prevented the memory from being properly 'applied.'"
+      },
+      {
+        "q": "How many distinct 'trinities of this kind' does Augustine say exist, according to this chapter?",
+        "options": [
+          "As many as there are individual remembrances — each act of remembering constitutes its own trinity of the stored memory, the conceived vision, and the uniting will",
+          "Exactly three, corresponding to the three faculties of memory, understanding, and will",
+          "Exactly one, since Augustine claims there is only a single unified trinity of this kind for the whole human race",
+          "An infinite number, unrelated to any actual acts of remembering"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states 'there are, then, as many trinities of this kind as there are remembrances,' since each individual act of remembering constitutes its own instance of the threefold structure (stored memory, conceived vision, uniting will)."
+      }
+    ],
+    "TRIN-B11C9": [
+      {
+        "q": "What chain of four successive 'species' (likenesses) does Augustine trace in this chapter, from the bodily object to inner conception?",
+        "options": [
+          "The bodily object itself; the impression formed in the sense of the perceiver; the trace formed in memory from that sense-impression; and the inner vision formed in the mind's eye of the concipient from that memory",
+          "The bodily object, the soul, the body, and the will, treated as four equal and parallel elements",
+          "Sight, hearing, touch, and taste, treated as four sequential stages of a single sensory process",
+          "The Father, Son, Holy Spirit, and the human mind, treated as four parallel 'species'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine traces a four-step chain: the bodily object itself, the sense-impression it produces, the memory-trace formed from that impression, and finally the inner mental vision formed from that memory-trace when we conceive/recollect."
+      },
+      {
+        "q": "How many times does Augustine say the will 'combines as it were parent with offspring' along this four-step chain?",
+        "options": [
+          "Three times — joining the bodily species to the sense-impression, the sense-impression to the memory-trace, and the memory-trace to the mind's inner vision",
+          "Only once, at the very final step of the chain",
+          "An infinite number of times, with no fixed count possible",
+          "Exactly five times, corresponding to the five bodily senses"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes the will as combining 'parent with offspring' three times along the four-link chain: bodily species to sense, sense to memory, and memory to the mind's inner vision of conception."
+      },
+      {
+        "q": "Why does Augustine decline to treat the middle step (sense-impression entrusted to memory) as a distinct 'vision' in its own right?",
+        "options": [
+          "Because 'we do not commonly call it vision, when the form which comes to be in the sense of him who perceives, is entrusted to the memory' — he reserves the term 'vision' specifically for the acts of perceiving and of conceiving, not for the intermediate storage process",
+          "Because he denies that memory plays any role whatsoever in this process",
+          "Because he claims the sense-impression never actually reaches the memory at all",
+          "Because he considers the whole four-step chain to be entirely fictional and without basis"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains he deliberately treats only perception and conception as forms of 'vision,' since ordinary usage doesn't call the intermediate step (sense-impression being stored into memory) a 'vision' — hence his choice to present 'two trinities' rather than one continuous four-part chain of visions."
+      }
+    ],
+    "TRIN-B11C10": [
+      {
+        "q": "What example does Augustine famously use to show imagination can construct things never actually seen, yet remains bound by memory?",
+        "options": [
+          "A black swan — no one has seen one (Augustine assumes), yet anyone can easily imagine it by combining the remembered shape of a swan with the remembered color black, seen elsewhere",
+          "A unicorn, which Augustine claims is entirely impossible for the human mind to picture in any way",
+          "The color 'grue,' a philosophical term Augustine is credited with inventing here",
+          "A flying elephant, which he claims cannot be constructed from any remembered elements"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's famous example: though no one (in his assumption) has seen a black swan, anyone can easily imagine one, since it simply recombines the remembered shape of a swan with the remembered color black, seen elsewhere — illustrating imagination's dependence on, not independence from, memory."
+      },
+      {
+        "q": "What second example does Augustine give of an imagined creature constructed from combined memories?",
+        "options": [
+          "A bird with four feet, formed by adding two remembered legs (from some other creature) to a remembered winged shape",
+          "A fish that can fly, formed by combining wings with a remembered fish shape",
+          "A talking tree, formed by combining a human mouth with a remembered tree shape",
+          "A horse with a single horn, which Augustine says he has personally seen"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's second example is a four-footed bird, imagined by adding two remembered legs (from some other creature) onto a remembered winged shape — another instance of imagination recombining, rather than transcending, remembered elements."
+      },
+      {
+        "q": "What limit does Augustine identify between what 'reason' can grasp and what 'phantasy' (imagination) can actually picture?",
+        "options": [
+          "Reason can grasp concepts like the infinity of number or the infinite divisibility of matter, but phantasy/imagination cannot actually picture or follow reason into true infinity — imagination remains bound to particular, finite, remembered images",
+          "Augustine claims reason and phantasy are identical in scope, with no distinction between what each can grasp",
+          "He argues phantasy can exceed reason, picturing things reason itself cannot conceive",
+          "He claims neither reason nor phantasy can grasp anything beyond immediate sense perception"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes reason (which can grasp abstract truths like the infinity of number or infinite divisibility) from phantasy/imagination, which cannot actually follow reason into true infinity but remains bound to finite, particular images drawn from memory."
+      }
+    ],
+    "TRIN-B11C11": [
+      {
+        "q": "How does Augustine assign the triad 'measure, number, weight' (from Wisdom 11:20) to the elements of the memory-based trinity he has been analyzing?",
+        "options": [
+          "Measure belongs to memory (since a fixed, limited store of impressions is retained), number belongs to vision (since many visions/images can be multiplied from that fixed store), and weight belongs to the uniting will (which inclines and settles the mind toward what it perceives or conceives)",
+          "He assigns measure to the will, number to memory, and weight to vision, in a completely different order",
+          "He argues 'measure, number, weight' has no meaningful application to this psychological trinity",
+          "He assigns all three terms (measure, number, weight) equally and interchangeably to every element without distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's assignment: measure corresponds to memory (a limited, fixed store), number corresponds to vision (since many/multiplied images can be formed from that fixed store), and weight corresponds to the will (which inclines the mind and settles its desire on what is perceived or conceived)."
+      },
+      {
+        "q": "What scriptural text does Augustine invoke as he closes Book XI and looks ahead to the search within the 'inner man'?",
+        "options": [
+          "That God 'has regulated all things in measure, and number, and weight' (Wisdom 11:20)",
+          "\"In the beginning was the Word, and the Word was with God\"",
+          "\"The heavens declare the glory of God\"",
+          "\"Let there be light, and there was light\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine closes the book invoking Wisdom 11:20's 'measure, number, and weight' as the biblical warrant for his triadic analysis, and announces the transition to seeking this same trinity 'in the inner man,' setting up Book XII's distinction of higher and lower reason."
+      },
+      {
+        "q": "What does Augustine say about why he now leaves the discussion of the 'outward man' behind?",
+        "options": [
+          "\"Time admonishes us to seek for this same trinity in the inner man, and to strive to pass inwards from that animal and carnal and (as he is called) outward man, of whom I have so long spoken\" — moving from the bodily analogy toward the mind's own proper activity",
+          "Because he has concluded the outward man contains no useful analogy whatsoever, contradicting his stated purpose",
+          "Because Scripture, in his reading, forbids further discussion of bodily perception",
+          "Because he claims the outward man's trinity has now been definitively proven identical to the divine Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly signals the transition at the book's close, announcing the move from the 'animal and carnal... outward man' toward seeking the true image of God within the properly rational 'inner man,' the task of the books that follow."
+      }
+    ],
+    "TRIN-B12C1": [
+      {
+        "q": "How does Augustine draw the boundary between the 'outer man' and the 'inner man'?",
+        "options": [
+          "Whatever the mind holds in common with beasts (sensing, remembering, and re-picturing bodily things) belongs to the outer man; what is distinctly rational and not shared with beasts belongs to the inner man",
+          "The outer man refers only to physical clothing and appearance, with no connection to any mental faculty",
+          "The outer man is defined purely by a person's public reputation, unrelated to sense or memory",
+          "Augustine argues there is, in fact, no meaningful distinction between outer and inner man"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws the line at what we share with beasts: sensing, remembering, and recombining images of bodily things all belong to the 'outer man,' while distinctly rational activity, not shared with beasts, belongs to the 'inner man.'"
+      },
+      {
+        "q": "What lesson does Augustine draw from the human body's upright posture compared to that of beasts?",
+        "options": [
+          "That just as the body is naturally raised upright toward the heavens, so the mind, our better part, should be raised toward the highest spiritual things — not through pride, but through righteousness",
+          "That upright posture proves humans are physically stronger than all other animals",
+          "That upright posture has no symbolic or spiritual significance whatsoever",
+          "That humans should avoid all physical exercise since the body's posture is already spiritually complete"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a moral lesson from human uprightness: as the body is naturally oriented toward the heavens, the mind (our better part) is admonished to be similarly elevated toward spiritual things, through righteousness rather than prideful self-exaltation."
+      },
+      {
+        "q": "What warning does Augustine attach to this admonition about the mind being 'raised upright'?",
+        "options": [
+          "That we should not throw the mind into merely elevated bodily things (like celestial bodies) as if resting the will there were the same as true spiritual elevation — that would still be a 'prostration' of the mind",
+          "That we should physically avoid ever looking upward at the sky",
+          "That astronomy and astrology are the highest forms of spiritual practice",
+          "That only priests are permitted to seek spiritual elevation"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cautions that seeking rest for the will even in exalted bodily things (like celestial bodies) is still a 'prostration' of the mind, not true spiritual elevation, which must be toward properly spiritual, not merely elevated physical, realities."
+      }
+    ],
+    "TRIN-B12C2": [
+      {
+        "q": "What activities does Augustine grant that beasts share with humans regarding memory and imagination?",
+        "options": [
+          "Beasts can perceive corporeal things, fix them in memory, remember them, and seek what is suitable or avoid what is harmful based on them",
+          "Beasts, according to Augustine, have no memory or perception of any kind whatsoever",
+          "Beasts can reason abstractly about geometric principles just as well as humans",
+          "Beasts can deliberately combine images into imaginary composites, exactly like humans"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grants beasts real perceptual and memory capacities: they perceive bodily things, retain and remember them, and use this to seek what suits them and avoid what harms them."
+      },
+      {
+        "q": "What distinctly human capacity does Augustine identify as belonging to 'higher reason,' not shared with beasts?",
+        "options": [
+          "Judging corporeal things according to incorporeal, unchangeable, eternal 'reasons' — such as the fixed rules of geometric measure and figure that the mind uses to evaluate bodily things",
+          "The mere ability to perceive colors and shapes with the eyes",
+          "The ability to feel physical pain and pleasure",
+          "The ability to move the body voluntarily from place to place"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies the capacity to judge corporeal things by unchangeable, eternal, incorporeal standards (like geometric rules) as distinctly human — an activity of 'higher reason' beyond what beasts, however capable of memory and perception, can do."
+      },
+      {
+        "q": "According to Augustine, what must be true of the 'eternal reasons' by which we judge corporeal things?",
+        "options": [
+          "They must be above the human mind itself (otherwise they would not be truly unchangeable), yet something of our own must be joined to them for us to actually employ them as measures for judging bodily things",
+          "They must be entirely invented by each individual human mind with no objective standard behind them",
+          "They must be identical in every respect to the corporeal things they are used to judge",
+          "They must be taught explicitly by a human teacher before anyone can use them at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues these eternal, unchangeable reasons must be above the human mind (or they wouldn't be truly unchangeable), yet the mind must have 'something of our own' joined to them in order to actually use them as standards for judging corporeal things."
+      }
+    ],
+    "TRIN-B12C3": [
+      {
+        "q": "How does Augustine describe the relationship between the 'higher' function of the mind (cleaving to truth) and the 'lower' function (managing temporal affairs)?",
+        "options": [
+          "They are two functions of a single rational mind, with the lower function 'drawn out of' and serving as a 'help' to the higher, comparable to how Eve was formed from Adam as a helper without dividing his humanity",
+          "They are two entirely separate minds inhabiting the same body, with no real unity between them",
+          "Only the higher function is actually part of the mind; the lower function belongs entirely to the body",
+          "The lower function is described as superior to and governing the higher function"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes the temporal-managing function as 'drawn out of' the higher rational substance as a kind of helper, using the Genesis analogy of Eve being formed from Adam without dividing his humanity, to explain how these two functions remain 'in one mind.'"
+      },
+      {
+        "q": "What biblical phrase does Augustine apply, by analogy, to describe the unity of these two functions within a single mind?",
+        "options": [
+          "\"They two shall be in one flesh\" (applied to husband and wife) becomes, by analogy, \"they two are in one mind\" for intellect and action",
+          "\"Let there be light\" (applied to creation) becomes, by analogy, applied to mental illumination",
+          "\"In the beginning was the Word\" (applied to the Trinity) becomes, by analogy, applied to human speech",
+          "\"Be fruitful and multiply\" (applied to procreation) becomes, by analogy, applied to mental multiplication"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a direct analogy from Genesis' 'they two shall be in one flesh' (husband and wife) to describe the unity of intellect and action, counsel and performance: 'they two are in one mind.'"
+      },
+      {
+        "q": "What various pairs of terms does Augustine suggest for naming these two aspects of the one mind?",
+        "options": [
+          "Intellect and action, counsel and performance, reason and rational appetite — offering several possible terminologies for the same underlying distinction",
+          "Only 'good' and 'evil,' with no other terminology offered",
+          "Only 'Father' and 'Son,' applied directly and without qualification to the human mind",
+          "Only 'body' and 'soul,' treated as strictly identical to this distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers several possible terminological pairs for the same underlying distinction: 'intellect and action, or our counsel and performance, or our reason and rational appetite,' acknowledging there may be even more suitable terms."
+      }
+    ],
+    "TRIN-B12C4": [
+      {
+        "q": "What key clarification does Augustine make about the mind being 'one subject' despite having two functions?",
+        "options": [
+          "When we discuss the human mind's nature, we discuss a single subject, not two separate things — the distinction between its functions (temporal action vs. eternal contemplation) does not divide it into two separate substances or minds",
+          "He clarifies that the mind is, in fact, two entirely separate substances after all, contradicting the previous chapter",
+          "He argues the distinction between functions applies only to certain exceptionally gifted individuals",
+          "He claims the mind literally splits into two physical halves when performing these different functions"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reaffirms that despite having two distinguishable functions, the human mind remains 'a single subject' — the functional distinction does not fragment it into separate substances or minds."
+      },
+      {
+        "q": "What is the key thesis Augustine states in this chapter regarding where the true 'image of God' is located?",
+        "options": [
+          "A trinity can be found even considering the mind's temporal-action function alone, but the true 'image of God' is found only in that part of the mind which belongs to the contemplation of eternal things — the temporal-facing part, though it may contain a trinity, is not itself God's image",
+          "The image of God is found equally and identically in both the contemplative and active functions of the mind, with no distinction",
+          "The image of God is found only in the mind's temporal, active function, never in its contemplative function",
+          "Augustine denies that any trinity or image of God can be found in either function of the mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key thesis for the book: even if a 'trinity' can be discerned in the mind's temporal-action function, only the part directed to the contemplation of eternal things is properly 'the image of God' — a crucial qualification for everything that follows."
+      },
+      {
+        "q": "Would the image of God, in Augustine's view, be found in the mind even if action upon temporal things were entirely removed?",
+        "options": [
+          "Yes — Augustine argues a trinity, and specifically the image of God, would 'still be found in the one mind' even without the temporal-action function, since it belongs to the mind's own undivided, contemplative nature",
+          "No — he claims the image of God requires both functions working together at all times without exception",
+          "The chapter does not address this hypothetical scenario at all",
+          "He argues the mind would cease to exist entirely if temporal action were removed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly argues that even hypothetically removing the temporal-action function, a trinity (and specifically the image of God) 'would still be found in the one mind that is nowhere parted off' — locating the image in the contemplative function alone."
+      }
+    ],
+    "TRIN-B12C5": [
+      {
+        "q": "What theory about the Trinity's image does Augustine report and criticize in this chapter?",
+        "options": [
+          "That the image of the Trinity is completed in human marriage and offspring: the husband as Father, the child as Son, and the wife (proceeding from the husband without being a 'daughter') as a figure of the Holy Spirit",
+          "That the image of the Trinity is found only in the relationship between three separate, unrelated strangers",
+          "That the image of the Trinity can be found only in celibate monastic communities, never in families",
+          "That the image of the Trinity requires exactly three children born to the same parents"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reports and critically examines a theory that locates the Trinity's image in human marriage and offspring — husband as Father, child as Son, wife (who 'proceeds' from the husband without being his daughter) as a figure of the Spirit."
+      },
+      {
+        "q": "What single point does Augustine concede this theory gets 'probably' right, even while rejecting the theory overall?",
+        "options": [
+          "That something can 'proceed' from a person to constitute another distinct person without that new person being called a 'son' — as the woman proceeded from the man's side without being his daughter, illustrating (by analogy) how the Spirit proceeds from the Father without being a Son",
+          "That the Holy Spirit is, in fact, literally female in nature",
+          "That marriage itself is a corrupting institution unworthy of any positive theological use",
+          "That children should be regarded as inferior in nature to their parents"
+        ],
+        "correct": 0,
+        "explanation": "Augustine concedes only this much validity to the theory: it correctly illustrates, via the woman's proceeding from the man's side without being his daughter, that not everything which 'proceeds' from a person to become another person must be called a 'son' — useful for explaining the Spirit's procession without sonship."
+      },
+      {
+        "q": "What caution does Augustine give about how to handle bodily analogies for spiritual, divine realities?",
+        "options": [
+          "One should learn to find traces of spiritual things in corporeal things, so that when ascending from them by reason toward the unchangeable truth, one does not carry upward, into thoughts about God, what one rightly despises or finds distasteful about the corporeal analogy itself (like carnal marriage or motherhood applied literally to the Spirit)",
+          "One should never use any bodily analogy whatsoever when discussing spiritual or divine realities",
+          "One should treat every bodily analogy as literally and completely true of God without qualification",
+          "One should abandon reason entirely when considering spiritual matters, relying only on emotion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful methodological caution: use corporeal analogies as traces pointing toward spiritual truth, but be careful, when ascending in thought toward God, not to import into that higher realm the corruptible or distasteful features that belong properly only to the lower, bodily analogy (like the Spirit being called a 'mother' or 'wife')."
+      }
+    ],
+    "TRIN-B12C6": [
+      {
+        "q": "What grammatical clue in Genesis 1:26-27 does Augustine use to refute the marriage-trinity theory?",
+        "options": [
+          "God says 'Let us make man in OUR image, after OUR likeness' (plural), but then 'God created man in the image of God' (singular, not 'in His own image, after their [three] likeness') — showing humanity was made after the image of the Trinity as one God, not requiring three separate human persons",
+          "Augustine claims Genesis contains no plural or singular pronouns relevant to this question at all",
+          "He argues the Hebrew text of Genesis actually supports the marriage-trinity theory, contrary to the Latin translation",
+          "He claims this passage was a later scribal addition not original to the text"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key exegetical point: the plural 'our image' shows man was made after the image of the Trinity (three Persons), while the singular 'image of God' (not 'their image') shows that Trinity is one God — refuting the need for three separate human persons to complete the image."
+      },
+      {
+        "q": "What alternative misreading of 'God made man in the image of God' does Augustine also correct in this chapter?",
+        "options": [
+          "That some, wanting to prove the Son is called 'God' in Scripture, wrongly take this to mean the Father made man specifically after the image of the SON (not the Father), which would (Augustine argues) wrongly imply the Son is unlike the Father",
+          "That some read this verse as proving humans are literally identical in substance to God",
+          "That some argue this verse proves angels, not humans, were made in God's image",
+          "That some claim this verse refers only to Adam and excludes all his descendants"
+        ],
+        "correct": 0,
+        "explanation": "Augustine corrects a well-intentioned but flawed reading (meant to prove the Son is called 'God') that takes 'image of God' to mean specifically 'image of the Son' — which he argues would wrongly imply the Son is UNLIKE the Father, since man wouldn't then be made in the Father's image too."
+      },
+      {
+        "q": "What parallel scriptural examples does Augustine cite to show that Scripture sometimes uses a name (like 'God' or 'Son of God') without needing to distinguish separate persons, similar to 'image of God'?",
+        "options": [
+          "Psalms like 'Salvation belongs unto the Lord; Your blessing is upon Your people' and Paul's description of Christ as 'the Son of God... by the resurrection of the dead of Jesus Christ' — both cases where a name is used without implying reference to a separate, different person",
+          "Only the Ten Commandments, with no other biblical examples offered",
+          "Only the parables of Jesus, with no examples from the Psalms or Pauline epistles",
+          "Augustine offers no such parallel examples in this chapter"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites psalm texts (like 'Salvation belongs unto the Lord; Your blessing is upon Your people') and Paul's phrase 'the Son of God... by the resurrection of the dead of Jesus Christ' as parallel instances where Scripture's phrasing does not require introducing a different, separate person — supporting his reading of 'image of God' as referring to the one Trinity."
+      }
+    ],
+    "TRIN-B12C7": [
+      {
+        "q": "How does Augustine reconcile Genesis ('male and female created He them,' both apparently in God's image) with Paul's statement that only the man, not the woman, is 'the image of God' (1 Corinthians 11)?",
+        "options": [
+          "Man and woman together, as one united human nature, are equally the image of God; but considered SEPARATELY in her distinct role as helper concerned with temporal affairs, the woman figures the part of reason directed toward lower, temporal things",
+          "He argues Genesis and Paul flatly contradict each other with no possible reconciliation",
+          "He claims the woman is entirely and permanently excluded from being any part of God's image under any interpretation",
+          "He argues Paul's statement should simply be excised from the canonical text"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's reconciliation: together, man and woman as one human nature/substance are fully the image of God (per Genesis); but considered separately, in her role as the man's 'helper' concerned with temporal affairs, the woman symbolically represents the mind's lower, temporal-facing function (per Paul's specific point about head-covering)."
+      },
+      {
+        "q": "What does Augustine say about women's inclusion in the 'renewal after the image of God' through baptism, quoting Galatians?",
+        "options": [
+          "Citing 'there is neither male nor female... you are all one in Christ Jesus,' Augustine insists women are fully renewed 'in the spirit of the mind' after the image of God — since that renewal occurs 'where there is no sex,' i.e., in the spirit of the mind, which both men and women possess",
+          "He argues women are entirely and permanently excluded from this baptismal renewal",
+          "He claims only male converts are baptized 'into Christ' according to this passage",
+          "He denies that Galatians 3:28 has any relevance to the question of God's image"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly affirms, quoting Galatians 3:28's 'neither male nor female... you are all one in Christ Jesus,' that women are truly renewed after God's image in the sexless 'spirit of the mind' through baptism, alongside men."
+      },
+      {
+        "q": "What is the ultimate location Augustine insists God's image resides in, regardless of male or female body?",
+        "options": [
+          "In the 'rational mind,' not according to the shape or sex of the body — quoting Paul's 'renewed in the spirit of your mind... after the image of Him that created him'",
+          "In the physical shape and proportions of the human body specifically",
+          "In the specific biological capacity for reproduction shared by both sexes",
+          "In external religious rituals and practices, regardless of any mental or spiritual quality"
+        ],
+        "correct": 0,
+        "explanation": "Augustine insists, citing Paul and 'most true reason,' that God's image is located in the rational mind, not in bodily shape or sex — 'no one can doubt, that man was made after the image of Him that created him... according to the rational mind, wherein the knowledge of God can exist.'"
+      }
+    ],
+    "TRIN-B12C8": [
+      {
+        "q": "How does Augustine describe the psychological mechanism of the fall in this chapter, using the Genesis narrative allegorically?",
+        "options": [
+          "When the temporal-facing part of reason ('inner man') slips too far into outward things, with the higher, contemplative 'head' failing to restrain it, the vision of eternal things withdraws, leaving the soul 'naked' of truth's light — paralleling Adam and Eve eating the forbidden fruit and realizing their nakedness",
+          "He describes the fall purely as a historical, one-time event with no ongoing psychological significance for individuals today",
+          "He argues the fall occurred entirely within the body, with no involvement of the mind or reason whatsoever",
+          "He claims the fall was caused entirely by external demonic force with no contribution from human will at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reads the fall psychologically/allegorically: when reason's temporal-facing part overreaches without restraint from the higher, contemplative 'head,' the vision of eternal truth withdraws, leaving the soul exposed and 'naked' — mirroring Adam and Eve's nakedness after eating the forbidden fruit."
+      },
+      {
+        "q": "Who are identified as the 'enemies' that take advantage when this inner restraint fails, according to Augustine?",
+        "options": [
+          "The demons, with their prince the devil, who 'are envious of virtue'",
+          "Other human beings who are jealous of one's success",
+          "Wild animals that prey upon unprotected humans",
+          "Foreign nations engaged in military conquest"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies 'the demons with their prince the devil, who are envious of virtue' as the enemies that exploit this failure of inner restraint, echoing the language of spiritual warfare found elsewhere in Scripture."
+      },
+      {
+        "q": "What image does Augustine use for people who speak eloquently ('good words') while living wickedly, following this fall?",
+        "options": [
+          "Weaving together 'good words without the fruit of good works,' like 'the leaves of sweet fruits, but without the fruits themselves' — covering their disgrace with speech rather than genuine righteous action",
+          "He compares them to skilled craftsmen building beautiful but structurally unsound buildings",
+          "He compares them to musicians playing beautiful music with no emotional content",
+          "He compares them to farmers who plant seeds but never harvest any crop"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's vivid image: those who speak well while living wickedly are like fruit-tree leaves without the actual fruit — outward appearance ('good words') covering the absence of the genuine substance ('good works'), echoing the fig leaves Adam and Eve used to cover their shame."
+      }
+    ],
+    "TRIN-B12C9": [
+      {
+        "q": "What does Augustine identify as the psychological root of the soul's descent into sin, in this chapter?",
+        "options": [
+          "The soul's 'loving its own power' and 'apostatizing pride,' which pulls it from concern for the 'whole' (universal, common good) toward a mere 'part' (its own private body/interest) — a self-diminishing pursuit that, paradoxically, makes it 'less' by lusting after 'more'",
+          "Purely external temptation from demonic forces, with the soul itself bearing no responsibility",
+          "A biological, hereditary defect present in human nature from the moment of physical conception alone",
+          "Ignorance alone, with no involvement of will or desire in the process"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's psychological diagnosis: pride ('the beginning of sin') and self-love pull the soul from the universal, common good toward a private, partial concern (its own body), a paradoxical shrinking ('made less') that results precisely from lusting after 'something more' than what was properly its own."
+      },
+      {
+        "q": "What scriptural phrase does Augustine cite to summarize this self-diminishing pursuit of private power?",
+        "options": [
+          "\"Covetousness is the root of all evil\"",
+          "\"The love of money is the root of all evil\" (verbatim, without alteration)",
+          "\"Pride goes before a fall\"",
+          "\"The wages of sin is death\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine invokes 'covetousness is called the root of all evil' (adapting 1 Timothy 6:10's 'love of money') to summarize how lusting after private, partial goods over the common good constitutes the root of the soul's fall."
+      },
+      {
+        "q": "What twin outcomes does Augustine say result from the soul becoming 'wrapped up' in images of corporeal things through the senses?",
+        "options": [
+          "Either 'swelling arrogance' — feeling superior to souls more given over to bodily senses — or being 'plunged into a foul whirlpool of carnal pleasure'",
+          "Either complete loss of memory or complete loss of the ability to reason at all",
+          "Either instant physical death or permanent, incurable madness",
+          "Either becoming a great philosopher or becoming entirely mute and unable to speak"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies two possible corrupted outcomes for a soul entangled in sensory images: prideful arrogance over others more obviously bound to bodily pleasure, or outright submersion into carnal pleasure itself."
+      }
+    ],
+    "TRIN-B12C10": [
+      {
+        "q": "How does Augustine distinguish a merely 'common' human temptation/error from active moral 'fornication' of the soul?",
+        "options": [
+          "Erring in temporal matters despite a genuinely good will toward higher things (an error 'common to man,' easily pardoned, not counted as fornication) is distinguished from deliberately pursuing bodily/temporal things as one's FINAL good, which constitutes true 'fornication' and wickedness",
+          "He argues there is, in fact, no meaningful distinction between these two categories",
+          "He claims all error whatsoever, regardless of intention, counts equally as grave 'fornication'",
+          "He argues only physical, bodily acts (never mental states) can ever count as sin of any kind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's distinction: an honest mistake made while genuinely seeking higher goods (a temptation 'common to man,' easily forgiven) differs sharply from deliberately treating bodily/temporal things as one's ultimate good, which he calls true spiritual 'fornication.'"
+      },
+      {
+        "q": "What proverb does Augustine cite to describe how this deeper moral corruption typically develops?",
+        "options": [
+          "\"He that despises small things, shall fall little by little\"",
+          "\"A stitch in time saves nine\"",
+          "\"Pride comes before destruction\"",
+          "\"Many hands make light work\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the proverbial warning 'he that despises small things, shall fall little by little' (echoing Sirach) to describe how the soul's descent into full 'fornication' typically happens gradually rather than all at once."
+      },
+      {
+        "q": "What consequence does Augustine describe for the soul that becomes 'fruitful in errors' and 'emptied of strength' through selfish greed for corporeal experience?",
+        "options": [
+          "It comes to think 'nothing... divine, unless it be of such a kind' as the deceptive corporeal images it has combined through vain thought — mistaking mere imagination for true, divine reality",
+          "It gains supernatural powers of prophecy and healing as a direct reward",
+          "It becomes physically ill with a specific, identifiable disease",
+          "It permanently loses the capacity for any further thought or reasoning whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes a soul corrupted by selfish pursuit of corporeal experience as coming to imagine 'nothing... divine, unless it be of such a kind' as its own deceptive, imagined corporeal combinations — a distorted conception of the divine itself, born from 'selfish greediness' made 'fruitful in errors.'"
+      }
+    ],
+    "TRIN-B12C11": [
+      {
+        "q": "What image does Augustine use to describe the gradual, imperceptible nature of moral decline?",
+        "options": [
+          "A snake, which 'does not creep on with open steps, but advances by the very minutest efforts of its several scales' — so the soul's fall happens gradually and almost imperceptibly to the negligent",
+          "A boulder rolling rapidly and visibly down a steep mountainside",
+          "A bird flying in a straight, direct line toward its destination",
+          "A ship sailing swiftly and openly across the open sea"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's serpent image captures the gradual, almost imperceptible nature of moral decline: like a snake's minute, scale-by-scale movement (rather than 'open steps'), the fall from God's likeness happens by slow, negligent degrees."
+      },
+      {
+        "q": "What three-stage path does Augustine trace from the desire to be 'like God' to the final result of becoming 'like beasts'?",
+        "options": [
+          "Beginning from a perverse desire for God's likeness (to be under no one), man falls to an 'intermediate grade' (self-reliance, trusting his own power) and finally, as punishment, is thrust down to the 'lowest,' the level 'in which beasts delight'",
+          "Man moves directly and instantly from God's likeness to beastly likeness with no intermediate stage at all",
+          "Man ascends progressively from beast-likeness to an intermediate stage and finally achieves true God-likeness through this process",
+          "Augustine describes only two stages, not three, in this chapter"
+        ],
+        "correct": 0,
+        "explanation": "Augustine traces three stages: the initial prideful desire to be like God (subject to no one), a fall to an intermediate grade of self-trust/self-reliance, and finally, as punishment, being thrust down to the lowest level, that of the beasts."
+      },
+      {
+        "q": "What Psalm-derived phrase does Augustine cite to summarize this fall from honor to dishonor?",
+        "options": [
+          "\"Man being in honor abides not: he is compared to the beasts that are foolish, and is made like to them\"",
+          "\"The heavens declare the glory of God\"",
+          "\"Blessed is the man who walks not in the counsel of the ungodly\"",
+          "\"I will lift up my eyes unto the hills\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Psalm 49's warning ('man being in honor abides not: he is compared to the beasts that are foolish, and is made like to them') to summarize the tragic reversal from God's likeness (honor) to bestial likeness (dishonor)."
+      }
+    ],
+    "TRIN-B12C12": [
+      {
+        "q": "How does Augustine map the Genesis fall narrative allegorically onto the psychology of a single mind?",
+        "options": [
+          "The serpent represents bodily sense offering illicit pleasure; the 'woman' represents the mind's momentary, uncommitted consent to enjoy that pleasure in thought alone; the 'man' represents higher reason's further consent to actually carry the sin into deed",
+          "He maps the serpent onto God, the woman onto Satan, and the man onto an innocent bystander",
+          "He denies any allegorical reading is possible and insists on a purely literal historical account only",
+          "He maps all three figures (serpent, woman, man) onto exactly the same single psychological faculty with no distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's allegorical mapping: the serpent stands for bodily sense proposing illicit enjoyment, the woman for the mind's initial, uncommitted delight in that thought, and the man for higher reason's further consent that turns thought into deed."
+      },
+      {
+        "q": "What does Augustine say about sin that remains at the level of 'the woman eating alone' (mere pleasurable thought, without decision to act)?",
+        "options": [
+          "It is still genuinely sinful and requires pardon ('forgive us our debts'), even though it is 'far less' serious than sin that is also willed into outward action, since one person (the whole human being) bears responsibility, unlike the separate persons of Adam and Eve",
+          "He argues such thought carries no sin whatsoever, since nothing was ever acted upon",
+          "He claims this scenario is impossible, since thought always immediately becomes action",
+          "He argues this constitutes an even GREATER sin than acting on the thought"
+        ],
+        "correct": 0,
+        "explanation": "Augustine holds that pleasure taken in thought alone, without deciding to act, is still genuinely sinful (though 'far less' than acting on it) and requires pardon through 'forgive us our debts' — since, unlike Adam and Eve as separate persons, in a single human being 'he as a whole will be condemned' unless such thoughts are also forgiven."
+      },
+      {
+        "q": "What does it mean, in Augustine's allegory, for 'the woman to give the forbidden food to the man to eat together'?",
+        "options": [
+          "When consent to enjoy an illicit thought is confirmed by an actual decision that, if possible, the sinful act should be carried out in deed — i.e., when higher reason's consent joins the initial pleasurable thought, completing the sin in intention and (where possible) in action",
+          "It refers only to literal eating and has no figurative meaning in this context",
+          "It means the sin has been completely and permanently forgiven with no further consequence",
+          "It refers exclusively to sins committed by married couples specifically"
+        ],
+        "correct": 0,
+        "explanation": "In Augustine's allegory, this represents the moment when higher reason's determination joins the initial delight — when the mind not only enjoys the thought but resolves that the sinful act should, if possible, actually be carried out."
+      }
+    ],
+    "TRIN-B12C13": [
+      {
+        "q": "What alternative interpretation, held by earlier 'defenders of the Catholic faith,' does Augustine mention but decline to adopt?",
+        "options": [
+          "That in this inner allegory, 'the man' represents the mind, while 'the woman' represents the bodily sense (the five senses) — a reading Augustine finds problematic since Eve, unlike bodily sense, was uniquely made for Adam, unlike any beast",
+          "That the entire Genesis narrative should be read as pure, non-figurative history with no allegorical dimension whatsoever",
+          "That Adam represents the Holy Spirit and Eve represents the Son in this inner allegory",
+          "That this passage of Genesis has no relevance whatsoever to psychology or ethics"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reports (but does not adopt) the view of earlier authorities equating 'man' with mind and 'woman' with bodily sense, noting a problem: Genesis says no beast was found to be a fitting helper for Adam, whereas bodily sense (unlike Eve) is something we share with beasts."
+      },
+      {
+        "q": "Why does Augustine instead prefer to identify the serpent, rather than the woman, with bodily sense?",
+        "options": [
+          "Because bodily sense is 'common to ourselves and to the beasts,' like the literal serpent, which was 'more subtle than all beasts of the field' — whereas the woman was uniquely made for the man, unlike anything shared with beasts",
+          "Because he believes serpents are, in fact, a kind of higher rational being superior to humans",
+          "Because Scripture explicitly states the serpent represents bodily sense in a direct, unambiguous statement",
+          "Because he considers the question of the serpent's identity theologically unimportant and arbitrary"
+        ],
+        "correct": 0,
+        "explanation": "Augustine prefers identifying the serpent with bodily sense (which we share with beasts, like the literal serpent 'more subtle than all beasts of the field') rather than the woman, since Eve, unlike bodily sense, was made uniquely for Adam and shared with no beast."
+      },
+      {
+        "q": "What distinction does Augustine draw between the 'senses' mentioned in Hebrews 5 ('senses exercised to discern good and evil') and ordinary bodily sense?",
+        "options": [
+          "The Hebrews 'senses' belong to the rational nature and pertain to understanding, whereas the bodily sense he is discussing here is 'divided into five parts in the body' and is shared with the beasts",
+          "He argues these are, in fact, exactly the same kind of sense with no meaningful distinction",
+          "He claims the Hebrews passage refers only to physical, not moral, discernment",
+          "He denies that Hebrews 5 has any bearing on the discussion of sense and reason"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes the 'senses' of Hebrews 5:14 (belonging to rational understanding, trained to discern good and evil) from the ordinary five-fold bodily sense shared with beasts, which is his focus in identifying the serpent of the allegory."
+      }
+    ],
+    "TRIN-B12C14": [
+      {
+        "q": "What distinction between wisdom and knowledge does Augustine derive from Job's statement, 'piety, that is wisdom; but to depart from evil is knowledge'?",
+        "options": [
+          "Wisdom belongs to contemplation (of eternal things, identified with the worship/love of God), while knowledge belongs to action (avoiding evil, rightly using temporal, changeable things)",
+          "Wisdom and knowledge are, in Augustine's reading of Job, simply identical terms with no real distinction",
+          "Wisdom belongs to action, while knowledge belongs to contemplation — the reverse of the usual pairing",
+          "Augustine argues Job's statement has no bearing whatsoever on the wisdom/knowledge distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reads Job's pairing as establishing: wisdom = contemplation of eternal things (i.e., 'piety,' the worship and love of God), while knowledge = the practical, active avoidance of evil and right use of changeable, temporal things."
+      },
+      {
+        "q": "How does Augustine define 'the worship of God,' which he identifies with wisdom's proper object?",
+        "options": [
+          "As 'the love of Him, by which we now desire to see Him, and we believe and hope that we shall see Him' — progressing from seeing 'through a glass in an enigma' now to seeing 'face to face' in the life to come",
+          "As strictly external ritual practices with no inward, affective dimension whatsoever",
+          "As purely intellectual assent to correct theological propositions, with no element of love or desire",
+          "As a practice reserved exclusively for ordained clergy, not available to ordinary believers"
+        ],
+        "correct": 0,
+        "explanation": "Augustine defines worship of God as love itself — the love by which we now desire, believe, and hope to see God, moving from partial, indirect vision ('through a glass in an enigma') now toward the direct 'face to face' vision promised for the future."
+      },
+      {
+        "q": "How does Augustine describe the way intelligible, eternal truths 'abide' compared to how sensible things exist in place?",
+        "options": [
+          "Intelligible truths are 'so at hand to the glance of the mind, as things visible or tangible in place are to the sense of the body' — present without being located in any spatial place, and even the intelligible reasons of things that change through time themselves stand apart from any temporal transit",
+          "He argues intelligible truths exist in a specific physical location, just like ordinary sensible bodies",
+          "He claims intelligible truths and sensible things exist and are known in exactly the same manner, with no distinction",
+          "He denies that intelligible, eternal truths exist at all in any coherent sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes intelligible truths as immediately 'at hand' to the mind's gaze, analogous to how sensible things are present to bodily sense, but without any spatial location — and even truths concerning temporal, changing things have intelligible 'reasons' that themselves stand outside of temporal transit."
+      }
+    ],
+    "TRIN-B12C15": [
+      {
+        "q": "What theory of Plato's does Augustine explicitly argue against in this chapter?",
+        "options": [
+          "That the soul existed before the body, so that what we call 'learning' is really 'recollection' of previously known truths from a prior existence — illustrated by a slave-boy correctly answering geometric questions when skillfully led",
+          "That the soul is created anew at each moment and has no continuous identity over time",
+          "That knowledge comes entirely from divine revelation, with no role for reason or experience",
+          "That the physical body, not the soul, is the true seat of all human knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues against Plato's theory of anamnesis (recollection): that souls existed before their present bodies, and that learning is really recollecting truths known in that prior existence, illustrated by the Meno's slave-boy correctly answering geometric questions under skillful questioning."
+      },
+      {
+        "q": "What alternative explanation does Augustine offer for why untrained people can sometimes correctly answer questions about intelligible (but not sensible) matters?",
+        "options": [
+          "The intellectual mind is naturally fitted, by God's design, to perceive intelligible things through an incorporeal light suited to it — just as the fleshly eye distinguishes colors without needing to have 'previously known' them before this life, simply because it is naturally adapted to bodily light",
+          "He argues this phenomenon never actually occurs and dismisses all such reported cases as fabrications",
+          "He claims all such correct answers are, in fact, the result of demonic prompting rather than natural capacity",
+          "He agrees fully with Plato's explanation, offering no alternative of his own"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's alternative: the mind is simply naturally fitted (by its Creator) to perceive intelligible things via a fitting incorporeal light, comparable to how the eye distinguishes colors by its natural adaptation to bodily light, without needing any prior 'remembered' knowledge."
+      },
+      {
+        "q": "What does Augustine say about claimed memories of past lives, such as those attributed to Pythagoras?",
+        "options": [
+          "He conjectures these are likely 'untrue recollections,' similar to false memories experienced in dreams, possibly suggested by 'malignant and deceitful spirits' seeking to spread false beliefs about the transmigration of souls — supported by the fact that such 'recollections' are not universal among all people",
+          "He fully endorses these reports as reliable historical and philosophical evidence",
+          "He claims Pythagoras invented this story purely for financial gain",
+          "He argues this phenomenon proves Plato's theory of recollection beyond doubt"
+        ],
+        "correct": 0,
+        "explanation": "Augustine is skeptical of reported past-life memories (like Pythagoras's), conjecturing they are 'untrue recollections' akin to false dream-memories, possibly instigated by deceptive spirits promoting false beliefs about soul transmigration — noting that if such memories were genuine, virtually everyone should have them, which is not the case."
+      }
+    ],
+    "TRIN-B13C1": [
+      {
+        "q": "How does Augustine use the opening of John's Gospel to illustrate his wisdom/knowledge distinction?",
+        "options": [
+          "The verses about the eternal Word ('In the beginning was the Word... the life was the light of men') require contemplative wisdom to grasp, while the account of John the Baptist's temporal witness belongs to knowledge, the cognizance of things done in time",
+          "He argues the entire Gospel prologue belongs exclusively to knowledge, with no wisdom content whatsoever",
+          "He argues the entire Gospel prologue belongs exclusively to wisdom, with no knowledge content whatsoever",
+          "He claims John's Gospel cannot be used to illustrate this distinction and turns to a different text instead"
+        ],
+        "correct": 0,
+        "explanation": "Augustine splits John's prologue: the opening verses about the eternal, unchangeable Word require contemplative wisdom, while the report of John the Baptist's historical witness (a temporal event) belongs to knowledge."
+      },
+      {
+        "q": "How does Augustine explain that ordinary readers can understand 'there was a man sent from God, whose name was John' partly through common notions and partly through faith?",
+        "options": [
+          "The concept of 'a man' is grasped through common human experience (both believers and unbelievers know what a man is), but 'sent from God' is held only by faith, which unbelievers doubt or deride",
+          "He argues the entire sentence requires faith with no role for ordinary human understanding at all",
+          "He claims unbelievers cannot understand any part of this sentence whatsoever",
+          "He argues this sentence requires no faith at all, being purely a matter of historical record"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes the ordinary, universally shared concept of 'man' (known to believers and unbelievers alike) from 'sent from God,' which is held by faith — believed by the faithful, doubted or derided by others."
+      },
+      {
+        "q": "Why does Augustine say 'darkness' in 'the light shines in darkness, and the darkness comprehended it not' requires faith to be properly understood?",
+        "options": [
+          "Because 'darkness' figuratively signifies 'the hearts of mortals turned away from light of this kind,' a meaning not seen but believed, requiring faith to grasp what is not directly perceived",
+          "Because Augustine claims this phrase refers to literal, physical darkness with no figurative meaning whatsoever",
+          "Because he argues no one, believer or unbeliever, can understand this phrase in any way",
+          "Because he claims the Greek and Latin translations of this phrase are hopelessly inconsistent"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains 'darkness' here figuratively signifies unbelieving human hearts turned from the light — a meaning grasped not by direct observation but by faith, since 'that which was not seen might be believed.'"
+      }
+    ],
+    "TRIN-B13C2": [
+      {
+        "q": "How does Augustine describe the peculiar inwardness of faith, distinct even from knowledge of other minds?",
+        "options": [
+          "Faith is 'a thing of the heart, not of the body' — each person sees his own faith directly in himself, but only believes (never directly sees) that faith exists in another, since it can even be feigned or falsely thought present",
+          "Faith, according to Augustine, is directly visible to everyone through a person's external behavior with total certainty",
+          "He claims faith is identical in nature to ordinary sense perception, like sight or hearing",
+          "He argues faith cannot be known even by the person who has it, only by external observers"
+        ],
+        "correct": 0,
+        "explanation": "Augustine emphasizes faith's radical inwardness: unlike bodies (seen by all) or even other people's minds (inferred with some confidence), one's own faith is directly and uniquely visible only to oneself, while others' faith must simply be believed, since it can even be feigned."
+      },
+      {
+        "q": "In what sense does Augustine say the faith of many believers is 'one,' despite each person having his own individual act of believing?",
+        "options": [
+          "Like many human faces called 'one countenance' by resemblance rather than numerical identity — the faith is 'one' in kind, not one in number, since each believer's own faith is genuinely his own",
+          "Because Augustine claims all believers literally share a single, numerically identical mental state",
+          "Because he argues faith does not actually belong to individuals at all, but only to the Church as an abstract corporate entity",
+          "Because he denies there is any meaningful sense in which faith can be called 'one'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful distinction: like calling many similar human faces 'one countenance' (by resemblance, not numerical identity), the 'one faith' of believers is one in kind/likeness, not a single, literally shared mental state — each has his own act of faith."
+      },
+      {
+        "q": "How does Augustine's comparison to 'one will' (of those who will the same thing) illuminate the sense in which 'faith' can be called 'one'?",
+        "options": [
+          "Just as each person's individual will is directly visible only to himself (though inferred, or believed, in others who will the same thing), so each believer's faith is his own, though called collectively 'one' due to shared likeness of content",
+          "Augustine argues will and faith are, in fact, entirely unrelated phenomena with no useful parallel",
+          "He claims that unlike faith, will is always directly and perfectly visible to other people",
+          "He argues that unlike faith, there can never be any meaningful sense of 'shared will' among different individuals"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a direct parallel: as one's own will is directly known only to oneself (others' matching wills being inferred/believed, not seen), so is one's faith — supporting the 'one in kind, many in number' account of shared faith."
+      }
+    ],
+    "TRIN-B13C3": [
+      {
+        "q": "What story does Augustine tell about a comic actor to illustrate desires 'known to each' as common to all?",
+        "options": [
+          "An actor promised to reveal what everyone in the theater secretly willed, and, to great applause, simply stated: 'You will to buy cheap, and sell dear'",
+          "An actor performed a silent mime that everyone in the audience interpreted completely differently",
+          "An actor recited a long philosophical treatise that put the entire audience to sleep",
+          "An actor claimed he could read minds, but was exposed as a fraud by the audience"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's anecdote: a comic actor promised to voice what all the audience secretly willed, and won great applause simply by stating the universally recognized (if unflattering) truth: 'You will to buy cheap, and sell dear.'"
+      },
+      {
+        "q": "What observation from the poet Ennius does Augustine cite alongside this story?",
+        "options": [
+          "\"All mortals wish themselves to be praised\"",
+          "\"Fortune favors the bold\"",
+          "\"Time heals all wounds\"",
+          "\"Virtue is its own reward\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the old poet Ennius's observation that 'all mortals wish themselves to be praised,' another example of a desire that, though not universally acknowledged aloud, is recognized by everyone as true of themselves."
+      },
+      {
+        "q": "What example does Augustine give of a person who defies the 'buy cheap, sell dear' generalization, showing it is not truly universal like the will to blessedness?",
+        "options": [
+          "A man who, realizing a manuscript seller was ignorant of its true value and asking too little, voluntarily paid the much higher, fair price instead of taking advantage of him",
+          "A merchant who deliberately overcharged every single customer without exception",
+          "A king who abolished all trade and commerce throughout his kingdom",
+          "A philosopher who refused to ever buy or sell anything under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites a known case of a man who, recognizing a manuscript seller's ignorance of its true value, voluntarily paid the higher, just price rather than exploiting him — showing the 'buy cheap, sell dear' will is a common vice, not a universal necessity, unlike the will to blessedness."
+      }
+    ],
+    "TRIN-B13C4": [
+      {
+        "q": "What central puzzle does Augustine pose at the start of this chapter regarding the universal will to blessedness?",
+        "options": [
+          "If everyone truly wills blessedness, and nothing unknown can be loved, why do people disagree so sharply about what blessedness actually consists in (bodily pleasure, goodness of mind, or both)?",
+          "Whether animals, like humans, also possess an innate will toward blessedness",
+          "Whether the concept of blessedness even exists in any coherent form",
+          "Whether ancient Romans and Greeks had fundamentally different concepts of blessedness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's central puzzle: since nothing unknown can be loved (established in earlier books), and everyone supposedly wills blessedness, why is there such deep disagreement about what blessedness actually is — some placing it in bodily pleasure, others in goodness of mind?"
+      },
+      {
+        "q": "What further, sharper problem does Augustine press regarding those who don't will to live 'according to goodness of mind'?",
+        "options": [
+          "If living blessedly just IS living according to goodness of mind, does someone who does NOT will this (e.g., pursuing only bodily pleasure) actually will to live blessedly at all, or does 'all men will to be blessed' turn out to be false?",
+          "Whether such people should be punished by civil law for their choice",
+          "Whether such people are capable of ever changing their minds later in life",
+          "Whether such people are aware that goodness of mind even exists as a concept"
+        ],
+        "correct": 0,
+        "explanation": "Augustine presses the puzzle further: if true blessedness requires living according to goodness of mind, does a person who rejects that way of living still, in some sense, will to be blessed — or must we conclude, absurdly, that not everyone actually wills blessedness after all?"
+      },
+      {
+        "q": "What authority does Augustine cite as having asserted, without doubt, that 'we certainly all will to be blessed'?",
+        "options": [
+          "Cicero, in his (now largely lost) dialogue Hortensius, cited as a rare certainty even the skeptical Academics did not doubt",
+          "Aristotle, in his Nicomachean Ethics",
+          "Plato, in the Republic",
+          "Seneca, in his Letters to Lucilius"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Cicero's Hortensius, where even as a skeptical Academic (who doubted almost everything), Cicero treated 'we certainly all will to be blessed' as a rare, undoubtable starting point for argument."
+      }
+    ],
+    "TRIN-B13C5": [
+      {
+        "q": "How does Augustine (following Cicero) refute the popular claim 'all who live as they will are blessed'?",
+        "options": [
+          "By arguing that 'to will what is not fitting, is itself most miserable' — willing wrongly is itself a form of misery, so living wickedly 'as one wills' cannot make a person blessed, however unrestrained they are in doing so",
+          "By arguing that no one, in fact, ever truly gets to live exactly as they will under any circumstances",
+          "By claiming this saying is grammatically incoherent and therefore meaningless",
+          "By agreeing fully with the popular saying and offering no refutation at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine endorses Cicero's refutation: willing something wrong is itself a species of misery, so simply 'living as one wills' (when one wills wickedly) cannot constitute blessedness, however unimpeded such wicked living may be."
+      },
+      {
+        "q": "What two conditions does Augustine conclude are jointly necessary and sufficient for true blessedness?",
+        "options": [
+          "Having all things one wills, AND willing nothing wrongly — someone missing either condition is not truly blessed",
+          "Only having great wealth and political power, with no reference to the quality of one's will",
+          "Only avoiding physical pain and suffering, regardless of moral character",
+          "Only being praised and admired by other people, regardless of actual character"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion, following the Cicero-inspired argument: 'he only is a blessed man, who both has all things which he wills, and wills nothing ill' — both conditions (having what is willed, and willing rightly) are jointly required."
+      },
+      {
+        "q": "How does this resolve the puzzle of the previous chapter — why does Augustine say ALL people, despite disagreeing about specifics, actually 'know a blessed life' in some sense?",
+        "options": [
+          "Because everyone recognizes, at some level, the abstract truth that blessedness requires having what one wills and willing rightly — even though they disagree (and are sometimes wrong) about WHERE such rightly-willed good things are actually found",
+          "Because Augustine claims everyone secretly already possesses full and complete blessedness without realizing it",
+          "Because he argues no one, in fact, truly knows anything about blessedness, resolving the puzzle by denying the premise entirely",
+          "Because he claims disagreement about blessedness is purely a matter of vocabulary with no substantive content"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution: everyone shares the abstract knowledge that blessedness requires having what is willed and willing rightly; their disagreement is really about WHERE to find things that satisfy both conditions, not about the abstract definition itself."
+      }
+    ],
+    "TRIN-B13C6": [
+      {
+        "q": "What choice does Augustine say most people make, when forced to choose between 'having what they will' (with a bad will) and 'willing well' (without getting it)?",
+        "options": [
+          "Most people choose to have all the things they will (even wickedly), rather than to will well even without obtaining it — a preference Augustine calls a mark of human depravity",
+          "Most people, according to Augustine, always and instinctively choose to will well, even at great cost to their material desires",
+          "Augustine claims this choice is, in practice, never actually faced by real people in any circumstance",
+          "He claims both options are, in every real case, exactly equivalent with no meaningful difference"
+        ],
+        "correct": 0,
+        "explanation": "Augustine observes that people generally prefer to have what they will (even wrongly) over willing rightly without obtaining it — a preference he diagnoses as itself a symptom of humanity's depraved condition."
+      },
+      {
+        "q": "Why does Augustine argue a good will, even unfulfilled, is actually closer to blessedness than a bad will fulfilled?",
+        "options": [
+          "Because a good will not yet fulfilled is already a real, present good in itself ('not to be lightly esteemed'), whereas obtaining what was wickedly desired only entrenches someone further from blessedness, since it is a good fulfilled by evil means",
+          "Because Augustine claims a bad will fulfilled always results in immediate physical punishment from the state",
+          "Because he argues an unfulfilled good will is, in fact, indistinguishable from a fulfilled bad will",
+          "Because he claims fulfillment itself is always evil, regardless of what is fulfilled"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues a good will, even without its object obtained, is already a genuine good possessed by the one who has it — closer to blessedness than someone whose bad will has been satisfied, since satisfying a bad will only entrenches one further from the good."
+      },
+      {
+        "q": "What description does Augustine give of the person who possesses a good will but lacks worldly attainment, in this life?",
+        "options": [
+          "One who 'follows diligently, and attains as much as he can, with a prudent, temperate, courageous, and right mind, such good things as are possible in the present miserable life; so as to be good even in evils'",
+          "One who abandons all hope and effort, passively waiting for death to bring relief",
+          "One who becomes bitter and resentful toward those who have obtained worldly success",
+          "One who seeks to acquire as much wealth and power as possible to compensate for lacking a good will"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes such a person as one who diligently pursues, with virtue (prudence, temperance, courage, justice), whatever good is attainable in this present, imperfect life — being 'good even in evils' while awaiting the fullness of blessedness."
+      }
+    ],
+    "TRIN-B13C7": [
+      {
+        "q": "Why does Augustine argue that even the most disciplined pagan philosophers cannot actually 'live as they will' in this mortal life?",
+        "options": [
+          "Even a philosopher who bravely endures suffering with patience would still prefer, if possible, not to suffer at all — showing he does not truly 'live as he wills,' since his will to avoid suffering is thwarted even while he bears it admirably",
+          "Because philosophers, in Augustine's account, never actually experience any suffering whatsoever",
+          "Because he claims philosophy itself is entirely worthless and provides no genuine benefit to anyone",
+          "Because he argues only emperors and kings, not philosophers, can ever achieve true blessedness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key point: even a philosopher who bears suffering with admirable fortitude would still prefer, given the choice, to avoid that suffering entirely — showing his will is still thwarted (he does not get what he ultimately wills), disqualifying him from true blessedness as Augustine has defined it."
+      },
+      {
+        "q": "What Terence quotation does Augustine cite and critique as advice for the miserable, not a description of blessedness?",
+        "options": [
+          "\"Since that cannot be which you will, will that which you can\"",
+          "\"Fortune favors the brave\"",
+          "\"While there is life, there is hope\"",
+          "\"Moderation in all things\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites and analyzes Terence's line 'Since that cannot be which you will, will that which you can' as wise practical advice for enduring misery, but explicitly NOT a true description of blessedness, since the truly blessed person's will and capability would perfectly coincide."
+      },
+      {
+        "q": "What conclusion does Augustine draw about the relationship between true blessedness and mortal, earthly life?",
+        "options": [
+          "True blessedness 'is not for this mortal state,' and will not come to pass unless immortality also comes to pass — mortality itself makes complete blessedness, as Augustine has defined it, impossible in this present life",
+          "He argues true blessedness is fully and completely achievable within this mortal life through philosophy alone",
+          "He claims mortality and blessedness have no relationship or connection whatsoever",
+          "He argues blessedness was possible in ancient times but has since become permanently unattainable"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion for this chapter: given his definition (having what one wills, willing nothing wrongly), true blessedness 'is not for this mortal state' and requires immortality, since mortal life inevitably involves some frustration of will (through suffering, loss, or death itself)."
+      }
+    ],
+    "TRIN-B13C8": [
+      {
+        "q": "What is Augustine's central argument in this chapter for why 'blessedness cannot exist without immortality'?",
+        "options": [
+          "No one is blessed while lacking something they will; since no one rightly wills to stop being blessed, a blessed person cannot rightly will their own life (and hence blessedness) to end — so a merely mortal 'blessedness' that must eventually end contradicts the very definition of blessedness itself",
+          "Because Augustine claims mortality is a purely modern invention with no bearing on ancient definitions of blessedness",
+          "Because he argues immortality is trivially easy to achieve and therefore blessedness must already be common",
+          "Because he claims blessedness and immortality are, in fact, entirely unrelated and separate concepts"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: since no blessed person wills their blessedness (and hence their life) to end, but mortal life inevitably ends, a merely mortal 'blessedness' contradicts the definition of blessedness (having all one wills) — hence true blessedness requires immortality."
+      },
+      {
+        "q": "What three logical possibilities does Augustine consider for how death could 'quit' the blessed man, and why does each fail to preserve true blessedness?",
+        "options": [
+          "Death could come against his will (making his 'blessed' life dependent on something outside his control), with his will (meaning he willed the end of his own blessedness, which is absurd), or with neither will nor unwillingness (meaning he does not truly love the blessed life at all) — none of these preserve genuine blessedness",
+          "Augustine considers only one possibility in this chapter, not three",
+          "He argues death always comes 'with the will' of the blessed person, resolving the question straightforwardly",
+          "He claims this question is entirely unanswerable and refuses to consider any possibilities"
+        ],
+        "correct": 0,
+        "explanation": "Augustine systematically examines whether death comes against the blessed person's will (contradicting blessedness, since something is then imposed against his will), with his will (absurdly implying he willed his own blessed life's end), or with indifference (implying he doesn't truly love that life) — each option undermines true blessedness."
+      },
+      {
+        "q": "What is Augustine's final syllogistic conclusion at the end of this chapter?",
+        "options": [
+          "\"Whoever are either truly blessed or desire to be so, will to be immortal... Therefore, whoever are either truly blessed or desire to be so, will to be immortal. But he does not live blessedly who has not that which he wills. Therefore it follows that in no way can life be truly blessed unless it be eternal\"",
+          "\"Death is entirely irrelevant to any discussion of blessedness whatsoever\"",
+          "\"Only those who fear death can ever be truly blessed in this life\"",
+          "\"Blessedness and immortality, upon careful examination, turn out to be simply identical concepts with no distinction\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's chapter-closing conclusion draws together the argument: since blessed people (or those who desire blessedness) necessarily will immortality, and since not having what one wills precludes true blessedness, 'in no way can life be truly blessed unless it be eternal.'"
+      }
+    ],
+    "TRIN-B13C9": [
+      {
+        "q": "What does Augustine say about the limits of unaided human reasoning regarding immortality, before turning to faith?",
+        "options": [
+          "Only a rare few, exceptionally gifted and learned philosophers have managed, through reasoning alone, to argue for the soul's immortality — and even they inconsistently held that the soul might return to earthly misery after achieving blessedness, undermining a truly stable, eternal blessedness",
+          "He claims virtually all ancient philosophers, without exception, achieved a fully coherent proof of bodily immortality through unaided reason",
+          "He argues human reasoning has always been completely incapable of grasping any aspect of immortality whatsoever",
+          "He claims reasoning about immortality was entirely unknown before the coming of Christianity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that only a small number of exceptionally capable philosophers managed to argue for the soul's immortality through unaided reason, and even they inconsistently held the soul might cycle back into earthly misery, undermining a truly stable eternal blessedness."
+      },
+      {
+        "q": "What does Augustine say faith uniquely promises, beyond what philosophy achieved, regarding immortality?",
+        "options": [
+          "That the WHOLE man, both soul AND body together, shall be immortal and truly blessed — not merely the soul alone, as some philosophers speculated",
+          "That only especially virtuous philosophers, not ordinary believers, can attain any form of immortality",
+          "That immortality applies only to the soul's memories, not to any conscious ongoing existence",
+          "That immortality is guaranteed automatically to every human being regardless of belief or character"
+        ],
+        "correct": 0,
+        "explanation": "Augustine emphasizes that faith promises, by divine authority rather than mere human reasoning, that the WHOLE person (soul and body together) will be immortal — a fuller promise than philosophy's speculation about the soul alone."
+      },
+      {
+        "q": "How does Augustine argue the Incarnation itself makes this promise of human immortality more credible?",
+        "options": [
+          "By an argument from the greater to the lesser: if the Son of God (by nature immortal) could become mortal for our sake (the seemingly incredible direction), it is far MORE credible that mortal humans could, by grace, become immortal children of God (the more natural direction)",
+          "By arguing the Incarnation has no logical bearing whatsoever on the question of human immortality",
+          "By claiming the Incarnation proves conclusively that Christ Himself never truly died at all",
+          "By arguing the Incarnation only applies to angels, not to human beings"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's rhetorical move: since the harder direction (God becoming mortal) already occurred in the Incarnation, the easier, more natural direction (mortal humans becoming immortal children of God by grace) becomes far more credible by comparison."
+      }
+    ],
+    "TRIN-B13C10": [
+      {
+        "q": "How does Augustine respond to those who ask why God 'needed' the Incarnation to save humanity, rather than some other means?",
+        "options": [
+          "He argues it is not enough to merely say the Incarnation was a GOOD and fitting way; one must show there was no MORE APPROPRIATE way, since nothing better demonstrates God's love and rebuilds human hope than the Son's willingness to bear our undeserved evils first",
+          "He argues God had no other options whatsoever and was forced into the Incarnation by necessity",
+          "He claims this question is inherently blasphemous and refuses to engage with it at all",
+          "He argues the Incarnation was, in fact, a mistake that God later needed to correct"
+        ],
+        "correct": 0,
+        "explanation": "Augustine takes the objection seriously, arguing it's not enough to show the Incarnation was merely a good option — he aims to show it was the fittest, most appropriate way, since nothing better demonstrates God's love than the Son bearing our undeserved evils to build up our hope."
+      },
+      {
+        "q": "How does Augustine explain that even believers' own 'merits' toward salvation are ultimately God's gifts, not self-generated?",
+        "options": [
+          "Citing that 'the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us' (given after Christ's resurrection and ascension), Augustine argues the very deserts by which believers reach blessedness are themselves gifts poured out by God, not independently earned achievements",
+          "He argues believers, in fact, earn their salvation entirely through their own independent moral effort with no divine assistance",
+          "He claims the concept of 'merit' has no meaningful role whatsoever in Christian salvation",
+          "He argues only a small elite group of especially holy people ever receive any divine assistance at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grounds even believers' 'merits' in divine gift: the Holy Spirit, poured out after Christ's ascension, sheds God's love in believers' hearts, making the very deserts by which they reach immortal blessedness themselves God's prior gift, not independently earned."
+      },
+      {
+        "q": "What pair of terms does the Apostle Paul use, according to Augustine, to describe humanity's condition before grace — one 'mild,' one 'harsh'?",
+        "options": [
+          "'Sinners' (relatively mild-sounding) and 'enemies of God' (plainly harsh) — corresponding also to 'weak' and 'ungodly'",
+          "'Foolish' and 'wise,' used interchangeably with no real distinction",
+          "'Rich' and 'poor,' referring to material rather than spiritual condition",
+          "'Young' and 'old,' referring to age rather than moral condition"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes Paul's use of two paired descriptions of humanity's pre-grace condition: 'sinners' (the milder term) alongside 'enemies of God' (the harsher term), which he further correlates with 'weak' and 'ungodly.'"
+      }
+    ],
+    "TRIN-B13C11": [
+      {
+        "q": "What theological puzzle does Augustine raise about believers being 'justified in Christ's blood' and 'reconciled by his death'?",
+        "options": [
+          "Whether this language implies the Father was somehow angry and unloving toward humanity UNTIL the Son's death appeased Him — which would seem to contradict Paul's own statement that God 'so loved' us that He gave His Son even 'while we were yet enemies'",
+          "Whether Christ's blood has any actual spiritual significance at all, or is merely symbolic language",
+          "Whether the doctrine of justification by blood is even found anywhere in Paul's writings",
+          "Whether this language proves the Son is inferior in nature to the Father"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies the apparent tension: language of being 'reconciled' by Christ's death could suggest the Father was unloving/angry until appeased by the Son's sacrifice — which seems to contradict Paul's own teaching that God loved and gave His Son precisely 'while we were yet enemies.'"
+      },
+      {
+        "q": "How does Augustine resolve this tension, citing Ephesians' 'chosen us in Him before the foundation of the world'?",
+        "options": [
+          "By showing the Father loved humanity even BEFORE creating the world, long before the Son's death — so the reconciliation language describes a change in US (from enmity to friendship), not any change in the Father's prior disposition toward us",
+          "By simply denying that the Father ever loved sinful humanity in any way",
+          "By claiming the entire doctrine of election 'before the foundation of the world' is a later theological invention with no scriptural basis",
+          "By arguing the Son and Father are, in fact, two entirely separate and sometimes conflicting wills"
+        ],
+        "correct": 0,
+        "explanation": "Augustine resolves the tension by citing Ephesians 1:4's 'chosen us in Him before the foundation of the world' as proof the Father's love long predates the Son's death — the 'reconciliation' language, then, describes a change in humanity's relationship (from enmity to friendship), not a change in God's eternal disposition."
+      },
+      {
+        "q": "What conclusion does Augustine reach about how the Father, Son, and Spirit relate to the work of redemption?",
+        "options": [
+          "\"Together both the Father and the Son, and the Spirit of both, work all things equally and harmoniously\" — no division of will or affection exists among the three Persons in accomplishing salvation",
+          "That only the Son, not the Father or Spirit, is actually involved in the work of redemption",
+          "That the Father and Son actively work in opposition to each other throughout the process of redemption",
+          "That the Spirit plays no meaningful role whatsoever in the accomplishment of redemption"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolving conclusion reaffirms the Trinity's unified, harmonious action: Father, Son, and Spirit 'work all things equally and harmoniously' in redemption, with no division of will suggested by the reconciliation language."
+      }
+    ],
+    "TRIN-B13C12": [
+      {
+        "q": "How does Augustine explain humanity's being 'delivered into the power of the devil' after Adam's sin?",
+        "options": [
+          "By 'the justice of God' — not that God directly caused or commanded this, but that He justly PERMITTED it as a consequence of sin, since 'when He abandoned the sinner, the author of the sin immediately entered'",
+          "By claiming God actively and directly handed humanity over to the devil as a positive command, with full divine approval of the devil's rule",
+          "By denying that humanity was ever, in any sense, under the devil's power",
+          "By arguing this delivery to the devil was entirely accidental and had nothing to do with divine justice"
+        ],
+        "correct": 0,
+        "explanation": "Augustine carefully distinguishes God's just permission (not direct causation or command) as the mechanism: when God 'abandoned the sinner' as a just consequence of sin, 'the author of the sin [the devil] immediately entered' to claim his dominion."
+      },
+      {
+        "q": "What Genesis text does Augustine cite as an early sign of this 'delivering up,' connecting the serpent's curse and Adam's punishment?",
+        "options": [
+          "\"Dust shall you eat\" (spoken to the serpent) and \"Dust you are, and unto dust you shall return\" (spoken to Adam) — the shared word 'dust' signaling man's new subjection",
+          "\"Let there be light\" and \"It was very good\"",
+          "\"Be fruitful and multiply\" and \"Have dominion over the earth\"",
+          "\"Cursed is the ground for your sake\" and \"By the sweat of your brow\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws the connection between God telling the serpent 'Dust shall you eat' and telling Adam 'Dust you are, and unto dust you shall return,' reading the shared imagery of 'dust' as signaling humanity's new subjection to the serpent/devil."
+      },
+      {
+        "q": "Despite this abandonment to the devil, what does Augustine insist God never withdrew from fallen humanity or even from the devil himself?",
+        "options": [
+          "His sustaining goodness and mercy — 'He has not in anger shut up His tender mercies,' and even the devil continues to exist only through the power of the God 'who quickens all things'",
+          "His direct, unmediated presence, which Augustine claims remained fully visible to all humans after the fall",
+          "His original commandment against eating the forbidden fruit, which Augustine claims was never actually broken",
+          "His promise of immediate, automatic salvation regardless of any human response"
+        ],
+        "correct": 0,
+        "explanation": "Augustine insists God's sustaining mercy was never entirely withdrawn even amid this permitted subjection: 'He has not in anger shut up His tender mercies,' and even the devil's continued existence depends on the same God 'who quickens all things.'"
+      }
+    ],
+    "TRIN-B13C13": [
+      {
+        "q": "Why does Augustine argue the devil had to be conquered specifically by righteousness, not merely by God's overwhelming power?",
+        "options": [
+          "Because the devil's own defining sin was precisely loving power over righteousness — conquering him merely by superior power would have taught the wrong lesson, reinforcing rather than correcting the very error (love of power) that caused his fall and that men imitate",
+          "Because Augustine claims God, in fact, lacked sufficient power to overcome the devil directly",
+          "Because he argues righteousness and power are, in his view, simply identical concepts with no distinction",
+          "Because he claims the devil is actually more powerful than God in certain limited respects"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key insight: since the devil's defining fault was loving power over righteousness, defeating him merely by superior power would validate rather than correct that error — so God chose to conquer him through righteousness, teaching humans (who imitate the devil's love of power) the proper order instead."
+      },
+      {
+        "q": "What proper 'order' does Augustine insist must be preserved between power and righteousness?",
+        "options": [
+          "Righteousness must come FIRST, with power following AFTER it — power is not evil in itself, but must never precede or replace righteousness in the pursuit of a rightly ordered life",
+          "Power must always come first, with righteousness a secondary, optional consideration",
+          "Augustine argues power and righteousness should be pursued simultaneously with no priority given to either",
+          "He claims power should be entirely rejected and avoided under all circumstances by the righteous"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's ordering principle: righteousness must precede power ('let mortals cleave to righteousness; power will be given to immortals') — power is not inherently evil, but pursuing it before or instead of righteousness inverts the proper order and leads to ruin."
+      },
+      {
+        "q": "What Psalm does Augustine cite regarding God's patience with the wicked's apparent worldly power, awaiting 'until righteousness return to judgment'?",
+        "options": [
+          "Psalm 94 (\"Blessed is the man whom You chasten, O Lord... until righteousness return unto judgment\")",
+          "Psalm 23 (\"The Lord is my shepherd\")",
+          "Psalm 51 (\"Have mercy upon me, O God\")",
+          "Psalm 137 (\"By the rivers of Babylon\")"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Psalm 94:12-15, which speaks of God chastening and teaching His people while awaiting the time when 'righteousness shall return to judgment' — power finally joining righteousness in due order."
+      }
+    ],
+    "TRIN-B13C14": [
+      {
+        "q": "What is the core logic of the 'ransom'-style argument Augustine develops for why Christ's death justly frees sinners from the devil?",
+        "options": [
+          "The devil found 'nothing worthy of death' in Christ, yet killed Him anyway; having thus unjustly killed one who owed him nothing, it is just that he forfeit his claim over those he DID justly hold as debtors, who go free by believing in the innocent one he wrongly slew",
+          "The devil simply agreed voluntarily to release all sinners in exchange for nothing at all",
+          "Christ paid the devil a literal sum of money as a bribe to release humanity",
+          "The devil was tricked by an illusion and never actually killed the real Christ at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's ransom logic: since the devil found no sin (no just cause for death) in Christ yet killed Him anyway, this injustice forfeits the devil's just claim over the sinners he rightfully held as debtors — they are freed by believing in the innocent one he wrongly killed."
+      },
+      {
+        "q": "Why does Augustine insist Christ had to be BOTH truly human and truly God for this victory to work as intended?",
+        "options": [
+          "Human, so He could actually be killed (paying the debt); God, so that His death would be understood as a free, powerful choice to submit to weakness (commending righteousness) rather than evidence of mere powerlessness",
+          "Human, so people would trust Him; God, so He could perform miracles unrelated to His death",
+          "Human, so He could eat and drink; God, so He could walk on water",
+          "Augustine argues Christ needed to be only human, with His divinity being theologically unnecessary for this argument"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful reasoning: Christ's humanity made it possible for Him to actually die (pay the debt); His divinity ensured His death was understood as a voluntary act of righteousness (choosing weakness) rather than simple powerlessness, since He 'could' have avoided it but chose not to."
+      },
+      {
+        "q": "What Psalm phrase does Augustine cite, applying it to Christ as one who paid a debt not His own?",
+        "options": [
+          "\"Free among the dead\" — only one who is truly dead is free from the debt of death, and Christ's death was undeserved, freeing others through Him",
+          "\"The Lord is my rock and my fortress\"",
+          "\"My cup runs over\"",
+          "\"He restores my soul\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the psalm phrase 'Free among the dead' applied to Christ, reading it as expressing how His undeserved death (owing no debt of sin) uniquely freed Him from death's normal debt, and thereby enabled Him to pay that debt vicariously for others."
+      }
+    ],
+    "TRIN-B13C15": [
+      {
+        "q": "What paradox does Augustine identify at the very moment of Christ's crucifixion?",
+        "options": [
+          "The devil is actually conquered precisely at the moment he BELIEVES himself victorious — by unjustly killing the sinless Christ, he unwittingly forfeits his just claim over the sinners he rightfully held captive",
+          "The devil, in Augustine's account, was never actually involved in the crucifixion in any way",
+          "Christ, according to Augustine, was not actually defeated or killed at any point, making the whole question moot",
+          "The paradox Augustine identifies concerns only the timing of the resurrection, not the crucifixion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's identified paradox: the devil, believing he has triumphed by killing Christ, is in that very act defeated, since killing the sinless One forfeits his just claim over the sinners he had rightfully held — victory disguised as apparent defeat."
+      },
+      {
+        "q": "What image does Augustine use, drawn from the Gospel parable, to describe how the devil ('the strong man') is 'bound' and his 'vessels' are freed?",
+        "options": [
+          "The strong man is conquered by righteousness and bound, so 'his vessels might be spoiled' — those who were 'vessels of wrath' while under him are turned into 'vessels of mercy'",
+          "The strong man is described as a farmer who loses his entire harvest to a rival farmer",
+          "The strong man is compared to a ship captain who loses his ship in a storm",
+          "The strong man is compared to a soldier who surrenders his weapons peacefully"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws on the Gospel image of the 'strong man' bound so his goods can be plundered, applying it to the devil bound by Christ's righteousness, with the formerly captive 'vessels of wrath' (sinners) transformed into 'vessels of mercy.'"
+      },
+      {
+        "q": "What experience of Paul's (recounted by Paul himself) does Augustine cite as illustrating this theme of deliverance 'from the power of Satan unto God'?",
+        "options": [
+          "Christ's words to Paul at his conversion/calling, sending him 'to open the eyes of the blind, and to turn them from darkness [to light], and from the power of Satan unto God, that they may receive forgiveness of sins'",
+          "Paul's shipwreck on the island of Malta",
+          "Paul's imprisonment and eventual trial before Caesar in Rome",
+          "Paul's debate with the philosophers at the Areopagus in Athens"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Paul's own account (from Acts, as recounted by Paul) of Christ's words at his calling — commissioning him to turn people 'from the power of Satan unto God' — as scriptural testimony to this pattern of deliverance from the devil's power."
+      }
+    ],
+    "TRIN-B13C16": [
+      {
+        "q": "Why, according to Augustine, do death and other worldly evils remain even AFTER a believer's sins are forgiven?",
+        "options": [
+          "Though rooted in original sin, these evils now serve believers as opportunities to 'contend for truth' and have their faith and goodness 'exercised' and proven, ultimately increasing longing for the perfect future life",
+          "Because Augustine claims God's forgiveness is, in fact, always incomplete and partial",
+          "Because he argues these evils have no purpose whatsoever and are simply unfortunate leftover consequences with no positive value",
+          "Because he claims only unforgiven sinners experience any worldly evils at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains these remaining evils, though rooted in sin, now serve a positive purpose for the forgiven believer: providing opportunities to contend for truth, prove faith and goodness, and intensify longing for the perfected life to come."
+      },
+      {
+        "q": "What scriptural assurance does Augustine cite regarding the limits of temptation permitted to believers?",
+        "options": [
+          "\"God is faithful, who will not suffer you to be tempted above that you are able; but will with the temptation also make a way to escape, that you may be able to bear it\"",
+          "\"Vengeance is mine, says the Lord; I will repay\"",
+          "\"The Lord is my light and my salvation; whom shall I fear?\"",
+          "\"Cast your burden upon the Lord, and He shall sustain you\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites 1 Corinthians 10:13's assurance that God limits the temptations believers face and always provides a way of escape, framing the devil's permitted 'adversary' role as bounded by what God knows is expedient for believers."
+      },
+      {
+        "q": "What guarantee does Augustine draw from Romans 8 regarding those who are 'predestined,' 'called,' 'justified,' and 'glorified'?",
+        "options": [
+          "That not one of these will ultimately perish with the devil, since 'whom He did predestinate, them He also called; and whom He called, them He also justified; and whom He justified, them He also glorified' — an unbroken, guaranteed sequence",
+          "That these terms refer to entirely separate and unrelated groups of people, with no connection between them",
+          "That only a small, uncertain number of people will ever be included in any of these categories",
+          "That predestination, in Augustine's reading, applies only to angels, not to human beings"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Romans 8:29-30's unbroken chain (foreknown, predestined, called, justified, glorified) as guaranteeing that none of the elect will ultimately perish under the devil's power — the sequence proceeds without loss from one stage to the next."
+      }
+    ],
+    "TRIN-B13C17": [
+      {
+        "q": "What does Augustine say the Incarnation demonstrates about humanity's place among created spiritual beings?",
+        "options": [
+          "It shows human nature could be joined to God so closely that one Person unites divinity, soul, and flesh — demonstrating that proud demonic spirits (who lack flesh and interpose themselves as false mediators) have no legitimate basis for claiming superiority over embodied humans",
+          "It shows that human nature is, in fact, inferior to angelic nature in every conceivable respect",
+          "It proves that only disembodied spirits can achieve any meaningful union with the divine",
+          "It demonstrates that physical bodies are inherently evil and must ultimately be discarded"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues the Incarnation reveals humanity's true dignity: human nature could be united with God so intimately that proud demonic spirits (who falsely claim mediating superiority partly because they lack flesh) have no legitimate ground to place themselves above embodied humanity."
+      },
+      {
+        "q": "How does Augustine argue the Incarnation shows grace is entirely unmerited, even for Christ Himself?",
+        "options": [
+          "Christ Himself 'did not obtain by any precedent merits' His unique unity with God as one Person — from the very moment He began to be man, He was already God, showing the gift-nature of grace even in the case of the Mediator Himself",
+          "He argues Christ earned His divinity through a lifetime of perfect moral effort before being granted union with the Father",
+          "He claims grace, in fact, always requires some prior human merit to be granted at all",
+          "He argues this point applies only to ordinary believers, not to Christ Himself in any way"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's striking point: even Christ's own unique unity of Person with God was not earned by prior merit — from the moment He began to be man, He was already God — modeling for believers that grace, even at its highest instance, is never a reward for prior merit."
+      },
+      {
+        "q": "What example of virtue does Augustine highlight in Christ's Incarnation as a model 'for us, who had perished through disobedience'?",
+        "options": [
+          "Obedience — 'God the Son obedient to God the Father, even to the death of the cross,' with the reward of that obedience shown in the resurrection of His flesh to eternal life",
+          "Wealth accumulation, as a model of prudent financial planning",
+          "Political ambition, as a model for effective governance",
+          "Physical strength, as a model for military conquest"
+        ],
+        "correct": 0,
+        "explanation": "Augustine highlights Christ's obedience — even 'to the death of the cross' — as the great counter-example to Adam's disobedience, with the reward of that obedience displayed in Christ's bodily resurrection to eternal life."
+      }
+    ],
+    "TRIN-B13C18": [
+      {
+        "q": "Why does Augustine say the Son took human nature specifically from Adam's race, rather than creating an entirely new, unrelated human being?",
+        "options": [
+          "So that the devil, having conquered humanity through Adam's race, would fittingly be conquered by that SAME race — 'the conqueror of the first Adam... conquered by the second Adam,' from the very race he had claimed",
+          "Because God, in Augustine's account, had no other option and was forced to use Adam's race",
+          "Because Augustine claims Adam's race was inherently superior to any other possible race God could have created",
+          "Because he argues this detail is theologically insignificant and merely a matter of convenience"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains the fittingness of this choice: since the devil conquered humanity through Adam's race, it was fitting that he be conquered by a member of that SAME race, rather than by an unrelated new creation — 'that deceiver might be conquered by that race which he had conquered by guilt.'"
+      },
+      {
+        "q": "Why does Augustine say Christ's conception by a virgin, without carnal concupiscence, was necessary?",
+        "options": [
+          "So that Christ would inherit only the ORIGIN of the human race (mere descent) without also inheriting the GUILT transmitted through the normal process of conception involving sinful concupiscence — making Him alone sinless and able to serve as the remedy for others",
+          "Because Augustine claims ordinary sexual intercourse is inherently and irredeemably sinful even within marriage",
+          "Because he argues virginity is, in every case, morally superior to marriage without qualification",
+          "Because he claims the virgin birth was primarily a matter of ceremonial purity with no deeper theological significance"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that virgin conception (by faith and the Spirit, without concupiscence) let Christ inherit only the RACIAL origin from Adam, not the GUILT normally transmitted through concupiscent conception — making Him the one sinless remedy for all others, who cannot avoid being 'born with sin.'"
+      },
+      {
+        "q": "What does Augustine say about carnal concupiscence's 'involuntary motions,' arguing they show something about the state of humanity before the Fall?",
+        "options": [
+          "That such involuntary motions (arising even against the will, or occurring without any intention to procreate) show this kind of concupiscence 'could not have existed at all in paradise before sin,' or if present, was not then resistant to the will as it now is",
+          "That such motions prove concupiscence has always been identical before and after the Fall, with no change whatsoever",
+          "That such motions are entirely irrelevant to any theological discussion of the Fall",
+          "That such motions prove human nature was created flawed and sinful from the very beginning"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues the involuntary, sometimes unwanted nature of sexual concupiscence (arising even against the will, or without reproductive intent) shows either it did not exist at all before the Fall, or existed without the current resistance to the will — evidence of the corruption introduced by original sin."
+      }
+    ],
+    "TRIN-B13C19": [
+      {
+        "q": "How does Augustine assign everything the incarnate Word 'did and bore for us in time and place' — and, separately, truths spoken of the eternal Word itself?",
+        "options": [
+          "Everything the Word did/bore in time and place belongs to KNOWLEDGE, while true discourse about the timeless, co-eternal Word itself belongs to WISDOM — and Christ, uniting both natures, possesses 'the treasures both of wisdom and of knowledge'",
+          "He assigns everything, without exception, to wisdom alone, denying any role for knowledge in understanding Christ",
+          "He assigns everything, without exception, to knowledge alone, denying any role for wisdom in understanding Christ",
+          "He argues this distinction cannot meaningfully be applied to Christ at all, contradicting the whole project of the book"
+        ],
+        "correct": 0,
+        "explanation": "Augustine applies his wisdom/knowledge distinction directly to Christology: temporal actions and sufferings of the incarnate Word belong to knowledge, while truths about the eternal, timeless Word belong to wisdom — with Christ uniquely possessing both 'treasures' together, per Colossians 2."
+      },
+      {
+        "q": "How does Augustine map John's phrase 'full of grace and truth' onto this knowledge/wisdom distinction?",
+        "options": [
+          "GRACE corresponds to knowledge (the highest grace being God joined with man in the temporal Incarnation), while TRUTH corresponds to wisdom (rightly attributed to the eternal Word)",
+          "He argues 'grace' and 'truth' are, in fact, synonymous terms with no distinct theological content",
+          "He maps 'grace' onto wisdom and 'truth' onto knowledge, the reverse of the more natural pairing",
+          "He denies this phrase has any connection whatsoever to his knowledge/wisdom distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's mapping: 'grace,' tied to the temporal, unmerited union of God and man in the Incarnation, corresponds to knowledge; 'truth,' the highest reality attributed to the eternal Word, corresponds to wisdom — both fully present and united in the one Christ."
+      },
+      {
+        "q": "What criticism does Augustine level at pagan philosophers who correctly grasped God's invisible attributes yet still fell into idolatry?",
+        "options": [
+          "They 'philosophized without a Mediator' — lacking faith in Christ (past or future), they sought other, deceptive 'media' (fallen spirits) to bridge the gap to divine truths they had glimpsed, and ended up worshipping images of corruptible things instead",
+          "Augustine argues these philosophers achieved complete, error-free understanding with no criticism warranted",
+          "He claims these philosophers never actually grasped anything true about God's nature at all",
+          "He argues their error was purely intellectual, with no connection to the practice of idolatry"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's criticism (echoing Romans 1) targets philosophers who, lacking faith in the Mediator (Christ), sought other spiritual intermediaries to bridge what they had glimpsed of eternal truth to their earthly condition — falling, through these deceptive spirits, into idol worship of corruptible images."
+      }
+    ],
+    "TRIN-B13C20": [
+      {
+        "q": "How does Augustine summarize the overall argument of Book XIII at its close?",
+        "options": [
+          "All people will to be blessed, but not all have the faith needed to cleanse the heart and reach it; faith is necessary for the good of the WHOLE human nature (soul and body), and must be specifically anchored in Christ, who rose bodily and alone frees from the devil's dominion",
+          "He summarizes the book as having proven that blessedness is entirely unattainable by any human being under any circumstances",
+          "He summarizes the book as having shown that faith and knowledge are, in fact, identical and interchangeable concepts",
+          "He summarizes the book as concerning primarily geometric and mathematical questions unrelated to theology"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's closing summary: the universal will to blessedness requires faith (which not everyone has) to be realized, and that faith must be specifically anchored in Christ's bodily resurrection and unique power to free believers from the devil's dominion — tying together the book's argument."
+      },
+      {
+        "q": "What example does Augustine give of someone who has a mere 'trinity of the outer man' rather than the inner man, regarding faith's words?",
+        "options": [
+          "Someone who memorizes the SOUNDS of the words of the Christian faith in an unknown foreign language, without understanding their meaning at all — like remembering Greek words without knowing Greek",
+          "Someone who has fully understood, believed, and loved the content of the Christian faith with their whole heart",
+          "Someone who has never heard any words of the Christian faith under any circumstances",
+          "Someone who actively and knowingly rejects the Christian faith after fully understanding it"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example: someone who memorizes the mere SOUNDS of faith's words in a language they don't understand (like remembering Greek words without knowing Greek) has only a trinity 'of the exterior man,' dealing merely with sound-images, not genuine inner understanding."
+      },
+      {
+        "q": "According to Augustine, what is required for a person to genuinely 'live according to a trinity of the inner man' regarding matters of faith?",
+        "options": [
+          "Not merely holding and understanding the content of faith (which could even be done while regarding it as false, in order to refute it), but actually BELIEVING those things to be true AND loving what ought to be loved in them — 'every one lives according to that which he loves'",
+          "Simply being born into a Christian family or culture, regardless of personal belief",
+          "Achieving perfect theological knowledge with no possibility of error whatsoever",
+          "Successfully memorizing the entire text of Scripture word for word"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's final criterion: genuinely living 'according to a trinity of the inner man' requires not just understanding faith's content (which could be held even while disbelieving it, in order to refute it) but actually believing it true and loving what should be loved in it — since 'every one lives according to that which he loves.'"
+      }
+    ],
+    "TRIN-B14C1": [
+      {
+        "q": "How does Augustine define the human 'wisdom' he sets out to discuss in this book, citing Job?",
+        "options": [
+          "Piety, i.e., the worship of God (Greek theosebeia) — distinct from 'knowledge,' which concerns the temporal, human affairs treated in the previous book",
+          "The accumulation of the greatest possible amount of factual information about the natural world",
+          "Skill in persuasive public speaking and legal argumentation",
+          "Mastery of mathematics and geometry above all other subjects"
+        ],
+        "correct": 0,
+        "explanation": "Augustine defines human wisdom, following Job's 'piety, that is wisdom,' as theosebeia — the worship of God — distinguishing it sharply from 'knowledge,' the rational engagement with temporal human affairs treated in Book XIII."
+      },
+      {
+        "q": "Why does Augustine, following Pythagoras's example, hesitate to call himself a 'wise man'?",
+        "options": [
+          "Because he prefers, like Pythagoras (who coined 'philosopher,' lover of wisdom, rather than claiming to BE wise), to modestly claim only the lesser title, while still maintaining that discussing wisdom belongs to lovers of wisdom too",
+          "Because he believes wisdom is entirely unattainable by any human being under any circumstances",
+          "Because he claims discussing wisdom is forbidden to anyone who has ever sinned",
+          "Because he argues only bishops, not ordinary Christians, are permitted to discuss wisdom"
+        ],
+        "correct": 0,
+        "explanation": "Augustine follows Pythagoras's modest precedent (who called himself only a 'philosopher,' lover of wisdom, rather than claiming to be wise) while still defending his right, as a lover of wisdom, to discuss the topic at length."
+      },
+      {
+        "q": "According to Augustine, how does he divide the standard philosophical definition of wisdom as 'knowledge of things human and divine'?",
+        "options": [
+          "Following Paul's 'word of wisdom... word of knowledge,' he assigns knowledge of DIVINE things to 'wisdom' and knowledge of HUMAN things to 'knowledge' specifically — the division underlying Books XIII and XIV",
+          "He rejects this definition entirely as having no basis in Scripture whatsoever",
+          "He assigns knowledge of human things to 'wisdom' and divine things to 'knowledge,' reversing the usual pairing",
+          "He argues the definition cannot be divided in any meaningful way and treats the two terms as pure synonyms"
+        ],
+        "correct": 0,
+        "explanation": "Augustine divides the classical wisdom definition according to Paul's distinction in 1 Corinthians 12: divine things belong properly to 'wisdom' (the subject of Book XIV), human things to 'knowledge' (already treated in Book XIII)."
+      }
+    ],
+    "TRIN-B14C2": [
+      {
+        "q": "Why does Augustine argue that the trinity found in 'holding, contemplating, and loving' one's own temporal faith cannot be the true, lasting image of God?",
+        "options": [
+          "Because faith itself is a temporal reality that will cease once it gives way to direct sight in the next life — an image of God meant to be permanent cannot be grounded in something destined to pass away",
+          "Because Augustine claims faith is not a real mental state at all, only a social convention",
+          "Because he argues the mind cannot actually hold, contemplate, or love faith in any coherent sense",
+          "Because he claims this trinity was already fully addressed and dismissed in an earlier book with no new argument needed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key argument: since faith (believing what is not seen) is inherently temporary, destined to be replaced by direct sight in the future life, any trinity grounded specifically in the holding/contemplating/loving of PRESENT faith cannot serve as the permanent, eternal image of God."
+      },
+      {
+        "q": "What scriptural text does Augustine cite to establish that our present life is one of 'faith, not sight'?",
+        "options": [
+          "\"While we are in the body, we are absent from the Lord; for we walk by faith, not by sight\"",
+          "\"Faith is the substance of things hoped for, the evidence of things not seen\"",
+          "\"Now abide faith, hope, love, these three; but the greatest of these is love\"",
+          "\"Without faith it is impossible to please God\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites 2 Corinthians 5:6-7's 'while we are in the body, we are absent from the Lord; for we walk by faith, not by sight' to ground his argument that present faith, being tied to this temporary condition, cannot itself be the permanent divine image."
+      },
+      {
+        "q": "What does Augustine say will happen to faith itself once 'that sight shall have succeeded it whereby we shall see face to face'?",
+        "options": [
+          "Faith will be 'reckoned among things past and done with, not among things present and always continuing' — it will no longer exist as faith, having been replaced by direct sight",
+          "Faith will grow infinitely stronger and become the primary mode of relating to God forever",
+          "Faith will merge indistinguishably with sight, becoming identical to it with no real transition",
+          "Faith will be forgotten entirely, with no memory whatsoever of ever having believed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that once sight replaces faith, faith itself will be 'reckoned among things past and done with, not among things present and always continuing' — it ceases to function as faith once its object is directly seen rather than believed."
+      }
+    ],
+    "TRIN-B14C3": [
+      {
+        "q": "What objection does Augustine anticipate and address in this chapter, regarding whether the 'faith trinity' might persist even after faith itself ends?",
+        "options": [
+          "That even after faith passes away, a trinity might still persist through MEMORY of having once believed — holding the memory, recollecting it, and uniting both by will — seemingly preserving 'the same' trinity",
+          "That faith, in fact, can never actually pass away under any circumstances",
+          "That the whole discussion of faith is irrelevant to the search for the image of God",
+          "That memory itself is incapable of retaining any trace of past faith whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine anticipates the objection that even once faith ends, a trinity of memory (of having believed), recollection, and will might persist, seemingly preserving 'the same' trinity across the transition from faith to sight."
+      },
+      {
+        "q": "How does Augustine use the analogy of a vanished bodily object (from Book XI) to refute this objection?",
+        "options": [
+          "Just as the trinity of memory-based recollection of a NOW-VANISHED bodily object is genuinely DIFFERENT from the trinity of ACTUALLY SEEING that object while present, so the trinity built on remembering PAST faith is a genuinely different trinity from the one built on PRESENT, actual faith — not 'the same' trinity persisting",
+          "He argues the analogy fails completely and provides no useful insight into the question",
+          "He claims memory of a vanished object and actual perception of a present object are, in fact, identical trinities with no distinction",
+          "He uses the analogy to argue that faith, unlike bodily objects, can never actually be lost or forgotten"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key analogy: just as recollecting a now-vanished bodily object forms a genuinely DIFFERENT trinity from actually seeing that object while present (established in Book XI), so remembering PAST faith forms a different trinity from ACTUAL present faith — refuting the claim that 'the same' trinity simply persists."
+      },
+      {
+        "q": "What is Augustine's conclusion about whether either the 'present faith' trinity or the 'remembered faith' trinity qualifies as the true image of God?",
+        "options": [
+          "Neither qualifies — 'neither is that trinity an image of God, which is not now, nor is that other an image of God, which then will not be' — both are transient, disqualifying them from being the permanent divine image",
+          "Both trinities equally and fully qualify as the permanent image of God, with no distinction needed",
+          "Only the 'remembered faith' trinity qualifies, while the 'present faith' trinity does not",
+          "Only the 'present faith' trinity qualifies, while the 'remembered faith' trinity does not"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion, opening into the next chapter: neither the trinity of present faith (which 'is not now' permanent) nor the trinity of remembered past faith (which 'then will not be' present) qualifies as the lasting image of God — both are transient states, not the eternal reality sought."
+      }
+    ],
+    "TRIN-B14C4": [
+      {
+        "q": "Where does Augustine conclude the true, permanently abiding image of God must be sought, since neither faith-trinity qualifies?",
+        "options": [
+          "In the rational soul's own permanent, immortal NATURE itself — its inherent capacity for reason and understanding — rather than in any passing mental state or activity like faith",
+          "In the physical, bodily structure of the human brain specifically",
+          "In external religious institutions and rituals, rather than anything internal to the individual",
+          "Augustine concludes no true, lasting image of God can be found anywhere, abandoning the search entirely"
+        ],
+        "correct": 0,
+        "explanation": "Augustine locates the enduring image of God in the rational soul's own permanent, immortal nature — its inherent, never-ceasing capacity for reason and understanding — rather than in any transient state or activity like faith."
+      },
+      {
+        "q": "How does Augustine explain that this image persists even when a person's reasoning capacity is 'torpid,' 'small,' obscured, or defaced by sin?",
+        "options": [
+          "The human soul is 'never anything save rational or intellectual,' so even when this capacity is dulled, small, or its 'brightness' marred by sin, the image itself — the CAPACITY for reason — always remains, however obscured its actual exercise may be",
+          "He argues the image is completely and permanently destroyed the moment any sin is committed",
+          "He claims only unbaptized infants retain any trace of this image; adults lose it entirely",
+          "He denies that the image can ever be obscured or defaced in any way whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues the human soul is always, by its very nature, rational/intellectual — so even when actual reasoning is weak, dulled, or its brightness marred by sin, the underlying IMAGE (the capacity itself) persists, whether 'obscure and defaced, or bright and beautiful.'"
+      },
+      {
+        "q": "What Psalm text does Augustine cite (via Job's language) to show that even a fallen, vain person still bears God's image?",
+        "options": [
+          "\"Although man walks in an image, yet he disquiets himself in vain; he heaps up riches, and cannot tell who shall gather them\"",
+          "\"The heavens declare the glory of God; and the firmament shows His handiwork\"",
+          "\"As the hart pants after the water brooks, so pants my soul after You, O God\"",
+          "\"Out of the depths have I cried unto You, O Lord\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites this Psalm text ('although man walks in an image, yet he disquiets himself in vain...') as proof that Scripture assumes even a vain, sinning human being still walks 'in an image' — the image is defaced in its effects, not annihilated as a capacity."
+      }
+    ],
+    "TRIN-B14C5": [
+      {
+        "q": "What question does Augustine pose about the mind of an infant regarding self-knowledge?",
+        "options": [
+          "Whether an infant's mind, overwhelmed and absorbed by new sensory experiences, can be said to genuinely 'know itself,' even though it cannot yet actively THINK of itself amid this overwhelming immersion in bodily sensation",
+          "Whether infants possess souls at all, or only develop them later in life",
+          "Whether infant minds are, in fact, entirely identical to adult minds with no meaningful difference",
+          "Whether infants are capable of committing genuine moral sins"
+        ],
+        "correct": 0,
+        "explanation": "Augustine poses the question of whether an infant's mind, so absorbed in and overwhelmed by novel sensory experience, can be said to 'know itself' even though it seems entirely unable to actively think of or attend to itself."
+      },
+      {
+        "q": "What vivid physical example does Augustine give of an infant's intense, singular absorption in sensory experience?",
+        "options": [
+          "A lamp carelessly placed at night where an infant's eyes (but not neck) could turn toward it, causing the infant's gaze to fixate so intensely that some children develop a squint from the habitual eye position",
+          "An infant refusing to eat any food for several days without apparent distress",
+          "An infant learning to walk significantly earlier than is typical for their age",
+          "An infant demonstrating unusually advanced verbal communication skills"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's memorable example: a lamp placed at night where only an infant's eyes (not neck) can turn toward it can cause such intense, sustained fixation that the child's eyes take on a permanent squint from the habitual gaze position — illustrating the infant's total absorption in sensory novelty."
+      },
+      {
+        "q": "How does Augustine distinguish the infant's situation using the 'not knowing oneself' versus 'not thinking of oneself' distinction from Book X?",
+        "options": [
+          "He suggests the infant is not 'ignorant' of itself (i.e., does not fully 'not know' itself) but is simply so absorbed in external sensation that it is unable to actually THINK of itself — reapplying the earlier distinction to explain the infant's peculiar state",
+          "He argues this distinction from Book X has no application whatsoever to the case of infants",
+          "He claims infants both fully know AND fully think of themselves at all times, with no limitation",
+          "He argues infants neither know nor can ever come to think of themselves, even as adults"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reapplies the Book X distinction ('not knowing' vs. 'not thinking of'): the infant is not straightforwardly ignorant/unknowing of itself, but its total absorption in external sensory novelty prevents it from actively thinking of itself, illustrating the distinction in a new, extreme case."
+      }
+    ],
+    "TRIN-B14C6": [
+      {
+        "q": "How does Augustine explain the puzzling way the mind 'places itself in its own sight' by thinking of itself, without physically moving or dividing?",
+        "options": [
+          "Unlike the bodily eye (which requires an external mirror to see itself, since it naturally looks outward), the mind's self-beholding happens through an 'incorporeal conversion' — a turning of attention, not a literal spatial movement or division into separate observing and observed parts",
+          "He argues the mind literally splits into two physically separate halves when engaged in self-reflection",
+          "He claims the mind requires an actual external mirror, exactly like the bodily eye, to see itself",
+          "He denies that the mind can ever, in any way, place itself in its own sight"
+        ],
+        "correct": 0,
+        "explanation": "Augustine resolves the puzzle by distinguishing the mind's self-beholding (an 'incorporeal conversion,' a turning of attention with no spatial movement) from the bodily eye's need for an external mirror — the mind's self-knowledge does not require this kind of spatial division or external reflection."
+      },
+      {
+        "q": "In what sense does Augustine say the mind's self-understanding is genuinely 'begotten' when the mind thinks of itself, even though it was never truly UNKNOWN to itself beforehand?",
+        "options": [
+          "The mind's self-knowledge is 'begotten' in the way something stored in memory but not currently attended to 'steps forth' when thought about — like a person 'knowing letters even when thinking of something else' — not as a wholly new discovery, but as an actualized, articulated understanding of what was already, quietly, known",
+          "He argues the mind's self-understanding is genuinely NEW information the mind had absolutely no access to before that moment of thinking",
+          "He claims 'begotten' in this context refers to a literal biological process of the mind reproducing itself",
+          "He denies that the term 'begotten' can meaningfully apply to any mental process whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful distinction: the mind's self-understanding, when it turns to itself in thought, is 'begotten' not as wholly new knowledge but as the actualized, conscious articulation of what was already latently known (as in knowing letters even while thinking of something else) — a 'stepping forth' rather than a first discovery."
+      },
+      {
+        "q": "What three terms does Augustine establish as constituting this trinity at the close of this chapter?",
+        "options": [
+          "Memory, intelligence (understanding), and will",
+          "Sensation, imagination, and reason",
+          "Faith, hope, and charity",
+          "Substance, relation, and accident"
+        ],
+        "correct": 0,
+        "explanation": "Augustine establishes the trinity's three terms as memory, intelligence (understanding), and will — the trinity that will occupy the rest of the book as the mind's proper image of God."
+      }
+    ],
+    "TRIN-B14C7": [
+      {
+        "q": "What example does Augustine use — a person skilled in both music and geometry — to distinguish 'knowing' from 'currently thinking of' something?",
+        "options": [
+          "A musician disputing about geometry still 'remembers, understands, and loves' music, even though he is not currently thinking of it, since he is thinking of geometry — showing that knowledge stored in memory 'steps forth' into conscious attention only when actively recollected",
+          "He argues it is impossible for anyone to be skilled in both music and geometry simultaneously",
+          "He claims a person can only truly 'know' one subject at any given time in their entire life",
+          "He uses this example to argue that music and geometry are, in fact, identical fields of study"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example: a musician currently discussing geometry still genuinely 'remembers, understands, and loves' music (he hasn't forgotten or stopped knowing it), even though his current conscious attention ('thought') is on geometry, not music — illustrating the difference between latent knowledge and active thought."
+      },
+      {
+        "q": "How does Augustine describe the process by which someone can be reminded of something they 'know' but currently cannot recall?",
+        "options": [
+          "By being told, 'You know this, but you do not know that you know it; I will remind you, and you will find that you know what you had thought you did not know' — reminding brings latent knowledge back into conscious articulation",
+          "He argues true forgetting is always permanent and irreversible, with reminding never actually working",
+          "He claims reminders work only for factual information, never for skills or emotional matters",
+          "He denies that any form of memory-jogging or reminding is genuinely possible for the human mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes the process of reminding as bringing to light knowledge that was present but inaccessible: telling someone 'you know this, but you do not know that you know it' and helping them discover, through reminder, knowledge they had thought was lost."
+      },
+      {
+        "q": "How does Augustine briefly recap the progression of Books XI through XIII at the end of this chapter?",
+        "options": [
+          "Book XI led readers through outward, bodily sensible examples; Book XII distinguished higher and lower reason; Book XIII treated the 'knowledge' of temporal human affairs concisely — all preparing for the deeper inward trinity now being sought in Book XIV",
+          "He claims Books XI-XIII covered entirely unrelated topics with no connection to the current inquiry",
+          "He argues these three books should be read in reverse order for proper understanding",
+          "He claims these books focused exclusively on Old Testament exegesis with no philosophical content"
+        ],
+        "correct": 0,
+        "explanation": "Augustine recaps the progression: Book XI used outward, bodily sensible examples to prepare readers; Book XII distinguished the mind's higher and lower functions; Book XIII treated the practical 'knowledge' of temporal human affairs — all building toward the deeper inward trinity now sought."
+      }
+    ],
+    "TRIN-B14C8": [
+      {
+        "q": "What is the central task Augustine explicitly states for this stage of the inquiry?",
+        "options": [
+          "To find the true image of God in the mind's 'noblest part,' by which it knows or can know God — a trinity involving nothing 'from without,' unlike the earlier trinities of bodily vision or temporal knowledge",
+          "To catalog every possible sin a human mind might commit, in exhaustive detail",
+          "To prove definitively that the human mind is, in fact, identical in substance to God",
+          "To argue that no image of God can ever actually be found within the human mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states the task plainly: to consider the noblest part of the human mind — that by which it knows or can know God — and find there the image of God, distinguished from the earlier, lesser trinities involving something external or temporally 'adventitious' to the mind."
+      },
+      {
+        "q": "How does Augustine contrast this new trinity (memory, understanding, will regarding SELF) with the earlier trinity of bodily vision (from Book XI)?",
+        "options": [
+          "Unlike bodily vision, where the memory 'receives from without' and the will 'joins from without' the impression of an external object, in this new trinity nothing comes from outside — the mind's self-memory, self-understanding, and self-love involve no external object at all",
+          "He argues both trinities are, in fact, identical in every important respect",
+          "He claims the trinity of bodily vision is actually SUPERIOR to this new, inward trinity",
+          "He denies any meaningful comparison can be drawn between these two trinities"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key contrast: the earlier bodily-vision trinity depended on something external (the seen object) informing memory and being joined by will 'from without'; this new trinity involves the mind's self-directed memory, understanding, and love, with nothing coming from outside the mind itself."
+      },
+      {
+        "q": "How does Augustine distinguish this self-directed trinity from the 'knowledge' trinity (involving things like faith and virtues) discussed in Book XIII?",
+        "options": [
+          "Things like faith and the virtues, though arising WITHIN the mind (not from external objects), still 'began to be' in the mind at some point in time (the mind existed before they did), whereas the mind's self-memory, self-understanding, and self-love have existed as long as the mind itself has existed",
+          "He argues faith and the virtues are, in fact, external objects exactly like bodily things seen with the eyes",
+          "He claims there is, in fact, no meaningful difference between these two kinds of trinities",
+          "He argues the self-directed trinity is inferior to the faith-based trinity of Book XIII"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes: even though faith and virtues arise within (not from outside) the mind, they nonetheless 'began to be' in a mind that existed before them — whereas the mind's self-memory, self-understanding, and self-love have existed continuously since the mind itself began to exist, making them a more fundamental, permanent trinity."
+      }
+    ],
+    "TRIN-B14C9": [
+      {
+        "q": "What question does Augustine raise, citing Cicero's Hortensius, about the cardinal virtues in the blessed afterlife?",
+        "options": [
+          "Whether prudence, fortitude, temperance, and justice — whose present exercise depends on this world's dangers, temptations, and injustices — will still exist in a blessed afterlife where none of those conditions remain",
+          "Whether the virtues are, in fact, entirely fictional constructs with no real existence even in this present life",
+          "Whether only justice, among the four cardinal virtues, has any genuine existence at all",
+          "Whether virtues can be acquired only through formal philosophical education"
+        ],
+        "correct": 0,
+        "explanation": "Augustine raises, via Cicero's Hortensius, the classic question of whether the cardinal virtues — whose exercise in this life depends on facing danger (fortitude), temptation (temperance), choice between good/evil (prudence), and others' claims (justice) — could persist once none of these earthly conditions remain in blessedness."
+      },
+      {
+        "q": "According to Cicero (as Augustine reports him), which virtue is the exception that might be considered 'immortal,' even while the other three seem tied to this present, troubled life?",
+        "options": [
+          "Justice, understood as subjection to the governing rational nature (God) that created all things — Augustine notes this reading would make justice genuinely immortal and perfected, not ceasing, in blessedness",
+          "Prudence, because it deals with abstract reasoning independent of any circumstances",
+          "Temperance, because self-control is inherently an eternal quality",
+          "Fortitude, because courage is considered the highest of all virtues by Cicero"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes Cicero suggests justice, understood as proper subjection to the governing divine nature, might be genuinely immortal, and Augustine agrees this reading would make justice not cease but be perfected, rather than pass away, in the blessed life."
+      },
+      {
+        "q": "How does Augustine suggest the other three cardinal virtues (prudence, fortitude, temperance) might be transformed rather than simply cease in the blessed afterlife?",
+        "options": [
+          "Prudence might become preferring/equaling no good thing to God without any risk of error; fortitude, unshakeable cleaving to God without the vexation of enduring evils; temperance, being pleased by no harmful defect — transformed, higher-order senses of the same virtues, rather than their outright cessation",
+          "He argues all three will simply and completely cease to exist with no transformation whatsoever",
+          "He claims these three virtues will be replaced entirely by an entirely new, unrelated set of virtues",
+          "He denies any possibility of even speculating about this question and refuses to offer any suggestion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine tentatively suggests transformed senses for the other three virtues in blessedness: prudence as preferring nothing to God without error, fortitude as unwavering cleaving to God (without the vexation of present evils), and temperance as being pleased by nothing harmful — surviving in elevated form rather than simply vanishing."
+      }
+    ],
+    "TRIN-B14C10": [
+      {
+        "q": "How does Augustine distinguish the mind's self-knowledge, in terms of timing, from knowledge of external or temporal things (like faith or historical facts)?",
+        "options": [
+          "External/temporal knowables typically precede (or coincide with) the knowledge of them, and the knowledge itself has a beginning distinct from the mind's own existence; but the mind's self-knowledge never began at any point separate from the mind's own beginning — the mind has always remembered, understood, and loved itself since it first existed",
+          "He argues there is, in fact, no meaningful timing difference between these two kinds of knowledge",
+          "He claims the mind's self-knowledge, unlike knowledge of external things, actually PRECEDES the mind's own existence",
+          "He denies that timing has any relevance whatsoever to this discussion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key temporal distinction: unlike external/temporal knowables (which precede or coincide with knowledge of them, itself beginning at some point after the mind already existed), the mind's self-knowledge has no such gap — it has continuously remembered, understood, and loved itself since it first began to exist."
+      },
+      {
+        "q": "What does Augustine say is produced 'more than we have hitherto done' when the mind is 'turned to itself by thought' in this permanent trinity?",
+        "options": [
+          "A genuine 'word' — formed from the mind's own thought about itself, with will uniting both — allowing us to recognize the image of the Trinity 'more than we have hitherto done'",
+          "A completely new and different mind, distinct from the one that existed before the thought occurred",
+          "A physical, bodily transformation visible to external observers",
+          "A permanent and irreversible loss of the mind's prior knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine emphasizes that when the mind turns to itself in thought, it produces a genuine 'word' (self-understanding formed from self-directed thought, united with the mind by will) — a clearer, more developed instance of the Trinity's image than found in earlier, more provisional attempts."
+      },
+      {
+        "q": "Why does Augustine consider this trinity (self-memory, self-understanding, self-will/love) more fundamental than the trinities discussed regarding faith or virtue in earlier books?",
+        "options": [
+          "Because unlike faith or virtue, which 'began to be' in a mind that already existed before them, this trinity of the mind's self-relation has existed continuously since the mind itself began to exist, making it inseparable from the mind's very nature",
+          "Because Augustine claims faith and virtue are, in fact, entirely illusory with no real existence at all",
+          "Because he argues this trinity is easier to understand than the trinities of faith or virtue, though not more fundamental",
+          "Because he claims this trinity was directly revealed by an angel, unlike the others"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's reasoning: since faith and virtue 'began to be' at some point in an already-existing mind, they are contingent, temporal additions; but the mind's self-memory, self-understanding, and self-love have existed as long as the mind itself, making this trinity more fundamental and permanent — a better candidate for the lasting image of God."
+      }
+    ],
+    "TRIN-B14C11": [
+      {
+        "q": "What objection does Augustine address regarding whether 'memory' can properly apply to the mind's knowledge of itself, given that memory is usually said to concern only the PAST?",
+        "options": [
+          "The objection that since memory is technically 'of things past,' it seems wrong to call the mind's CONSTANT, ever-present self-possession 'memory' — Augustine defends the extended usage by appeal to ordinary and even secular literary examples",
+          "The objection that memory does not actually exist as a real mental faculty at all",
+          "The objection that only professional philosophers, not ordinary Christians, can understand the concept of memory",
+          "The objection that memory and understanding are, in fact, completely identical concepts requiring no distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine addresses the objection that 'memory,' properly speaking, concerns only past things, so it seems odd to call the mind's ever-PRESENT self-relation 'memory' — he defends the extended, appropriate usage through examples from ordinary and classical literary language."
+      },
+      {
+        "q": "What quotation from Virgil does Augustine cite to justify calling the mind's constant self-awareness 'memory'?",
+        "options": [
+          "\"Nor did Ulysses suffer such things, nor did the Ithacan forget himself in so great a peril\" — showing that 'not forgetting himself' (i.e., 'remembering himself') can properly describe an ongoing, present self-possession, not just recall of the past",
+          "\"Arms and the man I sing\"",
+          "\"Fortune favors the bold\"",
+          "\"I fear the Greeks, even bearing gifts\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Virgil's line about Ulysses not 'forgetting himself' in danger, arguing this shows 'remembering oneself' can properly describe an ongoing, present state of self-possession, justifying Augustine's extended use of 'memory' for the mind's constant self-relation."
+      },
+      {
+        "q": "How does Augustine's usage of 'memory' here relate to Cicero's stricter three-part division of prudence into memory (past), understanding (present), and forethought (future)?",
+        "options": [
+          "Augustine extends 'memory' beyond Cicero's narrower assignment (memory = past only), applying it also to the mind's constant, ever-present self-possession — a deliberate, justified broadening of the term for his purposes",
+          "Augustine argues Cicero's division is entirely correct and refuses to extend or modify it in any way",
+          "He claims Cicero never actually made any such threefold division of prudence",
+          "He argues this threefold division applies only to non-human, animal minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine acknowledges and deliberately extends beyond Cicero's stricter division (memory strictly for the past, understanding for the present, forethought for the future), justifying his own broader application of 'memory' to the mind's constant, present self-relation."
+      }
+    ],
+    "TRIN-B14C12": [
+      {
+        "q": "What is the book's central thesis, stated in this pivotal chapter, about WHY the mind's self-trinity is the image of God?",
+        "options": [
+          "Not simply because the mind remembers, understands, and loves ITSELF, but specifically because the same mind is capable of remembering, understanding, and loving GOD — actually doing so is what makes the mind truly wise",
+          "Because the mind's self-relation is, in every respect, literally identical to the Trinity's own inner life",
+          "Because the mind's capacity for self-love proves it is superior to all other created things without qualification",
+          "Because the mind's self-trinity was directly revealed through a specific angelic visitation"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's central thesis: the mind's self-directed trinity (remembering, understanding, loving itself) is the image of God not merely in its own self-relation, but crucially because that same capacity extends to remembering, understanding, and loving GOD — and doing so is what constitutes true wisdom."
+      },
+      {
+        "q": "What does Augustine say about the mind that remembers, understands, and loves itself but does NOT do so toward God?",
+        "options": [
+          "Such a mind, even while exercising this trinity toward itself, remains 'foolish' — the trinity alone (self-directed) does not constitute wisdom; only its extension toward God does",
+          "Such a mind is, according to Augustine, automatically and necessarily wise regardless of its relationship to God",
+          "Such a mind cannot actually remember, understand, or love itself in any genuine sense without also relating to God",
+          "Augustine argues this scenario is logically impossible and could never actually occur"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states plainly that a mind can remember, understand, and love itself yet remain 'foolish' if it does not also remember, understand, and love God — the self-directed trinity alone does not constitute wisdom; only its Godward extension does."
+      },
+      {
+        "q": "How does Augustine use the analogy of 'the righteousness of God' (both what God has in Himself and what He gives to the justified sinner) to explain 'the wisdom of man'?",
+        "options": [
+          "Just as 'the righteousness of God' can mean both God's own righteousness AND the righteousness He gives believers, so 'the wisdom of man' is properly wisdom only insofar as it comes from and participates in God's own wisdom — human wisdom apart from this participation is 'vain'",
+          "He argues this analogy fails completely and offers no useful parallel to the discussion of wisdom",
+          "He claims righteousness and wisdom are, in every respect, entirely unrelated theological concepts",
+          "He uses this analogy to argue that human wisdom is, in fact, entirely independent of and unrelated to divine wisdom"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a careful analogy: as 'the righteousness of God' includes both God's own righteousness and the righteousness He grants to justified sinners, so 'the wisdom of man' is genuine wisdom only by participating in and deriving from God's own wisdom — apart from this participation, human 'wisdom' is merely vain."
+      }
+    ],
+    "TRIN-B14C13": [
+      {
+        "q": "What everyday scenario does Augustine use to illustrate how someone can 'forget' another person yet still be capable of remembering them if properly reminded?",
+        "options": [
+          "Someone unrecognized approaches you saying 'You know me,' and offers reminding details (where, when, how you met); if these details still fail to trigger recognition, you have truly and completely forgotten, but if they succeed, you find in your own memory what had not been entirely erased",
+          "A scenario involving a person who has never met anyone else in their entire life",
+          "A scenario where two identical twins are mistaken for each other by everyone they meet",
+          "A scenario where someone deliberately pretends not to recognize an old acquaintance out of spite"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's everyday illustration: being approached by an unrecognized person who offers reminding details, testing whether the memory has been merely dormant (recoverable through reminder) or genuinely, completely erased (unrecoverable even with reminders)."
+      },
+      {
+        "q": "How does Augustine apply this scenario to explain the Psalms' description of 'the wicked... and all the nations that forget God'?",
+        "options": [
+          "These nations have not so entirely forgotten God as to be permanently beyond recovery — they can still be 'reminded' and 'turned unto the Lord,' just as one can be reminded of a genuinely (but not permanently) forgotten acquaintance",
+          "He argues these nations have, in fact, never forgotten God at all, making the Psalm's language merely metaphorical",
+          "He claims these nations are permanently and irrecoverably beyond any possibility of remembering God, with no hope of reminder",
+          "He argues this Psalm passage has no relevance whatsoever to the question of human self-knowledge or memory of God"
+        ],
+        "correct": 0,
+        "explanation": "Augustine applies the reminder-scenario to explain the Psalms' 'nations that forget God': their forgetting is not total or permanent, since Scripture also promises they 'shall be reminded, and turned unto the Lord' — a recoverable, not permanently erased, forgetting."
+      },
+      {
+        "q": "What does Augustine say about the state of those who have 'forgotten God as though forgetting their own life'?",
+        "options": [
+          "He describes them as having 'been turned into death, i.e. into hell,' with reminder and turning to the Lord functioning like 'coming to life again by remembering their proper life which they had forgotten'",
+          "He argues such people are, in fact, in no worse spiritual condition than those who actively remember God",
+          "He claims this forgetting has no negative consequences whatsoever for the person's spiritual life",
+          "He denies that forgetting God can ever be meaningfully compared to a kind of death"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a striking parallel between forgetting God and spiritual death: those who forget God 'as though forgetting their own life' have been 'turned into death,' and being reminded and turned back to God is like 'coming to life again' by recovering what was forgotten."
+      }
+    ],
+    "TRIN-B14C14": [
+      {
+        "q": "How does Augustine argue that failing to love God amounts, in effect, to 'hating' oneself?",
+        "options": [
+          "Since one's true good is found only in God, someone who does not love God, though naturally still loving themselves in some sense, effectively 'wills ill to itself' and acts as 'its own enemy' by pursuing what actually harms them — this counts as a kind of self-hatred, even if unintentional",
+          "He argues that all self-love, in every case and without exception, is itself always a form of hatred toward God",
+          "He claims it is logically and psychologically impossible for anyone to ever fail to love God",
+          "He argues that failing to love God has no negative bearing whatsoever on one's relationship to oneself"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: since true good for the mind is found only in God, one who fails to love God, even while naturally loving themselves, ends up pursuing what is actually harmful to themselves — effectively 'hating' themselves through this self-destructive pattern, even without conscious malicious intent."
+      },
+      {
+        "q": "What memorable image from a poet does Augustine cite of animals harming themselves through a kind of 'delusion'?",
+        "options": [
+          "Animals afflicted with a disease 'rending with bare teeth their own torn limbs' — a physical illustration of self-directed harm despite the natural instinct for self-preservation",
+          "A bird building an elaborate nest that is destroyed by the first storm",
+          "A fish swimming persistently against a strong current with no apparent purpose",
+          "A dog burying a bone and later being unable to find it again"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites a poetic image of diseased animals 'rending with bare teeth their own torn limbs' — a vivid physical parallel for how a mind, despite naturally desiring its own good, can turn against and harm itself through misdirected love apart from God."
+      },
+      {
+        "q": "What does Augustine say a weak, erring, sin-darkened mind never loses, even amid its worst confusion?",
+        "options": [
+          "Its natural memory, understanding, and love of ITSELF — even severely weakened and darkened, it never entirely loses this basic self-relation, which remains the very capacity by which it can potentially be turned back toward God",
+          "Its complete and total access to unlimited divine grace regardless of its own choices",
+          "Its perfect, error-free understanding of theology and philosophy",
+          "Its immunity from all further sin or moral failure once this basic capacity is recognized"
+        ],
+        "correct": 0,
+        "explanation": "Augustine insists that even a weak, erring, sin-darkened mind never loses its natural memory, understanding, and love of ITSELF — this basic self-relation persists as the very capacity that makes possible the mind's eventual turning back toward God, however far it has fallen."
+      }
+    ],
+    "TRIN-B14C15": [
+      {
+        "q": "Does Augustine claim the soul actually REMEMBERS a lost state of prior blessedness (as in a pre-existence), as its basis for hoping for future blessedness?",
+        "options": [
+          "No — he explicitly denies this, saying the soul 'does not remember its own blessedness' (that has been utterly forgotten), and instead only BELIEVES what trustworthy Scripture tells of Paradise; its hope is grounded instead in its ineffaceable memory of God Himself",
+          "Yes — he argues the soul has a direct, unforgettable memory of a specific prior blessed existence before this life",
+          "He claims the soul has no capacity for hope of any kind, making the question moot",
+          "He argues this question cannot be meaningfully addressed and refuses to take any position"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly denies the soul retains actual memory of a prior blessed state (unlike Plato's recollection theory, already rejected in Book XII); rather, it only BELIEVES Scripture's account of Paradise, while its hope is grounded in its unforgotten, ever-present memory of God Himself."
+      },
+      {
+        "q": "How does Augustine argue even the UNGODLY, who don't live rightly, still recognize unchangeable moral standards?",
+        "options": [
+          "The ungodly 'rightly blame and rightly praise many things in the morals of men' by rules they see not in their own changeable, unrighteous minds, but as 'impressed' from the one unchangeable Book of Truth 'as the impression from a ring passes into the wax, yet does not leave the ring'",
+          "He argues the ungodly, in fact, have no genuine moral judgment whatsoever, contrary to appearances",
+          "He claims the ungodly derive their moral standards purely from arbitrary social convention with no deeper source",
+          "He argues only the godly, never the ungodly, are capable of any moral judgment at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues even the ungodly recognize and apply unchangeable moral standards (praising/blaming rightly) that cannot come from their own changeable, unrighteous minds, but must be 'impressed' upon their hearts from the one unchangeable Book of eternal Truth — like a ring's seal transferred to wax without leaving the ring."
+      },
+      {
+        "q": "What distinction does Augustine draw between one who 'sees how he ought to work' but doesn't, and one who 'does not even see' how he ought to live?",
+        "options": [
+          "The first sins 'with less excuse' as a knowing 'transgressor,' being 'turned away from that light' he does perceive; the second sins 'with more excuse' since he is not knowingly transgressing a law he recognizes, though even he is sometimes 'touched by the splendor' of truth when confronted",
+          "He argues both are equally guilty in every respect, with no meaningful distinction between them",
+          "He claims only the second person (who doesn't see how he ought to live) bears any moral responsibility at all",
+          "He argues neither person bears any real moral responsibility since both, in some sense, lack full moral knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes the knowing 'transgressor' (who sees the right way but is 'turned away' from it, sinning with less excuse) from the person who genuinely doesn't perceive the right way at all (sinning with more excuse, though even he can be 'touched' by truth's splendor when confronted with it)."
+      }
+    ],
+    "TRIN-B14C16": [
+      {
+        "q": "How does Augustine explain Paul's phrase 'renewed in the spirit of your mind... after the image of Him that created him,' clarifying it does not refer to TWO separate things (spirit vs. mind)?",
+        "options": [
+          "'Spirit of the mind' simply means 'the spirit that IS mind' — since 'all mind is spirit, but not all spirit is mind' (spirit can also mean the soul generally, or wind, etc.), Paul specifies which kind of spirit he means, not introducing a second, distinct faculty",
+          "He argues 'spirit' and 'mind' are, in Paul's usage, entirely unrelated concepts with no connection whatsoever",
+          "He claims this phrase actually refers to three separate things: spirit, mind, and body, treated as a trinity",
+          "He denies this phrase has any coherent meaning and dismisses it as a scribal corruption"
+        ],
+        "correct": 0,
+        "explanation": "Augustine clarifies that since 'spirit' has many senses (soul generally, wind, even 'the spirit of a beast'), Paul's phrase 'spirit of the mind' simply picks out which kind of spirit he means — the spirit that IS mind — not introducing a second, distinct faculty alongside the mind."
+      },
+      {
+        "q": "What parallel example from Paul's other writings does Augustine use to support this reading (avoiding a false 'two things' interpretation)?",
+        "options": [
+          "'Putting off the body of the flesh' — which similarly does not mean two separate things (body and flesh), but specifies which kind of body Paul means (the fleshly one), since 'body' can also refer to celestial or other bodies",
+          "'Faith, hope, and love' — treated as strictly synonymous terms with no real distinction",
+          "'Neither Jew nor Greek' — used to argue ethnic distinctions have no bearing on Paul's theology generally",
+          "'The old man and the new man' — used to prove Paul believed in two entirely separate souls per person"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Paul's parallel phrase 'putting off the body of the flesh' (Colossians 2:11) as a similar case: not two things (body and flesh), but specifying WHICH kind of body (the fleshly one, since 'body' can refer to many things, including celestial bodies) — supporting his reading of 'spirit of the mind.'"
+      },
+      {
+        "q": "What does Augustine conclude about whether the renewal 'after the image of Him that created him' refers to a DIFFERENT image than the one already possessed?",
+        "options": [
+          "He concludes it is NOT a different image, but the very SAME image (already present, though defaced) being restored/renewed to its proper likeness — the renewal happens IN the mind that already bears God's image, not into some new, different image",
+          "He argues it refers to an entirely new and different image, replacing the original one given at creation",
+          "He claims this question cannot be resolved and leaves it deliberately ambiguous",
+          "He argues 'image' here refers exclusively to physical, bodily resemblance to Christ"
+        ],
+        "correct": 0,
+        "explanation": "Augustine concludes the renewal is not into a different image but is the restoration of the very SAME image (God's image in the mind, already present though defaced by sin) being renewed to its proper, undefaced likeness — not the introduction of a new image."
+      }
+    ],
+    "TRIN-B14C17": [
+      {
+        "q": "How does Augustine distinguish the instantaneous forgiveness of sins in baptism from the gradual process of the image's renewal?",
+        "options": [
+          "Like removing a weapon from a wound (instantaneous) versus the wound's subsequent healing (gradual) — baptism instantly removes the guilt of ALL sins, but healing the resulting 'infirmity' (the lasting effects/tendencies of sin) happens gradually, 'by making progress in the renewal of that image'",
+          "He argues both baptism's forgiveness and the image's renewal happen simultaneously and instantaneously with no distinction",
+          "He claims baptism itself has no real spiritual effect and only the gradual process matters",
+          "He argues the gradual renewal process must be completed BEFORE baptism can take effect"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's medical analogy: baptism instantly removes sin's guilt (like removing an embedded weapon), but healing the lingering 'infirmity' caused by sin (the actual renewal of the image) is a gradual, lifelong process of daily progress, distinct from the instantaneous forgiveness."
+      },
+      {
+        "q": "What Psalm text does Augustine cite to show this two-stage pattern (forgiveness, then gradual healing) scripturally?",
+        "options": [
+          "\"Who forgives all your iniquities\" (instantaneous, in baptism), followed by \"and heals all your infirmities\" (gradual, by daily progress)",
+          "\"The Lord is my shepherd; I shall not want\"",
+          "\"Create in me a clean heart, O God\"",
+          "\"I will lift up my eyes unto the hills\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites this Psalm's two-part structure — 'who forgives all your iniquities' (instant, in baptism) followed by 'and heals all your infirmities' (gradual, through daily renewal) — as scriptural support for his two-stage account of forgiveness and healing."
+      },
+      {
+        "q": "According to Augustine, when will this gradual renewal of the image finally be completed?",
+        "options": [
+          "Only when 'the sight of God shall be perfected' — the final, unmediated 'face to face' vision of God, which perfects the likeness of God in this image, following Paul's 'now we see through a glass, in an enigma, but then face to face'",
+          "It will be completed automatically at the exact moment of physical birth",
+          "It will be completed the moment a person first hears the Gospel preached",
+          "Augustine argues this renewal, in fact, can never be fully completed under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine specifies the renewal's completion coincides with the perfection of the vision of God itself — the future 'face to face' sight, contrasted with the present partial vision 'through a glass, in an enigma,' at which point the divine likeness will be fully perfected."
+      }
+    ],
+    "TRIN-B14C18": [
+      {
+        "q": "What alternative interpretation of John's 'we shall be like Him, for we shall see Him as He is' does Augustine consider in this chapter?",
+        "options": [
+          "That this refers specifically to the future IMMORTALITY OF THE BODY, conforming believers to the image of the SON specifically (not the whole Trinity), since only the Son took on a body that died and rose, making bodily immortality a likeness to Him alone among the three Persons",
+          "That this verse refers exclusively to angelic beings, not to redeemed humans at all",
+          "That this verse has already been completely and finally fulfilled at the moment of the Incarnation",
+          "That this verse refers only to a purely symbolic, non-literal transformation with no real change involved"
+        ],
+        "correct": 0,
+        "explanation": "Augustine considers whether John's promise refers to future bodily immortality specifically, conforming believers to the image of the SON alone (since only He, among the Trinity, took a body that died and rose) — a possible, though ultimately not his preferred, reading, addressed in the next chapter."
+      },
+      {
+        "q": "What Pauline text does Augustine cite regarding believers being 'predestinated to be conformed to the image of His Son'?",
+        "options": [
+          "Romans 8:29's 'Whom He did foreknow, He also did predestinate to be conformed to the image of His Son, that He might be the first-born among many brethren'",
+          "1 Corinthians 13's 'Love is patient, love is kind'",
+          "Galatians 5's 'The fruit of the Spirit is love, joy, peace'",
+          "Ephesians 6's 'Put on the whole armor of God'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Romans 8:29 ('whom He did foreknow, He also did predestinate to be conformed to the image of His Son, that He might be the first-born among many brethren') as support for the possibility that bodily conformity to Christ's image is specifically in view."
+      },
+      {
+        "q": "How does Augustine connect this potential bodily-immortality reading to Paul's 'as we have borne the image of the earthy, so shall we also bear the image of the heavenly'?",
+        "options": [
+          "He connects it to the hope that just as we are now mortal 'after Adam' (bearing the earthy image), so we shall be immortal 'after Christ' (bearing the heavenly image) — a hope held now 'in faith,' not yet 'in sight,' concerning the future resurrection of the body",
+          "He argues this Pauline text is entirely unrelated to any question about resurrection or bodily transformation",
+          "He claims this text proves believers will become identical to Christ in every conceivable respect, including divine nature",
+          "He denies that Paul is discussing the resurrection at all in this passage"
+        ],
+        "correct": 0,
+        "explanation": "Augustine connects this reading to 1 Corinthians 15's image of bearing 'the image of the earthy' (mortal, after Adam) now and hoping to bear 'the image of the heavenly' (immortal, after Christ) in the future — a hope held by faith now, awaiting the actual bodily resurrection."
+      }
+    ],
+    "TRIN-B14C19": [
+      {
+        "q": "Which interpretation does Augustine ultimately favor for John's 'we shall be like Him,' and why?",
+        "options": [
+          "He favors reading it as our future perfected likeness to the WHOLE TRINITY (not the Son alone), since Genesis says man was made 'after OUR image' (not 'my' or 'your'), pointing to the Trinity as a whole as the pattern for the image man bears",
+          "He favors the bodily-immortality-alone reading discussed in the previous chapter, rejecting any reference to the whole Trinity",
+          "He argues no definitive interpretation is possible and the question must remain permanently unresolved",
+          "He favors an interpretation involving only the Holy Spirit, excluding both Father and Son"
+        ],
+        "correct": 0,
+        "explanation": "Augustine ultimately favors reading John's promise as referring to the mind's perfected likeness to the WHOLE TRINITY, grounding this in Genesis's plural 'after OUR image' (not 'my' or 'your'), which points to the Trinity as a whole as the pattern for humanity's created image."
+      },
+      {
+        "q": "What does Augustine say about the timing of the mind's perfection versus the body's resurrection, based on 1 Corinthians 15's 'twinkling of an eye'?",
+        "options": [
+          "The BODY's immortality is perfected instantly, 'in the twinkling of an eye, at the last trump'; but the MIND's renewal (in knowledge of God) has been progressing gradually 'from day to day,' to be perfected fully only by the final, unmediated 'face to face' vision after judgment",
+          "He argues both the body's resurrection and the mind's perfection occur at exactly the same instantaneous moment, with no distinction",
+          "He claims the mind's perfection actually occurs before the body's resurrection, by several years",
+          "He denies any connection between 1 Corinthians 15 and the question of the mind's renewal"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes the instantaneous nature of bodily resurrection ('in the twinkling of an eye') from the gradual, day-by-day renewal of the mind's knowledge of God, with the mind's renewal reaching its own perfection only at the final 'face to face' vision after judgment."
+      },
+      {
+        "q": "What criticism does Augustine level at Cicero's Hortensius regarding the philosopher's hoped-for 'pleasant setting' if the soul turns out to be mortal?",
+        "options": [
+          "Augustine marvels that Cicero would promise a 'pleasant setting' (peaceful extinction) to those devoted to philosophy IF the soul is mortal — as if what one truly loved (wisdom/philosophy) becoming nothing could ever be pleasant, revealing Cicero's inconsistency and the insufficiency of philosophy alone (without faith in the Mediator) for wretched, mortal humanity",
+          "Augustine argues Cicero's Hortensius contains no philosophical merit whatsoever and should be entirely disregarded",
+          "Augustine claims Cicero explicitly rejected the idea of the soul's immortality throughout his career",
+          "Augustine argues this criticism has no bearing whatsoever on his own broader argument about faith and the Mediator"
+        ],
+        "correct": 0,
+        "explanation": "Augustine critiques Cicero's odd promise (in Hortensius) that pursuing philosophy would yield a 'pleasant setting' even if the soul proves mortal — arguing this is inconsistent, since the annihilation of what one truly loves (wisdom itself) could never be genuinely pleasant, illustrating why philosophy's love of truth, however admirable, is insufficient without faith in the Mediator for wretched, mortal humanity."
+      }
+    ],
+    "TRIN-B15C1": [
+      {
+        "q": "What task does Augustine explicitly set for Book XV, the final book of the work?",
+        "options": [
+          "To demonstrate, not only to believers by scriptural authority but to those who understand by reason if possible, whether the nature above the human mind — God, the uncreated Creator — is indeed the Trinity",
+          "To catalog every heresy condemned by prior Church councils in exhaustive detail",
+          "To provide a complete, verse-by-verse commentary on the entire Gospel of John",
+          "To argue that the human mind is, in fact, identical in nature to God"
+        ],
+        "correct": 0,
+        "explanation": "Augustine states the book's task plainly: having reached the mind as God's image, he now aims to show — by reason as well as scriptural authority — that the nature above this image, God Himself, is indeed the Trinity."
+      },
+      {
+        "q": "What term does Augustine use to distinguish the human 'mind' from the broader 'soul,' which is shared with beasts?",
+        "options": [
+          "'Mind' names what excels specifically in man and is 'not in the beast,' distinguishing it from 'soul,' which beasts also possess",
+          "He argues 'mind' and 'soul' are, in his usage, perfectly synonymous terms with no distinction",
+          "He claims beasts, in fact, possess a 'mind' in exactly the same sense that humans do",
+          "He argues only angels, never humans or beasts, can properly be said to have a 'mind'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that Latin writers distinguish 'mind' (what excels in man specifically, not found in beasts) from 'soul' (which beasts also possess), following this usage as he approaches the culmination of his search for God's image."
+      },
+      {
+        "q": "How does Augustine characterize God in contrast to the human mind at the start of this final book?",
+        "options": [
+          "God is 'a nature not created, but creating' — above the human mind, which, however excellent, remains a created nature",
+          "He argues God and the human mind are, in fact, equally uncreated and eternal",
+          "He claims God is simply the sum total of all created minds combined",
+          "He denies any meaningful distinction can be drawn between God and the human mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine characterizes the boundary he is now crossing: anything genuinely above the mind's own created nature must be God — 'a nature not created, but creating' — setting up the book's final ascent toward the Trinity itself."
+      }
+    ],
+    "TRIN-B15C2": [
+      {
+        "q": "How does Augustine reconcile the Psalm's command to 'seek His face evermore' with Isaiah's promise that God 'can be found when He is sought'?",
+        "options": [
+          "God, though genuinely incomprehensible, truly CAN be found — but since He remains ultimately incomprehensible even when found, the search itself continues and deepens, becoming sweeter the more one has already found, as Ecclesiasticus says of Wisdom: 'they who eat me shall still be hungry'",
+          "He argues these two texts flatly contradict each other with no possible resolution",
+          "He claims God can never actually be found in any sense, making Isaiah's promise entirely metaphorical",
+          "He argues 'evermore' in the Psalm refers only to a specific limited time period, not perpetual seeking"
+        ],
+        "correct": 0,
+        "explanation": "Augustine resolves the apparent tension: God, though truly findable (per Isaiah), remains incomprehensible even when found, so the 'seeking' continues and deepens even after 'finding' — captured in Ecclesiasticus's image of eating and drinking Wisdom yet remaining hungry and thirsty for more."
+      },
+      {
+        "q": "How does Augustine relate faith and understanding, citing the prophetic warning 'unless you believe, you shall not understand'?",
+        "options": [
+          "\"Faith seeks, understanding finds\" — yet even understanding, once it has found God, continues seeking Him further, since faith is the necessary starting point that then leads toward (but never exhausts) understanding",
+          "He argues faith and understanding are entirely unrelated and can be pursued independently of each other",
+          "He claims only understanding matters; faith is dismissed as an inferior, unnecessary stage",
+          "He argues understanding must come before faith is even possible in any case"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's formula: 'faith seeks, understanding finds' — but even having found through understanding, one continues seeking, since understanding does not exhaust or replace the ongoing search that faith initiates."
+      },
+      {
+        "q": "How does Augustine defend, using the Book of Wisdom, his long journey through many creaturely 'trinities' before reaching the mind of man?",
+        "options": [
+          "He cites Wisdom's rebuke of those who fail to recognize the Creator through 'the good things that are seen' and its teaching that 'by the greatness and beauty of the creatures proportionably the Maker of them is seen' — justifying his step-by-step ascent through creation as a legitimate, non-arbitrary path toward glimpsing God",
+          "He argues this defense is unnecessary since no reader could possibly object to his method",
+          "He claims Wisdom explicitly forbids seeking God through any created thing whatsoever",
+          "He dismisses the entire prior fourteen books as an unnecessary detour with no real justification"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the Book of Wisdom's teaching that the Creator is seen 'by the greatness and beauty of the creatures proportionably' to defend his extended method of seeking traces of the Trinity progressively through creation, culminating in the human mind."
+      }
+    ],
+    "TRIN-B15C3": [
+      {
+        "q": "According to Augustine's recap, what was the primary achievement of Books I through IV?",
+        "options": [
+          "Showing the unity and equality of the Trinity from Holy Scripture, and demonstrating that the Son and Spirit being 'sent' does not make them less than the Father who sends, since the equal, unchangeable Trinity works indivisibly",
+          "Establishing the psychological trinity of memory, understanding, and will as the definitive image of God",
+          "Refuting Plato's theory of the soul's pre-existence and recollection of knowledge",
+          "Cataloging the various heresies condemned at the Council of Nicaea in exhaustive detail"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's recap identifies Books I-IV's main achievement as establishing the Trinity's scriptural unity and equality, with special attention (across three books) to showing that the Son and Spirit's being 'sent' does not imply inferiority, since the equal Trinity works indivisibly."
+      },
+      {
+        "q": "According to Augustine's recap, what happened progressively in Books IX through XIV regarding the search for God's image in the mind?",
+        "options": [
+          "Book IX found mind/self-knowledge/self-love; Book X refined this to memory/understanding/will; Books XI-XIII explored lesser trinities (outer man, knowledge, faith) not yet the true image; and Book XIV finally located the true image in remembering, understanding, and loving GOD specifically",
+          "Each of these six books, according to the recap, covered entirely unrelated and disconnected topics",
+          "Books IX-XIV, in Augustine's own recap, are dismissed as having contributed nothing of lasting value",
+          "The recap claims the true image of God was already fully established in Book IX with no further development needed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's recap traces the progressive refinement: Book IX's mind/knowledge/love, Book X's more precise memory/understanding/will, Books XI-XIII's exploration of lesser (non-image) trinities, and Book XIV's culminating discovery that true wisdom — and the genuine image — requires remembering, understanding, and loving GOD, not merely oneself."
+      },
+      {
+        "q": "What does Augustine's recap say about Book VIII's contribution to the overall argument?",
+        "options": [
+          "It showed, by reason, that no two (or all three) Persons together are anything greater than any one Person alone, and began to discern, through truth, goodness, righteousness, and above all love, a first faint trinity: 'one that loves, and that which is loved, and love'",
+          "It focused exclusively on refuting the Sabellian heresy with no other content",
+          "It is described as contributing nothing substantive to the book's overall argument",
+          "It dealt primarily with the historical circumstances of the Council of Nicaea"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's recap credits Book VIII with the rational demonstration that no combination of Persons exceeds any one alone, and with the first dawning discernment of a trinity — 'one that loves, and that which is loved, and love' — via truth, goodness, and righteousness."
+      }
+    ],
+    "TRIN-B15C4": [
+      {
+        "q": "How does Augustine argue that the created universe itself, independent of Scripture, points toward God's supreme nature?",
+        "options": [
+          "The universe teaches us, via natural reason, to rank living above non-living, sensing above non-sensing, immortal above mortal, righteous above unrighteous, and so on — and since we necessarily place the Creator above all created things, we must confess Him to be supremely living, understanding, immortal, unchangeable spirit",
+          "He argues the created universe provides no evidence whatsoever about God's nature, making Scripture the only source",
+          "He claims the universe teaches the opposite ranking, placing non-living things above living ones",
+          "He argues natural reason is entirely unreliable and should be disregarded in theological matters"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that natural reason, reflecting on the universe's own hierarchy of goods (living over non-living, sensing over non-sensing, etc.), leads necessarily to placing the Creator above all these ranked goods — as supremely living, understanding, immortal, unchangeable spirit."
+      },
+      {
+        "q": "What list of paired comparisons does Augustine offer as evidence of this natural, reason-given ranking?",
+        "options": [
+          "Living things over non-living, sensing over non-sensing, understanding over non-understanding, immortal over mortal, powerful over impotent, righteous over unrighteous, beautiful over deformed, good over evil, incorruptible over corruptible, unchangeable over changeable, invisible over visible, incorporeal over corporeal, blessed over miserable",
+          "Only a single comparison: rich over poor, with no other pairs offered",
+          "Only comparisons relating to physical size and strength",
+          "A list of exclusively aesthetic comparisons with no moral or metaphysical content"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers an extensive list of paired natural rankings (living/non-living, sensing/non-sensing, immortal/mortal, righteous/unrighteous, beautiful/deformed, and more) as the basis for reason's ascent to recognizing the supreme excellence of the Creator."
+      },
+      {
+        "q": "What conclusion about God's nature does Augustine draw from this hierarchy of created goods?",
+        "options": [
+          "That the Creator 'lives in the highest sense, and perceives and understands all things,' cannot die or decay or change, and 'is not a body, but a spirit' of supreme power, righteousness, beauty, goodness, and blessedness",
+          "That God is, in fact, a physical body of the highest and most refined material substance",
+          "That God is subject to the same processes of change and decay as created things, only more slowly",
+          "That this hierarchy tells us nothing definite about God's nature at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine concludes from the created hierarchy that the Creator, standing above all these ranked goods, must be supremely living, understanding, immortal, unchangeable — 'not a body, but a spirit' of the highest power, righteousness, beauty, goodness, and blessedness."
+      }
+    ],
+    "TRIN-B15C5": [
+      {
+        "q": "How does Augustine reduce the many divine attributes he has listed to a smaller, more manageable set?",
+        "options": [
+          "He groups twelve attributes into three clusters of four (eternal/immortal/incorruptible/unchangeable; living/wise/powerful/beautiful; righteous/good/blessed/spirit), noting all four in each group 'have one meaning' in God's absolute simplicity, then selects one representative term from each group",
+          "He argues no meaningful reduction or grouping of these attributes is possible",
+          "He reduces the attributes to a completely different, unrelated set of new terms not mentioned before",
+          "He claims all divine attributes are, in fact, entirely distinct with no overlap or unity whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine organizes twelve attributes into three groups of four (each group united by synonymy in God's simplicity: eternal/immortal/incorruptible/unchangeable, living/wise/powerful/beautiful, righteous/good/blessed/spirit), then selects one representative term from each group to simplify the discussion."
+      },
+      {
+        "q": "Which three representative terms does Augustine ultimately select from his groupings, and why does he choose 'blessed' from the third group?",
+        "options": [
+          "Eternal, wise, and blessed — 'blessed' is chosen because, unlike 'spirit' alone, being truly blessed in a human being necessarily entails also being righteous, good, AND a spirit, making it uniquely comprehensive among the third group's options",
+          "He selects power, beauty, and goodness, choosing these for their aesthetic appeal alone",
+          "He selects incorruptible, immortal, and unchangeable, treating these as an entirely separate, fourth category",
+          "He explicitly refuses to select any representative terms, leaving all twelve attributes equally weighted"
+        ],
+        "correct": 0,
+        "explanation": "Augustine settles on 'eternal,' 'wise,' and 'blessed' as his three representative terms, explaining that 'blessed' is chosen from the third group because in human beings (unlike God), being truly blessed necessarily requires also being righteous, good, and a spirit, making it a uniquely comprehensive choice."
+      },
+      {
+        "q": "Why does Augustine choose 'wise' rather than 'living' or 'powerful' from the second group of four attributes?",
+        "options": [
+          "Because 'life' belongs even to beasts (which lack wisdom), and Scripture itself ranks wisdom above mere strength/power ('better is he that is wise than he that is strong'), making wisdom the more distinctive and comprehensive choice among that group",
+          "He selects 'wise' purely arbitrarily, with no stated reason whatsoever",
+          "Because he argues 'living' and 'powerful' are, in fact, entirely inapplicable to God's nature",
+          "Because 'wise' was the term used by the most ancient Latin translators, with no other justification given"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains his choice of 'wise': mere 'life' is shared even by beasts lacking wisdom, while Scripture itself ranks wisdom above strength/power ('better is he that is wise than he that is strong'), making 'wise' the more distinctive and fitting representative term from that group."
+      }
+    ],
+    "TRIN-B15C6": [
+      {
+        "q": "Having reduced God's attributes to 'eternal, wise, blessed,' what further reduction does Augustine consider, and what question does this raise?",
+        "options": [
+          "He considers whether even these three might reduce further to a single term (since, e.g., wisdom and blessedness might be 'one and the same thing' in God's simple nature), raising the pressing question: how can even a SINGLE divine attribute, like 'wisdom,' itself be shown to constitute a genuine Trinity?",
+          "He considers reducing the three terms to an entirely different, unrelated set of four new terms",
+          "He argues no further reduction of any kind is conceptually possible or worth considering",
+          "He reduces the three terms specifically to 'power' alone, dismissing 'eternal' and 'blessed' entirely"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that in God's simplicity, even 'eternal, wise, blessed' might reduce to one (since wisdom and blessedness, for instance, could be 'one and the same thing' in God), raising the sharper question of how a single attribute like wisdom itself can be shown to be a genuine Trinity."
+      },
+      {
+        "q": "How does Augustine use the analogy of the human mind's wisdom to argue that God's own Wisdom must involve a trinity?",
+        "options": [
+          "Just as a human mind cannot be wise without both KNOWING and LOVING itself, so the divine Wisdom, to be Wisdom at all, must similarly know itself and love itself — yielding a trinity of Wisdom, Wisdom's self-knowledge, and Wisdom's self-love",
+          "He argues the human mind's wisdom provides no useful analogy whatsoever for understanding God's Wisdom",
+          "He claims God's Wisdom, unlike human wisdom, requires no self-knowledge or self-love of any kind",
+          "He uses this analogy to argue that God's Wisdom is, in fact, identical to human wisdom in every respect"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key analogical argument: since a human mind cannot be truly wise without knowing itself and loving itself (established earlier, in Book IX), the divine Wisdom itself, to genuinely BE wisdom, must likewise know itself and love itself — a trinity: Wisdom, its self-knowledge, its self-love."
+      },
+      {
+        "q": "According to this chapter, at what point in the earlier books did a trinity 'first begin to show itself' to the reader's understanding?",
+        "options": [
+          "In Book VIII, when discussing the unchangeable good and, especially, when treating love (called God in Scripture), a trinity 'began to dawn' — one that loves, that which is loved, and love — though the reader's mind, unable to sustain this direct gaze, then turned to the more familiar consideration of its own created nature (Books IX-XIV)",
+          "In Book I, immediately upon opening the work, with no further development needed",
+          "Only in this very chapter of Book XV, with no anticipation in any earlier book",
+          "In Book XIII, specifically in the discussion of faith and blessedness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine traces the trinity's first dawning to Book VIII's discussion of the unchangeable good and, especially, love — 'one that loves, that which is loved, and love' — before the mind, unable to sustain that direct contemplation, turned to the more accessible consideration of its own created nature in the books that followed."
+      }
+    ],
+    "TRIN-B15C7": [
+      {
+        "q": "What key structural disanalogy does Augustine identify between the human trinity (mind, self-knowledge, self-love) and God's Trinity?",
+        "options": [
+          "These three things are IN man, or BELONG to man, but 'are not themselves man' — whereas in God, the Trinity is not something belonging to God distinct from God Himself; rather, the Trinity simply IS God, entirely and completely",
+          "He argues there is, in fact, no meaningful structural difference between these two trinities",
+          "He claims the human trinity is actually MORE unified and indivisible than the divine Trinity",
+          "He argues this disanalogy applies only to some human beings, not to all of them equally"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key structural point: mind, self-knowledge, and self-love are things a human being HAS or that belong to him, not identical with 'the man' himself; but in God, the Trinity is not something possessed by God distinct from Himself — the Trinity simply and entirely IS God."
+      },
+      {
+        "q": "Why does Augustine reject the idea that, within the Trinity, the Son might 'understand for' the Father (as if the Father's understanding came through the Son)?",
+        "options": [
+          "Because this would collapse back into the very Arian-adjacent error already refuted in Book VII — that the Father is not wise 'from Himself' but only from the Son, making the Son the cause of the Father's wisdom rather than sharing it as equally begotten Wisdom of Wisdom",
+          "Because Augustine argues the Son, in fact, has no capacity for understanding at all",
+          "Because he claims this idea has never actually been proposed by anyone, making the refutation unnecessary",
+          "Because he argues understanding and memory are, in fact, entirely unrelated to the question of divine wisdom"
+        ],
+        "correct": 0,
+        "explanation": "Augustine rejects any model where one Person 'understands for' another because this reintroduces the absurdity refuted in Book VII: making the Father's wisdom dependent on and caused by the Son, rather than the Father being wise in Himself and begetting a Son who is equally, independently 'Wisdom of Wisdom.'"
+      },
+      {
+        "q": "What does Augustine conclude each divine Person must be, in Himself, to avoid this Arian-adjacent error?",
+        "options": [
+          "Each divine Person (Father, Son, and Holy Spirit) must be, entirely in Himself, His own complete memory, understanding, and love — not relying on another Person to supply any of these three for Him",
+          "He concludes only the Father possesses memory, understanding, and love, while the Son and Spirit lack these entirely",
+          "He concludes the three Persons must share a single, undivided memory, understanding, and love distributed piecemeal among them",
+          "He concludes this question cannot be resolved and abandons the inquiry entirely"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution: each divine Person — Father, Son, and Holy Spirit — must be, in Himself, His own complete memory, understanding, and love, rather than depending on another Person to supply any of these three, preserving full, equal divinity in each."
+      }
+    ],
+    "TRIN-B15C8": [
+      {
+        "q": "How does Augustine clarify Paul's 'we see now through a glass' by appealing to the underlying Greek word?",
+        "options": [
+          "He notes that in Greek, 'glass' (mirror, speculum) is a completely different word from 'watchtower' (specula) — an ambiguity present in Latin but not Greek — confirming Paul meant a MIRROR (in which images are seen), not a distant vantage point",
+          "He argues the Greek and Latin terms are, in fact, completely identical with no distinction to draw",
+          "He claims Paul actually meant 'watchtower,' not 'mirror,' correcting a supposed mistranslation",
+          "He argues this linguistic point has no bearing whatsoever on the interpretation of the passage"
+        ],
+        "correct": 0,
+        "explanation": "Augustine resolves a Latin ambiguity ('speculum'/mirror vs. 'specula'/watchtower, not distinguished as clearly in Latin) by noting the Greek text clearly indicates Paul meant a MIRROR — confirming his 'image' interpretation of seeing God through ourselves as through a glass."
+      },
+      {
+        "q": "What does Augustine say 'the same image' refers to in Paul's 'we are transformed into the same image, from glory to glory'?",
+        "options": [
+          "The very image of God that we see reflected in the mirror (ourselves) — which Paul elsewhere calls the 'glory' of God present even in human nature as such, since man 'is the image and glory of God'",
+          "He argues 'the same image' refers exclusively to a physical portrait or statue of Christ",
+          "He claims this phrase refers to the image of the Roman emperor stamped on coins",
+          "He denies any connection between this phrase and the broader theme of humanity as God's image"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies 'the same image' as the very image of God reflected in the mirror (ourselves), connecting it to Paul's other statement that man 'is the image and glory of God' — the same image, whether defaced by sin or renewed by grace."
+      },
+      {
+        "q": "How does Augustine interpret the progression 'from glory to glory' in this Pauline text?",
+        "options": [
+          "As progressing from the glory of mere CREATION (bearing God's image simply by being human) to the glory of JUSTIFICATION (being renewed from ungodliness) — though he notes other valid readings, e.g., from faith's glory to sight's glory",
+          "He argues 'from glory to glory' has no theological content and is merely a rhetorical flourish",
+          "He claims this phrase refers exclusively to the physical transfiguration of Christ on the mountain",
+          "He argues this phrase describes only a single, instantaneous transformation with no ongoing progression"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers a primary reading of 'from glory to glory' as progressing from the glory of mere creation (bearing God's image by nature) to the glory of justification (renewal from ungodliness), while acknowledging other valid readings (faith to sight, sonship to full likeness)."
+      }
+    ],
+    "TRIN-B15C9": [
+      {
+        "q": "How does Augustine technically define 'enigma' in relation to the broader category of 'allegory'?",
+        "options": [
+          "An enigma is a SPECIES of the broader genus 'allegory' (itself meaning 'one thing understood from another') — specifically, an OBSCURE allegory, as distinguished from a plain, easily-understood allegory (like Paul's sleep/darkness imagery in Thessalonians)",
+          "He argues 'enigma' and 'allegory' are, in fact, entirely unrelated and interchangeable rhetorical terms",
+          "He claims 'enigma' is a broader category that includes 'allegory' as one of its subtypes, reversing the usual relationship",
+          "He denies that any meaningful distinction can be drawn between these two rhetorical terms"
+        ],
+        "correct": 0,
+        "explanation": "Augustine gives a precise technical definition: 'enigma' is a species of the genus 'allegory' (one thing understood through another) — specifically an OBSCURE allegory, distinct from a plain allegory like Paul's easily-grasped sleep/darkness imagery in 1 Thessalonians."
+      },
+      {
+        "q": "What example does Augustine give of a PLAIN allegory (not an enigma), and what example of an obscure one (an enigma)?",
+        "options": [
+          "Plain: Paul's 'let us not sleep, as do others... let us who are of the day be sober' (1 Thessalonians); Obscure/enigma: 'The horseleech had three daughters' (a riddling proverb whose meaning is not immediately apparent)",
+          "He offers no concrete examples of either category in this chapter",
+          "He gives only examples of obscure enigmas, offering no example of a plain allegory",
+          "He reverses the examples, calling the horseleech riddle 'plain' and Paul's sleep imagery 'obscure'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's examples: Paul's sleep/watchfulness imagery in Thessalonians is a PLAIN allegory (meaning readily apparent), while the riddling proverb 'the horseleech had three daughters' exemplifies an OBSCURE allegory, i.e., a true enigma."
+      },
+      {
+        "q": "What deeper, more striking 'enigma' does Augustine point to at the end of this chapter, regarding our own thoughts?",
+        "options": [
+          "That we do not clearly see what we cannot but see — our own thought itself, which is a kind of 'sight of the mind' constantly present to us, yet remains strangely obscure and hard to fully grasp or articulate even to ourselves",
+          "He argues there is no deeper enigma beyond the literal meaning of Paul's phrase itself",
+          "He points to the enigma of why some biblical prophecies remain unfulfilled",
+          "He identifies the deeper enigma as the question of when the world will end"
+        ],
+        "correct": 0,
+        "explanation": "Augustine points to a striking, almost paradoxical enigma: we 'do not see what we cannot but see' — our own thought, a constant 'sight of the mind,' is simultaneously utterly present to us and yet strangely obscure and difficult to fully articulate or grasp."
+      }
+    ],
+    "TRIN-B15C10": [
+      {
+        "q": "What is Augustine's key claim about the 'inner word' spoken silently 'in the heart' before any outward speech?",
+        "options": [
+          "Every true statement is preceded by a silent inner 'word,' belonging to no particular human language, spoken 'in the heart' — as when Scripture says people 'said within themselves' by merely THINKING, not uttering any sound",
+          "He denies that any such silent inner 'word' exists prior to spoken language",
+          "He claims this inner word is always identical in form to whatever specific human language the person speaks",
+          "He argues only highly trained philosophers, not ordinary people, form any such inner word"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key claim: every true, spoken statement is preceded by a language-neutral 'inner word' spoken silently 'in the heart' — supported by scriptural examples of people 'speaking within themselves,' i.e., merely thinking, without any actual sound."
+      },
+      {
+        "q": "What Gospel example does Augustine use to show that inward thoughts function as a kind of speech that can even be 'seen' rather than 'heard'?",
+        "options": [
+          "The scribes who 'said within themselves, This man blasphemes' upon hearing Jesus forgive sins, and of whom the Gospel says Jesus 'SAW their thoughts' — showing inward speech can be perceived as a form of sight, not merely heard as sound",
+          "The parable of the sower, in which seeds represent different types of hearers",
+          "The story of Doubting Thomas demanding to see and touch Christ's wounds",
+          "The account of the Transfiguration, where Christ's appearance visibly changed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the scribes who silently 'said within themselves, This man blasphemes' — and notes the Gospel says Jesus 'saw their thoughts,' not 'heard' them, illustrating that inward speech functions, in some sense, as a form of sight rather than sound."
+      },
+      {
+        "q": "How does Augustine explain the collapse of the ordinary distinction between 'speech' (heard) and 'sight' (seen) when it comes to inward thinking?",
+        "options": [
+          "Outwardly, speech is heard and sight is a separate sense; but 'when we think inwardly, the two are one' — inward speech (thought) is simultaneously an act of inner sight, since thinking just IS a kind of seeing with the mind's eye",
+          "He argues speech and sight remain entirely and permanently distinct even in inward thinking, with no collapse of the distinction",
+          "He claims only sight, never speech, is genuinely possible in the realm of inward thought",
+          "He argues this distinction is entirely irrelevant to the discussion of the inner word"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that while outward speech (heard) and outward sight (seen) are distinct bodily senses, 'when we think inwardly, the two are one' — inward speech (thought) simply IS a form of inner sight, collapsing the ordinary sensory distinction in the case of the mind's own inward activity."
+      }
+    ],
+    "TRIN-B15C11": [
+      {
+        "q": "Why does Augustine argue the truest analogy for the divine Word is our PRE-VERBAL 'word of the heart,' not our spoken or even silently-imagined sound-based word?",
+        "options": [
+          "Because the pre-verbal word of the heart — begotten directly from knowledge, belonging to no specific language — comes closest to the divine Word's own nature, before it is 'clothed' in the sounds or images of any particular human tongue",
+          "He argues our spoken word is, in fact, the BEST analogy, superior to any pre-verbal inner word",
+          "He claims no meaningful analogy of any kind can be drawn between human words and the divine Word",
+          "He argues the divine Word is best understood by analogy to written text rather than any form of spoken language"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues the pre-verbal, language-neutral 'word of the heart' — begotten directly from knowledge, prior to any specific linguistic clothing — provides the closest (though still radically imperfect) analogy to the divine Word, which similarly precedes and transcends any particular language."
+      },
+      {
+        "q": "What parallel does Augustine draw between the Incarnation ('the Word was made flesh') and how our inner word 'becomes' spoken sound?",
+        "options": [
+          "Just as the Word 'was made flesh' by ASSUMING a body without being CHANGED INTO it (remaining fully divine), so our inner word similarly 'becomes' an articulate sound by assuming that sound without itself being converted into mere sound",
+          "He argues this parallel fails completely and provides no useful insight",
+          "He claims the Word was, in fact, literally transformed and changed into flesh, losing its divine nature",
+          "He argues our inner word, unlike the divine Word, is always identical to the sound that expresses it"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a careful parallel: as the divine Word 'was made flesh' by assuming (not being converted into) a human body, so our inner word similarly 'becomes' an articulate sound by assuming (not converting into) that sound — a structural, though still imperfect, analogy."
+      },
+      {
+        "q": "What is Augustine's criterion for when a human word is genuinely 'true,' echoing the biblical 'Yea, yea; nay, nay'?",
+        "options": [
+          "A word is true when everything in it matches, without addition or omission, what is in the knowledge that begets it — 'what is in the knowledge is also in the word, and what is not in the knowledge is also not in the word'",
+          "A word is true whenever it is spoken sincerely, regardless of whether it corresponds to actual knowledge",
+          "A word is true only if it is spoken in a language other than the speaker's native tongue",
+          "A word is true only if it is written down rather than merely spoken aloud"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's criterion for truth in a human word: exact correspondence with the underlying knowledge — nothing added, nothing omitted — echoing the biblical injunction to simple, exact truthfulness ('let your yea be yea, and your nay, nay')."
+      }
+    ],
+    "TRIN-B15C12": [
+      {
+        "q": "What is Augustine's central refutation of the skeptical 'Academic' philosophy that doubts all knowledge?",
+        "options": [
+          "Some knowledge — above all, 'I know that I am alive' — is immune to any deceptive appearance whatsoever, including dreams or madness, since even a person who is dreaming, deceived, or mad is still, indisputably, ALIVE",
+          "He argues the Academics are, in fact, entirely correct that no knowledge whatsoever is possible",
+          "He claims this skeptical philosophy has no adherents worth refuting and ignores it entirely",
+          "He argues only divine revelation, never reason, can refute philosophical skepticism"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's central refutation, anticipating Descartes: 'I know that I am alive' is immune to the Academic skeptic's doubts (dreaming, madness, deceptive appearances), since even in all these deceived states, the one who is deceived or dreaming is still, undeniably, ALIVE."
+      },
+      {
+        "q": "How does Augustine show this self-certain knowledge can be endlessly (though never completely) multiplied through further reflexive acts?",
+        "options": [
+          "One can add 'I know that I know I am alive' as a further, distinct piece of knowledge, then 'I know that I know that I know...' and so on indefinitely — a genuinely infinite series, though no one can actually enumerate an infinite number of such statements",
+          "He argues this reflexive process stops automatically after exactly three iterations, with no further multiplication possible",
+          "He claims this kind of reflexive knowledge is, in fact, impossible to even begin, contradicting his main argument",
+          "He argues this reflexive multiplication applies only to knowledge of external objects, never to self-knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine demonstrates the endlessly multipliable nature of self-certain knowledge: 'I know I am alive,' then 'I know that I know I am alive,' then knowing THAT as a third thing, and so on — a genuinely infinite series, even though no finite mind can actually complete an infinite enumeration."
+      },
+      {
+        "q": "How does Augustine extend this same kind of certainty from KNOWLEDGE to WILL, using the example 'I will not to be deceived'?",
+        "options": [
+          "Whatever one might be deceived about, one cannot be mistaken in thinking that one WILLS not to be deceived — this willing itself is certain and self-verifying, regardless of any other deception one might be under, and can likewise be reflexively multiplied ('I know that I will this...')",
+          "He argues will, unlike knowledge, is always entirely uncertain and subject to complete doubt",
+          "He claims this example about will has no genuine connection to the earlier argument about knowledge",
+          "He argues the will to avoid deception is, in fact, always itself a form of deception"
+        ],
+        "correct": 0,
+        "explanation": "Augustine extends his certainty argument to the will: 'wherein soever he may be deceived, he is nevertheless not deceived in thinking that he wills not to be deceived' — this self-verifying willing, like the knowledge of being alive, resists all skeptical doubt and can be reflexively multiplied further."
+      }
+    ],
+    "TRIN-B15C13": [
+      {
+        "q": "What crucial disanalogy does Augustine identify between human knowledge and divine knowledge regarding the relationship between things and their being known?",
+        "options": [
+          "For God, things EXIST because He knows them (His knowledge causes/precedes their being), whereas for us, we know things because they already exist — 'He was not ignorant of what He was about to create; therefore He created because He knew; He did not know because He created'",
+          "He argues human and divine knowledge relate to existing things in exactly the same way, with no distinction",
+          "He claims God, like humans, comes to know things only after they already exist independently",
+          "He argues this question of priority between knowledge and existence is entirely unanswerable for both God and humans"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's crucial distinction: for God, knowing precedes and causes being ('He created because He knew; He did not know because He created'), while for us, knowing follows and depends on things already existing — a fundamental reversal between divine and human knowledge."
+      },
+      {
+        "q": "How does Augustine describe God's single, eternal 'vision' compared to how human minds must think sequentially through different things?",
+        "options": [
+          "God's knowledge holds all times — past, present, future — as equally, simultaneously present, with no sequence of shifting attention from one thing to another, unlike human minds, which must think of things one at a time in succession",
+          "He argues God's knowledge, like human knowledge, must proceed sequentially through one thing at a time",
+          "He claims God has no knowledge of future events, only of the past and present",
+          "He argues human minds are, in fact, equally capable of holding all things in simultaneous view without any sequence"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes God's knowledge as holding past, present, and future all simultaneously present in one undivided, eternal vision, radically unlike human thought, which must proceed sequentially, attending to one thing after another."
+      },
+      {
+        "q": "What text from Ecclesiasticus does Augustine cite to support the claim that God's knowledge of creation does not change before and after creation occurs?",
+        "options": [
+          "\"All things are known to Him ere ever they were created: so also after they were perfected\" — 'so,' he emphasizes, 'not otherwise,' meaning God's knowledge is identical both before and after creation",
+          "\"In the beginning God created the heavens and the earth\"",
+          "\"The fear of the Lord is the beginning of wisdom\"",
+          "\"Vanity of vanities, all is vanity\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Ecclesiasticus's statement that 'all things are known to Him ere ever they were created: so also after they were perfected,' emphasizing the word 'so' (not otherwise) to show God's knowledge remains unchanged, identical, both before and after creation."
+      }
+    ],
+    "TRIN-B15C14": [
+      {
+        "q": "What does Augustine say about the relationship between what the Father knows and what the Son (the Word) knows?",
+        "options": [
+          "The Word possesses exactly and only what the Father possesses — no more, no less — since to the Son, 'to know, as to be, is from the Father,' making Father and Son 'know mutually': the Father by begetting, the Son by being born",
+          "He argues the Son knows strictly less than the Father, being in some sense subordinate in knowledge",
+          "He claims the Son, in fact, knows entirely different and unrelated things from the Father",
+          "He denies that the Father and Son can be meaningfully said to 'know' anything at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine affirms the Son's knowledge is exactly coextensive with the Father's — nothing more, nothing less — since the Son's very being and knowing are 'from the Father,' with each Person 'knowing mutually' according to their distinct mode of origin (begetting vs. being begotten)."
+      },
+      {
+        "q": "How does Augustine describe the way the Father and Son see 'all things simultaneously,' in contrast to human perception?",
+        "options": [
+          "Not by parts or singly, 'as though by alternately looking from this side to that,' but seeing 'all things simultaneously' in a single, undivided vision, with no aspect of that knowledge ever unseen or unattended to",
+          "He argues the Father and Son must, like humans, view different things at different times in sequence",
+          "He claims the Father sees all things at once, but the Son must view things one at a time",
+          "He denies that any coherent description of divine 'seeing' or knowing is possible"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes the Father and Son's mutual knowledge as an undivided, simultaneous vision of 'all things,' explicitly contrasted with the human pattern of shifting attention 'from this side to that' — nothing in their shared knowledge is ever partially or sequentially attended to."
+      },
+      {
+        "q": "How does Augustine describe the Father 'uttering Himself' in begetting the Word, using the phrase 'Yea, yea; nay, nay'?",
+        "options": [
+          "The Father, as though uttering Himself, begot the Word EQUAL to Himself in ALL things — if the Word contained anything more or less than the Father, the Father would not have 'uttered Himself wholly and perfectly'; this perfect correspondence is what 'Yea, yea; nay, nay' signifies at the highest level",
+          "He argues the Father's 'utterance' of the Word necessarily involves some degree of imperfection or incompleteness",
+          "He claims this phrase from Scripture has no application whatsoever to the relationship between Father and Son",
+          "He argues the Father 'utters' only a portion of Himself in begetting the Son, reserving the rest"
+        ],
+        "correct": 0,
+        "explanation": "Augustine applies 'Yea, yea; nay, nay' at its highest level: the Father, in begetting the Word, 'utters Himself' completely and perfectly — the Word contains exactly what is in the Father, nothing more or less, exemplifying perfect truthful correspondence."
+      }
+    ],
+    "TRIN-B15C15": [
+      {
+        "q": "In what sense does Augustine say our human word can be 'false,' distinguishing this from outright lying?",
+        "options": [
+          "Our word is false 'not when we lie, but when we are deceived' — i.e., when we sincerely speak what we believe to be true but are honestly mistaken, our word fails to match reality even though we do not intend deception",
+          "He argues 'false' and 'lying' are, in his usage, exactly identical concepts with no distinction",
+          "He claims our words can never actually be false in any circumstance, only intentionally deceptive",
+          "He argues falsehood in human speech applies only to statements about God, never about ordinary matters"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes honest error from deliberate lying: our word is 'false, not when we lie, but when we are deceived' — an unintentional mismatch between our sincere word and reality, distinct from the willful falsehood of lying."
+      },
+      {
+        "q": "Why can't the divine Word ever be false or subject to doubt, according to Augustine?",
+        "options": [
+          "Because it 'can do nothing except what it sees the Father do,' has everything it speaks 'from the Father,' and its great might is precisely 'that it cannot lie,' since there can be no 'yea and nay' in it, only 'yea yea, nay nay'",
+          "He argues the divine Word CAN, in fact, be false under certain rare circumstances",
+          "He claims the divine Word is subject to exactly the same possibility of error as human words",
+          "He argues this question of the Word's truthfulness cannot be meaningfully addressed"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grounds the divine Word's incapacity for falsehood in its total dependence on and correspondence with the Father ('can do nothing except what it sees the Father do'), making its inability to lie a matter of strength, not weakness — perfect, unwavering 'yea yea, nay nay.'"
+      },
+      {
+        "q": "Why does Augustine say our word cannot be truly 'eternal,' even regarding things we know permanently (like 'I am alive')?",
+        "options": [
+          "Because for us, 'to be' is not the same as 'to know' — we can KNOW something permanently yet not always be actively THINKING of it, and only the active thought (not the mere latent knowledge) constitutes a 'word'; since our thinking is not constant, no truly eternal word can be spoken by us",
+          "He argues our knowledge of being alive is not, in fact, actually permanent or reliable in any sense",
+          "He claims humans are, in fact, capable of forming truly eternal words, contrary to his stated position",
+          "He argues eternity is a meaningless concept that cannot apply to either divine or human words"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key distinction: for us, 'to be' is not identical with 'to know' (unlike in God, where they are the same) — even permanent knowledge (like knowing we are alive) is not always being actively THOUGHT, and since a 'word' requires active thought, our word cannot be truly eternal like God's, whose knowing simply IS His being."
+      }
+    ],
+    "TRIN-B15C16": [
+      {
+        "q": "Why does Augustine insist the Son of God must be called God's 'Word,' never His 'Thought'?",
+        "options": [
+          "Because 'thought' implies something FORMABLE that gains a form (and could, in principle, lose it) by being turned over and revolved in the mind — a process wholly inapplicable to God, whose Word is pure, unchangeable FORM ITSELF, never formless or in the process of being formed",
+          "He argues 'Word' and 'Thought' are, in fact, perfectly interchangeable terms with identical meaning",
+          "He claims Scripture explicitly and directly forbids ever using the term 'Thought' in any context",
+          "He argues this distinction is a matter of pure arbitrary preference with no theological significance"
+        ],
+        "correct": 0,
+        "explanation": "Augustine insists on 'Word' over 'Thought' because 'thought' implies a formable process (gaining/potentially losing form through mental revolution), which cannot apply to God's simple, unchangeable Word — pure form itself, never formless or in a state of becoming formed."
+      },
+      {
+        "q": "How does Augustine handle scriptural passages that DO speak of God's 'thoughts,' given his insistence that the Son is not 'Thought'?",
+        "options": [
+          "He explains these are examples of accommodated, figurative language (like Scripture's occasional mention of 'the forgetfulness of God,' where 'in strict propriety of language there is in Him certainly no forgetfulness') — not literal descriptions of a formable, changeable mental process in God",
+          "He argues these passages prove his own position wrong and should lead him to retract his argument",
+          "He claims these passages refer exclusively to the thoughts of human beings, never to God's own thoughts",
+          "He denies that any such passages exist anywhere in Scripture"
+        ],
+        "correct": 0,
+        "explanation": "Augustine treats scriptural references to God's 'thoughts' as figurative, accommodated language — comparable to Scripture's occasional mention of God's 'forgetfulness,' which does not imply literal forgetfulness in God — rather than literal descriptions of a formable mental process."
+      },
+      {
+        "q": "Even in the future life, when believers 'shall see Him as He is,' what limitation does Augustine insist will still remain?",
+        "options": [
+          "Even then, believers 'will not be equal to Him in nature' — 'that nature which is made is ever less than that which makes,' since the creature can never be equalled to the eternal, unchangeable Creator, however perfected and 'formed' it becomes",
+          "He argues believers will, in fact, become fully equal to God in every respect once they see Him face to face",
+          "He claims this future limitation applies only to some believers, not to all of them equally",
+          "He denies that any meaningful distinction will remain between Creator and creature in the afterlife"
+        ],
+        "correct": 0,
+        "explanation": "Augustine insists that even in the fullest future vision of God, believers will never become equal to God in nature — 'that nature which is made is ever less than that which makes' — preserving an eternal Creator-creature distinction even amid perfected fellowship."
+      }
+    ],
+    "TRIN-B15C17": [
+      {
+        "q": "Why does Augustine emphasize that Scripture says 'God is love,' rather than 'the Holy Spirit is love'?",
+        "options": [
+          "Because this leaves genuinely open (and requiring careful inquiry) WHICH divine Person — Father, Son, Holy Spirit, or the whole Trinity together — is properly meant by this statement, rather than settling the question with a simple, direct scriptural identification",
+          "He argues this distinction is purely accidental and carries no theological significance whatsoever",
+          "He claims Scripture actually DOES say 'the Holy Spirit is love' somewhere, contradicting his own premise",
+          "He argues this phrasing proves definitively that only the Father, never the Son or Spirit, can be called love"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that Scripture's careful phrasing ('God is love,' not 'the Holy Spirit is love') deliberately leaves open which Person(s) are meant, requiring the careful scriptural investigation he undertakes in this and the following chapters to identify the Spirit as specially (though not exclusively) called Love."
+      },
+      {
+        "q": "What key argument does Augustine draw from 1 John's 'hereby we know that we dwell in Him, and He in us, because He has given us of His Spirit'?",
+        "options": [
+          "Since this text explains HOW we come to abide in God's love (mentioned just before) — namely, through receiving the SPIRIT — it identifies the Holy Spirit as the one specially meant by 'God is love,' since it is by the Spirit that we abide in love and love abides in us",
+          "He argues this text has no bearing whatsoever on the question of whether the Spirit is specially called Love",
+          "He claims this text proves conclusively that the FATHER alone, never the Spirit, is meant by 'God is love'",
+          "He argues this text refers exclusively to angels receiving the Spirit, not to human believers"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key exegetical argument: 1 John links 'abiding in love/God' directly to 'He has given us of His Spirit,' showing the Spirit is the specific means by which believers abide in God's love — supporting the identification of the Spirit as specially (though not solely) called Love."
+      },
+      {
+        "q": "What does Augustine caution against, regarding a simplistic reading of memory=Father, understanding=Son, love=Spirit for the Trinity itself (as opposed to the human mind)?",
+        "options": [
+          "He rejects the idea that within the Trinity itself, the Father alone would remember for all three, the Son alone understand for all three, and the Spirit alone love for all three — insisting instead that each Person is fully His own memory, understanding, AND love, in His own complete nature",
+          "He argues this simplistic mapping is, in fact, entirely correct and should be applied without qualification",
+          "He claims this question has no relevance to the discussion of the Holy Spirit as Love",
+          "He argues only the Father, among the three Persons, actually possesses memory, understanding, or love"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly cautions against a simplistic mapping (Father=memory only, Son=understanding only, Spirit=love only within the Trinity), reaffirming his earlier argument (Chapter 7) that each divine Person is fully, completely His own memory, understanding, and love — not dependent on the others to supply these."
+      }
+    ],
+    "TRIN-B15C18": [
+      {
+        "q": "How does Augustine use 1 Corinthians 13 to argue that no gift of God is more excellent than love?",
+        "options": [
+          "He cites Paul's teaching that speaking in tongues, prophecy, all knowledge, faith to move mountains, and even giving all one's goods to the poor or one's body to be burned 'profit nothing' WITHOUT love — showing love's unique, indispensable superiority among all spiritual gifts",
+          "He argues 1 Corinthians 13 actually ranks prophecy above love in importance",
+          "He claims this chapter of 1 Corinthians has no relevance to the question of the Spirit's identity as Love",
+          "He argues Paul, in this passage, dismisses the importance of love in favor of miraculous gifts"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws on 1 Corinthians 13's famous teaching that spectacular gifts (tongues, prophecy, knowledge, faith to move mountains, even martyrdom) 'profit nothing' without love, establishing love's unique supremacy among all of God's gifts."
+      },
+      {
+        "q": "What does Augustine say happens for a person who has LOVE but lacks the more spectacular gifts (tongues, prophecy, wealth to give away)?",
+        "options": [
+          "Such a person is still 'brought... to the kingdom' — love alone suffices to bring someone to eternal life, even without those other, more visible and impressive gifts, since 'faith itself is only rendered profitable by love'",
+          "He argues such a person is, in fact, excluded from the kingdom without the additional spectacular gifts",
+          "He claims love alone is insufficient and must always be accompanied by at least one other spiritual gift",
+          "He argues this scenario is impossible, since anyone with true love automatically receives all other gifts too"
+        ],
+        "correct": 0,
+        "explanation": "Augustine affirms that a person possessing love alone, even without prophecy, tongues, or wealth to distribute, is still brought to the kingdom — love alone suffices, since 'faith itself is only rendered profitable by love,' distinguishing saving faith from the mere intellectual faith 'even the devils' have."
+      },
+      {
+        "q": "Why does Augustine conclude that the Holy Spirit, 'the gift of God,' is above all the gift of love itself?",
+        "options": [
+          "Since no gift of God is more excellent than love, and the Spirit is specially called 'the Gift of God,' it follows that the Spirit's preeminent role as gift is fundamentally the giving of LOVE, by which the whole Trinity comes to dwell in believers",
+          "He argues the Holy Spirit is, in fact, a lesser gift compared to the specific gift of prophecy",
+          "He claims 'the gift of God' refers to a created blessing entirely separate from and inferior to the Holy Spirit Himself",
+          "He argues this conclusion has no logical connection to the earlier discussion of 1 Corinthians 13"
+        ],
+        "correct": 0,
+        "explanation": "Augustine connects the premises: no gift surpasses love, and the Spirit is specially 'the Gift of God' — concluding that the Spirit's supreme role as gift is precisely the giving of love, through which the whole Trinity comes to dwell within believers."
+      }
+    ],
+    "TRIN-B15C19": [
+      {
+        "q": "How does Augustine use John 4 (the Samaritan woman) and John 7 ('rivers of living water') to identify 'the gift of God' with the Holy Spirit?",
+        "options": [
+          "In John 4, Jesus calls Himself 'the gift of God' offering 'living water'; in John 7, the evangelist explicitly explains that 'living water' refers to 'the Spirit, which they should receive who believe' — connecting 'the gift of God' directly to the Holy Spirit specifically",
+          "He argues these two passages have no meaningful connection to each other or to the identity of the Holy Spirit",
+          "He claims 'living water' in both passages refers to physical, literal water used in baptism, not to the Spirit",
+          "He argues only John 4, not John 7, has any relevance to identifying the Holy Spirit as God's gift"
+        ],
+        "correct": 0,
+        "explanation": "Augustine connects John 4 (where Jesus, offering 'living water,' identifies Himself with 'the gift of God') and John 7 (where the evangelist explicitly glosses 'living water' as 'the Spirit, which they should receive who believe') to firmly identify 'the gift of God' with the Holy Spirit specifically."
+      },
+      {
+        "q": "How does Augustine explain the apparent discrepancy between Ephesians 4's 'He gave gifts to men' and the Psalm's 'You have received gifts in men'?",
+        "options": [
+          "Both are true and complementary: Christ 'gave to men, as the head to His own members,' and 'received in men' as those members are His own body, on whose behalf He cried from heaven, 'Saul, Saul, why do you persecute me?'",
+          "He argues these two texts flatly contradict each other with no possible reconciliation",
+          "He claims only the Psalm's version is accurate, dismissing Paul's citation as a corruption",
+          "He argues this discrepancy has no bearing on the discussion of the Holy Spirit as God's gift"
+        ],
+        "correct": 0,
+        "explanation": "Augustine harmonizes the two texts by explaining both are true from complementary perspectives: Christ, as head, GAVE gifts to His members (Ephesians), and, being one with those members (His body, the Church), simultaneously RECEIVED gifts IN them (the Psalm) — illustrated by His words to Saul, identifying with His persecuted members."
+      },
+      {
+        "q": "What conclusion does Augustine draw from the parallel between 'the gift of the Holy Spirit' and Paul's phrase 'the body of the flesh'?",
+        "options": [
+          "Just as 'the body of the flesh' means nothing else but 'the flesh' itself (not two separate things), so 'the gift of the Holy Spirit' means nothing else but the Holy Spirit HIMSELF, given — not some lesser, separate created gift distinct from the Spirit",
+          "He argues this parallel proves 'the gift of the Holy Spirit' refers to something entirely distinct from and lesser than the Spirit Himself",
+          "He claims this grammatical parallel has no bearing on the identity of the Holy Spirit as God's gift",
+          "He argues 'the body of the flesh' and 'the gift of the Holy Spirit' are, in fact, entirely unrelated grammatical constructions"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws the same grammatical parallel used earlier (Book XIV) for 'spirit of the mind': just as 'the body of the flesh' simply means 'the flesh,' so 'the gift of the Holy Spirit' simply means the Holy Spirit Himself, given — not a separate, lesser created gift distinct from the Spirit's own person."
+      }
+    ],
+    "TRIN-B15C20": [
+      {
+        "q": "What was Eunomius's heretical claim about the Son's origin, which Augustine refutes in this chapter?",
+        "options": [
+          "That the Son is begotten not by the Father's NATURE/substance but by the Father's mere WILL — a claim Augustine rejects because it would make God's will something accidental and changeable, like our own human wills that can change over time",
+          "That the Son was created out of nothing, like other creatures, with no special relationship to the Father at all",
+          "That the Son and the Holy Spirit are, in fact, identical persons with no real distinction",
+          "That the Father, Son, and Holy Spirit are simply three different names for a single, undifferentiated divine person"
+        ],
+        "correct": 0,
+        "explanation": "Augustine refutes Eunomius's claim that the Son is begotten by the Father's mere WILL, not by His NATURE/substance — a position Augustine rejects because it would make the divine will something accidental and changeable, contrary to God's simple, unchangeable nature."
+      },
+      {
+        "q": "What clever dilemma does Augustine recount someone posing back to a heretic who asked whether God begot the Son 'willingly or unwillingly'?",
+        "options": [
+          "The respondent turned the question back: 'Was God the Father GOD willingly or unwillingly?' — if 'unwillingly,' this implies divine misery (absurd); if 'willingly,' then by the heretic's own logic, God would be God by WILL, not by nature, trapping the heretic in his own reasoning",
+          "The respondent simply refused to answer the question at all, offering no counter-argument",
+          "The respondent argued that God has no will whatsoever, sidestepping the dilemma entirely",
+          "The respondent conceded the heretic's point immediately without any further argument"
+        ],
+        "correct": 0,
+        "explanation": "Augustine recounts a clever counter-dilemma: turning the heretic's question ('willingly or unwillingly begotten?') back onto God's own being ('was God the Father God willingly or unwillingly?'), trapping the heretic in the same self-defeating logic he had tried to use against orthodox belief."
+      },
+      {
+        "q": "What alternative formulation does Augustine prefer over calling the Son the 'Son of God's will' or 'the will itself of the Father'?",
+        "options": [
+          "Following the pattern 'substance of substance, wisdom of wisdom,' Augustine prefers to say 'will of will' (or 'counsel of counsel') — avoiding both the Eunomian error and the opposite error of treating the Son as identical to an impersonal divine attribute like 'will' itself",
+          "He argues no formulation whatsoever should be used, avoiding the topic entirely",
+          "He prefers the phrase 'creature of God's power,' treating the Son as a created being",
+          "He argues 'will of will' is, in fact, a heretical formulation that must be rejected"
+        ],
+        "correct": 0,
+        "explanation": "Augustine prefers the formula 'will of will' (parallel to 'substance of substance, wisdom of wisdom') — avoiding both the Eunomian error (Son from mere accidental will) and the opposite error (Son simply identical to an impersonal attribute), preserving proper begotten equality."
+      }
+    ],
+    "TRIN-B15C21": [
+      {
+        "q": "How does Augustine summarize the three-way likeness between the human mind's trinity and the divine Persons in this chapter?",
+        "options": [
+          "Memory bears a distant likeness to the Father (holding all we know, even unthought); understanding to the Son (the inner word formed when known truth is 'said' in the heart); and will/love to the Holy Spirit (uniting the two, requiring its own knowledge to desire rightly)",
+          "He reverses the usual mapping, comparing memory to the Son and understanding to the Father",
+          "He argues no meaningful mapping between these three human faculties and the three divine Persons is possible",
+          "He maps all three human faculties equally and identically onto each of the three divine Persons"
+        ],
+        "correct": 0,
+        "explanation": "Augustine summarizes his mature mapping: memory (holding all known, even unthought) likened to the Father; understanding (the inner word 'said' in the heart when known truth is expressed) likened to the Son; will/love (uniting the two) likened to the Holy Spirit."
+      },
+      {
+        "q": "Why does Augustine say love/will requires its own kind of 'knowledge' to function properly?",
+        "options": [
+          "Because 'love... would not know what to love rightly unless it had a knowledge of what it desired, which it cannot have without memory and understanding' — will cannot rightly desire something it does not, in some sense, already know",
+          "He argues love and will require no knowledge whatsoever to function correctly",
+          "He claims this connection between love and knowledge applies only to divine love, never to human love",
+          "He argues knowledge is, in fact, entirely irrelevant to the proper functioning of love or will"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that rightly-ordered love/will must be informed by knowledge — one cannot rightly desire what one does not, in some sense, know — requiring memory and understanding to properly ground and direct the will's love."
+      },
+      {
+        "q": "What caveat does Augustine insist upon throughout this chapter regarding this mapping of memory/understanding/will onto the Trinity?",
+        "options": [
+          "That this is offered only as the best AVAILABLE creaturely analogy, radically UNEQUAL to what it images — a genuine but distant likeness, not an exact or complete correspondence to the divine reality",
+          "He argues this mapping is, in fact, a perfect and complete representation of the Trinity with no remaining disparity",
+          "He claims this mapping should be understood literally, as if the human mind were actually identical in substance to God",
+          "He argues no caveat or qualification is necessary since the analogy is entirely self-evident and unproblematic"
+        ],
+        "correct": 0,
+        "explanation": "Augustine consistently insists this mapping is only the best available creaturely likeness — genuinely instructive but radically unequal to the divine reality it images, a theme he develops at length in the chapters that follow."
+      }
+    ],
+    "TRIN-B15C22": [
+      {
+        "q": "What is the key structural disanalogy Augustine highlights in this chapter between the human trinity and the divine Trinity?",
+        "options": [
+          "In a human being, ONE single person 'has' memory, understanding, and will as faculties BELONGING to him but not identical with himself; but in God, there are THREE full Persons, each of whom simply IS the divine substance entire — not three faculties possessed by one 'person' but three Persons who together are the one God",
+          "He argues there is, in fact, no meaningful structural difference between these two cases",
+          "He claims the human mind actually contains three separate persons, exactly like the Trinity",
+          "He argues God is, in fact, a single person possessing three faculties, exactly like the human mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key structural disanalogy: one human PERSON possesses memory, understanding, and will as faculties distinct from himself ('these three things... are mine, not their own'), whereas the divine Trinity consists of THREE full PERSONS, each of whom simply IS the entire divine substance, not faculties possessed by a single divine person."
+      },
+      {
+        "q": "How does Augustine describe a person's relationship to his own memory, understanding, and will, using first-person language?",
+        "options": [
+          "'It is I who remember by memory, and understand by understanding, and love by love' — the faculties belong to and are used BY the person, but the person is distinct from and not identical with any of them individually",
+          "He argues a person is, in fact, entirely identical with his memory alone, with understanding and will being illusory",
+          "He claims a person has no genuine relationship to his own mental faculties at all",
+          "He argues memory, understanding, and will are, in fact, three entirely separate persons within a single human being"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's first-person illustration: 'it is I who remember by memory, and understand by understanding, and love by love' — emphasizing that the person USES these faculties but is not simply identical with any single one of them, unlike the divine Persons, who each simply ARE the whole divine substance."
+      },
+      {
+        "q": "What conclusion does Augustine draw about how many 'persons' exist in the human case versus the divine case?",
+        "options": [
+          "In the human case, these three things 'can be said by a single person, which has these three, but is not these three'; but 'in the simplicity of that Highest Nature, which is God, although there is one God, there are three persons, the Father, the Son, and the Holy Spirit'",
+          "He argues there are, in fact, three persons in the human case as well, exactly paralleling the Trinity",
+          "He claims there is only ONE person in the divine case too, contradicting orthodox Trinitarian doctrine",
+          "He argues the number of persons in each case is entirely indeterminate and cannot be specified"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's concluding contrast: the human trinity of faculties belongs to a single person who 'has' but 'is not' these three things, while the divine Trinity, though one God, genuinely consists of three distinct Persons — Father, Son, and Holy Spirit."
+      }
+    ],
+    "TRIN-B15C23": [
+      {
+        "q": "How does Augustine elaborate the paradox that the divine Trinity of THREE Persons is 'more indivisible' than the human trinity, which constitutes only ONE person?",
+        "options": [
+          "Though counterintuitive, the three divine Persons, unlike the human trinity's three faculties, are perfectly and unchangeably equal to one another with absolutely no variation, whereas in a human mind, memory, understanding, and will can vary in relative strength (one greater than another) even within a single person, and certainly between different people",
+          "He argues this claim is, in fact, simply false, and the human trinity is more unified than the divine Trinity",
+          "He claims the three divine Persons are, in fact, unequal to one another in the same way human faculties can be",
+          "He argues no meaningful comparison of 'indivisibility' can be drawn between these two very different kinds of trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's paradoxical but carefully argued point: despite being three genuine Persons, the divine Trinity is MORE unified/indivisible than the human trinity of one person, since the divine Persons are perfectly, unchangeably equal, while human memory, understanding, and will can vary in relative strength within and between individuals."
+      },
+      {
+        "q": "What examples does Augustine give of how memory, understanding, and will can be unequal to one another within a single human mind?",
+        "options": [
+          "In one person, memory might be 'greater than understanding,' but in another person 'the contrary'; in yet another, 'love' might exceed both — illustrating that these three faculties, unlike the divine Persons, are not always perfectly equal even within one mind",
+          "He argues these three faculties are always and necessarily perfectly equal in every human mind without exception",
+          "He claims only memory can ever vary in strength; understanding and will are always fixed and equal",
+          "He denies that any variation in these faculties' relative strength is possible or observable"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers concrete illustrations of inequality: one person's memory might exceed their understanding, another's the reverse, and in yet another, love/will might surpass both — showing these faculties are not inherently, necessarily equal, unlike the perfectly equal divine Persons."
+      },
+      {
+        "q": "What does Augustine say will happen to these human inequalities 'when they have been healed of all infirmity,' and why won't even this achieve full divine equality?",
+        "options": [
+          "Even when perfectly healed and made mutually equal to one another (by grace), this achieved equality will still never be equal to God's NATURAL, unchangeable equality, 'because the creature cannot be equalled to the Creator' — grace-given equality remains categorically different from divine, natural equality",
+          "He argues the human faculties, once healed, will become fully and completely equal to God's own nature",
+          "He claims no healing of these inequalities is ever possible, even in the future blessed life",
+          "He argues this question of healing has no bearing on the broader comparison with the divine Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine acknowledges that even a future, grace-healed equality among memory, understanding, and will in the redeemed mind will still categorically differ from God's own natural, unchangeable equality — 'the creature cannot be equalled to the Creator,' preserving the Creator-creature distinction even in perfected blessedness."
+      }
+    ],
+    "TRIN-B15C24": [
+      {
+        "q": "What warning does Augustine give to those who study their own mind's structure subtly, yet refuse to believe it is truly an image of God?",
+        "options": [
+          "Such people gain nothing but self-condemnation from their very own understanding — their failure to arrive at clear, certain conclusions about the mind is itself evidence of the 'penal darkness' and bodily burden that only faith in Christ can ultimately heal",
+          "He argues such people, despite their unbelief, will still achieve full and complete understanding of the mind's nature",
+          "He claims this warning applies only to non-Christians, never to believers who might have similar doubts",
+          "He argues studying the mind without believing it images God carries no negative consequence whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine warns that those who subtly analyze the mind's structure yet refuse to see it as God's image are condemned by their own understanding's very failure to reach certainty — a failure he attributes to 'penal darkness' and bodily burden, remediable only through faith in Christ."
+      },
+      {
+        "q": "According to Augustine, what should someone do upon recognizing that their own mind functions as a 'glass' (mirror) reflecting something beyond itself?",
+        "options": [
+          "They should seek Him whose glass/mirror it is — using 'an unfeigured faith' to purify their heart in preparation for eventually seeing 'face to face' the One who is now only seen, provisionally, 'through' this mirror",
+          "They should immediately abandon all further philosophical or theological inquiry as pointless",
+          "They should conclude that no such 'mirror' relationship actually exists and dismiss the whole framework",
+          "They should seek only more sophisticated philosophical arguments, without any reference to faith"
+        ],
+        "correct": 0,
+        "explanation": "Augustine urges that recognizing the mind as a 'glass'/mirror should lead one to seek the One reflected through it, purifying the heart through 'unfeigned faith' in preparation for the eventual direct, face-to-face vision of God."
+      },
+      {
+        "q": "What does Augustine identify as the ultimate cause of the human mind's difficulty in arriving at certain, clear understanding?",
+        "options": [
+          "'Penal darkness' and being 'burdened with the corruptible body that presses down the soul' — consequences of sin, for which the appropriate remedy is following 'the Lamb that takes away the sins of the world'",
+          "He argues the difficulty stems purely from insufficient formal education, with no connection to sin",
+          "He claims the difficulty is entirely random and has no identifiable cause whatsoever",
+          "He argues the difficulty results from the mind being, in fact, incapable of any genuine understanding under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies the ultimate source of the mind's epistemic struggles as 'penal darkness' and the burden of a corruptible body — consequences of sin — for which the remedy is following 'the Lamb that takes away the sins of the world,' linking epistemology to soteriology."
+      }
+    ],
+    "TRIN-B15C25": [
+      {
+        "q": "What promise does Augustine confess he made back in Book II but has struggled to fulfill?",
+        "options": [
+          "To explain why the Holy Spirit, though proceeding from the Father, is not also called a 'Son' — a distinction between generation and procession that Augustine now admits he has found extraordinarily difficult to illustrate adequately",
+          "To provide a complete list of all Church councils held up to his own time",
+          "To translate the entire work into Greek for eastern readers",
+          "To write a companion volume specifically refuting the Manichaean heresy"
+        ],
+        "correct": 0,
+        "explanation": "Augustine candidly confesses his difficulty fulfilling an earlier promise (from Book II) to explain why the Spirit, though proceeding from the Father, is not called 'Son' — the distinction between generation and procession proving far harder to illustrate than he had anticipated."
+      },
+      {
+        "q": "What honest admission does Augustine make about his own efforts to use the human mind's analogy (especially from Book IX) to illuminate this distinction?",
+        "options": [
+          "That 'as often as I have desired to illustrate it by the creaturely image of it which we ourselves are, so often... did adequate utterance entirely fail me; nay, even in my very meaning I felt that I had attained to endeavor rather than accomplishment'",
+          "He claims he has, in fact, fully and successfully illustrated this distinction with complete clarity",
+          "He argues this question was never actually difficult and required no special effort to explain",
+          "He denies ever having attempted to use the human mind analogy for this particular question"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers a remarkably candid confession of intellectual failure: despite repeated attempts using the human mind's psychological analogy, 'adequate utterance entirely fail[ed]' him, and he felt he had achieved only 'endeavor rather than accomplishment.'"
+      },
+      {
+        "q": "To what does Augustine ultimately defer the full resolution of this difficulty about generation versus procession?",
+        "options": [
+          "The blessed life to come, where 'we shall see the truth without any difficulty' and will 'discern by a mind that contemplates,' rather than by a mind that merely 'reasons,' why the Spirit is not a Son though He proceeds from the Father",
+          "He defers it to a future, separate treatise he plans to write specifically on this topic",
+          "He defers it entirely to the authority of a future Church council to settle definitively",
+          "He argues this question should simply be abandoned as unanswerable in any context, present or future"
+        ],
+        "correct": 0,
+        "explanation": "Augustine defers full resolution to the blessed afterlife, where believers 'shall see the truth without any difficulty' and will directly CONTEMPLATE (rather than merely reason toward) why the Spirit, though proceeding from the Father, is not a Son — a mystery reserved for the beatific vision."
+      }
+    ],
+    "TRIN-B15C26": [
+      {
+        "q": "Why can there be no temporal sequence ('first the Son was begotten, THEN the Spirit proceeded') within the Trinity, according to Augustine?",
+        "options": [
+          "Because the Trinity is wholly outside time — 'in that Highest Trinity which is God, there are no intervals of time' — so questions about temporal priority between generation and procession simply do not apply to the eternal, timeless divine life",
+          "He argues there IS, in fact, a clear temporal sequence in the Trinity, with the Son begotten before the Spirit proceeds",
+          "He claims this question of sequence applies only to the Holy Spirit's procession, not to the Son's generation",
+          "He argues time and eternity are, in fact, identical concepts with no meaningful distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grounds his answer in the Trinity's complete transcendence of time: since there are 'no intervals of time' in the divine life, questions of temporal sequence (Son first, then Spirit) simply do not apply — generation and procession are both eternally, timelessly true."
+      },
+      {
+        "q": "Why does Augustine argue the Spirit, though proceeding from both Father and Son, is never called their 'Son' too?",
+        "options": [
+          "Because no offspring — divine or human — simultaneously and identically proceeds from two 'begetting' sources at once the way a true child does (even human children proceed from father and mother at different, sequential moments, not simultaneously as one act); 'proceeding' names a different, non-generative relation than 'being begotten'",
+          "He argues the Spirit is, in fact, sometimes called the 'Son' of both Father and Son in certain scriptural passages",
+          "He claims this question has no rational or theological explanation of any kind",
+          "He argues the Spirit is not called 'Son' simply because Scripture happens never to use that particular word, with no deeper reason"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful argument: even a human child does not proceed simultaneously and identically from both parents at once (proceeding from father into mother, then from mother into birth, at different moments) — but the Spirit proceeds 'at once from both,' a structurally different kind of relation than generation/sonship, explaining why 'proceeding' names something distinct from 'being begotten.'"
+      },
+      {
+        "q": "What crucial qualification does Augustine make about the Spirit's procession 'from the Son,' regarding its ultimate source?",
+        "options": [
+          "The Father has given the Son 'that He should proceed, as from Himself, so also from Him' — the Son's role in the Spirit's procession is itself something the Son has RECEIVED FROM the Father, preserving the Father as the ultimate, principal source",
+          "He argues the Son's role in the Spirit's procession is entirely independent of and unrelated to the Father",
+          "He claims the Son actually has NO role whatsoever in the Spirit's procession, contradicting the 'filioque'",
+          "He argues this qualification applies only to some, not all, theological traditions"
+        ],
+        "correct": 0,
+        "explanation": "Augustine carefully preserves the Father's status as ultimate source: even the Son's role in the Spirit's procession is itself something given TO the Son BY the Father ('the Father has given this to the Son, that He should proceed... also from Him'), maintaining the Father as principal origin within the Trinity's eternal relations."
+      }
+    ],
+    "TRIN-B15C27": [
+      {
+        "q": "What earlier sermon does Augustine incorporate into this chapter to address the Spirit's procession, and what analogy does it use?",
+        "options": [
+          "A sermon he had preached to believers, using the analogy of Christ saying 'My doctrine is not mine, but His that sent me' — just as Christ refers His OWN doctrine back to the Father as its source, so He says the Spirit 'proceeds from the Father,' referring what is also truly His own (the Spirit's procession from Him too) back to its ultimate source",
+          "A sermon using the analogy of a river flowing from two separate springs into one stream",
+          "A sermon using the analogy of two candles lighting a third flame together",
+          "A sermon that avoided any analogy whatsoever and relied purely on abstract logical argument"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reproduces a sermon using the 'my doctrine is not mine, but His that sent me' analogy: just as Christ refers His own doctrine back to its ultimate source (the Father) without denying it is truly His, so He says the Spirit 'proceeds from the Father' while not denying the Spirit also proceeds from Him."
+      },
+      {
+        "q": "What analogy from human parentage does this sermon use to explain why the Spirit does NOT proceed from Father and Son 'the way a child proceeds from father and mother'?",
+        "options": [
+          "A human child does not proceed from father and mother SIMULTANEOUSLY at one moment — 'when he proceeds from the father into the mother, he does not at that time proceed from the mother' — but the Holy Spirit 'proceeds at once from both,' a structurally different, non-sequential kind of procession",
+          "The sermon argues human children, in fact, DO proceed simultaneously from both parents, exactly like the Spirit",
+          "The sermon uses no analogy from human parentage whatsoever, addressing the question purely abstractly",
+          "The sermon argues this comparison to human parentage is entirely inappropriate and should never be attempted"
+        ],
+        "correct": 0,
+        "explanation": "The sermon distinguishes human generation (sequential: from father into mother, then from mother into the world, at different times) from the Spirit's procession, which happens 'at once from both' Father and Son simultaneously — a structurally different kind of relation than ordinary human sonship."
+      },
+      {
+        "q": "What advice does Augustine give at the end of this chapter to those who cannot fully grasp this distinction through reason?",
+        "options": [
+          "They should trust Scripture's testimony (rather than insisting on complete rational comprehension), and strive, 'by praying and seeking and living well,' to understand as much as can be seen by a mind 'held fast by faith' — since some things are believed even though they cannot be directly seen at all in this life",
+          "They should abandon Christian faith entirely if they cannot achieve full rational understanding of this point",
+          "They should simply accept that this doctrine is entirely false and reject it",
+          "They should seek understanding exclusively through philosophy, setting aside Scripture and faith altogether"
+        ],
+        "correct": 0,
+        "explanation": "Augustine counsels those unable to fully grasp this rationally to trust Scripture's testimony first, then pursue understanding through prayer, seeking, and righteous living, since faith properly precedes and enables whatever understanding is possible — with some truths (like the crucifixion's unrepeatable historical reality) believed without ever being directly 'seen.'"
+      }
+    ],
+    "TRIN-B15C28": [
+      {
+        "q": "On what basis does Augustine's closing prayer profess faith in the Trinity as 'one Lord God'?",
+        "options": [
+          "On the authority of Christ's baptismal command ('baptize... in the name of the Father and of the Son and of the Holy Spirit') combined with the Shema's declaration ('the Lord your God is one God') — together requiring that God be both a genuine Trinity AND truly one Lord God",
+          "He bases this profession purely on his own personal philosophical reasoning, with no scriptural support cited",
+          "He bases this profession on the authority of a specific Church council convened during his own lifetime",
+          "He explicitly declines to give any basis for this profession, presenting it as simply self-evident"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's closing prayer grounds Trinitarian faith in two scriptural pillars: the baptismal formula naming Father, Son, and Holy Spirit together, and the Shema's declaration of God's oneness — together requiring genuine Trinity within genuine unity."
+      },
+      {
+        "q": "How does Augustine humbly distribute credit and blame for the content of his fourteen (now fifteen) books in this closing prayer?",
+        "options": [
+          "Whatever he has said 'that is of Yours, may they acknowledge who are Yours; if anything of my own, may it be pardoned both by You and by those who are Yours' — attributing truth to God and asking forgiveness for any personal error",
+          "He claims full, exclusive credit for every insight in the work, with no acknowledgment of divine assistance",
+          "He argues the entire work is worthless and should be disregarded by future readers",
+          "He attributes all content, true or false, entirely to the influence of other theologians he consulted"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's humble closing distribution: truth in the work belongs to God (to be acknowledged by believers), while any error is his own personal fault, for which he asks pardon from both God and fellow believers — a fitting close to a work marked throughout by intellectual humility."
+      },
+      {
+        "q": "What does Augustine pray will happen to 'the multitude of speech' (many words that always fall short) once believers finally reach God directly?",
+        "options": [
+          "These many, always-falling-short words 'will cease,' and believers will 'say ONE thing without end, in praising' God, 'made one' in Him — replacing multiplicity and inadequacy with a single, eternal, unified act of praise",
+          "He argues believers will need to speak even MORE extensively once they reach God, not less",
+          "He claims speech itself will become entirely impossible once believers reach God, with no praise offered at all",
+          "He argues this question of future speech has no connection to the book's closing prayer"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's final prayer envisions the resolution of all his many, inadequate words: when believers reach God, 'these very many things that we speak, and yet come short, will cease,' replaced by saying 'one thing without end, in praising' God — unified, eternal praise superseding fragmented, insufficient human speech."
       }
     ]
   }

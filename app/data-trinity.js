@@ -695,31 +695,31 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 6,
         "title": "How the Man Not Yet Righteous Can Know the Righteous Man Whom He Loves.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "Of True Love, by Which We Arrive at the Knowledge of the Trinity. God is to Be Sought, Not Outwardly, by Seeking to Do Wonderful Things with the Angels, But Inwardly, by Imitating the Piety of Good Angels.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "That He Who Loves His Brother, Loves God; Because He Loves Love Itself, Which is of God, and is God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "Our Love of the Righteous is Kindled from Love Itself of the Unchangeable Form of Righteousness.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "There are Three Things in Love, as It Were a Trace of the Trinity.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       }
     ]
@@ -733,73 +733,73 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "In What Way We Must Inquire Concerning the Trinity.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "The Three Things Which are Found in Love Must Be Considered.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "The Image of the Trinity in the Mind of Man Who Knows Himself and Loves Himself. The Mind Knows Itself Through Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Three are One, and Also Equal, Viz The Mind Itself, and the Love, and the Knowledge of It. That the Same Three Exist Substantially, and are Predicated Relatively. That the Same Three are Inseparable. That the Same Three are Not Joined and Commingled Like Parts, But that They are of One Essence, and are Relatives.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "That These Three are Several in Themselves, and Mutually All in All.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "There is One Knowledge of the Thing in the Thing Itself, and Another in Eternal Truth Itself. That Corporeal Things, Too, are to Be Judged the Rules of Eternal Truth.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "We Conceive and Beget the Word Within, from the Things We Have Beheld in the Eternal Truth. The Word, Whether of the Creature or of the Creator, is Conceived by Love.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "In What Desire and Love Differ.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "In the Love of Spiritual Things the Word Born is the Same as the Word Conceived. It is Otherwise in the Love of Carnal Things.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "Whether Only Knowledge that is Loved is the Word of the Mind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "That the Image or Begotten Word of the Mind that Knows Itself is Equal to the Mind Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "Why Love is Not the Offspring of the Mind, as Knowledge is So. The Solution of the Question. The Mind with the Knowledge of Itself and the Love of Itself is the Image of the Trinity.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       }
     ]
@@ -813,73 +813,73 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "The Love of the Studious Mind, that Is, of One Desirous to Know, is Not the Love of a Thing Which It Does Not Know.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "No One at All Loves Things Unknown.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "That When the Mind Loves Itself, It is Not Unknown to Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "How the Mind Knows Itself, Not in Part, But as a Whole.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "Why the Soul is Enjoined to Know Itself. Whence Come the Errors of the Mind Concerning Its Own Substance.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "The Opinion Which the Mind Has of Itself is Deceitful.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "The Opinions of Philosophers Respecting the Substance of the Soul. The Error of Those Who are of Opinion that the Soul is Corporeal, Does Not Arise from Defective Knowledge of the Soul, But from Their Adding There to Something Foreign to It. What is Meant by Finding.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "How the Soul Inquires into Itself. Whence Comes the Error of the Soul Concerning Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "The Mind Knows Itself, by the Very Act of Understanding the Precept to Know Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "Every Mind Knows Certainly Three Things Concerning Itself — That It Understands, that It Is, and that It Lives.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "In Memory, Understanding [or Intelligence], and Will, We Have to Note Ability, Learning, and Use. Memory, Understanding, and Will are One Essentially, and Three Relatively.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "The Mind is an Image of the Trinity in Its Own Memory, and Understanding, and Will.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       }
     ]
@@ -893,67 +893,67 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "A Trace of the Trinity Also In the Outer Man.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "A Certain Trinity in the Sight. That There are Three Things in Sight, Which Differ in Their Own Nature. In What Manner from a Visible Thing Vision is Produced, or the Image of that Thing Which is Seen. The Matter is Shown More Clearly by an Example. How These Three Combine in One.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "The Unity of the Three Takes Place in Thought, Viz Of Memory, of Ternal Vision,and of Will Combining Both.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "How This Unity Comes to Pass.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "The Trinity of the Outer Man, or of External Vision, is Not an Image of God. The Likeness of God is Desired Even in Sins. In External Vision the Form of the Corporeal Thing is as It Were the Parent, Vision the Offspring; But the Will that Unites These Suggests the Holy Spirit.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "Of What Kind We are to Reckon the Rest (Requies), and End (Finis), of the Will in Vision.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "There is Another Trinity in the Memory of Him Who Thinks Over Again What He Has Seen.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "Different Modes of Conceiving.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "Species is Produced by Species in Succession.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "The Imagination Also Adds Even to Things We Have Not Seen, Those Things Which We Have Seen Elsewhere.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "Number, Weight, Measure.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       }
     ]
@@ -967,91 +967,91 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "Of What Kind are the Outer and the Inner Man.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "Man Alone of Animate Creatures Perceives the Eternal Reasons of Things Pertaining to the Body.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "The Higher Reason Which Belongs to Contemplation, and the Lower Which Belongs to Action, are in One Mind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Trinity and the Image of God is in that Part of the Mind Alone Which Belongs to the Contemplation of Eternal Things.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "The Opinion Which Devises an Image of the Trinity in the Marriage of Male and Female, and in Their Offspring.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "Why This Opinion is to Be Rejected.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "How Man is the Image of God. Whether the Woman is Not Also the Image of God. How the Saying of the Apostle, that the Man is the Image of God, But the Woman is the Glory of the Man, is to Be Understood Figuratively and Mystically.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "Turning Aside from the Image of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "The Same Argument is Continued.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "The Lowest Degradation Reached by Degrees.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "The Image of the Beast in Man.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "There is a Kind of Hidden Wedlock in the Inner Man. Unlawful Pleasures of the Thoughts.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       },
       {
         "chapter": 13,
         "title": "The Opinion of Those Who Have Thought that the Mind Was Signified by the Man, the Bodily Sense by the Woman.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       },
       {
         "chapter": 14,
         "title": "What is the Difference Between Wisdom and Knowledge. The Worship of God is the Love of Him. How the Intellectual Cognizance of Eternal Things Comes to Pass Through Wisdom.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 14
       },
       {
         "chapter": 15,
         "title": "In Opposition to the Reminiscence of Plato and Pythagoras. Pythagoras the Samian. Of the Difference Between Wisdom and Knowledge, and of Seeking the Trinity in the Knowledge of Temporal Things.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 15
       }
     ]
@@ -1065,13 +1065,13 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "The Attempt is Made to Distinguish Out of the Scriptures the Offices of Wisdom and of Knowledge. That in the Beginning of John Some Things that are Said Belong to Wisdom, Some to Knowledge. Some Things There are Only Known by the Help of Faith. How We See the Faith that is in Us. In the Same Narrative of John, Some Things are Known by the Sense of the Body, Others Only by the Reason of the Mind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "Faith a Thing of the Heart, Not of the Body; How It is Common and One and the Same in All Believers. The Faith of Believers is One, No Otherwise than the Will of Those Who Will is One.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
@@ -3312,9 +3312,9 @@ window.TRINITY_TEXT = {
         "text": "9. Return then with me, and let us consider why we love the apostle. Is it at all on account of his human kind, which we know right well, in that we believe him to have been a man? Assuredly not; for if it were so, he now is not him whom we love, since he is no longer that man, for his soul is separated from his body. But we believe that which we love in him to be still living, for we love his righteous mind. From what general or special rule then, except that we know both what a mind is, and what it is to be righteous? And we say, indeed, not unfitly, that we therefore know what a mind is, because we too have a mind. For neither did we ever see it with our eyes, and gather a special or general notion from the resemblance of more minds than one, which we had seen; but rather, as I have said before, because we too have it. For what is known so intimately, and so perceives itself to be itself, as that by which also all other things are perceived, that is, the mind itself? For we recognize the movements of bodies also, by which we perceive that others live besides ourselves, from the resemblance of ourselves; since we also so move our body in living as we observe those bodies to be moved. For even when a living body is moved, there is no way opened to our eyes to see the mind, a thing which cannot be seen by the eyes; but we perceive something to be contained in that bulk, such as is contained in ourselves, so as to move in like manner our own bulk, which is the life and the soul. Neither is this, as it were, the property of human foresight and reason, since brute animals also perceive that not only they themselves live, but also other brute animals interchangeably, and the one the other, and that we ourselves do so. Neither do they see our souls, save from the movements of the body, and that immediately and most easily by some natural agreement. Therefore we both know the mind of any one from our own, and believe also from our own of him whom we do not know. For not only do we perceive that there is a mind, but we can also know what a mind is, by reflecting upon our own: for we have a mind. But whence do we know what a righteous man is? For we said above that we love the apostle for no other reason except that he is a righteous mind. We know, then, what a righteous man also is, just as we know what a mind is. But what a mind is, as has been said, we know from ourselves, for there is a mind in us. But whence do we know what a righteous man is, if we are not righteous? But if no one but he who is righteous knows what is a righteous man, no one but a righteous man loves a righteous man; for one cannot love him whom one believes to be righteous, for this very reason that one does believe him to be righteous, if one does not know what it is to be righteous; according to that which we have shown above, that no one loves what he believes and does not see, except by some rule of a general or special notion. And if for this reason no one but a righteous man loves a righteous man, how will any one wish to be a righteous man who is not yet so? For no one wishes to be that which he does not love. But, certainly, that he who is not righteous may be so, it is necessary that he should wish to be righteous; and in order that he may wish to be righteous, he loves the righteous man. Therefore, even he who is not yet righteous, loves the righteous man. But he cannot love the righteous man, who is ignorant what a righteous man is. Accordingly, even he who is not yet righteous, knows what a righteous man is. Whence then does he know this? Does he see it with his eyes? Is any corporeal thing righteous, as it is white, or black, or square, or round? Who could say this? Yet with one's eyes one has seen nothing except corporeal things. But there is nothing righteous in a man except the mind; and when a man is called a righteous man, he is called so from the mind, not from the body. For righteousness is in some sort the beauty of the mind, by which men are beautiful; very many too who are misshapen and deformed in body. And as the mind is not seen with the eyes, so neither is its beauty. From whence then does he who is not yet righteous know what a righteous man is, and love the righteous man that he may become righteous? Do certain signs shine forth by the motion of the body, by which this or that man is manifested to be righteous? But whence does any one know that these are the signs of a righteous mind when he is wholly ignorant what it is to be righteous? Therefore he does know. But whence do we know what it is to be righteous, even when we are not yet righteous? If we know from without ourselves, we know it by some bodily thing. But this is not a thing of the body. Therefore we know in ourselves what it is to be righteous. For I find this nowhere else when I seek to utter it, except within myself; and if I ask another what it is to be righteous, he seeks within himself what to answer; and whosoever hence can answer truly, he has found within himself what to answer. And when indeed I wish to speak of Carthage, I seek within myself what to speak, and I find within myself a notion or image of Carthage; but I have received this through the body, that is, through the perception of the body, since I have been present in that city in the body, and I saw and perceived it, and retained it in my memory, that I might find within myself a word concerning it, whenever I might wish to speak of it. For its word is the image itself of it in my memory, not that sound of two syllables when Carthage is named, or even when that name itself is thought of silently from time to time, but that which I discern in my mind, when I utter that dissyllable with my voice, or even before I utter it. So also, when I wish to speak of Alexandria, which I never saw, an image of it is present with me. For whereas I had heard from many and had believed that city to be great, in such way as it could be told me, I formed an image of it in my mind as I was able; and this is with me its word when I wish to speak of it, before I utter with my voice the five syllables which make the name that almost every one knows. And yet if I could bring forth that image from my mind to the eyes of men who know Alexandria, certainly all either would say, It is not it; or if they said, It is, I should greatly wonder; and as I gazed at it in my mind, that is, at the image which was as it were its picture, I should yet not know it to be it, but should believe those who retained an image they had seen. But I do not so ask what it is to be righteous, nor do I so find it, nor do I so gaze upon it, when I utter it; neither am I so approved when I am heard, nor do I so approve when I hear; as though I have seen such a thing with my eyes, or learned it by some perception of the body, or heard it from those who had so learned it. For when I say, and say knowingly, that mind is righteous which knowingly and of purpose assigns to every one his due in life and behavior, I do not think of anything absent, as Carthage, or imagine it as I am able, as Alexandria, whether it be so or not; but I discern something present, and I discern it within myself, though I myself am not that which I discern; and many if they hear will approve it. And whoever hears me and knowingly approves, he too discerns this same thing within himself, even though he himself be not what he discerns. But when a righteous man says this, he discerns and says that which he himself is. And whence also does he discern it, except within himself? But this is not to be wondered at; for whence should he discern himself except within himself? The wonderful thing is, that the mind should see within itself that which it has seen nowhere else, and should see truly, and should see the very true righteous mind, and should itself be a mind, and yet not a righteous mind, which nevertheless it sees within itself. Is there another mind that is righteous in a mind that is not yet righteous? Or if there is not, what does it there see when it sees and says what is a righteous mind, nor sees it anywhere else but in itself, when itself is not a righteous mind? Is that which it sees an inner truth present to the mind which has power to behold it? Yet all have not that power; and they who have power to behold it, are not all also that which they behold, that is, they are not also righteous minds themselves, just as they are able to see and to say what is a righteous mind. And whence will they be able to be so, except by cleaving to that very same form itself which they behold, so that from thence they may be formed and may be righteous minds; not only discerning and saying that the mind is righteous which knowingly and of purpose assigns to every one that which is his due in life and behavior, but so likewise that they themselves may live righteously and be righteous in character, by assigning to every one that which is his due, so as to owe no man anything, but to love one another. And whence can any one cleave to that form but by loving it? Why then do we love another whom we believe to be righteous, and do not love that form itself wherein we see what is a righteous mind, that we also may be able to be righteous? Is it that unless we loved that also, we should not love him at all, whom through it we love; but while we are not righteous, we love that form too little to allow of our being able to be righteous? The man therefore who is believed to be righteous, is loved through that form and truth which he who loves discerns and understands within himself; but that very form and truth itself cannot be loved from any other source than itself. For we do not find any other such thing besides itself, so that by believing we might love it when it is unknown, in that we here already know another such thing. For whatsoever of such a kind one may have seen, is itself; and there is not any other such thing, since itself alone is such as itself is. He therefore who loves men, ought to love them either because they are righteous, or that they may become righteous. For so also he ought to love himself, either because he is righteous, or that he may become righteous; for in this way he loves his neighbor as himself without any risk. For he who loves himself otherwise, loves himself wrongfully, since he loves himself to this end that he may be unrighteous; therefore to this end that he may be wicked; and hence it follows next that he does not love himself; for, \"He who loves iniquity, hates his own soul.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C6",
+    "durationSeconds": 590
   },
   "TRIN-B8C7": {
     "book": 8,
@@ -3330,9 +3330,9 @@ window.TRINITY_TEXT = {
         "text": "11. Wherefore they who seek God through those Powers which rule over the world, or parts of the world, are removed and cast away far from Him; not by intervals of space, but by difference of affections: for they endeavor to find a path outwardly, and forsake their own inward things, within which is God. Therefore, even although they may either have heard some holy heavenly Power, or in some way or another may have thought of it, yet they rather covet its deeds at which human weakness marvels, but do not imitate the piety by which divine rest is acquired. For they prefer, through pride, to be able to do that which an angel does, more than, through devotion, to be that which an angel is. For no holy being rejoices in his own power, but in His from whom he has the power which he fitly can have; and he knows it to be more a mark of power to be united to the Omnipotent by a pious will, than to be able, by his own power and will, to do what they may tremble at who are not able to do such things. Therefore the Lord Jesus Christ Himself, in doing such things, in order that He might teach better things to those who marvelled at them, and might turn those who were intent and in doubt about unusual temporal things to eternal and inner things, says, \"Come unto me, all you that labor and are heavy laden, and I will give you rest. Take my yoke upon you.\" And He does not say, Learn of me, because I raise those who have been dead four days; but He says, \"Learn of me; for I am meek and lowly in heart.\" For humility, which is most solid, is more powerful and safer than pride, that is most inflated. And so He goes on to say, \"And you shall find rest unto your souls,\" for \"Love is not puffed up;\" and \"God is Love;\" and \"such as be faithful in love shall rest in Him,\" called back from the din which is without to silent joys. Behold, \"God is Love:\" why do we go forth and run to the heights of the heavens and the lowest parts of the earth, seeking Him who is within us, if we wish to be with Him?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C7",
+    "durationSeconds": 250
   },
   "TRIN-B8C8": {
     "book": 8,
@@ -3344,9 +3344,9 @@ window.TRINITY_TEXT = {
         "text": "12. Let no one say, I do not know what I love. Let him love his brother, and he will love the same love. For he knows the love with which he loves, more than the brother whom he loves. So now he can know God more than he knows his brother: clearly known more, because more present; known more, because more within him; known more, because more certain. Embrace the love of God, and by love embrace God. That is love itself, which associates together all good angels and all the servants of God by the bond of sanctity, and joins together us and them mutually with ourselves, and joins us subordinately to Himself. In proportion, therefore, as we are healed from the swelling of pride, in such proportion are we more filled with love; and with what is he full, who is full of love, except with God? Well, but you will say, I see love, and, as far as I am able, I gaze upon it with my mind, and I believe the Scripture, saying, that \"God is love; and he that dwells in love, dwells in God;\" but when I see love, I do not see in it the Trinity. Nay, but you see the Trinity if you see love. But if I can I will put you in mind, that you may see that you see it; only let itself be present, that we may be moved by love to something good. Since, when we love love, we love one who loves something, and that on account of this very thing, that he does love something; therefore what does love love, that love itself also may be loved? For that is not love which loves nothing. But if it loves itself it must love something, that it may love itself as love. For as a word indicates something, and indicates also itself, but does not indicate itself to be a word, unless it indicates that it does indicate something; so love also loves indeed itself, but except it love itself as loving something, it loves itself not as love. What therefore does love love, except that which we love with love? But this, to begin from that which is nearest to us, is our brother. And listen how greatly the Apostle John commends brotherly love: \"He that loves his brother abides in the light, and there is none occasion of stumbling in him.\" It is manifest that he placed the perfection of righteousness in the love of our brother; for he certainly is perfect in whom \"there is no occasion of stumbling.\" And yet he seems to have passed by the love of God in silence; which he never would have done, unless because he intends God to be understood in brotherly love itself. For in this same epistle, a little further on, he says most plainly thus: \"Beloved, let us love one another: for love is of God; and every one that loves is born of God, and knows God. He that loves not, knows not God; for God is love.\" And this passage declares sufficiently and plainly, that this same brotherly love itself (for that is brotherly love by which we love each other) is set forth by so great authority, not only to be from God, but also to be God. When, therefore, we love our brother from love, we love our brother from God; neither can it be that we do not love above all else that same love by which we love our brother: whence it may be gathered that these two commandments cannot exist unless interchangeably. For since \"God is love,\" he who loves love certainly loves God; but he must needs love love, who loves his brother. And so a little after he says, \"For he that loves not his brother whom he has seen, how can he love God whom he has not seen\"? because the reason that he does not see God is, that he does not love his brother. For he who does not love his brother, abides not in love; and he who abides not in love, abides not in God, because God is love. Further, he who abides not in God, abides not in light; for \"God is light, and in Him is no darkness at all.\" He therefore who abides not in light, what wonder is it if he does not see light, that is, does not see God, because he is in darkness? But he sees his brother with human sight, with which God cannot be seen. But if he loved with spiritual love him whom he sees with human sight, he would see God, who is love itself, with the inner sight by which He can be seen. Therefore he who does not love his brother whom he sees, how can he love God, whom on that account he does not see, because God is love, which he has not who does not love his brother? Neither let that further question disturb us, how much of love we ought to spend upon our brother, and how much upon God: incomparably more upon God than upon ourselves, but upon our brother as much as upon ourselves; and we love ourselves so much the more, the more we love God. Therefore we love God and our neighbor from one and the same love; but we love God for the sake of God, and ourselves and our neighbors for the sake of God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C8",
+    "durationSeconds": 255
   },
   "TRIN-B8C9": {
     "book": 8,
@@ -3358,9 +3358,9 @@ window.TRINITY_TEXT = {
         "text": "13. For why is it, pray, that we burn when we hear and read, \"Behold, now is the accepted time; behold, now is the day of salvation: giving no offense in anything, that the ministry be not blamed: but in all things approving ourselves as the ministers of God, in much patience, in afflictions, in necessities, in distresses, in stripes, in imprisonments, in tumults, in labors, in watchings, in fastings; by pureness, by knowledge, by long-suffering, by kindness, by the Holy Ghost, by love unfeigned, by the word of truth, by the power of God, by the armor of righteousness on the right hand and on the left, by honor and dishonor, by evil report and good report: as deceivers, and yet true; as unknown, and yet well known; as dying, and, behold, we live; as chastened, and not killed; as sorrowful, yet always rejoicing; as poor, yet making many rich; as having nothing, and yet possessing all things?\" Why is it that we are inflamed with love of the Apostle Paul, when we read these things, unless that we believe him so to have lived? But we do not believe that the ministers of God ought so to live because we have heard it from any one, but because we behold it inwardly within ourselves, or rather above ourselves, in the truth itself. Him, therefore, whom we believe to have so lived, we love for that which we see. And except we loved above all else that form which we discern as always steadfast and unchangeable, we should not for that reason love him, because we hold fast in our belief that his life, when he was living in the flesh, was adapted to, and in harmony with, this form. But somehow we are stirred up the more to the love of this form itself, through the belief by which we believe some one to have so lived; and to the hope by which we no more at all despair, that we, too, are able so to live; we who are men, from this fact itself, that some men have so lived, so that we both desire this more ardently, and pray for it more confidently. So both the love of that form, according to which they are believed to have lived, makes the life of these men themselves to be loved by us; and their life thus believed stirs up a more burning love towards that same form; so that the more ardently we love God, the more certainly and the more calmly do we see Him, because we behold in God the unchangeable form of righteousness, according to which we judge that man ought to live. Therefore faith avails to the knowledge and to the love of God, not as though of one altogether unknown, or altogether not loved; but so that thereby He may be known more clearly, and loved more steadfastly."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C9",
+    "durationSeconds": 156
   },
   "TRIN-B8C10": {
     "book": 8,
@@ -3372,9 +3372,9 @@ window.TRINITY_TEXT = {
         "text": "14. But what is love or charity, which divine Scripture so greatly praises and proclaims, except the love of good? But love is of some one that loves, and with love something is loved. Behold, then, there are three things: he that loves, and that which is loved, and love. What, then, is love, except a certain life which couples or seeks to couple together some two things, namely, him that loves, and that which is loved? And this is so even in outward and carnal loves. But that we may drink in something more pure and clear, let us tread down the flesh and ascend to the mind. What does the mind love in a friend except the mind? There, then, also are three things: he that loves, and that which is loved, and love. It remains to ascend also from hence, and to seek those things which are above, as far as is given to man. But here for a little while let our purpose rest, not that it may think itself to have found already what it seeks; but just as usually the place has first to be found where anything is to be sought, while the thing itself is not yet found, but we have only found already where to look for it; so let it suffice to have said thus much, that we may have, as it were, the hinge of some starting-point, whence to weave the rest of our discourse."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C10",
+    "durationSeconds": 81
   },
   "TRIN-B9C1": {
     "book": 9,
@@ -3386,9 +3386,9 @@ window.TRINITY_TEXT = {
         "text": "1. We certainly seek a trinity — not any trinity, but that Trinity which is God, and the true and supreme and only God. Let my hearers then wait, for we are still seeking. And no one justly finds fault with such a search, if at least he who seeks that which either to know or to utter is most difficult, is steadfast in the faith. But whosoever either sees or teaches better, finds fault quickly and justly with any one who confidently affirms concerning it. \"Seek God,\" he says, \"and your heart shall live;\" and lest any one should rashly rejoice that he has, as it were, apprehended it, \"Seek,\" he says, \"His face evermore.\" And the apostle: \"If any man,\" he says, \"think that he knows anything, he knows nothing yet as he ought to know. But if any man love God, the same is known of Him.\" He has not said, has known Him, which is dangerous presumption, but \"is known of Him.\" So also in another place, when he had said, \"But now after that you have known God:\" immediately correcting himself, he says, \"or rather are known of God.\" And above all in that other place, \"Brethren,\" he says, \"I count not myself to have apprehended: but this one thing I do, forgetting those things which are behind, and reaching forth unto those things which are before, I press in purpose toward the mark, for the prize of the high calling of God in Christ Jesus. Let us therefore, as many as be perfect, be thus minded.\" Perfection in this life, he tells us, is nothing else than to forget those things which are behind, and to reach forth and press in purpose toward those things which are before. For he that seeks has the safest purpose, [who seeks] until that is taken hold of whither we are tending, and for which we are reaching forth. But that is the right purpose which starts from faith. For a certain faith is in some way the starting-point of knowledge; but a certain knowledge will not be made perfect, except after this life, when we shall see face to face. Let us therefore be thus minded, so as to know that the disposition to seek the truth is more safe than that which presumes things unknown to be known. Let us therefore so seek as if we should find, and so find as if we were about to seek. For \"when a man has done, then he begins.\" Let us doubt without unbelief of things to be believed; let us affirm without rashness of things to be understood: authority must be held fast in the former, truth sought out in the latter. As regards this question, then, let us believe that the Father, and the Son, and the Holy Spirit is one God, the Creator and Ruler of the whole creature; and that the Father is not the Son, nor the Holy Spirit either the Father or the Son, but a trinity of persons mutually interrelated, and a unity of an equal essence. And let us seek to understand this, praying for help from Himself, whom we wish to understand; and as much as He grants, desiring to explain what we understand with so much pious care and anxiety, that even if in any case we say one thing for another, we may at least say nothing unworthy. As, for the sake of example, if we say anything concerning the Father that does not properly belong to the Father, or does belong to the Son, or to the Holy Spirit, or to the Trinity itself; and if anything of the Son which does not properly suit with the Son, or at all events which does suit with the Father, or with the Holy Spirit, or with the Trinity; or if, again, anything concerning the Holy Spirit, which is not fitly a property of the Holy Spirit, yet is not alien from the Father, or from the Son, or from the one God the Trinity itself. Even as now our wish is to see whether the Holy Spirit is properly that love which is most excellent which if He is not, either the Father is love, or the Son, or the Trinity itself; since we cannot withstand the most certain faith and weighty authority of Scripture, saying, \"God is love.\" And yet we ought not to deviate into profane error, so as to say anything of the Trinity which does not suit the Creator, but rather the creature, or which is feigned outright by mere empty thought."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C1",
+    "durationSeconds": 186
   },
   "TRIN-B9C2": {
     "book": 9,
@@ -3400,9 +3400,9 @@ window.TRINITY_TEXT = {
         "text": "2. And this being so, let us direct our attention to those three things which we fancy we have found. We are not yet speaking of heavenly things, nor yet of God the Father, and Son, and Holy Spirit, but of that inadequate image, which yet is an image, that is, man; for our feeble mind perhaps can gaze upon this more familiarly and more easily. Well then, when I, who make this inquiry, love anything, there are three things concerned — myself, and that which I love, and love itself. For I do not love love, except I love a lover; for there is no love where nothing is loved. Therefore there are three things — he who loves, and that which is loved, and love. But what if I love none except myself? Will there not then be two things — that which I love, and love? For he who loves and that which is loved are the same when any one loves himself; just as to love and to be loved, in the same way, is the very same thing when any one loves himself. Since the same thing is said, when it is said, he loves himself, and he is loved by himself. For in that case to love and to be loved are not two different things: just as he who loves and he who is loved are not two different persons. But yet, even so, love and what is loved are still two things. For there is no love when any one loves himself, except when love itself is loved. But it is one thing to love one's self, another to love one's own love. For love is not loved, unless as already loving something; since where nothing is loved there is no love. Therefore there are two things when any one loves himself — love, and that which is loved. For then he that loves and that which is loved are one. Whence it seems that it does not follow that three things are to be understood wherever love is. For let us put aside from the inquiry all the other many things of which a man consists; and in order that we may discover clearly what we are now seeking, as far as in such a subject is possible, let us treat of the mind alone. The mind, then, when it loves itself, discloses two things — mind and love. But what is to love one's self, except to wish to help one's self to the enjoyment of self? And when any one wishes himself to be just as much as he is, then the will is on a par with the mind, and the love is equal to him who loves. And if love is a substance, it is certainly not body, but spirit; and the mind also is not body, but spirit. Yet love and mind are not two spirits, but one spirit; nor yet two essences, but one: and yet here are two things that are one, he that loves and love; or, if you like so to put it, that which is loved and love. And these two, indeed, are mutually said relatively. Since he who loves is referred to love, and love to him who loves. For he who loves, loves with some love, and love is the love of some one who loves. But mind and spirit are not said relatively, but express essence. For mind and spirit do not exist because the mind and spirit of some particular man exists. For if we subtract the body from that which is man, which is so called with the conjunction of body, the mind and spirit remain. But if we subtract him that loves, then there is no love; and if we subtract love, then there is no one that loves. And therefore, in so far as they are mutually referred to one another, they are two; but whereas they are spoken in respect to themselves, each are spirit, and both together also are one spirit; and each are mind, and both together one mind. Where, then, is the trinity? Let us attend as much as we can, and let us invoke the everlasting light, that He may illuminate our darkness, and that we may see in ourselves, as much as we are permitted, the image of God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C2",
+    "durationSeconds": 230
   },
   "TRIN-B9C3": {
     "book": 9,
@@ -3414,9 +3414,9 @@ window.TRINITY_TEXT = {
         "text": "3. For the mind cannot love itself, except also it know itself; for how can it love what it does not know? Or if any body says that the mind, from either general or special knowledge, believes itself of such a character as it has by experience found others to be and therefore loves itself, he speaks most foolishly. For whence does a mind know another mind, if it does not know itself? For the mind does not know other minds and not know itself, as the eye of the body sees other eyes and does not see itself; for we see bodies through the eyes of the body, because, unless we are looking into a mirror, we cannot refract and reflect the rays into themselves which shine forth through those eyes, and touch whatever we discern — a subject, indeed, which is treated of most subtlely and obscurely, until it be clearly demonstrated whether the fact be so, or whether it be not. But whatever is the nature of the power by which we discern through the eyes, certainly, whether it be rays or anything else, we cannot discern with the eyes that power itself; but we inquire into it with the mind, and if possible, understand even this with the mind. As the mind, then, itself gathers the knowledge of corporeal things through the senses of the body, so of incorporeal things through itself. Therefore it knows itself also through itself, since it is incorporeal; for if it does not know itself, it does not love itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C3",
+    "durationSeconds": 89
   },
   "TRIN-B9C4": {
     "book": 9,
@@ -3440,9 +3440,9 @@ window.TRINITY_TEXT = {
         "text": "7. And even if there are some bodies which cannot be wholly separated and divided, yet they would not be bodies unless they consisted of their own proper parts. A part then is predicated relatively to a whole, since every part is a part of some whole, and a whole is a whole by having all its parts. But since both part and whole are bodies, these things are not only predicated relatively, but exist also substantially. Perhaps, then, the mind is a whole, and the love with which it loves itself, and the knowledge with which it knows itself, are as it were its parts, of which two parts that whole consists. Or are there three equal parts which make up the one whole? But no part embraces the whole, of which it is a part; whereas, when the mind knows itself as a whole, that is, knows itself perfectly, then the knowledge of it extends through the whole of it; and when it loves itself perfectly, then it loves itself as a whole, and the love of it extends through the whole of it. Is it, then, as one drink is made from wine and water and honey, and each single part extends through the whole, and yet they are three things (for there is no part of the drink which does not contain these three things; for they are not joined as if they were water and oil, but are entirely commingled: and they are all substances, and the whole of that liquor which is composed of the three is one substance), — is it, I say, in some such way as this we are to think these three to be together, mind, love, and knowledge? But water, wine, and honey are not of one substance, although one substance results in the drink made from the commingling of them. And I cannot see how those other three are not of the same substance, since the mind itself loves itself, and itself knows itself; and these three so exist, as that the mind is neither loved nor known by any other thing at all. These three, therefore, must needs be of one and the same essence; and for that reason, if they were confounded together as it were by a commingling, they could not be in any way three, neither could they be mutually referred to each other. Just as if you were to make from one and the same gold three similar rings, although connected with each other, they are mutually referred to each other, because they are similar. For everything similar is similar to something, and there is a trinity of rings, and one gold. But if they are blended with each other, and each mingled with the other through the whole of their own bulk, then that trinity will fall through, and it will not exist at all; and not only will it be called one gold, as it was called in the case of those three rings, but now it will not be called three things of gold at all."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C4",
+    "durationSeconds": 432
   },
   "TRIN-B9C5": {
     "book": 9,
@@ -3454,9 +3454,9 @@ window.TRINITY_TEXT = {
         "text": "8. But in these three, when the mind knows itself and loves itself, there remains a trinity: mind, love, knowledge; and this trinity is not confounded together by any commingling: although they are each severally in themselves and mutually all in all, or each severally in each two, or each two in each. Therefore all are in all. For certainly the mind is in itself, since it is called mind in respect to itself: although it is said to be knowing, or known, or knowable, relatively to its own knowledge; and although also as loving, and loved, or lovable, it is referred to love, by which it loves itself. And knowledge, although it is referred to the mind that knows or is known, nevertheless is also predicated both as known and knowing in respect to itself: for the knowledge by which the mind knows itself is not unknown to itself. And although love is referred to the mind that loves, whose love it is; nevertheless it is also love in respect to itself, so as to exist also in itself: since love too is loved, yet cannot be loved with anything except with love, that is with itself. So these things are severally in themselves. But so are they in each other; because both the mind that loves is in love, and love is in the knowledge of him that loves, and knowledge is in the mind that knows. And each severally is in like manner in each two, because the mind which knows and loves itself, is in its own love and knowledge: and the love of the mind that loves and knows itself, is in the mind and in its knowledge: and the knowledge of the mind that knows and loves itself is in the mind and in its love, because it loves itself that knows, and knows itself that loves. And hence also each two is in each severally, since the mind which knows and loves itself, is together with its own knowledge in love, and together with its own love in knowledge; and love too itself and knowledge are together in the mind, which loves and knows itself. But in what way all are in all, we have already shown above; since the mind loves itself as a whole, and knows itself as a whole, and knows its own love wholly, and loves its own knowledge wholly, when these three things are perfect in respect to themselves. Therefore these three things are marvellously inseparable from each other, and yet each of them is severally a substance, and all together are one substance or essence, while they are mutually predicated relatively. \"Believest thou not that I am in the Father, and the Father in Me? I pray that they all may be one, as thou Father art in Me, and I in Thee.\" Athanasius (Oratio, 3, 21) remarks that Christ here prays that the disciples \"may imitate the trinitarian unity of essence, in their unity of affection.\" Had it been possible for the disciples to be in the essence of the Father as the Son is, he would have prayed that they all may be \"one in Thee,\" instead of \"one in Us.\" The Platonists, also, employed this figure of circulatory movement, to explain the self-reflecting and self-communing nature of the human mind. \"It is not possible for us to know what our souls are, but only by their κινήσεις κυκλικαὶ, their circular and reflex motions and converse with themselves, which only can steal from them their own secrets.\" J. Smith: Immortality of the Soul, Ch. ii. Augustine's illustration, however, is imperfect, because \"the three things\" which circulate are not \"each of them severally a substance.\" Only one of them, namely, the mind, is a substance.—W.G.T.S.]}}-->"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C5",
+    "durationSeconds": 155
   },
   "TRIN-B9C6": {
     "book": 9,
@@ -3476,9 +3476,9 @@ window.TRINITY_TEXT = {
         "text": "11. But it makes a difference, whether, under that or in that darkness, I am shut off as it were from the clear heaven; or whether (as usually happens on lofty mountains), enjoying the free air between both, I at once look up above to the calmest light, and down below upon the densest clouds. For whence is the ardor of brotherly love kindled in me, when I hear that some man has borne bitter torments for the excellence and steadfastness of faith? And if that man is shown to me with the finger, I am eager to join myself to him, to become acquainted with him, to bind him to myself in friendship. And accordingly, if opportunity offers, I draw near, I address him, I converse with him, I express my goodwill towards him in what words I can, and wish that in him too in turn should be brought to pass and expressed goodwill towards me; and I endeavor after a spiritual embrace in the way of belief, since I cannot search out so quickly and discern altogether his innermost heart. I love therefore the faithful and courageous man with a pure and genuine love. But if he were to confess to me in the course of conversation, or were through unguardedness to show in any way, that either he believes something unseemly of God, and desires also something carnal in Him, and that he bore these torments on behalf of such an error, or from the desire of money for which he hoped, or from empty greediness of human praise: immediately it follows that the love with which I was borne towards him, displeased, and as it were repelled, and taken away from an unworthy man, remains in that form, after which, believing him such as I did, I had loved him; unless perhaps I have come to love him to this end, that he may become such, while I have found him not to be such in fact. And in that man, too, nothing is changed: although it can be changed, so that he may become that which I had believed him to be already. But in my mind there certainly is something changed, viz., the estimate I had formed of him, which was before of one sort, and now is of another: and the same love, at the bidding from above of unchangeable righteousness, is turned aside from the purpose of enjoying, to the purpose of taking counsel. But the form itself of unshaken and stable truth, wherein I should have enjoyed the fruition of the man, believing him to be good, and wherein likewise I take counsel that he may be good, sheds in an immoveable eternity the same light of incorruptible and most sound reason, both upon the sight of my mind, and upon that cloud of images, which I discern from above, when I think of the same man whom I had seen. Again, when I call back to my mind some arch, turned beautifully and symmetrically, which, let us say, I saw at Carthage; a certain reality that had been made known to the mind through the eyes, and transferred to the memory, causes the imaginary view. But I behold in my mind yet another thing, according to which that work of art pleases me; and whence also, if it displeased me, I should correct it. We judge therefore of those particular things according to that [form of eternal truth], and discern that form by the intuition of the rational mind. But those things themselves we either touch if present by the bodily sense, or if absent remember their images as fixed in our memory, or picture, in the way of likeness to them, such things as we ourselves also, if we wished and were able, would laboriously build up: figuring in the mind after one fashion the images of bodies, or seeing bodies through the body; but after another, grasping by simple intelligence what is above the eye of the mind, viz., the reasons and the unspeakably beautiful skill of such forms."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C6",
+    "durationSeconds": 315
   },
   "TRIN-B9C7": {
     "book": 9,
@@ -3494,9 +3494,9 @@ window.TRINITY_TEXT = {
         "text": "13. And this word is conceived by love, either of the creature or of the Creator, that is, either of changeable nature or of unchangeable truth."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C7",
+    "durationSeconds": 78
   },
   "TRIN-B9C8": {
     "book": 9,
@@ -3508,9 +3508,9 @@ window.TRINITY_TEXT = {
         "text": "[Conceived] therefore, either by desire or by love: not that the creature ought not to be loved; but if that love [of the creature] is referred to the Creator, then it will not be desire (cupiditas), but love (charitas). For it is desire when the creature is loved for itself. And then it does not help a man through making use of it, but corrupts him in the enjoying it. When, therefore, the creature is either equal to us or inferior, we must use the inferior in order to God, but we must enjoy the equal duly in God. For as you ought to enjoy yourself, not in yourself, but in Him who made you, so also him whom you love as yourself. Let us enjoy, therefore, both ourselves and our brethren in the Lord; and hence let us not dare to yield, and as it were to relax, ourselves to ourselves in the direction downwards. Now a word is born, when, being thought out, it pleases us either to the effect of sinning, or to that of doing right. Therefore love, as it were a mean, conjoins our word and the mind from which it is conceived, and without any confusion binds itself as a third with them, in an incorporeal embrace."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C8",
+    "durationSeconds": 71
   },
   "TRIN-B9C9": {
     "book": 9,
@@ -3522,9 +3522,9 @@ window.TRINITY_TEXT = {
         "text": "14. But the word conceived and the word born are the very same when the will finds rest in knowledge itself, as is the case in the love of spiritual things. For instance, he who knows righteousness perfectly, and loves it perfectly, is already righteous; even if no necessity exist of working according to it outwardly through the members of the body. But in the love of carnal and temporal things, as in the offspring of animals, the conception of the word is one thing, the bringing forth another. For here what is conceived by desiring is born by attaining. Since it does not suffice to avarice to know and to love gold, except it also have it; nor to know and love to eat, or to lie with any one, unless also one does it; nor to know and love honors and power, unless they actually come to pass. Nay, all these things, even if obtained, do not suffice. \"Whosoever drinks of this water,\" He says, \"shall thirst again.\" And so also the Psalmist, \"He has conceived pain and brought forth iniquity.\" And he speaks of pain or labor as conceived, when those things are conceived which it is not sufficient to know and will, and when the mind burns and grows sick with want, until it arrives at those things, and, as it were, brings them forth. Whence in the Latin language we have the word \"parta\" used elegantly for both \"reperta\" and \"comperta,\" which words sound as if derived from bringing forth. Since \"lust, when it has conceived, brings forth sin.\" Wherefore the Lord proclaims, \"Come unto me all you that labor and are heavy laden;\" and in another place \"Woe unto them that are with child, and to them that give suck, in those days!\" And when therefore He referred all either right actions or sins to the bringing forth of the word, \"By your mouth,\" He says, \"you shall be justified, and by your mouth you shall be condemned,\" intending thereby not the visible mouth, but that which is within and invisible, of the thought and of the heart."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C9",
+    "durationSeconds": 121
   },
   "TRIN-B9C10": {
     "book": 9,
@@ -3536,9 +3536,9 @@ window.TRINITY_TEXT = {
         "text": "15. It is rightly asked then, whether all knowledge is a word, or only knowledge that is loved. For we also know the things which we hate; but what we do not like, cannot be said to be either conceived or brought forth by the mind. For not all things which in anyway touch it, are conceived by it; but some only reach the point of being known, but yet are not spoken as words, as for instance those of which we speak now. For those are called words in one way, which occupy spaces of time by their syllables, whether they are pronounced or only thought; and in another way, all that is known is called a word imprinted on the mind, as long as it can be brought forth from the memory and defined, even though we dislike the thing itself; and in another way still, when we like that which is conceived in the mind. And that which the apostle says, must be taken according to this last kind of word, \"No man can say that Jesus is the Lord, but by the Holy Ghost;\" since those also say this, but according to another meaning of the term \"word,\" of whom the Lord Himself says, \"Not every one that says unto me, Lord, Lord, shall enter into the kingdom of heaven.\" Nay, even in the case of things which we hate, when we rightly dislike and rightly censure them, we approve and like the censure bestowed upon them, and it becomes a word. Nor is it the knowledge of vices that displeases us, but the vices themselves. For I like to know and define what intemperance is; and this is its word. Just as there are known faults in art, and the knowledge of them is rightly approved, when a connoisseur discerns the species or the privation of excellence, as to affirm and deny that it is or that it is not; yet to be without excellence and to fall away into fault, is worthy of condemnation. And to define intemperance, and to say its word, belongs to the art of morals; but to be intemperate belongs to that which that art censures. Just as to know and define what a solecism is, belongs to the art of speaking; but to be guilty of one, is a fault which the same art reprehends. A word, then, which is the point we wish now to discern and intimate, is knowledge together with love. Whenever, then, the mind knows and loves itself, its word is joined to it by love. And since it loves knowledge and knows love, both the word is in love and love is in the word, and both are in him who loves and speaks."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C10",
+    "durationSeconds": 138
   },
   "TRIN-B9C11": {
     "book": 9,
@@ -3550,9 +3550,9 @@ window.TRINITY_TEXT = {
         "text": "16. But all knowledge according to species is like the thing which it knows. For there is another knowledge according to privation, according to which we speak a word only when we condemn. And this condemnation of a privation is equivalent to praise of the species, and so is approved. The mind, then, contains some likeness to a known species, whether when liking that species or when disliking its privation. And hence, in so far as we know God, we are like Him, but not like to the point of equality, since we do not know Him to the extent of His own being. And as, when we speak of bodies by means of the bodily sense, there arises in our mind some likeness of them, which is a phantasm of the memory; for the bodies themselves are not at all in the mind, when we think them, but only the likenesses of those bodies; therefore, when we approve the latter for the former, we err, for the approving of one thing for another is an error; yet the image of the body in the mind is a thing of a better sort than the species of the body itself, inasmuch as the former is in a better nature, viz. in a living substance, as the mind is: so when we know God, although we are made better than we were before we knew Him, and above all when the same knowledge being also liked and worthily loved becomes a word, and so that knowledge becomes a kind of likeness of God; yet that knowledge is of a lower kind, since it is in a lower nature; for the mind is creature, but God is Creator. And from this it may be inferred, that when the mind knows and approves itself, this same knowledge is in such way its word, as that it is altogether on a par and equal with it, and the same; because it is neither the knowledge of a lower essence, as of the body, nor of a higher, as of God. And whereas knowledge bears a likeness to that which it knows, that is, of which it is the knowledge; in this case it has perfect and equal likeness, when the mind itself, which knows, is known. And so it is both image and word; because it is uttered concerning that mind to which it is equalled in knowing, and that which is begotten is equal to the begetter."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C11",
+    "durationSeconds": 122
   },
   "TRIN-B9C12": {
     "book": 9,
@@ -3568,9 +3568,9 @@ window.TRINITY_TEXT = {
         "text": "18. First, therefore, it is clear that a thing may possibly be knowable, that is, such as can be known, and yet that it may be unknown; but that it is not possible for that to be known which is not knowable. Wherefore it must be clearly held that everything whatsoever that we know begets at the same time in us the knowledge of itself; for knowledge is brought forth from both, from the knower and from the thing known. When, therefore, the mind knows itself, it alone is the parent of its own knowledge; for it is itself both the thing known and the knower of it. But it was knowable to itself also before it knew itself, only the knowledge of itself was not in itself so long as it did not know itself. In knowing itself, then, it begets a knowledge of itself equal to itself; since it does not know itself as less than itself is, nor is its knowledge the knowledge of the essence of some one else, not only because itself knows, but also because it knows itself, as we have said above. What then is to be said of love; why, when the mind loves itself, it should not seem also to have begotten the love of itself? For it was lovable to itself even before it loved itself since it could love itself; just as it was knowable to itself even before it knew itself, since it could know itself. For if it were not knowable to itself, it never could have known itself; and so, if it were not lovable to itself, it never could have loved itself. Why therefore may it not be said by loving itself to have begotten its own love, as by knowing itself it has begotten its own knowledge? Is it because it is thereby indeed plainly shown that this is the principle of love, whence it proceeds? For it proceeds from the mind itself, which is lovable to itself before it loves itself, and so is the principle of its own love by which it loves itself: but that this love is not therefore rightly said to be begotten by the mind, as is the knowledge of itself by which the mind knows itself, because in the case of knowledge the thing has been found already, which is what we call brought forth or discovered; and this is commonly preceded by an inquiry such as to find rest when that end is attained. For inquiry is the desire of finding, or, what is the same thing, of discovering. But those things which are discovered are as it were brought forth, whence they are like offspring; but wherein, except in the case itself of knowledge? For in that case they are as it were uttered and fashioned. For although the things existed already which we found by seeking, yet the knowledge of them did not exist, which knowledge we regard as an offspring that is born. Further, the desire (appetitus) which there is in seeking proceeds from him who seeks, and is in some way in suspense, and does not rest in the end whither it is directed, except that which is sought be found and conjoined with him who seeks. And this desire, that is, inquiry — although it does not seem to be love, by which that which is known is loved, for in this case we are still striving to know — yet it is something of the same kind. For it can be called will (voluntas),since every one who seeks wills (vult) to find; and if that is sought which belongs to knowledge, every one who seeks wills to know. But if he wills ardently and earnestly, he is said to study (studere): a word that is most commonly employed in the case of pursuing and obtaining any branches of learning. Therefore, the bringing forth of the mind is preceded by some desire, by which, through seeking and finding what we wish to know, the offspring, viz. knowledge itself, is born. And for this reason, that desire by which knowledge is conceived and brought forth, cannot rightly be called the bringing forth and the offspring; and the same desire which led us to long for the knowing of the thing, becomes the love of the thing when known, while it holds and embraces its accepted offspring, that is, knowledge, and unites it to its begetter. And so there is a kind of image of the Trinity in the mind itself, and the knowledge of it, which is its offspring and its word concerning itself, and love as a third, and these three are one, and one substance. Neither is the offspring less, since the mind knows itself according to the measure of its own being; nor is the love less, since it loves itself according to the measure both of its own knowledge and of its own being."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B9C12",
+    "durationSeconds": 355
   },
   "TRIN-B10C1": {
     "book": 10,
@@ -3590,9 +3590,9 @@ window.TRINITY_TEXT = {
         "text": "3. Wherefore in all cases the love of a studious mind, that is, of one that wishes to know what it does not know, is not the love of that thing which it does not know, but of that which it knows; on account of which it wishes to know what it does not know. Or if it is so inquisitive as to be carried away, not for any other cause known to it, but by the mere love of knowing things unknown; then such an inquisitive person is, doubtless distinguishable from an ordinary student, yet does not, any more than he, love things he does not know; nay, on the contrary, he is more fitly said to hate things he knows not, of which he wishes that there should be none, in wishing to know everything. But lest any one should lay before us a more difficult question, by declaring that it is just as impossible for any one to hate what he does not know, as to love what he does not know, we will not withstand what is true; but it must be understood that it is not the same thing to say he loves to know things unknown, as to say he loves things unknown. For it is possible that a man may love to know things unknown; but it is not possible that he should love things unknown. For the word to know is not placed there without meaning; since he who loves to know things unknown, does not love the unknown things themselves, but the knowing of them. And unless he knew what knowing means, no one could say confidently, either that he knew or that he did not know. For not only he who says I know, and says so truly, must needs know what knowing is; but he also who says, I do not know, and says so confidently and truly, and knows that he says so truly, certainly knows what knowing is; for he both distinguishes him who does not know from him who knows, when he looks into himself and says truly I do not know; and whereas he knows that he says this truly, whence should he know it, if he did not know what knowing is?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C1",
+    "durationSeconds": 564
   },
   "TRIN-B10C2": {
     "book": 10,
@@ -3604,9 +3604,9 @@ window.TRINITY_TEXT = {
         "text": "4. No studious person, then, no inquisitive person, loves things he does not know, even while he is urgent with the most vehement desire to know what he does not know. For he either knows already generically what he loves, and longs to know it also in some individual or individuals, which perhaps are praised, but not yet known to him; and he pictures in his mind an imaginary form by which he may be stirred to love. And whence does he picture this, except from those things which he has already known? And yet perhaps he will not love it, if he find that form which was praised to be unlike that other form which was figured and in thought most fully known to his mind. And if he has loved it, he will begin to love it from that time when he learned it; since a little before, that form which was loved was other than that which the mind that formed it had been wont to exhibit to itself. But if he shall find it similar to that form which report had proclaimed, and to be such that he could truly say I was already loving you; yet certainly not even then did he love a form he did not know, since he had known it in that likeness. Or else we see somewhat in the species of the eternal reason, and therein love it; and when this is manifested in some image of a temporal thing, and we believe the praises of those who have made trial of it, and so love it, then we do not love anything unknown, according to that which we have already sufficiently discussed above. Or else, again, we love something known, and on account of it seek something unknown; and so it is by no means the love of the thing unknown that possesses us, but the love of the thing known, to which we know the unknown thing belongs, so that we know that too which we seek still as unknown; as a little before I said of an unknown word. Or else, again, every one loves the very knowing itself, as no one can fail to know who desires to know anything. For these reasons they seem to love things unknown who wish to know anything which they do not know, and who, on account of their vehement desire of inquiry, cannot be said to be without love. But how different the case really is, and that nothing at all can be loved which is not known, I think I must have persuaded every one who carefully looks upon truth. But since the examples which we have given belong to those who desire to know something which they themselves are not, we must take thought lest perchance some new notion appear, when the mind desires to know itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C2",
+    "durationSeconds": 138
   },
   "TRIN-B10C3": {
     "book": 10,
@@ -3618,9 +3618,9 @@ window.TRINITY_TEXT = {
         "text": "5. What, then, does the mind love, when it seeks ardently to know itself, while it is still unknown to itself? For, behold, the mind seeks to know itself, and is excited thereto by studious zeal. It loves, therefore; but what does it love? Is it itself? But how can this be when it does not yet know itself, and no one can love what he does not know? Is it that report has declared to it its own species, in like way as we commonly hear of people who are absent? Perhaps, then, it does not love itself, but loves that which it imagines of itself, which is perhaps widely different from what itself is: or if the phantasy in the mind is like the mind itself, and so when it loves this fancied image, it loves itself before it knew itself, because it gazes upon that which is like itself; then it knew other minds from which to picture itself, and so is known to itself generically. Why, then, when it knows other minds, does it not know itself, since nothing can possibly be more present to it than itself? But if, as other eyes are more known to the eyes of the body, than those eyes are to themselves; then let it not seek itself, because it never will find itself. For eyes can never see themselves except in looking-glasses; and it cannot be supposed in any way that anything of that kind can be applied also to the contemplation of incorporeal things, so that the mind should know itself, as it were, in a looking-glass. Or does it see in the reason of eternal truth how beautiful it is to know one's self, and so loves this which it sees, and studies to bring it to pass in itself? Because, although it is not known to itself, yet it is known to it how good it is, that it should be known to itself. And this, indeed, is very wonderful, that it does not yet know itself, and yet knows already how excellent a thing it is to know itself. Or does it see some most excellent end, viz. its own serenity and blessedness, by some hidden remembrance, which has not abandoned it, although it has gone far onwards, and believes that it cannot attain to that same end unless it know itself? And so while it loves that, it seeks this; and loves that which is known, on account of which it seeks that which is unknown. But why should the remembrance of its own blessedness be able to last, and the remembrance of itself not be able to last as well; that so it should know itself which wishes to attain, as well as know that to which it wishes to attain? Or when it loves to know itself, does it love, not itself, which it does not yet know, but the very act of knowing; and feel the more annoyed that itself is wanting to its own knowledge wherewith it wishes to embrace all things? And it knows what it is to know; and while it loves this, which it knows, desires also to know itself. Whereby, then, does it know its own knowing, if it does not know itself? For it knows that it knows other things, but that it does not know itself; for it is from hence that it knows also what knowing is. In what way, then, does that which does not know itself, know itself as knowing anything? For it does not know that some other mind knows, but that itself does so. Therefore it knows itself. Further, when it seeks to know itself, it knows itself now as seeking. Therefore again it knows itself. And hence it cannot altogether not know itself, when certainly it does so far know itself as that it knows itself as not knowing itself. But if it does not know itself not to know itself, then it does not seek to know itself. And therefore, in the very fact that it seeks itself, it is clearly convicted of being more known to itself than unknown. For it knows itself as seeking and as not knowing itself, in that it seeks to know itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C3",
+    "durationSeconds": 224
   },
   "TRIN-B10C4": {
     "book": 10,
@@ -3632,9 +3632,9 @@ window.TRINITY_TEXT = {
         "text": "6. What then shall we say? Does that which knows itself in part, not know itself in part? But it is absurd to say, that it does not as a whole know what it knows. I do not say, it knows wholly; but what it knows, it as a whole knows. When therefore it knows anything about itself, which it can only know as a whole, it knows itself as a whole. But it does know that itself knows something, while yet except as a whole it cannot know anything. Therefore it knows itself as a whole. Further, what in it is so known to itself, as that it lives? And it cannot at once be a mind, and not live, while it has also something over and above, viz., that it understands: for the souls of beasts also live, but do not understand. As therefore a mind is a whole mind, so it lives as a whole. But it knows that it lives. Therefore it knows itself as a whole. Lastly, when the mind seeks to know itself, it already knows that it is a mind: otherwise it knows not whether it seeks itself, and perhaps seeks one thing while intending to seek another. For it might happen that itself was not a mind, and so, in seeking to know a mind, that it did not seek to know itself. Wherefore since the mind, when it seeks to know what mind is, knows that it seeks itself, certainly it knows that itself is a mind. Furthermore, if it knows this in itself, that it is a mind, and a whole mind, then it knows itself as a whole. But suppose it did not know itself to be a mind, but in seeking itself only knew that it sought itself. For so, too, it may possibly seek one thing for another, if it does not know this: but that it may not seek one thing for another, without doubt it knows what it seeks. But if it knows what it seeks, and seeks itself, then certainly it knows itself. What therefore more does it seek? But if it knows itself in part, but still seeks itself in part, then it seeks not itself, but part of itself. For when we speak of the mind itself, we speak of it as a whole. Further, because it knows that it is not yet found by itself as a whole, it knows how much the whole is. And so it seeks that which is wanting, as we are wont to seek to recall to the mind something that has slipped from the mind, but has not altogether gone away from it; since we can recognize it, when it has come back, to be the same thing that we were seeking. But how can mind come into mind, as though it were possible for the mind not to be in the mind? Add to this, that if, having found a part, it does not seek itself as a whole, yet it as a whole seeks itself. Therefore as a whole it is present to itself, and there is nothing left to be sought: for that is wanting which is sought, not the mind which seeks. Since therefore it as a whole seeks itself, nothing of it is wanting. Or if it does not as a whole seek itself, but the part which has been found seeks the part which has not yet been found then the mind does not seek itself, of which no part seeks itself. For the part which has been found, does not seek itself; nor yet does the part itself which has not yet been found, seek itself; since it is sought by that part which has been already found. Wherefore, since neither the mind as a whole seeks itself, nor does any part of it seek itself, the mind does not seek itself at all."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C4",
+    "durationSeconds": 196
   },
   "TRIN-B10C5": {
     "book": 10,
@@ -3646,9 +3646,9 @@ window.TRINITY_TEXT = {
         "text": "7. Why therefore is it enjoined upon it, that it should know itself? I suppose, in order that, it may consider itself, and live according to its own nature; that is, seek to be regulated according to its own nature, viz., under Him to whom it ought to be subject, and above those things to which it is to be preferred; under Him by whom it ought to be ruled, above those things which it ought to rule. For it does many things through vicious desire, as though in forgetfulness of itself. For it sees some things intrinsically excellent, in that more excellent nature which is God: and whereas it ought to remain steadfast that it may enjoy them, it is turned away from Him, by wishing to appropriate those things to itself, and not to be like to Him by His gift, but to be what He is by its own, and it begins to move and slip gradually down into less and less, which it thinks to be more and more; for it is neither sufficient for itself, nor is anything at all sufficient for it, if it withdraw from Him who is alone sufficient: and so through want and distress it becomes too intent upon its own actions and upon the unquiet delights which it obtains through them: and thus, by the desire of acquiring knowledge from those things that are without, the nature of which it knows and loves, and which it feels can be lost unless held fast with anxious care, it loses its security, and thinks of itself so much the less, in proportion as it feels the more secure that it cannot lose itself. So, whereas it is one thing not to know oneself, and another not to think of oneself (for we do not say of the man that is skilled in much learning, that he is ignorant of grammar, when he is only not thinking of it, because he is thinking at the time of the art of medicine) — whereas, then, I say it is one thing not to know oneself, and another not to think of oneself, such is the strength of love, that the mind draws in with itself those things which it has long thought of with love, and has grown into them by the close adherence of diligent study, even when it returns in some way to think of itself. And because these things are corporeal which it loved externally through the carnal senses; and because it has become entangled with them by a kind of daily familiarity, and yet cannot carry those corporeal things themselves with itself internally as it were into the region of incorporeal nature; therefore it combines certain images of them, and thrusts them thus made from itself into itself. For it gives to the forming of them somewhat of its own substance, yet preserves the while something by which it may judge freely of the species of those images; and this something is more properly the mind, that is, the rational understanding, which is preserved that it may judge. For we see that we have those parts of the soul which are informed by the likenesses of corporeal things, in common also with beasts."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C5",
+    "durationSeconds": 164
   },
   "TRIN-B10C6": {
     "book": 10,
@@ -3660,9 +3660,9 @@ window.TRINITY_TEXT = {
         "text": "8. But the mind errs, when it so lovingly and intimately connects itself with these images, as even to consider itself to be something of the same kind. For so it is conformed to them to some extent, not by being this, but by thinking it is so: not that it thinks itself to be an image, but outright that very thing itself of which it entertains the image. For there still lives in it the power of distinguishing the corporeal thing which it leaves without, from the image of that corporeal thing which it contains therefrom within itself: except when these images are so projected as if felt without and not thought within, as in the case of people who are asleep, or mad, or in a trance."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C6",
+    "durationSeconds": 42
   },
   "TRIN-B10C7": {
     "book": 10,
@@ -3682,9 +3682,9 @@ window.TRINITY_TEXT = {
         "text": "10. Now, in the case of all these opinions, any one who sees that the nature of the mind is at once substance, and yet not corporeal — that is, that it does not occupy a less extension of place with a less part of itself, and a greater with a greater — must needs see at the same time that they who are of opinion that it is corporeal do not err from defect of knowledge concerning mind, but because they associate with it qualities without which they are not able to conceive any nature at all. For if you bid them conceive of existence that is without corporeal phantasms, they hold it merely nothing. And so the mind would not seek itself, as though wanting to itself. For what is so present to knowledge as that which is present to the mind? Or what is so present to the mind as the mind itself? And hence what is called \"invention,\" if we consider the origin of the word, what else does it mean, unless that to find out is to \"come into\" that which is sought? Those things accordingly which come into the mind as it were of themselves, are not usually said to be found out, although they may be said to be known; since we did not endeavor by seeking to come into them, that is to invent or find them out. And therefore, as the mind itself really seeks those things which are sought by the eyes or by any other sense of the body (for the mind directs even the carnal sense, and then finds out or invents, when that sense comes to the things which are sought); so, too, it finds out or invents other things which it ought to know, not with the medium of corporeal sense, but through itself, when it \"comes into\" them; and this, whether in the case of the higher substance that is in God, or of the other parts of the soul; just as it does when it judges of bodily images themselves, for it finds these within, in the soul, impressed through the body."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C7",
+    "durationSeconds": 251
   },
   "TRIN-B10C8": {
     "book": 10,
@@ -3696,9 +3696,9 @@ window.TRINITY_TEXT = {
         "text": "11. It is then a wonderful question, in what manner the soul seeks and finds itself; at what it aims in order to seek, or whither it comes, that it may come into or find out. For what is so much in the mind as the mind itself? But because it is in those things which it thinks of with love, and is wont to be in sensible, that is, in corporeal things with love, it is unable to be in itself without the images of those corporeal things. And hence shameful error arises to block its way, while it cannot separate from itself the images of sensible things, so as to see itself alone. For they have marvellously cohered with it by the close adhesion of love. And herein consists its uncleanness; since, while it strives to think of itself alone, it fancies itself to be that, without which it cannot think of itself. When, therefore, it is bidden to become acquainted with itself, let it not seek itself as though it were withdrawn from itself; but let it withdraw that which it has added to itself. For itself lies more deeply within, not only than those sensible things, which are clearly without, but also than the images of them; which are indeed in some part of the soul, viz., that which beasts also have, although these want understanding, which is proper to the mind. As therefore the mind is within, it goes forth in some sort from itself, when it exerts the affection of love towards these, as it were, footprints of many acts of attention. And these footprints are, as it were, imprinted on the memory, at the time when the corporeal things which are without are perceived in such way, that even when those corporeal things are absent, yet the images of them are at hand to those who think of them. Therefore let the mind become acquainted with itself, and not seek itself as if it were absent; but fix upon itself the act of [voluntary] attention, by which it was wandering among other things, and let it think of itself. So it will see that at no time did it ever not love itself, at no time did it ever not know itself; but by loving another thing together with itself it has confounded itself with it, and in some sense has grown one with it. And so, while it embraces diverse things, as though they were one, it has come to think those things to be one which are diverse."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C8",
+    "durationSeconds": 136
   },
   "TRIN-B10C9": {
     "book": 10,
@@ -3710,9 +3710,9 @@ window.TRINITY_TEXT = {
         "text": "12. Let it not therefore seek to discern itself as though absent, but take pains to discern itself as present. Nor let it take knowledge of itself as if it did not know itself, but let it distinguish itself from that which it knows to be another. For how will it take pains to obey that very precept which is given it, \"Know yourself,\" if it knows not either what \"know\" means or what \"yourself\" means? But if it knows both, then it knows also itself. Since \"know yourself\" is not so said to the mind as is \"Know the cherubim and the seraphim;\" for they are absent, and we believe concerning them, and according to that belief they are declared to be certain celestial powers. Nor yet again as it is said, Know the will of that man: for this it is not within our reach to perceive at all, either by sense or understanding, unless by corporeal signs actually set forth; and this in such a way that we rather believe than understand. Nor again as it is said to a man, Behold your own face; which he can only do in a looking-glass. For even our own face itself is out of the reach of our own seeing it; because it is not there where our look can be directed. But when it is said to the mind, Know yourself; then it knows itself by that very act by which it understands the word \"yourself;\" and this for no other reason than that it is present to itself. But if it does not understand what is said, then certainly it does not do as it is bid to do. And therefore it is bidden to do that thing which it does do, when it understands the very precept that bids it."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C9",
+    "durationSeconds": 94
   },
   "TRIN-B10C10": {
     "book": 10,
@@ -3736,9 +3736,9 @@ window.TRINITY_TEXT = {
         "text": "16. And all these do not perceive that the mind knows itself, even when it seeks for itself, as we have already shown. But nothing is at all rightly said to be known while its substance is not known. And therefore, when the mind knows itself, it knows its own substance; and when it is certain about itself, it as certain about its own substance. But it is certain about itself, as those things which are said above prove convincingly; although it is not at all certain whether itself is air, or fire, or some body, or some function of body. Therefore it is not any of these. And to that whole which is bidden to know itself, belongs this, that it is certain that it is not any of those things of which it is uncertain, and is certain that it is that only, which only it is certain that it is. For it thinks in this way of fire, or air, and whatever else of the body it thinks of. Neither can it in any way be brought to pass that it should so think that which itself is, as it thinks that which itself is not. Since it thinks all these things through an imaginary phantasy, whether fire, or air, or this or that body, or that part or combination and tempering together of the body: nor assuredly is it said to be all those things, but some one of them. But if it were any one of them, it would think this one in a different manner from the rest viz. not through an imaginary phantasy, as absent things are thought, which either themselves or some of like kind have been touched by the bodily sense; but by some inward, not feigned, but true presence (for nothing is more present to it than itself); just as it thinks that itself lives, and remembers, and understands, and wills. For it knows these things in itself, and does not imagine them as though it had touched them by the sense outside itself, as corporeal things are touched. And if it attaches nothing to itself from the thought of these things, so as to think itself to be something of the kind, then whatsoever remains to it from itself that alone is itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C10",
+    "durationSeconds": 402
   },
   "TRIN-B10C11": {
     "book": 10,
@@ -3754,9 +3754,9 @@ window.TRINITY_TEXT = {
         "text": "18. Since, then, these three, memory, understanding, will, are not three lives, but one life; nor three minds, but one mind; it follows certainly that neither are they three substances, but one substance. Since memory, which is called life, and mind, and substance, is so called in respect to itself; but it is called memory, relatively to something. And I should say the same also of understanding and of will, since they are called understanding and will relatively to something; but each in respect to itself is life, and mind, and essence. And hence these three are one, in that they are one life, one mind, one essence; and whatever else they are severally called in respect to themselves, they are called also together, not plurally, but in the singular number. But they are three, in that wherein they are mutually referred to each other; and if they were not equal, and this not only each to each, but also each to all, they certainly could not mutually contain each other; for not only is each contained by each, but also all by each. For I remember that I have memory and understanding, and will; and I understand that I understand, and will, and remember; and I will that I will, and remember, and understand; and I remember together my whole memory, and understanding, and will. For that of my memory which I do not remember, is not in my memory; and nothing is so much in the memory as memory itself. Therefore I remember the whole memory. Also, whatever I understand I know that I understand, and I know that I will whatever I will; but whatever I know I remember. Therefore I remember the whole of my understanding, and the whole of my will. Likewise, when I understand these three things, I understand them together as whole. For there is none of things intelligible which I do not understand, except what I do not know; but what I do not know, I neither remember, nor will. Therefore, whatever of things intelligible I do not understand, it follows also that I neither remember nor will. And whatever of things intelligible I remember and will, it follows that I understand. My will also embraces my whole understanding and my whole memory while I use the whole that I understand and remember. And, therefore, while all are mutually comprehended by each, and as wholes, each as a whole is equal to each as a whole, and each as a whole at the same time to all as wholes; and these three are one, one life, one mind, one essence."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C11",
+    "durationSeconds": 280
   },
   "TRIN-B10C12": {
     "book": 10,
@@ -3768,9 +3768,9 @@ window.TRINITY_TEXT = {
         "text": "19. Are we, then, now to go upward, with whatever strength of purpose we may, to that chiefest and highest essence, of which the human mind is an inadequate image, yet an image? Or are these same three things to be yet more distinctly made plain in the soul, by means of those things which we receive from without, through the bodily sense, wherein the knowledge of corporeal things is impressed upon us in time? Since we found the mind itself to be such in its own memory, and understanding, and will, that since it was understood always to know and always to will itself, it was understood also at the same time always to remember itself, always to understand and love itself, although not always to think of itself as separate from those things which are not itself; and hence its memory of itself, and understanding of itself, are with difficult discerned in it. For in this case, where these two things are very closely conjoined, and one is not preceded by the other by any time at all, it looks as if they were not two things, but one called by two names; and love itself is not so plainly felt to exist when the sense of need does not disclose it, since what is loved is always at hand. And hence these things may be more lucidly set forth, even to men of duller minds, if such topics are treated of as are brought within reach of the mind in time, and happen to it in time; while it remembers what it did not remember before, and sees what it did not see before, and loves what it did not love before. But this discussion demands now another beginning, by reason of the measure of the present book."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B10C12",
+    "durationSeconds": 93
   },
   "TRIN-B11C1": {
     "book": 11,
@@ -3782,9 +3782,9 @@ window.TRINITY_TEXT = {
         "text": "1. No one doubts that, as the inner man is endued with understanding, so is the outer with bodily sense. Let us try, then, if we can, to discover in this outer man also, some trace, however slight, of the Trinity, not that itself also is in the same manner the image of God. For the opinion of the apostle is evident, which declares the inner man to be renewed in the knowledge of God after the image of Him that created him: whereas he says also in another place, \"But though our outer man perish, yet the inward man is renewed day by day.\" Let us seek, then, so far as we can, in that which perishes, some image of the Trinity, if not so express, yet perhaps more easy to be discerned. For that outer man also is not called man to no purpose, but because there is in it some likeness of the inner man. And owing to that very order of our condition whereby we are made mortal and fleshly, we handle things visible more easily and more familiarly than things intelligible; since the former are outward, the latter inward; and the former are perceived by the bodily sense, the latter are understood by the mind; and we ourselves, i.e. our minds, are not sensible things, that is, bodies, but intelligible things, since we are life. And yet, as I said, we are so familiarly occupied with bodies, and our thought has projected itself outwardly with so wonderful a proclivity towards bodies, that, when it has been withdrawn from the uncertainty of things corporeal, that it may be fixed with a much more certain and stable knowledge in that which is spirit, it flies back to those bodies, and seeks rest there whence it has drawn weakness. And to this its feebleness we must suit our argument; so that, if we would endeavor at any time to distinguish more aptly, and intimate more readily, the inward spiritual thing, we must take examples of likenesses from outward things pertaining to the body. The outer man, then, endued as he is with the bodily sense, is conversant with bodies. And this bodily sense, as is easily observed, is fivefold; seeing, hearing, smelling, tasting, touching. But it is both a good deal of trouble, and is not necessary, that we should inquire of all these five senses about that which we seek. For that which one of them declares to us, holds also good in the rest. Let us use, then, principally the testimony of the eyes. For this bodily sense far surpasses the rest; and in proportion to its difference of kind, is nearer to the sight of the mind."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C1",
+    "durationSeconds": 147
   },
   "TRIN-B11C2": {
     "book": 11,
@@ -3808,9 +3808,9 @@ window.TRINITY_TEXT = {
         "text": "5. The case then being so, let us remember how these three things, although diverse in nature, are tempered together into a kind of unity; that is, the form of the body which is seen, and the image of it impressed on the sense, which is vision or sense informed, and the will of the mind which applies the sense to the sensible thing, and retains the vision itself in it. The first of these, that is, the visible thing itself, does not belong to the nature of the living being, except when we discern our own body. But the second belongs to that nature to this extent, that it is wrought in the body, and through the body in the soul; for it is wrought in the sense, which is neither without the body nor without the soul. But the third is of the soul alone, because it is the will. Although then the substances of these three are so different, yet they coalesce into such a unity that the two former can scarcely be distinguished, even with the intervention of the reason as judge, namely the form of the body which is seen, and the image of it which is wrought in the sense, that is, vision. And the will so powerfully combines these two, as both to apply the sense, in order to be informed, to that thing which is perceived, and to retain it when informed in that thing. And if it is so vehement that it can be called love, or desire, or lust, it vehemently affects also the rest of the body of the living being; and where a duller and harder matter does not resist, changes it into like shape and color. One may see the little body of a chameleon vary with ready change, according to the colors which it sees. And in the case of other animals, since their grossness of flesh does not easily admit change, the offspring, for the most part, betray the particular fancies of the mothers, whatever it is that they have beheld with special delight. For the more tender, and so to say, the more formable, are the primary seeds, the more effectually and capably they follow the bent of the soul of the mother, and the phantasy that is wrought in it through that body, which it has greedily beheld. Abundant instances might be adduced, but one is sufficient, taken from the most trustworthy books; viz. what Jacob did, that the sheep and goats might give birth to offspring of various colors, by placing variegated rods before them in the troughs of water for them to look at as they drank, at the time they had conceived."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C2",
+    "durationSeconds": 658
   },
   "TRIN-B11C3": {
     "book": 11,
@@ -3822,9 +3822,9 @@ window.TRINITY_TEXT = {
         "text": "6. The rational soul, however, lives in a degenerate fashion, when it lives according to a trinity of the outer man; that is, when it applies to those things which form the bodily sense from without, not a praiseworthy will, by which to refer them to some useful end, but a base desire, by which to cleave to them. Since even if the form of the body, which was corporeally perceived, be withdrawn, its likeness remains in the memory, to which the will may again direct its eye, so as to be formed thence from within, as the sense was formed from without by the presentation of the sensible body. And so that trinity is produced from memory, from internal vision, and from the will which unites both. And when these three things are combined into one, from that combination itself they are called conception. And in these three there is no longer any diversity of substance. For neither is the sensible body there, which is altogether distinct from the nature of the living being, nor is the bodily sense there informed so as to produce vision, nor does the will itself perform its office of applying the sense, that is to be informed, to the sensible body, and of retaining it in it when informed; but in place of that bodily species which was perceived from without, there comes the memory retaining that species which the soul has imbibed through the bodily sense; and in place of that vision which was outward when the sense was informed through the sensible body, there comes a similar vision within, while the eye of the mind is informed from that which the memory retains, and the corporeal things that are thought of are absent; and the will itself, as before it applied the sense yet to be informed to the corporeal thing presented from without, and united it thereto when informed, so now converts the vision of the recollecting mind to memory, in order that the mental sight may be informed by that which the memory has retained, and so there may be in the conception a like vision. And as it was the reason that distinguished the visible appearance by which the bodily sense was informed, from the similitude of it, which was wrought in the sense when informed in order to produce vision (otherwise they had been so united as to be thought altogether one and the same); so, although that phantasy also, which arises from the mind thinking of the appearance of a body that it has seen, consists of the similitude of the body which the memory retains, together with that which is thence formed in the eye of the mind that recollects; yet it so seems to be one and single, that it can only be discovered to be two by the judgment of reason, by which we understand that which remains in the memory, even when we think it from some other source, to be a different thing from that which is brought into being when we remember, that is, come back again to the memory, and there find the same appearance. And if this were not now there, we should say that we had so forgotten as to be altogether unable to recollect. And if the eye of him who recollects were not informed from that thing which was in the memory, the vision of the thinker could in no way take place; but the conjunction of both, that is, of that which the memory retains, and of that which is thence expressed so as to inform the eye of him who recollects, makes them appear as if they were one, because they are exceedingly like. But when the eye of the concipient is turned away thence, and has ceased to look at that which was perceived in the memory, then nothing of the form that was impressed thereon will remain in that eye, and it will be informed by that to which it had again been turned, so as to bring about another conception. Yet that remains which it has left in the memory, to which it may again be turned when we recollect it, and being turned thereto may be informed by it, and become one with that whence it is informed."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C3",
+    "durationSeconds": 208
   },
   "TRIN-B11C4": {
     "book": 11,
@@ -3836,9 +3836,9 @@ window.TRINITY_TEXT = {
         "text": "7. But if that will which moves to and fro, hither and there, the eye that is to be informed, and unites it when formed, shall have wholly converged to the inward phantasy, and shall have absolutely turned the mind's eye from the presence of the bodies which lie around the senses, and from the very bodily senses themselves, and shall have wholly turned it to that image, which is perceived within; then so exact a likeness of the bodily species expressed from the memory is presented, that not even reason itself is permitted to discern whether the body itself is seen without, or only something of the kind thought of within. For men sometimes either allured or frightened by over-much thinking of visible things, have even suddenly uttered words accordingly, as if in real fact they were engaged in the very midst of such actions or sufferings. And I remember some one telling me that he was wont to perceive in thought, so distinct and as it were solid, a form of a female body, as to be moved, as though it were a reality. Such power has the soul over its own body, and such influence has it in turning and changing the quality of its [corporeal] garment; just as a man may be affected when clothed, to whom his clothing sticks. It is the same kind of affection, too, with which we are beguiled through imaginations in sleep. But it makes a very great difference, whether the senses of the body are lulled to torpor, as in the case of sleepers, or disturbed from their inward structure, as in the case of madmen, or distracted in some other mode, as in that of diviners or prophets; and so from one or other of these causes, the intention of the mind is forced by a kind of necessity upon those images which occur to it, either from memory, or by some other hidden force through certain spiritual commixtures of a similarly spiritual substance: or whether, as sometimes happens to people in health and awake, that the will occupied by thought turns itself away from the senses, and so informs the eye of the mind by various images of sensible things, as though those sensible things themselves were actually perceived. But these impressions of images not only take place when the will is directed upon such things by desiring them, but also when, in order to avoid and guard against them, the mind is carried away to look upon these very thing so as to flee from them. And hence, not only desire, but fear, causes both the bodily eye to be informed by the sensible things themselves, and the mental eye (acies) by the images of those sensible things. Accordingly, the more vehement has been either fear or desire, the more distinctly is the eye informed, whether in the case of him who [sensuously] perceives by means of the body that which lies close to him in place, or in the case of him who conceives from the image of the body which is contained in the memory. What then a body in place is to the bodily sense, that, the similitude of a body in memory is to the eye of the mind; and what the vision of one who looks at a thing is to that appearance of the body from which the sense is informed, that, the vision of a concipient is to the image of the body established in the memory, from which the eye of the mind is informed; and what the intention of the will is towards a body seen and the vision to be combined with it, in order that a certain unity of three things may therein take place, although their nature is diverse, that, the same intention of the will is towards combining the image of the body which is in the memory, and the vision of the concipient, that is, the form which the eye of the mind has taken in returning to the memory, in order that here too a certain unity may take place of three things, not now distinguished by diversity of nature, but of one and the same substance; because this whole is within, and the whole is one mind."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C4",
+    "durationSeconds": 208
   },
   "TRIN-B11C5": {
     "book": 11,
@@ -3854,9 +3854,9 @@ window.TRINITY_TEXT = {
         "text": "9. Of that vision then; that is, of the form which is wrought in the sense of him who sees; the form of the bodily thing from which it is wrought, is, as it were, the parent. But it is not a true parent; whence neither is that a true offspring; for it is not altogether born therefrom, since something else is applied to the bodily thing in order that it may be formed from it, namely, the sense of him who sees. And for this reason, to love this is to be estranged. Therefore the will which unites both, viz. the quasi-parent and the quasi-child, is more spiritual than either of them. For that bodily thing which is discerned, is not spiritual at all. But the vision which comes into existence in the sense, has something spiritual mingled with it, since it cannot come into existence without the soul. But it is not wholly spiritual; since that which is formed is a sense of the body. Therefore the will which unites both is confessedly more spiritual, as I have said; and so it begins to suggest (insinuare), as it were, the person of the Spirit in the Trinity. But it belongs more to the sense that is formed, than to the bodily thing whence it is formed. For the sense and will of an animate being belongs to the soul, not to the stone or other bodily thing that is seen. It does not therefore proceed from that bodily thing as from a parent; yet neither does it proceed from that other as it were offspring, namely, the vision and form that is in the sense. For the will existed before the vision came to pass, which will applied the sense that was to be formed to the bodily thing that was to be discerned; but it was not yet satisfied. For how could that which was not yet seen satisfy? And satisfaction means a will that rests content. And, therefore, we can neither call the will the quasi-offspring of vision, since it existed before vision; nor the quasi-parent, since that vision was not formed and expressed from the will, but from the bodily thing that was seen."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C5",
+    "durationSeconds": 307
   },
   "TRIN-B11C6": {
     "book": 11,
@@ -3868,9 +3868,9 @@ window.TRINITY_TEXT = {
         "text": "10. Perhaps we can rightly call vision the end and rest of the will, only with respect to this one object [namely, the bodily thing that is visible]. For it will not will nothing else merely because it sees something which it is now willing. It is not therefore the whole will itself of the man, of which the end is nothing else than blessedness; but the will provisionally directed to this one object, which has as its end in seeing, nothing but vision, whether it refer the thing seen to any other thing or not. For if it does not refer the vision to anything further, but wills only to see this, there can be no question made about showing that the end of the will is the vision; for it is manifest. But if it does refer it to anything further, then certainly it does will something else, and it will not be now a will merely to see; or if to see, not one to see the particular thing. Just as, if any one wished to see the scar, that from thence he might learn that there had been a wound; or wished to see the window, that through the window he might see the passers-by: all these and other such acts of will have their own proper [proximate] ends, which are referred to that [final] end of the will by which we will to live blessedly, and to attain to that life which is not referred to anything else, but suffices of itself to him who loves it. The will then to see, has as its end vision; and the will to see this particular thing, has as its end the vision of this particular thing. Therefore the will to see the scar, desires its own end, that is, the vision of the scar, and does not reach beyond it; for the will to prove that there had been a wound, is a distinct will, although dependent upon that, of which the end also is to prove that there had been a wound. And the will to see the window, has as its end the vision of the window; for that is another and further will which depends upon it, viz. to see the passers-by through the window, of which also the end is the vision of the passers-by. But all the several wills that are bound to each other, are at once right, if that one is good, to which all are referred; and if that is bad, then all are bad. And so the connected series of right wills is a sort of road which consists as it were of certain steps, whereby to ascend to blessedness; but the entanglement of depraved and distorted wills is a bond by which he will be bound who thus acts, so as to be cast into outer darkness. Blessed therefore are they who in act and character sing the song of the steps [degrees]; and woe to those that draw sin, as it were a long rope. And it is just the same to speak of the will being in repose, which we call its end, if it is still referred to something further, as if we should say that the foot is at rest in walking, when it is placed there, whence yet another foot may be planted in the direction of the man's steps. But if something so satisfies, that the will acquiesces in it with a certain delight; it is nevertheless not yet that to which the man ultimately tends; but this too is referred to something further, so as to be regarded not as the native country of a citizen, but as a place of refreshment, or even of stopping, for a traveller."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C6",
+    "durationSeconds": 179
   },
   "TRIN-B11C7": {
     "book": 11,
@@ -3886,9 +3886,9 @@ window.TRINITY_TEXT = {
         "text": "12. Further, it is more difficult to discern clearly, whether the will which connects the vision to the memory is not either the parent or the offspring of some one of them; and the likeness and equality of the same nature and substance cause this difficulty of distinguishing. For it is not possible to do in this case, as with the sense that is formed from without (which is easily discerned from the sensible body, and again the will from both), on account of the difference of nature which is mutually in all three, and of which we have treated sufficiently above. For although this trinity, of which we at present speak, is introduced into the mind from without; yet it is transacted within, and there is no part of it outside of the nature of the mind itself. In what way, then, can it be demonstrated that the will is neither the quasi-parent, nor the quasi-offspring, either of the corporeal likeness which is contained in the memory, or of that which is copied thence in recollecting; when it so unites both in the act of conceiving, as that they appear singly as one, and cannot be discerned except by reason? It is then first to be considered that there cannot be any will to remember, unless we retain in the recesses of the memory either the whole, or some part, of that thing which we wish to remember. For the very will to remember cannot arise in the case of a thing which we have forgotten altogether and absolutely; since we have already remembered that the thing which we wish to remember is or has been, in our memory. For example, if I wish to remember what I supped on yesterday, either I have already remembered that I did sup, or if not yet this, at least I have remembered something about that time itself, if nothing else; at all events, I have remembered yesterday, and that part of yesterday in which people usually sup, and what supping is. For if I had not remembered anything at all of this kind, I could not wish to remember what I supped on yesterday. Whence we may perceive that the will of remembering proceeds, indeed, from those things which are retained in the memory, with the addition also of those which, by the act of discerning, are copied thence through recollection; that is, from the combination of something which we have remembered, and of the vision which was thence wrought, when we remembered, in the mind's eye of him who thinks. But the will itself which unites both requires also some other thing, which is, as it were, close at hand, and adjacent to him who remembers. There are, then, as many trinities of this kind as there are remembrances; because there is no one of them wherein there are not these three things, viz. that which was stored up in the memory also before it was thought, and that which takes place in the conception when this is discerned, and the will that unites both, and from both and itself as a third, completes one single thing. Or is it rather that we so recognize some one trinity in this kind, as that we are to speak generally, of whatever corporeal species lie hidden in the memory, as of a single unity, and again of the general vision of the mind which remembers and conceives such things, as of a single unity, to the combination of which two there is to be joined as a third the will that combines them, that this whole may be a certain unity made up from three?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C7",
+    "durationSeconds": 280
   },
   "TRIN-B11C8": {
     "book": 11,
@@ -3912,9 +3912,9 @@ window.TRINITY_TEXT = {
         "text": "15. Further, as the will applies the sense to the bodily object, so it applies the memory to the sense, and the eye of the mind of the concipient to the memory. But that which harmonizes those things and unites them, itself also disjoins and separates them, that is, the will. But it separates the bodily senses from the bodies that are to be perceived, by movement of the body, either to hinder our perceiving the thing, or that we may cease to perceive it: as when we avert our eyes from that which we are unwilling to see, or shut them; so, again, the ears from sounds, or the nostrils from smells. So also we turn away from tastes, either by shutting the mouth, or by casting the thing out of the mouth. In touch, also, we either remove the bodily thing, that we may not touch what we do not wish, or if we were already touching it, we fling or push it away. Thus the will acts by movement of the body, so that the bodily sense shall not be joined to the sensible things. And it does this according to its power; for when it endures hardship in so doing, on account of the condition of slavish mortality, then torment is the result, in such wise that nothing remains to the will save endurance. But the will averts the memory from the sense; when, through its being intent on something else, it does not suffer things present to cleave to it. As any one may see, when often we do not seem to ourselves to have heard some one who was speaking to us, because we were thinking of something else. But this is a mistake; for we did hear, but we do not remember, because the words of the speaker presently slipped out of the perception of our ears, through the bidding of the will being diverted elsewhere, by which they are usually fixed in the memory. Therefore, we should say more accurately in such a case, we do not remember, than, we did not hear; for it happens even in reading, and to myself very frequently, that when I have read through a page or an epistle, I do not know what I have read, and I begin it again. For the purpose of the will being fixed on something else, the memory was not so applied to the bodily sense, as the sense itself was applied to the letters. So, too, any one who walks with the will intent on something else, does not know where he has got to; for if he had not seen, he would not have walked there, or would have felt his way in walking with greater attention, especially if he was passing through a place he did not know; yet, because he walked easily, certainly he saw; but because the memory was not applied to the sense itself in the same way as the sense of the eyes was applied to the places through which he was passing, he could not remember at all even the last thing he saw. Now, to will to turn away the eye of the mind from that which is in the memory, is nothing else but not to think thereupon."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C8",
+    "durationSeconds": 461
   },
   "TRIN-B11C9": {
     "book": 11,
@@ -3926,9 +3926,9 @@ window.TRINITY_TEXT = {
         "text": "16. In this arrangement, then, while we begin from the bodily species and arrive finally at the species which comes to be in the intuition (contuitu) of the concipient, we find four species born, as it were, step by step one from the other, the second from the first, the third from the second, the fourth from the third: since from the species of the body itself, there arises that which comes to be in the sense of the percipient; and from this, that which comes to be in the memory; and from this, that which comes to be in the mind's eye of the concipient. And the will, therefore, thrice combines as it were parent with offspring: first the species of the body with that to which it gives birth in the sense of the body; and that again with that which from it comes to be in the memory; and this also, thirdly, with that which is born from it in the intuition of the concipient's mind. But the intermediate combination which is the second, although it is nearer to the first, is yet not so like the first as the third is. For there are two kinds of vision, the one of [sensuous] perception (sentientis), the other of conception (cogitantis). But in order that the vision of conception may come to be, there is wrought for the purpose, in the memory, from the vision of [sensuous] perception something like it, to which the eye of the mind may turn itself in conceiving, as the glance (acies) of the eyes turns itself in [sensuously] perceiving to the bodily object. I have, therefore, chosen to put forward two trinities in this kind: one when the vision of [sensuous] perception is formed from the bodily object, the other when the vision of conception is formed from the memory. But I have refrained from commending an intermediate one; because we do not commonly call it vision, when the form which comes to be in the sense of him who perceives, is entrusted to the memory. Yet in all cases the will does not appear unless as the combiner as it were of parent and offspring; and so, proceed from whence it may, it can be called neither parent nor offspring."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C9",
+    "durationSeconds": 118
   },
   "TRIN-B11C10": {
     "book": 11,
@@ -3940,9 +3940,9 @@ window.TRINITY_TEXT = {
         "text": "17. But if we do not remember except what we have [sensuously] perceived, nor conceive except what we remember; why do we often conceive things that are false, when certainly we do not remember falsely those things which we have perceived, unless it be because that will (which I have already taken pains to show as much as I can to be the uniter and the separater of things of this kind) leads the vision of the conceiver that is to be formed, after its own will and pleasure, through the hidden stores of the memory; and, in order to conceive [imagine] those things which we do not remember, impels it to take one thing from hence, and another from thence, from those which we do remember; and these things combining into one vision make something which is called false, because it either does not exist externally in the nature of corporeal things, or does not seem copied from the memory, in that we do not remember that we ever saw such a thing. For who ever saw a black swan? And therefore no one remembers a black swan; yet who is there that cannot conceive it? For it is easy to apply to that shape which we have come to know by seeing it, a black color, which we have not the less seen in other bodies; and because we have seen both, we remember both. Neither do I remember a bird with four feet, because I never saw one; but I contemplate such a phantasy very easily, by adding to some winged shape such as I have seen, two other feet, such as I have likewise seen. And therefore, in conceiving conjointly, what we remember to have seen singly, we seem not to conceive that which we remember; while we really do this under the law of the memory, whence we take everything which we join together after our own pleasure in manifold and diverse ways. For we do not conceive even the very magnitudes of bodies, which magnitudes we never saw, without help of the memory; for the measure of space to which our gaze commonly reaches through the magnitude of the world, is the measure also to which we enlarge the bulk of bodies, whatever they may be, when we conceive them as great as we can. And reason, indeed, proceeds still beyond, but phantasy does not follow her; as when reason announces the infinity of number also, which no vision of him who conceives according to corporeal things can apprehend. The same reason also teaches that the most minute atoms are infinitely divisible; yet when we have come to those slight and minute particles which we remember to have seen, then we can no longer behold phantasms more slender and more minute, although reason does not cease to continue to divide them. So we conceive no corporeal things, except either those we remember, or from those things which we remember."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C10",
+    "durationSeconds": 155
   },
   "TRIN-B11C11": {
     "book": 11,
@@ -3954,9 +3954,9 @@ window.TRINITY_TEXT = {
         "text": "18. But because those things which are impressed on the memory singly, can be conceived according to number, measure seems to belong to the memory, but number to the vision; because, although the multiplicity of such visions is innumerable, yet a limit not to be transgressed is prescribed for each in the memory. Therefore, measure appears in the memory, number in the vision of things: as there is some measure in visible bodies themselves, to which measure the sense of those who see is most numerously adjusted, and from one visible object is formed the vision of many beholders, so that even a single person sees commonly a single thing under a double appearance, on account of the number of his two eyes, as we have laid down above. Therefore there is some measure in those things whence visions are copied, but in the visions themselves there is number. But the will which unites and regulates these things, and combines them into a certain unity, and does not quietly rest its desire of [sensuously] perceiving or of conceiving, except in those things from whence the visions are formed, resembles weight. And therefore I would just notice by way of anticipation these three things, measure, number, weight, which are to be perceived in all other things also. In the meantime, I have now shown as much as I can, and to whom I can, that the will is the uniter of the visible thing and of the vision; as it were, of parent and of offspring; whether in [sensuous] perception or in conception, and that it cannot be called either parent or offspring. Wherefore time admonishes us to seek for this same trinity in the inner man, and to strive to pass inwards from that animal and carnal and (as he is called) outward man, of whom I have so long spoken. And here we hope to be able to find an image of God according to the Trinity, He Himself helping our efforts, who as things themselves show, and as Holy Scripture also witnesses, has regulated all things in measure, and number, and weight."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B11C11",
+    "durationSeconds": 112
   },
   "TRIN-B12C1": {
     "book": 12,
@@ -3968,9 +3968,9 @@ window.TRINITY_TEXT = {
         "text": "1. Come now, and let us see where lies, as it were, the boundary line between the outer and inner man. For whatever we have in the mind common with the beasts, thus much is rightly said to belong to the outer man. For the outer man is not to be considered to be the body only, but with the addition also of a certain peculiar life of the body, whence the structure of the body derives its vigor, and all the senses with which he is equipped for the perception of outward things; and when the images of these outward things already perceived, that have been fixed in the memory, are seen again by recollection, it is still a matter pertaining to the outer man. And in all these things we do not differ from the beasts, except that in shape of body we are not prone, but upright. And we are admonished through this, by Him who made us, not to be like the beasts in that which is our better part — that is, the mind — while we differ from them by the uprightness of the body. Not that we are to throw our mind into those bodily things which are exalted; for to seek rest for the will, even in such things, is to prostrate the mind. But as the body is naturally raised upright to those bodily things which are most elevated, that is, to things celestial; so the mind, which is a spiritual substance, must be raised upright to those things which are most elevated in spiritual things, not by the elation of pride, but by the dutifulness of righteousness."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C1",
+    "durationSeconds": 82
   },
   "TRIN-B12C2": {
     "book": 12,
@@ -3982,9 +3982,9 @@ window.TRINITY_TEXT = {
         "text": "2. And the beasts, too, are able both to perceive things corporeal from without, through the senses of the body, and to fix them in the memory, and remember them, and in them to seek after things suitable, and shun things inconvenient. But to note these things, and to retain them not only as caught up naturally but also as deliberately committed to memory, and to imprint them again by recollection and conception when now just slipping away into forgetfulness; in order that as conception is formed from that which the memory contains, so also the contents themselves of the memory may be fixed firmly by thought: to combine again imaginary objects of sight, by taking this or that of what the memory remembers, and, as it were, tacking them to one another: to examine after what manner it is that in this kind things like the true are to be distinguished from the true, and this not in things spiritual, but in corporeal things themselves — these acts, and the like, although performed in reference to things sensible, and those which the mind has deduced through the bodily senses, yet, as they are combined with reason, so are not common to men and beasts. But it is the part of the higher reason to judge of these corporeal things according to incorporeal and eternal reasons; which, unless they were above the human mind, would certainly not be unchangeable; and yet, unless something of our own were subjoined to them, we should not be able to employ them as our measures by which to judge of corporeal things. But we judge of corporeal things from the rule of dimensions and figures, which the mind knows to remain unchangeably."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C2",
+    "durationSeconds": 93
   },
   "TRIN-B12C3": {
     "book": 12,
@@ -3996,9 +3996,9 @@ window.TRINITY_TEXT = {
         "text": "3. But that of our own which thus has to do with the handling of corporeal and temporal things, is indeed rational, in that it is not common to us with the beasts; but it is drawn, as it were, out of that rational substance of our mind, by which we depend upon and cleave to the intelligible and unchangeable truth, and which is deputed to handle and direct the inferior things. For as among all the beasts there was not found for the man a help like him, unless one were taken from himself, and formed to be his consort: so for that mind, by which we consult the supernal and inward truth, there is no like help for such employment as man's nature requires among things corporeal out of those parts of the soul which we have in common with the beasts. And so a certain part of our reason, not separated so as to sever unity, but, as it were, diverted so as to be a help to fellowship, is parted off for the performing of its proper work. And as the two is one flesh in the case of male and female, so in the mind one nature embraces our intellect and action, or our counsel and performance, or our reason and rational appetite, or whatever other more significant terms there may be by which to express them; so that, as it was said of the former, \"And they two shall be in one flesh,\" it may be said of these, they two are in one mind."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C3",
+    "durationSeconds": 80
   },
   "TRIN-B12C4": {
     "book": 12,
@@ -4010,9 +4010,9 @@ window.TRINITY_TEXT = {
         "text": "4. When, therefore, we discuss the nature of the human mind, we discuss a single subject, and do not double it into those two which I have mentioned, except in respect to its functions. Therefore, when we seek the trinity in the mind, we seek it in the whole mind, without separating the action of the reason in things temporal from the contemplation of things eternal, so as to have further to seek some third thing, by which a trinity may be completed. But this trinity must needs be so discovered in the whole nature of the mind, as that even if action upon temporal things were to be withdrawn, for which work that help is necessary, with a view to which some part of the mind is diverted in order to deal with these inferior things, yet a trinity would still be found in the one mind that is no where parted off; and that when this distribution has been already made, not only a trinity may be found, but also an image of God, in that alone which belongs to the contemplation of eternal things; while in that other which is diverted from it in the dealing with temporal things, although there may be a trinity, yet there cannot be found an image of God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C4",
+    "durationSeconds": 69
   },
   "TRIN-B12C5": {
     "book": 12,
@@ -4024,9 +4024,9 @@ window.TRINITY_TEXT = {
         "text": "5. Accordingly they do not seem to me to advance a probable opinion, who lay it down that a trinity of the image of God in three persons, so far as regards human nature, can so be discovered as to be completed in the marriage of male and female and in their offspring; in that the man himself, as it were, indicates the person of the Father, but that which has so proceeded from him as to be born, that of the Son; and so the third person as of the Spirit, is, they say, the woman, who has so proceeded from the man as not herself to be either son or daughter, although it was by her conception that the offspring was born. For the Lord has said of the Holy Spirit that He proceeds from the Father, and yet he is not a son. In this erroneous opinion, then, the only point probably alleged, and indeed sufficiently shown according to the faith of the Holy Scripture, is this — in the account of the original creation of the woman — that what so comes into existence from some person as to make another person, cannot in every case be called a son; since the person of the woman came into existence from the person of the man, and yet she is not called his daughter. All the rest of this opinion is in truth so absurd, nay indeed so false, that it is most easy to refute it. For I pass over such a thing, as to think the Holy Spirit to be the mother of the Son of God, and the wife of the Father; since perhaps it may be answered that these things offend us in carnal things, because we think of bodily conceptions and births. Although these very things themselves are most chastely thought of by the pure, to whom all things are pure; but to the defiled and unbelieving, of whom both the mind and conscience are polluted, nothing is pure; so that even Christ, born of a virgin according to the flesh, is a stumbling-block to some of them. But yet in the case of those supreme spiritual things, after the likeness of which those kinds of the inferior creature also are made although most remotely, and where there is nothing that can be injured and nothing corruptible, nothing born in time, nothing formed from that which is formless, or whatever like expressions there may be; yet they ought not to disturb the sober prudence of any one, lest in avoiding empty disgust he run into pernicious error. Let him accustom himself so to find in corporeal things the traces of things spiritual, that when he begins to ascend upwards from thence, under the guidance of reason, in order to attain to the unchangeable truth itself through which these things were made, he may not draw with himself to things above what he despises in things below. For no one ever blushed to choose for himself wisdom as a wife, because the name of wife puts into a man's thoughts the corruptible connection which consists in begetting children; or because in truth wisdom itself is a woman in sex, since it is expressed in both Greek and Latin tongues by a word of the feminine gender."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C5",
+    "durationSeconds": 165
   },
   "TRIN-B12C6": {
     "book": 12,
@@ -4046,9 +4046,9 @@ window.TRINITY_TEXT = {
         "text": "8. And since the case stands thus, if we are to accept the same image of the Trinity, as not in one, but in three human beings, father and mother and son, then the man was not made after the image of God before a wife was made for him, and before they procreated a son; because there was not yet a trinity. Will any one say there was already a trinity, because, although not yet in their proper form, yet in their original nature, both the woman was already in the side of the man, and the son in the loins of his father? Why then, when Scripture had said, \"God made man after the image of God,\" did it go on to say, \"God created him; male and female created He them: and God blessed them\"? (Or if it is to be so divided, \"And God created man,\" so that thereupon is to be added, \"in the image of God created He him,\" and then subjoined in the third place, \"male and female created He them;\" for some have feared to say, He made him male and female, lest something monstrous, as it were, should be understood, as are those whom they call hermaphrodites, although even so both might be understood not falsely in the singular number, on account of that which is said, \"Two in one flesh.\") Why then, as I began by saying, in regard to the nature of man made after the image of God, does Scripture specify nothing except male and female? Certainly, in order to complete the image of the Trinity, it ought to have added also son, although still placed in the loins of his father, as the woman was in his side. Or was it perhaps that the woman also had been already made, and that Scripture had combined in a short and comprehensive statement, that of which it was going to explain afterwards more carefully, how it was done; and that therefore a son could not be mentioned, because no son was yet born? As if the Holy Spirit could not have comprehended this, too, in that brief statement, while about to narrate the birth of the son afterwards in its own place; as it narrated afterwards in its own place, that the woman was taken from the side of the man, and yet has not omitted here to name her."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C6",
+    "durationSeconds": 331
   },
   "TRIN-B12C7": {
     "book": 12,
@@ -4072,9 +4072,9 @@ window.TRINITY_TEXT = {
         "text": "12. For, as not only most true reason but also the authority of the apostle himself declares, man was not made in the image of God according to the shape of his body, but according to his rational mind. For the thought is a debased and empty one, which holds God to be circumscribed and limited by the lineaments of bodily members. But further, does not the same blessed apostle say, \"Be renewed in the spirit of your mind, and put on the new man, which is created after God;\" and in another place more clearly, \"Putting off the old man,\" he says, \"with his deeds; put on the new man, which is renewed to the knowledge of God after the image of Him that created him?\" If, then, we are renewed in the spirit of our mind, and he is the new man who is renewed to the knowledge of God after the image of Him that created him; no one can doubt, that man was made after the image of Him that created him, not according to the body, nor indiscriminately according to any part of the mind, but according to the rational mind, wherein the knowledge of God can exist. And it is according to this renewal, also, that we are made sons of God by the baptism of Christ; and putting on the new man, certainly put on Christ through faith. Who is there, then, who will hold women to be alien from this fellowship, whereas they are fellow-heirs of grace with us; and whereas in another place the same apostle says, \"For you are all the children of God by faith in Christ Jesus; for as many as have been baptized into Christ have put on Christ: there is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female; for you are all one in Christ Jesus?\" Pray, have faithful women then lost their bodily sex? But because they are there renewed after the image of God, where there is no sex; man is there made after the image of God, where there is no sex, that is, in the spirit of his mind. Why, then, is the man on that account not bound to cover his head, because he is the image and glory of God, while the woman is bound to do so, because she is the glory of the man; as though the woman were not renewed in the spirit of her mind, which spirit is renewed to the knowledge of God after the image of Him who created him? But because she differs from the man in bodily sex, it was possible rightly to represent under her bodily covering that part of the reason which is diverted to the government of temporal things; so that the image of God may remain on that side of the mind of man on which it cleaves to the beholding or the consulting of the eternal reasons of things; and this, it is clear, not men only, but also women have."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C7",
+    "durationSeconds": 439
   },
   "TRIN-B12C8": {
     "book": 12,
@@ -4086,9 +4086,9 @@ window.TRINITY_TEXT = {
         "text": "13. A common nature, therefore, is recognized in their minds, but in their bodies a division of that one mind itself is figured. As we ascend, then, by certain steps of thought within, along the succession of the parts of the mind, there where something first meets us which is not common to ourselves with the beasts reason begins, so that here the inner man can now be recognized. And if this inner man himself, through that reason to which the administering of things temporal has been delegated, slips on too far by over-much progress into outward things, that which is his head moreover consenting, that is, the (so to call it) masculine part which presides in the watchtower of counsel not restraining or bridling it: then he waxes old because of all his enemies, viz. the demons with their prince the devil, who are envious of virtue; and that vision of eternal things is withdrawn also from the head himself, eating with his spouse that which was forbidden, so that the light of his eyes is gone from him; and so both being naked from that enlightenment of truth, and with the eyes of their conscience opened to behold how they were left shameful and unseemly, like the leaves of sweet fruits, but without the fruits themselves, they so weave together good words without the fruit of good works, as while living wickedly to cover over their disgrace as it were by speaking well."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C8",
+    "durationSeconds": 79
   },
   "TRIN-B12C9": {
     "book": 12,
@@ -4100,9 +4100,9 @@ window.TRINITY_TEXT = {
         "text": "14. For the soul loving its own power, slips onwards from the whole which is common, to a part, which belongs especially to itself. And that apostatizing pride, which is called \"the beginning of sin,\" whereas it might have been most excellently governed by the laws of God, if it had followed Him as its ruler in the universal creature, by seeking something more than the whole, and struggling to govern this by a law of its own, is thrust on, since nothing is more than the whole, into caring for a part; and thus by lusting after something more, is made less; whence also covetousness is called \"the root of all evil.\" And it administers that whole, wherein it strives to do something of its own against the laws by which the whole is governed, by its own body, which it possesses only in part; and so being delighted by corporeal forms and motions, because it has not the things themselves within itself, and because it is wrapped up in their images, which it has fixed in the memory, and is foully polluted by fornication of the phantasy, while it refers all its functions to those ends, for which it curiously seeks corporeal and temporal things through the senses of the body, either it affects with swelling arrogance to be more excellent than other souls that are given up to the corporeal senses, or it is plunged into a foul whirlpool of carnal pleasure."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C9",
+    "durationSeconds": 76
   },
   "TRIN-B12C10": {
     "book": 12,
@@ -4114,9 +4114,9 @@ window.TRINITY_TEXT = {
         "text": "15. When the soul then consults either for itself or for others with a good will towards perceiving the inner and higher things, such as are possessed in a chaste embrace, without any narrowness or envy, not individually, but in common by all who love such things; then even if it be deceived in anything, through ignorance of things temporal (for its action in this case is a temporal one), and if it does not hold fast to that mode of acting which it ought, the temptation is but one common to man. And it is a great thing so to pass through this life, on which we travel, as it were, like a road on our return home, that no temptation may take us, but what is common to man. For this is a sin, without the body, and must not be reckoned fornication, and on that account is very easily pardoned. But when the soul does anything in order to attain those things which are perceived through the body, through lust of proving or of surpassing or of handling them, in order that it may place in them its final good, then whatever it does, it does wickedly, and commits fornication, sinning against its own body: and while snatching from within the deceitful images of corporeal things, and combining them by vain thought, so that nothing seems to it to be divine, unless it be of such a kind as this; by selfish greediness it is made fruitful in errors, and by selfish prodigality it is emptied of strength. Yet it would not leap on at once from the commencement to such shameless and miserable fornication, but, as it is written, \"He that despises small things, shall fall little by little.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C10",
+    "durationSeconds": 92
   },
   "TRIN-B12C11": {
     "book": 12,
@@ -4128,9 +4128,9 @@ window.TRINITY_TEXT = {
         "text": "16. For as a snake does not creep on with open steps, but advances by the very minutest efforts of its several scales; so the slippery motion of falling away [from what is good] takes possession of the negligent only gradually, and beginning from a perverse desire for the likeness of God, arrives in the end at the likeness of beasts. Hence it is that being naked of their first garment, they earned by mortality coats of skins. For the true honor of man is the image and likeness of God, which is not preserved except it be in relation to Him by whom it is impressed. The less therefore that one loves what is one's own, the more one cleaves to God. But through the desire of making trial of his own power, man by his own bidding falls down to himself as to a sort of intermediate grade. And so, while he wishes to be as God is, that is, under no one, he is thrust on, even from his own middle grade, by way of punishment, to that which is lowest, that is, to those things in which beasts delight: and thus, while his honor is the likeness of God, but his dishonor is the likeness of the beast, \"Man being in honor abides not: he is compared to the beasts that are foolish, and is made like to them.\" By what path, then, could he pass so great a distance from the highest to the lowest, except through his own intermediate grade? For when he neglects the love of wisdom, which remains always after the same fashion, and lusts after knowledge by experiment upon things temporal and mutable, that knowledge puffs up, it does not edify: so the mind is overweighed and thrust out, as it were, by its own weight from blessedness; and learns by its own punishment, through that trial of its own intermediateness, what the difference is between the good it has abandoned and the bad to which it has committed itself; and having thrown away and destroyed its strength, it cannot return, unless by the grace of its Maker calling it to repentance, and forgiving its sins. For who will deliver the unhappy soul from the body of this death, unless the grace of God through Jesus Christ our Lord? of which grace we will discourse in its place, so far as He Himself enables us."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C11",
+    "durationSeconds": 124
   },
   "TRIN-B12C12": {
     "book": 12,
@@ -4150,9 +4150,9 @@ window.TRINITY_TEXT = {
         "text": "19. This reasoning, then, whereby we have sought in the mind of each several human being a certain rational wedlock of contemplation and action, with functions distributed through each severally, yet with the unity of the mind preserved in both; saving meanwhile the truth of that history which divine testimony hands down respecting the first two human beings, that is, the man and his wife, from whom the human species is propagated; — this reasoning, I say, must be listened to only thus far, that the apostle may be understood to have intended to signify something to be sought in one individual man, by assigning the image of God to the man only, and not also to the woman, although in the merely different sex of two human beings."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C12",
+    "durationSeconds": 283
   },
   "TRIN-B12C13": {
     "book": 12,
@@ -4168,9 +4168,9 @@ window.TRINITY_TEXT = {
         "text": "21. But whether that the apostle calls the man the image and glory of God, but the woman the glory of the man, is to be received in this, or that, or in any other way; yet it is clear, that when we live according to God, our mind which is intent on the invisible things of Him ought to be fashioned with proficiency from His eternity, truth, charity; but that something of our own rational purpose, that is, of the same mind, must be directed to the using of changeable and corporeal things, without which this life does not go on; not that we may be conformed to this world, by placing our end in such good things, and by forcing the desire of blessedness towards them, but that whatever we do rationally in the using of temporal things, we may do it with the contemplation of attaining eternal things, passing through the former, but cleaving to the latter."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C13",
+    "durationSeconds": 142
   },
   "TRIN-B12C14": {
     "book": 12,
@@ -4190,9 +4190,9 @@ window.TRINITY_TEXT = {
         "text": "23. When a discourse then relates to these things, I hold it to be a discourse belonging to knowledge, and to be distinguished from a discourse belonging to wisdom, to which those things belong, which neither have been, nor shall be, but are; and on account of that eternity in which they are, are said to have been, and to be, and to be about to be, without any changeableness of times. For neither have they been in such way as that they should cease to be, nor are they about to be in such way as if they were not now; but they have always had and always will have that very absolute being. And they abide, but not as if fixed in some place as are bodies; but as intelligible things in incorporeal nature, they are so at hand to the glance of the mind, as things visible or tangible in place are to the sense of the body. And not only in the case of sensible things posited in place, there abide also intelligible and incorporeal reasons of them apart from local space; but also of motions that pass by in successive times, apart from any transit in time, there stand also like reasons, themselves certainly intelligible, and not sensible. And to attain to these with the eye of the mind is the lot of few; and when they are attained as much as they can be, he himself who attains to them does not abide in them, but is as it were repelled by the rebounding of the eye itself of the mind, and so there comes to be a transitory thought of a thing not transitory. And yet this transient thought is committed to the memory through the instructions by which the mind is taught; that the mind which is compelled to pass from thence, may be able to return there again; although, if the thought should not return to the memory and find there what it had committed to it, it would be led thereto like an uninstructed person, as it had been led before, and would find it where it had first found it, that is to say, in that incorporeal truth, whence yet once more it may be as it were written down and fixed in the mind. For the thought of man, for example, does not so abide in that incorporeal and unchangeable reason of a square body, as that reason itself abides: if, to be sure, it could attain to it at all without the phantasy of local space. Or if one were to apprehend the rhythm of any artificial or musical sound, passing through certain intervals of time, as it rested without time in some secret and deep silence, it could at least be thought as long as that song could be heard; yet what the glance of the mind, transient though it was, caught from thence, and, absorbing as it were into a belly, so laid up in the memory, over this it will be able to ruminate in some measure by recollection, and to transfer what it has thus learned into systematic knowledge. But if this has been blotted out by absolute forgetfulness, yet once again, under the guidance of teaching, one will come to that which had altogether dropped away, and it will be found such as it was."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C14",
+    "durationSeconds": 338
   },
   "TRIN-B12C15": {
     "book": 12,
@@ -4208,9 +4208,9 @@ window.TRINITY_TEXT = {
         "text": "25. If therefore this is the right distinction between wisdom and knowledge, that the intellectual cognizance of eternal things belongs to wisdom, but the rational cognizance of temporal things to knowledge, it is not difficult to judge which is to be preferred or postponed to which. But if we must employ some other distinction by which to know these two apart, which without doubt the apostle teaches us are different, saying, \"To one is given by the Spirit the word of wisdom; to another the word of knowledge, by the same Spirit:\" still the difference between those two which we have laid down is a most evident one, in that the intellectual cognizance of eternal things is one thing, the rational cognizance of temporal things another; and no one doubts but that the former is to be preferred to the latter. As then we leave behind those things which belong to the outer man, and desire to ascend within from those things which we have in common with beasts, before we come to the cognizance of things intelligible and supreme, which are eternal, the rational cognizance of temporal things presents itself. Let us then find a trinity in this also, if we can, as we found one in the senses of the body, and in those things which through them entered in the way of images into our soul or spirit; so that instead of corporeal things which we touch by corporeal sense, placed as they are without us, we might have resemblances of bodies impressed within on the memory from which thought might be formed, while the will as a third united them; just as the sight of the eyes was formed from without, which the will applied to the visible thing in order to produce vision, and united both, while itself also added itself thereto as a third. But this subject must not be compressed into this book; so that in that which follows, if God help, it may be suitably examined, and the conclusions to which we come may be unfolded."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B12C15",
+    "durationSeconds": 271
   },
   "TRIN-B13C1": {
     "book": 13,
@@ -4234,9 +4234,9 @@ window.TRINITY_TEXT = {
         "text": "4. In the words which follow next, \"The same came for a witness, to bear witness of the Light, that all men through him might believe;\" the action, as we have said, is one done in time. For to bear witness even to that which is eternal, as is that light that is intelligible, is a thing done in time. And of this it was that John came to bear witness who \"was not that Light, but was sent to bear witness of that Light.\" For he adds \"That was the true Light that lights every man that comes into the world. He was in the world, and the world was made by Him, and the world knew Him not. He came unto His own, and His own received Him not.\" Now they who know the Latin language, understand all these words, from those things which they know: and of these, some have become known to us through the senses of the body, as man, as the world itself, of which the greatness is so evident to our sight; as again the sounds of the words themselves, for hearing also is a sense of the body; and some through the reason of the mind, as that which is said, \"And His own received Him not;\" for this means, that they did not believe in Him; and what belief is, we do not know by any sense of the body, but by the reason of the mind. We have learned, too, not the sounds, but the meanings of the words themselves, partly through the sense of the body, partly through the reason of the mind. Nor have we now heard those words for the first time, but they are words we had heard before. And we were retaining in our memory as things known, and we here recognized, not only the words themselves, but also what they meant. For when the bisyllabic word mundus is uttered, then something that is certainly corporeal, for it is a sound, has become known through the body, that is, through the ear. But that which it means also, has become known through the body, that is, through the eyes of the flesh. For so far as the world is known to us at all, it is known through sight. But the quadri-syllabic word crediderunt reaches us, so far as its sound, since that is a corporeal thing, through the ear of the flesh; but its meaning is discoverable by no sense of the body, but by the reason of the mind. For unless we knew through the mind what the word crediderunt meant, we should not understand what they did not do, of whom it is said, \"And His own received Him not.\" The sound then of the word rings upon the ears of the body from without, and reaches the sense which is called hearing. The species also of man is both known to us in ourselves, and is presented to the senses of the body from without, in other men; to the eyes, when it is seen; to the ears, when it is heard; to the touch, when it is held and touched; and it has, too, its image in our memory, incorporeal indeed, but like the body. Lastly, the wonderful beauty of the world itself is at hand from without, both to our gaze, and to that sense which is called touch, if we come in contact with any of it: and this also has its image within in our memory, to which we revert, when we think of it either in the enclosure of a room, or again in darkness. But we have already sufficiently spoken in the eleventh book of these images of corporeal things; incorporeal indeed, yet having the likeness of bodies, and belonging to the life of the outer man. But we are treating now of the inner man, and of his knowledge, namely, that knowledge which is of things temporal and changeable; into the purpose and scope of which, when anything is assumed, even of things belonging to the outer man, it must be assumed for this end, that something may thence be taught which may help rational knowledge. And hence the rational use of those things which we have in common with irrational animals belongs to the inner man; neither can it rightly be said that this is common to us with the irrational animals."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C1",
+    "durationSeconds": 563
   },
   "TRIN-B13C2": {
     "book": 13,
@@ -4248,9 +4248,9 @@ window.TRINITY_TEXT = {
         "text": "5. But faith, of which we are compelled, by reason of the arrangement of our subject, to dispute somewhat more at length in this book: faith I say, which they who have are called the faithful, and they who have not, unbelievers, as were those who did not receive the Son of God coming to His own; although it is wrought in us by hearing, yet does not belong to that sense of the body which is called hearing, since it is not a sound; nor to the eyes of this our flesh, since it is neither color nor bodily form; nor to that which is called touch, since it has nothing of bulk; nor to any sense of the body at all, since it is a thing of the heart, not of the body; nor is it without apart from us, but deeply seated within us; nor does any man see it in another, but each one in himself. Lastly, it is a thing that can both be feigned by pretence, and be thought to be in him in whom it is not. Therefore every one sees his own faith in himself; but does not see, but believes, that it is in another; and believes this the more firmly, the more he knows the fruits of it, which faith is wont to work by love. And therefore this faith is common to all of whom the evangelist subjoins, \"But as many as received Him, to them gave He power to become the sons of God, even to them that believe in His name: which were born, not of blood, nor of the will of the flesh, nor of the will of man, but of God;\" common I say, not as any form of a bodily object is common, as regards sight, to the eyes of all to whom it is present, for in some way the gaze of all that behold it is informed by the same one form; but as the human countenance can be said to be common to all men; for this is so said that yet each certainly has his own. We say certainly with perfect truth, that the faith of believers is impressed from one doctrine upon the heart of each several person who believes the same thing. But that which is believed is a different thing from the faith by which it is believed. For the former is in things which are said either to be, or to have been or to be about to be; but the latter is in the mind of the believer, and is visible to him only whose it is; although not indeed itself but a faith like it, is also in others. For it is not one in number, but in kind; yet on account of the likeness, and the absence of all difference, we rather call it one than many. For when, too, we see two men exceedingly alike, we wonder, and say that both have one countenance. It is therefore more easily said that the souls were many — a several soul, of course, for each several person — of whom we read in the Acts of the Apostles, that they were of one soul, — than it is, where the apostle speaks of \"one faith,\" for any one to venture to say that there are as many faiths as there are faithful. And yet He who says, \"O woman, great is your faith;\" and to another, \"O you of little faith, wherefore did you doubt?\" intimates that each has his own faith. But the like faith of believers is said to be one, in the same way as a like will of those who will is said to be one; since in the case also of those who have the same will, the will of each is visible to himself, but that of the other is not visible, although he wills the same thing; and if it intimate itself by any signs, it is believed rather than seen. But each being conscious of his own mind certainly does not believe, but manifestly sees outright, that this is his own will."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C2",
+    "durationSeconds": 193
   },
   "TRIN-B13C3": {
     "book": 13,
