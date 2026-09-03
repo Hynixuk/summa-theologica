@@ -1077,109 +1077,109 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 3,
         "title": "Some Desires Being the Same in All, are Known to Each. The Poet Ennius.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Will to Possess Blessedness is One in All, But the Variety of Wills is Very Great Concerning that Blessedness Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "Of the Same Thing.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "Why, When All Will to Be Blessed, that is Rather Chosen by Which One Withdraws from Being So.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "Faith is Necessary, that Man May at Some Time Be Blessed, Which He Will Only Attain in the Future Life. The Blessedness of Proud Philosophers Ridiculous and Pitiable.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "Blessedness Cannot Exist Without Immortality.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "We Say that Future Blessedness is Truly Eternal, Not Through Human Reasonings, But by the Help of Faith. The Immortality of Blessedness Becomes Credible from the Incarnation of the Son of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "There Was No Other More Suitable Way of Freeing Man from the Misery of Mortality Than The Incarnation of the Word. The Merits Which are Called Ours are the Gifts of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "A Difficulty, How We are Justitified in the Blood of the Son of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "All, on Account of the Sin of Adam, Were Delivered into the Power of the Devil.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       },
       {
         "chapter": 13,
         "title": "Man Was to Be Rescued from the Power of the Devil, Not by Power, But by Righteousness.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       },
       {
         "chapter": 14,
         "title": "The Unobligated Death of Christ Has Freed Those Who Were Liable to Death.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 14
       },
       {
         "chapter": 15,
         "title": "Of the Same Subject.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 15
       },
       {
         "chapter": 16,
         "title": "The Remains of Death and the Evil Things of the World Turn to Good for the Elect. How Fitly the Death of Christ Was Chosen, that We Might Be Justified in His Blood. What the Anger of God is.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 16
       },
       {
         "chapter": 17,
         "title": "Other Advantages of the Incarnation.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 17
       },
       {
         "chapter": 18,
         "title": "Why the Son of God Took Man Upon Himself from the Race of Adam, and from a Virgin.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 18
       },
       {
         "chapter": 19,
         "title": "What in the Incarnate Word Belongs to Knowledge, What to Wisdom.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 19
       },
       {
         "chapter": 20,
         "title": "What Has Been Treated of in This Book. How We Have Reached by Steps to a Certain Trinity, Which is Found in Practical Knowledge and True Faith.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 20
       }
     ]
@@ -1193,115 +1193,115 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "What the Wisdom is of Which We are Here to Treat. Whence the Name of Philosopher Arose. What Has Been Already Said Concerning the Distinction of Knowledge and Wisdom.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "There is a Kind of Trinity in the Holding, Contemplating, and Loving of Faith Temporal, But One that Does Not Yet Attain to Being Properly an Image of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "A Difficulty Removed, Which Lies in the Way of What Has Just Been Said.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Image of God is to Be Sought in the Immortality of the Rational Soul. How a Trinity is Demonstrated in the Mind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "Whether the Mind of Infants Knows Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "How a Kind of Trinity Exists in the Mind Thinking of Itself. What is the Part of Thought in This Trinity.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "The Thing is Made Plain by an Example. In What Way the Matter is Handled in Order to Help the Reader.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "The Trinity Which is the Image of God is Now to Be Sought in the Noblest Part of the Mind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "Whether Justice and the Other Virtues Cease to Exist in the Future Life.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "How a Trinity is Produced by the Mind Remembering, Understanding, and Loving Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "Whether Memory is Also of Things Present.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "The Trinity in the Mind is the Image of God, in that It Remembers, Understands, and Loves God, Which to Do is Wisdom.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       },
       {
         "chapter": 13,
         "title": "How Any One Can Forget and Remember God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       },
       {
         "chapter": 14,
         "title": "The Mind Loves God in Rightly Loving Itself; And If It Love Not God, It Must Be Said to Hate Itself. Even a Weak and Erring Mind is Always Strong in Remembering, Understanding, and Loving Itself. Let It Be Turned to God, that It May Be Blessed by Remembering, Understanding, and Loving Him.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 14
       },
       {
         "chapter": 15,
         "title": "Although the Soul Hopes for Blessedness, Yet It Does Not Remember Lost Blessedness, But Remembers God and the Rules of Righteousness. The Unchangeable Rules of Right Living are Known Even to the Ungodly.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 15
       },
       {
         "chapter": 16,
         "title": "How the Image of God is Formed Anew in Man.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 16
       },
       {
         "chapter": 17,
         "title": "How the Image of God in the Mind is Renewed Until the Likeness of God is Perfected in It in Blessedness.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 17
       },
       {
         "chapter": 18,
         "title": "Whether the Sentence of John is to Be Understood of Our Future Likeness with the Son of God in the Immortality Itself Also of the Body.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 18
       },
       {
         "chapter": 19,
         "title": "John is Rather to Be Understood of Our Perfect Likeness with the Trinity in Life Eternal. Wisdom is Perfected in Happiness.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 19
       }
     ]
@@ -1315,169 +1315,169 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "God is Above the Mind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "God, Although Incomprehensible, is Ever to Be Sought. The Traces of the Trinity are Not Vainly Sought in the Creature.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "A Brief Recapitulation of All the Previous Books.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "What Universal Nature Teaches Us Concerning God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "How Difficult It is to Demonstrate the Trinity by Natural Reason.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "How There is a Trinity in the Very Simplicity of God. Whether and How the Trinity that is God is Manifested from the Trinities Which Have Been Shown to Be in Men.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "That It is Not Easy to Discover the Trinity that is God from the Trinities We Have Spoken of.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "How the Apostle Says that God is Now Seen by Us Through a Glass.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "Of the Term \"Enigma,\" And of Tropical Modes of Speech.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "Concerning the Word of the Mind, in Which We See the Word of God, as in a Glass and an Enigma.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "The Likeness of the Divine Word, Such as It Is, is to Be Sought, Not in Our Own Outer and Sensible Word, But in the Inner and Mental One. There is the Greatest Possible Unlikeness Between Our Word and Knowledge and the Divine Word and Knowledge.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "The Academic Philosophy.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       },
       {
         "chapter": 13,
         "title": "Still Further of the Difference Between the Knowledge and Word of Our Mind, and the Knowledge and Word of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       },
       {
         "chapter": 14,
         "title": "The Word of God is in All Things Equal to the Father, from Whom It is.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 14
       },
       {
         "chapter": 15,
         "title": "How Great is the Unlikeness Between Our Word and the Divine Word. Our Word Cannot Be or Be Called Eternal.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 15
       },
       {
         "chapter": 16,
         "title": "Our Word is Never to Be Equalled to the Divine Word, Not Even When We Shall Be Like God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 16
       },
       {
         "chapter": 17,
         "title": "How the Holy Spirit is Called Love, and Whether He Alone is So Called. That the Holy Spirit is in the Scriptures Properly Called by the Name of Love.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 17
       },
       {
         "chapter": 18,
         "title": "No Gift of God is More Excellent Than Love.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 18
       },
       {
         "chapter": 19,
         "title": "The Holy Spirit is Called the Gift of God in the Scriptures. By the Gift of the Holy Spirit is Meant the Gift Which is the Holy Spirit. The Holy Spirit is Specially Called Love, Although Not Only the Holy Spirit in the Trinity is Love.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 19
       },
       {
         "chapter": 20,
         "title": "Against Eunomius, Saying that the Son of God is the Son, Not of His Nature, But of His Will. Epilogue to What Has Been Said Already.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 20
       },
       {
         "chapter": 21,
         "title": "Of the Likeness of the Father and of the Son Alleged to Be in Our Memory and Understanding. Of the Likeness of the Holy Spirit in Our Will or Love.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 21
       },
       {
         "chapter": 22,
         "title": "How Great the Unlikeness is Between the Image of the Trinity Which We Have Found in Ourselves, and the Trinity Itself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 22
       },
       {
         "chapter": 23,
         "title": "Augustine Dwells Still Further on the Disparity Between the Trinity Which is in Man, and the Trinity Which is God. The Trinity is Now Seen Through a Glass by the Help of Faith, that It May Hereafter Be More Clearly Seen in the Promised Sight Face to Face.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 23
       },
       {
         "chapter": 24,
         "title": "The Infirmity of the Human Mind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 24
       },
       {
         "chapter": 25,
         "title": "The Question Why the Holy Spirit is Not Begotten, and How He Proceeds from the Father and the Son, Will Only Be Understood When We are in Bliss.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 25
       },
       {
         "chapter": 26,
         "title": "The Holy Spirit Twice Given by Christ. The Procession of the Holy Spirit from the Father and from the Son is Apart from Time, Nor Can He Be Called the Son of Both.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 26
       },
       {
         "chapter": 27,
         "title": "What It is that Suffices Here to Solve the Question Why the Spirit is Not Said to Be Begotten, and Why the Father Alone is Unbegotten. What They Ought to Do Who Do Not Understand These Things.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 27
       },
       {
         "chapter": 28,
         "title": "The Conclusion of the Book with a Prayer, and an Apology for Multitude of Words.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 28
       }
     ]
@@ -4262,9 +4262,9 @@ window.TRINITY_TEXT = {
         "text": "6. There is, indeed, so closely conspiring a harmony in the same nature living and using reason, that although one knows not what the other wills, yet there are some wills of all which are also known to each; and although each man does not know what any other one man wills, yet in some things he may know what all will. And hence comes that story of the comic actor's witty joke, who promised that he would say in the theatre, in some other play, what all had in their minds, and what all willed; and when a still greater crowd had come together on the day appointed, with great expectation, all being in suspense and silent, is affirmed to have said: You will to buy cheap, and sell dear. And mean actor though he was, yet all in his words recognized what themselves were conscious of, and applauded him with wonderful goodwill, for saying before the eyes of all what was confessedly true, yet what no one looked for. And why was so great expectation raised by his promising that he would say what was the will of all, unless because no man knows the wills of other men? But did not he know that will? Is there any one who does not know it? Yet why, unless because there are some things which not unfitly each conjectures from himself to be in others, through sympathy or agreement either in vice or virtue? But it is one thing to see one's own will; another to conjecture, however certainly, what is another's. For, in human affairs, I am as certain that Rome was built as that Constantinople was, although I have seen Rome with my eyes, but know nothing of the other city, except what I have believed on the testimony of others. And truly that comic actor believed it to be common to all to will to buy cheap and sell dear, either by observing himself or by making experiment also of others. But since such a will is in truth a fault, every one can attain the counter virtue, or run into the mischief of some other fault which is contrary to it, whereby to resist and conquer it. For I myself know a case where a manuscript was offered to a man for purchase, who perceived that the vendor was ignorant of its value, and was therefore asking something very small, and who thereupon gave him, though not expecting it, the just price, which was much more. Suppose even the case of a man possessed with wickedness so great as to sell cheap what his parents left to him, and to buy dear, in order to waste it on his own lusts? Such wanton extravagance, I fancy, is not incredible; and if such men are sought, they may be found, or even fall in one's way although not sought; who, by a wickedness more than that of the theatre, make a mock of the theatrical proposition or declaration, by buying dishonor at a great price, while selling lands at a small one. We have heard, too, of persons that, for the sake of distribution, have bought grain at a higher price, and sold it to their fellow citizens at a lower one. And note also what the old poet Ennius has said: that \"all mortals wish themselves to be praised;\" wherein, doubtless, he conjectured what was in others, both by himself, and by those whom he knew by experience; and so seems to have declared what it is that all men will. Lastly, if that comic actor himself, too, had said, You all will to be praised, no one of you wills to be abused; he would have seemed in like manner to have expressed what all will. Yet there are some who hate their own faults, and do not desire to be praised by others for that for which they are displeased with themselves; and who thank the kindness of those who rebuke them, when the purpose of that rebuke is their own amendment. But if he had said, You all will to be blessed, you do not will to be wretched; he would have said something which there is no one that would not recognize in his own will. For whatever else a man may will secretly, he does not withdraw from that will, which is well known to all men, and well known to be in all men."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C3",
+    "durationSeconds": 225
   },
   "TRIN-B13C4": {
     "book": 13,
@@ -4276,9 +4276,9 @@ window.TRINITY_TEXT = {
         "text": "7. It is wonderful, however, since the will to obtain and retain blessedness is one in all, whence comes, on the other hand, such a variety and diversity of wills concerning that blessedness itself; not that any one is unwilling to have it, but that all do not know it. For if all knew it, it would not be thought by some to be in goodness of mind; by others, in pleasure of body; by others, in both; and by some in one thing, by others in another. For as men find special delight in this thing or that, so have they placed in it their idea of a blessed life. How, then, do all love so warmly what not all know? Who can love what he does not know?— a subject which I have already discussed in the preceding books. Why, therefore, is blessedness loved by all, when it is not known by all? Is it perhaps that all know what it is itself, but all do not know where it is to be found, and that the dispute arises from this?— as if, forsooth, the business was about some place in this world, where every one ought to will to live who wills to live blessedly; and as if the question where blessedness is were not implied in the question what it is. For certainly, if it is in the pleasure of the body, he is blessed who enjoys the pleasure of the body; if in goodness of mind, he has it who enjoys this; if in both, he who enjoys both. When, therefore, one says, to live blessedly is to enjoy the pleasure of the body; but another, to live blessedly is to enjoy goodness of mind; is it not, that either both know, or both do not know, what a blessed life is? How, then, do both love it, if no one can love what he does not know? Or is that perhaps false which we have assumed to be most true and most certain, viz. that all men will to live blessedly? For if to live blessedly is, for argument's sake, to live according to goodness of mind, how does he will to live blessedly who does not will this? Should we not say more truly, That man does not will to live blessedly, because he does not wish to live according to goodness, which alone is to live blessedly? Therefore all men do not will to live blessedly; on the contrary, few wish it; if to live blessedly is nothing else but to live according to goodness of mind, which many do not will to do. Shall we, then, hold that to be false of which the Academic Cicero himself did not doubt (although Academics doubt every thing), who, when he wanted in the dialogue Hortensius to find some certain thing, of which no one doubted, from which to start his argument, says, We certainly all will to be blessed? Far be it from me to say this is false. But what then? Are we to say that, although there is no other way of living blessedly than living according to goodness of mind, yet even he who does not will this, wills to live blessedly? This, indeed, seems too absurd. For it is much as if we should say, Even he who does not will to live blessedly, wills to live blessedly. Who could listen to, who could endure, such a contradiction? And yet necessity thrusts us into this strait, if it is both true that all will to live blessedly, and yet all do not will to live in that way in which alone one can live blessedly."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C4",
+    "durationSeconds": 183
   },
   "TRIN-B13C5": {
     "book": 13,
@@ -4290,9 +4290,9 @@ window.TRINITY_TEXT = {
         "text": "8. Or is, perhaps, the deliverance from our difficulties to be found in this, that, since we have said that every one places his idea of a blessed life in that which has most pleased him, as pleasure pleased Epicurus, and goodness Zeno, and something else pleased other people, we say that to live blessedly is nothing else but to live according to one's own pleasure: so that it is not false that all will to live blessedly, because all will that which pleases each? For if this, too, had been proclaimed to the people in the theatre, all would have found it in their own wills. But when Cicero, too, had propounded this in opposition to himself, he so refuted it as to make them blush who thought so. For he says: \"But, behold! people who are not indeed philosophers, but who yet are prompt to dispute, say that all are blessed, whoever live as they will;\" which is what we mean by, as pleases each. But by and by he has subjoined: \"But this is indeed false. For to will what is not fitting, is itself most miserable; neither is it so miserable not to obtain what one wills, as to will to obtain what one ought not.\" Most excellently and altogether most truly does he speak. For who can be so blind in his mind, so alienated from all light of decency, and wrapped up in the darkness of indecency, as to call him blessed, because he lives as he will, who lives wickedly and disgracefully; and with no one restraining him, no one punishing, and no one daring even to blame him, nay more, too, with most people praising him, since, as divine Scripture says, \"The wicked is praised in his heart's desire: and he who works iniquity is blessed,\" gratifies all his most criminal and flagitious desires; when, doubtless, although even so he would be wretched, yet he would be less wretched, if he could have had nothing of those things which he had wrongly willed? For every one is made wretched by a wicked will also, even though it stop short with will but more wretched by the power by which the longing of a wicked will is fulfilled. And, therefore, since it is true that all men will to be blessed, and that they seek for this one thing with the most ardent love, and on account of this seek everything which they do seek; nor can any one love that of which he does not know at all what or of what sort it is, nor can be ignorant what that is which he knows that he wills; it follows that all know a blessed life. But all that are blessed have what they will, although not all who have what they will are forewith blessed. But they are forewith wretched, who either have not what they will, or have that which they do not rightly will. Therefore he only is a blessed man, who both has all things which he wills, and wills nothing ill."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C5",
+    "durationSeconds": 155
   },
   "TRIN-B13C6": {
     "book": 13,
@@ -4304,9 +4304,9 @@ window.TRINITY_TEXT = {
         "text": "9. Since, then, a blessed life consists of these two things, and is known to all, and dear to all; what can we think to be the cause why, when they cannot have both, men choose, out of these two, to have all things that they will, rather than to will all things well, even although they do not have them? Is it the depravity itself of the human race, in such wise that, while they are not unaware that neither is he blessed who has not what he wills, nor he who has what he wills wrongly, but he who both has whatsoever good things he wills, and wills no evil ones, yet, when both are not granted of those two things in which the blessed life consists, that is rather chosen by which one is withdrawn the more from a blessed life (since he certainly is further from it who obtains things which he wickedly desired, than he who only does not obtain the things which he desired); whereas the good will ought rather to be chosen, and to be preferred, even if it do not obtain the things which it seeks? For he comes near to being a blessed man, who wills well whatsoever he wills, and wills things, which when he obtains, he will be blessed. And certainly not bad things, but good, make men blessed, when they do so make them. And of good things he already has something, and that, too, a something not to be lightly esteemed — namely, the very good will itself; who longs to rejoice in those good things of which human nature is capable, and not in the performance or the attainment of any evil; and who follows diligently, and attains as much as he can, with a prudent, temperate, courageous, and right mind, such good things as are possible in the present miserable life; so as to be good even in evils, and when all evils have been put an end to, and all good things fulfilled, then to be blessed."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C6",
+    "durationSeconds": 108
   },
   "TRIN-B13C7": {
     "book": 13,
@@ -4326,9 +4326,9 @@ window.TRINITY_TEXT = {
         "text": "That this is aptly said, who denies? But it is advice given to the miserable man, that he may not be more miserable. And it is not rightly or truly said to the blessed man, such as all wish themselves to be, That cannot be which you will. For if he is blessed, whatever he wills can be; since he does not will that which cannot be. But such a life is not for this mortal state, neither will it come to pass unless when immortality also shall come to pass. And if this could not be given at all to man, blessedness too would be sought in vain, since it cannot be without immortality."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C7",
+    "durationSeconds": 305
   },
   "TRIN-B13C8": {
     "book": 13,
@@ -4340,9 +4340,9 @@ window.TRINITY_TEXT = {
         "text": "11. As, therefore, all men will to be blessed, certainly, if they will truly, they will also to be immortal; for otherwise they could not be blessed. And further, if questioned also concerning immortality, as before concerning blessedness, all reply that they will it. But blessedness of what quality soever, such as is not so, but rather is so called, is sought, nay indeed is feigned in this life, while immortality is despaired of, without which true blessedness cannot be. Since he lives blessedly, as we have already said before, and have sufficiently proved and concluded, who lives as he wills, and wills nothing wrongly. But no one wrongly wills immortality, if human nature is by God's gift capable of it; and if it is not capable of it, it is not capable of blessedness. For, that a man may live blessedly, he must needs live. And if life quits him by his dying, how can a blessed life remain with him? And when it quits him, without doubt it either quits him unwilling, or willing, or neither. If unwilling, how is the life blessed which is so within his will as not to be within his power? And whereas no one is blessed who wills something that he does not have, how much less is he blessed who is quitted against his will, not by honor, nor by possessions, nor by any other thing, but by the blessed life itself, since he will have no life at all? And hence, although no feeling is left for his life to be thereby miserable (for the blessed life quits him, because life altogether quits him), yet he is wretched as long as he feels, because he knows that against his will that is being destroyed for the sake of which he loves all else, and which he loves beyond all else. A life therefore cannot both be blessed, and yet quit a man against his will, since no one becomes blessed against his will; and hence how much more does it make a man miserable by quitting him against his will, when it would make him miserable if he had it against his will! But if it quit him with his will, even so how was that a blessed life, which he who had it willed should perish? It remains then for them to say, that neither of these is in the mind of the blessed man; that is, that he is neither unwilling nor willing to be quitted by a blessed life, when through death life quits him altogether; for that he stands firm with an even heart, prepared alike for either alternative. But neither is that a blessed life which is such as to be unworthy of his love whom it makes blessed. For how is that a blessed life which the blessed man does not love? Or how is that loved, of which it is received indifferently, whether it is to flourish or to perish? Unless perhaps the virtues, which we love in this way on account of blessedness alone, venture to persuade us that we do not love blessedness itself. Yet if they did this, we should certainly leave off loving the virtues themselves, when we do not love that on account of which alone we loved them. And further, how will that opinion be true, which has been so tried, and sifted, and thoroughly strained, and is so certain, viz. that all men will to be blessed, if they themselves who are already blessed neither will nor do not will to be blessed? Or if they will it, as truth proclaims, as nature constrains, in which indeed the supremely good and unchangeably blessed Creator has implanted that will: if, I say, they will to be blessed who are blessed, certainly they do not will to be not blessed. But if they do not will not to be blessed, without doubt they do not will to be annihilated and perish in regard to their blessedness. But they cannot be blessed except they are alive; therefore they do not will so to perish in regard to their life. Therefore, whoever are either truly blessed or desire to be so, will to be immortal. But he does not live blessedly who has not that which he wills. Therefore it follows that in no way can life be truly blessed unless it be eternal."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C8",
+    "durationSeconds": 228
   },
   "TRIN-B13C9": {
     "book": 13,
@@ -4354,9 +4354,9 @@ window.TRINITY_TEXT = {
         "text": "12. Whether human nature can receive this, which yet it confesses to be desirable, is no small question. But if faith be present, which is in those to whom Jesus has given power to become the sons of God, then there is no question. Assuredly, of those who endeavor to discover it from human reasonings, scarcely a few, and they endued with great abilities, and abounding in leisure, and learned with the most subtle learning, have been able to attain to the investigation of the immortality of the soul alone. And even for the soul they have not found a blessed life that is stable, that is, true; since they have said that it returns to the miseries of this life even after blessedness. And they among them who are ashamed of this opinion, and have thought that the purified soul is to be placed in eternal happiness without a body, hold such opinions concerning the past eternity of the world, as to confute this opinion of theirs concerning the soul; a thing which here it is too long to demonstrate; but it has been, as I think, sufficiently explained by us in the twelfth book of the City of God. But that faith promises, not by human reasoning, but by divine authority, that the whole man, who certainly consists of soul and body, shall be immortal, and on this account truly blessed. And so, when it had been said in the Gospel, that Jesus has given \"power to become the sons of God to them who received Him;\" and what it is to have received Him had been shortly explained by saying, \"To them that believe in His name;\" and it was further added in what way they are to become sons of God, viz., \"Which were born not of blood, nor of the will of the flesh, nor of the will of man, but of God;\"— lest that infirmity of men which we all see and bear should despair of attaining so great excellence, it is added in the same place, \"And the Word was made flesh, and dwelt among us;\" that, on the contrary, men might be convinced of that which seemed incredible. For if He who is by nature the Son of God was made the Son of man through mercy for the sake of the sons of men — for this is what is meant by \"The Word was made flesh, and dwelt among us\" men, — how much more credible is it that the sons of men by nature should be made the sons of God by the grace of God, and should dwell in God, in whom alone and from whom alone the blessed can be made partakers of that immortality; of which that we might be convinced, the Son of God was made partaker of our mortality?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C9",
+    "durationSeconds": 144
   },
   "TRIN-B13C10": {
     "book": 13,
@@ -4372,9 +4372,9 @@ window.TRINITY_TEXT = {
         "text": "14. Since those also which are called our deserts, are His gifts. For, that faith may work by love, \"the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us.\" And He was then given, when Jesus was glorified by the resurrection. For then He promised that He Himself would send Him, and He sent Him; because then, as it was written and foretold of Him, \"He ascended up on high, He led captivity captive, and gave gifts unto men.\" These gifts constitute our deserts, by which we arrive at the chief good of an immortal blessedness. \"But God,\" says the apostle, \"commends His love towards as, in that, while we were yet sinners, Christ died for us. Much more, then, being now justified by His blood, we shall be saved from wrath through Him.\" To this he goes on to add, \"For if, when we were enemies, we were reconciled to God by the death of His Son; much more, being reconciled, we shall be saved by His life.\" Those whom he first calls sinners he afterwards calls the enemies of God; and those whom he first speaks of as justified by His blood, he afterwards speaks of as reconciled by the death of the Son of God; and those whom he speaks of first as saved from wrath through Him, he afterwards speaks of as saved by His life. We were not, therefore, before that grace merely anyhow sinners, but in such sins that we were enemies of God. But the same apostle calls us above several times by two appellations, viz. sinners and enemies of God — one as if the most mild, the other plainly the most harsh — saying, \"For if when we were yet weak, in due time Christ died for the ungodly.\" Those whom he called weak, the same he called ungodly. Weakness seems something slight; but sometimes it is such as to be called impiety. Yet except it were weakness, it would not need a physician, who is in the Hebrew Jesus, in the Greek Σωτήρ, but in our speech Saviour. And this word the Latin language had not previously, but could have seeing that it could have it when it wanted it. And this foregoing sentence of the apostle, where he says, \"For when we were yet weak, in due time He died for the ungodly,\" coheres with those two following sentences; in the one of which he spoke of sinners, in the other of enemies of God, as though he referred each severally to each, viz. sinners to the weak, the enemies of God to the ungodly."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C10",
+    "durationSeconds": 237
   },
   "TRIN-B13C11": {
     "book": 13,
@@ -4386,9 +4386,9 @@ window.TRINITY_TEXT = {
         "text": "15. But what is meant by \"justified in His blood?\" What power is there in this blood, I beseech you, that they who believe should be justified in it? And what is meant by \"being reconciled by the death of His Son?\" Was it indeed so, that when God the Father was angry with us, He saw the death of His Son for us, and was appeased towards us? Was then His Son already so far appeased towards us, that He even deigned to die for us; while the Father was still so far angry, that except His Son died for us, He would not be appeased? And what, then, is that which the same teacher of the Gentiles himself says in another place: \"What shall we then say to these things? If God be for us, who can be against us? He that spared not His own Son, but delivered Him up for us all; how has He not with Him also freely given us all things?\" Pray, unless the Father had been already appeased, would He have delivered up His own Son, not sparing Him for us? Does not this opinion seem to be as it were contrary to that? In the one, the Son dies for us, and the Father is reconciled to us by His death; in the other, as though the Father first loved us, He Himself on our account does not spare the Son, He Himself for us delivers Him up to death. But I see that the Father loved us also before, not only before the Son died for us, but before He created the world; the apostle himself being witness, who says, \"According as He has chosen us in Him before the foundation of the world.\" Nor was the Son delivered up for us as it were unwillingly, the Father Himself not sparing Him; for it is said also concerning Him, \"Who loved me, and delivered up Himself for me.\" Therefore together both the Father and the Son, and the Spirit of both, work all things equally and harmoniously; yet we are justified in the blood of Christ, and we are reconciled to God by the death of His Son. And I will explain, as I shall be able, here also, how this was done, as much as may seem sufficient."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C11",
+    "durationSeconds": 120
   },
   "TRIN-B13C12": {
     "book": 13,
@@ -4400,9 +4400,9 @@ window.TRINITY_TEXT = {
         "text": "16. By the justice of God in some sense, the human race was delivered into the power of the devil; the sin of the first man passing over originally into all of both sexes in their birth through conjugal union, and the debt of our first parents binding their whole posterity. This delivering up is first signified in Genesis, where, when it had been said to the serpent, \"Dust shall you eat,\" it was said to the man, \"Dust you are, and unto dust you shall return.\" In the words, \"Unto dust shall you return,\" the death of the body is fore-announced, because he would not have experienced that either, if he had continued to the end upright as he was made; but in that it is said to him while still living, \"Dust you are,\" it is shown that the whole man was changed for the worse. For \"Dust you are\" is much the same as, \"My spirit shall not always remain in these men, for that they also are flesh.\" Therefore it was at that time shown, that he was delivered to him, in that it had been said to him, \"Dust shall you eat.\" But the apostle declares this more clearly, where he says: \"And you who were dead in trespasses and sins, wherein in time past ye walked according to the course of this world, according to the prince of the power of the air, the spirit that now works in the children of unfaithfulness; among whom we also had our conversation in times past, in the lusts of our flesh, fulfilling the desires of the flesh and of the mind; and were by nature the children of wrath, even as others.\" The \"children of unfaithfulness\" are the unbelievers; and who is not this before he becomes a believer? And therefore all men are originally under the prince of the power of the air, \"who works in the children of unfaithfulness.\" And that which I have expressed by \"originally\" is the same that the apostle expresses when he speaks of themselves who \"by nature\" were as others; viz. by nature as it has been depraved by sin, not as it was created upright from the beginning. But the way in which man was thus delivered into the power of the devil, ought not to be so understood as if God did this, or commanded it to be done; but that He only permitted it, yet that justly. For when He abandoned the sinner, the author of the sin immediately entered. Yet God did not certainly so abandon His own creature as not to show Himself to him as God creating and quickening, and among penal evils bestowing also many good things upon the evil. For He has not in anger shut up His tender mercies. Nor did He dismiss man from the law of His own power, when He permitted him to be in the power of the devil; since even the devil himself is not separated from the power of the Omnipotent, as neither from His goodness. For whence do even the evil angels subsist in whatever manner of life they have, except through Him who quickens all things? If, therefore, the commission of sins through the just anger of God subjected man to the devil, doubtless the remission of sins through the merciful reconciliation of God rescues man from the devil."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C12",
+    "durationSeconds": 115
   },
   "TRIN-B13C13": {
     "book": 13,
@@ -4414,9 +4414,9 @@ window.TRINITY_TEXT = {
         "text": "17. But the devil was to be overcome, not by the power of God, but by His righteousness. For what is more powerful than the Omnipotent? Or what creature is there of which the power can be compared to the power of the Creator? But since the devil, by the fault of his own perversity, was made a lover of power, and a forsaker and assailant of righteousness — for thus also men imitate him so much the more in proportion as they set their hearts on power, to the neglect or even hatred of righteousness, and as they either rejoice in the attainment of power, or are inflamed by the lust of it — it pleased God, that in order to the rescuing of man from the grasp of the devil, the devil should be conquered, not by power, but by righteousness; and that so also men, imitating Christ, should seek to conquer the devil by righteousness, not by power. Not that power is to be shunned as as though it were something evil; but the order must be preserved, whereby righteousness is before it. For how great can be the power of mortals? Therefore let mortals cleave to righteousness; power will be given to immortals. And compared to this, the power, how great soever, of those men who are called powerful on earth, is found to be ridiculous weakness, and a pitfall is dug there for the sinner, where the wicked seem to be most powerful. And the righteous man says in his song, \"Blessed is the man whom You chasten, O Lord, and teach out of Your law: that You may give him rest from the days of adversity, until the pit be dug for the wicked. For the Lord will not cast off His people, neither will He forsake His inheritance, until righteousness return unto judgment, and all who follow it are upright in heart.\" Psalm 94:12-15 At this present time, then, in which the might of the people of God is delayed, \"the Lord will not cast off His people, neither will He forsake His inheritance,\" how bitter and unworthy things soever it may suffer in its humility and weakness; \"until the righteousness,\" which the weakness of the pious now possesses, \"shall return to judgment,\" that is, shall receive the power of judging; which is preserved in the end for the righteous when power in its due order shall have followed after righteousness going before. For power joined to righteousness, or righteousness added to power, constitutes a judicial authority. But righteousness belongs to a good will; whence it was said by the angels when Christ was born: \"Glory to God in the highest, and on earth peace to men of good will.\" But power ought to follow righteousness, not to go before it; and accordingly it is placed in \"second,\" that is, prosperous fortune; and this is called \"second,\" from \"following.\" For whereas two things make a man blessed, as we have argued above, to will well, and to be able to do what one wills, people ought not to be so perverse, as has been noted in the same discussion, as that a man should choose from the two things which make him blessed, the being able to do what he wills, and should neglect to will what he ought; whereas he ought first to have a good will, but great power afterwards. Further, a good will must be purged from vices, by which if a man is overcome, he is in such wise overcome as that he wills evil; and then how will his will be still good? It is to be wished, then, that power may now be given, but power against vices, to conquer which men do not wish to be powerful, while they wish to be so in order to conquer men; and why is this, unless that, being in truth conquered, they feignedly conquer, and are conquerors not in truth, but in opinion? Let a man will to be prudent, will to be strong, will to be temperate, will to be just; and that he may be able to have these things truly, let him certainly desire power, and seek to be powerful in himself, and (strange though it be) against himself for himself. But all the other things which he wills rightly, and yet is not able to have, as, for instance, immortality and true and full felicity, let him not cease to long for, and let him patiently expect."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C13",
+    "durationSeconds": 208
   },
   "TRIN-B13C14": {
     "book": 13,
@@ -4428,9 +4428,9 @@ window.TRINITY_TEXT = {
         "text": "18. What, then, is the righteousness by which the devil was conquered? What, except the righteousness of Jesus Christ? And how was he conquered? Because, when he found in Him nothing worthy of death, yet he slew Him. And certainly it is just, that we whom he held as debtors, should be dismissed free by believing in Him whom he slew without any debt. In this way it is that we are said to be justified in the blood of Christ. For so that innocent blood was shed for the remission of our sins. Whence He calls Himself in the Psalms, \"Free among the dead.\" For he only that is dead is free from the debt of death. Hence also in another psalm He says, \"Then I restored that which I seized not;\" meaning sin by the thing seized, because sin is laid hold of against what is lawful. Whence also He says, by the mouth of His own Flesh, as is read in the Gospel: \"For the prince of this world comes, and has nothing in me,\" that is, no sin; but \"that the world may know,\" He says, \"that I do the commandment of the Father; arise, let us go hence.\" And hence He proceeds to His passion, that He might pay for us debtors that which He Himself did not owe. Would then the devil be conquered by this most just right, if Christ had willed to deal with him by power, not by righteousness? But He held back what was possible to Him, in order that He might first do what was fitting. And hence it was necessary that He should be both man and God. For unless He had been man, He could not have been slain; unless He had been God, men would not have believed that He would not do what He could, but that He could not do what He would; nor should we have thought that righteousness was preferred by Him to power, but that He lacked power. But now He suffered for us things belonging to man, because He was man; but if He had been unwilling, it would have been in His power to not so to suffer, because He was also God. And righteousness was therefore made more acceptable in humility, because so great power as was in His Divinity, if He had been unwilling, would have been able not to suffer humility; and thus by Him who died, being thus powerful, both righteousness was commended, and power promised, to us, weak mortals. For He did one of these two things by dying, the other by rising again. For what is more righteous, than to come even to the death of the cross for righteousness? And what more powerful, than to rise from the dead, and to ascend into heaven with that very flesh in which He was slain? And therefore He conquered the devil first by righteousness, and afterwards by power: namely, by righteousness, because He had no sin, and was slain by him most unjustly; but by power, because having been dead He lived again, never afterwards to die. But He would have conquered the devil by power, even though He could not have been slain by him: although it belongs to a greater power to conquer death itself also by rising again, than to avoid it by living. But the reason is really a different one, why we are justified in the blood of Christ, when we are rescued from the power of the devil through the remission of sins: it pertains to this, that the devil is conquered by Christ by righteousness, not by power. For Christ was crucified, not through immortal power, but through the weakness which He took upon Him in mortal flesh; of which weakness nevertheless the apostle says, \"that the weakness of God is stronger than men.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C14",
+    "durationSeconds": 167
   },
   "TRIN-B13C15": {
     "book": 13,
@@ -4442,9 +4442,9 @@ window.TRINITY_TEXT = {
         "text": "19. It is not then difficult to see that the devil was conquered, when he who was slain by Him rose again. It is something more, and more profound of comprehension, to see that the devil was conquered when he thought himself to have conquered, that is, when Christ was slain. For then that blood, since it was His who had no sin at all, was poured out for the remission of our sins; that, because the devil deservedly held those whom, as guilty of sin, he bound by the condition of death, he might deservedly loose them through Him, whom, as guilty of no sin, the punishment of death undeservedly affected. The strong man was conquered by this righteousness, and bound with this chain, that his vessels might be spoiled, which with himself and his angels had been vessels of wrath while with him, and might be turned into vessels of mercy. For the Apostle Paul tells us, that these words of our Lord Jesus Christ Himself were spoken from heaven to him when he was first called. For among the other things which he heard, he speaks also of this as said to him thus: \"For I have appeared unto you for this purpose, to make you a minister and a witness both of these things which you have seen from me, and of those things in the which I will appear unto you; delivering you from the people, and from the Gentiles, unto whom now I send you, to open the eyes of the blind, and to turn them from darkness [to light], and from the power of Satan unto God, that they may receive forgiveness of sins, and inheritance among them which are sanctified, and faith that is in me.\" And hence the same apostle also, exhorting believers to the giving of thanks to God the Father, says: \"Who has delivered us from the power of darkness and has translated us into the kingdom of His dear Son: in whom we have redemption, even the forgiveness of sins.\" In this redemption, the blood of Christ was given, as it were, as a price for us, by accepting which the devil was not enriched, but bound: that we might be loosened from his bonds, and that he might not with himself involve in the meshes of sins, and so deliver to the destruction of the second and eternal death, any one of those whom Christ, free from all debt, had redeemed by pouring out His own blood unindebtedly; but that they who belong to the grace of Christ, foreknown, and predestinated, and elected before the foundation of the world should only so far die as Christ Himself died for them, i.e. only by the death of the flesh, not of the spirit."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C15",
+    "durationSeconds": 138
   },
   "TRIN-B13C16": {
     "book": 13,
@@ -4460,9 +4460,9 @@ window.TRINITY_TEXT = {
         "text": "21. Why then should the death of Christ not have come to pass? Nay, rather, why should not that death itself have been chosen above all else to be brought to pass, to the passing by of the other innumerable ways which He who is omnipotent could have employed to free us; that death, I say, wherein neither was anything diminished or changed from His divinity, and so great benefit was conferred upon men, from the humanity which He took upon Him, that a temporal death, which was not due, was rendered by the eternal Son of God, who was also the Son of man, whereby He might free them from an eternal death which was due? The devil was holding fast our sins, and through them was fixing us deservedly in death. He discharged them, who had none of His own, and who was led by him to death undeservedly. That blood was of such price, that he who even slew Christ for a time by a death which was not due, can as his due detain no one, who has put on Christ, in the eternal death which was due. Therefore \"God commends His love towards us, in that, while we were yet sinners, Christ died for us. Much more then, being now justified in His blood, we shall be saved from wrath through Him.\" Justified, he says, in His blood, — justified plainly, in that we are freed from all sin; and freed from all sin, because the Son of God, who knew no sin, was slain for us. Therefore \"we shall be saved from wrath through Him;\" from the wrath certainly of God, which is nothing else but just retribution. For the wrath of God is not, as is that of man, a perturbation of the mind; but it is the wrath of Him to whom Holy Scripture says in another place, \"But You, O Lord, mastering Your power, judgest with calmness.\" If, therefore, the just retribution of God has received such a name, what can be the right understanding also of the reconciliation of God, unless that then such wrath comes to an end? Neither were we enemies to God, except as sins are enemies to righteousness; which being forgiven, such enmities come to an end, and they whom He Himself justifies are reconciled to the Just One. And yet certainly He loved them even while still enemies, since \"He spared not His own Son, but delivered Him up for us all,\" when we were still enemies. And therefore the apostle has rightly added: \"For if, when we were enemies, we were reconciled to God by the death of His Son,\" by which that remission of sins was made, \"much more, being reconciled, we shall be saved in His life.\" Saved in life, who were reconciled by death. For who can doubt that He will give His life for His friends, for whom, when enemies, He gave His death? \"And not only so,\" he says, \"but we also joy in God, through our Lord Jesus Christ, by whom we have now received the atonement.\" \"Not only,\" he says, \"shall we be saved,\" but \"we also joy;\" and not in ourselves, but \"in God;\" nor through ourselves, \"but through our Lord Jesus Christ, by whom we have now received the atonement,\" as we have argued above. Then the apostle adds, \"Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, in whom all have sinned;\" etc.: in which he disputes at some length concerning the two men; the one the first Adam, through whose sin and death we, his descendants, are bound by, as it were, hereditary evils; and the other the second Adam, who is not only man, but also God, by whose payment for us of what He owed not, we are freed from the debts both of our first father and of ourselves. Further, since on account of that one the devil held all who were begotten through his corrupted carnal concupiscence, it is just that on account of this one he should loose all who are regenerated through His immaculate spiritual grace."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C16",
+    "durationSeconds": 331
   },
   "TRIN-B13C17": {
     "book": 13,
@@ -4474,9 +4474,9 @@ window.TRINITY_TEXT = {
         "text": "22. There are many other things also in the incarnation of Christ, displeasing as it is to the proud, that are to be observed and thought of advantageously. And one of them is, that it has been demonstrated to man what place he has in the things which God has created; since human nature could so be joined to God, that one person could be made of two substances, and thereby indeed of three — God, soul, and flesh: so that those proud malignant spirits, who interpose themselves as mediators to deceive, although as if to help, do not therefore dare to place themselves above man because they have not flesh; and chiefly because the Son of God deigned to die also in the same flesh, lest they, because they seem to be immortal, should therefore succeed in getting themselves worshipped as gods. Further, that the grace of God might be commended to us in the man Christ without any precedent merits; because not even He Himself obtained by any precedent merits that He should be joined in such great unity with the true God, and should become the Son of God, one Person with Him; but from the time when He began to be man, from that time He is also God; whence it is said, \"The Word was made flesh.\" Then, again, there is this, that the pride of man, which is the chief hindrance against his cleaving to God, can be confuted and healed through such great humility of God. Man learns also how far he has gone away from God; and what it is worth to him as a pain to cure him, when he returns through such a Mediator, who both as God assists men by His divinity, and as man agrees with men by His weakness. For what greater example of obedience could be given to us, who had perished through disobedience, than God the Son obedient to God the Father, even to the death of the cross? Nay, wherein could the reward of obedience itself be better shown, than in the flesh of so great a Mediator, which rose again to eternal life? It belonged also to the justice and goodness of the Creator, that the devil should be conquered by the same rational creature which he rejoiced to have conquered, and by one that came from that same race which, by the corruption of its origin through one, he held altogether."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C17",
+    "durationSeconds": 124
   },
   "TRIN-B13C18": {
     "book": 13,
@@ -4488,9 +4488,9 @@ window.TRINITY_TEXT = {
         "text": "23. For assuredly God could have taken upon Himself to be man, that in that manhood He might be the Mediator between God and men, from some other source, and not from the race of that Adam who bound the human race by his sin; as He did not create him whom He first created, of the race of some one else. Therefore He was able, either so, or in any other mode that He would, to create yet one other, by whom the conqueror of the first might be conquered. But God judged it better both to take upon Him man through whom to conquer the enemy of the human race, from the race itself that had been conquered; and yet to do this of a virgin, whose conception, not flesh but spirit, not lust but faith, preceded. Nor did that concupiscence of the flesh intervene, by which the rest of men, who derive original sin, are propagated and conceived; but holy virginity became pregnant, not by conjugal intercourse, but by faith —lust being utterly absent — so that that which was born from the root of the first man might derive only the origin of race, not also of guilt. For there was born, not a nature corrupted by the contagion of transgression, but the one only remedy of all such corruptions. There was born, I say, a Man having nothing at all, and to have nothing at all, of sin; through whom they were to be born again so as to be freed from sin, who could not be born without sin. For although conjugal chastity makes a right use of the carnal concupiscence which is in our members; yet it is liable to motions not voluntary, by which it shows either that it could not have existed at all in paradise before sin, or if it did, that it was not then such as that sometimes it should resist the will. But now we feel it to be such, that in opposition to the law of the mind, and even if there is no question of begetting, it works in us the incitement of sexual intercourse; and if in this men yield to it, then it is satisfied by an act of sin; if they do not, then it is bridled by an act of refusal: which two things who could doubt to have been alien from paradise before sin? For neither did the chastity that then was do anything indecorous, nor did the pleasure that then was suffer anything unquiet. It was necessary, therefore, that this carnal concupiscence should be entirely absent, when the offspring of the Virgin was conceived; in whom the author of death was to find nothing worthy of death, and yet was to slay Him in order that he might be conquered by the death of the Author of life: the conqueror of the first Adam, who held fast the human race, conquered by the second Adam, and losing the Christian race, freed out of the human race from human guilt, through Him who was not in the guilt, although He was of the race; that that deceiver might be conquered by that race which he had conquered by guilt. And this was so done, in order that man may not be lifted up, but \"that he that glories should glory in the Lord.\" For he who was conquered was only man; and he was therefore conquered, because he lusted proudly to be a god. But He who conquered was both man and God; and therefore He so conquered, being born of a virgin, because God in humility did not, as He governs other saints, so govern that Man, but bare Him [as a Son]. These so great gifts of God, and whatever else there are, which it is too long for us now upon this subject both to inquire and to discuss, could not exist unless the Word had been made flesh."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C18",
+    "durationSeconds": 189
   },
   "TRIN-B13C19": {
     "book": 13,
@@ -4502,9 +4502,9 @@ window.TRINITY_TEXT = {
         "text": "24. And all these things which the Word made flesh did and bare for us in time and place, belong, according to the distinction which we have undertaken to demonstrate, to knowledge, not to wisdom. And as the Word is without time and without place, it is co-eternal with the Father, and in its wholeness everywhere; and if any one can, and as much as he can, speak truly concerning this Word, then his discourse will pertain to wisdom. And hence the Word made flesh, which is Christ Jesus, has the treasures both of wisdom and of knowledge. For the apostle, writing to the Colossians, says: \"For I would that you knew what great conflict I have for you, and for them at Laodicea, and for as many as have not seen my face in the flesh; that their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgment of the mystery of God which is Christ Jesus: in whom are hid all the treasures of wisdom and knowledge.\" To what extent the apostle knew all those treasures, how much of them he had penetrated, and in them to how great things he had reached, who can know? Yet, for my part, according to that which is written, \"But the manifestation of the Spirit is given to every man to profit withal; for to one is given by the Spirit the word of wisdom, to another the word of knowledge by the same Spirit;\" if these two are in such way to be distinguished from each other, that wisdom is to be assigned to divine things, knowledge to human, I acknowledge both in Christ, and so with me do all His faithful ones. And when I read, \"The Word was made flesh, and dwelt among us,\" I understand by the Word the true Son of God, I acknowledge in the flesh the true Son of man, and both together joined into one Person of God and man, by an ineffable copiousness of grace. And on account of this, the apostle goes on to say, \"And we beheld His glory, the glory as of the Only-begotten of the Father, full of grace and truth.\" If we refer grace to knowledge, and truth to wisdom, I think we shall not swerve from that distinction between these two things which we have commended. For in those things that have their origin in time, this is the highest grace, that man is joined with God in unity of person; but in things eternal the highest truth is rightly attributed to the Word of God. But that the same is Himself the Only-begotten of the Father, full of grace and truth — this took place, in order that He Himself in things done for us in time should be the same for whom we are cleansed by the same faith, that we may contemplate Him steadfastly in things eternal. And those distinguished philosophers of the heathen who have been able to understand and discern the invisible things of God by those things which are made, have yet, as is said of them, \"held down the truth in iniquity;\" because they philosophized without a Mediator, that is, without the man Christ, whom they neither believed to be about to come at the word of the prophets, nor to have come at that of the apostles. For, placed as they were in these lowest things, they could not but seek some media through which they might attain to those lofty things which they had understood; and so they fell upon deceitful spirits, through whom it came to pass, that \"they changed the glory of the incorruptible God into an image made like to corruptible man, and to birds, and four-footed beasts, and creeping things.\" For in such forms also they set up or worshipped idols. Therefore Christ is our knowledge, and the same Christ is also our wisdom. He Himself implants in us faith concerning temporal things, He Himself shows forth the truth concerning eternal things. Through Him we reach on to Himself: we stretch through knowledge to wisdom; yet we do not withdraw from one and the same Christ, \"in whom are hidden all the treasures of wisdom and of knowledge.\" But now we speak of knowledge, and will hereafter speak of wisdom as much as He Himself shall grant. And let us not so take these two things, as if it were not allowable to speak either of the wisdom which is in human things, or of the knowledge which is in divine. For after a laxer custom of speech, both can be called wisdom, and both knowledge. Yet the apostle could not in any way have written, \"To one is given the word of wisdom, to another the word of knowledge,\" except also these several things had been properly called by the several names, of the distinction between which we are now treating."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C19",
+    "durationSeconds": 185
   },
   "TRIN-B13C20": {
     "book": 13,
@@ -4520,9 +4520,9 @@ window.TRINITY_TEXT = {
         "text": "26. For we wished to ascend, as it were, by steps, and to seek in the inner man, both in knowledge and in wisdom, a sort of trinity of its own special kind, such as we sought before in the outer man; in order that we may come, with a mind more practised in these lower things, to the contemplation of that Trinity which is God, according to our little measure, if indeed, we can even do this, at least in a riddle and as through a glass. If, then, any one have committed to memory the words of this faith in their sounds alone, not knowing what they mean, as they commonly who do not know Greek hold in memory Greek words, or similarly Latin ones, or those of any other language of which they are ignorant, has not he a sort of trinity in his mind? Because, first, those sounds of words are in his memory, even when he does not think thereupon; and next, the mental vision (acies) of his act of recollection is formed thence when he conceives of them; and next, the will of him who remembers and thinks unites both. Yet we should by no means say that the man in so doing busies himself with a trinity of the interior man, but rather of the exterior; because he remembers, and when he wills, contemplates as much as he wills, that alone which belongs to the sense of the body, which is called hearing. Nor in such an act of thought does he do anything else than deal with images of corporeal things, that is, of sounds. But if he holds and recollects what those words signify, now indeed something of the inner man is brought into action; not yet, however, ought he to be said or thought to live according to a trinity of the inner man, if he does not love those things which are there declared, enjoined, promised. For it is possible for him also to hold and conceive these things, supposing them to be false, in order that he may endeavor to disprove them. Therefore that will, which in this case unites those things which are held in the memory with those things which are thence impressed on the mind's eye in conception, completes, indeed, some kind of trinity, since itself is a third added to two others; but the man does not live according to this, when those things which are conceived are taken to be false, and are not accepted. But when those things are believed to be true, and those things which therein ought to be loved, are loved, then at last the man does live according to a trinity of the inner man; for every one lives according to that which he loves. But how can things be loved which are not known, but only believed? This question has been already treated of in former books; and we found, that no one loves what he is wholly ignorant of, but that when things not known are said to be loved, they are loved from those things which are known. And now we so conclude this book, that we admonish the just to live by faith, which faith works by love, so that the virtues also themselves, by which one lives prudently, boldly, temperately, and justly, be all referred to the same faith; for not otherwise can they be true virtues. And yet these in this life are not of so great worth, as that the remission of sins, of some kind or other, is not sometimes necessary here; and this remission comes not to pass, except through Him, who by His own blood conquered the prince of sinners. Whatsoever ideas are in the mind of the faithful man from this faith, and from such a life, when they are contained in the memory, and are looked at by recollection, and please the will, set forth a kind of trinity of its own sort. But the image of God, of which by His help we shall afterwards speak, is not yet in that trinity; a thing which will then be more apparent, when it shall have been shown where it is, which the reader may expect in a succeeding book."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B13C20",
+    "durationSeconds": 318
   },
   "TRIN-B14C1": {
     "book": 14,
@@ -4542,9 +4542,9 @@ window.TRINITY_TEXT = {
         "text": "3. In disputing, then, about wisdom, they have defined it thus: Wisdom is the knowledge of things human and divine. And hence, in the last book, I have not withheld the admission, that the cognizance of both subjects, whether divine or human, may be called both knowledge and wisdom. But according to the distinction made in the apostle's words, \"To one is given the word of wisdom, to another the word of knowledge,\" this definition is to be divided, so that the knowledge of things divine shall be called wisdom, and that of things human appropriate to itself the name of knowledge; and of the latter I have treated in the thirteenth book, not indeed so as to attribute to this knowledge everything whatever that can be known by man about things human, wherein there is exceeding much of empty vanity and mischievous curiosity, but only those things by which that most wholesome faith, which leads to true blessedness, is begotten, nourished, defended, strengthened; and in this knowledge most of the faithful are not strong, however exceeding strong in the faith itself. For it is one thing to know only what man ought to believe in order to attain to a blessed life, which must needs be an eternal one; but another to know in what way this belief itself may both help the pious, and be defended against the impious, which last the apostle seems to call by the special name of knowledge. And when I was speaking of this knowledge before, my special business was to commend faith, first briefly distinguishing things eternal from things temporal, and there discoursing of things temporal; but while deferring things eternal to the present book, I showed also that faith respecting things eternal is itself a thing temporal, and dwells in time in the hearts of believers, and yet is necessary in order to attain the things eternal themselves. I argued also, that faith respecting the things temporal which He that is eternal did and suffered for us as man, which manhood He bare in time and carried on to things eternal, is profitable also for the obtaining of things eternal; and that the virtues themselves, whereby in this temporal and mortal life men live prudently, bravely, temperately, and justly, are not true virtues, unless they are referred to that same faith, temporal though it is, which leads on nevertheless to things eternal."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C1",
+    "durationSeconds": 320
   },
   "TRIN-B14C2": {
     "book": 14,
@@ -4556,9 +4556,9 @@ window.TRINITY_TEXT = {
         "text": "4. Wherefore since, as it is written, \"While we are in the body, we are absent from the Lord; for we walk by faith, not by sight;\" undoubtedly, so long as the just man lives by faith, howsoever he lives according to the inner man, although he aims at truth and reaches on to things eternal by this same temporal faith, nevertheless in the holding, contemplating, and loving this temporal faith, we have not yet reached such a trinity as is to be called an image of God; lest that should seem to be constituted in things temporal which ought to be so in things eternal. For when the human mind sees its own faith, whereby it believes what it does not see, it does not see a thing eternal. For that will not always exist, which certainly will not then exist, when this pilgrimage, whereby we are absent from God, in such way that we must needs walk by faith, shall be ended, and that sight shall have succeeded it whereby we shall see face to face; just as now, because we believe although we do not see, we shall deserve to see, and shall rejoice at having been brought through faith to sight. For then it will be no longer faith, by which that is believed which is not seen; but sight, by which that is seen which is believed. And then, therefore, although we remember this past mortal life, and call to mind by recollection that we once believed what we did not see, yet that faith will be reckoned among things past and done with, not among things present and always continuing. And hence also that trinity which now consists in the remembering, contemplating, and loving this same faith while present and continuing, will then be found to be done with and past, and not still enduring. And hence it is to be gathered, that if that trinity is indeed an image of God, then this image itself would have to be reckoned, not among things that exist always, but among things transient."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C2",
+    "durationSeconds": 113
   },
   "TRIN-B14C3": {
     "book": 14,
@@ -4574,9 +4574,9 @@ window.TRINITY_TEXT = {
         "text": "5. Shall we then scrutinize somewhat more carefully and deeply whether the case is really thus? For it may be said that this trinity does not perish even when faith itself shall have passed away; because, as now we both hold it by memory, and discern it by thought, and love it by will; so then also, when we shall both hold in memory, and shall recollect, that we once had it, and shall unite these two by the third, namely will, the same trinity will still continue. Since, if it have left in its passage as it were no trace in us, doubtless we shall not have ought of it even in our memory, whereto to recur when recollecting it as past, and by the third, viz. purpose, coupling both these, to wit, what was in our memory though we were not thinking about it, and what is formed thence by conception. But he who speaks thus, does not perceive, that when we hold, see, and love in ourselves our present faith, we are concerned with a different trinity as now existing, from that trinity which will exist, when we shall contemplate by recollection, not the faith itself, but as it were the imagined trace of it laid up in the memory, and shall unite by the will, as by a third, these two things, viz. that which was in the memory of him who retains, and that which is impressed thence upon the vision of the mind of him who recollects. And that we may understand this, let us take an example from things corporeal, of which we have sufficiently spoken in the eleventh book. For as we ascend from lower to higher things, or pass inward from outer to inner things, we first find a trinity in the bodily object which is seen, and in the vision of the seer, which, when he sees it, is informed thereby, and in the purpose of the will which combines both. Let us assume a trinity like this, when the faith which is now in ourselves is so established in our memory as the bodily object we spoke of was in place, from which faith is formed the conception in recollection, as from that bodily object was formed the vision of the beholder; and to these two, to complete the trinity, will is to be reckoned as a third, which connects and combines the faith established in the memory, and a sort of effigy of that faith impressed upon the vision of recollection; just as in that trinity of corporeal vision, the form of the bodily object that is seen, and the corresponding form wrought in the vision of the beholder, are combined by the purpose of the will. Suppose, then, that this bodily object which was beheld was dissolved and had perished, and that nothing at all of it remained anywhere, to the vision of which the gaze might have recourse; are we then to say, that because the image of the bodily object thus now past and done with remains in the memory, whence to form the conception in recollecting, and to have the two united by will as a third, therefore it is the same trinity as that former one, when the appearance of the bodily object posited in place was seen? Certainly not, but altogether a different one: for, not to say that that was from without, while this is from within; the former certainly was produced by the appearance of a present bodily object, the latter by the image of that object now past. So, too, in the case of which we are now treating, to illustrate which we have thought good to adduce this example, the faith which is even now in our mind, as that bodily object was in place, while held, looked at, loved, produces a sort of trinity; but that trinity will exist no more, when this faith in the mind, like that bodily object in place, shall no longer exist. But that which will then exist, when we shall remember it to have been, but not now to be, in us, will doubtless be a different one. For that which now is, is wrought by the thing itself, actually present and attached to the mind of one who believes; but that which shall then be, will be wrought by the imagination of a past thing left in the memory of one who recollects."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C3",
+    "durationSeconds": 249
   },
   "TRIN-B14C4": {
     "book": 14,
@@ -4592,9 +4592,9 @@ window.TRINITY_TEXT = {
         "text": "7. We said, then, among other things in the tenth book, that the mind of man knows itself. For the mind knows nothing so much as that which is close to itself; and nothing is more close to the mind than itself. We adduced also other evidences, as much as seemed sufficient, whereby this might be most certainly proved."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C4",
+    "durationSeconds": 176
   },
   "TRIN-B14C5": {
     "book": 14,
@@ -4610,9 +4610,9 @@ window.TRINITY_TEXT = {
         "text": "8. But let us pass by the infantine age, since we cannot question it as to what goes on within itself, while we have ourselves pretty well forgotten it. Let it suffice only for us hence to be certain, that when man has come to be able to think of the nature of his own mind, and to find out what is the truth, he will find it nowhere else but in himself. And he will find, not what he did not know, but that of which he did not think. For what do we know, if we do not know what is in our own mind; when we can know nothing at all of what we do know, unless by the mind?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C5",
+    "durationSeconds": 129
   },
   "TRIN-B14C6": {
     "book": 14,
@@ -4628,9 +4628,9 @@ window.TRINITY_TEXT = {
         "text": "9. But since the mind, as we said near the end of the same tenth book, always remembers itself, and always understands and loves itself, although it does not always think of itself as distinguished from those things which are not itself; we must inquire in what way understanding (intellectus) belongs to conception, while the notion (notitia) of each thing that is in the mind, even when one is not thinking of it, is said to belong only to the memory. For if this is so, then the mind had not these three things: viz. the remembrance, the understanding, and the love of itself; but it only remembered itself, and afterwards, when it began to think of itself, then it understood and loved itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C6",
+    "durationSeconds": 278
   },
   "TRIN-B14C7": {
     "book": 14,
@@ -4646,9 +4646,9 @@ window.TRINITY_TEXT = {
         "text": "10. For this reason I have wished to adduce some kind of proof, be it what it might, respecting the act of conceiving, such as might serve to show in what way, out of the things contained in the memory, the mind's eye is informed in recollecting, and some such thing is begotten, when a man conceives, as was already in him when, before he conceived, he remembered; because it is easier to distinguish things that take place at successive times, and where the parent precedes the offspring by an interval of time. For if we refer ourselves to the inner memory of the mind by which it remembers itself, and to the inner understanding by which it understands itself, and to the inner will by which it loves itself, where these three always are together, and always have been together since they began to be at all, whether they were being thought of or not; the image of this trinity will indeed appear to pertain even to the memory alone; but because in this case a word cannot be without a thought (for we think all that we say, even if it be said by that inner word which belongs to no separate language), this image is rather to be discerned in these three things, viz. memory, intelligence, will. And I mean now by intelligence that by which we understand in thought, that is, when our thought is formed by the finding of those things, which had been at hand to the memory but were not being thought of; and I mean that will, or love, or preference which combines this offspring and parent, and is in some way common to both. Hence it was that I tried also, viz. in the eleventh book, to lead on the slowness of readers by means of outward sensible things which are seen by the eyes of the flesh; and that I then proceeded to enter with them upon that power of the inner man whereby he reasons of things temporal, deferring the consideration of that which dominates as the higher power, by which he contemplates things eternal. And I discussed this in two books, distinguishing the two in the twelfth, the one of them being higher and the other lower, and that the lower ought to be subject to the higher; and in the thirteenth I discussed, with what truth and brevity I could, the office of the lower, in which the wholesome knowledge of things human is contained, in order that we may so act in this temporal life as to attain that which is eternal; since, indeed, I have cursorily included in a single book a subject so manifold and copious, and one so well known by the many and great arguments of many and great men, while manifesting that a trinity exists also in it, but not yet one that can be called an image of God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C7",
+    "durationSeconds": 296
   },
   "TRIN-B14C8": {
     "book": 14,
@@ -4660,9 +4660,9 @@ window.TRINITY_TEXT = {
         "text": "11. But we have come now to that argument in which we have undertaken to consider the noblest part of the human mind, by which it knows or can know God, in order that we may find in it the image of God. For although the human mind is not of the same nature with God, yet the image of that nature than which none is better, is to be sought and found in us, in that than which our nature also has nothing better. But the mind must first be considered as it is in itself, before it becomes partaker of God; and His image must be found in it. For, as we have said, although worn out and defaced by losing the participation of God, yet the image of God still remains. For it is His image in this very point, that it is capable of Him, and can be partaker of Him; which so great good is only made possible by its being His image. Well, then, the mind remembers, understands, loves itself; if we discern this, we discern a trinity, not yet indeed God, but now at last an image of God. The memory does not receive from without that which it is to hold; nor does the understanding find without that which it is to regard, as the eye of the body does; nor has will joined these two from without, as it joins the form of the bodily object and that which is thence wrought in the vision of the beholder; nor has conception, in being turned to it, found an image of a thing seen without, which has been somehow seized and laid up in the memory, whence the intuition of him that recollects has been formed, will as a third joining the two: as we showed to take place in those trinities which were discovered in things corporeal, or which were somehow drawn within from bodily objects by the bodily sense; of all which we have discoursed in the eleventh book. Nor, again, as it took place, or appeared to do so, when we went on further to discuss that knowledge, which had its place now in the workings of the inner man, and which was to be distinguished from wisdom; of which knowledge the subject-matter was, as it were, adventitious to the mind, and either was brought there by historical information — as deeds and words, which are performed in time and pass away, or which again are established in the nature of things in their own times and places — or arises in the man himself not being there before, whether on the information of others, or by his own thinking — as faith, which we commended at length in the thirteenth book, or as the virtues, by which, if they are true, one so lives well in this mortality as to live blessedly in that immortality which God promises. These and other things of the kind have their proper order in time, and in that order we discerned more easily a trinity of memory, sight, and love. For some of such things anticipate the knowledge of learners. For they are knowable also before they are known, and beget in the learner a knowledge of themselves. And they either exist in their own proper places, or have happened in time past; although things that are past do not themselves exist, but only certain signs of them as past, the sight or hearing of which makes it known that they have been and have passed away. And these signs are either situate in the places themselves, as e.g. monuments of the dead or the like; or exist in written books worthy of credit, as is all history that is of weight and approved authority; or are in the minds of those who already know them; since what is already known to them is knowable certainly to others also, whose knowledge it has anticipated, and who are able to know it on the information of those who do know it. And all these things, when they are learned, produce a certain kind of trinity, viz. by their own proper species, which was knowable also before it was known, and by the application to this of the knowledge of the learner, which then begins to exist when he learns them, and by will as a third which combines both; and when they are known, yet another trinity is produced in the recollecting of them, and this now inwardly in the mind itself, from those images which, when they were learned, were impressed upon the memory, and from the informing of the thought when the look has been turned upon these by recollection, and from the will which as a third combines these two. But those things which arise in the mind, not having been there before, as faith and other things of that kind, although they appear to be adventitious, since they are implanted by teaching, yet are not situate without or transacted without, as are those things which are believed; but began to be altogether within in the mind itself. For faith is not that which is believed, but that by which it is believed; and the former is believed, the latter seen. Nevertheless, because it began to be in the mind, which was a mind also before these things began to be in it, it seems to be somewhat adventitious, and will be reckoned among things past, when sight shall have succeeded, and itself shall have ceased to be. And it makes now by its presence, retained as it is, and beheld, and loved, a different trinity from that which it will then make by means of some trace of itself, which in passing it will have left in the memory: as has been already said above."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C8",
+    "durationSeconds": 282
   },
   "TRIN-B14C9": {
     "book": 14,
@@ -4674,9 +4674,9 @@ window.TRINITY_TEXT = {
         "text": "12. There is, however, some question raised, whether the virtues likewise by which one lives well in this present mortality, seeing that they themselves begin also to be in the mind, which was a mind none the less when it existed before without them, cease also to exist at that time when they have brought us to things eternal. For some have thought that they will cease, and in the case of three — prudence, fortitude, temperance— such an assertion seems to have something in it; but justice is immortal, and will rather then be made perfect in us than cease to be. Yet Tullius, the great author of eloquence, when arguing in the dialogue Hortensius, says of all four: \"If we were allowed, when we migrated from this life, to live forever in the islands of the blessed, as fables tell, what need were there of eloquence when there would be no trials, or what need, indeed, of the very virtues themselves? For we should not need fortitude when nothing of either toil or danger was proposed to us; nor justice, when there was nothing of anybody else's to be coveted; nor temperance, to govern lasts that would not exist; nor, indeed, should we need prudence, when there was no choice offered between good and evil. We should be blessed, therefore, solely by learning and knowing nature, by which alone also the life of the gods is praiseworthy. And hence we may perceive that everything else is a matter of necessity, but this is one of free choice.\" This great orator, then, when proclaiming the excellence of philosophy, going over again all that he had learned from philosophers, and excellently and pleasantly explaining it, has affirmed all four virtues to be necessary in this life only, which we see to be full of troubles and mistakes; but not one of them when we shall have migrated from this life, if we are permitted to live there where is a blessed life; but that blessed souls are blessed only in learning and knowing, i.e. in the contemplation of nature, than which nothing is better and more lovable. It is that nature which created and appointed all other natures. And if it belongs to justice to be subject to the government of this nature then justice is certainly immortal; nor will it cease to be in that blessedness, but will be such and so great that it cannot be more perfect or greater. Perhaps, too, the other three virtues— prudence although no longer with any risk of error, and fortitude without the vexation of bearing evils, and temperance without the thwarting of lust— will exist in that blessedness: so that it may be the part of prudence to prefer or equal no good thing to God; and of fortitude, to cleave to Him most steadfastly; and of temperance, to be pleased by no harmful defect. But that which justice is now concerned with in helping the wretched, and prudence in guarding against treachery, and fortitude in bearing troubles patiently, and temperance in controlling evil pleasures, will not exist there, where there will be no evil at all. And hence those acts of the virtues which are necessary to this mortal life, like the faith to which they are to be referred, will be reckoned among things past; and they make now a different trinity, while we hold, look at, and love them as present, from that which they will then make, when we shall discover them not to be, but to have been, by certain traces of them which they will have left in passing in the memory; since then, too, there will be a trinity, when that trace, be it of what sort it may, shall be retained in the memory, and truly recognized, and then these two be joined by will as a third."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C9",
+    "durationSeconds": 170
   },
   "TRIN-B14C10": {
     "book": 14,
@@ -4688,9 +4688,9 @@ window.TRINITY_TEXT = {
         "text": "13. In the knowledge of all these temporal things which we have mentioned, there are some knowable things which precede the acquisition of the knowledge of them by an interval of time, as in the case of those sensible objects which were already real before they were known, or of all those things that are learned through history; but some things begin to be at the same time with the knowing of them — just as, if any visible object, which did not exist before at all, were to rise up before our eyes, certainly it does not precede our knowing it; or if there be any sound made where there is some one to hear, no doubt the sound and the hearing that sound begin and end simultaneously. Yet none the less, whether preceding in time or beginning to exist simultaneously, knowable things generate knowledge, and are not generated by knowledge. But when knowledge has come to pass, whenever the things known and laid up in memory are reviewed by recollection, who does not see that the retaining them in the memory is prior in time to the sight of them in recollection, and to the uniting of the two things by will as a third? In the mind, however, it is not so. For the mind is not adventitious to itself, as though there came to itself already existing, that same self not already existing, from somewhere else, or did not indeed come from somewhere else, but that in the mind itself already existing, there was born that same mind not already existing; just as faith, which before was not, arises in the mind which already was. Nor does the mind see itself, as it were, set up in its own memory by recollection subsequently to the knowing of itself, as though it was not there before it knew itself; whereas,doubtless, from the time when it began to be, it has never ceased to remember, to understand, and to love itself, as we have already shown. And hence, when it is turned to itself by thought, there arises a trinity, in which now at length we can discern also a word; since it is formed from thought itself, will uniting both. Here, then, we may recognize, more than we have hitherto done, the image of which we are in search."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C10",
+    "durationSeconds": 123
   },
   "TRIN-B14C11": {
     "book": 14,
@@ -4702,9 +4702,9 @@ window.TRINITY_TEXT = {
         "text": "14. But some one will say, That is not memory by which the mind, which is ever present to itself, is affirmed to remember itself; for memory is of things past, not of things present. For there are some, and among them Cicero, who, in treating of the virtues, have divided prudence into these three — memory, understanding, forethought: to wit, assigning memory to things past, understanding to things present, forethought to things future; which last is certain only in the case of those who are prescient of the future; and this is no gift of men, unless it be granted from above, as to the prophets. And hence the book of Wisdom, speaking of men, \"The thoughts of mortals,\" it says, \"are fearful, and our forethought uncertain.\" But memory of things past, and understanding of things present, are certain: certain, I mean, respecting things incorporeal, which are present; for things corporeal are present to the sight of the corporeal eyes. But let any one who denies that there is any memory of things present, attend to the language used even in profane literature, where exactness of words was more looked for than truth of things. \"Nor did Ulysses suffer such things, nor did the Ithacan forget himself in so great a peril.\" For when Virgil said that Ulysses did not forget himself, what else did he mean, except that he remembered himself? And since he was present to himself, he could not possibly remember himself, unless memory pertained to things present. And, therefore, as that is called memory in things past which makes it possible to recall and remember them; so in a thing present, as the mind is to itself, that is not unreasonably to be called memory, which makes the mind at hand to itself, so that it can be understood by its own thought, and then both be joined together by love of itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C11",
+    "durationSeconds": 107
   },
   "TRIN-B14C12": {
     "book": 14,
@@ -4720,9 +4720,9 @@ window.TRINITY_TEXT = {
         "text": "16. There is, then, a nature not made, which made all other natures, great and small, and is without doubt more excellent than those which it has made, and therefore also than that of which we are speaking; viz. than the rational and intellectual nature, which is the mind of man, made after the image of Him who made it. And that nature, more excellent than the rest, is God. And indeed \"He is not far from every one of us,\" as the apostle says, who adds, \"For in Him we live, and are moved, and have our being.\" And if this were said in respect to the body, it might be understood even of this corporeal world; for in it too in respect to the body, we live, and are moved, and have our being. And therefore it ought to be taken in a more excellent way, and one that is spiritual, not visible, in respect to the mind, which is made after His image. For what is there that is not in Him, of whom it is divinely written, \"For of Him, and through Him, and in Him, are all things\"? If, then, all things are in Him, in whom can any possibly live that do live, or be moved that are moved, except in Him in whom they are? Yet all are not with Him in that way in which it is said to Him, \"I am continually with You.\" Nor is He with all in that way in which we say, The Lord be with you. And so it is the special wretchedness of man not to be with Him, without whom he cannot be. For, beyond a doubt, he is not without Him in whom he is; and yet if he does not remember, and understand, and love Him, he is not with Him. And when any one absolutely forgets a thing, certainly it is impossible even to remind him of it."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C12",
+    "durationSeconds": 202
   },
   "TRIN-B14C13": {
     "book": 14,
@@ -4734,9 +4734,9 @@ window.TRINITY_TEXT = {
         "text": "17. Let us take an instance for the purpose from visible things. Somebody whom you do not recognize, says to you, You know me; and in order to remind you, tells you where, when, and how he became known to you; and if, after the mention of every sign by which you might be recalled to remembrance, you still do not recognize him, then you have so come to forget, as that the whole of that knowledge is altogether blotted out of your mind; and nothing else remains, but that you take his word for it who tells you that you once knew him; or do not even do that, if you do not think the person who speaks to you to be worthy of credit. But if you do remember him, then no doubt you return to your own memory, and find in it that which had not been altogether blotted out by forgetfulness. Let us return to that which led us to adduce this instance from the intercourse of men. Among other things, the 9th Psalm says, \"The wicked shall be turned into hell, and all the nations. that forget God;\" and again the 22d Psalm, \"All the ends of the world shall be reminded, and turned unto the Lord.\" These nations, then, will not so have forgotten God as to be unable to remember Him when reminded of Him; yet, by forgetting God, as though forgetting their own life, they had been turned into death, i.e. into hell. But when reminded they are turned to the Lord, as though coming to life again by remembering their proper life which they had forgotten. It is read also in the 94th Psalm, \"Perceive now, you who are unwise among the people; and you fools, when will you be wise? He that planted the ear, shall He not hear?\" etc. For this is spoken to those, who said vain things concerning God through not understanding Him."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C13",
+    "durationSeconds": 104
   },
   "TRIN-B14C14": {
     "book": 14,
@@ -4756,9 +4756,9 @@ window.TRINITY_TEXT = {
         "text": "20. I have said thus much, that even those who are slower of understanding, to whose eyes or ears this book may come, might be admonished, however briefly, how greatly even a weak and erring mind loves itself, in wrongly loving and pursuing things beneath itself. Now it could not love itself if it were altogether ignorant of itself, i.e. if it did not remember itself, nor understand itself by which image of God within itself it has such power as to be able to cleave to Him whose image it is. For it is so reckoned in the order, not of place, but of natures, as that there is none above it save Him. When, finally, it shall altogether cleave to Him, then it will be one spirit, as the apostle testifies, saying, \"But he who cleaves to the Lord is one spirit.\" And this by its drawing near to partake of His nature, truth, and blessedness, yet not by His increasing in His own nature, truth and blessedness. In that nature, then, when it happily has cleaved to it, it will live unchangeably, and will see as unchangeable all that it does see. Then, as divine Scripture promises, \"His desire will be satisfied with good things,\" good things unchangeable — the very Trinity itself, its own God, whose image it is. And that it may not ever thenceforward suffer wrong, it will be in the hidden place of His presence, filled with so great fullness of Him, that sin thenceforth will never delight it. But now, when it sees itself, it sees something not unchangeable."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C14",
+    "durationSeconds": 398
   },
   "TRIN-B14C15": {
     "book": 14,
@@ -4770,9 +4770,9 @@ window.TRINITY_TEXT = {
         "text": "21. And of this certainly it feels no doubt, that it is wretched, and longs to be blessed nor can it hope for the possibility of this on any other ground than its own changeableness for if it were not changeable, then, as it could not become wretched after being blessed, so neither could it become blessed after being wretched. And what could have made it wretched under an omnipotent and good God, except its own sin and the righteousness of its Lord? And what will make it blessed, unless its own merit, and its Lord's reward? But its merit, too, is His grace, whose reward will be its blessedness; for it cannot give itself the righteousness it has lost, and so has not. For this it received when man was created, and assuredly lost it by sinning. Therefore it receives righteousness, that on account of this it may deserve to receive blessedness; and hence the apostle truly says to it, when beginning to be proud as it were of its own good, \"For what have you that you did not receive? Now if you received it, why do you glory as if you had not received it?\" But when it rightly remembers its own Lord, having received His Spirit, then, because it is so taught by an inward teaching, it feels wholly that it cannot rise save by His affection freely given, nor has been able to fall save by its own defection freely chosen. Certainly it does not remember its own blessedness; since that has been, but is not, and it has utterly forgotten it, and therefore cannot even be reminded of it. But it believes what the trustworthy Scriptures of its God tell of that blessedness, which were written by His prophet, and tell of the blessedness of Paradise, and hand down to us historical information of that first both good and ill of man. And it remembers the Lord its God; for He always is, nor has been and is not, nor is but has not been; but as He never will not be, so He never was not. And He is whole everywhere. And hence it both lives, and is moved, and is in Him; and so it can remember Him. Not because it recollects the having known Him in Adam or anywhere else before the life of this present body, or when it was first made in order to be implanted in this body; for it remembers nothing at all of all this. Whatever there is of this, it has been blotted out by forgetfulness. But it is reminded, that it may be turned to God, as though to that light by which it was in some way touched, even when turned away from Him. For hence it is that even the ungodly think of eternity, and rightly blame and rightly praise many things in the morals of men. And by what rules do they thus judge, except by those wherein they see how men ought to live, even though they themselves do not so live? And where do they see these rules? For they do not see them in their own [moral] nature; since no doubt these things are to be seen by the mind, and their minds are confessedly changeable, but these rules are seen as unchangeable by him who can see them at all; nor yet in the character of their own mind, since these rules are rules of righteousness, and their minds are confessedly unrighteous. Where indeed are these rules written, wherein even the unrighteous recognizes what is righteous, wherein he discerns that he ought to have what he himself has not? Where, then, are they written, unless in the book of that Light which is called Truth? Whence every righteous law is copied and transferred (not by migrating to it, but by being as it were impressed upon it) to the heart of the man that works righteousness; as the impression from a ring passes into the wax, yet does not leave the ring. But he who works not, and yet sees how he ought to work, he is the man that is turned away from that light, which yet touches him. But he who does not even see how he ought to live, sins indeed with more excuse, because he is not a transgressor of a law that he knows; but even he too is just touched sometimes by the splendor of the everywhere present truth, when upon admonition he confesses."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C15",
+    "durationSeconds": 230
   },
   "TRIN-B14C16": {
     "book": 14,
@@ -4788,9 +4788,9 @@ window.TRINITY_TEXT = {
         "text": "In the one place he says, \"After God;\" in the other, \"After the image of Him that created him.\" But instead of saying, as in the former passages \"In righteousness and true holiness,\" he has put in the latter, \"In the knowledge of God.\" This renewal, then, and forming again of the mind, is wrought either after God, or after the image of God. But it is said to be after God, in order that it may not be supposed to be after another creature; and to be after the image of God, in order that this renewing may be understood to take place in that wherein is the image of God, i.e. in the mind. Just as we say, that he who has departed from the body a faithful and righteous man, is dead after the body, not after the spirit. For what do we mean by dead after the body, unless as to the body or in the body, and not dead as to the soul or in the soul? Or if we want to say he is handsome after the body, or strong after the body, not after the mind; what else is this, than that he is handsome or strong in body, not in mind? And the same is the case with numberless other instances. Let us not therefore so understand the words, \"After the image of Him that created him,\" as though it were a different image after which he is renewed, and not the very same which is itself renewed."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C16",
+    "durationSeconds": 193
   },
   "TRIN-B14C17": {
     "book": 14,
@@ -4802,9 +4802,9 @@ window.TRINITY_TEXT = {
         "text": "23. Certainly this renewal does not take place in the single moment of conversion itself, as that renewal in baptism takes place in a single moment by the remission of all sins; for not one, be it ever so small, remains unremitted. But as it is one thing to be free from fever, and another to grow strong again from the infirmity which the fever produced; and one thing again to pluck out of the body a weapon thrust into it, and another to heal the wound thereby made by a prosperous cure; so the first cure is to remove the cause of infirmity, and this is wrought by the forgiving of all sins; but the second cure is to heal the infirmity itself, and this takes place gradually by making progress in the renewal of that image: which two things are plainly shown in the Psalm, where we read, \"Who forgives all your iniquities,\" which takes place in baptism; and then follows, \"and heals all your infirmities;\" and this takes place by daily additions, while this image is being renewed. And the apostle has spoken of this most expressly, saying, \"And though our outward man perish, yet the inner man is renewed day by day.\" And \"it is renewed in the knowledge of God, i.e. in righteousness and true holiness,\" according to the testimonies of the apostle cited a little before. He, then, who is day by day renewed by making progress in the knowledge of God, and in righteousness and true holiness, transfers his love from things temporal to things eternal, from things visible to things intelligible, from things carnal to things spiritual; and diligently perseveres in bridling and lessening his desire for the former, and in binding himself by love to the latter. And he does this in proportion as he is helped by God. For it is the sentence of God Himself, \"Without me you can do nothing.\" And when the last day of life shall have found any one holding fast faith in the Mediator in such progress and growth as this, he will be welcomed by the holy angels, to be led to God, whom he has worshipped, and to be made perfect by Him; and so will receive in the end of the world an incorruptible body, in order not to punishment, but to glory. For the likeness of God will then be perfected in this image, when the sight of God shall be perfected. And of this the Apostle Paul speaks: \"Now we see through a glass, in an enigma, but then face to face.\" And again: \"But we with open face, beholding as in a glass the glory of the Lord, are changed into the same image, from glory to glory, even as by the spirit of the Lord.\" And this is what happens from day to day in those that make good progress."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C17",
+    "durationSeconds": 151
   },
   "TRIN-B14C18": {
     "book": 14,
@@ -4816,9 +4816,9 @@ window.TRINITY_TEXT = {
         "text": "24. But the Apostle John says, \"Beloved, now are we the sons of God; and it does not yet appear what we shall be: but we know that, when He shall appear, we shall be like Him, for we shall see Him as He is.\" Hence it appears, that the full likeness of God is to take place in that image of God at that time when it shall receive the full sight of God. And yet this may also possibly seem to be said by the Apostle John of the immortality of the body. For we shall be like to God in this too, but only to the Son, because He only in the Trinity took a body, in which He died and rose again, and which He carried with Him to heaven above. For this, too, is called an image of the Son of God, in which we shall have, as He has, an immortal body, being conformed in this respect not to the image of the Father or of the Holy Spirit, but only of the Son, because of Him alone is it read and received by a sound faith, that \"the Word was made flesh.\" And for this reason the apostle says, \"Whom He did foreknow, He also did predestinate to be conformed to the image of His Son, that He might be the first-born among many brethren.\" \"The first-born\" certainly \"from the dead,\" according to the same apostle; by which death His flesh was sown in dishonor, and rose again in glory. According to this image of the Son, to which we are conformed in the body by immortality, we also do that of which the same apostle speaks, \"As we have borne the image of the earthy, so shall we also bear the image of the heavenly;\" to wit, that we who are mortal after Adam, may hold by a true faith, and a sure and certain hope, that we shall be immortal after Christ. For so can we now bear the same image, not yet in sight, but in faith; not yet in fact, but in hope. For the apostle, when he said this, was speaking of the resurrection of the body."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C18",
+    "durationSeconds": 110
   },
   "TRIN-B14C19": {
     "book": 14,
@@ -4834,9 +4834,9 @@ window.TRINITY_TEXT = {
         "text": "26. This contemplative wisdom, which I believe is properly called wisdom as distinct from knowledge in the sacred writings; but wisdom only of man, which yet man has not except from Him, by partaking of whom a rational and intellectual mind can be made truly wise — this contemplative wisdom, I say, it is that Cicero commends, in the end of the dialogue Hortensius, when he says: \"While, then, we consider these things night and day, and sharpen our understanding, which is the eye of the mind, taking care that it be not ever dulled, that is, while we live in philosophy; we, I say, in so doing, have great hope that, if, on the one hand, this sentiment and wisdom of ours is mortal and perishable, we shall still, when we have discharged our human offices, have a pleasant setting, and a not painful extinction, and as it were a rest from life: or if, on the other, as ancient philosophers thought — and those, too, the greatest and far the most celebrated — we have souls eternal and divine, then must we needs think, that the more these shall have always kept in their own proper course, i.e. in reason and in the desire of inquiry, and the less they shall have mixed and entangled themselves in the vices and errors of men, the more easy ascent and return they will have to heaven.\" And then he says, adding this short sentence, and finishing his discourse by repeating it: \"Wherefore, to end my discourse at last, if we wish either for a tranquil extinction, after living in the pursuit of these subjects, or if to migrate without delay from this present home to another in no little measure better, we must bestow all our labor and care upon these pursuits.\" And here I marvel, that a man of such great ability should promise to men living in philosophy, which makes man blessed by contemplation of truth, \"a pleasant setting after the discharge of human offices, if this our sentiment and wisdom is mortal and perishable;\" as if that which we did not love, or rather which we fiercely hated, were then to die and come to nothing, so that its setting would be pleasant to us! But indeed he had not learned this from the philosophers, whom he extols with great praise; but this sentiment is redolent of that New Academy, wherein it pleased him to doubt of even the plainest things. But from the philosophers that were greatest and far most celebrated, as he himself confesses, he had learned that souls are eternal. For souls that are eternal are not unsuitably stirred up by the exhortation to be found in \"their own proper course,\" when the end of this life shall have come, i.e. \"in reason and in the desire of inquiry,\" and to mix and entangle themselves the less in the vices and errors of men, in order that they may have an easier return to God. But that course which consists in the love and investigation of truth does not suffice for the wretched, i.e. for all mortals who have only this kind of reason, and are without faith in the Mediator; as I have taken pains to prove, as much as I could, in former books of this work, especially in the fourth and thirteenth."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B14C19",
+    "durationSeconds": 175
   },
   "TRIN-B15C1": {
     "book": 15,
@@ -4848,9 +4848,9 @@ window.TRINITY_TEXT = {
         "text": "1. Desiring to exercise the reader in the things that are made, in order that he may know Him by whom they are made, we have now advanced so far as to His image, which is man, in that wherein he excels the other animals, i.e. in reason or intelligence, and whatever else can be said of the rational or intellectual soul that pertains to what is called the mind. For by this name some Latin writers, after their own peculiar mode of speech, distinguish that which excels in man, and is not in the beast, from the soul, which is in the beast as well. If, then, we seek anything that is above this nature, and seek truly, it is God — namely, a nature not created, but creating. And whether this is the Trinity, it is now our business to demonstrate not only to believers, by authority of divine Scripture, but also to such as understand, by some kind of reason, if we can. And why I say, if we can, the thing itself will show better when we have begun to argue about it in our inquiry."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C1",
+    "durationSeconds": 60
   },
   "TRIN-B15C2": {
     "book": 15,
@@ -4866,9 +4866,9 @@ window.TRINITY_TEXT = {
         "text": "3. We shall have tarried then long enough among those things that God has made, in order that by them He Himself may be known that made them. \"For the invisible things of Him from the creation of the world are clearly seen, being understood by the things that are made.\" And hence they are rebuked in the book of Wisdom, \"who could not out of the good things that are seen know Him that is: neither by considering the works did they acknowledge the workmaster; but deemed either fire, or wind, or the swift air or the circle of the stars, or the violent water, or the lights of heaven, to be the gods which govern the world: with whose beauty if they, being delighted, took them to be gods, let them know how much better the Lord of them is; for the first Author of beauty has created them. But if they were astonished at their power and virtue, let them understand by them how much mightier He is that made them. For by the greatness and beauty of the creatures proportionably the Maker of them is seen.\" I have quoted these words from the book of Wisdom for this reason, that no one of the faithful may think me vainly and emptily to have sought first in the creature, step by step through certain trinities, each of their own appropriate kind, until I came at last to the mind of man, traces of that highest Trinity which we seek when we seek God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C2",
+    "durationSeconds": 212
   },
   "TRIN-B15C3": {
     "book": 15,
@@ -4884,9 +4884,9 @@ window.TRINITY_TEXT = {
         "text": "5. In the first book, the unity and equality of that highest Trinity is shown from Holy Scripture. In the second, and third, and fourth, the same: but a careful handling of the question respecting the sending of the Son and of the Holy Spirit has resulted in three books; and we have demonstrated, that He who is sent is not therefore less than He who sends because the one sent, the other was sent; since the Trinity, which is in all things equal, being also equally in its own nature unchangeable, and invisible, and everywhere present, works indivisibly. In the fifth — with a view to those who think that the substance of the Father and of the Son is therefore not the same, because they suppose everything that is predicated of God to be predicated according to substance, and therefore contend that to beget and to be begotten, or to be begotten and unbegotten, as being diverse, are diverse substances, — it is demonstrated that not everything that is predicated of God is predicated according to substance, as He is called good and great according to substance, or anything else that is predicated of Him in respect to Himself, but that some things also are predicated relatively, i.e. not in respect to Himself, but in respect to something which is not Himself; as He is called the Father in respect to the Son, or the Lord in respect to the creature that serves Him; and that here, if anything thus relatively predicated, i.e. predicated in respect to something that is not Himself, is predicated also as in time, as, e.g., \"Lord, You have become our refuge,\" then nothing happens to Him so as to work a change in Him, but He Himself continues altogether unchangeable in His own nature or essence. In the sixth, the question how Christ is called by the mouth of the apostle \"the power of God and the wisdom of God,\" is so far argued that the more careful handling of that question is deferred, viz. whether He from whom Christ is begotten is not wisdom Himself, but only the father of His own wisdom, or whether wisdom begot wisdom. But be it which it may, the equality of the Trinity became apparent in this book also, and that God was not triple, but a Trinity; and that the Father and the Son are not, as it were, a double as opposed to the single Holy Spirit: for therein three are not anything more than one. We considered, too, how to understand the words of Bishop Hilary, \"Eternity in the Father, form in the Image, use in the Gift.\" In the seventh, the question is explained which had been deferred: in what way that God who begot the Son is not only Father of His own power and wisdom, but is Himself also power and wisdom; so, too, the Holy Spirit; and yet that they are not three powers or three wisdoms, but one power and one wisdom, as one God and one essence. It was next inquired, in what way they are called one essence, three persons, or by some Greeks one essence, three substances; and we found that the words were so used through the needs of speech, that there might be one term by which to answer, when it is asked what the three are, whom we truly confess to be three, viz. Father, and Son, and Holy Spirit. In the eighth, it is made plain by reason also to those who understand, that not only the Father is not greater than the Son in the substance of truth, but that both together are not anything greater than the Holy Spirit alone, nor that any two at all in the same Trinity are anything greater than one, nor all three together anything greater than each severally. Next, I have pointed out, that by means of the truth, which is beheld by the understanding, and by means of the highest good, from which is all good, and by means of the righteousness for which a righteous mind is loved even by a mind not yet righteous, we might understand, so far as it is possible to understand, that not only incorporeal but also unchangeable nature which is God; and by means, too, of love, which in the Holy Scriptures is called God, by which, first of all, those who have understanding begin also, however feebly, to discern the Trinity, to wit, one that loves, and that which is loved, and love. In the ninth, the argument advances as far as to the image of God, viz. man in respect to his mind; and in this we found a kind of trinity, i.e. the mind, and the knowledge whereby the mind knows itself, and the love whereby it loves both itself and its knowledge of itself; and these three are shown to be mutually equal, and of one essence. In the tenth, the same subject is more carefully and subtly handled, and is brought to this point, that we found in the mind a still more manifest trinity of the mind, viz. in memory, and understanding, and will. But since it turned out also, that the mind could never be in such a case as not to remember, understand, and love itself, although it did not always think of itself; but that when it did think of itself, it did not in the same act of thought distinguish itself from things corporeal; the argument respecting the Trinity, of which this is an image, was deferred, in order to find a trinity also in the things themselves that are seen with the body, and to exercise the reader's attention more distinctly in that. Accordingly, in the eleventh, we chose the sense of sight, wherein that which should have been there found to hold good might be recognized also in the other four bodily senses, although not expressly mentioned; and so a trinity of the outer man first showed itself in those things which are discerned from without, to wit, from the bodily object which is seen, and from the form which is thence impressed upon the eye of the beholder, and from the purpose of the will combining the two. But these three things, as was patent, were not mutually equal and of one substance. Next, we found yet another trinity in the mind itself, introduced into it, as it were, by the things perceived from without; wherein the same three things, as it appeared, were of one substance: the image of the bodily object which is in the memory, and the form thence impressed when the mind's eye of the thinker is turned to it, and the purpose of the will combining the two. But we found this trinity to pertain to the outer man, on this account, that it was introduced into the mind from bodily objects which are perceived from without. In the twelfth, we thought good to distinguish wisdom from knowledge, and to seek first, as being the lower of the two, a kind of appropriate and special trinity in that which is specially called knowledge; but that although we have got now in this to something pertaining to the inner man, yet it is not yet to be either called or thought an image of God. And this is discussed in the thirteenth book by the commendation of Christian faith. In the fourteenth we discuss the true wisdom of man, viz. that which is granted him by God's gift in the partaking of that very God Himself, which is distinct from knowledge; and the discussion reached this point, that a trinity is discovered in the image of God, which is man in respect to his mind, which mind is \"renewed in the knowledge\" of God, \"after the image of Him that created\" man; \"after His own image;\" and so obtains wisdom, wherein is the contemplation of things eternal."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C3",
+    "durationSeconds": 387
   },
   "TRIN-B15C4": {
     "book": 15,
@@ -4898,9 +4898,9 @@ window.TRINITY_TEXT = {
         "text": "6. Let us, then, now seek the Trinity which is God, in the things themselves that are eternal, incorporeal, and unchangeable; in the perfect contemplation of which a blessed life is promised us, which cannot be other than eternal. For not only does the authority of the divine books declare that God is; but the whole nature of the universe itself which surrounds us, and to which we also belong, proclaims that it has a most excellent Creator, who has given to us a mind and natural reason, whereby to see that things living are to be preferred to things that are not living; things that have sense to things that have not; things that have understanding to things that have not; things immortal to things mortal; things powerful to things impotent; things righteous to things unrighteous; things beautiful to things deformed; things good to things evil; things incorruptible to things corruptible; things unchangeable to things changeable; things invisible to things visible; things incorporeal to things corporeal; things blessed to things miserable. And hence, since without doubt we place the Creator above things created, we must needs confess that the Creator both lives in the highest sense, and perceives and understands all things, and that He cannot die, or suffer decay, or be changed; and that He is not a body, but a spirit, of all the most powerful, most righteous, most beautiful, most good, most blessed."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C4",
+    "durationSeconds": 82
   },
   "TRIN-B15C5": {
     "book": 15,
@@ -4916,9 +4916,9 @@ window.TRINITY_TEXT = {
         "text": "8. Further, if we say, Eternal, immortal, incorruptible, unchangeable, living, wise, powerful, beautiful, righteous, good, blessed spirit; only the last of this list as it were seems to signify substance, but the rest to signify qualities of that substance; but it is not so in that ineffable and simple nature. For whatever seems to be predicated therein according to quality, is to be understood according to substance or essence. For far be it from us to predicate spirit of God according to substance, and good according to quality; but both according to substance. And so in like manner of all those we have mentioned, of which we have already spoken at length in the former books. Let us choose, then, one of the first four of those in our enumeration and arrangement, i.e. eternal, immortal, incorruptible, unchangeable; since these four, as I have argued already, have one meaning; in order that our aim may not be distracted by a multiplicity of objects. And let it be rather that which was placed first, viz. eternal. Let us follow the same course with the four that come next, viz. living, wise, powerful, beautiful. And since life of some sort belongs also to the beast, which has not wisdom; while the next two, viz. wisdom and might, are so compared to one another in the case of man, as that Scripture says, \"Better is he that is wise than he that is strong;\" and beauty, again, is commonly attributed to bodily objects also: out of these four that we have chosen, let Wise be the one we take. Although these four are not to be called unequal in speaking of God; for they are four names, but one thing. But of the third and last four — although it is the same thing in God to be righteous that it is to be good or to be blessed; and the same thing to be a spirit that it is to be righteous, and good, and blessed; yet, because in men there can be a spirit that is not blessed, and there can be one both righteous and good, but not yet blessed; but that which is blessed is doubtless both just, and good, and a spirit, — let us rather choose that one which cannot exist even in men without the three others, viz. blessed."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C5",
+    "durationSeconds": 301
   },
   "TRIN-B15C6": {
     "book": 15,
@@ -4934,9 +4934,9 @@ window.TRINITY_TEXT = {
         "text": "10. For if we recall where it was in these books that a trinity first began to show itself to our understanding, the eighth book is that which occurs to us; since it was there that to the best of our power we tried to raise the aim of the mind to understand that most excellent and unchangeable nature, which our mind is not. And we so contemplated this nature as to think of it as not far from us, and as above us, not in place, but by its own awful and wonderful excellence, and in such wise that it appeared to be with us by its own present light. Yet in this no trinity was yet manifest to us, because in that blaze of light we did not keep the eye of the mind steadfastly bent upon seeking it; only we discerned it in a sense, because there was no bulk wherein we must needs think the magnitude of two or three to be more than that of one. But when we came to treat of love, which in the Holy Scriptures is called God, then a trinity began to dawn upon us a little, i.e. one that loves, and that which is loved, and love. But because that ineffable light beat back our gaze, and it became in some degree plain that the weakness of our mind could not as yet be tempered to it, we turned back in the midst of the course we had begun, and planned according to the (as it were) more familiar consideration of our own mind, according to which man is made after the image of God, in order to relieve our overstrained attention; and thereupon we dwelt from the ninth to the fourteenth book upon the consideration of the creature, which we are, that we might be able to understand and behold the invisible things of God by those things which are made. And now that we have exercised the understanding, as far as was needful, or perhaps more than was needful, in lower things, lo! We wish, but have not strength, to raise ourselves to behold that highest Trinity which is God. For in such manner as we see most undoubted trinities, whether those which are wrought from without by corporeal things, or when these same things are thought of which were perceived from without; or when those things which take their rise in the mind, and do not pertain to the senses of the body, as faith, or as the virtues which comprise the art of living, are discerned by manifest reason, and, held fast by knowledge; or when the mind itself, by which we know whatever we truly say that we know, is known to itself, or thinks of itself; or when that mind beholds anything eternal and unchangeable, which itself is not — in such way, then, I say, as we see in all these instances most undoubted trinities, because they are wrought in ourselves, or are in ourselves, when we remember, look at, or desire these things — do we, I say, in such manner also see the Trinity that is God; because there also, by the understanding, we behold both Him as it were speaking, and His Word, i.e. the Father and the Son; and then, proceeding thence, the love common to both, namely, the Holy Spirit? These trinities that pertain to our senses or to our mind, do we rather see than believe them, but rather believe than see that God is a trinity? But if this is so, then doubtless we either do not at all understand and behold the invisible things of God by those things that are made, or if we behold them at all, we do not behold the Trinity in them; and there is therein somewhat to behold, and somewhat also which we ought to believe, even though not beheld. And as the eighth book showed that we behold the unchangeable good which we are not, so the fourteenth reminded us thereof, when we spoke of the wisdom that man has from God. Why, then, do we not recognize the Trinity therein? Does that wisdom which God is said to be, not perceive itself, and not love itself? Who would say this? Or who is there that does not see, that where there is no knowledge, there in no way is there wisdom? Or are we, in truth, to think that the Wisdom which is God knows other things, and does not know itself; or loves other things, and does not love itself? But if this is a foolish and impious thing to say or believe, then behold we have a trinity — to wit, wisdom, and the knowledge wisdom has of itself, and its love of itself. For so, too, we find a trinity in man also, i.e. mind, and the knowledge wherewith mind knows itself, and the love wherewith it loves itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C6",
+    "durationSeconds": 301
   },
   "TRIN-B15C7": {
     "book": 15,
@@ -4956,9 +4956,9 @@ window.TRINITY_TEXT = {
         "text": "13. What man, then, is there who can comprehend that wisdom by which God knows all things, in such wise that neither what we call things past are past therein, nor what we call things future are therein waited for as coming, as though they were absent, but both past and future with things present are all present; nor yet are things thought severally, so that thought passes from one to another, but all things simultaneously are at hand in one glance — what man, I say, is there that comprehends that wisdom, and the like prudence, and the like knowledge, since in truth even our own wisdom is beyond our comprehension? For somehow we are able to behold the things that are present to our senses or to our understanding; but the things that are absent, and yet have once been present, we know by memory, if we have not forgotten them. And we conjecture, too, not the past from the future, but the future from the past, yet by all unstable knowledge. For there are some of our thoughts to which, although future, we, as it were, look onward with greater plainness and certainty as being very near; and we do this by the means of memory when we are able to do it, as much as we ever are able, although memory seems to belong not to the future, but to the past. And this may be tried in the case of any words or songs, the due order of which we are rendering by memory; for we certainly should not utter each in succession, unless we foresaw in thought what came next. And yet it is not foresight, but memory, that enables us to foresee it; for up to the very end of the words or the song, nothing is uttered except as foreseen and looked forward to. And yet in doing this, we are not said to speak or sing by foresight, but by memory; and if any one is more than commonly capable of uttering many pieces in this way, he is usually praised, not for his foresight, but for his memory. We know, and are absolutely certain, that all this takes place in our mind or by our mind; but how it takes place, the more attentively we desire to scrutinize, the more do both our very words break down, and our purpose itself fails, when by our understanding, if not our tongue, we would reach to something of clearness. And do such as we are, think, that in so great infirmity of mind we can comprehend whether the foresight of God is the same as His memory and His understanding, who does not regard in thought each several thing, but embraces all that He knows in one eternal and unchangeable and ineffable vision? In this difficulty, then, and strait, we may well cry out to the living God, \"Such knowledge is too wonderful for me: it is high, I cannot attain unto it.\" For I understand by myself how wonderful and incomprehensible is Your knowledge, by which You made me, when I cannot even comprehend myself whom You have made! And yet, \"while I was musing, the fire burned,\" so that \"I seek Your face evermore.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C7",
+    "durationSeconds": 502
   },
   "TRIN-B15C8": {
     "book": 15,
@@ -4970,9 +4970,9 @@ window.TRINITY_TEXT = {
         "text": "14. I know that wisdom is an incorporeal substance, and that it is the light by which those things are seen that are not seen by carnal eyes; and yet a man so great and so spiritual [as Paul] says, \"We see now through a glass, in an enigma, but then face to face.\" If we ask what and of what sort is this \"glass,\" this assuredly occurs to our minds, that in a glass nothing is discerned but an image. We have endeavored, then, so to do; in order that we might see in some way or other by this image which we are, Him by whom we are made, as by a glass. And this is intimated also in the words of the same apostle: \"But we with open face, beholding as in a glass the glory of the Lord, are transformed into the same image, from glory to glory, even as by the Spirit of the Lord.\" \"Beholding as in a glass,\" he has said, i.e. seeing by means of a glass, not looking from a watchtower: an ambiguity that does not exist in the Greek language, whence the apostolic epistles have been rendered into Latin. For in Greek, a glass, in which the images of things are visible, is wholly distinct in the sound of the word also from a watchtower, from the height of which we command a more distant view. And it is quite plain that the apostle, in using the word \"speculantes\" in respect to the glory of the Lord, meant it to come from \"speculum,\" not from \"specula.\" But where he says, \"We are transformed into the same image,\" he assuredly means to speak of the image of God; and by calling it \"the same,\" he means that very image which we see in the glass, because that same image is also the glory of the Lord; as he says elsewhere, \"For a man indeed ought not to cover his head, forasmuch as he is the image and glory of God,\" — a text already discussed in the twelfth book. He means, then, by \"We are transformed,\" that we are changed from one form to another, and that we pass from a form that is obscure to a form that is bright: since the obscure form, too, is the image of God; and if an image, then assuredly also \"glory,\" in which we are created as men, being better than the other animals. For it is said of human nature in itself, \"The man ought not to cover his head, because he is the image and glory of God.\" And this nature, being the most excellent among things created, is transformed from a form that is defaced into a form that is beautiful, when it is justified by its own Creator from ungodliness. Since even in ungodliness itself, the more the faultiness is to be condemned, the more certainly is the nature to be praised. And therefore he has added, \"from glory to glory:\" from the glory of creation to the glory of justification. Although these words, \"from glory to glory,\" may be understood also in other ways — from the glory of faith to the glory of sight, from the glory whereby we are sons of God to the glory whereby we shall be like Him, because \"we shall see Him as He is.\" But in that he has added \"as from the Spirit of the Lord,\" he declares that the blessing of so desirable a transformation is conferred upon us by the grace of God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C8",
+    "durationSeconds": 117
   },
   "TRIN-B15C9": {
     "book": 15,
@@ -4988,9 +4988,9 @@ window.TRINITY_TEXT = {
         "text": "16. But because it is not only those that are ignorant of the books that contain the doctrine of tropes, who inquire the apostle's meaning, when he said that we \"see now in an enigma,\" but those, too, who are acquainted with the doctrine, but yet desire to know what that enigma is in which \"we now see;\" we must find a single meaning for the two phrases, viz. for that which says, \"we see now through a glass,\" and for that which adds, \"in an enigma.\" For it makes but one sentence, when the whole is so uttered, \"We see now through a glass in an enigma.\" Accordingly, as far as my judgment goes, as by the word glass he meant to signify an image, so by that of enigma any likeness you will, but yet one obscure, and difficult to see through. While, therefore, any likenesses whatever may be understood as signified by the apostle when he speaks of a glass and an enigma, so that they are adapted to the understanding of God, in such way as He can be understood; yet nothing is better adapted to this purpose than that which is not vainly called His image. Let no one, then, wonder, that we labor to see in any way at all, even in that fashion of seeing which is granted to us in this life, viz. through a glass, in an enigma. For we should not hear of an enigma in this place if sight were easy. And this is a yet greater enigma, that we do not see what we cannot but see. For who does not see his own thought? And yet who does see his own thought, I do not say with the eye of the flesh, but with the inner sight itself? Who does not see it, and who does see it? Since thought is a kind of sight of the mind; whether those things are present which are seen also by the bodily eyes, or perceived by the other senses; or whether they are not present, but their likenesses are discerned by thought; or whether neither of these is the case, but things are thought of that are neither bodily things nor likenesses of bodily things, as the virtues and vices; or as, indeed, thought itself is thought of; or whether it be those things which are the subjects of instruction and of liberal sciences; or whether the higher causes and reasons themselves of all these things in the unchangeable nature are thought of; or whether it be even evil, and vain, and false things that we are thinking of, with either the sense not consenting, or erring in its consent."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C9",
+    "durationSeconds": 256
   },
   "TRIN-B15C10": {
     "book": 15,
@@ -5010,9 +5010,9 @@ window.TRINITY_TEXT = {
         "text": "19. Whoever, then, is able to understand a word, not only before it is uttered in sound, but also before the images of its sounds are considered in thought — for this it is which belongs to no tongue, to wit, of those which are called the tongues of nations, of which our Latin tongue is one — whoever, I say, is able to understand this, is able now to see through this glass and in this enigma some likeness of that Word of whom it is said, \"In the beginning was the Word, and the Word was with God, and the Word was God.\" For of necessity, when we speak what is true, i.e. speak what we know, there is born from the knowledge itself which the memory retains, a word that is altogether of the same kind with that knowledge from which it is born. For the thought that is formed by the thing which we know, is the word which we speak in the heart: which word is neither Greek nor Latin, nor of any other tongue. But when it is needful to convey this to the knowledge of those to whom we speak, then some sign is assumed whereby to signify it. And generally a sound, sometimes a nod, is exhibited, the former to the ears, the latter to the eyes, that the word which we bear in our mind may become known also by bodily signs to the bodily senses. For what is to nod or beckon, except to speak in some way to the sight? And Holy Scripture gives its testimony to this; for we read in the Gospel according to John: \"Verily, verily, I say unto you, that one of you shall betray me. Then the disciples looked one upon another, doubting of whom He spoke. Now there was leaning on Jesus' breast one of His disciples whom Jesus loved. Simon Peter therefore beckons to him, and says to him, Who is it of whom He speaks?\" Here he spoke by beckoning what he did not venture to speak by sounds. But whereas we exhibit these and the like bodily signs either to ears or eyes of persons present to whom we speak, letters have been invented that we might be able to converse also with the absent; but these are signs of words, as words themselves are signs in our conversation of those things which we think."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C10",
+    "durationSeconds": 388
   },
   "TRIN-B15C11": {
     "book": 15,
@@ -5028,9 +5028,9 @@ window.TRINITY_TEXT = {
         "text": "21. When, therefore, this image shall have been renewed to perfection by this transformation, then we shall be like God, because we shall see Him, not through a glass, but \"as He is;\" which the Apostle Paul expresses by \"face to face.\" But now, who can explain how great is the unlikeness also, in this glass, in this enigma, in this likeness such as it is? Yet I will touch upon some points, as I can, by which to indicate it."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C11",
+    "durationSeconds": 271
   },
   "TRIN-B15C12": {
     "book": 15,
@@ -5046,9 +5046,9 @@ window.TRINITY_TEXT = {
         "text": "22. All these things, then, both those which the human mind knows by itself, and those which it knows by the bodily senses, and those which it has received and knows by the testimony of others, are laid up and retained in the storehouse of the memory; and from these is begotten a word that is true when we speak what we know, but a word that is before all sound, before all thought of a sound. For the word is then most like to the thing known, from which also its image is begotten, since the sight of thinking arises from the sight of knowledge; when it is a word belonging to no tongue, but is a true word concerning a true thing, having nothing of its own, but wholly derived from that knowledge from which it is born. Nor does it signify when he learned it, who speaks what he knows; for sometimes he says it immediately upon learning it; provided only that the word is true, i.e. sprung from things that are known."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C12",
+    "durationSeconds": 403
   },
   "TRIN-B15C13": {
     "book": 15,
@@ -5060,9 +5060,9 @@ window.TRINITY_TEXT = {
         "text": "But is it so, that God the Father, from whom is born the Word that is God of God — is it so, then, that God the Father, in respect to that wisdom which He is to Himself, has learned some things by His bodily senses, and others by Himself? Who could say this, who thinks of God, not as a rational animal, but as One above the rational soul? So far at least as He can be thought of, by those who place Him above all animals and all souls, although they see Him by conjecture through a glass and in an enigma, not yet face to face as He is. Is it that God the Father has learned those very things which He knows, not by the body, for He has none, but by Himself, from elsewhere from some one? Or has stood in need of messengers or witnesses that He might know them? Certainly not; since His own perfection enables Him to know all things that He knows. No doubt He has messengers, viz. the angels; but not to announce to Him things that He knows not, for there is nothing He does not know. But their good lies in consulting the truth about their own works. And this it is which is meant by saying that they bring Him word of some things, not that He may learn of them, but they of Him by His word without bodily sound. They bring Him word, too, of that which He wills, being sent by Him to whomever He wills, and hearing all from Him by that word of His, i.e. finding in His truth what themselves are to do: what, to whom, and when, they are to bring word. For we too pray to Him, yet do not inform Him what our necessities are. \"For your Father knows,\" says His Word, \"what things you have need of, before you ask Him.\" Nor did He become acquainted with them, so as to know them, at any definite time; but He knew beforehand, without any beginning, all things to come in time, and among them also both what we should ask of Him, and when; and to whom He would either listen or not listen, and on what subjects. And with respect to all His creatures, both spiritual and corporeal, He does not know them because they are, but they are because He knows them. For He was not ignorant of what He was about to create; therefore He created because He knew; He did not know because He created. Nor did He know them when created in any other way than He knew them when still to be created, for nothing accrued to His wisdom from them; but that wisdom remained as it was, while they came into existence as it was fitting and when it was fitting. So, too, it is written in the book of Ecclesiasticus: \"All things are known to Him ere ever they were created: so also after they were perfected.\" \"So,\" he says, not otherwise; so were they known to Him, both ere ever they were created, and after they were perfected. This knowledge, therefore, is far unlike our knowledge. And the knowledge of God is itself also His wisdom, and His wisdom is itself His essence or substance. Because in the marvellous simplicity of that nature, it is not one thing to be wise and another to be, but to be wise is to be; as we have often said already also in the earlier books. But our knowledge is in most things capable both of being lost and of being recovered, because to us to be is not the same as to know or to be wise; since it is possible for us to be, even although we know not, neither are wise in that which we have learned from elsewhere. Therefore, as our knowledge is unlike that knowledge of God, so is our word also, which is born from our knowledge, unlike that Word of God which is born from the essence of the Father. And this is as if I should say, born from the Father's knowledge, from the Father's wisdom; or still more exactly, from the Father who is knowledge, from the Father who is wisdom."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C13",
+    "durationSeconds": 193
   },
   "TRIN-B15C14": {
     "book": 15,
@@ -5078,9 +5078,9 @@ window.TRINITY_TEXT = {
         "text": "24. And that word, then, of ours which has neither sound nor thought of sound, but is of that thing in seeing which we speak inwardly, and which therefore belongs to no tongue; and hence is in some sort like, in this enigma, to that Word of God which is also God; since this too is born of our knowledge, in such manner as that also is born of the knowledge of the Father: such a word, I say, of ours, which we find to be in some way like that Word, let us not be slow to consider how unlike also it is, as it may be in our power to utter it."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C14",
+    "durationSeconds": 164
   },
   "TRIN-B15C15": {
     "book": 15,
@@ -5096,9 +5096,9 @@ window.TRINITY_TEXT = {
         "text": "25. In respect to those things also which are so known that they can never escape the memory, because they are present, and belong to the nature of the mind itself — as, e.g., the knowing that we are alive (for this continues so long as the mind continues; and because the mind continues always, this also continues always) — I say, in respect to this and to any other like instances, in which we are the rather to contemplate the image of God, it is difficult to make out in what way, although they are always known, yet because they are not always also thought of, an eternal word can be spoken respecting them, when our word is spoken in our thought. For it is eternal to the soul to live; it is eternal to know that it lives. Yet it is not eternal to it to be thinking of its own life, or to be thinking of its own knowledge of its own life; since, in entering upon this or that occupation, it will cease to think of this, although it does not cease from knowing it. And hence it comes to pass, that if there can be in the mind any knowledge that is eternal, while the thought of that knowledge cannot be eternal, and any inner and true word of ours is only said by our thought, then God alone can be understood to have a Word that is eternal, and co-eternal with Himself. Unless, perhaps, we are to say that the very possibility of thought — since that which is known is capable of being truly thought, even at the time when it is not being thought — constitutes a word as perpetual as the knowledge itself is perpetual. But how is that a word which is not yet formed in the vision of the thought? How will it be like the knowledge of which it is born, if it has not the form of that knowledge, and is only now called a word because it can have it? For it is much as if one were to say that a word is to be so called because it can be a word. But what is this that can be a word, and is therefore already held worthy of the name of a word? What, I say, is this thing that is formable, but not yet formed, except a something in our mind, which we toss to and fro by revolving it this way or that, while we think of first one thing and then another, according as they are found by or occur to us? And the true word then comes into being, when, as I said, that which we toss to and fro by revolving it arrives at that which we know, and is formed by that, in taking its entire likeness; so that in what manner each thing is known, in that manner also it is thought, i.e. is said in this manner in the heart, without articulate sound, without thought of articulate sound, such as no doubt belongs to some particular tongue. And hence if we even admit, in order not to dispute laboriously about a name, that this something of our mind, which can be formed from our knowledge, is to be already called a word, even before it is so formed, because it is, so to say, already formable, who would not see how great would be the unlikeness between it and that Word of God, which is so in the form of God, as not to have been formable before it was formed, or to have been capable at any time of being formless, but is a simple form, and simply equal to Him from whom it is, and with whom it is wonderfully co-eternal?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C15",
+    "durationSeconds": 286
   },
   "TRIN-B15C16": {
     "book": 15,
@@ -5114,9 +5114,9 @@ window.TRINITY_TEXT = {
         "text": "26. Wherefore, since we have found now in this enigma so great an unlikeness to God and the Word of God, wherein yet there was found before some likeness, this, too, must be admitted, that even when we shall be like Him, when \"we shall see Him as He is\" (and certainly he who said this was aware beyond doubt of our present unlikeness), not even then shall we be equal to Him in nature. For that nature which is made is ever less than that which makes. And at that time our word will not indeed be false, because we shall neither lie nor be deceived. Perhaps, too, our thoughts will no longer revolve by passing and repassing from one thing to another, but we shall see all our knowledge at once, and at one glance. Still, when even this shall have come to pass, if indeed it shall come to pass, the creature which was formable will indeed have been formed, so that nothing will be wanting of that form to which it ought to attain; yet nevertheless it will not be to be equalled to that simplicity wherein there is not anything formable, which has been formed or reformed, but only form; and which being neither formless nor formed, itself is eternal and unchangeable substance."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C16",
+    "durationSeconds": 135
   },
   "TRIN-B15C17": {
     "book": 15,
@@ -5144,9 +5144,9 @@ window.TRINITY_TEXT = {
         "text": "31. As, then, we call the only Word of God specially by the name of Wisdom, although universally both the Holy Spirit and the Father Himself is wisdom; so the Holy Spirit is specially called by the name of Love, although universally both the Father and the Son are love. But the Word of God, i.e. the only-begotten Son of God, is expressly called the Wisdom of God by the mouth of the apostle, where he says, \"Christ the power of God, and the wisdom of God.\" But where the Holy Spirit is called Love, is to be found by careful scrutiny of the language of John the apostle, who, after saying, \"Beloved, let us love one another, for love is of God,\" has gone on to say, \"And every one that loves is born of God, and knows God. He that loves not, knows not God; for God is love.\" Here, manifestly, he has called that love God, which he said was of God; therefore God of God is love. But because both the Son is born of God the Father, and the Holy Spirit proceeds from God the Father, it is rightly asked which of them we ought here to think is the rather called the love that is God. For the Father only is so God as not to be of God; and hence the love that is so God as to be of God, is either the Son or the Holy Spirit. But when, in what follows, the apostle had mentioned the love of God, not that by which we love Him, but that by which He \"loved us, and sent His Son to be a propitiator for our sins,\" and thereupon had exhorted us also to love one another, and that so God would abide in us — because, namely, he had called God Love; immediately, in his wish to speak yet more expressly on the subject, \"Hereby,\" he says, \"know we that we dwell in Him, and He in us, because He has given us of His Spirit.\" Therefore the Holy Spirit, of whom He has given us, makes us to abide in God, and Him in us; and this it is that love does. Therefore He is the God that is love. Lastly, a little after, when he had repeated the same thing, and had said \"God is love,\" he immediately subjoined, \"And he who abides in love, abides in God, and God abides in him;\" whence he had said above, \"Hereby we know that we abide in Him, and He in us, because He has given us of His Spirit.\" He therefore is signified, where we read that God is love. Therefore God the Holy Spirit, who proceeds from the Father, when He has been given to man, inflames him to the love of God and of his neighbor, and is Himself love. For man has not whence to love God, unless from God; and therefore he says a little after, \"Let us love Him, because He first loved us.\" The Apostle Paul, too, says, \"The love of God is shed abroad in our hearts by the Holy Ghost, which is given unto us.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C17",
+    "durationSeconds": 555
   },
   "TRIN-B15C18": {
     "book": 15,
@@ -5158,9 +5158,9 @@ window.TRINITY_TEXT = {
         "text": "32. There is no gift of God more excellent than this. It alone distinguishes the sons of the eternal kingdom and the sons of eternal perdition. Other gifts, too, are given by the Holy Spirit; but without love they profit nothing. Unless, therefore, the Holy Spirit is so far imparted to each, as to make him one who loves God and his neighbor, he is not removed from the left hand to the right. Nor is the Spirit specially called the Gift, unless on account of love. And he who has not this love, \"though he speak with the tongues of men and angels, is sounding brass and a tinkling cymbal; and though he have the gift of prophecy, and know all mysteries and all knowledge, and though he have all faith, so that he can remove mountains, he is nothing; and though he bestow all his goods to feed the poor, and though he give his body to be burned, it profits him nothing.\" How great a good, then, is that without which goods so great bring no one to eternal life! But love or charity itself — for they are two names for one thing — if he have it that does not speak with tongues, nor has the gift of prophecy, nor knows all mysteries and all knowledge, nor gives all his goods to the poor, either because he has none to give or because some necessity hinders, nor delivers his body to be burned, if no trial of such a suffering overtakes him, brings that man to the kingdom, so that faith itself is only rendered profitable by love, since faith without love can indeed exist, but cannot profit. And therefore also the Apostle Paul says, \"In Christ Jesus neither circumcision avails anything, nor uncircumcision, but faith that works by love:\" so distinguishing it from that faith by which even \"the devils believe and tremble.\" Love, therefore, which is of God and is God, is specially the Holy Spirit, by whom the love of God is shed abroad in our hearts, by which love the whole Trinity dwells in us. And therefore most rightly is the Holy Spirit, although He is God, called also the gift of God. And by that gift what else can properly be understood except love, which brings to God, and without which any other gift of God whatsoever does not bring to God?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C18",
+    "durationSeconds": 127
   },
   "TRIN-B15C19": {
     "book": 15,
@@ -5188,9 +5188,9 @@ window.TRINITY_TEXT = {
         "text": "37. Wherefore, if Holy Scripture proclaims that God is love, and that love is of God, and works this in us that we abide in God and He in us, and that hereby we know this, because He has given us of His Spirit, then the Spirit Himself is God, who is love. Next, if there be among the gifts of God none greater than love, and there is no greater gift of God than the Holy Spirit, what follows more naturally than that He is Himself love, who is called both God and of God? And if the love by which the Father loves the Son, and the Son loves the Father, ineffably demonstrates the communion of both, what is more suitable than that He should be specially called love, who is the Spirit common to both? For this is the sounder thing both to believe and to understand, that the Holy Spirit is not alone love in that Trinity, yet is not specially called love to no purpose, for the reasons we have alleged; just as He is not alone in that Trinity either a Spirit or holy, since both the Father is a Spirit, and the Son is a Spirit; and both the Father is holy, and the Son is holy — as piety doubts not. And yet it is not to no purpose that He is specially called the Holy Spirit; for because He is common to both, He is specially called that which both are in common. Otherwise, if in that Trinity the Holy Spirit alone is love, then doubtless the Son too turns out to be the Son, not of the Father only, but also of the Holy Spirit. For He is both said and read in countless places to be so — the only-begotten Son of God the Father; as that what the apostle says of God the Father is true too: \"Who has delivered us from the power of darkness and has translated us into the kingdom of the Son of His own love.\" He did not say, \"of His own Son.\" If He had so said, He would have said it most truly, just as He did say it most truly, because He has often said it; but He says, \"the Son of His own love.\" Therefore He is the Son also of the Holy Spirit, if there is in that Trinity no love in God except the Holy Spirit. And if this is most absurd, it remains that the Holy Spirit is not alone therein love, but is specially so called for the reasons I have sufficiently set forth; and that the words, \"Son of His own love,\" mean nothing else than His own beloved Son — the Son, in short, of His own substance. For the love in the Father, which is in His ineffably simple nature, is nothing else than His very nature and substance itself — as we have already often said, and are not ashamed of often repeating. And hence the \"Son of His love,\" is none other than He who is born of His substance."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C19",
+    "durationSeconds": 589
   },
   "TRIN-B15C20": {
     "book": 15,
@@ -5206,9 +5206,9 @@ window.TRINITY_TEXT = {
         "text": "39. I see that my argument in this book respecting the Holy Spirit, according to the Holy Scripture, is quite enough for faithful men who know already that the Holy Spirit is God, and not of another substance, nor less than the Father and the Son — as we have shown to be true in the former books, according to the same Scriptures. We have reasoned also from the creature which God made, and, as far as we could, have warned those who demand a reason on such subjects to behold and understand His invisible things, so far as they could, by those things which are made and especially by the rational or intellectual creature which is made after the image of God; through which glass, so to say, they might discern as far as they could, if they could, the Trinity which is God, in our own memory, understanding, will. Which three things, if any one intelligently regards as by nature divinely appointed in his own mind, and remembers by memory, contemplates by understanding, embraces by love, how great a thing that is in the mind, whereby even the eternal and unchangeable nature can be recollected, beheld, desired, doubtless that man finds an image of that highest Trinity. And he ought to refer the whole of his life to the remembering, seeing, loving that highest Trinity, in order that he may recollect, contemplate, be delighted by it. But I have warned him, so far as seemed sufficient, that he must not so compare this image thus wrought by that Trinity, and by his own fault changed for the worse, to that same Trinity as to think it in all points like to it, but rather that he should discern in that likeness, of whatever sort it be, a great unlikeness also."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C20",
+    "durationSeconds": 250
   },
   "TRIN-B15C21": {
     "book": 15,
@@ -5224,9 +5224,9 @@ window.TRINITY_TEXT = {
         "text": "41. But I have shown nothing in this enigma respecting the Holy Spirit such as might appear to be like Him, except our own will, or love, or affection, which is a stronger will, since our will which we have naturally is variously affected, according as various objects are adjacent or occur to it, by which we are attracted or offended. What, then, is this? Are we to say that our will, when it is right, knows not what to desire, what to avoid? Further, if it knows, doubtless then it has a kind of knowledge of its own, such as cannot be without memory and understanding. Or are we to listen to any one who should say that love knows not what it does, which does not do wrongly? As, then, there are both understanding and love in that primary memory wherein we find provided and stored up that to which we can come in thought, because we find also those two things there, when we find by thinking that we both understand and love anything; which things were there too when we were not thinking of them: and as there are memory and love in that understanding, which is formed by thought, which true word we say inwardly without the tongue of any nation when we say what we know; for the gaze of our thought does not return to anything except by remembering it, and does not care to return unless by loving it: so love, which combines the vision brought about in the memory, and the vision of the thought formed thereby, as if parent and offspring, would not know what to love rightly unless it had a knowledge of what it desired, which it cannot have without memory and understanding."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C21",
+    "durationSeconds": 171
   },
   "TRIN-B15C22": {
     "book": 15,
@@ -5238,9 +5238,9 @@ window.TRINITY_TEXT = {
         "text": "42. But since these are in one person, as man is, some one may say to us, These three things, memory, understanding, and love, are mine, not their own; neither do they do that which they do for themselves, but for me, or rather I do it by them. For it is I who remember by memory, and understand by understanding, and love by love: and when I direct the mind's eye to my memory, and so say in my heart the thing I know, and a true word is begotten of my knowledge, both are mine, both the knowledge certainly and the word. For it is I who know, and it is I who say in my heart the thing I know. And when I come to find in my memory by thinking that I understand and love anything, which understanding and love were there also before I thought thereon, it is my own understanding and my own love that I find in my own memory, whereby it is I that understand, and I that love, not those things themselves. Likewise, when my thought is mindful, and wills to return to those things which it had left in the memory, and to understand and behold them, and say them inwardly, it is my own memory that is mindful, and it is my own, not its will, wherewith it wills. When my very love itself, too, remembers and understands what it ought to desire and what to avoid, it remembers by my, not by its own memory; and understands that which it intelligently loves by my, not by its own, understanding. In brief, by all these three things, it is I that remember, I that understand, I that love, who am neither memory, nor understanding, nor love, but who have them. These things, then, can be said by a single person, which has these three, but is not these three. But in the simplicity of that Highest Nature, which is God, although there is one God, there are three persons, the Father, the Son, and the Holy Spirit."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C22",
+    "durationSeconds": 114
   },
   "TRIN-B15C23": {
     "book": 15,
@@ -5256,9 +5256,9 @@ window.TRINITY_TEXT = {
         "text": "44. But when the sight shall have come which is promised anew to us face to face, we shall see this not only incorporeal but also absolutely indivisible and truly unchangeable Trinity far more clearly and certainly than we now see its image which we ourselves are: and yet they who see through this glass and in this enigma, as it is permitted in this life to see, are not those who behold in their own mind the things which we have set in order and pressed upon them; but those who see this as if an image, so as to be able to refer what they see, in some way be it what it may, to Him whose image it is, and to see that also by conjecturing, which they see through the image by beholding, since they cannot yet see face to face. For the apostle does not say, We see now a glass, but, We see now through a glass."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C23",
+    "durationSeconds": 252
   },
   "TRIN-B15C24": {
     "book": 15,
@@ -5270,9 +5270,9 @@ window.TRINITY_TEXT = {
         "text": "They, then, who see their own mind, in whatever way that is possible, and in it that Trinity of which I have treated as I could in many ways, and yet do not believe or understand it to be an image of God, see indeed a glass, but do not so far see through the glass Him who is now to be seen through the glass, that they do not even know the glass itself which they see to be a glass, i.e. an image. And if they knew this, perhaps they would feel that He too whose glass this is, should by it be sought, and somehow provisionally be seen, an unfeigned faith purging their hearts, that He who is now seen through a glass may be able to be seen face to face. And if they despise this faith that purifies the heart, what do they accomplish by understanding the most subtle disputes concerning the nature of the human mind, unless that they be condemned also by the witness of their own understanding? And they would certainly not so fail in understanding, and hardly arrive at anything certain, were they not involved in penal darkness, and burdened with the corruptible body that presses down the soul. And for what demerit save that of sin is this evil inflicted on them? Wherefore, being warned by the magnitude of so great an evil, they ought to follow the Lamb that takes away the sins of the world."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C24",
+    "durationSeconds": 73
   },
   "TRIN-B15C25": {
     "book": 15,
@@ -5288,9 +5288,9 @@ window.TRINITY_TEXT = {
         "text": "45. There we shall see the truth without any difficulty, and shall enjoy it to the full, most clear and most certain. Nor shall we be inquiring into anything by a mind that reasons, but shall discern by a mind that contemplates, why the Holy Spirit is not a Son, although He proceeds from the Father. In that light there will be no place for inquiry: but here, by experience itself it has appeared to me so difficult — as beyond doubt it will likewise appear to them also who shall carefully and intelligently read what I have written — that although in the second book I promised that I would speak thereof in another place, yet as often as I have desired to illustrate it by the creaturely image of it which we ourselves are, so often, let my meaning be of what sort it might, did adequate utterance entirely fail me; nay, even in my very meaning I felt that I had attained to endeavor rather than accomplishment. I had indeed found in one person, such as is a man, an image of that Highest Trinity, and had desired, especially in the ninth book, to illustrate and render more intelligible the relation of the Three Persons by that which is subject to time and change. But three things belonging to one person cannot suit those Three Persons, as man's purpose demands; and this we have demonstrated in this fifteenth book."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C25",
+    "durationSeconds": 144
   },
   "TRIN-B15C26": {
     "book": 15,
@@ -5310,9 +5310,9 @@ window.TRINITY_TEXT = {
         "text": "47. Are we therefore able to ask whether the Holy Spirit had already proceeded from the Father when the Son was born, or had not yet proceeded; and when He was born, proceeded from both, wherein there is no such thing as distinct times: just as we have been able to ask, in a case where we do find times, that the will proceeds from the human mind first, in order that that may be sought which, when found, may be called offspring; which offspring being already brought forth or born, that will is made perfect, resting in this end, so that what had been its desire when seeking, is its love when enjoying; which love now proceeds from both, i.e. from the mind that begets, and from the notion that is begotten, as if from parent and offspring? These things it is absolutely impossible to ask in this case, where nothing is begun in time, so as to be perfected in a time following. Wherefore let him who can understand the generation of the Son from the Father without time, understand also the procession of the Holy Spirit from both without time. And let him who can understand, in that which the Son says, \"As the Father has life in Himself, so has He given to the Son to have life in Himself,\" not that the Father gave life to the Son already existing without life, but that He so begot Him apart from time, that the life which the Father gave to the Son by begetting Him is co-eternal with the life of the Father who gave it: let him, I say, understand, that as the Father has in Himself that the Holy Spirit should proceed from Him, so has He given to the Son that the same Holy Spirit should proceed from Him, and be both apart from time: and that the Holy Spirit is so said to proceed from the Father as that it be understood that His proceeding also from the Son, is a property derived by the Son from the Father. For if the Son has of the Father whatever He has, then certainly He has of the Father, that the Holy Spirit proceeds also from Him. But let no one think of any times therein which imply a sooner and a later; because these things are not there at all. How, then, would it not be most absurd to call Him the Son of both: when, just as generation from the Father, without any changeableness of nature, gives to the Son essence, without beginning of time; so procession from both, without any changeableness of nature, gives to the Holy Spirit essence without beginning of time? For while we do not say that the Holy Spirit is begotten, yet we do not therefore dare to say that He is unbegotten, lest any one suspect in this word either two Fathers in that Trinity, or two who are not from another. For the Father alone is not from another, and therefore He alone is called unbegotten, not indeed in the Scriptures, but in the usage of disputants, who employ such language as they can on so great a subject. And the Son is born of the Father; and the Holy Spirit proceeds from the Father principally, the Father giving the procession without any interval of time, yet in common from both [Father and Son]. But He would be called the Son of the Father and of the Son, if — a thing abhorrent to the feeling of all sound minds — both had begotten Him. Therefore the Spirit of both is not begotten of both, but proceeds from both."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C26",
+    "durationSeconds": 375
   },
   "TRIN-B15C27": {
     "book": 15,
@@ -5332,9 +5332,9 @@ window.TRINITY_TEXT = {
         "text": "50. But among these many things which I have now said, and of which there is nothing that I dare to profess myself to have said worthy of the ineffableness of that highest Trinity, but rather to confess that the wonderful knowledge of Him is too great for me, and that I cannot attain to it: O you, my soul, where do you feel yourself to be? Where do you lie? Where do you stand? Until all your infirmities be healed by Him who has forgiven all your iniquities. You perceive yourself assuredly to be in that inn whither that Samaritan brought him whom he found with many wounds inflicted by thieves, half-dead. And yet you have seen many things that are true, not by those eyes by which colored objects are seen, but by those for which he prayed who said, \"Let my eyes behold the things that are equal.\" Certainly, then, you have seen many things that are true, and hast distinguished them from that light by the light of which you have seen them. Lift up your eyes to the light itself, and fix them upon it if you can. For so you will see how the birth of the Word of God differs from the procession of the Gift of God, on account of which the only-begotten Son did not say that the Holy Spirit is begotten of the Father, otherwise He would be His brother, but that He proceeds from Him. Whence, since the Spirit of both is a kind of consubstantial communion of Father and Son, He is not called, far be it from us to say so, the Son of both. But you can not fix your sight there, so as to discern this lucidly and clearly; I know you can not. I say the truth, I say to myself, I know what I cannot do; yet that light itself shows to you these three things in yourself, wherein you may recognize an image of the highest Trinity itself, which you can not yet contemplate with steady eye. Itself shows to you that there is in you a true word, when it is born of your knowledge, i.e. when we say what we know: although we neither utter nor think of any articulate word that is significant in any tongue of any nation, but our thought is formed by that which we know; and there is in the mind's eye of the thinker an image resembling that thought which the memory contained, will or love as a third combining these two as parent and offspring. And he who can, sees and discerns that this will proceeds indeed from thought (for no one wills that of which he is absolutely ignorant what or of what sort it is), yet is not an image of the thought: and so that there is insinuated in this intelligible thing a sort of difference between birth and procession, since to behold by thought is not the same as to desire, or even to enjoy will. You, too, hast been able [to discern this], although you have not been, neither art, able to unfold with adequate speech what, amidst the clouds of bodily likenesses, which cease not to flit up and down before human thoughts, you have scarcely seen. But that light which is not yourself shows you this too, that these incorporeal likenesses of bodies are different from the truth, which, by rejecting them, we contemplate with the understanding. These, and other things similarly certain, that light has shown to your inner eyes. What reason, then, is there why you can not see that light itself with steady eye, except certainly infirmity? And what has produced this in you, except iniquity? Who, then, is it that heals all your infirmities, unless it be He that forgives all your iniquities? And therefore I will now at length finish this book by a prayer better than by an argument."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C27",
+    "durationSeconds": 478
   },
   "TRIN-B15C28": {
     "book": 15,
@@ -5346,8 +5346,8 @@ window.TRINITY_TEXT = {
         "text": "51. O Lord our God, we believe in You, the Father and the Son and the Holy Spirit. For the Truth would not say, Go, baptize all nations in the name of the Father and of the Son and of the Holy Spirit, unless You were a Trinity. Nor would you, O Lord God, bid us to be baptized in the name of Him who is not the Lord God. Nor would the divine voice have said, Hear, O Israel, the Lord your God is one God, unless You were so a Trinity as to be one Lord God. And if You, O God, were Yourself the Father, and were Yourself the Son, Your Word Jesus Christ, and the Holy Spirit your gift, we should not read in the book of truth, \"God sent His Son;\" nor would You, O Only-begotten, say of the Holy Spirit, \"Whom the Father will send in my name;\" and, \"Whom I will send to you from the Father.\" Directing my purpose by this rule of faith, so far as I have been able, so far as You have made me to be able, I have sought You, and have desired to see with my understanding what I believed; and I have argued and labored much. O Lord my God, my one hope, hearken to me, lest through weariness I be unwilling to seek You, \"but that I may always ardently seek Your face.\" Do Thou give strength to seek, who has made me find You, and has given the hope of finding You more and more. My strength and my infirmity are in Your sight: preserve the one, and heal the other. My knowledge and my ignorance are in Your sight; where You have opened to me, receive me as I enter; where You have closed, open to me as I knock. May I remember You, understand You, love You. Increase these things in me, until You renew me wholly. I know it is written, \"In the multitude of speech, you shall not escape sin.\" But O that I might speak only in preaching Your word, and in praising You! Not only should I so flee from sin, but I should earn good desert, however much I so spoke. For a man blessed of You would not enjoin a sin upon his own true son in the faith, to whom he wrote, \"Preach the word: be instant in season, out of season.\" Are we to say that he has not spoken much, who was not silent about Your word, O Lord, not only in season, but out of season? But therefore it was not much, because it was only what was necessary. Set me free, O God, from that multitude of speech which I suffer inwardly in my soul, wretched as it is in Your sight, and flying for refuge to Your mercy; for I am not silent in thoughts, even when silent in words. And if, indeed, I thought of nothing save what pleased You, certainly I would not ask You to set me free from such multitude of speech. But many are my thoughts, such as You know, \"thoughts of man, since they are vain.\" Grant to me not to consent to them; and if ever they delight me, nevertheless to condemn them, and not to dwell in them, as though I slumbered. Nor let them so prevail in me, as that anything in my acts should proceed from them; but at least let my opinions, let my conscience, be safe from them, under Your protection. When the wise man spoke of You in his book, which is now called by the special name of Ecclesiasticus, \"We speak,\" he said, \"much, and yet come short; and in sum of words, He is all.\" When, therefore, we shall have come to You, these very many things that we speak, and yet come short, will cease; and You, as One, will remain \"all in all.\" And we shall say one thing without end, in praising You in One, ourselves also made one in You. O Lord the one God, God the Trinity, whatever I have said in these books that is of Yours, may they acknowledge who are Yours; if anything of my own, may it be pardoned both by You and by those who are Yours. Amen."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B15C28",
+    "durationSeconds": 156
   }
 };
