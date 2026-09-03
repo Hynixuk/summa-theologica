@@ -285,6 +285,16 @@ body {
   color: var(--ink-soft);
   border-bottom: 1px solid var(--rule);
 }
+.menu-footer-links {
+  padding: 14px 16px 4px;
+  text-align: center;
+}
+.menu-footer-links a {
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  text-decoration: underline;
+}
+.menu-footer-links a:hover { color: var(--accent); }
 
 .drawer-tree {
   overflow-y: auto;
