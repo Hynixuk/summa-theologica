@@ -8,17 +8,27 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+let GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_USER = 'Hynixuk';
 const GITHUB_REPO = 'summa-theologica';
-const RELEASE_TAG = 'audio-v1';
-const RELEASE_NAME = 'Audio Files';
 const AUDIO_DIR = path.join(__dirname, '..', 'audio');
+const MAX_FILES_PER_RELEASE = 1000;
+const RELEASES = [
+  { tag: 'audio-v1', name: 'Audio Files v1' },
+  { tag: 'audio-v2', name: 'Audio Files v2' }
+];
 
-if (!GITHUB_TOKEN) {
-  console.error('Error: GITHUB_TOKEN environment variable not set');
-  process.exit(1);
+async function getToken() {
+  if (GITHUB_TOKEN) return GITHUB_TOKEN;
+
+  return new Promise((resolve) => {
+    let token = '';
+    process.stdin.setEncoding('utf-8');
+    process.stdin.on('data', chunk => { token += chunk; });
+    process.stdin.on('end', () => { resolve(token.trim()); });
+  });
 }
+
 
 const headers = {
   'Authorization': `token ${GITHUB_TOKEN}`,
@@ -102,6 +112,11 @@ async function uploadFile(releaseId, filePath) {
 
 async function main() {
   try {
+    GITHUB_TOKEN = await getToken();
+    if (!GITHUB_TOKEN) {
+      console.error('Error: GITHUB_TOKEN not provided');
+      process.exit(1);
+    }
     console.log('Checking for audio files...');
     const audioFiles = [];
 
@@ -119,64 +134,88 @@ async function main() {
     }
 
     walkDir(AUDIO_DIR);
-    console.log(`Found ${audioFiles.length} audio files`);
+    audioFiles.sort();
+    console.log(`Found ${audioFiles.length} audio files\n`);
 
-    // Check if release exists
-    console.log(`\nChecking for release '${RELEASE_TAG}'...`);
-    let releaseId;
-    try {
-      const release = await apiCall('GET', `/repos/${GITHUB_USER}/${GITHUB_REPO}/releases/tags/${RELEASE_TAG}`);
-      releaseId = release.id;
-      console.log(`Release exists (ID: ${releaseId})`);
-    } catch (e) {
-      console.log(`Creating release '${RELEASE_TAG}'...`);
-      const release = await apiCall('POST', `/repos/${GITHUB_USER}/${GITHUB_REPO}/releases`, {
-        tag_name: RELEASE_TAG,
-        name: RELEASE_NAME,
-        body: 'Audio files for Summa Theologica, Summa Contra Gentiles, and Aristotle\'s Metaphysics',
-        draft: false,
-        prerelease: false
-      });
-      releaseId = release.id;
-      console.log(`Release created (ID: ${releaseId})`);
+    const releaseIds = {};
+    for (const { tag, name } of RELEASES) {
+      console.log(`Checking for release '${tag}'...`);
+      try {
+        const release = await apiCall('GET', `/repos/${GITHUB_USER}/${GITHUB_REPO}/releases/tags/${tag}`);
+        releaseIds[tag] = release.id;
+        console.log(`  ✓ Release exists (ID: ${release.id})`);
+      } catch (e) {
+        console.log(`  Creating release '${tag}'...`);
+        const release = await apiCall('POST', `/repos/${GITHUB_USER}/${GITHUB_REPO}/releases`, {
+          tag_name: tag,
+          name: name,
+          body: 'Audio files for Summa Theologica, Summa Contra Gentiles, and Aristotle\'s Metaphysics',
+          draft: false,
+          prerelease: false
+        });
+        releaseIds[tag] = release.id;
+        console.log(`  ✓ Release created (ID: ${release.id})`);
+      }
     }
 
-    // Upload files
-    console.log(`\nUploading ${audioFiles.length} files...`);
-    let uploaded = 0;
-    let skipped = 0;
-    let failed = 0;
+    // Distribute files across releases (up to MAX_FILES_PER_RELEASE per release)
+    console.log(`\nDistributing ${audioFiles.length} files across releases...`);
+    const filesByRelease = {};
+    const releaseList = RELEASES.map(r => r.tag);
 
-    for (const file of audioFiles) {
-      const fileName = path.relative(AUDIO_DIR, file);
-      process.stdout.write(`[${uploaded + skipped + failed + 1}/${audioFiles.length}] ${fileName}... `);
+    for (let i = 0; i < audioFiles.length; i++) {
+      const releaseIdx = Math.floor(i / MAX_FILES_PER_RELEASE);
+      const tag = releaseList[releaseIdx];
+      if (!filesByRelease[tag]) filesByRelease[tag] = [];
+      filesByRelease[tag].push(audioFiles[i]);
+    }
 
-      try {
-        await uploadFile(releaseId, file);
-        console.log('✓');
-        uploaded++;
-      } catch (e) {
-        if (e.message.includes('already exists')) {
-          console.log('(already exists)');
-          skipped++;
-        } else {
-          console.log(`✗ ${e.message}`);
-          failed++;
+    let totalUploaded = 0;
+    let totalSkipped = 0;
+    let totalFailed = 0;
+
+    for (const { tag } of RELEASES) {
+      const files = filesByRelease[tag] || [];
+      if (files.length === 0) continue;
+
+      console.log(`\nUploading to ${tag} (${files.length} files)...`);
+      const releaseId = releaseIds[tag];
+
+      for (const file of files) {
+        const fileName = path.relative(AUDIO_DIR, file);
+        process.stdout.write(`  [${totalUploaded + totalSkipped + totalFailed + 1}/${audioFiles.length}] ${fileName}... `);
+
+        try {
+          await uploadFile(releaseId, file);
+          console.log('✓');
+          totalUploaded++;
+        } catch (e) {
+          if (e.message.includes('already exists')) {
+            console.log('(already exists)');
+            totalSkipped++;
+          } else {
+            console.log(`✗ ${e.message}`);
+            totalFailed++;
+          }
         }
       }
     }
 
     console.log(`\n✓ Upload complete!`);
-    console.log(`  Uploaded: ${uploaded}`);
-    console.log(`  Skipped: ${skipped}`);
-    console.log(`  Failed: ${failed}`);
+    console.log(`  Uploaded: ${totalUploaded}`);
+    console.log(`  Skipped: ${totalSkipped}`);
+    console.log(`  Failed: ${totalFailed}`);
 
-    if (failed === 0) {
+    if (totalFailed === 0) {
       console.log(`\n✓ All audio files are now available at:`);
-      console.log(`  https://github.com/${GITHUB_USER}/${GITHUB_REPO}/releases/tag/${RELEASE_TAG}`);
-      console.log(`\nAudio is ready! The app will auto-load tracks.`);
+      RELEASES.forEach(({ tag }) => {
+        if (filesByRelease[tag] && filesByRelease[tag].length > 0) {
+          console.log(`  https://github.com/${GITHUB_USER}/${GITHUB_REPO}/releases/tag/${tag}`);
+        }
+      });
+      console.log(`\nAudio is ready! The app will auto-load tracks from all releases.`);
     } else {
-      console.log(`\n⚠ ${failed} files failed to upload. Run again to retry.`);
+      console.log(`\n⚠ ${totalFailed} files failed to upload. Run again to retry.`);
     }
 
   } catch (error) {

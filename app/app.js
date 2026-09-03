@@ -1242,6 +1242,8 @@
       var qEl = document.createElement('fieldset');
       qEl.className = 'quiz-q';
 
+      // Use textContent (not innerHTML) to render quiz questions as plain text,
+      // preventing unintended link styling or HTML injection.
       var legend = document.createElement('legend');
       legend.textContent = (qIdx + 1) + '. ' + item.q;
       qEl.appendChild(legend);
@@ -1258,6 +1260,7 @@
         input.name = 'quiz-' + storageKey + '-q' + qIdx;
         input.value = String(oIdx);
 
+        // Use textContent for option text to prevent unwanted HTML rendering
         var span = document.createElement('span');
         span.textContent = optText;
 
@@ -1310,6 +1313,7 @@
           else if (oIdx === selectedIdx) optLabel.classList.add('is-incorrect');
         });
 
+        // Use textContent for explanations to ensure plain text rendering
         explanation.textContent = item.explanation || '';
         explanation.hidden = false;
       });
