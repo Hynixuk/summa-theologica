@@ -5,6 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#8a2f2f">
 <title>Privacy Policy — Summa Theologica</title>
+<script>
+// Match index.html: apply the saved theme before first paint so there's no
+// flash of the wrong palette when navigating here from the app.
+(function () {
+  try {
+    var t = localStorage.getItem('summa-theme');
+    if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  } catch (e) {}
+})();
+</script>
 <link rel="stylesheet" href="styles.css">
 <style>
   body { padding: 24px 16px 60px; max-width: 720px; margin: 0 auto; }
@@ -18,7 +28,17 @@
   .legal table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.9rem; }
   .legal th, .legal td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
   .legal th { color: var(--ink-soft); font-weight: 600; }
-  .back-link { display: inline-block; margin-bottom: 20px; font-size: 0.88rem; }
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 20px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .back-link:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
