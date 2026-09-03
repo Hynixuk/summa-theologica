@@ -314,6 +314,7 @@
   var searchBtn = $('searchBtn'), searchOverlay = $('searchOverlay'), searchPanel = $('searchPanel');
   var searchInput = $('searchInput'), closeSearchBtn = $('closeSearchBtn'), searchResultsEl = $('searchResults');
   var speedBtn = $('speedBtn');
+  var aiToggle = $('aiToggle'), aiAnswerEl = $('aiAnswer');
 
   // ---- Drawer open/close ----
   function openDrawer() { drawer.classList.add('open'); scrim.classList.add('open'); }
@@ -1992,6 +1993,17 @@
   var MAX_RESULTS = 40;
   var MAX_SCAN_MATCHES = 400; // cap scoring work per keystroke on the full corpus
 
+  // Words too common to be useful as retrieval signals — stripped only for the
+  // lenient AI-grounding search below, not the exact keyword search, so
+  // natural-language questions ("why does Aquinas think...") aren't defeated by
+  // requiring every filler word to literally appear in the text.
+  var SEARCH_STOPWORDS = {
+    'a': 1, 'an': 1, 'the': 1, 'is': 1, 'are': 1, 'was': 1, 'were': 1, 'be': 1, 'been': 1,
+    'why': 1, 'what': 1, 'how': 1, 'does': 1, 'do': 1, 'did': 1, 'think': 1, 'thinks': 1,
+    'says': 1, 'said': 1, 'about': 1, 'to': 1, 'of': 1, 'in': 1, 'on': 1, 'for': 1, 'and': 1,
+    'or': 1, 'that': 1, 'this': 1, 'it': 1, 'not': 1, 'can': 1, 'according': 1
+  };
+
   function runSearch(query) {
     var normalized = query.toLowerCase().trim().replace(/\s+/g, ' ');
     var tokens = normalized.split(' ').filter(Boolean);
@@ -2012,6 +2024,232 @@
     scored.sort(function (a, b) { return b.score - a.score; });
     return scored.slice(0, MAX_RESULTS).map(function (s) {
       return { entry: s.entry, snippetHtml: buildSnippet(s.match, tokens), from: s.match.from, paragraphIndex: s.match.paragraphIndex };
+    });
+  }
+
+  // Looser variant for AI-answer grounding: scores every entry that contains
+  // ANY significant (non-stopword) query token, ranked the same way as
+  // runSearch, instead of requiring every token to be present. A natural
+  // question in English rarely reuses every one of its own words verbatim in
+  // the source text, so the strict AND search above is too brittle to power
+  // retrieval for it.
+  function runSearchLenient(query, maxResults) {
+    var normalized = query.toLowerCase().trim().replace(/\s+/g, ' ');
+    var allTokens = normalized.split(' ').filter(Boolean);
+    var tokens = allTokens.filter(function (t) { return !SEARCH_STOPWORDS[t]; });
+    if (!tokens.length) tokens = allTokens;
+    if (!tokens.length) return [];
+    var scored = [];
+    for (var i = 0; i < searchIndex.length; i++) {
+      var entry = searchIndex[i];
+      var hasAny = false;
+      for (var t = 0; t < tokens.length; t++) {
+        if (entry.combinedLower.indexOf(tokens[t]) !== -1) { hasAny = true; break; }
+      }
+      if (!hasAny) continue;
+      var analysis = analyzeEntry(entry, tokens, normalized);
+      if (!analysis) continue;
+      scored.push({ entry: entry, score: analysis.score, match: analysis.match });
+      if (scored.length >= MAX_SCAN_MATCHES) break;
+    }
+    scored.sort(function (a, b) { return b.score - a.score; });
+    return scored.slice(0, maxResults || 5).map(function (s) {
+      return { entry: s.entry, snippetHtml: buildSnippet(s.match, tokens), from: s.match.from, paragraphIndex: s.match.paragraphIndex };
+    });
+  }
+
+  function locationLabelFor(entry) {
+    if (entry.work === 'SCG') {
+      var bookMeta = scgBooks.filter(function (b) { return b.book === entry.book; })[0];
+      return 'SCG — Book ' + (bookMeta ? bookMeta.roman : entry.book) + ', Ch. ' + entry.chapter;
+    } else if (entry.work === 'META') {
+      var metaBookMeta = metaBooks.filter(function (b) { return b.book === entry.book; })[0];
+      return 'Metaphysics — Book ' + (metaBookMeta ? metaBookMeta.roman : entry.book) + ', Ch. ' + entry.chapter;
+    }
+    return (PART_NAMES[entry.part] || 'Part ' + entry.part) + ' — Q' + entry.question + ', Art. ' + entry.articleNumber;
+  }
+
+  // ---- AI search (in-browser LLM via WebLLM/WebGPU — no server, no API key) ----
+  // Runs entirely on-device: the model downloads once (cached by the browser)
+  // and every answer is generated locally. Grounded on the app's own existing
+  // search index so the model can only draw on text actually in the corpus,
+  // and is explicitly instructed to answer briefly and point the reader to the
+  // full passage rather than substitute for reading it.
+  // Preference order, most-preferred first — small-but-capable instruct models.
+  // Matched by substring against whatever WebLLM's current prebuilt list actually
+  // contains (rather than hardcoding one exact versioned ID) so a library update
+  // that renames/retires a quantization variant doesn't silently break this.
+  var AI_MODEL_PREFERENCE = ['Llama-3.2-1B-Instruct', 'Qwen2.5-1.5B-Instruct', 'Qwen2.5-0.5B-Instruct', 'gemma-2-2b-it'];
+  var _webllmModulePromise = null;
+  var _aiEngine = null;
+  var _aiEngineLoading = null;
+  var _aiQuerySeq = 0; // guards against a stale response landing after a newer query
+
+  function loadWebLLMModule() {
+    if (!_webllmModulePromise) {
+      _webllmModulePromise = import('https://esm.run/@mlc-ai/web-llm');
+    }
+    return _webllmModulePromise;
+  }
+
+  function pickAIModel(webllm) {
+    var list = (webllm.prebuiltAppConfig && webllm.prebuiltAppConfig.model_list) || [];
+    var ids = list.map(function (m) { return m.model_id; });
+    for (var i = 0; i < AI_MODEL_PREFERENCE.length; i++) {
+      var hit = ids.filter(function (id) { return id.indexOf(AI_MODEL_PREFERENCE[i]) === 0; })[0];
+      if (hit) return hit;
+    }
+    if (ids.length) return ids[0]; // last resort: whatever the library ships first
+    throw new Error('No AI models available from WebLLM.');
+  }
+
+  function getAIEngine(onProgress) {
+    if (_aiEngine) return Promise.resolve(_aiEngine);
+    if (_aiEngineLoading) return _aiEngineLoading;
+    _aiEngineLoading = loadWebLLMModule()
+      .then(function (webllm) {
+        var modelId = pickAIModel(webllm);
+        return webllm.CreateMLCEngine(modelId, { initProgressCallback: onProgress });
+      })
+      .then(function (engine) {
+        _aiEngine = engine;
+        return engine;
+      })
+      .catch(function (err) {
+        _aiEngineLoading = null; // allow retrying on a subsequent query
+        throw err;
+      });
+    return _aiEngineLoading;
+  }
+
+  // Pull the fullest text available for one search-index entry (a handful of
+  // paragraphs), used as grounding context for the model — not just the short
+  // snippet shown in ordinary keyword results.
+  function entryContextText(entry) {
+    return entry.paragraphs.slice(0, 4).map(function (p) { return p.text; }).join(' ').slice(0, 900);
+  }
+
+  function renderAIAnswerShell() {
+    aiAnswerEl.hidden = false;
+    aiAnswerEl.innerHTML =
+      '<div class="ai-answer-label"><span class="ai-answer-spinner"></span><span id="aiAnswerStage">Loading on-device AI model…</span></div>' +
+      '<div id="aiAnswerBody" class="ai-answer-progress">This runs entirely in your browser. The model downloads once (a few hundred MB) and is cached for next time.</div>';
+  }
+
+  function setAIProgress(text) {
+    var stageEl = $('aiAnswerStage');
+    if (stageEl) stageEl.textContent = text;
+  }
+
+  function renderAIError(message) {
+    aiAnswerEl.innerHTML =
+      '<div class="ai-answer-label">AI answer</div>' +
+      '<div class="ai-answer-error">' + escapeHtml(message) + '</div>';
+  }
+
+  function renderAIAnswerText(text, sources, done) {
+    var label = done
+      ? '<div class="ai-answer-label">AI answer — always verify against the text</div>'
+      : '<div class="ai-answer-label"><span class="ai-answer-spinner"></span><span>Answering…</span></div>';
+    var html = label + '<div class="ai-answer-text">' + escapeHtml(text) + '</div>';
+    if (done && sources.length) {
+      html += '<div class="ai-answer-sources">' + sources.map(function (r, i) {
+        return '<button type="button" class="ai-answer-source" data-src-index="' + i + '">[' + (i + 1) + '] ' +
+          escapeHtml(locationLabelFor(r.entry)) + ' — ' + escapeHtml(r.entry.aTitle) + '</button>';
+      }).join('') + '</div>';
+    }
+    aiAnswerEl.innerHTML = html;
+    if (done) {
+      aiAnswerEl.querySelectorAll('.ai-answer-source').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var idx = parseInt(btn.dataset.srcIndex, 10);
+          var r = sources[idx];
+          if (r) activateResult(r);
+        });
+      });
+    }
+  }
+
+  function runAISearch(query) {
+    query = query.trim();
+    if (!query) { aiAnswerEl.hidden = true; return; }
+
+    var seq = ++_aiQuerySeq;
+    var sources = runSearchLenient(query, 5);
+
+    renderAIAnswerShell();
+
+    getAIEngine(function (report) {
+      if (seq !== _aiQuerySeq) return;
+      setAIProgress(report && report.text ? report.text : 'Loading on-device AI model…');
+    }).then(function (engine) {
+      if (seq !== _aiQuerySeq) return;
+      setAIProgress('Thinking…');
+
+      var context = sources.length
+        ? sources.map(function (r, i) {
+            return '[' + (i + 1) + '] ' + locationLabelFor(r.entry) + ' — ' + r.entry.aTitle + '\n' + entryContextText(r.entry);
+          }).join('\n\n')
+        : '(No closely matching passages were found in the corpus for this question.)';
+
+      var systemPrompt =
+        'You are a study assistant inside a reading app containing Aristotle\'s Metaphysics, ' +
+        'Aquinas\'s Summa Contra Gentiles, and Aquinas\'s Summa Theologica. Base your answer ONLY on ' +
+        'the numbered excerpts below, not outside knowledge.\n\n' +
+        'STRICT FORMAT — follow exactly:\n' +
+        '1. Write EXACTLY 2 short sentences of orienting answer. Never more.\n' +
+        '2. Then, on a new line, write one final sentence starting with "Read " naming which excerpt ' +
+        'number(s) have the full argument, e.g. "Read [2] for the complete argument."\n' +
+        '3. If no excerpt addresses the question, write one sentence saying so instead of steps 1-2.\n' +
+        'Do not restate the question. Do not write an introduction or a list. Stop after the "Read" sentence.\n\n' +
+        'Excerpts:\n' + context;
+
+      var accumulated = '';
+      return engine.chat.completions.create({
+        messages: [
+          { role: 'system', content: systemPrompt },
+          { role: 'user', content: query }
+        ],
+        stream: true,
+        temperature: 0.3,
+        max_tokens: 220 // keeps small on-device models from running past a brief answer
+      }).then(function (stream) {
+        return (async function () {
+          for await (var chunk of stream) {
+            if (seq !== _aiQuerySeq) return;
+            var delta = chunk.choices && chunk.choices[0] && chunk.choices[0].delta && chunk.choices[0].delta.content;
+            if (delta) {
+              accumulated += delta;
+              renderAIAnswerText(accumulated, sources, false);
+            }
+          }
+          if (seq === _aiQuerySeq) renderAIAnswerText(accumulated || 'No answer generated.', sources, true);
+        })();
+      });
+    }).catch(function (err) {
+      if (seq !== _aiQuerySeq) return;
+      console.error('[AI search]', err);
+      var msg = (err && /webgpu/i.test(String(err.message || err)))
+        ? 'This browser/device does not support the on-device AI model (requires WebGPU). Try a recent Chrome or Edge on desktop, or turn AI off to use keyword search.'
+        : 'Could not load or run the on-device AI model. Turn AI off to use keyword search instead.';
+      renderAIError(msg);
+    });
+  }
+
+  var AI_SEARCH_KEY = 'summa-ai-search';
+  function getAISearchOn() {
+    try { return localStorage.getItem(AI_SEARCH_KEY) === '1'; } catch (e) { return false; }
+  }
+  function setAISearchOn(on) {
+    try { localStorage.setItem(AI_SEARCH_KEY, on ? '1' : '0'); } catch (e) {}
+  }
+  if (aiToggle) {
+    aiToggle.checked = getAISearchOn();
+    aiToggle.addEventListener('change', function () {
+      setAISearchOn(aiToggle.checked);
+      aiAnswerEl.hidden = true;
+      aiAnswerEl.innerHTML = '';
+      if (aiToggle.checked && searchInput.value.trim()) runAISearch(searchInput.value);
     });
   }
 
@@ -2040,15 +2278,7 @@
 
       var loc = document.createElement('div');
       loc.className = 'search-result-loc';
-      if (r.entry.work === 'SCG') {
-        var bookMeta = scgBooks.filter(function (b) { return b.book === r.entry.book; })[0];
-        loc.textContent = 'SCG — Book ' + (bookMeta ? bookMeta.roman : r.entry.book) + ', Ch. ' + r.entry.chapter;
-      } else if (r.entry.work === 'META') {
-        var metaBookMeta = metaBooks.filter(function (b) { return b.book === r.entry.book; })[0];
-        loc.textContent = 'Metaphysics — Book ' + (metaBookMeta ? metaBookMeta.roman : r.entry.book) + ', Ch. ' + r.entry.chapter;
-      } else {
-        loc.textContent = (PART_NAMES[r.entry.part] || 'Part ' + r.entry.part) + ' — Q' + r.entry.question + ', Art. ' + r.entry.articleNumber;
-      }
+      loc.textContent = locationLabelFor(r.entry);
       btn.appendChild(loc);
 
       var title = document.createElement('div');
@@ -2134,7 +2364,9 @@
       closeSearch();
     } else if (e.key === 'Enter') {
       e.preventDefault();
-      if (searchActiveIndex >= 0 && searchResultItems[searchActiveIndex]) {
+      if (aiToggle && aiToggle.checked) {
+        runAISearch(searchInput.value);
+      } else if (searchActiveIndex >= 0 && searchResultItems[searchActiveIndex]) {
         activateResult(searchResultItems[searchActiveIndex]);
       }
     } else if (e.key === 'ArrowDown') {
@@ -2156,6 +2388,8 @@
     searchOverlay.classList.add('open');
     searchInput.value = '';
     renderSearchResults([], '');
+    aiAnswerEl.hidden = true;
+    aiAnswerEl.innerHTML = '';
     setTimeout(function () { searchInput.focus(); }, 10);
   }
   function closeSearch() {

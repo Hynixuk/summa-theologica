@@ -15,11 +15,24 @@ const AUDIO_DIR = path.join(__dirname, '..', 'audio');
 const MAX_FILES_PER_RELEASE = 1000;
 const RELEASES = [
   { tag: 'audio-v1', name: 'Audio Files v1' },
-  { tag: 'audio-v2', name: 'Audio Files v2' }
+  { tag: 'audio-v2', name: 'Audio Files v2' },
+  { tag: 'audio-v3', name: 'Audio Files v3' }
 ];
 
 async function getToken() {
   if (GITHUB_TOKEN) return GITHUB_TOKEN;
+
+  // Fall back to a local, gitignored .env.local file (KEY=VALUE per line)
+  // so the token never has to be typed into a shell command directly.
+  const envLocalPath = path.join(__dirname, '..', '.env.local');
+  if (fs.existsSync(envLocalPath)) {
+    const contents = fs.readFileSync(envLocalPath, 'utf-8');
+    const match = contents.match(/^GITHUB_TOKEN=(.+)$/m);
+    if (match) return match[1].trim();
+    // Also accept a file containing just the raw token, no KEY= prefix
+    const trimmed = contents.trim();
+    if (trimmed && !trimmed.includes('\n')) return trimmed;
+  }
 
   return new Promise((resolve) => {
     let token = '';
@@ -30,18 +43,20 @@ async function getToken() {
 }
 
 
-const headers = {
-  'Authorization': `token ${GITHUB_TOKEN}`,
-  'Accept': 'application/vnd.github.v3+json',
-  'User-Agent': 'summa-theologica-audio-upload'
-};
+function getHeaders() {
+  return {
+    'Authorization': `token ${GITHUB_TOKEN}`,
+    'Accept': 'application/vnd.github.v3+json',
+    'User-Agent': 'summa-theologica-audio-upload'
+  };
+}
 
 async function apiCall(method, path, body = null) {
   return new Promise((resolve, reject) => {
     const url = new URL(`https://api.github.com${path}`);
     const options = {
       method,
-      headers,
+      headers: getHeaders(),
       hostname: 'api.github.com',
       path: path,
       port: 443
@@ -79,7 +94,7 @@ async function uploadFile(releaseId, filePath) {
     const options = {
       method: 'POST',
       headers: {
-        ...headers,
+        ...getHeaders(),
         'Content-Type': 'application/octet-stream',
         'Content-Length': fileSize
       },
@@ -108,6 +123,19 @@ async function uploadFile(releaseId, filePath) {
     req.on('error', reject);
     fileStream.pipe(req);
   });
+}
+
+async function listAllAssets(releaseId) {
+  const names = new Set();
+  let page = 1;
+  for (;;) {
+    const batch = await apiCall('GET', `/repos/${GITHUB_USER}/${GITHUB_REPO}/releases/${releaseId}/assets?per_page=100&page=${page}`);
+    if (!batch || batch.length === 0) break;
+    batch.forEach(a => names.add(a.name));
+    if (batch.length < 100) break;
+    page++;
+  }
+  return names;
 }
 
 async function main() {
@@ -158,16 +186,53 @@ async function main() {
       }
     }
 
-    // Distribute files across releases (up to MAX_FILES_PER_RELEASE per release)
+    // Check each release's existing assets (names + count) so we know real
+    // remaining capacity — a release created in an earlier run may already be
+    // full or partially full, and re-uploading files GitHub already has
+    // wastes the 422 round-trip (and, worse, silently exhausts the 1000-file
+    // cap before we ever reach later releases if we assumed it started empty).
+    console.log(`\nChecking existing assets in each release...`);
+    const existingNames = {};
+    const existingCounts = {};
+    for (const { tag } of RELEASES) {
+      const names = await listAllAssets(releaseIds[tag]);
+      existingNames[tag] = names;
+      existingCounts[tag] = names.size;
+      console.log(`  ${tag}: ${names.size}/${MAX_FILES_PER_RELEASE} assets already present`);
+    }
+
+    // Distribute only files that are genuinely new to a release with spare
+    // capacity, filling releases in order.
     console.log(`\nDistributing ${audioFiles.length} files across releases...`);
     const filesByRelease = {};
     const releaseList = RELEASES.map(r => r.tag);
+    const remaining = {};
+    releaseList.forEach(tag => { remaining[tag] = MAX_FILES_PER_RELEASE - existingCounts[tag]; filesByRelease[tag] = []; });
 
-    for (let i = 0; i < audioFiles.length; i++) {
-      const releaseIdx = Math.floor(i / MAX_FILES_PER_RELEASE);
-      const tag = releaseList[releaseIdx];
-      if (!filesByRelease[tag]) filesByRelease[tag] = [];
-      filesByRelease[tag].push(audioFiles[i]);
+    let alreadyPresent = 0;
+    let unplaced = [];
+    for (const file of audioFiles) {
+      const fileName = path.basename(file);
+      let placed = false;
+      for (const tag of releaseList) {
+        if (existingNames[tag].has(fileName)) { alreadyPresent++; placed = true; break; }
+      }
+      if (placed) continue;
+      for (const tag of releaseList) {
+        if (remaining[tag] > 0) {
+          filesByRelease[tag].push(file);
+          remaining[tag]--;
+          placed = true;
+          break;
+        }
+      }
+      if (!placed) unplaced.push(file);
+    }
+
+    console.log(`  Already present (will skip): ${alreadyPresent}`);
+    releaseList.forEach(tag => console.log(`  To upload to ${tag}: ${filesByRelease[tag].length}`));
+    if (unplaced.length) {
+      console.log(`  ⚠ ${unplaced.length} files have no room in any configured release. Add another RELEASES entry.`);
     }
 
     let totalUploaded = 0;
