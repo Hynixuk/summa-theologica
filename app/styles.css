@@ -617,10 +617,27 @@ body {
   cursor: pointer;
 }
 .ai-answer-source:hover { background: var(--accent-soft); }
+.ai-answer-source-weak {
+  color: var(--danger);
+  font-weight: 600;
+  font-size: 0.78rem;
+}
 .ai-answer-error {
   font-size: 0.86rem;
   color: var(--ink-soft);
   line-height: 1.5;
+}
+.ai-answer-warning {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--danger);
+  background: var(--danger-soft);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+.ai-answer-stale {
+  opacity: 0.5;
 }
 
 .search-results {

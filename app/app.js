@@ -1517,7 +1517,11 @@
       return;
     }
     var t = trackInfo.track;
-    var resolved = new URL(t.file, window.location.href).href;
+    // Resolve through AUDIO_URLS (t.audioFile is the lookup key) exactly like
+    // SCG/Metaphysics audio does, rather than always building a same-origin
+    // URL from the local /audio/... path — that path was never actually
+    // deployed with the app (audio is hosted on GitHub Releases), so it 404s.
+    var resolved = resolveAudioUrl(t.audioFile);
     if (audioEl.dataset.currentFile !== t.file) {
       audioEl.src = resolved;
       audioEl.dataset.currentFile = t.file;
@@ -1956,10 +1960,26 @@
 
     if (!titleTokenCount && !qTitleTokenCount && !bestParaCount) return null;
 
+    // Distinct query tokens found ANYWHERE in the entry (title, question title,
+    // or body combined) — a breadth signal independent of where/how often they
+    // land. Used to tell a genuine multi-word match apart from a single
+    // incidental shared word (see sharedTokenCount below).
+    var sharedTokenCount = 0;
+    for (i = 0; i < tokens.length; i++) {
+      if (entry.combinedLower.indexOf(tokens[i]) !== -1) sharedTokenCount++;
+    }
+
     var score = titleTokenCount * 40 + qTitleTokenCount * 20 + bestParaCount * 10;
     if (phraseInTitle) score += 5000;
     else if (phraseParaIdx !== -1) score += 2000;
     else if (phraseInQTitle) score += 1000;
+    // A match that shares more than one distinct significant query word is a
+    // much stronger relevance signal than a match sharing just one — reward
+    // breadth so, e.g., a passage sharing two of a question's content words
+    // outranks a passage that only happens to contain one of them (even if
+    // that one word lands in its title). Without this, a single incidental
+    // shared word can win purely on the title/qtitle weight above.
+    if (tokens.length > 1 && sharedTokenCount > 1) score += 300 * (sharedTokenCount - 1);
 
     var match;
     if (titleTokenCount > 0) {
@@ -1973,7 +1993,7 @@
     } else {
       match = { from: 'qtitle', text: entry.qTitle, lower: entry.qTitleLower };
     }
-    return { score: score, match: match };
+    return { score: score, match: match, sharedTokenCount: sharedTokenCount };
   }
 
   // Build a short (~15 word) window of context around the first matching token,
@@ -2066,12 +2086,22 @@
       if (!hasAny) continue;
       var analysis = analyzeEntry(entry, tokens, normalized);
       if (!analysis) continue;
-      scored.push({ entry: entry, score: analysis.score, match: analysis.match });
+      scored.push({ entry: entry, score: analysis.score, match: analysis.match, sharedTokenCount: analysis.sharedTokenCount });
       if (scored.length >= MAX_SCAN_MATCHES) break;
     }
     scored.sort(function (a, b) { return b.score - a.score; });
     return scored.slice(0, maxResults || 5).map(function (s) {
-      return { entry: s.entry, snippetHtml: buildSnippet(s.match, tokens), from: s.match.from, paragraphIndex: s.match.paragraphIndex };
+      // Low confidence: the query had more than one significant (non-stopword)
+      // word, but this entry only actually shares one of them — the rest of
+      // the match's score, if any, comes from where that single word landed
+      // (e.g. a title), not from genuine topical overlap. This is exactly the
+      // "corrupted" habit-vs-Scripture case: one incidental shared word.
+      var lowConfidence = tokens.length > 1 && s.sharedTokenCount <= 1;
+      return {
+        entry: s.entry, snippetHtml: buildSnippet(s.match, tokens), from: s.match.from,
+        paragraphIndex: s.match.paragraphIndex, sharedTokenCount: s.sharedTokenCount,
+        queryTokenCount: tokens.length, lowConfidence: lowConfidence
+      };
     });
   }
 
@@ -2192,12 +2222,22 @@
     var lastSpace = excerpt.lastIndexOf(' ');
     if (lastSpace > 160) excerpt = excerpt.slice(0, lastSpace);
     var text = excerpt + '… Read the full passage below for the complete argument.';
+    // The retrieval that picked this passage is weak (see runSearchLenient's
+    // lowConfidence) — say so plainly instead of presenting a likely-irrelevant
+    // excerpt with the same confident framing as a real match.
+    var warning = top.lowConfidence
+      ? '<div class="ai-answer-warning">This is a weak match — it may only share an incidental word with ' +
+        'your question, not its actual topic. Verify it&rsquo;s relevant before relying on it, or try ' +
+        'rephrasing your question.</div>'
+      : '';
     var html =
       '<div class="ai-answer-label">Closest passage — on-device AI isn’t available on this device</div>' +
+      warning +
       '<div class="ai-answer-text">' + escapeHtml(text) + '</div>' +
       '<div class="ai-answer-sources">' + sources.map(function (r, i) {
         return '<button type="button" class="ai-answer-source" data-src-index="' + i + '">[' + (i + 1) + '] ' +
-          escapeHtml(locationLabelFor(r.entry)) + ' — ' + escapeHtml(r.entry.aTitle) + '</button>';
+          escapeHtml(locationLabelFor(r.entry)) + ' — ' + escapeHtml(r.entry.aTitle) +
+          (r.lowConfidence ? ' <span class="ai-answer-source-weak">(weak match)</span>' : '') + '</button>';
       }).join('') + '</div>';
     aiAnswerEl.innerHTML = html;
     aiAnswerEl.querySelectorAll('.ai-answer-source').forEach(function (btn) {
@@ -2211,6 +2251,7 @@
 
   function renderAIAnswerShell() {
     aiAnswerEl.hidden = false;
+    aiAnswerEl.classList.remove('ai-answer-stale');
     aiAnswerEl.innerHTML =
       '<div class="ai-answer-label"><span class="ai-answer-spinner"></span><span id="aiAnswerStage">Loading on-device AI model…</span></div>' +
       '<div id="aiAnswerBody" class="ai-answer-progress">This runs entirely in your browser. The model downloads once (a few hundred MB) and is cached for next time.</div>';
@@ -2228,14 +2269,20 @@
   }
 
   function renderAIAnswerText(text, sources, done) {
+    var allLowConfidence = sources.length > 0 && sources.every(function (r) { return r.lowConfidence; });
     var label = done
       ? '<div class="ai-answer-label">AI answer — always verify against the text</div>'
       : '<div class="ai-answer-label"><span class="ai-answer-spinner"></span><span>Answering…</span></div>';
-    var html = label + '<div class="ai-answer-text">' + escapeHtml(text) + '</div>';
+    var warning = (done && allLowConfidence)
+      ? '<div class="ai-answer-warning">The passages found for this question are weak matches — they may ' +
+        'only share an incidental word with it, not its actual topic. Treat this answer with extra caution.</div>'
+      : '';
+    var html = label + warning + '<div class="ai-answer-text">' + escapeHtml(text) + '</div>';
     if (done && sources.length) {
       html += '<div class="ai-answer-sources">' + sources.map(function (r, i) {
         return '<button type="button" class="ai-answer-source" data-src-index="' + i + '">[' + (i + 1) + '] ' +
-          escapeHtml(locationLabelFor(r.entry)) + ' — ' + escapeHtml(r.entry.aTitle) + '</button>';
+          escapeHtml(locationLabelFor(r.entry)) + ' — ' + escapeHtml(r.entry.aTitle) +
+          (r.lowConfidence ? ' <span class="ai-answer-source-weak">(weak match)</span>' : '') + '</button>';
       }).join('') + '</div>';
     }
     aiAnswerEl.innerHTML = html;
@@ -2252,13 +2299,14 @@
 
   function runAISearch(query) {
     query = query.trim();
-    if (!query) { aiAnswerEl.hidden = true; return; }
+    if (!query) { aiAnswerEl.hidden = true; aiAnswerEl.classList.remove('ai-answer-stale'); return; }
 
     var seq = ++_aiQuerySeq;
     var sources = runSearchLenient(query, 5);
 
     if (_aiConfirmedUnsupported) {
       aiAnswerEl.hidden = false;
+      aiAnswerEl.classList.remove('ai-answer-stale');
       renderExtractiveFallback(sources);
       return;
     }
@@ -2288,38 +2336,71 @@
 
       var context = sources.length
         ? sources.map(function (r, i) {
-            return '[' + (i + 1) + '] ' + locationLabelFor(r.entry) + ' — ' + r.entry.aTitle + '\n' + entryContextText(r.entry);
+            return '[' + (i + 1) + '] ' + locationLabelFor(r.entry) + ' — ' + r.entry.aTitle +
+              (r.lowConfidence ? ' (WEAK MATCH — only an incidental word in common with the question, likely off-topic)' : '') +
+              '\n' + entryContextText(r.entry);
           }).join('\n\n')
         : '(No closely matching passages were found in the corpus for this question.)';
 
+      var allLowConfidence = sources.length > 0 && sources.every(function (r) { return r.lowConfidence; });
+
+      // IMPORTANT: do not put a fully-written example answer in here. Earlier
+      // versions of this prompt included one (a worked "Q: Is the soul
+      // immortal? A: ... Read [3] for the complete argument." sample), and
+      // small on-device models under-trained on instruction-following will,
+      // when given weak/sparse grounding, sometimes just echo that vivid
+      // example back verbatim instead of answering the real question — the
+      // reader then sees an answer (and a citation number) for a completely
+      // different question than the one they asked, with nothing in the
+      // rendering pipeline able to tell the difference since, as far as the
+      // seq-guarded streaming code is concerned, it's a normal in-sequence
+      // response. Describing the format structurally, with no real sentence
+      // content to copy, closes that off at the source.
       var systemPrompt =
         'You are a study assistant inside a reading app containing Aristotle\'s Metaphysics, ' +
         'Aquinas\'s Summa Contra Gentiles, and Aquinas\'s Summa Theologica. Base your answer ONLY on ' +
-        'the numbered excerpts given, not outside knowledge. You MUST always state the actual answer ' +
-        'first — never skip straight to telling the reader where to read it.\n\n' +
-        'Every reply has exactly two parts, in this order:\n' +
+        'the numbered excerpts given below, and answer ONLY the exact question in the final "Question" ' +
+        'line — never answer any other question, and never reuse wording from these instructions ' +
+        'themselves as if it were an answer. You MUST always state the actual answer first — never skip ' +
+        'straight to telling the reader where to read it.\n\n' +
+        'Every reply has exactly two parts, in this order, with nothing before or between them:\n' +
         'PART 1 (required, never omit): 2 sentences that directly answer the question, giving the real ' +
-        'content of the answer.\n' +
-        'PART 2 (required, always last): 1 sentence starting with "Read " pointing to the excerpt ' +
-        'number(s) with the full argument.\n\n' +
-        'Example of a correctly formatted reply, given excerpt [3] on the soul\'s immortality:\n' +
-        'Q: Is the soul immortal?\n' +
-        'A: Yes — the intellectual soul does not depend on the body for its own act of understanding, ' +
-        'so it does not perish when the body does. Read [3] for the complete argument.\n\n' +
-        'If (and only if) none of the excerpts address the question at all, reply with a single sentence ' +
-        'saying so, and skip Part 1.\n\n' +
-        'Excerpts:\n' + context;
+        'content of the answer, in your own words, about THIS question only.\n' +
+        'PART 2 (required, always last): 1 sentence starting with "Read " naming the excerpt number(s) ' +
+        '(e.g. "Read [2]." or "Read [1, 3].") that contain the full argument — only numbers that appear ' +
+        'in the excerpts below.\n\n' +
+        'If (and only if) none of the excerpts actually address the question — including any excerpt ' +
+        'marked WEAK MATCH, which was retrieved only because it shares one incidental word with the ' +
+        'question and is probably NOT actually about it — reply with a single sentence saying the corpus ' +
+        'doesn\'t seem to address this question, and give no citation.\n\n' +
+        (allLowConfidence
+          ? 'IMPORTANT: every excerpt below is a weak match for this question — retrieval only found ' +
+            'incidental word overlap, not real topical relevance. Read them critically before answering.\n\n'
+          : '') +
+        'Excerpts:\n' + context + '\n\nQuestion: ' + query;
 
       var accumulated = '';
-      return engine.chat.completions.create({
-        messages: [
-          { role: 'system', content: systemPrompt },
-          { role: 'user', content: query }
-        ],
-        stream: true,
-        temperature: 0.3,
-        max_tokens: 220 // keeps small on-device models from running past a brief answer
+      // WebLLM serializes (queues) concurrent completions on the same engine
+      // rather than truly running them in parallel, but a still-running prior
+      // generation is otherwise left to finish on its own — pointlessly
+      // consuming the GPU and delaying this new answer until it does. Ask the
+      // engine to stop any in-flight generation before starting this one.
+      var interruptPrior = (typeof engine.interruptGenerate === 'function')
+        ? (function () { try { engine.interruptGenerate(); } catch (e) {} return Promise.resolve(); })()
+        : Promise.resolve();
+      return interruptPrior.then(function () {
+        if (seq !== _aiQuerySeq) return;
+        return engine.chat.completions.create({
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: query }
+          ],
+          stream: true,
+          temperature: 0.3,
+          max_tokens: 220 // keeps small on-device models from running past a brief answer
+        });
       }).then(function (stream) {
+        if (!stream) return;
         return (async function () {
           for await (var chunk of stream) {
             if (seq !== _aiQuerySeq) return;
@@ -2363,6 +2444,7 @@
     aiToggle.addEventListener('change', function () {
       setAISearchOn(aiToggle.checked);
       aiAnswerEl.hidden = true;
+      aiAnswerEl.classList.remove('ai-answer-stale');
       aiAnswerEl.innerHTML = '';
       if (aiToggle.checked && searchInput.value.trim()) runAISearch(searchInput.value);
     });
@@ -2471,6 +2553,14 @@
     searchDebounceTimer = setTimeout(function () {
       renderSearchResults(runSearch(query), query);
     }, 250);
+    // A previously-shown AI answer/fallback was generated for whatever text
+    // was in the box when Enter was last pressed — once the user edits that
+    // text further, the answer on screen no longer corresponds to what's in
+    // the box. Dim it rather than leaving it looking current until they
+    // press Enter again and the old content is abruptly replaced.
+    if (aiToggle && aiToggle.checked && !aiAnswerEl.hidden) {
+      aiAnswerEl.classList.add('ai-answer-stale');
+    }
   });
 
   searchInput.addEventListener('keydown', function (e) {
@@ -2504,6 +2594,7 @@
     searchInput.value = '';
     renderSearchResults([], '');
     aiAnswerEl.hidden = true;
+    aiAnswerEl.classList.remove('ai-answer-stale');
     aiAnswerEl.innerHTML = '';
     setTimeout(function () { searchInput.focus(); }, 10);
   }
