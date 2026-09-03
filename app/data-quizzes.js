@@ -36839,6 +36839,1231 @@ window.QUIZZES = {
         "correct": 0,
         "explanation": "Augustine distinguishes the Son as the perfect, equal 'Image' (begotten, not made) from man as merely 'after the image' (created, approaching God only through imperfect likeness), explaining why Genesis uses the plural 'our image,' referring to the whole Trinity rather than the Son's equal image alone."
       }
+    ],
+    "TRIN-B8C0": [
+      {
+        "q": "What rule does Augustine set for himself and the reader as Book VIII begins its deeper inquiry?",
+        "options": [
+          "That whatever has not yet been made clear to the intellect should nevertheless not be loosened from the firmness of faith",
+          "That every prior conclusion should be abandoned and the argument restarted from nothing",
+          "That only professional philosophers should attempt to follow the argument from this point on",
+          "That the reader should stop consulting Scripture and rely on reason alone from here forward"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly states the guiding rule for the more difficult inquiry ahead: intellectual clarity may lag behind, but faith's firm grasp on the truth already established should not be loosened in the meantime."
+      },
+      {
+        "q": "What equality does Augustine reaffirm at the outset of Book VIII, summarizing the argument of Books V-VII?",
+        "options": [
+          "That the Father and Son together are not greater than the Holy Spirit, and no single Person is less than the Trinity itself",
+          "That only the Father and Son are truly equal, while the Holy Spirit remains somewhat lesser",
+          "That equality within the Trinity applies only to moral goodness, not to divine power",
+          "That the three Persons are equal only in a metaphorical, not a literal, sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine recaps that there is such equality in the Trinity that the Father and Son together are not greater than the Holy Spirit, nor is any individual Person less than the whole Trinity — the culmination of the substance/relation argument of the prior books."
+      },
+      {
+        "q": "What does Augustine ask God to grant him as he begins this new, deeper stage of the inquiry?",
+        "options": [
+          "That God will open our understanding and take away the inclination of disputing, so our minds may discern the essence of truth, which has neither bulk nor movableness",
+          "That God will grant him victory in a public debate against Arian bishops",
+          "That God will reveal the exact number of angels present at creation",
+          "That God will provide him with additional Greek manuscripts to translate"
+        ],
+        "correct": 0,
+        "explanation": "Augustine prays specifically for illumination and freedom from mere contentious argument, so the mind can discern the truth's essence, which unlike bodies has 'neither bulk nor movableness.'"
+      }
+    ],
+    "TRIN-B8C1": [
+      {
+        "q": "What is Augustine's key premise for arguing that 'two or three Persons are not anything greater than one'?",
+        "options": [
+          "That in respect to the substance of truth, to be more truly is to be greater, and since the Father and Son together are not 'more truly' than either singly, they are not greater either",
+          "That the human eye cannot perceive spiritual magnitudes, so the question is meaningless",
+          "That only the Father possesses true magnitude, while the Son and Spirit have none at all",
+          "That magnitude in God refers exclusively to physical size, which does not apply to any of the three Persons"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's core logical move: since 'to be great' equals 'to be true' in the realm of eternal, unchangeable being, and no combination of Persons is 'more truly' than another, no combination can be 'more great' either."
+      },
+      {
+        "q": "Why does Augustine say ordinary 'carnal perception' resists the claim that three Persons are not greater than one?",
+        "options": [
+          "Because carnal perception grasps only created things (where magnitude and truth vary independently) and cannot discern the truth itself by which those created things exist, unlike the intelligible and unchangeable realm where all things are equally and eternally true",
+          "Because carnal perception is inherently evil and incapable of any theological reasoning",
+          "Because Augustine believes ordinary human senses are always completely reliable except in this one case",
+          "Because carnal perception was invented specifically to oppose the doctrine of the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that carnal (bodily-oriented) perception is used to created things, where magnitude and truth genuinely can differ, so it struggles with the intelligible, unchangeable realm where all things are equally and eternally true, and hence equally great."
+      },
+      {
+        "q": "What is Augustine's concluding syllogism regarding the Trinity's magnitude in this chapter?",
+        "options": [
+          "Since to be true is the same as to be, and to be is the same as to be great, then to be great is the same as to be true — and what is equally true must also be equally great, so the Trinity is exactly as great as each Person within it",
+          "Since the Father is greater in age, He must also be greater in magnitude than the Son and Spirit",
+          "Since the Trinity is composed of three Persons, it must logically be three times as great as any single Person",
+          "Since magnitude cannot be discussed meaningfully in theology, Augustine declines to draw any conclusion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's chain of identity (to be true = to be = to be great) yields his conclusion: since Father, Son, and Spirit are equally true, they must be equally great, and the Trinity as a whole is exactly as great as each Person individually."
+      }
+    ],
+    "TRIN-B8C2": [
+      {
+        "q": "What kind of mental images does Augustine explicitly tell the reader to reject when thinking of God?",
+        "options": [
+          "Only images of angels, but bodily images of God Himself are acceptable",
+          "Both corporeal images (magnified light, the heavens, a multiplied Geryon-like three-bodied being) and changeable spiritual images (like angels animating bodies, even imagined without bodies), since anything that could be 'greater in three than in one' must be rejected",
+          "Only images derived from pagan mythology; biblical imagery is entirely appropriate",
+          "Augustine argues all mental images whatsoever, including of created things, must be permanently abandoned even in daily life"
+        ],
+        "correct": 1,
+        "explanation": "Augustine systematically rejects both corporeal images (light, a three-bodied Geryon-like figure) and changeable spiritual images (multiplied angels), insisting anything conceivable as 'greater in combination' cannot be God, who is unchangeable truth."
+      },
+      {
+        "q": "What experience does Augustine describe when the reader is told simply 'Truth' or 'Reality' as a name for God?",
+        "options": [
+          "A permanent, effortless, and unwavering vision that never fades once achieved",
+          "A fleeting 'first twinkling,' a flash of insight that the mind, weighed down by 'the bird-lime of the stains of appetite,' quickly slides back away from into earthly, corporeal images",
+          "Complete incomprehension, with no glimpse of understanding possible at all for anyone",
+          "An experience available only to ordained priests, never to laypeople"
+        ],
+        "correct": 1,
+        "explanation": "Augustine vividly describes a momentary, dazzling glimpse ('that first twinkling') at the word 'Truth,' immediately lost as the mind, weighed down by sinful attachments ('bird-lime'), slides back into familiar corporeal and imaginative thinking."
+      },
+      {
+        "q": "What scriptural phrase does Augustine invoke to justify calling God 'truth' rather than describing Him visually?",
+        "options": [
+          "\"God is light\" — understood not as the eyes see light, but as 'the heart sees' when it hears that God is truth [reality]",
+          "\"God is a consuming fire,\" understood literally as describing God's physical appearance",
+          "\"The Lord is a man of war,\" taken as evidence God has a warrior's bodily form",
+          "\"God is spirit,\" taken to mean God is composed of wind or breath"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites 'God is light,' explaining this must be understood as the heart's inner perception of truth, not the eyes' perception of physical light, to support his claim that God is best approached as Truth/Reality itself."
+      }
+    ],
+    "TRIN-B8C3": [
+      {
+        "q": "What method does Augustine use to lead the reader from particular goods to 'the good itself'?",
+        "options": [
+          "He lists many diverse goods (fertile land, a healthy body, a virtuous friend, a well-composed poem) and asks the reader to 'take away this and that' particular good and 'regard good itself,' identifying this with God, 'the good of all good'",
+          "He argues that all particular goods are illusions and only 'the good itself' genuinely exists",
+          "He claims particular goods and 'the good itself' are entirely unrelated concepts with no connection",
+          "He dismisses the question of particular goods as irrelevant to theology"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's method is inductive-contemplative: by listing many varied goods and then asking the reader to abstract from each particular instance to 'the good itself' by which all are judged good, he arrives at God as 'the good of all good.'"
+      },
+      {
+        "q": "According to Augustine, how does a mind become 'good,' as distinct from merely existing as a mind?",
+        "options": [
+          "By the mind's own unaided effort to improve itself through sheer willpower with no external reference point",
+          "By the will turning itself toward the unchangeable good (God) which it loves, seeks, and obtains; a mind cannot make itself 'a good mind' any more than it made itself 'a mind' in the first place",
+          "By accumulating enough philosophical knowledge about ethics",
+          "Augustine denies that minds can become good or bad in any meaningful sense"
+        ],
+        "correct": 1,
+        "explanation": "Augustine distinguishes 'being a mind' (given, not self-caused) from 'being a good mind,' which requires the will to turn toward and cleave to the unchangeable good outside itself — it cannot achieve this by turning only to itself."
+      },
+      {
+        "q": "What does Augustine say happens to 'changeable goods' if there were no 'unchangeable good'?",
+        "options": [
+          "There would be no changeable goods at all unless there were the unchangeable good, since particular goods are only recognizable as good by reference to the good itself which they participate in",
+          "Changeable goods would become permanently fixed and unchangeable themselves",
+          "Changeable goods would multiply infinitely without any limiting principle",
+          "Nothing would change about changeable goods either way, according to Augustine"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that 'there would be no changeable goods, unless there were the unchangeable good' — particular, variable goods depend for their status as 'good' on participating in the unchangeable good itself."
+      }
+    ],
+    "TRIN-B8C4": [
+      {
+        "q": "What logical problem does Augustine raise about loving what one does not know?",
+        "options": [
+          "Since something can be known without being loved, but (Augustine argues) nothing can be loved without first being known in some way, no one can love God before knowing Him in some sense — raising the question of how faith itself can involve genuine love",
+          "Augustine argues love and knowledge are entirely unrelated and can occur completely independently",
+          "He claims all human beings automatically love everything they encounter, whether known or not",
+          "He argues that only perfect, complete knowledge permits any degree of love whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine poses the problem precisely: while something known need not be loved, nothing can be loved that is entirely unknown — so how can faith, which believes without full sight, generate genuine love of God?"
+      },
+      {
+        "q": "What triad does Augustine say the 'whole apparatus of the divine Scriptures' has been raised up to build in the mind?",
+        "options": [
+          "Faith, Hope, and Charity — found in a mind believing what it does not yet see, and hoping for and loving what it believes",
+          "Wisdom, Understanding, and Counsel",
+          "Prophecy, Miracles, and Tongues",
+          "Law, Prophets, and Gospel"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies Faith, Hope, and Charity as the triad Scripture aims to build in the believing mind, resolving the knowledge/love problem: one believes what is not yet seen, and from that hopes for and loves what is believed."
+      },
+      {
+        "q": "What caution does Augustine attach to this account of believing and loving what is not seen?",
+        "options": [
+          "That the mind must take care not to 'feign to itself something which is not,' lest it hope for and love something false rather than true, undermining charity 'out of a pure heart, and of a good conscience, and of faith unfeigned'",
+          "That believers should avoid all forms of hope entirely, relying only on present sight",
+          "That only ordained clergy are permitted to exercise faith in things unseen",
+          "That this problem applies only to belief in the Old Testament, not the New Testament"
+        ],
+        "correct": 0,
+        "explanation": "Augustine warns that the mind, believing what it does not see, risks 'feigning to itself' a falsehood and thus hoping for and loving something untrue — undermining the 'charity out of a pure heart... and faith unfeigned' that Scripture aims for."
+      }
+    ],
+    "TRIN-B8C5": [
+      {
+        "q": "How does Augustine explain that we can imagine and believe things about people we have never seen, like the Apostle Paul?",
+        "options": [
+          "Through a 'special or general notion' — we know what a human being generally is (from our own case), so we can frame a mental image, however inaccurate in specific detail, and believe truly in what matters (that Paul lived and acted as Scripture records) regardless of whether our imagined image of his face is accurate",
+          "Augustine claims it is impossible to believe anything about people we have never personally met",
+          "By assuming everyone throughout history looked identical to one another",
+          "By relying exclusively on painted portraits handed down through tradition"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains our 'general notion' of human nature lets us picture (even if inaccurately) unseen figures like Paul, while what genuinely matters to faith — that he lived and acted as Scripture records — does not depend on getting the imagined bodily details right."
+      },
+      {
+        "q": "What problem does Augustine identify in trying to love the Trinity using this same 'general notion' method?",
+        "options": [
+          "There is no other Trinity, and indeed no other God, that we have experienced, from which we could form a 'general notion' by comparison, the way many human faces let us form a general notion of 'man'",
+          "Augustine claims the Trinity is simply identical in kind to the human mind, so no special problem exists at all",
+          "The problem is entirely about vocabulary, not about any real difficulty of knowledge",
+          "He argues we should abandon the attempt to love the Trinity altogether as hopeless"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's central difficulty: while many observed human beings let us form a general concept of 'man' to apply to unseen individuals like Paul, there is no other Trinity (nor any other God) we have encountered, so no comparable general notion is available for loving the unseen Trinity."
+      },
+      {
+        "q": "What alternative comparison does Augustine test — using our experience of death and resurrection — for loving what we have not directly seen?",
+        "options": [
+          "Since we know what it is to die and to live (from experience), we can understand what 'to rise again' means (return to life from death) even without having seen anyone rise, suggesting we might similarly love the Trinity by extension from what we do know — a possibility the chapter leaves as an open, unresolved comparison",
+          "Augustine flatly rejects any possibility of using our experience of death to understand resurrection",
+          "He claims resurrection and the Trinity are entirely unrelated topics with no possible connection",
+          "He argues only those who have personally died and been resurrected could understand or love the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine considers whether our direct experience of life and death lets us understand and love the concept of resurrection (a compound of two known things) by analogy, tentatively exploring whether a similar move could help us love the Trinity, though he leaves the deeper puzzle (how we truly come to love the specific Trinity, not just any trinity of things) unresolved here, to be pursued further."
+      }
+    ],
+    "TRIN-B8C6": [
+      {
+        "q": "According to Augustine, through what faculty do we recognize and love a 'righteous man,' rather than through any image of his body?",
+        "options": [
+          "Through the mind's own inner recognition of righteousness — since 'righteousness is... the beauty of the mind,' invisible to the eyes, we must already know within ourselves what a righteous man is in order to recognize and love one",
+          "Through hearing detailed physical descriptions from eyewitnesses who saw him act righteously",
+          "Through examining ancient portraits and busts thought to represent righteous men",
+          "Augustine denies we can recognize or love a righteous man in any meaningful way"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues righteousness, being the mind's own invisible beauty, cannot be perceived with the eyes; we recognize and love a righteous man only because we already possess, within our own mind, some standard or notion of what righteousness is."
+      },
+      {
+        "q": "What paradox does Augustine highlight about a person who is 'not yet righteous' loving righteousness?",
+        "options": [
+          "Even one who is not yet righteous must, in some sense, already know what righteousness is (finding it 'nowhere else' but within himself) in order to love it and thereby be moved to wish to become righteous, though he himself does not yet possess it as his own character",
+          "Augustine claims only fully righteous people are capable of understanding or loving the concept of righteousness at all",
+          "He argues the concept of righteousness is entirely learned from external teachers with no inner component",
+          "He denies any paradox exists, since loving righteousness requires no prior understanding whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's paradox: someone not yet righteous must nonetheless already discern, within his own mind, what righteousness truly is (finding this knowledge nowhere but in himself), in order to love and aspire toward what he does not yet possess."
+      },
+      {
+        "q": "How does Augustine's illustration of 'Carthage' and 'Alexandria' (cities he had and had not visited) clarify what is different about knowing 'what is righteous'?",
+        "options": [
+          "Unlike an image of a distant city (formed from hearsay or memory, and possibly mistaken), the knowledge of what is righteous is not an absent thing pictured from without, but 'something present' discerned within the mind itself — a direct, inner perception rather than a recalled or imagined external image",
+          "Augustine argues that righteousness, like Alexandria, is something we can only know secondhand through the reports of others who have directly experienced it",
+          "He claims cities and moral qualities are known in exactly the same way, with no relevant difference",
+          "He uses this example only to discuss geography, with no bearing on the chapter's argument about righteousness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts imagining an absent, unseen city (Alexandria, known only through others' reports, possibly inaccurately pictured) with discerning righteousness, which is not an absent image recalled from elsewhere but something 'present,' directly discerned within the mind itself."
+      }
+    ],
+    "TRIN-B8C7": [
+      {
+        "q": "What does Augustine identify as 'chiefly to be regarded' in the whole inquiry concerning the Trinity and knowing God?",
+        "options": [
+          "What is true love, or rather, what is love itself — distinguishing true love (which cleaves to truth to live righteously) from mere desire, which is improperly called 'love'",
+          "The precise number of angelic hierarchies and their respective ranks",
+          "The exact chronological dating of when the Trinity was first revealed in history",
+          "The correct Latin grammar to use when discussing theological terms"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies true love — as opposed to mere desire — as the central concern of the whole inquiry, since it is through love, cleaving to truth and living righteously, that the mind can come to know God."
+      },
+      {
+        "q": "How does Augustine explain that Scripture sometimes mentions only one of the two great commandments (love of God, love of neighbor) while implying both?",
+        "options": [
+          "He argues that loving God necessarily entails obeying His command to love neighbor, and loving neighbor necessarily entails loving 'love itself,' which is God — so mentioning either commandment implicitly carries the other",
+          "He claims Scripture actually contradicts itself on this point with no possible resolution",
+          "He argues only the love of God matters and the love of neighbor is a later, less authoritative addition",
+          "He denies that these are, in fact, two distinct commandments at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's explanation: loving God entails keeping His command to love neighbor, while loving neighbor already involves loving 'love itself' (which is God), so the two commandments are logically inseparable even when Scripture names only one."
+      },
+      {
+        "q": "What does Augustine say Christ commended as the example to 'learn' from Him, rather than His raising of Lazarus from the dead?",
+        "options": [
+          "\"Learn of me; for I am meek and lowly in heart\" — humility and lowliness, not the ability to perform dramatic miracles, is what Christ presents as the lesson to be imitated",
+          "Christ's skill in debating with the Pharisees and scribes",
+          "Christ's knowledge of astronomy and the movements of the stars",
+          "Christ's ability to fast for forty days without eating"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts what people marvel at (Christ's power to raise the dead) with what Christ actually commends for imitation: 'Learn of me; for I am meek and lowly in heart' — inner humility, sought inwardly, rather than outward wonders."
+      }
+    ],
+    "TRIN-B8C8": [
+      {
+        "q": "How does Augustine argue that loving one's brother already involves loving God?",
+        "options": [
+          "Since 'God is love' (1 John), whoever loves love itself loves God; and whoever loves his brother must love the very love by which he loves him — so brotherly love and love of God cannot exist apart from each other",
+          "He argues brotherly love and love of God are entirely separate and unrelated categories requiring different means",
+          "He claims we should love God instead of our brother, never both simultaneously",
+          "He denies that 1 John's statement 'God is love' has any bearing on this question"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument rests on 1 John's identification of God with love itself: since loving one's brother requires loving the very love by which one loves him, and that love is God, brotherly love inherently already involves the love of God."
+      },
+      {
+        "q": "How does Augustine explain 1 John's statement, 'he who does not love his brother whom he has seen, how can he love God whom he has not seen'?",
+        "options": [
+          "Because failing to love one's visible brother means one does not abide in love, and since God is love and light, one who does not abide in love does not abide in light — hence cannot 'see' (know and love) God, who is that very love/light",
+          "Because Augustine claims this verse is unrelated to the topic of divine love and concerns only social etiquette",
+          "Because he argues seeing one's brother and seeing God are literally the same act with no distinction",
+          "Because he denies this verse actually appears in the text of 1 John"
+        ],
+        "correct": 0,
+        "explanation": "Augustine reasons through John's logic: not loving one's visible brother means not abiding in love, hence not abiding in God (who is love) or in light (since God is light), and so being unable to truly 'see'/know the God one claims not to see."
+      },
+      {
+        "q": "How does Augustine resolve the question of how much love should be given to God versus to one's neighbor?",
+        "options": [
+          "Incomparably more upon God than upon ourselves, but upon our brother as much as upon ourselves — and we love ourselves more truly the more we love God, since God, self, and neighbor are all loved from one and the same love, ultimately for God's sake",
+          "He argues love for neighbor should always exceed love for God in daily practice",
+          "He claims the question is meaningless since love cannot be measured or compared in any way",
+          "He argues one should love neither God nor neighbor more than material possessions"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution: incomparably more love is due to God than to oneself, but love for one's neighbor should equal self-love; ultimately all three loves (God, self, neighbor) flow from a single love directed 'for the sake of God.'"
+      }
+    ],
+    "TRIN-B8C9": [
+      {
+        "q": "According to Augustine, what actually kindles our love when we read Paul's account of his sufferings and virtues (2 Corinthians 6)?",
+        "options": [
+          "Not a bodily image of Paul, but our prior love of the unchangeable form of righteousness itself, discerned within ourselves, which we recognize Paul's recorded life as conforming to",
+          "Purely the dramatic and exciting narrative style of the passage, unrelated to any moral content",
+          "Our admiration for Paul's physical courage alone, apart from any moral or spiritual dimension",
+          "Augustine denies that reading this passage produces any genuine love in the reader at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that we love Paul because we believe his life conformed to the unchangeable form of righteousness we already discern within ourselves — it is love of that form, not any bodily image, that is truly kindled and then extended to Paul."
+      },
+      {
+        "q": "How does believing that others (like Paul) lived righteously affect our own hope and love, according to Augustine?",
+        "options": [
+          "It stirs up a more burning love of the unchangeable form of righteousness itself, and gives us hope and confidence that we too, being human like them, are capable of living such a life, so we desire and pray for it more ardently",
+          "It has no effect whatsoever on our own aspirations, according to this chapter",
+          "It makes us despair further, believing such righteousness is impossible for ordinary people",
+          "It causes us to worship Paul himself as a divine being, replacing our worship of God"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes a reciprocal dynamic: belief in others' righteous lives intensifies our love of the unchangeable form itself, and gives us confident hope that, being human as they were, we too can aspire to and pray for such a life."
+      },
+      {
+        "q": "What is Augustine's concluding point about faith's role in knowing and loving God, closing this chapter?",
+        "options": [
+          "Faith avails to the knowledge and love of God, not as of one altogether unknown or altogether unloved, but so that He may thereby be known more clearly and loved more steadfastly",
+          "Faith is ultimately unnecessary once true love of God has been achieved",
+          "Faith and knowledge of God are entirely unrelated according to Augustine's final view",
+          "Faith should be abandoned in favor of direct philosophical proof of God's existence"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's summarizing conclusion: faith functions not to introduce love of a totally unknown, unloved God, but to deepen and clarify a knowledge and love of God that, however partial, is already genuinely present."
+      }
+    ],
+    "TRIN-B8C10": [
+      {
+        "q": "What three elements does Augustine identify as always present in love, whether carnal or spiritual?",
+        "options": [
+          "He that loves, and that which is loved, and love [itself] — a threefold structure present even in ordinary human affections",
+          "The lover, the beloved, and the wedding ceremony that unites them",
+          "The body, the soul, and the spirit",
+          "The desire, the object desired, and the act of possessing it"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key discovery, closing Book VIII: analyzing love reveals three inseparable elements — 'he that loves, and that which is loved, and love' — present even in ordinary, 'outward and carnal' loves."
+      },
+      {
+        "q": "How does Augustine refine this triad when he moves from bodily love to the mind loving a friend?",
+        "options": [
+          "He asks 'what does the mind love in a friend except the mind?' — locating the same threefold structure (lover, beloved, love) now entirely within or between minds, rather than involving bodies at all",
+          "He argues the triad disappears entirely once bodily elements are removed from consideration",
+          "He claims friendship between minds involves a completely different, unrelated structure with no parallel to bodily love",
+          "He denies that minds are capable of loving one another in any real sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine 'treads down the flesh' to consider the mind loving another mind (as in friendship), finding the same triadic structure — lover, beloved, love — now purified of bodily elements."
+      },
+      {
+        "q": "How does Augustine characterize the significance of this discovery at the very end of Book VIII?",
+        "options": [
+          "As merely finding 'the place' where the sought-after thing is to be looked for, not yet the thing itself — a starting-point ('the hinge') from which the rest of the inquiry, pursued in subsequent books, can proceed",
+          "As the complete and final solution to the entire mystery of the Trinity, requiring no further inquiry",
+          "As a discovery Augustine says he now regrets making and wishes to retract",
+          "As applicable only to human relationships, with no possible bearing on understanding the divine Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine is careful to frame this as only a preliminary result — like finding the location where a sought object might be, not yet the object itself — a 'hinge' or starting point for the extended psychological inquiry that follows in Book IX and beyond."
+      }
+    ],
+    "TRIN-B9C1": [
+      {
+        "q": "What posture does Augustine, quoting Paul, recommend for the whole inquiry into the Trinity?",
+        "options": [
+          "\"Not as though I had already attained... forgetting those things which are behind, and reaching forth unto those things which are before\" — genuine, ongoing seeking rather than presumptuous claims to have grasped the truth",
+          "\"I have fought the good fight, I have finished the course\" — treating the inquiry as already complete",
+          "\"Let no man deceive you with vain words\" — a call to abandon philosophical inquiry altogether",
+          "\"Prove all things; hold fast that which is good\" — a call to test every doctrine against pagan philosophy"
+        ],
+        "correct": 0,
+        "explanation": "Augustine quotes Philippians 3's 'not as though I had already attained... reaching forth unto those things which are before' as the model posture for the inquiry: genuine ongoing seeking, not presumptuous claims to have already grasped the mystery."
+      },
+      {
+        "q": "What test case does Augustine propose for checking whether a claim about one Person 'fits' the whole Trinity?",
+        "options": [
+          "Whether the Holy Spirit is properly identified as 'love' (given 'God is love'), since if He is not, then either the Father, the Son, or the Trinity itself must be love, and nothing can be said of the Trinity that fits only a creature, not the Creator",
+          "Whether the Son should be called 'wisdom' more than the Father, tested by counting scriptural occurrences",
+          "Whether the Father alone, and not the Son, created the physical universe",
+          "Whether the Holy Spirit appeared more often in the Old Testament than the New Testament"
+        ],
+        "correct": 0,
+        "explanation": "Augustine sets up the test case that will occupy the coming books: whether the Holy Spirit can properly be identified with 'love' itself (given 1 John's 'God is love'), while insisting that nothing said of the Trinity may fit a creature rather than the Creator."
+      },
+      {
+        "q": "What rule does Augustine lay out for what may rightly be said about any one Person of the Trinity?",
+        "options": [
+          "That whatever is said of the Father must properly belong to the Father (not improperly to the Son, Spirit, or Trinity), and likewise for the Son and Spirit — nothing should be said that is unworthy or that confuses what belongs to one Person with what belongs to another",
+          "That anything at all may be said of any Person interchangeably, since they are perfectly equal",
+          "That only the Father may be discussed directly; the Son and Spirit should be inferred only indirectly",
+          "That statements about the Persons should follow strict grammatical rules of Latin declension"
+        ],
+        "correct": 0,
+        "explanation": "Augustine sets the methodological rule for the whole subsequent inquiry: care must be taken that whatever is predicated of the Father, Son, Spirit, or the Trinity as a whole is properly fitting to that Person (or to all), never confused or improperly assigned."
+      }
+    ],
+    "TRIN-B9C2": [
+      {
+        "q": "What happens to the 'lover, beloved, love' triad from Book VIII when Augustine applies it to a case of pure self-love?",
+        "options": [
+          "It collapses to only two things (mind and love), since the one who loves and the one who is loved are identical in self-love, leaving Augustine to ask 'where, then, is the trinity?'",
+          "It remains exactly three distinct things with no change at all",
+          "It becomes four things instead of three, since self-love adds an extra element",
+          "Augustine declares the whole inquiry a dead end and abandons it entirely at this point"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notices that self-love collapses lover and beloved into the same subject, reducing the triad to just two elements (mind and love), which prompts his explicit question 'where, then, is the trinity?' — setting up the rest of the book's search."
+      },
+      {
+        "q": "Why does Augustine say he restricts the inquiry to 'the mind alone,' setting aside 'the other many things of which a man consists'?",
+        "options": [
+          "In order to isolate, as clearly as possible, whatever trinity might exist within the purely spiritual, non-bodily aspect of the human person",
+          "Because he believes the body is evil and should never be discussed in theology",
+          "Because Scripture explicitly forbids discussing the body in connection with the image of God",
+          "Because he considers the question of embodiment already fully resolved in an earlier book"
+        ],
+        "correct": 0,
+        "explanation": "Augustine deliberately narrows the focus to the mind alone, setting aside the body and other aspects of the human person, in order to isolate as clearly as possible whatever inner trinity might be found there."
+      },
+      {
+        "q": "What does Augustine say about the relationship between 'mind' and 'love' as substances, when the mind loves itself?",
+        "options": [
+          "Love and mind are not two spirits but one spirit, not two essences but one — yet they remain 'two things that are one,' since he that loves and love are 'mutually said relatively,' while mind and spirit express essence rather than relation",
+          "He argues love and mind are two entirely separate and unrelated substances with no connection",
+          "He claims only the mind is a real substance, while love is a mere illusion with no reality",
+          "He denies that love can be called a substance in any sense"
+        ],
+        "correct": 0,
+        "explanation": "Augustine carefully distinguishes: mind and love, as substance, are one spirit and one essence, yet 'he that loves' and 'love' are mutually relative terms (like Father and Son), giving a subtle 'two that are one' structure even before the full trinity is found."
+      }
+    ],
+    "TRIN-B9C3": [
+      {
+        "q": "Why does Augustine say the mind cannot love itself without also knowing itself?",
+        "options": [
+          "Because one cannot love what one does not know — a simple but decisive premise that leads Augustine to add self-knowledge to self-love as a distinct element in the sought-after trinity",
+          "Because Augustine believes love and knowledge are simply identical concepts with no distinction",
+          "Because he claims only philosophers, not ordinary people, are capable of self-love",
+          "Because knowledge, in his view, is entirely irrelevant to the question of love"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's simple but pivotal premise: 'how can it love what it does not know?' — this drives him to add self-knowledge as a necessary third element alongside mind and self-love."
+      },
+      {
+        "q": "How does Augustine contrast the mind's self-knowledge with how the bodily eye perceives?",
+        "options": [
+          "The bodily eye cannot see itself except by reflection in a mirror, and sees other things (not itself) directly; the mind, by contrast, knows itself directly through itself, not merely by generalizing from having observed other minds",
+          "Augustine claims the eye and the mind perceive themselves in exactly the same way, with no relevant difference",
+          "He argues the mind, like the eye, requires an external 'mirror' in order to know itself at all",
+          "He claims neither the eye nor the mind can ever know themselves under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's contrast: the bodily eye needs a mirror to see itself (it naturally sees outward, not itself), while the mind knows itself directly and immediately, through itself, without needing to observe other minds first."
+      },
+      {
+        "q": "Why does Augustine reject the idea that the mind comes to know itself by first observing and generalizing from other minds?",
+        "options": [
+          "Because a mind could not even recognize another mind AS a mind unless it already possessed self-knowledge to draw upon — self-knowledge is thus prior to, not derived from, knowledge of others",
+          "Because he denies that other minds exist at all, making the question moot",
+          "Because he believes all minds are, in fact, identical with no individual differences to observe",
+          "Because Scripture explicitly forbids comparing one's mind to another person's mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: to recognize another being as having 'a mind' at all, one must already possess some understanding of what a mind is — drawn from one's own case — so self-knowledge cannot be derivative of observing others; it must be prior and direct."
+      }
+    ],
+    "TRIN-B9C4": [
+      {
+        "q": "What three things does Augustine now identify as the sought trinity, replacing 'lover, beloved, love'?",
+        "options": [
+          "The mind itself, the mind's knowledge of itself, and the mind's love of itself",
+          "The mind, the body, and the soul",
+          "Memory, understanding, and will (already fully developed in this chapter)",
+          "Faith, hope, and love, considered as three separate mental faculties"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's refined triad for Book IX: the mind, and the knowledge of it (self-knowledge), and the love of it (self-love) — three things which, when perfect, are equal to one another."
+      },
+      {
+        "q": "Why does Augustine say that loving oneself either 'more' or 'less' than one truly is constitutes a fault?",
+        "options": [
+          "Because loving oneself less than one's true worth (e.g., as if merely a body) or more than one's true worth (e.g., as if one were God) both represent a distortion — proper self-love must be proportionate to what the mind actually is, no more and no less",
+          "Because Augustine believes self-love is always sinful regardless of degree",
+          "Because he claims only saints are permitted to love themselves at all",
+          "Because he argues the mind's worth constantly changes, making any fixed love impossible"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues that proper love of self, like proper knowledge of self, must match the mind's actual worth — loving oneself as merely bodily (too little) or as divine (too much) are both faults that prevent the perfect equality of mind, knowledge, and love."
+      },
+      {
+        "q": "Why does Augustine say knowledge and love are not 'in' the mind the way color is 'in' a body (as an accident in a subject)?",
+        "options": [
+          "Because a body's color cannot exist beyond that body, but the mind can love and know things besides itself, showing love and knowledge are not confined the way an accident is confined to its one subject — rather, they exist substantially, as the mind itself does",
+          "Because Augustine claims color does not actually exist in bodies in any real sense",
+          "Because he argues love and knowledge, unlike color, can be seen directly with the bodily eyes",
+          "Because he believes the mind itself is merely an accident of the body, reversing the usual relationship"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key distinction: a body's color cannot be transferred or extend beyond that one body, but the mind's love and knowledge can extend to other things beyond itself, showing they exist 'substantially' like the mind itself, not as mere accidents confined to one subject."
+      }
+    ],
+    "TRIN-B9C5": [
+      {
+        "q": "What formula does Augustine use to describe how mind, knowledge, and love relate to one another in this chapter?",
+        "options": [
+          "\"Each severally in themselves and mutually all in all\" — each element is fully itself, while also being wholly present within each of the other two and within their combinations",
+          "\"Each entirely separate and independent, meeting only occasionally\"",
+          "\"One dominant and two subordinate, arranged in a strict hierarchy\"",
+          "\"Constantly shifting roles, so that mind sometimes becomes knowledge and vice versa\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's formula for this intricate mutual indwelling: mind, knowledge, and love are each severally in themselves, yet also mutually 'all in all' — each fully present within the others and their combinations."
+      },
+      {
+        "q": "How does Augustine contrast this trinity's inseparability with the separability of two human friends?",
+        "options": [
+          "Two friends can be physically separated, or one can even begin to hate the other while unbeknownst to him, while mind-knowledge-love cannot be so separated — if the love or knowledge ceases, the mind's loving or knowing ceases with it, simultaneously",
+          "He claims friends and this inner trinity are equally and identically separable in every way",
+          "He argues friends can never truly be separated once friendship begins, making the comparison pointless",
+          "He denies that human friendship provides any useful comparison whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine highlights a key disanalogy: friends can be separated in body, or one can silently turn to hatred while the other still loves — but mind, self-knowledge, and self-love cannot be so separated, since the loss of one instantly entails the loss of the corresponding activity of the mind."
+      },
+      {
+        "q": "What Gospel text does the chapter connect to this mutual indwelling of the inner trinity?",
+        "options": [
+          "\"Believest thou not that I am in the Father, and the Father in Me?... that they all may be one, as thou Father art in Me, and I in Thee\"",
+          "\"In my Father's house are many mansions\"",
+          "\"I am the vine, you are the branches\"",
+          "\"Whosoever believes in me shall never thirst\""
+        ],
+        "correct": 0,
+        "explanation": "The chapter connects the mutual indwelling of mind, knowledge, and love to Christ's prayer in John 17 about His own mutual indwelling with the Father, offered as an analogy (with acknowledged limitations) for how the three inner elements are 'all in all.'"
+      }
+    ],
+    "TRIN-B9C6": [
+      {
+        "q": "What distinction does Augustine draw between the self-knowledge each person has of his own mind and knowledge of 'the human mind' generally?",
+        "options": [
+          "Private, individual self-knowledge (which others must take on trust, since they cannot directly see it, and which changes over time) versus the unchangeable, universally accessible truth about what the human mind is or ought to be, which anyone can gaze upon directly",
+          "Augustine argues these are, in fact, exactly identical with no meaningful distinction",
+          "He claims only philosophers can access general truths about the mind, while ordinary people know only their own individual minds",
+          "He denies that any general or unchangeable truth about the human mind exists at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes each person's private, changing self-report (believed on trust by others) from the unchangeable, universally accessible truth about what a human mind is or ought to be — the latter gazed upon directly, not merely believed."
+      },
+      {
+        "q": "How does the example of imagining 'the walls of Alexandria' (never seen) versus 'the walls of Carthage' (seen) illustrate Augustine's point about judgment?",
+        "options": [
+          "Even in preferring one imaginary or remembered image to another, we appeal to fixed, unchangeable rules of judgment that lie above and beyond both images, showing that truth's judgment remains clear even when clouded by corporeal imagery",
+          "Augustine uses this example only to discuss geography and travel, with no bearing on epistemology",
+          "He argues that imagined and remembered images are entirely indistinguishable and equally reliable",
+          "He claims we cannot make any reasoned judgment about places we have not personally visited"
+        ],
+        "correct": 0,
+        "explanation": "Augustine uses the Carthage/Alexandria example to show that even comparing imaginary and remembered images involves appeal to fixed, unchangeable standards of judgment above both images — evidence of an inner light of truth not reducible to corporeal imagination."
+      },
+      {
+        "q": "What happens to Augustine's love for a courageous, faithful martyr, in his extended example, if the man turns out to have suffered for an unworthy motive?",
+        "options": [
+          "The love that had been directed to him 'is repelled, and taken away from an unworthy man' as previously believed, though it may persist redirected toward the goal that he might yet become what was believed of him — showing that our love was really for the unchangeable form of goodness itself, judged by fixed standards, not for the man as such",
+          "Augustine's love remains completely unchanged regardless of what he learns about the man's true motives",
+          "He argues we should continue loving the man exactly as before, since motives are irrelevant to genuine love",
+          "He claims this scenario is impossible and could never actually occur"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example shows that discovering the martyr's true, unworthy motive changes our estimation of him (judged by the unchangeable standard of truth), and our love shifts from enjoying him as already good to hoping/working that he might become good — revealing that the standard by which we judged him remains fixed even as our estimate of him changes."
+      }
+    ],
+    "TRIN-B9C7": [
+      {
+        "q": "What does Augustine mean by saying we 'conceive and beget the word within' from what we behold in eternal truth?",
+        "options": [
+          "Whatever true knowledge we grasp by looking to eternal truth becomes an inner 'word' that remains within us even as we speak it outwardly, since speaking to another is an attempt to produce something similar in the hearer's mind without the inner word ever leaving the speaker",
+          "Augustine argues that speaking a word physically removes and transfers the knowledge out of the speaker's mind entirely",
+          "He claims 'words' in this sense refer only to spoken Latin or Greek vocabulary, with no broader meaning",
+          "He denies that any inner mental process precedes outward speech or action"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes an inner 'word' (true knowledge conceived by gazing at eternal truth) that persists within the speaker even while being outwardly communicated through voice or sign to produce something similar in a hearer, 'nor by being born does it depart from us.'"
+      },
+      {
+        "q": "What claim does Augustine make about the relationship between inner words and outward human action?",
+        "options": [
+          "We do nothing through bodily words or actions, whether praised or blamed, that we have not first 'said' within ourselves — no one willingly does anything he has not first 'said in his heart'",
+          "He claims outward action always precedes and causes any corresponding inner thought",
+          "He argues inner words and outward actions are entirely disconnected phenomena",
+          "He denies that any correlation exists between what is thought and what is done"
+        ],
+        "correct": 0,
+        "explanation": "Augustine claims a strong link between inner and outer: 'no one willingly does anything, which he has not first said in his heart' — every willed action or word is preceded by an inner 'word' conceived within the mind."
+      },
+      {
+        "q": "According to this chapter, what conceives the inner 'word,' whether it concerns creature or Creator?",
+        "options": [
+          "Love — the inner word is 'conceived by love, either of the creature or of the Creator, that is, either of changeable nature or of unchangeable truth'",
+          "Fear, since Augustine claims all knowledge originates in the fear of punishment",
+          "Memory alone, with no involvement of the will or affections",
+          "Pure logical deduction, entirely apart from any emotional or volitional element"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly states the word is 'conceived by love,' whether directed toward the changeable creature or the unchangeable Creator/truth, linking the birth of the inner word to the affective, willing dimension of the mind, not mere passive cognition."
+      }
+    ],
+    "TRIN-B9C8": [
+      {
+        "q": "How does Augustine distinguish 'desire' (cupiditas) from 'love/charity' (caritas) with respect to created things?",
+        "options": [
+          "Desire loves the creature 'for itself,' which corrupts through mere enjoyment of it; charity refers that same love back to God, so that inferior things are rightly 'used' toward God and equal things (like our neighbor) are rightly 'enjoyed' only in God",
+          "Augustine claims desire and love/charity are simply synonyms with no meaningful difference",
+          "He argues desire is always good, while charity/love is always suspect and to be avoided",
+          "He claims the distinction applies only to romantic love, not to any other kind of affection"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's classic use/enjoyment (uti/frui) distinction: desire loves a creature for its own sake (self-corrupting), while charity refers that love back to God, rightly using inferior things and enjoying equal things (like a neighbor) only 'in' God."
+      },
+      {
+        "q": "What does Augustine say about how we should relate to ourselves and to others we love 'as ourselves'?",
+        "options": [
+          "\"As you ought to enjoy yourself, not in yourself, but in Him who made you, so also him whom you love as yourself\" — we should not rest final enjoyment in ourselves or others, but in God alone",
+          "He claims we should enjoy ourselves purely for our own sake, with no reference to God whatsoever",
+          "He argues we should never love ourselves under any circumstances, only others",
+          "He claims loving others 'as ourselves' is a lesser commandment that Christians may safely disregard"
+        ],
+        "correct": 0,
+        "explanation": "Augustine extends the use/enjoyment principle reflexively: even our enjoyment of ourselves should not terminate in ourselves but in God who made us, and the same applies to how we love those we love 'as ourselves.'"
+      },
+      {
+        "q": "What role does Augustine assign to love as 'a third' element in this chapter's closing image?",
+        "options": [
+          "Love, 'as it were a mean,' conjoins our (inner) word and the mind from which it is conceived, and 'without any confusion binds itself as a third with them, in an incorporeal embrace'",
+          "Love is described as a mere byproduct with no active binding function",
+          "Love is said to replace and eliminate the need for both mind and word",
+          "Love is described purely as an obstacle that must be overcome to reach true knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's closing image describes love as the binding 'mean' or third term that joins the mind and its conceived word together, 'in an incorporeal embrace,' anticipating the full trinity of mind, word/knowledge, and love."
+      }
+    ],
+    "TRIN-B9C9": [
+      {
+        "q": "In the case of loving 'spiritual things,' what does Augustine say about the difference between 'the word conceived' and 'the word born'?",
+        "options": [
+          "They are the very same, since the will finds rest in the knowledge itself — one who perfectly knows and loves righteousness is already righteous, with no further 'bringing forth' required through bodily action",
+          "They are always entirely distinct and separate acts, even in spiritual matters",
+          "Augustine denies that 'conceiving' and 'being born' can ever apply to spiritual things at all",
+          "He argues spiritual things require an even longer gap between conception and birth than carnal things do"
+        ],
+        "correct": 0,
+        "explanation": "For spiritual/intellectual goods, Augustine says conception and birth coincide: perfect knowledge and love of righteousness already constitutes being righteous, since the will finds rest in the knowledge itself, with no further external act required."
+      },
+      {
+        "q": "How does Augustine contrast this with the love of 'carnal and temporal things,' using the analogy of animal offspring?",
+        "options": [
+          "In carnal desire, conceiving (wanting) and bringing forth (attaining) are distinct — it is not enough for avarice to know and love gold, it must also possess it, and even possession never fully satisfies ('whoever drinks of this water shall thirst again')",
+          "He argues carnal desires, like spiritual ones, are always fully satisfied the moment they are conceived",
+          "He claims animals, unlike humans, never experience any gap between desire and attainment",
+          "He denies any meaningful analogy exists between spiritual and carnal 'conception'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts spiritual satisfaction (conception = birth) with carnal desire, where wanting and attaining are distinct steps, and even attainment leaves one unsatisfied and thirsting again, per Christ's words about the woman at the well."
+      },
+      {
+        "q": "What Psalm-derived image does Augustine cite to describe sinful desire's 'conception' and 'birth'?",
+        "options": [
+          "\"He has conceived pain [or labor/mischief] and brought forth iniquity,\" connecting sinful desire to a painful, laboring pregnancy that culminates in sin",
+          "\"Blessed is the man who walks not in the counsel of the ungodly\"",
+          "\"The heavens declare the glory of God\"",
+          "\"Out of the mouth of babes and sucklings you have ordained strength\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the psalm 'he has conceived pain [or mischief] and brought forth iniquity' to illustrate how sinful desire is 'conceived' with painful longing (unlike spiritual love's immediate rest) and eventually 'brought forth' as sinful action."
+      }
+    ],
+    "TRIN-B9C10": [
+      {
+        "q": "What refined question does Augustine pose about the relationship between knowledge and 'word' in this chapter?",
+        "options": [
+          "Whether ALL knowledge counts as an inner 'word,' or only knowledge that is also loved/approved — since we know many things (like vices) that we dislike, and such knowledge is not 'spoken' as a word in the fullest sense",
+          "Whether words can exist without any corresponding sound or written form whatsoever",
+          "Whether animals, like humans, are capable of forming genuine inner 'words'",
+          "Whether the Latin and Greek languages differ in how they define 'word'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine refines the definition of 'word,' asking whether merely knowing something (even something disliked, like a vice) counts as a 'word,' concluding that a true 'word' in the fullest sense requires knowledge joined with love or approval."
+      },
+      {
+        "q": "How does Augustine explain that even 'knowing and disliking a vice' can still involve a kind of 'word'?",
+        "options": [
+          "Because even when we dislike the vice itself, we approve of and 'like' our own correct censure or definition of it — e.g., 'I like to know and define what intemperance is,' and that definition (not the vice itself) becomes a word",
+          "Because Augustine claims all knowledge whatsoever, without exception, automatically becomes a word",
+          "He argues that disliking something is impossible without first loving it in some hidden sense",
+          "He claims vices themselves are secretly loved by everyone who studies them"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's subtle point: while we dislike the vice (e.g., intemperance) itself, we do 'like' and approve our own correct knowledge and definition of what it is — that approved act of definition, not the disliked vice, functions as a genuine 'word.'"
+      },
+      {
+        "q": "What is Augustine's concluding formula for what a 'word' truly is, in the sense relevant to this inquiry?",
+        "options": [
+          "\"A word, then... is knowledge together with love\" — so when the mind knows and loves itself, its word is joined to it by love, and both word and love are 'in him who loves and speaks'",
+          "\"A word is simply any sound uttered by the human voice, regardless of meaning\"",
+          "\"A word is a word only when written down and preserved for future generations\"",
+          "\"A word is whatever a person believes to be true, regardless of whether it is loved or known\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's concluding definition: a 'word,' in the theologically relevant sense, is 'knowledge together with love' — when the mind knows and loves itself, its self-knowledge becomes a true inner word, joined to it by love."
+      }
+    ],
+    "TRIN-B9C11": [
+      {
+        "q": "Why does Augustine say our knowledge of God, though real, is not equal to God, even though it is a genuine 'likeness' of Him?",
+        "options": [
+          "Because knowledge is 'in a lower nature' than what it knows when the knower (the human mind, a creature) is lesser than the known (God, the Creator) — so while we become 'better' by knowing and loving God, that knowledge remains a lower-nature likeness, not an equal image",
+          "Because Augustine denies that any real knowledge of God is possible in this life",
+          "Because he claims our knowledge of God is entirely false and corresponds to nothing real",
+          "Because he argues knowledge of God and knowledge of ourselves are identical in every respect"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that knowledge, as a likeness of what it knows, is nonetheless 'in' the nature of the knower — since the mind (creature) is of a lower nature than God (Creator), its knowledge of God, while real and elevating, cannot be a fully equal image of Him."
+      },
+      {
+        "q": "Why, by contrast, is the mind's knowledge of itself uniquely 'equal' to the mind, according to Augustine?",
+        "options": [
+          "Because in self-knowledge, the knower and the known are the very same nature (the mind knowing the mind), so the resulting knowledge is neither of a lower nature (as with bodies) nor a higher one (as with God), making it perfectly 'on a par and equal' with the mind itself",
+          "Because Augustine claims self-knowledge is always false and therefore trivially 'equal' to nothing real",
+          "Because he argues the mind is actually of a higher nature than itself, creating a paradox he leaves unresolved",
+          "Because he denies any distinction between the mind's knowledge of itself and its knowledge of external bodies"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key insight for this chapter: self-knowledge is unique because the knower and known share the identical nature (mind knowing mind), unlike knowledge of bodies (lower nature known) or of God (higher nature known), making self-knowledge uniquely 'equal' to and a true 'image' of the mind."
+      },
+      {
+        "q": "How does Augustine use the comparison of a mental image of a body ('phantasm') to sharpen this point about self-knowledge?",
+        "options": [
+          "A phantasm of a body, though only a likeness (not the body itself), is actually 'of a better sort' than the body since it exists in a living substance (the mind); but our self-knowledge, unlike such phantasms, achieves 'perfect and equal likeness' because both knower and known are the very same mind",
+          "He argues phantasms of bodies are always more accurate and reliable than self-knowledge",
+          "He claims bodies and their mental images are identical in every respect, eliminating any distinction",
+          "He denies that mental images (phantasms) of bodies exist at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes a phantasm (mental image) of a body, while only a likeness, is actually of a 'better sort' than the body (being in a living mind); but he contrasts this with self-knowledge, which achieves full equality precisely because the knower and known are identically the same mind, unlike the phantasm/body relationship."
+      }
+    ],
+    "TRIN-B9C12": [
+      {
+        "q": "What question does Augustine explicitly link, at the start of this chapter, to the theological puzzle of why the Holy Spirit is not also called 'Son'?",
+        "options": [
+          "Why the mind's self-knowledge is called its 'offspring' (begotten), while its self-love, though equally arising from the mind, is not similarly called 'begotten'",
+          "Why the Father is called 'unbegotten' while the Son is called 'begotten'",
+          "Why the Holy Spirit is sometimes depicted as a dove and sometimes as fire",
+          "Why the number three, rather than some other number, is significant for the Trinity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly draws the parallel: just as it is asked why the Holy Spirit, though also from the Father, is not called 'Son' or 'begotten,' so here he asks why the mind's self-love, though also arising from the mind, is not called 'begotten' the way self-knowledge is."
+      },
+      {
+        "q": "How does Augustine explain why knowledge, but not love, is properly called the mind's 'offspring' or 'begotten'?",
+        "options": [
+          "Knowledge is preceded by desire/inquiry (a seeking that culminates in 'finding,' like something brought forth or discovered), whereas the desire itself, once it has found and embraces its 'offspring' (knowledge), becomes love — so love is the embracing continuation of desire around the found knowledge, not itself a separately 'found' thing",
+          "Augustine claims love is entirely unrelated to and cannot arise from the mind in any sense",
+          "He argues knowledge and love are, in fact, identical, making the question meaningless",
+          "He claims only love, not knowledge, can properly be called the mind's offspring"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution: desire/inquiry precedes and culminates in the 'finding' of knowledge (properly called offspring, since it results from a search), while that same desire, now embracing what it has found, becomes love — so love completes and unites with the offspring rather than being itself a separately 'begotten' find."
+      },
+      {
+        "q": "What is the final image of the Trinity that Book IX arrives at, and what does Augustine say about its equality?",
+        "options": [
+          "The mind itself, and the knowledge of it (its offspring/word), and love (as a third) — 'these three are one, and one substance,' with neither the offspring nor the love being 'less,' since each corresponds to the full measure of the mind's own being and knowledge",
+          "Faith, hope, and charity, considered as the definitive and final image of the Trinity",
+          "The body, the soul, and the spirit, in equal proportion",
+          "The Father, Son, and Holy Spirit directly perceived within the human mind without any creaturely analogy"
+        ],
+        "correct": 0,
+        "explanation": "Book IX concludes with its image of the Trinity: mind, its self-knowledge (offspring/word), and self-love, 'these three are one, and one substance,' with Augustine insisting neither the knowledge nor the love falls short of the full measure of the mind's being."
+      }
+    ],
+    "TRIN-B10C1": [
+      {
+        "q": "In Augustine's example of the unfamiliar Latin word 'temetum,' what does the inquirer actually love, since he does not yet know the word's meaning?",
+        "options": [
+          "He loves the general excellence and usefulness of understanding language and signs as such (so as not to be lost when hearing or reading something), not the unknown meaning of the word itself, which he does not yet possess",
+          "He loves the specific sound and rhythm of the word's three syllables purely for their own sake",
+          "He loves nothing at all, since Augustine argues true curiosity about words is impossible",
+          "He loves the person who first used the word, even though he does not know who that was"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key point: the inquirer's zeal is really love for the known excellence and usefulness of understanding signs and language (so as to communicate and not be a 'foreigner' to others' words), not love of the specific, still-unknown meaning he seeks."
+      },
+      {
+        "q": "What example of a marvel Augustine uses to illustrate how learning is desired for a result already glimpsed?",
+        "options": [
+          "A person unfamiliar with writing being shown that words can be silently sent in writing to someone far away and read with the eyes rather than heard — moving him to want to learn how to do this himself",
+          "A person watching a magician perform an unexplained trick with no interest in learning how it was done",
+          "A person hearing a foreign language spoken fluently with no desire to ever learn it themselves",
+          "A person seeing a painting and wanting only to own it, not to learn how to paint"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example: someone unfamiliar with writing, upon seeing that words can be silently written and read at a distance, is moved to study in pursuit of a result he already recognizes and desires, illustrating that study is directed toward an end already known and valued."
+      },
+      {
+        "q": "What is Augustine's overall conclusion about the 'love' involved in studious desire to learn what one doesn't yet know?",
+        "options": [
+          "That the love of a studious mind is not love of the unknown thing itself, but of something already known, on account of which the mind wishes to know the unknown thing",
+          "That such love is entirely illusory and does not really exist in any meaningful sense",
+          "That studious love always and only concerns things that are already fully known, contrary to appearances",
+          "That study is motivated purely by fear of appearing ignorant to others, not by any genuine love"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's chapter-summarizing conclusion: 'the love of a studious mind... is not the love of that thing which it does not know, but of that which it knows; on account of which it wishes to know what it does not know.'"
+      }
+    ],
+    "TRIN-B10C2": [
+      {
+        "q": "How does Augustine explain loving 'a good man whose face we never saw'?",
+        "options": [
+          "We love him from knowledge of his virtues, which we know abstractly in the truth itself — not from any unknown feature of him personally",
+          "We do not actually love him at all, since we have never seen his face",
+          "We love only the idea of his reputation, with no connection to any real virtues",
+          "Augustine denies this scenario is possible under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that loving an unseen good man rests on knowledge of virtues we understand abstractly through eternal truth — the love targets known virtues, not an unknown personal feature of the man."
+      },
+      {
+        "q": "What alternative explanations does Augustine offer for cases that seem to show 'loving the unknown,' before concluding no one truly loves what is unknown?",
+        "options": [
+          "Loving a known genus while picturing an individual not yet seen; loving an image/species glimpsed in eternal reason, later confirmed by report; loving something known while seeking something else unknown that belongs to it; or loving 'knowing' itself",
+          "Augustine offers no alternative explanations and simply asserts the unknown can be loved without argument",
+          "He claims all apparent cases of loving the unknown are actually cases of loving physical beauty alone",
+          "He argues these cases prove decisively that the unknown genuinely can be loved, reversing his usual position"
+        ],
+        "correct": 0,
+        "explanation": "Augustine works through several ways apparent 'love of the unknown' can be explained (known genus/species, eternal reason's glimpsed image, known thing linked to unknown, or the love of knowing itself), consistently supporting his broader claim that nothing wholly unknown can be loved."
+      },
+      {
+        "q": "What harder question does Augustine flag at the end of this chapter, in preparation for the rest of the book?",
+        "options": [
+          "Whether the same principle (nothing unknown can be loved) still holds when it is the mind itself, rather than some other object, that the mind desires to know",
+          "Whether animals are capable of studious love in the same way humans are",
+          "Whether love of God differs fundamentally from love of any created thing",
+          "Whether the Latin and Greek languages define 'love' in incompatible ways"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explicitly flags the harder case yet to be examined: whether his conclusion (nothing unknown can be loved) still applies when the mind seeks to know not something external, but itself — the topic of the following chapter."
+      }
+    ],
+    "TRIN-B10C3": [
+      {
+        "q": "What is the seemingly paradoxical situation Augustine examines when the mind seeks to know itself?",
+        "options": [
+          "The mind appears to love and seek something (itself) that it does not yet know, which would seem to contradict the principle that nothing unknown can be loved",
+          "The mind seeks to know something entirely external to itself, with no connection to self-knowledge",
+          "The mind seeks to forget itself entirely, rather than to know itself",
+          "The mind seeks to become a different mind altogether than the one it currently is"
+        ],
+        "correct": 0,
+        "explanation": "Augustine poses the central puzzle: if the mind seeks to know itself while 'still unknown to itself,' this seems to violate the principle just established that nothing wholly unknown can be loved or sought."
+      },
+      {
+        "q": "How does Augustine resolve this puzzle through a chain of reasoning about the mind's self-awareness in seeking?",
+        "options": [
+          "He shows the mind knows itself as seeking, and knows itself as not (fully) knowing itself — since it distinguishes its own seeking and knows it is itself, not another mind, that does not know itself — proving it is 'more known to itself than unknown'",
+          "He simply asserts by fiat that the mind always fully knows itself with no argument",
+          "He concludes the mind can never actually know itself under any circumstances, leaving the paradox unresolved",
+          "He argues the paradox proves the whole inquiry into self-knowledge is meaningless and should be abandoned"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution traces a subtle chain: the mind knows that IT (not some other mind) is seeking, and knows that IT does not fully know itself — this self-referential awareness itself proves the mind is already substantially known to itself, 'more known... than unknown.'"
+      },
+      {
+        "q": "Why does Augustine reject the idea that the mind comes to picture itself the way we picture people we've heard about but never seen?",
+        "options": [
+          "Because unlike an absent person pictured from report, the mind, if it pictures itself from knowing OTHER minds, would already need to know itself to recognize those others as minds in the first place — an argument he made explicitly in the previous book",
+          "Because Augustine claims the mind has no capacity to form mental images of any kind",
+          "Because he argues other minds do not actually exist, making the comparison moot",
+          "Because he claims all mental self-images are automatically and always perfectly accurate"
+        ],
+        "correct": 0,
+        "explanation": "Augustine rejects this analogy since it presupposes prior knowledge of 'other minds' as minds, which (as argued in Book IX) itself requires already knowing what a mind is from one's own case — so self-knowledge can't be derived this way without circularity."
+      }
+    ],
+    "TRIN-B10C4": [
+      {
+        "q": "What paradoxical argument does Augustine make about the mind seeking itself 'in part' versus 'as a whole'?",
+        "options": [
+          "Since 'the mind' names a whole, any partial self-knowledge is still knowledge belonging to and possessed by the whole mind, so it is absurd to speak of the mind knowing only 'part' of itself while somehow not knowing as a whole what it does know",
+          "He argues the mind consists of separable physical parts, like a body, that can be known independently",
+          "He claims the mind can never know any part of itself under any circumstances",
+          "He argues 'part' and 'whole' are meaningless terms when applied to minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's intricate argument: since the mind, whatever it knows about itself, knows it 'as a whole' (there's no fragmentary knower), and since it is a whole mind that lives and seeks, it cannot be said to seek or find only 'a part' of itself distinct from the whole."
+      },
+      {
+        "q": "How does this chapter's argument lead to the striking conclusion that the mind 'does not seek itself at all' in one sense?",
+        "options": [
+          "Augustine argues that since the mind as a whole seeks itself, and 'the mind which seeks' cannot itself be the thing that is wanting/missing, nothing is truly absent for it to search out — paradoxically implying the mind, in seeking itself, discovers it was never actually missing from itself",
+          "He argues this conclusion straightforwardly, with no supporting reasoning of any kind",
+          "He claims the mind literally ceases to exist the moment it begins seeking itself",
+          "He argues this conclusion applies only to insane or dreaming minds, not to ordinary waking minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's paradoxical chain concludes that since the seeking mind (the whole) is not itself what is 'missing' (what is sought is what is wanting), and the whole mind is present to itself in seeking, in a real sense nothing is absent — the mind was never actually missing from itself."
+      },
+      {
+        "q": "What comparison does Augustine use for how the mind 'seeks' something not altogether lost from it?",
+        "options": [
+          "Like recalling something that has 'slipped from the mind, but has not altogether gone away from it,' recognizable once it returns as the very thing sought",
+          "Like searching a house for a lost object that might not be there at all",
+          "Like a stranger seeking directions in an unfamiliar city",
+          "Like a merchant searching for a buyer for his goods in a foreign market"
+        ],
+        "correct": 0,
+        "explanation": "Augustine compares the mind's self-seeking to recalling something 'slipped from the mind, but not altogether gone away,' recognizable as the same thing once recovered — suggesting the mind's self-knowledge is never wholly lost, only temporarily unattended."
+      }
+    ],
+    "TRIN-B10C5": [
+      {
+        "q": "According to Augustine, what is the real purpose of the command 'know yourself,' beyond mere factual self-discovery?",
+        "options": [
+          "That the mind should 'consider itself, and live according to its own nature' — properly subordinate to God and properly ruling over what is beneath it, rather than pursuing self-forgetful vicious desire",
+          "That the mind should catalog a complete, technical inventory of its own psychological faculties",
+          "That the mind should compare itself point-by-point against the minds of philosophers to assess its intelligence",
+          "That the mind should focus exclusively on bodily health as the truest form of self-knowledge"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains the command 'know yourself' aims at practical self-regulation: living according to one's proper nature, subject to God and ruling rightly over what is beneath it, rather than being lost in self-forgetful vicious desire."
+      },
+      {
+        "q": "How does the mind fall into vicious self-forgetfulness, according to Augustine's account in this chapter?",
+        "options": [
+          "By seeing excellent things in God's nature but, instead of remaining steadfast to enjoy them in Him, wishing to appropriate them to itself and be self-sufficient like God rather than by His gift — sliding downward while thinking it is rising",
+          "By spending too much time in quiet, solitary contemplation and prayer",
+          "By reading too many philosophical texts and too few scriptural ones",
+          "By failing to exercise the body sufficiently, leading to spiritual sluggishness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes the mind's fall as a perverse imitation of God: seeing excellent things in God and, rather than remaining subject to enjoy them through Him, wishing to possess them by its own power — 'to be what He is by its own,' sliding into 'less and less' while thinking itself 'more and more.'"
+      },
+      {
+        "q": "What distinction does Augustine draw between 'not knowing oneself' and 'not thinking of oneself,' using the analogy of a learned scholar?",
+        "options": [
+          "A grammar expert who is currently thinking about medicine is not thereby 'ignorant of grammar' — he simply isn't attending to it at that moment; similarly, the mind can genuinely know itself while, through love of external things, simply not be attending to (thinking of) itself",
+          "Augustine claims these two phrases mean exactly the same thing with no distinction",
+          "He argues that not thinking of oneself always necessarily means not knowing oneself as well",
+          "He denies that any scholar could ever be knowledgeable in more than one subject at a time"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's analogy: a scholar skilled in grammar isn't 'ignorant of grammar' just because he's currently thinking about medicine instead — similarly, the mind doesn't lose self-knowledge just because it is presently absorbed in thinking about (loving) external things."
+      }
+    ],
+    "TRIN-B10C6": [
+      {
+        "q": "What specific error does Augustine identify the mind falling into through its 'loving and intimate' connection with images of bodily things?",
+        "options": [
+          "The mind comes to consider itself to be 'something of the same kind' as the bodily images it loves — not literally thinking itself an image, but mistakenly identifying itself with the corporeal thing the image represents",
+          "The mind becomes permanently incapable of ever perceiving any bodily thing again",
+          "The mind loses all capacity for rational thought whatsoever, becoming purely instinctual",
+          "The mind begins to physically transform into the shape of the objects it contemplates"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's precise diagnosis: through loving connection with corporeal images, the mind comes to think of itself AS the corporeal thing itself (not merely as having an image of it) — mistaking its own nature for that of the bodily things it has dwelt on."
+      },
+      {
+        "q": "What power does Augustine say normally still 'lives' in the mind, even amid this error, allowing some self-correction?",
+        "options": [
+          "The power of distinguishing the external corporeal thing itself from the internal image of that thing which the mind retains — a discriminating capacity that persists except in extreme states",
+          "The power to physically alter one's own bodily senses at will",
+          "The power to completely erase all mental images through sheer willpower",
+          "The power to perceive other people's thoughts directly, bypassing all corporeal signs"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes the mind retains the power to distinguish an external corporeal thing from its internal image of that thing — a capacity for discrimination that persists in ordinary waking states, even amid the error of mistaking itself for something corporeal."
+      },
+      {
+        "q": "In what unusual states does Augustine say this normally-persisting power of discrimination can fail entirely?",
+        "options": [
+          "In cases of sleep, madness, or trance, when images are 'projected as if felt without and not thought within'",
+          "Only during moments of extreme physical exercise or exertion",
+          "Only when reading works of pagan philosophy",
+          "Only when a person is completely silent and not speaking to anyone"
+        ],
+        "correct": 0,
+        "explanation": "Augustine specifically identifies sleep, madness, and trance as the states in which the mind's usual power to distinguish external things from internal images breaks down, so that images seem to be felt as external rather than recognized as internal representations."
+      }
+    ],
+    "TRIN-B10C7": [
+      {
+        "q": "What various material substances does Augustine list that different ancient philosophers thought the soul was made of?",
+        "options": [
+          "Blood, brain, heart, atoms (minute individual particles), air, fire, and a mere 'tempering together' or combination of the body's elements",
+          "Only water and earth, according to a strict two-element theory",
+          "Exclusively gold and silver, reflecting a purely metallurgical theory of the soul",
+          "Only the number seven, understood as a purely mathematical entity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine surveys ancient theories of the soul's substance: blood, brain, heart, atoms, air, fire, or simply the combination/tempering of the body's elements — all materialist accounts he goes on to critique."
+      },
+      {
+        "q": "According to Augustine, why do these philosophers err in thinking the soul is corporeal, given that they clearly know the mind intimately (as everyone does)?",
+        "options": [
+          "Their error does not come from 'defect of knowledge concerning mind,' but from an inability to conceive of any real existence at all except through corporeal images/phantasms — if asked to conceive existence without such images, they consider it 'merely nothing'",
+          "Because they had never personally experienced having a mind at all",
+          "Because ancient philosophy had no vocabulary whatsoever for discussing non-physical realities",
+          "Because Augustine claims these philosophers were being deliberately deceptive rather than genuinely mistaken"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's diagnosis is subtle: these philosophers do know the mind (as everyone intimately does), but their error stems from an inability to conceive existence at all apart from corporeal phantasms — anything non-corporeal strikes them as simply 'nothing.'"
+      },
+      {
+        "q": "How does Augustine define 'finding' (invention) in this chapter, connecting it to how the mind 'comes into' what it seeks?",
+        "options": [
+          "'To find out' (invenire) means literally to 'come into' (in-venire) that which is sought — things that arrive in the mind 'of themselves' without a prior search are known but not properly said to be 'found,' since finding implies a preceding search",
+          "He defines 'finding' as purely a matter of luck or chance with no connection to seeking",
+          "He argues 'finding' applies only to physical objects lost and later located, never to knowledge",
+          "He claims the Latin word for 'finding' has no etymological connection to 'seeking' whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine offers an etymological observation: 'invenire' (to find/invent) literally suggests 'coming into' what is sought; things that simply occur to the mind without prior search are known but not properly 'found' in this technical sense."
+      }
+    ],
+    "TRIN-B10C8": [
+      {
+        "q": "According to Augustine, why can the mind not conceive of itself 'alone,' apart from the images of bodily things it has loved?",
+        "options": [
+          "Because those images have 'marvellously cohered with it by the close adhesion of love' — the mind's attachment to what it has loved outwardly makes it unable to separate itself, in thought, from the images of those loved things",
+          "Because the mind, according to Augustine, is literally composed of the same physical matter as bodily things",
+          "Because bodily images are, in Augustine's account, actually superior in reality to the mind itself",
+          "Because the mind has no independent existence apart from bodily images under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains the mind's difficulty conceiving itself 'alone' stems from love: images of loved bodily things have 'cohered' with the mind so closely through the 'adhesion of love' that it cannot easily separate itself from them in thought."
+      },
+      {
+        "q": "What key instruction does Augustine give for how the mind should respond to the command 'know yourself,' given this entanglement?",
+        "options": [
+          "Not to seek itself as though it were absent/withdrawn from itself, but to 'withdraw that which it has added to itself' — removing the foreign accretions of loved images rather than searching for something missing",
+          "To physically withdraw from all society and live in complete isolation from other people",
+          "To seek out a physical mirror in which to observe itself as directly as possible",
+          "To abandon the pursuit of self-knowledge entirely as inherently self-defeating"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's practical instruction: the mind should not search for itself as if absent, but rather 'withdraw that which it has added to itself' — stripping away the foreign images it has confused with its own nature, rather than searching outward for something lost."
+      },
+      {
+        "q": "What does Augustine say the mind will discover once it properly attends to itself, according to this chapter's conclusion?",
+        "options": [
+          "That 'at no time did it ever not love itself, at no time did it ever not know itself,' but that by loving other things alongside itself, it had confused itself with them, mistaking diverse things for one",
+          "That it had, in fact, never known or loved itself at any point prior to this exercise",
+          "That self-knowledge is permanently impossible and the whole exercise is futile",
+          "That the mind's confusion about itself is entirely irreversible once it has occurred"
+        ],
+        "correct": 0,
+        "explanation": "Augustine concludes the mind will discover it 'never did not love itself' or 'not know itself,' but had confused itself with the external things it loved alongside itself — mistaking diverse things (itself plus loved objects) for a single thing."
+      }
+    ],
+    "TRIN-B10C9": [
+      {
+        "q": "How does Augustine distinguish the command 'Know yourself' from a command like 'Know the cherubim and seraphim'?",
+        "options": [
+          "The cherubim and seraphim are absent and known only by belief based on report, whereas the mind, when told to 'know yourself,' knows itself by the very act of understanding what the word 'yourself' means, since it is immediately and directly present to itself",
+          "Augustine claims both commands are, in fact, identical in kind, requiring identical processes to fulfill",
+          "He argues knowledge of angels is actually easier to obtain than self-knowledge",
+          "He denies that the cherubim and seraphim can be known by any means whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's contrast: unlike the cherubim and seraphim (absent, known only by belief/report), the mind knows itself in the very act of understanding the address 'yourself,' since nothing could be more directly and immediately present to it than itself."
+      },
+      {
+        "q": "How does Augustine distinguish knowing oneself from 'seeing one's own face,' which requires a mirror?",
+        "options": [
+          "Unlike the face, which is literally outside the reach of one's own sight and requires an external reflecting surface, the mind requires no external mirror to know itself, since it is immediately present to itself without needing any intermediary",
+          "He argues the mind, exactly like the face, also requires a kind of mirror to be known",
+          "He claims seeing one's face and knowing one's mind are, in fact, identical processes",
+          "He denies that mirrors can ever accurately reflect a person's actual face"
+        ],
+        "correct": 0,
+        "explanation": "Augustine contrasts the face (literally outside one's own line of sight, requiring a mirror) with the mind, which needs no such external device or intermediary since it is already, and always, immediately present to itself."
+      },
+      {
+        "q": "What is Augustine's concluding logical point about understanding the command 'Know yourself'?",
+        "options": [
+          "The mind is 'bidden to do that thing which it does do, when it understands the very precept that bids it' — understanding the command 'know yourself' just IS an instance of the mind knowing itself, since it must grasp what 'yourself' means",
+          "The command is logically incoherent and cannot actually be fulfilled by any mind",
+          "Only philosophers with advanced training can ever truly understand or fulfill this command",
+          "The command applies only to disembodied minds after death, not to minds in this present life"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's elegant closing logical point: the very act of understanding the command 'know yourself' already fulfills it, since understanding what 'yourself' refers to requires the mind to be self-aware — the command is thus performatively satisfied in the act of comprehending it."
+      }
+    ],
+    "TRIN-B10C10": [
+      {
+        "q": "What is the famous certainty Augustine identifies that survives even radical doubt about the mind's substance?",
+        "options": [
+          "That one lives, remembers, understands, wills, thinks, knows, and judges — since even the act of doubting proves all of these: if he doubts, he lives; if he doubts, he understands that he doubts; if he doubts, he wishes to be certain",
+          "That the mind is definitely made of fire, since this can never be doubted according to Augustine",
+          "That nothing at all can be known with any certainty whatsoever, not even that one exists",
+          "That only trained philosophers can achieve this kind of certainty; ordinary people cannot"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's celebrated proto-Cartesian argument: even radical doubt about what the mind IS (fire, air, brain, etc.) cannot touch the certainty that one lives, understands, wills, and judges, since the very act of doubting requires and proves all of these."
+      },
+      {
+        "q": "How does Augustine describe the error of those who think the mind is a corporeal substance (like air or fire) with understanding as its 'quality'?",
+        "options": [
+          "They treat the corporeal substance (air, fire, etc.) as 'the subject' in which understanding exists 'as its quality,' the way color exists in a body — a materialist framework Augustine sets out to refute by showing the mind's certainty about itself does not depend on any such corporeal identification",
+          "Augustine claims this description perfectly and correctly captures the true nature of the mind",
+          "He argues this view was universally rejected by all ancient philosophers with no dissent",
+          "He claims this view applies only to animal minds, never to human minds"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes and critiques the materialist framework in which a corporeal substance (air, fire) is treated as 'the subject' bearing understanding as a mere quality — a view he contrasts with the mind's immediate, non-corporeal self-certainty."
+      },
+      {
+        "q": "What is Augustine's final criterion for what the mind truly is, given all this uncertainty about corporeal identification?",
+        "options": [
+          "'Whatsoever remains to it from itself' after stripping away everything it merely imagines about itself (fire, air, body) through 'imaginary phantasy' — the mind IS only that which it knows through true, direct, inward presence to itself, not through imagined external comparison",
+          "The mind is definitively identified as a fifth kind of body, distinct from the four classical elements",
+          "The mind is whatever the majority of ancient philosophers agreed it to be",
+          "The mind's true nature can never be determined by any process of reasoning whatsoever"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion: after stripping away all the merely imagined/phantasized corporeal identifications (fire, air, etc.), 'whatsoever remains to it from itself' — known through direct, non-imaginary inward presence — is the mind's true self, distinct from the imaginative guesses about corporeal identity."
+      }
+    ],
+    "TRIN-B10C11": [
+      {
+        "q": "What three things does Augustine now focus the inquiry on, setting aside other things the mind is certain of concerning itself?",
+        "options": [
+          "Memory, understanding, and will",
+          "Ability, learning, and habit",
+          "Faith, hope, and charity",
+          "Sensation, imagination, and reason"
+        ],
+        "correct": 0,
+        "explanation": "Augustine narrows his focus in this chapter specifically to memory, understanding, and will as the trinity he will examine in depth, setting aside the mind's other certainties (that it lives, is, etc.) discussed previously."
+      },
+      {
+        "q": "How does Augustine demonstrate that memory, understanding, and will 'mutually contain' one another as wholes?",
+        "options": [
+          "By showing chains like 'I remember that I have memory and understanding, and will; and I understand that I understand, and will, and remember; and I will that I will, and remember, and understand' — each faculty, when exercised, involves and encompasses the others as complete wholes",
+          "By arguing they are entirely separate faculties with no overlap or mutual relationship whatsoever",
+          "By claiming only memory truly exists, while understanding and will are illusions",
+          "By showing that only one of the three faculties can be active at any given moment, never more than one simultaneously"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's demonstration proceeds through interlocking statements ('I remember that I have memory and understanding and will; I understand that I understand, and will, and remember...') showing each faculty's exercise necessarily involves and encompasses the others as complete wholes, not fragments."
+      },
+      {
+        "q": "What is Augustine's concluding claim about the unity and plurality of memory, understanding, and will in this chapter?",
+        "options": [
+          "They are not three lives but one life, not three minds but one mind, not three substances but one substance — yet genuinely three 'in that wherein they are mutually referred to each other,' since each is called by a relative name (memory OF something, etc.) even while each, considered in itself, simply IS life, mind, and essence",
+          "They are three entirely separate and unequal substances, with memory being clearly superior to the other two",
+          "They cannot be meaningfully distinguished from one another in any respect whatsoever",
+          "Only will is a genuine faculty; memory and understanding are, in Augustine's final view, merely aspects of will"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion follows the pattern established for the divine Persons: memory, understanding, and will are one life, one mind, one substance in respect to themselves, yet genuinely three in their mutual relations to one another (each named relatively, e.g., 'memory of...')."
+      }
+    ],
+    "TRIN-B10C12": [
+      {
+        "q": "What image of the Trinity does Augustine identify at the close of Book X, as the culmination of this book's inquiry?",
+        "options": [
+          "Memory, understanding, and will — specifically the mind's ever-present memory, understanding, and love/will of itself, found to be 'an inadequate image, yet an image' of the highest, chiefest essence",
+          "Faith, hope, and charity, treated here as the definitive final answer",
+          "Body, soul, and spirit, in equal balance",
+          "The Father, Son, and Holy Spirit, understood as directly and fully visible within human consciousness with no distinction from the divine reality itself"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies memory, understanding, and will/love (as they concern the mind's relation to itself) as the culminating image of the Trinity for this book — explicitly calling it 'an inadequate image, yet an image' of the highest divine essence."
+      },
+      {
+        "q": "What difficulty does Augustine acknowledge in distinguishing the mind's self-memory from its self-understanding in this 'always-actual' case?",
+        "options": [
+          "Since the mind is understood to 'always know and always will itself,' its memory and understanding of itself are 'very closely conjoined,' with 'one is not preceded by the other by any time at all,' making them look 'not two things, but one called by two names'",
+          "He claims no difficulty exists whatsoever in distinguishing these three in the always-actual case",
+          "He argues memory and understanding of oneself are, in this always-actual case, completely and permanently identical with no distinction possible at all",
+          "He claims this difficulty applies only to animals, not to the human mind"
+        ],
+        "correct": 0,
+        "explanation": "Augustine candidly notes a real difficulty: because the mind always already knows and wills itself (with no temporal gap), its self-memory and self-understanding seem to collapse into 'one thing called by two names,' making the trinity harder to discern clearly."
+      },
+      {
+        "q": "What alternative approach does Augustine propose, at the very end of the book, to make the threefold distinction clearer?",
+        "options": [
+          "Examining knowledge and love as they arise freshly 'in time' — remembering what one did not remember before, seeing what one did not see before, loving what one did not love before — since temporal, changing examples are easier for 'duller minds' to follow than the always-already-actual case of self-knowledge",
+          "Abandoning the psychological analogy entirely and returning to purely scriptural argument",
+          "Focusing exclusively on angelic minds rather than human minds, since angels are simpler",
+          "Restricting the inquiry only to the minds of small children, whose thoughts are less complex"
+        ],
+        "correct": 0,
+        "explanation": "Augustine proposes shifting to examples involving temporal, in-time acquisition of knowledge and love (remembering, seeing, loving something new) as an easier, more accessible way to make the threefold distinction clear — the approach that Book XI's turn to external, bodily perception will pursue."
+      }
     ]
   }
 };
