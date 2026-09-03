@@ -2,6 +2,12 @@
   "buildCommand": "echo 'Static site, no build needed'",
   "outputDirectory": "app",
   "framework": null,
+  "rewrites": [
+    {
+      "source": "/home",
+      "destination": "/index.html"
+    }
+  ],
   "headers": [
     {
       "source": "/service-worker.js",
