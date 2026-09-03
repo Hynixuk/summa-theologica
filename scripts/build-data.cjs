@@ -89,10 +89,18 @@ function main() {
     let questionEnd = null;
     let tracks = [];
     if (manifest) {
-      tracks = manifest.tracks.map((t) => ({
+      // Manifests aren't guaranteed globally-unique track numbers (a volume can
+      // list more than one file under the same "track", e.g. a bonus/insert
+      // track — vol01 does this), so index within this volume's own array
+      // rather than trusting t.track to be unique.
+      tracks = manifest.tracks.map((t, i) => ({
         track: t.track,
         title: t.title,
         file: `../audio/vol${String(v.volume).padStart(2, '0')}/${t.file}`,
+        // Unique AUDIO_URLS lookup key for this track, in its own namespace
+        // (distinct from ST's "P{part}Q{question}" and SCG/Metaphysics'
+        // "B{book}C{chapter}" key shapes) so nothing can collide with it.
+        audioFile: `ST-VOL${String(v.volume).padStart(2, '0')}-T${String(i + 1).padStart(2, '0')}`,
         questionStart: t.questionStart,
         questionEnd: t.questionEnd,
         durationSeconds: t.durationSeconds,

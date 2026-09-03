@@ -30,3 +30,4 @@ scripts/upload-audio.log
 *.sublime-workspace
 scratch_v1assets.json
 scratch_v3assets.json
+scratch_v2assets.json

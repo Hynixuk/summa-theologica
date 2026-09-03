@@ -41,6 +41,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Prologue; Question 1: The Nature and Extent of Sacred Doctrine",
         "file": "../audio/vol01/01 - 01 - Prologue; Question 1 The Nature and Extent of Sacred Doctrine.mp3",
+        "audioFile": "ST-VOL01-T01",
         "questionStart": 1,
         "questionEnd": 1,
         "durationSeconds": 2747
@@ -49,6 +50,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "Prima Pars, Initial Questions, Question 13, The Names of God",
         "file": "../audio/vol01/01 - Prima Pars, Initial Questions, Question 13, The Names of God.mp3",
+        "audioFile": "ST-VOL01-T02",
         "questionStart": 13,
         "questionEnd": 13,
         "durationSeconds": 4337
@@ -57,6 +59,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 2: The Existence of God",
         "file": "../audio/vol01/02 - 02 - Question 2 The Existence of God.mp3",
+        "audioFile": "ST-VOL01-T03",
         "questionStart": 2,
         "questionEnd": 2,
         "durationSeconds": 1282
@@ -65,6 +68,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 3: On the Simplicity of God",
         "file": "../audio/vol01/03 - 03 - Question 3 On the Simplicity of God.mp3",
+        "audioFile": "ST-VOL01-T04",
         "questionStart": 3,
         "questionEnd": 3,
         "durationSeconds": 2271
@@ -73,6 +77,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 4: The Perfection of God",
         "file": "../audio/vol01/04 - 04 - Question 4 The Perfection of God.mp3",
+        "audioFile": "ST-VOL01-T05",
         "questionStart": 4,
         "questionEnd": 4,
         "durationSeconds": 906
@@ -81,6 +86,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 5: Of Goodness in General",
         "file": "../audio/vol01/05 - 05 - Question 5 Of Goodness in General.mp3",
+        "audioFile": "ST-VOL01-T06",
         "questionStart": 5,
         "questionEnd": 5,
         "durationSeconds": 1777
@@ -89,6 +95,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 6: The Goodness of God",
         "file": "../audio/vol01/06 - 06 - Question 6 The Goodness of God.mp3",
+        "audioFile": "ST-VOL01-T07",
         "questionStart": 6,
         "questionEnd": 6,
         "durationSeconds": 930
@@ -97,6 +104,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 7: The Infinity of God",
         "file": "../audio/vol01/07 - 07 - Question 7 The Infinity of God.mp3",
+        "audioFile": "ST-VOL01-T08",
         "questionStart": 7,
         "questionEnd": 7,
         "durationSeconds": 1254
@@ -105,6 +113,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 8: The Existence of God in Things",
         "file": "../audio/vol01/08 - 08 - Question 8 The Existence of God in Things.mp3",
+        "audioFile": "ST-VOL01-T09",
         "questionStart": 8,
         "questionEnd": 8,
         "durationSeconds": 1357
@@ -113,6 +122,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 9: The Immutability of God",
         "file": "../audio/vol01/09 - 09 - Question 9 The Immutability of God.mp3",
+        "audioFile": "ST-VOL01-T10",
         "questionStart": 9,
         "questionEnd": 9,
         "durationSeconds": 717
@@ -121,6 +131,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 10: The Eternity of God",
         "file": "../audio/vol01/10 - 10 - Question 10 The Eternity of God.mp3",
+        "audioFile": "ST-VOL01-T11",
         "questionStart": 10,
         "questionEnd": 10,
         "durationSeconds": 1065
@@ -129,6 +140,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 11: The Unity of God",
         "file": "../audio/vol01/11 - 11 - Question 11 The Unity of God.mp3",
+        "audioFile": "ST-VOL01-T12",
         "questionStart": 11,
         "questionEnd": 11,
         "durationSeconds": 1122
@@ -137,6 +149,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 12: How God is Known by Us",
         "file": "../audio/vol01/12 - 12 - Question 12 How God is Known by Us.mp3",
+        "audioFile": "ST-VOL01-T13",
         "questionStart": 12,
         "questionEnd": 12,
         "durationSeconds": 3730
@@ -145,6 +158,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14a - Question 14: The Knowledge of God",
         "file": "../audio/vol01/14 - 14a - Question 14 The Knowledge of God.mp3",
+        "audioFile": "ST-VOL01-T14",
         "questionStart": 14,
         "questionEnd": 14,
         "durationSeconds": 2434
@@ -153,6 +167,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "14b - Question 14: The Knowledge of God",
         "file": "../audio/vol01/15 - 14b - Question 14 The Knowledge of God.mp3",
+        "audioFile": "ST-VOL01-T15",
         "questionStart": 14,
         "questionEnd": 14,
         "durationSeconds": 2528
@@ -161,6 +176,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "15 - Question 15: Of Ideas",
         "file": "../audio/vol01/16 - 15 - Question 15 Of Ideas.mp3",
+        "audioFile": "ST-VOL01-T16",
         "questionStart": 15,
         "questionEnd": 15,
         "durationSeconds": 979
@@ -169,6 +185,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "16 - Question 16: Of Truth",
         "file": "../audio/vol01/17 - 16 - Question 16 Of Truth.mp3",
+        "audioFile": "ST-VOL01-T17",
         "questionStart": 16,
         "questionEnd": 16,
         "durationSeconds": 2198
@@ -177,6 +194,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "17 - Question 17: Of Falsity",
         "file": "../audio/vol01/18 - 17 - Question 17 Of Falsity.mp3",
+        "audioFile": "ST-VOL01-T18",
         "questionStart": 17,
         "questionEnd": 17,
         "durationSeconds": 1211
@@ -185,6 +203,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "18 - Question 18: The Life of God",
         "file": "../audio/vol01/19 - 18 - Question 18 The Life of God.mp3",
+        "audioFile": "ST-VOL01-T19",
         "questionStart": 18,
         "questionEnd": 18,
         "durationSeconds": 1419
@@ -193,6 +212,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "19 - Question 19: The Will of God",
         "file": "../audio/vol01/20 - 19 - Question 19 The Will of God.mp3",
+        "audioFile": "ST-VOL01-T20",
         "questionStart": 19,
         "questionEnd": 19,
         "durationSeconds": 3651
@@ -201,6 +221,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "20 - Question 20: God's Love",
         "file": "../audio/vol01/21 - 20 - Question 20 God's Love.mp3",
+        "audioFile": "ST-VOL01-T21",
         "questionStart": 20,
         "questionEnd": 20,
         "durationSeconds": 1428
@@ -209,6 +230,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "21 - Question 21: The Justice and Mercy of God",
         "file": "../audio/vol01/22 - 21 - Question 21 The Justice and Mercy of God.mp3",
+        "audioFile": "ST-VOL01-T22",
         "questionStart": 21,
         "questionEnd": 21,
         "durationSeconds": 1109
@@ -217,6 +239,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "22 - Question 22: The Providence of God",
         "file": "../audio/vol01/23 - 22 - Question 22 The Providence of God.mp3",
+        "audioFile": "ST-VOL01-T23",
         "questionStart": 22,
         "questionEnd": 22,
         "durationSeconds": 1436
@@ -225,6 +248,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "23 - Question 23: Of Predestination",
         "file": "../audio/vol01/24 - 23 - Question 23 Of Predestination.mp3",
+        "audioFile": "ST-VOL01-T24",
         "questionStart": 23,
         "questionEnd": 23,
         "durationSeconds": 2723
@@ -233,6 +257,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "24 - Question 24: The Book of Life",
         "file": "../audio/vol01/25 - 24 - Question 24 The Book of Life.mp3",
+        "audioFile": "ST-VOL01-T25",
         "questionStart": 24,
         "questionEnd": 24,
         "durationSeconds": 728
@@ -241,6 +266,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "25 - Question 25: The Power of God",
         "file": "../audio/vol01/26 - 25 - Question 25 The Power of God.mp3",
+        "audioFile": "ST-VOL01-T26",
         "questionStart": 25,
         "questionEnd": 25,
         "durationSeconds": 2089
@@ -249,6 +275,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "26 - Question 26: The Beatitude of God",
         "file": "../audio/vol01/27 - 26 - Question 26 The Beatitude of God.mp3",
+        "audioFile": "ST-VOL01-T27",
         "questionStart": 26,
         "questionEnd": 26,
         "durationSeconds": 638
@@ -294,6 +321,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "27 - Question 27: The Procession of the Divine Persons",
         "file": "../audio/vol02/01 - Question 27 The Procession of the Divine Persons.mp3",
+        "audioFile": "ST-VOL02-T01",
         "questionStart": 27,
         "questionEnd": 27,
         "durationSeconds": 1738
@@ -302,6 +330,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "28 - Question 28: The Divine Relations",
         "file": "../audio/vol02/02 - Question 28 The Divine Relations.mp3",
+        "audioFile": "ST-VOL02-T02",
         "questionStart": 28,
         "questionEnd": 28,
         "durationSeconds": 1624
@@ -310,6 +339,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "29 - Question 29 - The Divine Persons",
         "file": "../audio/vol02/03 - Question 29 - The Divine Persons.mp3",
+        "audioFile": "ST-VOL02-T03",
         "questionStart": 29,
         "questionEnd": 29,
         "durationSeconds": 2064
@@ -318,6 +348,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "30 - Question 30: The Plurality of Persons in God",
         "file": "../audio/vol02/04 - Question 30 The Plurality of Persons in God.mp3",
+        "audioFile": "ST-VOL02-T04",
         "questionStart": 30,
         "questionEnd": 30,
         "durationSeconds": 1577
@@ -326,6 +357,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "31 - Question 31: Of What Belongs to the Unity or Plurality of God",
         "file": "../audio/vol02/05 - Question 31 Of What Belongs to the Unity or Plurality of God.mp3",
+        "audioFile": "ST-VOL02-T05",
         "questionStart": 31,
         "questionEnd": 31,
         "durationSeconds": 1456
@@ -334,6 +366,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "32 - Question 32: The Knowledge of the Divine Persons",
         "file": "../audio/vol02/06 - Question 32 The Knowledge of the Divine Persons.mp3",
+        "audioFile": "ST-VOL02-T06",
         "questionStart": 32,
         "questionEnd": 32,
         "durationSeconds": 1776
@@ -342,6 +375,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "33 - Question 33: Of the Person of the Father",
         "file": "../audio/vol02/07 - Question 33 Of the Person of the Father.mp3",
+        "audioFile": "ST-VOL02-T07",
         "questionStart": 33,
         "questionEnd": 33,
         "durationSeconds": 1386
@@ -350,6 +384,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "34 - Question 34: Of the Person of the Son",
         "file": "../audio/vol02/08 - Question 34 Of the Person of the Son.mp3",
+        "audioFile": "ST-VOL02-T08",
         "questionStart": 34,
         "questionEnd": 34,
         "durationSeconds": 1372
@@ -358,6 +393,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "35 - Question 35: Of the Image",
         "file": "../audio/vol02/09 - Question 35 Of the Image.mp3",
+        "audioFile": "ST-VOL02-T09",
         "questionStart": 35,
         "questionEnd": 35,
         "durationSeconds": 482
@@ -366,6 +402,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "36 - Question 36: Of the Person of the Holy Ghost",
         "file": "../audio/vol02/10 - Question 36 Of the Person of the Holy Ghost.mp3",
+        "audioFile": "ST-VOL02-T10",
         "questionStart": 36,
         "questionEnd": 36,
         "durationSeconds": 2091
@@ -374,6 +411,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "37 - Question 37: Of the Name of the Holy Ghost--Love",
         "file": "../audio/vol02/11 - Question 37 Of the Name of the Holy Ghost--Love.mp3",
+        "audioFile": "ST-VOL02-T11",
         "questionStart": 37,
         "questionEnd": 37,
         "durationSeconds": 970
@@ -382,6 +420,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "38 - Question 38: Of the Name of the Holy Ghost, as Gift",
         "file": "../audio/vol02/12 - Question 38 Of the Name of the Holy Ghost, as Gift.mp3",
+        "audioFile": "ST-VOL02-T12",
         "questionStart": 38,
         "questionEnd": 38,
         "durationSeconds": 540
@@ -390,6 +429,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "39 - Question 39: Of the Persons in Relation to the Essence",
         "file": "../audio/vol02/13 - Question 39 Of the Persons in Relation to the Essence.mp3",
+        "audioFile": "ST-VOL02-T13",
         "questionStart": 39,
         "questionEnd": 39,
         "durationSeconds": 3240
@@ -398,6 +438,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "40 - Question 40: Of the Persons as Compared to the Relations or Properties",
         "file": "../audio/vol02/14 - Question 40 Of the Persons as Compared to the Relations or Properties.mp3",
+        "audioFile": "ST-VOL02-T14",
         "questionStart": 40,
         "questionEnd": 40,
         "durationSeconds": 1554
@@ -406,6 +447,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "41 - Question 41: Of the Persons in Relation to the Notional Acts",
         "file": "../audio/vol02/15 - Question 41 Of the Persons in Relation to the Notional Acts.mp3",
+        "audioFile": "ST-VOL02-T15",
         "questionStart": 41,
         "questionEnd": 41,
         "durationSeconds": 2215
@@ -414,6 +456,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "42 - Question 42: Of Equality and Likeness among the Divine Persons",
         "file": "../audio/vol02/16 - Question 42 Of Equality and Likeness among the Divine Persons.mp3",
+        "audioFile": "ST-VOL02-T16",
         "questionStart": 42,
         "questionEnd": 42,
         "durationSeconds": 2235
@@ -422,6 +465,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "43 - Question 43: The Mission of the Divine Persons",
         "file": "../audio/vol02/17 - Question 43 The Mission of the Divine Persons.mp3",
+        "audioFile": "ST-VOL02-T17",
         "questionStart": 43,
         "questionEnd": 43,
         "durationSeconds": 2488
@@ -430,6 +474,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "44 - Question 44: The Procession of Creatures from God, and of the First Cause of all Things",
         "file": "../audio/vol02/18 - Question 44 The Procession of Creatures from God, and of the First Cause of all .mp3",
+        "audioFile": "ST-VOL02-T18",
         "questionStart": 44,
         "questionEnd": 44,
         "durationSeconds": 1259
@@ -438,6 +483,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "45 - Question 45: The Mode of Emanation of Things from the First Principle",
         "file": "../audio/vol02/19 - Question 45 The Mode of Emanation of Things from the First Principle.mp3",
+        "audioFile": "ST-VOL02-T19",
         "questionStart": 45,
         "questionEnd": 45,
         "durationSeconds": 2611
@@ -446,6 +492,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "46 - Question 46: Of the Beginning of the Duration of Creature",
         "file": "../audio/vol02/20 - Question 46 Of the Beginning of the Duration of Creature.mp3",
+        "audioFile": "ST-VOL02-T20",
         "questionStart": 46,
         "questionEnd": 46,
         "durationSeconds": 1858
@@ -454,6 +501,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "47 - Question 47: Of the Distinction of Things in General",
         "file": "../audio/vol02/21 - Question 47 Of the Distinction of Things in General.mp3",
+        "audioFile": "ST-VOL02-T21",
         "questionStart": 47,
         "questionEnd": 47,
         "durationSeconds": 1090
@@ -462,6 +510,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "48 - Question 48: The Distinction of Things in Particular",
         "file": "../audio/vol02/22 - Question 48 The Distinction of Things in Particular.mp3",
+        "audioFile": "ST-VOL02-T22",
         "questionStart": 48,
         "questionEnd": 48,
         "durationSeconds": 1772
@@ -470,6 +519,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "49 - Question 49: The Cause of Evil",
         "file": "../audio/vol02/23 - Question 49 The Cause of Evil.mp3",
+        "audioFile": "ST-VOL02-T23",
         "questionStart": 49,
         "questionEnd": 49,
         "durationSeconds": 1113
@@ -491,6 +541,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question. 50 - OF THE SUBSTANCE OF THE ANGELS ABSOLUTELY CONSIDERED (FIVE ARTICLES)",
         "file": "../audio/vol03/01 - Question. 50 - OF THE SUBSTANCE OF THE ANGELS ABSOLUTELY CONSIDERED (FIVE ARTICL.mp3",
+        "audioFile": "ST-VOL03-T01",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 2104
@@ -499,6 +550,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question. 51 - OF THE ANGELS IN COMPARISON WITH BODIES (THREE ARTICLES)",
         "file": "../audio/vol03/02 - Question. 51 - OF THE ANGELS IN COMPARISON WITH BODIES (THREE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T02",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1151
@@ -507,6 +559,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question. 52 - OF THE ANGELS IN RELATION TO PLACE (THREE ARTICLES)",
         "file": "../audio/vol03/03 - Question. 52 - OF THE ANGELS IN RELATION TO PLACE (THREE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T03",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 697
@@ -515,6 +568,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question. 53 - OF THE LOCAL MOVEMENT OF THE ANGELS (THREE ARTICLES)",
         "file": "../audio/vol03/04 - Question. 53 - OF THE LOCAL MOVEMENT OF THE ANGELS (THREE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T04",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1366
@@ -523,6 +577,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question. 54 - OF THE KNOWLEDGE OF THE ANGELS (FIVE ARTICLES)",
         "file": "../audio/vol03/05 - Question. 54 - OF THE KNOWLEDGE OF THE ANGELS (FIVE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T05",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1327
@@ -531,6 +586,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question. 55 - OF THE MEDIUM OF THE ANGELIC KNOWLEDGE (THREE ARTICLES)",
         "file": "../audio/vol03/06 - Question. 55 - OF THE MEDIUM OF THE ANGELIC KNOWLEDGE (THREE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T06",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1013
@@ -539,6 +595,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question. 56 - OF THE ANGEL'S KNOWLEDGE OF IMMATERIAL THINGS (THREE ARTICLES)",
         "file": "../audio/vol03/07 - Question. 56 - OF THE ANGEL'S KNOWLEDGE OF IMMATERIAL THINGS (THREE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T07",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1058
@@ -547,6 +604,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question. 57 - OF THE ANGEL'S KNOWLEDGE OF MATERIAL THINGS (FIVE ARTICLES)",
         "file": "../audio/vol03/08 - Question. 57 - OF THE ANGEL'S KNOWLEDGE OF MATERIAL THINGS (FIVE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T08",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1794
@@ -555,6 +613,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question. 58 - OF THE MODE OF ANGELIC KNOWLEDGE (SEVEN ARTICLES)",
         "file": "../audio/vol03/09 - Question. 58 - OF THE MODE OF ANGELIC KNOWLEDGE (SEVEN ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T09",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 2096
@@ -563,6 +622,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question. 59 - THE WILL OF THE ANGELS (FOUR ARTICLES)",
         "file": "../audio/vol03/10 - Question. 59 - THE WILL OF THE ANGELS (FOUR ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T10",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1785
@@ -571,6 +631,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question. 60 - OF THE LOVE OR DILECTION OF THE ANGELS (FIVE ARTICLES)",
         "file": "../audio/vol03/11 - Question. 60 - OF THE LOVE OR DILECTION OF THE ANGELS (FIVE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T11",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1482
@@ -579,6 +640,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question. 61 - OF THE PRODUCTION OF THE ANGELS IN THE ORDER OF NATURAL BEING (FOUR ARTICLES)",
         "file": "../audio/vol03/12 - Question. 61 - OF THE PRODUCTION OF THE ANGELS IN THE ORDER OF NATURAL BEING (FO.mp3",
+        "audioFile": "ST-VOL03-T12",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 897
@@ -587,6 +649,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question. 62 - OF THE PERFECTION OF THE ANGELS IN THE ORDER OF GRACE AND OF GLORY (NINE ARTICLES)",
         "file": "../audio/vol03/13 - Question. 62 - OF THE PERFECTION OF THE ANGELS IN THE ORDER OF GRACE AND OF GLOR.mp3",
+        "audioFile": "ST-VOL03-T13",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 2385
@@ -595,6 +658,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question. 63 - THE MALICE OF THE ANGELS WITH REGARD TO SIN (NINE ARTICLES)",
         "file": "../audio/vol03/14 - Question. 63 - THE MALICE OF THE ANGELS WITH REGARD TO SIN (NINE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T14",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 3208
@@ -603,6 +667,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question. 64 - THE PUNISHMENT OF THE DEMONS (FOUR ARTICLES)",
         "file": "../audio/vol03/15 - Question. 64 - THE PUNISHMENT OF THE DEMONS (FOUR ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T15",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1827
@@ -611,6 +676,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question. 65 - THE WORK OF CREATION OF CORPOREAL CREATURES (FOUR ARTICLES)",
         "file": "../audio/vol03/16 - Question. 65 - THE WORK OF CREATION OF CORPOREAL CREATURES (FOUR ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T16",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1789
@@ -619,6 +685,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question. 66 - ON THE ORDER OF CREATION TOWARDS DISTINCTION (FOUR ARTICLES)",
         "file": "../audio/vol03/17 - Question. 66 - ON THE ORDER OF CREATION TOWARDS DISTINCTION (FOUR ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T17",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 2438
@@ -627,6 +694,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question. 67 - ON THE WORK OF DISTINCTION IN ITSELF (FOUR ARTICLES)",
         "file": "../audio/vol03/18 - Question. 67 - ON THE WORK OF DISTINCTION IN ITSELF (FOUR ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T18",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1564
@@ -635,6 +703,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question. 68 - ON THE WORK OF THE SECOND DAY (FOUR ARTICLES)",
         "file": "../audio/vol03/19 - Question. 68 - ON THE WORK OF THE SECOND DAY (FOUR ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T19",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1882
@@ -643,6 +712,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question. 69 - ON THE WORK OF THE THIRD DAY (TWO ARTICLES)",
         "file": "../audio/vol03/20 - Question. 69 - ON THE WORK OF THE THIRD DAY (TWO ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T20",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1152
@@ -651,6 +721,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question. 70 - OF THE WORK OF ADORNMENT, AS REGARDS THE FOURTH DAY (THREE ARTICLES)",
         "file": "../audio/vol03/21 - Question. 70 - OF THE WORK OF ADORNMENT, AS REGARDS THE FOURTH DAY (THREE ARTICL.mp3",
+        "audioFile": "ST-VOL03-T21",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1530
@@ -659,6 +730,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question. 71 - ON THE WORK OF THE FIFTH DAY (ONE ARTICLE)",
         "file": "../audio/vol03/22 - Question. 71 - ON THE WORK OF THE FIFTH DAY (ONE ARTICLE).mp3",
+        "audioFile": "ST-VOL03-T22",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 524
@@ -667,6 +739,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question. 72 - ON THE WORK OF THE SIXTH DAY (ONE ARTICLE)",
         "file": "../audio/vol03/23 - Question. 72 - ON THE WORK OF THE SIXTH DAY (ONE ARTICLE).mp3",
+        "audioFile": "ST-VOL03-T23",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 588
@@ -675,6 +748,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question. 73 - ON THE THINGS THAT BELONG TO THE SEVENTH DAY (THREE ARTICLES)",
         "file": "../audio/vol03/24 - Question. 73 - ON THE THINGS THAT BELONG TO THE SEVENTH DAY (THREE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T24",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1006
@@ -683,6 +757,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question. 74 - ON ALL THE SEVEN DAYS IN COMMON (THREE ARTICLES)",
         "file": "../audio/vol03/25 - Question. 74 - ON ALL THE SEVEN DAYS IN COMMON (THREE ARTICLES).mp3",
+        "audioFile": "ST-VOL03-T25",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 1614
@@ -733,6 +808,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 75 - OF MAN WHO IS COMPOSED OF A SPIRITUAL AND A CORPOREAL SUBSTANCE: AND IN THE FIRST PLACE, CONCERNING WHAT BELONGS TO THE ESSENCE OF THE SOUL (In Seven Articles)",
         "file": "../audio/vol04/01 - Question 75 - OF MAN WHO IS COMPOSED OF A SPIRITUAL AND A CORPOREAL SUBSTANCE AN.mp3",
+        "audioFile": "ST-VOL04-T01",
         "questionStart": 75,
         "questionEnd": 75,
         "durationSeconds": 3167
@@ -741,6 +817,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 76 - OF THE UNION OF BODY AND SOUL (In Eight Articles), part 1",
         "file": "../audio/vol04/02 - Question 76 - OF THE UNION OF BODY AND SOUL (In Eight Articles), part 1.mp3",
+        "audioFile": "ST-VOL04-T02",
         "questionStart": 76,
         "questionEnd": 76,
         "durationSeconds": 2422
@@ -749,6 +826,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 76 - OF THE UNION OF BODY AND SOUL (In Eight Articles), part 2",
         "file": "../audio/vol04/03 - Question 76 - OF THE UNION OF BODY AND SOUL (In Eight Articles), part 2.mp3",
+        "audioFile": "ST-VOL04-T03",
         "questionStart": 76,
         "questionEnd": 76,
         "durationSeconds": 2357
@@ -757,6 +835,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 77 - OF THOSE THINGS WHICH BELONG TO THE POWERS OF THE SOUL IN GENERAL (In Eight Articles)",
         "file": "../audio/vol04/04 - Question 77 - OF THOSE THINGS WHICH BELONG TO THE POWERS OF THE SOUL IN GENERAL .mp3",
+        "audioFile": "ST-VOL04-T04",
         "questionStart": 77,
         "questionEnd": 77,
         "durationSeconds": 3233
@@ -765,6 +844,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 78 - OF THE SPECIFIC POWERS OF THE SOUL (In Four Articles)",
         "file": "../audio/vol04/05 - Question 78 - OF THE SPECIFIC POWERS OF THE SOUL (In Four Articles).mp3",
+        "audioFile": "ST-VOL04-T05",
         "questionStart": 78,
         "questionEnd": 78,
         "durationSeconds": 2245
@@ -773,6 +853,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 79 - OF THE INTELLECTUAL POWERS (In Thirteen Articles), part 1",
         "file": "../audio/vol04/06 - Question 79 - OF THE INTELLECTUAL POWERS (In Thirteen Articles), part 1.mp3",
+        "audioFile": "ST-VOL04-T06",
         "questionStart": 79,
         "questionEnd": 79,
         "durationSeconds": 2835
@@ -781,6 +862,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 79 - OF THE INTELLECTUAL POWERS (In Thirteen Articles), part 2",
         "file": "../audio/vol04/07 - Question 79 - OF THE INTELLECTUAL POWERS (In Thirteen Articles), part 2.mp3",
+        "audioFile": "ST-VOL04-T07",
         "questionStart": 79,
         "questionEnd": 79,
         "durationSeconds": 2295
@@ -789,6 +871,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 80 - OF THE APPETITIVE POWERS IN GENERAL (In Two Articles)",
         "file": "../audio/vol04/08 - Question 80 - OF THE APPETITIVE POWERS IN GENERAL (In Two Articles).mp3",
+        "audioFile": "ST-VOL04-T08",
         "questionStart": 80,
         "questionEnd": 80,
         "durationSeconds": 744
@@ -797,6 +880,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 81 - OF THE POWER OF SENSUALITY (In Three Articles)",
         "file": "../audio/vol04/09 - Question 81 - OF THE POWER OF SENSUALITY (In Three Articles).mp3",
+        "audioFile": "ST-VOL04-T09",
         "questionStart": 81,
         "questionEnd": 81,
         "durationSeconds": 1056
@@ -805,6 +889,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 82 - OF THE WILL (In Five Articles)",
         "file": "../audio/vol04/10 - Question 82 - OF THE WILL (In Five Articles).mp3",
+        "audioFile": "ST-VOL04-T10",
         "questionStart": 82,
         "questionEnd": 82,
         "durationSeconds": 1427
@@ -813,6 +898,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 83 - OF FREE-WILL (In Four Articles)",
         "file": "../audio/vol04/11 - Question 83 - OF FREE-WILL (In Four Articles).mp3",
+        "audioFile": "ST-VOL04-T11",
         "questionStart": 83,
         "questionEnd": 83,
         "durationSeconds": 1282
@@ -821,6 +907,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 84 - HOW THE SOUL WHILE UNITED TO THE BODY UNDERSTANDS CORPOREAL THINGS BENEATH IT (In Eight Articles), part 1",
         "file": "../audio/vol04/12 - Question 84 - HOW THE SOUL WHILE UNITED TO THE BODY UNDERSTANDS CORPOREAL THINGS.mp3",
+        "audioFile": "ST-VOL04-T12",
         "questionStart": 84,
         "questionEnd": 84,
         "durationSeconds": 1722
@@ -829,6 +916,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 84 - HOW THE SOUL WHILE UNITED TO THE BODY UNDERSTANDS CORPOREAL THINGS BENEATH IT (In Eight Articles), part 2",
         "file": "../audio/vol04/13 - Question 84 - HOW THE SOUL WHILE UNITED TO THE BODY UNDERSTANDS CORPOREAL THINGS.mp3",
+        "audioFile": "ST-VOL04-T13",
         "questionStart": 84,
         "questionEnd": 84,
         "durationSeconds": 1944
@@ -837,6 +925,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 85 - OF THE MODE AND ORDER OF UNDERSTANDING (In Eight Articles), part 1",
         "file": "../audio/vol04/14 - Question 85 - OF THE MODE AND ORDER OF UNDERSTANDING (In Eight Articles), part 1.mp3",
+        "audioFile": "ST-VOL04-T14",
         "questionStart": 85,
         "questionEnd": 85,
         "durationSeconds": 2090
@@ -845,6 +934,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 85 - OF THE MODE AND ORDER OF UNDERSTANDING (In Eight Articles), part 2",
         "file": "../audio/vol04/15 - Question 85 - OF THE MODE AND ORDER OF UNDERSTANDING (In Eight Articles), part 2.mp3",
+        "audioFile": "ST-VOL04-T15",
         "questionStart": 85,
         "questionEnd": 85,
         "durationSeconds": 1546
@@ -853,6 +943,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 86 - WHAT OUR INTELLECT KNOWS IN MATERIAL THINGS (In Four Articles)",
         "file": "../audio/vol04/16 - Question 86 - WHAT OUR INTELLECT KNOWS IN MATERIAL THINGS (In Four Articles).mp3",
+        "audioFile": "ST-VOL04-T16",
         "questionStart": 86,
         "questionEnd": 86,
         "durationSeconds": 1293
@@ -861,6 +952,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 87 - HOW THE INTELLECTUAL SOUL KNOWS ITSELF AND ALL WITHIN ITSELF (In Four Articles)",
         "file": "../audio/vol04/17 - Question 87 - HOW THE INTELLECTUAL SOUL KNOWS ITSELF AND ALL WITHIN ITSELF (In F.mp3",
+        "audioFile": "ST-VOL04-T17",
         "questionStart": 87,
         "questionEnd": 87,
         "durationSeconds": 1615
@@ -869,6 +961,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 88 - HOW THE HUMAN SOUL KNOWS WHAT IS ABOVE ITSELF (In Three Articles)",
         "file": "../audio/vol04/18 - Question 88 - HOW THE HUMAN SOUL KNOWS WHAT IS ABOVE ITSELF (In Three Articles).mp3",
+        "audioFile": "ST-VOL04-T18",
         "questionStart": 88,
         "questionEnd": 88,
         "durationSeconds": 1645
@@ -877,6 +970,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 89 - OF THE KNOWLEDGE OF THE SEPARATED SOUL (In Eight Articles)",
         "file": "../audio/vol04/19 - Question 89 - OF THE KNOWLEDGE OF THE SEPARATED SOUL (In Eight Articles).mp3",
+        "audioFile": "ST-VOL04-T19",
         "questionStart": 89,
         "questionEnd": 89,
         "durationSeconds": 2901
@@ -885,6 +979,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 90 - OF THE FIRST PRODUCTION OF MAN'S SOUL (In Four Articles)",
         "file": "../audio/vol04/20 - Question 90 - OF THE FIRST PRODUCTION OF MAN'S SOUL (In Four Articles).mp3",
+        "audioFile": "ST-VOL04-T20",
         "questionStart": 90,
         "questionEnd": 90,
         "durationSeconds": 1166
@@ -893,6 +988,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 91 - THE PRODUCTION OF THE FIRST MAN'S BODY (In Four Articles)",
         "file": "../audio/vol04/21 - Question 91 - THE PRODUCTION OF THE FIRST MAN'S BODY (In Four Articles).mp3",
+        "audioFile": "ST-VOL04-T21",
         "questionStart": 91,
         "questionEnd": 91,
         "durationSeconds": 1584
@@ -901,6 +997,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 92 - THE PRODUCTION OF THE WOMAN (In Four Articles)",
         "file": "../audio/vol04/22 - Question 92 - THE PRODUCTION OF THE WOMAN (In Four Articles).mp3",
+        "audioFile": "ST-VOL04-T22",
         "questionStart": 92,
         "questionEnd": 92,
         "durationSeconds": 1141
@@ -909,6 +1006,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 93 - THE END OR TERM OF THE PRODUCTION OF MAN (In Nine Articles), part 1",
         "file": "../audio/vol04/23 - Question 93 - THE END OR TERM OF THE PRODUCTION OF MAN (In Nine Articles), part .mp3",
+        "audioFile": "ST-VOL04-T23",
         "questionStart": 93,
         "questionEnd": 93,
         "durationSeconds": 1572
@@ -917,6 +1015,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 93 - THE END OR TERM OF THE PRODUCTION OF MAN (In Nine Articles), part 2",
         "file": "../audio/vol04/24 - Question 93 - THE END OR TERM OF THE PRODUCTION OF MAN (In Nine Articles), part .mp3",
+        "audioFile": "ST-VOL04-T24",
         "questionStart": 93,
         "questionEnd": 93,
         "durationSeconds": 1959
@@ -925,6 +1024,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 94 - OF THE STATE AND CONDITION OF THE FIRST MAN AS REGARDS HIS INTELLECT (In Four Articles)",
         "file": "../audio/vol04/25 - Question 94 - OF THE STATE AND CONDITION OF THE FIRST MAN AS REGARDS HIS INTELLE.mp3",
+        "audioFile": "ST-VOL04-T25",
         "questionStart": 94,
         "questionEnd": 94,
         "durationSeconds": 1814
@@ -933,6 +1033,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 95 - OF THINGS PERTAINING TO THE FIRST MAN'S WILL—NAMELY, GRACE AND RIGHTEOUSNESS (In Four Articles)",
         "file": "../audio/vol04/26 - Question 95 - OF THINGS PERTAINING TO THE FIRST MAN'S WILL—NAMELY, GRACE AND RIG.mp3",
+        "audioFile": "ST-VOL04-T26",
         "questionStart": 95,
         "questionEnd": 95,
         "durationSeconds": 1602
@@ -941,6 +1042,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "27 - Question 96 - OF THE MASTERSHIP BELONGING TO MAN IN THE STATE OF INNOCENCE (In Four Articles)",
         "file": "../audio/vol04/27 - Question 96 - OF THE MASTERSHIP BELONGING TO MAN IN THE STATE OF INNOCENCE (In F.mp3",
+        "audioFile": "ST-VOL04-T27",
         "questionStart": 96,
         "questionEnd": 96,
         "durationSeconds": 957
@@ -949,6 +1051,7 @@ window.SUMMA_VOLUMES = [
         "track": 28,
         "title": "28 - Question 97 - OF THE PRESERVATION OF THE INDIVIDUAL IN THE PRIMITIVE STATE (In Four Articles)",
         "file": "../audio/vol04/28 - Question 97 - OF THE PRESERVATION OF THE INDIVIDUAL IN THE PRIMITIVE STATE (In F.mp3",
+        "audioFile": "ST-VOL04-T28",
         "questionStart": 97,
         "questionEnd": 97,
         "durationSeconds": 870
@@ -957,6 +1060,7 @@ window.SUMMA_VOLUMES = [
         "track": 29,
         "title": "29 - Question 98 - OF THE PRESERVATION OF THE SPECIES (In Two Articles)",
         "file": "../audio/vol04/29 - Question 98 - OF THE PRESERVATION OF THE SPECIES (In Two Articles).mp3",
+        "audioFile": "ST-VOL04-T29",
         "questionStart": 98,
         "questionEnd": 98,
         "durationSeconds": 679
@@ -965,6 +1069,7 @@ window.SUMMA_VOLUMES = [
         "track": 30,
         "title": "30 - Question 99 - OF THE CONDITION OF THE OFFSPRING AS TO THE BODY (In Two Articles)",
         "file": "../audio/vol04/30 - Question 99 - OF THE CONDITION OF THE OFFSPRING AS TO THE BODY (In Two Articles).mp3",
+        "audioFile": "ST-VOL04-T30",
         "questionStart": 99,
         "questionEnd": 99,
         "durationSeconds": 506
@@ -973,6 +1078,7 @@ window.SUMMA_VOLUMES = [
         "track": 31,
         "title": "31 - Question 100 - OF THE CONDITION OF THE OFFSPRING AS REGARDS RIGHTEOUSNESS (In Two Articles)",
         "file": "../audio/vol04/31 - Question 100 - OF THE CONDITION OF THE OFFSPRING AS REGARDS RIGHTEOUSNESS (In Tw.mp3",
+        "audioFile": "ST-VOL04-T31",
         "questionStart": 100,
         "questionEnd": 100,
         "durationSeconds": 571
@@ -981,6 +1087,7 @@ window.SUMMA_VOLUMES = [
         "track": 32,
         "title": "32 - Question 101 - OF THE CONDITION OF THE OFFSPRING AS REGARDS KNOWLEDGE (In Two Articles)",
         "file": "../audio/vol04/32 - Question 101 - OF THE CONDITION OF THE OFFSPRING AS REGARDS KNOWLEDGE (In Two Ar.mp3",
+        "audioFile": "ST-VOL04-T32",
         "questionStart": 101,
         "questionEnd": 101,
         "durationSeconds": 442
@@ -989,6 +1096,7 @@ window.SUMMA_VOLUMES = [
         "track": 33,
         "title": "33 - Question 102 - OF MAN'S ABODE, WHICH IS PARADISE (In Four Articles)",
         "file": "../audio/vol04/33 - Question 102 - OF MAN'S ABODE, WHICH IS PARADISE (In Four Articles).mp3",
+        "audioFile": "ST-VOL04-T33",
         "questionStart": 102,
         "questionEnd": 102,
         "durationSeconds": 1010
@@ -1028,6 +1136,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 103 - OF THE GOVERNMENT OF THINGS IN GENERAL (In Eight Articles)",
         "file": "../audio/vol05/01 - Question 103 - OF THE GOVERNMENT OF THINGS IN GENERAL (In Eight Articles).mp3",
+        "audioFile": "ST-VOL05-T01",
         "questionStart": 103,
         "questionEnd": 103,
         "durationSeconds": 1919
@@ -1036,6 +1145,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 104 - THE SPECIAL EFFECTS OF THE DIVINE GOVERNMENT (In Four Articles)",
         "file": "../audio/vol05/02 - Question 104 - THE SPECIAL EFFECTS OF THE DIVINE GOVERNMENT (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T02",
         "questionStart": 104,
         "questionEnd": 104,
         "durationSeconds": 1324
@@ -1044,6 +1154,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 105 - OF THE CHANGE OF CREATURES BY GOD (In Eight Articles)",
         "file": "../audio/vol05/03 - Question 105 - OF THE CHANGE OF CREATURES BY GOD (In Eight Articles).mp3",
+        "audioFile": "ST-VOL05-T03",
         "questionStart": 105,
         "questionEnd": 105,
         "durationSeconds": 2149
@@ -1052,6 +1163,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 106 - HOW ONE CREATURE MOVES ANOTHER (In Four Articles)",
         "file": "../audio/vol05/04 - Question 106 - HOW ONE CREATURE MOVES ANOTHER (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T04",
         "questionStart": 106,
         "questionEnd": 106,
         "durationSeconds": 1274
@@ -1060,6 +1172,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 107 - THE SPEECH OF THE ANGELS (In Five Articles)",
         "file": "../audio/vol05/05 - Question 107 - THE SPEECH OF THE ANGELS (In Five Articles).mp3",
+        "audioFile": "ST-VOL05-T05",
         "questionStart": 107,
         "questionEnd": 107,
         "durationSeconds": 1200
@@ -1068,6 +1181,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 108 - OF THE ANGELIC DEGREES OF HIERARCHIES AND ORDERS (In Eight Articles), part 1",
         "file": "../audio/vol05/06 - Question 108 - OF THE ANGELIC DEGREES OF HIERARCHIES AND ORDERS (In Eight Articl.mp3",
+        "audioFile": "ST-VOL05-T06",
         "questionStart": 108,
         "questionEnd": 108,
         "durationSeconds": 1217
@@ -1076,6 +1190,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 108 - OF THE ANGELIC DEGREES OF HIERARCHIES AND ORDERS (In Eight Articles), part 2",
         "file": "../audio/vol05/07 - Question 108 - OF THE ANGELIC DEGREES OF HIERARCHIES AND ORDERS (In Eight Articl.mp3",
+        "audioFile": "ST-VOL05-T07",
         "questionStart": 108,
         "questionEnd": 108,
         "durationSeconds": 2116
@@ -1084,6 +1199,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 109 - THE ORDERING OF THE BAD ANGELS (In Four Articles)",
         "file": "../audio/vol05/08 - Question 109 - THE ORDERING OF THE BAD ANGELS (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T08",
         "questionStart": 109,
         "questionEnd": 109,
         "durationSeconds": 889
@@ -1092,6 +1208,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 110 - HOW ANGELS ACT ON BODIES (In Four Articles)",
         "file": "../audio/vol05/09 - Question 110 - HOW ANGELS ACT ON BODIES (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T09",
         "questionStart": 110,
         "questionEnd": 110,
         "durationSeconds": 1425
@@ -1100,6 +1217,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 111 - THE ACTION OF THE ANGELS ON MAN (In Four Articles)",
         "file": "../audio/vol05/10 - Question 111 - THE ACTION OF THE ANGELS ON MAN (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T10",
         "questionStart": 111,
         "questionEnd": 111,
         "durationSeconds": 1269
@@ -1108,6 +1226,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 112 - THE MISSION OF THE ANGELS (In Four Articles)",
         "file": "../audio/vol05/11 - Question 112 - THE MISSION OF THE ANGELS (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T11",
         "questionStart": 112,
         "questionEnd": 112,
         "durationSeconds": 1288
@@ -1116,6 +1235,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 113 - OF THE GUARDIANSHIP OF THE GOOD ANGELS (In Eight Articles)",
         "file": "../audio/vol05/12 - Question 113 - OF THE GUARDIANSHIP OF THE GOOD ANGELS (In Eight Articles).mp3",
+        "audioFile": "ST-VOL05-T12",
         "questionStart": 113,
         "questionEnd": 113,
         "durationSeconds": 2004
@@ -1124,6 +1244,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 114 - OF THE ASSAULTS OF THE DEMONS (In Five Articles)",
         "file": "../audio/vol05/13 - Question 114 - OF THE ASSAULTS OF THE DEMONS (In Five Articles).mp3",
+        "audioFile": "ST-VOL05-T13",
         "questionStart": 114,
         "questionEnd": 114,
         "durationSeconds": 1386
@@ -1132,6 +1253,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 115 - OF THE ACTION OF THE CORPOREAL CREATURE (In Six Articles)",
         "file": "../audio/vol05/14 - Question 115 - OF THE ACTION OF THE CORPOREAL CREATURE (In Six Articles).mp3",
+        "audioFile": "ST-VOL05-T14",
         "questionStart": 115,
         "questionEnd": 115,
         "durationSeconds": 2363
@@ -1140,6 +1262,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 116 - ON FATE (In Four Articles)",
         "file": "../audio/vol05/15 - Question 116 - ON FATE (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T15",
         "questionStart": 116,
         "questionEnd": 116,
         "durationSeconds": 828
@@ -1148,6 +1271,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 117 - OF THINGS PERTAINING TO THE ACTION OF MAN (In Four Articles)",
         "file": "../audio/vol05/16 - Question 117 - OF THINGS PERTAINING TO THE ACTION OF MAN (In Four Articles).mp3",
+        "audioFile": "ST-VOL05-T16",
         "questionStart": 117,
         "questionEnd": 117,
         "durationSeconds": 1392
@@ -1156,6 +1280,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 118 - OF THE PRODUCTION OF MAN FROM MAN AS TO THE SOUL (In Three Articles)",
         "file": "../audio/vol05/17 - Question 118 - OF THE PRODUCTION OF MAN FROM MAN AS TO THE SOUL (In Three Articl.mp3",
+        "audioFile": "ST-VOL05-T17",
         "questionStart": 118,
         "questionEnd": 118,
         "durationSeconds": 1455
@@ -1164,6 +1289,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 119 - OF THE PROPAGATION OF MAN AS TO THE BODY (In Three Articles)",
         "file": "../audio/vol05/18 - Question 119 - OF THE PROPAGATION OF MAN AS TO THE BODY (In Three Articles).mp3",
+        "audioFile": "ST-VOL05-T18",
         "questionStart": 119,
         "questionEnd": 119,
         "durationSeconds": 1562
@@ -1207,6 +1333,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Preface and Question 1 - OF MAN'S LAST END (In Eight Articles)",
         "file": "../audio/vol06/01 - Preface and Question 1 - OF MAN'S LAST END (In Eight Articles).mp3",
+        "audioFile": "ST-VOL06-T01",
         "questionStart": 1,
         "questionEnd": 1,
         "durationSeconds": 2454
@@ -1215,6 +1342,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 2 - OF THOSE THINGS IN WHICH MAN'S HAPPINESS CONSISTS (In Eight Articles)",
         "file": "../audio/vol06/02 - Question 2 - OF THOSE THINGS IN WHICH MAN'S HAPPINESS CONSISTS (In Eight Article.mp3",
+        "audioFile": "ST-VOL06-T02",
         "questionStart": 2,
         "questionEnd": 2,
         "durationSeconds": 1877
@@ -1223,6 +1351,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 3 - WHAT IS HAPPINESS (In Eight Articles), part 1",
         "file": "../audio/vol06/03 - Question 3 - WHAT IS HAPPINESS (In Eight Articles), part 1.mp3",
+        "audioFile": "ST-VOL06-T03",
         "questionStart": 3,
         "questionEnd": 3,
         "durationSeconds": 1743
@@ -1231,6 +1360,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 3 - WHAT IS HAPPINESS (In Eight Articles), part 2",
         "file": "../audio/vol06/04 - Question 3 - WHAT IS HAPPINESS (In Eight Articles), part 2.mp3",
+        "audioFile": "ST-VOL06-T04",
         "questionStart": 3,
         "questionEnd": 3,
         "durationSeconds": 1050
@@ -1239,6 +1369,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 4 - OF THOSE THINGS THAT ARE REQUIRED FOR HAPPINESS (In Eight Articles)",
         "file": "../audio/vol06/05 - Question 4 - OF THOSE THINGS THAT ARE REQUIRED FOR HAPPINESS (In Eight Articles).mp3",
+        "audioFile": "ST-VOL06-T05",
         "questionStart": 4,
         "questionEnd": 4,
         "durationSeconds": 2236
@@ -1247,6 +1378,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 5 - OF THE ATTAINMENT OF HAPPINESS (In Eight Articles)",
         "file": "../audio/vol06/06 - Question 5 - OF THE ATTAINMENT OF HAPPINESS (In Eight Articles).mp3",
+        "audioFile": "ST-VOL06-T06",
         "questionStart": 5,
         "questionEnd": 5,
         "durationSeconds": 2701
@@ -1255,6 +1387,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 6 - OF THE VOLUNTARY AND THE INVOLUNTARY (In Eight Articles), part 1",
         "file": "../audio/vol06/07 - Question 6 - OF THE VOLUNTARY AND THE INVOLUNTARY (In Eight Articles), part 1.mp3",
+        "audioFile": "ST-VOL06-T07",
         "questionStart": 6,
         "questionEnd": 6,
         "durationSeconds": 1440
@@ -1263,6 +1396,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 6 - OF THE VOLUNTARY AND THE INVOLUNTARY (In Eight Articles), part 2",
         "file": "../audio/vol06/08 - Question 6 - OF THE VOLUNTARY AND THE INVOLUNTARY (In Eight Articles), part 2.mp3",
+        "audioFile": "ST-VOL06-T08",
         "questionStart": 6,
         "questionEnd": 6,
         "durationSeconds": 1297
@@ -1271,6 +1405,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 7 - OF THE CIRCUMSTANCES OF HUMAN ACTS (In Four Articles)",
         "file": "../audio/vol06/09 - Question 7 - OF THE CIRCUMSTANCES OF HUMAN ACTS (In Four Articles).mp3",
+        "audioFile": "ST-VOL06-T09",
         "questionStart": 7,
         "questionEnd": 7,
         "durationSeconds": 1457
@@ -1279,6 +1414,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 8 - OF THE WILL, IN REGARD TO WHAT IT WILLS (In Three Articles)",
         "file": "../audio/vol06/10 - Question 8 - OF THE WILL, IN REGARD TO WHAT IT WILLS (In Three Articles).mp3",
+        "audioFile": "ST-VOL06-T10",
         "questionStart": 8,
         "questionEnd": 8,
         "durationSeconds": 1154
@@ -1287,6 +1423,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 9 - OF THAT WHICH MOVES THE WILL (In Six Articles)",
         "file": "../audio/vol06/11 - Question 9 - OF THAT WHICH MOVES THE WILL (In Six Articles).mp3",
+        "audioFile": "ST-VOL06-T11",
         "questionStart": 9,
         "questionEnd": 9,
         "durationSeconds": 2181
@@ -1295,6 +1432,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 10 - OF THE MANNER IN WHICH THE WILL IS MOVED (In Four Articles)",
         "file": "../audio/vol06/12 - Question 10 - OF THE MANNER IN WHICH THE WILL IS MOVED (In Four Articles).mp3",
+        "audioFile": "ST-VOL06-T12",
         "questionStart": 10,
         "questionEnd": 10,
         "durationSeconds": 1561
@@ -1303,6 +1441,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 11 - OF ENJOYMENT, WHICH IS AN ACT OF THE WILL (In Four Articles)",
         "file": "../audio/vol06/13 - Question 11 - OF ENJOYMENT, WHICH IS AN ACT OF THE WILL (In Four Articles).mp3",
+        "audioFile": "ST-VOL06-T13",
         "questionStart": 11,
         "questionEnd": 11,
         "durationSeconds": 1321
@@ -1311,6 +1450,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 12 - OF INTENTION (In Five Articles)",
         "file": "../audio/vol06/14 - Question 12 - OF INTENTION (In Five Articles).mp3",
+        "audioFile": "ST-VOL06-T14",
         "questionStart": 12,
         "questionEnd": 12,
         "durationSeconds": 1505
@@ -1319,6 +1459,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 13 - OF CHOICE, WHICH IS AN ACT OF THE WILL WITH REGARD TO THE MEANS (In Six Articles)",
         "file": "../audio/vol06/15 - Question 13 - OF CHOICE, WHICH IS AN ACT OF THE WILL WITH REGARD TO THE MEANS (I.mp3",
+        "audioFile": "ST-VOL06-T15",
         "questionStart": 13,
         "questionEnd": 13,
         "durationSeconds": 1735
@@ -1327,6 +1468,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 14 - OF COUNSEL, WHICH PRECEDES CHOICE (In Six Articles)",
         "file": "../audio/vol06/16 - Question 14 - OF COUNSEL, WHICH PRECEDES CHOICE (In Six Articles).mp3",
+        "audioFile": "ST-VOL06-T16",
         "questionStart": 14,
         "questionEnd": 14,
         "durationSeconds": 1515
@@ -1335,6 +1477,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 15 - OF CONSENT, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In Four Articles)",
         "file": "../audio/vol06/17 - Question 15 - OF CONSENT, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In.mp3",
+        "audioFile": "ST-VOL06-T17",
         "questionStart": 15,
         "questionEnd": 15,
         "durationSeconds": 1030
@@ -1343,6 +1486,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 16 - OF USE, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In Four Articles)",
         "file": "../audio/vol06/18 - Question 16 - OF USE, WHICH IS AN ACT OF THE WILL IN REGARD TO THE MEANS (In Fou.mp3",
+        "audioFile": "ST-VOL06-T18",
         "questionStart": 16,
         "questionEnd": 16,
         "durationSeconds": 958
@@ -1351,6 +1495,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 17 - OF THE ACTS COMMANDED BY THE WILL (In Nine Articles), part 1",
         "file": "../audio/vol06/19 - Question 17 - OF THE ACTS COMMANDED BY THE WILL (In Nine Articles), part 1.mp3",
+        "audioFile": "ST-VOL06-T19",
         "questionStart": 17,
         "questionEnd": 17,
         "durationSeconds": 1060
@@ -1359,6 +1504,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 17 - OF THE ACTS COMMANDED BY THE WILL (In Nine Articles), part 2",
         "file": "../audio/vol06/20 - Question 17 - OF THE ACTS COMMANDED BY THE WILL (In Nine Articles), part 2.mp3",
+        "audioFile": "ST-VOL06-T20",
         "questionStart": 17,
         "questionEnd": 17,
         "durationSeconds": 1418
@@ -1367,6 +1513,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 18 - OF THE GOOD AND EVIL OF HUMAN ACTS, IN GENERAL (In Eleven Articles), part 1",
         "file": "../audio/vol06/21 - Question 18 - OF THE GOOD AND EVIL OF HUMAN ACTS, IN GENERAL (In Eleven Articles.mp3",
+        "audioFile": "ST-VOL06-T21",
         "questionStart": 18,
         "questionEnd": 18,
         "durationSeconds": 1621
@@ -1375,6 +1522,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 18 - OF THE GOOD AND EVIL OF HUMAN ACTS, IN GENERAL (In Eleven Articles), part 2",
         "file": "../audio/vol06/22 - Question 18 - OF THE GOOD AND EVIL OF HUMAN ACTS, IN GENERAL (In Eleven Articles.mp3",
+        "audioFile": "ST-VOL06-T22",
         "questionStart": 18,
         "questionEnd": 18,
         "durationSeconds": 2171
@@ -1383,6 +1531,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 19 - OF THE GOODNESS AND MALICE OF THE INTERIOR ACT OF THE WILL (In Ten Articles), part 1",
         "file": "../audio/vol06/23 - Question 19 - OF THE GOODNESS AND MALICE OF THE INTERIOR ACT OF THE WILL (In Ten.mp3",
+        "audioFile": "ST-VOL06-T23",
         "questionStart": 19,
         "questionEnd": 19,
         "durationSeconds": 3404
@@ -1391,6 +1540,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 19 - OF THE GOODNESS AND MALICE OF THE INTERIOR ACT OF THE WILL (In Ten Articles), part 2",
         "file": "../audio/vol06/24 - Question 19 - OF THE GOODNESS AND MALICE OF THE INTERIOR ACT OF THE WILL (In Ten.mp3",
+        "audioFile": "ST-VOL06-T24",
         "questionStart": 19,
         "questionEnd": 19,
         "durationSeconds": 2118
@@ -1399,6 +1549,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 20 - OF GOODNESS AND MALICE IN EXTERNAL HUMAN ACTIONS (In Six Articles)",
         "file": "../audio/vol06/25 - Question 20 - OF GOODNESS AND MALICE IN EXTERNAL HUMAN ACTIONS (In Six Articles).mp3",
+        "audioFile": "ST-VOL06-T25",
         "questionStart": 20,
         "questionEnd": 20,
         "durationSeconds": 2029
@@ -1407,6 +1558,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 21 - OF THE CONSEQUENCES OF HUMAN ACTIONS BY REASON OF THEIR GOODNESS AND MALICE (In Four Articles)",
         "file": "../audio/vol06/26 - Question 21 - OF THE CONSEQUENCES OF HUMAN ACTIONS BY REASON OF THEIR GOODNESS A.mp3",
+        "audioFile": "ST-VOL06-T26",
         "questionStart": 21,
         "questionEnd": 21,
         "durationSeconds": 1370
@@ -1456,6 +1608,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 22 - OF THE SUBJECT OF THE SOUL'S PASSIONS (In Three Articles)",
         "file": "../audio/vol07/01 - Question 22 - OF THE SUBJECT OF THE SOUL'S PASSIONS (In Three Articles).mp3",
+        "audioFile": "ST-VOL07-T01",
         "questionStart": 22,
         "questionEnd": 22,
         "durationSeconds": 1215
@@ -1464,6 +1617,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 23 - HOW THE PASSIONS DIFFER FROM ONE ANOTHER (In Four Articles)",
         "file": "../audio/vol07/02 - Question 23 - HOW THE PASSIONS DIFFER FROM ONE ANOTHER (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T02",
         "questionStart": 23,
         "questionEnd": 23,
         "durationSeconds": 1583
@@ -1472,6 +1626,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 24 - OF GOOD AND EVIL IN THE PASSIONS OF THE SOUL (In Four Articles)",
         "file": "../audio/vol07/03 - Question 24 - OF GOOD AND EVIL IN THE PASSIONS OF THE SOUL (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T03",
         "questionStart": 24,
         "questionEnd": 24,
         "durationSeconds": 1407
@@ -1480,6 +1635,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 25 - OF THE ORDER OF THE PASSIONS TO ONE ANOTHER (In Four Articles)",
         "file": "../audio/vol07/04 - Question 25 - OF THE ORDER OF THE PASSIONS TO ONE ANOTHER (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T04",
         "questionStart": 25,
         "questionEnd": 25,
         "durationSeconds": 1572
@@ -1488,6 +1644,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 26 - OF THE PASSIONS OF THE SOUL IN PARTICULAR - AND FIRST, OF LOVE (In Four Articles)",
         "file": "../audio/vol07/05 - Question 26 - OF THE PASSIONS OF THE SOUL IN PARTICULAR - AND FIRST, OF LOVE (In.mp3",
+        "audioFile": "ST-VOL07-T05",
         "questionStart": 26,
         "questionEnd": 26,
         "durationSeconds": 1398
@@ -1496,6 +1653,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 27 - OF THE CAUSE OF LOVE (In Four Articles)",
         "file": "../audio/vol07/06 - Question 27 - OF THE CAUSE OF LOVE (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T06",
         "questionStart": 27,
         "questionEnd": 27,
         "durationSeconds": 1283
@@ -1504,6 +1662,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 28 - OF THE EFFECTS OF LOVE (In Six Articles)",
         "file": "../audio/vol07/07 - Question 28 - OF THE EFFECTS OF LOVE (In Six Articles).mp3",
+        "audioFile": "ST-VOL07-T07",
         "questionStart": 28,
         "questionEnd": 28,
         "durationSeconds": 2127
@@ -1512,6 +1671,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 29 - OF HATRED (In Six Articles)",
         "file": "../audio/vol07/08 - Question 29 - OF HATRED (In Six Articles).mp3",
+        "audioFile": "ST-VOL07-T08",
         "questionStart": 29,
         "questionEnd": 29,
         "durationSeconds": 1840
@@ -1520,6 +1680,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 30 - OF CONCUPISCENCE (In Four Articles)",
         "file": "../audio/vol07/09 - Question 30 - OF CONCUPISCENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T09",
         "questionStart": 30,
         "questionEnd": 30,
         "durationSeconds": 1490
@@ -1528,6 +1689,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 31 - OF DELIGHT (OR, PLEASURE) CONSIDERED IN ITSELF (In Eight Articles)",
         "file": "../audio/vol07/10 - Question 31 - OF DELIGHT (OR, PLEASURE) CONSIDERED IN ITSELF (In Eight Articles).mp3",
+        "audioFile": "ST-VOL07-T10",
         "questionStart": 31,
         "questionEnd": 31,
         "durationSeconds": 2839
@@ -1536,6 +1698,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 32 - OF THE CAUSE OF PLEASURE (In Eight Articles)",
         "file": "../audio/vol07/11 - Question 32 - OF THE CAUSE OF PLEASURE (In Eight Articles).mp3",
+        "audioFile": "ST-VOL07-T11",
         "questionStart": 32,
         "questionEnd": 32,
         "durationSeconds": 2738
@@ -1544,6 +1707,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 33 - OF THE EFFECTS OF PLEASURE (In Four Articles)",
         "file": "../audio/vol07/12 - Question 33 - OF THE EFFECTS OF PLEASURE (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T12",
         "questionStart": 33,
         "questionEnd": 33,
         "durationSeconds": 1425
@@ -1552,6 +1716,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 34 - OF THE GOODNESS AND MALICE OF PLEASURES (In Four Articles)",
         "file": "../audio/vol07/13 - Question 34 - OF THE GOODNESS AND MALICE OF PLEASURES (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T13",
         "questionStart": 34,
         "questionEnd": 34,
         "durationSeconds": 1616
@@ -1560,6 +1725,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 35 - OF PAIN OR SORROW, IN ITSELF (In Eight Articles)",
         "file": "../audio/vol07/14 - Question 35 - OF PAIN OR SORROW, IN ITSELF (In Eight Articles).mp3",
+        "audioFile": "ST-VOL07-T14",
         "questionStart": 35,
         "questionEnd": 35,
         "durationSeconds": 3808
@@ -1568,6 +1734,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 36 - OF THE CAUSES OF SORROW OR PAIN (In Four Articles)",
         "file": "../audio/vol07/15 - Question 36 - OF THE CAUSES OF SORROW OR PAIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T15",
         "questionStart": 36,
         "questionEnd": 36,
         "durationSeconds": 1384
@@ -1576,6 +1743,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 37 - OF THE EFFECTS OF PAIN OR SORROW (In Four Articles)",
         "file": "../audio/vol07/16 - Question 37 - OF THE EFFECTS OF PAIN OR SORROW (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T16",
         "questionStart": 37,
         "questionEnd": 37,
         "durationSeconds": 1429
@@ -1584,6 +1752,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 38 - OF THE REMEDIES OF SORROW OR PAIN (In Four Articles)",
         "file": "../audio/vol07/17 - Question 38 - OF THE REMEDIES OF SORROW OR PAIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T17",
         "questionStart": 38,
         "questionEnd": 38,
         "durationSeconds": 1461
@@ -1592,6 +1761,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 39 - OF THE GOODNESS AND MALICE OF SORROW OR PAIN (In Four Articles)",
         "file": "../audio/vol07/18 - Question 39 - OF THE GOODNESS AND MALICE OF SORROW OR PAIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T18",
         "questionStart": 39,
         "questionEnd": 39,
         "durationSeconds": 1346
@@ -1600,6 +1770,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 40 - OF THE IRASCIBLE PASSIONS, AND FIRST, OF HOPE AND DESPAIR (In Eight Articles)",
         "file": "../audio/vol07/19 - Question 40 - OF THE IRASCIBLE PASSIONS, AND FIRST, OF HOPE AND DESPAIR (In Eigh.mp3",
+        "audioFile": "ST-VOL07-T19",
         "questionStart": 40,
         "questionEnd": 40,
         "durationSeconds": 2388
@@ -1608,6 +1779,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 41 - OF FEAR, IN ITSELF (In Four Articles)",
         "file": "../audio/vol07/20 - Question 41 - OF FEAR, IN ITSELF (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T20",
         "questionStart": 41,
         "questionEnd": 41,
         "durationSeconds": 1480
@@ -1616,6 +1788,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 42 - OF THE OBJECT OF FEAR (In Six Articles)",
         "file": "../audio/vol07/21 - Question 42 - OF THE OBJECT OF FEAR (In Six Articles).mp3",
+        "audioFile": "ST-VOL07-T21",
         "questionStart": 42,
         "questionEnd": 42,
         "durationSeconds": 1829
@@ -1624,6 +1797,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 43 - OF THE CAUSE OF FEAR (In Two Articles)",
         "file": "../audio/vol07/22 - Question 43 - OF THE CAUSE OF FEAR (In Two Articles).mp3",
+        "audioFile": "ST-VOL07-T22",
         "questionStart": 43,
         "questionEnd": 43,
         "durationSeconds": 622
@@ -1632,6 +1806,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 44 - OF THE EFFECTS OF FEAR (In Four Articles)",
         "file": "../audio/vol07/23 - Question 44 - OF THE EFFECTS OF FEAR (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T23",
         "questionStart": 44,
         "questionEnd": 44,
         "durationSeconds": 1286
@@ -1640,6 +1815,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 45 - OF DARING (In Four Articles)",
         "file": "../audio/vol07/24 - Question 45 - OF DARING (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T24",
         "questionStart": 45,
         "questionEnd": 45,
         "durationSeconds": 1340
@@ -1648,6 +1824,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 46 - OF ANGER, IN ITSELF (In Eight Articles)",
         "file": "../audio/vol07/25 - Question 46 - OF ANGER, IN ITSELF (In Eight Articles).mp3",
+        "audioFile": "ST-VOL07-T25",
         "questionStart": 46,
         "questionEnd": 46,
         "durationSeconds": 2909
@@ -1656,6 +1833,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 47 - OF THE CAUSE THAT PROVOKES ANGER (In Four Articles)",
         "file": "../audio/vol07/26 - Question 47 - OF THE CAUSE THAT PROVOKES ANGER (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T26",
         "questionStart": 47,
         "questionEnd": 47,
         "durationSeconds": 1377
@@ -1664,6 +1842,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "27 - Question 48 - OF THE EFFECTS OF ANGER (In Four Articles)",
         "file": "../audio/vol07/27 - Question 48 - OF THE EFFECTS OF ANGER (In Four Articles).mp3",
+        "audioFile": "ST-VOL07-T27",
         "questionStart": 48,
         "questionEnd": 48,
         "durationSeconds": 1438
@@ -1727,6 +1906,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 49 - OF HABITS IN GENERAL, AS TO THEIR SUBSTANCE (In Four Articles)",
         "file": "../audio/vol08/01 - Question 49 - OF HABITS IN GENERAL, AS TO THEIR SUBSTANCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T01",
         "questionStart": 49,
         "questionEnd": 49,
         "durationSeconds": 2070
@@ -1735,6 +1915,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 50 - OF THE SUBJECT OF HABITS (In Six Articles)",
         "file": "../audio/vol08/02 - Question 50 - OF THE SUBJECT OF HABITS (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T02",
         "questionStart": 50,
         "questionEnd": 50,
         "durationSeconds": 2565
@@ -1743,6 +1924,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 51 - OF THE CAUSE OF HABITS, AS TO THEIR FORMATION (In Four Articles)",
         "file": "../audio/vol08/03 - Question 51 - OF THE CAUSE OF HABITS, AS TO THEIR FORMATION (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T03",
         "questionStart": 51,
         "questionEnd": 51,
         "durationSeconds": 1552
@@ -1751,6 +1933,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 52 - OF THE INCREASE OF HABITS (In Three Articles)",
         "file": "../audio/vol08/04 - Question 52 - OF THE INCREASE OF HABITS (In Three Articles).mp3",
+        "audioFile": "ST-VOL08-T04",
         "questionStart": 52,
         "questionEnd": 52,
         "durationSeconds": 1664
@@ -1759,6 +1942,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 53 - HOW HABITS ARE CORRUPTED OR DIMINISHED (In Three Articles)",
         "file": "../audio/vol08/05 - Question 53 - HOW HABITS ARE CORRUPTED OR DIMINISHED (In Three Articles).mp3",
+        "audioFile": "ST-VOL08-T05",
         "questionStart": 53,
         "questionEnd": 53,
         "durationSeconds": 1302
@@ -1767,6 +1951,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 54 - OF THE DISTINCTION OF HABITS (In Four Articles)",
         "file": "../audio/vol08/06 - Question 54 - OF THE DISTINCTION OF HABITS (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T06",
         "questionStart": 54,
         "questionEnd": 54,
         "durationSeconds": 1480
@@ -1775,6 +1960,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 55 - OF THE VIRTUES, AS TO THEIR ESSENCE (In Four Articles)",
         "file": "../audio/vol08/07 - Question 55 - OF THE VIRTUES, AS TO THEIR ESSENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T07",
         "questionStart": 55,
         "questionEnd": 55,
         "durationSeconds": 1716
@@ -1783,6 +1969,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 56 - OF THE SUBJECT OF VIRTUE (In Six Articles)",
         "file": "../audio/vol08/08 - Question 56 - OF THE SUBJECT OF VIRTUE (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T08",
         "questionStart": 56,
         "questionEnd": 56,
         "durationSeconds": 2290
@@ -1791,6 +1978,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 57 - OF THE INTELLECTUAL VIRTUES (In Six Articles)",
         "file": "../audio/vol08/09 - Question 57 - OF THE INTELLECTUAL VIRTUES (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T09",
         "questionStart": 57,
         "questionEnd": 57,
         "durationSeconds": 2603
@@ -1799,6 +1987,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 58 - OF THE DIFFERENCE BETWEEN MORAL AND INTELLECTUAL VIRTUES (In Five Articles)",
         "file": "../audio/vol08/10 - Question 58 - OF THE DIFFERENCE BETWEEN MORAL AND INTELLECTUAL VIRTUES (In Five .mp3",
+        "audioFile": "ST-VOL08-T10",
         "questionStart": 58,
         "questionEnd": 58,
         "durationSeconds": 2002
@@ -1807,6 +1996,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 59 - OF MORAL VIRTUE IN RELATION TO THE PASSIONS (In Five Articles)",
         "file": "../audio/vol08/11 - Question 59 - OF MORAL VIRTUE IN RELATION TO THE PASSIONS (In Five Articles).mp3",
+        "audioFile": "ST-VOL08-T11",
         "questionStart": 59,
         "questionEnd": 59,
         "durationSeconds": 1761
@@ -1815,6 +2005,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 60 - HOW THE MORAL VIRTUES DIFFER FROM ONE ANOTHER (In Five Articles)",
         "file": "../audio/vol08/12 - Question 60 - HOW THE MORAL VIRTUES DIFFER FROM ONE ANOTHER (In Five Articles).mp3",
+        "audioFile": "ST-VOL08-T12",
         "questionStart": 60,
         "questionEnd": 60,
         "durationSeconds": 2169
@@ -1823,6 +2014,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 61 - OF THE CARDINAL VIRTUES (In Five Articles)",
         "file": "../audio/vol08/13 - Question 61 - OF THE CARDINAL VIRTUES (In Five Articles).mp3",
+        "audioFile": "ST-VOL08-T13",
         "questionStart": 61,
         "questionEnd": 61,
         "durationSeconds": 2039
@@ -1831,6 +2023,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 62 - OF THE THEOLOGICAL VIRTUES (In Four Articles)",
         "file": "../audio/vol08/14 - Question 62 - OF THE THEOLOGICAL VIRTUES (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T14",
         "questionStart": 62,
         "questionEnd": 62,
         "durationSeconds": 1370
@@ -1839,6 +2032,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 63 - OF THE CAUSE OF VIRTUES (In Four Articles)",
         "file": "../audio/vol08/15 - Question 63 - OF THE CAUSE OF VIRTUES (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T15",
         "questionStart": 63,
         "questionEnd": 63,
         "durationSeconds": 1515
@@ -1847,6 +2041,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 64 - OF THE MEAN OF VIRTUE (In Four Articles)",
         "file": "../audio/vol08/16 - Question 64 - OF THE MEAN OF VIRTUE (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T16",
         "questionStart": 64,
         "questionEnd": 64,
         "durationSeconds": 1476
@@ -1855,6 +2050,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 65 - OF THE CONNECTION OF VIRTUES (In Five Articles)",
         "file": "../audio/vol08/17 - Question 65 - OF THE CONNECTION OF VIRTUES (In Five Articles).mp3",
+        "audioFile": "ST-VOL08-T17",
         "questionStart": 65,
         "questionEnd": 65,
         "durationSeconds": 2172
@@ -1863,6 +2059,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 66 - OF EQUALITY AMONG THE VIRTUES (In Six Articles)",
         "file": "../audio/vol08/18 - Question 66 - OF EQUALITY AMONG THE VIRTUES (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T18",
         "questionStart": 66,
         "questionEnd": 66,
         "durationSeconds": 2630
@@ -1871,6 +2068,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 67 - OF THE DURATION OF VIRTUES AFTER THIS LIFE (In Six Articles)",
         "file": "../audio/vol08/19 - Question 67 - OF THE DURATION OF VIRTUES AFTER THIS LIFE (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T19",
         "questionStart": 67,
         "questionEnd": 67,
         "durationSeconds": 2561
@@ -1879,6 +2077,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 68 - OF THE GIFTS (In Eight Articles)",
         "file": "../audio/vol08/20 - Question 68 - OF THE GIFTS (In Eight Articles).mp3",
+        "audioFile": "ST-VOL08-T20",
         "questionStart": 68,
         "questionEnd": 68,
         "durationSeconds": 3811
@@ -1887,6 +2086,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 69 - OF THE BEATITUDES (In Four Articles)",
         "file": "../audio/vol08/21 - Question 69 - OF THE BEATITUDES (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T21",
         "questionStart": 69,
         "questionEnd": 69,
         "durationSeconds": 2124
@@ -1895,6 +2095,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 70 - OF THE FRUITS OF THE HOLY GHOST (In Four Articles)",
         "file": "../audio/vol08/22 - Question 70 - OF THE FRUITS OF THE HOLY GHOST (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T22",
         "questionStart": 70,
         "questionEnd": 70,
         "durationSeconds": 1655
@@ -1903,6 +2104,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 71 - OF VICE AND SIN CONSIDERED IN THEMSELVES (In Six Articles)",
         "file": "../audio/vol08/23 - Question 71 - OF VICE AND SIN CONSIDERED IN THEMSELVES (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T23",
         "questionStart": 71,
         "questionEnd": 71,
         "durationSeconds": 2476
@@ -1911,6 +2113,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 72 - OF THE DISTINCTION OF SINS (In Nine Articles)",
         "file": "../audio/vol08/24 - Question 72 - OF THE DISTINCTION OF SINS (In Nine Articles).mp3",
+        "audioFile": "ST-VOL08-T24",
         "questionStart": 72,
         "questionEnd": 72,
         "durationSeconds": 3474
@@ -1919,6 +2122,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 73 - OF THE COMPARISON OF ONE SIN WITH ANOTHER (In Ten Articles), part 1",
         "file": "../audio/vol08/25 - Question 73 - OF THE COMPARISON OF ONE SIN WITH ANOTHER (In Ten Articles), part .mp3",
+        "audioFile": "ST-VOL08-T25",
         "questionStart": 73,
         "questionEnd": 73,
         "durationSeconds": 1871
@@ -1927,6 +2131,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 73 - OF THE COMPARISON OF ONE SIN WITH ANOTHER (In Ten Articles), part 2",
         "file": "../audio/vol08/26 - Question 73 - OF THE COMPARISON OF ONE SIN WITH ANOTHER (In Ten Articles), part .mp3",
+        "audioFile": "ST-VOL08-T26",
         "questionStart": 73,
         "questionEnd": 73,
         "durationSeconds": 2024
@@ -1935,6 +2140,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "27 - Question 74 - OF THE SUBJECT OF SIN (In Ten Articles), part 1",
         "file": "../audio/vol08/27 - Question 74 - OF THE SUBJECT OF SIN (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL08-T27",
         "questionStart": 74,
         "questionEnd": 74,
         "durationSeconds": 1884
@@ -1943,6 +2149,7 @@ window.SUMMA_VOLUMES = [
         "track": 28,
         "title": "28 - Question 74 - OF THE SUBJECT OF SIN (In Ten Articles), part 2",
         "file": "../audio/vol08/28 - Question 74 - OF THE SUBJECT OF SIN (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL08-T28",
         "questionStart": 74,
         "questionEnd": 74,
         "durationSeconds": 1982
@@ -1951,6 +2158,7 @@ window.SUMMA_VOLUMES = [
         "track": 29,
         "title": "29 - Question 75 - OF THE CAUSES OF SIN, IN GENERAL (In Four Articles)",
         "file": "../audio/vol08/29 - Question 75 - OF THE CAUSES OF SIN, IN GENERAL (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T29",
         "questionStart": 75,
         "questionEnd": 75,
         "durationSeconds": 1454
@@ -1959,6 +2167,7 @@ window.SUMMA_VOLUMES = [
         "track": 30,
         "title": "30 - Question 76 - OF THE CAUSES OF SIN, IN PARTICULAR (In Four Articles)",
         "file": "../audio/vol08/30 - Question 76 - OF THE CAUSES OF SIN, IN PARTICULAR (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T30",
         "questionStart": 76,
         "questionEnd": 76,
         "durationSeconds": 1715
@@ -1967,6 +2176,7 @@ window.SUMMA_VOLUMES = [
         "track": 31,
         "title": "31 - Question 77 - OF THE CAUSE OF SIN, ON THE PART OF THE SENSITIVE APPETITE (In Eight Articles)",
         "file": "../audio/vol08/31 - Question 77 - OF THE CAUSE OF SIN, ON THE PART OF THE SENSITIVE APPETITE (In Eig.mp3",
+        "audioFile": "ST-VOL08-T31",
         "questionStart": 77,
         "questionEnd": 77,
         "durationSeconds": 3088
@@ -1975,6 +2185,7 @@ window.SUMMA_VOLUMES = [
         "track": 32,
         "title": "32 - Question 78 - OF THAT CAUSE OF SIN WHICH IS MALICE (In Four Articles)",
         "file": "../audio/vol08/32 - Question 78 - OF THAT CAUSE OF SIN WHICH IS MALICE (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T32",
         "questionStart": 78,
         "questionEnd": 78,
         "durationSeconds": 1627
@@ -1983,6 +2194,7 @@ window.SUMMA_VOLUMES = [
         "track": 33,
         "title": "33 - Question 79 - OF THE EXTERNAL CAUSES OF SIN (In Four Articles)",
         "file": "../audio/vol08/33 - Question 79 - OF THE EXTERNAL CAUSES OF SIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T33",
         "questionStart": 79,
         "questionEnd": 79,
         "durationSeconds": 1556
@@ -1991,6 +2203,7 @@ window.SUMMA_VOLUMES = [
         "track": 34,
         "title": "34 - Question 80 - OF THE CAUSE OF SIN, AS REGARDS THE DEVIL (In Four Articles)",
         "file": "../audio/vol08/34 - Question 80 - OF THE CAUSE OF SIN, AS REGARDS THE DEVIL (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T34",
         "questionStart": 80,
         "questionEnd": 80,
         "durationSeconds": 1479
@@ -1999,6 +2212,7 @@ window.SUMMA_VOLUMES = [
         "track": 35,
         "title": "35 - Question 81 - OF THE CAUSE OF SIN, ON THE PART OF MAN (In Five Articles)",
         "file": "../audio/vol08/35 - Question 81 - OF THE CAUSE OF SIN, ON THE PART OF MAN (In Five Articles).mp3",
+        "audioFile": "ST-VOL08-T35",
         "questionStart": 81,
         "questionEnd": 81,
         "durationSeconds": 2212
@@ -2007,6 +2221,7 @@ window.SUMMA_VOLUMES = [
         "track": 36,
         "title": "36 - Question 82 - OF ORIGINAL SIN, AS TO ITS ESSENCE (In Four Articles)",
         "file": "../audio/vol08/36 - Question 82 - OF ORIGINAL SIN, AS TO ITS ESSENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T36",
         "questionStart": 82,
         "questionEnd": 82,
         "durationSeconds": 1453
@@ -2015,6 +2230,7 @@ window.SUMMA_VOLUMES = [
         "track": 37,
         "title": "37 - Question 83 - OF THE SUBJECT OF ORIGINAL SIN (In Four Articles)",
         "file": "../audio/vol08/37 - Question 83 - OF THE SUBJECT OF ORIGINAL SIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL08-T37",
         "questionStart": 83,
         "questionEnd": 83,
         "durationSeconds": 1556
@@ -2023,6 +2239,7 @@ window.SUMMA_VOLUMES = [
         "track": 38,
         "title": "38 - Question 84 - OF THE CAUSE OF SIN, IN RESPECT OF ONE SIN BEING THE CAUSE OF ANOTHER (In Four Articles)",
         "file": "../audio/vol08/38 - Question 84 - OF THE CAUSE OF SIN, IN RESPECT OF ONE SIN BEING THE CAUSE OF ANOT.mp3",
+        "audioFile": "ST-VOL08-T38",
         "questionStart": 84,
         "questionEnd": 84,
         "durationSeconds": 1739
@@ -2031,6 +2248,7 @@ window.SUMMA_VOLUMES = [
         "track": 39,
         "title": "39 - Question 85 - OF THE EFFECTS OF SIN, AND FIRST, OF THE CORRUPTION OF THE GOOD OF NATURE (In Six Articles)",
         "file": "../audio/vol08/39 - Question 85 - OF THE EFFECTS OF SIN, AND FIRST, OF THE CORRUPTION OF THE GOOD OF.mp3",
+        "audioFile": "ST-VOL08-T39",
         "questionStart": 85,
         "questionEnd": 85,
         "durationSeconds": 2475
@@ -2039,6 +2257,7 @@ window.SUMMA_VOLUMES = [
         "track": 40,
         "title": "40 - Question 86 - OF THE STAIN OF SIN (In Two Articles)",
         "file": "../audio/vol08/40 - Question 86 - OF THE STAIN OF SIN (In Two Articles).mp3",
+        "audioFile": "ST-VOL08-T40",
         "questionStart": 86,
         "questionEnd": 86,
         "durationSeconds": 666
@@ -2047,6 +2266,7 @@ window.SUMMA_VOLUMES = [
         "track": 41,
         "title": "41 - Question 87 - OF THE DEBT OF PUNISHMENT (In Eight Articles)",
         "file": "../audio/vol08/41 - Question 87 - OF THE DEBT OF PUNISHMENT (In Eight Articles).mp3",
+        "audioFile": "ST-VOL08-T41",
         "questionStart": 87,
         "questionEnd": 87,
         "durationSeconds": 3225
@@ -2055,6 +2275,7 @@ window.SUMMA_VOLUMES = [
         "track": 42,
         "title": "42 - Question 88 - OF VENIAL AND MORTAL SIN (In Six Articles)",
         "file": "../audio/vol08/42 - Question 88 - OF VENIAL AND MORTAL SIN (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T42",
         "questionStart": 88,
         "questionEnd": 88,
         "durationSeconds": 2732
@@ -2063,6 +2284,7 @@ window.SUMMA_VOLUMES = [
         "track": 43,
         "title": "43 - Question 89 - OF VENIAL SIN IN ITSELF (In Six Articles)",
         "file": "../audio/vol08/43 - Question 89 - OF VENIAL SIN IN ITSELF (In Six Articles).mp3",
+        "audioFile": "ST-VOL08-T43",
         "questionStart": 89,
         "questionEnd": 89,
         "durationSeconds": 2361
@@ -2110,6 +2332,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 90 - OF THE ESSENCE OF LAW (In Four Articles)",
         "file": "../audio/vol09/01 - Question 90 - OF THE ESSENCE OF LAW (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T01",
         "questionStart": 90,
         "questionEnd": 90,
         "durationSeconds": 1347
@@ -2118,6 +2341,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 91 - OF THE VARIOUS KINDS OF LAW (In Six Articles)",
         "file": "../audio/vol09/02 - Question 91 - OF THE VARIOUS KINDS OF LAW (In Six Articles).mp3",
+        "audioFile": "ST-VOL09-T02",
         "questionStart": 91,
         "questionEnd": 91,
         "durationSeconds": 2386
@@ -2126,6 +2350,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 92 - OF THE EFFECTS OF LAW (In Two articles)",
         "file": "../audio/vol09/03 - Question 92 - OF THE EFFECTS OF LAW (In Two articles).mp3",
+        "audioFile": "ST-VOL09-T03",
         "questionStart": 92,
         "questionEnd": 92,
         "durationSeconds": 880
@@ -2134,6 +2359,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 93 - OF THE ETERNAL LAW (In Six Articles)",
         "file": "../audio/vol09/04 - Question 93 - OF THE ETERNAL LAW (In Six Articles).mp3",
+        "audioFile": "ST-VOL09-T04",
         "questionStart": 93,
         "questionEnd": 93,
         "durationSeconds": 2336
@@ -2142,6 +2368,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 94 - OF THE NATURAL LAW (In Six Articles)",
         "file": "../audio/vol09/05 - Question 94 - OF THE NATURAL LAW (In Six Articles).mp3",
+        "audioFile": "ST-VOL09-T05",
         "questionStart": 94,
         "questionEnd": 94,
         "durationSeconds": 2388
@@ -2150,6 +2377,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 95 - OF HUMAN LAW (In Four Articles)",
         "file": "../audio/vol09/06 - Question 95 - OF HUMAN LAW (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T06",
         "questionStart": 95,
         "questionEnd": 95,
         "durationSeconds": 1789
@@ -2158,6 +2386,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 96 - OF THE POWER OF HUMAN LAW (In Six Articles)",
         "file": "../audio/vol09/07 - Question 96 - OF THE POWER OF HUMAN LAW (In Six Articles).mp3",
+        "audioFile": "ST-VOL09-T07",
         "questionStart": 96,
         "questionEnd": 96,
         "durationSeconds": 2377
@@ -2166,6 +2395,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 97 - OF CHANGE IN LAWS (In Four Articles)",
         "file": "../audio/vol09/08 - Question 97 - OF CHANGE IN LAWS (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T08",
         "questionStart": 97,
         "questionEnd": 97,
         "durationSeconds": 1451
@@ -2174,6 +2404,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 98 - OF THE OLD LAW (In Six Articles)",
         "file": "../audio/vol09/09 - Question 98 - OF THE OLD LAW (In Six Articles).mp3",
+        "audioFile": "ST-VOL09-T09",
         "questionStart": 98,
         "questionEnd": 98,
         "durationSeconds": 2690
@@ -2182,6 +2413,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 99 - OF THE PRECEPTS OF THE OLD LAW (In Six Articles)",
         "file": "../audio/vol09/10 - Question 99 - OF THE PRECEPTS OF THE OLD LAW (In Six Articles).mp3",
+        "audioFile": "ST-VOL09-T10",
         "questionStart": 99,
         "questionEnd": 99,
         "durationSeconds": 2381
@@ -2190,6 +2422,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 100 - OF THE MORAL PRECEPTS OF THE OLD LAW (In Twelve Articles), part 1",
         "file": "../audio/vol09/11 - Question 100 - OF THE MORAL PRECEPTS OF THE OLD LAW (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL09-T11",
         "questionStart": 100,
         "questionEnd": 100,
         "durationSeconds": 3224
@@ -2198,6 +2431,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 100 - OF THE MORAL PRECEPTS OF THE OLD LAW (In Twelve Articles), part 2",
         "file": "../audio/vol09/12 - Question 100 - OF THE MORAL PRECEPTS OF THE OLD LAW (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL09-T12",
         "questionStart": 100,
         "questionEnd": 100,
         "durationSeconds": 3055
@@ -2206,6 +2440,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 101 - OF THE CEREMONIAL PRECEPTS IN THEMSELVES (In Four Articles)",
         "file": "../audio/vol09/13 - Question 101 - OF THE CEREMONIAL PRECEPTS IN THEMSELVES (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T13",
         "questionStart": 101,
         "questionEnd": 101,
         "durationSeconds": 1847
@@ -2214,6 +2449,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part 1",
         "file": "../audio/vol09/14 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part .mp3",
+        "audioFile": "ST-VOL09-T14",
         "questionStart": 102,
         "questionEnd": 102,
         "durationSeconds": 2673
@@ -2222,6 +2458,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part 2",
         "file": "../audio/vol09/15 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part .mp3",
+        "audioFile": "ST-VOL09-T15",
         "questionStart": 102,
         "questionEnd": 102,
         "durationSeconds": 2832
@@ -2230,6 +2467,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part 3",
         "file": "../audio/vol09/16 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part .mp3",
+        "audioFile": "ST-VOL09-T16",
         "questionStart": 102,
         "questionEnd": 102,
         "durationSeconds": 3594
@@ -2238,6 +2476,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part 4",
         "file": "../audio/vol09/17 - Question 102 - OF THE CAUSES OF THE CEREMONIAL PRECEPTS (In Six Articles), part .mp3",
+        "audioFile": "ST-VOL09-T17",
         "questionStart": 102,
         "questionEnd": 102,
         "durationSeconds": 2352
@@ -2246,6 +2485,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 103 - OF THE DURATION OF THE CEREMONIAL PRECEPTS (In Four Articles)",
         "file": "../audio/vol09/18 - Question 103 - OF THE DURATION OF THE CEREMONIAL PRECEPTS (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T18",
         "questionStart": 103,
         "questionEnd": 103,
         "durationSeconds": 2391
@@ -2254,6 +2494,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 104 - OF THE JUDICIAL PRECEPTS (In Four Articles)",
         "file": "../audio/vol09/19 - Question 104 - OF THE JUDICIAL PRECEPTS (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T19",
         "questionStart": 104,
         "questionEnd": 104,
         "durationSeconds": 1479
@@ -2262,6 +2503,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 105 - OF THE REASON FOR THE JUDICIAL PRECEPTS (In Four Articles), part 1",
         "file": "../audio/vol09/20 - Question 105 - OF THE REASON FOR THE JUDICIAL PRECEPTS (In Four Articles), part .mp3",
+        "audioFile": "ST-VOL09-T20",
         "questionStart": 105,
         "questionEnd": 105,
         "durationSeconds": 3528
@@ -2270,6 +2512,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 105 - OF THE REASON FOR THE JUDICIAL PRECEPTS (In Four Articles), part 2",
         "file": "../audio/vol09/21 - Question 105 - OF THE REASON FOR THE JUDICIAL PRECEPTS (In Four Articles), part .mp3",
+        "audioFile": "ST-VOL09-T21",
         "questionStart": 105,
         "questionEnd": 105,
         "durationSeconds": 2007
@@ -2278,6 +2521,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 106 - OF THE LAW OF THE GOSPEL, CALLED THE NEW LAW, CONSIDERED IN ITSELF (In Four Articles)",
         "file": "../audio/vol09/22 - Question 106 - OF THE LAW OF THE GOSPEL, CALLED THE NEW LAW, CONSIDERED IN ITSEL.mp3",
+        "audioFile": "ST-VOL09-T22",
         "questionStart": 106,
         "questionEnd": 106,
         "durationSeconds": 1786
@@ -2286,6 +2530,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 107 - OF THE NEW LAW AS COMPARED WITH THE OLD (In Four Articles)",
         "file": "../audio/vol09/23 - Question 107 - OF THE NEW LAW AS COMPARED WITH THE OLD (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T23",
         "questionStart": 107,
         "questionEnd": 107,
         "durationSeconds": 2202
@@ -2294,6 +2539,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 108 - OF THOSE THINGS THAT ARE CONTAINED IN THE NEW LAW (In Four Articles)",
         "file": "../audio/vol09/24 - Question 108 - OF THOSE THINGS THAT ARE CONTAINED IN THE NEW LAW (In Four Articl.mp3",
+        "audioFile": "ST-VOL09-T24",
         "questionStart": 108,
         "questionEnd": 108,
         "durationSeconds": 2707
@@ -2302,6 +2548,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 109 - OF THE NECESSITY OF GRACE (In Ten Articles), part 1",
         "file": "../audio/vol09/25 - Question 109 - OF THE NECESSITY OF GRACE (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL09-T25",
         "questionStart": 109,
         "questionEnd": 109,
         "durationSeconds": 1937
@@ -2310,6 +2557,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 109 - OF THE NECESSITY OF GRACE (In Ten Articles), part 2",
         "file": "../audio/vol09/26 - Question 109 - OF THE NECESSITY OF GRACE (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL09-T26",
         "questionStart": 109,
         "questionEnd": 109,
         "durationSeconds": 2048
@@ -2318,6 +2566,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "27 - Question 110 - OF THE GRACE OF GOD AS REGARDS ITS ESSENCE (In Four Articles)",
         "file": "../audio/vol09/27 - Question 110 - OF THE GRACE OF GOD AS REGARDS ITS ESSENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL09-T27",
         "questionStart": 110,
         "questionEnd": 110,
         "durationSeconds": 1656
@@ -2326,6 +2575,7 @@ window.SUMMA_VOLUMES = [
         "track": 28,
         "title": "28 - Question 111 - OF THE DIVISION OF GRACE (In Five Articles)",
         "file": "../audio/vol09/28 - Question 111 - OF THE DIVISION OF GRACE (In Five Articles).mp3",
+        "audioFile": "ST-VOL09-T28",
         "questionStart": 111,
         "questionEnd": 111,
         "durationSeconds": 2139
@@ -2334,6 +2584,7 @@ window.SUMMA_VOLUMES = [
         "track": 29,
         "title": "29 - Question 112 - OF THE CAUSE OF GRACE (In Five Articles)",
         "file": "../audio/vol09/29 - Question 112 - OF THE CAUSE OF GRACE (In Five Articles).mp3",
+        "audioFile": "ST-VOL09-T29",
         "questionStart": 112,
         "questionEnd": 112,
         "durationSeconds": 1874
@@ -2342,6 +2593,7 @@ window.SUMMA_VOLUMES = [
         "track": 30,
         "title": "30 - Question 113 - OF THE EFFECTS OF GRACE (In Ten Articles), part 1",
         "file": "../audio/vol09/30 - Question 113 - OF THE EFFECTS OF GRACE (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL09-T30",
         "questionStart": 113,
         "questionEnd": 113,
         "durationSeconds": 2065
@@ -2350,6 +2602,7 @@ window.SUMMA_VOLUMES = [
         "track": 31,
         "title": "31 - Question 113 - OF THE EFFECTS OF GRACE (In Ten Articles), part 2",
         "file": "../audio/vol09/31 - Question 113 - OF THE EFFECTS OF GRACE (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL09-T31",
         "questionStart": 113,
         "questionEnd": 113,
         "durationSeconds": 2304
@@ -2358,6 +2611,7 @@ window.SUMMA_VOLUMES = [
         "track": 32,
         "title": "32 - Question 114 - OF MERIT (In Ten Articles), part 1",
         "file": "../audio/vol09/32 - Question 114 - OF MERIT (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL09-T32",
         "questionStart": 114,
         "questionEnd": 114,
         "durationSeconds": 1840
@@ -2366,6 +2620,7 @@ window.SUMMA_VOLUMES = [
         "track": 33,
         "title": "33 - Question 114 - OF MERIT (In Ten Articles), part 2",
         "file": "../audio/vol09/33 - Question 114 - OF MERIT (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL09-T33",
         "questionStart": 114,
         "questionEnd": 114,
         "durationSeconds": 1715
@@ -2434,6 +2689,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 1 - OF FAITH (In Ten Articles), part 1",
         "file": "../audio/vol10/01 - Question 1 - OF FAITH (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T01",
         "questionStart": 1,
         "questionEnd": 1,
         "durationSeconds": 1905
@@ -2442,6 +2698,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 1 - OF FAITH (In Ten Articles), part 2",
         "file": "../audio/vol10/02 - Question 1 - OF FAITH (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T02",
         "questionStart": 1,
         "questionEnd": 1,
         "durationSeconds": 2728
@@ -2450,6 +2707,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 2 - OF THE ACT OF FAITH (In Ten Articles), part 1",
         "file": "../audio/vol10/03 - Question 2 - OF THE ACT OF FAITH (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T03",
         "questionStart": 2,
         "questionEnd": 2,
         "durationSeconds": 1996
@@ -2458,6 +2716,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 2 - OF THE ACT OF FAITH (In Ten Articles), part 2",
         "file": "../audio/vol10/04 - Question 2 - OF THE ACT OF FAITH (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T04",
         "questionStart": 2,
         "questionEnd": 2,
         "durationSeconds": 2105
@@ -2466,6 +2725,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 3 - OF THE OUTWARD ACT OF FAITH (In Two Articles)",
         "file": "../audio/vol10/05 - Question 3 - OF THE OUTWARD ACT OF FAITH (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T05",
         "questionStart": 3,
         "questionEnd": 3,
         "durationSeconds": 681
@@ -2474,6 +2734,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 4 - OF THE VIRTUE ITSELF OF FAITH (In Eight Articles)",
         "file": "../audio/vol10/06 - Question 4 - OF THE VIRTUE ITSELF OF FAITH (In Eight Articles).mp3",
+        "audioFile": "ST-VOL10-T06",
         "questionStart": 4,
         "questionEnd": 4,
         "durationSeconds": 3465
@@ -2482,6 +2743,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 5 - OF THOSE WHO HAVE FAITH (In Four Articles)",
         "file": "../audio/vol10/07 - Question 5 - OF THOSE WHO HAVE FAITH (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T07",
         "questionStart": 5,
         "questionEnd": 5,
         "durationSeconds": 1691
@@ -2490,6 +2752,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 6 - OF THE CAUSE OF FAITH (In Two Articles)",
         "file": "../audio/vol10/08 - Question 6 - OF THE CAUSE OF FAITH (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T08",
         "questionStart": 6,
         "questionEnd": 6,
         "durationSeconds": 841
@@ -2498,6 +2761,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 7 - OF THE EFFECTS OF FAITH (In Two Articles)",
         "file": "../audio/vol10/09 - Question 7 - OF THE EFFECTS OF FAITH (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T09",
         "questionStart": 7,
         "questionEnd": 7,
         "durationSeconds": 629
@@ -2506,6 +2770,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 8 - OF THE GIFT OF UNDERSTANDING (In Eight Articles)",
         "file": "../audio/vol10/10 - Question 8 - OF THE GIFT OF UNDERSTANDING (In Eight Articles).mp3",
+        "audioFile": "ST-VOL10-T10",
         "questionStart": 8,
         "questionEnd": 8,
         "durationSeconds": 2840
@@ -2514,6 +2779,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 9 - OF THE GIFT OF KNOWLEDGE (In Four Articles)",
         "file": "../audio/vol10/11 - Question 9 - OF THE GIFT OF KNOWLEDGE (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T11",
         "questionStart": 9,
         "questionEnd": 9,
         "durationSeconds": 1446
@@ -2522,6 +2788,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 10 - OF UNBELIEF IN GENERAL (In Twelve Articles), part 1",
         "file": "../audio/vol10/12 - Question 10 - OF UNBELIEF IN GENERAL (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T12",
         "questionStart": 10,
         "questionEnd": 10,
         "durationSeconds": 2294
@@ -2530,6 +2797,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 10 - OF UNBELIEF IN GENERAL (In Twelve Articles), part 2",
         "file": "../audio/vol10/13 - Question 10 - OF UNBELIEF IN GENERAL (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T13",
         "questionStart": 10,
         "questionEnd": 10,
         "durationSeconds": 2866
@@ -2538,6 +2806,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 11 - OF HERESY (In Four Articles)",
         "file": "../audio/vol10/14 - Question 11 - OF HERESY (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T14",
         "questionStart": 11,
         "questionEnd": 11,
         "durationSeconds": 1892
@@ -2546,6 +2815,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 12 - OF APOSTASY (In Two Articles)",
         "file": "../audio/vol10/15 - Question 12 - OF APOSTASY (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T15",
         "questionStart": 12,
         "questionEnd": 12,
         "durationSeconds": 922
@@ -2554,6 +2824,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 13 - OF THE SIN OF BLASPHEMY, IN GENERAL (In Four Articles)",
         "file": "../audio/vol10/16 - Question 13 - OF THE SIN OF BLASPHEMY, IN GENERAL (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T16",
         "questionStart": 13,
         "questionEnd": 13,
         "durationSeconds": 1321
@@ -2562,6 +2833,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 14 - OF BLASPHEMY AGAINST THE HOLY GHOST (In Four Articles)",
         "file": "../audio/vol10/17 - Question 14 - OF BLASPHEMY AGAINST THE HOLY GHOST (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T17",
         "questionStart": 14,
         "questionEnd": 14,
         "durationSeconds": 2012
@@ -2570,6 +2842,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 15 - OF THE VICES OPPOSED TO KNOWLEDGE AND UNDERSTANDING (In Three Articles)",
         "file": "../audio/vol10/18 - Question 15 - OF THE VICES OPPOSED TO KNOWLEDGE AND UNDERSTANDING (In Three Arti.mp3",
+        "audioFile": "ST-VOL10-T18",
         "questionStart": 15,
         "questionEnd": 15,
         "durationSeconds": 1108
@@ -2578,6 +2851,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 16 - OF THE PRECEPTS OF FAITH, KNOWLEDGE AND UNDERSTANDING (In Two Articles)",
         "file": "../audio/vol10/19 - Question 16 - OF THE PRECEPTS OF FAITH, KNOWLEDGE AND UNDERSTANDING (In Two Arti.mp3",
+        "audioFile": "ST-VOL10-T19",
         "questionStart": 16,
         "questionEnd": 16,
         "durationSeconds": 1097
@@ -2586,6 +2860,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 17 - OF HOPE, CONSIDERED IN ITSELF (In Eight Articles)",
         "file": "../audio/vol10/20 - Question 17 - OF HOPE, CONSIDERED IN ITSELF (In Eight Articles).mp3",
+        "audioFile": "ST-VOL10-T20",
         "questionStart": 17,
         "questionEnd": 17,
         "durationSeconds": 2456
@@ -2594,6 +2869,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 18 - OF THE SUBJECT OF HOPE (In Four Articles)",
         "file": "../audio/vol10/21 - Question 18 - OF THE SUBJECT OF HOPE (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T21",
         "questionStart": 18,
         "questionEnd": 18,
         "durationSeconds": 1341
@@ -2602,6 +2878,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 1",
         "file": "../audio/vol10/22 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T22",
         "questionStart": 19,
         "questionEnd": 19,
         "durationSeconds": 2186
@@ -2610,6 +2887,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 2",
         "file": "../audio/vol10/23 - Question 19 - OF THE GIFT OF FEAR (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T23",
         "questionStart": 19,
         "questionEnd": 19,
         "durationSeconds": 2337
@@ -2618,6 +2896,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 20 - OF DESPAIR (In Four Articles)",
         "file": "../audio/vol10/24 - Question 20 - OF DESPAIR (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T24",
         "questionStart": 20,
         "questionEnd": 20,
         "durationSeconds": 1489
@@ -2626,6 +2905,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 21 - OF PRESUMPTION (In Four Articles)",
         "file": "../audio/vol10/25 - Question 21 - OF PRESUMPTION (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T25",
         "questionStart": 21,
         "questionEnd": 21,
         "durationSeconds": 1243
@@ -2634,6 +2914,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 22 - OF THE PRECEPTS RELATING TO HOPE AND FEAR (In Two Articles)",
         "file": "../audio/vol10/26 - Question 22 - OF THE PRECEPTS RELATING TO HOPE AND FEAR (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T26",
         "questionStart": 22,
         "questionEnd": 22,
         "durationSeconds": 817
@@ -2642,6 +2923,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "27 - Question 23 - OF CHARITY, CONSIDERED IN ITSELF (In Eight Articles)",
         "file": "../audio/vol10/27 - Question 23 - OF CHARITY, CONSIDERED IN ITSELF (In Eight Articles).mp3",
+        "audioFile": "ST-VOL10-T27",
         "questionStart": 23,
         "questionEnd": 23,
         "durationSeconds": 3197
@@ -2650,6 +2932,7 @@ window.SUMMA_VOLUMES = [
         "track": 28,
         "title": "28 - Question 24 - OF THE SUBJECT OF CHARITY (In Twelve Articles), part 1",
         "file": "../audio/vol10/28 - Question 24 - OF THE SUBJECT OF CHARITY (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T28",
         "questionStart": 24,
         "questionEnd": 24,
         "durationSeconds": 2260
@@ -2658,6 +2941,7 @@ window.SUMMA_VOLUMES = [
         "track": 29,
         "title": "29 - Question 24 - OF THE SUBJECT OF CHARITY (In Twelve Articles), part 2",
         "file": "../audio/vol10/29 - Question 24 - OF THE SUBJECT OF CHARITY (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T29",
         "questionStart": 24,
         "questionEnd": 24,
         "durationSeconds": 2817
@@ -2666,6 +2950,7 @@ window.SUMMA_VOLUMES = [
         "track": 30,
         "title": "30 - Question 25 - OF THE OBJECT OF CHARITY (In Twelve Articles), part 1",
         "file": "../audio/vol10/30 - Question 25 - OF THE OBJECT OF CHARITY (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T30",
         "questionStart": 25,
         "questionEnd": 25,
         "durationSeconds": 2209
@@ -2674,6 +2959,7 @@ window.SUMMA_VOLUMES = [
         "track": 31,
         "title": "31 - Question 25 - OF THE OBJECT OF CHARITY (In Twelve Articles), part 2",
         "file": "../audio/vol10/31 - Question 25 - OF THE OBJECT OF CHARITY (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T31",
         "questionStart": 25,
         "questionEnd": 25,
         "durationSeconds": 1859
@@ -2682,6 +2968,7 @@ window.SUMMA_VOLUMES = [
         "track": 32,
         "title": "32 - Question 26 - OF THE ORDER OF CHARITY (In Thirteen Articles), part 1",
         "file": "../audio/vol10/32 - Question 26 - OF THE ORDER OF CHARITY (In Thirteen Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T32",
         "questionStart": 26,
         "questionEnd": 26,
         "durationSeconds": 2039
@@ -2690,6 +2977,7 @@ window.SUMMA_VOLUMES = [
         "track": 33,
         "title": "33 - Question 26 - OF THE ORDER OF CHARITY (In Thirteen Articles), part 2",
         "file": "../audio/vol10/33 - Question 26 - OF THE ORDER OF CHARITY (In Thirteen Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T33",
         "questionStart": 26,
         "questionEnd": 26,
         "durationSeconds": 2588
@@ -2698,6 +2986,7 @@ window.SUMMA_VOLUMES = [
         "track": 34,
         "title": "34 - Question 27 - OF THE PRINCIPAL ACT OF CHARITY, WHICH IS TO LOVE (In Eight Articles)",
         "file": "../audio/vol10/34 - Question 27 - OF THE PRINCIPAL ACT OF CHARITY, WHICH IS TO LOVE (In Eight Articl.mp3",
+        "audioFile": "ST-VOL10-T34",
         "questionStart": 27,
         "questionEnd": 27,
         "durationSeconds": 2721
@@ -2706,6 +2995,7 @@ window.SUMMA_VOLUMES = [
         "track": 35,
         "title": "35 - Question 28 - OF JOY (In Four Articles)",
         "file": "../audio/vol10/35 - Question 28 - OF JOY (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T35",
         "questionStart": 28,
         "questionEnd": 28,
         "durationSeconds": 1363
@@ -2714,6 +3004,7 @@ window.SUMMA_VOLUMES = [
         "track": 36,
         "title": "36 - Question 29 - OF PEACE (In Four Articles)",
         "file": "../audio/vol10/36 - Question 29 - OF PEACE (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T36",
         "questionStart": 29,
         "questionEnd": 29,
         "durationSeconds": 1312
@@ -2722,6 +3013,7 @@ window.SUMMA_VOLUMES = [
         "track": 37,
         "title": "37 - Question 30 - OF MERCY, OR OF PITY (In Four Articles)",
         "file": "../audio/vol10/37 - Question 30 - OF MERCY, OR OF PITY (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T37",
         "questionStart": 30,
         "questionEnd": 30,
         "durationSeconds": 1612
@@ -2730,6 +3022,7 @@ window.SUMMA_VOLUMES = [
         "track": 38,
         "title": "38 - Question 31 - OF BENEFICENCE (In Four Articles)",
         "file": "../audio/vol10/38 - Question 31 - OF BENEFICENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T38",
         "questionStart": 31,
         "questionEnd": 31,
         "durationSeconds": 1411
@@ -2738,6 +3031,7 @@ window.SUMMA_VOLUMES = [
         "track": 39,
         "title": "39 - Question 32 - OF ALMSDEEDS (In Ten Articles), part 1",
         "file": "../audio/vol10/39 - Question 32 - OF ALMSDEEDS (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL10-T39",
         "questionStart": 32,
         "questionEnd": 32,
         "durationSeconds": 2171
@@ -2746,6 +3040,7 @@ window.SUMMA_VOLUMES = [
         "track": 40,
         "title": "40 - Question 32 - OF ALMSDEEDS (In Ten Articles), part 2",
         "file": "../audio/vol10/40 - Question 32 - OF ALMSDEEDS (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL10-T40",
         "questionStart": 32,
         "questionEnd": 32,
         "durationSeconds": 1908
@@ -2754,6 +3049,7 @@ window.SUMMA_VOLUMES = [
         "track": 41,
         "title": "41 - Question 33 - OF FRATERNAL CORRECTION (In Eight Articles)",
         "file": "../audio/vol10/41 - Question 33 - OF FRATERNAL CORRECTION (In Eight Articles).mp3",
+        "audioFile": "ST-VOL10-T41",
         "questionStart": 33,
         "questionEnd": 33,
         "durationSeconds": 3252
@@ -2762,6 +3058,7 @@ window.SUMMA_VOLUMES = [
         "track": 42,
         "title": "42 - Question 34 - OF HATRED (In Six Articles)",
         "file": "../audio/vol10/42 - Question 34 - OF HATRED (In Six Articles).mp3",
+        "audioFile": "ST-VOL10-T42",
         "questionStart": 34,
         "questionEnd": 34,
         "durationSeconds": 1744
@@ -2770,6 +3067,7 @@ window.SUMMA_VOLUMES = [
         "track": 43,
         "title": "43 - Question 35 - OF SLOTH (In Four Articles)",
         "file": "../audio/vol10/43 - Question 35 - OF SLOTH (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T43",
         "questionStart": 35,
         "questionEnd": 35,
         "durationSeconds": 1689
@@ -2778,6 +3076,7 @@ window.SUMMA_VOLUMES = [
         "track": 44,
         "title": "44 - Question 36 - OF ENVY (In Four Articles)",
         "file": "../audio/vol10/44 - Question 36 - OF ENVY (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T44",
         "questionStart": 36,
         "questionEnd": 36,
         "durationSeconds": 1636
@@ -2786,6 +3085,7 @@ window.SUMMA_VOLUMES = [
         "track": 45,
         "title": "45 - Question 37 - OF DISCORD, WHICH IS CONTRARY TO PEACE (In Two Articles)",
         "file": "../audio/vol10/45 - Question 37 - OF DISCORD, WHICH IS CONTRARY TO PEACE (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T45",
         "questionStart": 37,
         "questionEnd": 37,
         "durationSeconds": 802
@@ -2794,6 +3094,7 @@ window.SUMMA_VOLUMES = [
         "track": 46,
         "title": "46 - Question 38 - OF CONTENTION (In Two Articles)",
         "file": "../audio/vol10/46 - Question 38 - OF CONTENTION (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T46",
         "questionStart": 38,
         "questionEnd": 38,
         "durationSeconds": 773
@@ -2802,6 +3103,7 @@ window.SUMMA_VOLUMES = [
         "track": 47,
         "title": "47 - Question 39 - OF SCHISM (In Four Articles)",
         "file": "../audio/vol10/47 - Question 39 - OF SCHISM (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T47",
         "questionStart": 39,
         "questionEnd": 39,
         "durationSeconds": 1535
@@ -2810,6 +3112,7 @@ window.SUMMA_VOLUMES = [
         "track": 48,
         "title": "48 - Question 40 - OF WAR (In Four Articles)",
         "file": "../audio/vol10/48 - Question 40 - OF WAR (In Four Articles).mp3",
+        "audioFile": "ST-VOL10-T48",
         "questionStart": 40,
         "questionEnd": 40,
         "durationSeconds": 1552
@@ -2818,6 +3121,7 @@ window.SUMMA_VOLUMES = [
         "track": 49,
         "title": "49 - Question 41 - OF STRIFE BETWEEN INDIVIDUALS (In Two Articles)",
         "file": "../audio/vol10/49 - Question 41 - OF STRIFE BETWEEN INDIVIDUALS (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T49",
         "questionStart": 41,
         "questionEnd": 41,
         "durationSeconds": 761
@@ -2826,6 +3130,7 @@ window.SUMMA_VOLUMES = [
         "track": 50,
         "title": "50 - Question 42 - OF SEDITION (In Two Articles)",
         "file": "../audio/vol10/50 - Question 42 - OF SEDITION (In Two Articles).mp3",
+        "audioFile": "ST-VOL10-T50",
         "questionStart": 42,
         "questionEnd": 42,
         "durationSeconds": 634
@@ -2834,6 +3139,7 @@ window.SUMMA_VOLUMES = [
         "track": 51,
         "title": "51 - Question 43 - OF SCANDAL (In Eight Articles)",
         "file": "../audio/vol10/51 - Question 43 - OF SCANDAL (In Eight Articles).mp3",
+        "audioFile": "ST-VOL10-T51",
         "questionStart": 43,
         "questionEnd": 43,
         "durationSeconds": 3049
@@ -2842,6 +3148,7 @@ window.SUMMA_VOLUMES = [
         "track": 52,
         "title": "52 - Question 44 - OF THE PRECEPTS OF CHARITY (In Eight Articles)",
         "file": "../audio/vol10/52 - Question 44 - OF THE PRECEPTS OF CHARITY (In Eight Articles).mp3",
+        "audioFile": "ST-VOL10-T52",
         "questionStart": 44,
         "questionEnd": 44,
         "durationSeconds": 2468
@@ -2850,6 +3157,7 @@ window.SUMMA_VOLUMES = [
         "track": 53,
         "title": "53 - Question 45 - OF THE GIFT OF WISDOM (In Six Articles)",
         "file": "../audio/vol10/53 - Question 45 - OF THE GIFT OF WISDOM (In Six Articles).mp3",
+        "audioFile": "ST-VOL10-T53",
         "questionStart": 45,
         "questionEnd": 45,
         "durationSeconds": 2008
@@ -2858,6 +3166,7 @@ window.SUMMA_VOLUMES = [
         "track": 54,
         "title": "54 - Question 46 - OF FOLLY WHICH IS OPPOSED TO WISDOM (In Three Articles)",
         "file": "../audio/vol10/54 - Question 46 - OF FOLLY WHICH IS OPPOSED TO WISDOM (In Three Articles).mp3",
+        "audioFile": "ST-VOL10-T54",
         "questionStart": 46,
         "questionEnd": 46,
         "durationSeconds": 855
@@ -3004,6 +3313,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "001 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 1",
         "file": "../audio/vol11/01 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 1.mp3",
+        "audioFile": "ST-VOL11-T01",
         "questionStart": 47,
         "questionEnd": 47,
         "durationSeconds": 1743
@@ -3012,6 +3322,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "002 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 2",
         "file": "../audio/vol11/02 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 2.mp3",
+        "audioFile": "ST-VOL11-T02",
         "questionStart": 47,
         "questionEnd": 47,
         "durationSeconds": 1442
@@ -3020,6 +3331,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "003 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 3",
         "file": "../audio/vol11/03 - Question 47 - OF PRUDENCE, CONSIDERED IN ITSELF (In Sixteen Articles), part 3.mp3",
+        "audioFile": "ST-VOL11-T03",
         "questionStart": 47,
         "questionEnd": 47,
         "durationSeconds": 1873
@@ -3028,6 +3340,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "004 - Question 48 - OF THE PARTS OF PRUDENCE (In One Article)",
         "file": "../audio/vol11/04 - Question 48 - OF THE PARTS OF PRUDENCE (In One Article).mp3",
+        "audioFile": "ST-VOL11-T04",
         "questionStart": 48,
         "questionEnd": 48,
         "durationSeconds": 772
@@ -3036,6 +3349,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "005 - Question 49 - OF EACH QUASI-INTEGRAL PART OF PRUDENCE (In Eight Articles)",
         "file": "../audio/vol11/05 - Question 49 - OF EACH QUASI-INTEGRAL PART OF PRUDENCE (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T05",
         "questionStart": 49,
         "questionEnd": 49,
         "durationSeconds": 2416
@@ -3044,6 +3358,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "006 - Question 50 - OF THE SUBJECTIVE PARTS OF PRUDENCE (In Four Articles)",
         "file": "../audio/vol11/06 - Question 50 - OF THE SUBJECTIVE PARTS OF PRUDENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T06",
         "questionStart": 50,
         "questionEnd": 50,
         "durationSeconds": 1207
@@ -3052,6 +3367,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "007 - Question 51 - OF THE VIRTUES WHICH ARE CONNECTED WITH PRUDENCE (In Four Articles)",
         "file": "../audio/vol11/07 - Question 51 - OF THE VIRTUES WHICH ARE CONNECTED WITH PRUDENCE (In Four Articles.mp3",
+        "audioFile": "ST-VOL11-T07",
         "questionStart": 51,
         "questionEnd": 51,
         "durationSeconds": 1452
@@ -3060,6 +3376,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "008 - Question 52 - OF THE GIFT OF COUNSEL (In Four Articles)",
         "file": "../audio/vol11/08 - Question 52 - OF THE GIFT OF COUNSEL (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T08",
         "questionStart": 52,
         "questionEnd": 52,
         "durationSeconds": 1355
@@ -3068,6 +3385,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "009 - Question 53 - OF IMPRUDENCE (In Six Articles)",
         "file": "../audio/vol11/09 - Question 53 - OF IMPRUDENCE (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T09",
         "questionStart": 53,
         "questionEnd": 53,
         "durationSeconds": 1943
@@ -3076,6 +3394,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "010 - Question 54 - OF NEGLIGENCE (In Three Articles)",
         "file": "../audio/vol11/10 - Question 54 - OF NEGLIGENCE (In Three Articles).mp3",
+        "audioFile": "ST-VOL11-T10",
         "questionStart": 54,
         "questionEnd": 54,
         "durationSeconds": 954
@@ -3084,6 +3403,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "011 - Question 55 - OF VICES OPPOSED TO PRUDENCE BY WAY OF RESEMBLANCE (In Eight Articles)",
         "file": "../audio/vol11/11 - Question 55 - OF VICES OPPOSED TO PRUDENCE BY WAY OF RESEMBLANCE (In Eight Artic.mp3",
+        "audioFile": "ST-VOL11-T11",
         "questionStart": 55,
         "questionEnd": 55,
         "durationSeconds": 2552
@@ -3092,6 +3412,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "012 - Question 56 - OF THE PRECEPTS RELATING TO PRUDENCE (In Two Articles)",
         "file": "../audio/vol11/12 - Question 56 - OF THE PRECEPTS RELATING TO PRUDENCE (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T12",
         "questionStart": 56,
         "questionEnd": 56,
         "durationSeconds": 616
@@ -3100,6 +3421,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "013 - Question 57 - OF RIGHT (In Four Articles)",
         "file": "../audio/vol11/13 - Question 57 - OF RIGHT (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T13",
         "questionStart": 57,
         "questionEnd": 57,
         "durationSeconds": 1700
@@ -3108,6 +3430,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "014 - Question 58 - OF JUSTICE (In Twelve Articles), part 1",
         "file": "../audio/vol11/14 - Question 58 - OF JUSTICE (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL11-T14",
         "questionStart": 58,
         "questionEnd": 58,
         "durationSeconds": 2302
@@ -3116,6 +3439,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "015 - Question 58 - OF JUSTICE (In Twelve Articles), part 2",
         "file": "../audio/vol11/15 - Question 58 - OF JUSTICE (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL11-T15",
         "questionStart": 58,
         "questionEnd": 58,
         "durationSeconds": 1917
@@ -3124,6 +3448,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "016 - Question 59 - OF INJUSTICE (In Four Articles)",
         "file": "../audio/vol11/16 - Question 59 - OF INJUSTICE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T16",
         "questionStart": 59,
         "questionEnd": 59,
         "durationSeconds": 1324
@@ -3132,6 +3457,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "017 - Question 60 - OF JUDGMENT (In Six Articles)",
         "file": "../audio/vol11/17 - Question 60 - OF JUDGMENT (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T17",
         "questionStart": 60,
         "questionEnd": 60,
         "durationSeconds": 2300
@@ -3140,6 +3466,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "018 - Question 61 - OF THE PARTS OF JUSTICE (In Four Articles)",
         "file": "../audio/vol11/18 - Question 61 - OF THE PARTS OF JUSTICE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T18",
         "questionStart": 61,
         "questionEnd": 61,
         "durationSeconds": 1785
@@ -3148,6 +3475,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "019 - Question 62 - OF RESTITUTION (In Eight Articles)",
         "file": "../audio/vol11/19 - Question 62 - OF RESTITUTION (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T19",
         "questionStart": 62,
         "questionEnd": 62,
         "durationSeconds": 2785
@@ -3156,6 +3484,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "020 - Question 63 - OF RESPECT OF PERSONS (In Four Articles)",
         "file": "../audio/vol11/20 - Question 63 - OF RESPECT OF PERSONS (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T20",
         "questionStart": 63,
         "questionEnd": 63,
         "durationSeconds": 1479
@@ -3164,6 +3493,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "021 - Question 64 - OF MURDER (In Eight Articles)",
         "file": "../audio/vol11/21 - Question 64 - OF MURDER (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T21",
         "questionStart": 64,
         "questionEnd": 64,
         "durationSeconds": 3237
@@ -3172,6 +3502,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "022 - Question 65 - OF OTHER INJURIES COMMITTED ON THE PERSON (In Four Articles)",
         "file": "../audio/vol11/22 - Question 65 - OF OTHER INJURIES COMMITTED ON THE PERSON (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T22",
         "questionStart": 65,
         "questionEnd": 65,
         "durationSeconds": 1493
@@ -3180,6 +3511,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "023 - Question 66 - OF THEFT AND ROBBERY (In Nine Articles)",
         "file": "../audio/vol11/23 - Question 66 - OF THEFT AND ROBBERY (In Nine Articles).mp3",
+        "audioFile": "ST-VOL11-T23",
         "questionStart": 66,
         "questionEnd": 66,
         "durationSeconds": 2881
@@ -3188,6 +3520,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "024 - Question 67 - OF THE INJUSTICE OF A JUDGE, IN JUDGING (In Four Articles)",
         "file": "../audio/vol11/24 - Question 67 - OF THE INJUSTICE OF A JUDGE, IN JUDGING (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T24",
         "questionStart": 67,
         "questionEnd": 67,
         "durationSeconds": 1531
@@ -3196,6 +3529,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "025 - Question 68 - OF MATTERS CONCERNING UNJUST ACCUSATION (In Four Articles)",
         "file": "../audio/vol11/25 - Question 68 - OF MATTERS CONCERNING UNJUST ACCUSATION (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T25",
         "questionStart": 68,
         "questionEnd": 68,
         "durationSeconds": 1413
@@ -3204,6 +3538,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "026 - Question 69 - OF SINS COMMITTED AGAINST JUSTICE ON THE PART OF THE DEFENDANT (In Four Articles)",
         "file": "../audio/vol11/26 - Question 69 - OF SINS COMMITTED AGAINST JUSTICE ON THE PART OF THE DEFENDANT (In.mp3",
+        "audioFile": "ST-VOL11-T26",
         "questionStart": 69,
         "questionEnd": 69,
         "durationSeconds": 1483
@@ -3212,6 +3547,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "027 - Question 70 - OF INJUSTICE WITH REGARD TO THE PERSON OF THE WITNESS (In Four Articles)",
         "file": "../audio/vol11/27 - Question 70 - OF INJUSTICE WITH REGARD TO THE PERSON OF THE WITNESS (In Four Art.mp3",
+        "audioFile": "ST-VOL11-T27",
         "questionStart": 70,
         "questionEnd": 70,
         "durationSeconds": 1556
@@ -3220,6 +3556,7 @@ window.SUMMA_VOLUMES = [
         "track": 28,
         "title": "028 - Question 71 - OF INJUSTICE IN JUDGMENT ON THE PART OF COUNSEL (In Four Articles)",
         "file": "../audio/vol11/28 - Question 71 - OF INJUSTICE IN JUDGMENT ON THE PART OF COUNSEL (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T28",
         "questionStart": 71,
         "questionEnd": 71,
         "durationSeconds": 1457
@@ -3228,6 +3565,7 @@ window.SUMMA_VOLUMES = [
         "track": 29,
         "title": "029 - Question 72 - OF REVILING (In Four Articles)",
         "file": "../audio/vol11/29 - Question 72 - OF REVILING (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T29",
         "questionStart": 72,
         "questionEnd": 72,
         "durationSeconds": 1366
@@ -3236,6 +3574,7 @@ window.SUMMA_VOLUMES = [
         "track": 30,
         "title": "030 - Question 73 - OF BACKBITING, OR OF DETRACTION (In Four Articles)",
         "file": "../audio/vol11/30 - Question 73 - OF BACKBITING, OR OF DETRACTION (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T30",
         "questionStart": 73,
         "questionEnd": 73,
         "durationSeconds": 1661
@@ -3244,6 +3583,7 @@ window.SUMMA_VOLUMES = [
         "track": 31,
         "title": "031 - Question 74 - OF TALE-BEARING (In Two Articles)",
         "file": "../audio/vol11/31 - Question 74 - OF TALE-BEARING (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T31",
         "questionStart": 74,
         "questionEnd": 74,
         "durationSeconds": 669
@@ -3252,6 +3592,7 @@ window.SUMMA_VOLUMES = [
         "track": 32,
         "title": "032 - Question 75 - OF DERISION, OR OF MOCKERY (In Two Articles)",
         "file": "../audio/vol11/32 - Question 75 - OF DERISION, OR OF MOCKERY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T32",
         "questionStart": 75,
         "questionEnd": 75,
         "durationSeconds": 765
@@ -3260,6 +3601,7 @@ window.SUMMA_VOLUMES = [
         "track": 33,
         "title": "033 - Question 76 - OF CURSING (In Four Articles)",
         "file": "../audio/vol11/33 - Question 76 - OF CURSING (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T33",
         "questionStart": 76,
         "questionEnd": 76,
         "durationSeconds": 1243
@@ -3268,6 +3610,7 @@ window.SUMMA_VOLUMES = [
         "track": 34,
         "title": "034 - Question 77 - OF CHEATING, WHICH IS COMMITTED IN BUYING AND SELLING (In Four Articles)",
         "file": "../audio/vol11/34 - Question 77 - OF CHEATING, WHICH IS COMMITTED IN BUYING AND SELLING (In Four Art.mp3",
+        "audioFile": "ST-VOL11-T34",
         "questionStart": 77,
         "questionEnd": 77,
         "durationSeconds": 2044
@@ -3276,6 +3619,7 @@ window.SUMMA_VOLUMES = [
         "track": 35,
         "title": "035 - Question 78 - OF THE SIN OF USURY (In Four Articles)",
         "file": "../audio/vol11/35 - Question 78 - OF THE SIN OF USURY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T35",
         "questionStart": 78,
         "questionEnd": 78,
         "durationSeconds": 2184
@@ -3284,6 +3628,7 @@ window.SUMMA_VOLUMES = [
         "track": 36,
         "title": "036 - Question 79 - OF THE QUASI-INTEGRAL PARTS OF JUSTICE (In Four Articles)",
         "file": "../audio/vol11/36 - Question 79 - OF THE QUASI-INTEGRAL PARTS OF JUSTICE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T36",
         "questionStart": 79,
         "questionEnd": 79,
         "durationSeconds": 1594
@@ -3292,6 +3637,7 @@ window.SUMMA_VOLUMES = [
         "track": 37,
         "title": "037 - Question 80 - OF THE POTENTIAL PARTS OF JUSTICE (In One Article)",
         "file": "../audio/vol11/37 - Question 80 - OF THE POTENTIAL PARTS OF JUSTICE (In One Article).mp3",
+        "audioFile": "ST-VOL11-T37",
         "questionStart": 80,
         "questionEnd": 80,
         "durationSeconds": 987
@@ -3300,6 +3646,7 @@ window.SUMMA_VOLUMES = [
         "track": 38,
         "title": "038 - Question 81 - OF RELIGION (In Eight Articles)",
         "file": "../audio/vol11/38 - Question 81 - OF RELIGION (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T38",
         "questionStart": 81,
         "questionEnd": 81,
         "durationSeconds": 2811
@@ -3308,6 +3655,7 @@ window.SUMMA_VOLUMES = [
         "track": 39,
         "title": "039 - Question 82 - OF DEVOTION (In Four Articles)",
         "file": "../audio/vol11/39 - Question 82 - OF DEVOTION (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T39",
         "questionStart": 82,
         "questionEnd": 82,
         "durationSeconds": 1353
@@ -3316,6 +3664,7 @@ window.SUMMA_VOLUMES = [
         "track": 40,
         "title": "040 - Question 83 - OF PRAYER (In Seventeen Articles), part 1",
         "file": "../audio/vol11/40 - Question 83 - OF PRAYER (In Seventeen Articles), part 1.mp3",
+        "audioFile": "ST-VOL11-T40",
         "questionStart": 83,
         "questionEnd": 83,
         "durationSeconds": 2116
@@ -3324,6 +3673,7 @@ window.SUMMA_VOLUMES = [
         "track": 41,
         "title": "041 - Question 83 - OF PRAYER (In Seventeen Articles), part 2",
         "file": "../audio/vol11/41 - Question 83 - OF PRAYER (In Seventeen Articles), part 2.mp3",
+        "audioFile": "ST-VOL11-T41",
         "questionStart": 83,
         "questionEnd": 83,
         "durationSeconds": 2493
@@ -3332,6 +3682,7 @@ window.SUMMA_VOLUMES = [
         "track": 42,
         "title": "042 - Question 83 - OF PRAYER (In Seventeen Articles), part 3",
         "file": "../audio/vol11/42 - Question 83 - OF PRAYER (In Seventeen Articles), part 3.mp3",
+        "audioFile": "ST-VOL11-T42",
         "questionStart": 83,
         "questionEnd": 83,
         "durationSeconds": 2178
@@ -3340,6 +3691,7 @@ window.SUMMA_VOLUMES = [
         "track": 43,
         "title": "043 - Question 84 - OF ADORATION (In Three Articles)",
         "file": "../audio/vol11/43 - Question 84 - OF ADORATION (In Three Articles).mp3",
+        "audioFile": "ST-VOL11-T43",
         "questionStart": 84,
         "questionEnd": 84,
         "durationSeconds": 1034
@@ -3348,6 +3700,7 @@ window.SUMMA_VOLUMES = [
         "track": 44,
         "title": "044 - Question 85 - OF SACRIFICE (In Four Articles)",
         "file": "../audio/vol11/44 - Question 85 - OF SACRIFICE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T44",
         "questionStart": 85,
         "questionEnd": 85,
         "durationSeconds": 1365
@@ -3356,6 +3709,7 @@ window.SUMMA_VOLUMES = [
         "track": 45,
         "title": "045 - Question 86 - OF OBLATIONS AND FIRST-FRUITS (In Four Articles)",
         "file": "../audio/vol11/45 - Question 86 - OF OBLATIONS AND FIRST-FRUITS (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T45",
         "questionStart": 86,
         "questionEnd": 86,
         "durationSeconds": 1476
@@ -3364,6 +3718,7 @@ window.SUMMA_VOLUMES = [
         "track": 46,
         "title": "046 - Question 87 - OF TITHES (In Four Articles)",
         "file": "../audio/vol11/46 - Question 87 - OF TITHES (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T46",
         "questionStart": 87,
         "questionEnd": 87,
         "durationSeconds": 2093
@@ -3372,6 +3727,7 @@ window.SUMMA_VOLUMES = [
         "track": 47,
         "title": "047 - Question 88 - OF VOWS (In Twelve Articles), part 1",
         "file": "../audio/vol11/47 - Question 88 - OF VOWS (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL11-T47",
         "questionStart": 88,
         "questionEnd": 88,
         "durationSeconds": 2406
@@ -3380,6 +3736,7 @@ window.SUMMA_VOLUMES = [
         "track": 48,
         "title": "048 - Question 88 - OF VOWS (In Twelve Articles), part 2",
         "file": "../audio/vol11/48 - Question 88 - OF VOWS (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL11-T48",
         "questionStart": 88,
         "questionEnd": 88,
         "durationSeconds": 2548
@@ -3388,6 +3745,7 @@ window.SUMMA_VOLUMES = [
         "track": 49,
         "title": "049 - Question 89 - OF OATHS (In Ten Articles), part 1",
         "file": "../audio/vol11/49 - Question 89 - OF OATHS (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL11-T49",
         "questionStart": 89,
         "questionEnd": 89,
         "durationSeconds": 1674
@@ -3396,6 +3754,7 @@ window.SUMMA_VOLUMES = [
         "track": 50,
         "title": "050 - Question 89 - OF OATHS (In Ten Articles), part 2",
         "file": "../audio/vol11/50 - Question 89 - OF OATHS (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL11-T50",
         "questionStart": 89,
         "questionEnd": 89,
         "durationSeconds": 1956
@@ -3404,6 +3763,7 @@ window.SUMMA_VOLUMES = [
         "track": 51,
         "title": "051 - Question 90 - OF THE TAKING OF GOD'S NAME BY WAY OF ADJURATION (In Three Articles)",
         "file": "../audio/vol11/51 - Question 90 - OF THE TAKING OF GOD'S NAME BY WAY OF ADJURATION (In Three Article.mp3",
+        "audioFile": "ST-VOL11-T51",
         "questionStart": 90,
         "questionEnd": 90,
         "durationSeconds": 912
@@ -3412,6 +3772,7 @@ window.SUMMA_VOLUMES = [
         "track": 52,
         "title": "052 - Question 91 - OF TAKING THE DIVINE NAME FOR THE PURPOSE OF INVOKING IT BY MEANS OF PRAISE (In Two Articles)",
         "file": "../audio/vol11/52 - Question 91 - OF TAKING THE DIVINE NAME FOR THE PURPOSE OF INVOKING IT BY MEANS .mp3",
+        "audioFile": "ST-VOL11-T52",
         "questionStart": 91,
         "questionEnd": 91,
         "durationSeconds": 911
@@ -3420,6 +3781,7 @@ window.SUMMA_VOLUMES = [
         "track": 53,
         "title": "053 - Question 92 - OF SUPERSTITION (In Two Articles)",
         "file": "../audio/vol11/53 - Question 92 - OF SUPERSTITION (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T53",
         "questionStart": 92,
         "questionEnd": 92,
         "durationSeconds": 792
@@ -3428,6 +3790,7 @@ window.SUMMA_VOLUMES = [
         "track": 54,
         "title": "054 - Question 93 - OF SUPERSTITION CONSISTING IN UNDUE WORSHIP OF THE TRUE GOD (In Two Articles)",
         "file": "../audio/vol11/54 - Question 93 - OF SUPERSTITION CONSISTING IN UNDUE WORSHIP OF THE TRUE GOD (In Tw.mp3",
+        "audioFile": "ST-VOL11-T54",
         "questionStart": 93,
         "questionEnd": 93,
         "durationSeconds": 707
@@ -3436,6 +3799,7 @@ window.SUMMA_VOLUMES = [
         "track": 55,
         "title": "055 - Question 94 - OF IDOLATRY (In Four Articles)",
         "file": "../audio/vol11/55 - Question 94 - OF IDOLATRY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T55",
         "questionStart": 94,
         "questionEnd": 94,
         "durationSeconds": 1906
@@ -3444,6 +3808,7 @@ window.SUMMA_VOLUMES = [
         "track": 56,
         "title": "056 - Question 95 - OF SUPERSTITION IN DIVINATIONS (In Eight Articles)",
         "file": "../audio/vol11/56 - Question 95 - OF SUPERSTITION IN DIVINATIONS (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T56",
         "questionStart": 95,
         "questionEnd": 95,
         "durationSeconds": 3558
@@ -3452,6 +3817,7 @@ window.SUMMA_VOLUMES = [
         "track": 57,
         "title": "057 - Question 96 - OF SUPERSTITION IN OBSERVANCES (In Four Articles)",
         "file": "../audio/vol11/57 - Question 96 - OF SUPERSTITION IN OBSERVANCES (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T57",
         "questionStart": 96,
         "questionEnd": 96,
         "durationSeconds": 1676
@@ -3460,6 +3826,7 @@ window.SUMMA_VOLUMES = [
         "track": 58,
         "title": "058 - Question 97 - OF THE TEMPTATION OF GOD (In Four Articles)",
         "file": "../audio/vol11/58 - Question 97 - OF THE TEMPTATION OF GOD (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T58",
         "questionStart": 97,
         "questionEnd": 97,
         "durationSeconds": 1624
@@ -3468,6 +3835,7 @@ window.SUMMA_VOLUMES = [
         "track": 59,
         "title": "059 - Question 98 - OF PERJURY (In Four Articles)",
         "file": "../audio/vol11/59 - Question 98 - OF PERJURY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T59",
         "questionStart": 98,
         "questionEnd": 98,
         "durationSeconds": 1494
@@ -3476,6 +3844,7 @@ window.SUMMA_VOLUMES = [
         "track": 60,
         "title": "060 - Question 99 - OF SACRILEGE (In Four Articles)",
         "file": "../audio/vol11/60 - Question 99 - OF SACRILEGE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T60",
         "questionStart": 99,
         "questionEnd": 99,
         "durationSeconds": 1311
@@ -3484,6 +3853,7 @@ window.SUMMA_VOLUMES = [
         "track": 61,
         "title": "061 - Question 100 - ON SIMONY (In Six Articles)",
         "file": "../audio/vol11/61 - Question 100 - ON SIMONY (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T61",
         "questionStart": 100,
         "questionEnd": 100,
         "durationSeconds": 3635
@@ -3492,6 +3862,7 @@ window.SUMMA_VOLUMES = [
         "track": 62,
         "title": "062 - Question 101 - OF PIETY (In Four Articles)",
         "file": "../audio/vol11/62 - Question 101 - OF PIETY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T62",
         "questionStart": 101,
         "questionEnd": 101,
         "durationSeconds": 1417
@@ -3500,6 +3871,7 @@ window.SUMMA_VOLUMES = [
         "track": 63,
         "title": "063 - Question 102 - OF OBSERVANCE, CONSIDERED IN ITSELF, AND OF ITS PARTS (In Three Articles)",
         "file": "../audio/vol11/63 - Question 102 - OF OBSERVANCE, CONSIDERED IN ITSELF, AND OF ITS PARTS (In Three A.mp3",
+        "audioFile": "ST-VOL11-T63",
         "questionStart": 102,
         "questionEnd": 102,
         "durationSeconds": 1010
@@ -3508,6 +3880,7 @@ window.SUMMA_VOLUMES = [
         "track": 64,
         "title": "064 - Question 103 - OF DULIA (In Four Articles)",
         "file": "../audio/vol11/64 - Question 103 - OF DULIA (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T64",
         "questionStart": 103,
         "questionEnd": 103,
         "durationSeconds": 1343
@@ -3516,6 +3889,7 @@ window.SUMMA_VOLUMES = [
         "track": 65,
         "title": "065 - Question 104 - OF OBEDIENCE (In Six Articles)",
         "file": "../audio/vol11/65 - Question 104 - OF OBEDIENCE (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T65",
         "questionStart": 104,
         "questionEnd": 104,
         "durationSeconds": 2574
@@ -3524,6 +3898,7 @@ window.SUMMA_VOLUMES = [
         "track": 66,
         "title": "066 - Question 105 - OF DISOBEDIENCE (In Two Articles)",
         "file": "../audio/vol11/66 - Question 105 - OF DISOBEDIENCE (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T66",
         "questionStart": 105,
         "questionEnd": 105,
         "durationSeconds": 717
@@ -3532,6 +3907,7 @@ window.SUMMA_VOLUMES = [
         "track": 67,
         "title": "067 - Question 106 - OF THANKFULNESS OR GRATITUDE (In Six Articles)",
         "file": "../audio/vol11/67 - Question 106 - OF THANKFULNESS OR GRATITUDE (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T67",
         "questionStart": 106,
         "questionEnd": 106,
         "durationSeconds": 1965
@@ -3540,6 +3916,7 @@ window.SUMMA_VOLUMES = [
         "track": 68,
         "title": "068 - Question 107 - OF INGRATITUDE (In Four Articles)",
         "file": "../audio/vol11/68 - Question 107 - OF INGRATITUDE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T68",
         "questionStart": 107,
         "questionEnd": 107,
         "durationSeconds": 1190
@@ -3548,6 +3925,7 @@ window.SUMMA_VOLUMES = [
         "track": 69,
         "title": "069 - Question 108 - OF VENGEANCE (In Four Articles)",
         "file": "../audio/vol11/69 - Question 108 - OF VENGEANCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T69",
         "questionStart": 108,
         "questionEnd": 108,
         "durationSeconds": 1834
@@ -3556,6 +3934,7 @@ window.SUMMA_VOLUMES = [
         "track": 70,
         "title": "070 - Question 109 - OF TRUTH (In Four Articles)",
         "file": "../audio/vol11/70 - Question 109 - OF TRUTH (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T70",
         "questionStart": 109,
         "questionEnd": 109,
         "durationSeconds": 1412
@@ -3564,6 +3943,7 @@ window.SUMMA_VOLUMES = [
         "track": 71,
         "title": "071 - Question 110 - OF THE VICES OPPOSED TO TRUTH, AND FIRST OF LYING (In Four Articles)",
         "file": "../audio/vol11/71 - Question 110 - OF THE VICES OPPOSED TO TRUTH, AND FIRST OF LYING (In Four Articl.mp3",
+        "audioFile": "ST-VOL11-T71",
         "questionStart": 110,
         "questionEnd": 110,
         "durationSeconds": 2260
@@ -3572,6 +3952,7 @@ window.SUMMA_VOLUMES = [
         "track": 72,
         "title": "072 - Question 111 - OF DISSIMULATION AND HYPOCRISY (In Four Articles)",
         "file": "../audio/vol11/72 - Question 111 - OF DISSIMULATION AND HYPOCRISY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T72",
         "questionStart": 111,
         "questionEnd": 111,
         "durationSeconds": 1535
@@ -3580,6 +3961,7 @@ window.SUMMA_VOLUMES = [
         "track": 73,
         "title": "073 - Question 112 - OF BOASTING (In Two Articles)",
         "file": "../audio/vol11/73 - Question 112 - OF BOASTING (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T73",
         "questionStart": 112,
         "questionEnd": 112,
         "durationSeconds": 795
@@ -3588,6 +3970,7 @@ window.SUMMA_VOLUMES = [
         "track": 74,
         "title": "074 - Question 113 - OF IRONY (In Two Articles)",
         "file": "../audio/vol11/74 - Question 113 - OF IRONY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T74",
         "questionStart": 113,
         "questionEnd": 113,
         "durationSeconds": 661
@@ -3596,6 +3979,7 @@ window.SUMMA_VOLUMES = [
         "track": 75,
         "title": "075 - Question 114 - OF THE FRIENDLINESS WHICH IS CALLED AFFABILITY (In Two Articles)",
         "file": "../audio/vol11/75 - Question 114 - OF THE FRIENDLINESS WHICH IS CALLED AFFABILITY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T75",
         "questionStart": 114,
         "questionEnd": 114,
         "durationSeconds": 756
@@ -3604,6 +3988,7 @@ window.SUMMA_VOLUMES = [
         "track": 76,
         "title": "076 - Question 115 - OF FLATTERY (In Two Articles)",
         "file": "../audio/vol11/76 - Question 115 - OF FLATTERY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T76",
         "questionStart": 115,
         "questionEnd": 115,
         "durationSeconds": 768
@@ -3612,6 +3997,7 @@ window.SUMMA_VOLUMES = [
         "track": 77,
         "title": "077 - Question 116 - OF QUARRELING (In Two Articles)",
         "file": "../audio/vol11/77 - Question 116 - OF QUARRELING (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T77",
         "questionStart": 116,
         "questionEnd": 116,
         "durationSeconds": 578
@@ -3620,6 +4006,7 @@ window.SUMMA_VOLUMES = [
         "track": 78,
         "title": "078 - Question 117 - OF LIBERALITY (In Six Articles)",
         "file": "../audio/vol11/78 - Question 117 - OF LIBERALITY (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T78",
         "questionStart": 117,
         "questionEnd": 117,
         "durationSeconds": 1982
@@ -3628,6 +4015,7 @@ window.SUMMA_VOLUMES = [
         "track": 79,
         "title": "079 - Question 118 - OF THE VICES OPPOSED TO LIBERALITY, AND IN THE FIRST PLACE, OF COVETOUSNESS (In Eight Articles)",
         "file": "../audio/vol11/79 - Question 118 - OF THE VICES OPPOSED TO LIBERALITY, AND IN THE FIRST PLACE, OF CO.mp3",
+        "audioFile": "ST-VOL11-T79",
         "questionStart": 118,
         "questionEnd": 118,
         "durationSeconds": 2935
@@ -3636,6 +4024,7 @@ window.SUMMA_VOLUMES = [
         "track": 80,
         "title": "080 - Question 119 - OF PRODIGALITY (In Three Articles)",
         "file": "../audio/vol11/80 - Question 119 - OF PRODIGALITY (In Three Articles).mp3",
+        "audioFile": "ST-VOL11-T80",
         "questionStart": 119,
         "questionEnd": 119,
         "durationSeconds": 1052
@@ -3644,6 +4033,7 @@ window.SUMMA_VOLUMES = [
         "track": 81,
         "title": "081 - Question 120 - OF 'EPIKEIA' OR EQUITY (In Two Articles)",
         "file": "../audio/vol11/81 - Question 120 - OF 'EPIKEIA' OR EQUITY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T81",
         "questionStart": 120,
         "questionEnd": 120,
         "durationSeconds": 672
@@ -3652,6 +4042,7 @@ window.SUMMA_VOLUMES = [
         "track": 82,
         "title": "082 - Question 121 - OF THE GIFT OF PIETY (In Two Articles)",
         "file": "../audio/vol11/82 - Question 121 - OF THE GIFT OF PIETY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T82",
         "questionStart": 121,
         "questionEnd": 121,
         "durationSeconds": 618
@@ -3660,6 +4051,7 @@ window.SUMMA_VOLUMES = [
         "track": 83,
         "title": "083 - Question 122 - OF THE PRECEPTS OF JUSTICE (In Six Articles)",
         "file": "../audio/vol11/83 - Question 122 - OF THE PRECEPTS OF JUSTICE (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T83",
         "questionStart": 122,
         "questionEnd": 122,
         "durationSeconds": 2883
@@ -3668,6 +4060,7 @@ window.SUMMA_VOLUMES = [
         "track": 84,
         "title": "084 - Question 123 - OF FORTITUDE (In Twelve Articles), part 1",
         "file": "../audio/vol11/84 - Question 123 - OF FORTITUDE (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL11-T84",
         "questionStart": 123,
         "questionEnd": 123,
         "durationSeconds": 2177
@@ -3676,6 +4069,7 @@ window.SUMMA_VOLUMES = [
         "track": 85,
         "title": "085 - Question 123 - OF FORTITUDE (In Twelve Articles), part 2",
         "file": "../audio/vol11/85 - Question 123 - OF FORTITUDE (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL11-T85",
         "questionStart": 123,
         "questionEnd": 123,
         "durationSeconds": 1899
@@ -3684,6 +4078,7 @@ window.SUMMA_VOLUMES = [
         "track": 86,
         "title": "086 - Question 124 - OF MARTYRDOM (In Five Articles)",
         "file": "../audio/vol11/86 - Question 124 - OF MARTYRDOM (In Five Articles).mp3",
+        "audioFile": "ST-VOL11-T86",
         "questionStart": 124,
         "questionEnd": 124,
         "durationSeconds": 2052
@@ -3692,6 +4087,7 @@ window.SUMMA_VOLUMES = [
         "track": 87,
         "title": "087 - Question 125 - OF FEAR, OR TIMIDITY (In Four Articles)",
         "file": "../audio/vol11/87 - Question 125 - OF FEAR, OR TIMIDITY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T87",
         "questionStart": 125,
         "questionEnd": 125,
         "durationSeconds": 1455
@@ -3700,6 +4096,7 @@ window.SUMMA_VOLUMES = [
         "track": 88,
         "title": "088 - Question 126 - OF FEARLESSNESS (In Two Articles)",
         "file": "../audio/vol11/88 - Question 126 - OF FEARLESSNESS (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T88",
         "questionStart": 126,
         "questionEnd": 126,
         "durationSeconds": 682
@@ -3708,6 +4105,7 @@ window.SUMMA_VOLUMES = [
         "track": 89,
         "title": "089 - Question 127 - OF DARING, OR FOOLHARDINESS (In Two Articles)",
         "file": "../audio/vol11/89 - Question 127 - OF DARING, OR FOOLHARDINESS (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T89",
         "questionStart": 127,
         "questionEnd": 127,
         "durationSeconds": 595
@@ -3716,6 +4114,7 @@ window.SUMMA_VOLUMES = [
         "track": 90,
         "title": "090 - Question 128 - OF THE PARTS OF FORTITUDE (In One Article)",
         "file": "../audio/vol11/90 - Question 128 - OF THE PARTS OF FORTITUDE (In One Article).mp3",
+        "audioFile": "ST-VOL11-T90",
         "questionStart": 128,
         "questionEnd": 128,
         "durationSeconds": 984
@@ -3724,6 +4123,7 @@ window.SUMMA_VOLUMES = [
         "track": 91,
         "title": "091 - Question 129 - OF MAGNANIMITY (In Eight Articles)",
         "file": "../audio/vol11/91 - Question 129 - OF MAGNANIMITY (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T91",
         "questionStart": 129,
         "questionEnd": 129,
         "durationSeconds": 3329
@@ -3732,6 +4132,7 @@ window.SUMMA_VOLUMES = [
         "track": 92,
         "title": "092 - Question 130 - OF PRESUMPTION (In Two Articles)",
         "file": "../audio/vol11/92 - Question 130 - OF PRESUMPTION (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T92",
         "questionStart": 130,
         "questionEnd": 130,
         "durationSeconds": 805
@@ -3740,6 +4141,7 @@ window.SUMMA_VOLUMES = [
         "track": 93,
         "title": "093 - Question 131 - OF AMBITION (In Two Articles)",
         "file": "../audio/vol11/93 - Question 131 - OF AMBITION (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T93",
         "questionStart": 131,
         "questionEnd": 131,
         "durationSeconds": 728
@@ -3748,6 +4150,7 @@ window.SUMMA_VOLUMES = [
         "track": 94,
         "title": "094 - Question 132 - OF VAINGLORY (In Five Articles)",
         "file": "../audio/vol11/94 - Question 132 - OF VAINGLORY (In Five Articles).mp3",
+        "audioFile": "ST-VOL11-T94",
         "questionStart": 132,
         "questionEnd": 132,
         "durationSeconds": 1894
@@ -3756,6 +4159,7 @@ window.SUMMA_VOLUMES = [
         "track": 95,
         "title": "095 - Question 133 - OF PUSILLANIMITY (In Two Articles)",
         "file": "../audio/vol11/95 - Question 133 - OF PUSILLANIMITY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T95",
         "questionStart": 133,
         "questionEnd": 133,
         "durationSeconds": 848
@@ -3764,6 +4168,7 @@ window.SUMMA_VOLUMES = [
         "track": 96,
         "title": "096 - Question 134 - OF MAGNIFICENCE (In Four Articles)",
         "file": "../audio/vol11/96 - Question 134 - OF MAGNIFICENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T96",
         "questionStart": 134,
         "questionEnd": 134,
         "durationSeconds": 1480
@@ -3772,6 +4177,7 @@ window.SUMMA_VOLUMES = [
         "track": 97,
         "title": "097 - Question 135 - OF MEANNESS (In Two Articles)",
         "file": "../audio/vol11/97 - Question 135 - OF MEANNESS (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T97",
         "questionStart": 135,
         "questionEnd": 135,
         "durationSeconds": 682
@@ -3780,6 +4186,7 @@ window.SUMMA_VOLUMES = [
         "track": 98,
         "title": "098 - Question 136 - OF PATIENCE (In Five Articles)",
         "file": "../audio/vol11/98 - Question 136 - OF PATIENCE (In Five Articles).mp3",
+        "audioFile": "ST-VOL11-T98",
         "questionStart": 136,
         "questionEnd": 136,
         "durationSeconds": 1768
@@ -3788,6 +4195,7 @@ window.SUMMA_VOLUMES = [
         "track": 99,
         "title": "099 - Question 137 - OF PERSEVERANCE (In Four Articles)",
         "file": "../audio/vol11/99 - Question 137 - OF PERSEVERANCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T99",
         "questionStart": 137,
         "questionEnd": 137,
         "durationSeconds": 1381
@@ -3796,6 +4204,7 @@ window.SUMMA_VOLUMES = [
         "track": 100,
         "title": "100 - Question 138 - OF THE VICES OPPOSED TO PERSEVERANCE (In Two Articles)",
         "file": "../audio/vol11/100 - Question 138 - OF THE VICES OPPOSED TO PERSEVERANCE (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T100",
         "questionStart": 138,
         "questionEnd": 138,
         "durationSeconds": 750
@@ -3804,6 +4213,7 @@ window.SUMMA_VOLUMES = [
         "track": 101,
         "title": "101 - Question 139 - OF THE GIFT OF FORTITUDE (In Two Articles)",
         "file": "../audio/vol11/101 - Question 139 - OF THE GIFT OF FORTITUDE (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T101",
         "questionStart": 139,
         "questionEnd": 139,
         "durationSeconds": 609
@@ -3812,6 +4222,7 @@ window.SUMMA_VOLUMES = [
         "track": 102,
         "title": "102 - Question 140 - OF THE PRECEPTS OF FORTITUDE (In Two Articles)",
         "file": "../audio/vol11/102 - Question 140 - OF THE PRECEPTS OF FORTITUDE (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T102",
         "questionStart": 140,
         "questionEnd": 140,
         "durationSeconds": 668
@@ -3820,6 +4231,7 @@ window.SUMMA_VOLUMES = [
         "track": 103,
         "title": "103 - Question 141 - OF TEMPERANCE (In Eight Articles)",
         "file": "../audio/vol11/103 - Question 141 - OF TEMPERANCE (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T103",
         "questionStart": 141,
         "questionEnd": 141,
         "durationSeconds": 3146
@@ -3828,6 +4240,7 @@ window.SUMMA_VOLUMES = [
         "track": 104,
         "title": "104 - Question 142 - OF THE VICES OPPOSED TO TEMPERANCE (In Four Articles)",
         "file": "../audio/vol11/104 - Question 142 - OF THE VICES OPPOSED TO TEMPERANCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T104",
         "questionStart": 142,
         "questionEnd": 142,
         "durationSeconds": 1753
@@ -3836,6 +4249,7 @@ window.SUMMA_VOLUMES = [
         "track": 105,
         "title": "105 - Question 143 - OF THE PARTS OF TEMPERANCE, IN GENERAL (In One Article)",
         "file": "../audio/vol11/105 - Question 143 - OF THE PARTS OF TEMPERANCE, IN GENERAL (In One Article).mp3",
+        "audioFile": "ST-VOL11-T105",
         "questionStart": 143,
         "questionEnd": 143,
         "durationSeconds": 614
@@ -3844,6 +4258,7 @@ window.SUMMA_VOLUMES = [
         "track": 106,
         "title": "106 - Question 144 - OF SHAMEFACEDNESS (In Four Articles)",
         "file": "../audio/vol11/106 - Question 144 - OF SHAMEFACEDNESS (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T106",
         "questionStart": 144,
         "questionEnd": 144,
         "durationSeconds": 1807
@@ -3852,6 +4267,7 @@ window.SUMMA_VOLUMES = [
         "track": 107,
         "title": "107 - Question 145 - OF HONESTY, OR OF MORAL GOODNESS (In Four Articles)",
         "file": "../audio/vol11/107 - Question 145 - OF HONESTY, OR OF MORAL GOODNESS (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T107",
         "questionStart": 145,
         "questionEnd": 145,
         "durationSeconds": 1437
@@ -3860,6 +4276,7 @@ window.SUMMA_VOLUMES = [
         "track": 108,
         "title": "108 - Question 146 - OF ABSTINENCE (In Two Articles)",
         "file": "../audio/vol11/108 - Question 146 - OF ABSTINENCE (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T108",
         "questionStart": 146,
         "questionEnd": 146,
         "durationSeconds": 741
@@ -3868,6 +4285,7 @@ window.SUMMA_VOLUMES = [
         "track": 109,
         "title": "109 - Question 147 - OF FASTING (In Eight Articles)",
         "file": "../audio/vol11/109 - Question 147 - OF FASTING (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T109",
         "questionStart": 147,
         "questionEnd": 147,
         "durationSeconds": 3288
@@ -3876,6 +4294,7 @@ window.SUMMA_VOLUMES = [
         "track": 110,
         "title": "110 - Question 148 - OF GLUTTONY (In Six Articles)",
         "file": "../audio/vol11/110 - Question 148 - OF GLUTTONY (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T110",
         "questionStart": 148,
         "questionEnd": 148,
         "durationSeconds": 1927
@@ -3884,6 +4303,7 @@ window.SUMMA_VOLUMES = [
         "track": 111,
         "title": "111 - Question 149 - OF SOBRIETY (In Four Articles)",
         "file": "../audio/vol11/111 - Question 149 - OF SOBRIETY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T111",
         "questionStart": 149,
         "questionEnd": 149,
         "durationSeconds": 1157
@@ -3892,6 +4312,7 @@ window.SUMMA_VOLUMES = [
         "track": 112,
         "title": "112 - Question 150 - OF DRUNKENNESS (In Four Articles)",
         "file": "../audio/vol11/112 - Question 150 - OF DRUNKENNESS (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T112",
         "questionStart": 150,
         "questionEnd": 150,
         "durationSeconds": 1287
@@ -3900,6 +4321,7 @@ window.SUMMA_VOLUMES = [
         "track": 113,
         "title": "113 - Question 151 - OF CHASTITY (In Four Articles)",
         "file": "../audio/vol11/113 - Question 151 - OF CHASTITY (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T113",
         "questionStart": 151,
         "questionEnd": 151,
         "durationSeconds": 1267
@@ -3908,6 +4330,7 @@ window.SUMMA_VOLUMES = [
         "track": 114,
         "title": "114 - Question 152 - OF VIRGINITY (In Five Articles)",
         "file": "../audio/vol11/114 - Question 152 - OF VIRGINITY (In Five Articles).mp3",
+        "audioFile": "ST-VOL11-T114",
         "questionStart": 152,
         "questionEnd": 152,
         "durationSeconds": 2378
@@ -3916,6 +4339,7 @@ window.SUMMA_VOLUMES = [
         "track": 115,
         "title": "115 - Question 153 - OF LUST (In Five Articles)",
         "file": "../audio/vol11/115 - Question 153 - OF LUST (In Five Articles).mp3",
+        "audioFile": "ST-VOL11-T115",
         "questionStart": 153,
         "questionEnd": 153,
         "durationSeconds": 1864
@@ -3924,6 +4348,7 @@ window.SUMMA_VOLUMES = [
         "track": 116,
         "title": "116 - Question 154 - OF THE PARTS OF LUST (In Twelve Articles), part 1",
         "file": "../audio/vol11/116 - Question 154 - OF THE PARTS OF LUST (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL11-T116",
         "questionStart": 154,
         "questionEnd": 154,
         "durationSeconds": 2761
@@ -3932,6 +4357,7 @@ window.SUMMA_VOLUMES = [
         "track": 117,
         "title": "117 - Question 154 - OF THE PARTS OF LUST (In Twelve Articles), part 2",
         "file": "../audio/vol11/117 - Question 154 - OF THE PARTS OF LUST (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL11-T117",
         "questionStart": 154,
         "questionEnd": 154,
         "durationSeconds": 2813
@@ -3940,6 +4366,7 @@ window.SUMMA_VOLUMES = [
         "track": 118,
         "title": "118 - Question 155 - OF CONTINENCE (In Four Articles)",
         "file": "../audio/vol11/118 - Question 155 - OF CONTINENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T118",
         "questionStart": 155,
         "questionEnd": 155,
         "durationSeconds": 1590
@@ -3948,6 +4375,7 @@ window.SUMMA_VOLUMES = [
         "track": 119,
         "title": "119 - Question 156 - OF INCONTINENCE (In Four Articles)",
         "file": "../audio/vol11/119 - Question 156 - OF INCONTINENCE (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T119",
         "questionStart": 156,
         "questionEnd": 156,
         "durationSeconds": 1789
@@ -3956,6 +4384,7 @@ window.SUMMA_VOLUMES = [
         "track": 120,
         "title": "120 - Question 157 - OF CLEMENCY AND MEEKNESS (In Four Articles)",
         "file": "../audio/vol11/120 - Question 157 - OF CLEMENCY AND MEEKNESS (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T120",
         "questionStart": 157,
         "questionEnd": 157,
         "durationSeconds": 1588
@@ -3964,6 +4393,7 @@ window.SUMMA_VOLUMES = [
         "track": 121,
         "title": "121 - Question 158 - OF ANGER (In Eight Articles)",
         "file": "../audio/vol11/121 - Question 158 - OF ANGER (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T121",
         "questionStart": 158,
         "questionEnd": 158,
         "durationSeconds": 3082
@@ -3972,6 +4402,7 @@ window.SUMMA_VOLUMES = [
         "track": 122,
         "title": "122 - Question 159 - OF CRUELTY (In Two Articles)",
         "file": "../audio/vol11/122 - Question 159 - OF CRUELTY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T122",
         "questionStart": 159,
         "questionEnd": 159,
         "durationSeconds": 663
@@ -3980,6 +4411,7 @@ window.SUMMA_VOLUMES = [
         "track": 123,
         "title": "123 - Question 160 - OF MODESTY (In Two Articles)",
         "file": "../audio/vol11/123 - Question 160 - OF MODESTY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T123",
         "questionStart": 160,
         "questionEnd": 160,
         "durationSeconds": 678
@@ -3988,6 +4420,7 @@ window.SUMMA_VOLUMES = [
         "track": 124,
         "title": "124 - Question 161 - OF HUMILITY (In Six Articles)",
         "file": "../audio/vol11/124 - Question 161 - OF HUMILITY (In Six Articles).mp3",
+        "audioFile": "ST-VOL11-T124",
         "questionStart": 161,
         "questionEnd": 161,
         "durationSeconds": 3329
@@ -3996,6 +4429,7 @@ window.SUMMA_VOLUMES = [
         "track": 125,
         "title": "125 - Question 162 - OF PRIDE (In Eight Articles)",
         "file": "../audio/vol11/125 - Question 162 - OF PRIDE (In Eight Articles).mp3",
+        "audioFile": "ST-VOL11-T125",
         "questionStart": 162,
         "questionEnd": 162,
         "durationSeconds": 3745
@@ -4004,6 +4438,7 @@ window.SUMMA_VOLUMES = [
         "track": 126,
         "title": "126 - Question 163 - OF THE FIRST MAN'S SIN (In Four Articles)",
         "file": "../audio/vol11/126 - Question 163 - OF THE FIRST MAN'S SIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL11-T126",
         "questionStart": 163,
         "questionEnd": 163,
         "durationSeconds": 1627
@@ -4012,6 +4447,7 @@ window.SUMMA_VOLUMES = [
         "track": 127,
         "title": "127 - Question 164 - OF THE PUNISHMENTS OF THE FIRST MAN'S SIN (In Two Articles)",
         "file": "../audio/vol11/127 - Question 164 - OF THE PUNISHMENTS OF THE FIRST MAN'S SIN (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T127",
         "questionStart": 164,
         "questionEnd": 164,
         "durationSeconds": 1885
@@ -4020,6 +4456,7 @@ window.SUMMA_VOLUMES = [
         "track": 128,
         "title": "128 - Question 165 - OF OUR FIRST PARENTS' TEMPTATION (In Two Articles)",
         "file": "../audio/vol11/128 - Question 165 - OF OUR FIRST PARENTS' TEMPTATION (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T128",
         "questionStart": 165,
         "questionEnd": 165,
         "durationSeconds": 943
@@ -4028,6 +4465,7 @@ window.SUMMA_VOLUMES = [
         "track": 129,
         "title": "129 - Question 166 - OF STUDIOUSNESS (In Two Articles)",
         "file": "../audio/vol11/129 - Question 166 - OF STUDIOUSNESS (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T129",
         "questionStart": 166,
         "questionEnd": 166,
         "durationSeconds": 783
@@ -4036,6 +4474,7 @@ window.SUMMA_VOLUMES = [
         "track": 130,
         "title": "130 - Question 167 - OF CURIOSITY (In Two Articles)",
         "file": "../audio/vol11/130 - Question 167 - OF CURIOSITY (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T130",
         "questionStart": 167,
         "questionEnd": 167,
         "durationSeconds": 1081
@@ -4044,6 +4483,7 @@ window.SUMMA_VOLUMES = [
         "track": 131,
         "title": "131 - Question 168 - OF MODESTY AS CONSISTING IN THE OUTWARD MOVEMENTS OF THE BODY (In Four Articles)",
         "file": "../audio/vol11/131 - Question 168 - OF MODESTY AS CONSISTING IN THE OUTWARD MOVEMENTS OF THE BODY (In.mp3",
+        "audioFile": "ST-VOL11-T131",
         "questionStart": 168,
         "questionEnd": 168,
         "durationSeconds": 1956
@@ -4052,6 +4492,7 @@ window.SUMMA_VOLUMES = [
         "track": 132,
         "title": "132 - Question 169 - OF MODESTY IN THE OUTWARD APPAREL (In Two Articles)",
         "file": "../audio/vol11/132 - Question 169 - OF MODESTY IN THE OUTWARD APPAREL (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T132",
         "questionStart": 169,
         "questionEnd": 169,
         "durationSeconds": 1329
@@ -4060,6 +4501,7 @@ window.SUMMA_VOLUMES = [
         "track": 133,
         "title": "133 - Question 170 - OF THE PRECEPTS OF TEMPERANCE (In Two Articles)",
         "file": "../audio/vol11/133 - Question 170 - OF THE PRECEPTS OF TEMPERANCE (In Two Articles).mp3",
+        "audioFile": "ST-VOL11-T133",
         "questionStart": 170,
         "questionEnd": 170,
         "durationSeconds": 642
@@ -4101,6 +4543,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 171 - OF PROPHECY (In Six Articles)",
         "file": "../audio/vol12/01 - Question 171 - OF PROPHECY (In Six Articles).mp3",
+        "audioFile": "ST-VOL12-T01",
         "questionStart": 171,
         "questionEnd": 171,
         "durationSeconds": 3048
@@ -4109,6 +4552,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 172 - OF THE CAUSE OF PROPHECY (In Six Articles)",
         "file": "../audio/vol12/02 - Question 172 - OF THE CAUSE OF PROPHECY (In Six Articles).mp3",
+        "audioFile": "ST-VOL12-T02",
         "questionStart": 172,
         "questionEnd": 172,
         "durationSeconds": 2587
@@ -4117,6 +4561,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 173 - OF THE MANNER IN WHICH PROPHETIC KNOWLEDGE IS CONVEYED (In Four Articles)",
         "file": "../audio/vol12/03 - Question 173 - OF THE MANNER IN WHICH PROPHETIC KNOWLEDGE IS CONVEYED (In Four A.mp3",
+        "audioFile": "ST-VOL12-T03",
         "questionStart": 173,
         "questionEnd": 173,
         "durationSeconds": 1996
@@ -4125,6 +4570,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 174 - OF THE DIVISION OF PROPHECY (In Six Articles)",
         "file": "../audio/vol12/04 - Question 174 - OF THE DIVISION OF PROPHECY (In Six Articles).mp3",
+        "audioFile": "ST-VOL12-T04",
         "questionStart": 174,
         "questionEnd": 174,
         "durationSeconds": 3141
@@ -4133,6 +4579,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 175 - OF RAPTURE (In Six Articles)",
         "file": "../audio/vol12/05 - Question 175 - OF RAPTURE (In Six Articles).mp3",
+        "audioFile": "ST-VOL12-T05",
         "questionStart": 175,
         "questionEnd": 175,
         "durationSeconds": 2961
@@ -4141,6 +4588,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 176 - OF THE GRACE OF TONGUES (In Two Articles)",
         "file": "../audio/vol12/06 - Question 176 - OF THE GRACE OF TONGUES (In Two Articles).mp3",
+        "audioFile": "ST-VOL12-T06",
         "questionStart": 176,
         "questionEnd": 176,
         "durationSeconds": 1100
@@ -4149,6 +4597,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 177 - OF THE GRATUITOUS GRACE CONSISTING IN WORDS (In Two Articles)",
         "file": "../audio/vol12/07 - Question 177 - OF THE GRATUITOUS GRACE CONSISTING IN WORDS (In Two Articles).mp3",
+        "audioFile": "ST-VOL12-T07",
         "questionStart": 177,
         "questionEnd": 177,
         "durationSeconds": 829
@@ -4157,6 +4606,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 178 - OF THE GRACE OF MIRACLES (In Two Articles)",
         "file": "../audio/vol12/08 - Question 178 - OF THE GRACE OF MIRACLES (In Two Articles).mp3",
+        "audioFile": "ST-VOL12-T08",
         "questionStart": 178,
         "questionEnd": 178,
         "durationSeconds": 1170
@@ -4165,6 +4615,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 179 - OF THE DIVISION OF LIFE INTO ACTIVE AND CONTEMPLATIVE (In Two Articles)",
         "file": "../audio/vol12/09 - Question 179 - OF THE DIVISION OF LIFE INTO ACTIVE AND CONTEMPLATIVE (In Two Art.mp3",
+        "audioFile": "ST-VOL12-T09",
         "questionStart": 179,
         "questionEnd": 179,
         "durationSeconds": 709
@@ -4173,6 +4624,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 180 - OF THE CONTEMPLATIVE LIFE (In Eight Articles)",
         "file": "../audio/vol12/10 - Question 180 - OF THE CONTEMPLATIVE LIFE (In Eight Articles).mp3",
+        "audioFile": "ST-VOL12-T10",
         "questionStart": 180,
         "questionEnd": 180,
         "durationSeconds": 4012
@@ -4181,6 +4633,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 181 - OF THE ACTIVE LIFE (In Four Articles)",
         "file": "../audio/vol12/11 - Question 181 - OF THE ACTIVE LIFE (In Four Articles).mp3",
+        "audioFile": "ST-VOL12-T11",
         "questionStart": 181,
         "questionEnd": 181,
         "durationSeconds": 1504
@@ -4189,6 +4642,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 182 - OF THE ACTIVE LIFE IN COMPARISON WITH THE CONTEMPLATIVE LIFE (In Four Articles)",
         "file": "../audio/vol12/12 - Question 182 - OF THE ACTIVE LIFE IN COMPARISON WITH THE CONTEMPLATIVE LIFE (In .mp3",
+        "audioFile": "ST-VOL12-T12",
         "questionStart": 182,
         "questionEnd": 182,
         "durationSeconds": 1879
@@ -4197,6 +4651,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 183 - OF MAN'S VARIOUS DUTIES AND STATES IN GENERAL (In Four Articles)",
         "file": "../audio/vol12/13 - Question 183 - OF MAN'S VARIOUS DUTIES AND STATES IN GENERAL (In Four Articles).mp3",
+        "audioFile": "ST-VOL12-T13",
         "questionStart": 183,
         "questionEnd": 183,
         "durationSeconds": 1659
@@ -4205,6 +4660,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 184 - OF THE STATE OF PERFECTION IN GENERAL (In Eight Articles), part 1",
         "file": "../audio/vol12/14 - Question 184 - OF THE STATE OF PERFECTION IN GENERAL (In Eight Articles), part 1.mp3",
+        "audioFile": "ST-VOL12-T14",
         "questionStart": 184,
         "questionEnd": 184,
         "durationSeconds": 2011
@@ -4213,6 +4669,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 184 - OF THE STATE OF PERFECTION IN GENERAL (In Eight Articles), part 2",
         "file": "../audio/vol12/15 - Question 184 - OF THE STATE OF PERFECTION IN GENERAL (In Eight Articles), part 2.mp3",
+        "audioFile": "ST-VOL12-T15",
         "questionStart": 184,
         "questionEnd": 184,
         "durationSeconds": 2427
@@ -4221,6 +4678,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 185 - OF THINGS PERTAINING TO THE EPISCOPAL STATE (In Eight Articles), part 1",
         "file": "../audio/vol12/16 - Question 185 - OF THINGS PERTAINING TO THE EPISCOPAL STATE (In Eight Articles), .mp3",
+        "audioFile": "ST-VOL12-T16",
         "questionStart": 185,
         "questionEnd": 185,
         "durationSeconds": 2415
@@ -4229,6 +4687,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 185 - OF THINGS PERTAINING TO THE EPISCOPAL STATE (In Eight Articles), part 2",
         "file": "../audio/vol12/17 - Question 185 - OF THINGS PERTAINING TO THE EPISCOPAL STATE (In Eight Articles), .mp3",
+        "audioFile": "ST-VOL12-T17",
         "questionStart": 185,
         "questionEnd": 185,
         "durationSeconds": 1968
@@ -4237,6 +4696,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (In Ten Articles), part 1",
         "file": "../audio/vol12/18 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (I.mp3",
+        "audioFile": "ST-VOL12-T18",
         "questionStart": 186,
         "questionEnd": 186,
         "durationSeconds": 3082
@@ -4245,6 +4705,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (In Ten Articles), part 2",
         "file": "../audio/vol12/19 - Question 186 - OF THOSE THINGS IN WHICH THE RELIGIOUS STATE PROPERLY CONSISTS (I.mp3",
+        "audioFile": "ST-VOL12-T19",
         "questionStart": 186,
         "questionEnd": 186,
         "durationSeconds": 2332
@@ -4253,6 +4714,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 187 - OF THOSE THINGS THAT ARE COMPETENT TO RELIGIOUS (In Six Articles), part 1",
         "file": "../audio/vol12/20 - Question 187 - OF THOSE THINGS THAT ARE COMPETENT TO RELIGIOUS (In Six Articles).mp3",
+        "audioFile": "ST-VOL12-T20",
         "questionStart": 187,
         "questionEnd": 187,
         "durationSeconds": 2249
@@ -4261,6 +4723,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 187 - OF THOSE THINGS THAT ARE COMPETENT TO RELIGIOUS (In Six Articles), part 2",
         "file": "../audio/vol12/21 - Question 187 - OF THOSE THINGS THAT ARE COMPETENT TO RELIGIOUS (In Six Articles).mp3",
+        "audioFile": "ST-VOL12-T21",
         "questionStart": 187,
         "questionEnd": 187,
         "durationSeconds": 2198
@@ -4269,6 +4732,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 188 - OF THE DIFFERENT KINDS OF RELIGIOUS LIFE (In Eight Articles), part 1",
         "file": "../audio/vol12/22 - Question 188 - OF THE DIFFERENT KINDS OF RELIGIOUS LIFE (In Eight Articles), par.mp3",
+        "audioFile": "ST-VOL12-T22",
         "questionStart": 188,
         "questionEnd": 188,
         "durationSeconds": 2048
@@ -4277,6 +4741,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 188 - OF THE DIFFERENT KINDS OF RELIGIOUS LIFE (In Eight Articles), part 2",
         "file": "../audio/vol12/23 - Question 188 - OF THE DIFFERENT KINDS OF RELIGIOUS LIFE (In Eight Articles), par.mp3",
+        "audioFile": "ST-VOL12-T23",
         "questionStart": 188,
         "questionEnd": 188,
         "durationSeconds": 3069
@@ -4285,6 +4750,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 1",
         "file": "../audio/vol12/24 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL12-T24",
         "questionStart": 189,
         "questionEnd": 189,
         "durationSeconds": 2997
@@ -4293,6 +4759,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 2",
         "file": "../audio/vol12/25 - Question 189 - OF THE ENTRANCE INTO RELIGIOUS LIFE (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL12-T25",
         "questionStart": 189,
         "questionEnd": 189,
         "durationSeconds": 2575
@@ -4374,6 +4841,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 1 - OF THE FITNESS OF THE INCARNATION (In Six Articles), part 1",
         "file": "../audio/vol13/01 - Question 1 - OF THE FITNESS OF THE INCARNATION (In Six Articles), part 1.mp3",
+        "audioFile": "ST-VOL13-T01",
         "questionStart": 1,
         "questionEnd": 1,
         "durationSeconds": 2060
@@ -4382,6 +4850,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 1 - OF THE FITNESS OF THE INCARNATION (In Six Articles), part 2",
         "file": "../audio/vol13/02 - Question 1 - OF THE FITNESS OF THE INCARNATION (In Six Articles), part 2.mp3",
+        "audioFile": "ST-VOL13-T02",
         "questionStart": 1,
         "questionEnd": 1,
         "durationSeconds": 1508
@@ -4390,6 +4859,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 2 - OF THE MODE OF UNION OF THE WORD INCARNATE (In Twelve Articles), part 1",
         "file": "../audio/vol13/03 - Question 2 - OF THE MODE OF UNION OF THE WORD INCARNATE (In Twelve Articles), pa.mp3",
+        "audioFile": "ST-VOL13-T03",
         "questionStart": 2,
         "questionEnd": 2,
         "durationSeconds": 2730
@@ -4398,6 +4868,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 2 - OF THE MODE OF UNION OF THE WORD INCARNATE (In Twelve Articles), part 2",
         "file": "../audio/vol13/04 - Question 2 - OF THE MODE OF UNION OF THE WORD INCARNATE (In Twelve Articles), pa.mp3",
+        "audioFile": "ST-VOL13-T04",
         "questionStart": 2,
         "questionEnd": 2,
         "durationSeconds": 2846
@@ -4406,6 +4877,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 3 - OF THE MODE OF UNION ON THE PART OF THE PERSON ASSUMING (In Eight Articles)",
         "file": "../audio/vol13/05 - Question 3 - OF THE MODE OF UNION ON THE PART OF THE PERSON ASSUMING (In Eight A.mp3",
+        "audioFile": "ST-VOL13-T05",
         "questionStart": 3,
         "questionEnd": 3,
         "durationSeconds": 3051
@@ -4414,6 +4886,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 4 - OF THE MODE OF UNION ON THE PART OF THE HUMAN NATURE (In Six Articles)",
         "file": "../audio/vol13/06 - Question 4 - OF THE MODE OF UNION ON THE PART OF THE HUMAN NATURE (In Six Articl.mp3",
+        "audioFile": "ST-VOL13-T06",
         "questionStart": 4,
         "questionEnd": 4,
         "durationSeconds": 2130
@@ -4422,6 +4895,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 5 - OF THE PARTS OF HUMAN NATURE WHICH WERE ASSUMED (In Four Articles)",
         "file": "../audio/vol13/07 - Question 5 - OF THE PARTS OF HUMAN NATURE WHICH WERE ASSUMED (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T07",
         "questionStart": 5,
         "questionEnd": 5,
         "durationSeconds": 1800
@@ -4430,6 +4904,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 6 - OF THE ORDER OF ASSUMPTION (In Six Articles)",
         "file": "../audio/vol13/08 - Question 6 - OF THE ORDER OF ASSUMPTION (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T08",
         "questionStart": 6,
         "questionEnd": 6,
         "durationSeconds": 2068
@@ -4438,6 +4913,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 7 - OF THE GRACE OF CHRIST AS AN INDIVIDUAL MAN (In Thirteen Articles), part 1",
         "file": "../audio/vol13/09 - Question 7 - OF THE GRACE OF CHRIST AS AN INDIVIDUAL MAN (In Thirteen Articles),.mp3",
+        "audioFile": "ST-VOL13-T09",
         "questionStart": 7,
         "questionEnd": 7,
         "durationSeconds": 2351
@@ -4446,6 +4922,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 7 - OF THE GRACE OF CHRIST AS AN INDIVIDUAL MAN (In Thirteen Articles), part 2",
         "file": "../audio/vol13/10 - Question 7 - OF THE GRACE OF CHRIST AS AN INDIVIDUAL MAN (In Thirteen Articles),.mp3",
+        "audioFile": "ST-VOL13-T10",
         "questionStart": 7,
         "questionEnd": 7,
         "durationSeconds": 2422
@@ -4454,6 +4931,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 8 - OF THE GRACE OF CHRIST, AS HE IS THE HEAD OF THE CHURCH (In Eight Articles)",
         "file": "../audio/vol13/11 - Question 8 - OF THE GRACE OF CHRIST, AS HE IS THE HEAD OF THE CHURCH (In Eight A.mp3",
+        "audioFile": "ST-VOL13-T11",
         "questionStart": 8,
         "questionEnd": 8,
         "durationSeconds": 2817
@@ -4462,6 +4940,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 9 - OF CHRIST'S KNOWLEDGE IN GENERAL (In Four Articles)",
         "file": "../audio/vol13/12 - Question 9 - OF CHRIST'S KNOWLEDGE IN GENERAL (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T12",
         "questionStart": 9,
         "questionEnd": 9,
         "durationSeconds": 1593
@@ -4470,6 +4949,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 10 - OF THE BEATIFIC KNOWLEDGE OF CHRIST'S SOUL (In Four Articles)",
         "file": "../audio/vol13/13 - Question 10 - OF THE BEATIFIC KNOWLEDGE OF CHRIST'S SOUL (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T13",
         "questionStart": 10,
         "questionEnd": 10,
         "durationSeconds": 1923
@@ -4478,6 +4958,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 11 - OF THE KNOWLEDGE IMPRINTED OR INFUSED IN THE SOUL OF CHRIST (In Six Articles)",
         "file": "../audio/vol13/14 - Question 11 - OF THE KNOWLEDGE IMPRINTED OR INFUSED IN THE SOUL OF CHRIST (In Si.mp3",
+        "audioFile": "ST-VOL13-T14",
         "questionStart": 11,
         "questionEnd": 11,
         "durationSeconds": 1744
@@ -4486,6 +4967,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 12 - OF THE ACQUIRED OR EMPIRIC KNOWLEDGE OF CHRIST'S SOUL (In Four Articles)",
         "file": "../audio/vol13/15 - Question 12 - OF THE ACQUIRED OR EMPIRIC KNOWLEDGE OF CHRIST'S SOUL (In Four Art.mp3",
+        "audioFile": "ST-VOL13-T15",
         "questionStart": 12,
         "questionEnd": 12,
         "durationSeconds": 1330
@@ -4494,6 +4976,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 13 - OF THE POWER OF CHRIST'S SOUL (In Four Articles)",
         "file": "../audio/vol13/16 - Question 13 - OF THE POWER OF CHRIST'S SOUL (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T16",
         "questionStart": 13,
         "questionEnd": 13,
         "durationSeconds": 1666
@@ -4502,6 +4985,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 14 - OF THE DEFECTS OF BODY ASSUMED BY THE SON OF GOD (In Four Articles)",
         "file": "../audio/vol13/17 - Question 14 - OF THE DEFECTS OF BODY ASSUMED BY THE SON OF GOD (In Four Articles.mp3",
+        "audioFile": "ST-VOL13-T17",
         "questionStart": 14,
         "questionEnd": 14,
         "durationSeconds": 1442
@@ -4510,6 +4994,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 15 - OF THE DEFECTS OF SOUL ASSUMED BY CHRIST (In Ten Articles), part 1",
         "file": "../audio/vol13/18 - Question 15 - OF THE DEFECTS OF SOUL ASSUMED BY CHRIST (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL13-T18",
         "questionStart": 15,
         "questionEnd": 15,
         "durationSeconds": 1889
@@ -4518,6 +5003,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 15 - OF THE DEFECTS OF SOUL ASSUMED BY CHRIST (In Ten Articles), part 2",
         "file": "../audio/vol13/19 - Question 15 - OF THE DEFECTS OF SOUL ASSUMED BY CHRIST (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL13-T19",
         "questionStart": 15,
         "questionEnd": 15,
         "durationSeconds": 1478
@@ -4526,6 +5012,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 16 - OF THOSE THINGS WHICH ARE APPLICABLE TO CHRIST IN HIS BEING AND BECOMING (In Twelve Articles), part 1",
         "file": "../audio/vol13/20 - Question 16 - OF THOSE THINGS WHICH ARE APPLICABLE TO CHRIST IN HIS BEING AND BE.mp3",
+        "audioFile": "ST-VOL13-T20",
         "questionStart": 16,
         "questionEnd": 16,
         "durationSeconds": 2173
@@ -4534,6 +5021,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 16 - OF THOSE THINGS WHICH ARE APPLICABLE TO CHRIST IN HIS BEING AND BECOMING (In Twelve Articles), part 2",
         "file": "../audio/vol13/21 - Question 16 - OF THOSE THINGS WHICH ARE APPLICABLE TO CHRIST IN HIS BEING AND BE.mp3",
+        "audioFile": "ST-VOL13-T21",
         "questionStart": 16,
         "questionEnd": 16,
         "durationSeconds": 2326
@@ -4542,6 +5030,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 17 - OF CHRIST'S UNITY OF BEING (In Two Articles)",
         "file": "../audio/vol13/22 - Question 17 - OF CHRIST'S UNITY OF BEING (In Two Articles).mp3",
+        "audioFile": "ST-VOL13-T22",
         "questionStart": 17,
         "questionEnd": 17,
         "durationSeconds": 1350
@@ -4550,6 +5039,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 18 - OF CHRIST'S UNITY OF WILL (In Six Articles)",
         "file": "../audio/vol13/23 - Question 18 - OF CHRIST'S UNITY OF WILL (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T23",
         "questionStart": 18,
         "questionEnd": 18,
         "durationSeconds": 2393
@@ -4558,6 +5048,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 19 - OF THE UNITY OF CHRIST'S OPERATION (In Four Articles)",
         "file": "../audio/vol13/24 - Question 19 - OF THE UNITY OF CHRIST'S OPERATION (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T24",
         "questionStart": 19,
         "questionEnd": 19,
         "durationSeconds": 2133
@@ -4566,6 +5057,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 20 - OF CHRIST'S SUBJECTION TO THE FATHER (In Two Articles)",
         "file": "../audio/vol13/25 - Question 20 - OF CHRIST'S SUBJECTION TO THE FATHER (In Two Articles).mp3",
+        "audioFile": "ST-VOL13-T25",
         "questionStart": 20,
         "questionEnd": 20,
         "durationSeconds": 1057
@@ -4574,6 +5066,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 21 - OF CHRIST'S PRAYER (In Four Articles)",
         "file": "../audio/vol13/26 - Question 21 - OF CHRIST'S PRAYER (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T26",
         "questionStart": 21,
         "questionEnd": 21,
         "durationSeconds": 1494
@@ -4582,6 +5075,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "27 - Question 22 - OF THE PRIESTHOOD OF CHRIST (In Six Articles)",
         "file": "../audio/vol13/27 - Question 22 - OF THE PRIESTHOOD OF CHRIST (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T27",
         "questionStart": 22,
         "questionEnd": 22,
         "durationSeconds": 2272
@@ -4590,6 +5084,7 @@ window.SUMMA_VOLUMES = [
         "track": 28,
         "title": "28 - Question 23 - OF ADOPTION AS BEFITTING TO CHRIST (In Four Articles)",
         "file": "../audio/vol13/28 - Question 23 - OF ADOPTION AS BEFITTING TO CHRIST (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T28",
         "questionStart": 23,
         "questionEnd": 23,
         "durationSeconds": 1274
@@ -4598,6 +5093,7 @@ window.SUMMA_VOLUMES = [
         "track": 29,
         "title": "29 - Question 24 - OF THE PREDESTINATION OF CHRIST (In Four Articles)",
         "file": "../audio/vol13/29 - Question 24 - OF THE PREDESTINATION OF CHRIST (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T29",
         "questionStart": 24,
         "questionEnd": 24,
         "durationSeconds": 1405
@@ -4606,6 +5102,7 @@ window.SUMMA_VOLUMES = [
         "track": 30,
         "title": "30 - Question 25 - OF THE ADORATION OF CHRIST (In Six Articles)",
         "file": "../audio/vol13/30 - Question 25 - OF THE ADORATION OF CHRIST (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T30",
         "questionStart": 25,
         "questionEnd": 25,
         "durationSeconds": 2138
@@ -4614,6 +5111,7 @@ window.SUMMA_VOLUMES = [
         "track": 31,
         "title": "31 - Question 26 - OF CHRIST AS CALLED THE MEDIATOR OF GOD AND MAN (In Two Articles)",
         "file": "../audio/vol13/31 - Question 26 - OF CHRIST AS CALLED THE MEDIATOR OF GOD AND MAN (In Two Articles).mp3",
+        "audioFile": "ST-VOL13-T31",
         "questionStart": 26,
         "questionEnd": 26,
         "durationSeconds": 786
@@ -4622,6 +5120,7 @@ window.SUMMA_VOLUMES = [
         "track": 32,
         "title": "32 - Editorial Note on Saint Thomas and the Immaculate Conception",
         "file": "../audio/vol13/32 - Editorial Note on Saint Thomas and the Immaculate Conception.mp3",
+        "audioFile": "ST-VOL13-T32",
         "questionStart": null,
         "questionEnd": null,
         "durationSeconds": 483
@@ -4630,6 +5129,7 @@ window.SUMMA_VOLUMES = [
         "track": 33,
         "title": "33 - Question 27 - OF THE SANCTIFICATION OF THE BLESSED VIRGIN (In Six Articles)",
         "file": "../audio/vol13/33 - Question 27 - OF THE SANCTIFICATION OF THE BLESSED VIRGIN (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T33",
         "questionStart": 27,
         "questionEnd": 27,
         "durationSeconds": 2920
@@ -4638,6 +5138,7 @@ window.SUMMA_VOLUMES = [
         "track": 34,
         "title": "34 - Question 28 - OF THE VIRGINITY OF THE MOTHER OF GOD (In Four Articles)",
         "file": "../audio/vol13/34 - Question 28 - OF THE VIRGINITY OF THE MOTHER OF GOD (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T34",
         "questionStart": 28,
         "questionEnd": 28,
         "durationSeconds": 2237
@@ -4646,6 +5147,7 @@ window.SUMMA_VOLUMES = [
         "track": 35,
         "title": "35 - Question 29 - OF THE ESPOUSALS OF THE MOTHER OF GOD (In Two Articles)",
         "file": "../audio/vol13/35 - Question 29 - OF THE ESPOUSALS OF THE MOTHER OF GOD (In Two Articles).mp3",
+        "audioFile": "ST-VOL13-T35",
         "questionStart": 29,
         "questionEnd": 29,
         "durationSeconds": 1212
@@ -4654,6 +5156,7 @@ window.SUMMA_VOLUMES = [
         "track": 36,
         "title": "36 - Question 30 - OF THE ANNUNCIATION OF THE BLESSED VIRGIN (In Four Articles)",
         "file": "../audio/vol13/36 - Question 30 - OF THE ANNUNCIATION OF THE BLESSED VIRGIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T36",
         "questionStart": 30,
         "questionEnd": 30,
         "durationSeconds": 1683
@@ -4662,6 +5165,7 @@ window.SUMMA_VOLUMES = [
         "track": 37,
         "title": "37 - Question 31 - OF THE MATTER FROM WHICH THE SAVIOUR'S BODY WAS CONCEIVED (In Eight Articles), part 1",
         "file": "../audio/vol13/37 - Question 31 - OF THE MATTER FROM WHICH THE SAVIOUR'S BODY WAS CONCEIVED (In Eigh.mp3",
+        "audioFile": "ST-VOL13-T37",
         "questionStart": 31,
         "questionEnd": 31,
         "durationSeconds": 2332
@@ -4670,6 +5174,7 @@ window.SUMMA_VOLUMES = [
         "track": 38,
         "title": "38 - Question 31 - OF THE MATTER FROM WHICH THE SAVIOUR'S BODY WAS CONCEIVED (In Eight Articles), part 2",
         "file": "../audio/vol13/38 - Question 31 - OF THE MATTER FROM WHICH THE SAVIOUR'S BODY WAS CONCEIVED (In Eigh.mp3",
+        "audioFile": "ST-VOL13-T38",
         "questionStart": 31,
         "questionEnd": 31,
         "durationSeconds": 1590
@@ -4678,6 +5183,7 @@ window.SUMMA_VOLUMES = [
         "track": 39,
         "title": "39 - Question 32 - OF THE ACTIVE PRINCIPLE IN CHRIST'S CONCEPTION (In Four Articles)",
         "file": "../audio/vol13/39 - Question 32 - OF THE ACTIVE PRINCIPLE IN CHRIST'S CONCEPTION (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T39",
         "questionStart": 32,
         "questionEnd": 32,
         "durationSeconds": 1708
@@ -4686,6 +5192,7 @@ window.SUMMA_VOLUMES = [
         "track": 40,
         "title": "40 - Question 33 - OF THE MODE AND ORDER OF CHRIST'S CONCEPTION (In Four Articles)",
         "file": "../audio/vol13/40 - Question 33 - OF THE MODE AND ORDER OF CHRIST'S CONCEPTION (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T40",
         "questionStart": 33,
         "questionEnd": 33,
         "durationSeconds": 1375
@@ -4694,6 +5201,7 @@ window.SUMMA_VOLUMES = [
         "track": 41,
         "title": "41 - Question 34 - OF THE PERFECTION OF THE CHILD CONCEIVED (In Four Articles)",
         "file": "../audio/vol13/41 - Question 34 - OF THE PERFECTION OF THE CHILD CONCEIVED (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T41",
         "questionStart": 34,
         "questionEnd": 34,
         "durationSeconds": 1415
@@ -4702,6 +5210,7 @@ window.SUMMA_VOLUMES = [
         "track": 42,
         "title": "42 - Question 35 - OF CHRIST'S NATIVITY (In Eight Articles)",
         "file": "../audio/vol13/42 - Question 35 - OF CHRIST'S NATIVITY (In Eight Articles).mp3",
+        "audioFile": "ST-VOL13-T42",
         "questionStart": 35,
         "questionEnd": 35,
         "durationSeconds": 3025
@@ -4710,6 +5219,7 @@ window.SUMMA_VOLUMES = [
         "track": 43,
         "title": "43 - Question 36 - OF THE MANIFESTATION OF THE NEWLY BORN CHRIST (In Eight Articles), part 1",
         "file": "../audio/vol13/43 - Question 36 - OF THE MANIFESTATION OF THE NEWLY BORN CHRIST (In Eight Articles),.mp3",
+        "audioFile": "ST-VOL13-T43",
         "questionStart": 36,
         "questionEnd": 36,
         "durationSeconds": 1520
@@ -4718,6 +5228,7 @@ window.SUMMA_VOLUMES = [
         "track": 44,
         "title": "44 - Question 36 - OF THE MANIFESTATION OF THE NEWLY BORN CHRIST (In Eight Articles), part 2",
         "file": "../audio/vol13/44 - Question 36 - OF THE MANIFESTATION OF THE NEWLY BORN CHRIST (In Eight Articles),.mp3",
+        "audioFile": "ST-VOL13-T44",
         "questionStart": 36,
         "questionEnd": 36,
         "durationSeconds": 1875
@@ -4726,6 +5237,7 @@ window.SUMMA_VOLUMES = [
         "track": 45,
         "title": "45 - Question 37 - OF CHRIST'S CIRCUMCISION, AND OF THE OTHER LEGAL OBSERVANCES ACCOMPLISHED IN REGARD TO THE CHILD CHRIST (In Four Articles)",
         "file": "../audio/vol13/45 - Question 37 - OF CHRIST'S CIRCUMCISION, AND OF THE OTHER LEGAL OBSERVANCES ACCOM.mp3",
+        "audioFile": "ST-VOL13-T45",
         "questionStart": 37,
         "questionEnd": 37,
         "durationSeconds": 1738
@@ -4734,6 +5246,7 @@ window.SUMMA_VOLUMES = [
         "track": 46,
         "title": "46 - Question 38 - OF THE BAPTISM OF JOHN (In Six Articles)",
         "file": "../audio/vol13/46 - Question 38 - OF THE BAPTISM OF JOHN (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T46",
         "questionStart": 38,
         "questionEnd": 38,
         "durationSeconds": 2252
@@ -4742,6 +5255,7 @@ window.SUMMA_VOLUMES = [
         "track": 47,
         "title": "47 - Question 39 - OF THE BAPTIZING OF CHRIST (In Eight Articles), part 1",
         "file": "../audio/vol13/47 - Question 39 - OF THE BAPTIZING OF CHRIST (In Eight Articles), part 1.mp3",
+        "audioFile": "ST-VOL13-T47",
         "questionStart": 39,
         "questionEnd": 39,
         "durationSeconds": 1935
@@ -4750,6 +5264,7 @@ window.SUMMA_VOLUMES = [
         "track": 48,
         "title": "48 - Question 39 - OF THE BAPTIZING OF CHRIST (In Eight Articles), part 2",
         "file": "../audio/vol13/48 - Question 39 - OF THE BAPTIZING OF CHRIST (In Eight Articles), part 2.mp3",
+        "audioFile": "ST-VOL13-T48",
         "questionStart": 39,
         "questionEnd": 39,
         "durationSeconds": 1493
@@ -4758,6 +5273,7 @@ window.SUMMA_VOLUMES = [
         "track": 49,
         "title": "49 - Question 40 - OF CHRIST'S MANNER OF LIFE (In Four Articles)",
         "file": "../audio/vol13/49 - Question 40 - OF CHRIST'S MANNER OF LIFE (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T49",
         "questionStart": 40,
         "questionEnd": 40,
         "durationSeconds": 2112
@@ -4766,6 +5282,7 @@ window.SUMMA_VOLUMES = [
         "track": 50,
         "title": "50 - Question 41 - OF CHRIST'S TEMPTATION (In Four Articles)",
         "file": "../audio/vol13/50 - Question 41 - OF CHRIST'S TEMPTATION (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T50",
         "questionStart": 41,
         "questionEnd": 41,
         "durationSeconds": 2229
@@ -4774,6 +5291,7 @@ window.SUMMA_VOLUMES = [
         "track": 51,
         "title": "51 - Question 42 - OF CHRIST'S DOCTRINE (In Four Articles)",
         "file": "../audio/vol13/51 - Question 42 - OF CHRIST'S DOCTRINE (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T51",
         "questionStart": 42,
         "questionEnd": 42,
         "durationSeconds": 1876
@@ -4782,6 +5300,7 @@ window.SUMMA_VOLUMES = [
         "track": 52,
         "title": "52 - Question 43 - OF THE MIRACLES WORKED BY CHRIST, IN GENERAL (In Four Articles)",
         "file": "../audio/vol13/52 - Question 43 - OF THE MIRACLES WORKED BY CHRIST, IN GENERAL (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T52",
         "questionStart": 43,
         "questionEnd": 43,
         "durationSeconds": 1816
@@ -4790,6 +5309,7 @@ window.SUMMA_VOLUMES = [
         "track": 53,
         "title": "53 - Question 44 - OF CHRIST'S MIRACLES CONSIDERED SPECIFICALLY (In Four Articles)",
         "file": "../audio/vol13/53 - Question 44 - OF CHRIST'S MIRACLES CONSIDERED SPECIFICALLY (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T53",
         "questionStart": 44,
         "questionEnd": 44,
         "durationSeconds": 2944
@@ -4798,6 +5318,7 @@ window.SUMMA_VOLUMES = [
         "track": 54,
         "title": "54 - Question 45 - OF CHRIST'S TRANSFIGURATION (In Four Articles)",
         "file": "../audio/vol13/54 - Question 45 - OF CHRIST'S TRANSFIGURATION (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T54",
         "questionStart": 45,
         "questionEnd": 45,
         "durationSeconds": 1746
@@ -4806,6 +5327,7 @@ window.SUMMA_VOLUMES = [
         "track": 55,
         "title": "55 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 1",
         "file": "../audio/vol13/55 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL13-T55",
         "questionStart": 46,
         "questionEnd": 46,
         "durationSeconds": 2140
@@ -4814,6 +5336,7 @@ window.SUMMA_VOLUMES = [
         "track": 56,
         "title": "56 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 2",
         "file": "../audio/vol13/56 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL13-T56",
         "questionStart": 46,
         "questionEnd": 46,
         "durationSeconds": 2006
@@ -4822,6 +5345,7 @@ window.SUMMA_VOLUMES = [
         "track": 57,
         "title": "57 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 3",
         "file": "../audio/vol13/57 - Question 46 - THE PASSION OF CHRIST (In Twelve Articles), part 3.mp3",
+        "audioFile": "ST-VOL13-T57",
         "questionStart": 46,
         "questionEnd": 46,
         "durationSeconds": 2005
@@ -4830,6 +5354,7 @@ window.SUMMA_VOLUMES = [
         "track": 58,
         "title": "58 - Question 47 - OF THE EFFICIENT CAUSE OF CHRIST'S PASSION (In Six Articles)",
         "file": "../audio/vol13/58 - Question 47 - OF THE EFFICIENT CAUSE OF CHRIST'S PASSION (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T58",
         "questionStart": 47,
         "questionEnd": 47,
         "durationSeconds": 2360
@@ -4838,6 +5363,7 @@ window.SUMMA_VOLUMES = [
         "track": 59,
         "title": "59 - Question 48 - OF THE EFFICIENCY OF CHRIST'S PASSION (In Six Articles)",
         "file": "../audio/vol13/59 - Question 48 - OF THE EFFICIENCY OF CHRIST'S PASSION (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T59",
         "questionStart": 48,
         "questionEnd": 48,
         "durationSeconds": 2117
@@ -4846,6 +5372,7 @@ window.SUMMA_VOLUMES = [
         "track": 60,
         "title": "60 - Question 49 - OF THE EFFECTS OF CHRIST'S PASSION (In Six Articles)",
         "file": "../audio/vol13/60 - Question 49 - OF THE EFFECTS OF CHRIST'S PASSION (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T60",
         "questionStart": 49,
         "questionEnd": 49,
         "durationSeconds": 2311
@@ -4854,6 +5381,7 @@ window.SUMMA_VOLUMES = [
         "track": 61,
         "title": "61 - Question 50 - OF THE DEATH OF CHRIST (In Six Articles)",
         "file": "../audio/vol13/61 - Question 50 - OF THE DEATH OF CHRIST (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T61",
         "questionStart": 50,
         "questionEnd": 50,
         "durationSeconds": 2288
@@ -4862,6 +5390,7 @@ window.SUMMA_VOLUMES = [
         "track": 62,
         "title": "62 - Question 51 - OF CHRIST'S BURIAL (In Four Articles)",
         "file": "../audio/vol13/62 - Question 51 - OF CHRIST'S BURIAL (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T62",
         "questionStart": 51,
         "questionEnd": 51,
         "durationSeconds": 1610
@@ -4870,6 +5399,7 @@ window.SUMMA_VOLUMES = [
         "track": 63,
         "title": "63 - Question 52 - OF CHRIST'S DESCENT INTO HELL (In Eight Articles)",
         "file": "../audio/vol13/63 - Question 52 - OF CHRIST'S DESCENT INTO HELL (In Eight Articles).mp3",
+        "audioFile": "ST-VOL13-T63",
         "questionStart": 52,
         "questionEnd": 52,
         "durationSeconds": 2955
@@ -4878,6 +5408,7 @@ window.SUMMA_VOLUMES = [
         "track": 64,
         "title": "64 - Question 53 - OF CHRIST'S RESURRECTION (In Four Articles)",
         "file": "../audio/vol13/64 - Question 53 - OF CHRIST'S RESURRECTION (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T64",
         "questionStart": 53,
         "questionEnd": 53,
         "durationSeconds": 1857
@@ -4886,6 +5417,7 @@ window.SUMMA_VOLUMES = [
         "track": 65,
         "title": "65 - Question 54 - OF THE QUALITY OF CHRIST RISING AGAIN (In Four Articles)",
         "file": "../audio/vol13/65 - Question 54 - OF THE QUALITY OF CHRIST RISING AGAIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL13-T65",
         "questionStart": 54,
         "questionEnd": 54,
         "durationSeconds": 1858
@@ -4894,6 +5426,7 @@ window.SUMMA_VOLUMES = [
         "track": 66,
         "title": "66 - Question 55 - OF THE MANIFESTATION OF THE RESURRECTION (In Six Articles)",
         "file": "../audio/vol13/66 - Question 55 - OF THE MANIFESTATION OF THE RESURRECTION (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T66",
         "questionStart": 55,
         "questionEnd": 55,
         "durationSeconds": 3135
@@ -4902,6 +5435,7 @@ window.SUMMA_VOLUMES = [
         "track": 67,
         "title": "67 - Question 56 - OF THE CAUSALITY OF CHRIST'S RESURRECTION (In Two Articles)",
         "file": "../audio/vol13/67 - Question 56 - OF THE CAUSALITY OF CHRIST'S RESURRECTION (In Two Articles).mp3",
+        "audioFile": "ST-VOL13-T67",
         "questionStart": 56,
         "questionEnd": 56,
         "durationSeconds": 1122
@@ -4910,6 +5444,7 @@ window.SUMMA_VOLUMES = [
         "track": 68,
         "title": "68 - Question 57 - OF THE ASCENSION OF CHRIST (In Six Articles)",
         "file": "../audio/vol13/68 - Question 57 - OF THE ASCENSION OF CHRIST (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T68",
         "questionStart": 57,
         "questionEnd": 57,
         "durationSeconds": 2624
@@ -4918,6 +5453,7 @@ window.SUMMA_VOLUMES = [
         "track": 69,
         "title": "69 - Question 58 - OF CHRIST'S SITTING AT THE RIGHT HAND OF THE FATHER (In Four Articles)",
         "file": "../audio/vol13/69 - Question 58 - OF CHRIST'S SITTING AT THE RIGHT HAND OF THE FATHER (In Four Artic.mp3",
+        "audioFile": "ST-VOL13-T69",
         "questionStart": 58,
         "questionEnd": 58,
         "durationSeconds": 1466
@@ -4926,6 +5462,7 @@ window.SUMMA_VOLUMES = [
         "track": 70,
         "title": "70 - Question 59 - OF CHRIST'S JUDICIARY POWER (In Six Articles)",
         "file": "../audio/vol13/70 - Question 59 - OF CHRIST'S JUDICIARY POWER (In Six Articles).mp3",
+        "audioFile": "ST-VOL13-T70",
         "questionStart": 59,
         "questionEnd": 59,
         "durationSeconds": 2573
@@ -4979,6 +5516,7 @@ window.SUMMA_VOLUMES = [
         "track": 1,
         "title": "01 - Question 60 - WHAT IS A SACRAMENT (In Eight Articles)",
         "file": "../audio/vol14/01 - Question 60 - WHAT IS A SACRAMENT (In Eight Articles).mp3",
+        "audioFile": "ST-VOL14-T01",
         "questionStart": 60,
         "questionEnd": 60,
         "durationSeconds": 3105
@@ -4987,6 +5525,7 @@ window.SUMMA_VOLUMES = [
         "track": 2,
         "title": "02 - Question 61 - THE NECESSITY OF THE SACRAMENTS (In Four Articles)",
         "file": "../audio/vol14/02 - Question 61 - THE NECESSITY OF THE SACRAMENTS (In Four Articles).mp3",
+        "audioFile": "ST-VOL14-T02",
         "questionStart": 61,
         "questionEnd": 61,
         "durationSeconds": 1285
@@ -4995,6 +5534,7 @@ window.SUMMA_VOLUMES = [
         "track": 3,
         "title": "03 - Question 62 - THE SACRAMENTS' PRINCIPAL EFFECT, WHICH IS GRACE (In Six Articles)",
         "file": "../audio/vol14/03 - Question 62 - THE SACRAMENTS' PRINCIPAL EFFECT, WHICH IS GRACE (In Six Articles).mp3",
+        "audioFile": "ST-VOL14-T03",
         "questionStart": 62,
         "questionEnd": 62,
         "durationSeconds": 2383
@@ -5003,6 +5543,7 @@ window.SUMMA_VOLUMES = [
         "track": 4,
         "title": "04 - Question 63 - THE OTHER EFFECT OF THE SACRAMENTS, WHICH IS A CHARACTER (In Six Articles)",
         "file": "../audio/vol14/04 - Question 63 - THE OTHER EFFECT OF THE SACRAMENTS, WHICH IS A CHARACTER (In Six A.mp3",
+        "audioFile": "ST-VOL14-T04",
         "questionStart": 63,
         "questionEnd": 63,
         "durationSeconds": 2308
@@ -5011,6 +5552,7 @@ window.SUMMA_VOLUMES = [
         "track": 5,
         "title": "05 - Question 64 - THE CAUSES OF THE SACRAMENTS (In Ten Articles), part 1",
         "file": "../audio/vol14/05 - Question 64 - THE CAUSES OF THE SACRAMENTS (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL14-T05",
         "questionStart": 64,
         "questionEnd": 64,
         "durationSeconds": 1856
@@ -5019,6 +5561,7 @@ window.SUMMA_VOLUMES = [
         "track": 6,
         "title": "06 - Question 64 - THE CAUSES OF THE SACRAMENTS (In Ten Articles), part 2",
         "file": "../audio/vol14/06 - Question 64 - THE CAUSES OF THE SACRAMENTS (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL14-T06",
         "questionStart": 64,
         "questionEnd": 64,
         "durationSeconds": 1854
@@ -5027,6 +5570,7 @@ window.SUMMA_VOLUMES = [
         "track": 7,
         "title": "07 - Question 65 - THE NUMBER OF THE SACRAMENTS (In Four Articles)",
         "file": "../audio/vol14/07 - Question 65 - THE NUMBER OF THE SACRAMENTS (In Four Articles).mp3",
+        "audioFile": "ST-VOL14-T07",
         "questionStart": 65,
         "questionEnd": 65,
         "durationSeconds": 1941
@@ -5035,6 +5579,7 @@ window.SUMMA_VOLUMES = [
         "track": 8,
         "title": "08 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 1",
         "file": "../audio/vol14/08 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL14-T08",
         "questionStart": 66,
         "questionEnd": 66,
         "durationSeconds": 1884
@@ -5043,6 +5588,7 @@ window.SUMMA_VOLUMES = [
         "track": 9,
         "title": "09 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 2",
         "file": "../audio/vol14/09 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL14-T09",
         "questionStart": 66,
         "questionEnd": 66,
         "durationSeconds": 1837
@@ -5051,6 +5597,7 @@ window.SUMMA_VOLUMES = [
         "track": 10,
         "title": "10 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 3",
         "file": "../audio/vol14/10 - Question 66 - THE SACRAMENT OF BAPTISM (In Twelve Articles), part 3.mp3",
+        "audioFile": "ST-VOL14-T10",
         "questionStart": 66,
         "questionEnd": 66,
         "durationSeconds": 1648
@@ -5059,6 +5606,7 @@ window.SUMMA_VOLUMES = [
         "track": 11,
         "title": "11 - Question 67 - THE MINISTERS BY WHOM THE SACRAMENT OF BAPTISM IS CONFERRED (In Eight Articles)",
         "file": "../audio/vol14/11 - Question 67 - THE MINISTERS BY WHOM THE SACRAMENT OF BAPTISM IS CONFERRED (In Ei.mp3",
+        "audioFile": "ST-VOL14-T11",
         "questionStart": 67,
         "questionEnd": 67,
         "durationSeconds": 2478
@@ -5067,6 +5615,7 @@ window.SUMMA_VOLUMES = [
         "track": 12,
         "title": "12 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 1",
         "file": "../audio/vol14/12 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL14-T12",
         "questionStart": 68,
         "questionEnd": 68,
         "durationSeconds": 2254
@@ -5075,6 +5624,7 @@ window.SUMMA_VOLUMES = [
         "track": 13,
         "title": "13 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 2",
         "file": "../audio/vol14/13 - Question 68 - THOSE WHO RECEIVE BAPTISM (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL14-T13",
         "questionStart": 68,
         "questionEnd": 68,
         "durationSeconds": 2068
@@ -5083,6 +5633,7 @@ window.SUMMA_VOLUMES = [
         "track": 14,
         "title": "14 - Question 69 - THE EFFECTS OF BAPTISM (In Ten Articles), part 1",
         "file": "../audio/vol14/14 - Question 69 - THE EFFECTS OF BAPTISM (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL14-T14",
         "questionStart": 69,
         "questionEnd": 69,
         "durationSeconds": 1664
@@ -5091,6 +5642,7 @@ window.SUMMA_VOLUMES = [
         "track": 15,
         "title": "15 - Question 69 - THE EFFECTS OF BAPTISM (In Ten Articles), part 2",
         "file": "../audio/vol14/15 - Question 69 - THE EFFECTS OF BAPTISM (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL14-T15",
         "questionStart": 69,
         "questionEnd": 69,
         "durationSeconds": 1581
@@ -5099,6 +5651,7 @@ window.SUMMA_VOLUMES = [
         "track": 16,
         "title": "16 - Question 70 - CIRCUMCISION (In Four Articles)",
         "file": "../audio/vol14/16 - Question 70 - CIRCUMCISION (In Four Articles).mp3",
+        "audioFile": "ST-VOL14-T16",
         "questionStart": 70,
         "questionEnd": 70,
         "durationSeconds": 1664
@@ -5107,6 +5660,7 @@ window.SUMMA_VOLUMES = [
         "track": 17,
         "title": "17 - Question 71 - THE PREPARATIONS THAT ACCOMPANY BAPTISM (In Four Articles)",
         "file": "../audio/vol14/17 - Question 71 - THE PREPARATIONS THAT ACCOMPANY BAPTISM (In Four Articles).mp3",
+        "audioFile": "ST-VOL14-T17",
         "questionStart": 71,
         "questionEnd": 71,
         "durationSeconds": 1274
@@ -5115,6 +5669,7 @@ window.SUMMA_VOLUMES = [
         "track": 18,
         "title": "18 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 1",
         "file": "../audio/vol14/18 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 1.mp3",
+        "audioFile": "ST-VOL14-T18",
         "questionStart": 72,
         "questionEnd": 72,
         "durationSeconds": 2314
@@ -5123,6 +5678,7 @@ window.SUMMA_VOLUMES = [
         "track": 19,
         "title": "19 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 2",
         "file": "../audio/vol14/19 - Question 72 - THE SACRAMENT OF CONFIRMATION (In Twelve Articles), part 2.mp3",
+        "audioFile": "ST-VOL14-T19",
         "questionStart": 72,
         "questionEnd": 72,
         "durationSeconds": 1858
@@ -5131,6 +5687,7 @@ window.SUMMA_VOLUMES = [
         "track": 20,
         "title": "20 - Question 73 - THE SACRAMENT OF THE EUCHARIST (In Six Articles)",
         "file": "../audio/vol14/20 - Question 73 - THE SACRAMENT OF THE EUCHARIST (In Six Articles).mp3",
+        "audioFile": "ST-VOL14-T20",
         "questionStart": 73,
         "questionEnd": 73,
         "durationSeconds": 2027
@@ -5139,6 +5696,7 @@ window.SUMMA_VOLUMES = [
         "track": 21,
         "title": "21 - Question 74 - THE MATTER OF THIS SACRAMENT (In Eight Articles)",
         "file": "../audio/vol14/21 - Question 74 - THE MATTER OF THIS SACRAMENT (In Eight Articles).mp3",
+        "audioFile": "ST-VOL14-T21",
         "questionStart": 74,
         "questionEnd": 74,
         "durationSeconds": 2594
@@ -5147,6 +5705,7 @@ window.SUMMA_VOLUMES = [
         "track": 22,
         "title": "22 - Question 75 - THE CHANGE OF BREAD AND WINE INTO THE BODY AND BLOOD OF CHRIST (In Eight Articles)",
         "file": "../audio/vol14/22 - Question 75 - THE CHANGE OF BREAD AND WINE INTO THE BODY AND BLOOD OF CHRIST (In.mp3",
+        "audioFile": "ST-VOL14-T22",
         "questionStart": 75,
         "questionEnd": 75,
         "durationSeconds": 3720
@@ -5155,6 +5714,7 @@ window.SUMMA_VOLUMES = [
         "track": 23,
         "title": "23 - Question 76 - THE WAY IN WHICH CHRIST IS IN THIS SACRAMENT (In Eight Articles)",
         "file": "../audio/vol14/23 - Question 76 - THE WAY IN WHICH CHRIST IS IN THIS SACRAMENT (In Eight Articles).mp3",
+        "audioFile": "ST-VOL14-T23",
         "questionStart": 76,
         "questionEnd": 76,
         "durationSeconds": 2901
@@ -5163,6 +5723,7 @@ window.SUMMA_VOLUMES = [
         "track": 24,
         "title": "24 - Question 77 - THE ACCIDENTS WHICH REMAIN IN THIS SACRAMENT (In Eight Articles)",
         "file": "../audio/vol14/24 - Question 77 - THE ACCIDENTS WHICH REMAIN IN THIS SACRAMENT (In Eight Articles).mp3",
+        "audioFile": "ST-VOL14-T24",
         "questionStart": 77,
         "questionEnd": 77,
         "durationSeconds": 3522
@@ -5171,6 +5732,7 @@ window.SUMMA_VOLUMES = [
         "track": 25,
         "title": "25 - Question 78 - THE FORM OF THIS SACRAMENT (In Six Articles)",
         "file": "../audio/vol14/25 - Question 78 - THE FORM OF THIS SACRAMENT (In Six Articles).mp3",
+        "audioFile": "ST-VOL14-T25",
         "questionStart": 78,
         "questionEnd": 78,
         "durationSeconds": 3329
@@ -5179,6 +5741,7 @@ window.SUMMA_VOLUMES = [
         "track": 26,
         "title": "26 - Question 79 - THE EFFECTS OF THIS SACRAMENT (In Eight Articles)",
         "file": "../audio/vol14/26 - Question 79 - THE EFFECTS OF THIS SACRAMENT (In Eight Articles).mp3",
+        "audioFile": "ST-VOL14-T26",
         "questionStart": 79,
         "questionEnd": 79,
         "durationSeconds": 2811
@@ -5187,6 +5750,7 @@ window.SUMMA_VOLUMES = [
         "track": 27,
         "title": "27 - Question 80 - THE USE OR RECEIVING OF THIS SACRAMENT IN GENERAL (In Twelve Articles), part 1",
         "file": "../audio/vol14/27 - Question 80 - THE USE OR RECEIVING OF THIS SACRAMENT IN GENERAL (In Twelve Artic.mp3",
+        "audioFile": "ST-VOL14-T27",
         "questionStart": 80,
         "questionEnd": 80,
         "durationSeconds": 2824
@@ -5195,6 +5759,7 @@ window.SUMMA_VOLUMES = [
         "track": 28,
         "title": "28 - Question 80 - THE USE OR RECEIVING OF THIS SACRAMENT IN GENERAL (In Twelve Articles), part 2",
         "file": "../audio/vol14/28 - Question 80 - THE USE OR RECEIVING OF THIS SACRAMENT IN GENERAL (In Twelve Artic.mp3",
+        "audioFile": "ST-VOL14-T28",
         "questionStart": 80,
         "questionEnd": 80,
         "durationSeconds": 2934
@@ -5203,6 +5768,7 @@ window.SUMMA_VOLUMES = [
         "track": 29,
         "title": "29 - Question 81 - THE USE WHICH CHRIST MADE OF THIS SACRAMENT AT ITS INSTITUTION (In Four Articles)",
         "file": "../audio/vol14/29 - Question 81 - THE USE WHICH CHRIST MADE OF THIS SACRAMENT AT ITS INSTITUTION (In.mp3",
+        "audioFile": "ST-VOL14-T29",
         "questionStart": 81,
         "questionEnd": 81,
         "durationSeconds": 1361
@@ -5211,6 +5777,7 @@ window.SUMMA_VOLUMES = [
         "track": 30,
         "title": "30 - Question 82 - THE MINISTER OF THIS SACRAMENT (In Ten Articles)",
         "file": "../audio/vol14/30 - Question 82 - THE MINISTER OF THIS SACRAMENT (In Ten Articles).mp3",
+        "audioFile": "ST-VOL14-T30",
         "questionStart": 82,
         "questionEnd": 82,
         "durationSeconds": 3208
@@ -5219,6 +5786,7 @@ window.SUMMA_VOLUMES = [
         "track": 31,
         "title": "31 - Question 83 - THE RITE OF THIS SACRAMENT (In Six Articles), part 1",
         "file": "../audio/vol14/31 - Question 83 - THE RITE OF THIS SACRAMENT (In Six Articles), part 1.mp3",
+        "audioFile": "ST-VOL14-T31",
         "questionStart": 83,
         "questionEnd": 83,
         "durationSeconds": 2184
@@ -5227,6 +5795,7 @@ window.SUMMA_VOLUMES = [
         "track": 32,
         "title": "32 - Question 83 - THE RITE OF THIS SACRAMENT (In Six Articles), part 2",
         "file": "../audio/vol14/32 - Question 83 - THE RITE OF THIS SACRAMENT (In Six Articles), part 2.mp3",
+        "audioFile": "ST-VOL14-T32",
         "questionStart": 83,
         "questionEnd": 83,
         "durationSeconds": 3446
@@ -5235,6 +5804,7 @@ window.SUMMA_VOLUMES = [
         "track": 33,
         "title": "33 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 1",
         "file": "../audio/vol14/33 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 1.mp3",
+        "audioFile": "ST-VOL14-T33",
         "questionStart": 84,
         "questionEnd": 84,
         "durationSeconds": 2064
@@ -5243,6 +5813,7 @@ window.SUMMA_VOLUMES = [
         "track": 34,
         "title": "34 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 2",
         "file": "../audio/vol14/34 - Question 84 - THE SACRAMENT OF PENANCE (In Ten Articles), part 2.mp3",
+        "audioFile": "ST-VOL14-T34",
         "questionStart": 84,
         "questionEnd": 84,
         "durationSeconds": 2204
@@ -5251,6 +5822,7 @@ window.SUMMA_VOLUMES = [
         "track": 35,
         "title": "35 - Question 85 - PENANCE AS A VIRTUE (In Six Articles)",
         "file": "../audio/vol14/35 - Question 85 - PENANCE AS A VIRTUE (In Six Articles).mp3",
+        "audioFile": "ST-VOL14-T35",
         "questionStart": 85,
         "questionEnd": 85,
         "durationSeconds": 2005
@@ -5259,6 +5831,7 @@ window.SUMMA_VOLUMES = [
         "track": 36,
         "title": "36 - Question 86 - THE EFFECT OF PENANCE, AS REGARDS THE PARDON OF MORTAL SIN (In Six Articles)",
         "file": "../audio/vol14/36 - Question 86 - THE EFFECT OF PENANCE, AS REGARDS THE PARDON OF MORTAL SIN (In Six.mp3",
+        "audioFile": "ST-VOL14-T36",
         "questionStart": 86,
         "questionEnd": 86,
         "durationSeconds": 2310
@@ -5267,6 +5840,7 @@ window.SUMMA_VOLUMES = [
         "track": 37,
         "title": "37 - Question 87 - THE REMISSION OF VENIAL SIN (In Four Articles)",
         "file": "../audio/vol14/37 - Question 87 - THE REMISSION OF VENIAL SIN (In Four Articles).mp3",
+        "audioFile": "ST-VOL14-T37",
         "questionStart": 87,
         "questionEnd": 87,
         "durationSeconds": 1178
@@ -5275,6 +5849,7 @@ window.SUMMA_VOLUMES = [
         "track": 38,
         "title": "38 - Question 88 - THE RETURN OF SINS WHICH HAVE BEEN TAKEN AWAY BY PENANCE (In Four Articles)",
         "file": "../audio/vol14/38 - Question 88 - THE RETURN OF SINS WHICH HAVE BEEN TAKEN AWAY BY PENANCE (In Four .mp3",
+        "audioFile": "ST-VOL14-T38",
         "questionStart": 88,
         "questionEnd": 88,
         "durationSeconds": 1671
@@ -5283,6 +5858,7 @@ window.SUMMA_VOLUMES = [
         "track": 39,
         "title": "39 - Question 89 - THE RECOVERY OF VIRTUE BY MEANS OF PENANCE (In Six Articles)",
         "file": "../audio/vol14/39 - Question 89 - THE RECOVERY OF VIRTUE BY MEANS OF PENANCE (In Six Articles).mp3",
+        "audioFile": "ST-VOL14-T39",
         "questionStart": 89,
         "questionEnd": 89,
         "durationSeconds": 2321
@@ -5291,6 +5867,7 @@ window.SUMMA_VOLUMES = [
         "track": 40,
         "title": "40 - Question 90 - THE PARTS OF PENANCE, IN GENERAL (In Four Articles)",
         "file": "../audio/vol14/40 - Question 90 - THE PARTS OF PENANCE, IN GENERAL (In Four Articles).mp3",
+        "audioFile": "ST-VOL14-T40",
         "questionStart": 90,
         "questionEnd": 90,
         "durationSeconds": 1266

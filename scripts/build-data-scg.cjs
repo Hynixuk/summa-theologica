@@ -71,7 +71,12 @@ function main() {
         title: c.title,
         paragraphs: c.paragraphs,
         hasAudio: !!track,
-        audioFile: track ? `../audio/scg_book${book}/${track.file}` : null,
+        // 'SCG-' prefix keeps this in its own AUDIO_URLS namespace: scgKey()
+        // and metaKey() both produce plain "B{book}C{chapter}" (they're
+        // literally the same format), so an unprefixed key here would
+        // collide with Metaphysics' identical-looking chapter keys in the
+        // single flat AUDIO_URLS map.
+        audioFile: track ? `SCG-${key}` : null,
         durationSeconds: track ? track.durationSeconds : null,
       };
       textIndex[key] = entry;
