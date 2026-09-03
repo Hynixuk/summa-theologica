@@ -17512,6 +17512,252 @@ window.QUIZZES = {
     ]
   },
   "scg": {
+  "B1C13": [
+  {
+    "q": "What two ways does Aristotle use the fact of motion to argue for an unmoved first mover?",
+    "options": [
+      "By showing that motion is either eternal or created, and only an eternal mover fits the second option",
+      "By arguing from the impossibility of an infinite regress of moved movers, and separately from the distinction between motion in act and potency",
+      "By appealing to the harmony of the celestial spheres as evidence of a single conductor",
+      "By showing that all natural bodies desire rest, which only a first unmoved cause could grant"
+    ],
+    "correct": 1,
+    "explanation": "Aquinas presents Aristotle's two approaches from motion: one argues that a chain of moved movers cannot regress to infinity and so must terminate in an unmoved first mover, the other reasons from the nature of act and potency in motion to the same conclusion."
+  },
+  {
+    "q": "Why, according to the chapter's opening argument, can a series of moved movers not proceed to infinity?",
+    "options": [
+      "Because infinity is logically impossible in mathematics generally",
+      "Because if there were no first mover, none of the intermediate movers could actually move anything, since their power to move depends on being moved by a prior mover",
+      "Because ancient astronomy had already measured the universe as finite",
+      "Because Scripture explicitly forbids the idea of an endless chain of causes"
+    ],
+    "correct": 1,
+    "explanation": "Aquinas argues that intermediate movers move only insofar as they are themselves moved by a prior mover; without a first, unmoved source of motion, no motion in the chain would actually occur, so an infinite regress with no first term is impossible."
+  },
+  {
+    "q": "What conclusion does Aquinas draw from these arguments about the nature of the first mover?",
+    "options": [
+      "That there must be several co-equal first movers, one for each kind of motion",
+      "That the first mover must itself be moved by a higher power we cannot know",
+      "That there must be a single first mover, itself unmoved, and this we call God",
+      "That the first mover is identical with the material universe itself"
+    ],
+    "correct": 2,
+    "explanation": "Having excluded an infinite regress, Aquinas concludes that there must be some first mover which is not itself moved by anything else, and this unmoved first mover is what is meant by God."
+  }
+],
+  "B3C158": [
+  {
+    "q": "Why does Aquinas say that a man freed from sin must withdraw from sin not only in his external acts but chiefly in his will?",
+    "options": [
+      "Because external acts are irrelevant to salvation entirely",
+      "Because man is directed to his last end principally through his will, so it is the will's turning away from sin that constitutes true conversion",
+      "Because only bodily withdrawal from occasions of sin matters, not internal disposition",
+      "Because Aquinas held that the will has no real role in sin at all"
+    ],
+    "correct": 1,
+    "explanation": "Since man is ordered to his ultimate end chiefly through the will, freedom from sin requires the will itself to turn away from sin, not merely an outward absence of sinful acts."
+  },
+  {
+    "q": "According to this chapter, what is required alongside turning from sin for a man to be truly freed from it?",
+    "options": [
+      "A return, by grace, to the state of righteousness from which he had departed",
+      "A complete forgetting of the sin ever having occurred",
+      "A public confession before the whole community without exception",
+      "An automatic removal of all consequences of sin without further cooperation"
+    ],
+    "correct": 0,
+    "explanation": "Aquinas presents freedom from sin as a return to righteousness by the aid of grace, not merely a negative withdrawal from wrongdoing but a positive reordering toward the good."
+  },
+  {
+    "q": "What does the chapter imply about the relationship between grace and man's own action in this process?",
+    "options": [
+      "Grace acts entirely without any cooperation from man's will",
+      "Man's withdrawal from sin and return to righteousness happens with the aid of grace, suggesting a cooperative relationship rather than one acting to the total exclusion of the other",
+      "Man's own effort alone suffices without any grace",
+      "The chapter denies that grace has any role in this process"
+    ],
+    "correct": 1,
+    "explanation": "The chapter frames the return to righteousness as happening 'by the aid of grace,' indicating that grace assists man's will rather than either acting alone or being unnecessary."
+  }
+],
+  "B3C159": [
+  {
+    "q": "According to this chapter, what effect does a vehement love of God combined with intense sorrow for sin have on the punishment due to sin?",
+    "options": [
+      "It has no effect on punishment, which remains fixed regardless of interior disposition",
+      "It increases the punishment owed, since greater love makes past sin more culpable",
+      "It can remove or lessen the need for satisfactory or purgatorial punishment, in proportion to its vehemence",
+      "It replaces punishment with a formal legal pardon issued by the Church alone"
+    ],
+    "correct": 2,
+    "explanation": "Aquinas teaches that a sufficiently vehement love of God and hatred of past sin can remove the need for punishment (satisfactory or purgatorial) altogether, and lesser degrees of fervor correspondingly lessen what is required."
+  },
+  {
+    "q": "What comparison does the chapter draw between what we do for friends and what this implies about acts of love toward God?",
+    "options": [
+      "That love of friends and love of God are entirely unrelated and cannot be compared",
+      "That what we do for our friends, we do in some sense also for God, suggesting acts of charity toward others have a bearing on our relationship with God",
+      "That friendship is a distraction from the love of God and should be avoided",
+      "That only love of God matters and human friendship carries no spiritual weight"
+    ],
+    "correct": 1,
+    "explanation": "The chapter draws an analogy between deeds done for friends and deeds that pertain to our love of God, indicating that genuine charity toward others is bound up with, rather than opposed to, love of God."
+  },
+  {
+    "q": "Why might the degree of fervor in contrition matter for how much punishment remains owed, according to this reasoning?",
+    "options": [
+      "Because fervor is purely emotional and has no bearing on justice",
+      "Because the more vehement the love and sorrow, the more they can substitute for or diminish the satisfaction otherwise required, even if not enough to remove all punishment",
+      "Because fervor only affects punishment in the next life, never in this one",
+      "Because Aquinas held that punishment is entirely unrelated to interior disposition"
+    ],
+    "correct": 1,
+    "explanation": "The chapter presents contrition's fervor as operating on a scale: even where it is not intense enough to remove all punishment, greater fervor still reduces what remains due, showing a proportional relationship."
+  }
+],
+  "B3C160": [
+  {
+    "q": "According to this chapter, in whom does the claim 'free-will can offer no obstacle to grace' properly apply?",
+    "options": [
+      "In all men equally, regardless of their moral history",
+      "Only in those whose natural power of will retains its integrity, not disordered by previous sin",
+      "Only in those who have never sinned at all, i.e. no one but Christ",
+      "In no one, since Aquinas denies free-will can ever cooperate with grace"
+    ],
+    "correct": 1,
+    "explanation": "Aquinas qualifies the principle: it holds for those whose natural power has not been previously disordered; where sin has already corrupted the will's ordinary function, the will's capacity to avoid all obstacles to grace is impaired."
+  },
+  {
+    "q": "What distinction does Aquinas draw about a sinner's power to refrain from evil?",
+    "options": [
+      "A sinner has no power whatsoever to refrain from any sinful act",
+      "A man can, by his own power, refrain from a particular sinful act at a given moment, but this does not mean he can wholly avoid every obstacle to grace without further help",
+      "A sinner's power to refrain from sin is identical to that of one who has never sinned",
+      "Refraining from a single act automatically frees a man from the effects of habitual sin"
+    ],
+    "correct": 1,
+    "explanation": "The chapter distinguishes between the limited power to avoid a particular sinful act by one's own strength, and the broader inability of a will already disordered by sin to avoid every obstacle to grace without assistance."
+  },
+  {
+    "q": "What does this chapter conclude about a man already in sin trying to avoid sin entirely by his own power?",
+    "options": [
+      "He can do so easily and grace is not strictly necessary",
+      "He cannot avoid sin without grace, since his disordered will's own natural power is insufficient for complete avoidance of sin",
+      "He can avoid sin only by ceasing to have any free-will at all",
+      "The chapter never addresses this question directly"
+    ],
+    "correct": 1,
+    "explanation": "The chapter's title states the conclusion directly: a man who is in sin cannot avoid sin without grace, because his will's natural power alone, once disordered, is not sufficient for the task."
+  }
+],
+  "B3C161": [
+  {
+    "q": "How does Aquinas explain that God can assist even those who, by sinning, place an obstacle to grace?",
+    "options": [
+      "God is bound by the ordinary order of things and can never help such people",
+      "Since God can act independently of the order He has implanted in things (as when He enlightens the blind or raises the dead), He can, of His bounty, still come to the aid of those who obstruct grace",
+      "God helps such people only if they first perform a specific ritual",
+      "Aquinas denies that God ever helps anyone who has placed an obstacle to grace"
+    ],
+    "correct": 1,
+    "explanation": "Aquinas notes that God, while normally working through the order He has established, is not confined by it, and can therefore mercifully assist even those who by their sin have set up obstacles to grace."
+  },
+  {
+    "q": "According to the chapter's title, what does God do regarding sinners in general?",
+    "options": [
+      "He delivers all sinners from sin without exception",
+      "He delivers some from sin and leaves others in sin",
+      "He leaves all sinners in their sin permanently",
+      "He removes the possibility of sin from human nature entirely"
+    ],
+    "correct": 1,
+    "explanation": "The chapter's very title states Aquinas's conclusion: God delivers some from sin by grace while, in His justice, leaving others in the sin they have chosen and merited."
+  },
+  {
+    "q": "What is implied about the fittingness of sinners not receiving grace, given the order of things?",
+    "options": [
+      "That the order of things demands sinners never receive grace under any circumstance",
+      "That, so far as the ordinary order demands, one who sins by placing an obstacle 'ought not' to receive grace, though God can still act beyond that order",
+      "That the order of things is irrelevant to whether grace is given",
+      "That every sinner is owed grace as a matter of strict justice"
+    ],
+    "correct": 1,
+    "explanation": "The chapter acknowledges that, strictly following the order established in things, a sinner who obstructs grace would not be owed it — yet this does not bind God, who can act beyond that order out of mercy."
+  }
+],
+  "B3C162": [
+  {
+    "q": "Why does Aquinas insist that God is not the cause of any man sinning, even when God does not convert certain sinners to Himself?",
+    "options": [
+      "Because God's non-conversion of a sinner is identical to actively causing their sin",
+      "Because every agent acts for an end proper to itself, and it is impossible for God, by His own action, to turn anyone away from his last end, which is God Himself",
+      "Because sin does not actually exist according to Aquinas",
+      "Because God has no knowledge of individual sinners' actions"
+    ],
+    "correct": 1,
+    "explanation": "Aquinas reasons that since every agent's action is proportioned to its own end, and God's proper end for rational creatures is Himself, it is impossible that God's own action would be the cause of turning someone away from that very end through sin."
+  },
+  {
+    "q": "What does Aquinas say happens to sinners whom God 'leaves in their sins'?",
+    "options": [
+      "God actively causes them to sin further",
+      "They are left as they deserve to be, but this leaving is not the same as God causing or leading them to sin",
+      "They cease to have free-will entirely",
+      "They are immediately annihilated"
+    ],
+    "correct": 1,
+    "explanation": "The chapter distinguishes between God permissively leaving someone in the sin they deserve through their own choice, and God actively leading or causing that sin — only the former is affirmed, not the latter."
+  },
+  {
+    "q": "How does this chapter's argument connect to Aquinas's earlier claim that man sins by wandering from his last end?",
+    "options": [
+      "It has no connection; the two claims are treated as unrelated",
+      "It uses that earlier claim as the basis for showing God cannot be the cause of sin, since sin is a wandering from the very end (God) toward which God's own action is directed",
+      "It contradicts the earlier claim by asserting man's last end is not God",
+      "It replaces the earlier claim with an entirely different definition of sin"
+    ],
+    "correct": 1,
+    "explanation": "Aquinas builds directly on his earlier point that sin consists in wandering from one's last end; since God acts to direct creatures toward that very end (Himself), it would be self-contradictory for God's action to be the cause of the wandering that constitutes sin."
+  }
+],
+  "B3C163": [
+  {
+    "q": "What does Aquinas mean by 'predestination' in the context established by the preceding chapters?",
+    "options": [
+      "A random, unexplainable selection with no basis in God's wisdom",
+      "The ordering, foreseen and arranged from eternity by God's wisdom, by which some are directed with the assistance of grace to their last end",
+      "A concept Aquinas rejects entirely as incompatible with free-will",
+      "A purely human process with no divine involvement"
+    ],
+    "correct": 1,
+    "explanation": "Building on the previous chapters, Aquinas presents predestination as part of God's eternal, wise ordering by which some are, with the help of grace, directed toward their last end."
+  },
+  {
+    "q": "According to this chapter, why does the distinction between those who reach their last end and those who fail to reach it ultimately trace back to God's eternal ordering?",
+    "options": [
+      "Because everything God does has been foreseen and ordered from eternity by His wisdom, as Aquinas has already proved",
+      "Because the distinction is purely accidental and has no ultimate explanation",
+      "Because only human free choices determine the distinction, with no reference to God at all",
+      "Because Aquinas held that all men reach their last end equally"
+    ],
+    "correct": 0,
+    "explanation": "The chapter grounds the difference between the predestined and the reprobate in the fact that all divine action, including the granting or withholding of grace, has been ordered by God's wisdom from eternity."
+  },
+  {
+    "q": "What three terms does the chapter's title bring together as aspects of this same eternal ordering?",
+    "options": [
+      "Predestination, reprobation, and the divine election",
+      "Predestination, purgation, and beatification",
+      "Election, damnation, and annihilation",
+      "Foreknowledge, contingency, and necessity"
+    ],
+    "correct": 0,
+    "explanation": "The chapter's title names predestination (the ordering of some to their last end by grace), reprobation (the leaving of others without it), and divine election (God's choice in this ordering) as related aspects of the one eternal divine plan discussed here."
+  }
+],
+
     "B3C1": [
       {
         "q": "According to the Foreword, why does God exercise 'perfect dominion' over the things He has made?",
