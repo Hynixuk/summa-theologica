@@ -17,6 +17,9 @@
   var metaBooks = window.METAPHYSICS_BOOKS || [];
   var metaTextIndex = window.METAPHYSICS_TEXT || {};
 
+  var trinBooks = window.TRINITY_BOOKS || [];
+  var trinTextIndex = window.TRINITY_TEXT || {};
+
   var topicsData = window.TOPICS || { categories: [] };
   var quizData = window.QUIZZES || { st: {}, scg: {}, metaphysics: {} };
   var summaryData = window.SUMMARIES || { st: {}, scg: {}, metaphysics: {} };
@@ -25,8 +28,9 @@
 
   // ---- Read-tracking (persisted) ----
   // All works share one localStorage set — keys are plain strings and the three
-  // schemes ("P1Q1A1" for ST, "SCG-B1C1" for SCG, "META-B1C1" for Metaphysics) can
-  // never collide, so no migration or separate storage key is needed.
+  // schemes ("P1Q1A1" for ST, "SCG-B1C1" for SCG, "META-B1C1" for Metaphysics,
+  // "TRIN-B1C1" for On the Trinity) can never collide, so no migration or
+  // separate storage key is needed.
   var readSet = new Set();
   try { readSet = new Set(JSON.parse(localStorage.getItem('summa-read') || '[]')); } catch (e) {}
   function readKey(part, q, a) { return 'P' + part + 'Q' + q + 'A' + a; }
@@ -52,6 +56,14 @@
   function isReadMeta(book, chapter) { return readSet.has(metaReadKey(book, chapter)); }
   function setReadMeta(book, chapter, val) {
     var k = metaReadKey(book, chapter);
+    if (val) readSet.add(k); else readSet.delete(k);
+    saveRead();
+  }
+
+  function trinReadKey(book, chapter) { return 'TRIN-B' + book + 'C' + chapter; }
+  function isReadTrin(book, chapter) { return readSet.has(trinReadKey(book, chapter)); }
+  function setReadTrin(book, chapter, val) {
+    var k = trinReadKey(book, chapter);
     if (val) readSet.add(k); else readSet.delete(k);
     saveRead();
   }
@@ -104,6 +116,12 @@
   function questionKey(part, q) { return 'P' + part + 'Q' + q; }
   function scgKey(book, chapter) { return 'B' + book + 'C' + chapter; }
   function metaKey(book, chapter) { return 'B' + book + 'C' + chapter; }
+  // Unlike scgKey/metaKey, the TRINITY_TEXT index (see build-data-trinity.cjs)
+  // is itself keyed by the full "TRIN-B{book}C{chapter}" string (not a plain
+  // "B{book}C{chapter}") so it doubles as the AUDIO_URLS lookup key too —
+  // there's no bare-key collision risk to work around here since this
+  // function's result is never used unprefixed.
+  function trinKey(book, chapter) { return 'TRIN-B' + book + 'C' + chapter; }
 
   // Flat, ordered list of every SCG chapter we have text for — the "page" sequence
   // for SCG, one page = one chapter (SCG has no article-level subdivision).
@@ -206,6 +224,45 @@
     return -1;
   }
 
+  // Flat, ordered list of every "On the Trinity" chapter we have text for — the
+  // "page" sequence for Trinity, one page = one chapter (no article-level
+  // subdivision; chapter 0, where present, is a book's unnumbered
+  // Introduction/Preface). Audio is generated one file per chapter (no
+  // sharing across chapters like Metaphysics), so this mirrors allChaptersSCG
+  // rather than the track-aware allChaptersMeta.
+  var allChaptersTrin = [];
+  trinBooks.forEach(function (b) {
+    (b.chapters || []).forEach(function (c) {
+      var full = trinTextIndex[trinKey(b.book, c.chapter)];
+      var text = full && full.paragraphs ? full.paragraphs.map(function (p) { return p.text; }).join(' ') : '';
+      var wordCount = text ? text.trim().split(/\s+/).length : 0;
+      allChaptersTrin.push({ book: b.book, chapter: c.chapter, wordCount: wordCount });
+    });
+  });
+
+  function chapterIndexTrin(book, chapterNum) {
+    for (var i = 0; i < allChaptersTrin.length; i++) {
+      var c = allChaptersTrin[i];
+      if (c.book === book && c.chapter === chapterNum) return i;
+    }
+    return -1;
+  }
+
+  // Minutes of estimated reading time remaining from index `fromIdx` (inclusive) in the
+  // Trinity chapter sequence. scope 'book' stops at the end of the current book; scope
+  // 'work' runs to the end of all 15 books.
+  function remainingMinutesTrin(fromIdx, scope) {
+    if (fromIdx < 0) return 0;
+    var anchor = allChaptersTrin[fromIdx];
+    var words = 0;
+    for (var i = fromIdx; i < allChaptersTrin.length; i++) {
+      var item = allChaptersTrin[i];
+      if (scope === 'book' && item.book !== anchor.book) break;
+      words += item.wordCount;
+    }
+    return words / WPM;
+  }
+
   // Human-friendly label derived from an audio file's name, e.g.
   // "../audio/metaphysics/02 - Book I Chapters 4-7.mp3" -> "Book I Chapters 4-7".
   function trackLabelFromFile(file) {
@@ -235,12 +292,12 @@
 
   // ---- State ----
   var state = {
-    work: 'ST', // 'ST' (Summa Theologica), 'SCG' (Summa Contra Gentiles), or 'META' (Aristotle's Metaphysics)
+    work: 'ST', // 'ST' (Summa Theologica), 'SCG' (Summa Contra Gentiles), 'META' (Aristotle's Metaphysics), or 'TRIN' (Augustine's On the Trinity)
     part: null,
     question: null,
     article: null,
-    book: null, // also used for SCG/META (only one work is active at a time)
-    chapter: null, // also used for SCG/META
+    book: null, // also used for SCG/META/TRIN (only one work is active at a time)
+    chapter: null, // also used for SCG/META/TRIN
     wasPlaying: false,
   };
 
@@ -276,15 +333,23 @@
     return { work: 'META', book: book, chapter: chapter };
   }
 
+  function parseTrinHash(hash) {
+    var m = hash.match(/^TRIN-B(\d+)C(\d+)$/);
+    if (!m) return null;
+    var book = parseInt(m[1], 10), chapter = parseInt(m[2], 10);
+    if (!trinTextIndex[trinKey(book, chapter)]) return null;
+    return { work: 'TRIN', book: book, chapter: chapter };
+  }
+
   function initialLocation() {
     var hash = window.location.hash.replace('#', '');
-    var loc = parseMetaHash(hash) || parseSCGHash(hash) || parseSTHash(hash);
+    var loc = parseMetaHash(hash) || parseTrinHash(hash) || parseSCGHash(hash) || parseSTHash(hash);
     if (loc) return loc;
 
     // Fallback: restore from saved session when navigating to bare URL
     var session = getSavedSession();
     if (session && session.hash) {
-      var sloc = parseMetaHash(session.hash) || parseSCGHash(session.hash) || parseSTHash(session.hash);
+      var sloc = parseMetaHash(session.hash) || parseTrinHash(session.hash) || parseSCGHash(session.hash) || parseSTHash(session.hash);
       if (sloc) return sloc;
     }
     if (allArticles.length) return Object.assign({ work: 'ST' }, allArticles[0]);
@@ -322,10 +387,10 @@
   closeDrawerBtn.addEventListener('click', closeDrawer);
   scrim.addEventListener('click', closeDrawer);
 
-  // ---- Menu screen (choose Metaphysics / SCG / ST / Topics) ----
+  // ---- Menu screen (choose Metaphysics / SCG / ST / Trinity / Topics) ----
   // A standalone full-viewport landing page, not a tab strip and not the side
   // drawer — the hamburger opens this; picking a work either drops the reader
-  // straight into that work's reading view (ST/SCG/META) or, for Topics (which
+  // straight into that work's reading view (ST/SCG/META/TRIN) or, for Topics (which
   // isn't itself a reading view), opens the side drawer showing the topics list.
   function openMenuScreen() { menuScreen.classList.add('open'); }
   function closeMenuScreen() { menuScreen.classList.remove('open'); }
@@ -366,8 +431,8 @@
   });
   applyTheme(localStorage.getItem('summa-theme') || 'system');
 
-  // ---- Work switch (ST / SCG / META / TOPICS) ----
-  var WORK_LABEL = { ST: 'Summa Theologica', SCG: 'Summa Contra Gentiles', META: 'Metaphysics', TOPICS: 'Topics' };
+  // ---- Work switch (ST / SCG / META / TRIN / TOPICS) ----
+  var WORK_LABEL = { ST: 'Summa Theologica', SCG: 'Summa Contra Gentiles', META: 'Metaphysics', TRIN: 'On the Trinity', TOPICS: 'Topics' };
   function setActiveWork(work) {
     drawerTree.dataset.activeWork = work;
     if (drawerHeadTitle) drawerHeadTitle.textContent = WORK_LABEL[work] || 'Contents';
@@ -378,8 +443,8 @@
     });
   }
   // Picking a work from the menu screen either takes the reader straight into
-  // that work's reading view (ST/SCG/META — jumping to its opening page if it
-  // isn't already the active work) or, for Topics, opens the side drawer's
+  // that work's reading view (ST/SCG/META/TRIN — jumping to its opening page if
+  // it isn't already the active work) or, for Topics, opens the side drawer's
   // cross-reference list since Topics has no reading view of its own.
   workSwitch.addEventListener('click', function (e) {
     var btn = e.target.closest('.menu-page-item');
@@ -395,6 +460,9 @@
     if (work === 'META') {
       var mc = allChaptersMeta[0];
       if (mc) goToChapterMeta(mc.book, mc.chapter);
+    } else if (work === 'TRIN') {
+      var tc = allChaptersTrin[0];
+      if (tc) goToChapterTrinity(tc.book, tc.chapter);
     } else if (work === 'SCG') {
       var sc = allChaptersSCG[0];
       if (sc) goToChapter(sc.book, sc.chapter);
@@ -405,7 +473,7 @@
   });
 
   // ---- Build nav tree ----
-  var stTreeWrap = null, scgTreeWrap = null, metaTreeWrap = null, topicsTreeWrap = null;
+  var stTreeWrap = null, scgTreeWrap = null, metaTreeWrap = null, trinTreeWrap = null, topicsTreeWrap = null;
 
   function buildTree() {
     stTreeWrap = document.createElement('div');
@@ -540,6 +608,41 @@
     });
   }
 
+  // Trinity tree: Book -> Chapter (no third level; chapter 0, where present, is a
+  // book's unnumbered Introduction/Preface and carries its own title like every
+  // other chapter, so no "Chapter N" fallback label is needed here).
+  function buildTreeTrinity() {
+    trinTreeWrap = document.createElement('div');
+    trinTreeWrap.className = 'work-group';
+    trinTreeWrap.dataset.work = 'TRIN';
+
+    trinBooks.forEach(function (b) {
+      if (!b.hasAnyText || !b.chapters.length) return;
+
+      var bookEl = document.createElement('div');
+      bookEl.className = 'tree-part';
+      bookEl.dataset.book = b.book;
+
+      var bookBtn = document.createElement('button');
+      bookBtn.className = 'tree-part-btn';
+      var audioCount = b.chapters.filter(function (c) { return c.hasAudio; }).length;
+      bookBtn.innerHTML = '<span>Book ' + b.roman + '</span><span class="chev">&#9656;</span>';
+      bookBtn.title = audioCount + ' of ' + b.chapters.length + ' chapters have audio';
+      bookBtn.addEventListener('click', function () {
+        this.parentElement.classList.toggle('open');
+      });
+      bookEl.appendChild(bookBtn);
+
+      var bookBody = document.createElement('div');
+      bookBody.className = 'tree-part-body';
+      b.chapters.forEach(function (c) {
+        bookBody.appendChild(makeChapterButton(b.book, c.chapter, c.title, c.hasAudio, 'TRIN'));
+      });
+      bookEl.appendChild(bookBody);
+      trinTreeWrap.appendChild(bookEl);
+    });
+  }
+
   // Topics tree: Category -> Topic (question/summary + one or more clickable references
   // into the ST/SCG text). Mirrors the ST/SCG Part -> Question tree visually (same
   // collapsible tree-part pattern) but topics are cross-cutting, so a topic's references
@@ -616,6 +719,7 @@
           closeDrawer();
           if (ref.work === 'SCG') goToChapter(ref.book, ref.chapter);
           else if (ref.work === 'META') goToChapterMeta(ref.book, ref.chapter);
+          else if (ref.work === 'TRIN') goToChapterTrinity(ref.book, ref.chapter);
           else goTo(ref.part, ref.question, ref.article);
         });
       }
@@ -638,7 +742,13 @@
     var labelSpan = document.createElement('span');
     labelSpan.className = 'tree-q-label';
     // Metaphysics chapters have no title in this edition — fall back to "Chapter N".
-    labelSpan.textContent = title ? (chapterNum + '. ' + title) : ('Chapter ' + chapterNum);
+    // Trinity's chapter 0 (an Introduction/Preface) always has a title of its own,
+    // so it's labeled with that title directly rather than "0. Introduction".
+    if (title) {
+      labelSpan.textContent = (work === 'TRIN' && chapterNum === 0) ? title : (chapterNum + '. ' + title);
+    } else {
+      labelSpan.textContent = 'Chapter ' + chapterNum;
+    }
     btn.appendChild(labelSpan);
 
     var badge = document.createElement('span');
@@ -647,6 +757,7 @@
 
     btn.addEventListener('click', function () {
       if (work === 'META') goToChapterMeta(book, chapterNum);
+      else if (work === 'TRIN') goToChapterTrinity(book, chapterNum);
       else goToChapter(book, chapterNum);
       closeDrawer();
     });
@@ -685,10 +796,10 @@
     buttons.forEach(function (b) {
       b.classList.remove('fully-read', 'partially-read');
       var work = b.dataset.work;
-      if (work === 'SCG' || work === 'META') {
+      if (work === 'SCG' || work === 'META' || work === 'TRIN') {
         var book = parseInt(b.dataset.book, 10);
         var chapter = parseInt(b.dataset.chapter, 10);
-        var isDone = work === 'META' ? isReadMeta(book, chapter) : isReadSCG(book, chapter);
+        var isDone = work === 'META' ? isReadMeta(book, chapter) : work === 'TRIN' ? isReadTrin(book, chapter) : isReadSCG(book, chapter);
         if (isDone) b.classList.add('fully-read');
         return;
       }
@@ -709,7 +820,7 @@
     buttons.forEach(function (b) {
       var active;
       var work = b.dataset.work;
-      if (work === 'SCG' || work === 'META') {
+      if (work === 'SCG' || work === 'META' || work === 'TRIN') {
         active = state.work === work && parseInt(b.dataset.book, 10) === state.book && parseInt(b.dataset.chapter, 10) === state.chapter;
       } else {
         active = state.work === 'ST' && parseInt(b.dataset.part, 10) === state.part && parseInt(b.dataset.question, 10) === state.question;
@@ -1027,6 +1138,104 @@
     var metaQuizQuestions = quizData.metaphysics[metaKey(book, chapterNum)];
     var metaQuizEl = renderQuiz(metaQuizQuestions, 'META-' + metaKey(book, chapterNum));
     if (metaQuizEl) chapterView.appendChild(metaQuizEl);
+  }
+
+  // ---- Render a single "On the Trinity" chapter as its own page ----
+  // No quiz/summary/commentary data exists for this work yet, so those lookups
+  // are all optionally-chained against quizData.trinity/summaryData.trinity
+  // (which — unlike quizData.scg/metaphysics — aren't guaranteed to exist on
+  // window.QUIZZES/SUMMARIES) rather than assumed present.
+  function renderChapterTrinity(book, chapterNum) {
+    var c = trinTextIndex[trinKey(book, chapterNum)];
+    chapterView.innerHTML = '';
+    if (!c) {
+      chapterView.innerHTML = '<p>This chapter has not been loaded yet.</p>';
+      return;
+    }
+    var bookMeta = trinBooks.filter(function (b) { return b.book === book; })[0];
+    var chapterLabel = chapterNum === 0 ? 'Introduction' : ('Chapter ' + chapterNum);
+
+    var eyebrow = document.createElement('div');
+    eyebrow.className = 'q-eyebrow';
+    eyebrow.textContent = 'On the Trinity — Book ' + (bookMeta ? bookMeta.roman : book) + ' · ' + chapterLabel;
+    chapterView.appendChild(eyebrow);
+
+    var h1 = document.createElement('h1');
+    h1.textContent = c.title;
+    chapterView.appendChild(h1);
+
+    // Book-level summary (longer), shown once at the first chapter of each book
+    // — that's chapter 0 (Introduction/Preface) for the books that have one,
+    // chapter 1 otherwise.
+    var isFirstChapterOfBook = bookMeta && bookMeta.chapters.length && bookMeta.chapters[0].chapter === chapterNum;
+    if (isFirstChapterOfBook) {
+      var trinBook = summaryData.trinity && summaryData.trinity.books && summaryData.trinity.books['B' + book];
+      var trinBookSummaryEl = trinBook && renderBookSummary(trinBook.title || ('Book ' + book), trinBook.summary);
+      if (trinBookSummaryEl) chapterView.appendChild(trinBookSummaryEl);
+    }
+
+    // Chapter-level summary (shorter), shown at the top of every chapter.
+    var trinChapterSummaryText = summaryData.trinity && summaryData.trinity.chapters && summaryData.trinity.chapters[trinKey(book, chapterNum)];
+    var trinChapterSummaryEl = renderChapterSummary(trinChapterSummaryText);
+    if (trinChapterSummaryEl) chapterView.appendChild(trinChapterSummaryEl);
+
+    var curIdx = chapterIndexTrin(book, chapterNum);
+    if (curIdx >= 0) {
+      var timeRemaining = document.createElement('div');
+      timeRemaining.className = 'q-time-remaining';
+      var bookMins = formatMinutes(remainingMinutesTrin(curIdx, 'book'));
+      var workMins = formatMinutes(remainingMinutesTrin(curIdx, 'work'));
+      timeRemaining.textContent = bookMins + ' left in this Book · ' + workMins + ' left in On the Trinity';
+      chapterView.appendChild(timeRemaining);
+    }
+
+    var artEl = document.createElement('div');
+    artEl.className = 'article';
+
+    var h2Row = document.createElement('div');
+    h2Row.className = 'article-h2-row';
+
+    var h2 = document.createElement('h2');
+    // Chapter 0's own title is always literally "Introduction" or "Preface: ..."
+    // already, so prefixing "Introduction. " onto it would just repeat itself.
+    h2.textContent = chapterNum === 0 ? c.title : (chapterLabel + '. ' + c.title);
+    h2Row.appendChild(h2);
+
+    var readToggle = document.createElement('button');
+    readToggle.type = 'button';
+    var chapterIsRead = isReadTrin(book, chapterNum);
+    readToggle.className = 'read-toggle' + (chapterIsRead ? ' is-read' : '');
+    readToggle.setAttribute('aria-pressed', chapterIsRead ? 'true' : 'false');
+    readToggle.innerHTML = '<span class="read-toggle-mark">' + (chapterIsRead ? '&#10003;' : '') + '</span><span class="read-toggle-label">' +
+      (chapterIsRead ? 'Read' : 'Mark as read') + '</span>';
+    readToggle.addEventListener('click', function () {
+      setReadTrin(book, chapterNum, !isReadTrin(book, chapterNum));
+      updateNavReadBadges();
+      renderChapterTrinity(book, chapterNum);
+    });
+    h2Row.appendChild(readToggle);
+
+    artEl.appendChild(h2Row);
+
+    if (!c.hasAudio) {
+      var noAudio = document.createElement('div');
+      noAudio.className = 'no-audio-note';
+      noAudio.textContent = 'Audio not yet available for this chapter.';
+      artEl.appendChild(noAudio);
+    }
+
+    c.paragraphs.forEach(function (p, pIdx) {
+      var pEl = document.createElement('p');
+      pEl.dataset.pidx = pIdx;
+      pEl.textContent = p.text;
+      artEl.appendChild(pEl);
+    });
+
+    chapterView.appendChild(artEl);
+
+    var trinQuizQuestions = quizData.trinity && quizData.trinity[trinKey(book, chapterNum)];
+    var trinQuizEl = renderQuiz(trinQuizQuestions, trinKey(book, chapterNum));
+    if (trinQuizEl) chapterView.appendChild(trinQuizEl);
   }
 
   // Renders a collapsible summary for Metaphysics (overview or book-level)
@@ -1377,6 +1586,10 @@
     return 'META-B' + book + 'C' + chapterNum;
   }
 
+  function hashForTrinity(book, chapterNum) {
+    return 'TRIN-B' + book + 'C' + chapterNum;
+  }
+
   function updateTopbar() {
     if (state.work === 'SCG') {
       topbarWork.textContent = 'SUMMA CONTRA GENTILES';
@@ -1386,6 +1599,10 @@
       topbarWork.textContent = 'ARISTOTLE — METAPHYSICS';
       var metaBookMeta = metaBooks.filter(function (b) { return b.book === state.book; })[0];
       topbarLocation.textContent = 'Book ' + (metaBookMeta ? metaBookMeta.roman : state.book) + ' · Ch. ' + state.chapter;
+    } else if (state.work === 'TRIN') {
+      topbarWork.textContent = 'AUGUSTINE — ON THE TRINITY';
+      var trinBookMeta = trinBooks.filter(function (b) { return b.book === state.book; })[0];
+      topbarLocation.textContent = 'Book ' + (trinBookMeta ? trinBookMeta.roman : state.book) + ' · Ch. ' + state.chapter;
     } else {
       topbarWork.textContent = 'SUMMA THEOLOGICA';
       topbarLocation.textContent = (PART_NAMES[state.part] || '') + ' · Q' + state.question;
@@ -1395,6 +1612,7 @@
   function updatePagerButtons() {
     if (state.work === 'SCG') { updatePagerButtonsSCG(); return; }
     if (state.work === 'META') { updatePagerButtonsMeta(); return; }
+    if (state.work === 'TRIN') { updatePagerButtonsTrinity(); return; }
     var idx = articleIndex(state.part, state.question, state.article);
     prevBtn.disabled = idx <= 0;
     nextBtn.disabled = idx < 0 || idx >= allArticles.length - 1;
@@ -1460,6 +1678,29 @@
     };
     nextBtn.onclick = function () {
       if (nextItem) goToChapterMeta(nextItem.book, nextItem.chapter);
+    };
+  }
+
+  function updatePagerButtonsTrinity() {
+    var idx = chapterIndexTrin(state.book, state.chapter);
+    prevBtn.disabled = idx <= 0;
+    nextBtn.disabled = idx < 0 || idx >= allChaptersTrin.length - 1;
+
+    var prevItem = idx > 0 ? allChaptersTrin[idx - 1] : null;
+    var nextItem = idx >= 0 && idx < allChaptersTrin.length - 1 ? allChaptersTrin[idx + 1] : null;
+
+    prevBtn.textContent = prevItem
+      ? (prevItem.book === state.book ? '← Previous Chapter' : '← Previous Book')
+      : '← Previous Chapter';
+    nextBtn.textContent = nextItem
+      ? (nextItem.book === state.book ? 'Next Chapter →' : 'Next Book →')
+      : 'Next Chapter →';
+
+    prevBtn.onclick = function () {
+      if (prevItem) goToChapterTrinity(prevItem.book, prevItem.chapter);
+    };
+    nextBtn.onclick = function () {
+      if (nextItem) goToChapterTrinity(nextItem.book, nextItem.chapter);
     };
   }
 
@@ -1618,6 +1859,38 @@
     loadChapterAudioMeta(state.book, state.chapter, shouldAutoplay);
   }
 
+  // ---- Trinity audio (chapter-level, one TTS file per chapter, no mid-chapter
+  // alignment or track-sharing across chapters — mirrors loadChapterAudio (SCG)
+  // rather than the track-aware loadChapterAudioMeta). Resolves through
+  // resolveAudioUrl() like every other work's audio, so it correctly picks up
+  // a GitHub-Releases-hosted URL from AUDIO_URLS instead of ever falling back
+  // to a local /audio/... path that was never actually deployed. ----
+  function loadChapterAudioTrinity(book, chapterNum, autoplay) {
+    var c = trinTextIndex[trinKey(book, chapterNum)];
+    if (!c || !c.hasAudio) {
+      playerTrackTitle.textContent = c ? 'Audio not yet available for this chapter' : 'No audio available for this section';
+      audioEl.removeAttribute('src');
+      delete audioEl.dataset.currentFile;
+      audioEl.dataset.work = 'TRIN';
+      return;
+    }
+    var resolved = resolveAudioUrl(c.audioFile);
+    if (audioEl.dataset.currentFile !== c.audioFile) {
+      audioEl.src = resolved;
+      audioEl.dataset.currentFile = c.audioFile;
+      audioEl.dataset.work = 'TRIN';
+      audioEl.playbackRate = playbackRate;
+      if (autoplay) audioEl.play().catch(function () {});
+    }
+    var bookMeta = trinBooks.filter(function (b) { return b.book === book; })[0];
+    playerTrackTitle.textContent = 'Book ' + (bookMeta ? bookMeta.roman : book) + ' — ' + c.title;
+  }
+
+  function syncAudioToChapterTrinity(autoplayIfWasPlaying) {
+    var shouldAutoplay = !!(autoplayIfWasPlaying && state.wasPlaying);
+    loadChapterAudioTrinity(state.book, state.chapter, shouldAutoplay);
+  }
+
   // If article-level alignment data exists for this part/question/article (see
   // scripts/build-alignment-index.cjs -> app/alignment-data.js), seek the audio element to it.
   // No-op (falls back to current whole-track behavior) when there's no matching audio track
@@ -1692,6 +1965,12 @@
       if (nextT) goToChapterMeta(nextT.book, nextT.chapter, true);
       return;
     }
+    if (audioEl.dataset.work === 'TRIN') {
+      var tcidx = chapterIndexTrin(state.book, state.chapter);
+      var nextTC = tcidx >= 0 ? allChaptersTrin[tcidx + 1] : null;
+      if (nextTC) goToChapterTrinity(nextTC.book, nextTC.chapter, true);
+      return;
+    }
     var idx = parseInt(audioEl.dataset.trackIndex, 10);
     var next = allTracks[idx + 1];
     if (next) {
@@ -1713,6 +1992,13 @@
       if (prevT) goToChapterMeta(prevT.book, prevT.chapter, true);
       return;
     }
+    if (state.work === 'TRIN') {
+      var tcidxP = chapterIndexTrin(state.book, state.chapter);
+      if (tcidxP < 0) return;
+      var prevTC = allChaptersTrin[tcidxP - 1];
+      if (prevTC) goToChapterTrinity(prevTC.book, prevTC.chapter, true);
+      return;
+    }
     var idx = parseInt(audioEl.dataset.trackIndex, 10);
     if (isNaN(idx)) return;
     var prev = allTracks[idx - 1];
@@ -1731,6 +2017,13 @@
       var tIdxN = curChapterN ? trackIndexMeta(curChapterN.audioTrack) : -1;
       var nextTB = tIdxN >= 0 ? allTracksMeta[tIdxN + 1] : null;
       if (nextTB) goToChapterMeta(nextTB.book, nextTB.chapter, true);
+      return;
+    }
+    if (state.work === 'TRIN') {
+      var tcidxN = chapterIndexTrin(state.book, state.chapter);
+      if (tcidxN < 0) return;
+      var nextTC2 = allChaptersTrin[tcidxN + 1];
+      if (nextTC2) goToChapterTrinity(nextTC2.book, nextTC2.chapter, true);
       return;
     }
     var idx = parseInt(audioEl.dataset.trackIndex, 10);
@@ -1822,6 +2115,27 @@
     }
   }
 
+  function goToChapterTrinity(book, chapterNum, forceAutoplay) {
+    var wasPlaying = state.wasPlaying || forceAutoplay;
+    var chapterChanged = state.work !== 'TRIN' || book !== state.book || chapterNum !== state.chapter;
+    state.work = 'TRIN';
+    state.book = book;
+    state.chapter = chapterNum;
+    window.location.hash = hashForTrinity(book, chapterNum);
+    showWork('TRIN');
+    renderChapterTrinity(book, chapterNum);
+    updateTopbar();
+    updatePagerButtons();
+    highlightActiveNav();
+    if (chapterChanged) syncAudioToChapterTrinity(wasPlaying);
+    if (_pendingScrollParagraph && _pendingScrollParagraph.work === 'TRIN' &&
+        _pendingScrollParagraph.book === book && _pendingScrollParagraph.chapter === chapterNum) {
+      scrollToPendingParagraph();
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }
+
   window.addEventListener('hashchange', function () {
     var loc = initialLocation();
     if (loc.work === 'SCG') {
@@ -1831,6 +2145,10 @@
     } else if (loc.work === 'META') {
       if (state.work !== 'META' || loc.book !== state.book || loc.chapter !== state.chapter) {
         goToChapterMeta(loc.book, loc.chapter);
+      }
+    } else if (loc.work === 'TRIN') {
+      if (state.work !== 'TRIN' || loc.book !== state.book || loc.chapter !== state.chapter) {
+        goToChapterTrinity(loc.book, loc.chapter);
       }
     } else if (loc.part !== state.part || loc.question !== state.question || loc.article !== state.article || state.work !== 'ST') {
       goTo(loc.part, loc.question, loc.article);
@@ -1935,6 +2253,28 @@
         aTitle: chapterLabel, // no per-chapter title in this edition
         qTitleLower: bookLabel.toLowerCase(),
         aTitleLower: chapterLabel.toLowerCase(),
+        paragraphs: paragraphs,
+        combinedLower: combined.toLowerCase()
+      });
+    });
+    allChaptersTrin.forEach(function (c) {
+      var full = trinTextIndex[trinKey(c.book, c.chapter)];
+      if (!full) return;
+      var bookMeta = trinBooks.filter(function (b) { return b.book === c.book; })[0];
+      var chapterLabel = c.chapter === 0 ? 'Introduction' : ('Chapter ' + c.chapter);
+      var bookLabel = bookMeta ? ('Book ' + bookMeta.roman) : ('Book ' + c.book);
+      var paragraphs = full.paragraphs.map(function (p) {
+        return { label: null, text: p.text, lower: p.text.toLowerCase() };
+      });
+      var combined = bookLabel + ' ' + chapterLabel + ' ' + full.title + ' ' + full.paragraphs.map(function (p) { return p.text; }).join(' ');
+      searchIndex.push({
+        work: 'TRIN',
+        book: c.book,
+        chapter: c.chapter,
+        qTitle: bookLabel, // treated as the "question title" tier for scoring purposes
+        aTitle: full.title,
+        qTitleLower: bookLabel.toLowerCase(),
+        aTitleLower: full.title.toLowerCase(),
         paragraphs: paragraphs,
         combinedLower: combined.toLowerCase()
       });
@@ -2120,6 +2460,9 @@
     } else if (entry.work === 'META') {
       var metaBookMeta = metaBooks.filter(function (b) { return b.book === entry.book; })[0];
       return 'Metaphysics — Book ' + (metaBookMeta ? metaBookMeta.roman : entry.book) + ', Ch. ' + entry.chapter;
+    } else if (entry.work === 'TRIN') {
+      var trinBookMeta = trinBooks.filter(function (b) { return b.book === entry.book; })[0];
+      return 'On the Trinity — Book ' + (trinBookMeta ? trinBookMeta.roman : entry.book) + ', Ch. ' + entry.chapter;
     }
     return (PART_NAMES[entry.part] || 'Part ' + entry.part) + ' — Q' + entry.question + ', Art. ' + entry.articleNumber;
   }
@@ -2515,8 +2858,9 @@
     if (!result) return;
     var isSCG = result.entry.work === 'SCG';
     var isMeta = result.entry.work === 'META';
+    var isTrin = result.entry.work === 'TRIN';
     if (result.from === 'paragraph' && result.paragraphIndex != null) {
-      _pendingScrollParagraph = (isSCG || isMeta)
+      _pendingScrollParagraph = (isSCG || isMeta || isTrin)
         ? { work: result.entry.work, book: result.entry.book, chapter: result.entry.chapter, paragraphIndex: result.paragraphIndex }
         : { work: 'ST', part: result.entry.part, question: result.entry.question, articleNumber: result.entry.articleNumber, paragraphIndex: result.paragraphIndex };
     } else {
@@ -2527,6 +2871,8 @@
       goToChapter(result.entry.book, result.entry.chapter);
     } else if (isMeta) {
       goToChapterMeta(result.entry.book, result.entry.chapter);
+    } else if (isTrin) {
+      goToChapterTrinity(result.entry.book, result.entry.chapter);
     } else {
       goTo(result.entry.part, result.entry.question, result.entry.articleNumber);
     }
@@ -2536,7 +2882,7 @@
     var pending = _pendingScrollParagraph;
     if (!pending) return;
     var container;
-    if (pending.work === 'SCG' || pending.work === 'META') {
+    if (pending.work === 'SCG' || pending.work === 'META' || pending.work === 'TRIN') {
       if (state.work !== pending.work || pending.book !== state.book || pending.chapter !== state.chapter) return;
       container = chapterView;
     } else {
@@ -2634,10 +2980,12 @@
   buildTree();
   buildTreeSCG();
   buildTreeMeta();
+  buildTreeTrinity();
   buildTreeTopics();
   drawerTree.appendChild(metaTreeWrap);
   drawerTree.appendChild(scgTreeWrap);
   drawerTree.appendChild(stTreeWrap);
+  drawerTree.appendChild(trinTreeWrap);
   drawerTree.appendChild(topicsTreeWrap);
   updateNavReadBadges();
   buildSearchIndex();
@@ -2654,6 +3002,8 @@
       goToChapter(start.book, start.chapter);
     } else if (start.work === 'META') {
       goToChapterMeta(start.book, start.chapter);
+    } else if (start.work === 'TRIN') {
+      goToChapterTrinity(start.book, start.chapter);
     } else {
       goTo(start.part, start.question, start.article);
     }

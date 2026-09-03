@@ -296,6 +296,7 @@ body {
 .drawer-tree[data-active-work="ST"] .work-group[data-work="ST"] { display: block; }
 .drawer-tree[data-active-work="SCG"] .work-group[data-work="SCG"] { display: block; }
 .drawer-tree[data-active-work="META"] .work-group[data-work="META"] { display: block; }
+.drawer-tree[data-active-work="TRIN"] .work-group[data-work="TRIN"] { display: block; }
 .drawer-tree[data-active-work="TOPICS"] .work-group[data-work="TOPICS"] { display: block; }
 
 .tree-q.no-audio .tree-q-label { opacity: 0.68; }

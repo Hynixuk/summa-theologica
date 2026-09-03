@@ -19,6 +19,7 @@ const STATIC_ASSETS = [
   '/data.js',
   '/data-scg.js',
   '/data-metaphysics.js',
+  '/data-trinity.js',
   '/data-aquinas-commentary.js',
   '/data-topics.js',
   '/data-summaries.js',
