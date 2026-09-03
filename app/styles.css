@@ -889,13 +889,19 @@ body {
   padding: 14px 16px 16px;
   background: var(--bg-elevated);
   margin: 0;
+  min-width: 0;
 }
 .quiz-q legend {
-  padding: 0 4px;
+  display: table;
+  width: 100%;
+  float: none;
+  padding: 0 0 8px;
+  margin: 0;
   font-weight: 600;
   font-size: 0.98rem;
   color: var(--ink);
   line-height: 1.5;
+  white-space: normal;
 }
 /* Ensure quiz text is never styled as links */
 .quiz-q legend, .quiz-option span, .quiz-explanation {
