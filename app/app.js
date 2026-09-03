@@ -19,6 +19,11 @@
 
   var trinBooks = window.TRINITY_BOOKS || [];
   var trinTextIndex = window.TRINITY_TEXT || {};
+  // Book-level/overview summaries for Trinity ship as their own top-level
+  // window.TRINITY_SUMMARIES (overview + a `books` array), the same shape
+  // window.METAPHYSICS_SUMMARIES uses — unlike window.SUMMARIES.trinity
+  // (from data-summaries.js), which only carries per-chapter summaries.
+  var trinSummaries = window.TRINITY_SUMMARIES || { overview: null, books: [] };
 
   var topicsData = window.TOPICS || { categories: [] };
   var quizData = window.QUIZZES || { st: {}, scg: {}, metaphysics: {} };
@@ -1169,7 +1174,14 @@
     // chapter 1 otherwise.
     var isFirstChapterOfBook = bookMeta && bookMeta.chapters.length && bookMeta.chapters[0].chapter === chapterNum;
     if (isFirstChapterOfBook) {
-      var trinBook = summaryData.trinity && summaryData.trinity.books && summaryData.trinity.books['B' + book];
+      if (book === 1 && trinSummaries.overview && trinSummaries.overview.content) {
+        chapterView.appendChild(renderBookSummary(trinSummaries.overview.title || 'Overview: On the Trinity', trinSummaries.overview.content));
+      }
+      // Prefer summaryData.trinity.books (the SCG/Metaphysics-style merged shape)
+      // if a future build ever consolidates into it; fall back to the
+      // TRINITY_SUMMARIES.books array actually shipped today.
+      var trinBook = (summaryData.trinity && summaryData.trinity.books && summaryData.trinity.books['B' + book]) ||
+        (trinSummaries.books || []).filter(function (b) { return b.book === book; })[0];
       var trinBookSummaryEl = trinBook && renderBookSummary(trinBook.title || ('Book ' + book), trinBook.summary);
       if (trinBookSummaryEl) chapterView.appendChild(trinBookSummaryEl);
     }
