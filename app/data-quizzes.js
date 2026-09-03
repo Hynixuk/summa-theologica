@@ -38974,6 +38974,706 @@ window.QUIZZES = {
         "correct": 0,
         "explanation": "Augustine is skeptical of reported past-life memories (like Pythagoras's), conjecturing they are 'untrue recollections' akin to false dream-memories, possibly instigated by deceptive spirits promoting false beliefs about soul transmigration — noting that if such memories were genuine, virtually everyone should have them, which is not the case."
       }
+    ],
+    "TRIN-B13C1": [
+      {
+        "q": "How does Augustine use the opening of John's Gospel to illustrate his wisdom/knowledge distinction?",
+        "options": [
+          "The verses about the eternal Word ('In the beginning was the Word... the life was the light of men') require contemplative wisdom to grasp, while the account of John the Baptist's temporal witness belongs to knowledge, the cognizance of things done in time",
+          "He argues the entire Gospel prologue belongs exclusively to knowledge, with no wisdom content whatsoever",
+          "He argues the entire Gospel prologue belongs exclusively to wisdom, with no knowledge content whatsoever",
+          "He claims John's Gospel cannot be used to illustrate this distinction and turns to a different text instead"
+        ],
+        "correct": 0,
+        "explanation": "Augustine splits John's prologue: the opening verses about the eternal, unchangeable Word require contemplative wisdom, while the report of John the Baptist's historical witness (a temporal event) belongs to knowledge."
+      },
+      {
+        "q": "How does Augustine explain that ordinary readers can understand 'there was a man sent from God, whose name was John' partly through common notions and partly through faith?",
+        "options": [
+          "The concept of 'a man' is grasped through common human experience (both believers and unbelievers know what a man is), but 'sent from God' is held only by faith, which unbelievers doubt or deride",
+          "He argues the entire sentence requires faith with no role for ordinary human understanding at all",
+          "He claims unbelievers cannot understand any part of this sentence whatsoever",
+          "He argues this sentence requires no faith at all, being purely a matter of historical record"
+        ],
+        "correct": 0,
+        "explanation": "Augustine distinguishes the ordinary, universally shared concept of 'man' (known to believers and unbelievers alike) from 'sent from God,' which is held by faith — believed by the faithful, doubted or derided by others."
+      },
+      {
+        "q": "Why does Augustine say 'darkness' in 'the light shines in darkness, and the darkness comprehended it not' requires faith to be properly understood?",
+        "options": [
+          "Because 'darkness' figuratively signifies 'the hearts of mortals turned away from light of this kind,' a meaning not seen but believed, requiring faith to grasp what is not directly perceived",
+          "Because Augustine claims this phrase refers to literal, physical darkness with no figurative meaning whatsoever",
+          "Because he argues no one, believer or unbeliever, can understand this phrase in any way",
+          "Because he claims the Greek and Latin translations of this phrase are hopelessly inconsistent"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains 'darkness' here figuratively signifies unbelieving human hearts turned from the light — a meaning grasped not by direct observation but by faith, since 'that which was not seen might be believed.'"
+      }
+    ],
+    "TRIN-B13C2": [
+      {
+        "q": "How does Augustine describe the peculiar inwardness of faith, distinct even from knowledge of other minds?",
+        "options": [
+          "Faith is 'a thing of the heart, not of the body' — each person sees his own faith directly in himself, but only believes (never directly sees) that faith exists in another, since it can even be feigned or falsely thought present",
+          "Faith, according to Augustine, is directly visible to everyone through a person's external behavior with total certainty",
+          "He claims faith is identical in nature to ordinary sense perception, like sight or hearing",
+          "He argues faith cannot be known even by the person who has it, only by external observers"
+        ],
+        "correct": 0,
+        "explanation": "Augustine emphasizes faith's radical inwardness: unlike bodies (seen by all) or even other people's minds (inferred with some confidence), one's own faith is directly and uniquely visible only to oneself, while others' faith must simply be believed, since it can even be feigned."
+      },
+      {
+        "q": "In what sense does Augustine say the faith of many believers is 'one,' despite each person having his own individual act of believing?",
+        "options": [
+          "Like many human faces called 'one countenance' by resemblance rather than numerical identity — the faith is 'one' in kind, not one in number, since each believer's own faith is genuinely his own",
+          "Because Augustine claims all believers literally share a single, numerically identical mental state",
+          "Because he argues faith does not actually belong to individuals at all, but only to the Church as an abstract corporate entity",
+          "Because he denies there is any meaningful sense in which faith can be called 'one'"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful distinction: like calling many similar human faces 'one countenance' (by resemblance, not numerical identity), the 'one faith' of believers is one in kind/likeness, not a single, literally shared mental state — each has his own act of faith."
+      },
+      {
+        "q": "How does Augustine's comparison to 'one will' (of those who will the same thing) illuminate the sense in which 'faith' can be called 'one'?",
+        "options": [
+          "Just as each person's individual will is directly visible only to himself (though inferred, or believed, in others who will the same thing), so each believer's faith is his own, though called collectively 'one' due to shared likeness of content",
+          "Augustine argues will and faith are, in fact, entirely unrelated phenomena with no useful parallel",
+          "He claims that unlike faith, will is always directly and perfectly visible to other people",
+          "He argues that unlike faith, there can never be any meaningful sense of 'shared will' among different individuals"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws a direct parallel: as one's own will is directly known only to oneself (others' matching wills being inferred/believed, not seen), so is one's faith — supporting the 'one in kind, many in number' account of shared faith."
+      }
+    ],
+    "TRIN-B13C3": [
+      {
+        "q": "What story does Augustine tell about a comic actor to illustrate desires 'known to each' as common to all?",
+        "options": [
+          "An actor promised to reveal what everyone in the theater secretly willed, and, to great applause, simply stated: 'You will to buy cheap, and sell dear'",
+          "An actor performed a silent mime that everyone in the audience interpreted completely differently",
+          "An actor recited a long philosophical treatise that put the entire audience to sleep",
+          "An actor claimed he could read minds, but was exposed as a fraud by the audience"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's anecdote: a comic actor promised to voice what all the audience secretly willed, and won great applause simply by stating the universally recognized (if unflattering) truth: 'You will to buy cheap, and sell dear.'"
+      },
+      {
+        "q": "What observation from the poet Ennius does Augustine cite alongside this story?",
+        "options": [
+          "\"All mortals wish themselves to be praised\"",
+          "\"Fortune favors the bold\"",
+          "\"Time heals all wounds\"",
+          "\"Virtue is its own reward\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the old poet Ennius's observation that 'all mortals wish themselves to be praised,' another example of a desire that, though not universally acknowledged aloud, is recognized by everyone as true of themselves."
+      },
+      {
+        "q": "What example does Augustine give of a person who defies the 'buy cheap, sell dear' generalization, showing it is not truly universal like the will to blessedness?",
+        "options": [
+          "A man who, realizing a manuscript seller was ignorant of its true value and asking too little, voluntarily paid the much higher, fair price instead of taking advantage of him",
+          "A merchant who deliberately overcharged every single customer without exception",
+          "A king who abolished all trade and commerce throughout his kingdom",
+          "A philosopher who refused to ever buy or sell anything under any circumstances"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites a known case of a man who, recognizing a manuscript seller's ignorance of its true value, voluntarily paid the higher, just price rather than exploiting him — showing the 'buy cheap, sell dear' will is a common vice, not a universal necessity, unlike the will to blessedness."
+      }
+    ],
+    "TRIN-B13C4": [
+      {
+        "q": "What central puzzle does Augustine pose at the start of this chapter regarding the universal will to blessedness?",
+        "options": [
+          "If everyone truly wills blessedness, and nothing unknown can be loved, why do people disagree so sharply about what blessedness actually consists in (bodily pleasure, goodness of mind, or both)?",
+          "Whether animals, like humans, also possess an innate will toward blessedness",
+          "Whether the concept of blessedness even exists in any coherent form",
+          "Whether ancient Romans and Greeks had fundamentally different concepts of blessedness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's central puzzle: since nothing unknown can be loved (established in earlier books), and everyone supposedly wills blessedness, why is there such deep disagreement about what blessedness actually is — some placing it in bodily pleasure, others in goodness of mind?"
+      },
+      {
+        "q": "What further, sharper problem does Augustine press regarding those who don't will to live 'according to goodness of mind'?",
+        "options": [
+          "If living blessedly just IS living according to goodness of mind, does someone who does NOT will this (e.g., pursuing only bodily pleasure) actually will to live blessedly at all, or does 'all men will to be blessed' turn out to be false?",
+          "Whether such people should be punished by civil law for their choice",
+          "Whether such people are capable of ever changing their minds later in life",
+          "Whether such people are aware that goodness of mind even exists as a concept"
+        ],
+        "correct": 0,
+        "explanation": "Augustine presses the puzzle further: if true blessedness requires living according to goodness of mind, does a person who rejects that way of living still, in some sense, will to be blessed — or must we conclude, absurdly, that not everyone actually wills blessedness after all?"
+      },
+      {
+        "q": "What authority does Augustine cite as having asserted, without doubt, that 'we certainly all will to be blessed'?",
+        "options": [
+          "Cicero, in his (now largely lost) dialogue Hortensius, cited as a rare certainty even the skeptical Academics did not doubt",
+          "Aristotle, in his Nicomachean Ethics",
+          "Plato, in the Republic",
+          "Seneca, in his Letters to Lucilius"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Cicero's Hortensius, where even as a skeptical Academic (who doubted almost everything), Cicero treated 'we certainly all will to be blessed' as a rare, undoubtable starting point for argument."
+      }
+    ],
+    "TRIN-B13C5": [
+      {
+        "q": "How does Augustine (following Cicero) refute the popular claim 'all who live as they will are blessed'?",
+        "options": [
+          "By arguing that 'to will what is not fitting, is itself most miserable' — willing wrongly is itself a form of misery, so living wickedly 'as one wills' cannot make a person blessed, however unrestrained they are in doing so",
+          "By arguing that no one, in fact, ever truly gets to live exactly as they will under any circumstances",
+          "By claiming this saying is grammatically incoherent and therefore meaningless",
+          "By agreeing fully with the popular saying and offering no refutation at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine endorses Cicero's refutation: willing something wrong is itself a species of misery, so simply 'living as one wills' (when one wills wickedly) cannot constitute blessedness, however unimpeded such wicked living may be."
+      },
+      {
+        "q": "What two conditions does Augustine conclude are jointly necessary and sufficient for true blessedness?",
+        "options": [
+          "Having all things one wills, AND willing nothing wrongly — someone missing either condition is not truly blessed",
+          "Only having great wealth and political power, with no reference to the quality of one's will",
+          "Only avoiding physical pain and suffering, regardless of moral character",
+          "Only being praised and admired by other people, regardless of actual character"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion, following the Cicero-inspired argument: 'he only is a blessed man, who both has all things which he wills, and wills nothing ill' — both conditions (having what is willed, and willing rightly) are jointly required."
+      },
+      {
+        "q": "How does this resolve the puzzle of the previous chapter — why does Augustine say ALL people, despite disagreeing about specifics, actually 'know a blessed life' in some sense?",
+        "options": [
+          "Because everyone recognizes, at some level, the abstract truth that blessedness requires having what one wills and willing rightly — even though they disagree (and are sometimes wrong) about WHERE such rightly-willed good things are actually found",
+          "Because Augustine claims everyone secretly already possesses full and complete blessedness without realizing it",
+          "Because he argues no one, in fact, truly knows anything about blessedness, resolving the puzzle by denying the premise entirely",
+          "Because he claims disagreement about blessedness is purely a matter of vocabulary with no substantive content"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolution: everyone shares the abstract knowledge that blessedness requires having what is willed and willing rightly; their disagreement is really about WHERE to find things that satisfy both conditions, not about the abstract definition itself."
+      }
+    ],
+    "TRIN-B13C6": [
+      {
+        "q": "What choice does Augustine say most people make, when forced to choose between 'having what they will' (with a bad will) and 'willing well' (without getting it)?",
+        "options": [
+          "Most people choose to have all the things they will (even wickedly), rather than to will well even without obtaining it — a preference Augustine calls a mark of human depravity",
+          "Most people, according to Augustine, always and instinctively choose to will well, even at great cost to their material desires",
+          "Augustine claims this choice is, in practice, never actually faced by real people in any circumstance",
+          "He claims both options are, in every real case, exactly equivalent with no meaningful difference"
+        ],
+        "correct": 0,
+        "explanation": "Augustine observes that people generally prefer to have what they will (even wrongly) over willing rightly without obtaining it — a preference he diagnoses as itself a symptom of humanity's depraved condition."
+      },
+      {
+        "q": "Why does Augustine argue a good will, even unfulfilled, is actually closer to blessedness than a bad will fulfilled?",
+        "options": [
+          "Because a good will not yet fulfilled is already a real, present good in itself ('not to be lightly esteemed'), whereas obtaining what was wickedly desired only entrenches someone further from blessedness, since it is a good fulfilled by evil means",
+          "Because Augustine claims a bad will fulfilled always results in immediate physical punishment from the state",
+          "Because he argues an unfulfilled good will is, in fact, indistinguishable from a fulfilled bad will",
+          "Because he claims fulfillment itself is always evil, regardless of what is fulfilled"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues a good will, even without its object obtained, is already a genuine good possessed by the one who has it — closer to blessedness than someone whose bad will has been satisfied, since satisfying a bad will only entrenches one further from the good."
+      },
+      {
+        "q": "What description does Augustine give of the person who possesses a good will but lacks worldly attainment, in this life?",
+        "options": [
+          "One who 'follows diligently, and attains as much as he can, with a prudent, temperate, courageous, and right mind, such good things as are possible in the present miserable life; so as to be good even in evils'",
+          "One who abandons all hope and effort, passively waiting for death to bring relief",
+          "One who becomes bitter and resentful toward those who have obtained worldly success",
+          "One who seeks to acquire as much wealth and power as possible to compensate for lacking a good will"
+        ],
+        "correct": 0,
+        "explanation": "Augustine describes such a person as one who diligently pursues, with virtue (prudence, temperance, courage, justice), whatever good is attainable in this present, imperfect life — being 'good even in evils' while awaiting the fullness of blessedness."
+      }
+    ],
+    "TRIN-B13C7": [
+      {
+        "q": "Why does Augustine argue that even the most disciplined pagan philosophers cannot actually 'live as they will' in this mortal life?",
+        "options": [
+          "Even a philosopher who bravely endures suffering with patience would still prefer, if possible, not to suffer at all — showing he does not truly 'live as he wills,' since his will to avoid suffering is thwarted even while he bears it admirably",
+          "Because philosophers, in Augustine's account, never actually experience any suffering whatsoever",
+          "Because he claims philosophy itself is entirely worthless and provides no genuine benefit to anyone",
+          "Because he argues only emperors and kings, not philosophers, can ever achieve true blessedness"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key point: even a philosopher who bears suffering with admirable fortitude would still prefer, given the choice, to avoid that suffering entirely — showing his will is still thwarted (he does not get what he ultimately wills), disqualifying him from true blessedness as Augustine has defined it."
+      },
+      {
+        "q": "What Terence quotation does Augustine cite and critique as advice for the miserable, not a description of blessedness?",
+        "options": [
+          "\"Since that cannot be which you will, will that which you can\"",
+          "\"Fortune favors the brave\"",
+          "\"While there is life, there is hope\"",
+          "\"Moderation in all things\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites and analyzes Terence's line 'Since that cannot be which you will, will that which you can' as wise practical advice for enduring misery, but explicitly NOT a true description of blessedness, since the truly blessed person's will and capability would perfectly coincide."
+      },
+      {
+        "q": "What conclusion does Augustine draw about the relationship between true blessedness and mortal, earthly life?",
+        "options": [
+          "True blessedness 'is not for this mortal state,' and will not come to pass unless immortality also comes to pass — mortality itself makes complete blessedness, as Augustine has defined it, impossible in this present life",
+          "He argues true blessedness is fully and completely achievable within this mortal life through philosophy alone",
+          "He claims mortality and blessedness have no relationship or connection whatsoever",
+          "He argues blessedness was possible in ancient times but has since become permanently unattainable"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's conclusion for this chapter: given his definition (having what one wills, willing nothing wrongly), true blessedness 'is not for this mortal state' and requires immortality, since mortal life inevitably involves some frustration of will (through suffering, loss, or death itself)."
+      }
+    ],
+    "TRIN-B13C8": [
+      {
+        "q": "What is Augustine's central argument in this chapter for why 'blessedness cannot exist without immortality'?",
+        "options": [
+          "No one is blessed while lacking something they will; since no one rightly wills to stop being blessed, a blessed person cannot rightly will their own life (and hence blessedness) to end — so a merely mortal 'blessedness' that must eventually end contradicts the very definition of blessedness itself",
+          "Because Augustine claims mortality is a purely modern invention with no bearing on ancient definitions of blessedness",
+          "Because he argues immortality is trivially easy to achieve and therefore blessedness must already be common",
+          "Because he claims blessedness and immortality are, in fact, entirely unrelated and separate concepts"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's argument: since no blessed person wills their blessedness (and hence their life) to end, but mortal life inevitably ends, a merely mortal 'blessedness' contradicts the definition of blessedness (having all one wills) — hence true blessedness requires immortality."
+      },
+      {
+        "q": "What three logical possibilities does Augustine consider for how death could 'quit' the blessed man, and why does each fail to preserve true blessedness?",
+        "options": [
+          "Death could come against his will (making his 'blessed' life dependent on something outside his control), with his will (meaning he willed the end of his own blessedness, which is absurd), or with neither will nor unwillingness (meaning he does not truly love the blessed life at all) — none of these preserve genuine blessedness",
+          "Augustine considers only one possibility in this chapter, not three",
+          "He argues death always comes 'with the will' of the blessed person, resolving the question straightforwardly",
+          "He claims this question is entirely unanswerable and refuses to consider any possibilities"
+        ],
+        "correct": 0,
+        "explanation": "Augustine systematically examines whether death comes against the blessed person's will (contradicting blessedness, since something is then imposed against his will), with his will (absurdly implying he willed his own blessed life's end), or with indifference (implying he doesn't truly love that life) — each option undermines true blessedness."
+      },
+      {
+        "q": "What is Augustine's final syllogistic conclusion at the end of this chapter?",
+        "options": [
+          "\"Whoever are either truly blessed or desire to be so, will to be immortal... Therefore, whoever are either truly blessed or desire to be so, will to be immortal. But he does not live blessedly who has not that which he wills. Therefore it follows that in no way can life be truly blessed unless it be eternal\"",
+          "\"Death is entirely irrelevant to any discussion of blessedness whatsoever\"",
+          "\"Only those who fear death can ever be truly blessed in this life\"",
+          "\"Blessedness and immortality, upon careful examination, turn out to be simply identical concepts with no distinction\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine's chapter-closing conclusion draws together the argument: since blessed people (or those who desire blessedness) necessarily will immortality, and since not having what one wills precludes true blessedness, 'in no way can life be truly blessed unless it be eternal.'"
+      }
+    ],
+    "TRIN-B13C9": [
+      {
+        "q": "What does Augustine say about the limits of unaided human reasoning regarding immortality, before turning to faith?",
+        "options": [
+          "Only a rare few, exceptionally gifted and learned philosophers have managed, through reasoning alone, to argue for the soul's immortality — and even they inconsistently held that the soul might return to earthly misery after achieving blessedness, undermining a truly stable, eternal blessedness",
+          "He claims virtually all ancient philosophers, without exception, achieved a fully coherent proof of bodily immortality through unaided reason",
+          "He argues human reasoning has always been completely incapable of grasping any aspect of immortality whatsoever",
+          "He claims reasoning about immortality was entirely unknown before the coming of Christianity"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes that only a small number of exceptionally capable philosophers managed to argue for the soul's immortality through unaided reason, and even they inconsistently held the soul might cycle back into earthly misery, undermining a truly stable eternal blessedness."
+      },
+      {
+        "q": "What does Augustine say faith uniquely promises, beyond what philosophy achieved, regarding immortality?",
+        "options": [
+          "That the WHOLE man, both soul AND body together, shall be immortal and truly blessed — not merely the soul alone, as some philosophers speculated",
+          "That only especially virtuous philosophers, not ordinary believers, can attain any form of immortality",
+          "That immortality applies only to the soul's memories, not to any conscious ongoing existence",
+          "That immortality is guaranteed automatically to every human being regardless of belief or character"
+        ],
+        "correct": 0,
+        "explanation": "Augustine emphasizes that faith promises, by divine authority rather than mere human reasoning, that the WHOLE person (soul and body together) will be immortal — a fuller promise than philosophy's speculation about the soul alone."
+      },
+      {
+        "q": "How does Augustine argue the Incarnation itself makes this promise of human immortality more credible?",
+        "options": [
+          "By an argument from the greater to the lesser: if the Son of God (by nature immortal) could become mortal for our sake (the seemingly incredible direction), it is far MORE credible that mortal humans could, by grace, become immortal children of God (the more natural direction)",
+          "By arguing the Incarnation has no logical bearing whatsoever on the question of human immortality",
+          "By claiming the Incarnation proves conclusively that Christ Himself never truly died at all",
+          "By arguing the Incarnation only applies to angels, not to human beings"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's rhetorical move: since the harder direction (God becoming mortal) already occurred in the Incarnation, the easier, more natural direction (mortal humans becoming immortal children of God by grace) becomes far more credible by comparison."
+      }
+    ],
+    "TRIN-B13C10": [
+      {
+        "q": "How does Augustine respond to those who ask why God 'needed' the Incarnation to save humanity, rather than some other means?",
+        "options": [
+          "He argues it is not enough to merely say the Incarnation was a GOOD and fitting way; one must show there was no MORE APPROPRIATE way, since nothing better demonstrates God's love and rebuilds human hope than the Son's willingness to bear our undeserved evils first",
+          "He argues God had no other options whatsoever and was forced into the Incarnation by necessity",
+          "He claims this question is inherently blasphemous and refuses to engage with it at all",
+          "He argues the Incarnation was, in fact, a mistake that God later needed to correct"
+        ],
+        "correct": 0,
+        "explanation": "Augustine takes the objection seriously, arguing it's not enough to show the Incarnation was merely a good option — he aims to show it was the fittest, most appropriate way, since nothing better demonstrates God's love than the Son bearing our undeserved evils to build up our hope."
+      },
+      {
+        "q": "How does Augustine explain that even believers' own 'merits' toward salvation are ultimately God's gifts, not self-generated?",
+        "options": [
+          "Citing that 'the love of God is shed abroad in our hearts by the Holy Ghost which is given unto us' (given after Christ's resurrection and ascension), Augustine argues the very deserts by which believers reach blessedness are themselves gifts poured out by God, not independently earned achievements",
+          "He argues believers, in fact, earn their salvation entirely through their own independent moral effort with no divine assistance",
+          "He claims the concept of 'merit' has no meaningful role whatsoever in Christian salvation",
+          "He argues only a small elite group of especially holy people ever receive any divine assistance at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine grounds even believers' 'merits' in divine gift: the Holy Spirit, poured out after Christ's ascension, sheds God's love in believers' hearts, making the very deserts by which they reach immortal blessedness themselves God's prior gift, not independently earned."
+      },
+      {
+        "q": "What pair of terms does the Apostle Paul use, according to Augustine, to describe humanity's condition before grace — one 'mild,' one 'harsh'?",
+        "options": [
+          "'Sinners' (relatively mild-sounding) and 'enemies of God' (plainly harsh) — corresponding also to 'weak' and 'ungodly'",
+          "'Foolish' and 'wise,' used interchangeably with no real distinction",
+          "'Rich' and 'poor,' referring to material rather than spiritual condition",
+          "'Young' and 'old,' referring to age rather than moral condition"
+        ],
+        "correct": 0,
+        "explanation": "Augustine notes Paul's use of two paired descriptions of humanity's pre-grace condition: 'sinners' (the milder term) alongside 'enemies of God' (the harsher term), which he further correlates with 'weak' and 'ungodly.'"
+      }
+    ],
+    "TRIN-B13C11": [
+      {
+        "q": "What theological puzzle does Augustine raise about believers being 'justified in Christ's blood' and 'reconciled by his death'?",
+        "options": [
+          "Whether this language implies the Father was somehow angry and unloving toward humanity UNTIL the Son's death appeased Him — which would seem to contradict Paul's own statement that God 'so loved' us that He gave His Son even 'while we were yet enemies'",
+          "Whether Christ's blood has any actual spiritual significance at all, or is merely symbolic language",
+          "Whether the doctrine of justification by blood is even found anywhere in Paul's writings",
+          "Whether this language proves the Son is inferior in nature to the Father"
+        ],
+        "correct": 0,
+        "explanation": "Augustine identifies the apparent tension: language of being 'reconciled' by Christ's death could suggest the Father was unloving/angry until appeased by the Son's sacrifice — which seems to contradict Paul's own teaching that God loved and gave His Son precisely 'while we were yet enemies.'"
+      },
+      {
+        "q": "How does Augustine resolve this tension, citing Ephesians' 'chosen us in Him before the foundation of the world'?",
+        "options": [
+          "By showing the Father loved humanity even BEFORE creating the world, long before the Son's death — so the reconciliation language describes a change in US (from enmity to friendship), not any change in the Father's prior disposition toward us",
+          "By simply denying that the Father ever loved sinful humanity in any way",
+          "By claiming the entire doctrine of election 'before the foundation of the world' is a later theological invention with no scriptural basis",
+          "By arguing the Son and Father are, in fact, two entirely separate and sometimes conflicting wills"
+        ],
+        "correct": 0,
+        "explanation": "Augustine resolves the tension by citing Ephesians 1:4's 'chosen us in Him before the foundation of the world' as proof the Father's love long predates the Son's death — the 'reconciliation' language, then, describes a change in humanity's relationship (from enmity to friendship), not a change in God's eternal disposition."
+      },
+      {
+        "q": "What conclusion does Augustine reach about how the Father, Son, and Spirit relate to the work of redemption?",
+        "options": [
+          "\"Together both the Father and the Son, and the Spirit of both, work all things equally and harmoniously\" — no division of will or affection exists among the three Persons in accomplishing salvation",
+          "That only the Son, not the Father or Spirit, is actually involved in the work of redemption",
+          "That the Father and Son actively work in opposition to each other throughout the process of redemption",
+          "That the Spirit plays no meaningful role whatsoever in the accomplishment of redemption"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's resolving conclusion reaffirms the Trinity's unified, harmonious action: Father, Son, and Spirit 'work all things equally and harmoniously' in redemption, with no division of will suggested by the reconciliation language."
+      }
+    ],
+    "TRIN-B13C12": [
+      {
+        "q": "How does Augustine explain humanity's being 'delivered into the power of the devil' after Adam's sin?",
+        "options": [
+          "By 'the justice of God' — not that God directly caused or commanded this, but that He justly PERMITTED it as a consequence of sin, since 'when He abandoned the sinner, the author of the sin immediately entered'",
+          "By claiming God actively and directly handed humanity over to the devil as a positive command, with full divine approval of the devil's rule",
+          "By denying that humanity was ever, in any sense, under the devil's power",
+          "By arguing this delivery to the devil was entirely accidental and had nothing to do with divine justice"
+        ],
+        "correct": 0,
+        "explanation": "Augustine carefully distinguishes God's just permission (not direct causation or command) as the mechanism: when God 'abandoned the sinner' as a just consequence of sin, 'the author of the sin [the devil] immediately entered' to claim his dominion."
+      },
+      {
+        "q": "What Genesis text does Augustine cite as an early sign of this 'delivering up,' connecting the serpent's curse and Adam's punishment?",
+        "options": [
+          "\"Dust shall you eat\" (spoken to the serpent) and \"Dust you are, and unto dust you shall return\" (spoken to Adam) — the shared word 'dust' signaling man's new subjection",
+          "\"Let there be light\" and \"It was very good\"",
+          "\"Be fruitful and multiply\" and \"Have dominion over the earth\"",
+          "\"Cursed is the ground for your sake\" and \"By the sweat of your brow\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws the connection between God telling the serpent 'Dust shall you eat' and telling Adam 'Dust you are, and unto dust you shall return,' reading the shared imagery of 'dust' as signaling humanity's new subjection to the serpent/devil."
+      },
+      {
+        "q": "Despite this abandonment to the devil, what does Augustine insist God never withdrew from fallen humanity or even from the devil himself?",
+        "options": [
+          "His sustaining goodness and mercy — 'He has not in anger shut up His tender mercies,' and even the devil continues to exist only through the power of the God 'who quickens all things'",
+          "His direct, unmediated presence, which Augustine claims remained fully visible to all humans after the fall",
+          "His original commandment against eating the forbidden fruit, which Augustine claims was never actually broken",
+          "His promise of immediate, automatic salvation regardless of any human response"
+        ],
+        "correct": 0,
+        "explanation": "Augustine insists God's sustaining mercy was never entirely withdrawn even amid this permitted subjection: 'He has not in anger shut up His tender mercies,' and even the devil's continued existence depends on the same God 'who quickens all things.'"
+      }
+    ],
+    "TRIN-B13C13": [
+      {
+        "q": "Why does Augustine argue the devil had to be conquered specifically by righteousness, not merely by God's overwhelming power?",
+        "options": [
+          "Because the devil's own defining sin was precisely loving power over righteousness — conquering him merely by superior power would have taught the wrong lesson, reinforcing rather than correcting the very error (love of power) that caused his fall and that men imitate",
+          "Because Augustine claims God, in fact, lacked sufficient power to overcome the devil directly",
+          "Because he argues righteousness and power are, in his view, simply identical concepts with no distinction",
+          "Because he claims the devil is actually more powerful than God in certain limited respects"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's key insight: since the devil's defining fault was loving power over righteousness, defeating him merely by superior power would validate rather than correct that error — so God chose to conquer him through righteousness, teaching humans (who imitate the devil's love of power) the proper order instead."
+      },
+      {
+        "q": "What proper 'order' does Augustine insist must be preserved between power and righteousness?",
+        "options": [
+          "Righteousness must come FIRST, with power following AFTER it — power is not evil in itself, but must never precede or replace righteousness in the pursuit of a rightly ordered life",
+          "Power must always come first, with righteousness a secondary, optional consideration",
+          "Augustine argues power and righteousness should be pursued simultaneously with no priority given to either",
+          "He claims power should be entirely rejected and avoided under all circumstances by the righteous"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's ordering principle: righteousness must precede power ('let mortals cleave to righteousness; power will be given to immortals') — power is not inherently evil, but pursuing it before or instead of righteousness inverts the proper order and leads to ruin."
+      },
+      {
+        "q": "What Psalm does Augustine cite regarding God's patience with the wicked's apparent worldly power, awaiting 'until righteousness return to judgment'?",
+        "options": [
+          "Psalm 94 (\"Blessed is the man whom You chasten, O Lord... until righteousness return unto judgment\")",
+          "Psalm 23 (\"The Lord is my shepherd\")",
+          "Psalm 51 (\"Have mercy upon me, O God\")",
+          "Psalm 137 (\"By the rivers of Babylon\")"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Psalm 94:12-15, which speaks of God chastening and teaching His people while awaiting the time when 'righteousness shall return to judgment' — power finally joining righteousness in due order."
+      }
+    ],
+    "TRIN-B13C14": [
+      {
+        "q": "What is the core logic of the 'ransom'-style argument Augustine develops for why Christ's death justly frees sinners from the devil?",
+        "options": [
+          "The devil found 'nothing worthy of death' in Christ, yet killed Him anyway; having thus unjustly killed one who owed him nothing, it is just that he forfeit his claim over those he DID justly hold as debtors, who go free by believing in the innocent one he wrongly slew",
+          "The devil simply agreed voluntarily to release all sinners in exchange for nothing at all",
+          "Christ paid the devil a literal sum of money as a bribe to release humanity",
+          "The devil was tricked by an illusion and never actually killed the real Christ at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's ransom logic: since the devil found no sin (no just cause for death) in Christ yet killed Him anyway, this injustice forfeits the devil's just claim over the sinners he rightfully held as debtors — they are freed by believing in the innocent one he wrongly killed."
+      },
+      {
+        "q": "Why does Augustine insist Christ had to be BOTH truly human and truly God for this victory to work as intended?",
+        "options": [
+          "Human, so He could actually be killed (paying the debt); God, so that His death would be understood as a free, powerful choice to submit to weakness (commending righteousness) rather than evidence of mere powerlessness",
+          "Human, so people would trust Him; God, so He could perform miracles unrelated to His death",
+          "Human, so He could eat and drink; God, so He could walk on water",
+          "Augustine argues Christ needed to be only human, with His divinity being theologically unnecessary for this argument"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's careful reasoning: Christ's humanity made it possible for Him to actually die (pay the debt); His divinity ensured His death was understood as a voluntary act of righteousness (choosing weakness) rather than simple powerlessness, since He 'could' have avoided it but chose not to."
+      },
+      {
+        "q": "What Psalm phrase does Augustine cite, applying it to Christ as one who paid a debt not His own?",
+        "options": [
+          "\"Free among the dead\" — only one who is truly dead is free from the debt of death, and Christ's death was undeserved, freeing others through Him",
+          "\"The Lord is my rock and my fortress\"",
+          "\"My cup runs over\"",
+          "\"He restores my soul\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites the psalm phrase 'Free among the dead' applied to Christ, reading it as expressing how His undeserved death (owing no debt of sin) uniquely freed Him from death's normal debt, and thereby enabled Him to pay that debt vicariously for others."
+      }
+    ],
+    "TRIN-B13C15": [
+      {
+        "q": "What paradox does Augustine identify at the very moment of Christ's crucifixion?",
+        "options": [
+          "The devil is actually conquered precisely at the moment he BELIEVES himself victorious — by unjustly killing the sinless Christ, he unwittingly forfeits his just claim over the sinners he rightfully held captive",
+          "The devil, in Augustine's account, was never actually involved in the crucifixion in any way",
+          "Christ, according to Augustine, was not actually defeated or killed at any point, making the whole question moot",
+          "The paradox Augustine identifies concerns only the timing of the resurrection, not the crucifixion"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's identified paradox: the devil, believing he has triumphed by killing Christ, is in that very act defeated, since killing the sinless One forfeits his just claim over the sinners he had rightfully held — victory disguised as apparent defeat."
+      },
+      {
+        "q": "What image does Augustine use, drawn from the Gospel parable, to describe how the devil ('the strong man') is 'bound' and his 'vessels' are freed?",
+        "options": [
+          "The strong man is conquered by righteousness and bound, so 'his vessels might be spoiled' — those who were 'vessels of wrath' while under him are turned into 'vessels of mercy'",
+          "The strong man is described as a farmer who loses his entire harvest to a rival farmer",
+          "The strong man is compared to a ship captain who loses his ship in a storm",
+          "The strong man is compared to a soldier who surrenders his weapons peacefully"
+        ],
+        "correct": 0,
+        "explanation": "Augustine draws on the Gospel image of the 'strong man' bound so his goods can be plundered, applying it to the devil bound by Christ's righteousness, with the formerly captive 'vessels of wrath' (sinners) transformed into 'vessels of mercy.'"
+      },
+      {
+        "q": "What experience of Paul's (recounted by Paul himself) does Augustine cite as illustrating this theme of deliverance 'from the power of Satan unto God'?",
+        "options": [
+          "Christ's words to Paul at his conversion/calling, sending him 'to open the eyes of the blind, and to turn them from darkness [to light], and from the power of Satan unto God, that they may receive forgiveness of sins'",
+          "Paul's shipwreck on the island of Malta",
+          "Paul's imprisonment and eventual trial before Caesar in Rome",
+          "Paul's debate with the philosophers at the Areopagus in Athens"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Paul's own account (from Acts, as recounted by Paul) of Christ's words at his calling — commissioning him to turn people 'from the power of Satan unto God' — as scriptural testimony to this pattern of deliverance from the devil's power."
+      }
+    ],
+    "TRIN-B13C16": [
+      {
+        "q": "Why, according to Augustine, do death and other worldly evils remain even AFTER a believer's sins are forgiven?",
+        "options": [
+          "Though rooted in original sin, these evils now serve believers as opportunities to 'contend for truth' and have their faith and goodness 'exercised' and proven, ultimately increasing longing for the perfect future life",
+          "Because Augustine claims God's forgiveness is, in fact, always incomplete and partial",
+          "Because he argues these evils have no purpose whatsoever and are simply unfortunate leftover consequences with no positive value",
+          "Because he claims only unforgiven sinners experience any worldly evils at all"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains these remaining evils, though rooted in sin, now serve a positive purpose for the forgiven believer: providing opportunities to contend for truth, prove faith and goodness, and intensify longing for the perfected life to come."
+      },
+      {
+        "q": "What scriptural assurance does Augustine cite regarding the limits of temptation permitted to believers?",
+        "options": [
+          "\"God is faithful, who will not suffer you to be tempted above that you are able; but will with the temptation also make a way to escape, that you may be able to bear it\"",
+          "\"Vengeance is mine, says the Lord; I will repay\"",
+          "\"The Lord is my light and my salvation; whom shall I fear?\"",
+          "\"Cast your burden upon the Lord, and He shall sustain you\""
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites 1 Corinthians 10:13's assurance that God limits the temptations believers face and always provides a way of escape, framing the devil's permitted 'adversary' role as bounded by what God knows is expedient for believers."
+      },
+      {
+        "q": "What guarantee does Augustine draw from Romans 8 regarding those who are 'predestined,' 'called,' 'justified,' and 'glorified'?",
+        "options": [
+          "That not one of these will ultimately perish with the devil, since 'whom He did predestinate, them He also called; and whom He called, them He also justified; and whom He justified, them He also glorified' — an unbroken, guaranteed sequence",
+          "That these terms refer to entirely separate and unrelated groups of people, with no connection between them",
+          "That only a small, uncertain number of people will ever be included in any of these categories",
+          "That predestination, in Augustine's reading, applies only to angels, not to human beings"
+        ],
+        "correct": 0,
+        "explanation": "Augustine cites Romans 8:29-30's unbroken chain (foreknown, predestined, called, justified, glorified) as guaranteeing that none of the elect will ultimately perish under the devil's power — the sequence proceeds without loss from one stage to the next."
+      }
+    ],
+    "TRIN-B13C17": [
+      {
+        "q": "What does Augustine say the Incarnation demonstrates about humanity's place among created spiritual beings?",
+        "options": [
+          "It shows human nature could be joined to God so closely that one Person unites divinity, soul, and flesh — demonstrating that proud demonic spirits (who lack flesh and interpose themselves as false mediators) have no legitimate basis for claiming superiority over embodied humans",
+          "It shows that human nature is, in fact, inferior to angelic nature in every conceivable respect",
+          "It proves that only disembodied spirits can achieve any meaningful union with the divine",
+          "It demonstrates that physical bodies are inherently evil and must ultimately be discarded"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues the Incarnation reveals humanity's true dignity: human nature could be united with God so intimately that proud demonic spirits (who falsely claim mediating superiority partly because they lack flesh) have no legitimate ground to place themselves above embodied humanity."
+      },
+      {
+        "q": "How does Augustine argue the Incarnation shows grace is entirely unmerited, even for Christ Himself?",
+        "options": [
+          "Christ Himself 'did not obtain by any precedent merits' His unique unity with God as one Person — from the very moment He began to be man, He was already God, showing the gift-nature of grace even in the case of the Mediator Himself",
+          "He argues Christ earned His divinity through a lifetime of perfect moral effort before being granted union with the Father",
+          "He claims grace, in fact, always requires some prior human merit to be granted at all",
+          "He argues this point applies only to ordinary believers, not to Christ Himself in any way"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's striking point: even Christ's own unique unity of Person with God was not earned by prior merit — from the moment He began to be man, He was already God — modeling for believers that grace, even at its highest instance, is never a reward for prior merit."
+      },
+      {
+        "q": "What example of virtue does Augustine highlight in Christ's Incarnation as a model 'for us, who had perished through disobedience'?",
+        "options": [
+          "Obedience — 'God the Son obedient to God the Father, even to the death of the cross,' with the reward of that obedience shown in the resurrection of His flesh to eternal life",
+          "Wealth accumulation, as a model of prudent financial planning",
+          "Political ambition, as a model for effective governance",
+          "Physical strength, as a model for military conquest"
+        ],
+        "correct": 0,
+        "explanation": "Augustine highlights Christ's obedience — even 'to the death of the cross' — as the great counter-example to Adam's disobedience, with the reward of that obedience displayed in Christ's bodily resurrection to eternal life."
+      }
+    ],
+    "TRIN-B13C18": [
+      {
+        "q": "Why does Augustine say the Son took human nature specifically from Adam's race, rather than creating an entirely new, unrelated human being?",
+        "options": [
+          "So that the devil, having conquered humanity through Adam's race, would fittingly be conquered by that SAME race — 'the conqueror of the first Adam... conquered by the second Adam,' from the very race he had claimed",
+          "Because God, in Augustine's account, had no other option and was forced to use Adam's race",
+          "Because Augustine claims Adam's race was inherently superior to any other possible race God could have created",
+          "Because he argues this detail is theologically insignificant and merely a matter of convenience"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains the fittingness of this choice: since the devil conquered humanity through Adam's race, it was fitting that he be conquered by a member of that SAME race, rather than by an unrelated new creation — 'that deceiver might be conquered by that race which he had conquered by guilt.'"
+      },
+      {
+        "q": "Why does Augustine say Christ's conception by a virgin, without carnal concupiscence, was necessary?",
+        "options": [
+          "So that Christ would inherit only the ORIGIN of the human race (mere descent) without also inheriting the GUILT transmitted through the normal process of conception involving sinful concupiscence — making Him alone sinless and able to serve as the remedy for others",
+          "Because Augustine claims ordinary sexual intercourse is inherently and irredeemably sinful even within marriage",
+          "Because he argues virginity is, in every case, morally superior to marriage without qualification",
+          "Because he claims the virgin birth was primarily a matter of ceremonial purity with no deeper theological significance"
+        ],
+        "correct": 0,
+        "explanation": "Augustine explains that virgin conception (by faith and the Spirit, without concupiscence) let Christ inherit only the RACIAL origin from Adam, not the GUILT normally transmitted through concupiscent conception — making Him the one sinless remedy for all others, who cannot avoid being 'born with sin.'"
+      },
+      {
+        "q": "What does Augustine say about carnal concupiscence's 'involuntary motions,' arguing they show something about the state of humanity before the Fall?",
+        "options": [
+          "That such involuntary motions (arising even against the will, or occurring without any intention to procreate) show this kind of concupiscence 'could not have existed at all in paradise before sin,' or if present, was not then resistant to the will as it now is",
+          "That such motions prove concupiscence has always been identical before and after the Fall, with no change whatsoever",
+          "That such motions are entirely irrelevant to any theological discussion of the Fall",
+          "That such motions prove human nature was created flawed and sinful from the very beginning"
+        ],
+        "correct": 0,
+        "explanation": "Augustine argues the involuntary, sometimes unwanted nature of sexual concupiscence (arising even against the will, or without reproductive intent) shows either it did not exist at all before the Fall, or existed without the current resistance to the will — evidence of the corruption introduced by original sin."
+      }
+    ],
+    "TRIN-B13C19": [
+      {
+        "q": "How does Augustine assign everything the incarnate Word 'did and bore for us in time and place' — and, separately, truths spoken of the eternal Word itself?",
+        "options": [
+          "Everything the Word did/bore in time and place belongs to KNOWLEDGE, while true discourse about the timeless, co-eternal Word itself belongs to WISDOM — and Christ, uniting both natures, possesses 'the treasures both of wisdom and of knowledge'",
+          "He assigns everything, without exception, to wisdom alone, denying any role for knowledge in understanding Christ",
+          "He assigns everything, without exception, to knowledge alone, denying any role for wisdom in understanding Christ",
+          "He argues this distinction cannot meaningfully be applied to Christ at all, contradicting the whole project of the book"
+        ],
+        "correct": 0,
+        "explanation": "Augustine applies his wisdom/knowledge distinction directly to Christology: temporal actions and sufferings of the incarnate Word belong to knowledge, while truths about the eternal, timeless Word belong to wisdom — with Christ uniquely possessing both 'treasures' together, per Colossians 2."
+      },
+      {
+        "q": "How does Augustine map John's phrase 'full of grace and truth' onto this knowledge/wisdom distinction?",
+        "options": [
+          "GRACE corresponds to knowledge (the highest grace being God joined with man in the temporal Incarnation), while TRUTH corresponds to wisdom (rightly attributed to the eternal Word)",
+          "He argues 'grace' and 'truth' are, in fact, synonymous terms with no distinct theological content",
+          "He maps 'grace' onto wisdom and 'truth' onto knowledge, the reverse of the more natural pairing",
+          "He denies this phrase has any connection whatsoever to his knowledge/wisdom distinction"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's mapping: 'grace,' tied to the temporal, unmerited union of God and man in the Incarnation, corresponds to knowledge; 'truth,' the highest reality attributed to the eternal Word, corresponds to wisdom — both fully present and united in the one Christ."
+      },
+      {
+        "q": "What criticism does Augustine level at pagan philosophers who correctly grasped God's invisible attributes yet still fell into idolatry?",
+        "options": [
+          "They 'philosophized without a Mediator' — lacking faith in Christ (past or future), they sought other, deceptive 'media' (fallen spirits) to bridge the gap to divine truths they had glimpsed, and ended up worshipping images of corruptible things instead",
+          "Augustine argues these philosophers achieved complete, error-free understanding with no criticism warranted",
+          "He claims these philosophers never actually grasped anything true about God's nature at all",
+          "He argues their error was purely intellectual, with no connection to the practice of idolatry"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's criticism (echoing Romans 1) targets philosophers who, lacking faith in the Mediator (Christ), sought other spiritual intermediaries to bridge what they had glimpsed of eternal truth to their earthly condition — falling, through these deceptive spirits, into idol worship of corruptible images."
+      }
+    ],
+    "TRIN-B13C20": [
+      {
+        "q": "How does Augustine summarize the overall argument of Book XIII at its close?",
+        "options": [
+          "All people will to be blessed, but not all have the faith needed to cleanse the heart and reach it; faith is necessary for the good of the WHOLE human nature (soul and body), and must be specifically anchored in Christ, who rose bodily and alone frees from the devil's dominion",
+          "He summarizes the book as having proven that blessedness is entirely unattainable by any human being under any circumstances",
+          "He summarizes the book as having shown that faith and knowledge are, in fact, identical and interchangeable concepts",
+          "He summarizes the book as concerning primarily geometric and mathematical questions unrelated to theology"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's closing summary: the universal will to blessedness requires faith (which not everyone has) to be realized, and that faith must be specifically anchored in Christ's bodily resurrection and unique power to free believers from the devil's dominion — tying together the book's argument."
+      },
+      {
+        "q": "What example does Augustine give of someone who has a mere 'trinity of the outer man' rather than the inner man, regarding faith's words?",
+        "options": [
+          "Someone who memorizes the SOUNDS of the words of the Christian faith in an unknown foreign language, without understanding their meaning at all — like remembering Greek words without knowing Greek",
+          "Someone who has fully understood, believed, and loved the content of the Christian faith with their whole heart",
+          "Someone who has never heard any words of the Christian faith under any circumstances",
+          "Someone who actively and knowingly rejects the Christian faith after fully understanding it"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's example: someone who memorizes the mere SOUNDS of faith's words in a language they don't understand (like remembering Greek words without knowing Greek) has only a trinity 'of the exterior man,' dealing merely with sound-images, not genuine inner understanding."
+      },
+      {
+        "q": "According to Augustine, what is required for a person to genuinely 'live according to a trinity of the inner man' regarding matters of faith?",
+        "options": [
+          "Not merely holding and understanding the content of faith (which could even be done while regarding it as false, in order to refute it), but actually BELIEVING those things to be true AND loving what ought to be loved in them — 'every one lives according to that which he loves'",
+          "Simply being born into a Christian family or culture, regardless of personal belief",
+          "Achieving perfect theological knowledge with no possibility of error whatsoever",
+          "Successfully memorizing the entire text of Scripture word for word"
+        ],
+        "correct": 0,
+        "explanation": "Augustine's final criterion: genuinely living 'according to a trinity of the inner man' requires not just understanding faith's content (which could be held even while disbelieving it, in order to refute it) but actually believing it true and loving what should be loved in it — since 'every one lives according to that which he loves.'"
+      }
     ]
   }
 };
