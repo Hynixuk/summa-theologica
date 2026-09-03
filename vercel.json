@@ -1,7 +1,7 @@
 {
   "buildCommand": "echo 'Static site, no build needed'",
   "outputDirectory": "app",
-  "framework": "static",
+  "framework": null,
   "headers": [
     {
       "source": "/service-worker.js",
