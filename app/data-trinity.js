@@ -87,7 +87,7 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 13,
         "title": "Diverse Things are Spoken Concerning the Same Christ, on Account of the Diverse Natures of the One Hypostasis [Theanthropic Person]. Why It is Said that the Father Will Not Judge, But Has Given Judgment to the Son.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       }
     ]
@@ -101,115 +101,115 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 0,
         "title": "Preface",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 0
       },
       {
         "chapter": 1,
         "title": "There is a Double Rule for Understanding the Scriptural Modes of Speech Concerning the Son of God. These Modes of Speech are of a Threefold Kind.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "That Some Ways of Speaking Concerning the Son are to Be Understood According to Either Rule.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "Some Things Concerning the Holy Spirit are to Be Understood According to the One Rule Only.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Glorification of the Son by the Father Does Not Prove Inequality.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "The Son and Holy Spirit are Not Therefore Less Because Sent. The Son is Sent Also by Himself. Of the Sending of the Holy Spirit.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "The Creature is Not So Taken by the Holy Spirit as Flesh is by the Word.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "A Doubt Raised About Divine Appearances.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "The Entire Trinity Invisible.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "Against Those Who Believed the Father Only to Be Immortal and Invisible. The Truth to Be Sought by Peaceful Study.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "Whether God the Trinity Indiscriminately Appeared to the Fathers, or Any One Person of the Trinity. The Appearing of God to Adam. Of the Same Appearance. The Vision to Abraham.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "Of the Same Appearance.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "The Appearance to Lot is Examined.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       },
       {
         "chapter": 13,
         "title": "The Appearance in the Bush.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       },
       {
         "chapter": 14,
         "title": "Of the Appearance in the Pillar of Cloud and of Fire.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 14
       },
       {
         "chapter": 15,
         "title": "Of the Appearance on Sinai. Whether the Trinity Spoke in that Appearance or Some One Person Specially.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 15
       },
       {
         "chapter": 16,
         "title": "In What Manner Moses Saw God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 16
       },
       {
         "chapter": 17,
         "title": "How the Back Parts of God Were Seen. The Faith of the Resurrection of Christ. The Catholic Church Only is the Place from Whence the Back Parts of God are Seen. The Back Parts of God Were Seen by the Israelites. It is a Rash Opinion to Think that God the Father Only Was Never Seen by the Fathers.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 17
       },
       {
         "chapter": 18,
         "title": "The Vision of Daniel.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 18
       }
     ]
@@ -223,73 +223,73 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 0,
         "title": "Preface: Why Augustine Writes of the Trinity. What He Claims from Readers. What Has Been Said in the Previous Book.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 0
       },
       {
         "chapter": 1,
         "title": "What is to Be Said Thereupon.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "The Will of God is the Higher Cause of All Corporeal Change. This is Shown by an Example.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "Of the Same Argument.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "God Uses All Creatures as He Will, and Makes Visible Things for the Manifestation of Himself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "Why Miracles are Not Usual Works.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "Diversity Alone Makes a Miracle.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "Great Miracles Wrought by Magic Arts.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "God Alone Creates Those Things Which are Changed by Magic Art.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "The Original Cause of All Things is from God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "In How Many Ways the Creature is to Be Taken by Way of Sign. The Eucharist.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "The Essence of God Never Appeared in Itself. Divine Appearances to the Fathers Wrought by the Ministry of Angels. An Objection Drawn from the Mode of Speech Removed. That the Appearing of God to Abraham Himself, Just as that to Moses, Was Wrought by Angels. The Same Thing is Proved by the Law Being Given to Moses by Angels. What Has Been Said in This Book, and What Remains to Be Said in the Next.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       }
     ]
@@ -303,133 +303,133 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 0,
         "title": "Preface: The Knowledge of God is to Be Sought from God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 0
       },
       {
         "chapter": 1,
         "title": "We are Made Perfect by Acknowledgement of Our Own Weakness. The Incarnate Word Dispels Our Darkness.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "How We are Rendered Apt for the Perception of Truth Through the Incarnate Word.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "The One Death and Resurrection of The Body of Christ Harmonizes with Our Double Death and Resurrection of Body and Soul, to the Effect of Salvation. In What Way the Single Death of Christ is Bestowed Upon Our Double Death.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Ratio of the Single to the Double Comes from the Perfection of the Senary Number. The Perfection of The Senary Number is Commended in the Scriptures. The Year Abounds in The Senary Number.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "The Number Six is Also Commended in the Building Up of the Body of Christ and of the Temple at Jerusalem.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "The Three Days of the Resurrection, in Which Also the Ratio of Single to Double is Apparent.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "In What Manner We are Gathered from Many into One Through One Mediator.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "In What Manner Christ Wills that All Shall Be One in Himself.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "The Same Argument Continued.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "As Christ is the Mediator of Life, So the Devil is the Mediator of Death.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "Miracles Which are Done by Demons are to Be Spurned.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "The Devil the Mediator of Death, Christ of Life.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       },
       {
         "chapter": 13,
         "title": "The Death of Christ Voluntary. How the Mediator of Life Subdued the Mediator of Death. How the Devil Leads His Own to Despise the Death of Christ.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       },
       {
         "chapter": 14,
         "title": "Christ the Most Perfect Victim for Cleansing Our Faults. In Every Sacrifice Four Things are to Be Considered.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 14
       },
       {
         "chapter": 15,
         "title": "They are Proud Who Think They are Able, by Their Own Righteousness, to Be Cleansed So as to See God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 15
       },
       {
         "chapter": 16,
         "title": "The Old Philosophers are Not to Be Consulted Concerning the Resurrection and Concerning Things to Come.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 16
       },
       {
         "chapter": 17,
         "title": "In How Many Ways Things Future are Foreknown. Neither Philosophers, Nor Those Who Were Distinguished Among the Ancients, are to Be Consulted Concerning the Resurrection of the Dead.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 17
       },
       {
         "chapter": 18,
         "title": "The Son of God Became Incarnate in Order that We Being Cleansed by Faith May Be Raised to the Unchangeable Truth.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 18
       },
       {
         "chapter": 19,
         "title": "In What Manner the Son Was Sent and Proclaimed Beforehand. How in the Sending of His Birth in the Flesh He Was Made Less Without Detriment to His Equality with the Father.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 19
       },
       {
         "chapter": 20,
         "title": "The Sender and the Sent Equal. Why the Son is Said to Be Sent by the Father. Of the Mission of the Holy Spirit. How and by Whom He Was Sent. The Father the Beginning of the Whole Godhead.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 20
       },
       {
         "chapter": 21,
         "title": "Of the Sensible Showing of the Holy Spirit, and of the Coeternity of the Trinity. What Has Been Said, and What Remains to Be Said.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 21
       }
     ]
@@ -443,97 +443,97 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "What the Author Entreats from God, What from the Reader. In God Nothing is to Be Thought Corporeal or Changeable.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "God the Only Unchangeable Essence.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "The Argument of the Arians is Refuted, Which is Drawn from the Words Begotten and Unbegotten.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Accidental Always Implies Some Change in the Thing.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "Nothing is Spoken of God According to Accident, But According to Substance or According to Relation.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "Reply is Made to the Cavils of the Heretics in Respect to the Same Words Begotten and Unbegotten.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "The Addition of a Negative Does Not Change the Predicament.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "Whatever is Spoken of God According to Substance, is Spoken of Each Person Severally, and Together of the Trinity Itself. One Essence in God, and Three, in Greek, Hypostases, in Latin, Persons.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "The Three Persons Not Properly So Called [in a Human Sense].",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "Those Things Which Belong Absolutely to God as an Essence, are Spoken of the Trinity in the Singular, Not in the Plural.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       },
       {
         "chapter": 11,
         "title": "What is Said Relatively in the Trinity.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 11
       },
       {
         "chapter": 12,
         "title": "In Relative Things that are Reciprocal, Names are Sometimes Wanting.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 12
       },
       {
         "chapter": 13,
         "title": "How the Word Beginning (Principium) is Spoken Relatively in the Trinity.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 13
       },
       {
         "chapter": 14,
         "title": "The Father and the Son the Only Beginning (Principium) of the Holy Spirit.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 14
       },
       {
         "chapter": 15,
         "title": "Whether the Holy Spirit Was a Gift Before as Well as After He Was Given.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 15
       },
       {
         "chapter": 16,
         "title": "What is Said of God in Time, is Said Relatively, Not Accidentally.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 16
       }
     ]
@@ -547,61 +547,61 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "The Son, According to the Apostle, is the Power and Wisdom of the Father. Hence the Reasoning of the Catholics Against the Earlier Arians. A Difficulty is Raised, Whether the Father is Not Wisdom Himself, But Only the Father of Wisdom.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": ".— What is Said of the Father and Son Together, and What Not.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "That the Unity of the Essence of the Father and the Son is to Be Gathered from the Words, \"We are One.\" The Son is Equal to the Father Both in Wisdom and in All Other Things.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "The Same Argument Continued.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "The Holy Spirit Also is Equal to the Father and the Son in All Things.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "How God is a Substance Both Simple and Manifold.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       },
       {
         "chapter": 7,
         "title": "God is a Trinity, But Not Triple (Triplex).",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 7
       },
       {
         "chapter": 8,
         "title": "No Addition Can Be Made to the Nature of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 8
       },
       {
         "chapter": 9,
         "title": "Whether One or the Three Persons Together are Called the Only God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 9
       },
       {
         "chapter": 10,
         "title": "Of the Attributes Assigned by Hilary to Each Person. The Trinity is Represented in Things that are Made.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 10
       }
     ]
@@ -615,37 +615,37 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 1,
         "title": "Augustine Returns to the Question, Whether Each Person of the Trinity by Itself is Wisdom. With What Difficulty, or in What Way, the Proposed Question is to Be Solved.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "The Father and the Son are Together One Wisdom, as One Essence, Although Not Together One Word.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "Why the Son Chiefly is Intimated in the Scriptures by the Name of Wisdom, While Both the Father and the Holy Spirit are Wisdom. That the Holy Spirit, Together with the Father and the Son, is One Wisdom.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "How It Was Brought About that the Greeks Speak of Three Hypostases, the Latins of Three Persons. Scripture Nowhere Speaks of Three Persons in One God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "In God, Substance is Spoken Improperly, Essence Properly.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
         "chapter": 6,
         "title": "Why We Do Not in the Trinity Speak of One Person, and Three Essences. What He Ought to Believe Concerning the Trinity Who Does Not Receive What is Said Above. Man is Both After the Image, and is the Image of God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 6
       }
     ]
@@ -659,37 +659,37 @@ window.TRINITY_BOOKS = [
       {
         "chapter": 0,
         "title": "Preface: The Conclusion of What Has Been Said Above. The Rule to Be Observed in the More Difficult Questions of the Faith.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 0
       },
       {
         "chapter": 1,
         "title": "It is Shown by Reason that in God Three are Not Anything Greater Than One Person.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 1
       },
       {
         "chapter": 2,
         "title": "Every Corporeal Conception Must Be Rejected, in Order that It May Be Understood How God is Truth.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 2
       },
       {
         "chapter": 3,
         "title": "How God May Be Known to Be the Chief Good. The Mind Does Not Become Good Unless by Turning to God.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 3
       },
       {
         "chapter": 4,
         "title": "God Must First Be Known by an Unerring Faith, that He May Be Loved.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 4
       },
       {
         "chapter": 5,
         "title": "How the Trinity May Be Loved Though Unknown.",
-        "hasAudio": false,
+        "hasAudio": true,
         "audioTrack": 5
       },
       {
@@ -1768,9 +1768,9 @@ window.TRINITY_TEXT = {
         "text": "31. He is \"good,\" according to that sight, according to which God appears to the pure in heart; for \"truly God is good unto Israel even to such as are of a clean heart.\" But when the wicked shall see the Judge, He will not seem good to them; because they will not rejoice in their heart to see Him, but all \"kindreds of the earth shall then wail because of Him,\" namely, as being reckoned in the number of all the wicked and unbelievers. On this account also He replied to him, who had called Him Good Master, when seeking advice of Him how he might attain eternal life, \"Why do you ask me about good? there is none good but One, that is, God.\" And yet the Lord Himself, in another place, calls man good: \"A good man,\" He says, \"out of the good treasure of his heart, brings forth good things: and an evil man, out of the evil treasure of his heart, brings forth evil things.\" But because that man was seeking eternal life, and eternal life consists in that contemplation in which God is seen, not for punishment, but for everlasting joy; and because he did not understand with whom he was speaking, and thought Him to be only the Son of man: Why, He says, do you ask me about good? That is, with respect to that form which you see, why do you ask about good, and call me, according to what you see, Good Master? This is the form of the Son of man, the form which has been taken, the form that will appear in judgment, not only to the righteous, but also to the ungodly; and the sight of this form will not be for good to those who are wicked. But there is a sight of that form of mine, in which when I was, I thought it not robbery to be equal with God: but in order to take this form I emptied myself. That one God, therefore, the Father and the Son and the Holy Spirit, who will not appear, except for joy which cannot be taken away from the just; for which future joy he sighs, who says, \"One thing have I desired of the Lord, that will I seek after; that I may dwell in the house of the Lord all the days of my life, to behold the beauty of the Lord:\" that one God, therefore, Himself, I say, is alone good, for this reason, that no one sees Him for sorrow and wailing, but only for salvation and true joy. If you understand me after this latter form, then I am good; but if according to that former only, then why do you ask me about good? If you are among those who \"shall look upon Him whom they have pierced,\" that very sight itself will be evil to them, because it will be penal. That after this meaning, then, the Lord said, \"Why do you ask me about good? There is none good but One, that is, God,\" is probable upon those proofs which I have alleged, because that sight of God, whereby we shall contemplate the substance of God unchangeable and invisible to human eyes (which is promised to the saints alone; which the Apostle Paul speaks of, as \"face to face;\" and of which the Apostle John says, \"We shall be like Him, for we shall see Him as He is;\" and of which it is said, \"One thing have I desired of the Lord, that I may behold the beauty of the Lord,\" and of which the Lord Himself says, \"I will both love him, and will manifest myself to him;\" and on account of which alone we cleanse our hearts by faith, that we may be those \"pure in heart who are blessed for they shall see God:\" and whatever else is spoken of that sight: which whosoever turns the eye of love to seek it, may find most copiously scattered through all the Scriptures) — that sight alone, I say, is our chief good, for the attaining of which we are directed to do whatever we do aright. But that sight of the Son of man which is foretold, when all nations shall be gathered before Him, and shall say to Him, \"Lord, when saw we You an hungered, or thirsty, etc.?\" will neither be a good to the ungodly, who shall be sent into everlasting fire, nor the chief good to the righteous. For He still goes on to call these to the kingdom which has been prepared for them from the foundation of the world. For, as He will say to those, \"Depart into everlasting fire;\" so to these, \"Come, you blessed of my Father, inherit the kingdom prepared for you.\" And as those will go into everlasting burning; so the righteous will go into life eternal. But what is life eternal, except \"that they may know You,\" He says, \"the One true God, and Jesus Christ, whom You have sent?\" but know Him now in that glory of which He says to the Father, \"Which I had with You before the world was.\" For then He will deliver up the kingdom to God, even the Father, that the good servant may enter into the joy of his Lord, and that He may hide those whom God keeps in the hiding of His countenance from the confusion of men, namely, of those men who shall then be confounded by hearing this sentence; of which evil hearing \"the righteous man shall not be afraid\" if only he be kept in \"the tabernacle,\" that is, in the true faith of the Catholic Church, from \"the strife of tongues,\" that is, from the sophistries of heretics. But if there is any other explanation of the words of the Lord, where He says, \"Why do you ask me about good? There is none good, but One, that is, God;\" provided only that the substance of the Father be not therefore believed to be of greater goodness than that of the Son, according to which He is the Word by whom all things were made; and if there is nothing in it abhorrent from sound doctrine; let us securely use it, and not one explanation only, but as many as we are able to find. For so much the more powerfully are the heretics proved wrong, the more outlets are open for avoiding their snares. But let us now start afresh, and address ourselves to the consideration of that which still remains."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B1C13",
+    "durationSeconds": 679
   },
   "TRIN-B2C0": {
     "book": 2,
@@ -1782,9 +1782,9 @@ window.TRINITY_TEXT = {
         "text": "When men seek to know God, and bend their minds according to the capacity of human weakness to the understanding of the Trinity; learning, as they must, by experience, the wearisome difficulties of the task, whether from the sight itself of the mind striving to gaze upon light unapproachable, or, indeed, from the manifold and various modes of speech employed in the sacred writings (wherein, as it seems to me, the mind is nothing else but roughly exercised, in order that it may find sweetness when glorified by the grace of Christ);— such men, I say, when they have dispelled every ambiguity, and arrived at something certain, ought of all others most easily to make allowance for those who err in the investigation of so deep a secret. But there are two things most hard to bear with, in the case of those who are in error: hasty assumption before the truth is made plain; and, when it has been made plain, defense of the falsehood thus hastily assumed. From which two faults, inimical as they are to the finding out of the truth, and to the handling of the divine and sacred books, should God, as I pray and hope, defend and protect me with the shield of His good will, and with the grace of His mercy, I will not be slow to search out the substance of God, whether through His Scripture or through the creature. For both of these are set forth for our contemplation to this end, that He may Himself be sought, and Himself be loved, who inspired the one, and created the other. Nor shall I be afraid of giving my opinion, in which I shall more desire to be examined by the upright, than fear to be carped at by the perverse. For charity, most excellent and unassuming, gratefully accepts the dovelike eye; but for the dog's tooth nothing remains, save either to shun it by the most cautious humility, or to blunt it by the most solid truth; and far rather would I be censured by any one whatsoever, than be praised by either the erring or the flatterer. For the lover of truth need fear no one's censure. For he that censures, must needs be either enemy or friend. And if an enemy reviles, he must be borne with: but a friend, if he errs, must be taught; if he teaches, listened to. But if one who errs praises you, he confirms your error; if one who flatters, he seduces you into error. \"Let the righteous,\" therefore, \"smite me, it shall be a kindness; and let him reprove me; but the oil of the sinner shall not anoint my head.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C0",
+    "durationSeconds": 140
   },
   "TRIN-B2C1": {
     "book": 2,
@@ -1800,9 +1800,9 @@ window.TRINITY_TEXT = {
         "text": "3. Some things, then, are so put in the Scriptures concerning the Father and the Son, as to intimate the unity and equality of their substance; as, for instance, \"I and the Father are one;\" and, \"Who, being in the form of God, thought it not robbery to be equal with God;\" and whatever other texts there are of the kind. And some, again, are so put that they show the Son as less on account of the form of a servant, that is, of His having taken upon Him the creature of a changeable and human substance; as, for instance, that which says, \"For my Father is greater than I;\" and, \"The Father judges no man, but has committed all judgment unto the Son.\" For a little after he goes on to say, \"And has given Him authority to execute judgment also, because He is the Son of man.\" And further, some are so put, as to show Him at that time neither as less nor as equal, but only to intimate that He is of the Father; as, for instance, that which says, \"For as the Father has life in Himself, so has He given to the Son to have life in Himself;\" and that other: \"The Son can do nothing of Himself, but what He sees the Father do.\" For if we shall take this to be therefore so said, because the Son is less in the form taken from the creature, it will follow that the Father must have walked on the water, or opened the eyes with clay and spittle of some other one born blind, and have done the other things which the Son appearing in the flesh did among men, before the Son did them; in order that He might be able to do those things, who said that the Son was not able to do anything of Himself, except what He has seen the Father do. Yet who, even though he were mad, would think this? It remains, therefore, that these texts are so expressed, because the life of the Son is unchangeable as that of the Father is, and yet He is of the Father; and the working of the Father and of the Son is indivisible, and yet so to work is given to the Son from Him of whom He Himself is, that is, from the Father; and the Son so sees the Father, as that He is the Son in the very seeing Him. For to be of the Father, that is, to be born of the Father, is to Him nothing else than to see the Father; and to see Him working, is nothing else than to work with Him: but therefore not from Himself, because He is not from Himself. And, therefore, those things which \"He sees the Father do, these also does the Son likewise,\" because He is of the Father. For He neither does other things in like manner, as a painter paints other pictures, in the same way as he sees others to have been painted by another man; nor the same things in a different manner, as the body expresses the same letters, which the mind has thought; but \"whatsoever things,\" says He, \"the Father does, these same things also does the Son likewise.\" He has said both \"these same things,\" and \"likewise;\" and hence the working of both the Father and the Son is indivisible and equal, but it is from the Father to the Son. Therefore the Son cannot do anything of Himself, except what He sees the Father do. From this rule, then, whereby the Scriptures so speak as to mean, not to set forth one as less than another, but only to show which is of which, some have drawn this meaning, as if the Son were said to be less. And some among ourselves who are more unlearned and least instructed in these things, endeavoring to take these texts according to the form of a servant, and so misinterpreting them, are troubled. And to prevent this, the rule in question is to be observed whereby the Son is not less, but it is simply intimated that He is of the Father, in which words not His inequality but His birth is declared."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C1",
+    "durationSeconds": 231
   },
   "TRIN-B2C2": {
     "book": 2,
@@ -1814,9 +1814,9 @@ window.TRINITY_TEXT = {
         "text": "4. There are, then, some things in the sacred books, as I began by saying, so put, that it is doubtful to which they are to be referred: whether to that rule whereby the Son is less on account of His having taken the creature; or whether to that whereby it is intimated that although equal, yet He is of the Father. And in my opinion, if this is in such way doubtful, that which it really is can neither be explained nor discerned, then such passages may without danger be understood according to either rule, as that, for instance, \"My doctrine is not mine, but His that sent me.\" For this may both be taken according to the form of a servant, as we have already treated it in the former book; or according to the form of God, in which He is in such way equal to the Father, that He is yet of the Father. For according to the form of God, as the Son is not one and His life another, but the life itself is the Son; so the Son is not one and His doctrine another, but the doctrine itself is the Son. And hence, as the text, \"He has given life to the Son,\" is no otherwise to be understood than, He has begotten the Son, who is life; so also when it is said, He has given doctrine to the Son, it may be rightly understood to mean, He has begotten the Son, who is doctrine so that, when it is said, \"My doctrine is not mine, but His who sent me,\" it is so to be understood as if it were, I am not from myself, but from Him who sent me."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C2",
+    "durationSeconds": 84
   },
   "TRIN-B2C3": {
     "book": 2,
@@ -1828,9 +1828,9 @@ window.TRINITY_TEXT = {
         "text": "5. For even of the Holy Spirit, of whom it is not said, \"He emptied Himself, and took upon Him the form of a servant;\" yet the Lord Himself says, \"Howbeit, when He the Spirit of Truth has come, He will guide you into all truth. For He shall not speak of Himself, but whatsoever He shall hear that shall He speak; and He will show you things to come. He shall glorify me; for He shall receive of mine, and shall show it unto you.\" And except He had immediately gone on to say after this, \"All things that the Father has are mine; therefore said I, that He shall take of mine, and shall show it unto you;\" it might, perhaps, have been believed that the Holy Spirit was so born of Christ, as Christ is of the Father. Since He had said of Himself, \"My doctrine is not mine, but His that sent me;\" but of the Holy Spirit, \"For He shall not speak of Himself, but whatsoever he shall hear, that shall He speak;\" and, \"For He shall receive of mine, and shall show it unto you.\" But because He has rendered the reason why He said, \"He shall receive of mine\" (for He says, \"All things that the Father has are mine; therefore said I, that He shall take of mine\"); it remains that the Holy Spirit be understood to have of that which is the Father's, as the Son also has. And how can this be, unless according to that which we have said above, \"But when the Comforter has come, whom I will send unto you from the Father, even the Spirit of truth which proceeds from the Father, He shall testify of me\"? He is said, therefore, not to speak of Himself, in that He proceeds from the Father; and as it does not follow that the Son is less because He said, \"The Son can do nothing of Himself, but what He sees the Father do\" (for He has not said this according to the form of a servant, but according to the form of God, as we have already shown, and these words do not set Him forth as less than, but as of the Father), so it is not brought to pass that the Holy Spirit is less, because it is said of Him, \"For He shall not speak of Himself, but whatsoever He shall hear, that shall He speak;\" for the words belong to Him as proceeding from the Father. But whereas both the Son is of the Father, and the Holy Spirit proceeds from the Father, why both are not called sons, and both not said to be begotten, but the former is called the one only-begotten Son, and the latter, viz. the Holy Spirit, neither son nor begotten, because if begotten, then certainly a son, we will discuss in another place, if God shall grant, and so far as He shall grant."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C3",
+    "durationSeconds": 146
   },
   "TRIN-B2C4": {
     "book": 2,
@@ -1842,9 +1842,9 @@ window.TRINITY_TEXT = {
         "text": "6. But here also let them wake up if they can, who have thought this, too, to be a testimony on their side, to show that the Father is greater than the Son, because the Son has said, \"Father, glorify me.\" Why, the Holy Spirit also glorifies Him. Pray, is the Spirit, too, greater than He? Moreover, if on that account the Holy Spirit glorifies the Son, because He shall receive of that which is the Son's, and shall therefore receive of that which is the Son's because all things that the Father has are the Son's also; it is evident that when the Holy Spirit glorifies the Son, the Father glorifies the Son. Whence it may be perceived that all things that the Father has are not only of the Son, but also of the Holy Spirit, because the Holy Spirit is able to glorify the Son, whom the Father glorifies. But if he who glorifies is greater than he whom he glorifies, let them allow that those are equal who mutually glorify each other. But it is written, also, that the Son glorifies the Father; for He says, \"I have glorified You on the earth.\" Truly let them beware lest the Holy Spirit be thought greater than both, because He glorifies the Son whom the Father glorifies, while it is not written that He Himself is glorified either by the Father or by the Son."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C4",
+    "durationSeconds": 77
   },
   "TRIN-B2C5": {
     "book": 2,
@@ -1868,9 +1868,9 @@ window.TRINITY_TEXT = {
         "text": "10. If, therefore, He is said to be sent, in so far as He appeared outwardly in the bodily creature, who inwardly in His spiritual nature is always hidden from the eyes of mortals, it is now easy to understand also of the Holy Spirit why He too is said to be sent. For in due time a certain outward appearance of the creature was wrought, wherein the Holy Spirit might be visibly shown; whether when He descended upon the Lord Himself in a bodily shape as a dove, or when, ten days having past since His ascension, on the day of Pentecost a sound came suddenly from heaven as of a rushing mighty wind, and cloven tongues like as of fire were seen upon them, and it sat upon each of them. This operation, visibly exhibited, and presented to mortal eyes, is called the sending of the Holy Spirit; not that His very substance appeared, in which He himself also is invisible and unchangeable, like the Father and the Son, but that the hearts of men, touched by things seen outwardly, might be turned from the manifestation in time of Him as coming to His hidden eternity as ever present."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C5",
+    "durationSeconds": 489
   },
   "TRIN-B2C6": {
     "book": 2,
@@ -1882,9 +1882,9 @@ window.TRINITY_TEXT = {
         "text": "11. It is, then, for this reason nowhere written, that the Father is greater than the Holy Spirit, or that the Holy Spirit is less than God the Father, because the creature in which the Holy Spirit was to appear was not taken in the same way as the Son of man was taken, as the form in which the person of the Word of God Himself should be set forth not that He might possess the word of God, as other holy and wise men have possessed it, but \"above His fellows;\" not certainly that He possessed the word more than they, so as to be of more surpassing wisdom than the rest were, but that He was the very Word Himself. For the word in the flesh is one thing, and the Word made flesh is another; i.e. the word in man is one thing, the Word that is man is another. For flesh is put for man, where it is said, \"The Word was made flesh;\" and again, \"And all flesh shall see the salvation of God.\" For it does not mean flesh without soul and without mind; but \"all flesh,\" is the same as if it were said, every man. The creature, then, in which the Holy Spirit should appear, was not so taken, as that flesh and human form were taken, of the Virgin Mary. For the Spirit did not beatify the dove, or the wind, or the fire, and join them for ever to Himself and to His person in unity and \"fashion.\" Nor, again, is the nature of the Holy Spirit mutable and changeable; so that these things were not made of the creature, but He himself was turned and changed first into one and then into another, as water is changed into ice. But these things appeared at the seasons at which they ought to have appeared, the creature serving the Creator, and being changed and converted at the command of Him who remains immutably in Himself, in order to signify and manifest Him in such way as it was fit He should be signified and manifested to mortal men. Accordingly, although that dove is called the Spirit; and in speaking of that fire, \"There appeared unto them,\" he says, cloven tongues, like as of fire, and it sat upon each of them; and they began to speak with other tongues, as the Spirit gave them utterance; in order to show that the Spirit was manifested by that fire, as by the dove; yet we cannot call the Holy Spirit both God and a dove, or both God and fire, in the same way as we call the Son both God and man; nor as we call the Son the Lamb of God; which not only John the Baptist says, \"Behold the Lamb of God,\" but also John the Evangelist sees the Lamb slain in the Apocalypse. For that prophetic vision was not shown to bodily eyes through bodily forms, but in the spirit through spiritual images of bodily things. But whosoever saw that dove and that fire, saw them with their eyes. Although it may perhaps be disputed concerning the fire, whether it was seen by the eyes or in the spirit, on account of the form of the sentence. For the text does not say, They saw cloven tongues like fire, but, \"There appeared to them.\" But we are not wont to say with the same meaning, It appeared to me; as we say, I saw. And in those spiritual visions of corporeal images the usual expressions are, both, It appeared to me; and, I saw: but in those things which are shown to the eyes through express corporeal forms, the common expression is not, It appeared to me; but, I saw. There may, therefore, be a question raised respecting that fire, how it was seen; whether within in the spirit as it were outwardly, or really outwardly before the eyes of the flesh. But of that dove, which is said to have descended in a bodily form, no one ever doubted that it was seen by the eyes. Nor, again, as we call the Son a Rock (for it is written, \"And that Rock was Christ\" ), can we so call the Spirit a dove or fire. For that rock was a thing already created, and after the mode of its action was called by the name of Christ, whom it signified; like the stone placed under Jacob's head, and also anointed, which he took in order to signify the Lord; or as Isaac was Christ, when he carried the wood for the sacrifice of himself. A particular significative action was added to those already existing things; they did not, as that dove and fire, suddenly come into being in order simply so to signify. The dove and the fire, indeed, seem to me more like that flame which appeared to Moses in the bush, or that pillar which the people followed in the wilderness, or the thunders and lightnings which came when the Law was given in the mount. For the corporeal form of these things came into being for the very purpose, that it might signify something, and then pass away."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C6",
+    "durationSeconds": 235
   },
   "TRIN-B2C7": {
     "book": 2,
@@ -1900,9 +1900,9 @@ window.TRINITY_TEXT = {
         "text": "13. In the perplexity of this inquiry, the Lord helping us, we must ask, first, whether the Father, or the Son, or the Holy Spirit; or whether, sometimes the Father, sometimes the Son, sometimes the Holy Spirit; or whether it was without any distinction of persons, in such way as the one and only God is spoken of, that is, that the Trinity itself appeared to the Fathers by those forms of the creature. Next, whichever of these alternatives shall have been found or thought true, whether for this purpose only the creature was fashioned, wherein God, as He judged it suitable at that time, should be shown to human sight; or whether angels, who already existed, were so sent, as to speak in the person of God, taking a corporeal form from the corporeal creature, for the purpose of their ministry, as each had need; or else, according to the power the Creator has given them, changing and converting their own body itself, to which they are not subject, but govern it as subject to themselves, into whatever appearances they would that were suited and apt to their several actions. Lastly, we shall discern that which it was our purpose to ask, viz. whether the Son and the Holy Spirit were also sent before; and, if they were so sent, what difference there is between that sending, and the one which we read of in the Gospel; or whether in truth neither of them were sent, except when either the Son was made of the Virgin Mary, or the Holy Spirit appeared in a visible form, whether in the dove or in tongues of fire."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C7",
+    "durationSeconds": 184
   },
   "TRIN-B2C8": {
     "book": 2,
@@ -1914,9 +1914,9 @@ window.TRINITY_TEXT = {
         "text": "14. Let us therefore say nothing of those who, with an over carnal mind, have thought the nature of the Word of God, and the Wisdom, which, \"remaining in herself, makes all things new,\" whom we call the only Son of God, not only to be changeable, but also to be visible. For these, with more audacity than religion, bring a very dull heart to the inquiry into divine things. For whereas the soul is a spiritual substance, and whereas itself also was made, yet could not be made by any other than by Him by whom all things were made, and without whom nothing is made, it, although changeable, is yet not visible; and this they have believed to be the case with the Word Himself and with the Wisdom of God itself, by which the soul was made; whereas this Wisdom is not only invisible, as the soul also is, but likewise unchangeable, which the soul is not. It is in truth the same unchangeableness in it, which is referred to when it was said, \"Remaining in herself she makes all things new.\" Yet these people, endeavoring, as it were, to prop up their error in its fall by testimonies of the divine Scriptures, adduce the words of the Apostle Paul; and take that, which is said of the one only God, in whom the Trinity itself is understood, to be said only of the Father, and neither of the Son nor of the Holy Spirit: \"Now unto the King eternal, immortal, invisible, the only wise God, be honor and glory for ever and ever;\" and that other passage, \"The blessed and only Potentate, the King of kings, and Lord of lords; who only has immortality, dwelling in the light which no man can approach unto; whom no man has seen, nor can see.\" How these passages are to be understood, I think we have already discoursed sufficiently."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C8",
+    "durationSeconds": 101
   },
   "TRIN-B2C9": {
     "book": 2,
@@ -1932,9 +1932,9 @@ window.TRINITY_TEXT = {
         "text": "16. Passing by, then, these reasoners, who are unable to know the substance even of the soul, which is invisible, and therefore are very far indeed from knowing that the substance of the one and only God, that is, the Father and the Son and the Holy Spirit, remains ever not only invisible, but also unchangeable, and that hence it possesses true and real immortality; let us, who deny that God, whether the Father, or the Son, or the Holy Spirit, ever appeared to bodily eyes, unless through the corporeal creature made subject to His own power; let us, I say — ready to be corrected, if we are reproved in a fraternal and upright spirit, ready to be so, even if carped at by an enemy, so that he speak the truth— in catholic peace and with peaceful study inquire, whether God indiscriminately appeared to our fathers before Christ came in the flesh, or whether it was any one person of the Trinity, or whether severally, as it were by turns."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C9",
+    "durationSeconds": 158
   },
   "TRIN-B2C10": {
     "book": 2,
@@ -1954,9 +1954,9 @@ window.TRINITY_TEXT = {
         "text": "19. Likewise, also, in that which is written, \"Now the Lord had said to Abraham, Get you out of your country, and from your kindred, and your father's house,\" it is not clear whether a voice alone came to the ears of Abraham, or whether anything also appeared to his eyes. But a little while after, it is somewhat more clearly said, \"And the Lord appeared unto Abraham, and said, Unto your seed will I give this land.\" But neither there is it expressly said in what form God appeared to him, or whether the Father, or the Son, or the Holy Spirit appeared to him. Unless, perhaps, they think that it was the Son who appeared to Abraham, because it is not written, God appeared to him, but \"the Lord appeared to him.\" For the Son seems to be called the Lord as though the name was appropriated to Him; as e.g. the apostle says, \"For though there be that are called gods, whether in heaven or in earth, (as there be gods many and lords many,) but to us there is but one God, the Father, of whom are all things, and we in Him; and one Lord Jesus Christ, by whom are all things, and we by Him.\" But since it is found that God the Father also is called Lord in many places — for instance, \"The Lord has said to me, You are my Son; this day have I begotten You;\" and again, \"The Lord said to my Lord, Sit at my right hand;\" since also the Holy Spirit is found to be called Lord, as where the apostle says, \"Now the Lord is that Spirit;\" and then, lest any one should think the Son to be signified, and to be called the Spirit on account of His incorporeal substance, has gone on to say, \"And where the Spirit of the Lord is, there is liberty;\" and no one ever doubted the Spirit of the Lord to be the Holy Spirit: therefore, neither here does it appear plainly whether it was any person of the Trinity that appeared to Abraham, or God Himself the Trinity, of which one God it is said, \"You shall fear the Lord your God, and Him only shall you serve.\" But under the oak at Mamre he saw three men, whom he invited, and hospitably received, and ministered to them as they feasted. Yet Scripture at the beginning of that narrative does not say, three men appeared to him, but, \"The Lord appeared to him.\" And then, setting forth in due order after what manner the Lord appeared to him, it has added the account of the three men, whom Abraham invites to his hospitality in the plural number, and afterwards speaks to them in the singular number as one; and as one He promises him a son by Sara, viz. the one whom the Scripture calls Lord, as in the beginning of the same narrative, \"The Lord,\" it says, \"appeared to Abraham.\" He invites them then, and washes their feet, and leads them forth at their departure, as though they were men; but he speaks as with the Lord God, whether when a son is promised to him, or when the destruction is shown to him that was impending over Sodom."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C10",
+    "durationSeconds": 473
   },
   "TRIN-B2C11": {
     "book": 2,
@@ -1972,9 +1972,9 @@ window.TRINITY_TEXT = {
         "text": "21. For, lest any one should think that one among the three is in this way intimated to have been the greater, and that this one is to be understood to have been the Lord, the Son of God, while the other two were His angels; because, whereas three appeared, Abraham there speaks to one as the Lord: Holy Scripture has not forgotten to anticipate, by a contradiction, such future cogitations and opinions, when a little while after it says that two angels came to Lot, among whom that just man also, who deserved to be freed from the burning of Sodom, speaks to one as to the Lord. For so Scripture goes on to say, \"And the Lord went His way, as soon as He left communing with Abraham; and Abraham returned to his place.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C11",
+    "durationSeconds": 124
   },
   "TRIN-B2C12": {
     "book": 2,
@@ -1990,9 +1990,9 @@ window.TRINITY_TEXT = {
         "text": "22. Yet, again, it is objected that except they were known to be angels of God, Lot would not have bowed himself with his face to the ground. Why, then, is both hospitality and food offered to them, as though they wanted such human succor? But whatever may here lie hidden, let us now pursue that which we have undertaken. Two appear; both are called angels; they are invited plurally; he speaks as with two plurally, until the departure from Sodom. And then Scripture goes on to say, \"And it came to pass, when they had brought them forth abroad, that they said, Escape for your life; look not behind you, neither stay in all the plain; escape to the mountain, and there you shall be saved, lest you be consumed. And Lot said to them, Oh! not so, my lord: behold now, your servant has found grace in your sight,\" etc. What is meant by his saying to them, \"Oh! not so, my lord,\" if He who was the Lord had already departed, and had sent the angels? Why is it said, \"Oh! not so, my lord,\" and not, \"Oh! not so, my lords?\" Or if he wished to speak to one of them, why does Scripture say, \"But Lot said to them, Oh! not so, my lord: behold now, your servant has found grace in your sight,\" etc.? Are we here, too, to understand two persons in the plural number, but when the two are addressed as one, then the one Lord God of one substance? But which two persons do we here understand?— of the Father and of the Son, or of the Father and of the Holy Spirit, or of the Son and of the Holy Spirit? The last, perhaps, is the more suitable; for they said of themselves that they were sent, which is that which we say of the Son and of the Holy Spirit. For we find nowhere in the Scriptures that the Father was sent."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C12",
+    "durationSeconds": 186
   },
   "TRIN-B2C13": {
     "book": 2,
@@ -2004,9 +2004,9 @@ window.TRINITY_TEXT = {
         "text": "23. But when Moses was sent to lead the children of Israel out of Egypt, it is written that the Lord appeared to him thus: \"Now Moses kept the flock of Jethro his father-in-law, the priest of Midian: and he led the flock to the back side of the desert, and came to the mountain of God, even to Horeb. And the Angel of the Lord appeared unto him in a flame of fire, out of the midst of a bush; and he looked, and, behold, the bush burned with fire, and the bush was not consumed. And Moses said, I will now turn aside, and see this great sight, why the bush is not burnt. And when the Lord saw that he turned aside to see, God called unto him out of the midst of the bush, and said, I am the God of your father, the God of Abraham, the God of Isaac, and the God of Jacob.\" He is here also first called the Angel of the Lord, and then God. Was an angel, then, the God of Abraham, and the God of Isaac, and the God of Jacob? Therefore He may be rightly understood to be the Saviour Himself, of whom the apostle says, \"Whose are the fathers, and of whom as concerning the flesh Christ came, who is over all, God blessed forever.\" He, therefore, \"who is over all, God blessed for ever,\" is not unreasonably here understood also to be Himself the God of Abraham, the God of Isaac, and the God of Jacob. But why is He previously called the Angel of the Lord, when He appeared in a flame of fire out of the bush? Was it because it was one of many angels, who by an economy [or arrangement] bare the person of his Lord? Or was something of the creature assumed by Him in order to bring about a visible appearance for the business in hand, and that words might thence be audibly uttered, whereby the presence of the Lord might be shown, in such way as was fitting, to the corporeal senses of man, by means of the creature made subject? For if he was one of the angels, who could easily affirm whether it was the person of the Son which was imposed upon him to announce, or that of the Holy Spirit, or that of God the Father, or altogether of the Trinity itself, who is the one and only God, in order that he might say, \"I am the God of Abraham, and the God of Isaac, and the God of Jacob?\" For we cannot say that the Son of God is the God of Abraham, and the God of Isaac, and the God of Jacob, and that the Father is not; nor will any one dare to deny that either the Holy Spirit, or the Trinity itself, whom we believe and understand to be the one God, is the God of Abraham, and the God of Isaac, and the God of Jacob. For he who is not God, is not the God of those fathers. Furthermore, if not only the Father is God, as all, even heretics, admit; but also the Son, which, whether they will or not, they are compelled to acknowledge, since the apostle says, \"Who is over all, God blessed for ever;\" and the Holy Spirit, since the same apostle says, \"Therefore glorify God in your body;\" when he had said above, \"Do you not know that your body is the temple of the Holy Ghost, which is in you, which you have of God?\" and these three are one God, as Catholic soundness believes: it is not sufficiently apparent which person of the Trinity that angel bare, if he was one of the rest of the angels, and whether any person, and not rather that of the Trinity itself. But if the creature was assumed for the purpose of the business in hand, whereby both to appear to human eyes, and to sound in human ears, and to be called the Angel of the Lord, and the Lord, and God; then cannot God here be understood to be the Father, but either the Son or the Holy Spirit. Although I cannot call to mind that the Holy Spirit is anywhere else called an angel, which yet may be understood from His work; for it is said of Him, \"And He will show you things to come;\" and \"angel\" in Greek is certainly equivalent to \"messenger\" in Latin: but we read most evidently of the Lord Jesus Christ in the prophet, that He is called \"the Angel of Great Counsel,\" while both the Holy Spirit and the Son of God is God and Lord of the angels."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C13",
+    "durationSeconds": 160
   },
   "TRIN-B2C14": {
     "book": 2,
@@ -2018,9 +2018,9 @@ window.TRINITY_TEXT = {
         "text": "24. Also in the going forth of the children of Israel from Egypt it is written, \"And the Lord went before them, by day in a pillar of cloud to lead them the way, and by night in a pillar of fire. He took not away the pillar of the cloud by day, nor the pillar of fire by night, from before the people.\" Who here, too, would doubt that God appeared to the eyes of mortal men by the corporeal creature made subject to Him, and not by His own substance? But it is not similarly apparent whether the Father, or the Son, or the Holy Spirit, or the Trinity itself, the one God. Nor is this distinguished there either, in my judgment, where it is written, \"The glory of the Lord appeared in the cloud, and the Lord spoke unto Moses, saying, I have heard the murmurings of the children of Israel,\" etc."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C14",
+    "durationSeconds": 51
   },
   "TRIN-B2C15": {
     "book": 2,
@@ -2036,9 +2036,9 @@ window.TRINITY_TEXT = {
         "text": "26. But as far as concerns our present undertaking, neither on Mount Sinai do I see how it appears, by all those things which were fearfully displayed to the senses of mortal men, whether God the Trinity spoke, or the Father, or the Son, or the Holy Spirit severally. But if it is allowable, without rash assertion, to venture upon a modest and hesitating conjecture from this passage, if it is possible to understand it of one person of the Trinity, why do we not rather understand the Holy Spirit to be spoken of, since the Law itself also, which was given there, is said to have been written upon tables of stone with the finger of God, by which name we know the Holy Spirit to be signified in the Gospel. And fifty days are numbered from the slaying of the lamb and the celebration of the Passover until the day in which these things began to be done in Mount Sinai; just as after the passion of our Lord fifty days are numbered from His resurrection, and then came the Holy Spirit which the Son of God had promised. And in that very coming of His, which we read of in the Acts of the Apostles, there appeared cloven tongues like as of fire, and it sat upon each of them: which agrees with Exodus, where it is written, \"And Mount Sinai was altogether on a smoke, because the Lord descended upon it in fire;\" and a little after, \"And the sight of the glory of the Lord,\" he says, \"was like devouring fire on the top of the mount in the eyes of the children of Israel.\" Or if these things were therefore wrought because neither the Father nor the Son could be there presented in that mode without the Holy Spirit, by whom the Law itself must needs be written; then we know doubtless that God appeared there, not by His own substance, which remains invisible and unchangeable, but by the appearance above mentioned of the creature; but that some special person of the Trinity appeared, distinguished by a proper mark, as far as my capacity of understanding reaches, we do not see."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C15",
+    "durationSeconds": 274
   },
   "TRIN-B2C16": {
     "book": 2,
@@ -2054,9 +2054,9 @@ window.TRINITY_TEXT = {
         "text": "28. Add, too, that which the Lord afterward said to Moses, \"You can not see my face: for there shall no man see my face, and live. And the Lord said, Behold, there is a place by me, and you shall stand upon a rock: and it shall come to pass, while my glory passes by, that I will put you into a watchtower of the rock, and will cover you with my hand while I pass by: and I will take away my hand, and you shall see my back parts; but my face shall not be seen.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C16",
+    "durationSeconds": 163
   },
   "TRIN-B2C17": {
     "book": 2,
@@ -2084,9 +2084,9 @@ window.TRINITY_TEXT = {
         "text": "32. Wherefore, if in those words which were spoken in Exodus, and in all those corporeal appearances, the Lord Jesus Christ was manifested; or if in some cases Christ was manifested, as the consideration of this passage persuades us, in others the Holy Spirit, as that which we have said above admonishes us; at any rate no such result follows, as that God the Father never appeared in any such form to the Fathers. For many such appearances happened in those times, without either the Father, or the Son, or the Holy Spirit being expressly named and designated in them; but yet with some intimations given through certain very probable interpretations, so that it would be too rash to say that God the Father never appeared by any visible forms to the fathers or the prophets. For they gave birth to this opinion who were not able to understand in respect to the unity of the Trinity such texts as, \"Now unto the King eternal, immortal, invisible, the only wise God;\" and, \"Whom no man has seen, nor can see.\" Which texts are understood by a sound faith in that substance itself, the highest, and in the highest degree divine and unchangeable, whereby both the Father and the Son and the Holy Spirit is the one and only God. But those visions were wrought through the changeable creature, made subject to the unchangeable God, and did not manifest God properly as He is, but by intimations such as suited the causes and times of the several circumstances."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C17",
+    "durationSeconds": 445
   },
   "TRIN-B2C18": {
     "book": 2,
@@ -2106,9 +2106,9 @@ window.TRINITY_TEXT = {
         "text": "35. Wherefore, since in that our threefold division we determined to inquire, first, whether the Father, or the Son, or the Holy Spirit; or whether sometimes the Father, sometimes the Son, sometimes the Holy Spirit; or whether, without any distinction of persons, as it is said, the one and only God, that is, the Trinity itself, appeared to the fathers through those forms of the creature: now that we have examined, so far as appeared to be sufficient what places of the Holy Scriptures we could, a modest and cautious consideration of divine mysteries leads, as far as I can judge, to no other conclusion, unless that we may not rashly affirm which person of the Trinity appeared to this or that of the fathers or the prophets in some body or likeness of body, unless when the context attaches to the narrative some probable intimations on the subject. For the nature itself, or substance, or essence, or by whatever other name that very thing, which is God, whatever it be, is to be called, cannot be seen corporeally: but we must believe that by means of the creature made subject to Him, not only the Son, or the Holy Spirit, but also the Father, may have given intimations of Himself to mortal senses by a corporeal form or likeness. And since the case stands thus, that this second book may not extend to an immoderate length, let us consider what remains in those which follow."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B2C18",
+    "durationSeconds": 309
   },
   "TRIN-B3C0": {
     "book": 3,
@@ -2128,9 +2128,9 @@ window.TRINITY_TEXT = {
         "text": "3. Let this third book, then, take its beginning at the point to which the second had reached. For after we had arrived at this, that we desired to show that the Son was not therefore less than the Father, because the Father sent and the Son was sent; nor the Holy Spirit therefore less than both, because we read in the Gospel that He was sent both by the one and by the other; we undertook then to inquire, since the Son was sent there, where He already was, for He came into the world, and \"was in the world;\" since also the Holy Spirit was sent there, where He already was, for \"the Spirit of the Lord fills the world, and that which contains all things has knowledge of the voice;\" whether the Lord was therefore \"sent\" because He was born in the flesh so as to be no longer hidden, and, as it were, came forth from the bosom of the Father, and appeared to the eyes of men in the form of a servant; and the Holy Spirit also was therefore \"sent,\" because He too was seen as a dove in a corporeal form, and in cloven tongues, like as of fire; so that, to be sent, when spoken of them, means to go forth to the sight of mortals in some corporeal form from a spiritual hiding-place; which, because the Father did not, He is said only to have sent, not also to be sent. Our next inquiry was, Why the Father also is not sometimes said to be sent, if He Himself was manifested through those corporeal forms which appeared to the eyes of the ancients. But if the Son was manifested at these times, why should He be said to be \"sent\" so long after, when the fullness of time had come that He should be born of a woman; since, indeed, He was sent before also, viz., when He appeared corporeally in those forms? Or if He were not rightly said to be \"sent,\" except when the Word was made flesh; why should the Holy Spirit be read of as \"sent,\" of whom such an incarnation never took place? But if neither the Father, nor the Son, but the Holy Spirit was manifested through these ancient appearances; why should He too be said to be \"sent\" now, when He was also sent before in these various manners? Next we subdivided the subject, that it might be handled most carefully, and we made the question threefold, of which one part was explained in the second book, and two remain, which I shall next proceed to discuss. For we have already inquired and determined, that not only the Father, nor only the Son, nor only the Holy Spirit appeared in those ancient corporeal forms and visions, but either indifferently the Lord God, who is understood to be the Trinity itself, or some one person of the Trinity, whichever the text of the narrative might signify, through intimations supplied by the context."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C0",
+    "durationSeconds": 354
   },
   "TRIN-B3C1": {
     "book": 3,
@@ -2150,9 +2150,9 @@ window.TRINITY_TEXT = {
         "text": "6. Our present inquiry then is, whether the angels were then the agents both in showing those bodily appearances to the eyes of men and in sounding those words in their ears when the sensible creature itself, serving the Creator at His beck, was turned for the time into whatever was needful; as it is written in the book of Wisdom, \"For the creature serves You, who art the Maker, increases his strength against the unrighteous for their punishment, and abates his strength for the benefit of such as put their trust in You. Therefore, even then was it altered into all fashions, and was obedient to Your grace, that nourishes all things according to the desire of them that longed for You.\" For the power of the will of God reaches through the spiritual creature even to visible and sensible effects of the corporeal creature. For where does not the wisdom of the omnipotent God work that which He wills, which \"reaches from one end to another mightily, and sweetly does order all things\"?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C1",
+    "durationSeconds": 193
   },
   "TRIN-B3C2": {
     "book": 3,
@@ -2168,9 +2168,9 @@ window.TRINITY_TEXT = {
         "text": "8. I will bring forward an example, if I can, that this may be plainer. There is, we know, in the human body, a certain bulk of flesh and an outward form, and an arrangement and distraction of limbs, and a temperament of health; and a soul breathed into it governs this body, and that soul a rational one; which, therefore, although changeable, yet can be partaker of that unchangeable wisdom, so that \"it may partake of that which is in and of itself;\" as it is written in the Psalm concerning all saints, of whom as of living stones is built that Jerusalem which is the mother of us all, eternal in the heavens. For so it is sung, \"Jerusalem is built as a city, that is partaker of that which is in and of itself.\" For \"in and of itself,\" in that place, is understood of that chiefest and unchangeable good, which is God, and of His own wisdom and will. To whom is sung in another place, \"You shall change them, and they shall be changed; but You are the same.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C2",
+    "durationSeconds": 149
   },
   "TRIN-B3C3": {
     "book": 3,
@@ -2182,9 +2182,9 @@ window.TRINITY_TEXT = {
         "text": "Let us take, then, the case of a wise man, such that his rational soul is already partaker of the unchangeable and eternal truth, so that he consults it about all his actions, nor does anything at all, which he does not by it know ought to be done, in order that by being subject to it and obeying it he may do rightly. Suppose now that this man, upon counsel with the highest reason of the divine righteousness, which he hears with the ear of his heart in secret, and by its bidding, should weary his body by toil in some office of mercy, and should contract an illness; and upon consulting the physicians, were to be told by one that the cause of the disease was overmuch dryness of the body, but by another that it was overmuch moisture; one of the two no doubt would allege the true cause and the other would err, but both would pronounce concerning proximate causes only, that is, corporeal ones. But if the cause of that dryness were to be inquired into, and found to be the self-imposed toil, then we should have come to a yet higher cause, which proceeds from the soul so as to affect the body which the soul governs. Yet neither would this be the first cause, for that doubtless was a higher cause still, and lay in the unchangeable wisdom itself, by serving which in love, and by obeying its ineffable commands, the soul of the wise man had undertaken that self-imposed toil; and so nothing else but the will of God would be found most truly to be the first cause of that illness. But suppose now in that office of pious toil this wise man had employed the help of others to co-operate in the good work, who did not serve God with the same will as himself, but either desired to attain the reward of their own carnal desires, or shunned merely carnal unpleasantnesses;— suppose, too, he had employed beasts of burden, if the completion of the work required such a provision, which beasts of burden would be certainly irrational animals, and would not therefore move their limbs under their burdens because they at all thought of that good work, but from the natural appetite of their own liking, and for the avoiding of annoyance — suppose, lastly, he had employed bodily things themselves that lack all sense, but were necessary for that work, as e.g. grain, and wine, and oils, clothes, or money, or a book, or anything of the kind — certainly, in all these bodily things thus employed in this work, whether animate or inanimate, whatever took place of movement, of wear and tear, of reparation, of destruction, of renewal or of change in one way or another, as places and times affected them; pray, could there be, I say, any other cause of all these visible and changeable facts, except the invisible and unchangeable will of God, using all these, both bad and irrational souls, and lastly bodies, whether such as were inspired and animated by those souls, or such as lacked all sense, by means of that upright soul as the seat of His wisdom, since primarily that good and holy soul itself employed them, which His wisdom had subjected to itself in a pious and religious obedience?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C3",
+    "durationSeconds": 132
   },
   "TRIN-B3C4": {
     "book": 3,
@@ -2200,9 +2200,9 @@ window.TRINITY_TEXT = {
         "text": "10. If, therefore, the Apostle Paul, although he still bare the burden of the body, which is subject to corruption and presses down the soul, and although he still saw only in part and in an enigma, wishing to depart and be with Christ, and groaning within himself, waiting for the adoption, to wit, the redemption of his body, yet was able to preach the Lord Jesus Christ significantly, in one way by his tongue, in another by epistle, in another by the sacrament of His body and blood (since, certainly, we do not call either the tongue of the apostle, or the parchments, or the ink, or the significant sounds which his tongue uttered, or the alphabetical signs written on skins, the body and blood of Christ; but that only which we take of the fruits of the earth and consecrate by mystic prayer, and then receive duly to our spiritual health in memory of the passion of our Lord for us: and this, although it is brought by the hands of men to that visible form, yet is not sanctified to become so great a sacrament, except by the spirit of God working invisibly; since God works everything that is done in that work through corporeal movements, by setting in motion primarily the invisible things of His servants, whether the souls of men, or the services of hidden spirits subject to Himself): what wonder if also in the creature of heaven and earth, of sea and air, God works the sensible and visible things which He wills, in order to signify and manifest Himself in them, as He Himself knows it to be fitting, without any appearing of His very substance itself, whereby He is, which is altogether unchangeable, and more inwardly and secretly exalted than all spirits whom He has created?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C4",
+    "durationSeconds": 226
   },
   "TRIN-B3C5": {
     "book": 3,
@@ -2214,9 +2214,9 @@ window.TRINITY_TEXT = {
         "text": "11. For since the divine power administers the whole spiritual and corporeal creature, the waters of the sea are summoned and poured out upon the face of the earth on certain days of every year. But when this was done at the prayer of the holy Elijah; because so continued and long a course of fair weather had gone before, that men were famished; and because at that very hour, in which the servant of God prayed, the air itself had not, by any moist aspect, put forth signs of the coming rain; the divine power was apparent in the great and rapid showers that followed, and by which that miracle was granted and dispensed. In like manner, God works ordinarily through thunders and lightnings: but because these were wrought in an unusual manner on Mount Sinai, and those sounds were not uttered with a confused noise, but so that it appeared by most sure proofs that certain intimations were given by them, they were miracles. Who draws up the sap through the root of the vine to the bunch of grapes, and makes the wine, except God; who, while man plants and waters, Himself gives the increase? But when, at the command of the Lord, the water was turned into wine with an extraordinary quickness, the divine power was made manifest, by the confession even of the foolish. Who ordinarily clothes the trees with leaves and flowers except God? Yet, when the rod of Aaron the priest blossomed, the Godhead in some way conversed with doubting humanity. Again, the earthy matter certainly serves in common to the production and formation both of all kinds of wood and of the flesh of all animals: and who makes these things, but He who said, Let the earth bring them forth; and who governs and guides by the same word of His, those things which He has created? Yet, when He changed the same matter out of the rod of Moses into the flesh of a serpent, immediately and quickly, that change, which was unusual, although of a thing which was changeable, was a miracle. But who is it that gives life to every living thing at its birth, unless He who gave life to that serpent also for the moment, as there was need."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C5",
+    "durationSeconds": 119
   },
   "TRIN-B3C6": {
     "book": 3,
@@ -2228,9 +2228,9 @@ window.TRINITY_TEXT = {
         "text": "And who is it that restored to the corpses their proper souls when the dead rose again, unless He who gives life to the flesh in the mother's womb, in order that they may come into being who yet are to die? But when such things happen in a continuous kind of river of ever-flowing succession, passing from the hidden to the visible, and from the visible to the hidden, by a regular and beaten track, then they are called natural; when, for the admonition of men, they are thrust in by an unusual changeableness, then they are called miracles."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C6",
+    "durationSeconds": 32
   },
   "TRIN-B3C7": {
     "book": 3,
@@ -2242,9 +2242,9 @@ window.TRINITY_TEXT = {
         "text": "12. I see here what may occur to a weak judgment, namely, why such miracles are wrought also by magic arts; for the wise men of Pharaoh likewise made serpents, and did other like things. Yet it is still more a matter of wonder, how it was that the power of those magicians, which was able to make serpents, when it came to very small flies, failed altogether. For the lice, by which third plague the proud people of Egypt were smitten, are very short-lived little flies; yet there certainly the magicians failed, saying, \"This is the finger of God.\" And hence it is given us to understand that not even those angels and powers of the air that transgressed, who have been thrust down into that lowest darkness, as into a peculiar prison, from their habitation in that lofty ethereal purity, through whom magic arts have whatever power they have, can do anything except by power given from above. Now that power is given either to deceive the deceitful, as it was given against the Egyptians, and against the magicians also themselves, in order that in the seducing of those spirits they might seem admirable by whom they were wrought, but to be condemned by the truth of God; or for the admonishing of the faithful, lest they should desire to do anything of the kind as though it were a great thing, for which reason they have been handed down to us also by the authority of Scripture; or lastly, for the exercising, proving, and manifesting of the patience of the righteous. For it was not by any small power of visible miracles that Job lost all that he had, and both his children and his bodily health itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C7",
+    "durationSeconds": 92
   },
   "TRIN-B3C8": {
     "book": 3,
@@ -2264,9 +2264,9 @@ window.TRINITY_TEXT = {
         "text": "15. Just as Jacob, again, was not the creator of the colors in the flocks, because he placed the various colored rods for the several mothers, as they drank, to look at in conceiving. Yet neither were the cattle themselves creators of the variety of their own offspring, because the variegated image, impressed through their eyes by the sight of the varied rods, clave to their soul, but could affect the body that was animated by the spirit thus affected only through sympathy with this commingling, so far as to stain with color the tender beginnings of their offspring. For that they are so affected from themselves, whether the soul from the body, or the body from the soul, arises in truth from suitable reasons, which immutably exist in that highest wisdom of God Himself, which no extent of place contains; and which, while it is itself unchangeable, yet quits not one even of those things which are changeable, because there is not one of them that is not created by itself. For it was the unchangeable and invisible reason of the wisdom of God, by which all things are created, which caused not rods, but cattle, to be born from cattle; but that the color of the cattle conceived should be in any degree influenced by the variety of the rods, came to pass through the soul of the pregnant cattle being affected through their eyes from without, and so according to its own measure drawing inwardly within itself the rule of formation, which it received from the innermost power of its own Creator. How great, however, may be the power of the soul in affecting and changing corporeal substance (although certainly it cannot be called the creator of the body, because every cause of changeable and sensible substance, and all its measure and number and weight, by which are brought to pass both its being at all and its being of such and such a nature, arise from the intelligible and unchangeable life, which is above all things, and which reaches even to the most distant and earthly things), is a very copious subject, and one not now necessary. But I thought the act of Jacob about the cattle should be noticed, for this reason, viz. in order that it might be perceived that, if the man who thus placed those rods cannot be called the creator of the colors in the lambs and kids; nor yet even the souls themselves of the mothers, which colored the seeds conceived in the flesh by the image of variegated color, conceived through the eyes of the body, so far as nature permitted it; much less can it be said that the creators of the frogs and serpents were the bad angels, through whom the magicians of Pharaoh then made them."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C8",
+    "durationSeconds": 410
   },
   "TRIN-B3C9": {
     "book": 3,
@@ -2290,9 +2290,9 @@ window.TRINITY_TEXT = {
         "text": "19. Excepting, therefore, those corporeal things which are done in the order of nature in a perfectly usual series of times, as e.g., the rising and setting of the stars, the generations and deaths of animals, the innumerable diversities of seeds and buds, the vapors and the clouds, the snow and the rain, the lightnings and the thunder, the thunderbolts and the hail, the winds and the fire, cold and heat, and all like things; excepting also those which in the same order of nature occur rarely, such as eclipses, unusual appearances of stars, and monsters, and earthquakes, and such like — all these, I say, are to be excepted, of which indeed the first and chief cause is only the will of God; whence also in the Psalm, when some things of this kind had been mentioned, \"Fire and hail, snow and vapor, stormy wind,\" lest any one should think those to be brought about either by chance or only from corporeal causes, or even from such as are spiritual, but exist apart from the will of God, it is added immediately, \"fulfilling His word.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C9",
+    "durationSeconds": 323
   },
   "TRIN-B3C10": {
     "book": 3,
@@ -2312,9 +2312,9 @@ window.TRINITY_TEXT = {
         "text": "21. What man, again, knows how the angels made or took those clouds and fires in order to signify the message they were bearing, even if we supposed that the Lord or the Holy Spirit was manifested in those corporeal forms? Just as infants do not know of that which is placed upon the altar and consumed after the performance of the holy celebration, whence or in what manner it is made, or whence it is taken for religious use. And if they were never to learn from their own experience or that of others, and never to see that species of thing except during the celebration of the sacrament, when it is being offered and given; and if it were told them by the most weighty authority whose body and blood it is; they will believe nothing else, except that the Lord absolutely appeared in this form to the eyes of mortals, and that that liquid actually flowed from the piercing of a side which resembled this. But it is certainly a useful caution to myself, that I should remember what my own powers are, and admonish my brethren that they also remember what theirs are, lest human infirmity pass on beyond what is safe. For how the angels do these things, or rather, how God does these things by His angels, and how far He wills them to be done even by the bad angels, whether by permitting, or commanding, or compelling, from the hidden seat of His own supreme power; this I can neither penetrate by the sight of the eyes, nor make clear by assurance of reason, nor be carried on to comprehend it by reach of intellect, so as to speak thereupon to all questions that may be asked respecting these matters, as certainly as if I were an angel, or a prophet, or an apostle. \"For the thoughts of mortal men are miserable, and our devices are but uncertain. For the corruptible body presses down the soul, and the earthly tabernacle weighs down the mind, that muses upon many things. And hardly do we guess aright at things that are upon earth, and with labor do we find the things that are before us; but the things that are in heaven, who has searched out?\" But because it goes on to say, \"And Your counsel who has known, except Thou give wisdom, and send Your Holy Spirit from above;\" therefore we refrain indeed from searching out the things which are in heaven, under which kind are contained both angelical bodies according to their proper dignity, and any corporeal action of those bodies; yet, according to the Spirit of God sent to us from above, and to His grace imparted to our minds, I dare to say confidently, that neither God the Father, nor His Word, nor His Spirit, which is the one God, is in any way changeable in regard to that which He is, and whereby He is that which He is; and much less is in this regard visible. Since there are no doubt some things changeable, yet not visible, as are our thoughts, and memories, and wills, and the whole incorporeal creature; but there is nothing that is visible that is not also changeable."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C10",
+    "durationSeconds": 444
   },
   "TRIN-B3C11": {
     "book": 3,
@@ -2350,9 +2350,9 @@ window.TRINITY_TEXT = {
         "text": "27. But now, as I think, that which we had undertaken to show in this book has been sufficiently discussed and demonstrated, according to our capacity; and it has been established, both by probable reason, so far as a man, or rather, so far as I am able, and by strength of authority, so far as the divine declarations from the Holy Scriptures have been made clear, that those words and bodily appearances which were given to these ancient fathers of ours before the incarnation of the Saviour, when God was said to appear, were wrought by angels: whether themselves speaking or doing something in the person of God, as we have shown that the prophets also were wont to do, or assuming from the creature that which they themselves were not, wherein God might be shown in a figure to men; which manner of showing also, Scripture teaches by many examples, that the prophets, too, did not omit. It remains, therefore, now for us to consider — since both in the Lord as born of a virgin, and in the Holy Spirit descending in a corporeal form like a dove, and in the tongues like as of fire, which appeared with a sound from heaven on the day of Pentecost, after the ascension of the Lord, it was not the Word of God Himself by His own substance, in which He is equal and eternal with the Father, nor the Spirit of the Father and of the Son by His own substance, in which He Himself also is equal and co-eternal with both, but assuredly a creature, such as could be formed and exist in these fashions, which appeared to corporeal and mortal senses — it remains, I say, to consider what difference there is between these manifestations and those which were proper to the Son of God and to the Holy Spirit, although wrought by the visible creature; which subject we shall more conveniently begin in another book."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B3C11",
+    "durationSeconds": 831
   },
   "TRIN-B4C0": {
     "book": 4,
@@ -2364,9 +2364,9 @@ window.TRINITY_TEXT = {
         "text": "1. The knowledge of things terrestrial and celestial is commonly thought much of by men. Yet those doubtless judge better who prefer to that knowledge, the knowledge of themselves; and that mind is more praiseworthy which knows even its own weakness, than that which, without regard to this, searches out, and even comes to know, the ways of the stars, or which holds fast such knowledge already acquired, while ignorant of the way by which itself to enter into its own proper health and strength. But if any one has already become awake towards God, kindled by the warmth of the Holy Spirit, and in the love of God has become vile in his own eyes; and through wishing, yet not having strength to come in unto Him, and through the light He gives, has given heed to himself, and has found himself, and has learned that his own filthiness cannot mingle with His purity; and feels it sweet to weep and to entreat Him, that again and again He will have compassion, until he have put off all his wretchedness; and to pray confidently, as having already received of free gift the pledge of salvation through his only Saviour and Enlightener of man:— such an one, so acting, and so lamenting, knowledge does not puff up, because charity edifies; for he has preferred knowledge to knowledge, he has preferred to know his own weakness, rather than to know the walls of the world, the foundations of the earth, and the pinnacles of heaven. And by obtaining this knowledge, he has obtained also sorrow; but sorrow for straying away from the desire of reaching his own proper country, and the Creator of it, his own blessed God. And if among men such as these, in the family of Your Christ, O Lord my God, I groan among Your poor, give me out of Your bread to answer men who do not hunger and thirst after righteousness, but are sated and abound. But it is the vain image of those things that has sated them, not Your truth, which they have repelled and shrunk from, and so fall into their own vanity. I certainly know how many figments the human heart gives birth to. And what is my own heart but a human heart? But I pray the God of my heart, that I may not vomit forth (eructuem) into these writings any of these figments for solid truths, but that there may pass into them only what the breath of His truth has breathed into me; cast out though I am from the sight of His eyes, and striving from afar to return by the way which the divinity of His only-begotten Son has made by His humanity. And this truth, changeable though I am, I so far drink in, as far as in it I see nothing changeable: neither in place and time, as is the case with bodies; nor in time alone, and in a certain sense place, as with the thoughts of our own spirits; nor in time alone, and not even in any semblance of place, as with some of the reasonings of our own minds. For the essence of God, whereby He is, has altogether nothing changeable, neither in eternity, nor in truth, nor in will; since there truth is eternal, love eternal; and there love is true, eternity true; and there eternity is loved, and truth is loved."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C0",
+    "durationSeconds": 175
   },
   "TRIN-B4C1": {
     "book": 4,
@@ -2382,9 +2382,9 @@ window.TRINITY_TEXT = {
         "text": "3. Because therefore the Word of God is One, by which all things were made, which is the unchangeable truth, all things are simultaneously therein, potentially and unchangeably; not only those things which are now in this whole creation, but also those which have been and those which shall be. And therein they neither have been, nor shall be, but only are; and all things are life, and all things are one; or rather it is one being and one life. For all things were so made by Him, that whatsoever was made in them was not made in Him, but was life in Him. Since, \"in the beginning,\" the Word was not made, but \"the Word was with God, and the Word was God, and all things were made by Him;\" neither had all things been made by Him, unless He had Himself been before all things and not made. But in those things which were made by Him, even body, which is not life, would not have been made by Him, except it had been life in Him before it was made. For \"that which was made was already life in Him;\" and not life of any kind soever: for the soul also is the life of the body, but this too is made, for it is changeable; and by what was it made, except by the unchangeable Word of God? For \"all things were made by Him; and without Him was not anything made that was made.\" \"What, therefore, was made was already life in Him;\" and not any kind of life, but \"the life [which] was the light of men;\" the light certainly of rational minds, by which men differ from beasts, and therefore are men. Therefore not corporeal light, which is the light of the flesh, whether it shine from heaven, or whether it be lighted by earthly fires; nor that of human flesh only, but also that of beasts, and down even to the minutest of worms. For all these things see that light: but that life was the light of men; nor is it far from any one of us, for in it \"we live, and move, and have our being.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C1",
+    "durationSeconds": 272
   },
   "TRIN-B4C2": {
     "book": 4,
@@ -2396,9 +2396,9 @@ window.TRINITY_TEXT = {
         "text": "4. But \"the light shines in darkness, and the darkness comprehended it not.\" Now the \"darkness\" is the foolish minds of men, made blind by vicious desires and unbelief. And that the Word, by whom all things were made, might care for these and heal them, \"The Word was made flesh, and dwelt among us.\" For our enlightening is the partaking of the Word, namely, of that life which is the light of men. But for this partaking we were utterly unfit, and fell short of it, on account of the uncleanness of sins. Therefore we were to be cleansed. And further, the one cleansing of the unrighteous and of the proud is the blood of the Righteous One, and the humbling of God Himself; that we might be cleansed through Him, made as He was what we are by nature, and what we are not by sin, that we might contemplate God, which by nature we are not. For by nature we are not God: by nature we are men, by sin we are not righteous. Wherefore God, made a righteous man, interceded with God for man the sinner. For the sinner is not congruous to the righteous, but man is congruous to man. By joining therefore to us the likeness of His humanity, He took away the unlikeness of our unrighteousness; and by being made partaker of our mortality, He made us partakers of His divinity. For the death of the sinner springing from the necessity of comdemnation is deservedly abolished by the death of the Righteous One springing from the free choice of His compassion, while His single [death and resurrection] answers to our double [death and resurrection]. For this congruity, or suitableness, or concord, or consonance, or whatever more appropriate word there may be, whereby one is [united] to two, is of great weight in all compacting, or better, perhaps, co-adaptation, of the creature. For (as it just occurs to me) what I mean is precisely that co-adaptation which the Greeks call ἁρμονία . However this is not the place to set forth the power of that consonance of single to double which is found especially in us, and which is naturally so implanted in us (and by whom, except by Him who created us?), that not even the ignorant can fail to perceive it, whether when singing themselves or hearing others. For by this it is that treble and bass voices are in harmony, so that any one who in his note departs from it, offends extremely, not only trained skill, of which the most part of men are devoid, but the very sense of hearing. To demonstrate this, needs no doubt a long discourse; but any one who knows it, may make it plain to the very ear in a rightly ordered monochord."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C2",
+    "durationSeconds": 155
   },
   "TRIN-B4C3": {
     "book": 4,
@@ -2414,9 +2414,9 @@ window.TRINITY_TEXT = {
         "text": "6. Therefore on this double death of ours our Saviour bestowed His own single death; and to cause both our resurrections, He appointed beforehand and set forth in mystery and type His own one resurrection. For He was not a sinner or ungodly, that, as though dead in spirit, He should need to be renewed in the inner man, and to be recalled as it were to the life of righteousness by repentance; but being clothed in mortal flesh, and in that alone dying, in that alone rising again, in that alone did He answer to both for us; since in it was wrought a mystery as regards the inner man, and a type as regards the outer. For it was in a mystery as regards our inner man, so as to signify the death of our soul, that those words were uttered, not only in the Psalm, but also on the cross: \"My God, my God, why have You forsaken me?\" To which words the apostle agrees, saying, \"Knowing this, that our old man is crucified with Him, that the body of sin might be destroyed, that henceforth we should not serve sin;\" since by the crucifixion of the inner man are understood the pains of repentance, and a certain wholesome agony of self-control, by which death the death of ungodliness is destroyed, and in which death God has left us. And so the body of sin is destroyed through such a cross, that now we should not yield our members as instruments of unrighteousness unto sin. Because, if even the inner man certainly is renewed day by day, yet undoubtedly it is old before it is renewed. For that is done inwardly of which the same apostle speaks: \"Put off the old man, and put on the new;\" which he goes on to explain by saying, \"Wherefore, putting away lying, speak every man truth.\" But where is lying put away, unless inwardly, that he who speaks the truth from his heart may inhabit the holy hill of God? But the resurrection of the body of the Lord is shown to belong to the mystery of our own inner resurrection, where, after He had risen, He says to the woman, \"Touch me not, for I am not yet ascended to my Father;\" with which mystery the apostle's words agree, where he says, \"If you then be risen with Christ, seek those things which are above, where Christ sits on the right hand of God; set your thoughts on things above.\" For not to touch Christ, unless when He had ascended to the Father, means not to have thoughts of Christ after a fleshly manner. Again, the death of the flesh of our Lord contains a type of the death of our outer man, since it is by such suffering most of all that He exhorts His servants that they should not fear those who kill the body, but are not able to kill the soul. Wherefore the apostle says, \"That I may fill up that which is behind of the afflictions of Christ in my flesh.\" And the resurrection of the body of the Lord is found to contain a type of the resurrection of our outward man, because He says to His disciples, \"Handle me, and see; for a spirit has not flesh and bones, as you see me have.\" And one of the disciples also, handling His scars, exclaimed, \"My Lord and my God!\" And whereas the entire integrity of that flesh was apparent, this was shown in that which He had said when exhorting His disciples: \"There shall not a hair of your head perish.\" For how comes it that first is said, \"Touch me not, for I am not yet ascended to my Father;\" and how comes it that before He ascends to the Father, He actually is touched by the disciples: unless because in the former the mystery of the inner man was intimated, in the latter a type was given of the outer man? Or can any one possibly be so without understanding, and so turned away from the truth, as to dare to say that He was touched by men before He ascended, but by women when He had ascended? It was on account of this type, which went before in the Lord, of our future resurrection in the body, that the apostle says, \"Christ the first-fruits; afterward they that are Christ's.\" For it was the resurrection of the body to which this place refers, on account of which he also says, \"Who has changed our vile body, that it may be fashioned like His glorious body.\" The one death therefore of our Saviour brought salvation to our double death, and His one resurrection wrought for us two resurrections; since His body in both cases, that is, both in His death and in His resurrection, was ministered to us by a kind of healing suitableness, both as a mystery of the inner man, and as a type of the outer."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C3",
+    "durationSeconds": 289
   },
   "TRIN-B4C4": {
     "book": 4,
@@ -2432,9 +2432,9 @@ window.TRINITY_TEXT = {
         "text": "8. A single year also, if the whole twelve months are taken into account, which are made up of thirty days each (for the month that has been kept from of old is that which the revolution of the moon determines), abounds in the number six. For that which six is, in the first order of numbers, which consists of units up to ten, that sixty is in the second order, which consists of tens up to a hundred. Sixty days, then, are a sixth part of the year. Further, if that which stands as the sixth of the second order is multiplied by the sixth of the first order, then we make six times sixty, i.e. three hundred and sixty days, which are the whole twelve months. But since, as the revolution of the moon determines the month for men, so the year is marked by the revolution of the sun; and five days and a quarter of a day remain, that the sun may fulfill its course and end the year; for four quarters make one day, which must be intercalated in every fourth year, which they call bissextile, that the order of time may not be disturbed: if we consider, also, these five days and a quarter themselves, the number six prevails in them. First, because, as it is usual to compute the whole from a part, we must not call it five days, but rather six, taking the quarter days for one day. Next, because five days themselves are the sixth part of a month; while the quarter of a day contains six hours. For the entire day, i.e. including its night, is twenty-four hours, of which the fourth part, which is a quarter of a day, is found to be six hours. So much in the course of the year does the sixth number prevail."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C4",
+    "durationSeconds": 272
   },
   "TRIN-B4C5": {
     "book": 4,
@@ -2446,9 +2446,9 @@ window.TRINITY_TEXT = {
         "text": "9. And not without reason is the number six understood to be put for a year in the building up of the body of the Lord, as a figure of which He said that He would raise up in three days the temple destroyed by the Jews. For they said, \"Forty and six years was this temple in building.\" And six times forty-six makes two hundred and seventy-six. And this number of days completes nine months and six days, which are reckoned, as it were, ten months for the travail of women; not because all come to the sixth day after the ninth month, but because the perfection itself of the body of the Lord is found to have been brought in so many days to the birth, as the authority of the church maintains upon the tradition of the elders. For He is believed to have been conceived on the 25th of March, upon which day also He suffered; so the womb of the Virgin, in which He was conceived, where no one of mortals was begotten, corresponds to the new grave in which He was buried, wherein was never man laid, neither before nor since. But He was born, according to tradition, upon December the 25th. If, then you reckon from that day to this you find two hundred and seventy-six days which is forty-six times six. And in this number of years the temple was built, because in that number of sixes the body of the Lord was perfected; which being destroyed by the suffering of death, He raised again on the third day. For \"He spoke this of the temple of His body,\" as is declared by the most clear and solid testimony of the Gospel; where He said, \"For as Jonas was three days and three nights in the whale's belly, so shall the Son of man be three days and three nights in the heart of the earth.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C5",
+    "durationSeconds": 99
   },
   "TRIN-B4C6": {
     "book": 4,
@@ -2460,9 +2460,9 @@ window.TRINITY_TEXT = {
         "text": "10. Scripture again witnesses that the space of those three days themselves was not whole and entire, but the first day is counted as a whole from its last part, and the third day is itself also counted as a whole from its first part; but the intervening day, i.e. the second day, was absolutely a whole with its twenty-four hours, twelve of the day and twelve of the night. For He was crucified first by the voices of the Jews in the third hour, when it was the sixth day of the week. Then He hung on the cross itself at the sixth hour, and yielded up His spirit at the ninth hour. But He was buried, \"now when the evening had come,\" as the words of the evangelist express it; which means, at the end of the day. Wheresoever then you begin — even if some other explanation can be given, so as not to contradict the Gospel of John, but to understand that He was suspended on the cross at the third hour — still you cannot make the first day an entire day. It will be reckoned then an entire day from its last part, as the third from its first part. For the night up to the dawn, when the resurrection of the Lord was made known, belongs to the third day; because God (who commanded the light to shine out of darkness, that through the grace of the New Testament and the partaking of the resurrection of Christ the words might be spoken to us \"For you were sometimes darkness, but now are you light in the Lord\" ) intimates to us in some way that the day takes its beginning from the night. For as the first days of all were reckoned from light to night, on account of the future fall of man; so these on account of the restoration of man, are reckoned from darkness to light. From the hour, then, of His death to the dawn of the resurrection are forty hours, counting in also the ninth hour itself. And with this number agrees also His life upon earth of forty days after His resurrection. And this number is most frequently used in Scripture to express the mystery of perfection in the fourfold world. For the number ten has a certain perfection, and that multiplied by four makes forty. But from the evening of the burial to the dawn of the resurrection are thirty-six hours which is six squared. And this is referred to that ratio of the single to the double wherein there is the greatest consonance of co-adaptation. For twelve added to twenty-four suits the ratio of single added to double and makes thirty-six: namely a whole night with a whole day and a whole night, and this not without the mystery which I have noticed above. For not unfitly do we liken the spirit to the day and the body to the night. For the body of the Lord in His death and resurrection was a figure of our spirit and a type of our body. In this way, then, also that ratio of the single to the double is apparent in the thirty-six hours, when twelve are added to twenty-four. As to the reasons, indeed, why these numbers are so put in the Holy Scriptures, other people may trace out other reasons, either such that those which I have given are to be preferred to them, or such as are equally probable with mine, or even more probable than they are; but there is no one surely so foolish or so absurd as to contend that they are so put in the Scriptures for no purpose at all, and that there are no mystical reasons why those numbers are there mentioned. But those reasons which I have here given, I have either gathered from the authority of the church, according to the tradition of our forefathers, or from the testimony of the divine Scriptures, or from the nature itself of numbers and of similitudes. No sober person will decide against reason, no Christian against the Scriptures, no peaceable person against the church."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C6",
+    "durationSeconds": 194
   },
   "TRIN-B4C7": {
     "book": 4,
@@ -2474,9 +2474,9 @@ window.TRINITY_TEXT = {
         "text": "11. This mystery, this sacrifice, this priest, this God, before He was sent and came, being made of a woman— of Him, all those things which appeared to our fathers in a sacred and mystical way by angelical miracles, or which were done by the fathers themselves, were similitudes; in order that every creature by its acts might speak in some way of that One who was to be, in whom there was to be salvation in the recovery of all from death. For because by the wickedness of ungodliness we had recoiled and fallen away in discord from the one true and supreme God, and had in many things become vain, being distracted through many things and cleaving fast to many things; it was needful, by the decree and command of God in His mercy, that those same many things should join in proclaiming the One that should come, and that One should come so proclaimed by these many things, and that these many things should join in witnessing that this One had come; and that so, freed from the burden of these many things, we should come to that One, and dead as we were in our souls by many sins, and destined to die in the flesh on account of sin, that we should love that One who, without sin, died in the flesh for us; and by believing in Him now raised again, and by rising again with Him in the spirit through faith, that we should be justified by being made one in the one righteous One; and that we should not despair of our own resurrection in the flesh itself, when we consider that the one Head had gone before us the many members; in whom, being now cleansed through faith, and then renewed by sight, and through Him as mediator reconciled to God, we are to cleave to the One, to feast upon the One, to continue one."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C7",
+    "durationSeconds": 97
   },
   "TRIN-B4C8": {
     "book": 4,
@@ -2488,9 +2488,9 @@ window.TRINITY_TEXT = {
         "text": "12. So the Son of God Himself, the Word of God, Himself also the Mediator between God and men, the Son of man, equal to the Father through the unity of the Godhead, and partaker with us by the taking upon Him of humanity, interceding for us with the Father in that He was man, yet not concealing that He was God, one with the Father, among other things speaks thus: \"Neither pray I for these alone,\" He says, \"but for them also which shall believe in me through their word; that they all may be one; as You, Father, art in me, and I in You, that they also may be one in us: that the world may believe that You have sent me. And the glory which You gave me I have given them; that they may be one, even as we are one.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C8",
+    "durationSeconds": 45
   },
   "TRIN-B4C9": {
     "book": 4,
@@ -2502,9 +2502,9 @@ window.TRINITY_TEXT = {
         "text": "He did not say, I and they are one thing; although, in that He is the head of the church which is His body, He might have said, and they are, not one thing, but one person, because the head and the body is one Christ; but in order to show His own Godhead consubstantial with the Father (for which reason He says in another place, \"I and my Father are one\" ), in His own kind, that is, in the consubstantial parity of the same nature, He wills His own to be one, but in Himself; since they could not be so in themselves, separated as they are one from another by various pleasures and desires and uncleannesses of sin; whence they are cleansed through the Mediator, that they may be one in Him, not only through the same nature in which all become from mortal men equal to the angels, but also through the same will most harmoniously conspiring to the same blessedness, and fused in some way by the fire of charity into one spirit. For to this His words come, \"That they may be one, even as we are one;\" namely, that as the Father and Son are one, not only in equality of substance, but also in will, so those also may be one, between whom and God the Son is mediator, not only in that they are of the same nature, but also through the same union of love. And then He goes on thus to intimate the truth itself, that He is the Mediator, through whom we are reconciled to God, by saying, \"I in them, and You in me, that they may be made perfect in one.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C9",
+    "durationSeconds": 83
   },
   "TRIN-B4C10": {
     "book": 4,
@@ -2516,9 +2516,9 @@ window.TRINITY_TEXT = {
         "text": "13. Therein is our true peace and firm bond of union with our Creator, that we should be purified and reconciled through the Mediator of life, as we had been polluted and alienated, and so had departed from Him, through the mediator of death. For as the devil through pride led man through pride to death; so Christ through lowliness led back man through obedience to life. Since, as the one fell through being lifted up, and cast down [man] also who consented to him; so the other was raised up through being abased, and lifted up [man] also who believed in Him. For because the devil had not himself come there whither he had led the way (inasmuch as he bare indeed in his ungodliness the death of the spirit, but had not undergone the death of the flesh, because he had not assumed the covering of the flesh), he appeared to man to be a mighty chief among the legions of devils, through whom he exercises his reign of deceits; so puffing up man the more, who is eager for power more than righteousness, through the pride of elation, or through false philosophy; or else entangling him through sacrilegious rites, in which, while casting down headlong by deceit and illusion the minds of the more curious and prouder sort, he holds him captive also to magical trickery; promising too the cleansing of the soul, through those initiations which they call τελεταί, by transforming himself into an angel of light, through various machinations in signs and prodigies of lying."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C10",
+    "durationSeconds": 87
   },
   "TRIN-B4C11": {
     "book": 4,
@@ -2530,9 +2530,9 @@ window.TRINITY_TEXT = {
         "text": "14. For it is easy for the most worthless spirits to do many things by means of aerial bodies, such as to cause wonder to souls which are weighed down by earthly bodies, even though they be of the better inclined. For if earthly bodies themselves, when trained by a certain skill and practice, exhibit to men so great marvels in theatrical spectacles, that they who never saw such things scarcely believe them when told; why should it be hard for the devil and his angels to make out of corporeal elements, through their own aerial bodies, things at which the flesh marvels; or even by hidden inspirations to contrive fantastic appearances to the deluding of men's senses, whereby to deceive them, whether awake or asleep, or to drive them into frenzy? But just as it may happen that one who is better than they in life and character may gaze at the most worthless of men, either walking on a rope, or doing by various motions of the body many things difficult of belief, and yet he may not at all desire to do such things, nor think those men on that account to be preferred to himself; so the faithful and pious soul, not only if it sees, but even if on account of the frailty of the flesh it shudders at, the miracles of demons; yet will not for that either deplore its own want of power to do such things, or judge them on this account to be better than itself; especially since it is in the company of the holy, who, whether they are men or good angels, accomplish, through the power of God, to whom all things are subject, wonders which are far greater and the very reverse of deceptive."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C11",
+    "durationSeconds": 91
   },
   "TRIN-B4C12": {
     "book": 4,
@@ -2544,9 +2544,9 @@ window.TRINITY_TEXT = {
         "text": "15. In no wise therefore are souls cleansed and reconciled to God by sacrilegious imitations, or curious arts that are impious, or magical incantations; since the false mediator does not translate them to higher things, but rather blocks and cuts off the way there through the affections, malignant in proportion as they are proud, which he inspires into those of his own company; which are not able to nourish the wings of virtues so as to fly upwards, but rather to heap up the weight of vices so as to press downwards; since the soul will fall down the more heavily, the more it seems to itself to have been carried upwards. Accordingly, as the Magi did when warned of God, whom the star led to adore the low estate of the Lord; so we also ought to return to our country, not by the way by which we came, but by another way which the lowly King has taught, and which the proud king, the adversary of that lowly King, cannot block up. For to us, too, that we may adore the lowly Christ, the \"heavens have declared the glory of God, when their sound went into all the earth, and their words to the ends of the world.\" A way was made for us to death through sin in Adam. For, \"By one man sin entered into the world, and death by sin; and so death passed upon all men, in whom all have sinned.\" Of this way the devil was the mediator, the persuader to sin, and the caster down into death. For he, too, applied his one death to work out our double death. Since he indeed died in the spirit through ungodliness, but certainly did not die in the flesh: yet both persuaded us to ungodliness, and thereby brought it to pass that we deserved to come into the death of the flesh. We desired therefore the one through wicked persuasion, the other followed us by a just condemnation; and therefore it is written, \"God made not death,\" since He was not Himself the cause of death; but yet death was inflicted on the sinner, through His most just retribution. Just as the judge inflicts punishment on the guilty; yet it is not the justice of the judge, but the desert of the crime, which is the cause of the punishment. Whither, then, the mediator of death caused us to pass, yet did not come himself, that is, to the death of the flesh, there our Lord God introduced for us the medicine of correction, which He deserved not, by a hidden and exceeding mysterious decree of divine and profound justice. In order, therefore, that as by one man came death, so by one man might come also the resurrection of the dead; because men strove more to shun that which they could not shun, viz. the death of the flesh, than the death of the spirit, i.e. punishment more than the desert of punishment (for not to sin is a thing about which either men are not solicitous or are too little solicitous; but not to die, although it be not within reach of attainment, is yet eagerly sought after); the Mediator of life, making it plain that death is not to be feared, which by the condition of humanity cannot now be escaped, but rather ungodliness, which can be guarded against through faith, meets us at the end to which we have come, but not by the way by which we came. For we, indeed, came to death through sin; He through righteousness: and, therefore, as our death is the punishment of sin, so His death was made a sacrifice for sin."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C12",
+    "durationSeconds": 171
   },
   "TRIN-B4C13": {
     "book": 4,
@@ -2566,9 +2566,9 @@ window.TRINITY_TEXT = {
         "text": "18. Hence also the devil mocks those who are his own until this very day, to whom he presents himself as a false mediator, as though they would be cleansed or rather entangled and drowned by his rites, in that he very easily persuades the proud to ridicule and despise the death of Christ, from which the more he himself is estranged, the more is he believed by them to be the holier and more divine. Yet those who have remained with him are very few, since the nations acknowledge and with pious humility imbibe the price paid for themselves, and in trust upon it abandon their enemy, and gather together to their Redeemer. For the devil does not know how the most excellent wisdom of God makes use of both his snares and his fury to bring about the salvation of His own faithful ones, beginning from the former end, which is the beginning of the spiritual creature, even to the latter end, which is the death of the body, and so \"reaching from the one end to the other, mightily and sweetly ordering all things.\" For wisdom \"passes and goes through all things by reason of her pureness, and no defiled thing can fall into her.\" And since the devil has nothing to do with the death of the flesh, whence comes his exceeding pride, a death of another kind is prepared in the eternal fire of hell, by which not only the spirits that have earthly, but also those who have aerial bodies, can be tormented. But proud men, by whom Christ is despised, because He died, wherein He bought us with so great a price, both bring back the former death, and also men, to that miserable condition of nature, which is derived from the first sin, and will be cast down into the latter death with the devil. And they on this account preferred the devil to Christ, because the former cast them into that former death, whither he himself fell not through the difference of his nature, and whither on account of them Christ descended through His great mercy: and yet they do not hesitate to believe themselves better than the devils, and do not cease to assail and denounce them with every sort of malediction, while they know them at any rate to have nothing to do with the suffering of this kind of death, on account of which they despise Christ. Neither will they take into account that the case may possibly be, that the Word of God, remaining in Himself, and in Himself in no way changeable, may yet, through the taking upon Him of a lower nature, be able to suffer somewhat of a lower kind, which the unclean spirit cannot suffer, because he has not an earthly body. And so, whereas they themselves are better than the devils, yet, because they bear a body of flesh, they can so die, as the devils certainly cannot die, who do not bear such a body. They presume much on the deaths of their own sacrifices, which they do not perceive that they sacrifice to deceitful and proud spirits; or if they have come to perceive it, think their friendship to be of some good to themselves, treacherous and envious although they are, whose purpose is bent upon nothing else except to hinder our return."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C13",
+    "durationSeconds": 462
   },
   "TRIN-B4C14": {
     "book": 4,
@@ -2580,9 +2580,9 @@ window.TRINITY_TEXT = {
         "text": "19. They do not understand, that not even the proudest of spirits themselves could rejoice in the honor of sacrifices, unless a true sacrifice was due to the one true God, in whose stead they desire to be worshipped: and that this cannot be rightly offered except by a holy and righteous priest; nor unless that which is offered be received from those for whom it is offered; and unless also it be without fault, so that it may be offered for cleansing the faulty. This at least all desire who wish sacrifice to be offered for themselves to God. Who then is so righteous and holy a priest as the only Son of God, who had no need to purge His own sins by sacrifice, neither original sins, nor those which are added by human life? And what could be so fitly chosen by men to be offered for them as human flesh? And what so fit for this immolation as mortal flesh? And what so clean for cleansing the faults of mortal men as the flesh born in and from the womb of a virgin, without any infection of carnal concupiscence? And what could be so acceptably offered and taken, as the flesh of our sacrifice, made the body of our priest? In such wise that, whereas four things are to be considered in every sacrifice — to whom it is offered, by whom it is offered, what is offered, for whom it is offered, — the same One and true Mediator Himself, reconciling us to God by the sacrifice of peace, might remain one with Him to whom He offered, might make those one in Himself for whom He offered, Himself might be in one both the offerer and the offering."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C14",
+    "durationSeconds": 95
   },
   "TRIN-B4C15": {
     "book": 4,
@@ -2594,9 +2594,9 @@ window.TRINITY_TEXT = {
         "text": "20. There are, however, some who think themselves capable of being cleansed by their own righteousness, so as to contemplate God, and to dwell in God; whom their very pride itself stains above all others. For there is no sin to which the divine law is more opposed, and over which that proudest of spirits, who is a mediator to things below, but a barrier against things above, receives a greater right of mastery: unless either his secret snares be avoided by going another way, or if he rage openly by means of a sinful people (which Amalek, being interpreted, means), and forbid by fighting the passage to the land of promise, he be overcome by the cross of the Lord, which is prefigured by the holding out of the hands of Moses. For these persons promise themselves cleansing by their own righteousness for this reason, because some of them have been able to penetrate with the eye of the mind beyond the whole creature, and to touch, though it be in ever so small a part, the light of the unchangeable truth; a thing which they deride many Christians for being not yet able to do, who, in the meantime, live by faith alone. But of what use is it for the proud man, who on that account is ashamed to embark upon the ship of wood, to behold from afar his country beyond the sea? Or how can it hurt the humble man not to behold it from so great a distance, when he is actually coming to it by that wood upon which the other disdains to be borne?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C15",
+    "durationSeconds": 87
   },
   "TRIN-B4C16": {
     "book": 4,
@@ -2608,9 +2608,9 @@ window.TRINITY_TEXT = {
         "text": "21. These people also blame us for believing the resurrection of the flesh, and rather wish us to believe themselves concerning these things. As though, because they have been able to understand the high and unchangeable substance by the things which are made, for this reason they had a claim to be consulted concerning the revolutions of mutable things, or concerning the connected order of the ages. For pray, because they dispute most truly, and persuade us by most certain proofs, that all things temporal are made after a science that is eternal, are they therefore able to see clearly in the matter of this science itself, or to collect from it, how many kinds of animals there are, what are the seeds of each in their beginnings, what measure in their increase, what numbers run through their conceptions, births, ages, settings; what motions in desiring things according to their nature, and in avoiding the contrary? Have they not sought out all these things, not through that unchangeable wisdom, but through the actual history of places and times, or have trusted the written experience of others? Wherefore it is the less to be wondered at, that they have utterly failed in searching out the succession of more lengthened ages, and in finding any goal of that course, down which, as though down a river, the human race is sailing, and the transition thence of each to its own appropriate end. For these are subjects which historians could not describe, inasmuch as they are far in the future, and have been experienced and related by no one. Nor have those philosophers, who have profiled better than others in that high and eternal science, been able to grasp such subjects with the understanding; otherwise they would not be inquiring as they could into past things of the kind, such as are in the province of historians, but rather would foreknow also things future; and those who are able to do this are called by them soothsayers, but by us prophets:"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C16",
+    "durationSeconds": 112
   },
   "TRIN-B4C17": {
     "book": 4,
@@ -2626,9 +2626,9 @@ window.TRINITY_TEXT = {
         "text": "23. Therefore, neither concerning the successions of ages, nor concerning the resurrection of the dead, ought we to consult those philosophers, who have understood as much as they could the eternity of the Creator, in whom \"we live, and move, and have our being.\" Since, knowing God through those things which are made, they have not glorified Him as God, neither were thankful but professing themselves wise, they became fools. And whereas they were not fit to fix the eye of the mind so firmly upon the eternity of the spiritual and unchangeable nature, as to be able to see, in the wisdom itself of the Creator and Governor of the universe, those revolutions of the ages, which in that wisdom were already and were always, but here were about to be so that as yet they were not; or, again, to see therein those changes for the better, not of the souls only, but also of the bodies of men, even to the perfection of their proper measure; whereas then, I say, they were in no way fit to see these things therein, they were not even judged worthy of receiving any announcement of them by the holy angels; whether externally through the senses of the body, or by interior revelations exhibited in the spirit; as these things actually were manifested to our fathers, who were gifted with true piety, and who by foretelling them, obtaining credence either by present signs, or by events close at hand, which turned out as they had foretold, earned authority to be believed respecting things remotely future, even to the end of the world. But the proud and deceitful powers of the air, even if they are found to have said through their soothsayers some things of the fellowship and citizenship of the saints, and of the true Mediator, which they heard from the holy prophets or the angels, did so with the purpose of seducing even the faithful ones of God, if they could, by these alien truths, to revolt to their own proper falsehoods. But God did this by those who knew not what they said, in order that the truth might sound abroad from all sides, to aid the faithful, to be a witness against the ungodly."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C17",
+    "durationSeconds": 225
   },
   "TRIN-B4C18": {
     "book": 4,
@@ -2640,9 +2640,9 @@ window.TRINITY_TEXT = {
         "text": "24. Since, then, we were not fit to take hold of things eternal, and since the foulness of sins weighed us down, which we had contracted by the love of temporal things, and which were implanted in us as it were naturally, from the root of mortality, it was needful that we should be cleansed. But cleansed we could not be, so as to be tempered together with things eternal, except it were through things temporal, wherewith we were already tempered together and held fast. For health is at the opposite extreme from disease; but the intermediate process of healing does not lead us to perfect health, unless it has some congruity with the disease. Things temporal that are useless merely deceive the sick; things temporal that are useful take up those that need healing, and pass them on healed, to things eternal. And the rational mind, as when cleansed it owes contemplation to things eternal; so, when needing cleansing, owes faith to things temporal. One even of those who were formerly esteemed wise men among the Greeks has said, The truth stands to faith in the same relation in which eternity stands to that which has a beginning. And he is no doubt right in saying so. For what we call temporal, he describes as having had a beginning. And we also ourselves come under this kind, not only in respect to the body, but also in respect to the changeableness of the soul. For that is not properly called eternal which undergoes any degree of change. Therefore, in so far as we are changeable, in so far we stand apart from eternity. But life eternal is promised to us through the truth, from the clear knowledge of which, again, our faith stands as far apart as mortality does from eternity. We then now put faith in things done in time on our account, and by that faith itself we are cleansed; in order that when we have come to sight, as truth follows faith, so eternity may follow upon mortality. And therefore, since our faith will become truth, when we have attained to that which is promised to us who believe: and that which is promised us is eternal life; and the Truth (not that which shall come to be according as our faith shall be, but that truth which is always, because in it is eternity — the Truth then) has said, \"And this is life eternal, that they might know You the only true God, and Jesus Christ, whom You have sent:\" when our faith by seeing shall come to be truth, then eternity shall possess our now changed mortality. And until this shall take place, and in order that it may take place — because we adapt the faith of belief to things which have a beginning, as in things eternal we hope for the truth of contemplation, lest the faith of mortal life should be at discord with the truth of eternal life — the Truth itself, co-eternal with the Father, took a beginning from earth, when the Son of God so came as to become the Son of man, and to take to Himself our faith, that He might thereby lead us on to His own truth, who so undertook our mortality, as not to lose His own eternity. For truth stands to faith in the relation in which eternity stands to that which has a beginning. Therefore, we must needs so be cleansed, that we may come to have such a beginning as remains eternal, that we may not have one beginning in faith, and another in truth. Neither could we pass to things eternal from the condition of having a beginning, unless we were transferred, by union of the eternal to ourselves through our own beginning, to His own eternity. Therefore our faith has, in some measure, now followed there, whither He in whom we have believed has ascended; born, dead, risen again, taken up. Of these four things, we knew the first two in ourselves. For we know that men both have a beginning and die. But the remaining two, that is, to be raised, and to be taken up, we rightly hope will be in us, because we have believed them done in Him. Since, therefore, in Him that, too, which had a beginning has passed over to eternity, in ourselves also it will so pass over, when faith shall have arrived at truth. For to those who thus believe, in order that they might remain in the word of faith, and being thence led on to the truth, and through that to eternity, might be freed from death, He speaks thus: \"If you continue in my word, then are you my disciples indeed.\" And as though they would ask, With what fruit? He proceeds to say, \"And you shall know the truth.\" And again, as though they would say, Of what good is truth to mortal men? \"And the truth,\" He says, \"shall make you free.\" From what, except from death, from corruptions, from changeableness? Since truth remains immortal, incorrupt, unchangeable. But true immortality, true incorruptibility, true unchangeableness, is eternity itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C18",
+    "durationSeconds": 260
   },
   "TRIN-B4C19": {
     "book": 4,
@@ -2658,9 +2658,9 @@ window.TRINITY_TEXT = {
         "text": "26. \"When, therefore, the fullness of time had come, God sent forth His Son, made of a woman, made under the Law;\" to such a degree lowly, that He was \"made;\" in this way therefore sent, in that He was made. If, therefore, the greater sends the less, we too, acknowledge Him to have been made less; and in so far less, in so far as made; and in so far made, in so far as sent. For \"He sent forth His Son made of a woman.\" And yet, because all things were made by Him, not only before He was made and sent, but before all things were at all, we confess the same to be equal to the sender, whom we call less, as having been sent. In what way, then, could He be seen by the fathers, when certain angelical visions were shown to them, before that fullness of time at which it was fitting He should be sent, and so before He was sent, at a time when not yet sent He was seen as He is equal with the Father? For how does He say to Philip, by whom He was certainly seen as by all the rest, and even by those by whom He was crucified in the flesh, \"Have I been so long time with you, and yet have you not known me, Philip? He that has seen me, has seen the Father also;\" unless because He was both seen and yet not seen? He was seen, as He had been made in being sent; He was not seen, as by Him all things were made. Or how does He say this too, \"He that has my commandments and keeps them, he it is that loves me; and he that loves me shall be loved of my Father, and I will love him, and will manifest myself to him,\" at a time when He was manifest before the eyes of men; unless because He was offering that flesh, which the Word was made in the fullness of time, to be accepted by our faith; but was keeping back the Word itself, by whom all things were made, to be contemplated in eternity by the mind when cleansed by faith?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C19",
+    "durationSeconds": 191
   },
   "TRIN-B4C20": {
     "book": 4,
@@ -2684,9 +2684,9 @@ window.TRINITY_TEXT = {
         "text": "30. Therefore man was united, and in some sense commingled, with the Word of God, so as to be One Person, when the fullness of time had come, and the Son of God, made of a woman, was sent into this world, that He might be also the Son of man for the sake of the sons of men. And this person angelic nature could prefigure beforehand, so as to pre-announce, but could not appropriate, so as to be that person itself."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C20",
+    "durationSeconds": 567
   },
   "TRIN-B4C21": {
     "book": 4,
@@ -2706,9 +2706,9 @@ window.TRINITY_TEXT = {
         "text": "32. But now, as I think, it has been sufficiently shown, that the Son is not therefore less because He is sent by the Father, nor the Holy Spirit less because both the Father sent Him and the Son. For these things are perceived to be laid down in the Scriptures, either on account of the visible creature; or rather on account of commending to our thoughts the emanation [within the Godhead]; but not on account of inequality, or imparity, or unlikeness of substance; since, even if God the Father had willed to appear visibly through the subject creature, yet it would be most absurd to say that He was sent either by the Son, whom He begot, or by the Holy Spirit, who proceeds from Him. Let this, therefore, be the limit of the present book. Henceforth in the rest we shall see, the Lord helping, of what sort are those crafty arguments of the heretics, and in what manner they may be confuted."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B4C21",
+    "durationSeconds": 323
   },
   "TRIN-B5C1": {
     "book": 5,
@@ -2724,9 +2724,9 @@ window.TRINITY_TEXT = {
         "text": "2. And we shall mutually pardon one another the more easily, if we know, or at any rate firmly believe and hold, that whatever is said of a nature, unchangeable, invisible and having life absolutely and sufficient to itself, must not be measured after the custom of things visible, and changeable, and mortal, or not self-sufficient. But although we labor, and yet fail, to grasp and know even those things which are within the scope of our corporeal senses, or what we are ourselves in the inner man; yet it is with no shamelessness that faithful piety burns after those divine and unspeakable things which are above: piety, I say, not inflated by the arrogance of its own power, but inflamed by the grace of its Creator and Saviour Himself. For with what understanding can man apprehend God, who does not yet apprehend that very understanding itself of his own, by which he desires to apprehend Him? And if he does already apprehend this, let him carefully consider that there is nothing in his own nature better than it; and let him see whether he can there see any outlines of forms, or brightness of colors, or greatness of space, or distance of parts, or extension of size, or any movements through intervals of place, or any such thing at all. Certainly we find nothing of all this in that, than which we find nothing better in our own nature, that is, in our own intellect, by which we apprehend wisdom according to our capacity. What, therefore, we do not find in that which is our own best, we ought not to seek in Him who is far better than that best of ours; that so we may understand God, if we are able, and as much as we are able, as good without quality, great without quantity, a creator though He lack nothing, ruling but from no position, sustaining all things without \"having\" them, in His wholeness everywhere, yet without place, eternal without time, making things that are changeable, without change of Himself, and without passion. Whoever thus thinks of God, although he cannot yet find out in all ways what He is, yet piously takes heed, as much as he is able, to think nothing of Him that He is not."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C1",
+    "durationSeconds": 195
   },
   "TRIN-B5C2": {
     "book": 5,
@@ -2738,9 +2738,9 @@ window.TRINITY_TEXT = {
         "text": "3. He is, however, without doubt, a substance, or, if it be better so to call it, an essence, which the Greeks call οὐσία . For as wisdom is so called from the being wise, and knowledge from knowing; so from being comes that which we call essence. And who is there that is, more than He who said to His servant Moses, \"I am that I am;\" and, \"Thus shall you say unto the children of Israel, He who is has sent me unto you?\" But other things that are called essences or substances admit of accidents, whereby a change, whether great or small, is produced in them. But there can be no accident of this kind in respect to God; and therefore He who is God is the only unchangeable substance or essence, to whom certainly being itself, whence comes the name of essence, most especially and most truly belongs. For that which is changed does not retain its own being; and that which can be changed, although it be not actually changed, is able not to be that which it had been; and hence that which not only is not changed, but also cannot at all be changed, alone falls most truly, without difficulty or hesitation, under the category of being ."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C2",
+    "durationSeconds": 69
   },
   "TRIN-B5C3": {
     "book": 5,
@@ -2752,9 +2752,9 @@ window.TRINITY_TEXT = {
         "text": "4. Wherefore — to being now to answer the adversaries of our faith, respecting those things also, which are neither said as they are thought, nor thought as they really are:— among the many things which the Arians are wont to dispute against the Catholic faith, they seem chiefly to set forth this, as their most crafty device, namely, that whatsoever is said or understood of God, is said not according to accident, but according to substance, and therefore, to be unbegotten belongs to the Father according to substance, and to be begotten belongs to the Son according to substance; but to be unbegotten and to be begotten are different; therefore the substance of the Father and that of the Son are different. To whom we reply, If whatever is spoken of God is spoken according to substance, then that which is said, \"I and the Father are one,\" is spoken according to substance. Therefore there is one substance of the Father and the Son. Or if this is not said according to substance, then something is said of God not according to substance, and therefore we are no longer compelled to understand unbegotten and begotten according to substance. It is also said of the Son, \"He thought it not robbery to be equal with God.\" We ask, equal according to what? For if He is not said to be equal according to substance, then they admit that something may be said of God not according to substance. Let them admit, then, that unbegotten and begotten are not spoken according to substance. And if they do not admit this, on the ground that they will have all things to be spoken of God according to substance, then the Son is equal to the Father according to substance."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C3",
+    "durationSeconds": 98
   },
   "TRIN-B5C4": {
     "book": 5,
@@ -2766,9 +2766,9 @@ window.TRINITY_TEXT = {
         "text": "5. That which is accidental commonly implies that it can be lost by some change of the thing to which it is an accident. For although some accidents are said to be inseparable, which in Greek are called ἀχώριστα, as the color black is to the feather of a raven; yet the feather loses that color, not indeed so long as it is a feather, but because the feather is not always. Wherefore the matter itself is changeable; and whenever that animal or that feather ceases to be, and the whole of that body is changed and turned into earth, it loses certainly that color also. Although the kind of accident which is called separable may likewise be lost, not by separation, but by change; as, for instance, blackness is called a separable accident to the hair of men, because hair continuing to be hair can grow white; yet, if carefully considered, it is sufficiently apparent, that it is not as if anything departed by separation away from the head when it grows white, as though blackness departed thence and went somewhere and whiteness came in its place, but that the quality of color there is turned and changed. Therefore there is nothing accidental in God, because there is nothing changeable or that may be lost. But if you choose to call that also accidental, which, although it may not be lost, yet can be decreased or increased — as, for instance, the life of the soul: for as long as it is a soul, so long it lives, and because the soul is always, it always lives; but because it lives more when it is wise, and less when it is foolish, here, too, some change comes to pass, not such that life is absent, as wisdom is absent to the foolish, but such that it is less — nothing of this kind, either, happens to God, because He remains altogether unchangeable."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C4",
+    "durationSeconds": 102
   },
   "TRIN-B5C5": {
     "book": 5,
@@ -2780,9 +2780,9 @@ window.TRINITY_TEXT = {
         "text": "6. Wherefore nothing in Him is said in respect to accident, since nothing is accidental to Him, and yet all that is said is not said according to substance. For in created and changeable things, that which is not said according to substance, must, by necessary alternative, be said according to accident. For all things are accidents to them, which can be either lost or diminished, whether magnitudes or qualities; and so also is that which is said in relation to something, as friendships, relationships, services, likenesses, equalities, and anything else of the kind; so also positions and conditions, places and times, acts and passions. But in God nothing is said to be according to accident, because in Him nothing is changeable; and yet everything that is said, is not said, according to substance. For it is said in relation to something, as the Father in relation to the Son and the Son in relation to the Father, which is not accident; because both the one is always Father, and the other is always Son: yet not \"always,\" meaning from the time when the Son was born [natus], so that the Father ceases not to be the Father because the Son never ceases to be the Son, but because the Son was always born, and never began to be the Son. But if He had begun to be at any time, or were at any time to cease to be, the Son, then He would be called Son according to accident. But if the Father, in that He is called the Father, were so called in relation to Himself, not to the Son; and the Son, in that He is called the Son, were so called in relation to Himself, not to the Father; then both the one would be called Father, and the other Son, according to substance. But because the Father is not called the Father except in that He has a Son, and the Son is not called Son except in that He has a Father, these things are not said according to substance; because each of them is not so called in relation to Himself, but the terms are used reciprocally and in relation each to the other; nor yet according to accident, because both the being called the Father, and the being called the Son, is eternal and unchangeable to them. Wherefore, although to be the Father and to be the Son is different, yet their substance is not different; because they are so called, not according to substance, but according to relation, which relation, however, is not accident, because it is not changeable."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C5",
+    "durationSeconds": 139
   },
   "TRIN-B5C6": {
     "book": 5,
@@ -2794,9 +2794,9 @@ window.TRINITY_TEXT = {
         "text": "7. But if they think they can answer this reasoning thus — that the Father indeed is so called in relation to the Son, and the Son in relation to the Father, but that they are said to be unbegotten and begotten in relation to themselves, not in relation each to the other; for that it is not the same thing to call Him unbegotten as it is to call Him the Father, because there would be nothing to hinder our calling Him unbegotten even if He had not begotten the Son; and if any one beget a son, he is not therefore himself unbegotten, for men, who are begotten by other men, themselves also beget others; and therefore they say the Father is called Father in relation to the Son, and the Son is called Son in relation to the Father, but unbegotten is said in relation to Himself, and begotten in relation to Himself; and therefore, if whatever is said in relation to oneself is said according to substance, while to be unbegotten and to be begotten are different, then the substance is different:— if this is what they say, then they do not understand that they do indeed say something that requires more careful discussion in respect to the term unbegotten, because neither is any one therefore a father because unbegotten, nor therefore unbegotten because he is a father, and on that account he is supposed to be called unbegotten, not in relation to anything else, but in respect to himself; but, on the other hand, with a wonderful blindness, they do not perceive that no one can be said to be begotten except in relation to something. For he is therefore a son because begotten; and because a son, therefore certainly begotten. And as is the relation of son to father, so is the relation of the begotten to the begetter; and as is the relation of father to son, so is the relation of the begetter to the begotten. And therefore any one is understood to be a begetter under one notion, but understood to be unbegotten under another. For though both are said of God the Father, yet the former is said in relation to the begotten, that is to the Son, which, indeed, they do not deny; but that He is called unbegotten, they declare to be said in respect to Himself. They say then, If anything is said to be a father in respect to itself, which cannot be said to be a son in respect to itself, and whatever is said in respect to self is said according to substance; and He is said to be unbegotten in respect to Himself, which the Son cannot be said to be; therefore He is said to be unbegotten according to substance; and because the Son cannot be so said to be, therefore He is not of the same substance. This subtlety is to be answered by compelling them to say themselves according to what it is that the Son is equal to the Father; whether according to that which is said in relation to Himself, or according to that which is said in relation to the Father. For it is not according to that which is said in relation to the Father, since in relation to the Father He is said to be Son, and the Father is not Son, but Father. Since Father and Son are not so called in relation to each other in the same way as friends and neighbors are; for a friend is so called relatively to his friend, and if they love each other equally, then the same friendship is in both; and a neighbor is so called relatively to a neighbor, and because they are equally neighbors to each other (for each is neighbor to the other, in the same degree as the other is neighbor to him), there is the same neighborhood in both. But because the Son is not so called relatively to the Son, but to the Father, it is not according to that which is said in relation to the Father that the Son is equal to the Father; and it remains that He is equal according to that which is said in relation to Himself. But whatever is said in relation to self is said according to substance: it remains therefore that He is equal according to substance; therefore the substance of both is the same. But when the Father is said to be unbegotten, it is not said what He is, but what He is not; and when a relative term is denied, it is not denied according to substance, since the relative itself is not affirmed according to substance."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C6",
+    "durationSeconds": 224
   },
   "TRIN-B5C7": {
     "book": 5,
@@ -2808,9 +2808,9 @@ window.TRINITY_TEXT = {
         "text": "8. This is to be made clear by examples. And first we must notice, that by the word begotten is signified the same thing as is signified by the word son. For therefore a son, because begotten, and because a son, therefore certainly begotten. By the word unbegotten, therefore, it is declared that he is not son. But begotten and unbegotten are both of them terms suitably employed; whereas in Latin we can use the word \"filius,\" but the custom of the language does not allow us to speak of \"infilius.\" It makes no difference, however, in the meaning if he is called \"non filius;\" just as it is precisely the same thing if he is called \"non genitus,\" instead of \"ingenitus.\" For so the terms of both neighbor and friend are used relatively, yet we cannot speak of \"invicinus\" as we can of \"inimicus.\" Wherefore, in speaking of this thing or that, we must not consider what the usage of our own language either allows or does not allow, but what clearly appears to be the meaning of the things themselves. Let us not therefore any longer call it unbegotten, although it can be so called in Latin; but instead of this let us call it not begotten, which means the same. Is this then anything else than saying that he is not a son? Now the prefixing of that negative particle does not make that to be said according to substance, which, without it, is said relatively; but that only is denied, which, without it, was affirmed, as in the other predicaments. When we say he is a man, we denote substance. He therefore who says he is not a man, enunciates no other kind of predicament, but only denies that. As therefore I affirm according to substance in saying he is a man, so I deny according to substance in saying he is not a man. And when the question is asked how large he is? And I say he is quadrupedal, that is, four feet in measure, I affirm according to quantity, and he who says he is not quadrupedal, denies according to quantity. I say he is white, I affirm according to quality; if I say he is not white, I deny according to quality. I say he is near, I affirm according to relation; if I say he is not near, I deny according to relation. I affirm according to position, when I say he lies down; I deny according to position, when I say he does not lie down. I speak according to condition, when I say he is armed; I deny according to condition, when I say he is not armed; and it comes to the same thing as if I should say he is unarmed. I affirm according to time, when I say he is of yesterday; I deny according to time, when I say he is not of yesterday. And when I say he is at Rome, I affirm according to place; and I deny according to place, when I say he is not at Rome. I affirm according to the predicament of action, when I say he smites; but if I say he does not smite, I deny according to action, so as to declare that he does not so act. And when I say he is smitten, I affirm according to the predicament of passion; and I deny according to the same, when I say he is not smitten. And, in a word, there is no kind of predicament according to which we may please to affirm anything, without being proved to deny according to the same predicament, if we prefix the negative particle. And since this is so, if I were to affirm according to substance, in saying son, I should deny according to substance, in saying not son. But because I affirm relatively when I say he is a son, for I refer to the father; therefore I deny relatively if I say he is not a son, for I refer the same negation to the father, in that I wish to declare that he has not a parent. But if to be called son is precisely equivalent to the being called begotten (as we said before), then to be called not begotten is precisely equivalent to the being called not son. But we deny relatively when we say he is not son, therefore we deny relatively when we say he is not begotten. Further, what is unbegotten, unless not begotten? We do not escape, therefore, from the relative predicament, when he is called unbegotten. For as begotten is not said in relation to self, but in that he is of a begetter; so when one is called unbegotten, he is not so called in relation to himself, but it is declared that he is not of a begetter. Both meanings, however, turn upon the same predicament, which is called that of relation. But that which is asserted relatively does not denote substance, and accordingly, although begotten and unbegotten are diverse, they do not denote a different substance; because, as son is referred to father, and not son to not father, so it follows inevitably that begotten must be referred to begetter, and not-begotten to not-begetter."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C7",
+    "durationSeconds": 250
   },
   "TRIN-B5C8": {
     "book": 5,
@@ -2826,9 +2826,9 @@ window.TRINITY_TEXT = {
         "text": "10. They indeed use also the word hypostasis; but they intend to put a difference, I know not what, between οὐσία and hypostasis: so that most of ourselves who treat these things in the Greek language, are accustomed to say, μίαν οὐσίαν, τρεῖς ὑποστάσεις or in Latin, one essence, three substances."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C8",
+    "durationSeconds": 206
   },
   "TRIN-B5C9": {
     "book": 5,
@@ -2840,9 +2840,9 @@ window.TRINITY_TEXT = {
         "text": "But because with us the usage has already obtained, that by essence we understand the same thing which is understood by substance; we do not dare to say one essence, three substances, but one essence or substance and three persons: as many writers in Latin, who treat of these things, and are of authority, have said, in that they could not find any other more suitable way by which to enunciate in words that which they understood without words. For, in truth, as the Father is not the Son, and the Son is not the Father, and that Holy Spirit who is also called the gift of God is neither the Father nor the Son, certainly they are three. And so it is said plurally, \"I and my Father are one.\" For He has not said, \" is one,\" as the Sabellians say; but, \" are one.\" Yet, when the question is asked, What three? human language labors altogether under great poverty of speech. The answer, however, is given, three \"persons,\" not that it might be [completely] spoken, but that it might not be left [wholly] unspoken."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C9",
+    "durationSeconds": 67
   },
   "TRIN-B5C10": {
     "book": 5,
@@ -2854,9 +2854,9 @@ window.TRINITY_TEXT = {
         "text": "11. As, therefore, we do not say three essences, so we do not say three greatnesses, or three who are great. For in things which are great by partaking of greatness, to which it is one thing to be, and another to be great, as a great house, and a great mountain, and a great mind; in these things, I say, greatness is one thing, and that which is great because of greatness is another, and a great house, certainly, is not absolute greatness itself. But that is absolute greatness by which not only a great house is great, and any great mountain is great, but also by which every other thing whatsoever is great, which is called great; so that greatness itself is one thing, and those things are another which are called great from it. And this greatness certainly is primarily great, and in a much more excellent way than those things which are great by partaking of it. But since God is not great with that greatness which is not Himself, so that God, in being great, is, as it were, partaker of that greatness — otherwise that will be a greatness greater than God, whereas there is nothing greater than God; therefore, He is great with that greatness by which He Himself is that same greatness. And, therefore, as we do not say three essences, so neither do we say three greatnesses; for it is the same thing to God to be, and to be great. For the same reason neither do we say three greats, but one who is great; since God is not great by partaking of greatness, but He is great by Himself being great, because He Himself is His own greatness. Let the same be said also of the goodness, and of the eternity, and of the omnipotence of God, and, in short, of all the predicaments which can be predicated of God, as He is spoken of in respect to Himself, not metaphorically and by similitude, but properly, if indeed anything can be spoken of Him properly, by the mouth of man."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C10",
+    "durationSeconds": 115
   },
   "TRIN-B5C11": {
     "book": 5,
@@ -2868,9 +2868,9 @@ window.TRINITY_TEXT = {
         "text": "12. But whereas, in the same Trinity, some things severally are specially predicated, these are in no way said in reference to themselves in themselves, but either in mutual reference, or in respect to the creature; and, therefore, it is manifest that such things are spoken relatively, not in the way of substance. For the Trinity is called one God, great, good, eternal, omnipotent; and the same God Himself may be called His own deity, His own magnitude, His own goodness, His own eternity, His own omnipotence: but the Trinity cannot in the same way be called the Father, except perhaps metaphorically, in respect to the creature, on account of the adoption of sons. For that which is written, \"Hear, O Israel: the Lord our God is one Lord,\" ought certainly not to be understood as if the Son were excepted, or the Holy Spirit were excepted; which one Lord our God we rightly call also our Father, as regenerating us by His grace. Neither can the Trinity in any wise be called the Son, but it can be called, in its entirety, the Holy Spirit, according to that which is written, \"God is a Spirit;\" because both the Father is a spirit and the Son is a spirit, and the Father is holy and the Son is holy. Therefore, since the Father, the Son and the Holy Spirit are one God, and certainly God is holy, and God is a spirit, the Trinity can be called also the Holy Spirit. But yet that Holy Spirit, who is not the Trinity, but is understood as in the Trinity, is spoken of in His proper name of the Holy Spirit relatively, since He is referred both to the Father and to the Son, because the Holy Spirit is the Spirit both of the Father and of the Son. But the relation is not itself apparent in that name, but it is apparent when He is called the gift of God; for He is the gift of the Father and of the Son, because \"He proceeds from the Father,\" as the Lord says; and because that which the apostle says, \"Now, if any man have not the Spirit of Christ, he is none of His,\" he says certainly of the Holy Spirit Himself. When we say, therefore, the gift of the giver, and the giver of the gift, we speak in both cases relatively in reciprocal reference. Therefore the Holy Spirit is a certain unutterable communion of the Father and the Son; and on that account, perhaps, He is so called, because the same name is suitable to both the Father and the Son. For He Himself is called specially that which they are called in common; because both the Father is a spirit and the Son a spirit, both the Father is holy and the Son holy. In order, therefore, that the communion of both may be signified from a name which is suitable to both, the Holy Spirit is called the gift of both. And this Trinity is one God, alone, good, great, eternal, omnipotent; itself its own unity, deity, greatness, goodness, eternity, omnipotence."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C11",
+    "durationSeconds": 166
   },
   "TRIN-B5C12": {
     "book": 5,
@@ -2882,9 +2882,9 @@ window.TRINITY_TEXT = {
         "text": "13. Neither ought it to influence us — since we have said that the Holy Spirit is so called relatively, not the Trinity itself, but He who is in the Trinity — that the designation of Him to whom He is referred, does not seem to answer in turn to His designation. For we cannot, as we say the servant of a master, and the master of a servant, the son of a father and the father of a son, so also say here — because these things are said relatively. For we speak of the Holy Spirit of the Father; but, on the other hand, we do not speak of the Father of the Holy Spirit, lest the Holy Spirit should be understood to be His Son. So also we speak of the Holy Spirit of the Son; but we do not speak of the Son of the Holy Spirit, lest the Holy Spirit be understood to be His Father. For it is the case in many relatives, that no designation is to be found by which those things which bear relation to each other may [in name] mutually correspond to each other. For what is more clearly spoken relatively than the word earnest? Since it is referred to that of which it is an earnest, and an earnest is always an earnest of something. Can we then, as we say, the earnest of the Father and of the Son, say in turn, the Father of the earnest or the Son of the earnest? But, on the other hand, when we say the gift of the Father and of the Son, we cannot indeed say the Father of the gift, or the Son of the gift; but that these may correspond mutually to each other, we say the gift of the giver and the giver of the gift; because here a word in use may be found, there it cannot."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C12",
+    "durationSeconds": 92
   },
   "TRIN-B5C13": {
     "book": 5,
@@ -2896,9 +2896,9 @@ window.TRINITY_TEXT = {
         "text": "14. The Father is called so, therefore, relatively, and He is also relatively said to be the Beginning, and whatever else there may be of the kind; but He is called the Father in relation to the Son, the Beginning in relation to all things, which are from Him. So the Son is relatively so called; He is called also relatively the Word and the Image. And in all these appellations He is referred to the Father, but the Father is called by none of them. And the Son is also called the Beginning; for when it was said to Him, \"Who are You?\" He replied, \"Even the Beginning, who also speak to you.\" But is He, pray, the Beginning of the Father? For He intended to show Himself to be the Creator when He said that He was the Beginning, as the Father also is the beginning of the creature in that all things are from Him. For creator, too, is spoken relatively to creature, as master to servant. And so when we say, both that the Father is the Beginning, and that the Son is the Beginning, we do not speak of two beginnings of the creature; since both the Father and the Son together is one beginning in respect to the creature, as one Creator, as one God. But if whatever remains within itself and produces or works anything is a beginning to that thing which it produces or works; then we cannot deny that the Holy Spirit also is rightly called the Beginning, since we do not separate Him from the appellation of Creator: and it is written of Him that He works; and assuredly, in working, He remains within Himself; for He Himself is not changed and turned into any of the things which He works. And see what it is that He works: \"But the manifestation of the Spirit,\" he says, \"is given to every man to profit withal. For to one is given by the Spirit the word of wisdom; to another the word of knowledge by the same Spirit; to another faith by the same Spirit; to another the gifts of healing by the same Spirit; to another the working of miracles; to another prophecy; to another the discerning of spirits; to another various kinds of tongues; to another the interpretation of tongues: but all these works that one and the self-same Spirit, dividing to every man severally as He will;\" certainly as God — for who can work such great things but God? — but \"it is the same God which works all in all.\" For if we are asked point by point concerning the Holy Spirit, we answer most truly that He is God; and with the Father and the Son together He is one God. Therefore, God is spoken of as one Beginning in respect to the creature, not as two or three beginnings."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C13",
+    "durationSeconds": 150
   },
   "TRIN-B5C14": {
     "book": 5,
@@ -2910,9 +2910,9 @@ window.TRINITY_TEXT = {
         "text": "15. But in their mutual relation to one another in the Trinity itself, if the begetter is a beginning in relation to that which he begets, the Father is a beginning in relation to the Son, because He begets Him; but whether the Father is also a beginning in relation to the Holy Spirit, since it is said, \"He proceeds from the Father,\" is no small question. Because, if it is so, He will not only be a beginning to that thing which He begets or makes, but also to that which He gives. And here, too, that question comes to light, as it can, which is wont to trouble many, Why the Holy Spirit is not also a son, since He, too, comes forth from the Father, as it is read in the Gospel. For the Spirit came forth, not as born, but as given; and so He is not called a son, because He was neither born, as the Only-begotten, nor made, so that by the grace of God He might be born into adoption, as we are. For that which is born of the Father, is referred to the Father only when called Son, and so the Son is the Son of the Father, and not also our Son; but that which is given is referred both to Him who gave, and to those to whom He gave; and so the Holy Spirit is not only the Spirit of the Father and of the Son who gave Him, but He is also called ours, who have received Him: as \"The salvation of the Lord,\" who gives salvation, is said also to be our salvation, who have received it. Therefore, the Spirit is both the Spirit of God who gave Him, and ours who have received Him. Not, indeed, that spirit of ours by which we are, because that is the spirit of a man which is in him; but this Spirit is ours in another mode, viz. that in which we also say, \"Give us this day our bread.\" Although certainly we have received that spirit also, which is called the spirit of a man. \"For what have you,\" he says, \"which you did not receive?\" But that is one thing, which we have received that we might be; another, that which we have received that we might be holy. Whence it is also written of John, that he \"came in the spirit and power of Elias;\" and by the spirit of Elias is meant the Holy Spirit, whom Elias received. And the same thing is to be understood of Moses, when the Lord says to him, \"And I will take of your spirit, and will put it upon them;\" that is, I will give to them of the Holy Spirit, which I have already given to you. If, therefore, that also which is given has him for a beginning by whom it is given, since it has received from no other source that which proceeds from him; it must be admitted that the Father and the Son are a Beginning of the Holy Spirit, not two Beginnings; but as the Father and Son are one God, and one Creator, and one Lord relatively to the creature, so are they one Beginning relatively to the Holy Spirit. But the Father, the Son, and the Holy Spirit is one Beginning in respect to the creature, as also one Creator and one God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C14",
+    "durationSeconds": 168
   },
   "TRIN-B5C15": {
     "book": 5,
@@ -2924,9 +2924,9 @@ window.TRINITY_TEXT = {
         "text": "16. But it is asked further, whether, as the Son, by being born, has not only this, that He is the Son, but that He is absolutely; and so also the Holy Spirit, by being given, has not only this, that He is given, but that He is absolutely — whether therefore He was, before He was given, but was not yet a gift; or whether, for the very reason that God was about to give Him, He was already a gift also before He was given. But if He does not proceed unless when He is given, and assuredly could not proceed before there was one to whom He might be given; how, in that case, was He [absolutely] in His very substance, if He is not unless because He is given? just as the Son, by being born, not only has this, that He is a Son, which is said relatively, but His very substance absolutely, so that He is. Does the Holy Spirit proceed always, and proceed not in time, but from eternity, but because He so proceeded that He was capable of being given, was already a gift even before there was one to whom He might be given? For there is a difference in meaning between a gift and a thing that has been given. For a gift may exist even before it is given; but it cannot be called a thing that has been given unless it has been given."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C15",
+    "durationSeconds": 75
   },
   "TRIN-B5C16": {
     "book": 5,
@@ -2938,9 +2938,9 @@ window.TRINITY_TEXT = {
         "text": "17. Nor let it trouble us that the Holy Spirit, although He is co-eternal with the Father and the Son, yet is called something which exists in time; as, for instance, this very thing which we have called Him, a thing that has been given. For the Spirit is a gift eternally, but a thing that has been given in time. For if a lord also is not so called unless when he begins to have a slave, that appellation likewise is relative and in time to God; for the creature is not from all eternity, of which He is the Lord. How then shall we make it good that relative terms themselves are not accidental, since nothing happens accidentally to God in time, because He is incapable of change, as we have argued in the beginning of this discussion? Behold! To be the Lord, is not eternal to God; otherwise we should be compelled to say that the creature also is from eternity, since He would not be a lord from all eternity unless the creature also was a servant from all eternity. But as he cannot be a slave who has not a lord, neither can he be a lord who has not a slave. And if there be any one who says that God, indeed, is alone eternal, and that times are not eternal on account of their variety and changeableness, but that times nevertheless did not begin to be in time (for there was no time before times began, and therefore it did not happen to God in time that He should be Lord, since He was Lord of the very times themselves, which assuredly did not begin in time): what will he reply respecting man, who was made in time, and of whom assuredly He was not the Lord before he was of whom He was to be Lord? Certainly to be the Lord of man happened to God in time. And that all dispute may seem to be taken away, certainly to be your Lord, or mine, who have only lately begun to be, happened to God in time. Or if this, too, seems uncertain on account of the obscure question respecting the soul, what is to be said of His being the Lord of the people of Israel? Since, although the nature of the soul already existed, which that people had (a matter into which we do not now inquire), yet that people existed not as yet, and the time is apparent when it began to exist. Lastly, that He should be Lord of this or that tree, or of this or that grain crop, which only lately began to be, happened in time; since, although the matter itself already existed, yet it is one thing to be Lord of the matter (materiæ), another to be Lord of the already created nature (naturæ). For man, too, is lord of the wood at one time, and at another he is lord of the chest, although fabricated of that same wood; which he certainly was not at the time when he was already the lord of the wood. How then shall we make it good that nothing is said of God according to accident, except because nothing happens to His nature by which He may be changed, so that those things are relative accidents which happen in connection with some change of the things of which they are spoken. As a friend is so called relatively: for he does not begin to be one, unless when he has begun to love; therefore some change of will takes place, in order that he may be called a friend. And money, when it is called a price, is spoken of relatively, and yet it was not changed when it began to be a price; nor, again, when it is called a pledge, or any other thing of the kind. If, therefore, money can so often be spoken of relatively with no change of itself, so that neither when it begins, nor when it ceases to be so spoken of, does any change take place in that nature or form of it, whereby it is money; how much more easily ought we to admit, concerning that unchangeable substance of God, that something may be so predicated relatively in respect to the creature, that although it begin to be so predicated in time, yet nothing shall be understood to have happened to the substance itself of God, but only to that creature in respect to which it is predicated? \"Lord,\" it is said, \"You have been made our refuge.\" God, therefore, is said to be our refuge relatively, for He is referred to us, and He then becomes our refuge when we flee to Him; pray does anything come to pass then in His nature, which, before we fled to Him, was not? In us therefore some change does take place; for we were worse before we fled to Him, and we become better by fleeing to Him: but in Him there is no change. So also He begins to be our Father, when we are regenerated through His grace, since He gave us power to become the sons of God. Our substance therefore is changed for the better, when we become His sons; and He at the same time begins to be our Father, but without any change of His own substance. Therefore that which begins to be spoken of God in time, and which was not spoken of Him before, is manifestly spoken of Him relatively; yet not according to any accident of God, so that anything should have happened to Him, but clearly according to some accident of that, in respect to which God begins to be called something relatively. When a righteous man begins to be a friend of God, he himself is changed; but far be it from us to say, that God loves any one in time with as it were a new love, which was not in Him before, with whom things gone by have not passed away and things future have been already done. Therefore He loved all His saints before the foundation of the world, as He predestinated them; but when they are converted and find them; then they are said to begin to be loved by Him, that what is said may be said in that way in which it can be comprehended by human affections. So also, when He is said to be angry with the unrighteous, and gentle with the good, they are changed, not He: just as the light is troublesome to weak eyes, pleasant to those that are strong; namely, by their change, not its own."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B5C16",
+    "durationSeconds": 323
   },
   "TRIN-B6C1": {
     "book": 6,
@@ -2956,9 +2956,9 @@ window.TRINITY_TEXT = {
         "text": "2. Now this argument compels us to say that God the Father is not wise, except by having the wisdom which He begot, not by the Father in Himself being wisdom itself. Further, if it be so, just as the Son also Himself is called God of God, Light of Light, we must consider whether He can be called wisdom of wisdom, if God the Father is not wisdom itself, but only the begetter of wisdom. And if we hold this, why is He not the begetter also of His own greatness, and of His own goodness, and of His own eternity, and of His own omnipotence; so that He is not Himself His own greatness, and His own goodness, and His own eternity, and His own omnipotence; but is great with that greatness which He begot, and good with that goodness, and eternal with that eternity, and omnipotent with that omnipotence, which was born of Him; just as He Himself is not His own wisdom, but is wise with that wisdom which was born of Him? For we need not be afraid of being compelled to say that there are many sons of God, over and above the adoption of the creature, co-eternal with the Father, if He be the begetter of His own greatness, and goodness, and eternity, and omnipotence. Because it is easy to reply to this cavil, that it does not at all follow, because many things are named, that He should be the Father of many co-eternal sons; just as it does not follow that He is the Father of two sons, because Christ is said to be the power of God, and the wisdom of God. For that certainly is the power which is the wisdom, and that is the wisdom which is the power; and in like manner, therefore, of the rest also; so that that is the greatness which is the power, or any other of those things which either have been mentioned above, or may hereafter be mentioned."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C1",
+    "durationSeconds": 209
   },
   "TRIN-B6C2": {
     "book": 6,
@@ -2970,9 +2970,9 @@ window.TRINITY_TEXT = {
         "text": "3. But if nothing is spoken of the Father as such, except that which is spoken of Him in relation to the Son, that is, that He is His father, or begetter, or beginning; and if also the begetter is by consequence a beginning to that which he begets of himself; but whatever else is spoken of Him is so spoken as with the Son, or rather in the Son; whether that He is great with that greatness which He begot, or just with that justice which He begot, or good with that goodness which He begot, or powerful with that force or power which He begot, or wise with that wisdom which He begot: yet the Father is not said to be greatness itself, but the begetter of greatness; but the Son, as He is called the Son as such, is not so called with the Father but in relation to the Father, so is not great in and by himself, but with the Father, of whom He is the greatness; and so also is called wise with the Father, of whom He Himself is the wisdom; just as the Father is called wise with the Son, because He is wise with that wisdom which He begot; therefore the one is not called without the other, whatever they are called in respect to themselves; that is, whatever they are called that manifests their essential nature, both are so called together — if these things are so, then the Father is not God without the Son, nor the Son God without the Father, but both together are God. And that which is said, \"In the beginning was the Word,\" means that the Word was in the Father. Or if \"In the beginning\" is intended to mean, Before all things; then in that which follows, \"And the Word was with God,\" the Son alone is understood to be the Word, not the Father and Son together, as though both were one Word (for He is the Word in the same way as He is the Image, but the Father and Son are not both together the Image, but the Son alone is the Image of the Father: just as He is also the Son of the Father, for both together are not the Son). But in that which is added, \"And the Word was with God,\" there is much reason to understand thus: \"The Word,\" which is the Son alone, \"was with God,\" which is not the Father alone, but God the Father and the Son together. But what wonder is there, if this can be said in the case of some twofold things widely different from each other? For what are so different as soul and body? Yet we can say the soul was with a man, that is, in a man; although the soul is not the body, and man is both soul and body together. So that what follows in the Scripture, \"And the Word was God,\" may be understood thus: The Word, which is not the Father, was God together with the Father. Are we then to say thus, that the Father is the begetter of His own greatness, that is, the begetter of His own power, or the begetter of His own wisdom; and that the Son is greatness, and power, and wisdom; but that the great, omnipotent, and wise God, is both together? How then God of God, Light of Light? For not both together are God of God, but only the Son is of God, that is to say, of the Father; nor are both together Light of Light, but the Son only is of Light, that is, of the Father. Unless, perhaps, it was in order to intimate and inculcate briefly that the Son is co-eternal with the Father, that it is said, God of God, and Light of Light, or anything else of the like kind: as if to say, This which is not the Son without the Father, of this which is not the Father without the Son; that is, this Light which is not Light without the Father, of that Light, viz. the Father, which is not Light without the Son; so that, when it is said, God which is not the Son without the Father, and of God which is not the Father without the Son, it may be perfectly understood that the Begetter did not precede that which He begot. And if this be so, then this alone cannot be said of them, namely, this or that of this or that, which they are not both together. Just as the Word cannot be said to be of the Word, because both are not the Word together, but only the Son; nor image of image, since they are not both together the image; nor Son of Son, since both together are not the Son, according to that which is said, \"I and my Father are one.\" For \"we are one\" means, what He is, that am I also; according to essence, not according to relation."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C2",
+    "durationSeconds": 222
   },
   "TRIN-B6C3": {
     "book": 6,
@@ -2988,9 +2988,9 @@ window.TRINITY_TEXT = {
         "text": "5. Whence then is the Father greater? For if greater, He is greater by greatness; but whereas the Son is His greatness, neither assuredly is the Son greater than He who begot Him, nor is the Father greater than that greatness, whereby He is great; therefore they are equal. For whence is He equal, if not in that which He is, to whom it is not one thing to be, and another to be great? Or if the Father is greater in eternity, the Son is not equal in anything whatsoever. For whence equal? If you say in greatness, that greatness is not equal which is less eternal, and so of all things else. Or is He perhaps equal in power, but not equal in wisdom? But how is that power which is less wise, equal? Or is He equal in wisdom, but not equal in power? But how is that wisdom equal which is less powerful? It remains, therefore, that if He is not equal in anything, He is not equal in all. But Scripture proclaims, that \"He thought it not robbery to be equal with God.\" Therefore any adversary of the truth whatever, provided he feels bound by apostolic authority, must needs confess that the Son is equal with God in each one thing whatsoever. Let him choose that which he will; from it he will be shown, that He is equal in all things which are said of His substance."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C3",
+    "durationSeconds": 220
   },
   "TRIN-B6C4": {
     "book": 6,
@@ -3002,9 +3002,9 @@ window.TRINITY_TEXT = {
         "text": "6. For in like manner the virtues which are in the human mind, although each has its own several and different meaning, yet are in no way mutually separable; so that, for instance, whosoever were equal in courage, are equal also in prudence, and temperance, and justice. For if you say that such and such men are equal in courage, but that one of them is greater in prudence, it follows that the courage of the other is less prudent, and so neither are they equal in courage, since the courage of the former is more prudent. And so you will find it to be the case with the other virtues, if you consider them one by one. For the question is not of the strength of the body, but of the courage of the mind. How much more therefore is this the case in that unchangeable and eternal substance, which is incomparably more simple than the human mind is? Since, in the human mind, to be is not the same as to be strong, or prudent, or just, or temperate; for a mind can exist, and yet have none of these virtues. But in God to be is the same as to be strong, or to be just, or to be wise, or whatever is said of that simple multiplicity, or multifold simplicity, whereby to signify His substance. Wherefore, whether we say God of God in such way that this name belongs to each, yet not so that both together are two Gods, but one God; for they are in such way united with each other, as according to the apostle's testimony may take place even in diverse and differing substances; for both the Lord alone is a Spirit, and the spirit of a man alone is assuredly a spirit; yet, if it cleave to the Lord, \"it is one spirit:\" how much more there, where there is an absolutely inseparable and eternal union, so that He may not seem absurdly to be called as it were the Son of both, when He is called the Son of God, if that which is called God is only said of both together. Or perhaps it is, that whatever is said of God so as to indicate His substance, is not said except of both together, nay of the Trinity itself together? Whether therefore it be this or that (which needs a closer inquiry), it is enough for the present to see from what has been said, that the Son is in no respect equal with the Father, if He is found to be unequal in anything which has to do with signifying His substance, as we have already shown. But the apostle has said that He is equal. Therefore the Son is equal with the Father in all things, and is of one and the same substance."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C4",
+    "durationSeconds": 140
   },
   "TRIN-B6C5": {
     "book": 6,
@@ -3016,9 +3016,9 @@ window.TRINITY_TEXT = {
         "text": "7. Wherefore also the Holy Spirit consists in the same unity of substance, and in the same equality. For whether He is the unity of both, or the holiness, or the love, or therefore the unity because the love, and therefore the love because the holiness, it is manifest that He is not one of the two, through whom the two are joined, through whom the Begotten is loved by the Begetter, and loves Him that begot Him, and through whom, not by participation, but by their own essence, neither by the gift of any superior, but by their own, they are \"keeping the unity of the Spirit in the bond of peace;\" which we are commanded to imitate by grace, both towards God and towards ourselves. \"On which two commandments hang all the law and the prophets.\" So those three are God, one, alone, great, wise, holy, blessed. But we are blessed from Him, and through Him, and in Him; because we ourselves are one by His gift, and one spirit with Him, because our soul cleaves to Him so as to follow Him. And it is good for us to cleave to God, since He will destroy every man who is estranged from Him. Therefore the Holy Spirit, whatever it is, is something common both to the Father and Son. But that communion itself is consubstantial and co-eternal; and if it may fitly be called friendship, let it be so called; but it is more aptly called love. And this is also a substance, since God is a substance, and \"God is love,\" as it is written. But as He is a substance together with the Father and the Son, so that substance is together with them great, and together with them good, and together with them holy, and whatsoever else is said in reference to substance; since it is not one thing to God to be, and another to be great or to be good, and the rest, as we have shown above. For if love is less great therein [i.e. in God] than wisdom, then wisdom is loved in less degree than according to what it is; love is therefore equal, in order that wisdom may be loved according to its being; but wisdom is equal with the Father, as we have proved above; therefore also the Holy Spirit is equal; and if equal, equal in all things, on account of the absolute simplicity which is in that substance. And therefore they are not more than three: One who loves Him who is from Himself, and One who loves Him from whom He is, and Love itself. And if this last is nothing, how is \"God love\"? If it is not substance, how is God substance?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C5",
+    "durationSeconds": 147
   },
   "TRIN-B6C6": {
     "book": 6,
@@ -3030,9 +3030,9 @@ window.TRINITY_TEXT = {
         "text": "8. But if it is asked how that substance is both simple and manifold: consider, first, why the creature is manifold, but in no way really simple. And first, all that is body is composed certainly of parts; so that therein one part is greater, another less, and the whole is greater than any part whatever or how great soever. For the heaven and the earth are parts of the whole bulk of the world; and the earth alone, and the heaven alone, is composed of innumerable parts; and its third part is less than the remainder, and the half of it is less than the whole; and the whole body of the world, which is usually called by its two parts, viz. the heaven and the earth, is certainly greater than the heaven alone or the earth alone. And in each several body, size is one thing, color another, shape another; for the same color and the same shape may remain with diminished size; and the same shape and the same size may remain with the color changed; and the same shape not remaining, yet the thing may be just as great, and of the same color. And whatever other things are predicated together of body can be changed either all together, or the larger part of them without the rest. And hence the nature of body is conclusively proved to be manifold, and in no respect simple. The spiritual creature also, that is, the soul, is indeed the more simple of the two if compared with the body; but if we omit the comparison with the body, it is manifold, and itself also not simple. For it is on this account more simple than the body, because it is not diffused in bulk through extension of place, but in each body, it is both whole in the whole, and whole in each several part of it; and, therefore, when anything takes place in any small particle whatever of the body, such as the soul can feel, although it does not take place in the whole body, yet the whole soul feels it, since the whole soul is not unconscious of it. But, nevertheless, since in the soul also it is one thing to be skillful, another to be indolent, another to be intelligent, another to be of retentive memory; since cupidity is one thing, fear another, joy another, sadness another; and since things innumerable, and in innumerable ways, are to be found in the nature of the soul, some without others, and some more, some less; it is manifest that its nature is not simple, but manifold. For nothing simple is changeable, but every creature is changeable."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C6",
+    "durationSeconds": 140
   },
   "TRIN-B6C7": {
     "book": 6,
@@ -3048,9 +3048,9 @@ window.TRINITY_TEXT = {
         "text": "9. Neither, since He is a Trinity, is He therefore to be thought triple (triplex) otherwise the Father alone, or the Son alone, will be less than the Father and Son together. Although, indeed, it is hard to see how we can say, either the Father alone, or the Son alone; since both the Father is with the Son, and the Son with the Father, always and inseparably: not that both are the Father, or both are the Son; but because they are always one in relation to the other, and neither the one nor the other alone. But because we call even the Trinity itself God alone, although He is always with holy spirits and souls, but say that He only is God, because they are not also God with Him; so we call the Father the Father alone, not because He is separate from the Son, but because they are not both together the Father."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C7",
+    "durationSeconds": 75
   },
   "TRIN-B6C8": {
     "book": 6,
@@ -3062,9 +3062,9 @@ window.TRINITY_TEXT = {
         "text": "Since, therefore, the Father alone, or the Son alone, or the Holy Spirit alone, is as great as is the Father and the Son and the Holy Spirit together, in no manner is He to be called threefold. Forasmuch as bodies increase by union of themselves. For although he who cleaves to his wife is one body; yet it is a greater body than if it were that of the husband alone, or of the wife alone. But in spiritual things, when the less adheres to the greater, as the creature to the Creator, the former becomes greater than it was, not the latter. For in those things which are not great by bulk, to be greater is to be better. And the spirit of any creature becomes better, when it cleaves to the Creator, than if it did not so cleave; and therefore also greater because better. \"He,\" then, that is joined unto the Lord is one spirit: but yet the Lord does not therefore become greater, although he who is joined to the Lord does so. In God Himself, therefore when the equal Son, or the Holy Spirit equal to the Father and the Son, is joined to the equal Father, God does not become greater than each of them severally; because that perfectness cannot increase. But whether it be the Father, or the Son, or the Holy Spirit, He is perfect, and God the Father the Son and the Holy Spirit is perfect; and therefore He is a Trinity rather than triple."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C8",
+    "durationSeconds": 80
   },
   "TRIN-B6C9": {
     "book": 6,
@@ -3076,9 +3076,9 @@ window.TRINITY_TEXT = {
         "text": "10. And since we are showing how we can say the Father alone, because there is no Father in the Godhead except Himself, we must consider also the opinion which holds that the only true God is not the Father alone, but the Father and the Son and the Holy Spirit. For if any one should ask whether the Father alone is God, how can it be replied that He is not, unless perhaps we were to say that the Father indeed is God, but that He is not God alone, but that the Father, Son, and Holy Spirit are God alone? But then what shall we do with that testimony of the Lord? For He was speaking to the Father, and had named the Father as Him to whom He was speaking, when He says, \"And this is life eternal, that they may know You the one true God.\" And this the Arians indeed usually take, as if the Son were not true God. Passing them by, however, we must see whether, when it is said to the Father, \"That they may know You the one true God,\" we are forced to understand it as if He wished to intimate that the Father alone is the true God; lest we should not understand any to be God, except the three together, the Father, Son, and Holy Spirit. Are we therefore, from the testimony of the Lord, both to call the Father the one true God, and the Son the one true God, and the Holy Spirit the one true God, and the Father, the Son, and the Holy Spirit together, that is, the Trinity itself together, not three true Gods but one true God? Or because He added, \"And Jesus Christ whom You have sent,\" are we to supply \"the one true God;\" so that the order of the words is this, \"That they may know You, and Jesus Christ whom You have sent, the one true God?\" Why then did He omit to mention the Holy Spirit? Is it because it follows, that whenever we name One who cleaves to One by a harmony so great that through this harmony both are one, this harmony itself must be understood, although it is not mentioned? For in that place, too, the apostle seems as it were to pass over the Holy Spirit; and yet there, too, He is understood, where he says, \"All are yours, and you are Christ's, and Christ is God's.\" And again, \"The head of the woman is the man, the head of the man is Christ, and the head of Christ is God.\" But again, if God is only all three together, how can God be the head of Christ, that is, the Trinity the head of Christ, since Christ is in the Trinity in order that it may be the Trinity? Is that which is the Father with the Son, the head of that which is the Son alone? For the Father with the Son is God, but the Son alone is Christ: especially since it is the Word already made flesh that speaks; and according to this His humiliation also, the Father is greater than He, as He says, \"for my Father is greater than I;\" so that the very being of God, which is one to Him with the Father, is itself the head of the man who is mediator, which He is alone. For if we rightly call the mind the chief thing of man, that is, as it were the head of the human substance, although the man himself together with the mind is man; why is not the Word with the Father, which together is God, much more suitably and much more the head of Christ, although Christ as man cannot be understood except with the Word which was made flesh? But this, as we have already said, we shall consider somewhat more carefully hereafter. At present the equality and one and the same substance of the Trinity has been demonstrated as briefly as possible, that in whatever way that other question be determined, the more rigorous discussion of which we have deferred, nothing may hinder us from confessing the absolute equality of the Father, Son, and Holy Spirit."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C9",
+    "durationSeconds": 166
   },
   "TRIN-B6C10": {
     "book": 6,
@@ -3094,9 +3094,9 @@ window.TRINITY_TEXT = {
         "text": "12. Therefore all these things which are made by divine skill, show in themselves a certain unity, and form, and order; for each of them is both some one thing, as are the several natures of bodies and dispositions of souls; and is fashioned in some form, as are the figures or qualities of bodies, and the various learning or skill of souls; and seeks or preserves a certain order, as are the several weights or combinations of bodies and the loves or delights of souls. When therefore we regard the Creator, who is understood by the things that are made we must needs understand the Trinity of whom there appear traces in the creature, as is fitting. For in that Trinity is the supreme source of all things, and the most perfect beauty, and the most blessed delight. Those three, therefore, both seem to be mutually determined to each other, and are in themselves infinite. But here in corporeal things, one thing alone is not as much as three together, and two are something more than one; but in that highest Trinity one is as much as the three together, nor are two anything more than one. And They are infinite in themselves. So both each are in each, and all in each, and each in all, and all in all, and all are one. Let him who sees this, whether in part, or \"through a glass and in an enigma,\" rejoice in knowing God; and let him honor Him as God, and give thanks; but let him who does not see it, strive to see it through piety, not to cavil at it through blindness. Since God is one, but yet is a Trinity. Neither are we to take the words, \"of whom, and through whom, and to whom are all things,\" as used indiscriminately [i.e., to denote a unity without distinctions]; nor yet to denote many gods, for \"to Him, be glory for ever and ever. Amen.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B6C10",
+    "durationSeconds": 256
   },
   "TRIN-B7C1": {
     "book": 7,
@@ -3112,9 +3112,9 @@ window.TRINITY_TEXT = {
         "text": "2. This discussion has arisen from that which is written, that \"Christ is the power of God, and the wisdom of God.\" Wherefore our discourse is compressed into these narrow limits, while we desire to speak things unspeakable; that either we must say that Christ is not the power of God and the wisdom of God, and so shamelessly and impiously resist the apostle; or we must acknowledge that Christ is indeed the power of God and the wisdom of God, but that His Father is not the Father of His own power and wisdom, which is not less impious; for so neither will He be the Father of Christ, because Christ is the power of God and the wisdom of God; or that the Father is not powerful with His own power, or wise with His own wisdom: and who shall dare to say this? Or yet, again, that we must understand, that in the Father it is one thing to be, another thing to be wise, so that He is not by that by which He is wise: a thing usually understood of the soul, which is at some times unwise, at others wise; as being by nature changeable, and not absolutely and perfectly simple. Or, again, that the Father is not anything in respect to His own substance; and that not only that He is the Father, but that He is, is said relatively to the Son. How then can the Son be of the same essence as the Father, seeing that the Father, in respect to Himself, is neither His own essence, nor is at all in respect to Himself, but even His essence is in relation to the Son? But, on the contrary, much more is He of one and the same essence, since the Father and Son are one and the same essence; seeing that the Father has His being itself not in respect to Himself, but to the Son, which essence He begot, and by which essence He is whatever He is. Therefore neither [person] is in respect to Himself alone; and both exist relatively the one to the other. Or is the Father alone not called Father of himself, but whatever He is called, is called relatively to the Son, but the Son is predicated of in reference to Himself? And if it be so, what is predicated of Him in reference to Himself? Is it His essence itself? But the Son is the essence of the Father, as He is the power and wisdom of the Father, as He is the Word of the Father, and the image of the Father. Or if the Son is called essence in reference to Himself, but the Father is not essence, but the begetter of the essence, and is not in respect to Himself, but is by that very essence which He begot; as He is great by that greatness which He begot: therefore the Son is also called greatness in respect to Himself; therefore He is also called, in like manner, power, and wisdom, and word, and image. But what can be more absurd than that He should be called image in respect to Himself? Or if image and word are not the very same with power and wisdom, but the former are spoken relatively, and the latter in respect to self, not to another; then we get to this, that the Father is not wise with that wisdom which He begot, because He Himself cannot be spoken relatively to it, and it cannot be spoken relatively to Him. For all things which are said relatively are said reciprocally; therefore it remains that even in essence the Son is spoken of relatively to the Father. But from this is educed a most unexpected sense: that essence itself is not essence, or at least that, when it is called essence, not essence but something relative is intimated. As when we speak of a master, essence is not intimated, but a relative which has reference to a slave; but when we speak of a man, or any such thing which is said in respect to self not to something else, then essence is intimated. Therefore when a man is called a master, man himself is essence, but he is called master relatively; for he is called man in respect to himself, but master in respect to his slave. But in regard to the point from which we started, if essence itself is spoken relatively, essence itself is not essence. Add further, that all essence which is spoken of relatively, is also something, although the relation be taken away; as e.g. in the case of a man who is a master, and a man who is a slave, and a horse that is a beast of burden, and money that is a pledge, the man, and the horse, and the money are spoken in respect to themselves, and are substances or essences; but master, and slave, and beast of burden, and pledge, are spoken relatively to something. But if there were not a man, that is, some substance, there would be none who could be called relatively a master; and if there were no horse having a certain essence, there would be nothing that could be called relatively a beast of burden; so if money were not some kind of substance, it could not be called relatively a pledge. Wherefore, if the Father also is not something in respect to Himself then there is no one at all that can be spoken of relatively to something. For it is not as it is with color. The color of a thing is referred to the thing colored, and color is not spoken at all in reference to substance, but is always of something that is colored; but that thing of which it is the color, even if it is referred to color in respect to its being colored, is yet, in respect to its being a body, spoken of in respect to substance. But in no way may we think, in like manner, that the Father cannot be called anything in respect to His own substance, but that whatever He is called, He is called in relation to the Son; while the same Son is spoken of both in respect to His own substance and in relation to the Father, when He is called great greatness, and powerful power, plainly in respect to Himself, and the greatness and power of the great and powerful Father, by which the Father is great and powerful. It is not so; but both are substance, and both are one substance. And as it is absurd to say that whiteness is not white, so is it absurd to say that wisdom is not wise; and as whiteness is called white in respect to itself, so also wisdom is called wise in respect to itself. But the whiteness of a body is not an essence, since the body itself is the essence, and that is a quality of it; and hence also a body is said from that quality to be white, to which body to be is not the same thing as to be white. For the form in it is one thing, and the color another; and both are not in themselves, but in a certain bulk, which bulk is neither form nor color, but is formed and colored. True wisdom is both wise, and wise in itself. And since in the case of every soul that becomes wise by partaking of wisdom, if it again becomes foolish, yet wisdom in itself remains; nor when that soul was changed into folly is the wisdom likewise so changed; therefore wisdom is not in him who becomes wise by it, in the same manner as whiteness is in the body which is by it made white. For when the body has been changed into another color, that whiteness will not remain, but will altogether cease to be. But if the Father who begot wisdom is also made wise by it, and to be is not to Him the same as to be wise, then the Son is His quality, not His offspring; and there will no longer be absolute simplicity in the Godhead. But far be it from being so, since in truth in the Godhead is absolutely simple essence, and therefore to be is there the same as to be wise. But if to be is there the same as to be wise, then the Father is not wise by that wisdom which He begot; otherwise He did not beget it, but it begot Him. For what else do we say when we say, that to Him to be is the same as to be wise, unless that He is by that whereby He is wise? Wherefore, that which is the cause to Him of being wise, is itself also the cause to Him that He is; and accordingly, if the wisdom which He begot is the cause to Him of being wise, it is also the cause to Him that He is; and this cannot be the case, except either by begetting or by creating Him. But no one ever said in any sense that wisdom is either the begetter or the creator of the Father; for what could be more senseless? Therefore both the Father Himself is wisdom, and the Son is in such way called the wisdom of the Father, as He is called the light of the Father; that is, that in the same manner as light from light, and yet both one light, so we are to understand wisdom of wisdom, and yet both one wisdom; and therefore also one essence, since, in God, to be, is the same as to be wise. For what to be wise is to wisdom, and to be able is to power, and to be eternal is to eternity, and to be just to justice, and to be great to greatness, that being itself is to essence. And since in the Divine simplicity, to be wise is nothing else than to be, therefore wisdom there is the same as essence."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B7C1",
+    "durationSeconds": 708
   },
   "TRIN-B7C2": {
     "book": 7,
@@ -3126,9 +3126,9 @@ window.TRINITY_TEXT = {
         "text": "3. Therefore the Father and the Son together are one essence, and one greatness, and one truth, and one wisdom. But the Father and Son both together are not one Word, because both together are not one Son. For as the Son is referred to the Father, and is not so called in respect to Himself, so also the Word is referred to him whose Word it is, when it is called the Word. Since He is the Son in that He is the Word, and He is the Word in that He is the Son. Inasmuch, therefore, as the Father and the Son together are certainly not one Son, it follows that the Father and the Son together are not the one Word of both. And therefore He is not the Word in that He is wisdom; since He is not called the Word in respect to Himself, but only relatively to Him whose Word He is, as He is called the Son in relation to the Father; but He is wisdom by that whereby He is essence. And therefore, because one essence, one wisdom. But since the Word is also wisdom, yet is not thereby the Word because He is wisdom for He is understood to be the Word relatively, but wisdom essentially: let us understand, that when He is called the Word, it is meant, wisdom that is born, so as to be both the Son and the Image; and that when these two words are used, namely wisdom (is) born, in one of the two, namely born, both Word, and Image, and Son, are understood, and in all these names essence is not expressed, since they are spoken relatively; but in the other word, namely wisdom, since it is spoken also in respect to substance, for wisdom is wise in itself, essence also is expressed, and that being of His which is to be wise. Whence the Father and Son together are one wisdom, because one essence, and singly wisdom of wisdom, as essence of essence. And hence they are not therefore not one essence, because the Father is not the Son, and the Son is not the Father, or because the Father is un-begotten, but the Son is begotten: since by these names only their relative attributes are expressed. But both together are one wisdom and one essence; in which to be, is the same as to be wise. And both together are not the Word or the Son, since to be is not the same as to be the Word or the Son, as we have already sufficiently shown that these terms are spoken relatively."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B7C2",
+    "durationSeconds": 137
   },
   "TRIN-B7C3": {
     "book": 7,
@@ -3148,9 +3148,9 @@ window.TRINITY_TEXT = {
         "text": "6. The Holy Spirit also, whether we are to call Him that absolute love which joins together Father and Son, and joins us also from beneath, that so that is not unfitly said which is written, \"God is love;\" how is He not also Himself wisdom, since He is light, because \"God is light\"? Or whether after any other way the essence of the Holy Spirit is to be singly and properly named; then, too, since He is God, He is certainly light; and since He is light, He is certainly wisdom. But that the Holy Spirit is God, Scripture proclaims by the apostle, who says, \"Do you not know that you are the temple of God?\" and immediately subjoins, \"And the Spirit of God dwells in you;\" for God dwells in His own temple. For the Spirit of God does not dwell in the temple of God as a servant, since he says more plainly in another place, \"Do you not know that your body is the temple of the Holy Ghost which is in you, and which you have of God, and you are not your own? For you are bought with a great price: therefore glorify God in your body.\" But what is wisdom, except spiritual and unchangeable light? For yonder sun also is light, but it is corporeal; and the spiritual creature also is light, but it is not unchangeable. Therefore the Father is light, the Son is light, and the Holy Spirit is light; but together not three lights, but one light. And so the Father is wisdom, the Son is wisdom, and the Holy Spirit is wisdom, and together not three wisdoms, but one wisdom: and because in the Trinity to be is the same as to be wise, the Father, Son, and Holy Spirit, are one essence. Neither in the Trinity is it one thing to be and another to be God; therefore the Father, Son, and Holy Spirit, are one God."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B7C3",
+    "durationSeconds": 449
   },
   "TRIN-B7C4": {
     "book": 7,
@@ -3170,9 +3170,9 @@ window.TRINITY_TEXT = {
         "text": "9. What therefore remains, except that we confess that these terms sprang from the necessity of speaking, when copious reasoning was required against the devices or errors of the heretics? For when human weakness endeavored to utter in speech to the senses of man what it grasps in the secret places of the mind in proportion to its comprehension respecting the Lord God its creator, whether by devout faith, or by any discernment whatsoever; it feared to say three essences, lest any difference should be understood to exist in that absolute equality. Again, it could not say that there were not three somewhats (tria quædam), for it was because Sabellius said this that he fell into heresy. For it must be devoutly believed, as most certainly known from the Scriptures, and must be grasped by the mental eye with undoubting perception, that there is both Father, and Son, and Holy Spirit; and that the Son is not the same with the Father, nor the Holy Spirit the same with the Father or the Son. It sought then what three it should call them, and answered substances or persons; by which names it did not intend diversity to be meant, but singleness to be denied: that not only unity might be understood therein from the being called one essence, but also Trinity from the being called three substances or persons. For if it is the same thing with God to be (esse) as to subsist (subsistere), they were not to be called three substances, in such sense as they are not called three essences; just as, because it is the same thing with God to be as to be wise, as we do not say three essences, so neither three wisdoms. For so, because it is the same thing to Him to be God as to be, it is not right to say three essences, as it is not right to say three Gods. But if it is one thing to God to be, another to subsist, as it is one thing to God to be, another to be the Father or the Lord (for that which He is, is spoken in respect to Himself, but He is called Father in relation to the Son, and Lord in relation to the creature which serves Him); therefore He subsists relatively, as He begets relatively, and bears rule relatively: so then substance will be no longer substance, because it will be relative. For as from being, He is called essence, so from subsisting, we speak of substance. But it is absurd that substance should be spoken relatively, for everything subsists in respect to itself; how much more God?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B7C4",
+    "durationSeconds": 619
   },
   "TRIN-B7C5": {
     "book": 7,
@@ -3184,9 +3184,9 @@ window.TRINITY_TEXT = {
         "text": "10. If, however, it is fitting that God should be said to subsist — (For this word is rightly applied to those things, in which as subjects those things are, which are said to be in a subject, as color or shape in body. For body subsists, and so is substance; but those things are in the body, which subsists and is their subject, and they are not substances, but are in a substance: and so, if either that color or that shape ceases to be, it does not deprive the body of being a body, because it is not of the being of body, that it should retain this or that shape or color; therefore neither changeable nor simple things are properly called substances.) — If, I say, God subsists so that He can be properly called a substance, then there is something in Him as it were in a subject, and He is not simple, i.e. such that to Him to be is the same as is anything else that is said concerning Him in respect to Himself; as, for instance, great, omnipotent, good, and whatever of this kind is not unfitly said of God. But it is an impiety to say that God subsists, and is a subject in relation to His own goodness, and that this goodness is not a substance or rather essence, and that God Himself is not His own goodness, but that it is in Him as in a subject. And hence it is clear that God is improperly called substance, in order that He may be understood to be, by the more usual name essence, which He is truly and properly called; so that perhaps it is right that God alone should be called essence. For He is truly alone, because He is unchangeable; and declared this to be His own name to His servant Moses, when He says, \"I am that I am;\" and, \"Thus shall you say unto the children of Israel: He who is has sent me unto you.\" However, whether He be called essence, which He is properly called, or substance, which He is called improperly, He is called both in respect to Himself, not relatively to anything; whence to God to be is the same thing as to subsist; and so the Trinity, if one essence, is also one substance. Perhaps therefore they are more conveniently called three persons than three substances."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B7C5",
+    "durationSeconds": 122
   },
   "TRIN-B7C6": {
     "book": 7,
@@ -3202,9 +3202,9 @@ window.TRINITY_TEXT = {
         "text": "12. And until he be purged from this uncleanness, let him believe in the Father, Son, and Holy Spirit, one God, alone, great, omnipotent, good, just, merciful, Creator of all things visible and invisible, and whatsoever can be worthily and truly said of Him in proportion to human capacity. And when he is told that the Father only is God, let him not separate from Him the Son or the Holy Spirit; for together with Him He is the only God, together with whom also He is one God; because, when we are told that the Son also is the only God, we must needs take it without any separation of the Father or the Holy Spirit. And let him so say one essence, as not to think one to be either greater or better than, or in any respect differing from, another. Yet not that the Father Himself is both Son and Holy Spirit, or whatever else each is singly called in relation to either of the others; as Word, which is not said except of the Son, or Gift, which is not said except of the Holy Spirit. And on this account also they admit the plural number, as it is written in the Gospel, \"I and my Father are one.\" He has both said \" one,\" and \" we are one,\" according to essence, because they are the same God; \"we are,\" according to relation, because the one is Father, the other is Son. Sometimes also the unity of the essence is left unexpressed, and the relatives alone are mentioned in the plural number: \"My Father and I will come unto him, and make our abode with him.\" We will come, and we will make our abode, is the plural number, since it was said before, \"I and my Father,\" that is, the Son and the Father, which terms are used relatively to one another. Sometimes the meaning is altogether latent, as in Genesis: \"Let us make man after our image and likeness.\" Both let us make and our is said in the plural, and ought not to be received except as of relatives. For it was not that gods might make, or make after the image and likeness of gods; but that the Father, and Son, and Holy Spirit might make after the image of the Father, and Son, and Holy Spirit, that man might subsist as the image of God. And God is the Trinity. But because that image of God was not made altogether equal to Him, as being not born of Him, but created by Him; in order to signify this, he is in such way the image as that he is \"after the image,\" that is, he is not made equal by parity, but approaches to Him by a sort of likeness. For approach to God is not by intervals of place, but by likeness, and withdrawal from Him is by unlikeness. For there are some who draw this distinction, that they will have the Son to be the image, but man not to be the image, but \"after the image.\" But the apostle refutes them, saying, \"For a man indeed ought not to cover his head, forasmuch as he is the image and glory of God.\" He did not say after the image, but the image. And this image, since it is elsewhere spoken of as after the image, is not as if it were said relatively to the Son, who is the image equal to the Father; otherwise he would not say after our image. For how our, when the Son is the image of the Father alone? But man is said to be \"after the image,\" on account, as we have said, of the inequality of the likeness; and therefore after our image, that man might be the image of the Trinity; not equal to the Trinity as the Son is equal to the Father, but approaching to it, as has been said, by a certain likeness; just as nearness may in a sense be signified in things distant from each other, not in respect of place, but of a sort of imitation. For it is also said, \"Be transformed by the renewing of your mind;\" to whom he likewise says, \"Be therefore imitators of God as dear children.\" For it is said to the new man, \"which is renewed to the knowledge of God, after the image of Him that created him.\" Or if we choose to admit the plural number, in order to meet the needs of argument, even putting aside relative terms, that so we may answer in one term when it is asked what three, and say three substances or three persons; then let no one think of any bulk or interval, or of any distance of howsoever little unlikeness, so that in the Trinity any should be understood to be even a little less than another, in whatsoever way one thing can be less than another: in order that there may be neither a confusion of persons, nor such a distinction as that there should be any inequality. And if this cannot be grasped by the understanding, let it be held by faith, until He shall dawn in the heart who says by the prophet, \"If you will not believe, surely you shall not understand.\""
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B7C6",
+    "durationSeconds": 662
   },
   "TRIN-B8C0": {
     "book": 8,
@@ -3216,9 +3216,9 @@ window.TRINITY_TEXT = {
         "text": "We have said elsewhere that those things are predicated specially in the Trinity as belonging severally to each person, which are predicated relatively the one to the other, as Father and Son, and the gift of both, the Holy Spirit; for the Father is not the Trinity, nor the Son the Trinity, nor the gift the Trinity: but what whenever each is singly spoken of in respect to themselves, then they are not spoken of as three in the plural number, but one, the Trinity itself, as the Father God, the Son God, and the Holy Spirit God; the Father good, the Son good, and the Holy Spirit good; and the Father omnipotent, the Son omnipotent, and the Holy Spirit omnipotent: yet neither three Gods, nor three goods, nor three omnipotents, but one God, good, omnipotent, the Trinity itself; and whatsoever else is said of them not relatively in respect to each other, but individually in respect to themselves. For they are thus spoken of according to essence, since in them to be is the same as to be great, as to be good, as to be wise, and whatever else is said of each person individually therein, or of the Trinity itself, in respect to themselves. And that therefore they are called three persons, or three substances, not in order that any difference of essence may be understood, but that we may be able to answer by some one word, should any one ask what three, or what three things? And that there is so great an equality in that Trinity, that not only the Father is not greater than the Son, as regards divinity, but neither are the Father and Son together greater than the Holy Spirit; nor is each individual person, whichever it be of the three, less than the Trinity itself. This is what we have said; and if it is handled and repeated frequently, it becomes, no doubt, more familiarly known: yet some limit, too, must be put to the discussion, and we must supplicate God with most devout piety, that He will open our understanding, and take away the inclination of disputing, in order that our minds may discern the essence of the truth, that has neither bulk nor moveableness. Now, therefore, so far as the Creator Himself aids us in His marvellous mercy, let us consider these subjects, into which we will enter more deeply than we entered into those which preceded, although they are in truth the same; preserving the while this rule, that what has not yet been made clear to our intellect, be nevertheless not loosened from the firmness of our faith."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C0",
+    "durationSeconds": 143
   },
   "TRIN-B8C1": {
     "book": 8,
@@ -3230,9 +3230,9 @@ window.TRINITY_TEXT = {
         "text": "2. For we say that in this Trinity two or three persons are not anything greater than one of them; which carnal perception does not receive, for no other reason except because it perceives as it can the true things which are created, but cannot discern the truth itself by which they are created; for if it could, then the very corporeal light would in no way be more clear than this which we have said. For in respect to the substance of truth, since it alone truly is, nothing is greater, unless because it more truly is. But in respect to whatsoever is intelligible and unchangeable, no one thing is more truly than another, since all alike are unchangeably eternal; and that which therein is called great, is not great from any other source than from that by which it truly is. Wherefore, where magnitude itself is truth, whatsoever has more of magnitude must needs have more of truth; whatsoever therefore has not more of truth, has not also more of magnitude. Further, whatsoever has more of truth is certainly more true, just as that is greater which has more of magnitude; therefore in respect to the substance of truth that is more great which is more true. But the Father and the Son together are not more truly than the Father singly, or the Son singly. Both together, therefore, are not anything greater than each of them singly. And since also the Holy Spirit equally is truly, the Father and Son together are not anything greater than He, since neither are they more truly. The Father also and the Holy Spirit together, since they do not surpass the Son in truth (for they are not more truly), do not surpass Him either in magnitude. And so the Son and the Holy Spirit together are just as great as the Father alone, since they are as truly. So also the Trinity itself is as great as each several person therein. For where truth itself is magnitude, that is not more great which is not more true: since in regard to the essence of truth, to be true is the same as to be, and to be is the same as to be great; therefore to be great is the same as to be true. And in regard to it, therefore, what is equally true must needs also be equally great."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C1",
+    "durationSeconds": 128
   },
   "TRIN-B8C2": {
     "book": 8,
@@ -3244,9 +3244,9 @@ window.TRINITY_TEXT = {
         "text": "3. But in respect to bodies, it may be the case that this gold and that gold may be equally true [real], but this may be greater than that, since magnitude is not the same thing in this case as truth; and it is one thing for it to be gold, another to be great. So also in the nature of the soul; a soul is not called great in the same respect in which it is called true. For he, too, has a true [real] soul who has not a great soul; since the essence of body and soul is not the essence of the truth [reality] itself; as is the Trinity, one God, alone, great, true, truthful, the truth. Of whom if we endeavor to think, so far as He Himself permits and grants, let us not think of any touch or embrace in local space, as if of three bodies, or of any compactness of conjunction, as fables tell of three-bodied Geryon; but let whatsoever may occur to the mind, that is of such sort as to be greater in three than in each singly, and less in one than in two, be rejected without any doubt; for so everything corporeal is rejected. But also in spiritual things let nothing changeable that may have occurred to the mind be thought of God. For when we aspire from this depth to that height, it is a step towards no small knowledge, if, before we can know what God is, we can already know what He is not. For certainly He is neither earth nor heaven; nor, as it were, earth and heaven; nor any such thing as we see in the heaven; nor any such thing as we do not see, but which perhaps is in heaven. Neither if you were to magnify in the imagination of your thought the light of the sun as much as you are able, either that it may be greater, or that it may be brighter, a thousand times as much, or times without number; neither is this God. Neither as we think of the pure angels as spirits animating celestial bodies, and changing and dealing with them after the will by which they serve God; not even if all, and there are \"thousands of thousands,\" were brought together into one, and became one; neither is any such thing God. Neither if you were to think of the same spirits as without bodies — a thing indeed most difficult for carnal thought to do. Behold and see, if you can, O soul pressed down by the corruptible body, and weighed down by earthly thoughts, many and various; behold and see, if you can, that God is truth. For it is written that \"God is light;\" not in such way as these eyes see, but in such way as the heart sees, when it is said, He is truth [reality]. Ask not what is truth [reality] for immediately the darkness of corporeal images and the clouds of phantasms will put themselves in the way, and will disturb that calm which at the first twinkling shone forth to you, when I said truth [reality]. See that you remain, if you can, in that first twinkling with which you are dazzled, as it were, by a flash, when it is said to you, Truth [Reality]. But you can not; you will glide back into those usual and earthly things. And what weight, pray, is it that will cause you so to glide back, unless it be the bird-lime of the stains of appetite you have contracted, and the errors of your wandering from the right path?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C2",
+    "durationSeconds": 188
   },
   "TRIN-B8C3": {
     "book": 8,
@@ -3262,9 +3262,9 @@ window.TRINITY_TEXT = {
         "text": "5. Wherefore there would be no changeable goods, unless there were the unchangeable good. Whenever then you are told of this good thing and that good thing, which things can also in other respects be called not good, if you can put aside those things which are good by the participation of the good, and discern that good itself by the participation of which they are good (for when this or that good thing is spoken of, you understand together with them the good itself also): if, then, I say you can remove these things, and can discern the good in itself, then you will have discerned God. And if you shall cleave to Him with love, you shall be immediately blessed. But whereas other things are not loved, except because they are good, be ashamed, in cleaving to them, not to love the good itself whence they are good. That also, which is a mind, only because it is a mind, while it is not yet also good by the turning itself to the unchangeable good, but, as I said, is only a mind; whenever it so pleases us, as that we prefer it even, if we understand aright, to all corporeal light, does not please us in itself, but in that skill by which it was made. For it is thence approved as made, wherein it is seen to have been to be made. This is truth, and simple good: for it is nothing else than the good itself, and for this reason also the chief good. For no good can be diminished or increased, except that which is good from some other good. Therefore the mind turns itself, in order to be good, to that by which it comes to be a mind. Therefore the will is then in harmony with nature, so that the mind may be perfected in good, when that good is loved by the turning of the will to it, whence that other good also comes which is not lost by the turning away of the will from it. For by turning itself from the chief good, the mind loses the being a good mind; but it does not lose the being a mind. And this, too, is a good already, and one better than the body. The will, therefore, loses that which the will obtains. For the mind already was, that could wish to be turned to that from which it was: but that as yet was not, that could wish to be before it was. And herein is our [supreme] good, when we see whether the thing ought to be or to have been, respecting which we comprehend that it ought to be or to have been, and when we see that the thing could not have been unless it ought to have been, of which we also do not comprehend in what manner it ought to have been. This good then is not far from every one of us: for in it we live, and move, and have our being."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C3",
+    "durationSeconds": 323
   },
   "TRIN-B8C4": {
     "book": 8,
@@ -3280,9 +3280,9 @@ window.TRINITY_TEXT = {
         "text": "7. But it must needs be, that, when by reading or hearing of them we believe in any corporeal things which we have not seen, the mind frames for itself something under bodily features and forms, just as it may occur to our thoughts; which either is not true, or even if it be true, which can most rarely happen, yet this is of no benefit to us to believe in by faith, but it is useful for some other purpose, which is intimated by means of it. For who is there that reads or hears what the Apostle Paul has written, or what has been written of him, that does not imagine to himself the countenance both of the apostle himself, and of all those whose names are there mentioned? And whereas, among such a multitude of men to whom these books are known, each imagines in a different way those bodily features and forms, it is assuredly uncertain which it is that imagines them more nearly and more like the reality. Nor, indeed, is our faith busied therein with the bodily countenance of those men; but only that by the grace of God they so lived and so acted as that Scripture witnesses: this it is which it is both useful to believe, and which must not be despaired of, and must be sought. For even the countenance of our Lord Himself in the flesh is variously fancied by the diversity of countless imaginations, which yet was one, whatever it was. Nor in our faith which we have of our Lord Jesus Christ, is that wholesome which the mind imagines for itself, perhaps far other than the reality, but that which we think of man according to his kind: for we have a notion of human nature implanted in us, as it were by rule, according to which we know immediately, that whatever such thing we see is a man or the form of a man."
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C4",
+    "durationSeconds": 200
   },
   "TRIN-B8C5": {
     "book": 8,
@@ -3298,9 +3298,9 @@ window.TRINITY_TEXT = {
         "text": "8. Wherefore, since we desire to understand the eternity, and equality, and unity of the Trinity, as much as is permitted us, but ought to believe before we understand; and since we must watch carefully, that our faith be not feigned; since we must have the fruition of the same Trinity, that we may live blessedly; but if we have believed anything false of it, our hope would be worthless, and our charity not pure: how then can we love, by believing, that Trinity which we do not know? Is it according to the special or general notion, according to which we love the Apostle Paul? In whose case, even if he was not of that countenance which occurs to us when we think of him (and this we do not know at all), yet we know what a man is. For not to go far away, this we are; and it is manifest he, too, was this, and that his soul joined to his body lived after the manner of mortals. Therefore we believe this of him, which we find in ourselves, according to the species or genus under which all human nature alike is comprised. What then do we know, whether specially or generally, of that most excellent Trinity, as if there were many such trinities, some of which we had learned by experience, so that we may believe that Trinity, too, to have been such as they, through the rule of similitude, impressed upon us, whether a special or a general notion; and thus love also that thing which we believe and do not yet know, from the parity of the thing which we do know? But this certainly is not so. Or is it that, as we love in our Lord Jesus Christ, that He rose from the dead, although we never saw any one rise from thence, so we can believe in and love the Trinity which we do not see, and the like of which we never have seen? But we certainly know what it is to die, and what it is to live; because we both live, and from time to time have seen and experienced both dead and dying persons. And what else is it to rise again, except to live again, that is, to return to life from death? When, therefore, we say and believe that there is a Trinity, we know what a Trinity is, because we know what three are; but this is not what we love. For we can easily have this whenever we will, to pass over other things, by just holding up three fingers. Or do we indeed love, not every trinity, but the Trinity, that is God? We love then in the Trinity, that it is God: but we never saw or knew any other God, because God is One; He alone whom we have not yet seen, and whom we love by believing. But the question is, from what likeness or comparison of known things can we believe, in order that we may love God, whom we do not yet know?"
       }
     ],
-    "hasAudio": false,
-    "audioFile": null,
-    "durationSeconds": null
+    "hasAudio": true,
+    "audioFile": "TRIN-B8C5",
+    "durationSeconds": 295
   },
   "TRIN-B8C6": {
     "book": 8,
