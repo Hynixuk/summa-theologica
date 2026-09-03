@@ -67,6 +67,11 @@ window.SCG_BOOKS = [
         "hasAudio": true
       },
       {
+        "chapter": 13,
+        "title": "ARGUMENTS IN PROOF OF GOD'S EXISTENCE",
+        "hasAudio": true
+      },
+      {
         "chapter": 14,
         "title": "THAT IN ORDER TO ACQUIRE KNOWLEDGE OF GOD IT IS NECES- SARY TO PROCEED BY THE WAY OF REMOTION",
         "hasAudio": true
@@ -2504,9 +2509,19 @@ window.SCG_TEXT = {
       },
       {
         "text": "It is also evident from the fact that, although God transcends all sensibles and senses, His effects from which we take the proof that God exists, are sensible objects. Hence our knowledge, even of things which transcend the senses, originates from the senses."
-      },
+      }
+    ],
+    "hasAudio": true,
+    "audioFile": "SCG-B1C12",
+    "durationSeconds": 299
+  },
+  "B1C13": {
+    "book": 1,
+    "chapter": 13,
+    "title": "ARGUMENTS IN PROOF OF GOD'S EXISTENCE",
+    "paragraphs": [
       {
-        "text": "\" 1 mi ARGUMENTS IN PROOF OF GOD'S EXISTENCE ' v ** Having shown then that it is not futile to endeavour to prove the existence of God, we may proceed to set forth the reasons whereby both philosophers and Catholic doctors have proved that there is a God. In the first place we shall give the arguments by which Aristotle sets out to prove God's existence : and he aims at proving this from the point of view of movement, in two ways. The first way is as follows.1 Whatever is in motion is moved by another : and it is clear to the sense that something, the sun for instance, is in motion. Therefore it is set in motion by something else moving it. Now that which moves it is itself either moved or not. If it be not moved, then the point is proved that we must needs postulate an immovable mover : and this we call God. If, however, it be moved, it is moved by another mover. Either, therefore, we must proceed to infinity, or we must come to an immovable mover. But it is not possible to proceed to infinity. Therefore it is necessary to postulate an immovable mover."
+        "text": "Having shown then that it is not futile to endeavour to prove the existence of God, we may proceed to set forth the reasons whereby both philosophers and Catholic doctors have proved that there is a God. In the first place we shall give the arguments by which Aristotle sets out to prove God's existence : and he aims at proving this from the point of view of movement, in two ways. The first way is as follows.1 Whatever is in motion is moved by another : and it is clear to the sense that something, the sun for instance, is in motion. Therefore it is set in motion by something else moving it. Now that which moves it is itself either moved or not. If it be not moved, then the point is proved that we must needs postulate an immovable mover : and this we call God. If, however, it be moved, it is moved by another mover. Either, therefore, we must proceed to infinity, or we must come to an immovable mover. But it is not possible to proceed to infinity. Therefore it is necessary to postulate an immovable mover."
       },
       {
         "text": "This argument contains two propositions that need to be proved : namely that whatever is in motion is moved by another, and that it is not possible to proceed to infinity in movers and things moved."
@@ -2585,8 +2600,8 @@ window.SCG_TEXT = {
       }
     ],
     "hasAudio": true,
-    "audioFile": "SCG-B1C12",
-    "durationSeconds": 299
+    "audioFile": "SCG-B1C13",
+    "durationSeconds": 1553
   },
   "B1C14": {
     "book": 1,
