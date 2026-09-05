@@ -45,13 +45,15 @@ module.exports = async (req, res) => {
     'PART 2 (required, always last): 1 sentence starting with "Read " naming the excerpt number(s) ' +
     '(for example "Read [2]." or "Read [1, 3].") that contain the full argument — only numbers that ' +
     'appear in the excerpts below.\n\n' +
-    'If (and only if) none of the excerpts actually address the question — including any excerpt ' +
-    'marked WEAK MATCH, which was retrieved only because it shares one incidental word with the ' +
-    'question and is probably NOT actually about it — reply with a single sentence saying the corpus ' +
-    'doesn\'t seem to address this question, and give no citation.\n\n' +
+    'Some excerpts are tagged WEAK MATCH, meaning keyword retrieval was unsure about them. That tag ' +
+    'is only a hint from a crude keyword search, not a verdict: judge relevance yourself from the ' +
+    'text. If a WEAK MATCH excerpt does in fact address the question, use it and cite it normally.\n\n' +
+    'Only if none of the excerpts genuinely bear on the question at all, reply with a single sentence ' +
+    'saying the corpus doesn\'t seem to address this question, and give no citation. Prefer giving a ' +
+    'grounded answer over declining.\n\n' +
     (allLowConfidence
-      ? 'IMPORTANT: every excerpt below is a weak match for this question — retrieval only found ' +
-        'incidental word overlap, not real topical relevance. Read them critically before answering.\n\n'
+      ? 'Note: retrieval rated every excerpt below a weak match, so read them especially carefully ' +
+        'before deciding which (if any) actually answer the question.\n\n'
       : '') +
     'Reply with plain prose only — no markdown, no asterisks, no bullet points, no headings.\n\n' +
     'Excerpts:\n' + excerpts;

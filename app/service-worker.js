@@ -63,11 +63,10 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
 
   // Let the browser handle every cross-origin request itself (GitHub Releases
-  // audio, the AI search feature's model library and weights from esm.run /
-  // Hugging Face, Google Fonts, etc.) — those have their own caching (WebLLM
-  // uses the Cache API / IndexedDB directly) and forcing them through our
-  // network-first-with-no-store logic below would only double-fetch large
-  // files and risk filling our own cache with content we don't manage.
+  // audio, Google Fonts, the Supabase client, etc.) — those have their own
+  // caching, and forcing them through our network-first-with-no-store logic
+  // below would only double-fetch large files and risk filling our own cache
+  // with content we don't manage.
   if (url.origin !== self.location.origin) return;
 
   // Audio files: cache-first. Large and effectively immutable once published,
