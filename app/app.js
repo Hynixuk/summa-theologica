@@ -931,6 +931,7 @@
     article.paragraphs.forEach(function (p, pIdx) {
       var pEl = document.createElement('p');
       pEl.dataset.pidx = pIdx;
+      pEl.dataset.paragraph = 'true';
       var isAnswer = p.label && /^I answer that/i.test(p.label);
       if (isAnswer) pEl.className = 'answer';
       if (p.label) {
@@ -1034,6 +1035,7 @@
     c.paragraphs.forEach(function (p, pIdx) {
       var pEl = document.createElement('p');
       pEl.dataset.pidx = pIdx;
+      pEl.dataset.paragraph = 'true';
       pEl.textContent = p.text;
       artEl.appendChild(pEl);
     });
@@ -1130,6 +1132,7 @@
     c.paragraphs.forEach(function (p, pIdx) {
       var pEl = document.createElement('p');
       pEl.dataset.pidx = pIdx;
+      pEl.dataset.paragraph = 'true';
       pEl.textContent = p.text;
       artEl.appendChild(pEl);
     });
@@ -1240,6 +1243,7 @@
     c.paragraphs.forEach(function (p, pIdx) {
       var pEl = document.createElement('p');
       pEl.dataset.pidx = pIdx;
+      pEl.dataset.paragraph = 'true';
       pEl.textContent = p.text;
       artEl.appendChild(pEl);
     });
