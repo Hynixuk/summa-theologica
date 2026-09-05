@@ -8,7 +8,7 @@
 const https = require('https');
 
 const GROQ_API_URL_PATH = '/openai/v1/chat/completions';
-const MODEL = 'llama-3.3-70b-versatile';
+const MODEL = 'openai/gpt-oss-120b';
 
 /**
  * Call Groq API to generate an explanation
@@ -19,7 +19,7 @@ function explainWithGroq(paragraphText, paragraphLabel, apiKey) {
 ${paragraphLabel ? `[${paragraphLabel}]` : ''}
 ${paragraphText}
 
-Provide a concise 2-3 sentence explanation of what this paragraph is saying and its role in the argument. Be clear and scholarly but accessible to a student.`;
+Provide a concise 2-3 sentence explanation of what this paragraph is saying and its role in the argument. Be clear and scholarly but accessible to a student. Reply with plain prose only — no markdown, no asterisks, no bullet points, no headings.`;
 
   const requestBody = JSON.stringify({
     model: MODEL,
@@ -54,7 +54,15 @@ Provide a concise 2-3 sentence explanation of what this paragraph is saying and 
           if (!explanation) {
             reject(new Error('Empty response from Groq'));
           } else {
-            resolve(explanation.trim());
+            // Strip any markdown emphasis the model still emits, since the
+            // client renders the text as plain text.
+            var clean = explanation
+              .replace(/\*\*([^*]+)\*\*/g, '$1')
+              .replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s.,;:)]|$)/g, '$1$2')
+              .replace(/(^|[\s(])_([^_\n]+)_(?=[\s.,;:)]|$)/g, '$1$2')
+              .replace(/^#{1,6}\s+/gm, '')
+              .trim();
+            resolve(clean);
           }
         } catch (e) {
           reject(new Error(`Failed to parse Groq response: ${e.message}`));
