@@ -2497,8 +2497,57 @@
   // silently fell back to keyword search for most visitors.)
   var _aiQuerySeq = 0; // guards against a stale response landing after a newer query
   // The slice of an entry's own text sent to the model as grounding context.
+  //
+  // ST articles are laid out in scholastic order: Objections first, then "On
+  // the contrary", then "I answer that" (Aquinas's OWN position), then the
+  // replies. Naively taking the opening paragraphs therefore hands the model
+  // nothing but the views Aquinas is about to refute — which it then reports
+  // as his conclusion, exactly inverting the answer. Lead with the responsio
+  // instead, and label the parts so the model knows which is which.
+  // Returns { answer, objection } — `answer` is the author's own position
+  // (the responsio where there is one), `objection` a view he rejects, if any.
+  function entryPositionText(entry) {
+    var paras = entry.paragraphs || [];
+    var answerIdx = -1;
+    for (var i = 0; i < paras.length; i++) {
+      if (paras[i].label && /^I answer that/i.test(paras[i].label)) { answerIdx = i; break; }
+    }
+
+    // No responsio (SCG/Metaphysics chapters, and a few unlabelled entries):
+    // the text isn't objection-first, so the opening is representative.
+    if (answerIdx === -1) {
+      return {
+        answer: paras.slice(0, 4).map(function (p) { return p.text; }).join(' ').slice(0, 900),
+        objection: ''
+      };
+    }
+
+    // The responsio plus any unlabelled continuation paragraphs that follow it.
+    var answer = [paras[answerIdx].text];
+    for (var j = answerIdx + 1; j < paras.length && !paras[j].label; j++) {
+      answer.push(paras[j].text);
+    }
+
+    return {
+      answer: answer.join(' ').slice(0, 700),
+      objection: (paras[0] && paras[0].label && /^Objection/i.test(paras[0].label))
+        ? paras[0].text.slice(0, 200)
+        : ''
+    };
+  }
+
+  // Grounding context for the model — parts are labelled so it can tell the
+  // author's own conclusion from the objections he is refuting.
   function entryContextText(entry) {
-    return entry.paragraphs.slice(0, 4).map(function (p) { return p.text; }).join(' ').slice(0, 900);
+    var p = entryPositionText(entry);
+    var out = "AQUINAS'S ANSWER: " + p.answer;
+    if (p.objection) out += '\nAN OBJECTION HE REJECTS: ' + p.objection;
+    return out.slice(0, 950);
+  }
+
+  // Same source text, but unlabelled — for excerpts shown directly to readers.
+  function entryExcerptText(entry) {
+    return entryPositionText(entry).answer;
   }
 
   // Fallback used when answer generation fails: the same "brief answer, then
@@ -2514,7 +2563,7 @@
       return;
     }
     var top = sources[0];
-    var excerpt = entryContextText(top.entry).slice(0, 220).trim();
+    var excerpt = entryExcerptText(top.entry).slice(0, 220).trim();
     var lastSpace = excerpt.lastIndexOf(' ');
     if (lastSpace > 160) excerpt = excerpt.slice(0, lastSpace);
     var text = excerpt + '… Read the full passage below for the complete argument.';

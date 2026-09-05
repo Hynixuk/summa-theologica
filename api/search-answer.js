@@ -48,9 +48,21 @@ module.exports = async (req, res) => {
     'Some excerpts are tagged WEAK MATCH, meaning keyword retrieval was unsure about them. That tag ' +
     'is only a hint from a crude keyword search, not a verdict: judge relevance yourself from the ' +
     'text. If a WEAK MATCH excerpt does in fact address the question, use it and cite it normally.\n\n' +
-    'Only if none of the excerpts genuinely bear on the question at all, reply with a single sentence ' +
-    'saying the corpus doesn\'t seem to address this question, and give no citation. Prefer giving a ' +
-    'grounded answer over declining.\n\n' +
+    'These texts are written in scholastic form, where a passage often states objections — views the ' +
+    'author is about to REFUTE — before giving his own position. Where an excerpt marks a part as ' +
+    'AQUINAS\'S ANSWER, that is his actual conclusion; anything marked as an objection he rejects is ' +
+    'the opposite of what he holds, so never report it as his view. An article\'s title is a question ' +
+    '("Whether the soul is a body?"), not an assertion — do not read the title as the answer.\n\n' +
+    'Accuracy matters far more than giving an answer. An excerpt counts as relevant only if it ' +
+    'addresses the actual subject of the question — not merely a similar-sounding one. For example, ' +
+    'a passage about whether the BODY was immortal before the Fall does NOT answer a question about ' +
+    'whether the SOUL is immortal; treat that as unrelated. Never stretch an excerpt to cover a ' +
+    'question it does not really address, and never state a conclusion the excerpts do not support.\n\n' +
+    'If the excerpts settle only part of the question, answer that part and say plainly which part ' +
+    'is covered. If none of them genuinely bear on the question, reply with a SINGLE sentence saying ' +
+    'the corpus doesn\'t seem to address this question. In that one case PART 2 is omitted entirely — ' +
+    'write no "Read" sentence and no bracketed numbers at all. Never write the word "Read" without ' +
+    'at least one excerpt number after it.\n\n' +
     (allLowConfidence
       ? 'Note: retrieval rated every excerpt below a weak match, so read them especially carefully ' +
         'before deciding which (if any) actually answer the question.\n\n'
