@@ -2496,6 +2496,11 @@
   // a several-hundred-MB model download and a WebGPU-capable device, so it
   // silently fell back to keyword search for most visitors.)
   var _aiQuerySeq = 0; // guards against a stale response landing after a newer query
+  // The slice of an entry's own text sent to the model as grounding context.
+  function entryContextText(entry) {
+    return entry.paragraphs.slice(0, 4).map(function (p) { return p.text; }).join(' ').slice(0, 900);
+  }
+
   // Fallback used when answer generation fails: the same "brief answer, then
   // push to the source" shape as the real AI answer, but built by extraction
   // (the top matching passage's own opening) instead of generation, so the
@@ -2504,7 +2509,7 @@
     if (!sources.length) {
       aiAnswerEl.innerHTML =
         '<div class="ai-answer-label">AI answer</div>' +
-        '<div class="ai-answer-error">This device can’t run the on-device AI model, and no closely ' +
+        '<div class="ai-answer-error">The AI answer couldn’t be generated just now, and no closely ' +
         'matching passage was found either. Try rephrasing, or turn AI off to browse keyword results.</div>';
       return;
     }
@@ -2522,7 +2527,7 @@
         'rephrasing your question.</div>'
       : '';
     var html =
-      '<div class="ai-answer-label">Closest passage — on-device AI isn’t available on this device</div>' +
+      '<div class="ai-answer-label">Closest passage — the AI answer couldn’t be generated</div>' +
       warning +
       '<div class="ai-answer-text">' + escapeHtml(text) + '</div>' +
       '<div class="ai-answer-sources">' + sources.map(function (r, i) {
