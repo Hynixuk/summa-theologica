@@ -1,210 +1,204 @@
 /**
  * explain-feature.js
- * Adds "Explain" buttons to paragraphs and calls the backend API for explanations
+ * Adds an "Explain" control at the end of each paragraph and calls the
+ * backend API (Groq, via api/explain.js) for an on-demand explanation.
  */
 
 (function () {
-  // Cache explanations to avoid re-requesting the same paragraph
-  const explanationCache = {};
+  var explanationCache = {};
+  var stylesInjected = false;
 
-  /**
-   * Fetch explanation from backend API
-   */
-  async function fetchExplanation(paragraphText, paragraphLabel) {
-    const cacheKey = `${paragraphLabel}:${paragraphText.slice(0, 100)}`;
-    if (explanationCache[cacheKey]) {
-      return explanationCache[cacheKey];
-    }
-
-    try {
-      const response = await fetch('/api/explain', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          paragraph: paragraphText,
-          label: paragraphLabel,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error(`API error: ${response.statusCode}`);
-      }
-
-      const data = await response.json();
-      const explanation = data.explanation;
-      explanationCache[cacheKey] = explanation;
-      return explanation;
-    } catch (error) {
-      console.error('Failed to fetch explanation:', error);
-      throw error;
-    }
+  function injectStyles() {
+    if (stylesInjected) return;
+    stylesInjected = true;
+    var style = document.createElement('style');
+    style.textContent = [
+      '.explain-btn {',
+      '  display: inline-flex;',
+      '  align-items: center;',
+      '  gap: 0.3em;',
+      '  margin-left: 0.5em;',
+      '  padding: 0.15em 0.6em;',
+      '  font-size: 0.78em;',
+      '  font-family: inherit;',
+      '  color: var(--accent);',
+      '  background: var(--accent-soft);',
+      '  border: 1px solid var(--accent);',
+      '  border-radius: 999px;',
+      '  cursor: pointer;',
+      '  vertical-align: middle;',
+      '  line-height: 1.6;',
+      '  transition: background 0.15s, opacity 0.15s;',
+      '}',
+      '.explain-btn:hover { background: var(--accent); color: var(--on-accent); }',
+      '.explain-btn.active { background: var(--accent); color: var(--on-accent); }',
+      '.explain-btn.loading { opacity: 0.6; cursor: default; }',
+      '.explain-btn.error { background: var(--danger-soft); border-color: var(--danger); color: var(--danger); }',
+      '.explanation-box {',
+      '  margin: 0.6em 0 1em;',
+      '  padding: 0.75em 0.9em;',
+      '  background: var(--accent-soft);',
+      '  border-left: 3px solid var(--accent);',
+      '  border-radius: 4px;',
+      '  font-size: 0.92em;',
+      '  line-height: 1.55;',
+      '  color: var(--ink);',
+      '  position: relative;',
+      '}',
+      '.explanation-box .explanation-label {',
+      '  display: block;',
+      '  font-size: 0.78em;',
+      '  font-weight: 600;',
+      '  letter-spacing: 0.04em;',
+      '  text-transform: uppercase;',
+      '  color: var(--accent);',
+      '  margin-bottom: 0.35em;',
+      '}',
+      '.explanation-box p { margin: 0; color: inherit; }',
+      '.explanation-close {',
+      '  position: absolute;',
+      '  top: 0.4em;',
+      '  right: 0.5em;',
+      '  background: none;',
+      '  border: none;',
+      '  color: var(--ink-soft);',
+      '  font-size: 1.1em;',
+      '  line-height: 1;',
+      '  cursor: pointer;',
+      '  padding: 0.2em;',
+      '}',
+      '.explanation-close:hover { color: var(--ink); }',
+    ].join('\n');
+    document.head.appendChild(style);
   }
 
-  /**
-   * Show explanation in a modal or inline box
-   */
-  function showExplanation(explanation, button) {
-    // Remove existing explanation if any
-    const existing = button.parentElement.querySelector('.explanation-box');
+  function escapeHtml(text) {
+    var map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+    return text.replace(/[&<>"']/g, function (m) { return map[m]; });
+  }
+
+  function fetchExplanation(paragraphText, paragraphLabel) {
+    var cacheKey = paragraphLabel + ':' + paragraphText.slice(0, 150);
+    if (explanationCache[cacheKey]) {
+      return Promise.resolve(explanationCache[cacheKey]);
+    }
+    return fetch('/api/explain', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ paragraph: paragraphText, label: paragraphLabel }),
+    }).then(function (response) {
+      if (!response.ok) {
+        return response.json().catch(function () { return {}; }).then(function (data) {
+          throw new Error((data && data.error) || ('Request failed: ' + response.status));
+        });
+      }
+      return response.json();
+    }).then(function (data) {
+      explanationCache[cacheKey] = data.explanation;
+      return data.explanation;
+    });
+  }
+
+  function toggleExplanation(button, explanation) {
+    var existing = button.parentElement.querySelector('.explanation-box');
     if (existing) {
       existing.remove();
-      return; // Toggle off
-    }
-
-    // Create explanation box
-    const box = document.createElement('div');
-    box.className = 'explanation-box';
-    box.innerHTML = `
-      <div class="explanation-content">
-        <button class="explanation-close" aria-label="Close">×</button>
-        <p>${escapeHtml(explanation)}</p>
-      </div>
-    `;
-
-    // Style
-    box.style.cssText = `
-      margin: 0.5em 0;
-      padding: 0.75em;
-      background: #f5f5f5;
-      border-left: 3px solid #8b7355;
-      border-radius: 2px;
-      font-size: 0.95em;
-      line-height: 1.5;
-    `;
-
-    // Close button
-    box.querySelector('.explanation-close').addEventListener('click', () => {
-      box.remove();
-      button.textContent = 'Explain';
       button.classList.remove('active');
+      button.textContent = 'Explain';
+      return;
+    }
+    var box = document.createElement('div');
+    box.className = 'explanation-box';
+    var closeBtn = document.createElement('button');
+    closeBtn.className = 'explanation-close';
+    closeBtn.setAttribute('aria-label', 'Close explanation');
+    closeBtn.textContent = '×';
+    closeBtn.addEventListener('click', function () {
+      box.remove();
+      button.classList.remove('active');
+      button.textContent = 'Explain';
     });
-
-    // Insert after the paragraph
+    var labelEl = document.createElement('span');
+    labelEl.className = 'explanation-label';
+    labelEl.textContent = 'AI Explanation';
+    var p = document.createElement('p');
+    p.textContent = explanation;
+    box.appendChild(closeBtn);
+    box.appendChild(labelEl);
+    box.appendChild(p);
     button.parentElement.insertAdjacentElement('afterend', box);
-    button.textContent = 'Hide explanation';
     button.classList.add('active');
+    button.textContent = 'Hide';
   }
 
-  /**
-   * Add explain button to a paragraph element
-   */
   function addExplainButton(paragraphEl) {
-    if (paragraphEl.querySelector('.explain-btn')) {
-      return; // Already has a button
-    }
+    if (paragraphEl.querySelector('.explain-btn') || paragraphEl.dataset.explainInit) return;
 
-    const label = paragraphEl.querySelector('.label')?.textContent || '';
-    const text = paragraphEl.textContent.trim();
+    var labelSpan = paragraphEl.querySelector('.label');
+    var label = labelSpan ? labelSpan.textContent : '';
+    var text = paragraphEl.textContent.trim();
+    if (!text || text.length < 20) return;
 
-    if (!text || text.length < 20) {
-      return; // Too short to explain
-    }
+    paragraphEl.dataset.explainInit = 'true';
 
-    const button = document.createElement('button');
+    var button = document.createElement('button');
+    button.type = 'button';
     button.className = 'explain-btn';
     button.textContent = 'Explain';
     button.title = 'Get an AI explanation of this paragraph';
 
-    button.style.cssText = `
-      margin-left: 0.5em;
-      padding: 0.25em 0.5em;
-      font-size: 0.85em;
-      background: #e8d4c4;
-      border: 1px solid #8b7355;
-      border-radius: 2px;
-      cursor: pointer;
-      transition: background 0.2s;
-    `;
-
-    button.addEventListener('mouseover', () => {
-      if (!button.classList.contains('active')) {
-        button.style.background = '#dcc4b4';
-      }
-    });
-
-    button.addEventListener('mouseout', () => {
-      if (!button.classList.contains('active')) {
-        button.style.background = '#e8d4c4';
-      }
-    });
-
-    button.addEventListener('click', async () => {
+    button.addEventListener('click', function () {
       if (button.classList.contains('loading')) return;
 
       if (button.classList.contains('active')) {
-        showExplanation('', button); // Toggle off
+        toggleExplanation(button, null);
         return;
       }
 
       button.classList.add('loading');
-      button.textContent = 'Generating...';
+      button.classList.remove('error');
+      var originalText = button.textContent;
+      button.textContent = 'Generating…';
 
-      try {
-        const explanation = await fetchExplanation(text, label);
-        showExplanation(explanation, button);
-      } catch (error) {
-        button.textContent = 'Error';
-        button.style.background = '#ffcccc';
-        setTimeout(() => {
+      fetchExplanation(text, label).then(function (explanation) {
+        button.classList.remove('loading');
+        button.textContent = originalText;
+        toggleExplanation(button, explanation);
+      }).catch(function (err) {
+        console.error('Failed to fetch explanation:', err);
+        button.classList.remove('loading');
+        button.classList.add('error');
+        button.textContent = 'Error – retry';
+        setTimeout(function () {
+          button.classList.remove('error');
           button.textContent = 'Explain';
-          button.classList.remove('loading');
-          button.style.background = '#e8d4c4';
-        }, 2000);
-      }
-
-      button.classList.remove('loading');
+        }, 2500);
+      });
     });
 
-    // Insert button after label/paragraph
-    const labelEl = paragraphEl.querySelector('.label');
-    if (labelEl) {
-      labelEl.appendChild(button);
-    } else {
-      paragraphEl.insertBefore(button, paragraphEl.firstChild);
-    }
+    // Place the button at the END of the paragraph, not next to the label.
+    paragraphEl.appendChild(document.createTextNode(' '));
+    paragraphEl.appendChild(button);
   }
 
-  /**
-   * Initialize explain buttons for visible paragraphs
-   */
   function initializeExplainButtons() {
-    const paragraphs = document.querySelectorAll('[data-paragraph]');
-    paragraphs.forEach(addExplainButton);
+    injectStyles();
+    var paragraphs = document.querySelectorAll('[data-paragraph]');
+    for (var i = 0; i < paragraphs.length; i++) addExplainButton(paragraphs[i]);
   }
 
-  /**
-   * Escape HTML to prevent XSS
-   */
-  function escapeHtml(text) {
-    const map = {
-      '&': '&amp;',
-      '<': '&lt;',
-      '>': '&gt;',
-      '"': '&quot;',
-      "'": '&#039;',
-    };
-    return text.replace(/[&<>"']/g, (m) => map[m]);
-  }
-
-  // Initialize when DOM is ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initializeExplainButtons);
   } else {
     initializeExplainButtons();
   }
 
-  // Re-initialize if new content is added (e.g., after navigation)
-  const observer = new MutationObserver(() => {
-    initializeExplainButtons();
+  var debounceTimer = null;
+  var observer = new MutationObserver(function () {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(initializeExplainButtons, 150);
   });
+  observer.observe(document.body, { childList: true, subtree: true });
 
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true,
-  });
-
-  // Expose for manual refresh if needed
   window.reinitializeExplainButtons = initializeExplainButtons;
 })();
