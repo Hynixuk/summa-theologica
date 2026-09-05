@@ -14,18 +14,29 @@ const MODEL = 'openai/gpt-oss-120b';
  * Call Groq API to generate an explanation
  */
 function explainWithGroq(paragraphText, paragraphLabel, apiKey) {
-  const prompt = `You are a medieval scholastic theology expert. A student asks you to briefly explain this paragraph from Aquinas's Summa Theologiae or a related scholastic text:
+  const prompt = `Explain this paragraph from a medieval philosophy text (Aquinas or similar) to someone with no background in philosophy or theology.
 
 ${paragraphLabel ? `[${paragraphLabel}]` : ''}
 ${paragraphText}
 
-Provide a concise 2-3 sentence explanation of what this paragraph is saying and its role in the argument. Be clear and scholarly but accessible to a student. Reply with plain prose only — no markdown, no asterisks, no bullet points, no headings.`;
+Rules for your explanation:
+- Write 2 to 3 short sentences. Keep it under 60 words.
+- Use plain, everyday English, like you are explaining it to a smart teenager.
+- Do not use technical or philosophical jargon. Avoid words like predicated, mode, species, substance, essence, efficient cause, contingent, and privation. If such an idea is unavoidable, explain it in ordinary words instead of naming it.
+- Say plainly what the paragraph is claiming and why it matters to the argument.
+- Start directly with the explanation. Do not begin with phrases like "This paragraph" or "The objection states".
+- Plain prose only. No markdown, no asterisks, no bullet points, no headings.`;
 
+  // gpt-oss is a reasoning model: it spends completion tokens on internal
+  // reasoning before emitting any content. With a low cap it burns the whole
+  // budget thinking and returns an EMPTY message. Keep reasoning effort low
+  // and leave generous headroom so the actual answer always fits.
   const requestBody = JSON.stringify({
     model: MODEL,
     messages: [{ role: 'user', content: prompt }],
     temperature: 0.3,
-    max_tokens: 300,
+    max_tokens: 1200,
+    reasoning_effort: 'low',
   });
 
   return new Promise((resolve, reject) => {
@@ -50,9 +61,13 @@ Provide a concise 2-3 sentence explanation of what this paragraph is saying and 
         }
         try {
           const result = JSON.parse(data);
-          const explanation = result.choices && result.choices[0] && result.choices[0].message && result.choices[0].message.content;
+          const choice = result.choices && result.choices[0];
+          const explanation = choice && choice.message && choice.message.content;
           if (!explanation) {
-            reject(new Error('Empty response from Groq'));
+            var why = choice && choice.finish_reason === 'length'
+              ? 'the model ran out of tokens before answering'
+              : 'the model returned no text';
+            reject(new Error('No explanation produced (' + why + ').'));
           } else {
             // Strip any markdown emphasis the model still emits, since the
             // client renders the text as plain text.
