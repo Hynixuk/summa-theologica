@@ -43,10 +43,15 @@ module.exports = async (req, res) => {
     'rather than just naming it.\n\n' +
     'Every reply has exactly two parts, in this order, with nothing before or between them:\n' +
     'PART 1 (required, never omit): 2 to 3 sentences that directly answer the question in plain ' +
-    'language, giving the real content of the answer, in your own words, about THIS question only.\n' +
+    'language, giving the real content of the answer, in your own words, about THIS question only. ' +
+    'When more than one excerpt genuinely bears on it, draw on all of them rather than just the first ' +
+    'one you notice — the excerpts may come from different works and still both be worth using.\n' +
     'PART 2 (required, always last): 1 sentence starting with "Read " naming the excerpt number(s) ' +
     '(for example "Read [2]." or "Read [1, 3].") that contain the full argument — only numbers that ' +
-    'appear in the excerpts below.\n\n' +
+    'appear in the excerpts below. Cite EVERY excerpt that genuinely addresses the question, not just ' +
+    'the single best one — if two or three different excerpts (even from different works) each bear ' +
+    'directly on it, list all of their numbers. Only leave one out if it does not actually address the ' +
+    'question, or if it says nothing beyond what an already-cited excerpt covers.\n\n' +
     'Some excerpts are tagged WEAK MATCH, meaning keyword retrieval was unsure about them. That tag ' +
     'is only a hint from a crude keyword search, not a verdict: judge relevance yourself from the ' +
     'text. If a WEAK MATCH excerpt does in fact address the question, use it and cite it normally.\n\n' +
