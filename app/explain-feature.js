@@ -99,24 +99,32 @@
     });
   }
 
+  // The box is inserted AFTER the paragraph (as a sibling), so it can't be
+  // found by searching inside the paragraph — keep a direct reference on the
+  // button instead. (Searching inside is what broke "Hide": it never found
+  // the box and appended a second, empty one.)
+  function hideExplanation(button) {
+    if (button._explanationBox) button._explanationBox.remove();
+    button._explanationBox = null;
+    button.classList.remove('active');
+    button.textContent = 'Explain';
+    button.setAttribute('aria-expanded', 'false');
+  }
+
   function toggleExplanation(button, explanation) {
-    var existing = button.parentElement.querySelector('.explanation-box');
-    if (existing) {
-      existing.remove();
-      button.classList.remove('active');
-      button.textContent = 'Explain';
+    if (button._explanationBox) {
+      hideExplanation(button);
       return;
     }
     var box = document.createElement('div');
     box.className = 'explanation-box';
     var closeBtn = document.createElement('button');
+    closeBtn.type = 'button';
     closeBtn.className = 'explanation-close';
-    closeBtn.setAttribute('aria-label', 'Close explanation');
+    closeBtn.setAttribute('aria-label', 'Hide explanation');
     closeBtn.textContent = '×';
     closeBtn.addEventListener('click', function () {
-      box.remove();
-      button.classList.remove('active');
-      button.textContent = 'Explain';
+      hideExplanation(button);
     });
     var labelEl = document.createElement('span');
     labelEl.className = 'explanation-label';
@@ -127,8 +135,10 @@
     box.appendChild(labelEl);
     box.appendChild(p);
     button.parentElement.insertAdjacentElement('afterend', box);
+    button._explanationBox = box;
     button.classList.add('active');
     button.textContent = 'Hide';
+    button.setAttribute('aria-expanded', 'true');
   }
 
   function addExplainButton(paragraphEl) {
