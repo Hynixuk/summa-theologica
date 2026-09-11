@@ -948,12 +948,20 @@
 
     questionView.appendChild(artEl);
 
-    // Quiz appears once the reader reaches the last article of the question —
-    // i.e. at the "end of the chapter" for the Summa's Question/Article structure.
+    // Each article has its own short quiz (window.ST_ARTICLE_QUIZZES, built by
+    // scripts/generate-st-article-quizzes.cjs). Articles not generated yet
+    // simply have none — the Question-level quiz below still covers them.
+    var articleQuizKey = questionKey(part, qnum) + ':A' + article.number;
+    var articleQuizEl = renderQuiz((window.ST_ARTICLE_QUIZZES || {})[articleQuizKey], 'ST-' + articleQuizKey);
+    if (articleQuizEl) questionView.appendChild(articleQuizEl);
+
+    // The Question-level quiz appears once the reader reaches the last article
+    // of the question — the "end of the chapter" for the Summa's structure.
     var isLastArticle = artIdx === q.articles.length - 1;
     if (isLastArticle) {
       var quizQuestions = quizData.st[questionKey(part, qnum)];
-      var quizEl = renderQuiz(quizQuestions, 'ST-' + questionKey(part, qnum));
+      var quizEl = renderQuiz(quizQuestions, 'ST-' + questionKey(part, qnum),
+        articleQuizEl ? 'Review the whole question' : null);
       if (quizEl) questionView.appendChild(quizEl);
     }
   }
@@ -1445,7 +1453,7 @@
     queueSyncPush();
   }
 
-  function renderQuiz(questions, storageKey) {
+  function renderQuiz(questions, storageKey, headingText) {
     if (!questions || !questions.length) return null;
 
     var wrap = document.createElement('div');
@@ -1453,7 +1461,7 @@
 
     var heading = document.createElement('h3');
     heading.className = 'quiz-heading';
-    heading.textContent = 'Check your understanding';
+    heading.textContent = headingText || 'Check your understanding';
     wrap.appendChild(heading);
 
     var best = getQuizBestScore(storageKey);
@@ -2454,10 +2462,41 @@
       var analysis = analyzeEntry(entry, tokens, normalized);
       if (!analysis) continue;
       scored.push({ entry: entry, score: analysis.score, match: analysis.match, sharedTokenCount: analysis.sharedTokenCount });
-      if (scored.length >= MAX_SCAN_MATCHES) break;
+      // No MAX_SCAN_MATCHES cap here (unlike runSearch above): this only runs
+      // once per AI query (Enter), not per keystroke, so the budget is
+      // different — and searchIndex is built ST-then-SCG-then-Metaphysics-
+      // then-Trinity, so any early cutoff under a lenient "matches ANY token"
+      // test stops inside ST for most real queries and never even looks at
+      // the other three works. Confirmed: "soul" alone satisfied a 400-match
+      // cap by ST article #1043 of 2669, before scanning a single SCG,
+      // Metaphysics, or Trinity entry. Scoring the full ~3,500-entry index
+      // once is a few ms — cheap enough for an Enter-triggered search.
     }
     scored.sort(function (a, b) { return b.score - a.score; });
-    return scored.slice(0, maxResults || 5).map(function (s) {
+
+    // Reserve a slot for each of the other three works before filling the
+    // rest by pure score. ST is ~4x the combined size of SCG+Metaphysics+
+    // Trinity, so on a plain top-N a topically-relevant SCG/Metaphysics/
+    // Trinity passage routinely loses a score tiebreak to sheer ST volume —
+    // the AI answer then cites only ST even on questions the whole library
+    // addresses. One guaranteed slot per other work still lets ST take the
+    // rest, so a genuinely ST-only query is unaffected.
+    var limit = maxResults || 5;
+    var picked = [];
+    var usedIdx = {};
+    ['SCG', 'META', 'TRIN'].forEach(function (work) {
+      for (var i = 0; i < scored.length; i++) {
+        if (usedIdx[i]) continue;
+        if (scored[i].entry.work === work) { picked.push(scored[i]); usedIdx[i] = true; break; }
+      }
+    });
+    for (var i = 0; i < scored.length && picked.length < limit; i++) {
+      if (!usedIdx[i]) { picked.push(scored[i]); usedIdx[i] = true; }
+    }
+    picked.sort(function (a, b) { return b.score - a.score; });
+    picked = picked.slice(0, limit);
+
+    return picked.map(function (s) {
       // Low confidence: the query had more than one significant (non-stopword)
       // word, but this entry only actually shares one of them — the rest of
       // the match's score, if any, comes from where that single word landed
